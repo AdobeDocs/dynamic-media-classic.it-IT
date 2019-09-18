@@ -1,28 +1,28 @@
 ---
-title: '" Avvio rapido: Ecatalog "'
-seo-title: '" Avvio rapido: Ecatalog "'
+title: '"Avvio rapido: eCatalog"'
+seo-title: '"Avvio rapido: eCatalog"'
 description: 'null'
-seo-description: Introduzione e avvio rapido agli ecatalog per imparare a usare le tecniche ecatalog.
-uuid: 1 ec 41927-3 df 6-4845-8 d 9 d-bb 92 cf 6 dca 08
+seo-description: Introduzione e avvio rapido agli eCatalog per consentirvi di imparare a usare le tecniche eCatalog in modo rapido.
+uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/ecatalogs
-discoiquuid: 781 dacd 0-ef 0 c -42 b 7-92 e 0-12791994874 d
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/ecatalogs
+discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
 
 ---
 
 
-# Avvio rapido: Ecatalog{#quick-start-ecatalogs}
+# Avvio rapido: eCatalog{#quick-start-ecatalogs}
 
-Un eCatalog è la versione digitale per il Web di un materiale originariamente destinato alla stampa, come ad esempio un catalogo, una brochure, un volantino, un manuale di un prodotto o un annuncio pubblicitario. Un eCatalog può essere visualizzato in un sito Web mediante un visualizzatore per eCatalog. Tale visualizzatore simula l’esperienza della lettura di una copia stampata. A seconda delle impostazioni scelte per l'ecatalog, il visualizzatore può effettuare le seguenti operazioni:
+Un eCatalog è la versione digitale per il Web di un materiale originariamente destinato alla stampa, come ad esempio un catalogo, una brochure, un volantino, un manuale di un prodotto o un annuncio pubblicitario. Un eCatalog può essere visualizzato in un sito Web mediante un visualizzatore per eCatalog. Tale visualizzatore simula l’esperienza della lettura di una copia stampata. A seconda delle impostazioni selezionate per l’eCatalog, il visualizzatore può effettuare le seguenti operazioni:
 
-* Cercate una parola chiave o parole chiave nel catalogo. I risultati della ricerca vengono visualizzati come miniature in un pannello di ricerca sul lato sinistro del catalogo. Ogni miniatura selezionabile rappresenta un set di pagine affiancate in cui è stato trovato il termine di ricerca evidenziato.
+* Cercate una parola chiave o parole chiave nel catalogo. I risultati della ricerca vengono visualizzati come elenco di miniature in un pannello di ricerca sul lato sinistro del catalogo. Ogni miniatura selezionabile rappresenta un set di pagine affiancate di catalogo in cui è stato trovato il termine di ricerca evidenziato.
 
-* Condividete il catalogo tramite social media; scaricare il catalogo da visualizzare offline; abilitare i Preferiti a contrassegnare gli elementi per i quali desiderate tornare rapidamente oppure stampare il catalogo.
-* Navigare nel catalogo utilizzando il sommario o la visualizzazione griglia della pagina; pagina avanti o indietro facendo clic sul bordo centrale di una pagina.
+* condividere il catalogo tramite social media; scaricare il catalogo per visualizzare offline; abilitare i preferiti per contrassegnare rapidamente gli elementi a cui si desidera tornare oppure per stampare il catalogo.
+* Spostarsi nel catalogo utilizzando il sommario o la visualizzazione griglia delle pagine; in avanti o indietro facendo clic sul bordo centrale di una pagina.
 * Ingrandire, ridurre e scorrere per esaminare i vari elementi presenti in una pagina
 * Passare il puntatore su un’area della pagina (chiamata Mappa immagine) per ottenere una finestra a comparsa con informazioni su un particolare elemento
 * Fare clic su un’area della pagina per aprire una nuova pagina Web con altre informazioni su un particolare elemento
@@ -31,11 +31,17 @@ Un eCatalog è la versione digitale per il Web di un materiale originariamente d
 * Usare gesti quali avvicinare le dita per ingrandire o passare il dito per voltare pagina
 * Effettuare ricerche di elementi mediante parole chiave
 
-![eCatalog visualizzato dagli utenti finali. A) Pagina di apertura ecatalog. B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
+![eCatalog visualizzato dagli utenti finali. A) Pagina di apertura dell’eCatalog. B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
 
 Per creare un eCatalog, di solito vengono utilizzati file PDF ad alta risoluzione creati con Adobe® Acrobat® o con un altro programma per la stampa. Tuttavia potete anche creare un eCatalog da file di immagini.
 
 Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle come desiderate. Potete anche scegliere se visualizzare pagine singole o affiancare due o più pagine. Potete creare delle mappe immagine per specifiche aree di una pagina in modo che gli utenti possano, ad esempio, fare clic su un’area della pagina per aprire una nuova pagina nel sito Web. Potete gestire il testo di rollover visualizzato utilizzando le impostazioni del pannello Info nella schermata eCatalog. Potete inoltre configurare il visualizzatore per eCatalog scegliendo tra 100 diverse opzioni di configurazione. Potete adattare le funzioni e l’aspetto del visualizzatore in base alle esigenze di utenti specifici.
+
+>[!NOTE]
+>
+>Se siete utenti in modalità AEM Dynamic Media - Scene7 e desiderate usare gli eCatalog, dovrete modificare il `pdfbrochure` valore in CRXDE Lite. A tale scopo, in AEM fate clic su Strumenti **[UICONTROL &gt; Generale &gt; CRXDE Lite]**. Nella struttura di navigazione del pannello a sinistra, andate a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+Nel riquadro inferiore destro, nella scheda **Proprietà** , selezionare la `jobParam` riga. Impostate il valore per `pdfbrochure` da `false` a `true`. Come nell’ `pdfbrochure=true`angolo superiore sinistro della pagina CRXDE Lite, fare clic su **Salva tutto**.
+Ora potrete creare eCatalog in SPS.
 
 **Avvio rapido**
 
@@ -45,7 +51,7 @@ Questa sezione è stata progettata per aiutarvi a imparare a usare rapidamente g
 
 I file Adobe PDF sono di solito usati come file sorgente per un eCatalog. Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Scene7 Publishing System rileva tali immagini e le converte mediante un profilo colore CMYK standard. Se necessario, potete caricare e usare un profilo colore personalizzato.
 
-Fate clic su Carica nella barra di navigazione globale per avviare il caricamento di file PDF o immagini per l'ecatalog. Potete caricare i file dal desktop o via FTP; l’FTP è il metodo consigliato nel caso di molti file o file più grandi di 100 MB.
+Fate clic su Carica nella barra di navigazione globale per avviare il caricamento di file PDF o immagini per l’eCatalog. Potete caricare i file dal desktop o via FTP; l’FTP è il metodo consigliato nel caso di molti file o file più grandi di 100 MB.
 
 Le Opzioni PDF nella schermata Carica riguardano il caricamento dei file PDF nella risoluzione e nello spazio colore corretti. Si consiglia di usare una risoluzione di 150 pixel per pollice. Con l’opzione Genera automaticamente eCatalog potete creare un eCatalog durante il caricamento di un file PDF. 
 
@@ -81,9 +87,9 @@ Consultate [Gestione del contenuto del pannello Informazioni](info-panel-content
 
 **4. Impostazione dei predefiniti per il visualizzatore di eCatalog**
 
-Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog e personalizzarlo modificandone il colore di contorno e selezionando una nuova interfaccia. Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatore di ecatalog «best practice». Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
+Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog e personalizzarlo modificandone il colore di contorno e selezionando una nuova interfaccia. Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori di eCatalog "best practice". Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
 
-Per creare un predefinito per visualizzatori eCatalog, fate clic sul pulsante Configurazione nella barra di navigazione globale. Fate clic su Aggiungi, scegliete una piattaforma, quindi selezionate eCatalog &gt; Visualizzatore. 
+Per creare un predefinito per visualizzatori eCatalog, fate clic sul pulsante Configurazione nella barra di navigazione globale. Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
 
 Consultate [Impostazione dei predefiniti per il visualizzatore di eCatalog](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -97,17 +103,17 @@ Notate l’orientamento, lo schema colori, l’aspetto dei controlli per passare
 
 Consultate [Anteprima di eCatalog nel visualizzatore di eCatalog](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-**6. Pubblicazione di ecatalog e PDF associati**
+**6. Pubblicazione di eCatalog e PDF associati**
 
-Quando pubblicate l'ecatalog e il PDF associato, questo viene inserito sui server immagini Dynamic Media in modo che possa essere trasmesso al sito Web e all'applicazione. Durante il processo di pubblicazione, Scene7 Publishing System attiva la stringa URL necessaria per accedere all’eCatalog. Usate questo URL per richiamare l'ecatalog dai server immagini Dynamic Media al sito Web o all'applicazione.
+Quando un eCatalog viene pubblicato e i PDF associati, viene inserito sui server immagini per file multimediali dinamici in modo che possa essere trasmesso al sito Web o all’applicazione in cui deve essere visualizzato. Durante il processo di pubblicazione, Scene7 Publishing System attiva la stringa URL necessaria per accedere all’eCatalog. Utilizzate questo URL per richiamare l’eCatalog dai server immagini per file multimediali dinamici al sito Web o all’applicazione.
 
-Dopo aver contrassegnato l'ecatalog e il PDF per la pubblicazione nel pannello Sfoglia, fate clic sul pulsante Pubblica nella barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica, fate clic su Avvia pubblicazione.
+Per avviare la pubblicazione, contrassegnate l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, quindi fate clic sul pulsante Pubblica nella barra di navigazione globale. Nella schermata Pubblica, fate clic su Avvia pubblicazione.
 
-Consultate [Pubblicazione di ecatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Consultate [Pubblicazione di eCatalog e PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)associati.
 
 **7. Collegamento di un eCatalog a una pagina Web**
 
-Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l'ecatalog quando la pubblicate su server di immagini multimediali dinamici. Potete copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in visualizzazione Dettagli) selezionando l’opzione URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
+Dynamic Media Classic attiva la stringa di richiesta dell’URL necessaria per visualizzare l’eCatalog quando questo viene pubblicato sui server immagini per elementi multimediali dinamici. Potete copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in visualizzazione Dettagli) selezionando l’opzione URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
 
 Consultate il personale IT per inserire il collegamento all’eCatalog nella posizione appropriata sulla pagina Web. Quando un utente farà clic sul collegamento, verrà aperto il visualizzatore di eCatalog che consente all’utente di sfogliare l’eCatalog. 
 
