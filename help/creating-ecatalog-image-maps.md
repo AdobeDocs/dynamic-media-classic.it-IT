@@ -2,15 +2,15 @@
 title: Creazione di mappe immagine per un eCatalog
 seo-title: Creazione di mappe immagine per un eCatalog
 description: 'null'
-seo-description: Scoprite come creare mappe immagine ecatalog.
-uuid: 943 ad 3 f 7-a 885-4 bc 2-88 cb -77083384 bdf 8
+seo-description: Scoprite come creare mappe immagine per eCatalog.
+uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/ecatalogs
-discoiquuid: 4 cf 63359-63 b 5-4 da 7-9498-335 d 91 b 4776 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/ecatalogs
+discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -28,11 +28,10 @@ Per gli eCatalog, potete disegnare le mappe immagine nella scheda Mappe pagine d
 1. A sinistra della schermata Mappe pagine, selezionate la pagina che ci interessa.
 1. Nell’area Mappa immagine, disegnate una mappa immagine rettangolare o poligonale:
 
-   **Mappa rettangolare** Selezionate lo strumento rettangolo e trascinate sulla pagina per creare il rettangolo.
+   * **Mappa** rettangolare Selezionate lo strumento rettangolo per mappe immagine e trascinate sulla pagina per creare il rettangolo.
 
-   **Mappa poligonale** Selezionate lo strumento poligono e fate clic il numero di volte necessario intorno al perimetro dell'immagine. Quando fate clic su, Dynamic Media Classic disegna i bordi della mappa immagine.
-
-   Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome nell'elenco Mappa immagine. Per formare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome della pagina ecatalog in cui state lavorando.
+   * **Mappa** poligonale Selezionate lo strumento poligono per mappe immagine e fate clic il numero di volte necessario intorno al perimetro dell’immagine. Facendo clic su di essa, Dynamic Media Classic disegna i bordi della mappa immagine.
+   Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome nell’elenco Mappa immagine. Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome della pagina eCatalog in cui state lavorando.
 
 1. (Facoltativo) Nell’elenco delle mappe immagini, nella colonna Nome, immettete un nuovo nome per la mappa immagine. Non includete spazi nel nome inserito.
 1. Una mappa immagine può essere usata per consentire agli utenti di aprire una nuova pagina Web quando fanno clic sulla mappa immagine. Nell’elenco delle mappe immagini, inserite l’URL della pagina Web nella colonna URL.
@@ -73,25 +72,25 @@ Potete anche visualizzare un testo descrittivo a comparsa quando i clienti passa
 
 Nella scheda Mappe pagine della schermata eCatalog, utilizzate le tecniche seguenti per modificare le mappe immagine per l’eCatalog:
 
-**Regolazione della posizione** Selezionate lo strumento scorrimento e portate il puntatore vicino ma non sopra il bordo della mappa. Quando il puntatore diventa una freccia a quattro punte, trascinate l’intera mappa immagine in una nuova posizione.
+* **Regolando la posizione**, selezionate lo strumento scorrimento e spostate il puntatore accanto ma non sopra il bordo della mappa. Quando il puntatore diventa una freccia a quattro punte, trascinate l’intera mappa immagine in una nuova posizione.
 
-Consultate [Regolazione della posizione, forma e dimensione delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Consultate [Regolazione della posizione, forma e dimensione delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-**Modifica della forma e della dimensione** Per ridimensionare una mappa immagine rettangolare, selezionate lo strumento scorrimento. Portate il puntatore su un lato o un angolo e quando compare l’icona della freccia a due punte, trascinate. Per ridimensionare una mappa immagine poligonale, trascinate una maniglia di selezione quadrata. Per creare una maniglia di selezione, fate clic sul bordo della mappa immagine e trascinate.
+* **Modifica della forma e delle dimensioni** Per ridimensionare una mappa immagine rettangolare, selezionate lo strumento scorrimento. Portate il puntatore su un lato o un angolo e quando compare l’icona della freccia a due punte, trascinate. Per ridimensionare una mappa immagine poligonale, trascinate una maniglia di selezione quadrata. Per creare una maniglia di selezione, fate clic sul bordo della mappa immagine e trascinate.
 
-Consultate [Regolazione della posizione, forma e dimensione delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Consultate [Regolazione della posizione, forma e dimensione delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-**Eliminazione delle mappe immagine** Selezionate lo strumento scorrimento, fate clic sulla mappa immagine per selezionarla, quindi fate clic su Elimina.
+* **Eliminazione delle mappe** immagine Selezionate lo strumento scorrimento, fate clic sulla mappa immagine per selezionarla, quindi fate clic su **Elimina**.
 
-Per rimuovere tutte le mappe immagine di un eCatalog, passate alla scheda Ordina pagine e fate clic su Cancella mappe.
+   To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
-**Gestione delle mappe immagine sovrapposte** Trascinate per modificare l'ordine delle mappe immagine nell'elenco delle mappe immagine.
+* **Gestione delle mappe** immagine sovrapposte Trascinate per modificare l’ordine delle mappe immagine nell’elenco Mappa immagine.
 
-Consultate [Gestione delle mappe immagine sovrapposte](creating-image-maps.md#handling_overlapping_image_maps).
+   Consultate [Gestione delle mappe immagine sovrapposte](creating-image-maps.md#handling_overlapping_image_maps).
 
-**Copia delle mappe immagine in altre pagine** Fate clic sul pulsante Copia mappe in (verificate di trovarvi nella scheda Mappe pagine). Nella schermata Seleziona immagini, selezionate la pagina o le pagine in cui desiderate copiare le mappe immagine e fate clic sul pulsante Seleziona. 
+* **Copia delle mappe immagine in altre pagine** Fate clic sul pulsante Copia mappe in (accertatevi di essere nella scheda Mappe pagine). Nella schermata Seleziona immagini, selezionate la pagina o le pagine in cui desiderate copiare le mappe immagine e fate clic sul pulsante Seleziona. 
 
-Consultate [Copia delle mappe immagine in altre immagini](creating-image-maps.md#copying_image_maps).
+   Consultate [Copia delle mappe immagine in altre immagini](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
@@ -129,7 +128,7 @@ Nella schermata Riepilogo mappe, seguite queste istruzioni per importare i dati 
 
 ## Copia di mappe immagine tra diversi eCatalog {#copying-image-maps-between-ecatalogs}
 
-Potete copiare tutte le mappe immagine di un eCatalog in un diverso eCatalog. Questo è utile ad esempio per copiare le mappe immagine tra versioni in lingue diverse di uno stesso eCatalog. Affinché la copia abbia esito positivo, Dynamic Media Classic consiglia di copiare tra ecatalog con lo stesso numero di pagine e le stesse immagini.
+Potete copiare tutte le mappe immagine di un eCatalog in un diverso eCatalog. Questo è utile ad esempio per copiare le mappe immagine tra versioni in lingue diverse di uno stesso eCatalog. Affinché la copia abbia successo, Dynamic Media Classic consiglia di copiare tra eCatalog con lo stesso numero di pagine e le stesse immagini.
 
 >[!NOTE]
 >
@@ -141,4 +140,4 @@ Per copiare tutte le mappe immagine di un eCatalog in un altro eCatalog, effettu
 1. Nella scheda Ordina pagine, fate clic su Copia mappe.
 1. Nella finestra di dialogo Seleziona risorsa, selezionate l’eCatalog in cui desiderate copiare le mappe immagine, quindi fate clic su Seleziona.
 
-Dynamic Media Classic visualizza un messaggio di avviso se l'ecatalog di destinazione (l'ecatalog in cui copiate le mappe immagine) ha un numero diverso di pagine o immagini di dimensioni diverse. Potete fate clic su Continua per copiare comunque le mappe immagine.
+Dynamic Media Classic visualizza un messaggio di avviso se l’eCatalog di destinazione (l’eCatalog in cui copiate le mappe immagine) ha un numero diverso di pagine o immagini di dimensioni diverse. Potete fate clic su Continua per copiare comunque le mappe immagine.
