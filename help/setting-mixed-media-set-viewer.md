@@ -3,14 +3,14 @@ title: Impostazione di un predefinito per visualizzatori di set di file multimed
 seo-title: Impostazione di un predefinito per visualizzatori di set di file multimediali diversi
 description: 'null'
 seo-description: Scoprite come impostare un predefinito per visualizzatori di set di file multimediali diversi.
-uuid: d 5 bf 1840-e 453-445 d-bebc -84889 b 29 f 3 c 8
+uuid: d5bf1840-e453-445d-bebc-8489b29f3c8
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 8029 aad 8-d 696-4 d 7 c -99 e 2-3 b 08 edb 68181
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/mixed_media_sets
+discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -51,13 +51,13 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
 1. Per aggiungere al visualizzatore funzioni per la community Internet (Incorpora, Collegamento, Visita), specificate le opzioni per una delle seguenti operazioni:
 
-   **E-mail** Attiva per attivare un pulsante e-mail nel visualizzatore. Quando gli utenti fanno clic sul pulsante E-mail durante la visualizzazione del set, si apre un messaggio e-mail contenente il collegamento al set.
+   * **E-mail** Fate clic su Attivato per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti fanno clic sul pulsante E-mail durante la visualizzazione del set, si apre un messaggio e-mail contenente il collegamento al set.
 
-   **Incorporate** fate clic su Live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Incorpora** clic su Live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Collegamento** Fate clic su Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Link** Click Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Fate clic** su **Live**. Nella casella Etichetta pulsante visita, digitate il nome da visualizzare nel visualizzatore per il pulsante Visita. Nella casella URL visita, digitate l’URL del sito Web da aprire quando gli utenti fanno clic sul collegamento.
+   * **Visita** Fai clic su **Live**. Nella casella Etichetta pulsante visita, digitate il nome da visualizzare nel visualizzatore per il pulsante Visita. Nella casella URL visita, digitate l’URL del sito Web da aprire quando gli utenti fanno clic sul collegamento.
 
 1. Specificate le altre opzioni desiderate. Per visualizzare la descrizione di un’opzione, fate clic sull’icona Suggerimento  accanto all’opzione.
 
