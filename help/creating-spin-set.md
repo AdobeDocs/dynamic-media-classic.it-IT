@@ -2,32 +2,32 @@
 title: Creazione di un set 360 gradi
 seo-title: Creazione di un set 360 gradi
 description: 'null'
-seo-description: Scoprite come creare un set gradi.
-uuid: 697 bd 78 f -5 e 39-46 bf-aa 6 d-ad 8 ab 99 fe 40 e
+seo-description: Scoprite come creare un set 360 gradi.
+uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 735 b 5867-e 249-4627-a 5 a 5-25 c 19 c 2255 bf
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/spin_sets
+discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Creazione di un set 360 gradi{#creating-a-spin-set}
 
-Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le immagini. Per creare un set gradi in Media Classic, fate clic sul pulsante Genera e scegliete Set gradi. Nella schermata Set 360 gradi potete modificate i set 360 gradi.
+Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le immagini. Per creare un set 360 gradi in Dynamic Media Classic, fate clic sul pulsante Genera e scegliete Set 360 gradi. Nella schermata Set 360 gradi potete modificate i set 360 gradi.
 
 >[!NOTE]
 >
->Le versioni precedenti di Dynamic Media Classic non offrono set gradi bidimensionali. Se avete creato un set gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set gradi monodimensionale senza salvarlo con un altro nome. Fate clic su Salva con nome nella schermata Set gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
+>Le versioni precedenti di Dynamic Media Classic non prevedevano set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
 
 ## Linee guida per lo scatto di immagini per set 360 gradi {#guidelines-for-shooting-spin-set-images}
 
-In generale, più sono le immagini contenute in un set 360 gradi, migliore è l’effetto di rotazione dell’immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Dynamic Media Classic consiglia le seguenti linee guida per la ripresa di immagini da utilizzare nei set gradi:
+In generale, più sono le immagini contenute in un set 360 gradi, migliore è l’effetto di rotazione dell’immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Dynamic Media Classic consiglia le seguenti linee guida per lo scatto di immagini da usare nei set 360 gradi:
 
-* Usate almeno 8-12 immagini in un set gradi monodimensionale e 16-24 in un set gradi bidimensionale.
+* Utilizzate almeno 8-12 immagini in un set 360 gradi monodimensionale e 16-24 immagini in un set 360 gradi bidimensionale.
 * Utilizzate un formato senza perdita di dati; si consigliano TIFF e PNG.
 * Mascherate tutte le immagini in modo che gli elementi appaiano su uno sfondo bianco puro o su un altro sfondo a elevato contrasto. Se necessario, aggiungete ombre.
 * Assicuratevi che i dettagli del prodotto siano ben illuminati e messi a fuoco.
@@ -71,7 +71,7 @@ A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubbli
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono il loro stato pubblicato. Tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione o pubblicazione non pubblicato. |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il proprio stato di pubblicazione. Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -82,21 +82,13 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Fate clic sul pulsante rollover **Modifica** del set di campioni. 
 1. Effettuate una delle seguenti operazioni:
 
-   **Rimozione di immagini**
+   * **Rimozione di immagini** Selezionate l’immagine, quindi fate clic su **Elimina**.
 
-   Selezionate l’immagine, quindi fate clic su **Elimina**.
+   * **Aggiunta di immagini** Trascinate l’immagine in una cella.
 
-   **Aggiunta di immagini**
+   * **Riordinamento delle righe (set 360 gradi bidimensionali)** Fare clic su una casella di selezione delle righe (a sinistra della riga), quindi fare clic su **Sposta riga in basso** o **Sposta riga in alto**.
 
-   Trascinate l’immagine in una cella.
-
-   **Riordinamento delle righe (set 360 gradi bidimensionali)**
-
-   Fate clic su una casella (a sinistra della riga) per selezionare la riga corrispondente, quindi fate clic sul pulsante **Sposta riga in basso** o **Sposta riga in alto**.
-
-   **Aggiunta di righe e celle**
-
-   Inserite un numero nella casella Righe o Celle per determinare il numero di righe o di celle per ogni riga.
+   * **Aggiunta di righe e celle** Immettere un numero nella casella Righe e Celle per determinare il numero di righe e il numero di celle in ciascuna riga.
 
 1. Al termine dell’operazione di modifica, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **Salva**.
