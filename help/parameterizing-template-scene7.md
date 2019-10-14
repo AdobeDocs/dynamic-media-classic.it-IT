@@ -2,39 +2,39 @@
 title: Parametrizzazione di un modello in Dynamic Media Classic
 seo-title: Parametrizzazione di un modello in Dynamic Media Classic
 description: 'null'
-seo-description: Scopri come parametrizzare un modello in Dynamic Media Classic
-uuid: 27 c 8 c 8 b 4-47 f 3-4270-a 6 db-d 304648 ba 357
+seo-description: Come parametrizzare un modello in Dynamic Media Classic
+uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/template-publishing
-discoiquuid: df 1 a 9 ff 5-a 5 ba -4480-ba 0 d-a 19 bc 665 f 907
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/template-publishing
+discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Parametrizzazione di un modello in Dynamic Media Classic{#parameterizing-a-template-in-scene}
 
-Dopo aver caricato un modello Illustrator salvato come file FXG Dynamic Media Classic in Scene 7 Publishing System, potete definirne gli elementi variabili. A questo scopo, potete usare le schermate Genera e Anteprima di Pubblicazione modelli. Dynamic Media Classic offre strumenti per la definizione dei parametri di testo e oggetti sui livelli e le rispettive proprietà. Potete anche creare versioni differenti di un modello.
+Dopo aver caricato in Scene7 Publishing System un modello Illustrator salvato come Dynamic Media Classic FXG, potete definirne gli elementi variabili. A questo scopo, potete usare le schermate Genera e Anteprima di Pubblicazione modelli. Dynamic Media Classic offre strumenti per definire i parametri di testo e oggetti sui livelli e le rispettive proprietà. Potete anche creare versioni differenti di un modello.
 
-La parametrizzazione di un modello FXG consente di personalizzare la variabilità di testo, immagini ed elementi grafici nel modello. È ad esempio possibile parametrizzare una riga di testo in modo che gli utenti finali possano modificare il testo mediante un’interfaccia utente Web. Potete definire campi di testo vuoti come variabili in modo che gli utenti finali possano compilarli con testo personalizzato. Potete inoltre parametrizzare gli attributi e le proprietà degli elementi di progettazione nella schermata Genera pubblicazione modello classico Media Classic.
+La parametrizzazione di un modello FXG consente di personalizzare la variabilità di testo, immagini ed elementi grafici nel modello. È ad esempio possibile parametrizzare una riga di testo in modo che gli utenti finali possano modificare il testo mediante un’interfaccia utente Web. Potete definire campi di testo vuoti come variabili in modo che gli utenti finali possano compilarli con testo personalizzato. Potete inoltre parametrizzare gli attributi e le proprietà degli elementi di progettazione nella schermata Genera di Pubblicazione modelli di Dynamic Media Classic.
 
 >[!NOTE]
 >
->La parametrizzazione del modello in Dynamic Media Classic non è necessaria se intendete usare la modifica DOM.
+>La parametrizzazione del modello in Dynamic Media Classic non è necessaria se intendete utilizzare la modifica DOM.
 
 ## Definizione dei parametri nei modelli FXG {#defining-parameters-in-fxg-templates}
 
-Per definire i parametri per un modello FXG, eseguite i seguenti passaggi in Dynamic Media Classic:
+Per definire i parametri per un modello FXG, effettuate le seguenti operazioni in Dynamic Media Classic:
 
 1. Nella finestra Sfoglia selezionate il file FXG.
 1. Click **Build** and choose **Template Publishing**, or click the file’s **Edit** button.
 
    Viene visualizzata la schermata Pubblicazione modelli.
 
-1. Selezionate lrco\ FXG\ Welcome_ Summit_ 10 (FXG) e fate clic **su Genera** &gt; **Pubblicazione modelli**.</p>
+1. Selezionate LRCo\FXG\Welcome_Summit_10 (file FXG) e fate clic su **Genera** &gt; Pubblicazione **** modelli.</p>
 
    ![](assets/wp_fxg_edit.png)
 
@@ -46,10 +46,9 @@ Per definire i parametri per un modello FXG, eseguite i seguenti passaggi in Dyn
 
 1. Nel pannello Proprietà fate clic su un parametro nella colonna Nome (per parametrizzare il testo) o nella colonna Parametro (per parametrizzare gli oggetti).
 
-   **Testo** Fate clic nel campo di testo (scorrete verso il basso nell'elenco Proprietà per trovarlo). Viene visualizzata la finestra di dialogo Parametri. Select the text that you want to parameterize and click **Add**. Potete creare più parametri con la stessa proprietà di testo selezionando diverse porzioni del testo e aggiungendo parametri a ciascuna di esse. To change the name of the parameter, click it, enter a new name, and click **Close**.
+   * **Testo** Fare clic nel campo di testo (per trovare il campo, scorrete fino in fondo all’elenco Proprietà). Viene visualizzata la finestra di dialogo Parametri. Select the text that you want to parameterize and click **Add**. Potete creare più parametri con la stessa proprietà di testo selezionando diverse porzioni del testo e aggiungendo parametri a ciascuna di esse. To change the name of the parameter, click it, enter a new name, and click **Close**.
 
-   **Oggetti** Fate clic su una casella nella colonna Parametro. Viene visualizzata la finestra di dialogo Modifica parametro. Enter a name and click **OK**.
-
+   * **Oggetti** Fare clic su una casella nella colonna Parametro. Viene visualizzata la finestra di dialogo Modifica parametro. Enter a name and click **OK**.
    Per personalizzare più attributi contemporaneamente con lo stesso valore, usate lo stesso nome di parametro per ogni attributo. Se ad esempio il modello presenta un rettangolo e una stella, digitate il nome di parametro `newcolor` per specificare l’attributo del colore SolidColor per entrambi. Ogni volta che modificate il valore `newcolor`, sia il rettangolo sia la stella assumono il nuovo colore.
 
 1. Specificate un valore predefinito per l’attributo nel campo Valore o Dati. Impostate tutte le proprietà per l’oggetto selezionato in modo da specificare l’aspetto desiderato.
@@ -117,11 +116,11 @@ Per ogni attributo è disponibile un set di valori.
 
 | Attributo | Valori | Predefinito |
 |--- |--- |--- |
-| Stili 7: Warpstyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | none |
-| Indicazioni 7: Warpdirection | horizontalvertical | horizontal |
-| Piega 7: Warpbend | Da -1 a 1 | 0,5 |
-| Distorsione orizzontale 7: Warphorizontaldistortion | Da -1 a 1 | 0 |
-| Distorsione verticale 7: Warpverticaldistortion | Da -1 a 1 | 0 |
+| Styles7:warpStyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | none |
+| Indicazioni7:warpDirection | horizontalvertical | horizontal |
+| Piega7:warpBend | Da -1 a 1 | 0,5 |
+| Distorsioni orizzontali7:warpHorizontalDistortion | Da -1 a 1 | 0 |
+| Distorsione verticale7:warpVerticalDistortion | Da -1 a 1 | 0 |
 
 >[!NOTE]
 >
