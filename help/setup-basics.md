@@ -2,15 +2,15 @@
 title: Nozioni di base sulla configurazione
 seo-title: Nozioni di base sulla configurazione
 description: 'null'
-seo-description: Scoprite come utilizzare la schermata Configurazione per inserire le impostazioni personali. se siete un amministratore, le impostazioni della società.
-uuid: 38 f 487 d 7-33 f 2-4 a 9 e-a 32 e-bb 08 f 3 dd 3284
+seo-description: Scoprite come utilizzare la schermata Configurazione per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società.
+uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/getting_ started
-discoiquuid: 753677 ad -9957-43 d 9-97 ad-bd 73 a 5 da 5 ccb
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/getting_started
+discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -26,9 +26,9 @@ Le impostazioni disponibili in questa schermata variano a seconda se siete un am
 
 Gli amministratori possono anche impostare i predefiniti per immagini e per visualizzatori nella schermata Configurazione:
 
-**I predefiniti** immagine per immagini sono formati salvati per la visualizzazione di immagini principali in dimensioni e formati diversi.
+* **I predefiniti** per immagini sono formati salvati per la visualizzazione di immagini originali con dimensioni e formati diversi.
 
-**I predefiniti** per visualizzatori visualizzatore stabiliscono come vengono presentati i contenuti multimediali quando li visualizzate in un visualizzatore.
+* **I predefiniti per** visualizzatori di predefiniti per visualizzatori determinano in che modo vengono visualizzati i contenuti multimediali quando vengono visualizzati in un visualizzatore.
 
 >[!MORELIKETHIS]
 >
