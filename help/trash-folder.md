@@ -3,14 +3,14 @@ title: Gestione della cartella Cestino
 seo-title: Gestione della cartella Cestino
 description: 'null'
 seo-description: Scoprite come gestire la cartella Cestino.
-uuid: 3992 a 5 b 8-1919-4924-b 07 d -7 fb 25565 effd
+uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 553 c 95 fc -0 a 41-4 f 06-af 50-a 62 bc 1438149
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
+discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,13 +25,13 @@ L’eliminazione definitiva degli elementi dalla cartella Cestino comporta l’e
 
 >[!NOTE]
 >
->le risorse spostate nella cartella Cestino sono ancora registrate in Scene7 Publishing System. Se provate a caricare un file con lo stesso nome di un file eliminato nella cartella Cestino, Dynamic Media Classic tratta la risorsa da caricare come risorsa duplicata. e aggiunge un numero al nome.
+>le risorse spostate nella cartella Cestino sono ancora registrate in Scene7 Publishing System. Se provate a caricare un file con lo stesso nome di un file eliminato presente nella cartella Cestino, Dynamic Media Classic considera la risorsa da caricare come una risorsa duplicata. e aggiunge un numero al nome.
 
 ## La cartella Cestino {#about-the-trash-folder}
 
 Se eliminate un elemento di una cartella, questo viene inserito nella cartella Cestino e si verifica quanto segue:
 
-* Sebbene l’elemento sia stato rimosso dalle cartelle di Scene7 Publishing System, il relativo ID non può essere assegnato a un’altra risorsa fintanto che l’elemento si trova nella cartella Cestino. Se provate a caricare una risorsa con lo stesso nome di un file nella cartella Cestino, Dynamic Media Classic aggiunge un numero al nome della risorsa.
+* Sebbene l’elemento sia stato rimosso dalle cartelle di Scene7 Publishing System, il relativo ID non può essere assegnato a un’altra risorsa fintanto che l’elemento si trova nella cartella Cestino. Se provate a caricare una risorsa con lo stesso nome di un file presente nella cartella Cestino, Dynamic Media Classic aggiunge un numero al nome della risorsa.
 * L’elemento non può essere pubblicato. Anche se l’elemento era contrassegnato per la pubblicazione al momento in cui è stato eliminato, non verrà pubblicato.
 * L’elemento resta nella cartella Cestino finché non viene ripristinato, finché non sono trascorsi sette giorni, o finché un utente non sceglie il comando Svuota il cestino. Trascorsi sette giorni, l’elemento viene eliminato automaticamente da un’operazione di pulizia automatica.
 
@@ -41,7 +41,7 @@ Non è necessario che il file venga ripristinato dalla persona che lo ha elimina
 
 Per ripristinare le risorse dalla cartella Cestino alle cartelle da cui erano state eliminate, effettuate le seguenti operazioni:
 
-1. Fate clic sull'icona Cestino per aprire la cartella Cestino.
+1. Fate clic sull’icona Cestino per aprire la cartella Cestino.
 1. Selezionate le risorse che desiderate ripristinare.
 1. Scegliete File &gt; Ripristina dal cestino.
 
@@ -51,9 +51,9 @@ Quando eliminate le risorse nella cartella Cestino, queste vengono eliminate def
 
 Per eliminare definitivamente le risorse dalla cartella Cestino, fate clic sull’icona Cestino  per aprire la cartella Cestino. Quindi, eliminate le singole risorse o tutte le risorse presenti nella cartella:
 
-**Eliminazione di singole risorse** Selezionate le risorse da eliminare definitivamente e fate clic su File &gt; Elimina dal cestino.
+* **Eliminazione di singole risorse** Selezionate le risorse da eliminare definitivamente e fate clic su **[!UICONTROL File &gt; Elimina dal cestino]**.
 
-**Per eliminare tutte le risorse** , fate clic su File &gt; Elimina cestino.
+* **Eliminazione di tutte le risorse** Fate clic su **[!UICONTROL File &gt; Elimina cestino]**.
 
 >[!MORELIKETHIS]
 >
