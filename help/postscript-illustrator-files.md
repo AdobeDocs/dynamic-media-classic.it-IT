@@ -2,15 +2,15 @@
 title: Utilizzo dei file PostScript e Illustrator
 seo-title: Utilizzo dei file PostScript e Illustrator
 description: 'null'
-seo-description: Scoprite come lavorare con file postscript e Illustrator.
-uuid: 36 dee 172-8 bd 4-45 a 9-820 b-c 2 ca 319 january 20
+seo-description: Scoprite come utilizzare i file PostScript e Illustrator.
+uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: c 04 c 1331-8 d 94-449 b -9693-1488 c 94084 dc
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/master_files
+discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,18 +21,18 @@ In Scene7 Publishing System potete usare i file Adobe® PostScript® (EPS) e Ado
 
 Quando caricate i file immagine PostScript (EPS) o Illustrator (AI) potete formattarli in vari modi. Potete rasterizzare i file, convertirli in formato FXG per Pubblicazione modelli, conservare lo sfondo trasparente, scegliere una risoluzione e scegliere uno spazio colore. Le opzioni per formattare i file PostScript e Illustrator sono disponibili nelle sezioni Opzioni PostScript e Opzioni Illustrator della schermata Opzioni processo di caricamento.
 
-**Elaborazione** scegliete Rasterizza per convertire nel formato bitmap la grafica vettoriale del file.
+* **Elaborazione** Scegliete Rasterizza per convertire la grafica vettoriale nel file in formato bitmap.
 
-**Mantieni sfondo trasparente nell'immagine di rendering** Mantiene la trasparenza dello sfondo del file.
+* **Mantieni sfondo trasparente nell’immagine** sottoposta a rendering Mantiene la trasparenza dello sfondo del file.
 
-**Risoluzione** Determina l'impostazione della risoluzione. Questa impostazione determina la quantità di pixel visualizzati per pollice nel file.
+* **Risoluzione** Determina l'impostazione della risoluzione. Questa impostazione determina la quantità di pixel visualizzati per pollice nel file.
 
-**Spazio colore** Selezionate il menu Spazio colore e scegliete uno spazio colore:
+* **Spazio** colore Selezionate il menu Spazio colore e scegliete uno spazio colore:
 
-**Rileva automaticamente** lo spazio colore del file.
+* **Rileva automaticamente** Conserva lo spazio colore del file.
 
-**Forza come RGB** Effettua la conversione nello spazio colore RGB.
+* **Forza come RGB** Converte nello spazio colore RGB.
 
-**Forza come CMYK** Effettua la conversione nello spazio colore CMYK.
+* **Forza come CMYK** Converte nello spazio colore CMYK.
 
-**Forza come Scala di grigio** effettua la conversione nello spazio colore Scala di grigio.
+* **Forza come scala di grigio** Consente di convertire nello spazio colore Scala di grigio.
