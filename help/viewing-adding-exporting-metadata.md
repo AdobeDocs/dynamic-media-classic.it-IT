@@ -3,14 +3,14 @@ title: Visualizzazione, aggiunta ed esportazione di metadati
 seo-title: Visualizzazione, aggiunta ed esportazione di metadati
 description: 'null'
 seo-description: Scoprite come visualizzare, aggiungere ed esportare i metadati.
-uuid: a 5254 c 51-9 e 04-45 ae -8236-3 eab 2925 e 5 fc
+uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 5414 b 4 f 5-6 e 05-468 c -8725-385423596342
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
+discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -19,21 +19,21 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 Potete memorizzare informazioni specifiche sui file usati in Scene7 Publishing System; tali informazioni sono dette *metadati*. Potete usare i metadati in Dynamic Media Classic per organizzare, cercare, filtrare e ordinare le risorse.
 
-I metadati vengono visualizzati in visualizzazione Dettagli insieme alle informazioni generate da Dynamic Media Classic, ad esempio data di creazione file, data di pubblicazione e parole chiave. Per visualizzare i metadati, aprite la risorsa in visualizzazione Dettagli e selezionate il pannello Metadati. In visualizzazione Dettagli potete immettere e modificare i metadati.
+I metadati vengono visualizzati in visualizzazione Dettagli insieme alle informazioni generate da Dynamic Media Classic, ad esempio la data di creazione dei file, la data di pubblicazione e le parole chiave. Per visualizzare i metadati, aprite la risorsa in visualizzazione Dettagli e selezionate il pannello Metadati. In visualizzazione Dettagli potete immettere e modificare i metadati.
 
-Alcuni metadati sono incorporati direttamente in un file. Se un file contiene tali metadati, Dynamic Media Classic lo carica automaticamente con il file. Potete incorporare i metadati nelle risorse sorgente in Adobe Photoshop, indesign, Illustrator e altre applicazioni; Dynamic Media Classic riconosce tali metadati. Potete inoltre aggiungere metadati ai singoli file nel pannello Metadati in visualizzazione Dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
+Alcuni metadati sono incorporati direttamente in un file. Se un file contiene tali metadati, Dynamic Media Classic li carica automaticamente con il file. Potete incorporare i metadati nelle risorse sorgente in Adobe Photoshop, InDesign, Illustrator e altre applicazioni; Dynamic Media Classic riconosce questi metadati. Potete inoltre aggiungere metadati ai singoli file nel pannello Metadati in visualizzazione Dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Visualizzare i metadati {#view-metadata}
 
-Per visualizzare i metadati di una risorsa, apritela in visualizzazione Dettagli e fate clic sul pannello Metadati. Quindi scegliete un’opzione nel menu Visualizzazioni metadati per selezionare un set di campi di metadati. Dynamic Media Classic offre queste visualizzazioni metadati:
+Per visualizzare i metadati di una risorsa, apritela in visualizzazione Dettagli e fate clic sul pannello Metadati. Quindi scegliete un’opzione nel menu Visualizzazioni metadati per selezionare un set di campi di metadati. Dynamic Media Classic offre le seguenti visualizzazioni di metadati:
 
-**Vista compatta** Un elenco di valori di base.
+* **Vista** compatta Un elenco di valori di base.
 
-**Valori IPTC** come definiti dall'International Press Telecommunications Council.
+* **Valori IPTC** definiti dal Consiglio internazionale delle telecomunicazioni per la stampa.
 
-**Valori XMP** come definiti dall'extensible metadata platform.
+* **XMP** Values come definito dalla piattaforma di metadati estensibile.
 
 Gli amministratori possono creare ulteriori visualizzazioni di metadati, che vengono aggiunte al menu Visualizzazioni metadati. Per informazioni sulla creazione di visualizzazioni di metadati, consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
@@ -67,7 +67,7 @@ Se durante la sessione di lavoro corrente avete aggiunto delle parole chiave ad 
 1. Per rimuovere una parola chiave, selezionatela e fate clic su Rimuovi. Viene spostata nella tabella Suggerimenti parole chiave.
 
 >[!NOTE]
-Potete aggiungere parole chiave ai file mentre le caricate in Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, scegliete Metadati aggiunti e immettete le parole chiave. Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
+Potete aggiungere le parole chiave ai file mentre le caricate in Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, scegliete Metadati aggiunti e immettete le parole chiave. Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
 
 ## Importare i metadati {#import-metadata}
 
@@ -76,7 +76,7 @@ Invece di immettere manualmente i metadati per una risorsa alla volta, potete im
 >[!NOTE]
 potete creare un modello per l’immissione dei metadati per facilitarne l’importazione corretta in Scene7 Publishing System. Una volta creato il modello, utilizzatelo per immettere i metadati. Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
-Puoi trovare ulteriori informazioni su proprietà standardizzate all'indirizzo: https://www.adobe.com/devnet/xmp.html
+Per ulteriori informazioni sulle proprietà standardizzate, consultate: https://www.adobe.com/devnet/xmp.html
 
 1. Nel pannello Sfoglia, selezionate le immagini a cui desiderate aggiungere dei metadati da un file XML o delimitato da tabulazioni.
 1. Fate clic su **File** &gt; **Importa metadati**.
@@ -143,7 +143,7 @@ Nel registro dei processi relativo al processo Metadati verranno visualizzati gl
 
 ## Creare un modello per l’immissione di metadati da caricare. {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic offre un comando per creare un modello per la registrazione di metadati. Quando si utilizza un modello, si è certi che i metadati immessi sono nel formato corretto e possono quindi essere caricati correttamente in Scene7 Publishing System. Per creare un modello per la registrazione e l’importazione di metadati in Scene7 Publishing System, effettuate le seguenti operazioni:
+Dynamic Media Classic offre un comando per la creazione di un modello per la registrazione dei metadati. Quando si utilizza un modello, si è certi che i metadati immessi sono nel formato corretto e possono quindi essere caricati correttamente in Scene7 Publishing System. Per creare un modello per la registrazione e l’importazione di metadati in Scene7 Publishing System, effettuate le seguenti operazioni:
 
 1. Selezionate le risorse immagini contenenti i campi di metadati che desiderate inserire nel modello.
 1. Scegliete File &gt; Importa metadati.
