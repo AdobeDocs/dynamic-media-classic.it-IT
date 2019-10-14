@@ -2,15 +2,15 @@
 title: Utilizzo delle cartelle di risorse
 seo-title: Utilizzo delle cartelle di risorse
 description: 'null'
-seo-description: Scoprite come lavorare con le cartelle delle risorse.
-uuid: 3 bd 83701-e 2 c 2-4 e 39-b 225-c 2 d 27 ad 836 c 2
+seo-description: Scoprite come utilizzare le cartelle delle risorse.
+uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 588944 c 3-78 ba -4 bd 1-a 8 da -9 a 6 dd 99 a 27 a 9
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
+discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,15 +25,15 @@ Assicuratevi di aver creato una struttura e organizzazione di cartelle per la me
 
 Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle. Quando selezionate una cartella nella Libreria risorse, il relativo contenuto viene visualizzato nel pannello Sfoglia. Per individuare le cartelle nella struttura, effettuate le seguenti operazioni:
 
-**Visualizzazione delle sottocartelle** Selezionate l'icona Espandi cartella per visualizzare le sottocartelle in una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Visualizzazione delle sottocartelle** Selezionate l’icona Espandi cartella per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-**Spostamento di una cartella** Consente di spostare una cartella trascinandola nella nuova posizione, oppure selezionando File &gt; Sposta cartella.
+* **Spostamento di una cartella**&#x200B;È possibile spostare una cartella trascinandola nella nuova posizione oppure selezionando File &gt; Sposta cartella.
 
-**Nascondere le cartelle** Selezionate l'icona Riduci cartella per comprimere le sottocartelle. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Nascondere le cartelle** Per comprimere le sottocartelle, fate clic sull’icona Comprimi cartella . Questa icona si trova a sinistra dei nomi delle cartelle.
 
-**Apertura di una cartella** Selezionate una cartella per visualizzarne il contenuto nel pannello Sfoglia.
+* **Apertura di una cartella** Selezionate una cartella per visualizzarne il contenuto nel pannello Sfoglia.
 
-***Suggerimento**: Per nascondere o visualizzare la Libreria risorse, fate clic sul controllo Espandi/Riduci sul lato sinistro. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.*
+***Suggerimento**: Per nascondere o visualizzare la Libreria risorse, fate clic sul controllo Espandi/Riduci a sinistra. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.*
 
 ## Creazione di cartelle {#creating-folders}
 
@@ -51,8 +51,10 @@ Per creare una cartella, effettuate le seguenti operazioni:
 
 Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti operazioni:
 
-**Eliminazione** Fate clic sul pulsante Rimuovi cartella. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
+* **Eliminazione** Fate clic sul pulsante Rimuovi cartella . Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
 
-**Rinominare** il nome e immettere un nuovo nome.
+* **Ridenominazione** Fare doppio clic sul nome e immettere un nuovo nome.
 
-***Nota**: Non potete copiare cartelle o risorse perché in questo modo verrebbero creati duplicati in Scene 7 Publishing System e non sono consentiti dal sistema.*
+>[!NOTE]
+>
+>Non è possibile copiare cartelle o risorse perché in questo modo verrebbero creati duplicati in Scene7 Publishing System.
