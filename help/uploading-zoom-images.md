@@ -2,15 +2,15 @@
 title: Caricamento delle immagini di zoom
 seo-title: Caricamento delle immagini di zoom
 description: 'null'
-seo-description: Scoprite come caricare le immagini zoom.
-uuid: 5814 ec 28-3 a 06-4 b 92-b 70 e -0 aa 5 b 83 e 7 b 0 e
+seo-description: Scoprite come caricare le immagini di zoom.
+uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/zoom
-discoiquuid: e 84 b 7 b 0 e -527 a -4 c 64-bc 2 a-e 5 e 64 d 47 b 2 d 6
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/category/zoom
+discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,13 +25,13 @@ Per istruzioni dettagliate sul caricamento delle immagini, consultate [Caricamen
 
 **Preparazione delle immagini per lo zoom**
 
-Per sfruttare al massimo le funzionalità di Zoom dinamico di Media Classic, preparate i file immagine zoom prima di caricarli:
+Per sfruttare al meglio le funzioni di Zoom dinamico classico, preparate i file immagine di zoom prima di caricarli:
 
-**Dimensione** immagine Dynamic Media Classic consiglia di usare file di immagini con dimensioni massime pari a 2000 pixel. per consentire agli utenti di visualizzarle chiaramente quando applicano lo zoom.
+* **Dimensione** immagine Dynamic Media Classic consiglia di usare file di immagini con il lato più lungo almeno 2000 pixel. per consentire agli utenti di visualizzarle chiaramente quando applicano lo zoom.
 
-**Formati di file** Dynamic Media Classic supporta tutti i formati di file immagine standard, inclusi TIFF, BMP, JPEG, PSD, GIF ed EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima.
+* **Formati** di file Dynamic Media Classic supporta tutti i formati di file immagine standard, inclusi TIFF, BMP, JPEG, PSD, GIF ed EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima.
 
-**Lo spazio colore** RGB è lo spazio colore per le presentazioni di immagini Web; Quando caricate le immagini CMYK vengono automaticamente convertite in RGB. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Consultate anche Profili ICC.
+* **Lo spazio** colore RGB è lo spazio colore per le presentazioni di immagini Web; Le immagini CMYK vengono convertite automaticamente in RGB al momento del caricamento. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Consultate anche Profili ICC.
 
 >[!MORELIKETHIS]
 >
