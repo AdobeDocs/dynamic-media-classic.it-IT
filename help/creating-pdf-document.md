@@ -2,15 +2,15 @@
 title: Creazione di un documento PDF
 seo-title: Creazione di un documento PDF
 description: 'null'
-seo-description: Come creare un documento PDF utilizzando il processo Web-stampa in Dynamic Media Classic.
-uuid: 274 fb 06 b -320 b -40 fa -8 b 61-c 224 d 8 aceaa 1
+seo-description: Come creare un documento PDF mediante il processo Web-stampa in Dynamic Media Classic.
+uuid: 274fb06b-320b-40fa-8b61-c224d8aceaa1
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/template-publishing
-discoiquuid: 87 e 91 e 8 e -10 a 2-4 fba -87 c 7-aad 2 bd 798146
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/template-publishing
+discoiquuid: 87e91e8e-10a2-4fba-87c7-aad2bd798146
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,7 +21,7 @@ Il passaggio finale del processo Web-stampa consiste nella generazione del PDF p
 
 ## Configurazione dei predefiniti PDF {#setting-up-pdf-presets}
 
-Per specificare il livello di compatibilità PDF e le impostazioni della stampante, creare e caricare un file joboptions PDF in Dynamic Media Classic Server. Ad esempio, potete scegliere l’output PDF conforme con le specifiche PDF/X-4 (consigliato per flussi di lavoro PDF per la stampa editoriale). Potete creare il file joboptions con il vostro software di authoring (ad esempio, Adobe Illustrator) oppure in Acrobat. Consultate sempre lo stampatore, che potrà consigliarvi le impostazioni di processo corrette il lavoro di stampa in oggetto.
+Specificate il livello di compatibilità PDF e le impostazioni della stampante creando e caricando un file joboptions PDF nel server Dynamic Media Classic. Ad esempio, potete scegliere l’output PDF conforme con le specifiche PDF/X-4 (consigliato per flussi di lavoro PDF per la stampa editoriale). Potete creare il file joboptions con il vostro software di authoring (ad esempio, Adobe Illustrator) oppure in Acrobat. Consultate sempre lo stampatore, che potrà consigliarvi le impostazioni di processo corrette il lavoro di stampa in oggetto.
 
 Per ulteriori informazioni sulla creazione di file joboptions e sulla creazione di un file joboptions in Acrobat, consultate la guida di Adobe Acrobat.
 
@@ -30,7 +30,7 @@ Per creare un file joboptions in Illustrator:
 1. Scegliete Modifica &gt; Predefiniti Adobe PDF.
 1. Nella finestra di dialogo, selezionate il predefinito che desiderate usare.
 
-   Le seguenti impostazioni Opzioni processo sono supportate da Dynamic Media Classic:
+   Le seguenti impostazioni delle opzioni di processo sono supportate da Dynamic Media Classic:
 
    | Opzione processo | Descrizione |
    |--- |--- |
@@ -46,7 +46,7 @@ Per creare un file joboptions in Illustrator:
 
    >[!NOTE]
    >
-   >Dynamic Media Classic ignora le impostazioni dei segni di stampa nel file joboptions. Gli indicatori di stampa sono invece configurati mediante l'uso di comandi URL Classic Classic.
+   >Dynamic Media Classic ignora le impostazioni degli indicatori di stampa nel file joboptions. Gli indicatori di stampa sono invece configurati tramite i comandi URL Dynamic Media Classic.
 
 1. Fate clic su Esporta, specificate nome e percorso e fate clic su Salva.
 1. Caricate il file joboptions come una risorsa in Scene7 Publishing System.
@@ -61,23 +61,23 @@ Prima di finalizzare il PDF per la stampa, seguite le linee guida riportate in q
 
 **Immagini**
 
-Accertatevi che tutte le immagini del processo di pubblicazione siano state caricate sul server Dynamic Media Classic e pubblicate.
+Accertatevi che tutte le immagini nel processo di pubblicazione siano state caricate nel server Dynamic Media Classic e pubblicate.
 
 **Font**
 
-Accertatevi che tutti i font nel processo di pubblicazione siano stati caricati in Dynamic Media Server e pubblicati. Accertatevi di disporre dei diritti legali per l’hosting dei font, se intendete consentire agli utenti finali di modificarli.
+Accertatevi che tutti i font del processo di pubblicazione siano stati caricati nel server Dynamic Media Classic e pubblicati. Accertatevi di disporre dei diritti legali per l’hosting dei font, se intendete consentire agli utenti finali di modificarli.
 
 **Risoluzione delle immagini (pixel per pollice)**
 
-La risoluzione delle immagini bitmap viene mantenuta dal server Dynamic Media Classic nei PDF generati pronti per la stampa. Se necessario, Media Classic viene ridimensionata in scala di immagini. Per risultati ottimali, lasciate la risoluzione impostata con il valore predefinito (in genere 72 dpi) per l’anteprima sul Web. La risoluzione predefinita per tutte le immagini della società viene impostata nella finestra Impostazioni di pubblicazione di Image Server nella sezione Risoluzione predefinita di stampa. Valori di risoluzione elevati (ad esempio, 300 dpi) possono comportare tempi di elaborazione lunghi e devono essere usati solo per i PDF destinati alla stampa. Usate il comando imageRes= nell’URL per ignorare manualmente la risoluzione predefinita per i processi PDF.
+La risoluzione delle immagini bitmap viene mantenuta dal server Dynamic Media Classic nei PDF generati pronti per la stampa. Dynamic Media Classic ridimensiona la risoluzione delle immagini, se necessario. Per risultati ottimali, lasciate la risoluzione impostata con il valore predefinito (in genere 72 dpi) per l’anteprima sul Web. La risoluzione predefinita per tutte le immagini della società viene impostata nella finestra Impostazioni di pubblicazione di Image Server nella sezione Risoluzione predefinita di stampa. Valori di risoluzione elevati (ad esempio, 300 dpi) possono comportare tempi di elaborazione lunghi e devono essere usati solo per i PDF destinati alla stampa. Usate il comando imageRes= nell’URL per ignorare manualmente la risoluzione predefinita per i processi PDF.
 
 **Gestione colore**
 
-Il documento e le immagini possono usare i modelli di colore scala di grigio, CMYK, tinte piatte denominate, RGB o Lab, che possono essere non calibrati oppure calibrati mediante un profilo colore ICC. Per risultati ottimali, incorporate il profilo nel file PDF generato pronto per la stampa, Per impostazione predefinita, il server Dynamic Media Classic esegue questa operazione. Accertatevi che tutti i profili colore richiesti siano stati caricati nella piattaforma Dynamic Media Classic. Preferibilmente, accertatevi che le opzioni di gestione del colore impostate nell'applicazione grafica corrispondano a quelle impostate in Dynamic Media Classic Server:
+Il documento e le immagini possono usare i modelli di colore scala di grigio, CMYK, tinte piatte denominate, RGB o Lab, che possono essere non calibrati oppure calibrati mediante un profilo colore ICC. Per risultati ottimali, incorporate il profilo nel file PDF generato pronto per la stampa, Il server Dynamic Media Classic esegue questa operazione per impostazione predefinita. Accertatevi che tutti i profili colore richiesti siano stati caricati nella piattaforma Dynamic Media Classic. È preferibile assicurarsi che le opzioni di gestione del colore impostate nell’applicazione grafica corrispondano a quelle impostate nel server Dynamic Media Classic:
 
-**Impostazioni di gestione del colore impostate nell’applicazione grafica:** nelle impostazioni colore dell’applicazione grafica (ad esempio in Adobe Illustrator), specificate i profili colore RGB e CMYK nella sezione degli spazi di lavoro.
+* **Impostazioni di gestione del colore impostate nell’applicazione grafica:** nelle impostazioni colore dell’applicazione grafica (ad esempio in Adobe Illustrator), specificate i profili colore RGB e CMYK nella sezione degli spazi di lavoro.
 
-**Impostazioni di gestione colore Dynamic Media Classic:** In genere, le impostazioni di gestione del colore nell'applicazione grafica devono corrispondere ai profili colore predefiniti nel server Dynamic Media Classic. Le impostazioni si trovano nella finestra Impostazione pubblicazione/Image Server.
+* **** Impostazioni di gestione del colore Dynamic Media Classic: In genere, le impostazioni di gestione del colore nell’applicazione grafica devono corrispondere ai profili colore predefiniti nel server Dynamic Media Classic. Le impostazioni si trovano nella finestra Impostazione pubblicazione/Image Server.
 
 ## Visualizzazione degli indicatori di stampa {#displaying-printer-marks}
 
@@ -101,22 +101,22 @@ Sono supportati tutti gli indicatori disponibili nella schermata “Aggiungi ind
 
 Quando si prepara un documento per la produzione di stampe, potrebbe essere necessario inserire degli indicatori di stampa con cui il service possa allineare le pellicole delle selezioni colore per la produzione di prove colore, misurare la pellicola per la corretta calibrazione e la densità degli inchiostri, rifilare le pellicole alle dimensioni desiderate e così via. Gli indicatori di stampa indicano i limiti del documento, come ad esempio i limiti di rifilo e di pagina al vivo. I contenuti per la produzione possono includere:
 
-**Casella** File multimediali I limiti del supporto fisico su cui verrà stampata la pagina. Eventuali contenuti all’esterno del riquadro MediaBox possono essere eliminati senza alterare i contenuti del documento finale.
+* **Media box** I bordi del supporto fisico su cui verrà stampata la pagina. Eventuali contenuti all’esterno del riquadro MediaBox possono essere eliminati senza alterare i contenuti del documento finale.
 
-**Casella** al vivo L'area in cui viene ritagliato il contenuto della pagina in un ambiente di produzione. In questa area può rientrare lo spazio necessario in base alle limitazioni fisiche dei dispositivi di taglio, piega e rifilo. Il valore predefinito corrisponde al riquadro di ritaglio della pagina.
+* **Casella** al vivo L'area in cui il contenuto della pagina viene ritagliato durante l'output in un ambiente di produzione. In questa area può rientrare lo spazio necessario in base alle limitazioni fisiche dei dispositivi di taglio, piega e rifilo. Il valore predefinito corrisponde al riquadro di ritaglio della pagina.
 
-**Trimbox Le** dimensioni desiderate per la pagina finale dopo il rifilo. Il limite di rifilo può essere più piccolo del limite del supporto, per consentire la stampa di contenuti necessari alla produzione quali istruzioni di stampa, indicatori di taglio e barre dei colori. Il valore predefinito corrisponde al riquadro di ritaglio della pagina.
+* **Casella** di ritaglio Le dimensioni desiderate della pagina finale dopo il rifilo. Il limite di rifilo può essere più piccolo del limite del supporto, per consentire la stampa di contenuti necessari alla produzione quali istruzioni di stampa, indicatori di taglio e barre dei colori. Il valore predefinito corrisponde al riquadro di ritaglio della pagina.
 
-**Casella** grafica L'estensione del contenuto significativo della pagina (inclusa l'eventuale spazio bianco) come previsto dall'autore della pagina. Il valore predefinito corrisponde al riquadro di ritaglio della pagina.
+* **Casella** grafica L'estensione del contenuto significativo della pagina (incluso il potenziale spazio bianco) come previsto dall'autore della pagina. Il valore predefinito corrisponde al riquadro di ritaglio della pagina.
 
 Per riprodurre gli indicatori di stampa disponibili in Adobe Illustrator, InDesign e Acrobat, potete usare i modificatori riportati in questa tabella:
 
 | Modificatore/Valori | Descrizione |
 |--- |--- |
-| bleedMargin=top,left,bottom,right | Specificato in Acrobat con l’opzione di impostazione dei riquadri di pagina. Selezionate BleedBox, quindi specificate i margini mediante l’opzione Controlli margine.<br><br>I valori rappresentano la distanza dai bordi superiore, sinistro, inferiore e destro rispetto ai bordi originali della grafica (il limite del supporto), verso l’interno. I valori (0-1000) sono espressi in punti.<br><br>Nuova altezza = altezza originale - (margine superiore + margine inferiore)<br><br>Nuova larghezza = larghezza originale - (sinistra + destra) |
-| mediaMargin=top,left,bottom,right | Specificato in Acrobat con l’opzione di impostazione dei riquadri di pagina. Modificate le dimensioni di pagina personalizzate, per l’opzione Modifica dimensioni pagina.<br><br>I valori rappresentano la distanza dai bordi superiore, sinistro, inferiore e destro rispetto ai bordi originali della grafica (il limite del supporto), verso l’esterno. I valori (0-1000) sono espressi in punti.<br><br>Nuova altezza = margine superiore + margine inferiore + heightnuovo<br><br>larghezza = Larghezza superiore + margine inferiore + widget:<br><br>i nuovi valori di altezza e larghezza determinano le nuove dimensioni della pagina del PDF generato.<br><br>Una volta definito il nuovo riquadro MediaBox, tutti i calcoli per i margini di ritaglio e di pagina al vivo devono considerare come bordo della grafica il nuovo riquadro MediaBox. |
-| trimMargin=top,left,bottom,right | Specificato in Acrobat con l’opzione di impostazione dei riquadri di pagina. Selezionate TrimBox, quindi specificate i margini mediante l’opzione Controlli margine.<br><br>I valori rappresentano la distanza dai bordi superiore, sinistro, inferiore e destro rispetto ai bordi originali della grafica (il limite del supporto), verso l’interno. I valori (0-1000) sono espressi in punti.<br><br>Nuova altezza = altezza originale - (margine superiore + margine inferiore)<br><br>Nuova larghezza = larghezza originale - (sinistra + destra) |
-| printerMark= indicatori di rifilo, indicatori pagina al vivo, crocini di registro, barre colori, informazioni pagina, stile, spessore linea, incorpora in livello | I valori sono i seguenti:<br><br>indicatori di rifilo = 0,1 (il valore predefinito è 0)<br><br>indicatori pagina al vivo = 0,1 (il valore predefinito è 0)<br><br>crocini di registro = 0,1 (<br><br>il valore predefinito è 0) bars bars = 0,1 (predefinito è 0)<br><br>le informazioni di pagina = 0,1 (predefinito è 0)<br><br>, quelle predefinite = 1 (impostazione predefinita: 0.25) Stile =<br><br>Valore predefinito: 2 (impostazione predefinita:) Stile = Valore predefinito: Spessore riga; il valore predefinito è.<br><br>incorpora in livello = 0, 1, con 1 creazione di un nuovo livello contenente tutti gli indicatori di stampa (il valore predefinito è 1)<br><br>a seconda dello stile utilizzato, gli indicatori e le barre di colore appaiono diversi e corrispondono ai relativi stili usati da Acrobat. |
+| bleedMargin=top,left,bottom,right | Specificato in Acrobat con l’opzione di impostazione dei riquadri di pagina. Selezionate BleedBox, quindi specificate i margini mediante l’opzione Controlli margine.<br><br>I valori rappresentano la distanza dai bordi superiore, sinistro, inferiore e destro rispetto ai bordi originali della grafica (il limite del supporto), verso l’interno. I valori (da 0 a 1000) sono espressi in punti.<br><br>Nuova altezza = altezza originale - (margine superiore + margine inferiore)<br><br>Nuova larghezza = larghezza originale - (margine sinistro + margine destro) |
+| mediaMargin=top,left,bottom,right | Specificato in Acrobat con l’opzione di impostazione dei riquadri di pagina. Modificate le dimensioni di pagina personalizzate, per l’opzione Modifica dimensioni pagina.<br><br>I valori rappresentano la distanza dai bordi superiore, sinistro, inferiore e destro rispetto ai bordi originali della grafica (il limite del supporto), verso l’esterno. I valori (da 0 a 1000) sono espressi in punti.<br><br>Nuova altezza=margine superiore+margine inferiore+<br><br>altezza originaleNuova larghezza=margine superiore+margine inferiore+<br><br>larghezza originaleI nuovi valori di altezza e larghezza determinano le nuove dimensioni di pagina del PDF generato.<br><br>Una volta definito il nuovo riquadro MediaBox, tutti i calcoli per i margini di ritaglio e di pagina al vivo devono considerare come bordo della grafica il nuovo riquadro MediaBox. |
+| trimMargin=top,left,bottom,right | Specificato in Acrobat con l’opzione di impostazione dei riquadri di pagina. Selezionate TrimBox, quindi specificate i margini mediante l’opzione Controlli margine.<br><br>I valori rappresentano la distanza dai bordi superiore, sinistro, inferiore e destro rispetto ai bordi originali della grafica (il limite del supporto), verso l’interno. I valori (da 0 a 1000) sono espressi in punti.<br><br>Nuova altezza = altezza originale - (margine superiore + margine inferiore)<br><br>Nuova larghezza = larghezza originale - (margine sinistro + margine destro) |
+| printerMark= indicatori di rifilo, indicatori pagina al vivo, crocini di registro, barre colori, informazioni pagina, stile, spessore linea, incorpora in livello | I valori sono i seguenti:<br><br>indicatori di rifilo = 0,1 (il valore predefinito è 0)indicatori di<br><br>pagina al vivo = 0,1 (il valore predefinito è 0)<br><br>crocini di<br><br>registrazione = 0,1 (il valore predefinito è 0)barre di<br><br>colore = 0,1 (il valore predefinito è 0)<br><br>stile = Predefinito, InDesignJ1, InDesignJ2, Illustrator, illustrator, illustratorJ, QuarkXPress (il valore predefinito è Default)<br><br>spessore linea= 0.125-0.2, entrambi i valori inclusi (il valore predefinito è 0.25)<br><br>livello incorporato = 0, 1, con 1 creazione di un nuovo livello contenente tutti gli indicatori di stampa (il valore predefinito è 1)<br><br>A seconda dello stile utilizzato, gli indicatori e le barre colore appaiono diversi e corrispondono agli stili corrispondenti utilizzati da Acrobat. |
 
 Note sugli indicatori di stampa:
 
