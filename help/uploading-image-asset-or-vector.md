@@ -3,13 +3,13 @@ title: Caricamento di una risorsa immagine o vettoriale
 seo-title: Caricamento di una risorsa immagine o vettoriale
 description: 'null'
 seo-description: Scoprite come caricare una risorsa immagine o vettoriale.
-uuid: d 0 e 4 a 754-8 a 49-4 b 0 f-b 202-e 9003 bdb 8 f 20
+uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: de 21 dca 9-99 fe -4183-b 647-debfe 112 fda 4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 Richiedete una *chiave segreta condivisa* inviando un messaggio e-mail all’assistenza tecnica di Scene7 all’indirizzo s7support@adobe.com.
 
-Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per usarlo in futuro.
+Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per un utilizzo futuro.
 
 ## Ottenimento del token di caricamento {#retrieving-the-upload-token}
 
@@ -107,7 +107,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-`file_limit` Il parametro specifica il limite di dimensione del file, in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+The `file_limit` parameter specifies the file-size limit in bytes. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -122,8 +122,8 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Token di caricamento.
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
-* Se conservare o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno lo sfondo foratura. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo riempimento. Consultate Foratura sfondo nelle [opzioni di Modifica immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Se mantenere o meno il profilo colore e il nome file associati alla risorsa.
+* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo nelle opzioni di modifica delle [immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare
 
 <!-- 
@@ -138,13 +138,13 @@ Last Modified Date:
 
 ![]()
 
-Per visualizzare il codice sorgente HTML associato al modulo, fai clic sul seguente collegamento:
+Per visualizzare il codice sorgente HTML associato al modulo sopra, fare clic sul seguente collegamento:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fate clic con il pulsante destro del mouse nella finestra del browser, quindi fate clic su **Visualizza sorgente pagina**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
+In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi scegliere **Visualizza origine** pagina. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza** &gt; **Sorgente**. To view XML response in Firefox, click **Tools** &gt; **Web Developer** &gt; **Page Source**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza &gt; Sorgente**. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -270,7 +270,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-`file_limit` Il parametro specifica il limite di dimensione del file, in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+The `file_limit` parameter specifies the file-size limit in bytes. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -285,8 +285,8 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Token di caricamento.
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
-* Se conservare o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno lo sfondo foratura. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo riempimento. Consultate Foratura sfondo nelle [opzioni di Modifica immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Se mantenere o meno il profilo colore e il nome file associati alla risorsa.
+* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo nelle opzioni di modifica delle [immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare
 
 <!-- 
