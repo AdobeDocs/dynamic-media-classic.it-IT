@@ -1,18 +1,19 @@
 ---
 cloud: experience-cloud
 product: 'dynamic media classic '
-audience: end-user
-user-guide-title: Aiuto di Dynamic Media Classic
+audience: utente finale
+user-guide-title: Guida di Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
-# Aiuto di Dynamic Media Classic {#using}
+# Guida di Dynamic Media Classic {#using}
 
-+ [Pagina principale della documentazione Media classica](home.md)
++ [Documentazione su Dynamic Media Classic](home.md)
++ [Dynamic Media Newsletter di Experience League](dynamic-media-newsletter.md)
 + Presentazione di Adobe Dynamic Media Classic {#intro}
    + [Informazioni su Dynamic Media Classic](introduction.md)
    + [Risorse per sviluppatori](developer-resources.md)
@@ -39,7 +40,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Impostazione amministrazione](administration-setup.md)
 + Media Portal {#media-portal}
    + [Requisiti di sistema](system-requirements-1.md)
-   + [Avvio rapido: Media Portal](quick-start-media-portal-administration.md)
+   + [Avvio rapido:Media Portal](quick-start-media-portal-administration.md)
    + [Ruoli utente di Media Portal](media-portal-user-roles.md)
    + [Creazione e gestione di gruppi in Media Portal ](creating-media-portal-groups.md)
    + [Aggiunta e gestione di utenti in Media Portal](adding-media-portal-users.md)
@@ -49,20 +50,20 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Utilizzo efficiente dei metadati](making-efficient-metadata.md)
    + [Personalizzazione della schermata di Media Portal](customizing-media-portal-screen.md)
 + Caricare e pubblicare le risorse {#upload-publish}
-   + [Informazioni sul caricamento e sulla pubblicazione delle risorse](about-asset-upload-publish.md)
+   + [Informazioni sul caricamento e la pubblicazione delle risorse](about-asset-upload-publish.md)
    + [Caricamento dei file](uploading-files.md)
-   + [Pubblicazione di file](publishing-files.md)
+   + [Pubblicazione di file ](publishing-files.md)
    + [Verifica delle risorse prima di renderle pubbliche](testing-assets-making-them-public.md)
    + [Verifica dei file di processo](checking-job-files.md)
 + Gestione delle risorse {#managing-assets}
-   + [Informazioni sulla gestione delle risorse](about-managing-assets.md)
+   + [Gestione delle risorse](about-managing-assets.md)
    + [Utilizzo delle cartelle di risorse](asset-folders.md)
    + [Visualizzazione delle risorse nel pannello Sfoglia](viewing-assets-browse-panel.md)
    + [Selezione delle risorse nel pannello Sfoglia](selecting-assets-browse-panel.md)
    + [Ricerca di risorse](searching-assets.md)
    + [Anteprima di una risorsa](previewing-asset.md)
    + [Spostamento, ridenominazione ed eliminazione di risorse](moving-renaming-deleting-assets.md)
-   + [Uso della visualizzazione Dettagli](detail-view.md)
+   + [Uso della vista Dettaglio ](detail-view.md)
    + [Visualizzazione, aggiunta ed esportazione di metadati](viewing-adding-exporting-metadata.md)
    + [Esportazione delle risorse da Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
    + [Condivisione di modifiche di risorse con client peer in tempo reale](sharing-asset-changes-peers-real.md)
@@ -80,25 +81,25 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Caricamento delle immagini di zoom](uploading-zoom-images.md)
    + [Creazione di destinazioni di zoom per lo zoom guidato](creating-zoom-targets-guided-zoom.md)
    + [Impostazione di predefiniti per visualizzatori zoom](setting-zoom-viewer-presets.md)
-   + [Anteprima delle risorse immagine con diversi visualizzatori zoom](previewing-image-assets-different-zoom.md)
+   + [Anteprima delle risorse di immagini con diversi visualizzatori zoom](previewing-image-assets-different-zoom.md)
    + [Pubblicazione di immagini di zoom](publishing-zoom-images.md)
    + [Collegamento di visualizzatori zoom alle pagine Web](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [Avvio rapido: Ecatalog](quick-start-ecatalog.md)
+   + [Avvio rapido: eCatalog](quick-start-ecatalog.md)
    + [Caricamento di file PDF](uploading-pdf-files.md)
    + [Creazione di un eCatalog](creating-ecatalog.md)
    + [Creazione di mappe immagine per un eCatalog](creating-ecatalog-image-maps.md)
-   + [Gestione del contenuto del pannello Info negli ecatalog](info-panel-content.md)
+   + [Gestione del contenuto del pannello Info negli eCatalog](info-panel-content.md)
    + [Impostazione dei predefiniti per il visualizzatore di eCatalog](setting-ecatalog-viewer-presets.md)
    + [Anteprima dell’eCatalog nel visualizzatore di eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Pubblicazione di ecatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md)
+   + [Pubblicazione di eCatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md)
    + [Collegamento di un eCatalog a una pagina Web](linking-ecatalog-web-page.md)
 + Set di immagini {#image-sets}
    + [Avvio rapido: set di immagini](quick-start-image-sets.md)
    + [Preparazione delle risorse di set di immagini per il caricamento](preparing-image-set-assets-upload.md)
    + [Creazione di un set di immagini](creating-image-set.md)
    + [Inserimento di destinazioni di zoom e mappe immagine nei set di immagini](including-zoom-targets-image-maps.md)
-   + [Gestione del contenuto del pannello Info in Set di immagini](info-panel-content-1.md)
+   + [Gestione del contenuto del pannello Info nei set di immagini](info-panel-content-1.md)
    + [Visualizzazione di set di immagini](viewing-image-sets.md)
    + [Generazione automatica di set di immagini](automated-image-set-generation.md)
    + [Collegamento di un set di immagini a una pagina Web](linking-image-set-web-page.md)
@@ -125,7 +126,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Collegamento di un modello a una pagina Web](linking-template-web-page.md)
    + [Gestione delle varianti di contenuto](content-variations.md)
 + Template publishing {#template-publishing}
-   + [Avvio rapido: Pubblicazione modelli](quick-start-template-publishing.md)
+   + [Avvio rapido: Pubblicazione di modelli](quick-start-template-publishing.md)
    + [Creare il modello iniziale in Adobe Illustrator](create-initial-template-illustrator.md)
    + [Caricare i file per Pubblicazione modelli](upload-files-template-publishing.md)
    + [Definizione di variabilità: parametrizzazione e modifica DOM](defining-variability-parameterization-versus-dom.md)
@@ -158,13 +159,13 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Verificare l’integrazione visualizzando un rapporto di Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Abilitazione di Adobe Analytics Video Report.](enabling-analytics-video-reports.md)
    + [Pubblicazione delle informazioni di configurazione di Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integrazione di Target Classic {#target-classic}
-   + [Avvio rapido: Integrazione di Target Classic](quick-start-target-classic-integration.md)
++ Integrazione con Target Classic {#target-classic}
+   + [Avvio rapido: Integrazione con Target Classic](quick-start-target-classic-integration.md)
    + [Integrazione di Adobe Dynamic Media Classic con Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Creazione di un set di offerte](creating-offer-set.md)
-   + [Invio di set di offerte ad Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Invio dei set di offerte ad Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Contenuti generati dall’utente {#user-generated-content}
-   + [Informazioni sui contenuti generati dall'utente](about-ugc.md)
+   + [Informazioni sul contenuto generato dall’utente](about-ugc.md)
    + [Eliminazione di una risorsa caricata](deleting-uploaded-asset.md)
    + [Ottenimento delle informazioni sull’utilizzo dello spazio su disco](getting-disk-usage-information.md)
    + [Caricamento di una risorsa immagine o vettoriale](uploading-image-asset-or-vector.md)
@@ -177,7 +178,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Regolazione di un’immagine](adjusting-image.md)
    + [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md)
    + [Utilizzo dei file PDF](pdfs.md)
-   + [Operazioni con i file PSD](psd-files.md)
+   + [Uso dei file PSD ](psd-files.md)
    + [Utilizzo dei file PostScript e Illustrator](postscript-illustrator-files.md)
    + [Utilizzo di file di vignettatura, rifinitura finestre e scaffali](vignette-window-covering-cabinet-files.md)
 + File di supporto {#support-files}
