@@ -1,12 +1,12 @@
 ---
 description: 'La newsletter Dynamic Media Newsletter di Experience League è una newsletter mensile. È stato progettato per aiutarvi a imparare a usare i contenuti multimediali dinamici e i contenuti multimediali dinamici Classic in modo da poter iniziare subito a creare valore. In questa newsletter sono disponibili preziose risorse per la creazione di conoscenze, tra cui video, panoramiche delle soluzioni e introduzione ad alcune delle funzioni e funzionalità chiave come i predefiniti per immagini, i predefiniti per visualizzatori, i profili video e altro ancora. '
 keywords: contenuti multimediali dinamici;newsletter;aggiornamenti di prodotto;suggerimenti e trucchi;eventi;successo cliente;blog;blog;immagini;video;funzionalità;funzionalità
-seo-description: le risorse per la creazione di conoscenze sono disponibili in questa newsletter con un solo punto vendita, tra cui video, panoramiche delle soluzioni e presentazioni ad alcune delle funzioni e funzionalità chiave come i predefiniti per immagini, i predefiniti per visualizzatori, i profili video e altro ancora.
+seo-description: Le risorse per la creazione di conoscenze sono disponibili in questa newsletter con un solo punto vendita, tra cui video, panoramiche delle soluzioni e presentazioni ad alcune delle funzioni e funzionalità chiave come i predefiniti per immagini, i predefiniti per visualizzatori, i profili video e altro ancora.
 seo-title: 'Adobe Dynamic Media Newsletter '
 solution: Oggetto multimediale dinamico
 title: Newsletter per contenuti multimediali dinamici
 translation-type: tm+mt
-source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
+source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
 
 ---
 
