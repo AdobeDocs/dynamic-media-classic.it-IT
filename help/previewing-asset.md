@@ -2,15 +2,15 @@
 title: Anteprima di una risorsa
 seo-title: Anteprima di una risorsa
 description: 'null'
-seo-description: Scopri come visualizzare in anteprima una risorsa.
-uuid: 4 a 01 be 21-e 37 f -4 d 79-9220-f 4 e 177 e 9179 a
+seo-description: Scoprite come visualizzare in anteprima una risorsa.
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 17 d 0 bfd 6-fc 62-4 ed 6-8 a 51-7 ac 1 a 6 bb 96 cc
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ Consultate [Configurazione di visualizzatori predefiniti](application-setup.md#c
 
 Se state visualizzando in anteprima una risorsa di modello con livelli di parametro, potete apportare modifiche ai parametri o modificare il predefinito per immagini. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
 
-Consultate anche [Esempi della libreria di visualizzatori di Dynamic Media Classic](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html).
+Consultate anche gli esempi della libreria di riferimento dei visualizzatori Adobe [qui](/help/assets/vlist/vlist.html) e [qui](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Per visualizzare in anteprima una risorsa**
 
