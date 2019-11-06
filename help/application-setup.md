@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/Categories/setup
 discoiquuid: ae2d1895-a437-4463-bface-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Consultate [Procedura ottimale: utilizzo del visualizzatore video HTML5](best-pr
 
 In base al visualizzatore, potete aggiungere delle funzioni per community. e comprendono i pulsanti Incorpora, E-mail, Collega e Visita. Questi pulsanti consentono agli utenti che utilizzano i visualizzatori di condividerli con altri utenti o di aprire il sito Web di Dynamic Media Classic.
 
-Consultate anche gli esempi della libreria di riferimento dei visualizzatori Adobe [qui](/help/assets/vlist/vlist.html) e [qui](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consultate anche Esempi [della libreria di riferimenti per visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 ### Supporto nei visualizzatori per pagine Web reattive {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ Per ulteriori informazioni su questa importante modifica, consulta il seguente s
 
 Nella tabella seguente sono elencati i predefiniti per visualizzatori Dynamic Media Classic attualmente disponibili. Viene inoltre specificata la compatibilità con dispositivi desktop e mobili nonché la tecnologia utilizzata per ciascun visualizzatore.
 
-Consultate anche gli esempi della libreria di riferimento dei visualizzatori Adobe [qui](/help/assets/vlist/vlist.html) e [qui](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consultate anche Esempi [della libreria di riferimenti per visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 Per informazioni sui browser Web e sulle versioni del sistema operativo supportati per i visualizzatori, consultate le relative Note sulla versione.
 
