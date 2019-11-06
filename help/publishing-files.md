@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/Categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -25,7 +25,7 @@ Scene7 Publishing System ora supporta la distribuzione di tutte le immagini e i 
 
 Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, tutte le risorse caricate in Dynamic Media Classic vengono contrassegnate automaticamente per la pubblicazione.
 
-Per ulteriori informazioni, consultate il PDF [Avviso di pubblicazione](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)istantanea.
+Per ulteriori informazioni, consultate il PDF [Avviso di pubblicazione](/help/assets/rendering-instant-publish-notification.pdf)istantanea.
 
 Per contrassegnare le risorse per la pubblicazione, eseguite i seguenti metodi:
 
