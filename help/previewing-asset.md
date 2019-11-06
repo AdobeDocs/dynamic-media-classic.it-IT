@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -23,7 +23,7 @@ Consultate [Configurazione di visualizzatori predefiniti](application-setup.md#c
 
 Se state visualizzando in anteprima una risorsa di modello con livelli di parametro, potete apportare modifiche ai parametri o modificare il predefinito per immagini. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
 
-Consultate anche gli esempi della libreria di riferimento dei visualizzatori Adobe [qui](/help/assets/vlist/vlist.html) e [qui](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consultate anche Esempi [della libreria di riferimenti per visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 **Per visualizzare in anteprima una risorsa**
 
