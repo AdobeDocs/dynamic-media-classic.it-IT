@@ -5,7 +5,7 @@ audience: utente finale
 user-guide-title: Guida di Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -13,6 +13,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 # Guida di Dynamic Media Classic {#using}
 
 + [Documentazione su Dynamic Media Classic](home.md)
++ [Nuova interfaccia utente Dynamic Media Classic in arrivo nella prima metà del 2020](new-ui-2020.md)
 + [Dynamic Media Newsletter di Experience League](dynamic-media-newsletter.md)
 + Presentazione di Adobe Dynamic Media Classic {#intro}
    + [Informazioni su Dynamic Media Classic](introduction.md)
@@ -40,7 +41,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
    + [Impostazione amministrazione](administration-setup.md)
 + Media Portal {#media-portal}
    + [Requisiti di sistema](system-requirements-1.md)
-   + [Avvio rapido:Media Portal](quick-start-media-portal-administration.md)
+   + [Avvio rapido: Media Portal](quick-start-media-portal-administration.md)
    + [Ruoli utente di Media Portal](media-portal-user-roles.md)
    + [Creazione e gestione di gruppi in Media Portal ](creating-media-portal-groups.md)
    + [Aggiunta e gestione di utenti in Media Portal](adding-media-portal-users.md)
