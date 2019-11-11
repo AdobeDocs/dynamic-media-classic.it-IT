@@ -5,7 +5,7 @@ description: Documentazione tecnica su Dynamic Media Classic
 seo-description: 'Documentazione tecnica, note sulla versione e materiali di supporto per Adobe Dynamic Media Classic, già Scene 7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 Benvenuti nell’Aiuto di Dynamic Media Classic. Qui potete accedere a tutte le risorse disponibili per ottenere ulteriori informazioni sull’utilizzo di Dynamic Media Classic (precedentemente noto come Scene7).
 
-## Documentazione tecnica su Dynamic Media Classic
+## Nuova interfaccia utente Dynamic Media Classic in arrivo nella prima metà del 2020
 
-* [Note sulla versione](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [Guida utente](introduction.md)
+Gli utenti di Dynamic Media Classic possono disporre di un aggiornamento dell’interfaccia utente nella prima metà del 2020. L'esperienza fornirà un accesso aggiornato con collegamenti a risorse preziose. Inoltre, questo aggiornamento non si basa più sulla tecnologia Adobe Flash nel browser.
 
-## Risorse per sviluppatori Dynamic Media Classic
+Consulta [Domande](new-ui-2020.md)frequenti.
 
-* [Guida di riferimento dei visualizzatori Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [Esempi della libreria di visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [API Image Server e Image Rendering](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## Risorse per sviluppatori di contenuti multimediali dinamici
 
-## Webinar ed esercitazioni su Dynamic Media Classic
+* [Pagina](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) di destinazione Risorse per sviluppatori di contenuti multimediali dinamici — Include la guida di riferimento dei visualizzatori, l’API Image Serving/Image Rendering API, l’API Image Production System e le note sulla versione di Dynamic Media Classic.
+* [Esempi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) della libreria di visualizzatori — Sono inclusi esempi di visualizzatori per video, file multimediali acquistabili, file multimediali diversi, set 360 gradi, zoom in linea, set di immagini e campioni e layout.
 
+## Newsletter, webinar ed esercitazioni per elementi multimediali dinamici classici
+
+* [Archivio Dynamic Media Newsletter](dynamic-media-newsletter.md)
 * [Best practice per la nitidezza delle immagini](/help/assets/s7_sharpening_images.pdf)
 * [Massimizza il ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) delle risorse: scopri le best practice del settore per distribuire contenuti multimediali sui tuoi siti e app mobili. In questo webinar presentiamo esempi e dimostrazioni che mostrano come distribuire video in modo efficiente su dispositivi diversi, distribuire contenuti creativi dinamici nelle campagne di marketing e aumentare la conversione rendendo acquistabili qualsiasi immagine, guida di stile o lookbook.
 * [Accelerate il ciclo](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) di vita per la distribuzione dei contenuti: questo webinar offre un’introduzione e una dimostrazione di Adobe Experience Manager Assets, la piattaforma di nuova generazione per la gestione e la distribuzione di contenuti multimediali. Scopri come collaborare e condividere risorse tra team creativi e di marketing per semplificare i processi di revisione delle risorse; procedure ottimali per gestire i metadati delle risorse in modo efficiente, per semplificare la ricerca, l’utilizzo, il riutilizzo e la condivisione delle risorse e per distribuire esperienze multimediali interattive multicanale.
