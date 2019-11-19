@@ -1,12 +1,12 @@
 ---
 description: 'La newsletter Dynamic Media Newsletter di Experience League è una newsletter mensile. È stato progettato per aiutarvi a imparare a usare i contenuti multimediali dinamici e i contenuti multimediali dinamici Classic in modo da poter iniziare subito a creare valore. In questa newsletter sono disponibili preziose risorse per la creazione di conoscenze, tra cui video, panoramiche delle soluzioni e introduzione ad alcune delle funzioni e funzionalità chiave come i predefiniti per immagini, i predefiniti per visualizzatori, i profili video e altro ancora. '
-keywords: contenuti multimediali dinamici;newsletter;aggiornamenti di prodotto;suggerimenti e trucchi;eventi;successo cliente;blog;blog;immagini;video;funzionalità;funzionalità
+keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: Le risorse per la creazione di conoscenze sono disponibili in questa newsletter con un solo punto vendita, tra cui video, panoramiche delle soluzioni e presentazioni ad alcune delle funzioni e funzionalità chiave come i predefiniti per immagini, i predefiniti per visualizzatori, i profili video e altro ancora.
 seo-title: 'Adobe Dynamic Media Newsletter '
-solution: Oggetto multimediale dinamico
+solution: Dynamic Media
 title: Newsletter per contenuti multimediali dinamici
 translation-type: tm+mt
-source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
+source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
 
 ---
 
@@ -22,6 +22,14 @@ In questa newsletter "one-stop shop" potete trovare preziose risorse per la crea
 [Registratevi](https://www.adobe.com/subscription/dynamic-media-newsletter.html) per ricevere la newsletter per contenuti multimediali dinamici mensilmente nella casella in entrata.
 
 ## È stato risolto un problema della Dynamic Media Newsletter?
+
+* **[Novembre 2019, numero 11](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)** In questo numero:
+
+   * Aggiornamento dell’interfaccia utente di Dynamic Media Classic.
+   * Nuove potenti funzioni di sicurezza.
+   * Come ci stiamo preparando in modo da avere una vacanza di successo.
+   * Condividete la newsletter con i vostri colleghi per creare un team di esperti.
+   * Scopri Apoorva Gupta, Senior Product Manager, Dynamic Media.
 
 * **[Ottobre 2019, Numero 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)** In questo numero:
 
@@ -54,7 +62,7 @@ In questa newsletter "one-stop shop" potete trovare preziose risorse per la crea
 * **[Luglio 2019, Numero 07](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)** In questo numero:
 
    * Risorse e informazioni che consentono di gestire correttamente le risorse di alto valore per distribuire in modo sicuro esperienze che consentano ai visitatori di tornare indietro.
-   * Scoprite come proteggere le risorse digitali mediante un webinar in programma.
+   * Scopri ulteriori informazioni su un webinar in programma sulla protezione delle risorse digitali.
    * Il prossimo si ferma in Adobe Insider Tour, compilato con le informazioni.
    * Funzionalità interessanti disponibili se disponi di elementi multimediali dinamici in Risorse Adobe Experience Manager (AEM Assets).
    * Aggiunta di video a 360 gradi e miniature video personalizzate al sito Web.
