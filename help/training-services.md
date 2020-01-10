@@ -2,15 +2,15 @@
 title: Servizi di formazione Adobe
 seo-title: Servizi di formazione Adobe
 description: 'null'
-seo-description: Ulteriori informazioni sui servizi di formazione Adobe.
-uuid: c 405 f 60 c-d 0 a 8-4 c 88-8530-b 093875500 cd
+seo-description: Ulteriori informazioni su Adobe Training Services.
+uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/introducing_ adobe_ scene 7
-discoiquuid: 2 bccf 91 d-ec 27-4 cdf-a 322-55804 b 6 ba 0 d 3
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
+discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
 
 ---
 
@@ -23,7 +23,7 @@ Dynamic Media Classic offre formazione sotto forma di esercitazioni video, works
 
 I servizi di formazione Adobe offrono una preparazione personalizzata e approfondita progettata per la vostra organizzazione. La formazione può essere svolta sotto forma di classi regionali in stile universitario, sessioni basate su Web o laboratori in loco personalizzati. Le classi regionali sono aperte a tutti i clienti e vengono tenute periodicamente in vari luoghi in Nord America, Europa, Medio oriente e Asia. Le sessioni personalizzate possono essere personalizzate per utenti esperti e inesperti, utenti finali, amministratori e personale IT.
 
-Consultate [Servizi](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en)di formazione Adobe.
+Consultate [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
 **Esercitazioni video introduttive**
 
@@ -33,12 +33,12 @@ See [Quick Start Video Tutorials](https://marketing.adobe.com/resources/help/en_
 
 **Dimostrazioni**
 
-Guardate le dimostrazioni delle funzionalità Dynamic Media Classic.
+Guardate le dimostrazioni delle funzioni del visualizzatore Dynamic Media Classic.
 
-Consultate [Dimostrazioni](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
+Consultate [Demo](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
 
 **Sezione Guida introduttiva dell’Aiuto**
 
-La sezione Guida introduttiva del sistema di Aiuto presenta istruzioni per gli utenti nuovi di Dynamic Media Classic. Illustra le nozioni di base sulla piattaforma, la navigazione, la configurazione, la gestione delle risorse e la creazione di contenuti multimediali. 
+La sezione Guida introduttiva del sistema di Aiuto contiene istruzioni per gli utenti che hanno poca esperienza con Dynamic Media Classic. Illustra le nozioni di base sulla piattaforma, la navigazione, la configurazione, la gestione delle risorse e la creazione di contenuti multimediali. 
 
 Consultate la [Guida introduttiva](scene7-platform-overview.md).
