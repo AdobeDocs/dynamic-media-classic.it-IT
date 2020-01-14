@@ -1,8 +1,8 @@
 ---
 title: Video di formazione Dynamic Media Classic
-description: 'null'
+description: Video di formazione su Dynamic Media Classic dedicati all’authoring, all’imaging dinamico, ai video, al portale multimediale, ai modelli e al rendering delle immagini.
 translation-type: tm+mt
-source-git-commit: 19126573aa4fa4d313e30273f0b1af03082565c8
+source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 ---
 
