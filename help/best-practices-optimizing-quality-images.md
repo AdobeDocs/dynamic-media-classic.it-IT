@@ -7,10 +7,10 @@ uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/master_files
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 ---
 
@@ -49,7 +49,7 @@ La nitidezza delle immagini è l’aspetto più complesso e suscettibile ad erro
 
 Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
+Consultate anche [Nitidezza di un’immagine con maschera](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)di contrasto.
 
 Con Dynamic Media Classic potete rendere le immagini più nitide al momento dell’assimilazione, della distribuzione o di entrambi. In molti casi, tuttavia, è necessario rendere le immagini più nitide utilizzando un solo metodo e non entrambi. In genere si ottengono i risultati migliori applicando la nitidezza in fase di distribuzione, agendo sull’URL.
 
@@ -65,7 +65,7 @@ Esistono due metodi per rendere le immagini più nitide:
 
          Tenete presente che i parametri `radius` e `amount` funzionano in contrapposizione l’uno con l’altro. Reducing `radius` can be compensated by increasing `amount`. Il parametro `Radius` consente di agire con precisione: con un valore ridotto si agisce infatti solo sui pixel del bordo, mentre con un valore più elevato si agisce su una fascia più ampia di pixel.
 
-      * `threshold` (0-255, sensibilità dell'effetto.)
+      * `threshold` (0-255, sensibilità dell&#39;effetto.)
 
          Questo parametro specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e pelle.
       Per ulteriori informazioni su come impostare questi tre parametri, incluse le procedure ottimali per l’utilizzi del filtro, consultate le risorse seguenti:
