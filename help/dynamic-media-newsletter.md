@@ -6,7 +6,7 @@ seo-title: 'Adobe Dynamic Media Newsletter '
 solution: Dynamic Media
 title: Newsletter per contenuti multimediali dinamici
 translation-type: tm+mt
-source-git-commit: e68bef4e597e81269d863e37fcd1d1b33c842836
+source-git-commit: 15beb1fbac7e6bf2c7d593806dc84efeea37d620
 
 ---
 
@@ -22,6 +22,15 @@ In questa newsletter &quot;one-stop shop&quot; potete trovare preziose risorse p
 [Registratevi](https://www.adobe.com/subscription/dynamic-media-newsletter.html) per ricevere la newsletter per contenuti multimediali dinamici mensilmente nella casella in entrata.
 
 ## È stato risolto un problema della Dynamic Media Newsletter?
+
+* **[Febbraio 2020, numero 2](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@5lYjerUalNCDQd6ABlMufSyP3GqbFDn747uBiom3-3_efxsaEjuw8LNhJxrs89ft1vcsQzjvxTGMo55w-4k0YyBVGiL6m5AWSe9I7H7wIXKT0Efz.html)**In questo numero:
+
+   * Partecipa ai nuovi webinar di Generatore di competenze e trasforma in un esperto di Dynamic Media Classic.
+   * Scopri dove troverai Dynamic Media in Adobe Summit 2020.
+   * Scoprite come usare la magia del ritaglio dei contenuti multimediali dinamici.
+   * Grazie a un controllo gratuito potrete sfruttare al meglio Dynamic Media Classic.
+   * Scopri la nuova interfaccia utente per Dynamic Media Classic.
+   * Scopri Georgia Myers, responsabile del successo dei clienti per Adobe Experience Cloud.
 
 * **[Gennaio 2020, Numero 1](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**In questo numero:
 
