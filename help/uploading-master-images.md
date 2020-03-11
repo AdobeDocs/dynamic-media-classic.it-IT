@@ -7,10 +7,10 @@ uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/image_sizing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: dfe86e040d0acc3135fcb596c85867f2d55d9090
 
 ---
 
@@ -25,7 +25,7 @@ Per informazioni sul caricamento delle immagini, consultate [Caricamento dei fil
 
 Preparate i file delle immagini originali prima di caricarli su Scene7 Publishing System:
 
-* **Dimensione** immagine Consente di creare le immagini di dimensioni maggiori che si prevede di usare. Le dimensioni tipiche delle immagini variano da 1500 a 2500 pixel per il lato più lungo. Se intendete usare la funzione di zoom, Dynamic Media Classic consiglia di usare immagini di almeno 2000 pixel nella dimensione più lunga per dettagli di zoom ottimali.
+* **Dimensione** immagine Consente di creare le immagini di dimensioni maggiori che si prevede di usare. Le dimensioni tipiche delle immagini variano da 1500 a 2500 pixel per il lato più lungo. Se intendete usare la funzione di zoom, Dynamic Media Classic consiglia di usare immagini di almeno 2000 pixel nella dimensione più lunga per dettagli di zoom ottimali. Dynamic Media Classic consente di eseguire il rendering delle immagini fino a 25 megapixel ciascuna. Ad esempio, potete usare un’immagine da 5000 x 5000 megapixel o qualsiasi altra combinazione di dimensioni fino a 25 megapixel.
 
 * **Formati** di file Dynamic Media Classic supporta tutti i formati di file immagine standard, inclusi TIFF, BMP, JPEG, PSD, GIF ed EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima.
 
