@@ -1,5 +1,5 @@
 ---
-source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
+source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
 translation-type: tm+mt
 
 ---
@@ -35,13 +35,13 @@ Le eccezioni a questa regola si applicano alle note sulla versione in cui posson
 
 Ogni idea che si potrebbe dover migliorare la documentazione è gradita come contributo. Tuttavia, commenti, problemi e richieste pull sono destinati solo ai *contributi* . Non sono destinati a rispondere alle tue domande su come usare Dynamic Media Classic, implementare il tuo progetto o risolvere problemi tecnici.
 
-Eventuali domande sull’utilizzo di Dynamic Media Classic o eventuali errori tecnici devono essere segnalate attraverso il normale processo di supporto.
+Per qualsiasi domanda sull’utilizzo di Dynamic Media Classic o sugli eventuali errori tecnici, consulta il portale [di assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud Enterprise o discuti nella community [di](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)Experience Cloud.
 
-***I contributi alla documentazione non sostituiscono il supporto*** Adobe e tutti i contributi richiesti per ottenere risposte alle domande relative al supporto verranno rifiutati.
+***I contributi alla documentazione non sostituiscono l’Assistenza*** clienti Adobe e tutti i contributi richiesti per ottenere risposte alle domande relative al supporto verranno rifiutati.
 
 ### I contributi devono fare riferimento in modo chiaro alle pagine della documentazione interessate.
 
-Se apri una segnalazione problema per suggerire miglioramenti alla documentazione, devi includere i collegamenti alle pagine interessate. Se apri una segnalazione problema utilizzando il collegamento **Modifica pagina** di una pagina della documentazione, il problema verrà creato automaticamente con un collegamento alla pagina in questione.
+Se si crea un problema per suggerire miglioramenti alla documentazione, è necessario includere collegamenti alle pagine interessate. Se apri una segnalazione problema utilizzando il collegamento **Modifica pagina** di una pagina della documentazione, il problema verrà creato automaticamente con un collegamento alla pagina in questione.
 
 Ciò non si applica alle richieste pull, in quanto le richieste pull per loro natura fanno riferimento alle pagine interessate.
 
