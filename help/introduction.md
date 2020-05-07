@@ -5,7 +5,10 @@ description: Panoramica di Dynamic Media Classic
 seo-description: Panoramica di Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 31%
 
 ---
 
@@ -19,7 +22,6 @@ Benvenuti in Adobe Dynamic Media Classic (ex Scene7), il sistema leader on-deman
 * Media Portal: Ambiente self-service che consente agli utenti del portale di visualizzare le risorse Dynamic Media Classic in modo controllato dall’amministratore, semplificando l’accesso a tali risorse per il caricamento, la navigazione, la ricerca, la visualizzazione in anteprima e l’esportazione.
 * eVideo: Caricare i video finali in qualsiasi formato, gestire, modificare, creare aree sensibili e modelli video, pubblicare e trasmettere in streaming i video nei visualizzatori video configurabili
 * Configuratori visivi: tecnologia di rendering in tempo reale che consente di creare configurazioni visive online per effetti personalizzati come rendering in tempo reale di colori, trame, superfici, pattern, monogrammi e incisioni nelle immagini o nelle scene.
-* Web-stampa: tecnologia e ambiente di composizione in tempo reale per soluzioni Web-stampa personalizzate per la creazione di documenti personalizzati.
 * E-mail e stampe mirate: distribuzione di campagne e-mail mirate e personalizzate in base al profilo del cliente, al prodotto e ai database dei canali.
 
 ## Risorse chiave
@@ -35,7 +37,6 @@ Benvenuti in Adobe Dynamic Media Classic (ex Scene7), il sistema leader on-deman
 * [Avvio rapido: Set di campioni](/help/quick-start-swatch-sets.md)
 * [Avvio rapido: Integrazione con Target Classic](/help/quick-start-target-classic-integration.md)
 * [Avvio rapido: Funzioni di base dei modelli](/help/quick-start-template-basics.md)
-* [Avvio rapido: Pubblicazione di modelli](/help/quick-start-template-publishing.md)
 * [Avvio rapido: video](/help/quick-start-video.md)
 * [Avvio rapido: zoom](/help/quick-start-zoom.md)
 
