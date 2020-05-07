@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guida di Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 78%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 78%
 # Guida di Dynamic Media Classic {#using}
 
 + [Documentazione su Dynamic Media Classic](home.md)
-+ [Nuova interfaccia utente Dynamic Media Classic in arrivo nella prima metà del 2020](new-ui-2020.md)
++ [NUOVA esperienza di accesso Dynamic Media Classic disponibile dal 30 giugno 2020](new-ui-2020.md)
 + [Dynamic Media Newsletter di Experience League](dynamic-media-newsletter.md)
 + Presentazione di Adobe Dynamic Media Classic {#intro}
    + [Informazioni su Dynamic Media Classic](introduction.md)
