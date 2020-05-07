@@ -2,10 +2,13 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Guida di Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Pubblicazione di modelli](publishing-templates.md)
    + [Collegamento di un modello a una pagina Web](linking-template-web-page.md)
    + [Gestione delle varianti di contenuto](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [Avvio rapido: Pubblicazione di modelli](quick-start-template-publishing.md)
-   + [Creare il modello iniziale in Adobe Illustrator](create-initial-template-illustrator.md)
-   + [Caricare i file per Pubblicazione modelli](upload-files-template-publishing.md)
-   + [Definizione di variabilità: parametrizzazione e modifica DOM](defining-variability-parameterization-versus-dom.md)
-   + [Parametrizzazione di un modello in Dynamic Media Classic](parameterizing-template-scene7.md)
-   + [Visualizzare l’anteprima e aggiornare gli attributi del modello](preview-update-template-attributes.md)
-   + [Modifica DOM](dom-manipulation.md)
-   + [Collegamento di un modello FXG a una pagina Web](linking-fxg-template-web-page.md)
-   + [Creazione di un documento PDF](creating-pdf-document.md)
 + Video {#video}
    + [Avvio rapido: video](quick-start-video.md)
    + [Procedura ottimale: utilizzo del visualizzatore per video HTML5](best-practice-using-html5-video.md)
