@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
+source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 L’ottimizzazione della qualità delle immagini può richiedere del tempo, poiché molti fattori incidono sui risultati. Inoltre il risultato ottenuto è in parte soggettivo in quanto persone diverse percepiscono in modo differente la qualità dell’immagine. È indispensabile procedere mediante sperimentazione strutturata.
 
-Dynamic Media Classic include più di 100 comandi di gestione delle immagini per ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
+Dynamic Media Classic include più di 100 comandi per la gestione delle immagini per ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
 
 Vedere anche [Smart imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
@@ -27,7 +30,7 @@ Vedere anche [Smart imaging](https://helpx.adobe.com/experience-manager/6-3/asse
 
 * I formati JPG e PNG rappresentano la scelta migliore per la distribuzione di immagini di buona qualità e di dimensioni gestibili.
 * Se nell’URL non viene fornito alcun comando di formato, per impostazione predefinita viene utilizzato il formato JPG.
-* Con il formato JPG si ottiene un rapporto di compressione di 10:1 e si ottengono in genere file di dimensioni ridotte. Con il formato PNG si ottiene un rapporto di compressione di 2:1 ad eccezione di alcuni casi, ad esempio per le immagini con sfondo bianco. In genere, tuttavia, i file PNG sono di dimensioni maggiori rispetto ai file JPG.
+* Con il formato JPG si ottiene un rapporto di compressione di 10:1 e si ottengono in genere file di dimensioni ridotte. Il formato PNG viene compresso con un rapporto di circa 2:1, tranne in alcuni casi, ad esempio quando le immagini contengono uno sfondo vuoto. In genere, tuttavia, i file PNG sono di dimensioni maggiori rispetto ai file JPG.
 * Il formato JPG utilizza la compressione con perdita di dati, ossia durante la compressione vengono omessi degli elementi grafici (pixel). Il formato PNG utilizza invece la compressione senza perdita di dati.
 * Il formato JPG spesso comprime le immagini fotografiche con fedeltà migliore rispetto alle immagini sintetiche contenenti bordi netti e contrasto ben definito.
 * Se le immagini contengono trasparenze, utilizzate il formato PNG perché il JPG non supporta la trasparenza.
@@ -41,7 +44,7 @@ La riduzione dinamica delle dimensioni delle immagini è una delle attività pi�
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. Questi parametri impostano automaticamente la larghezza dell’immagine in base alle proporzioni.
 * `&resMode=<value>` controlla l’algoritmo utilizzato per il downsampling. Cominciate con `&resMode=sharp2`. Questo valore offre la qualità immagine migliore. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
-Come procedura ottimale per il ridimensionamento, l’utilizzo `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
+Come procedura ottimale per il ridimensionamento delle immagini, l’utilizzo `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
 
 ## Procedure ottimali per la nitidezza delle immagini {#best-practices-for-image-sharpening}
 
@@ -67,10 +70,10 @@ Esistono due metodi per rendere le immagini più nitide:
 
       * `threshold` (0-255, sensibilità dell&#39;effetto.)
 
-         Questo parametro specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e pelle.
+         Questo parametro determina la differenza tra i pixel da rendere più nitidi rispetto all’area circostante, prima che vengano considerati pixel del bordo e che il filtro li renda più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato per evitare di aggiungere “disturbo”, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
       Per ulteriori informazioni su come impostare questi tre parametri, incluse le procedure ottimali per l’utilizzi del filtro, consultate le risorse seguenti:
 
-      Argomento della guida di Dynamic Media Classic sulla [nitidezza di un’immagine](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+      Argomento dell’Aiuto di Dynamic Media Classic sulla [nitidezza di un’immagine](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
       Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
