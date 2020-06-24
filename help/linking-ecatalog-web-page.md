@@ -2,22 +2,25 @@
 title: Collegamento di un eCatalog a una pagina Web
 seo-title: Collegamento di un eCatalog a una pagina Web
 description: 'null'
-seo-description: Scoprite come collegare un ecatalog a una pagina Web.
-uuid: 90098 a 90-180 b -477 a -8533-24 a 52 a 93200 b
+seo-description: Scoprite come collegare un eCatalog a una pagina Web.
+uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/ecatalogs
-discoiquuid: 140640 f 2-3 ca 4-4 b 6 c-a 240-5 f 01 be 87 fa 9
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 91%
 
 ---
 
 
 # Collegamento di un eCatalog a una pagina Web{#linking-an-ecatalog-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto dei server di immagini Dynamic Media, compresi gli ecatalog, mediante stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l’eCatalog nelle pagine Web e nelle applicazioni, copiate la stringa o il codice da Scene7 Publishing System.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server, inclusi gli eCatalog, mediante stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l’eCatalog nelle pagine Web e nelle applicazioni, copiate la stringa o il codice da Scene7 Publishing System.
 
 >[!NOTE]
 >
@@ -30,15 +33,15 @@ I siti Web e le applicazioni accedono al contenuto dei server di immagini Dynami
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, fate clic su **Copia URL** a destra del visualizzatore desiderato.
-   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
@@ -46,11 +49,11 @@ I siti Web e le applicazioni accedono al contenuto dei server di immagini Dynami
 
 Il modo più comune di pubblicare un eCatalog consiste nell’inserire nella pagina Web un collegamento sotto forma di miniatura della copertina dell’eCatalog. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli e esempi di codice, consultate [Incorporazione di visualizzatore HTML 5 per ecatalog nella Guida di riferimento dei visualizzatori Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_ecatalog_viewer_about.html).
+Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento del visualizzatore per eCatalog HTML5 nella guida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)di riferimento dei visualizzatori Adobe.
 
 ## Copia del codice da incorporare di un visualizzatore di eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore dell’eCatalog selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La funzione Incorpora codice permette di analizzare il codice visualizzatore dell’eCatalog selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Incorpora codice.
 
 **Per copiare il codice da incorporare di un visualizzatore di eCatalog**
 
@@ -59,15 +62,15 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL a destra, fate clic su **Incorpora codice**.
-   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**.
 
-   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**.
 
-   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**.
 
@@ -75,5 +78,5 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 
    La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-1. Fate clic su Chiudi.
+1. Fai clic su Chiudi.
 
