@@ -2,13 +2,16 @@
 title: Aggiunta di sottotitoli a video
 seo-title: Aggiunta di sottotitoli a video
 description: 'null'
-seo-description: Scopri come aggiungere sottotitoli a video
-uuid: 4 cc 64469-4369-44 a 9-83 db -63 bad 51 aba 8 a
+seo-description: Scoprite come aggiungere didascalie ai video
+uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 69%
 
 ---
 
@@ -31,9 +34,9 @@ Consultate [Aggiunta o modifica di un predefinito per visualizzatori video](prev
 
 Consultate anche [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
-Dynamic Media Classic è in grado di convertire i file di sottotitoli in formato JSON (javascript Object Notation). Questa conversione significa che è possibile includere testo JSON in una pagina Web come trascrizione nascosta ma completa del video. I motori di ricerca possono quindi individuare e indicizzare tale contenuto per consentire agli utenti di trovare più facilmente i video e ottenere dettagli sul contenuto degli stessi.
+Dynamic Media Classic è in grado di convertire i file di sottotitoli in formato JSON (JavaScript Object Notation). Questa conversione significa che è possibile includere testo JSON in una pagina Web come trascrizione nascosta ma completa del video. I motori di ricerca possono quindi individuare e indicizzare tale contenuto per consentire agli utenti di trovare più facilmente i video e ottenere dettagli sul contenuto degli stessi.
 
-See [Serving static (non-image) contents](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_serving_static_nonimage_contents.html) in the *Adobe Image Serving API Help* for more information about using the JSON function in a URL.
+See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html) in the *Adobe Image Serving API Help* for more information about using the JSON function in a URL.
 
 **Per aggiungere sottotitoli a un video**
 
@@ -41,14 +44,14 @@ See [Serving static (non-image) contents](https://marketing.adobe.com/resources/
 
    | Tipo visualizzatore | File di sottotitoli |
    |--- |--- |
-   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file di sottotitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Consultate webvtt](https://dev.w3.org/html5/webvtt/): Formato Tracce video Web. <br><br>Esistono strumenti e servizi gratuiti e a pagamento che potete utilizzare per creare file di sottotitoli all’esterno di Scene7 Publishing System. Ad esempio, per creare un semplice file di sottotitoli video senza alcuno stile, potete usare il seguente strumento online gratuito per la creazione e modifica di sottotitoli: <br><br>[Webvtt Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Per risultati ottimali, usate lo strumento in Internet Explorer 9 o versione successiva, Google Chrome o Safari. <br><br>In questo strumento, nel campo <b>Enter URL of video file</b> (Inserire l’URL del file video), incollate l’URL del file video e fate clic su <b>Load</b> (Carica). <br><br>Ad esempio, se usate un URL Dynamic Media Classic per il file video, in SPS fate doppio clic su una singola risorsa video (non un set video adattivo o un video principale) per aprirla in visualizzazione Dettagli. Nel pannello a destra della vista Dettagli, espandete URL e codice da incorporare. Quindi nel gruppo Mobile, a destra di Mobile (progressivo), fate clic su Copia URL. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. Internet Explorer, Chrome o Safari possono quindi riprodurre il video in modo nativo. Seguite ora le istruzioni visualizzate dal sito per creare e salvare il file WebVTT. Al termine, copiate il contenuto del file dei sottotitoli, incollatelo in un editor di solo testo e salvatelo con l’estensione .vtt. <br><br><b>Nota:</b> Per il supporto globale di sottotitoli video in lingue diverse dall'inglese, tenete presente che lo standard webvtt richiede che vengano creati file. vtt e chiamate separati per ogni lingua da supportare. <br><br>In genere, è consigliabile assegnare al file VTT dei sottotitoli lo stesso nome del file video, aggiungendo il suffisso captions. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web. |
+   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file di sottotitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Vedere WebVTT](https://dev.w3.org/html5/webvtt/): Il formato Web Video Text Tracks (Tracce testo video Web). <br><br>Esistono strumenti e servizi gratuiti e a pagamento che potete utilizzare per creare file di sottotitoli all’esterno di Scene7 Publishing System. Ad esempio, per creare un semplice file di sottotitoli video senza alcuno stile, potete utilizzare il seguente strumento online gratuito per la creazione e modifica di sottotitoli: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Per risultati ottimali, utilizzare lo strumento in Internet Explorer 9 o versione successiva, Google Chrome o Safari. <br><br>In questo strumento, nel campo <b>Enter URL of video file</b> (Inserire l’URL del file video), incollate l’URL del file video e fate clic su <b>Load</b> (Carica). <br><br>Ad esempio, se usate un URL Dynamic Media Classic per il file video, in SPS fate doppio clic su una singola risorsa video (non un set video adattivo o un video principale) per aprirla in visualizzazione Dettagli. Nel pannello a destra della vista Dettagli, espandete URL e codice da incorporare. Quindi nel gruppo Mobile, a destra di Mobile (progressivo), fate clic su Copia URL. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. A quel punto, Internet Explorer, Chrome o Safari possono riprodurre il video in modalità nativa. Seguite ora le istruzioni visualizzate dal sito per creare e salvare il file WebVTT. Al termine, copiate il contenuto del file dei sottotitoli, incollatelo in un editor di solo testo e salvatelo con l’estensione .vtt. <br><br><b>Nota:</b> Per il supporto globale di sottotitoli video in lingue diverse dall’inglese, tenete presente che lo standard WebVTT richiede la creazione di file .vtt e chiamate separati per ogni lingua da supportare. <br><br>In genere, è consigliabile assegnare al file VTT dei sottotitoli lo stesso nome del file video, aggiungendo il suffisso captions. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web. |
 
 1. In Scene7 Publishing System, caricare il file di sottotitoli WebVTT, DFXP o SMPTE XML.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video da associare al file di sottotitoli che avete caricato.
-1. Nel pannello delle risorse, selezionate una singola risorsa video, quindi, sotto la miniatura della risorsa, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+1. Nel pannello delle risorse, selezionate una singola risorsa video, quindi, sotto la miniatura della risorsa, fate clic su **Anteprima** > **Elenco visualizzatori**.
 1. In the Viewer List table, find the HTML5 viewer named **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, or **Universal_HTML5_MixedMedia_light**, then do one of the following:
 
    * Per un’esperienza di visualizzazione con video a comparsa, fate clic su **Copia URL** all’estrema destra del nome.
