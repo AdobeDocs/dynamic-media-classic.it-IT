@@ -7,10 +7,13 @@ uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/setup
-discoiquuid: ae2d1895-a437-4463-bface-3960c8027551
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
+discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '11120'
+ht-degree: 71%
 
 ---
 
@@ -25,19 +28,19 @@ Potete usare le pagine Impostazione applicazione per specificare le impostazioni
 
 ## Impostazioni generali {#general-settings}
 
-To open the Application General Settings page, on the Global Navigation bar, click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.
+Per aprire la pagina Impostazioni generali applicazione, nella barra di navigazione globale fate clic su **[!UICONTROL Configurazione > Impostazione applicazione > Impostazioni generali]**.
 
 ### Server
 
-Al momento della creazione dell’account, Dynamic Media Classic fornisce automaticamente i server assegnati alla società. I server vengono utilizzati per generare stringhe URL per il proprio sito Web e le applicazioni. Tali chiamate URL sono specifiche dell’account utente.
+Al momento della creazione dell&#39;account, Dynamic Media Classic fornisce automaticamente i server assegnati alla società. I server vengono utilizzati per generare stringhe URL per il proprio sito Web e le applicazioni. Tali chiamate URL sono specifiche dell’account utente.
 
 Consultate anche [Verifica del servizio di verifica protetta](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-**Nome** server pubblicato Questo server è il server CDN attivo utilizzato in tutte le chiamate URL generate dal sistema specifiche per l’account. Non modificate il nome del server a meno che non venga richiesto espressamente da un tecnico del supporto per Dynamic Media Classic.
+**Nome** server pubblicato Questo server è il server CDN attivo utilizzato in tutte le chiamate URL generate dal sistema specifiche per l’account. Non modificate il nome del server a meno che non venga richiesto espressamente da un tecnico del supporto Dynamic Media Classic.
 
-**Nome** server origine Questo server viene utilizzato solo per il controllo qualità. Non modificate il nome del server a meno che non venga richiesto da un tecnico del supporto per Dynamic Media Classic.
+**Nome** server origine Questo server viene utilizzato solo per il controllo qualità. Non modificate il nome del server a meno che non venga richiesto da un tecnico del supporto Dynamic Media Classic.
 
-**Nome** server AGM Questo server viene utilizzato per i modelli Web-stampa. ed è impostato a livello di società. Non modificate il nome del server a meno che non venga richiesto da un tecnico del supporto per Dynamic Media Classic.
+**Nome** server AGM Questo server viene utilizzato per i modelli Web-stampa. ed è impostato a livello di società. Non modificate il nome del server a meno che non venga richiesto da un tecnico del supporto Dynamic Media Classic.
 
 **Nome** server Test&amp;Target L’URL Test&amp;Target, fino a .com incluso. Per istruzioni su come ottenere questo URL, consultate Integrazione di Dynamic Media Classic con Target Classic.
 
@@ -59,7 +62,7 @@ For example, suppose you enter an image URL (including image presets or modifier
 
 If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-Se si imposta il modello per Annulla validità CDN, si seleziona un’immagine denominata Backpack_B e si fa clic su **File** &gt; **Annulla validità CDN**, il seguente URL viene generato nell’interfaccia di Annulla validità CDN:
+Se si imposta il modello per Annulla validità CDN, si seleziona un’immagine denominata Backpack_B e si fa clic su **File** > **Annulla validità CDN**, il seguente URL viene generato nell’interfaccia di Annulla validità CDN:
 
 `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
@@ -67,7 +70,7 @@ Nella casella di riepilogo URL, fate clic su **Continua** per cancellare la cach
 
 Dopo aver selezionato il modello di annullamento validità CDN e aver inviato una richiesta per annullare la validità del CDN, nell’interfaccia utente compare un indicatore con una stima del tempo necessario per cancellare la cache.
 
-Analogamente, se sono selezionate più immagini in SPS quando fate clic su **File** &gt; **Annulla validità CDN**, viene inserito un riferimento a ogni immagine nell’URL del modello salvato. Di conseguenza, è possibile definire un modello per Annulla validità CDN con riferimento a ciascun URL al quale viene fatto riferimento nel sito Web (ad esempio dettagli prodotti, risultati della ricerca, e così via). Quindi, quando selezionate una o più immagini di cui annullare la validità della cache, gli URL vengono automaticamente inseriti nell’interfaccia.
+Analogamente, se sono selezionate più immagini in SPS quando fate clic su **File** > **Annulla validità CDN**, viene inserito un riferimento a ogni immagine nell’URL del modello salvato. Di conseguenza, è possibile definire un modello per Annulla validità CDN con riferimento a ciascun URL al quale viene fatto riferimento nel sito Web (ad esempio dettagli prodotti, risultati della ricerca, e così via). Quindi, quando selezioni una o più immagini della cache di cui annullare la validità, gli URL compilano automaticamente l’interfaccia.
 
 Consultate [Memorizzazione dei contenuti nella cache](scene7-platform-overview.md#content_caching).
 
@@ -83,11 +86,11 @@ Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_
 
 **Mostra video** codificati deselezionati (disattivati) per impostazione predefinita.
 
-Per cercare e sfogliare rapidamente i video in Scene7 Publishing System senza dover navigare attraverso numerosi derivati codificati dello stesso video, lascia deselezionata questa opzione (impostazione predefinita). Nell’interfaccia utente vengono visualizzate solo l’anteprima Video principale, ossia il video sorgente caricato e utilizzato per creare tutte le versioni derivate, e nell’interfaccia utente viene visualizzata solo l’anteprima del set video adattivo "padre", che contiene tutte le versioni derivate "figlio" del set video codificato.
+Per cercare e sfogliare rapidamente i video in Scene7 Publishing System senza dover navigare attraverso numerosi derivati codificati dello stesso video, lascia deselezionata questa opzione (impostazione predefinita). Nell’interfaccia utente vengono visualizzate solo l’anteprima Video principale, ossia il video sorgente caricato e utilizzato per creare tutte le versioni derivate, e nell’interfaccia utente viene visualizzata solo l’anteprima del set video adattivo &quot;padre&quot;, che contiene tutte le versioni derivate &quot;figlio&quot; del set video codificato.
 
 Tuttavia, potete comunque accedere ai singoli video codificati a partire dal video principale o dal set video adattivo. A questo scopo, fate doppio clic sulla miniatura del video per aprire la visualizzazione Dettagli. Fate clic su **Video codificati** nel pannello a destra per accedere ai video secondari.
 
-Potete inoltre scegliere **File &gt; Rielabora** per creare altri video codificati secondari direttamente da un set di video adattivi. Scene7 Publishing System individua automaticamente il video principale padre del set di video adattivi e lo utilizza come video sorgente per la transcodifica. Quando salvate i nuovi video codificati, tuttavia, questi non vengono visti nelle operazioni di ricerca o navigazione. Sono comunque accessibili dalla scheda Video codificati in visualizzazione Dettagli.
+Potete inoltre scegliere **File > Rielabora** per creare altri video codificati secondari direttamente da un set di video adattivi. Scene7 Publishing System individua automaticamente il video principale padre del set di video adattivi e lo utilizza come video sorgente per la transcodifica. Quando salvate i nuovi video codificati, tuttavia, questi non vengono visti nelle operazioni di ricerca o navigazione. Sono comunque accessibili dalla scheda Video codificati in visualizzazione Dettagli.
 
 Consultate [Caricamento e transcodifica di video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -105,7 +108,7 @@ Alcune azioni nel menu Genera funzionano solo o eventualmente con singoli video.
 
 **Server** Elenca il server account FTP.
 
-**Nome** utente Elenca il nome utente dell'account FTP.
+**Nome** utente Elenca il nome utente dell&#39;account FTP.
 
 **Carica nell’applicazione**
 
@@ -147,27 +150,27 @@ Questa opzione rappresenta la regola di sostituzione meno restrittiva. L’immag
 
 Dynamic Media Classic non consente a due file di avere lo stesso nome. Ciascun elemento deve avere un ID Scene7 Publishing System (il nome immagine senza l’estensione del nome file) univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi immagini. Il risultato effettivo di questa opzione dipende dalla configurazione delle impostazioni interne di Scene7 Publishing System definita per ciascuna società.
 
-Se avete precedentemente caricato delle immagini e quindi modificato i file originali (o li avete sostituiti), l’opzione Sovrascrivi selezionata specifica in che modo Dynamic Media Classic sostituisce le immagini. I dati relativi all’immagine non vengono modificati, ma la nuova immagine sostituisce la precedente. Se la cartella contiene anche immagini che non sono già presenti in Dynamic Media Classic, queste vengono aggiunte.
+Se avete precedentemente caricato delle immagini e quindi modificato i file originali (o li avete sostituiti), l’opzione Sovrascrivi selezionata specifica come Dynamic Media Classic sostituisce le immagini. I dati relativi all’immagine non vengono modificati, ma la nuova immagine sostituisce la precedente. Se la cartella contiene anche immagini che non sono già in Dynamic Media Classic, queste vengono aggiunte.
 
 Usate questa opzione se le immagini caricate sono state modificate (l’immagine è stata manipolata) ma il riferimento all’immagine è rimasto inalterato. L’opzione Sovrascrivi è utile anche quando si caricano e si estraggono dati da file Adobe® PDF. To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-Gli ID Dynamic Media Classic utilizzati per accedere alle immagini dai server di produzione sono derivati dai nomi dei file immagine. L’uso di caratteri maiuscoli e minuscoli nel nome del file è importante, sia per la sostituzione dei file esistenti che per gli ID Dynamic Media Classic utilizzati per accedere all’immagine. Accertatevi che i caratteri maiuscoli e minuscoli nei nomi dei file siano corretti prima di caricarli in Dynamic Media Classic, per evitare che gli ID di Dynamic Media Classic siano diversi solo per la stessa immagine.
+Gli Dynamic Media Classic ID utilizzati per accedere alle immagini dai server di produzione sono derivati dai nomi dei file immagine. L’uso di caratteri maiuscoli e minuscoli nel nome del file è importante, sia per la sostituzione dei file esistenti che per gli ID Dynamic Media Classic utilizzati per accedere all’immagine. Accertatevi che i caratteri maiuscoli e minuscoli nei nomi dei file siano corretti prima del caricamento in Dynamic Media Classic, per evitare ID Dynamic Media Classic che differiscano solo per la stessa immagine.
 
 Se deselezionate questa opzione, tutte le immagini con lo stesso nome file delle immagini esistenti vengono considerate copie e non vengono aggiunte.
 
 ## Predefiniti immagine {#image-presets}
 
-Nella schermata Predefiniti immagine è possibile creare e modificare i predefiniti per le immagini. I predefiniti per immagini consentono a Dynamic Media Classic di distribuire dinamicamente immagini di diverse dimensioni dalla stessa immagine principale. Ogni predefinito immagine rappresenta una raccolta predefinita di comandi di ridimensionamento e formattazione per la visualizzazione delle immagini. Quando create un predefinito per immagini, dovete scegliere una dimensione da usare per la distribuzione delle immagini. È inoltre necessario scegliere dei comandi di formattazione con cui ottimizzare l’aspetto delle immagini per la distribuzione.
+Nella schermata Predefiniti immagine è possibile creare e modificare i predefiniti per le immagini. I predefiniti per immagini consentono ad Dynamic Media Classic di distribuire dinamicamente immagini di diverse dimensioni dalla stessa immagine principale. Ogni predefinito immagine rappresenta una raccolta predefinita di comandi di ridimensionamento e formattazione per la visualizzazione delle immagini. Quando create un predefinito per immagini, dovete scegliere una dimensione da usare per la distribuzione delle immagini. È inoltre necessario scegliere dei comandi di formattazione con cui ottimizzare l’aspetto delle immagini per la distribuzione.
 
 Gli amministratori possono creare predefiniti per l’esportazione delle risorse. Gli utenti possono scegliere un predefinito durante l’esportazione di immagini, per riformattarle in base alle specifiche definite dall’amministratore.
 
-To open the Image Preset screen, on the Global Navigation bar, click **Setup** &gt; **Image Presets**.
+To open the Image Preset screen, on the Global Navigation bar, click **Setup** > **Image Presets**.
 
 Consultate [Smart imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
 ### Creazione e modifica dei predefiniti per visualizzatori {#creating-and-editing-image-presets}
 
-1. Fate clic su **Configurazione** &gt; **Predefiniti immagini**.
+1. Fate clic su **Configurazione** > **Predefiniti immagini**.
 1. Create un nuovo predefinito o iniziate da uno esistente: 
    * **Creazione di un predefinito** per immagini - Fate clic su **Aggiungi**.
    * **Creazione di un predefinito per immagini da un predefinito** esistente - Selezionate il predefinito per immagini più simile a quello che desiderate creare, quindi fate clic su Modifica.
@@ -196,7 +199,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
    **Tipo**
 
-   Scegli Adattivo (il valore predefinito), Web o Macintosh. Se scegli GIF con Alfa, l'opzione Macintosh® non è disponibile.
+   Scegli Adattivo (il valore predefinito), Web o Macintosh. Se scegli GIF con Alfa, l&#39;opzione Macintosh® non è disponibile.
 
    **Dithering**
 
@@ -240,7 +243,7 @@ Per ulteriori informazioni sulla nitidezza, le modalità di ricampionamento e la
 
 **Sharp2** Può produrre risultati leggermente più nitidi rispetto all’opzione Bicubico, ma con una CPU ancora più elevata sul server immagini.
 
-**Tri-Lineare** utilizza risoluzioni più elevate e più basse, se disponibili; consigliato solo quando l'aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
+**Tri-Lineare** utilizza risoluzioni più elevate e più basse, se disponibili; consigliato solo quando l&#39;aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
 **Maschera di contrasto** Scegliete le seguenti opzioni per regolare la nitidezza:
 
@@ -258,19 +261,19 @@ Per ulteriori informazioni sulla nitidezza, le modalità di ricampionamento e la
 
 Consultate anche [Profili ICC](icc-profiles.md#icc_profiles).
 
-**Intento** di rendering Selezionate un'opzione se desiderate ignorare l'intento di rendering predefinito del profilo colore. Usate questa opzione quando uno dei profili ICC predefiniti è lo spazio colore di destinazione di una conversione colore, un dispositivo di output (stampante o monitor) è caratterizzato da tale profilo e l’intento di rendering è valido per questo profilo.
+**Intento** di rendering Selezionate un&#39;opzione se desiderate ignorare l&#39;intento di rendering predefinito del profilo colore. Usate questa opzione quando uno dei profili ICC predefiniti è lo spazio colore di destinazione di una conversione colore, un dispositivo di output (stampante o monitor) è caratterizzato da tale profilo e l’intento di rendering è valido per questo profilo.
 
-**Incorpora profilo** Selezionate questa opzione affinché, se aprite l'immagine in Adobe® Photoshop®, venga utilizzato questo profilo.
+**Incorpora profilo** Selezionate questa opzione affinché, se aprite l&#39;immagine in Adobe® Photoshop®, venga utilizzato questo profilo.
 
-**Risoluzione** di stampa Scegliere una risoluzione per la stampa dell'immagine; Il valore predefinito è 72 pixel.
+**Risoluzione** di stampa Scegliere una risoluzione per la stampa dell&#39;immagine; Il valore predefinito è 72 pixel.
 
 **Modificatori** URL Se preferite specificare i modificatori URL che definiscono il predefinito per immagini, anziché le impostazioni, inserite qui i modificatori.
 
-**URL** immagine campione Mostra la stringa URL "non elaborata" usata dal server immagini per distribuire le immagini con il predefinito per immagini che si sta aggiungendo o modificando. Nella stringa URL vengono codificate tutte le impostazioni di formattazione selezionate nella schermata Aggiungi predefinito o Modifica predefinito.
+**URL** immagine di esempio Mostra la stringa URL &quot;non elaborata&quot; utilizzata dal server immagini Dynamic Media per distribuire le immagini con il predefinito per immagini che si sta aggiungendo o modificando. Nella stringa URL vengono codificate tutte le impostazioni di formattazione selezionate nella schermata Aggiungi predefinito o Modifica predefinito.
 
 ### Modifica, rimozione o disattivazione di un predefinito immagine {#editing-removing-or-deactivating-an-image-preset}
 
-1. Fate clic su **Configurazione** &gt; **Predefiniti immagini**.
+1. Fate clic su **Configurazione** > **Predefiniti immagini**.
 1. Nella schermata Predefiniti immagine, selezionate un predefinito nella tabella ed effettuate una delle seguenti operazioni:
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
@@ -287,7 +290,7 @@ Consultate [Caricamento e codifica dei video](uploading-encoding-videos.md#uploa
 
 **Per attivare o disattivare i predefiniti video adattivi**
 
-1. Nell’angolo in alto a destra di Scene7 Publishing System, fate clic su **Configurazione** &gt; **Impostazione applicazione** &gt; **Predefiniti video** &gt; **Predefiniti video adattati**.
+1. Nell’angolo in alto a destra di Scene7 Publishing System, fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti video** > **Predefiniti video adattati**.
 1. Nella pagina Predefiniti video adattati, deselezionate la casella di controllo accanto al nome di un predefinito per eliminarlo dall’elenco Opzioni eVideo nella finestra di dialogo Opzioni processo di caricamento.
 1. Fate clic su **Chiudi**.
 
@@ -297,7 +300,7 @@ Per scegliere un predefinito di codifica, fate clic su Opzioni processo nell’a
 
 >[!NOTE]
 >
->Con l’eccezione di “Video adattivo”, abilitato per impostazione predefinita, non tutti gli altri predefiniti di codifica singola o adattiva sono visualizzati nella finestra di dialogo Opzioni processo di caricamento. Gli amministratori di Dynamic Media Classic determinano quali predefiniti di codifica video sono visibili nella finestra di dialogo Opzioni processo di caricamento.
+>Con l’eccezione di “Video adattivo”, abilitato per impostazione predefinita, non tutti gli altri predefiniti di codifica singola o adattiva sono visualizzati nella finestra di dialogo Opzioni processo di caricamento. Gli amministratori di Dynamic Media Classic determinano quali predefiniti di codifica video visualizzare nella finestra di dialogo Opzioni processo di caricamento.
 
 * Scegliete uno dei seguenti predefiniti di codifica per video adattivi o per codifica singola:
 
@@ -339,7 +342,7 @@ Dopo aver fatto clic sul pulsante **Avvia caricamento**, il file video principal
 
 I parametri delle opzioni dei predefiniti di codifica sono i seguenti:
 
-**Velocità** di connessione di destinazione La velocità di connessione Internet dell’utente finale di destinazione.
+**Velocità** di connessione Target La velocità di connessione Internet dell’utente finale di destinazione.
 
 **Suffisso** del file codificato Il suffisso associato al file video codificato a scopo di identificazione.
 
@@ -447,9 +450,9 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 Un *predefinito per visualizzatori* è un gruppo di impostazioni con cui viene definito in che modo le risorse multimediali verranno visualizzate sullo schermo del computer e sui dispositivi mobili dell’utente. In qualità di amministratore, potete creare dei predefiniti per visualizzatori. Sono disponibili impostazioni per un’ampia gamma di opzioni di configurazione dei visualizzatori. Ad esempio, è possibile modificare le dimensioni dello schermo del visualizzatore, il comportamento dello zoom, gli schemi di colori, i bordi e i font.
 
-Come procedura ottimale, usate i visualizzatori per video HTML5 Dynamic Media Classic. I predefiniti utilizzati nei visualizzatori Video HTML5 sono lettori video affidabili. Combinando in un singolo lettore la possibilità di progettare i componenti di riproduzione in HTML5 e CSS, usufruire di riproduzione incorporata e utilizzare lo streaming adattativo e progressivo a seconda delle caratteristiche del browser, i contenuti multimediali potranno essere visti dagli utenti con computer desktop, tablet e dispositivi mobili. Potrete così offrire ai visitatori un’esperienza di streaming video ottimizzata.
+Come procedura ottimale, usate i visualizzatori video HTML5 di Dynamic Media Classic. I predefiniti utilizzati nei visualizzatori Video HTML5 sono lettori video affidabili. Combinando in un singolo lettore la possibilità di progettare i componenti di riproduzione in HTML5 e CSS, usufruire di riproduzione incorporata e utilizzare lo streaming adattativo e progressivo a seconda delle caratteristiche del browser, i contenuti multimediali potranno essere visti dagli utenti con computer desktop, tablet e dispositivi mobili. Potrete così offrire ai visitatori un’esperienza di streaming video ottimizzata.
 
-Consultate [I visualizzatori](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) HTML5 nella guida di riferimento dei visualizzatori Adobe.
+Consultate [I visualizzatori](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 nella guida di riferimento dei visualizzatori Adobe.
 
 Consultate Matrice [di compatibilità dei predefiniti per visualizzatori](application-setup.md#scene7_viewer_preset_compatibility_matrix)Dynamic Media Classic.
 
@@ -477,7 +480,7 @@ Gli amministratori possono creare e personalizzare i seguenti tipi di predefinit
 
 **Visualizzatore** di set 360 gradi Consente di visualizzare più visualizzazioni di un’immagine per consentire agli utenti di ruotare l’oggetto in modo da esaminare i diversi lati e angolazioni.
 
-**Visualizzatore** video Consente di visualizzare i video usando le dimensioni di risoluzione del file sorgente o una dimensione personalizzata. Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori per la riproduzione di video; inoltre, se siete un amministratore, potete creare predefiniti per visualizzatori video personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore di primo piano e di sfondo, i controlli audio e video, la barra di avanzamento, l’interfaccia utente, le funzioni per social networking e l’Aiuto.
+**Visualizzatore** video Consente di visualizzare i video usando le dimensioni di risoluzione del file sorgente o una dimensione personalizzata. Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori per la riproduzione di video; inoltre, se siete un amministratore, potete creare dei predefiniti per visualizzatori video personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore di primo piano e di sfondo, i controlli audio e video, la barra di avanzamento, l’interfaccia utente, le funzioni per social networking e l’Aiuto.
 
 **Visualizzatori** zoom Offre tre tipi di visualizzatori zoom:
 
@@ -501,7 +504,7 @@ Consultate anche Esempi [della libreria di riferimenti per visualizzatori](https
 
 Per informazioni sui browser Web e sulle versioni del sistema operativo supportati per i visualizzatori, consultate le relative Note sulla versione.
 
-Consultate [Note](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)sulla versione di riferimento dei visualizzatori Adobe.
+Consultate [Note](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)sulla versione di riferimento dei visualizzatori Adobe.
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android | Tablet Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -542,7 +545,7 @@ Consultate [Note](https://marketing.adobe.com/resources/help/en_US/s7/viewers_re
 
 Dynamic Media Classic supporta la riproduzione di video mobile per video MP4 H.264.
 
-* Per un elenco dei dispositivi BlackBerry che supportano questo formato video, consultate: Formati video [supportati su Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Per un elenco dei dispositivi BlackBerry che supportano questo formato video, consultate: [Formati video supportati su Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * Per un elenco dei dispositivi Windows che supportano questo formato video, consultate i seguenti:Formati video[supportati su Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android | Tablet Android | Smartphone Blackberry | Windows Phone |
@@ -569,7 +572,7 @@ Nella tabella seguente sono descritti i gesti per visualizzatori mobili supporta
 
 ### Informazioni sulla schermata Preimpostazioni visualizzatore {#about-the-viewer-preset-screen}
 
-Potete creare e gestire i predefiniti per visualizzatori nella schermata Predefiniti per visualizzatore. Per aprire questa schermata, fate clic su **Configurazione** &gt; **Predefiniti visualizzatore**.
+Potete creare e gestire i predefiniti per visualizzatori nella schermata Predefiniti per visualizzatore. Per aprire questa schermata, fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 
 La schermata Predefiniti visualizzatore offre strumenti che consentono di eseguire le seguenti attività:
 
@@ -592,7 +595,7 @@ Consultate [Esportazione di un predefinito](application-setup.md#exporting_an_ht
 * Aprite l’elenco a discesa **Attivo/Inattivo** e scegliete un’opzione per mostrare i predefiniti attivi, i predefiniti inattivi o tutti i predefiniti.
 * Aprite l’elenco a discesa **Visualizzatore** e scegliete un’opzione per visualizzare soltanto alcuni visualizzatori specifici. Scegliete **Tutti i visualizzatori** per visualizzare tutti i visualizzatori.
 
-**Ordinamento dei predefiniti** Fate clic sull’intestazione di una colonna (Attivo, Tipo, Predefinito o Piattaforma) per ordinare l’elenco in base a una colonna. Fate clic sul titolo di una colonna una seconda volta per ordinare l’elenco in ordine decrescente (o crescente).
+**Ordinamento dei predefiniti** Fate clic sull’intestazione di una colonna (Attivo, Tipo, Predefinito o Platform) per ordinare l’elenco in base a una colonna. Fate clic sul titolo di una colonna una seconda volta per ordinare l’elenco in ordine decrescente (o crescente).
 
 **Attivazione e disattivazione dei predefiniti** Selezionate un predefinito e fate clic sull’opzione Attivo per attivarlo o disattivarlo.
 
@@ -610,7 +613,7 @@ Consultate [Esportazione di un predefinito](application-setup.md#exporting_an_ht
 
 **Per aggiungere o modificare dei predefiniti per visualizzatori**
 
-1. Nell’angolo in alto a destra di Scene7 Publishing System, fate clic su **Configurazione** &gt; **Predefiniti visualizzatore**.
+1. Nell’angolo in alto a destra di Scene7 Publishing System, fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 
    Potete filtrare l’elenco dei predefiniti. Ad esempio, per visualizzare soltanto i predefiniti per i visualizzatori video, selezionate Visualizzatore video dall’elenco a discesa Visualizzatori nella barra degli strumenti che si trova appena sopra la tabella.
 
@@ -624,7 +627,7 @@ Consultate [Esportazione di un predefinito](application-setup.md#exporting_an_ht
 
    Dopo aver configurato il visualizzatore video, fate clic su **Salva con nome** per salvare il predefinito specificando un altro nome nel campo Nome predefinito.
 
-   **Modifica** Selezionate un predefinito per visualizzatori esistente e fate clic su **Modifica**.
+   **Modifica** Selezionate un predefinito per visualizzatori esistente, quindi fate clic su **Modifica**.
 
 1. Nella schermata Configura visualizzatore, immettete o modificate il nome del predefinito nel campo Nome predefinito.
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
@@ -644,7 +647,7 @@ Consultate [Esportazione di un predefinito](application-setup.md#exporting_an_ht
 
 Potete esportare un predefinito per visualizzatori HTML5 esistente da usare come base per la creazione di un nuovo predefinito per visualizzatori HTML5. In questo modo si evita di dover creare un visualizzatore da zero. Se esportate un predefinito con aspetto e comportamento simili a quelli desiderati, potrete usarlo come base di partenza per apportare le regolazioni necessarie.
 
-Tenete presente che tutti i file CSS predefiniti per visualizzatori in SPS usano percorsi di trasmissione delle immagini relativi che puntano alle risorse presenti in `Scene7SharedAssets`. Ad esempio, di seguito è riportato un percorso relativo a una risorsa immagine in un file CSS predefinito per visualizzatori presente in `Scene7SharedAsset`: Se `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`invece ospitate file CSS per visualizzatori sul vostro sito, dovete risolvere il percorso relativo dell’immagine utilizzando un percorso esplicito del server immagini nel vostro ambiente. A scopo illustrativo, se devi aggiornare il percorso relativo sopra a un percorso esplicito, potrebbe essere simile al seguente, dove `https://s7d1.scene7.com` è il percorso diretto del server immagini: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Tenete presente che tutti i file CSS predefiniti per visualizzatori in SPS usano percorsi di trasmissione delle immagini relativi che puntano alle risorse presenti in `Scene7SharedAssets`. Ad esempio, di seguito è riportato un percorso relativo a una risorsa immagine in un file CSS predefinito per visualizzatori presente in `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Tuttavia, se ospitate file CSS del visualizzatore sul vostro sito, dovete risolvere il percorso relativo dell’immagine utilizzando un percorso esplicito del server immagini nel vostro ambiente. A scopo illustrativo, se devi aggiornare il percorso relativo sopra a un percorso esplicito, potrebbe essere simile al seguente, dove `https://s7d1.scene7.com` è il percorso diretto del server immagini: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Per esportare un predefinito per visualizzatori HTML5**
 
@@ -657,7 +660,7 @@ Tenete presente che tutti i file CSS predefiniti per visualizzatori in SPS usano
 https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha
 ```
 
-1. Fate clic su **Configurazione** &gt; **Predefiniti visualizzatore**.
+1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. On the Viewer Presets toolbar, in the second drop-down list from the left, select **HTML5**.
 1. Selezionate **Tutti i visualizzatori** nel terzo elenco a discesa da sinistra.
 1. Selezionate il predefinito per visualizzatori da usare come base per la creazione di un nuovo predefinito per visualizzatori HTML5.
@@ -671,7 +674,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
-1. Pubblicate il file CSS sul server immagini per file multimediali dinamici.
+1. Pubblicate il file CSS su Dynamic Media Image Server.
 
    Consultate [Pubblicazione dei file](publishing-files.md#publishing_files).
 
@@ -687,7 +690,7 @@ Se i predefiniti per visualizzatori non vengono disattivati nella schermata Pred
 
 **Per attivare o disattivare i predefiniti per visualizzatori**
 
-1. Choose **Setup** &gt; **Viewer Presets** to open the Viewer Presets screen.
+1. Choose **Setup** > **Viewer Presets** to open the Viewer Presets screen.
 1. Selezionate o deselezionate l’opzione Attivo per attivare o disattivare i predefiniti per visualizzatori.
 
 ### Copia dell’URL di un predefinito per visualizzatori {#copying-the-url-of-a-viewer-preset}
@@ -702,20 +705,23 @@ L’URL viene copiato negli Appunti. Potete utilizzarlo come desiderate nel codi
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, fate clic su **Copia URL** a destra del visualizzatore desiderato.
-   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
 ### Copiare il codice da incorporare di un predefinito per visualizzatori {#copying-the-embed-code-of-a-viewer-preset}
 
 La funzione Incorpora codice permette di analizzare il codice visualizzatore del predefinito per visualizzatori selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. 
 
-La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La modifica del codice non è consentita nella finestra di dialogo Incorpora codice.
 
 **Per copiare il codice da incorporare di un predefinito per visualizzatori**
 
@@ -723,13 +729,16 @@ La modifica del codice non è consentita nella finestra di dialogo Codice da inc
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL a destra, fate clic su **Incorpora codice**.
-   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**.
 
-   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**.
 
-   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**.
 
 1. Nella finestra di dialogo Codice da incorporare, fate clic su **Copia negli Appunti**.
@@ -750,7 +759,7 @@ Quando utilizzate la funzione Anteprima in Scene7 Publishing System, potete usar
 **Per configurare i visualizzatori predefiniti**
 
 1. In the Setup drop-down list, click **Application Setup**.
-1. In the Setup window, in the left pane, expand **Application Setup** &gt; **Viewers**
+1. In the Setup window, in the left pane, expand **Application Setup** > **Viewers**
 1. Click **Default Viewers**.
 1. Nella finestra Visualizzatori predefiniti, nell’elenco a discesa per ogni tipo di risorsa, selezionate il visualizzatore da associare all’anteprima della risorsa.
 1. In the lower-right corner of the Default Viewers window, click **Save Settings**.
@@ -760,11 +769,11 @@ Quando utilizzate la funzione Anteprima in Scene7 Publishing System, potete usar
 
 I *metadati* sono informazioni standardizzate su una risorsa. Potete utilizzare i metadati per semplificare il flusso di lavoro, organizzare le risorse e migliorare le ricerche. Dynamic Media Classic supporta lo standard IPTC (International Press Telecommunications Council) e XMP (Extensible metadata platform). Prima che gli utenti possano vedere o immettere i metadati di una risorsa in visualizzazione Dettagli, possono aprire il menu Visualizzazioni metadati e scegliere il set di campi di metadati che desiderano visualizzare o utilizzare per descrivere la risorsa.
 
-Dynamic Media Classic viene fornito con visualizzazioni di metadati predefinite e gli amministratori possono creare visualizzazioni di metadati personalizzate che gli utenti possono scegliere quando immettono i metadati.
+Dynamic Media Classic viene fornito con visualizzazioni metadati predefinite e gli amministratori possono creare visualizzazioni metadati personalizzate che gli utenti possono scegliere quando immettono i metadati.
 
 ### Creazione di una visualizzazione metadati {#creating-a-metadata-view}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. Fate clic su **Aggiungi**.
 1. Nel campo di testo Nome predefinito, inserite un nome per la visualizzazione.
 1. (Optional) Check **Make Default** to make this view the one that users see when they open the Metadata panel in Detail View.
@@ -776,7 +785,7 @@ Dynamic Media Classic viene fornito con visualizzazioni di metadati predefinite 
 
 ### Gestione di visualizzazioni metadati {#managing-metadata-views}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. Effettuate una delle seguenti operazioni:
 
    * Per visualizzare un’anteprima di una visualizzazione, selezionatela. I campi della visualizzazione vengono visualizzati nel pannello Anteprima.
@@ -792,7 +801,7 @@ Create un predefinito per metadati per ciascun set di valori per metadati che de
 
 ### Creazione o modifica di un predefinito per metadati {#creating-or-editing-a-metadata-preset}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets** .
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets** .
 1. Nella schermata Predefiniti metadati, effettuate una delle seguenti operazioni:
 
    * To create a preset, click **Add**. Nel campo di testo Nome modello metadati, digitate un nome per il predefinito, quindi fate clic su Visualizzazione **** metadati e scegliete una visualizzazione dall’elenco a discesa (consultate Visualizzazione [](application-setup.md#metadata_views)metadati).
@@ -805,7 +814,7 @@ Create un predefinito per metadati per ciascun set di valori per metadati che de
 
 ### Gestione di predefiniti per metadati {#managing-metadata-presets}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets**.
 1. Effettuate una delle seguenti operazioni:
 
    * Per visualizzare l’anteprima di un predefinito, selezionate il predefinito. Le informazioni sul predefinito (categorie e campi) vengono visualizzate nella schermata Anteprima.
@@ -815,7 +824,7 @@ Create un predefinito per metadati per ciascun set di valori per metadati che de
 
 I campi metadati definiti dall’utente possono essere creati solo da un amministratore di Media Portal o un amministratore società. I campi personalizzati possono essere utili per organizzare le risorse in Scene7 Publishing System. Se necessario, potete contrassegnare i campi come Attivo. Se attivati, i nomi di tali campi di metadati personalizzati compaiono nella visualizzazione Dettagli del pannello Metadati. Nei campi di metadati definiti dall’utente gli utenti possono immettere informazioni per descrivere le risorse. Gli utenti possono inoltre utilizzare tali campi di metadati come criteri di ricerca.
 
-I campi metadati definiti dall’utente sono utili ad esempio per ritardare il momento di attivazione di una risorsa per un lancio o una promozione. È possibile definire un campo di attivazione in base al tipo *Data*. Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System verifica lo stato di pubblicazione di una risorsa e la cronologia delle modifiche. Se non rientra nel tempo di attivazione, lo stato di pubblicazione è "Non pubblicato".
+I campi metadati definiti dall’utente sono utili ad esempio per ritardare il momento di attivazione di una risorsa per un lancio o una promozione. È possibile definire un campo di attivazione in base al tipo *Data*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System verifica lo stato di pubblicazione di una risorsa e la cronologia delle modifiche. Se non rientra nel tempo di attivazione, lo stato di pubblicazione è indicato come &quot;Non pubblicato&quot;.
 
 >[!NOTE]
 >
@@ -823,11 +832,11 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
 >[!NOTE]
 >
->per cercare le risorse utilizzando i campi definiti dall’utente, fate clic su **Configurazione** &gt; **Configurazione personale** e selezionate **Includi UDF nella ricerca**. Consultate [Configurazione personale](personal-setup.md#personal_setup).
+>per cercare le risorse utilizzando i campi definiti dall’utente, fate clic su **Configurazione** > **Configurazione personale** e selezionate **Includi UDF nella ricerca**. Consultate [Configurazione personale](personal-setup.md#personal_setup).
 
 ### Creazione di un campo di metadati definito dall’utente {#creating-a-user-defined-metadata-field}
 
-1. Fate clic su **Configurazione** &gt; **Impostazione applicazione** &gt; **Metadati** &gt; **Campi definiti dall’utente**.
+1. Fate clic su **Configurazione** > **Impostazione applicazione** > **Metadati** > **Campi definiti dall’utente**.
 1. Fate clic su **Aggiungi**.
 1. Nella finestra di dialogo Campo personalizzato, impostate le opzioni desiderate.
 
@@ -849,7 +858,7 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
    **Colore** Il nome di un colore.
 
-   **Dimensione** Larghezza e altezza della risorsa.
+   **Dimensione** La larghezza e l’altezza della risorsa.
 
    **Senza tipo** Per compatibilità con versioni precedenti. Non selezionate questa opzione.
 
@@ -867,13 +876,13 @@ Nella schermata Campi definiti dall’utente sono disponibili i comandi necessar
 
 I campi definiti dall’utente possono essere gestiti solo da un amministratore di Media Portal o un amministratore società.
 
-Per aprire questa schermata, fate clic su **Configurazione** &gt; **Impostazione applicazione** &gt; **Metadati** &gt; **Campi definiti dall’utente**.
+Per aprire questa schermata, fate clic su **Configurazione** > **Impostazione applicazione** > **Metadati** > **Campi definiti dall’utente**.
 
 **Modifica di un campo** Selezionare il campo, quindi fare clic su **Modifica**.
 
 **Eliminazione di un campo** Selezionare il campo, quindi fare clic su **Elimina**.
 
-**Attiva campo** Fare clic per selezionare o deselezionare l'opzione Attivo accanto al nome di un campo. Se rivestite un ruolo di amministratore società, questa opzione potrebbe non essere disponibile. Poiché questa opzione è correlata a Media Portal, per visualizzare i campi di attivazione è necessario selezionare (attivare) Mostra funzioni di Media Portal in Configurazione personale.
+**Attiva campo** Fare clic per selezionare o deselezionare l&#39;opzione Attivo accanto al nome di un campo. Se rivestite un ruolo di amministratore società, questa opzione potrebbe non essere disponibile. Poiché questa opzione è correlata a Media Portal, per visualizzare i campi di attivazione è necessario selezionare (attivare) Mostra funzioni di Media Portal in Configurazione personale.
 
 ## Ottimizzare i file {#optimize-files}
 
@@ -881,7 +890,7 @@ Quando si caricano dei file in Scene7 Publishing System, questi vengono ottimizz
 
 Scene7 Publishing System analizza i file e ottimizza solo le immagini di cui non è stata completata l’ottimizzazione.
 
-1. Scegliete **Configurazione** &gt; Impostazione **** applicazione, quindi selezionate **Ottimizza file**.
+1. Scegliete **Configurazione** > Impostazione **** applicazione, quindi selezionate **Ottimizza file**.
 1. Enter information for the optimization job and click **Submit**.
 
    Se lavorate con più società, ottimizzate separatamente i file appartenenti a società diverse.
@@ -900,8 +909,8 @@ L’amministratore della società può creare una convenzione di denominazione p
 
 Benché la configurazione di una convenzione di denominazione predefinita non sia obbligatoria per definire i predefiniti per set di batch, è comunque consigliabile usarla: consente infatti di specificare tutti gli elementi di denominazione che possono essere raggruppati in un set, semplificando così la creazione di set di batch.
 
-1. Fate clic su **Configurazione** &gt; **Impostazione applicazione** &gt; **Predefiniti set di batch** &gt; **Denominazione predefinita**.
-1. Selezionate **Visualizza modulo** o **Visualizza codice** per specificare la modalità di visualizzazione e di inserimento delle informazioni relative a ciascun elemento.
+1. Fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti set di batch** > **Denominazione predefinita**.
+1. Per specificare come visualizzare e immettere le informazioni di ciascun elemento, seleziona **Visualizza modulo** o **Visualizza codice**.
 
    Selezionate la casella di controllo Visualizza codice per visualizzare i valori delle espressioni regolari che vengono generati mano a mano che selezionate le opzioni del modulo. Qualora la visualizzazione modulo presenti delle limitazioni, potete inserire o modificare tali valori per definire meglio gli elementi di denominazione. Se i valori che avete immesso non possono essere analizzati nella visualizzazione modulo, i campi del modulo corrispondenti vengono disattivati.
 
@@ -928,7 +937,7 @@ Consultate anche [Creazione di un predefinito per set di batch per la generazion
 
 **Per creare un predefinito per set di batch**
 
-1. Fate clic su **Configurazione** &gt; **Impostazione applicazione** &gt; **Predefiniti set di batch** &gt; **Predefinito set di batch**. La vista predefinita e **Visualizza modulo**, come impostato nell’angolo in alto a destra della pagina Dettagli.
+1. Fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti set di batch** > **Predefinito set di batch**. La vista predefinita e **Visualizza modulo**, come impostato nell’angolo in alto a destra della pagina Dettagli.
 1. Nel pannello Elenco predefiniti, fate clic su **Aggiungi** per attivare i campi delle definizioni nel pannello Dettagli nella parte destra della schermata.
 1. Nel pannello Dettagli, digitate nel campo Nome predefinito il nome da assegnare al predefinito.
 1. Selezionate il tipo di predefinito dal menu Tipo set di batch.
@@ -937,7 +946,7 @@ Consultate anche [Creazione di un predefinito per set di batch per la generazion
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Se usate una convenzione di denominazione predefinita precedentemente impostata in Impostazione applicazione &gt; Predefiniti per set di batch &gt; Denominazione predefinita, espandete **Convenzioni di denominazione delle risorse** e, dall’elenco a discesa Denominazione file, scegliete **Impostazione predefinita**.
+   * Se usate una convenzione di denominazione predefinita precedentemente impostata in Impostazione applicazione > Predefiniti per set di batch > Denominazione predefinita, espandete **Convenzioni di denominazione delle risorse** e, dall’elenco a discesa Denominazione file, scegliete **Impostazione predefinita**.
    * Per definire una convenzione di denominazione durante l’impostazione del predefinito, espandete **Convenzioni di denominazione delle risorse** e scegliete **Personale** dall’elenco Denominazione file.
 
 1. Per l’ordine della sequenza, definite l’ordine delle immagini dopo che il set è stato raggruppato in Dynamic Media Classic. Per impostazione predefinita le risorse sono elencate in ordine alfabetico. Tuttavia, potete definirne l’ordine utilizzando un elenco separato da virgole delle espressioni regolari.
@@ -971,19 +980,19 @@ Con queste informazioni, la definizione per il tipo di set di batch potrebbe ess
 
 ![](assets/se_batch_set_recipe.png)
 
-Il raggruppamento per la parte condivisa del nome delle risorse del set 360 gradi viene aggiunto al campo **Corrispondenza** (evidenziato). La porzione variabile del nome delle risorse contenente la riga e la colonna viene aggiunta rispettivamente ai campi **Riga** e **Colonna**.
+Il raggruppamento per la parte del nome della risorsa condivisa del set 360 gradi viene aggiunto al campo **Match (Corrispondenza)** (come evidenziato). La parte variabile del nome della risorsa, contenente la riga e la colonna, viene aggiunta rispettivamente ai campi **Riga** e **Colonna**.
 
-Quando il set 360 gradi viene caricato e pubblicato, potete attivare il nome della descrizione set 360 gradi 2D elencato in **Predefiniti per set di batch** nella finestra di dialogo **Opzioni processo di caricamento**.
+Quando il set 360 gradi viene caricato e pubblicato, puoi attivare il nome della definizione del set 360 gradi 2D che è riportato in **Predefiniti set di batch**, nella finestra di dialogo **Opzioni processo di caricamento**.
 
 **Per creare un predefinito per set di batch per la generazione automatica di un set 360 gradi 2D**
 
-1. Scegliete **Configurazione** &gt; **Impostazione applicazione** &gt; **Predefiniti set di batch** &gt; **Predefinito set di batch**. La vista predefinita e **Visualizza modulo**, come impostato nell’angolo in alto a destra della pagina Dettagli.
+1. Scegliete **Configurazione** > **Impostazione applicazione** > **Predefiniti set di batch** > **Predefinito set di batch**. La vista predefinita e **Visualizza modulo**, come impostato nell’angolo in alto a destra della pagina Dettagli.
 1. Nel pannello Elenco predefiniti, fate clic su **Aggiungi** per attivare i campi delle definizioni nel pannello Dettagli nella parte destra della schermata.
 1. Nel pannello Dettagli, digitate nel campo Nome predefinito il nome da assegnare al predefinito.
-1. Selezionate **Set risorse** dal menu a discesa Tipo set di batch.
+1. Nel menu a discesa Tipo set di batch, seleziona **Set risorse**.
 1. Nell’elenco a discesa Sottotipo, selezionate **Set 360 gradi con asse multiplo**.
 1. Espandete **Convenzioni di denominazione delle risorse** e scegliete **Personale** dal menu a discesa Denominazione file.
-1. Utilizzate gli attributi **Corrispondenza** e, facoltativamente, **Nome base** per definire un’espressione regolare per la denominazione delle risorse di immagine che compongono il gruppo.
+1. Utilizza gli attributi **Match (Corrispondenza)** e, facoltativamente, **Nome base** per definire un’espressione regolare per la denominazione delle risorse dell’immagine che compongono il raggruppamento.
 
    Esempio di espressione regolare letterale Corrispondenza:
 
