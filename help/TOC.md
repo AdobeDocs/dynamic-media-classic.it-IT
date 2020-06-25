@@ -5,17 +5,18 @@ audience: end-user
 user-guide-title: Guida di Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 77%
+source-wordcount: '730'
+ht-degree: 76%
 
 ---
 
 
 # Guida di Dynamic Media Classic {#using}
 
-+ [Documentazione su Dynamic Media Classic](home.md)
++ [Home della documentazione di Dynamic Media Classic](home.md)
++ [Esercitazione sulle best practice](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NUOVA esperienza di accesso Dynamic Media Classic disponibile dal 30 giugno 2020](new-ui-2020.md)
 + [Dynamic Media Newsletter di Experience League](dynamic-media-newsletter.md)
 + Presentazione di Adobe Dynamic Media Classic {#intro}
@@ -145,7 +146,7 @@ ht-degree: 77%
    + [Pubblicazione di un set di file multimediali diversi](publishing-mixed-media-set.md)
    + [Collegamento di un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Avvio rapido: Integrazione di Dynamic Media Classic con Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Avvio rapido: Integrazione di Dynamic Media Classic con Adobe  Analytics](quick-start-integrating-scene7-analytics.md)
    + [Accedere ad Adobe Analytics](log-analytics.md)
    + [Configurazione dei rapporti di Adobe Analytics](configuring-analytics-reports.md)
    + [Personalizzazione di un visualizzatore con Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -155,9 +156,9 @@ ht-degree: 77%
    + [Pubblicazione delle informazioni di configurazione di Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integrazione con Target Classic {#target-classic}
    + [Avvio rapido: Integrazione con Target Classic](quick-start-target-classic-integration.md)
-   + [Integrazione di Adobe Dynamic Media Classic con Adobe Target Classic](integrating-scene7-target-classic.md)
+   + [Integrazione di Adobe Dynamic Media Classic con  Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Creazione di un set di offerte](creating-offer-set.md)
-   + [Invio dei set di offerte ad Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Invio dei set di offerte a  Adobe Target classico](pushing-offer-sets-target-classic.md)
 + Contenuti generati dall’utente {#user-generated-content}
    + [Informazioni sul contenuto generato dall’utente](about-ugc.md)
    + [Eliminazione di una risorsa caricata](deleting-uploaded-asset.md)
