@@ -1,20 +1,20 @@
 ---
-title: Nuova esperienza di accesso di Dynamic Media Classic ora disponibile
-seo-title: Nuova app desktop Dynamic Media Classic ora disponibile
+title: App Adobe Dynamic Media Classic Desktop
+seo-title: App Adobe Dynamic Media Classic Desktop
 description: Gli utenti di Dynamic Media Classic possono ora provare un aggiornamento completo dell'interfaccia utente. L'esperienza fornisce un accesso aggiornato con collegamenti a preziose risorse e questo aggiornamento non si basa più sulla tecnologia Adobe Flash presente nel browser.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 
-# È ora disponibile una nuova esperienza di accesso di Dynamic Media Classic {#new-ui-2020}
+# App Adobe Dynamic Media Classic Desktop - Ora disponibile {#new-ui-2020}
 
 Consultate App [desktop](/help/dynamic-media-classic-desktop-app.md) Adobe Dynamic Media Classic per esaminare i requisiti di sistema, scaricare e installare la nuova app, quindi accedere ad essa.
 
