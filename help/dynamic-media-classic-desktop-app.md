@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -47,18 +47,18 @@ L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sist
 
    * **Per MacOS** - Nella finestra di dialogo **[!UICONTROL Trascinate e rilasciate per installare]** , trascinate **[!UICONTROL Adobe Dynamic Media Classic]** e rilasciatelo nelle **[!UICONTROL applicazioni]**.
 
-      ![Installazione tramite trascinamento in macOS](/help/assets/dragondrop-install.png)
+      ![Installazione tramite trascinamento in macOS](/help/assets/dragondrop-install1.png)
 
    * Nella cartella **[!UICONTROL Applicazioni]** , toccate l&#39;icona Adobe Dynamic Media Classic.
    * Nella finestra di dialogo, toccate **[!UICONTROL Apri]** per aprire l&#39;app desktop Adobe Dynamic Media Classic.
 
-      ![Apri app scaricata](/help/assets/open-dmclassicapp.png)
+      ![Apri app scaricata](/help/assets/open-dmclassicapp1.png)
 
    * **Per Windows** - Eseguite il programma di installazione binario e seguite le istruzioni visualizzate per installare l&#39;app desktop.
 
 1. Quando aprite l’applicazione, viene visualizzata la nuova pagina di accesso di Adobe Dynamic Media Classic:
 
-   ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login.png)
+   ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Utilizzate le stesse credenziali del browser per accedere ad Adobe Dynamic Media Classic.
 
@@ -80,7 +80,7 @@ L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sist
 * Nell&#39;app Dynamic Media Classic, seleziona la nuova società dall&#39;elenco a discesa della società.
 * Quando viene visualizzato il pop-up, toccate **[!UICONTROL OK]** per disconnettersi e chiudere l&#39;app.
 
-   ![Riavviate l&#39;app per utilizzare la nuova società](/help/assets/dmclassic-new-company.png)
+   ![Riavviate l&#39;app per utilizzare la nuova società](/help/assets/dmclassic-new-company1.png)
 * Riavviate Dynamic Media Classic, quindi effettuate l&#39;accesso come al solito per lavorare con la nuova società.
 
 ## Suggerimenti e trucchi
@@ -89,6 +89,6 @@ L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sist
 
 **_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene riflesso correttamente._**<br> Nell’interfaccia utente del browser, per visualizzare lo stato di pubblicazione corretto delle risorse era necessario accedere nuovamente all’interfaccia utente. Nell&#39;app desktop, è stata introdotta un&#39;icona **[!UICONTROL Aggiorna]** sulla barra degli strumenti, a destra del pulsante **[!UICONTROL Seleziona nessuno]** . Toccate l’icona **[!UICONTROL Aggiorna]** per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare nuovamente l&#39;accesso come con l&#39;interfaccia utente del browser.
 
-![Icona](/help/assets/refresh-icon.png)Aggiorna *Aggiorna*
+![Icona](/help/assets/refresh-icon1.png)Aggiorna *Aggiorna*
 
 **_Non vedo predefiniti per set di batch che funzionano nell’app desktop._**<br> Toccate **[!UICONTROL Carica > Opzioni processo > Predefiniti]** set di batch. Verificare che sia attivato il predefinito **[!UICONTROL per set di]** batch appropriato. Fate clic su **[!UICONTROL Salva e invia caricamento]**.
