@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Questa nuova app è ora disponibile per Windows e macOS.
 >
 >È consigliabile installare la nuova app desktop Adobe Dynamic Media Classic entro il 1° ottobre 2020. In questo modo, assicurerete una transizione senza problemi prima che Adobe Flash Player diventi obsoleto il 31 dicembre 2020. A tale data, non sarà più possibile accedere alla versione del browser dell’interfaccia utente di Adobe Dynamic Media Classic, etichettata come Scene7 Publishing System nel prodotto.
 
-Consulta le Domande frequenti sulla [nuova esperienza di accesso di Dynamic Media Classic ora disponibile](/help/new-ui-2020.md).
+Consultate le Domande frequenti per la [nuova esperienza di accesso di Dynamic Media Classic ora disponibile.](/help/new-ui-2020.md)
 
 ## Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sist
 
 1. Scaricate il programma di installazione più recente per l’app desktop Adobe Dynamic Media Classic.
 
-   * macOS (.dmg) - [Download](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
-   * Windows (.exe) - [Download](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
+   * [macOS (.dmg) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.exe) - Scarica.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Effettuate una delle seguenti operazioni in base al programma di installazione scaricato.
 
