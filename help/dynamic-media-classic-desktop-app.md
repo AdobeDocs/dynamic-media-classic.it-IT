@@ -8,98 +8,87 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 871d12eccc3ce183c8fb2785bad02ad490491157
+source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
 
-# Disponibile a breve: App Adobe Dynamic Media Classic Desktop {#dynamic-media-classic-desktop-app}
+# Ora disponibile: App desktop Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Gli utenti di Dynamic Media Classic avranno accesso a una nuova esperienza di app desktop che non si avvale più della tecnologia Adobe Flash nel browser. Questa nuova app sarà disponibile per Windows e macOS il 30 giugno 2020.
+Gli utenti di Dynamic Media Classic ora hanno accesso a una nuova esperienza di app desktop che non si basa più sulla tecnologia Adobe Flash nel browser.
 
-Consulta le Domande frequenti sulla [nuova esperienza di accesso di Dynamic Media Classic a partire dal 30 giugno 2020](/help/new-ui-2020.md).
-
-<!--
-
-# Adobe Dynamic Media Classic desktop app {#dynamic-media-classic-desktop-app}
-
-Dynamic Media Classic users now have access to a new desktop app experience that no longer relies on Adobe Flash technology in the browser. 
-
-This new app is now available for Windows and macOS.
+Questa nuova app è ora disponibile per Windows e macOS.
 
 >[!IMPORTANT]
 >
->We recommend that you install the new Adobe Dynamic Media Classic desktop app by October 1, 2020. Doing so will ensure you have a smooth transition before Adobe Flash Player is deprecated on December 31, 2020. On that date, you will no longer be able to log on to the browser version of Adobe Dynamic Media Classic user interface, labeled as Scene7 Publishing System in the product.
+>È consigliabile installare la nuova app desktop Adobe Dynamic Media Classic entro il 1° ottobre 2020. In questo modo, assicurerete una transizione senza problemi prima che Adobe Flash Player diventi obsoleto il 31 dicembre 2020. A tale data, non sarà più possibile accedere alla versione del browser dell’interfaccia utente di Adobe Dynamic Media Classic, etichettata come Scene7 Publishing System nel prodotto.
 
-See the FAQ for the [New Dynamic Media Classic sign in experience now available](/help/new-ui-2020.md).
+Consulta le Domande frequenti sulla [nuova esperienza di accesso di Dynamic Media Classic ora disponibile](/help/new-ui-2020.md).
 
-## System requirements for Adobe Dynamic Media Classic desktop app {#system-requirements-dmc-app}
+## Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
-Adobe Dynamic Media Classic desktop app is compatible with the following operating systems:
-* macOS X 10.10 or newer.
-* Windows 7 or newer.
+L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistemi operativi:
+* macOS X 10.10 o successivo.
+* Windows 7 o successivo.
 
-## Download and install Adobe Dynamic Media Classic desktop app {#installation-dmc-app}
+## Scaricare e installare l’app desktop Adobe Dynamic Media Classic {#installation-dmc-app}
 
-1. Uninstall any older Dynamic Media Classic desktop app versions on your system.
+1. Disinstallate le versioni precedenti delle app desktop Dynamic Media Classic nel sistema.
 
-1. Download the latest installer for Adobe Dynamic Media Classic desktop app.
+1. Scaricate il programma di installazione più recente per l’app desktop Adobe Dynamic Media Classic.
 
-    * macOS (.dmg) &ndash; [Text](link).
-    * Windows (.exe) &ndash; [Text](link).
+   * macOS (.dmg) - [Download](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
+   * Windows (.exe) - [Download](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
 
-1. Do one of the following based on the installer you downloaded.
+1. Effettuate una delle seguenti operazioni in base al programma di installazione scaricato.
 
-    * **For macOS** &ndash; In the **[!UICONTROL Drag & drop to install]** dialog box, drag **[!UICONTROL Adobe Dynamic Media Classic]** and drop it onto **[!UICONTROL Applications]**.
+   * **Per MacOS** - Nella finestra di dialogo **[!UICONTROL Trascinate e rilasciate per installare]** , trascinate **[!UICONTROL Adobe Dynamic Media Classic]** e rilasciatelo nelle **[!UICONTROL applicazioni]**.
 
-        ![Drag and drop install on macOS](/help/assets/dragondrop-install.png)
+      ![Installazione tramite trascinamento in macOS](/help/assets/dragondrop-install.png)
 
-    * In the **[!UICONTROL Applications]** folder, tap the Adobe Dynamic Media Classic icon.
-    * In the dialog box, tap **[!UICONTROL Open]** to open the Adobe Dynamic Media Classic desktop app.
+   * Nella cartella **[!UICONTROL Applicazioni]** , toccate l&#39;icona Adobe Dynamic Media Classic.
+   * Nella finestra di dialogo, toccate **[!UICONTROL Apri]** per aprire l&#39;app desktop Adobe Dynamic Media Classic.
 
-        ![Open downloaded app](/help/assets/open-dmclassicapp.png)
+      ![Apri app scaricata](/help/assets/open-dmclassicapp.png)
 
-    * **For Windows** &ndash; Run the installer binary and follow the on-screen instructions to install the desktop app.
+   * **Per Windows** - Eseguite il programma di installazione binario e seguite le istruzioni visualizzate per installare l&#39;app desktop.
 
-1. When you open the application, the new Adobe Dynamic Media Classic Sign In page is displayed:
+1. Quando aprite l’applicazione, viene visualizzata la nuova pagina di accesso di Adobe Dynamic Media Classic:
 
-    ![Dynamic Media Classic sign in](/help/assets/dmclassic-login.png)
+   ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login.png)
 
-1. Use the same credentials as your browser credentials to sign in to Adobe Dynamic Media Classic.
+1. Utilizzate le stesse credenziali del browser per accedere ad Adobe Dynamic Media Classic.
 
-    For the **[!UICONTROL Server]** to use, see the following mapping for the production environment:
+   Per il **[!UICONTROL server]** da utilizzare, vedete la seguente mappatura per l&#39;ambiente di produzione:
 
-    | Browser URL | Desktop app server name |
-    |---|---|
-    | https://s7sps1.scene7.com/ | NA (North America) production |
-    | https://s7sps3.scene7.com/ | EMEA (Europe, Middle East, and Africa) production |
-    | https://s7sps5.scene7.com/ | APAC (Asia-Pacific) production |
- 
-1. Post the login UI, you will notice the familiar browser UI experience. You can carry your day to day activity as usual now on the desktop app UI.
+   | URL browser | Nome server app desktop |
+   |---|---|
+   | https://s7sps1.scene7.com/ | Produzione NA (America del Nord) |
+   | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
+   | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
 
-## Known limitations in Dynamic Media Classic 
- 
-**_Applies to Windows only &ndash; Is there a limitation on the number of files that can be uploaded through the desktop app UI?_**<br>Yes, a maximum of 150 files can be uploaded at a time by way of the desktop app UI.
+1. Pubblicate l’interfaccia utente di accesso e noterete l’esperienza acquisita con l’interfaccia utente del browser. Ora puoi svolgere le tue attività quotidiane come al solito nell&#39;interfaccia utente dell&#39;app desktop.
 
-**_Applies to Windows and macOS &ndash; How do I switch between companies?_**<br>To switch between companies, do the following:
-* In the Dynamic Media Classic app, select the new company from the company drop-down list.
-* When the pop-up appears, tap **[!UICONTROL OK]** to sign out and close the app.
+## Limitazioni note in Dynamic Media Classic
 
-    ![Restart the app to use the new company](/help/assets/dmclassic-new-company.png)
-* Restart Dynamic Media Classic, then sign in as usual to work with the new company.
+**_Si applica solo a Windows: esiste un limite al numero di file che possono essere caricati tramite l&#39;interfaccia utente dell&#39;app desktop?_**<br> Sì, è possibile caricare fino a 150 file alla volta tramite l&#39;interfaccia utente dell&#39;app desktop.
 
-## Tips and Tricks 
+**_Si applica a Windows e macOS - Come si passa da un&#39;azienda all&#39;altra?_**<br> Per passare da una società all’altra, effettuate le seguenti operazioni:
+* Nell&#39;app Dynamic Media Classic, seleziona la nuova società dall&#39;elenco a discesa della società.
+* Quando viene visualizzato il pop-up, toccate **[!UICONTROL OK]** per disconnettersi e chiudere l&#39;app.
 
-**_I am unable to see Media Cart panel on the landing page of Dynamic Media Classic._**<br>In Dynamic Media Classic, tap **[!UICONTROL Setup > Personal Setup]**. In the Browser section, make sure **[!UICONTROL Show MediaPortal Features]** is selected (checked). Tap **[!UICONTROL Save > Close]**.
- 
-**_Publish state (green indicator) of an asset is not reflected correctly._**<br>In the browser UI, a re-login to the UI was required to see the correct publish state of assets. In the desktop app, we have introduced a **[!UICONTROL Refresh]** icon on the toolbar, to the right of the **[!UICONTROL Select None]** button. Tap the **[!UICONTROL Refresh]** icon to see the latest status of all the assets on the given page. No re-login required as with the browser UI.
+   ![Riavviate l&#39;app per utilizzare la nuova società](/help/assets/dmclassic-new-company.png)
+* Riavviate Dynamic Media Classic, quindi effettuate l&#39;accesso come al solito per lavorare con la nuova società.
 
-![Refresh icon](/help/assets/refresh-icon.png)
-*Refresh icon*
- 
-**_I don't see batch set presets working in the desktop app._**<br>Tap **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Ensure the relevant **[!UICONTROL Batch Set Preset]** is enabled. Click **[!UICONTROL Save and Submit upload]**. 
+## Suggerimenti e trucchi
 
--->
+**_Impossibile visualizzare il pannello Carrello sulla pagina di destinazione di Dynamic Media Classic._**<br> In Dynamic Media Classic, toccate **[!UICONTROL Configurazione > Configurazione]** personale. Nella sezione Browser, accertatevi che **[!UICONTROL Mostra funzioni]** Media Portal sia selezionato (selezionato). Toccate **[!UICONTROL Salva > Chiudi]**.
+
+**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene riflesso correttamente._**<br> Nell’interfaccia utente del browser, per visualizzare lo stato di pubblicazione corretto delle risorse era necessario accedere nuovamente all’interfaccia utente. Nell&#39;app desktop, è stata introdotta un&#39;icona **[!UICONTROL Aggiorna]** sulla barra degli strumenti, a destra del pulsante **[!UICONTROL Seleziona nessuno]** . Toccate l’icona **[!UICONTROL Aggiorna]** per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare nuovamente l&#39;accesso come con l&#39;interfaccia utente del browser.
+
+![Icona](/help/assets/refresh-icon.png)Aggiorna *Aggiorna*
+
+**_Non vedo predefiniti per set di batch che funzionano nell’app desktop._**<br> Toccate **[!UICONTROL Carica > Opzioni processo > Predefiniti]** set di batch. Verificare che sia attivato il predefinito **[!UICONTROL per set di]** batch appropriato. Fate clic su **[!UICONTROL Salva e invia caricamento]**.
