@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ Gli utenti classici di Dynamic Media ora hanno accesso a una nuova esperienza di
 ### **_Quando i browser interrompono il supporto di Adobe Flash il 31 dicembre 2020, può la Commissione far sapere se i browser non saranno più in grado di supportare Dynamic Media Classic (già Scene7)?_**
 
 Adobe Flash Player era un plug-in per browser Web che consente ai browser Web di utilizzare contenuti sviluppati sulla piattaforma Adobe Flash. L&#39;interfaccia utente Web di Dynamic Media Classic (attualmente etichettata [!DNL Scene7 Publishing System] o [!DNL SPS] nel prodotto) richiedeva Adobe Flash Player. Quando Adobe Flash è diventato obsoleto il 31 dicembre 2020, i clienti di Dynamic Media Classic non saranno più in grado di accedere all’interfaccia utente Web. Per questo motivo, Adobe ha fornito ai clienti un&#39;app desktop che sostituisce l&#39;esperienza del browser.
-
-Consultate App [desktop](/help/dynamic-media-classic-desktop-app.md) Adobe Dynamic Media Classic per esaminare i requisiti di sistema, scaricare e installare la nuova app, quindi accedere ad essa.
 
 ### **_Come posso accedere alla nuova app desktop?_**
 
