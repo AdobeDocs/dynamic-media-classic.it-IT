@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
@@ -25,12 +28,6 @@ I servizi di formazione Adobe offrono una preparazione personalizzata e approfon
 
 Consultate [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
-**Esercitazioni video introduttive**
-
-Contengono informazioni su Media Portal, imaging dinamico, eCatalog, eVideo, stampa da Web e molti altri argomenti relativi all’apprendimento e all’utilizzo di Scene7 Publishing System.
-
-See [Quick Start Video Tutorials](https://marketing.adobe.com/resources/help/en_US/home/index.html#Scene7).
-
 **Dimostrazioni**
 
 Guardate le dimostrazioni delle funzioni del visualizzatore Dynamic Media Classic.
@@ -39,6 +36,6 @@ Consultate [Demo](https://www.adobe.com/solutions/web-experience-management/rich
 
 **Sezione Guida introduttiva dell’Aiuto**
 
-La sezione Guida introduttiva del sistema di Aiuto contiene istruzioni per gli utenti che hanno poca esperienza con Dynamic Media Classic. Illustra le nozioni di base sulla piattaforma, la navigazione, la configurazione, la gestione delle risorse e la creazione di contenuti multimediali. 
+La sezione Guida introduttiva del sistema di Aiuto contiene istruzioni per gli utenti che non hanno mai utilizzato Dynamic Media Classic. Illustra le nozioni di base sulla piattaforma, la navigazione, la configurazione, la gestione delle risorse e la creazione di contenuti multimediali. 
 
 Consultate la [Guida introduttiva](scene7-platform-overview.md).
