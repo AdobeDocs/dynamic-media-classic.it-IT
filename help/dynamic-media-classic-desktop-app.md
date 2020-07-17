@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sist
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
 
 1. Pubblicate l’interfaccia utente di accesso e noterete l’esperienza acquisita con l’interfaccia utente del browser. Ora puoi svolgere le tue attività quotidiane come al solito nell&#39;interfaccia utente dell&#39;app desktop.
+
+## Video introduttivo sull’utilizzo di Dynamic Media Classic Desktop App
+
+Guardate un [video dettagliato sull&#39;utilizzo dell&#39;app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) Dynamic Media Classic per desktop (lunghezza: 2 minuti e 36 secondi).
 
 ## Limitazioni note in Dynamic Media Classic
 
