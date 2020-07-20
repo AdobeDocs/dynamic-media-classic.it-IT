@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
+source-git-commit: 9f541bf3a6f364029df868215953b14c15ae474c
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sist
 
 ## Video introduttivo sull’utilizzo di Dynamic Media Classic Desktop App
 
-Guardate un [video dettagliato sull&#39;utilizzo dell&#39;app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) Dynamic Media Classic per desktop (lunghezza: 2 minuti e 36 secondi).
+Guardate un [video dettagliato sull&#39;utilizzo dell&#39;app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) Dynamic Media Classic per desktop (lunghezza: 2 minuti 36 secondi).
 
 ## Limitazioni note in Dynamic Media Classic
 
