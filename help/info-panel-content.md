@@ -1,32 +1,35 @@
 ---
-title: Gestione del contenuto del pannello Info negli ecatalog
-seo-title: Gestione del contenuto del pannello Info negli ecatalog
+title: Gestione del contenuto del pannello Info negli eCatalog
+seo-title: Gestione del contenuto del pannello Info negli eCatalog
 description: 'null'
-seo-description: Scoprite come gestire il contenuto del pannello Informazioni negli ecatalog.
-uuid: 5 aa 634 f 9-0874-4 bb 5-a 3 d 9-8 ce 4 d 5577941
+seo-description: Scoprite come gestire il contenuto del pannello Info negli eCatalog.
+uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/ecatalogs
-discoiquuid: be 277831-77 cc -4011-ae 30-e 75 c 18 eec 99 b
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 81%
 
 ---
 
 
-# Gestione del contenuto del pannello Info negli ecatalog{#managing-info-panel-content-in-ecatalogs}
+# Gestione del contenuto del pannello Info negli eCatalog{#managing-info-panel-content-in-ecatalogs}
 
 Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Potete anche gestire il pannello Info usando la cache a tempo e pianificando gli aggiornamenti dei contenuti.
 
-Potete gestire l'impostazione e i dati del pannello Info utilizzando le seguenti funzioni in Dynamic Media Classic:
+Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Dynamic Media Classic:
 
 * Il pannello Impostazioni pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita in caso di errori e il numero di ore in cui le informazioni restano nella cache. Inoltre, potete specificare se pubblicare automaticamente gli eCatalog.
 * Il pannello Feed di dati per pannello Info consente di specificare un file CSV contenente il testo che desiderate visualizzare nel testo di rollover del pannello Info, nonché i tempi di pianificazione per l’aggiornamento delle informazioni.
 * La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed di dati con l’opzione file CSV per il testo di rollover.
 * La visualizzazione Mappe pagine fornisce un’opzione di anteprima del file xml visualizzato per mappe immagine specifiche.
 
-## Configurare un modello di risposta per ecatalog {#set-up-a-response-template-for-ecatalogs}
+## Impostazione di un modello di risposta per gli eCatalog {#set-up-a-response-template-for-ecatalogs}
 
 Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizzazione del testo in un pannello Info. I modelli di risposta predefiniti determinano come le informazioni vengono presentate nel pannello Info: il numero di colonne e righe, la dimensione dei caratteri, il font e così via. Potete selezionare un modello di risposta predefinito o crearne uno personalizzato.
 
@@ -43,7 +46,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Selezionate un predefinito dal menu Modello risposta. Il codice XML per la creazione dei modelli viene visualizzato nella casella Modello utente.
    * Selezionate Personalizzato per creare un modello di risposta personale. Digitate la definizione XML del modello nella casella Modello utente. Potete usare i modelli predefiniti come base per creare dei modelli personalizzati.
 
-1. (Facoltativo) Nella casella Risposta predefinita, digitate il testo da visualizzare se Dynamic Media Classic restituisce un errore durante il recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
+1. (Facoltativo) Nella casella Risposta predefinita, digitate il testo da visualizzare se Dynamic Media Classic rileva un errore nel recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
 1. Nella casella TTL di risposta viene visualizzato il numero di ore di attesa prima che i dati vengano memorizzati nella cache:
 
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
@@ -83,11 +86,11 @@ Last Modified Date:
 
 1. Fate doppio clic sull’eCatalog per aprirlo in visualizzazione dettagli.
 1. Fate clic sul pannello Impostazioni pannello Info per aprirlo.
-1. **Fate clic su Carica contenuto S 7 Info**.
+1. **Fate clic su Carica contenuto** S7Info.
 1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
 1. Fate clic su **Carica**.
 
-Dynamic Media Classic invia un messaggio e-mail comunicandovi se il caricamento ha avuto esito positivo o meno.
+Dynamic Media Classic invia un messaggio e-mail in cui viene comunicato se il caricamento ha avuto esito positivo o meno.
 
 ## Anteprima del testo chiave di rollover per una mappa immagine {#preview-rollover-key-text-for-an-image-map}
 
@@ -97,5 +100,5 @@ Dalla schermata Mappe pagine potete visualizzare facilmente il testo del pannell
 1. Fate clic su Mappe pagine.
 1. Nella parte superiore della tabella sul lato destro della schermata, scegliete Pannello Info dal menu Mostra.
 
-   Il testo chiave di rollover viene visualizzato accanto a ogni mappa immagine che contiene il testo del pannello Info.
+   Il testo della chiave di rollover viene visualizzato accanto a ogni mappa immagine che contiene il testo del Pannello Informazioni.
 
