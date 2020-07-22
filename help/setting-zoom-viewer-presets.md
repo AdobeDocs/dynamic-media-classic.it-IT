@@ -3,14 +3,17 @@ title: Impostazione di predefiniti per visualizzatori zoom
 seo-title: Impostazione di predefiniti per visualizzatori zoom
 description: 'null'
 seo-description: Scoprite come impostare i predefiniti per visualizzatori zoom.
-uuid: 202 d80cb-8282-45d4-89e8-942c8677aa93
+uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/zoom
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 69%
 
 ---
 
@@ -37,7 +40,7 @@ Dynamic Media Classic consiglia i seguenti parametri per i predefiniti per visua
 
 * **Dimensioni** immagine ingrandita Circa 1500 x 1500 pixel, non superiore a 2000 x 2000 pixel.
 
-* **Dimensione** dell'immagine pari o inferiore a 100 KB, per non superare i 150 KB (comprimere il file per mantenerlo al di sotto dei 150 KB).
+* **Dimensione** dell&#39;immagine pari o inferiore a 100 KB, per non superare i 150 KB (comprimere il file per mantenerlo al di sotto dei 150 KB).
 
 * **Visualizzatore zoom: Personalizzato** Fornisce lo zoom guidato o non guidato con immagini, set di immagini con più viste o set di campioni colore.
 
@@ -45,12 +48,13 @@ Dynamic Media Classic consiglia i seguenti parametri per i predefiniti per visua
 
 Per creare o modificare un predefinito per visualizzatori zoom, effettuate le seguite operazioni:
 
-1. Fate clic su **Configurazione** &gt; **Predefiniti visualizzatore**.
+1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Effettuate una delle seguenti operazioni:
 
    * **Creazione di un predefinito** Fate clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate un visualizzatore zoom e fate clic su Aggiungi. Immettete un nome per il predefinito nella casella Nome predefinito.
 
-   * **Modifica di un predefinito** Selezionate un predefinito per visualizzatori zoom, quindi fate clic su **Modifica**.
+   * **Modifica di un predefinito** Selezionate un predefinito per visualizzatori zoom, quindi fate clic su 
+**Modifica**.
 
 1. Specificate le impostazioni desiderate.
 
