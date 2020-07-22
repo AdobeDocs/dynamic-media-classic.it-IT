@@ -3,14 +3,17 @@ title: Visualizzazione di set di immagini
 seo-title: Visualizzazione di set di immagini
 description: 'null'
 seo-description: Scoprite come visualizzare i set di immagini.
-uuid: bb 5 b 0 cost-abc 0-4236-ac 43-09 edb 9 bb 3651
+uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 027 aa 3 e 0-f 085-48 ae-aff 9-7 b 805 bbdf 8 ab
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 89%
 
 ---
 
@@ -25,12 +28,12 @@ Dynamic Media Classic viene fornito con predefiniti per visualizzatori preimpost
 
 Potete creare e personalizzare i predefiniti per visualizzatori in base alle vostre esigenze.
 
-1. Fate clic su **Configurazione** &gt; **Predefiniti visualizzatore**.
+1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Per creare o modificare un predefinito per visualizzatori nella schermata Predefiniti visualizzatore, effettuate una delle seguenti operazioni:
 
-   **Creazione** di clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore zoom: Personalizzato e fate clic su Aggiungi. Potete anche creare un predefinito per visualizzatori zoom sulla base di uno già esistente. Visualizzate il nome del predefinito, selezionatelo, quindi fate clic sul pulsante Modifica. Nella schermata Configura visualizzatore, inserite un nuovo nome per il predefinito.
+   **Creazione** Fate Clic Su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore zoom: Personalizzato e fate clic su Aggiungi. Potete anche creare un predefinito per visualizzatori zoom sulla base di uno già esistente. Visualizzate il nome del predefinito, selezionatelo, quindi fate clic sul pulsante Modifica. Nella schermata Configura visualizzatore, inserite un nuovo nome per il predefinito.
 
-   **Modifica** Consente di visualizzare il nome di un predefinito, selezionarlo, quindi fare clic **su Modifica**.
+   **Modifica** Consente di visualizzare il nome di un predefinito, selezionarlo, quindi fare clic su **Modifica**.
 
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
 
@@ -51,7 +54,7 @@ Con la funzione Anteprima è possibile verificare in che modo una risorsa viene 
    * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. In the Asset window, hover on an asset, then click **Preview**.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione griglia** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **Anteprima** nella miniatura di una risorsa.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione dettagli** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **Anteprima**.
-   * Nella finestra Risorse, selezionate una risorsa. On the toolbar, click **File** &gt; **Preview**.
+   * Nella finestra Risorse, selezionate una risorsa. On the toolbar, click **File** > **Preview**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
 1. Fate clic sul collegamento di un visualizzatore per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
