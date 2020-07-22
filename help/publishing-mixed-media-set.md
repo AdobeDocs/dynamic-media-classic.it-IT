@@ -3,25 +3,28 @@ title: Pubblicazione di un set di file multimediali diversi
 seo-title: Pubblicazione di un set di file multimediali diversi
 description: 'null'
 seo-description: Scoprite come pubblicare un set di file multimediali diversi.
-uuid: 4172347 c -7 bb 3-468 d-bda 2-fd 1 c 26 ccab 85
+uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 4 e 8694 f 7-c 1 b 5-4 d 45-a 18 b -2 b 9494 db 1757
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 59%
 
 ---
 
 
 # Pubblicazione di un set di file multimediali diversi{#publishing-a-mixed-media-set}
 
-Create un processo di pubblicazione per pubblicare un set di file multimediali diversi contrassegnato per la pubblicazione su Dynamic Media Video Server e Image Server. Dynamic Media Classic offre opzioni avanzate di pubblicazione per la pubblicazione su server specifici e opzioni per pubblicare nuovamente le risorse già pubblicate.
+Per pubblicare un set di file multimediali diversi contrassegnato per la pubblicazione su Dynamic Media Classic Video Server e Image Server, create un processo di pubblicazione. Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione di risorse già pubblicate.
 
-***Nota**: I set di file multimediali diversi devono essere pubblicati sia sul **server**video che sul **server immagini**. Sul **server video**vengono pubblicati i video effettivi contrassegnati per la pubblicazione, mentre sul server **immagini**vengono pubblicate le risorse correlate, ad esempio le miniature video, e le informazioni relative a qualsiasi set video adattivo.*
+***nota **: I set di file multimediali diversi devono essere pubblicati sia sul server****video che sul server****immagini. Sul**server video **vengono pubblicati i video effettivi contrassegnati per la pubblicazione, mentre sul server****immagini vengono pubblicate le risorse correlate, ad esempio le miniature video, e vengono impostate le informazioni relative a eventuali set video adattivi.*
 
-Scene7 Publishing System tiene traccia dei processi di pubblicazione nella schermata Processi.
+Dynamic Media Classic tiene traccia dei processi di pubblicazione nella schermata Processi.
 
 Consultate [Pubblicazione](publishing-files.md#publishing_files).
 
