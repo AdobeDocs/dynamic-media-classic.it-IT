@@ -6,11 +6,14 @@ seo-description: Scoprite come lavorare in visualizzazione Dettagli.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 79%
 
 ---
 
@@ -43,7 +46,7 @@ Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potet
 
    * Fate doppio clic sulla risorsa.
    * Selezionate la risorsa, quindi fate clic su Visualizzazione **** dettagli.
-   * Selezionate la risorsa, quindi fate clic su **[!UICONTROL File &gt; Dettagli]**.
+   * Selezionate la risorsa, quindi fate clic su **[!UICONTROL File > Dettagli]**.
 
 >[!NOTE]
 >
@@ -51,7 +54,7 @@ Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potet
 
 ## Ottenimento di informazioni nella vista Dettaglio {#getting-information-in-detail-view}
 
-La visualizzazione dettagli fornisce diverse informazioni su una risorsa o un file: la cartella in cui è memorizzato, il nome del file, la data di quando è stato caricato in Scene7 Publishing System e la cronologia di pubblicazione. In visualizzazione Dettagli potete inoltre visualizzare e modificare i metadati e aggiungere parole chiave a una risorsa.
+La visualizzazione dettagli fornisce diverse informazioni su una risorsa o un file: Vengono visualizzate le seguenti informazioni su un elemento: la cartella in cui è memorizzato, il nome del file, la data di caricamento dell’elemento in Dynamic Media Classic e la cronologia di pubblicazione. In visualizzazione Dettagli potete inoltre visualizzare e modificare i metadati e aggiungere parole chiave a una risorsa.
 
 Potete inoltre ottenere un URL della risorsa; tuttavia, tenete presente che l’URL sarà attivo solo dopo la pubblicazione della risorsa. Per le immagini, la visualizzazione Dettagli fornisce anche un elenco di risorse e metadati generati o derivati, quali ad esempio destinazioni di zoom e set di immagini.
 
@@ -59,7 +62,7 @@ Potete inoltre ottenere un URL della risorsa; tuttavia, tenete presente che l’
 
 La visualizzazione Dettagli offre gli strumenti per agire sulla risorsa aperta. Gli strumenti disponibili variano in base al tipo di risorsa usata, tuttavia in visualizzazione Dettagli vengono sempre fornite le seguenti funzioni:
 
-* **elementi per la pubblicazione** Fate clic sull’icona **[!UICONTROL Pubblica]** a sinistra del nome, oppure fate clic su **[!UICONTROL File &gt; Pubblica]** o **[!UICONTROL File &gt; Annulla pubblicazione]**.
+* **elementi per la pubblicazione** Fate clic sull’icona **[!UICONTROL Pubblica]** a sinistra del nome, oppure fate clic su **[!UICONTROL File > Pubblica]** o **[!UICONTROL File > Annulla pubblicazione]**.
 
 * **Ridenominazione della risorsa** Selezionate il nome e immettete un nuovo nome.
 
@@ -67,7 +70,7 @@ La visualizzazione Dettagli offre gli strumenti per agire sulla risorsa aperta. 
 
 * **Modifica e aggiunta di parole chiave** Selezionare le parole chiave e aggiungerle o rimuoverle come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
 
-* **Per eliminare la risorsa**, fate clic su **[!UICONTROL File &gt; Elimina]**.
+* **Per eliminare la risorsa**, fate clic su **[!UICONTROL File > Elimina]**.
 
 Per i file discreti quali immagini, set di immagini e font, in visualizzazione Dettagli potete visualizzare la cronologia di pubblicazione e modifica, nonché controllare i dettagli del processo.
 
