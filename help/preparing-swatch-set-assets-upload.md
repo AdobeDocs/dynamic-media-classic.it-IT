@@ -2,15 +2,18 @@
 title: Preparazione delle risorse di set di campioni per il caricamento
 seo-title: Preparazione delle risorse di set di campioni per il caricamento
 description: 'null'
-seo-description: Scoprite come preparare le risorse di set di campioni per il caricamento.
-uuid: ed 78 da 8 c-d 708-418 b -97 ce -3 c 37 d 9 df 9 c 90
+seo-description: Scoprite come preparare le risorse dei set di campioni per il caricamento.
+uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 0 c 851 ecd-be 05-46 a 9-8654-3 d 028 f 3217 a 4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +27,7 @@ Per creare un set di campioni, è necessario disporre di vignettature o diversi 
 * Uno scatto della stessa giacca in ciascuna delle varianti nero, marrone e verde.
 * Un campione di colore per ciascun colore (nero, marrone e verde).
 
-Poiché gli utenti possono eseguire lo zoom delle immagini in set di campioni, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di usare immagini senza perdita di dati TIFF, PNG ed EPS.
+Poiché gli utenti possono eseguire lo zoom delle immagini in set di campioni, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Dynamic Media Classic supporta molti formati di file immagine, ma sono consigliate immagini senza perdita di dati TIFF, PNG ed EPS.
 
 Per istruzioni dettagliate sul caricamento delle risorse, consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
