@@ -6,11 +6,11 @@ seo-description: Scoprite le best practice per ottimizzare la qualità delle imm
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 62%
@@ -29,7 +29,7 @@ Vedere anche [Smart imaging](https://helpx.adobe.com/experience-manager/6-3/asse
 ## Procedure ottimali per il formato delle immagini (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * I formati JPG e PNG rappresentano la scelta migliore per la distribuzione di immagini di buona qualità e di dimensioni gestibili.
-* Se nell’URL non viene fornito alcun comando di formato, per impostazione predefinita viene utilizzato il formato JPG.
+* Se nell’URL non viene fornito alcun comando di formato, per impostazione predefinita Dynamic Media Image Server utilizza il formato JPG per la distribuzione.
 * Con il formato JPG si ottiene un rapporto di compressione di 10:1 e si ottengono in genere file di dimensioni ridotte. Il formato PNG viene compresso con un rapporto di circa 2:1, tranne in alcuni casi, ad esempio quando le immagini contengono uno sfondo vuoto. In genere, tuttavia, i file PNG sono di dimensioni maggiori rispetto ai file JPG.
 * Il formato JPG utilizza la compressione con perdita di dati, ossia durante la compressione vengono omessi degli elementi grafici (pixel). Il formato PNG utilizza invece la compressione senza perdita di dati.
 * Il formato JPG spesso comprime le immagini fotografiche con fedeltà migliore rispetto alle immagini sintetiche contenenti bordi netti e contrasto ben definito.
@@ -50,7 +50,7 @@ Come procedura ottimale per il ridimensionamento delle immagini, l’utilizzo `&
 
 La nitidezza delle immagini è l’aspetto più complesso e suscettibile ad errori per la gestione delle immagini di un sito Web. Dedica il tempo a scoprire come funzionano la nitidezza e la maschera di contrasto in Dynamic Media Classic, facendo riferimento alle seguenti risorse:
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+White paper sulle procedure ottimali [Nitidezza delle immagini in Adobe Dynamic Media Classic e sul server](/help/assets/s7_sharpening_images.pdf)immagini.
 
 Consultate anche [Nitidezza di un’immagine con maschera](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)di contrasto.
 
@@ -73,7 +73,7 @@ Esistono due metodi per rendere le immagini più nitide:
          Questo parametro determina la differenza tra i pixel da rendere più nitidi rispetto all’area circostante, prima che vengano considerati pixel del bordo e che il filtro li renda più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato per evitare di aggiungere “disturbo”, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
       Per ulteriori informazioni su come impostare questi tre parametri, incluse le procedure ottimali per l’utilizzi del filtro, consultate le risorse seguenti:
 
-      Argomento dell’Aiuto di Dynamic Media Classic sulla [nitidezza di un’immagine](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+      Argomento della Guida di Dynamic Media Classic sulla [nitidezza di un’immagine](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
       Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
@@ -127,7 +127,7 @@ Se i risultati non sono ancora soddisfacenti, aumentate il raggio per incrementi
 
 Per ottimizzare il flusso di lavoro, può essere utile seguire anche i consigli generali riportati di seguito:
 
-* Provate a utilizzare parametri diversi in tempo reale, direttamente su un URL Dynamic Media Classic o mediante la funzionalità di regolazione delle immagini di Scene7 Publishing System che fornisce anteprime in tempo reale per le operazioni di regolazione.
-* Come procedura ottimale, potete raggruppare i comandi Dynamic Media Image Serving in un predefinito per immagini. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Il nome del predefinito personalizzato in un percorso URL richiama il predefinito corrispondente. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
-* Dynamic Media Classic offre inoltre metodi più avanzati per ottimizzare la qualità delle immagini, ad esempio l’applicazione della nitidezza alle immagini al momento dell’assimilazione. Per le situazioni d’uso avanzate in cui questa può rappresentare un’opzione per ottimizzare ulteriormente i risultati di rendering, il team Adobe Professional Services può aiutarvi con approfondimenti mirati e procedure ottimali.
+* Provate a utilizzare parametri diversi in tempo reale, direttamente su un URL Dynamic Media Classic o utilizzando la funzionalità di regolazione delle immagini di Dynamic Media Classic che fornisce anteprime in tempo reale per le operazioni di regolazione.
+* Come procedura ottimale, potete raggruppare i comandi di Dynamic Media Image Serving in un predefinito per immagini. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Il nome del predefinito personalizzato in un percorso URL richiama il predefinito corrispondente. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
+* Dynamic Media Classic offre anche metodi più avanzati per ottimizzare la qualità delle immagini, ad esempio l’applicazione della nitidezza alle immagini durante l’assimilazione. Per le situazioni d’uso avanzate in cui questa può rappresentare un’opzione per ottimizzare ulteriormente i risultati di rendering, il team Adobe Professional Services può aiutarvi con approfondimenti mirati e procedure ottimali.
 
