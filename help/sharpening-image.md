@@ -2,15 +2,18 @@
 title: Nitidezza di un’immagine
 seo-title: Nitidezza di un’immagine
 description: 'null'
-seo-description: Scoprite come rendere nitida un’immagine.
+seo-description: Scoprite come rendere più nitida un’immagine.
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/master_files
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2159'
+ht-degree: 73%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 La nitidezza si ottiene con una tecnica di manipolazione dell’immagine che rende più netti i contorni di un’immagine digitale. La nitidezza aumenta il contrasto tra i pixel dei bordi ed enfatizza il passaggio dalle aree chiare a quelle scure e viceversa. La nitidezza aumenta il contrasto locale e mette in evidenza i dettagli. Non esiste una formula rigida per ottenere la giusta nitidezza per tutte le immagini. Una nitidezza troppo leggera può produrre immagini morbide mentre una nitidezza troppo accentuata può produrre immagini con artefatti, disturbo o aloni.
 
-Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti per immagini per tutte le immagini. affinché abbiano dimensioni uniformi e affinché la nitidezza venga applicata a tutte le immagini richiamate d un particolare predefinito per immagini. Inoltre, potrete modificare facilmente i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
+Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per tutte le immagini. affinché abbiano dimensioni uniformi e affinché la nitidezza venga applicata a tutte le immagini richiamate d un particolare predefinito per immagini. Inoltre, potrete modificare facilmente i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
 
 Dynamic Media Classic consiglia inoltre di aggiungere la nitidezza ai predefiniti per visualizzatori, quindi di richiamare un visualizzatore con tale predefinito. In questo modo tutte le immagini all’interno dei visualizzatori saranno nitide.
 
@@ -27,17 +30,17 @@ Tuttavia, a prescindere dall’utilizzo di predefiniti per immagini o per visual
 
 >[!NOTE]
 >
->il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono trasmesse dai server di immagini per file multimediali dinamici. Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per distribuire tutte le immagini in modo che queste vengano trasmesse con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
+>il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono trasmesse dai server immagini di Dynamic Media. Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per distribuire tutte le immagini in modo che queste vengano trasmesse con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
 
-È spesso necessario rendere le immagini più nitide. I server SPS e Image di Dynamic Media Classic offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
+È spesso necessario rendere le immagini più nitide. I server Dynamic Media Classic e Image offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
 
 La nitidezza aumenta il contrasto tra i pixel dell’immagine in modo da accentuarne i bordi. Gli esseri umani percepiscono il contrasto dei bordi come nitidezza. Sebbene sia facile migliorare un’immagine tramite filtri di nitidezza, è anche facile che tale regolazione risulti eccessiva.
 
 Nelle immagini con nitidezza eccessiva si possono osservare un effetto alone o bande nelle linee dei bordi.
 
-Esistono procedure ottimali che potete seguire per ottimizzare la nitidezza delle immagini in Scene7 Publishing System e sul server immagini per file multimediali dinamici.
+Per ottimizzare la nitidezza delle immagini in Dynamic Media Classic e sul server immagini Dynamic Media, sono disponibili procedure ottimali.
 
-Consultate [Procedure ottimali per la nitidezza delle immagini in Scene7 Publishing System e sul server](/help/assets/s7_sharpening_images.pdf)di immagini per file multimediali dinamici.
+Consultate [Procedure ottimali per la nitidezza delle immagini in Dynamic Media Classic e su Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Per rendere più nitida un’immagine**
 
@@ -55,7 +58,7 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 |--- |--- |--- |--- |
 | Nitidezza semplice | op_sharpen | `0 | 1` | op_sharpen=1 |
 | Modalità di ricampionamento | resMode | `bilin | bicub | sharp2 | trilin`<br><br>bilin: interpolazione bilineare standard. È il metodo di ricampionamento più veloce; possono essere visibili alcuni artefatti di alias.<br>bicub: interpolazione bicubica. Richiede maggiori risorse CPU rispetto a bilin, ma produce immagini più nitide e con meno artefatti di alias.<br><br>sharp2: come algoritmo di interpolazione viene utilizzata una funzione Lanczos Window modificata. I risultati possono essere leggermente più nitidu dell’opzione bicubica, ma richiede un utilizzo maggiore della CPU.<br><br>trilin: interpolazione trilineare modificata, che utilizza risoluzioni più elevate e più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | resMode=sharp2 |
-| Maschera di contrasto | op_usm | amount, radius, threshold,<br><br>monochromeamount: fattore di intensità del filtro (reale 0...5)<br><br>raggio: raggio kernel del filtro in pixel ( <br><br>soglia reale 0...250): livello di soglia del filtro (numero intero 0...255)<br><br>monocromatico: impostato su 0 per applicare la maschera di contrasto separatamente a ciascun componente di colore, con l’impostazione su 1 per applicare la maschera di contrasto alla luminosità dell’immagine (intensità) | op_usm=1,1,10,0 |
+| Maschera di contrasto | op_usm | amount, radius, threshold,<br><br>monochromeamount: fattore di intensità del filtro (reale 0...5)<br><br>raggio: raggio kernel del filtro in pixel ( <br><br>soglia reale 0...250): livello di soglia del filtro (numero intero: 0...255)<br><br>monocromatico: impostato su 0 per applicare la maschera di contrasto separatamente a ciascun componente di colore, con l’impostazione su 1 per applicare la maschera di contrasto alla luminosità dell’immagine (intensità) | op_usm=1,1,10,0 |
 
 Selezionate il menu Nitidezza e scegliete un’opzione:
 
@@ -63,11 +66,11 @@ Selezionate il menu Nitidezza e scegliete un’opzione:
 
 **Nitidezza** Esegue una semplice passata di nitidezza sul file ridimensionato. Questa funzione è simile al filtro Nitidezza di Photoshop e supporta tutti i parametri utente. In genere si utilizza questo filtro o Maschera di contrasto, ma non entrambi. Questo metodo non è consigliato come procedura abituale, ma può servire per compensare un’eventuale sfocatura delle immagini. (URL: op_sharpen)
 
-**Maschera** di contrasto Consente di regolare un effetto filtro di nitidezza sull’immagine ricampionata finale. Potete controllare l’intensità dell’effetto e il raggio (in pixel) e impostare una soglia per il livello di contrasto da ignorare. Questo effetto utilizza le stesse opzioni del filtro Maschera di contrasto di Photoshop. (URL: op_usm)
+**Maschera** di contrasto Consente di regolare un effetto filtro di nitidezza sull’immagine ricampionata finale. Potete controllare l’intensità dell’effetto e il raggio (in pixel) e impostare una soglia per il livello di contrasto da ignorare. L’effetto utilizza le stesse opzioni del filtro “Maschera definizione dettagli” di Photoshop. (URL: op_usm)
 
 Scegliete le seguenti opzioni per regolare la nitidezza con Maschera di contrasto:
 
-**Fattore** Controlla la quantità di contrasto applicata ai pixel lungo i bordi. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L’impostazione Fattore in Dynamic Media Classic non equivale all’impostazione Fattore in Photoshop. Photoshop utilizza un valore compreso tra 1% e 500%, mentre Dynamic Media Classic viene ridimensionato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
+**Fattore** Controlla la quantità di contrasto applicata ai pixel lungo i bordi. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L’impostazione Fattore in Dynamic Media Classic non equivale all’impostazione Fattore in Photoshop. Photoshop utilizza un valore compreso tra 1% e 500%, mentre Dynamic Media Classic va da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
 
 **Raggio** Determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni. 
 
@@ -95,7 +98,7 @@ Selezionate il menu Ricampionamento e scegliete un’opzione. Queste opzioni aum
 
 **Sharpen2** Può produrre risultati leggermente più nitidi rispetto all’opzione Bicubica, ma con un utilizzo maggiore della CPU sul server immagini.
 
-**Trilineare** utilizza risoluzioni più elevate e più basse, se disponibili; consigliato solo quando l'aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
+**Trilineare** utilizza risoluzioni più elevate e più basse, se disponibili; consigliato solo quando l&#39;aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
 **Nitidezza e predefiniti per immagini**
 
@@ -106,7 +109,7 @@ Per ottenere risultati ottimali è possibile applicare tutti e tre gli effetti d
 
 I predefiniti per immagini possono essere modificati e aggiornati in qualsiasi momento. I risultati delle modifiche apportate a un predefinito per immagini sono visibili dopo la pubblicazione e dopo la cancellazione della cache per l’URL.
 
-Se utilizzate un predefinito per ciascuna immagine di una categoria di dimensioni, l’amministratore società può aggiornare la definizione del predefinito per immagini e pubblicare nuovamente i contenuti: tutte le immagini che utilizzano tale formato verranno regolate di conseguenza, senza che sia stato necessario modificare il codice Web. Si consiglia di utilizzare un predefinito per immagini per ciascuna dimensione di immagini utilizzata nel sito. Per aggiungere un predefinito per immagini, passate a Configurazione &gt; Impostazioni applicazione &gt; Predefiniti immagini. Quindi, scegliete Aggiungi per crearne uno nuovo predefinito o Modifica per modificarne uno esistente. L’unico campo obbligatorio è il nome del predefinito. Tuttavia, è utile includere nel predefinito la regolazione della nitidezza.
+Se utilizzate un predefinito per ciascuna immagine di una categoria di dimensioni, l’amministratore società può aggiornare la definizione del predefinito per immagini e pubblicare nuovamente i contenuti: tutte le immagini che utilizzano tale formato verranno regolate di conseguenza, senza che sia stato necessario modificare il codice Web. Si consiglia di utilizzare un predefinito per immagini per ciascuna dimensione di immagini utilizzata nel sito. Per aggiungere un predefinito per immagini, passate a Configurazione > Impostazioni applicazione > Predefiniti immagini. Quindi, scegliete Aggiungi per crearne uno nuovo predefinito o Modifica per modificarne uno esistente. L’unico campo obbligatorio è il nome del predefinito. Tuttavia, è utile includere nel predefinito la regolazione della nitidezza.
 
 **Qualità JPG**
 
@@ -122,13 +125,13 @@ Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
 Se non usate un predefinito per immagini o non passate specifici protocolli di nitidezza per il server immagine tramite la stringa URL, l’immagine ricampionata non verrà resa più nitida. Tuttavia, potete impostare dei valori di nitidezza predefiniti da applicare a tutte le immagini.
 
-Per impostare le opzioni di nitidezza predefinite per la società, passate a Configurazione &gt; Impostazione applicazione &gt; Configurazione pubblicazione &gt; Server immagini. Se impostate la modalità di ricampionamento predefinito su Sharp2, le immagini verranno sempre rese più nitide al momento del ricampionamento.
+Per impostare le opzioni di nitidezza predefinite per la società, passate a Configurazione > Impostazione applicazione > Configurazione pubblicazione > Server immagini. Se impostate la modalità di ricampionamento predefinito su Sharp2, le immagini verranno sempre rese più nitide al momento del ricampionamento.
 
 **Aggiunta di nitidezza ai predefiniti per visualizzatori**
 
 Se non aggiungete al predefinito i modificatori immagine per la nitidezza, la piccola immagine di caricamento iniziale può apparire sfocata: questo accade perché viene ricampionata per rientrare nella finestra del visualizzatore, ma non viene applicata alcuna regolazione a livello di nitidezza.
 
-In SPS, i predefiniti per visualizzatori (come i predefiniti per immagini) consentono di centralizzare molte opzioni in una singola posizione, compresa la scelta delle opzioni per l’interfaccia e per il visualizzatore (ad esempio, l’inserimento di un pulsante Stampa o di un controllo per variare la velocità di animazione dello zoom). I predefiniti per visualizzatori sono disponibili nella stessa sezione dei predefiniti per immagini, in Configurazione &gt; Impostazioni applicazione &gt; Predefiniti visualizzatore.
+In Dynamic Media Classic, i predefiniti per visualizzatori (come i predefiniti per immagini) consentono di centralizzare molte opzioni in un’unica posizione, compresa la scelta delle opzioni per l’interfaccia e per il visualizzatore (ad esempio, l’inclusione di un pulsante Stampa o il controllo della velocità dell’animazione dello zoom). I predefiniti per visualizzatori sono disponibili nella stessa sezione dei predefiniti per immagini, in Configurazione > Impostazioni applicazione > Predefiniti visualizzatore.
 
 L’opzione Modificatori si trova nella sezione Impostazioni principali di tutti i predefiniti per visualizzatori eCatalog, 360 gradi e Zoom personalizzati. Aggiungendo i comandi URL di nitidezza alla casella Modificatori, potete applicare la nitidezza ogni volta che il visualizzatore viene richiamato con quel predefinito per visualizzatori.
 
@@ -142,4 +145,4 @@ In questo caso il predefinito applica la nitidezza e cambia l’interfaccia pred
 
 L’ultimo metodo per l’applicazione della nitidezza, e il meno consigliato, consiste nel creare impostazioni locali di nitidezza a livello delle singole immagini. In questo modo si ignorano le impostazioni di nitidezza specificate nel predefinito per immagini e si usano invece valori specifici. Tuttavia, questo sostituisce anche tutti gli altri metodi di nitidezza per qualsiasi dimensione. Questo metodo può risultare utile, ad esempio, se alcune delle immagini non sono ad alta risoluzione e i valori nei predefiniti per immagini sono quindi troppo elevati. In questo caso può essere utile applicare la nitidezza alle singole immagini.
 
-In SPS, selezionate un’immagine, passate alla visualizzazione Dettagli (facendo doppio clic su di essa o facendo clic sul pulsante Visualizzazione dettagli) e fate clic su Nitidezza. Modificate i parametri e fate clic su Salva. Il server di immagini utilizzerà quindi tali parametri di nitidezza anziché il comando chiamato dall’URL mediante un modificatore di nitidezza di immagine o un predefinito per immagini. La modifica ha effetto dopo la pubblicazione.
+In Dynamic Media Classic, selezionate un’immagine, passate alla visualizzazione Dettagli (facendo doppio clic o premendo il pulsante Visualizzazione dettagli) e fate clic su Nitidezza. Modificate i parametri e fate clic su Salva. Il server di immagini utilizzerà quindi tali parametri di nitidezza anziché il comando chiamato dall’URL mediante un modificatore di nitidezza di immagine o un predefinito per immagini. La modifica ha effetto dopo la pubblicazione.
