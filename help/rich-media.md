@@ -2,15 +2,15 @@
 title: Contenuti multimediali
 seo-title: Contenuti multimediali
 description: 'null'
-seo-description: Scopri i diversi strumenti che puoi usare in Dynamic Media Classic per creare contenuti multimediali.
+seo-description: Scopri i diversi strumenti che puoi utilizzare in Dynamic Media Classic per creare contenuti multimediali.
 uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 51%
@@ -24,9 +24,9 @@ Dynamic Media Classic offre numerosi strumenti per la creazione di contenuti mul
 
 * **eCatalog** Presenta una versione Web interattiva e abilitata per la ricerca del catalogo o di altro materiale per la stampa. Potete creare aree selezionabili (o “mappe immagine”) per mostrare contenuti di rollover e consentire agli utenti di voltare le pagine, effettuare lo zoom, scorrere le pagine e allegarvi delle note. Consultate [Avvio rapido: eCatalog](/help/quick-start-ecatalog.md).
 
-* **eVideo** Offre esperienze video di alta qualità a schermi diversi, inclusi desktop, dispositivi mobili e tablet. Usate i predefiniti di codifica Dynamic Media Classic oppure personalizzate la codifica per controllare la qualità e le dimensioni del video. Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. Consultate [Avvio rapido: eVideo](/help/quick-start-video.md).
+* **eVideo** Offre esperienze video di alta qualità a schermi diversi, inclusi desktop, dispositivi mobili e tablet. Usate predefiniti di codifica Dynamic Media Classic oppure personalizzate la codifica per controllare la qualità e le dimensioni del video. Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. Consultate [Avvio rapido: eVideo](/help/quick-start-video.md).
 
-* **Le mappe** immagine trasmettono dinamicamente le immagini di qualsiasi dimensione e formato all’interno del sito Web. Invece di creare manualmente molte immagini con diverse dimensioni, è sufficiente utilizzare un’immagine principale. Dynamic Media Classic trasmette l’immagine richiesta, ottimizza l’immagine per ottenere risultati di massima qualità in termini di dimensioni, formato, peso, qualità e nitidezza. Consultate [Avvio rapido: ridimensionamento delle immagini](/help/quick-start-image-sizing.md)
+* **Le mappe** immagine trasmettono dinamicamente le immagini di qualsiasi dimensione e formato all’interno del sito Web. Invece di creare manualmente molte immagini con diverse dimensioni, è sufficiente utilizzare un’immagine principale. Dynamic Media Classic trasmette l’immagine richiesta e ottimizza l’immagine per ottenere risultati di massima qualità in termini di dimensioni, formato, peso, qualità e nitidezza. Consultate [Avvio rapido: ridimensionamento delle immagini](/help/quick-start-image-sizing.md)
 
 * **Set** di immagini Offre un’esperienza di acquisto interattiva grazie alla quale gli utenti possono visualizzare i prodotti in più viste. Potete combinare zoom, visualizzazioni multiple e campioni colori per un’esperienza di visualizzazione integrata. Consultate [Avvio rapido: set di immagini](/help/quick-start-image-sets.md).
 
