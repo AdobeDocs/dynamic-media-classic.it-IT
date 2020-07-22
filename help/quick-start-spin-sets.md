@@ -2,22 +2,25 @@
 title: '"Avvio rapido: set 360 gradi"'
 seo-title: '"Avvio rapido: set 360 gradi"'
 description: 'null'
-seo-description: Introduzione e avvio rapido al set gradi per iniziare a usare rapidamente.
-uuid: d 0 af 9 db 6-cb 6 f -48 f 0-89 f 6-f 3 ab 2 da 0659 f
+seo-description: Introduzione e Avvio rapido per il set 360 gradi per consentirvi di iniziare a usare le funzioni più rapidamente.
+uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 282 b 8 e 83-b 20 f -43 f 7-b 9 f 8-6 eebd 5 b 1 c 5 a 7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 68%
 
 ---
 
 
 # Avvio rapido: set 360 gradi{#quick-start-spin-sets}
 
-Un set 360 gradi simula la rotazione di un oggetto per esaminarlo. I set 360 gradi consentono di visualizzare elementi da qualsiasi angolo, ottenendo i dettagli visivi fondamentali da ogni angolazione. Un set 360 gradi simula un’esperienza visiva a 360 gradi. Dynamic Media Classic offre set gradi monodimensionali in cui i visualizzatori possono ruotare un elemento e set gradi bidimensionali in cui i visualizzatori possono ruotare e capovolgere l'elemento. Inoltre, gli utenti possono effettuare zoom e panoramica di qualsiasi visualizzazione con pochi clic del mouse. Questo consente agli utenti di esaminare un elemento con maggiore attenzione, da un particolare punto di vista.
+Un set 360 gradi simula la rotazione di un oggetto per esaminarlo. I set 360 gradi consentono di visualizzare elementi da qualsiasi angolo, ottenendo i dettagli visivi fondamentali da ogni angolazione. Un set 360 gradi simula un’esperienza visiva a 360 gradi. Dynamic Media Classic offre set 360 gradi a una dimensione in cui gli utenti possono ruotare un elemento e set 360 gradi a due dimensioni in cui gli utenti possono ruotare e capovolgere l’elemento. Inoltre, gli utenti possono effettuare lo zoom &quot;a mano libera&quot; e scorrere qualsiasi visualizzazione con pochi semplici clic del mouse. Questo consente agli utenti di esaminare un elemento con maggiore attenzione, da un particolare punto di vista.
 
 ![Immagini per un set 360 gradi](/help/assets/spin_set.png)
 
@@ -27,13 +30,13 @@ Consultate [Creazione di mappe immagine](creating-image-maps.md).
 
 **Avvio rapido**
 
-Questa sezione è stata progettata come punto di partenza per imparare a usare le funzioni dei set gradi in Dynamic Media Classic. Seguite i passaggi da 1 a 7. Alla fine di ciascun passaggio è riportato un riferimento incrociato per la sezione in cui è possibile trovare ulteriori informazioni.
+Questa sezione è stata progettata come punto di partenza per imparare a usare le funzioni per i set 360 gradi di Dynamic Media Classic. Seguite i passaggi da 1 a 7. Alla fine di ciascun passaggio è riportato un riferimento incrociato per la sezione in cui è possibile trovare ulteriori informazioni.
 
 **1. Creazione e caricamento di immagini**
 
-Occorre almeno 8-12 scatti di un elemento per un set gradi monodimensionale e 16-24 per un set gradi bidimensionale. Gli scatti devono essere effettuati a intervalli regolari per dare l’impressione che l’elemento stia ruotando e si stia capovolgendo. Ad esempio, se il set 360 gradi monodimensionale è composto di 12 scatti, per ciascuno scatto l’elemento deve essere ruotato di 30 gradi (360/12).
+Per un set 360 gradi monodimensionale, sono necessari almeno 8-12 scatti di un elemento e 16-24 scatti per un set 360 gradi bidimensionale. Gli scatti devono essere effettuati a intervalli regolari per dare l’impressione che l’elemento stia ruotando e si stia capovolgendo. Ad esempio, se il set 360 gradi monodimensionale è composto di 12 scatti, per ciascuno scatto l’elemento deve essere ruotato di 30 gradi (360/12).
 
-Per caricare le immagini per set 360 gradi dal computer o dalla rete a una cartella di Scene7 Publishing System, fate clic sul pulsante Carica nella barra di navigazione globale. 
+Per caricare le immagini per set 360 gradi dal computer o dalla rete ad Dynamic Media Classic, fate clic sul pulsante Carica nella barra di navigazione globale.
 
 Consultate [Linee guida per lo scatto di immagini per set 360 gradi](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
@@ -85,16 +88,16 @@ Consultate [Anteprima di un set 360 gradi](previewing-spin-set.md#previewing-a-s
 
 **6. Pubblicazione di un set 360 gradi**
 
-Quando un set gradi viene pubblicato, viene inserito sui server Dynamic Media Classic in modo che possa essere trasmesso in modo dinamico al sito Web o all'applicazione. Inoltre, attiva la stringa URL che richiama il set gradi dai server immagine Dynamic Media al sito Web o all'applicazione.
+Quando si pubblica un set 360 gradi, questo viene inserito sui server Dynamic Media Classic in modo che possa essere trasmesso in modo dinamico al sito Web o all’applicazione in cui deve essere visualizzato. Inoltre, attiva la stringa URL che richiama il set 360 gradi dai server immagini Dynamic Media al sito Web o all’applicazione.
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. Fate clic **su Pubblica** nella barra di navigazione globale per avviare una pubblicazione. On the Publish screen, click **Start Publish**.
+To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. Per avviare una pubblicazione, fate clic su **Pubblica** nella barra di navigazione globale. On the Publish screen, click **Start Publish**.
 
 Consultate [Pubblicazione di un set 360 gradi](publishing-spin-set.md#publishing-a-spin-set).
 
 **7. Collegamento di un set 360 gradi a una pagina Web**
 
-Dynamic Media Classic crea stringhe URL per i set gradi e le attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
+Dynamic Media Classic crea stringhe URL per richiamare i set 360 gradi e le attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
 
-Selezionate il set gradi, quindi fate clic **su Anteprima**. Viene visualizzata la schermata Anteprima. Selezionate un predefinito per visualizzatori di set 360 gradi. Quindi fate clic su **Copia URL**.
+Selezionate il set 360 gradi, quindi fate clic su **Anteprima**. Viene visualizzata la schermata Anteprima. Selezionate un predefinito per visualizzatori di set 360 gradi. Fate clic su **Copia URL**.
 
 Consultate [Collegamento di un set 360 gradi a una pagina Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
