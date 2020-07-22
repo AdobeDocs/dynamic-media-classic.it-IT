@@ -2,15 +2,18 @@
 title: Creazione di parametri per i modelli
 seo-title: Creazione di parametri per i modelli
 description: 'null'
-seo-description: Scopri come creare parametri di modello.
-uuid: d 17168 a 8-4776-4761-b 022-8258 d 5997604
+seo-description: Scoprite come creare i parametri dei modelli.
+uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/template_ basics
-discoiquuid: d 263 f 041-5 a 0 d -4 c 4 f -9266-aeff 51 a 5 a 7 e 2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 98%
 
 ---
 
