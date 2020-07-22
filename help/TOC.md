@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guida di Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 76%
+source-wordcount: '736'
+ht-degree: 75%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 76%
    + [Novità](whats-new.md)
    + [Requisiti di sistema](system-requirements.md)
    + [Assistenza](support.md)
-   + [Aiuto per Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
+   + [Aiuto per Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Servizi di formazione Adobe](training-services.md)
    + [Risorse utili](popular-resources.md)
    + [Video di formazione](training-videos.md)
 + Guida introduttiva {#getting-started}
-   + [Panoramica della piattaforma Adobe Dynamic Media Classic](scene7-platform-overview.md)
+   + [Panoramica della piattaforma Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Accesso e disconnessione](signing-out.md)
    + [Nozioni di base sulla navigazione](navigation-basics.md)
@@ -70,7 +70,7 @@ ht-degree: 76%
    + [Spostamento, ridenominazione ed eliminazione di risorse](moving-renaming-deleting-assets.md)
    + [Uso della vista Dettaglio ](detail-view.md)
    + [Visualizzazione, aggiunta ed esportazione di metadati](viewing-adding-exporting-metadata.md)
-   + [Esportazione delle risorse da Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
+   + [Esportazione di risorse da Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Condivisione di modifiche di risorse con client peer in tempo reale](sharing-asset-changes-peers-real.md)
    + [Stampa delle risorse](printing-assets.md)
    + [Gestione della cartella Cestino](trash-folder.md)
@@ -146,7 +146,7 @@ ht-degree: 76%
    + [Pubblicazione di un set di file multimediali diversi](publishing-mixed-media-set.md)
    + [Collegamento di un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Avvio rapido: Integrazione di Dynamic Media Classic con Adobe  Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Avvio rapido: Integrazione di Dynamic Media Classic con Adobe  Analytics](quick-start-integrating-dmc-analytics.md)
    + [Accedere ad Adobe Analytics](log-analytics.md)
    + [Configurazione dei rapporti di Adobe Analytics](configuring-analytics-reports.md)
    + [Personalizzazione di un visualizzatore con Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,11 +154,11 @@ ht-degree: 76%
    + [Verificare l’integrazione visualizzando un rapporto di Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Abilitazione di Adobe Analytics Video Report.](enabling-analytics-video-reports.md)
    + [Pubblicazione delle informazioni di configurazione di Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integrazione con Target Classic {#target-classic}
-   + [Avvio rapido: Integrazione con Target Classic](quick-start-target-classic-integration.md)
-   + [Integrazione di Adobe Dynamic Media Classic con  Adobe Target Classic](integrating-scene7-target-classic.md)
++ Integrazione Target Standard/Premium {#target-classic}
+   + [Avvio rapido: Integrazione Target Standard/Premium](quick-start-target-integration.md)
+   + [Integrazione di Adobe Dynamic Media Classic con  Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creazione di un set di offerte](creating-offer-set.md)
-   + [Invio dei set di offerte a  Adobe Target classico](pushing-offer-sets-target-classic.md)
+   + [Invio dei set di offerte a  Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Contenuti generati dall’utente {#user-generated-content}
    + [Informazioni sul contenuto generato dall’utente](about-ugc.md)
    + [Eliminazione di una risorsa caricata](deleting-uploaded-asset.md)
