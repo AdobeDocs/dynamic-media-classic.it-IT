@@ -2,15 +2,18 @@
 title: '"Avvio rapido: set di file multimediali diversi"'
 seo-title: '"Avvio rapido: set di file multimediali diversi"'
 description: 'null'
-seo-description: Introduzione e avvio rapido a set di file multimediali diversi per imparare a usare i set di file multimediali diversi.
-uuid: 0 ef 033 d 5-b 053-4 d 7 c-b 1 e 1-1980 f 899 fd 88
+seo-description: Introduzione e avvio rapido ai set di file multimediali diversi per aiutarvi a imparare a usare il prodotto rapidamente.
+uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 2708 d 077-94 fc -4045-8992-ad 3589 ed 9 cfd
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 80%
 
 ---
 
@@ -23,13 +26,13 @@ I predefiniti per visualizzatori di set di file multimediali diversi includono o
 
 **Avvio rapido**
 
-Questa sezione è stata progettata come punto di partenza per imparare a usare i set di file multimediali diversi in Dynamic Media Classic.
+Questa sezione è stata progettata come punto di partenza per imparare a usare le funzioni per i set di file multimediali diversi di Dynamic Media Classic.
 
 **1. Caricamento di immagini, file di campioni e video**
 
-Per iniziare, caricate le immagini, i file di campioni e i video che desiderate inserire nei set di file multimediali diversi. Nel visualizzatore di set di file multimediali diversi, gli utenti possono eseguire operazioni di zoom sulle immagini, dunque considerate anche lo zoom quando scegliete le immagini. Verificate che la dimensione maggiore delle immagini sia di almeno 2000 pixel.
+Per iniziare, caricate le immagini, i file di campioni e i video che desiderate inserire nei set di file multimediali diversi. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di file multimediali diversi, calcola lo zoom al momento di scegliere le immagini. Verifica che le immagini abbiano una dimensione maggiore che sia di almeno 2000 pixel.
 
-Per caricare il file dal computer a una cartella di Scene7 Publishing System, fate clic sul pulsante Carica nella barra di navigazione globale. 
+Fate clic su Carica nella barra di navigazione globale per caricare i file dal computer in una cartella di Dynamic Media Classic.
 
 Consultate [Caricamento dei file](uploading-files.md#uploading-your-files).
 
@@ -47,7 +50,7 @@ Consultate [Creazione di un set di file multimediali diversi](creating-mixed-med
 
 **4. Impostazione dei predefiniti per visualizzatori di file multimediali diversi**
 
-Dynamic Media Classic viene fornito con predefiniti per visualizzatori diversi per set di file multimediali diversi. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di file multimediali diversi.
+Dynamic Media Classic viene fornito con predefiniti per visualizzatori per set di file multimediali diversi. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di file multimediali diversi.
 
 Al momento di impostare un predefinito per visualizzatori di set di file multimediali diversi, aggiungete i predefiniti per i visualizzatori necessari per tutte le altre risorse incluse nel set. Ad esempio, se nel set di file multimediali diversi sono presenti dei video, al predefinito per visualizzatori di set di file multimediali diversi dovete aggiungere anche un predefinito per visualizzatori di video. Potete aggiungere al visualizzatore anche una colonna sonora. La colonna sonora viene riprodotta quando il visualizzatore viene aperto, ma non durante la riproduzione di un video.
 
@@ -63,12 +66,12 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
 Quando si pubblica un set di file multimediali diversi, questo viene inserito sui server Dynamic Media Classic e viene attivata la stringa URL.
 
-i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Sul **server video** vengono pubblicati i video effettivi contrassegnati per la pubblicazione, mentre sul server **immagini** vengono pubblicate le risorse correlate, ad esempio le miniature video, e le informazioni relative a qualsiasi set video adattivo.
+i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Sul **server video** vengono pubblicati i video effettivi contrassegnati per la pubblicazione, mentre sul server **** immagini vengono pubblicate le risorse correlate, ad esempio le miniature video, e vengono impostate le informazioni relative a eventuali set video adattivi.
 
 Consultate [Pubblicazione di un set di file multimediali diversi](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
 **7. Collegamento di un set di file multimediali diversi a una pagina Web**
 
-Una volta pubblicati, Dynamic Media Classic attiva le richieste URL per set di file multimediali diversi. Potete copiare tali URL dalla schermata Anteprima.
+Dopo la pubblicazione di un set di file multimediali diversi, Dynamic Media Classic attiva le richieste di URL. Potete copiare tali URL dalla schermata Anteprima.
 
 Selezionate il set di file multimediali diversi e fate clic su Anteprima. Nella schermata Anteprima, selezionate un predefinito per visualizzatore di set di file multimediali diversi e fate clic sul pulsante Copia URL. Consultate [Collegamento di un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
