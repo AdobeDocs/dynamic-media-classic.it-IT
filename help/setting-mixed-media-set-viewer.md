@@ -3,14 +3,17 @@ title: Impostazione di un predefinito per visualizzatori di set di file multimed
 seo-title: Impostazione di un predefinito per visualizzatori di set di file multimediali diversi
 description: 'null'
 seo-description: Scoprite come impostare un predefinito per visualizzatori di set di file multimediali diversi.
-uuid: d5bf1840-e453-445d-bebc-8489b29f3c8
+uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/mixed_media_sets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 82%
 
 ---
 
@@ -21,11 +24,12 @@ I predefiniti per visualizzatori di set di file multimediali diversi determinano
 
 Potete scegliere di includere nel visualizzatore di set di file multimediali diversi tutte le funzioni per le community Internet o solo alcune di esse. La funzione Incorpora aggiunge al visualizzatore un collegamento che permette agli utenti di copiare il codice richiesto per aprire il visualizzatore in una pagina esterna (ad esempio un blog, un sito Web o un sito di social networking). La funzione Collegamento fornisce l’URL del visualizzatore, in modo che gli utenti possano usare un collegamento al visualizzatore. La funzione Visita fornisce un collegamento al sito Web specificato.
 
-1. Fate clic su **Configurazione** &gt; **Predefiniti visualizzatore**.
+1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Nella pagina Predefiniti visualizzatore, effettuate una delle seguenti operazioni:
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+
    Viene aperta la schermata Configura visualizzatore.
 
 1. Digitate nella casella Nome predefinito un nome per il visualizzatore di set di file multimediali diversi.
@@ -53,11 +57,14 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
    * **E-mail** Fate clic su Attivato per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti fanno clic sul pulsante E-mail durante la visualizzazione del set, si apre un messaggio e-mail contenente il collegamento al set.
 
-   * **Incorpora** clic su Live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Incorpora** clic su Live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se desiderato, fate clic su 
+**Individuare** e selezionare un&#39;interfaccia personalizzata per il pulsante.
 
-   * **Link** Click Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Link** Click Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. Se desiderato, fate clic su 
+**Individuare** e selezionare un&#39;interfaccia personalizzata per il pulsante.
 
-   * **Visita** Fai clic su **Live**. Nella casella Etichetta pulsante visita, digitate il nome da visualizzare nel visualizzatore per il pulsante Visita. Nella casella URL visita, digitate l’URL del sito Web da aprire quando gli utenti fanno clic sul collegamento.
+   * **Visita** clic 
+**Live**. Nella casella Etichetta pulsante visita, digitate il nome da visualizzare nel visualizzatore per il pulsante Visita. Nella casella URL visita, digitate l’URL del sito Web da aprire quando gli utenti fanno clic sul collegamento.
 
 1. Specificate le altre opzioni desiderate. Per visualizzare la descrizione di un’opzione, fate clic sull’icona Suggerimento  accanto all’opzione.
 
