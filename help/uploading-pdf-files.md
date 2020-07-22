@@ -6,10 +6,13 @@ seo-description: Scoprite come caricare i file PDF associati a un eCatalog.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +23,13 @@ Di solito, un eCatalog viene generato a partire da file Adobe PDF contenenti tut
 
 ## Preparazione dei file PDF {#preparing-your-pdf-files}
 
-Preparate i file PDF prima di caricarli su Scene7 Publishing System:
+Preparate i file PDF prima di caricarli in Dynamic Media Classic:
 
 * Per facilitare il caricamento dei file, posizionateli tutti nella stessa cartella sul computer locale o sulla rete.
 * Denominate i file in ordine alfanumerico per pagina in modo da facilitare il posizionamento delle pagine nell’ordine corretto dopo che i file sono stati caricati.
-* Esaminate le pagine PDF per verificare se contengono indicatori di ritaglio, crocini di registro o barre di colore. Questi indicatori determinano come tagliare la carta quando i documenti vengono stampati e devono essere rimossi prima di pubblicare l’eCatalog in rete. Dynamic Media Classic offre opzioni per gli indicatori di taglio al momento del caricamento dei file PDF.
+* Esaminate le pagine PDF per verificare se contengono indicatori di ritaglio, crocini di registro o barre di colore. Questi indicatori determinano come tagliare la carta quando i documenti vengono stampati e devono essere rimossi prima di pubblicare l’eCatalog in rete. Dynamic Media Classic offre opzioni per gli indicatori di taglio quando caricate i file PDF.
 * Per consentire agli utenti di effettuare ricerche nell’eCatalog mediante parole chiave, verificate che i file PDF non siano “appiattiti” (convertiti in immagini). Non è possibile estrarre parole di ricerca da file PDF appiattiti. Per verificare se un PDF è stato appiattito, provate a selezionare il testo al suo interno. Se non potete selezionare il testo, il PDF è appiattito e gli utenti non possono effettuare ricerche per parole chiave nell’eCatalog.
-* Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Per impostazione predefinita, SPS è in grado di rilevare in modo intelligente tali immagini CMYK e convertirle utilizzando un profilo colore CMYK interno. Se necessario potete anche utilizzare un profilo colore personalizzato per convertire le immagini CMYK. 
+* Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Per impostazione predefinita, Dynamic Media Classic è in grado di rilevare in modo intelligente queste immagini CMYK e convertirle utilizzando un profilo colore CMYK interno. Se necessario potete anche utilizzare un profilo colore personalizzato per convertire le immagini CMYK. 
 
    Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
@@ -56,7 +59,7 @@ Selezionate i file da caricare, quindi selezionate le opzioni PDF *best practice
 
 * **Mantieni spazio** colore originale Conserva lo spazio colore originale.
 
-* **Personalizzato da &gt;** Apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore standard di Photoshop o uno caricato in SPS. 
+* **Personalizzato da >** Apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
