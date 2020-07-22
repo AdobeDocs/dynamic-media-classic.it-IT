@@ -6,11 +6,14 @@ seo-description: Scoprite le opzioni di modifica delle immagini disponibili al m
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/master_files
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1144'
+ht-degree: 78%
 
 ---
 
@@ -32,7 +35,7 @@ Queste opzioni si trovano nella sezione Opzioni modifica immagini della schermat
 
 Per ritagliare automaticamente i pixel degli spazi bianchi da un’immagine, selezionate il menu Ritaglio e scegliete Rifila. A questo punto, scegliete le seguenti opzioni:
 
-* **Rifila in base a** Scegliere se ritagliare in base a colore o trasparenza:
+* **Rifila in base** a: scegliete se ritagliare in base al colore o alla trasparenza:
 
 * **Colore** Scegliete l’opzione Colore. Dall’elenco a discesa Angolo scegliete quindi l’angolo dell’immagine con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
 
@@ -56,7 +59,7 @@ Scegliete un’opzione Profilo colore per selezionare uno spazio colore per l’
 
 * **Mantieni spazio** colore originale Conserva lo spazio colore originale.
 
-* **Personalizzato da &gt;** Apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore standard di Photoshop o uno caricato in SPS. 
+* **Personalizzato da >** Apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
@@ -74,7 +77,7 @@ In Maschera di contrasto, impostate le opzioni desiderate come descritto nella s
 
 | Opzioni di Maschera di contrasto | Descrizione |
 |--- |--- |
-| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Corrisponde all’intensità dell’effetto. La differenza principale tra questo valore in SPS e in Adobe Photoshop, è che Photoshop supporta valori compresi tra 1% e 500%. In SPS i valori ammessi sono compresi tra 0.0 e 5.0 dove 5.0 equivale circa al valore 500% in Photoshop, 0.9 equivale a 90% e così via. |
+| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Corrisponde all’intensità dell’effetto. La differenza principale tra i valori di Maschera di contrasto in Dynamic Media Classic e i valori di quantità in Adobe Photoshop, è che Photoshop ha un intervallo compreso tra 1% e 500%. In Dynamic Media Classic, invece, l&#39;intervallo di valori è compreso tra 0,0 e 5,0. In Dynamic Media Classic, il valore 5.0 equivale approssimativamente al 500% in Photoshop; un valore pari a 0,9 equivale a 90% e così via. |
 | Raggio | Controlla il raggio dell’effetto. <br><br>L’intervallo di valori è compreso tra 0 e 250. L’effetto viene eseguito su tutti i pixel di un’immagine e si irradia da tutti i pixel in tutte le direzioni. Il raggio è espresso in pixel. Ad esempio, per ottenere un effetto di nitidezza simile per un’immagine di 2000x 2000 pixel e una di 500x 500 pixel, potete impostare un raggio di 2 pixel per l’immagine di 2000x2000 pixel e raggio di 1 pixel per l’immagine di 500x500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel.  |
 | Soglia | Specifica l’intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. È importante per evitare di introdurre “disturbo” quando questo filtro viene applicato a un’immagine. Il valore di soglia deve essere compreso tra 0 e 255 e corrisponde al numero di incrementi di luminosità di un’immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. <br><br>Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e palpebre.<br><br>Ad esempio, per una foto di un volto, Maschera di contrasto agisce sulle parti dell’immagine con maggior contrasto (come tra ciglia e palpebre) e sull’incarnato uniforme. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentua le lievi differenze di tonalità nelle aree di pelle. Questo genera un effetto sgradevole mentre il maggior contrasto delle ciglia migliora la nitidezza dell’immagine.<br><br>Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso dell’incarnato uniforme. <br><br>Nella precedente grafica delle zip, osservate la texture accanto alle zip. Si verifica del disturbo perché i valori di soglia sono troppo bassi per evitarlo. |
 | Monocromatico | Seleziona la luminosità dell’immagine con maschera di contrasto (intensità).<br><br>Deselezionate questa opzione per applicare la maschera di contrasto separatamente a ciascun componente di colore. |
