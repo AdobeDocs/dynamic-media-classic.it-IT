@@ -6,11 +6,14 @@ seo-description: Scoprite come visualizzare in anteprima una risorsa.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -52,9 +55,9 @@ Per una specifica piattaforma per visualizzatore, la finestra Elenco visualizzat
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima &gt; Elenco visualizzatori, sotto la miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una risorsa e fate clic su Anteprima &gt; Elenco visualizzatori a destra della miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima &gt; Elenco visualizzatori.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima > Elenco visualizzatori, sotto la miniatura.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una risorsa e fate clic su Anteprima > Elenco visualizzatori a destra della miniatura.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima > Elenco visualizzatori.
 
 1. (Facoltativo) Nella finestra Elenco visualizzatori, fate clic sull’intestazione di colonna **Nome** o **Tipo piattaforma** per ordinare la colonna in modo crescente o decrescente.
 1. Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su Anteprima per vedere come viene visualizzata la risorsa per specifici visualizzatori e tipi di piattaforma.
@@ -91,9 +94,9 @@ Consultate [Creazione e attivazione dei predefiniti per immagini](creating-enabl
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima &gt; Elenco predefiniti immagine, sotto la miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima &gt; Elenco predefiniti immagine, a destra della miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima &gt; Elenco predefiniti immagine.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima > Elenco predefiniti immagine, sotto la miniatura.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima > Elenco predefiniti immagine, a destra della miniatura.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima > Elenco predefiniti immagine.
 
 1. Nella finestra Elenco predefiniti immagine, selezionate nella tabella il nome del tipo di predefinito di cui desiderate visualizzare l’anteprima in linea nel riquadro di destra.
 1. (Facoltativo) Nella finestra Elenco predefiniti immagine, nell’elenco a discesa Codifica URL per Copia generazione URL che si trova in basso, selezionate la codifica URL da applicare all’URL della risorsa immagine quando viene copiato.
