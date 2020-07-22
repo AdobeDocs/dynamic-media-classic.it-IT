@@ -6,20 +6,23 @@ seo-description: Scoprite come pubblicare i file.
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/upload_and_publish_assets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 76%
 
 ---
 
 
 # Pubblicazione di file {#publishing-files}
 
-Le risorse vengono pubblicate sui server immagini per file multimediali dinamici. Potete pubblicare le risorse una sola volta oppure fare in modo che Dynamic Media Classic le pubblichi su una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Potete copiare le richieste URL da Scene7 Publishing System e aggiungerle al sito Web o all’applicazione.
+Le risorse vengono pubblicate sui server immagini Dynamic Media. Potete pubblicare le risorse una sola volta oppure fare in modo che Dynamic Media Classic le pubblichi su una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Potete copiare le chiamate URL da Dynamic Media Classic e aggiungerle al sito Web o all’applicazione.
 
-Scene7 Publishing System ora supporta la distribuzione di tutte le immagini e i video su HTTP/2. ossia un URL pubblicato o un codice da incorporare per l’immagine o il video può essere integrato con qualsiasi applicazione che accetta una risorsa ospitata. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui i browser e i server comunicano, consentendo una migliore risposta e tempi di caricamento di tutte le risorse Dynamic Media Classic. Consultate [HTTP2 Delivery of Content FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)(Distribuzione HTTP2 di contenuti).
+Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video via HTTP/2. ossia un URL pubblicato o un codice da incorporare per l’immagine o il video può essere integrato con qualsiasi applicazione che accetta una risorsa ospitata. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui i browser e i server comunicano, consentendo una migliore risposta e tempi di caricamento di tutte le risorse Dynamic Media Classic. Consultate [HTTP2 Delivery of Content FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)(Distribuzione HTTP2 di contenuti).
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
@@ -62,7 +65,7 @@ Potete creare un processo di pubblicazione per pubblicare le risorse che avete c
 
 1. Fate clic su **Invia pubblicazione**.
 
-Scene Publishing System tiene traccia dei processi di pubblicazione nella pagina Processi. In questa pagina potete controllare i processi di pubblicazione.
+Dynamic Media Classic tiene traccia dei processi di pubblicazione nella pagina Processi. In questa pagina potete controllare i processi di pubblicazione.
 
 >[!NOTE]
 >
@@ -92,7 +95,7 @@ Potete visualizzare le Opzioni avanzate nella pagina Pubblica e sceglierle per g
 
 * **Pubblica su** Scegliete un tipo di server per pubblicare le risorse solo su un server specifico, non su tutti i server.
 
-* **Per impostazione predefinita,** in SPS vengono pubblicate solo le risorse nuove e non ancora pubblicate in precedenza (opzione Nuovo dall’ultima pubblicazione). Potete tuttavia scegliere Pubblicazione completa per pubblicare anche le risorse aggiornate o modificate dopo l’ultima pubblicazione. Scegliete Completa con dati di ricerca se pubblicate un eCatalog e desiderate consentire ai lettori di effettuare ricerche in base alla parola chiave.
+* **Pubblica** Per impostazione predefinita, Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate in precedenza (opzione Nuovo dall’ultima pubblicazione). Potete tuttavia scegliere Pubblicazione completa per pubblicare anche le risorse aggiornate o modificate dopo l’ultima pubblicazione. Scegliete Completa con dati di ricerca se pubblicate un eCatalog e desiderate consentire ai lettori di effettuare ricerche in base alla parola chiave.
 
 * **Esegui processo come** Scegliere un nome utente dall’elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, verrà associato un processo di pubblicazione a un utente.
 
@@ -122,7 +125,7 @@ Le risorse non pubblicate sono indicate nell’interfaccia utente tramite un’i
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, usate i metodi di selezione file standard per selezionare uno o più video dal set.
 
-      Nella barra di navigazione globale, fate clic su **File &gt; Pubblica**.
+      Nella barra di navigazione globale, fate clic su **File > Pubblica**.
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, fate clic sull’icona rotonda grigia barrata a sinistra del nome della risorsa.
 
@@ -138,7 +141,7 @@ Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate una o più risorse pubblicate.
 
-      On the Global Navigation Bar, click **File &gt; **Unpublish**.
+      On the Global Navigation Bar, click **File > **Unpublish**.
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, fate clic sull’icona verde rotonda con il segno di spunta a sinistra del nome della risorsa.
 
@@ -152,11 +155,11 @@ Le risorse Dynamic Media Classic sono distribuite sulla rete di distribuzione de
 
 La prima volta che un utente scarica una pagina Web, le risorse vengono distribuite su un server cache Web CDN. Le risorse vengono quindi archiviate su questo server in modo che la prossima volta che un utente nella stessa area accede alla pagina Web, è possibile distribuire più velocemente lo stesso contenuto memorizzato nella cache. Il contenuto viene distribuito più velocemente perché si trova più vicino all’utente finale. La rete CDN assicura visualizzazioni di pagine Web più veloci. Una rete CDN diminuisce le esigenze di larghezza di banda sul server centrale perché il contenuto viene distribuito dalla rete di edge caching e non da un server centrale in ogni istanza.
 
-Il contenuto Dynamic Media Classic appena pubblicato è disponibile immediatamente per l'utente finale e popola rapidamente la rete di edge caching. Tuttavia, il contenuto appena ripubblicato, ovvero le immagini con nomi identici a quelli delle immagini pubblicate precedentemente su un server di immagini, non viene aggiornato sulla rete CDN per almeno dieci ore. Gli utenti finali invece visualizzano il contenuto di una cache Web sulla rete CDN. Per questo motivo, le risorse ripubblicate di Dynamic Media Classic potrebbero non essere visualizzate agli utenti finali per dieci ore.
+Il contenuto di Dynamic Media Classic appena pubblicato è disponibile immediatamente per l&#39;utente finale e popola rapidamente la rete di edge caching. Tuttavia, il contenuto appena ripubblicato, ovvero le immagini con nomi identici a quelli delle immagini pubblicate precedentemente su un server di immagini, non viene aggiornato sulla rete CDN per almeno dieci ore. Gli utenti finali invece visualizzano il contenuto di una cache Web sulla rete CDN. Per questo motivo, le risorse ripubblicate di Dynamic Media Classic potrebbero non essere visualizzate agli utenti finali per dieci ore.
 
 Per rendere disponibili le risorse appena ripubblicate prima che sia trascorso questo intervallo di dieci ore, potete cancellare le cache Web sulla rete CDN. La cancellazione delle cache Web rimuove i vecchi contenuti dalle cache Web della rete CDN e li sostituisce con le risorse pubblicate più di recente.
 
-Per cancellare la cache, scegliete File &gt; Annulla validità CDN. Tutti i file selezionati vengono rimossi dalla cache. Se non vi sono risorse pubblicate, o se non siete un amministratore di società, l’opzione Rimuovi da CDN non è disponibile.
+Per cancellare la cache, scegliete File > Annulla validità CDN. Tutti i file selezionati vengono rimossi dalla cache. Se non vi sono risorse pubblicate, o se non siete un amministratore di società, l’opzione Rimuovi da CDN non è disponibile.
 
 >[!MORELIKETHIS]
 >
