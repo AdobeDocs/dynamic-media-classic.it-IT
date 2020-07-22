@@ -6,10 +6,13 @@ seo-description: Scoprite come specificare le opzioni di esportazione disponibil
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 82%
 
 ---
 
@@ -23,14 +26,14 @@ Se esportate le risorse di immagini mediante una conversione definita dall’ute
 * Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
 
-Consultate anche [Esportazione delle risorse da Scene7 Publishing System](exporting-assets-scene7-publishing-system.md#exporting_assets_from_scene7_publishing_system).
+Consultate anche [Esportazione di risorse da Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Per specificare le opzioni di esportazione disponibili per gli utenti di Media Portal**
 
-1. Fate clic su **Configurazione** &gt; **Predefiniti immagini**.
+1. Fate clic su **Configurazione** > **Predefiniti immagini**.
 1. Nella finestra Predefiniti immagine, selezionate una delle seguenti opzioni:
 
-   * **Abilita conversione** definita dall’utente se selezionata, questa opzione consente agli utenti di scegliere un’altra opzione dall’elenco a discesa Dimensione nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
+   * **Abilita conversione** definita dall’utente quando è selezionata, questa opzione consente agli utenti di scegliere un’altra opzione dall’elenco a discesa Dimensione nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
 
       Se dall’elenco a discesa **Dimensione** vengono scelti i **pixel**, i valori di larghezza x altezza risultanti per l’immagine non possono superare i 100 milioni di pixel. Questa dimensione corrisponde a 10.000 x 10.000 pixel per un’immagine quadrata o circa 8.000 x 12.000 pixel per un’immagine con proporzioni 2x3. Questo limite di dimensione non è applicabile se esportate le immagini principali originali.
 
