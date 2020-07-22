@@ -3,14 +3,17 @@ title: Aggiunta di marcatori capitolo a video
 seo-title: Aggiunta di marcatori capitolo a video
 description: 'null'
 seo-description: Scoprite come aggiungere marcatori capitolo a un video.
-uuid: 4 e 1 e 6 daf-afc 6-49 d 9-ac 90-183 fe 2 a 903 b 2
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/video
-discoiquuid: 8 bc 5 e 552-2 abb -41 f 0-89 d 2-bdf 3 ae 5 d 96 c 2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 85%
 
 ---
 
@@ -55,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **Per aggiungere marcatori capitolo a video**
 
-1. Create il file video del capitolo usando un semplice editor di testo esterno a Scene7 Publishing System.
+1. Utilizzando un semplice editor di testo esterno ad Dynamic Media Classic, create il file video del capitolo.
 
    >[!NOTE]
    >
@@ -65,12 +68,12 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
 
-1. In Scene7 Publishing System, caricate il file WebVTT dei capitoli.
+1. In Dynamic Media Classic, caricate il file WebVTT dei capitoli.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video da associare al file dei capitoli che avete caricato.
-1. Nel pannello delle risorse, selezionate una singola risorsa video, quindi, sotto la miniatura della risorsa, fate clic su **Anteprima** &gt; **Elenco visualizzatori**.
+1. Nel pannello delle risorse, selezionate una singola risorsa video, quindi, sotto la miniatura della risorsa, fate clic su **Anteprima** > **Elenco visualizzatori**.
 1. Nella tabella Elenco visualizzatori, individuate il visualizzatore HTML5 denominato **Univeral_HTML5_Video** ed effettuate una delle seguenti operazioni:
 
    * Per un’esperienza di visualizzazione con video a comparsa, fate clic su **Copia URL** all’estrema destra del nome.
