@@ -2,22 +2,25 @@
 title: Regolazione di un’immagine
 seo-title: Regolazione di un’immagine
 description: 'null'
-seo-description: Come regolare un'immagine
-uuid: c 052 acd 3-e 8 c 1-4134-ad 21-b 9 c 41578097 f
+seo-description: Scoprite come regolare un’immagine
+uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 47 a 23980-2886-4 da 3-ab 2 d -6 cd 50 e 00 d 188
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
 
 # Regolazione di un’immagine{#adjusting-an-image}
 
-Dynamic Media Classic offre vari comandi per regolare l'aspetto di un'immagine. Potete riflettere, ruotare, sfocare e colorare un’immagine e cambiarne il bilanciamento colore. Sperimentando con questi comandi potete vederne gli effetti sull’immagine con cui state lavorando.
+Dynamic Media Classic offre vari comandi per regolare l’aspetto di un’immagine. Potete riflettere, ruotare, sfocare e colorare un’immagine e cambiarne il bilanciamento colore. Sperimentando con questi comandi potete vederne gli effetti sull’immagine con cui state lavorando.
 
 Consultate anche [Creazione di un alias per un’immagine](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -29,7 +32,7 @@ Consultate anche [Creazione di un alias per un’immagine](adjusting-image.md#cr
    * Usate il cursore Ruota per ruotare l’immagine. Per ruotare un’immagine potete immettere dei valori nel campo Ruota. I valori positivi la ruotano in senso orario, quelli negativi in senso antiorario.
    * Usate il cursore Sfocatura o la casella corrispondente per sfocare un’immagine. Più alto è il valore, più sfocata sarà l’immagine.
    * Usate le opzioni Contrasto, Luminosità, Saturazione, Tonalità e Bilanciamento colore per regolare colore e luminosità. Questi effetti sono cumulativi. Ad esempio, le modifiche delle impostazioni Magenta/Verde si sommano a quelle delle impostazioni Tonalità.
-   * Usate le opzioni Colora per colorare un’immagine conservandone le zone d’ombra e di luce. Anche le modifiche delle opzioni Colora sono cumulative. Dal menu Luminosità scegliete Nessuna compensazione per disattivare la compensazione automatica della luminosità. Impostate il valore di contrasto su 0 per conservare l’intervallo di contrasto dell’immagine originale o specificate un intervallo con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici sono compresi nell'intervallo 30-70.
+   * Usate le opzioni Colora per colorare un’immagine conservandone le zone d’ombra e di luce. Anche le modifiche delle opzioni Colora sono cumulative. Dal menu Luminosità scegliete Nessuna compensazione per disattivare la compensazione automatica della luminosità. Impostate il valore di contrasto su 0 per conservare l’intervallo di contrasto dell’immagine originale o specificate un intervallo con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici sono compresi tra 30 e 70.
 
 1. Una volta completata la regolazione dell’immagine, effettuate una delle seguenti operazioni:
 
