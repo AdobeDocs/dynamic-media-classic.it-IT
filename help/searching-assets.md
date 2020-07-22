@@ -2,22 +2,25 @@
 title: Ricerca di risorse
 seo-title: Ricerca di risorse
 description: 'null'
-seo-description: Scopri come cercare le risorse.
-uuid: 058209 bc-bac 4-4 d 5 c -8261-e 242 a 543 beaf
+seo-description: Scoprite come cercare le risorse.
+uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: effef 4 e 7-37 c 5-42 e 2-9266-ecd 026 cad 628
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 77%
 
 ---
 
 
 # Ricerca di risorse{#searching-assets}
 
-Per individuare le risorse dei file in Scene7 Publishing System, potete visualizzare le risorse per tipo, ordinarle nel pannello Sfoglia, filtrarle nonché effettuare una ricerca semplice o avanzata.
+Per individuare le risorse dei file in Dynamic Media Classic, potete visualizzare le risorse per tipo, ordinarle nel pannello Sfoglia, effettuare una ricerca semplice, effettuare una ricerca avanzata e filtrare le risorse.
 
 >[!NOTE]
 >
@@ -58,21 +61,21 @@ Per eseguire ricerche con molti criteri, inclusi i valori dei campi di metadati,
 
 Specificate uno dei seguenti criteri di ricerca:
 
-**Filtra per tipo di risorsa** Restringete la ricerca a un solo tipo di risorsa scegliendo un tipo di risorsa nel menu.
+**Filtra per tipo** di risorsa Limita la ricerca a un solo tipo di risorsa scegliendo un tipo di risorsa dal menu.
 
-**File e cartelle** Scegliete dove eseguire la ricerca: In tutti i file e le cartelle, Nella cartella selezionata o Nella cartella selezionata e sottocartelle.
+**File e cartelle** Scegliere la posizione in cui effettuare la ricerca: In tutti i file e le cartelle, nella cartella selezionata o nella cartella selezionata e sottocartelle.
 
-**Tutti gli stati pubblicazione** Cerca i file contrassegnati come pronti per la pubblicazione, non sono contrassegnati per la pubblicazione o tutti i file.
+**Tutti gli stati** di pubblicazione Cercare i file contrassegnati come pronti per la pubblicazione, non contrassegnati come pronti per la pubblicazione o tutti i file.
 
-**Condizioni** Se specificate criteri di metadati per la ricerca, selezionate se la ricerca deve corrispondere a tutte le condizioni (ricerca ALL) o a qualsiasi condizione (ricerca O).
+**Condizioni** Se specificate i criteri di metadati per la ricerca, selezionate se la ricerca deve corrispondere a tutte le condizioni (ricerca ALL) o a qualsiasi condizione (ricerca OR).
 
-**Specificate i criteri di ricerca metadati** Crea uno o più campi di ricerca per la ricerca dei metadati. Per creare i campi di ricerca, effettuate le seguenti operazioni:
+**Specificate i criteri** di ricerca per metadati Create uno o più campi di ricerca per la ricerca dei metadati. Per creare i campi di ricerca, effettuate le seguenti operazioni:
 
 1. Aprite l’elenco Visualizzazioni metadati (a sinistra del menu Aggiungi un campo) e scegliete una visualizzazione di metadati. Potete scegliere la visualizzazione compatta, IPTC, XMP oppure una visualizzazione impostata dall’amministratore.
 1. Dall’elenco a discesa del menu Aggiungi un campo, scegliete un nome di campo.
 1. Scegliete un’opzione Contiene (Contiene, Non contiene, Inizia con, Termina con, È uguale a).
 1. Per i campi numerici, scegliete un valore o immettete in intervallo di date personalizzato.
-1. (Facoltativo) Ripetete i passaggi 1-4 per creare più campi di ricerca.
+1. (Facoltativo) Ripetete i passaggi da 1 a 4 per creare altri campi di ricerca.
 
 Per rimuovere un campo, fate clic sul pulsante Rimuovi campo di ricerca.
 
@@ -106,16 +109,15 @@ Per individuare le risorse filtrandole in base ai valori dei metadati, effettuat
 
 1. Fate clic sul pulsante Campo  di un pannello e seguite le istruzioni seguenti per visualizzare il menu di filtro e impostare l’operazione filtro:
 
-   **Scelta
-di un campo di metadati** Selezionate il nome del campo nel menu di filtro.
+   **Scelta di un campo** di metadati Selezionate il nome del campo nel menu di filtro.
 
-   ***Nota**: nel menu di filtro vengono visualizzati solo i nomi dei campi metadati nella visualizzazione metadati predefinita.*
+   ***nota **: Nel menu di filtro vengono visualizzati solo i nomi dei campi di metadati nella visualizzazione metadati predefinita.*
 
    Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
-   **Aggiunta di un campo di metadati** Scegliete Aggiungi un pannello. Dopo che il pannello compare nel riquadro Filtri, fate clic sul relativo pulsante Campo e scegliete il nome del campo di metadati desiderato del menu.
+   **Aggiunta di un campo** di metadati Scegliere Aggiungi un pannello. Dopo che il pannello compare nel riquadro Filtri, fate clic sul relativo pulsante Campo e scegliete il nome del campo di metadati desiderato del menu.
 
-   **Rimuovere un campo di metadati** scegliete Rimuovi questo pannello nel menu di filtro.
+   **Rimozione di un campo** di metadati Scegliere Rimuovi questo pannello dal menu di filtro.
 
    Quando scegliete un campo di metadati, nel relativo pannello vengono elencati i seguenti elementi:
 
@@ -137,28 +139,27 @@ di un campo di metadati** Selezionate il nome del campo nel menu di filtro.
 
 Per salvare, ripetere ed eliminare le operazioni filtro, effettuate le seguenti operazioni nella scheda Filtri:
 
-**Salvataggio di un'operazione filtro** Fate clic sul pulsante Seleziona predefinito, scegliete Salva impostazioni correnti come nuovo predefinito e immettete un nome nella finestra di dialogo Salva.
+**Salvataggio di un’operazione** filtro Fate clic sul pulsante Seleziona predefinito, scegliete Salva impostazioni correnti come nuovo predefinito, quindi immettete un nome nella finestra di dialogo Salva.
 
-**Ripetizione di un'operazione filtro** Fate clic sul pulsante Seleziona predefinito e scegliete il nome di un'operazione filtro nel menu. Nel menu sono elencate le operazioni filtro precedentemente salvate.
+**Ripetizione di un’operazione** filtro Fare clic sul pulsante Seleziona predefinito e scegliere il nome di un’operazione filtro dal menu. Nel menu sono elencate le operazioni filtro precedentemente salvate.
 
-**Se eliminate un'operazione filtro dal menu** Seleziona predefinito,
-eseguite l'operazione filtro. Quindi fate clic sul pulsante Seleziona predefinito e nel menu scegliete Elimina predefinito.
+**Eliminazione di un’operazione filtro dal menu Seleziona predefinito** Eseguire l’operazione filtro. Quindi fate clic sul pulsante Seleziona predefinito e nel menu scegliete Elimina predefinito.
 
 ## Utilizzo del server di metadati {#using-the-metadata-server}
 
 Il server di metadati è un’API pubblica che potete usare per ricercare risorse in base ai metadati tramite richieste http.
 
-Per configurare il server di metadati, fate clic su Configurazione &gt; Impostazione applicazione &gt; Impostazione pubblicazione &gt; Server metadati.
+Per configurare il server di metadati, fate clic su Configurazione > Impostazione applicazione > Impostazione pubblicazione > Server metadati.
 
 Si apre la schermata di impostazione del server metadati, con le seguenti opzioni:
 
-**Pubblicazione** istantanea: invia automaticamente eventuali modifiche ai metadati quando vengono effettuate, incluse nuove risorse, modifiche di parola chiave e così via.
+**Pubblicazione** istantanea Invia automaticamente tutte le modifiche ai metadati al momento dell’esecuzione, incluse nuove risorse, modifiche alle parole chiave e così via.
 
-**Pacchetto XMP** Pubblica il pacchetto XMP. Questo pacchetto non viene usato per ricerche, ma offre i dati XMP più aggiornati.
+**Pacchetto** XMP Pubblica il pacchetto XMP. Questo pacchetto non viene usato per ricerche, ma offre i dati XMP più aggiornati.
 
-**Parole chiave** Consente di pubblicare le parole chiave al server di metadati da utilizzare nelle ricerche.
+**Parole chiave** Pubblica le parole chiave nel server di metadati da usare nelle ricerche.
 
-**Campi di pubblicazione server metadati** Selezionate i campi da includere nei metadati. Questo consente di determinare quante informazioni sulle risorse vengono rese disponibili al pubblico. Questi campi vengono anche visualizzati nelle visualizzazioni metadati, ma possono essere modificati solo nel server di metadati.
+**Campi** di pubblicazione server metadati Selezionate i campi da includere nei metadati. Questo consente di determinare quante informazioni sulle risorse vengono rese disponibili al pubblico. Questi campi vengono anche visualizzati nelle visualizzazioni metadati, ma possono essere modificati solo nel server di metadati.
 
 Click **Publish Now** to start the job. Viene visualizzato un messaggio di conferma, che indica l’inizio del processo.
 
