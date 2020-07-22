@@ -3,14 +3,17 @@ title: Spostamento, ridenominazione ed eliminazione di risorse
 seo-title: Spostamento, ridenominazione ed eliminazione di risorse
 description: 'null'
 seo-description: Scoprite come spostare, rinominare ed eliminare le risorse.
-uuid: deff 6521-0 ad 0-4 db 9-b 4 e 0-e 3211 ff 97740
+uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 1 c 9 e 29 f 0-3083-4 d 22-a 439-2 a 01 faf 59683
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +29,7 @@ Potete spostare le risorse in altre cartelle del pannello Sfoglia.
 1. Selezionate la risorsa o le risorse nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
 
    * Nella Libreria risorse, visualizzate la cartella in cui desiderate spostare le risorse e trascinatele in essa.
-   * Scegliete File &gt; Sposta, selezionate una cartella nella finestra Sposta risorse, quindi fate clic su Sposta.
+   * Scegliete File > Sposta, selezionate una cartella nella finestra Sposta risorse, quindi fate clic su Sposta.
 
 ## Rinominare le risorse {#rename-assets}
 
@@ -35,9 +38,9 @@ Per rinominare una risorsa, effettuate le seguenti operazioni:
 1. Selezionate la risorsa nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
 
    * Selezionate il nome, digitate un nuovo nome, quindi premete Invio o fate clic in un altro punto della schermata.
-   * Scegliete File &gt; Rinomina. Il nome della risorsa viene evidenziato. Immettete un nuovo nome e premete Invio.
+   * Scegliete File > Rinomina. Il nome della risorsa viene evidenziato. Immettete un nuovo nome e premete Invio.
 
-Accertatevi di non inserire il nome di un risorsa esistente di Scene7 Publishing System.
+Accertatevi di non immettere il nome di una risorsa Dynamic Media Classic esistente.
 
 ## Eliminare le risorse {#delete-assets}
 
@@ -51,28 +54,28 @@ Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. 
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Per eliminare una o più risorse, selezionatele nel pannello Sfoglia, quindi premete Canc o scegliete File &gt; Elimina.
+   * Per eliminare una o più risorse, selezionatele nel pannello Sfoglia, quindi premete Canc o scegliete File > Elimina.
    * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
 
       Se eliminate una cartella, verranno eliminate la cartella, tutte le risorse presenti in essa, nonché tutte le risorse nelle relative sottocartelle.
 
 >[!NOTE]
 >
->Dynamic Media Classic consiglia di sovrascrivere i file di risorse invece di eliminarli se il motivo per eliminare un file di risorsa consiste nell'sostituirlo con un altro nome.
+>Dynamic Media Classic consiglia di sovrascrivere i file di risorse invece di eliminarli se intendete sostituire un file di risorse con un altro con lo stesso nome.
 
 ## Eliminare più risorse con un file di testo {#delete-multiple-assets-with-a-text-file}
 
-Per eliminare più risorse contemporaneamente nella Libreria risorse, potete elencare le risorse da eliminare in un file di testo e inviare l'elenco a Dynamic Media Classic.
+Per eliminare più risorse alla volta nella Libreria risorse, potete elencare le risorse da eliminare in un file di testo e inviare l’elenco ad Dynamic Media Classic.
 
-Create un elenco di ID Scene7 Publishing System e salvatelo come file di testo (.txt). Ogni ID Scene7 Publishing System deve essere su una propria riga (seguito da un ritorno a capo).
+Create l’elenco degli ID Dynamic Media Classic e salvatelo come file di testo (.txt). Ogni Dynamic Media Classic ID deve essere su una propria riga (seguito da un ritorno a capo).
 
 Una volta creato l’elenco, effettuate le operazioni seguenti:
 
-1. Scegliete File &gt; Elimina elenco risorse.
+1. Scegliete File > Elimina elenco risorse.
 1. Nella finestra di dialogo Elimina elenco risorse, individuate o digitate il percorso del file di testo contenente l’elenco delle risorse da eliminare.
 1. Fate clic sul pulsante Elimina.
 
-Quando eliminate le risorse con un file di testo, se un ID Scene 7 Publishing System non è presente nell'elenco, viene visualizzato un messaggio che informa che Dynamic Media Classic è impossibile convalidare le voci nell'elenco: » insieme all'elenco delle voci. Tuttavia, Dynamic Media Classic non genera un errore nella schermata Processo.
+Quando eliminate delle risorse con un file di testo, se un ID Dynamic Media Classic non è presente nell’elenco, viene visualizzato un messaggio che informa che Dynamic Media Classic è &quot;Impossibile convalidare queste voci nell’elenco:&quot; insieme all’elenco delle voci. Tuttavia, Dynamic Media Classic non genera un errore nella schermata Processo.
 
 >[!MORELIKETHIS]
 >
