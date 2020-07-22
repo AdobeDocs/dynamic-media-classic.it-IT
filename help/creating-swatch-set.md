@@ -2,15 +2,18 @@
 title: Creazione di un set di campioni
 seo-title: Creazione di un set di campioni
 description: 'null'
-seo-description: Scopri come creare un set di campioni.
-uuid: 250 b 3525-310 d -4481-b 0 bc-f 9057 e 823 e 0 b
+seo-description: Scoprite come creare un set di campioni.
+uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 631 d 2 b 2 d -9 e 69-4 b 96-8392-17 e 00 a 1 a 8 de 0
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 84%
 
 ---
 
@@ -23,11 +26,11 @@ Ad esempio, per presentare immagini di berretti con visiere di diversi colori ne
 
 ## Creazione di un set di campioni {#create}
 
-Quando create un set, l'opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
-|Opzione «Pubblica dopo il salvataggio» selezionata prima del salvataggio| Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio|
-|— |— |— |
-| Sì | Pubblicato | Pubblicato|
-| No | Non pubblicato | Set i membri mantengono lo stato pubblicato o non pubblicato. |
+Quando create un set, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
+| Opzione &quot;Pubblica dopo il salvataggio&quot; selezionata prima del salvataggio?|Stato del set dopo il salvataggio|Stato dei membri del set dopo il salvataggio|
+| | | |
+|Sì|Pubblicato|Pubblicato|
+|No|Non pubblicato|I membri del set mantengono il proprio stato di pubblicazione (Pubblicato o Non pubblicato).|
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
@@ -35,9 +38,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Effettuate una delle seguenti operazioni:
 
-   **Selezionate innanzitutto** le immagini nel pannello Sfoglia, selezionate le immagini, quindi fate clic su Genera &gt; Set campioni.
+   **Selezionate prima** le immagini Nel pannello Sfoglia, selezionate le immagini, quindi fate clic su Genera > Set campioni.
 
-   **Iniziate dalla schermata Set campioni** fate clic su Genera &gt; Set campioni. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
+   **Iniziate dalla schermata** Set campioni Fate clic su Genera > Set campioni. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
 
 1. Trascinate i colori, i motivi o le finiture campione nella casella segnaposto Campioni nella pagina Set campioni.
 
@@ -55,7 +58,7 @@ A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubbli
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono il loro stato pubblicato. Tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione o pubblicazione non pubblicato. |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il proprio stato di pubblicazione. Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -82,5 +85,5 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 **Per eliminare un set di campioni**
 
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set di campioni.
-1. Nella barra di navigazione globale, fate clic su **File** &gt; **Elimina** &gt; **Elimina**.
+1. Nella barra di navigazione globale, fate clic su **File** > **Elimina** > **Elimina**.
 
