@@ -6,10 +6,13 @@ seo-description: Scoprite come caricare una risorsa immagine o vettoriale.
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +25,7 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 Richiedete una *chiave segreta condivisa* inviando un messaggio e-mail all’assistenza tecnica di Scene7 all’indirizzo s7support@adobe.com.
 
-Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per un utilizzo futuro.
+Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per poterla utilizzare in futuro.
 
 ## Ottenimento del token di caricamento {#retrieving-the-upload-token}
 
@@ -142,9 +145,9 @@ Per visualizzare il codice sorgente HTML associato al modulo sopra, fare clic su
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi scegliere **Visualizza origine** pagina. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
+In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi fare clic su **Visualizza origine** pagina. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza &gt; Sorgente**. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza > Sorgente**. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -335,7 +338,7 @@ return true;
 </body>
 ```
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza** &gt; **Sorgente**. Per visualizzare la risposta XML in Firefox, fate clic su **Visualizza** &gt; **Sorgente pagina**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza** > **Sorgente**. Per visualizzare la risposta XML in Firefox, fate clic su **Visualizza** > **Sorgente pagina**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
