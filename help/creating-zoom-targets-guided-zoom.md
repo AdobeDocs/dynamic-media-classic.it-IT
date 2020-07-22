@@ -6,11 +6,14 @@ seo-description: Scoprite come creare destinazioni di zoom per lo zoom guidato.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/zoom
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 6ff0141d1e8e96278b95f61c00602780984aaf67
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 69%
 
 ---
 
@@ -74,11 +77,11 @@ Per creare una destinazione di zoom, aprite la schermata Editor destinazioni di 
 
 Per modificare le destinazioni di zoom, utilizzate le seguenti tecniche nella schermata Editor destinazioni di zoom.
 
-* **Riposizionamento** Con il pulsante Seleziona destinazione (la freccia), fate clic sulla destinazione per selezionarla. Trascinate quindi la destinazione in un’altra posizione.
+* **Riposizionamento** Con il pulsante Seleziona Target (la freccia), fate clic sulla destinazione per selezionarla. Trascinate quindi la destinazione in un’altra posizione.
 
-* **Ridimensionamento** Con il pulsante Seleziona destinazione (la freccia), fate clic sulla destinazione per selezionarla. Portate il cursore su un angolo della destinazione di zoom e trascinate per ingrandire o ridurre la destinazione.
+* **Ridimensionamento** Con il pulsante Seleziona Target (la freccia), fate clic sulla destinazione per selezionarla. Portate il cursore su un angolo della destinazione di zoom e trascinate per ingrandire o ridurre la destinazione.
 
-* **Eliminazione** Fate clic sulla miniatura della destinazione sul lato destro della schermata. Fate clic su **[!UICONTROL Elimina destinazione]**.
+* **Eliminazione** Fate clic sulla miniatura della destinazione sul lato destro della schermata. Fate clic su **[!UICONTROL Elimina Target]**.
 
 * **Ridenominazione** Fate clic sulla miniatura della destinazione sul lato destro della schermata. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
 
