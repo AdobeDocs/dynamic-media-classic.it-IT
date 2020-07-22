@@ -2,39 +2,42 @@
 title: Collegamento degli URL all’applicazione Web
 seo-title: Collegamento degli URL all’applicazione Web
 description: 'null'
-seo-description: Scoprite come collegare gli URL all'applicazione Web.
-uuid: 1179 bdd 3-9 b 39-47 f 9-945 d -1 c 1 ca 186 bf 96
+seo-description: Scoprite come collegare gli URL all’applicazione Web.
+uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sizing
-discoiquuid: 71299640-676 d -49 b 7-841 d -6118 f 31044 e 8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
+discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 72%
 
 ---
 
 
 # Collegamento degli URL all’applicazione Web{#linking-urls-to-your-web-application}
 
-I siti Web e le applicazioni accedono al contenuto del server di immagini Dynamic Media tramite stringhe URL. Dopo aver pubblicato un'immagine, Dynamic Media Classic attiva una stringa URL che fa riferimento al predefinito immagine sui server immagini Dynamic Media. Potete incollare questi URL in un browser Web per la verifica.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite le stringhe URL. Dopo la pubblicazione di un’immagine, Dynamic Media Classic attiva una stringa URL che fa riferimento al predefinito per immagini sui server di immagini Dynamic Media. Potete incollare questi URL in un browser Web per la verifica.
 
-Per inserire le stringhe URL nelle pagine Web e nelle applicazioni, copiatele da Scene7 Publishing System. Per ottenere una stringa URL generata tramite un predefinito per immagini, passate alla schermata Anteprima o al pannello Sfoglia (in visualizzazione Dettagli).
+Per inserire queste stringhe URL nelle pagine Web e nelle applicazioni, copiatele da Dynamic Media Classic. Per ottenere una stringa URL generata tramite un predefinito per immagini, passate alla schermata Anteprima o al pannello Sfoglia (in visualizzazione Dettagli).
 
 ## Ottenimento di un URL di un predefinito per immagini {#obtaining-an-image-preset-url}
 
 Potete ottenere una stringa URL generata da un predefinito per immagini dalla schermata Anteprima o dalla visualizzazione Dettagli. Una volta copiato, l’URL viene inserito negli Appunti ed è pronto per essere incollato.
 
-***Nota**: L'URL diventa attivo solo dopo la pubblicazione della risorsa.*
+***Nota **: L’URL diventa attivo solo dopo che la risorsa è stata pubblicata.*
 
 ### Ottenimento di un URL di un predefinito per immagini da Anteprima {#obtaining-an-image-preset-url-from-preview}
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima &gt; Elenco predefiniti immagine, sotto la miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima &gt; Elenco predefiniti immagine, a destra della miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima &gt; Elenco predefiniti immagine.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima > Elenco predefiniti immagine, sotto la miniatura.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima > Elenco predefiniti immagine, a destra della miniatura.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima > Elenco predefiniti immagine.
 
 1. (Facoltativo) Nella finestra Elenco predefiniti immagine, nell’elenco a discesa Codifica URL per Copia generazione URL che si trova in basso, selezionate la codifica URL da applicare all’URL della risorsa immagine quando viene copiato.
 1. Nella finestra Elenco predefiniti immagine, in alto a destra nel riquadro di anteprima, fate clic su Copia URL per il tipo di predefinito selezionato.
@@ -50,11 +53,11 @@ Potete ottenere una stringa URL generata da un predefinito per immagini dalla sc
 
 ## Stringhe URL di predefiniti per immagini {#about-image-preset-url-strings}
 
-Una richiesta URL per il ridimensionamento delle immagini su server immagini Dynamic Media presenta la seguente sintassi di base:
+Una richiesta URL per il ridimensionamento delle immagini nei server immagini Dynamic Media presenta la seguente sintassi di base:
 
 *percorso*/*nome del server immagini*/*nome dell’account*/*nome dell’immagine*?*modificatore1*&amp;*modificatore2*&amp;...
 
-In un URL del server immagini Dynamic Media, istruzioni sul server per la visualizzazione dell'immagine vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa richiesta URL fornisce un’immagine denominata “backpack” con una larghezza di 250 pixel:
+In un URL Dynamic Media Image Server, le istruzioni per la visualizzazione dell’immagine nel server vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa richiesta URL fornisce un’immagine denominata “backpack” con una larghezza di 250 pixel:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
