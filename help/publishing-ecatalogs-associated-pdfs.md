@@ -1,35 +1,38 @@
 ---
-title: Pubblicazione di ecatalog e PDF associati
-seo-title: Pubblicazione di ecatalog e PDF associati
+title: Pubblicazione di eCatalog e PDF associati
+seo-title: Pubblicazione di eCatalog e PDF associati
 description: 'null'
-seo-description: Scoprite come pubblicare ecatalog e PDF associati.
-uuid: 6 f 2 f 2 c 79-921 a -4096-8 f 80-24 e 69 c 8983 fa
+seo-description: Scoprite come pubblicare eCatalog e PDF associati.
+uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/ecatalogs
-discoiquuid: 76 e 5732 a -83 c 6-4 e 6 b-a 29 f-a 393 b 1 c 971 aa
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
 
-# Pubblicazione di ecatalog e PDF associati{#publishing-ecatalogs-and-associated-pdfs}
+# Pubblicazione di eCatalog e PDF associati{#publishing-ecatalogs-and-associated-pdfs}
 
-Quando si pubblica un ecatalog e un PDF su un server di immagini Dynamic Media, questo può essere reso disponibile al sito Web o all'applicazione. Come parte del processo di pubblicazione, Scene7 Publishing System attiva la stringa URL che potete inserire nel codice della pagina Web HTML.
+Con la pubblicazione l’eCatalog e il PDF vengono inseriti nei server immagini Dynamic Media in modo che possa essere reso disponibile per il sito Web o l’applicazione in cui deve essere visualizzato. Come parte del processo di pubblicazione, Dynamic Media Classic attiva la stringa URL. che potete inserire nel codice della pagina Web HTML.
 
 >[!NOTE]
 >
->Accertatevi che l'ecatalog e il PDF risiedano nella stessa cartella e che vengano contrassegnati per la pubblicazione nel pannello Sfoglia o nella pagina Dettagli risorsa prima di pubblicarli.
+>Assicuratevi che l’eCatalog e il PDF risiedano nella stessa cartella e che siano contrassegnati per la pubblicazione nel pannello Sfoglia o nella pagina Dettagli risorsa prima di pubblicarli.
 
-Per pubblicare l'ecatalog sui server di immagini multimediali dinamici:
+Per pubblicare l’eCatalog sui server immagini Dynamic Media:
 
 1. Click **Publish** on the Global Navigation bar.
 1. Nella schermata Pubblica, selezionate un’opzione per Quando (Una tantum o Periodico).
 1. (Facoltativo) Se necessario, inserite un nome per il processo di pubblicazione ma mantenete l’indicazione di data e ora.
 
-   Se impostate l’eCatalog in modo da consentire agli utenti di eseguire ricerche per parole chiave, accertatevi che i dati relativi ai termini di ricerca siano pubblicati. Fate clic su Avanzate, quindi su Avanzate. Nel menu a discesa Pubblica, fate clic su Completa/Ricerca dati. Questa opzione è attiva per impostazione predefinita.
+   Se impostate l’eCatalog in modo da consentire agli utenti di eseguire ricerche per parole chiave, accertatevi che i dati relativi ai termini di ricerca siano pubblicati. Fate clic su Avanzate, quindi su Opzioni avanzate. Nel menu a discesa Pubblica, fate clic su Completa con dati di ricerca. Questa opzione è attiva per impostazione predefinita.
 
 1. Click **Start Publish**.
 
