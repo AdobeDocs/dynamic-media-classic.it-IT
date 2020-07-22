@@ -3,14 +3,17 @@ title: Creazione di un set di immagini
 seo-title: Creazione di un set di immagini
 description: 'null'
 seo-description: Scoprite come creare un set di immagini.
-uuid: 689 fdc 14-4 f 51-4 c 94-8515-cd 8551 e 101 d 8
+uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 3 f 356410-b 30 e -4870-ad 95-6 e 5 a 9 dc 126 c 8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 89%
 
 ---
 
@@ -34,9 +37,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Effettuate una delle seguenti operazioni:
 
-   **Selezionate prima le immagini** nel pannello Sfoglia, selezionate le immagini per il set di immagini, fate clic su Genera &gt; Set immagini.
+   **Selezionate prima** le immagini Nel pannello Sfoglia, selezionate le immagini per il set di immagini, fate clic su Genera > Set immagini.
 
-   **Iniziate dalla schermata Set immagini** fate clic su Genera &gt; Set immagini. Viene visualizzata la schermata Set immagini. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di immagini nella schermata Set immagini.
+   **Iniziate dalla schermata** Set immagini e fate clic su Genera > Set immagini. Viene visualizzata la schermata Set immagini. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di immagini nella schermata Set immagini.
 
 1. Per modificare l’ordine delle immagini, trascinate queste ultime in nuove posizioni.
 1. Verificate che l’opzione **Pubblica dopo il salvataggio** (impostazione predefinita) nell’angolo inferiore destro della pagina sia selezionata.
@@ -50,7 +53,7 @@ A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubbli
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono il loro stato pubblicato. Tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione o pubblicazione non pubblicato. |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il proprio stato di pubblicazione. Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -77,5 +80,5 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 **Per eliminare un set di immagini**
 
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set di immagini.
-1. Nella barra di navigazione globale, fate clic su **File** &gt; **Elimina** &gt; **Elimina**.
+1. Nella barra di navigazione globale, fate clic su **File** > **Elimina** > **Elimina**.
 
