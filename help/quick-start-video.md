@@ -6,14 +6,14 @@ seo-description: Introduzione e Avvio rapido del video per aiutarvi a imparare a
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 66%
+source-wordcount: '1443'
+ht-degree: 65%
 
 ---
 
@@ -81,26 +81,24 @@ La seguente descrizione dettagliata del flusso di lavoro è stata creata per con
 
 Potete caricare e generare i set di video adattivi utilizzando uno dei due scenari seguenti:
 
-* **Caricare video** precodificati Se i video sono già stati codificati all’esterno di Dynamic Media Classic, fate clic su ********
-* **Caricate** nella barra di navigazione globale per sfogliare e caricare i file video MP4 direttamente in Scene7 Publishing System. Fate clic su **Genera > Set video adattivi**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.****
+* **Caricare video** precodificati Se i video sono già stati codificati all’esterno di Dynamic Media Classic, fate clic su 
+**Caricate** nella barra di navigazione globale per sfogliare e caricare i file video MP4 direttamente in Dynamic Media Classic. Fate clic su **Genera > Set video adattivi**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
+* **Carica video** sorgente principali Se i video non sono codificati, fai clic su 
+**Caricate** nella barra di navigazione globale per caricare i file sorgente video principali (non MP4) e lasciateli codificare in file MP4 da Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, in Opzioni eVideo selezionate **Video adattivo**.
 
-   **Carica video** sorgente principali Se i video non sono codificati, fai clic su 
+   Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando inviate il processo di caricamento, viene automaticamente creato un set di video adattivi che comprende tre codifiche video con le proporzioni appropriate.
 
-   **Caricate** nella barra di navigazione globale per caricare i file video sorgente principali (non MP4) e lasciateli codificare in file MP4 da Scene7 Publishing System. Nella finestra di dialogo Opzioni processo di caricamento, in Opzioni eVideo selezionate **Video adattivo**.********
+   In alternativa, nella stessa finestra di dialogo Opzioni processo, in Opzioni eVideo espandete **Predefiniti codifica singola** e selezionate i singoli predefinito di codifica video per creare i file MP4: **Desktop**, **Mobile (iPhone, iPad, Android)** e **Tablet (iPad, Android)**.
 
-* Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando inviate il processo di caricamento, viene automaticamente creato un set di video adattivi che comprende tre codifiche video con le proporzioni appropriate.
-
-In alternativa, nella stessa finestra di dialogo Opzioni processo, in Opzioni eVideo espandete **Predefiniti codifica singola** e selezionate i singoli predefinito di codifica video per creare i file MP4: **Desktop**, **Mobile (iPhone, iPad, Android)** e **Tablet (iPad, Android)**.
-
-**O ancora, potete rielaborare un video principale mediante la funzione di rielaborazione. I video appena codificati vengono aggiunti al set video adattivo esistente.**
+* O ancora, potete rielaborare un video principale mediante la funzione di rielaborazione. I video appena codificati vengono aggiunti al set video adattivo esistente.
 
 Consultate [Caricamento e codifica dei video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **Facoltativo**
 
-Dynamic Media Classic offre numerosi predefiniti di codifica video. Tali predefiniti riflettono le impostazioni di codifica video più comuni e sono stati ottimizzati per la riproduzione sugli schermi di destinazione.[](uploading-encoding-videos.md#working_with_video_encoding_presets)
+Dynamic Media Classic offre numerosi predefiniti di codifica video. Tali predefiniti riflettono le impostazioni di codifica video più comuni e sono stati ottimizzati per la riproduzione sugli schermi di destinazione.
 
-**Tuttavia, qualora sia richiesta ulteriore personalizzazione, gli amministratori possono creare dei predefiniti video per personalizzare le dimensioni e l’esperienza di riproduzione video per gli utenti finali. Gli amministratori possono aggiungere e gestire i predefiniti per video dalla pagina di visualizzazione Predefiniti video, disponibile da Configurazione > Impostazione applicazione > Predefiniti per video > Predefiniti codifica singola. La pagina Predefiniti video offre opzioni per aggiungere, modificare, eliminare e attivare i predefiniti per video.**
+Tuttavia, qualora sia richiesta ulteriore personalizzazione, gli amministratori possono creare dei predefiniti video per personalizzare le dimensioni e l’esperienza di riproduzione video per gli utenti finali. Gli amministratori possono aggiungere e gestire i predefiniti per video dalla pagina di visualizzazione Predefiniti video, disponibile da Configurazione > Impostazione applicazione > Predefiniti per video > Predefiniti codifica singola. La pagina Predefiniti video offre opzioni per aggiungere, modificare, eliminare e attivare i predefiniti per video.
 
 Consultate [Utilizzo dei predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
@@ -114,33 +112,37 @@ Potete riprodurre il video nella schermata Anteprima. Potete anche scegliere alt
 
 **Facoltativo**
 
-**Personalizzazione dei predefiniti per visualizzatori - Dynamic Media Classic offre predefiniti per visualizzatori per la distribuzione di video. Tali predefiniti determinano l’aspetto del visualizzatore e la modalità di funzionamento dei controlli di riproduzione. Per personalizzare il visualizzatore video, gli amministratori possono aggiungere e gestire i predefiniti per visualizzatore dalla pagina Predefiniti visualizzatore. Per aprire questa pagina, nell’angolo in alto a destra di Scene7 Publishing System, fate clic su Configurazione > Predefiniti visualizzatore. Dalla pagina Predefiniti visualizzatore è possibile aggiungere, modificare, eliminare e attivare i predefiniti per visualizzatore.**
+Personalizzazione dei predefiniti per visualizzatori - Dynamic Media Classic offre predefiniti per visualizzatori per la distribuzione di video. Tali predefiniti determinano l’aspetto del visualizzatore e la modalità di funzionamento dei controlli di riproduzione. Per personalizzare il visualizzatore video, gli amministratori possono aggiungere e gestire i predefiniti per visualizzatore dalla pagina Predefiniti visualizzatore. Per aprire questa pagina, nell’angolo in alto a destra di Dynamic Media Classic, fate clic su Configurazione > Predefiniti visualizzatore. Dalla pagina Predefiniti visualizzatore è possibile aggiungere, modificare, eliminare e attivare i predefiniti per visualizzatore.
 
 Consultate [Utilizzo dei predefiniti per visualizzatori video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-* **3. Implementare i video nei siti Web e siti mobili**
+**3. Implementare i video nei siti Web e siti mobili**
 
-   Per integrare i video nel sito Web, potete effettuare una delle seguenti operazioni:`Universal_HTML5_Viewer`
+Per integrare i video nel sito Web, potete effettuare una delle seguenti operazioni:
 
-   Visualizzate il video in una propria finestra a comparsa o modale, utilizzando la funzione Copia URL.
+* Visualizzate il video in una propria finestra a comparsa o modale, utilizzando la funzione Copia URL.
 
-   >Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+   Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+
+   Quando fate clic su Copia URL, l’URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
+
+   >[!NOTE]
    >
-   >Quando fate clic su Copia URL, l’URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
+   >gli URL diventano attivi solo dopo la pubblicazione del video o del set di video adattivi.
 
-* [!NOTE]
+* Visualizzate il video incorporato nella pagina Web, utilizzando la funzione Incorpora codice.
 
-   gli URL diventano attivi solo dopo la pubblicazione del video o del set di video adattivi.`Universal_HTML5_Video`
+   Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Fate clic su Anteprima > Elenco visualizzatori. Nella colonna Azioni della tabella, fate clic su Incorpora codice a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
-   Visualizzate il video incorporato nella pagina Web, utilizzando la funzione Incorpora codice.
+   Fate clic su Chiudi e incollate il codice da incorporare nelle pagine Web.
 
-   >Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Fate clic su Anteprima > Elenco visualizzatori. Nella colonna Azioni della tabella, fate clic su Incorpora codice a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
+   >[!NOTE]
    >
-   >Fate clic su Chiudi e incollate il codice da incorporare nelle pagine Web.
+   >Incorpora codice è attivato solo dopo la pubblicazione del video o del set di video adattivi.
 
-[!NOTE]](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)
+Consultate [Implementazione dei video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
->[!MORELIKETHIS]Incorpora codice è attivato solo dopo la pubblicazione del video o del set di video adattivi.
+>[!MORELIKETHIS]
 >
->* Consultate [Implementazione dei video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>* [Best practice per la codifica video](uploading-encoding-videos.md#best_practices_for_video_encoding)
 
