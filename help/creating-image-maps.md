@@ -2,15 +2,18 @@
 title: Creazione di mappe immagine
 seo-title: Creazione di mappe immagine
 description: 'null'
-seo-description: Scoprite come creare mappe immagine.
-uuid: 0 dcc 4956-006 e -4 a 74-9 d 6 a -6 d 4 bb 23790 ce
+seo-description: Scopri come creare mappe immagine.
+uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 4 eddf 983-38 cb -4 f 00-b 3 be -85 c 20 bdd 6 f 69
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2444'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 Una mappa immagine è un’area su un’immagine, una pagina di eCatalog o un’immagine di un set 360 gradi, che visualizza un pannello di rollover con del testo. Quando l’utente fa clic su una mappa immagine, viene attivata un’azione. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Per richiamare l’attenzione su queste mappe, la mappa immagine viene delineata da un contorno quando l’utente ci passa sopra con il puntatore del mouse.
 
-Oltre alla possibilità di creare una mappa immagine in Dynamic Media Classic, potete anche creare mappe immagine quando progettate un catalogo in Adobe Acrobat o Adobe indesign.
+Oltre alla possibilità di creare una mappa immagine in Dynamic Media Classic, potete anche creare mappe immagine durante la progettazione di un catalogo in Adobe Acrobat o Adobe InDesign.
 
 Quando create le mappe immagine potete effettuare le seguenti operazioni:
 
@@ -39,24 +42,25 @@ Quando create le mappe immagine potete effettuare le seguenti operazioni:
    * If you are working with an image in the Grid View or List View, in the Edit drop-down list click **Image Map**. Or, open it in Detail View, and then click **Image Map** above the image.
    * If you are working with a SpinSet in the Grid View or List View, click **Edit**. Or, open it in Detail View, and then click **Edit**. Select an image asset, and then click **Image Map**.
    * If you are working with an eCatalog, in the Grid View, List View, Detail View, click **Edit**. Click the **Map Pages** tab.
+
    ![](assets/ma_image_map.png)
 
 1. Disegnate una mappa immagine rettangolare o poligonale:
 
-   **Mappa rettangolare** Selezionate lo strumento rettangolo e trascinate sulla pagina per creare il rettangolo. Per aggiungere un punto a una mappa rettangolare (facendola così diventare una mappa poligonale), premete Ctrl, quindi portate lo strumento di inserimento nella posizione desiderata e fate clic.
+   **Mappa** rettangolare Selezionate lo strumento rettangolo per mappe immagine e trascinate sulla pagina per creare il rettangolo. Per aggiungere un punto a una mappa rettangolare (facendola così diventare una mappa poligonale), premete Ctrl, quindi portate lo strumento di inserimento nella posizione desiderata e fate clic.
 
-   **Mappa poligonale** Selezionate lo strumento poligono e fate clic sui punti del perimetro dell'area dell'immagine che desiderate inserire. Usate il cursore di densità del poligono per variare la densità dei punti nel poligono. La densità originale viene ricordata se selezionate altre mappe. Se un punto del poligono viene aggiunto, eliminato o spostato, la densità originale viene perduta e il cursore viene reimpostato sul valore massimo.
+   **Mappa** poligonale Selezionate lo strumento poligono per mappe immagine e fate clic sui punti sul perimetro dell’area dell’immagine da includere. Usate il cursore di densità del poligono per variare la densità dei punti nel poligono. La densità originale viene ricordata se selezionate altre mappe. Se un punto del poligono viene aggiunto, eliminato o spostato, la densità originale viene perduta e il cursore viene reimpostato sul valore massimo.
 
 1. Se lo desiderate, potete immettere un nome per la mappa immagine nell’elenco Mappa immagine. Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome.
 
-   Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome dell'immagine o della pagina ecatalog con cui state lavorando. Potete immettere un nome di vostra scelta.
+   Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome dell’immagine o della pagina di eCatalog con cui state lavorando. Potete immettere un nome di vostra scelta.
 
 1. Se volete che venga aperta una nuova pagina Web quando gli utenti fanno clic sulla mappa immagine, immettete l’URL nell’elenco Mappa immagine. 
 
    Consultate [ per inserire JavaScript e URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. Per visualizzare un testo di rollover quando gli utenti passano il puntatore su una mappa immagine, immettete il testo nell’elenco Mappa immagine. Nell’elenco Mappa immagine, selezionate il menu Mostra e scegliete Testo di rollover. A questo punto, immettete il testo che verrà presentato agli utenti. Potete scrivere il testo in un elaboratore testi e copiarlo nel campo di testo Rollover.
-1. Per attivare un’altra azione quando gli utenti passano il mouse su una mappa immagine, definite l’azione desiderata. Nell’elenco a discesa Mostra, fate clic su Altre azioni. Immettete gli attributi dell’azione. Per creare sia un testo di rollover che un’azione per una mappa immagine, fate clic su Mostra &gt; Entrambi.
+1. Per attivare un’altra azione quando gli utenti passano il mouse su una mappa immagine, definite l’azione desiderata. Nell’elenco a discesa Mostra, fate clic su Altre azioni. Immettete gli attributi dell’azione. Per creare sia un testo di rollover che un’azione per una mappa immagine, fate clic su Mostra > Entrambi.
 
    Consultate [Definizione di altre azioni per le mappe immagine](creating-image-maps.md#defining_other_actions_for_image_maps).
 
@@ -70,17 +74,17 @@ Quando create le mappe immagine potete effettuare le seguenti operazioni:
 
 ### Regolazione della posizione, forma e dimensione delle mappe immagine {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Per cambiare posizione, forma e dimensione alla mappa immagine, fate clic sul pulsante Mappa immagine . Quindi, selezionate lo strumento scorrimento ed effettuate le seguenti operazioni:
+Per cambiare posizione, forma e dimensione alla mappa immagine, fate clic sul pulsante Mappa immagine . Selezionate quindi lo strumento scorrimento e seguite le istruzioni seguenti:
 
-**Modifica posizione** Spostate il puntatore accanto ma non sopra il bordo della mappa immagine. Quando viene visualizzata l’icona con la freccia a quattro punte, trascinate la mappa nella nuova posizione.
+**Cambiamento di posizione** Portate il puntatore vicino al bordo della mappa immagine ma non sopra di esso. Quando viene visualizzata l’icona con la freccia a quattro punte, trascinate la mappa nella nuova posizione.
 
-**Modificando dimensione e forma** La forma e la dimensione di una mappa immagine dipendono dal tipo di mappa immagine rettangolare o poligonale:
+**Modifica delle dimensioni e della forma** La modifica della forma e delle dimensioni di una mappa immagine dipende dal tipo di mappa immagine (rettangolare o poligonale) in uso:
 
-***Suggerimento**: Potete trascinare il cursore Dimensione nella parte inferiore della schermata per cambiare le visualizzazioni e osservare meglio la mappa immagine.*
+***Suggerimento **: Potete trascinare il cursore Dimensione nella parte inferiore della schermata per cambiare le viste e ottenere un’immagine migliore della mappa immagine.*
 
-**Mappa immagine rettangolare** Portate il puntatore su un lato o un angolo della mappa immagine. Quando viene visualizzata l’icona con la freccia a due punte, iniziate a trascinare. Tenete premuto il tasto Maiusc mentre trascinate per cambiare le dimensioni ma mantenere le stesse proporzioni (forma).
+**Mappa** immagine rettangolare Portate il puntatore su un lato o un angolo della mappa immagine. Quando viene visualizzata l’icona con la freccia a due punte, iniziate a trascinare. Tenete premuto il tasto Maiusc mentre trascinate per cambiare le dimensioni ma mantenere le stesse proporzioni (forma).
 
-**Mappa immagine poligonale** Consente di trascinare una maniglia di selezione quadrata. Per creare una maniglia di selezione, fate clic sul bordo della mappa immagine e iniziate a trascinare.
+**Mappa** immagine poligonale Trascinate una maniglia di selezione quadrata. Per creare una maniglia di selezione, fate clic sul bordo della mappa immagine e iniziate a trascinare.
 
 ### Gestione delle mappe immagine sovrapposte {#handling-overlapping-image-maps}
 
@@ -140,7 +144,7 @@ Nel modello URL vanno inseriti tutti i valori che restano invariati nelle divers
 * Valore URL: `product.htm`
 * URL effettivo generato: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Tuttavia, potete utilizzare qualsiasi codice javascript per sostituire questo handler javascript oppure utilizzare uno dei seguenti handler Dynamic Media Classic:
+By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Tuttavia, è possibile utilizzare qualsiasi codice JavaScript per sostituire questo handler JavaScript o utilizzare uno dei seguenti handler Dynamic Media Classic:
 
 * `loadProductCW`
 
@@ -150,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    visualizza la destinazione URL specificata nella colonna URL nella finestra principale (la pagina che ha aperto quella corrente). La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
 
-   ***Nota**: Il gestore`loadProductPW`non supporta i visualizzatori DHTML e HTML 5.*
+   ***nota **: Il gestore`loadProductPW`non supporta i visualizzatori DHTML e HTML5.*
 
 ### Creazione di un modello URL {#creating-a-url-template}
 
@@ -164,19 +168,19 @@ Per creare un modello URL:
 
 La pagina Editor mappa (per le immagini e i set 360 gradi) e la scheda Mappe pagine della schermata eCatalog (per gli eCatalog) offrono i seguenti comandi per gestire i modelli URL:
 
-**Opzione Modello URL** Selezionate l'opzione Modello URL per applicare il modello URL a tutte le mappe immagine su un'immagine o pagina di ecatalog.
+**Opzione** Modello URL Selezionate l’opzione Modello URL per applicare il modello URL a tutte le mappe immagine di un’immagine o di una pagina di eCatalog.
 
-**Opzione Modello** Deselezionate un'opzione Modello nell'elenco Mappa immagine URL se non desiderate utilizzare il modello URL per una singola mappa immagine.
+**Opzione** Modello Deselezionate un’opzione Modello nell’elenco Mappa immagine URL se non desiderate che il modello URL sia utilizzato da una singola mappa immagine.
 
 ## Definizione di altre azioni per le mappe immagine {#defining-other-actions-for-image-maps}
 
 Per attivare azioni diverse dal testo di rollover o dall’avvio di pagine Web, scegliete Altre azioni dal menu Mostra. Potete fare sì che un’azione venga avviata quando l’utente passa il puntatore su una mappa immagine. Queste azioni sono attributi definiti per le mappe immagine sul lato client dalle specifiche HTML del World Wide Web Consortium. Includono:
 
-**accesskey** Attiva un'azione quando l'utente preme un tasto designato sulla tastiera.
+**accesskey** Attiva un&#39;azione quando l&#39;utente preme un tasto designato sulla tastiera.
 
-**attivato** Attiva un evento quando la mappa immagine viene resa attiva, tramite cursore, tasto di tabulazione o tasto di accesso. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine viene resa attiva e chiuderla quando la mappa è resa inattiva.
+**onfocus** Attiva un evento quando la mappa immagine viene resa attiva (tramite cursore, tasto di tabulazione o tasto di accesso). Ad esempio, è possibile avviare una pagina Web quando la mappa immagine viene resa attiva e chiuderla quando la mappa è resa inattiva.
 
-**onblur** Attiva un evento quando la mappa immagine perde lo stato attivo, sia tramite il cursore che con l'ordine di tabulazione.
+**onblur** Attiva un evento quando la mappa immagine diventa inattiva, sia con il cursore che con il tasto di tabulazione.
 
 **Per definire altre azioni per le mappe immagine**
 
@@ -190,21 +194,21 @@ Per associare una mappa immagine sia a un testo di rollover che a un’azione, s
 
 Potete creare le mappe immagine mentre create un eCatalog in Adobe Acrobat o Adobe InDesign.
 
-In Acrobat o InDesign, inserite i riferimenti ipertestuali in corrispondenza delle mappe immagine desiderate e specificate i percorsi URL per le mappe immagine. Quando si seleziona l'opzione Estrai collegamenti durante il caricamento del file PDF in Dynamic Media Classic, i collegamenti vengono convertiti automaticamente in mappe immagine.
+In Acrobat o InDesign, inserite i riferimenti ipertestuali in corrispondenza delle mappe immagine desiderate e specificate i percorsi URL per le mappe immagine. Quando si seleziona l’opzione Estrai collegamenti durante il caricamento del file PDF in Dynamic Media Classic, i collegamenti vengono convertiti automaticamente in mappe immagine.
 
 Per ulteriori informazioni, consultate la guida di Acrobat o di InDesign.
 
 ### Per creare mappe immagine in Adobe InDesign {#to-create-image-maps-in-adobe-indesign}
 
-1. In InDesign, scegliete Finestra &gt; Interattivo &gt; Collegamenti ipertestuali per aprire il pannello Collegamenti ipertestuali.
+1. In InDesign, scegliete Finestra > Interattivo > Collegamenti ipertestuali per aprire il pannello Collegamenti ipertestuali.
 1. Selezionate il testo, la cornice o l’elemento grafico da convertire in mappa immagine.
 1. Nel menu del pannello Collegamenti ipertestuali, scegliete Nuovo collegamento ipertestuale.
 1. Nella finestra di dialogo Nuovo collegamento ipertestuale, scegliete URL dal menu Collega a.
-1. Digitate o incollate l’ID del prodotto nella casella URL e fate clic su OK. (Dynamic Media Classic completa l'URL utilizzando il modello URL della mappa immagine.)
+1. Digitate o incollate l’ID del prodotto nella casella URL e fate clic su OK. Dynamic Media Classic completa l’URL con il modello URL mappa immagine.
 
    >[!NOTE]
    >
-   >non è necessario impostare le opzioni di aspetto in InDesign. Potete specificare l'aspetto in Dynamic Media Classic.
+   >non è necessario impostare le opzioni di aspetto in InDesign. Potete specificare l&#39;aspetto in Dynamic Media Classic.
 
 1. Ripetete i passaggi da 2 a 5 per tutte le mappe immagine da creare.
 1. Esportate il file come PDF.
@@ -212,15 +216,15 @@ Per ulteriori informazioni, consultate la guida di Acrobat o di InDesign.
 
 ### Per creare mappe immagine in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
-1. In Acrobat, scegliete Strumenti &gt; Modifica avanzata &gt; Strumento Link.
+1. In Acrobat, scegliete Strumenti > Modifica avanzata > Strumento Link.
 1. Trascinate per creare la mappa immagine. Viene visualizzata la finestra Crea link.
 1. Selezionate Link personalizzato e fate clic su Avanti.
 
-   ***Nota**: Non è necessario impostare le opzioni di aspetto in Acrobat. Potete specificare l'aspetto in Dynamic Media Classic.*
+   ***nota **: Non è necessario impostare le opzioni di aspetto in Acrobat. Potete specificare l&#39;aspetto in Dynamic Media Classic.*
 
 1. Nella finestra Proprietà link, fate clic su Azioni.
 1. Selezionate Apri un link Web dal menu Seleziona azione e fate clic su Aggiungi.
-1. Digitate l’ID del prodotto per la mappa immagine nella casella Modifica URL e fate clic su OK. (Dynamic Media Classic completa l'URL utilizzando il modello URL della mappa immagine.)
+1. Digitate l’ID del prodotto per la mappa immagine nella casella Modifica URL e fate clic su OK. Dynamic Media Classic completa l’URL utilizzando il modello URL della mappa immagine.
 1. Ripetete i passaggi da 1 a 7 per tutte le mappe immagine da creare.
 1. Salvate il file.
 1. Caricate il PDF in Dynamic Media Classic e selezionate Estrai collegamenti dalle opzioni PDF.
