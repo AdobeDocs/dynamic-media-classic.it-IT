@@ -6,11 +6,14 @@ seo-description: Scoprite come creare un set 360 gradi.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/spin_sets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '906'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +24,7 @@ Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le 
 
 >[!NOTE]
 >
->Le versioni precedenti di Dynamic Media Classic non prevedevano set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
+>Le versioni precedenti di Dynamic Media Classic non offrirono set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
 
 ## Linee guida per lo scatto di immagini per set 360 gradi {#guidelines-for-shooting-spin-set-images}
 
@@ -35,7 +38,7 @@ In generale, più sono le immagini contenute in un set 360 gradi, migliore è l�
 
 ## Creazione di un set 360 gradi {#create}
 
-L’ordine con cui è stato generato o creato il set 360 gradi in Scene7 Publishing System è importante. A seconda di come ordinate le risorse quando rilasciate le immagini nella griglia della pagina Set 360 gradi, la rotazione avviene in una determinata direzione. Di conseguenza, l’ordine di visualizzazione nel modulo di generazione corrisponde alla direzione di rotazione delle risorse quando un utente sposta il mouse o il dito, da sinistra a destra.
+L’ordine in cui il set 360 gradi viene creato o creato in Dynamic Media Classic è importante. A seconda di come ordinate le risorse quando rilasciate le immagini nella griglia della pagina Set 360 gradi, la rotazione avviene in una determinata direzione. Di conseguenza, l’ordine di visualizzazione nel modulo di generazione corrisponde alla direzione di rotazione delle risorse quando un utente sposta il mouse o il dito, da sinistra a destra.
 
 Quando create un set, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
 
@@ -82,11 +85,13 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Fate clic sul pulsante rollover **Modifica** del set di campioni. 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Rimozione di immagini** Selezionate l’immagine, quindi fate clic su **Elimina**.
+   * **Rimozione di immagini** Selezionate l’immagine e fate clic su 
+**Elimina**.
 
    * **Aggiunta di immagini** Trascinate l’immagine in una cella.
 
-   * **Riordinamento delle righe (set 360 gradi bidimensionali)** Fare clic su una casella di selezione delle righe (a sinistra della riga), quindi fare clic su **Sposta riga in basso** o **Sposta riga in alto**.
+   * **Riordinamento delle righe (set 360 gradi bidimensionali)** Fare clic su una casella di selezione delle righe (a sinistra della riga), quindi fare clic su 
+**Sposta riga in basso** o **Sposta riga in alto**.
 
    * **Aggiunta di righe e celle** Immettere un numero nella casella Righe e Celle per determinare il numero di righe e il numero di celle in ciascuna riga.
 
@@ -102,5 +107,5 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 **Per eliminare un set 360 gradi**
 
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set 360 gradi.
-1. Nella barra di navigazione globale, fate clic su **File** &gt; **Elimina** &gt; **Elimina**.
+1. Nella barra di navigazione globale, fate clic su **File** > **Elimina** > **Elimina**.
 
