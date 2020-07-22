@@ -6,14 +6,14 @@ seo-description: Scopri come impostare l’area dell’applicazione di Dynamic M
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11120'
-ht-degree: 71%
+source-wordcount: '10982'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Potete usare le pagine Impostazione applicazione per specificare le impostazioni
 
 >[!NOTE]
 >
->Solo gli amministratori di Scene7 Publishing System possono modificare le impostazioni delle pagine di Impostazione applicazione.
+>Solo gli amministratori di Dynamic Media Classic possono modificare le impostazioni nelle pagine Impostazione applicazione.
 
 ## Impostazioni generali {#general-settings}
 
@@ -36,119 +36,113 @@ Al momento della creazione dell&#39;account, Dynamic Media Classic fornisce auto
 
 Consultate anche [Verifica del servizio di verifica protetta](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-**Nome** server pubblicato Questo server è il server CDN attivo utilizzato in tutte le chiamate URL generate dal sistema specifiche per l’account. Non modificate il nome del server a meno che non venga richiesto espressamente da un tecnico del supporto Dynamic Media Classic.
+* **Nome** server pubblicato: questo server è il server CDN attivo utilizzato in tutte le chiamate URL generate dal sistema specifiche per l’account. Non modificate il nome del server a meno che non venga richiesto espressamente da un tecnico del supporto Dynamic Media Classic.
 
-**Nome** server origine Questo server viene utilizzato solo per il controllo qualità. Non modificate il nome del server a meno che non venga richiesto da un tecnico del supporto Dynamic Media Classic.
+* **Nome** server origine - Server utilizzato solo per il controllo qualità. Non modificate il nome del server a meno che non venga richiesto da un tecnico del supporto Dynamic Media Classic.
 
-**Nome** server AGM Questo server viene utilizzato per i modelli Web-stampa. ed è impostato a livello di società. Non modificate il nome del server a meno che non venga richiesto da un tecnico del supporto Dynamic Media Classic.
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Nome** server Test&amp;Target L’URL Test&amp;Target, fino a .com incluso. Per istruzioni su come ottenere questo URL, consultate Integrazione di Dynamic Media Classic con Target Classic.
+* **Nome** server Test&amp;Target - L’URL Test&amp;Target, fino a .com incluso. For instructions about obtaining this URL, see Integrating [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium].
 
-**Nome** server di streaming iOS L’URL del server di streaming iOS Dynamic Media Classic. Questo server distribuisce i video in streaming ai dispositivi basati su iOS utilizzando il protocollo HTTP.
+<!-- **Test Publish Context Server Name** -->
 
-**Nome** server video progressivo L’URL del server video progressivo Dynamic Media Classic. Questo server distribuisce i video progressivi mediante il protocollo HTTP.
+* **Nome** server di streaming iOS - L&#39;URL del server di streaming [!DNL Dynamic Media Classic] iOS. Questo server distribuisce i video in streaming ai dispositivi basati su iOS utilizzando il protocollo HTTP.
 
-**Mostra URL per risorse** non pubblicate Selezionate questa opzione se desiderate che Dynamic Media Classic visualizzi un URL per l’anteprima di una risorsa, pubblicata o meno. Se la risorsa non è pubblicata, l’URL non funziona. Tuttavia, potete utilizzare l’URL a scopo di progettazione o organizzazione.
+* **Nome** server video progressivo - L’URL del server video [!DNL Dynamic Media Classic] progressivo. Questo server distribuisce i video progressivi mediante il protocollo HTTP.
 
-**Consenti installazione** AIR Selezionate questa opzione per consentire agli utenti di scaricare la versione desktop di Scene7 Publishing System nei propri dischi rigidi locali. Gli utenti installano queste applicazioni dall’area Versione Desktop della schermata Configurazione personale.
+* **Mostra URL per risorse** non pubblicate - Selezionate questa opzione se desiderate [!DNL Dynamic Media Classic] visualizzare un URL per l&#39;anteprima di una risorsa, pubblicata o meno. Se la risorsa non è pubblicata, l’URL non funziona. Tuttavia, potete utilizzare l’URL a scopo di progettazione o organizzazione.
 
-Gli utenti AIR devono disinstallare manualmente l’app esistente e reinstallarla dalla versione Web di Scene7 Publishing System (in Impostazioni personali). Dopo questa reinstallazione una tantum, viene richiesto di effettuare l’aggiornamento ogni volta che nel server viene rilevata una nuova versione di Scene7 Publishing System AIR. Scene7 Publishing System è integrato con Application Update Framework, che semplifica il processo di aggiornamento.
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**Modello** di annullamento validità CDN Specifica il modello utilizzato per annullare la validità della cache CDN (Content Delivery Network).
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
+* **Modello** di annullamento validità CDN - Specifica il modello utilizzato per annullare la validità della cache CDN (Content Delivery Network).
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-Se si imposta il modello per Annulla validità CDN, si seleziona un’immagine denominata Backpack_B e si fa clic su **File** > **Annulla validità CDN**, il seguente URL viene generato nell’interfaccia di Annulla validità CDN:
+   If the Template just contains `<ID>`, then Dynamic Media Classic fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   Se si imposta il modello per Annulla validità CDN, si seleziona un’immagine denominata Backpack_B e si fa clic su **File** > **Annulla validità CDN**, il seguente URL viene generato nell’interfaccia di Annulla validità CDN:
 
-Nella casella di riepilogo URL, fate clic su **Continua** per cancellare la cache per questa specifica chiamata di URL immagine. Potete anche aggiungere gli URL digitandoli o incollandoli nella casella di riepilogo URL; non è necessario impostare precedentemente il modello.
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-Dopo aver selezionato il modello di annullamento validità CDN e aver inviato una richiesta per annullare la validità del CDN, nell’interfaccia utente compare un indicatore con una stima del tempo necessario per cancellare la cache.
+   Nella casella di riepilogo URL, fate clic su **Continua** per cancellare la cache per questa specifica chiamata di URL immagine. Potete anche aggiungere gli URL digitandoli o incollandoli nella casella di riepilogo URL; non è necessario impostare precedentemente il modello.
 
-Analogamente, se sono selezionate più immagini in SPS quando fate clic su **File** > **Annulla validità CDN**, viene inserito un riferimento a ogni immagine nell’URL del modello salvato. Di conseguenza, è possibile definire un modello per Annulla validità CDN con riferimento a ciascun URL al quale viene fatto riferimento nel sito Web (ad esempio dettagli prodotti, risultati della ricerca, e così via). Quindi, quando selezioni una o più immagini della cache di cui annullare la validità, gli URL compilano automaticamente l’interfaccia.
+   Dopo aver selezionato il modello di annullamento validità CDN e aver inviato una richiesta per annullare la validità del CDN, nell’interfaccia utente compare un indicatore con una stima del tempo necessario per cancellare la cache.
 
-Consultate [Memorizzazione dei contenuti nella cache](scene7-platform-overview.md#content_caching).
+   Similarly, if multiple images are selected within Dynamic Media Classic when you click **File** > **Invalidate CDN**, each image is referenced in the saved Template URL. Di conseguenza, è possibile definire un modello per Annulla validità CDN con riferimento a ciascun URL al quale viene fatto riferimento nel sito Web (ad esempio dettagli prodotti, risultati della ricerca, e così via). Quindi, quando selezioni una o più immagini della cache di cui annullare la validità, gli URL compilano automaticamente l’interfaccia.
 
-Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
+   Consultate [Memorizzazione dei contenuti nella cache](dmc-platform-overview.md#content_caching).
 
-**Sfoglia**
+   Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
-**Mostra progetti** Consente di determinare se i progetti sono disponibili come mezzo per organizzare le risorse Dynamic Media Classic. Consultate Organizzazione del lavoro mediante i progetti.
+### Sfoglia
 
-**Mostra contenuto** eVideo campione Attivate o disattivate la visualizzazione del contenuto di esempio eVideo.
+* **Mostra progetti** - Specifica se i progetti possono essere organizzati in base alle risorse di Dynamic Media Classic. Consultate Organizzazione del lavoro mediante i progetti.
 
-**Mostra contenuto** generato Nelle cartelle, mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, Dynamic Media Classic crea un’immagine per ciascuna pagina del PDF originale. Se l’opzione Mostra contenuto generato è selezionata, ogni immagine generata durante il caricamento del PDF originale viene visualizzata insieme al PDF nella cartella in cui questo è stato caricato.
+* **Mostra contenuto** eVideo campione - Attiva o disattiva la visualizzazione del contenuto di esempio eVideo.
 
-**Mostra video** codificati deselezionati (disattivati) per impostazione predefinita.
+* **Mostra contenuto** generato - Nelle cartelle, mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, Dynamic Media Classic crea un’immagine per ciascuna pagina del PDF originale. Se l’opzione Mostra contenuto generato è selezionata, ogni immagine generata durante il caricamento del PDF originale viene visualizzata insieme al PDF nella cartella in cui questo è stato caricato.
 
-Per cercare e sfogliare rapidamente i video in Scene7 Publishing System senza dover navigare attraverso numerosi derivati codificati dello stesso video, lascia deselezionata questa opzione (impostazione predefinita). Nell’interfaccia utente vengono visualizzate solo l’anteprima Video principale, ossia il video sorgente caricato e utilizzato per creare tutte le versioni derivate, e nell’interfaccia utente viene visualizzata solo l’anteprima del set video adattivo &quot;padre&quot;, che contiene tutte le versioni derivate &quot;figlio&quot; del set video codificato.
+* **Mostra video** codificati - Deselezionato (disattivato) per impostazione predefinita.
 
-Tuttavia, potete comunque accedere ai singoli video codificati a partire dal video principale o dal set video adattivo. A questo scopo, fate doppio clic sulla miniatura del video per aprire la visualizzazione Dettagli. Fate clic su **Video codificati** nel pannello a destra per accedere ai video secondari.
+   Per cercare e cercare rapidamente i video in Dynamic Media Classic senza dover scorrere numerose versioni derivate codificate dello stesso video, lasciate questa opzione deselezionata (impostazione predefinita). Nell’interfaccia utente vengono visualizzate solo l’anteprima Video principale, ossia il video sorgente caricato e utilizzato per creare tutte le versioni derivate, e nell’interfaccia utente viene visualizzata solo l’anteprima del set video adattivo &quot;padre&quot;, che contiene tutte le versioni derivate &quot;figlio&quot; del set video codificato.
 
-Potete inoltre scegliere **File > Rielabora** per creare altri video codificati secondari direttamente da un set di video adattivi. Scene7 Publishing System individua automaticamente il video principale padre del set di video adattivi e lo utilizza come video sorgente per la transcodifica. Quando salvate i nuovi video codificati, tuttavia, questi non vengono visti nelle operazioni di ricerca o navigazione. Sono comunque accessibili dalla scheda Video codificati in visualizzazione Dettagli.
+   Tuttavia, potete comunque accedere ai singoli video codificati a partire dal video principale o dal set video adattivo. A questo scopo, fate doppio clic sulla miniatura del video per aprire la visualizzazione Dettagli. Fate clic su **Video codificati** nel pannello a destra per accedere ai video secondari.
 
-Consultate [Caricamento e transcodifica di video](uploading-encoding-videos.md#uploading_and_encoding_videos).
+   Potete inoltre scegliere **File > Rielabora** per creare altri video codificati secondari direttamente da un set di video adattivi. Dynamic Media Classic trova automaticamente il video principale &quot;principale&quot; del set video adattivo e lo utilizza come video sorgente per la transcodifica. Quando salvate i nuovi video codificati, tuttavia, questi non vengono visti nelle operazioni di ricerca o navigazione. Sono comunque accessibili dalla scheda Video codificati in visualizzazione Dettagli.
 
-Per poter accedere a tutte le versioni derivate codificate durante la ricerca e la navigazione, selezionate **Mostra video codificati**.
+   Consultate [Caricamento e transcodifica di video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-Alcune azioni nel menu Genera funzionano solo o eventualmente con singoli video. Questa funzionalità rende necessaria la visualizzazione di tutte le versioni derivate di video codificati disponibili per la selezione, a prescindere dall’impostazione di **Mostra video codificati**. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
+   Per poter accedere a tutte le versioni derivate codificate durante la ricerca e la navigazione, selezionate **Mostra video codificati**.
 
->[Nota]
->
->Se non avete usato Scene7 Publishing System per caricare e codificare le risorse video, Dynamic Media Classic mostra tutti i singoli video codificati, anche se questa opzione è deselezionata.
+   Alcune azioni nel menu Genera funzionano solo o eventualmente con singoli video. Questa funzionalità rende necessaria la visualizzazione di tutte le versioni derivate di video codificati disponibili per la selezione, a prescindere dall’impostazione di **Mostra video codificati**. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-**Pulsante** Aggiorna sottocartelle Attiva o disattiva la visualizzazione del pulsante Aggiorna delle sottocartelle.
+   >[Nota]
+   >
+   >Se non avete usato Dynamic Media Classic per caricare e codificare le risorse video, Dynamic Media Classic mostra tutti i singoli video codificati, anche se questa opzione è deselezionata.
 
-**Account FTP Dynamic Media Classic**
+* **Pulsante** Aggiorna sottocartelle - Attiva o disattiva la visualizzazione del pulsante Aggiorna delle sottocartelle.
 
-**Server** Elenca il server account FTP.
+### Account FTP Dynamic Media Classic
 
-**Nome** utente Elenca il nome utente dell&#39;account FTP.
+* **Server** - Elenca il server account FTP.
 
-**Carica nell’applicazione**
+* **Nome** utente - Elenca il nome utente dell&#39;account FTP.
 
-**Sovrascrivi immagini** Dynamic Media Classic non consente a due file di avere lo stesso nome. Ciascun elemento deve avere un ID Scene7 Publishing System (il nome immagine senza l’estensione del nome file) univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con il suffisso “-1” (ad esempio, il file sedia.tif viene rinominato sedia-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consultate Utilizzo dell’opzione Sovrascrivi immagini.
+### Carica nell’applicazione
 
-**Sovrascrivi in cartella corrente, nome/estensione come risorsa base**
+* **Sovrascrivi immagini** - Dynamic Media Classic non consente a due file di avere lo stesso nome. Ciascun elemento deve avere un ID Dynamic Media Classic (il nome dell’immagine senza l’estensione del nome del file) univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con il suffisso “-1” (ad esempio, il file sedia.tif viene rinominato sedia-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consultate Utilizzo dell’opzione Sovrascrivi immagini.
 
-Questa opzione rappresenta la regola di sostituzione più restrittiva. Richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’immagine originale e che abbia la stessa estensione del nome file dell’originale. Se entrambi i requisiti non vengono soddisfatti, viene creata una copia dell’immagine.
+   * **Sovrascrivi in cartella corrente, nome/estensione** immagine base - Questa opzione è la regola più restrittiva per la sostituzione. Richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’immagine originale e che abbia la stessa estensione del nome file dell’originale. Se entrambi i requisiti non vengono soddisfatti, viene creata una copia dell’immagine.
 
-**Sovrascrivi in cartella corrente, nome come risorsa base, ignora estensione**
+   * **Sovrascrivi nella cartella corrente, nome della stessa risorsa base indipendentemente dall’estensione** . Richiede che l’immagine sostitutiva venga caricata nella stessa cartella dell’originale, ma l’estensione del nome file può essere diversa dall’originale. Ad esempio, sedia.tif sostituisce sedia.jpg.
 
-Questa opzione richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’originale, ma l’estensione file può anche essere diversa. Ad esempio, sedia.tif sostituisce sedia.jpg.
+   * **Sovrascrivi in qualsiasi cartella, nome/estensione** della risorsa base - Richiede che l’immagine sostitutiva abbia la stessa estensione del nome file dell’immagine originale (ad esempio, sedia.jpg deve sostituire sedia.jpg, non sedia.tif). Tuttavia, è possibile caricare l’immagine sostitutiva in una cartella diversa da quella dell’originale. L’immagine aggiornata sarà contenuta nella nuova cartella e il file verrà rimosso dal percorso originale.
 
-**Sovrascrivi in qualsiasi cartella, nome/estensione come risorsa base**
+   * **Sovrascrivi in qualsiasi cartella, nome della stessa risorsa base indipendentemente dall’estensione** . Questa opzione è la regola di sostituzione più inclusiva. L’immagine sostitutiva può essere caricata in una cartella diversa da quella dell’originale, con una diversa estensione file, e sostituire il file originale. Se il file originale si trova in un’altra cartella, l’immagine sostitutiva sarà contenuta nella nuova cartella nella quale è stata caricata.
 
-Questa opzione richiede che l’immagine sostitutiva abbia la stessa estensione dell’originale (ad esempio, sedia.jpg sostituisce sedia.jpg ma non sedia.tif). Tuttavia, è possibile caricare l’immagine sostitutiva in una cartella diversa da quella dell’originale. L’immagine aggiornata sarà contenuta nella nuova cartella e il file verrà rimosso dal percorso originale.
+* **Mantieni pubblicazione** - Specifica se un&#39;immagine sostitutiva caricata in Dynamic Media Classic deve mantenere l&#39;impostazione Pronto per la pubblicazione dell&#39;immagine sostituita oppure se deve essere specificata al momento del caricamento.
 
-**Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione**
+* **Profili** colore predefiniti - Specifica i profili colore applicati come parte delle opzioni di profilo colore predefinito per l’aggiunta di immagini CMYK.
 
-Questa opzione rappresenta la regola di sostituzione meno restrittiva. L’immagine sostitutiva può essere caricata in una cartella diversa da quella dell’originale, con una diversa estensione file, e sostituire il file originale. Se il file originale si trova in un’altra cartella, l’immagine sostitutiva sarà contenuta nella nuova cartella nella quale è stata caricata.
+* **Opzioni** di caricamento predefinite - Apre la finestra di dialogo Opzioni processo di caricamento, in cui potete specificare le opzioni di caricamento predefinite. Per informazioni su queste opzioni, consultate Opzioni di caricamento.
 
-**Mantieni pubblicazione** Consente di specificare se un’immagine sostitutiva caricata in Dynamic Media Classic deve mantenere l’impostazione Pronto per la pubblicazione dell’immagine sostituita oppure se deve essere specificata al momento del caricamento.
+### Editor mappa immagine, su applicazione
 
-**Profili** colore predefiniti Specifica i profili colore applicati come parte delle opzioni di profilo colore predefinito per l’aggiunta di immagini CMYK.
+* **HREF** mappatura immagine predefinito - Definisce l’URL predefinito utilizzato per la colonna HREF della mappatura immagine. Si tratta dell’URL predefinito visibile quando vengono create nuove mappe immagine.
 
-**Opzioni** di caricamento predefinite Apre la finestra di dialogo Opzioni processo di caricamento, in cui potete specificare le opzioni di caricamento predefinite. Per informazioni su queste opzioni, consultate Opzioni di caricamento.
+* **Modello** di mappatura immagine predefinito - Definisce il codice JavaScript predefinito per il modello HREF di mappatura immagine. Potete impostare un codice personalizzato da eseguire quando si fa clic su una mappa immagine.
 
-**Editor mappa immagine, su applicazione**
+### Altre impostazioni, su applicazione
 
-**HREF** mappatura immagine predefinita Definisce l’URL predefinito utilizzato per la colonna HREF della mappatura immagine. Si tratta dell’URL predefinito visibile quando vengono create nuove mappe immagine.
-
-**Modello** di mappatura immagine predefinito Definisce il codice JavaScript predefinito per il modello HREF di mappatura immagine. Potete impostare un codice personalizzato da eseguire quando si fa clic su una mappa immagine.
-
-**Altre impostazioni, su applicazione**
-
-**Il cestino può ripulire le risorse degli avvisi** nel cestino vengono automaticamente rimosse entro sette giorni. Selezionate “Invia e-mail prima che gli elementi nel cestino siano eliminati automaticamente” se desiderate che vengano inviate notifiche agli amministratori dell’azienda quattro giorni prima che le risorse nel cestino vengano definitivamente eliminate. Consultate Gestione della cartella Cestino.
+* **Il cestino può pulire gli avvisi** : le risorse nel cestino vengono automaticamente rimosse entro sette giorni. Selezionate “Invia e-mail prima che gli elementi nel cestino siano eliminati automaticamente” se desiderate che vengano inviate notifiche agli amministratori dell’azienda quattro giorni prima che le risorse nel cestino vengano definitivamente eliminate. Consultate Gestione della cartella Cestino.
 
 ## Utilizzo dell’opzione Sovrascrivi immagini {#using-the-overwrite-images-option}
 
-Dynamic Media Classic non consente a due file di avere lo stesso nome. Ciascun elemento deve avere un ID Scene7 Publishing System (il nome immagine senza l’estensione del nome file) univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi immagini. Il risultato effettivo di questa opzione dipende dalla configurazione delle impostazioni interne di Scene7 Publishing System definita per ciascuna società.
+Dynamic Media Classic non consente a due file di avere lo stesso nome. Ciascun elemento deve avere un ID Dynamic Media Classic (il nome dell’immagine senza l’estensione del nome del file) univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi immagini. L&#39;effetto effettivo di questa opzione dipende da un&#39;impostazione per le impostazioni interne Dynamic Media Classic di ciascuna società.
 
 Se avete precedentemente caricato delle immagini e quindi modificato i file originali (o li avete sostituiti), l’opzione Sovrascrivi selezionata specifica come Dynamic Media Classic sostituisce le immagini. I dati relativi all’immagine non vengono modificati, ma la nuova immagine sostituisce la precedente. Se la cartella contiene anche immagini che non sono già in Dynamic Media Classic, queste vengono aggiunte.
 
@@ -257,7 +251,7 @@ Per ulteriori informazioni sulla nitidezza, le modalità di ricampionamento e la
 
 **Colore** Scegliere le seguenti opzioni:
 
-**Profilo** colore di output Selezionate Usa predefinito o uno dei profili colore ICC disponibili in Scene7 Publishing System.
+**Profilo** colore di output Selezionare Usa predefinito o uno dei profili colore ICC disponibili in Dynamic Media Classic.
 
 Consultate anche [Profili ICC](icc-profiles.md#icc_profiles).
 
@@ -278,7 +272,7 @@ Consultate anche [Profili ICC](icc-profiles.md#icc_profiles).
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * Deselezionate la casella di controllo Attivo accanto al nome di un predefinito per rimuoverlo dall’interfaccia utente di Scene7 Publishing System per gli utenti di Media Portal.
+   * Deselezionate la casella di controllo Attivo accanto al nome di un predefinito per rimuoverlo dall’intera interfaccia utente di Dynamic Media Classic per gli utenti di Media Portal.
 
 ## Attivazione o disattivazione dei predefiniti video adattivi {#activating-or-deactivating-adaptive-video-presets}
 
@@ -290,7 +284,7 @@ Consultate [Caricamento e codifica dei video](uploading-encoding-videos.md#uploa
 
 **Per attivare o disattivare i predefiniti video adattivi**
 
-1. Nell’angolo in alto a destra di Scene7 Publishing System, fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti video** > **Predefiniti video adattati**.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets**.
 1. Nella pagina Predefiniti video adattati, deselezionate la casella di controllo accanto al nome di un predefinito per eliminarlo dall’elenco Opzioni eVideo nella finestra di dialogo Opzioni processo di caricamento.
 1. Fate clic su **Chiudi**.
 
@@ -446,7 +440,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 >[!NOTE]
 >
->**Avviso** di fine del ciclo di vita dei visualizzatori Flash - A partire dal 31 gennaio 2017, Adobe Scene7 Publishing System ha dichiarato ufficialmente terminato il supporto per la piattaforma di visualizzatori Flash. Per ulteriori informazioni su questa importante modifica, consulta il seguente sito Web sulle domande frequenti: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Avviso** di fine del ciclo di vita dei visualizzatori Flash - A partire dal 31 gennaio 2017, Adobe Dynamic Media Classic ha dichiarato ufficialmente terminato il supporto per la piattaforma di visualizzatori Flash. Per ulteriori informazioni su questa importante modifica, consulta il seguente sito Web sulle domande frequenti: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Un *predefinito per visualizzatori* è un gruppo di impostazioni con cui viene definito in che modo le risorse multimediali verranno visualizzate sullo schermo del computer e sui dispositivi mobili dell’utente. In qualità di amministratore, potete creare dei predefiniti per visualizzatori. Sono disponibili impostazioni per un’ampia gamma di opzioni di configurazione dei visualizzatori. Ad esempio, è possibile modificare le dimensioni dello schermo del visualizzatore, il comportamento dello zoom, gli schemi di colori, i bordi e i font.
 
@@ -494,7 +488,7 @@ Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel,
 
 ### Matrice di compatibilità dei predefiniti per visualizzatori Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
 
-**Avviso** di fine del ciclo di vita dei visualizzatori Flash: A partire dal 31 gennaio 2017, Adobe Scene7 Publishing System ha dichiarato ufficialmente terminato il supporto per la piattaforma di visualizzatori Flash.
+**Avviso** di fine del ciclo di vita dei visualizzatori Flash: A partire dal 31 gennaio 2017, Adobe Dynamic Media Classic ha dichiarato ufficialmente terminato il supporto per la piattaforma di visualizzatori Flash.
 
 Per ulteriori informazioni su questa importante modifica, consulta il seguente sito Web sulle domande frequenti: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -613,7 +607,7 @@ Consultate [Esportazione di un predefinito](application-setup.md#exporting_an_ht
 
 **Per aggiungere o modificare dei predefiniti per visualizzatori**
 
-1. Nell’angolo in alto a destra di Scene7 Publishing System, fate clic su **Configurazione** > **Predefiniti visualizzatore**.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    Potete filtrare l’elenco dei predefiniti. Ad esempio, per visualizzare soltanto i predefiniti per i visualizzatori video, selezionate Visualizzatore video dall’elenco a discesa Visualizzatori nella barra degli strumenti che si trova appena sopra la tabella.
 
@@ -647,7 +641,7 @@ Consultate [Esportazione di un predefinito](application-setup.md#exporting_an_ht
 
 Potete esportare un predefinito per visualizzatori HTML5 esistente da usare come base per la creazione di un nuovo predefinito per visualizzatori HTML5. In questo modo si evita di dover creare un visualizzatore da zero. Se esportate un predefinito con aspetto e comportamento simili a quelli desiderati, potrete usarlo come base di partenza per apportare le regolazioni necessarie.
 
-Tenete presente che tutti i file CSS predefiniti per visualizzatori in SPS usano percorsi di trasmissione delle immagini relativi che puntano alle risorse presenti in `Scene7SharedAssets`. Ad esempio, di seguito è riportato un percorso relativo a una risorsa immagine in un file CSS predefinito per visualizzatori presente in `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Tuttavia, se ospitate file CSS del visualizzatore sul vostro sito, dovete risolvere il percorso relativo dell’immagine utilizzando un percorso esplicito del server immagini nel vostro ambiente. A scopo illustrativo, se devi aggiornare il percorso relativo sopra a un percorso esplicito, potrebbe essere simile al seguente, dove `https://s7d1.scene7.com` è il percorso diretto del server immagini: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Tutti i file CSS predefiniti per visualizzatori in Dynamic Media Classic usano percorsi di trasmissione delle immagini relativi che puntano alle risorse presenti in `Scene7SharedAssets`. Ad esempio, di seguito è riportato un percorso relativo a una risorsa immagine in un file CSS predefinito per visualizzatori presente in `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Tuttavia, se ospitate file CSS del visualizzatore sul vostro sito, dovete risolvere il percorso relativo dell’immagine utilizzando un percorso esplicito del server immagini nel vostro ambiente. A scopo illustrativo, se devi aggiornare il percorso relativo sopra a un percorso esplicito, potrebbe essere simile al seguente, dove `https://s7d1.scene7.com` è il percorso diretto del server immagini: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Per esportare un predefinito per visualizzatori HTML5**
 
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    Dopo l’esportazione, ottenete un file CSS. Scaricate e decomprimete il file.
 
 1. Aprite il file CSS in un Editor CSS, apportate le modifiche e salvate il file.
-1. Caricate il file CSS in Scene7 Publishing System.
+1. Caricate il file CSS in Dynamic Media Classic.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
@@ -746,7 +740,7 @@ La modifica del codice non è consentita nella finestra di dialogo Incorpora cod
 
 ## Configurazione dei visualizzatori predefiniti {#configuring-default-viewers}
 
-Quando utilizzate la funzione Anteprima in Scene7 Publishing System, potete usare i visualizzatori predefiniti per configurare il visualizzatore predefinito associato a una risorsa. Potete impostare l’esperienza di anteprima predefinita per i seguenti tipi di risorse:
+Potete usare i visualizzatori predefiniti per configurare il visualizzatore predefinito associato a una risorsa quando utilizzate Anteprima in Dynamic Media Classic. Potete impostare l’esperienza di anteprima predefinita per i seguenti tipi di risorse:
 
 * Immagine
 * Video
@@ -822,9 +816,9 @@ Create un predefinito per metadati per ciascun set di valori per metadati che de
 
 ## Campi definiti dall’utente {#user-defined-fields}
 
-I campi metadati definiti dall’utente possono essere creati solo da un amministratore di Media Portal o un amministratore società. I campi personalizzati possono essere utili per organizzare le risorse in Scene7 Publishing System. Se necessario, potete contrassegnare i campi come Attivo. Se attivati, i nomi di tali campi di metadati personalizzati compaiono nella visualizzazione Dettagli del pannello Metadati. Nei campi di metadati definiti dall’utente gli utenti possono immettere informazioni per descrivere le risorse. Gli utenti possono inoltre utilizzare tali campi di metadati come criteri di ricerca.
+I campi metadati definiti dall’utente possono essere creati solo da un amministratore di Media Portal o un amministratore società. I campi personalizzati possono essere utili per organizzare le risorse in Dynamic Media Classic. Se necessario, potete contrassegnare i campi come Attivo. Se attivati, i nomi di tali campi di metadati personalizzati compaiono nella visualizzazione Dettagli del pannello Metadati. Nei campi di metadati definiti dall’utente gli utenti possono immettere informazioni per descrivere le risorse. Gli utenti possono inoltre utilizzare tali campi di metadati come criteri di ricerca.
 
-I campi metadati definiti dall’utente sono utili ad esempio per ritardare il momento di attivazione di una risorsa per un lancio o una promozione. È possibile definire un campo di attivazione in base al tipo *Data*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System verifica lo stato di pubblicazione di una risorsa e la cronologia delle modifiche. Se non rientra nel tempo di attivazione, lo stato di pubblicazione è indicato come &quot;Non pubblicato&quot;.
+I campi metadati definiti dall’utente sono utili ad esempio per ritardare il momento di attivazione di una risorsa per un lancio o una promozione. È possibile definire un campo di attivazione in base al tipo *Data*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media Classic verifica lo stato di pubblicazione di una risorsa e la cronologia di pubblicazione. Se non rientra nel tempo di attivazione, lo stato di pubblicazione è indicato come &quot;Non pubblicato&quot;.
 
 >[!NOTE]
 >
@@ -886,9 +880,9 @@ Per aprire questa schermata, fate clic su **Configurazione** > **Impostazione a
 
 ## Ottimizzare i file {#optimize-files}
 
-Quando si caricano dei file in Scene7 Publishing System, questi vengono ottimizzati per l’archiviazione e la pubblicazione. Tuttavia, se il processo di caricamento viene interrotto, alcune immagini potrebbero non essere ottimizzate. In questo caso viene visualizzato il messaggio “Immagine non ancora ottimizzata”. Tali file possono comunque essere ottimizzati dagli utenti con ruolo di amministratore.
+Quando caricate i file in Dynamic Media Classic, il sistema li ottimizza per l&#39;archiviazione e la pubblicazione. Tuttavia, se il processo di caricamento viene interrotto, alcune immagini potrebbero non essere ottimizzate. In questo caso viene visualizzato il messaggio “Immagine non ancora ottimizzata”. Tali file possono comunque essere ottimizzati dagli utenti con ruolo di amministratore.
 
-Scene7 Publishing System analizza i file e ottimizza solo le immagini di cui non è stata completata l’ottimizzazione.
+Dynamic Media Classic analizza i file e ottimizza solo le immagini che non erano state completamente ottimizzate in precedenza.
 
 1. Scegliete **Configurazione** > Impostazione **** applicazione, quindi selezionate **Ottimizza file**.
 1. Enter information for the optimization job and click **Submit**.
@@ -897,7 +891,7 @@ Scene7 Publishing System analizza i file e ottimizza solo le immagini di cui non
 
 ## Predefiniti per set di batch {#batch-set-presets}
 
-Usate i predefiniti per set di batch per creare automaticamente set di immagini o set 360 gradi mentre un processo è in esecuzione per caricare delle risorse in Scene7 Publishing System.
+Usate i predefiniti per set di batch per creare automaticamente set di immagini o set 360 gradi mentre è in esecuzione un processo per caricare le risorse in Dynamic Media Classic.
 
 Gli amministratori della società definiscono innanzi tutto le convenzioni di denominazione delle risorse che desiderano riunire in un set. Potete quindi creare un predefinito per set di batch che faccia riferimento a tali immagini. Ogni predefinito ha un nome univoco ed è un set autonomo di istruzioni che definisce come comporre il set con le immagini in base alle convenzioni di denominazione specificate con le opzioni del predefinito.
 
