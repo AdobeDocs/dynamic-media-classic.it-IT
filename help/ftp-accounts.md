@@ -3,14 +3,17 @@ title: Gestione degli account FTP
 seo-title: Gestione degli account FTP
 description: 'null'
 seo-description: Scopri come gestire gli account FTP.
-uuid: c 9410 f 44-14 bf -4 f 55-a 199-f 0 f 0 de 459219
+uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: d 592 f 0 a 7-1 c 27-4463-998 a -07351147 da 1 d
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +26,7 @@ solo gli amministratori di Media Portal possono amministrare e gestire gli accou
 
 Consultate [Attivazione o disattivazione degli utenti](administration-setup.md#activating_or_deactivating_users).
 
-1. Fate clic su **Configurazione** &gt; **Media Portal** &gt; **Account FTP**.
+1. Fate clic su **Configurazione** > **Media Portal** > **Account FTP**.
 1. Nella pagina Aggiungi account FTP, selezionate un utente dall’elenco a discesa Nome utente account FTP.
 
    Se un utente non è elencato, potrebbe essere necessario aggiungerlo come Amministratore Media Portal, Collaboratore/Utente Media Portal o Collaboratore Media Portal da Impostazione amministrazione. Dopo aver aggiunto l’utente con il ruolo corretto, il suo nome utente diventa disponibile nell’elenco a discesa.
@@ -39,7 +42,7 @@ Consultate [Attivazione o disattivazione degli utenti](administration-setup.md#a
 
 ## Eliminazione di un account FTP esistente {#deleting-an-existing-ftp-account}
 
-1. Fate clic su **Configurazione** &gt; **Media Portal** &gt; **Account FTP**.
+1. Fate clic su **Configurazione** > **Media Portal** > **Account FTP**.
 1. Nella pagina Aggiungi account FTP, selezionate l’account FTP da rimuovere nella tabella Account esistenti.
 1. Fate clic su **Elimina**.
 
