@@ -2,15 +2,18 @@
 title: Anteprima di un set 360 gradi
 seo-title: Anteprima di un set 360 gradi
 description: 'null'
-seo-description: Scoprite come visualizzare in anteprima un set gradi.
-uuid: 5 b 9 d 4 c 37-a 4 ec -40 c 5-8 f 14-da 875 d 71226 e
+seo-description: Scoprite come visualizzare l’anteprima di un set 360 gradi.
+uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 4 b 32 ffff -4387-4699-9 ba 9-c 3 b 23 a 2 c 3607
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 96%
 
 ---
 
@@ -29,9 +32,9 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing_an_asset).
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella delle risorse contenente il set 360 gradi da visualizzare in anteprima con un visualizzatore.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, sotto la miniatura, fate clic su Anteprima &gt; Elenco visualizzatori.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una risorsa e fate clic su Anteprima &gt; Elenco visualizzatori a destra della miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima &gt; Elenco visualizzatori.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, sotto la miniatura, fate clic su Anteprima > Elenco visualizzatori.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una risorsa e fate clic su Anteprima > Elenco visualizzatori a destra della miniatura.
+   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima > Elenco visualizzatori.
 
 1. Nella finestra Elenco visualizzatori, nella tabella, fate clic sul collegamento di un visualizzatore per visualizzare in anteprima la risorsa nel visualizzatore selezionato.
 1. Chiudete il visualizzatore per tornare alla schermata Elenco visualizzatori.
