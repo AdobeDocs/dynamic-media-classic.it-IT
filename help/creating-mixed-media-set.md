@@ -3,13 +3,16 @@ title: Creazione di un set di file multimediali diversi
 seo-title: Creazione di un set di file multimediali diversi
 description: 'null'
 seo-description: Scoprite come creare un set di file multimediali diversi.
-uuid: a 0 c 6 e 5 fa -7 a 85-4376-b 9 a 3-b 72 ae 63 d 3 d 95
+uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: 0 ff 9 e 763-897 c -4 ba 5-b 606-a 95 d 5 e 45 f 35 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
-source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +36,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per creare un set di file multimediali diversi**
 
-1. Fate clic su **Genera** &gt; **Set di file multimediali diversi**.
+1. Fate clic su **Genera** > **Set di file multimediali diversi**.
 1. Trascinate i video, i set di immagini, i set 360 gradi e i campioni dalla libreria delle risorse alla schermata Set di file multimediali diversi.
 
    >[!NOTE]
@@ -60,7 +63,7 @@ A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubbli
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono il loro stato pubblicato. Tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione o pubblicazione non pubblicato. |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il proprio stato di pubblicazione. Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -86,5 +89,5 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 **Per eliminare un set di file multimediali diversi**
 
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set di file multimediali diversi.
-1. Nella barra di navigazione globale, fate clic su **File** &gt; **Elimina** &gt; **Elimina**.
+1. Nella barra di navigazione globale, fate clic su **File** > **Elimina** > **Elimina**.
 
