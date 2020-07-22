@@ -4,9 +4,9 @@ seo-title: App Adobe Dynamic Media Classic Desktop
 description: Gli utenti di Dynamic Media Classic possono ora provare un aggiornamento completo dell'interfaccia utente. L'esperienza fornisce un accesso aggiornato con collegamenti a preziose risorse e questo aggiornamento non si basa più sulla tecnologia Adobe Flash presente nel browser.
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
