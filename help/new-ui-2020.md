@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Dopo aver scaricato, installato e avviato l&#39;app desktop, vi verrà presentat
 
 >[!IMPORTANT]
 >
->È possibile installare e attivare una sola istanza dell&#39;app desktop alla volta.
+>Su un determinato computer è possibile installare *e attivare* una sola istanza dell&#39;app desktop alla volta. Tuttavia, non esiste alcuna limitazione al numero di installazioni che è possibile installare tra computer diversi.
 
 ### **_Cosa succede se uso le API Dynamic Media Classic per accedere al prodotto e non accedo tramite l&#39;interfaccia utente Web?_**
 
