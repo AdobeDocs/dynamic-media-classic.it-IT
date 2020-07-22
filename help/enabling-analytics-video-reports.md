@@ -2,24 +2,27 @@
 title: Abilitazione di Adobe Analytics Video Report.
 seo-title: Abilitazione di Adobe Analytics Video Report.
 description: 'null'
-seo-description: Scopri come abilitare i rapporti video di Adobe Analytics.
-uuid: 078594 b 2-7 d 53-4714-8128-ff 3 b 5 c 3 a 5 e 36
+seo-description: Scoprite come abilitare i rapporti video di Adobe  Analytics.
+uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: 18644 a 53-92 da -40 ab-b 961-318 d 8332 c 54 d
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: 18644a53-92da-40ab-b961-318d8332c54d
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 25%
 
 ---
 
 
 # Abilitazione di Adobe Analytics Video Report.{#enabling-adobe-analytics-video-reports}
 
-Utilizzando i rapporti sui video basati su heartbeat Adobe Analytics, non è più necessario abilitare i quattro eventi dei visualizzatori video (Riproduci, Pausa, Interrompi, Pietra miliare) quando si configura Adobe Analytics in Dynamic Media Classic. Heartbeat video funziona con i visualizzatori HTML 5 Video Classic Classic e mixedmedia integrati. Il lettore video genera dati di tracciamento per la visualizzazione in Adobe Analytics Video Reports.
+Utilizzando la generazione di rapporti sui video basati su heartbeat di Adobe  Analytics, non è più necessario abilitare i quattro eventi dei visualizzatori video (Riproduci, Pausa, Interrompi, Pietra miliare) quando si configura Adobe  Analytics in Dynamic Media Classic. Video Heartbeat funziona con i visualizzatori video HTML5 e per file multimediali diversi forniti con Dynamic Media Classic. Il lettore video genera dati di tracciamento per la visualizzazione in Adobe Analytics Video Reports.
 
-* L'integrazione di Adobe Analytics Video Report con Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
+* L&#39;integrazione di Adobe  Analytics Video Report con Dynamic Media Classic supporta le variabili di soluzione, ma non le variabili personalizzate.
 
    See [Configure Analytics Video Reporting](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html) for more information about solution variables and custom variables.
 
@@ -29,5 +32,5 @@ For more information about Video Heartbeat requirements and setup, see [Measurin
 
 >[!NOTE]
 >
->Se la soluzione con licenza di Adobe Analytics non include Video Heartbeat, dovrete continuare a utilizzare i passaggi descritti in questo capitolo per assegnare variabili Adobe Analytics agli eventi e alle variabili di visualizzatore Dynamic Media Classic.
+>Se la soluzione con licenza di Adobe  Analytics non include Video Heartbeat, dovrete continuare a utilizzare i passaggi descritti in questo capitolo per assegnare le variabili Adobe  Analytics agli eventi e alle variabili del visualizzatore Dynamic Media Classic.
 
