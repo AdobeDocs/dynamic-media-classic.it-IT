@@ -3,21 +3,24 @@ title: Media Portal
 seo-title: Media Portal
 description: 'null'
 seo-description: Ulteriori informazioni su Media Portal.
-uuid: df 34 c 360-c 91 a -48 d 4-886 b -2 f 9178 d 220 fb
+uuid: df34c360-c91a-48d4-886b-2f9178d220fb
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/getting_ started
-discoiquuid: bdd 0742 e -902 c -48 f 7-93 e 6-6 e 50 d 2 a 7628 b
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 44%
 
 ---
 
 
 # Media Portal{#media-portal}
 
-Adobe Media Portal consente alle aziende di acquisire, controllare e distribuire con facilità le risorse creative approvate ai partner e ai canali esterni nonché ai colleghi interni. Questo ambiente «self-service» basato su browser consente agli utenti del portale di visualizzare le risorse Dynamic Media Classic in modo controllato dall'amministratore, semplificando l'accesso a tali risorse per il caricamento, la navigazione, la ricerca, l'anteprima e l'esportazione nei formati approvati dall'azienda.
+Adobe Media Portal consente alle aziende di acquisire, controllare e distribuire con facilità le risorse creative approvate ai partner e ai canali esterni nonché ai colleghi interni. Questo ambiente di tipo &quot;self-service&quot; basato su browser consente agli utenti del portale di visualizzare le risorse Dynamic Media Classic in modo controllato dall’amministratore, semplificando l’accesso a tali risorse per il caricamento, la navigazione, la ricerca, la visualizzazione in anteprima e l’esportazione nei formati approvati dall’azienda.
 
 For more information about Media Portal including system requirements, see [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
 
