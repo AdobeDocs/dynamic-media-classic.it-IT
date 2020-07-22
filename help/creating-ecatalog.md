@@ -2,15 +2,18 @@
 title: Creazione di un eCatalog
 seo-title: Creazione di un eCatalog
 description: 'null'
-seo-description: Scoprite come creare un ecatalog.
-uuid: 2 aff 05 c 2-7052-426 c-b 61 d -7 f 9091 f 7 ace 8
+seo-description: Scoprite come creare un eCatalog.
+uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/ecatalogs
-discoiquuid: 28889 c 60-596 a -40 d 2-85 d 4-f 48 a 4 f 86 b 932
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 78%
 
 ---
 
@@ -36,9 +39,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Iniziate a creare l’eCatalog mediante una di queste tecniche:
 
-   **Selezionate prima i file** nel pannello Sfoglia, selezionate i file e fate clic su Genera &gt; ecatalog.
+   **Selezionate prima** i file nel pannello Sfoglia, selezionate i file e fate clic su Genera > eCatalog.
 
-   **Iniziate dalla schermata ecatalog** fate clic su Genera &gt; ecatalog. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
+   **Iniziate dalla schermata** eCatalog e fate clic su Genera > eCatalog. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -46,11 +49,11 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Se necessario, potete impostare un diverso layout per pagine singole e affiancate selezionandole e scegliendo il pulsante 1 immagine, 2 immagini o Personalizzato. Viene visualizzata la finestra di dialogo Modifica layout eCatalog. Select the Selected Spreads options and click **OK**.
 1. Riordinate le pagine in base alle necessità utilizzando una delle seguenti tecniche:
 
-   **Trascinare** trascinate una pagina o un set di pagine affiancate in una nuova posizione. Una barra verticale indica la posizione in cui la pagina viene spostata.
+   **Trascinamento** Trascinare una pagina o un set di pagine affiancate in una nuova posizione. Una barra verticale indica la posizione in cui la pagina viene spostata.
 
-   **Sposta a:** selezionate una pagina o un set di pagine affiancate, fate clic sul pulsante Sposta a e scegliete la pagina nel menu da inserire prima della pagina.
+   **Pulsante** Sposta a Consente di selezionare una pagina o un set di pagine affiancate, fare clic sul pulsante Sposta a e scegliere la pagina dal menu che si desidera visualizzare prima della pagina.
 
-   **Sequenza #** In Visualizzazione Elenco, immettete i numeri di pagina nei campi Sequenza #.
+   **Sequenza #** In vista Elenco, immettere i numeri di pagina nei campi Sequenza #.
 
 1. Al termine dell’operazione, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva**.
@@ -66,7 +69,7 @@ A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubbli
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono il loro stato pubblicato. Tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione o pubblicazione non pubblicato. |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il proprio stato di pubblicazione. Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -88,11 +91,11 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 **Per eliminare un eCatalog**
 
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più eCatalog.
-1. Nella barra di navigazione globale, fate clic su **File** &gt; **Elimina** &gt; **Elimina**.
+1. Nella barra di navigazione globale, fate clic su **File** > **Elimina** > **Elimina**.
 
 ## Personalizzazione del sommario {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic fornisce numeri di pagina predefiniti nell'ecatalog nella scheda Ordina pagine della schermata ecatalog. Per i nomi di pagina personalizzati, potete modificare le etichette di pagina contenute nel sommario. Si consiglia di rinominare la copertina anteriore e quella posteriore. Ad esempio, la copertina anteriore può leggere «Copertina» invece di «Pagina 0-1». »»
+Dynamic Media Classic fornisce numeri di pagina predefiniti nell’eCatalog nella scheda Ordina pagine della schermata eCatalog. Per i nomi di pagina personalizzati, potete modificare le etichette di pagina contenute nel sommario. Si consiglia di rinominare la copertina anteriore e quella posteriore. Ad esempio, la copertina anteriore può essere &quot;Copertina&quot; invece di &quot;Pagina 0-1&quot;.
 
 Potete creare un sommario personalizzato per l’eCatalog manualmente oppure importando i nomi di pagina da un file CSV (solo Mac) o XML.
 
@@ -108,19 +111,19 @@ Per inserire manualmente i nomi delle pagine uno alla volta, aprite la scheda Or
 
 L’importazione dei nomi di pagina è consigliata se disponete di un eCatalog con numerose pagine. Potete importare i nomi da un file XML o delimitato da tabulazioni.
 
-L'etichetta del sommario viene memorizzata nel campo Dati utente di un'immagine; formattare questi dati come elenco `name=<value>`` pairs separated by two question marks “??” `. Ad esempio, per impostare un'etichetta per un campo di sommario denominato tocen ", impostate i Dati utente dell'immagine su:
+L’etichetta del sommario è memorizzata nel campo Dati utente di un’immagine; formattate questi dati come un elenco di `name=<value>`` pairs separated by two question marks “??” `. Ad esempio, per impostare un’etichetta per un campo di sommario denominato tocEN &quot;, impostate i dati utente dell’immagine su:
 
-tocEN=&lt;etichetta_pagina_EN&gt;
+tocEN=&lt;etichetta_pagina_EN>
 
 Per impostare etichette diverse per i campi di sommario denominati tocEN e tocFR:
 
-tocEN=&lt;etichetta_pagina_EN&gt;??tocFR=&lt;etichetta_pagina_FR&gt;
+tocEN=&lt;etichetta_pagina_EN>??tocFR=&lt;etichetta_pagina_FR>
 
 Per importare il campo Dati utente in un file delimitato da tabulazioni, includete i dati utente del campo:
 
 | IPSID | Dati utente |
 |--- |--- |
-| `<image_IPS_ID>` | tocEN=&lt;etichetta_pagina_EN&gt;??tocFR=&lt;etichetta_pagina_FR&gt; |
+| `<image_IPS_ID>` | tocEN=&lt;etichetta_pagina_EN>??tocFR=&lt;etichetta_pagina_FR> |
 
 Per importare il campo Dati utente in un file XML, includete l’attributo `vc_userdata`:
 
