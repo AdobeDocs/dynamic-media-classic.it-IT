@@ -6,11 +6,14 @@ seo-description: Scoprite come creare mappe immagine per eCatalog.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/ecatalogs
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 77%
 
 ---
 
@@ -80,7 +83,8 @@ Nella scheda Mappe pagine della schermata eCatalog, utilizzate le tecniche segue
 
    Consultate [Regolazione della posizione, forma e dimensione delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Eliminazione delle mappe** immagine Selezionate lo strumento scorrimento, fate clic sulla mappa immagine per selezionarla, quindi fate clic su **Elimina**.
+* **Eliminazione delle mappe immagine** Selezionate lo strumento scorrimento, fate clic sulla mappa immagine per selezionarla, quindi fate clic su 
+**Elimina**.
 
    To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
@@ -128,7 +132,7 @@ Nella schermata Riepilogo mappe, seguite queste istruzioni per importare i dati 
 
 ## Copia di mappe immagine tra diversi eCatalog {#copying-image-maps-between-ecatalogs}
 
-Potete copiare tutte le mappe immagine di un eCatalog in un diverso eCatalog. Questo è utile ad esempio per copiare le mappe immagine tra versioni in lingue diverse di uno stesso eCatalog. Affinché la copia abbia successo, Dynamic Media Classic consiglia di copiare tra eCatalog con lo stesso numero di pagine e le stesse immagini.
+Potete copiare tutte le mappe immagine di un eCatalog in un diverso eCatalog. Questo è utile ad esempio per copiare le mappe immagine tra versioni in lingue diverse di uno stesso eCatalog. Affinché la copia abbia esito positivo, Dynamic Media Classic consiglia di copiare tra eCatalog con lo stesso numero di pagine e le stesse immagini.
 
 >[!NOTE]
 >
