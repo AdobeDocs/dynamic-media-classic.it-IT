@@ -2,15 +2,18 @@
 title: Gestione delle varianti di contenuto
 seo-title: Gestione delle varianti di contenuto
 description: 'null'
-seo-description: Scopri come gestire le varianti dei contenuti.
-uuid: 1 e 40 a 526-02 f 8-41 d 9-886 f -6 d 094546 bc 13
+seo-description: Scoprite come gestire le varianti di contenuto.
+uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/template_ basics
-discoiquuid: aa 129 b 0 e-fc 73-4 fc 2-a 894-4560 b 3 f 46 c 4 f
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +28,7 @@ Per visualizzare la variante del modello che compare nella pagina vengono utiliz
 
 Potete utilizzare qualsiasi URL di predefinito per immagini presente nell’elenco. Gli URL di predefiniti per immagini sono simili agli URL universali. Possono essere presenti più URL di predefiniti per immagini.
 
-1. Fate clic su Genera &gt; Set di modelli.
+1. Fate clic su Genera > Set di modelli.
 
    Viene aperta la funzione di generazione.
 
