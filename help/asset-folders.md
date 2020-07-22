@@ -6,20 +6,23 @@ seo-description: Scoprite come utilizzare le cartelle delle risorse.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/Categories/managing_assets
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 55%
 
 ---
 
 
 # Utilizzo delle cartelle di risorse{#working-with-asset-folders}
 
-Le risorse dei file in Scene7 Publishing System sono raggruppate in cartelle, elencate in ordine alfabetico nel pannello Libreria risorse. Prima di caricare in Scene7 Publishing System i file dal computer o dalla rete, viene richiesto di specificare una cartella in cui memorizzarli. Create quindi le cartelle necessarie prima di caricare qualsiasi file. 
+Le risorse dei file in Dynamic Media Classic vengono memorizzate in cartelle. elencate in ordine alfabetico nel pannello Libreria risorse. Prima di caricare i file dal computer o dalla rete in Dynamic Media Classic, viene richiesto di specificare una cartella in cui memorizzarli. Create quindi le cartelle necessarie prima di caricare qualsiasi file. 
 
-Assicuratevi di aver creato una struttura e organizzazione di cartelle per la memorizzazione dei file in Scene7 Publishing System prima di caricare i file stessi.
+Prima di caricare i file, accertatevi di creare una struttura e organizzazione di cartelle per la memorizzazione dei file in Dynamic Media Classic.
 
 ## Visualizzare, spostare, nascondere e aprire le cartelle {#displaying-moving-hiding-and-opening-folders}
 
@@ -27,13 +30,13 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 * **Visualizzazione delle sottocartelle** Selezionate l’icona Espandi cartella per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Spostamento di una cartella**&#x200B;È possibile spostare una cartella trascinandola nella nuova posizione oppure selezionando File &gt; Sposta cartella.
+* **Spostamento di una cartella**&#x200B;È possibile spostare una cartella trascinandola nella nuova posizione oppure selezionando File > Sposta cartella.
 
 * **Nascondere le cartelle** Per comprimere le sottocartelle, fate clic sull’icona Comprimi cartella . Questa icona si trova a sinistra dei nomi delle cartelle.
 
 * **Apertura di una cartella** Selezionate una cartella per visualizzarne il contenuto nel pannello Sfoglia.
 
-***Suggerimento**: Per nascondere o visualizzare la Libreria risorse, fate clic sul controllo Espandi/Riduci a sinistra. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.*
+***Suggerimento **: Per nascondere o visualizzare la Libreria risorse, fate clic sul controllo Espandi/Riduci a sinistra. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.*
 
 ## Creazione di cartelle {#creating-folders}
 
@@ -45,7 +48,7 @@ Per creare una cartella, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Potete anche creare cartelle in Scene7 Publishing System quando caricate i file tramite FTP. Se selezionate l’opzione Includi sottocartelle in fase di caricamento tramite FTP, la struttura delle cartelle viene replicata nel computer del sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
+   >Potete anche creare cartelle in Dynamic Media Classic quando caricate i file tramite FTP. Se selezionate l’opzione Includi sottocartelle in fase di caricamento tramite FTP, la struttura delle cartelle viene replicata nel computer del sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
 
 ## Eliminazione e ridenominazione delle cartelle {#deleting-and-renaming-folders}
 
@@ -57,4 +60,4 @@ Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti
 
 >[!NOTE]
 >
->Non è possibile copiare cartelle o risorse perché in questo modo verrebbero creati duplicati in Scene7 Publishing System.
+>Non è possibile copiare cartelle o risorse perché in questo modo verrebbero creati duplicati in Dynamic Media Classic. Inoltre, i duplicati non sono consentiti.
