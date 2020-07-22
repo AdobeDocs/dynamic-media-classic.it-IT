@@ -3,14 +3,17 @@ title: Anteprima dei video in un visualizzatore video
 seo-title: Anteprima dei video in un visualizzatore video
 description: 'null'
 seo-description: Scoprite come visualizzare in anteprima i video in un visualizzatore video.
-uuid: 7 ab 4 e 805-6 e 5 d -461 b-bd 99-5 e 09 b 9 ced 950
+uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: admin
-content-type: riferimento
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/category/video
-discoiquuid: 6 a 2 e 6 df 1-9186-42 e 2-9 b 85-01 f 132936 c 72
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 84%
 
 ---
 
@@ -30,7 +33,7 @@ Consultate [Aggiunta e modifica dei predefiniti per visualizzatori](application-
    * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. Nella finestra Risorse, passate il mouse su una risorsa e fate clic su **Anteprima**.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione griglia** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **Anteprima** nella miniatura di una risorsa.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione dettagli** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **Anteprima**.
-   * Nella finestra Risorse, selezionate una risorsa. Nella barra degli strumenti, fate clic su **File** &gt; **Anteprima**.
+   * Nella finestra Risorse, selezionate una risorsa. Nella barra degli strumenti, fate clic su **File** > **Anteprima**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
 1. Fate clic sul collegamento Anteprima per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
@@ -39,19 +42,19 @@ Consultate [Aggiunta e modifica dei predefiniti per visualizzatori](application-
 
 >[!NOTE]
 >
->Dynamic Media Classic offre un metodo pratico per visualizzare l'anteprima dei video MP 4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che visualizzate nell’anteprima desktop non mostra in modo realistico l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare l’anteprima dell’aspetto del video e come verrà riprodotto su un dispositivo mobile, passate alla schermata Anteprima, selezionate l’opzione Copia URL e inserite tale URL nel browser Web di un dispositivo mobile. Per ulteriori informazioni, consultate [Implementare i video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Dynamic Media Classic fornisce un metodo pratico per visualizzare l’anteprima dei video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che visualizzate nell’anteprima desktop non mostra in modo realistico l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare l’anteprima dell’aspetto del video e come verrà riprodotto su un dispositivo mobile, passate alla schermata Anteprima, selezionate l’opzione Copia URL e inserite tale URL nel browser Web di un dispositivo mobile. Per ulteriori informazioni, consultate [Implementare i video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilizzo dei predefiniti per visualizzatori video {#working-with-video-viewer-presets}
 
 Gli utenti visualizzano i video nel visualizzatore video. Il comportamento del visualizzatore video, il relativo aspetto e il funzionamento dei controlli di riproduzione dipendono dal predefinito per visualizzatori scelto per la riproduzione del video. Potete scegliere un predefinito per visualizzatori nella schermata Anteprima. Dopo aver scelto un predefinito, potete ottenere l’URL per ottenere l’URL o il codice da incorporare per riprodurre il video mediante il predefinito per visualizzatore scelto.
 
-Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori per la riproduzione di video; se siete un amministratore, potete creare predefiniti per visualizzatori personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
+Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori per la riproduzione di video; inoltre, se siete un amministratore, potete creare predefiniti per visualizzatori personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
 
 Consultate anche [Anteprima dei video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 ### Aggiunta o modifica di un predefinito per visualizzatori video {#adding-or-editing-a-video-viewer-preset}
 
-Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore e le rispettivi impostazioni predefinite. Potete inoltre aggiungere e modificare dei predefiniti per visualizzatore personalizzati oppure modificare quelli forniti con Scene7 Publishing System.
+Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore e le rispettivi impostazioni predefinite. Potete inoltre aggiungere e modificare i predefiniti per visualizzatori personalizzati o modificare quelli forniti con Dynamic Media Classic.
 
 In Predefiniti visualizzatore potete attivare, filtrare, ordinare e visualizzare in anteprima i predefiniti per visualizzatore.
 
@@ -59,7 +62,7 @@ Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_prese
 
 **Per aggiungere o modificare un predefinito per visualizzatori video**
 
-1. Nell’angolo in alto a destra di Scene7 Publishing System, fate clic su **Configurazione** &gt; **Predefiniti visualizzatore**.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    Per visualizzare soltanto i predefiniti per i visualizzatori video, selezionate Visualizzatore video dall’elenco a discesa Visualizzatori nella barra degli strumenti che si trova appena sopra la tabella.
 
@@ -69,11 +72,11 @@ Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_prese
 
    Consultate anche [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Aggiungete da un predefinito per visualizzatori esistente** nella tabella, selezionate un predefinito per visualizzatori video, quindi fate clic su Modifica nella barra degli strumenti.
+   **Aggiungendo i dati da un predefinito** per visualizzatori esistente Nella tabella, selezionate un predefinito per visualizzatori video e fate clic su Modifica nella barra degli strumenti.
 
    Dopo aver configurato il visualizzatore video, fate clic su **Salva con nome** per salvare il predefinito specificando un altro nome nel campo Nome predefinito.
 
-   **Modifica** di un predefinito per visualizzatori video, quindi fate clic su Modifica.
+   **Modifica** Selezionate un predefinito per visualizzatori video e fate clic su Modifica.
 
 1. Nella schermata Configura visualizzatore, immettete o modificate il nome del predefinito nel campo Nome predefinito.
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
