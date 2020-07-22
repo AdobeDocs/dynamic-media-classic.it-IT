@@ -6,14 +6,14 @@ seo-description: Tutti gli utenti possono modificare le impostazioni nella scher
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 83%
+source-wordcount: '1194'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ Le impostazioni della schermata Configurazione personale possono essere modifica
 
 >[!NOTE]
 >
->la schermata Configurazione personale indica qual è il vostro ruolo utente in Scene7 Publishing System: Amministratore società, Amministratore o Utente.
+>Nella schermata Configurazione personale è riportato il ruolo utente assegnatovi in Dynamic Media Classic: Amministratore società, Amministratore o Utente.
 
 Le impostazioni della schermata Configurazione personale controllano il comportamento predefinito del pannello Sfoglia, il modo in cui ricevete i messaggi e-mail e le impostazioni della password. Dopo aver modificato queste impostazioni, fate clic su Salva.
 
@@ -34,11 +34,11 @@ Identifica il vostro nome e nome dell’account, il nome utente (indirizzo e-mai
 
 ### Versione Desktop
 
-Fate clic su Installa per installare la versione desktop di Scene7 Publishing System sul disco rigido locale. In alternativa, fate clic su Reinstalla per installare di nuovo la versione desktop.
+Fare clic su Installa per installare la versione desktop di Dynamic Media Classic sul disco rigido locale. In alternativa, fate clic su Reinstalla per installare di nuovo la versione desktop.
 
 ## Per installare il plug-in sul disco rigido locale
 
-1. Nella pagina Configurazione personale di Scene7 Publishing System, sotto Plug-in di Illustrator per la funzione Web-stampa, fate clic su **Scarica ora** per scaricare il file **Illustrator Plug-in for Web-to-Print.zip**.
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. Decomprimete il file ZIP in una cartella temporanea.
 
    Nel livello principale del file decompresso è presente un file di istruzioni che contiene ulteriori informazioni sul plug-in.
@@ -83,8 +83,6 @@ Fate clic su Installa per installare la versione desktop di Scene7 Publishing Sy
    * Visualizza uno sfondo a scacchi dietro le immagini che consente di vedere facilmente le aree trasparenti di un’immagine che contiene un canale alfa.
 * **Mostra dimensione file**
    * Visualizza la dimensione file di una risorsa individuata in Sfoglia.
-* **Conferma all’uscita da SPS**
-   * Presenta una finestra di conferma prima di uscire da Scene7 Publishing System.
 * **Includi UDF nella ricerca**
    * Questa opzione è deselezionata (impostazione predefinita) per migliorare le prestazioni del sistema per la maggior parte delle ricerche per metadati.
 
@@ -106,7 +104,7 @@ Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fiel
 ## E-mail
 
 * **Opzioni e-mail**
-   * Scegliete come desiderate che sia possibile informare tramite e-mail Dynamic Media Classic al termine dei processi di caricamento e pubblicazione. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
+   * Scegliete come desiderate che Dynamic Media Classic vi informi via e-mail al termine dei processi di caricamento e pubblicazione. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
 * **Ambito e-mail**
    * Specifica se ricevere un’e-mail per tutti i processi della società o solo per quelli di caricamento e pubblicazione avviati da voi stessi.
 * **Tipi di e-mail**
