@@ -6,27 +6,27 @@ seo-description: Scoprite le risorse per lo sviluppo disponibili per Dynamic Med
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
 
 # Risorse per sviluppatori{#developer-resources}
 
-Dynamic Media Classic fornisce la documentazione relativa alla versione principale più recente di ciascun modulo software Dynamic Media Classic. Sono disponibili documenti per i moduli Image Authoring, Scene7 Publishing System, Image Server e Image Rendering e per i visualizzatori.
+Dynamic Media Classic fornisce la documentazione relativa alla versione principale più recente di ciascun modulo software Dynamic Media Classic. Sono disponibili documenti per i moduli Authoring delle immagini, Dynamic Media Classic, Server immagini e Rendering delle immagini e per i visualizzatori.
 
 Per alcuni moduli sono inoltre disponibili le Note sulla versione. Queste note forniscono dettagli sull’ultima versione rilasciata, inclusi miglioramenti, nuove funzionalità, suggerimenti, consigli per la risoluzione dei problemi e i principali problemi noti. Inoltre offrono esempi interattivi delle funzioni rich media e di come attivarle. Oltre a questo, le Note sulla versione riportano le istruzioni di installazione e configurazione per il software su licenza.
 
 Le Guide di riferimento a Image Server e Image Rendering e i visualizzatori descrivono i protocolli http per questi moduli server. Per gli sviluppatori di siti Web che desiderano personalizzare e utilizzare ulteriormente i contenuti multimediali avanzati di Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata è possibile utilizzare queste guide. Dynamic Media Classic presuppone che il lettore abbia familiarità con l&#39;app desktop, gli standard e le convenzioni generali del protocollo http e la terminologia di base dell&#39;imaging.
 
 
-**API di Scene7 Publishing System**
+**API Dynamic Media Classic**
 
 | Documento | Indirizzo Web |
 |--- |--- |
