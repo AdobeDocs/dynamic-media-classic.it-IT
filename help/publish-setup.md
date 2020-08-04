@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2409'
 ht-degree: 65%
 
 ---
@@ -37,7 +37,7 @@ Modificate queste impostazioni solo con l&#39;assistenza di un addetto al suppor
 
 **Gestione** catalogo Queste impostazioni determinano il modo in cui Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server Web, le chiamate agli URL di Dynamic Media Image Server vanno a un file manifesto o catalogo anziché a un file immagine vero e proprio. Il file catalogo (da non confondersi con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini e il percorso di ciascuna immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
 
-**Attributi** richiesta Queste impostazioni impongono limiti alle immagini che possono essere distribuite dal server.
+**Attributi** richiesta Queste impostazioni impongono limiti alle immagini che possono essere distribuite dal server. Ad esempio, il limite ** massimo **[!UICONTROL per le dimensioni delle immagini della]** risposta è **[!UICONTROL Larghezza]** 5000 e **[!UICONTROL Altezza]** 5000.
 
 **Attributi** richiesta predefiniti Queste impostazioni interessano l&#39;aspetto predefinito delle immagini.
 
@@ -54,7 +54,7 @@ Modificate queste impostazioni solo con l&#39;assistenza di un addetto al suppor
 Ad esempio, se fate parte di una società multinazionale che vende in diversi paesi, potete mettere a punto un visualizzatore localizzato specifico per ciascun paese. A questo scopo, dovete innanzi tutto specificare una stringa di mappa lingua. Quindi, modificate il testo della descrizione comando nel predefinito del visualizzatore aggiungendo le stringhe di testo tradotte per la lingua desiderata.
 
 >[!NOTE]
-> Per impostare le opzioni di supporto della localizzazione, contattate il supporto tecnico di Adobe Dynamic Media Classic o inviate un messaggio a s7support@adobe.com.
+> Per impostare le opzioni di supporto della localizzazione, contattate  Adobe il supporto tecnico di Dynamic Media Classic o inviate un messaggio a s7support@adobe.com.
 
 Per ulteriori informazioni sull’impostazione del **supporto per la localizzazione**, consultate [Considerazioni per l’impostazione della localizzazione delle risorse](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni sull’impostazione del **supporto per la localizzazi
 
 >[!NOTE]
 >
->Se desiderate impostare le opzioni di supporto per la localizzazione in Dynamic Media Classic, ad esempio il campo Mappa lingua, contattate il supporto tecnico di Adobe Dynamic Media Classic. In alternativa, potete richiedere assistenza inviando un messaggio a s7support@adobe.com.
+>Se desiderate impostare le opzioni di supporto per la localizzazione in Dynamic Media Classic, ad esempio il campo Mappa lingua, contattate  Adobe Dynamic Media Classic Technical Support. In alternativa, potete richiedere assistenza inviando un messaggio a s7support@adobe.com.
 
 Un modo comune di utilizzare Dynamic Media Classic è gestire le immagini dei prodotti sui siti Web di e-Commerce. Le aziende internazionali devono poter gestire risorse per prodotti simili ma diverse da paese a paese. In genere si tratta di poche differenze per una piccola parte dei contenuti multimediali. La gestione di tali differenze copiando tutte le risorse per ciascuno dei paesi e sostituendo solo quelle differenti richiede molto lavoro e contraddice il concetto di singola risorsa master. Le differenze nelle risorse possono spaziare da video specifici per i singoli paesi con tracce audio distinte, a cavi elettrici diversi da usare con un prodotto. Dynamic Media Classic utilizza un meccanismo di ricerca di base. Potete definire l’ordine di suffissi per risorse che il server immagini deve seguire per le ricerche, a partire dalla lingua richiesta.
 
