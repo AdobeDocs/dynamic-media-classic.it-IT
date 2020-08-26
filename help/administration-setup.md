@@ -2,17 +2,17 @@
 title: Impostazione amministrazione
 seo-title: Impostazione amministrazione
 description: 'null'
-seo-description: Scopri come impostare l'area di amministrazione di Dynamic Media Classic.
+seo-description: Scoprite come impostare l'area di amministrazione di Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 56%
+source-wordcount: '1945'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 56%
 
 # Impostazione amministrazione{#administration-setup}
 
-Le schermate Impostazione amministrazione sono riservate agli utenti di Dynamic Media Classic. Usate queste schermate per consentire agli utenti di lavorare in Dynamic Media Classic e per comunicare tramite e-mail con gli utenti.
+Le schermate Impostazione amministrazione sono riservate agli utenti di Dynamic Media Classic. Usate queste schermate per consentire agli utenti di lavorare in Dynamic Media Classic e per comunicare via e-mail con gli utenti.
 
 1. To access Administration Setup options, click **Setup** > **Personal Setup** > **Administration Setup**.
 
@@ -29,17 +29,17 @@ Le schermate Impostazione amministrazione sono riservate agli utenti di Dynamic 
 
 A tutti gli utenti di Dynamic Media Classic viene assegnato un ruolo che ne determina privilegi e diritti di accesso alle funzioni di Dynamic Media Classic. Gli amministratori specificano i diversi ruoli e responsabilità per le società a cui sono assegnati.
 
-In genere, Dynamic Media Classic configura il primo gruppo di società e assegna un amministratore di società. L’amministratore della società, quindi, configura e amministra gli utenti di Dynamic Media Classic.
+In genere, Dynamic Media Classic configura il primo set di società e assegna un amministratore alla società. L’amministratore della società imposta e amministra quindi gli utenti di Dynamic Media Classic.
 
 Dynamic Media Classic supporta diversi ruoli utente. Questi ruoli possono accedere alle società configurate per Dynamic Media Classic:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic User** Può accedere alle società a cui è stato assegnato; non può eseguire alcuna attività amministrativa.
+**Adobe Dynamic Media Classic Utente** Può accedere alle società a cui è stato assegnato; non può eseguire alcuna attività amministrativa.
 
 **Adobe Dynamic Media Classic Company Admin** Può visualizzare e amministrare solo le proprie società. Un amministratore di società può inoltre eseguire tutte le funzioni amministrative, inclusa l’aggiunta di amministratori e utenti. Un amministratore società può aggiungere un utente agli account di amministrazione società DMC. Questo ruolo è il ruolo utente predefinito.
 
-Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messaggio e-mail di benvenuto. Il messaggio include una password e l&#39;URL Dynamic Media Classic.
+Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messaggio e-mail di benvenuto. Il messaggio include una password e l’URL Dynamic Media Classic.
 
 ### Aggiunta di un utente o di un amministratore {#adding-a-user-or-administrator}
 
@@ -61,17 +61,17 @@ Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messag
 
    Dopo il salvataggio, un messaggio chiede se desiderate aggiungere l’utente a un’altra società. Fate clic su Aggiungi per aggiungere l’utente a una società.
 
-   A tutti i nuovi utenti viene assegnata una password generata in modo casuale; gli utenti devono cambiare la password al loro primo accesso ad Dynamic Media Classic.
+   A tutti i nuovi utenti viene assegnata una password generata in modo casuale; gli utenti devono cambiare la password al loro primo accesso a Dynamic Media Classic.
 
    Dopo essere stati aggiunti da un amministratore, i nuovi utenti ricevono un messaggio e-mail di benvenuto. Il messaggio contiene una password temporanea e le istruzioni per accedere a Scene7 Publishing System.
 
-   Se l’utente non riceve il messaggio e-mail di benvenuto, chiedetegli di passare alla pagina di accesso di Dynamic Media Classic (https://s7sps1.scene7.com) e di fare clic su Password dimenticata. La password viene reimpostata e viene inviato un nuovo messaggio e-mail. Se l’utente non riceve l’e-mail (e se il messaggio non è stato inserito nella cartella della posta indesiderata), contattate il Supporto tecnico.
+   Se l’utente non riceve il messaggio e-mail di benvenuto, chiedetegli di passare alla pagina di accesso di Dynamic Media Classic (https://s7sps1.scene7.com) e di fare clic su Forgot My Password (Password dimenticata). La password viene reimpostata e viene inviato un nuovo messaggio e-mail. Se l’utente non riceve l’e-mail (e se il messaggio non è stato inserito nella cartella della posta indesiderata), contattate il Supporto tecnico.
 
    Quando aggiungete nuovi utenti di Media Portal, potete anche accedere a Configurazione > Impostazione applicazione > Amministrazione utente, fare clic su Carica elenco utenti e selezionare un file .csv contenente un massimo di 500 utenti.
 
 ### Eliminazione di un utente {#deleting-a-user}
 
-Puoi eliminare gli utenti da Dynamic Media Classic impostandone la modalità non valida. Gli utenti con stato Non valido vengono eliminati dal sistema e da tutti gli account.
+Potete eliminare gli utenti da Dynamic Media Classic impostandone la modalità non valida. Gli utenti con stato Non valido vengono eliminati dal sistema e da tutti gli account.
 
 1. Fate clic su **Configurazione** > **Impostazione applicazione** > **Impostazione amministrazione** > **Amministrazione utente**.
 1. Selezionate un utente dall’elenco e fate clic su **Modifica**.
@@ -114,36 +114,37 @@ Potete filtrare e ordinare l’elenco degli utenti per individuare un utente. Tu
 
 Se nel sistema è presente un numero elevato di utenti, potete limitare le dimensioni dell’elenco specificando un numero nel menu Dimensione massima elenco.
 
-### Collegamento di un&#39;identità utente IMS a un account utente Dynamic Media Classic IPS {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-Potete collegare un’identità utente Adobe IMS a un account utente Dynamic Media Classic IPS in modo da poter utilizzare SSO (Single Sign On) per accedere e avviare Scene7 Publishing System dall’interno  Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
-1. Adobe deve già aver configurato l’account con un’organizzazione  Adobe Marketing Cloud e averlo collegato al contesto di prodotto Scene7 Publishing System. Se la configurazione non è ancora stata completata o non sei sicuro se è già stata completata, contatta l&#39;Assistenza clienti Adobe.
+1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   Una volta completata la configurazione, potete accedere  Adobe Marketing Cloud e collegare l&#39;identità del Adobe Marketing Cloud  al vostro account utente Dynamic Media Classic effettuando le seguenti operazioni.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
-1. In  Adobe Marketing Cloud, andate alle impostazioni dell&#39;account.
-1. Fate clic su **Gestisci organizzazioni**.
-1. Fate clic su **Collega account** o su **Ottieni accesso**.
-1. Selezionare **Experience Manager**, quindi digitare le credenziali.
+1. In Adobe Marketing Cloud, navigate to your account settings.
+1. Click **Manage Organizations**.
+1. Click **Link Account** or **Get Access**.
+1. Select **Experience Manager**, and then type your credentials.
 
-   Le credenziali includono l&#39;area geografica della società IPS, l&#39;indirizzo e-mail e la password.
+   Your credentials include your IPS company region, email address, and password.
 
-1. Fate clic su **Collega**.
-1. Quando il collegamento è impostato, potete avviare Scene7 Publishing System dall’interno  Adobe Marketing Cloud oppure avviarlo direttamente.
+1. Click **Link**.
+1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
-   Effettuate una delle seguenti operazioni:
+   Do one of the following:
 
-   * Per avviare Dynamic Media Classic dall&#39;interno  Adobe Marketing Cloud, nella barra a sinistra di  Adobe Marketing Cloud, fate clic su **Soluzioni** > **Experience Manager**. Nella scheda Dynamic Media Classic, fate clic su **Avvia**.
-   * Per accedere direttamente a Scene7 Publishing System utilizzando le credenziali IMS, usate il seguente sito Web:
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Sostituisci &quot;N&quot; nel percorso precedente con il numero per la tua regione della società IPS. Ovvero, N = 1 per l&#39;America del Nord; 3 per l&#39;EMEA; oppure 5 per il GIAPPONE.
+      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+ -->
 
 ## Larghezza di banda e spazio di archiviazione {#bandwidth-storage}
 
-Gli amministratori di Dynamic Media Classic possono generare larghezza di banda, archiviazione e altri tipi di rapporti per le aziende che amministrano. Tali rapporti sono disponibili nella schermata Larghezza di banda e spazio di archiviazione. 
+Gli amministratori di Dynamic Media Classic possono generare larghezza di banda, archiviazione e altri tipi di rapporti per le società che amministrano. Tali rapporti sono disponibili nella schermata Larghezza di banda e spazio di archiviazione. 
 
 Per aprire questa schermata, fate clic su Configurazione > Configurazione personale. Espandete Impostazione amministrazione e fate clic su Larghezza di banda e spazio di archiviazione.
 
@@ -156,7 +157,7 @@ La tabella seguente descrive i rapporti che potete generare dalla schermata Larg
 | Larghezza di banda | Larghezza di banda usata dalla società | Consente di tenere traccia dell’utilizzo di larghezza di banda da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
 | Archiviazione | Utilizzo dello spazio di archiviazione | Consente di tenere traccia della quantità di dati caricati dalla società. |
 | Contenuti immagine | Quantità di richieste immagini per tipo | Consente di tenere traccia della quantità di richieste e volume per i diversi tipi di immagini. |
-| Dominio | Quantità di richieste URL per dominio | Consente di tenere traccia dell’utilizzo di immagini in base al dominio delle richieste di immagini per una specifica società. (Dynamic Media Classic può fornire più domini per account. Per ulteriori informazioni, rivolgetevi al supporto tecnico. |
+| Dominio | Quantità di richieste URL per dominio | Consente di tenere traccia dell’utilizzo di immagini in base al dominio delle richieste di immagini per una specifica società. Dynamic Media Classic può fornire più domini per account. Per ulteriori informazioni, rivolgetevi al supporto tecnico. |
 | Streaming video | Utilizzo della larghezza di banda per lo streaming video | Consente di tenere traccia dell’utilizzo di streaming video da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
 | Contenuti video | Tempo di riproduzione di diversi video | Consente di individuare i video più visualizzati e quelli meno visualizzati. |
 
