@@ -1,66 +1,71 @@
 ---
-title: App desktop Adobe Dynamic Media Classic - Ora disponibile
-seo-title: App desktop Adobe Dynamic Media Classic - Ora disponibile
+title: ' Adobe applicazione desktop Dynamic Media Classic - Ora disponibile'
+seo-title: ' Adobe applicazione desktop Dynamic Media Classic - Ora disponibile'
 description: 'null'
-seo-description: Ulteriori informazioni sull'app desktop Dynamic Media Classic.
+seo-description: Ulteriori informazioni sull’app desktop Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 477a8fd6ffee00cd586d91f6eeda8e676753a90f
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
 
 
-# Ora disponibile: App desktop Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
+# Ora disponibile:  Adobe applicazione desktop Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Gli utenti di Dynamic Media Classic ora hanno accesso a una nuova esperienza di app desktop che non si basa più sulla tecnologia Adobe Flash nel browser.
+Gli utenti di Dynamic Media Classic ora hanno accesso a una nuova esperienza di app desktop che non si basa più  tecnologia di Flash Adobe nel browser.
 
 Questa nuova app è ora disponibile per Windows e macOS.
 
 >[!IMPORTANT]
 >
->È consigliabile installare la nuova app desktop Adobe Dynamic Media Classic entro il 1° ottobre 2020. In questo modo, assicurerete una transizione senza problemi prima che Adobe Flash Player diventi obsoleto il 31 dicembre 2020. A tale data, non sarà più possibile accedere alla versione del browser dell&#39;interfaccia utente di Adobe Dynamic Media Classic, etichettata come Dynamic Media Classic nel prodotto.
+>È consigliabile installare la nuova app desktop  Adobe Dynamic Media Classic entro il 1° ottobre 2020. In questo modo, assicurerete una transizione uniforme prima che  Flash Player Adobe venga dichiarato obsoleto il 31 dicembre 2020. A tale data, non sarà più possibile accedere alla versione del browser dell&#39;interfaccia utente  Adobe Dynamic Media Classic, etichettata come Dynamic Media Classic nel prodotto.
 
-Consultate le Domande frequenti per la [nuova esperienza di accesso di Dynamic Media Classic ora disponibile.](/help/new-ui-2020.md)
+Consulta le Domande frequenti per la [nuova esperienza di accesso Dynamic Media Classic.](/help/new-ui-2020.md)
 
-## Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
+## Requisiti di sistema per  Adobe app desktop Dynamic Media Classic {#system-requirements-dmc-app}
 
-L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistemi operativi:
+&#39;app desktop Dynamic Media Classic Adobe è compatibile con i seguenti sistemi operativi:
 * macOS X 10.10 o successivo.
 * Windows 7 o successivo.
 
-## Scaricare e installare l’app desktop Adobe Dynamic Media Classic {#installation-dmc-app}
+## Download e installazione  Adobe dell&#39;app desktop Dynamic Media Classic su MacOS o Windows {#installation-dmc-app}
 
-1. Disinstallate le versioni precedenti delle app desktop Dynamic Media Classic nel sistema.
+Consultate anche:
 
-1. Scaricate il programma di installazione più recente per l’app desktop Adobe Dynamic Media Classic.
+* [Download e installazione *invisibile*  Adobe applicazione desktop Dynamic Media Classic su macOS](#install-silent-mac-dmc-app)
+* [Download e installazione *invisibile*  Adobe applicazione desktop Dynamic Media Classic in Windows](#install-silent-windows-dmc-app)
 
-   * [macOS (.dmg) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.exe) - Scarica.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+1. Disinstallate le versioni delle app desktop Dynamic Media Classic precedenti sul sistema.
+
+1. Scarica il programma di installazione più recente per &#39;app desktop Dynamic Media Classic di Adobe.
+
+   * [macOS (.DMG) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE) - Scarica.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Effettuate una delle seguenti operazioni in base al programma di installazione scaricato.
 
-   * **Per MacOS** - Nella finestra di dialogo **[!UICONTROL Trascinate e rilasciate per installare]** , trascinate **[!UICONTROL Adobe Dynamic Media Classic]** e rilasciatelo nelle **[!UICONTROL applicazioni]**.
+   * **Per macOS** - Nella finestra di dialogo **[!UICONTROL Trascinate e rilasciate per installare]** , trascinate **[!UICONTROL Adobe Dynamic Media Classic]** e rilasciatelo sulle **[!UICONTROL applicazioni]**.
 
       ![Installazione tramite trascinamento in macOS](/help/assets/dragondrop-install1.png)
 
    * Nella cartella **[!UICONTROL Applicazioni]** , toccate l&#39;icona Adobe Dynamic Media Classic.
-   * Nella finestra di dialogo, toccate **[!UICONTROL Apri]** per aprire l&#39;app desktop Adobe Dynamic Media Classic.
+   * Nella finestra di dialogo, toccate **[!UICONTROL Apri]** per aprire l&#39;app desktop  Adobe Dynamic Media Classic.
 
       ![Apri app scaricata](/help/assets/open-dmclassicapp1.png)
 
    * **Per Windows** - Eseguite il programma di installazione binario e seguite le istruzioni visualizzate per installare l&#39;app desktop.
 
-1. Quando aprite l’applicazione, viene visualizzata la nuova pagina di accesso di Adobe Dynamic Media Classic:
+1. All’apertura dell’applicazione, viene visualizzata la nuova pagina di accesso per i file multimediali dinamici  Adobe Classic:
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Utilizzate le stesse credenziali del browser per accedere ad Adobe Dynamic Media Classic.
+1. Utilizzate le stesse credenziali del browser per accedere a  Adobe Dynamic Media Classic.
 
    Per il **[!UICONTROL server]** da utilizzare, vedete la seguente mappatura per l&#39;ambiente di produzione:
 
@@ -72,16 +77,100 @@ L&#39;app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sist
 
 1. Pubblicate l’interfaccia utente di accesso e noterete l’esperienza acquisita con l’interfaccia utente del browser. Ora puoi svolgere le tue attività quotidiane come al solito nell&#39;interfaccia utente dell&#39;app desktop.
 
-## Video introduttivo sull’utilizzo di Dynamic Media Classic Desktop App
+## Download e installazione *invisibile*  Adobe applicazione desktop Dynamic Media Classic su macOS {#install-silent-mac-dmc-app}
 
-Guardate un [video dettagliato sull&#39;utilizzo dell&#39;app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) Dynamic Media Classic per desktop (lunghezza: 2 minuti 36 secondi).
+Consultate anche:
+
+* [Scaricare e installare  Adobe applicazione desktop Dynamic Media Classic in Mac o Windows](#installation-dmc-app)
+* [Download e installazione *invisibile*  Adobe applicazione desktop Dynamic Media Classic in Windows](#install-silent-windows-dmc-app)
+
+Per scaricare e installare in *modalità invisibile*  Adobe l’app desktop Dynamic Media Classic su macOS:
+
+1. Disinstallate le versioni delle app desktop Dynamic Media Classic precedenti sul sistema.
+
+1. Scaricate il programma di installazione più recente per &#39;app desktop Dynamic Media Classic per macOS.
+
+   * [macOS (.DMG) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+
+1. Montare l&#39;Immagine disco scaricata (.DMG) in una posizione punto di montaggio utilizzando il seguente comando:
+
+   `hdiutil attach adobe-dynamic-media-classic-20.20.1.dmg -mountpoint <mount_point_path>`
+
+1. Copiate il file .APP in **[!UICONTROL Applicazioni]** utilizzando il seguente comando:
+
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
+Unmount DMG - hdiutil detach <mount_point_path>`
+
+1. All’apertura dell’applicazione, viene visualizzata la nuova pagina di accesso per i file multimediali dinamici  Adobe Classic:
+
+   ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+
+1. Utilizzate le stesse credenziali del browser per accedere a  Adobe Dynamic Media Classic.
+
+   Per il **[!UICONTROL server]** da utilizzare, vedete la seguente mappatura per l&#39;ambiente di produzione:
+
+   | URL browser | Nome server app desktop |
+   |---|---|
+   | https://s7sps1.scene7.com/ | Produzione NA (America del Nord) |
+   | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
+   | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
+
+## Download e installazione *invisibile*  Adobe applicazione desktop Dynamic Media Classic in Windows {#install-silent-windows-dmc-app}
+
+Il comando utilizzato è per un&#39;installazione invisibile MSI di base. Tuttavia, il programma di installazione dell’app desktop Dynamic Media Classic è un programma di installazione MSI InstallScript creato tramite InstallShield. Quando eseguite il programma di installazione in modalità record, qualsiasi interazione dell&#39;utente viene registrata in un file di risposta. Questo file di risposta viene quindi utilizzato per un&#39;installazione invisibile come descritto in [Esecuzione delle installazioni in modalità silenziosa.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+
+Consultate anche:
+
+* [Scaricare e installare  Adobe applicazione desktop Dynamic Media Classic in Mac o Windows](#installation-dmc-app)
+* [Download e installazione *invisibile*  Adobe applicazione desktop Dynamic Media Classic in Windows](#install-silent-windows-dmc-app)
+
+Per scaricare e installare *in modo invisibile*  Adobe l’app desktop Dynamic Media Classic in Windows:
+
+1. Disinstallate le versioni delle app desktop Dynamic Media Classic precedenti sul sistema.
+
+1. Scarica il programma di installazione più recente per &#39;app desktop Dynamic Media Classic di Adobe.
+
+   * [Windows (.EXE) - Scarica.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+
+1. Eseguite il programma di installazione in modalità record utilizzando il seguente comando:
+
+   `adobe-dynamic-media-classic-20.20.1.exe /r /f1"C:\Setup.iss"`
+
+1. Nella finestra del programma di installazione dell&#39;interfaccia utente grafica, seguite i passaggi necessari per installare in modo che le interazioni/gli ingressi, come il percorso di installazione, vengano registrati nel `Setup.iss` file.
+
+1. Copiare il `Setup.iss` file creato e `adobe-dynamic-media-classic-20.20.1.exe` in un altro computer.
+
+1. Eseguite il comando seguente per un&#39;installazione invisibile:
+
+   `adobe-dynamic-media-classic-20.20.1.exe /s /f1"C:\Setup.iss"`
+
+   I dettagli sui parametri della riga di comando sono disponibili in [Setup.exe e Update.exe Parametri della riga di comando.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+
+1. All’apertura dell’applicazione, viene visualizzata la nuova pagina di accesso per i file multimediali dinamici  Adobe Classic:
+
+   ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+
+1. Utilizzate le stesse credenziali del browser per accedere a  Adobe Dynamic Media Classic.
+
+   Per il **[!UICONTROL server]** da utilizzare, vedete la seguente mappatura per l&#39;ambiente di produzione:
+
+   | URL browser | Nome server app desktop |
+   |---|---|
+   | https://s7sps1.scene7.com/ | Produzione NA (America del Nord) |
+   | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
+   | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
+
+
+## Procedura dettagliata sui video con l’app desktop Dynamic Media Classic
+
+Guardate un [video dettagliato sull’utilizzo dell’app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) desktop Dynamic Media Classic (Lunghezza: 2 minuti 36 secondi).
 
 ## Limitazioni note in Dynamic Media Classic
 
-**_Si applica solo a Windows: esiste un limite al numero di file che possono essere caricati tramite l&#39;interfaccia utente dell&#39;app desktop?_**<br> Sì, è possibile caricare fino a 150 file alla volta tramite l&#39;interfaccia utente dell&#39;app desktop.
+**_Si applica solo a Windows: esiste un limite al numero di file che possono essere caricati tramite l&#39;interfaccia utente dell&#39;app desktop?_**<br>Sì, è possibile caricare fino a 150 file alla volta tramite l&#39;interfaccia utente dell&#39;app desktop.
 
-**_Si applica a Windows e macOS - Come si passa da un&#39;azienda all&#39;altra?_**<br> Per passare da una società all’altra, effettuate le seguenti operazioni:
-* Nell&#39;app Dynamic Media Classic, seleziona la nuova società dall&#39;elenco a discesa della società.
+**_Si applica a Windows e macOS - Come si passa da un&#39;azienda all&#39;altra?_**<br>Per passare da una società all’altra, effettuate le seguenti operazioni:
+* Nell’app Dynamic Media Classic, selezionate la nuova società dall’elenco a discesa della società.
 * Quando viene visualizzato il pop-up, toccate **[!UICONTROL OK]** per disconnettersi e chiudere l&#39;app.
 
    ![Riavviate l&#39;app per utilizzare la nuova società](/help/assets/dmclassic-new-company1.png)
@@ -89,10 +178,10 @@ Guardate un [video dettagliato sull&#39;utilizzo dell&#39;app](https://docs.adob
 
 ## Suggerimenti e trucchi
 
-**_Impossibile visualizzare il pannello Carrello sulla pagina di destinazione di Dynamic Media Classic._**<br> In Dynamic Media Classic, toccate **[!UICONTROL Configurazione > Configurazione]** personale. Nella sezione Browser, accertatevi che **[!UICONTROL Mostra funzioni]** Media Portal sia selezionato (selezionato). Toccate **[!UICONTROL Salva > Chiudi]**.
+**_Impossibile visualizzare il pannello Carrello sulla pagina di destinazione di Dynamic Media Classic._**<br>In Dynamic Media Classic, toccate**[!UICONTROL Configurazione > Configurazione ]**personale. Nella sezione Browser, accertatevi che**[!UICONTROL Mostra funzioni ]**Media Portal sia selezionato (selezionato). Toccate**[!UICONTROL Salva > Chiudi ]**.
 
-**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene riflesso correttamente._**<br> Nell’interfaccia utente del browser, per visualizzare lo stato di pubblicazione corretto delle risorse era necessario accedere nuovamente all’interfaccia utente. Nell&#39;app desktop, è stata introdotta un&#39;icona **[!UICONTROL Aggiorna]** sulla barra degli strumenti, a destra del pulsante **[!UICONTROL Seleziona nessuno]** . Toccate l’icona **[!UICONTROL Aggiorna]** per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare nuovamente l&#39;accesso come con l&#39;interfaccia utente del browser.
+**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene riflesso correttamente._**<br>Nell’interfaccia utente del browser, per visualizzare lo stato di pubblicazione corretto delle risorse era necessario accedere nuovamente all’interfaccia utente. Nell&#39;app desktop, è stata introdotta un&#39;icona**[!UICONTROL Aggiorna ]**sulla barra degli strumenti, a destra del pulsante**[!UICONTROL Seleziona nessuno ]**. Toccate l’icona**[!UICONTROL Aggiorna ]**per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare nuovamente l&#39;accesso come con l&#39;interfaccia utente del browser.
 
 ![Icona](/help/assets/refresh-icon1.png)Aggiorna *Aggiorna*
 
-**_Non vedo predefiniti per set di batch che funzionano nell’app desktop._**<br> Toccate **[!UICONTROL Carica > Opzioni processo > Predefiniti]** set di batch. Verificare che sia attivato il predefinito **[!UICONTROL per set di]** batch appropriato. Fate clic su **[!UICONTROL Salva e invia caricamento]**.
+**_Non vedo predefiniti per set di batch che funzionano nell’app desktop._**<br>Toccate**[!UICONTROL Carica > Opzioni processo > Predefiniti ]**set di batch. Verificare che sia attivato il predefinito**[!UICONTROL per set di ]**batch appropriato. Fate clic su**[!UICONTROL Salva e invia caricamento ]**.
