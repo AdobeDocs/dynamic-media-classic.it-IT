@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,9 +42,13 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 
 >[!NOTE]
 >
->Se siete un utente in modalità AEM Dynamic Media - Scene7 e desiderate usare gli eCatalog, dovrete modificare il `pdfbrochure` valore in CRXDE Lite. A tale scopo, in AEM fate clic su **[!UICONTROL Strumenti > Generale > CRXDE Lite]**. Nella struttura di navigazione del pannello a sinistra, andate a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-Nel riquadro in basso a destra, nella scheda **[!UICONTROL Proprietà]** , selezionare la `jobParam` riga. Impostate il valore per `pdfbrochure` da `false` a `true`. Come nell’ `pdfbrochure=true`angolo superiore sinistro della pagina CRXDE Lite, fare clic su **[!UICONTROL Salva tutto]**.
-Ora potete creare eCatalog in Dynamic Media Classic.
+>Se siete utenti in modalità AEM contenuti multimediali dinamici - Scene7 e desiderate usare gli eCatalog, dovrete modificare il `pdfbrochure` valore in CRXDE Lite. A tale scopo, in AEM fare clic su **[!UICONTROL Strumenti > Generale > CRXDE Lite]**. Nella struttura di navigazione del pannello a sinistra, andate a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>
+>Nel riquadro in basso a destra, nella scheda **[!UICONTROL Proprietà]** , selezionare la `jobParam` riga. Impostate il valore per `pdfbrochure` da `false` a `true`. Come `pdfbrochure=true`
+>
+>Nell’angolo in alto a sinistra della pagina dei CRXDE Lite, fate clic su **[!UICONTROL Salva tutto]**.
+>
+>Ora potete creare eCatalog in Dynamic Media Classic.
 
 **Avvio rapido**
 
@@ -68,7 +72,7 @@ Nella scheda Ordina pagine, selezionate uno dei pulsante Layout (1 immagine, 2 i
 
 Per aggiungere delle pagine, selezionate una cartella nella Libreria risorse, quindi trascinate i file PDF o i file di immagini nella schermata Ordina pagine. Invece di numeri di pagina predefiniti, potete fornire nomi di pagina personalizzati o importare una grande quantità di nomi di pagina.
 
-Fate clic su **[!UICONTROL Salva]**, immettete un nome per l’eCatalog, scegliete una cartella Dynamic Media Classic in cui memorizzarlo e fate clic su **[!UICONTROL Salva]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+Fate clic su **[!UICONTROL Salva]**, inserite un nome per l’eCatalog, scegliete una cartella Dynamic Media Classic in cui memorizzarlo e fate clic su **[!UICONTROL Salva]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 Consultate [Creazione di un eCatalog](creating-ecatalog.md).
 
@@ -108,7 +112,7 @@ Consultate [Anteprima di eCatalog nel visualizzatore di eCatalog](previewing-eca
 
 **6. Pubblicazione di eCatalog e PDF associati**
 
-Quando un eCatalog viene pubblicato e i PDF associati, questo viene inserito sui server immagini Dynamic Media in modo che possa essere trasmesso al sito Web o all’applicazione in cui deve essere visualizzato. Come parte del processo di pubblicazione, Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzate questo URL per richiamare l’eCatalog dai server immagini Dynamic Media al sito Web o all’applicazione.
+Quando un eCatalog viene pubblicato e i PDF associati, viene inserito sui server immagini per file multimediali dinamici in modo che possa essere trasmesso al sito Web o all’applicazione in cui deve essere visualizzato. Come parte del processo di pubblicazione, Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzate questo URL per richiamare l’eCatalog dai server immagini per file multimediali dinamici al sito Web o all’applicazione.
 
 Per avviare la pubblicazione, contrassegnate l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, quindi fate clic sul pulsante Pubblica nella barra di navigazione globale. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
@@ -116,7 +120,7 @@ Consultate [Pubblicazione di eCatalog e PDF](publishing-ecatalogs-associated-pdf
 
 **7. Collegamento di un eCatalog a una pagina Web**
 
-Dynamic Media Classic attiva la stringa di richiesta URL necessaria per visualizzare l’eCatalog quando questo viene pubblicato sui server immagini Dynamic Media. Potete copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in visualizzazione Dettagli) selezionando l’opzione URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
+Dynamic Media Classic attiva la stringa di richiesta dell’URL necessaria per visualizzare l’eCatalog quando questo viene pubblicato sui server immagini per elementi multimediali dinamici. Potete copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in visualizzazione Dettagli) selezionando l’opzione URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
 
 Consultate il personale IT per inserire il collegamento all’eCatalog nella posizione appropriata sulla pagina Web. Quando un utente farà clic sul collegamento, verrà aperto il visualizzatore di eCatalog che consente all’utente di sfogliare l’eCatalog. 
 
