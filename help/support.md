@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 05e443b2-ac15-4d87-859a-271699593304
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: a77f7544b5b29cb73afcee2c250b6f22af08c249
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 35%
+source-wordcount: '185'
+ht-degree: 40%
 
 ---
 
@@ -25,13 +25,13 @@ Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle 
 | Assistenza | Iscrizione |
 |--- |--- |
 | Limiti di casi | Senza limiti. |
-| Tempo di risposta | Consultate le domande frequenti all&#39;indirizzo [https://helpx.adobe.com/marketing-cloud/contact-support.html](https://helpx.adobe.com/marketing-cloud/contact-support.html). |
-| SLA (contratti a livello di servizio) | [https://www.adobe.com/support/programs/policies/sla.html](https://www.adobe.com/support/programs/policies/sla.html). |
+| Tempo di risposta | Consultate le domande frequenti all&#39;indirizzo [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/it/contact/enterprise-support.ec.html). |
+| SLA (contratti a livello di servizio) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utenti supportati | Fino a dieci utenti per organizzazione possono essere designati come Utenti supportati, che possono aprire casi con l&#39;Assistenza clienti. |
-| Supporto Social | Consultate le domande frequenti all&#39;indirizzo [https://helpx.adobe.com/marketing-cloud/contact-support.html](https://helpx.adobe.com/marketing-cloud/contact-support.html). |
+| Supporto Social | Consultate le domande frequenti all&#39;indirizzo [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/it/contact/enterprise-support.ec.html). |
 | Formazione Web dal vivo ed esercitazioni video gratuite | Incluse. |
 | Assistenza via e-mail | <ul><li>USA/Canada: s7support@adobe.com</li> <li>Giappone: s7support_jp@adobe.com</li><li>Europa/Medio Oriente/Africa: s7intsupport@adobe.com</li></ul> |
-| Supporto telefonico | <ul><li>USA/Canada:(800) 898-9743, (800)497-033, (408)454-5910 </li> <li>Giappone:+81-3-6743-9632 </li><li>Regno Unito: +44 (0)20 35641782</li><li>Germania: +49 (0)69 51709005</li><li>Francia: +33 157324085</li><li>Paesi Bassi: +31 (0)20 2035138 (Supporto weekend in inglese)</li></ul> |
+| Supporto telefonico | <ul><li>USA/Canada: (800) 898-9743, (800)497-033, (408)454-5910 </li> <li>Giappone: +81-3-6743-9632 </li><li>Regno Unito: +44 (0)20 35641782</li><li>Germania: +49 (0)69 51709005</li><li>Francia: +33 157324085</li><li>Paesi Bassi: +31 (0)20 2035138 (Supporto weekend in inglese)</li></ul> |
 
 Quando riferite i problemi all’assistenza tecnica, fornite anche le seguenti informazioni:
 
