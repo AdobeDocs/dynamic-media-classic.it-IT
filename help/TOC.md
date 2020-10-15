@@ -2,25 +2,25 @@
 cloud: experience-cloud
 product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Guida  Adobe Dynamic Media Classic
-breadcrumb-title: Dynamic Media Classic Guide
-user-guide-description: Learn more about using Dynamic Media Classic (formerly known as Scene7)
+user-guide-title: Guida ad Adobe Dynamic Media Classic
+breadcrumb-title: Guida a Dynamic Media Classic
+user-guide-description: Ulteriori informazioni sull’utilizzo di Dynamic Media Classic (precedentemente noto come Scene7)
 index: y
 translation-type: tm+mt
 source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 74%
+source-wordcount: '754'
+ht-degree: 77%
 
 ---
 
 
-# Guida  Adobe Dynamic Media Classic {#using}
+# Guida ad Adobe Dynamic Media Classic {#using}
 
-+ [Guida  Adobe Dynamic Media Classic](home.md)
++ [Guida ad Adobe Dynamic Media Classic](home.md)
 + [Esercitazione sulle best practice](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [Nuova esperienza di accesso Dynamic Media Classic ora disponibile](new-ui-2020.md)
-+ [Dynamic Media Newsletter di Experience League](dynamic-media-newsletter.md)
++ [Dynamic Media Newsletter di  Experience League](dynamic-media-newsletter.md)
 + Presentazione  Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic Desktop app - Ora disponibile](dynamic-media-classic-desktop-app.md)
    + [Informazioni su Dynamic Media Classic Help](introduction.md)
