@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 86%
+source-wordcount: '1536'
+ht-degree: 84%
 
 ---
 
@@ -23,9 +23,9 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 ## Richiesta di una chiave segreta condivisa {#requesting-a-shared-secret-key}
 
-Richiedete una *chiave segreta condivisa* inviando un messaggio e-mail all’assistenza tecnica di Scene7 all’indirizzo s7support@adobe.com.
+Richiedete una chiave *segreta* condivisa [utilizzando il Admin Console  per creare un caso di assistenza.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel caso di supporto, richiedete una chiave segreta condivisa.
 
-Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per poterla utilizzare in futuro.
+Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per un utilizzo futuro.
 
 ## Ottenimento del token di caricamento {#retrieving-the-upload-token}
 
