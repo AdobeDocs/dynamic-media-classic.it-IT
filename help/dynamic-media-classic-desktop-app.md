@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Consulta le Domande frequenti per la [nuova esperienza di accesso Dynamic Media 
 
 Consultate anche:
 
-* [Scarica e installa l&#39;app desktop Dynamic Media Classic per  Adobe più recente su Mac o Windows](#installation-dmc-app)
+* [Download e installazione invisibile all’utente con l’ultima app desktop  Adobe Dynamic Media Classic su Mac](#install-silent-mac-dmc-app)
 * [Download e installazione invisibile all’utente con l’ultima app desktop  Adobe Dynamic Media Classic in Windows](#install-silent-windows-dmc-app)
 
 1. Disinstallate le versioni delle app desktop Dynamic Media Classic precedenti sul sistema.
@@ -143,7 +143,7 @@ Il comando utilizzato è per un&#39;installazione invisibile MSI di base. Tuttav
 Consultate anche:
 
 * [Scarica e installa l&#39;app desktop Dynamic Media Classic per  Adobe più recente su Mac o Windows](#installation-dmc-app)
-* [Download e installazione invisibile all’utente con l’ultima app desktop  Adobe Dynamic Media Classic in Windows](#install-silent-windows-dmc-app)
+* [Download e installazione invisibile all&#39;utente con l&#39;ultima app desktop  Adobe Dynamic Media Classic in macOS](#install-silent-mac-dmc-app)
 
 Per scaricare e installare *in modalità invisibile* l’ultima versione dell’app desktop Dynamic Media Classic di  Adobe in Windows:
 
