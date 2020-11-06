@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ Per scaricare e installare *in modalità invisibile* l’ultima versione dell’
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
 
 
-## Procedura dettagliata sui video con l’app desktop Dynamic Media Classic
+## Procedura dettagliata sui video con l’app desktop Dynamic Media Classic {#dmc-app-video-walk-through}
 
 Guardate un [video dettagliato sull’utilizzo dell’app](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) desktop Dynamic Media Classic (Lunghezza: 2 minuti 36 secondi).
+
+## Cancellazione della cache delle immagini e della cache delle risorse sul computer mediante l’app desktop
+
+1. Nell’app desktop Dynamic Media Classic, nell’angolo in alto a destra, toccate **[!UICONTROL Configurazione]** > Configurazione **** personale.
+1. Nella pagina Configurazione **** personale, sotto l’intestazione **[!UICONTROL Desktop]** , effettuate una delle seguenti operazioni:
+   * Toccate **[!UICONTROL Cancella cache]** immagine per rimuovere dal computer tutti  file immagine Dynamic Media memorizzati nella cache del Adobe. Toccate **[!UICONTROL OK]**.
+   * Toccate **[!UICONTROL Cancella cache]** risorse per rimuovere dal computer tutti i file di risorse multimediali dinamici  Adobe memorizzati nella cache. Toccate **[!UICONTROL OK]**.
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### Cancellazione manuale della cache delle immagini e della cache delle risorse
+
+Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app desktop, potete eseguire questa operazione manualmente cancellando la cache direttamente dal file system.
+
+1. In base al sistema operativo in uso, accedete a quanto segue:
+
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Limitazioni note in Dynamic Media Classic 20.20.1 (risolto in 20.20.2)
 
