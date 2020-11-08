@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2262'
 ht-degree: 78%
@@ -20,23 +20,23 @@ ht-degree: 78%
 
 # Visualizzazione, aggiunta ed esportazione di metadati{#viewing-adding-and-exporting-metadata}
 
-You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. In Dynamic Media Classic potete usare i metadati per organizzare, cercare, filtrare e ordinare le risorse.
+You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. Potete usare i metadati in Dynamic Media Classic per organizzare, cercare, filtrare e ordinare le risorse.
 
 I metadati vengono visualizzati in visualizzazione Dettagli insieme alle informazioni generate da Dynamic Media Classic, ad esempio la data di creazione dei file, la data di pubblicazione e le parole chiave. Per visualizzare i metadati, aprite la risorsa in visualizzazione Dettagli e selezionate il pannello Metadati. In visualizzazione Dettagli potete immettere e modificare i metadati.
 
-Alcuni metadati sono incorporati direttamente in un file. Se un file contiene tali metadati, Dynamic Media Classic li carica automaticamente con il file. Potete incorporare i metadati nelle risorse sorgente in Adobe Photoshop, InDesign, Illustrator e altre applicazioni; Dynamic Media Classic riconosce questi metadati. Potete inoltre aggiungere metadati ai singoli file nel pannello Metadati in visualizzazione Dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
+Alcuni metadati sono incorporati direttamente in un file. Se un file contiene tali metadati, Dynamic Media Classic li carica automaticamente con il file. Potete incorporare i metadati nelle risorse sorgente  Adobe Photoshop,  InDesign,  Illustrator e altre applicazioni; Dynamic Media Classic riconosce questi metadati. Potete inoltre aggiungere metadati ai singoli file nel pannello Metadati in visualizzazione Dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Visualizzare i metadati {#view-metadata}
 
-Per visualizzare i metadati di una risorsa, apritela in visualizzazione Dettagli e fate clic sul pannello Metadati. Quindi scegliete un’opzione nel menu Visualizzazioni metadati per selezionare un set di campi di metadati. In Dynamic Media Classic sono disponibili le seguenti visualizzazioni di metadati:
+Per visualizzare i metadati di una risorsa, apritela in visualizzazione Dettagli e fate clic sul pannello Metadati. Quindi scegliete un’opzione nel menu Visualizzazioni metadati per selezionare un set di campi di metadati. Dynamic Media Classic offre le seguenti visualizzazioni di metadati:
 
 * **Vista** compatta Un elenco di valori di base.
 
 * **Valori IPTC** definiti dal Consiglio internazionale delle telecomunicazioni per la stampa.
 
-* **XMP** Values come definito dalla piattaforma di metadati estensibile.
+* **XMP** Valori come definiti dalla piattaforma di metadati estensibile.
 
 Gli amministratori possono creare ulteriori visualizzazioni di metadati, che vengono aggiunte al menu Visualizzazioni metadati. Per informazioni sulla creazione di visualizzazioni di metadati, consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
@@ -70,14 +70,16 @@ Se durante la sessione di lavoro corrente avete aggiunto delle parole chiave ad 
 1. Per rimuovere una parola chiave, selezionatela e fate clic su Rimuovi. Viene spostata nella tabella Suggerimenti parole chiave.
 
 >[!NOTE]
-Potete aggiungere parole chiave ai file mentre le caricate in Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, scegliete Metadati aggiunti e immettete le parole chiave. Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
+>
+>Potete aggiungere le parole chiave ai file mentre le caricate in Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, scegliete Metadati aggiunti e immettete le parole chiave. Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
 
 ## Importare i metadati {#import-metadata}
 
 Invece di immettere manualmente i metadati per una risorsa alla volta, potete importare i metadati per diverse risorse da un file XML o delimitato da tabulazioni. L’immissione dei metadati in un file XML o delimitato da tabulazioni e l’importazione di tale file risulta più rapida rispetto all’immissione dei metadati in singole risorse. Nella prima riga del file delimitato da tabulazioni, inserite l’ID e i nomi dei campi per i quali desiderate registrare i metadati. In ogni riga successiva, immettete il nome dell’ID della risorsa seguito dai valori di metadati. I campi non inclusi nel file XML o delimitato da tabulazioni non vengono modificati. Per importare metadati da un file XML, accertatevi che sia conforme al DTD.
 
 >[!NOTE]
-Potete creare un modello per l’immissione dei metadati in modo che possa essere importato correttamente in Dynamic Media Classic. Una volta creato il modello, utilizzatelo per immettere i metadati. Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>
+>Potete creare un modello per l’immissione dei metadati in modo che possa essere importato correttamente in Dynamic Media Classic. Una volta creato il modello, utilizzatelo per immettere i metadati. Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Per ulteriori informazioni sulle proprietà standardizzate, consultate: https://www.adobe.com/devnet/xmp.html
 
@@ -176,7 +178,8 @@ Potete utilizzare l’Editor schema metadati per effettuare le operazioni seguen
 Il sistema genera automaticamente uno schema personalizzato per i campi definiti dall’utente con il prefisso “s7udf”. Questi sono i campi esistenti definiti dall’utente e possono essere modificati nella relativa sezione Configurazione.
 
 >[!NOTE]
-le modifiche apportate allo schema non modificano mai i metadati stessi delle risorse. Tuttavia, non sono visibili per tutte le funzionalità di Dynamic Media Classic e server di metadati e non è possibile accedervi dopo essere stati modificati. Analogamente, se esistono metadati per una risorsa, la creazione dello schema corrispondente rende i metadati utilizzabili in Dynamic Media Classic e nel server di metadati.
+>
+>le modifiche apportate allo schema non modificano mai i metadati stessi delle risorse. Tuttavia, non sono visibili per tutte le funzionalità Dynamic Media Classic e Metadata Server e non è possibile accedervi dopo essere stati modificati. Allo stesso modo, se esistono metadati per una risorsa, la creazione dello schema corrispondente rende i metadati utilizzabili in Dynamic Media Classic e nel server di metadati.
 
 L’Editor schema metadati offre un metodo grafico per aggiungere o modificare uno schema aziendale personalizzato in Dynamic Media Classic. Uno schema è definito da un prefisso, uno spazio nomi e un elenco di proprietà.
 
@@ -197,7 +200,8 @@ L’Editor schema metadati offre un metodo grafico per aggiungere o modificare u
    Descrizione libera dello schema.
 
 >[!NOTE]
-il prefisso e lo spazio nomi non possono essere modificati. Per modificare queste proprietà, è necessario eliminare e ricreare lo schema.
+>
+>il prefisso e lo spazio nomi non possono essere modificati. Per modificare queste proprietà, è necessario eliminare e ricreare lo schema.
 
 Le proprietà descrivono i metadati che possono essere memorizzati con questo schema nel blocco XMP. Una proprietà è costituita da:
 
@@ -217,6 +221,7 @@ Quando la struttura della proprietà è Scelta aperta o Scelta chiusa, immettete
 | Etichetta | Nome del valore per l’interfaccia utente. |
 
 >[!MORELIKETHIS]
-* [Predefiniti per visualizzatori](application-setup.md#viewer_presets)
-* [Predefiniti per metadati](application-setup.md#metadata_presets)
+>
+>* [Predefiniti per visualizzatori](application-setup.md#viewer_presets)
+>* [Predefiniti per metadati](application-setup.md#metadata_presets)
 
