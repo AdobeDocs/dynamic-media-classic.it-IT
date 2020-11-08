@@ -2,7 +2,7 @@
 title: Personalizzazione di un visualizzatore con Adobe Analytics Instrumentation Kit
 seo-title: Personalizzazione di un visualizzatore con Adobe Analytics Instrumentation Kit
 description: 'null'
-seo-description: Scoprite come misurare un visualizzatore con Adobe  Analytics Instrumentation Kit.
+seo-description: Scoprite come misurare un visualizzatore con il kit di strumenti Adobe Analytics .
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 41%
@@ -20,11 +20,11 @@ ht-degree: 41%
 
 # Personalizzazione di un visualizzatore con Adobe Analytics Instrumentation Kit{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
-Potete usare Adobe  Analytics Instrumentation Kit per integrare un visualizzatore HTML5 con Adobe  Analytics.
+Potete usare  Adobe Analytics Instrumentation Kit per integrare un visualizzatore HTML5 con  Adobe Analytics.
 
-Se usate uno dei predefiniti per visualizzatori Dynamic Media Classic HTML5, tenete presente che contengono già tutto il codice di implementazione necessario per inviare i dati ad Adobe  Analytics e non è necessario alcun altro intervento.
+Se usate uno dei predefiniti per visualizzatori HTML5 per Dynamic Media Classic, tenete presente che contengono già tutto il codice di implementazione necessario per inviare i dati ad  Adobe Analytics e che non è necessario alcun altro intervento.
 
-## Configurare il tracciamento di Adobe  Analytics da Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Impostazione  tracciamento Adobe Analytics da Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 Per tutti i visualizzatori HTML5, aggiungete il seguente codice JavaScript al contenitore HTML, in genere nell’elemento &lt;head>:
 
