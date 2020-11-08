@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 63%
@@ -20,7 +20,7 @@ ht-degree: 63%
 
 # Avvio rapido: set di campioni{#quick-start-swatch-sets}
 
-I set di campioni di Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di campioni dinamico, gli utenti possono visualizzare uno stesso elemento con diversi colori, materiali, texture, finiture o stoffa semplicemente facendo clic su una miniatura.
+I set di campioni per elementi multimediali dinamici classici offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di campioni dinamico, gli utenti possono visualizzare uno stesso elemento con diversi colori, materiali, texture, finiture o stoffa semplicemente facendo clic su una miniatura.
 
 **Avvio rapido**
 
@@ -50,7 +50,7 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
 **5. Pubblicazione di un set di campioni**
 
-Quando si pubblica un set di campioni, questo viene inserito sui server Dynamic Media Classic e viene attivata la stringa URL.
+Quando un set di campioni viene pubblicato, viene inserito nei server Dynamic Media Classic e viene attivata la stringa URL.
 
 Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
