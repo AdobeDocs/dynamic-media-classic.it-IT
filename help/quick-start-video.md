@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 65%
@@ -20,11 +20,11 @@ ht-degree: 65%
 
 # Avvio rapido: video{#quick-start-video}
 
-Adobe Dynamic Media Classic Video è una soluzione end-to-end che semplifica la pubblicazione di video adattivi di alta qualità per lo streaming su schermi diversi, inclusi desktop, iOS, Android, Blackberry e dispositivi mobili Windows. Un set video adattivo raggruppa versioni dello stesso video codificate con diversi bitrate e formati quali 400, 800 e 100 kbps. Il computer desktop o il dispositivo mobile rileva l’ampiezza di banda disponibile.
+ Adobe Dynamic Media Classic Video è una soluzione end-to-end che semplifica la pubblicazione di video adattivi di alta qualità per lo streaming su schermi diversi, inclusi desktop, iOS, Android, Blackberry e dispositivi mobili Windows. Un set video adattivo raggruppa versioni dello stesso video codificate con diversi bitrate e formati quali 400, 800 e 100 kbps. Il computer desktop o il dispositivo mobile rileva l’ampiezza di banda disponibile.
 
 Ad esempio, un dispositivo mobile iOS può rilevare un’ampiezza di banda 3G, 4G o Wi-Fi. Quindi seleziona automaticamente il video con la codifica corretta tra i vari bitrate presenti nel set video adattivo. Il video viene inviato in streaming a computer desktop, dispositivi mobili o tablet.
 
-Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Se poi il cliente passa alla modalità a schermo intero sul computer desktop, il set video adattivo risponde utilizzando una risoluzione migliore, in modo da migliorare l’esperienza di visualizzazione del cliente. L’utilizzo di set video adattivi offre la migliore riproduzione possibile per i clienti che riproducono video Dynamic Media Classic su schermi e dispositivi diversi.
+Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Se poi il cliente passa alla modalità a schermo intero sul computer desktop, il set video adattivo risponde utilizzando una risoluzione migliore, in modo da migliorare l’esperienza di visualizzazione del cliente. L’utilizzo di set video adattivi rappresenta la soluzione ottimale per i clienti che riproducono video Dynamic Media Classic su schermi e dispositivi diversi.
 
 Per determinare quale video codificato riprodurre o selezionare per la riproduzione, il lettore video utilizza l’algoritmo seguente:
 
@@ -38,7 +38,7 @@ Per informazioni tecniche sull’algoritmo, consultate [https://android.googleso
 
 Per gestire video singoli e set video adattivi, Dynamic Media Classic supporta le seguenti funzioni:
 
-* Caricamento di video da numerosi formati video e formati audio supportati e codifica dei video nel formato MP4 H.264 per la riproduzione su schermi diversi. Potete usare i predefiniti video adattivi di Dynamic Media Classic, i predefiniti di codifica per video singoli o personalizzare la codifica per controllare la qualità e le dimensioni del video.
+* Caricamento di video da numerosi formati video e formati audio supportati e codifica dei video nel formato MP4 H.264 per la riproduzione su schermi diversi. Potete usare i predefiniti per video adattivi di Dynamic Media Classic, i predefiniti di codifica per video singoli o personalizzare la codifica per controllare la qualità e le dimensioni del video.
 
    Quando viene generato un set video adattivo, questo include i video MP4.
 
@@ -55,7 +55,7 @@ Per gestire video singoli e set video adattivi, Dynamic Media Classic supporta l
 
    Lo streaming video adattivo è supportato su diverse piattaforme iOS.
 
-   Per informazioni aggiornate, consultate la guida di riferimento dei visualizzatori [Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+   Per informazioni aggiornate, consultate la guida di riferimento [visualizzatori di Adobi](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
    Dynamic Media Classic supporta la riproduzione di video mobile per video MP4 H.264. Per un elenco dei dispositivi BlackBerry che supportano questo formato video, visitate:
 
@@ -81,10 +81,10 @@ La seguente descrizione dettagliata del flusso di lavoro è stata creata per con
 
 Potete caricare e generare i set di video adattivi utilizzando uno dei due scenari seguenti:
 
-* **Caricare video** precodificati Se i video sono già stati codificati all’esterno di Dynamic Media Classic, fate clic su 
+* **Caricamento di video** precodificati Se i video sono già stati codificati all’esterno di Dynamic Media Classic, fate clic su 
 **Caricate** nella barra di navigazione globale per sfogliare e caricare i file video MP4 direttamente in Dynamic Media Classic. Fate clic su **Genera > Set video adattivi**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
 * **Carica video** sorgente principali Se i video non sono codificati, fai clic su 
-**Caricate** nella barra di navigazione globale per caricare i file sorgente video principali (non MP4) e lasciateli codificare in file MP4 da Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, in Opzioni eVideo selezionate **Video adattivo**.
+**Caricate** nella barra di navigazione globale per caricare i file sorgente video principali (non MP4) e lasciateli codificare in file MP4 mediante la codifica per elementi multimediali dinamici classici. Nella finestra di dialogo Opzioni processo di caricamento, in Opzioni eVideo selezionate **Video adattivo**.
 
    Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando inviate il processo di caricamento, viene automaticamente creato un set di video adattivi che comprende tre codifiche video con le proporzioni appropriate.
 
