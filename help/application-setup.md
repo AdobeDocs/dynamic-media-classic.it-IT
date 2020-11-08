@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '10979'
 ht-degree: 68%
@@ -566,7 +566,7 @@ Nella tabella seguente sono descritti i gesti per visualizzatori mobili supporta
 
 ### Informazioni sulla schermata Preimpostazioni visualizzatore {#about-the-viewer-preset-screen}
 
-Potete creare e gestire i predefiniti per visualizzatori nella schermata Predefiniti per visualizzatore. Per aprire questa schermata, fate clic su **Configurazione** > **Predefiniti visualizzatore**.
+Potete creare e gestire i predefiniti per visualizzatori nella schermata Predefiniti per visualizzatore. Per aprire questa schermata, fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 
 La schermata Predefiniti visualizzatore offre strumenti che consentono di eseguire le seguenti attività:
 
@@ -587,7 +587,7 @@ Consultate [Esportazione di un predefinito](application-setup.md#exporting_an_ht
 **Applicazione di filtri all’elenco** Predefiniti visualizzatore Utilizzate questi strumenti per filtrare l’elenco:
 
 * Aprite l’elenco a discesa **Attivo/Inattivo** e scegliete un’opzione per mostrare i predefiniti attivi, i predefiniti inattivi o tutti i predefiniti.
-* Aprite l’elenco a discesa **Visualizzatore** e scegliete un’opzione per visualizzare soltanto alcuni visualizzatori specifici. Scegliete **Tutti i visualizzatori** per visualizzare tutti i visualizzatori.
+* Aprite l’elenco a discesa **Visualizzatore** e scegliete un’opzione per visualizzare soltanto alcuni visualizzatori specifici. Scegliete **[!UICONTROL Tutti i visualizzatori]** per visualizzare tutti i visualizzatori.
 
 **Ordinamento dei predefiniti** Fate clic sull’intestazione di una colonna (Attivo, Tipo, Predefinito o Piattaforma) per ordinare l’elenco in base a una colonna. Fate clic sul titolo di una colonna una seconda volta per ordinare l’elenco in ordine decrescente (o crescente).
 
@@ -909,7 +909,8 @@ Benché la configurazione di una convenzione di denominazione predefinita non si
    Selezionate la casella di controllo Visualizza codice per visualizzare i valori delle espressioni regolari che vengono generati mano a mano che selezionate le opzioni del modulo. Qualora la visualizzazione modulo presenti delle limitazioni, potete inserire o modificare tali valori per definire meglio gli elementi di denominazione. Se i valori che avete immesso non possono essere analizzati nella visualizzazione modulo, i campi del modulo corrispondenti vengono disattivati.
 
    >[!NOTE]
-   i campi del modulo disattivati non indicano che l’espressione regolare non è valida. Non è disponibile una funzione di convalida delle espressioni regolari generate. I risultati dell’espressione regolare generata verranno visualizzati per ogni elemento dopo la riga Risultato. L’espressione regolare completa è riportata nella parte inferiore della pagina.
+   >
+   >i campi del modulo disattivati non indicano che l’espressione regolare non è valida. Non è disponibile una funzione di convalida delle espressioni regolari generate. I risultati dell’espressione regolare generata verranno visualizzati per ogni elemento dopo la riga Risultato. L’espressione regolare completa è riportata nella parte inferiore della pagina.
 
 1. Espandete ciascun elemento come opportuno e inserite le convenzioni di denominazione da usare.
 1. Se necessario, fate clic su **Aggiungi** per aggiungere un’altra convenzione di denominazione a un elemento. Per eliminare la convenzione di denominazione per un elemento, fate clic su **Rimuovi**.
@@ -1015,7 +1016,8 @@ Quando il set 360 gradi viene caricato e pubblicato, puoi attivare il nome della
    Tenete presente che questi sono solo esempi. Potete creare le espressioni regolari in base alle vostre esigenze.
 
    >[!NOTE]
-   se la combinazione di espressioni regolari per riga e colonna non è in grado di determinare la posizione della risorsa all’interno dell’array del set 360 gradi multidimensionale, la risorsa non viene aggiunta al set e viene registrato un errore.
+   >
+   >se la combinazione di espressioni regolari per riga e colonna non è in grado di determinare la posizione della risorsa all’interno dell’array del set 360 gradi multidimensionale, la risorsa non viene aggiunta al set e viene registrato un errore.
 
 1. Per Imposta convenzione di denominazione e creazione, specificate il suffisso o il prefisso da aggiungere al nome di base definito nella convenzione di denominazione della risorsa. Definite inoltre la posizione in cui verrà creato il set di immagini nella struttura di cartelle di Dynamic Media Classic.
 
@@ -1025,8 +1027,9 @@ Quando il set 360 gradi viene caricato e pubblicato, puoi attivare il nome della
 1. Caricate e pubblicate normalmente il set 360 gradi, assicurandovi di attivare il nome del set 360 gradi 2D nella finestra di dialogo Opzioni processo di caricamento, nella sezione Predefiniti per set di batch.
 
 >[!MORELIKETHIS]
-* [Anteprima di una risorsa](previewing-asset.md#previewing_an_asset)
-* [Configurazione dei predefiniti immagine](setting-image-presets.md#setting_up_image_presets)
-* [Visualizzazione, aggiunta ed esportazione di metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-* [Verifica dei file di processo](checking-job-files.md#checking_job_files)
+>
+>* [Anteprima di una risorsa](previewing-asset.md#previewing_an_asset)
+>* [Configurazione dei predefiniti immagine](setting-image-presets.md#setting_up_image_presets)
+>* [Visualizzazione, aggiunta ed esportazione di metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Verifica dei file di processo](checking-job-files.md#checking_job_files)
 
