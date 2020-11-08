@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 69%
@@ -136,7 +136,7 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 
 ## Implementazione di video mediante un lettore video di terze parti {#deploying-video-using-a-third-party-video-player}
 
-Se utilizzate un lettore video di terze parti o personalizzato anziché un visualizzatore video Dynamic Media Classic, potete ottenere l’URL video diretto che funziona per lo streaming video con bitrate multiplo HLS o per il download progressivo.
+Se utilizzate un lettore video di terze parti o personalizzato anziché un visualizzatore video Dynamic Media Classic, potete ottenere l’URL video diretto che funziona per lo streaming di video con bitrate multiplo HLS o per il download progressivo.
 
 **Per implementare video mediante un lettore video di terze parti**
 
