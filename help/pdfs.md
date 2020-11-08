@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # Utilizzo dei file PDF{#working-with-pdfs}
 
-I file PDF (Portable Document Format) vengono utilizzati più spesso in Dynamic Media Classic per creare eCatalog. Quando caricate un file PDF, per impostazione predefinita Dynamic Media Classic rasterizza (ovvero estrae i dati) le pagine in modo che possano essere utilizzate per creare contenuti multimediali.
+I file PDF (Portable Document Format) vengono utilizzati più spesso in Dynamic Media Classic per creare eCatalog. Quando caricate un file PDF, per impostazione predefinita le pagine vengono rasterizzate (ossia ne vengono estratti i dati) da Dynamic Media Classic in modo che possano essere utilizzate per la creazione di contenuti multimediali.
 
 ## Opzioni di caricamento PDF {#pdf-upload-options}
 
@@ -64,7 +64,7 @@ Scegliete un’opzione Profilo colore:
 
 **Mantieni spazio** colore originale Conserva lo spazio colore originale.
 
-**Personalizzato da > Per** aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Dynamic Media Classic.
+**Personalizzato da > Per** aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
