@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 75%
@@ -22,7 +22,7 @@ ht-degree: 75%
 
 Una mappa immagine è un’area su un’immagine, una pagina di eCatalog o un’immagine di un set 360 gradi, che visualizza un pannello di rollover con del testo. Quando l’utente fa clic su una mappa immagine, viene attivata un’azione. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Per richiamare l’attenzione su queste mappe, la mappa immagine viene delineata da un contorno quando l’utente ci passa sopra con il puntatore del mouse.
 
-Oltre alla possibilità di creare una mappa immagine in Dynamic Media Classic, potete anche creare mappe immagine durante la progettazione di un catalogo in Adobe Acrobat o Adobe InDesign.
+Oltre alla possibilità di creare una mappa immagine in Dynamic Media Classic, potete anche creare mappe immagine durante la progettazione di un catalogo in  Adobe Acrobat o  Adobe InDesign.
 
 Quando create le mappe immagine potete effettuare le seguenti operazioni:
 
@@ -51,7 +51,7 @@ Quando create le mappe immagine potete effettuare le seguenti operazioni:
 
    **Mappa** poligonale Selezionate lo strumento poligono per mappe immagine e fate clic sui punti sul perimetro dell’area dell’immagine da includere. Usate il cursore di densità del poligono per variare la densità dei punti nel poligono. La densità originale viene ricordata se selezionate altre mappe. Se un punto del poligono viene aggiunto, eliminato o spostato, la densità originale viene perduta e il cursore viene reimpostato sul valore massimo.
 
-1. Se lo desiderate, potete immettere un nome per la mappa immagine nell’elenco Mappa immagine. Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome.
+1. Se lo desiderate, potete immettere un nome per la mappa immagine nell’elenco Mappa immagine. Dopo aver disegnato una mappa immagine, Dynamic Media Classic gli assegna un nome.
 
    Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome dell’immagine o della pagina di eCatalog con cui state lavorando. Potete immettere un nome di vostra scelta.
 
@@ -144,7 +144,7 @@ Nel modello URL vanno inseriti tutti i valori che restano invariati nelle divers
 * Valore URL: `product.htm`
 * URL effettivo generato: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Tuttavia, è possibile utilizzare qualsiasi codice JavaScript per sostituire questo handler JavaScript o utilizzare uno dei seguenti handler Dynamic Media Classic:
+By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Tuttavia, potete utilizzare qualsiasi codice JavaScript per sostituire questo handler JavaScript o utilizzare uno dei seguenti handler Dynamic Media Classic:
 
 * `loadProductCW`
 
@@ -154,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    visualizza la destinazione URL specificata nella colonna URL nella finestra principale (la pagina che ha aperto quella corrente). La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
 
-   ***nota **: Il gestore`loadProductPW`non supporta i visualizzatori DHTML e HTML5.*
+   ***nota **: Il gestore `loadProductPW` non supporta i visualizzatori DHTML e HTML5.*
 
 ### Creazione di un modello URL {#creating-a-url-template}
 
@@ -180,7 +180,7 @@ Per attivare azioni diverse dal testo di rollover o dall’avvio di pagine Web, 
 
 **onfocus** Attiva un evento quando la mappa immagine viene resa attiva (tramite cursore, tasto di tabulazione o tasto di accesso). Ad esempio, è possibile avviare una pagina Web quando la mappa immagine viene resa attiva e chiuderla quando la mappa è resa inattiva.
 
-**onblur** Attiva un evento quando la mappa immagine diventa inattiva, sia con il cursore che con il tasto di tabulazione.
+**onblur** Attiva un evento quando la mappa immagine diventa inattiva, sia tramite cursore che mediante tasto di tabulazione.
 
 **Per definire altre azioni per le mappe immagine**
 
@@ -204,11 +204,11 @@ Per ulteriori informazioni, consultate la guida di Acrobat o di InDesign.
 1. Selezionate il testo, la cornice o l’elemento grafico da convertire in mappa immagine.
 1. Nel menu del pannello Collegamenti ipertestuali, scegliete Nuovo collegamento ipertestuale.
 1. Nella finestra di dialogo Nuovo collegamento ipertestuale, scegliete URL dal menu Collega a.
-1. Digitate o incollate l’ID del prodotto nella casella URL e fate clic su OK. Dynamic Media Classic completa l’URL con il modello URL mappa immagine.
+1. Digitate o incollate l’ID del prodotto nella casella URL e fate clic su OK. Dynamic Media Classic completa l’URL con il modello URL della mappa immagine.
 
    >[!NOTE]
    >
-   >non è necessario impostare le opzioni di aspetto in InDesign. Potete specificare l&#39;aspetto in Dynamic Media Classic.
+   >non è necessario impostare le opzioni di aspetto in InDesign. Potete specificare l’aspetto in Dynamic Media Classic.
 
 1. Ripetete i passaggi da 2 a 5 per tutte le mappe immagine da creare.
 1. Esportate il file come PDF.
@@ -220,7 +220,7 @@ Per ulteriori informazioni, consultate la guida di Acrobat o di InDesign.
 1. Trascinate per creare la mappa immagine. Viene visualizzata la finestra Crea link.
 1. Selezionate Link personalizzato e fate clic su Avanti.
 
-   ***nota **: Non è necessario impostare le opzioni di aspetto in Acrobat. Potete specificare l&#39;aspetto in Dynamic Media Classic.*
+   ***nota **: Non è necessario impostare le opzioni di aspetto in  Acrobat. Potete specificare l’aspetto in Dynamic Media Classic.*
 
 1. Nella finestra Proprietà link, fate clic su Azioni.
 1. Selezionate Apri un link Web dal menu Seleziona azione e fate clic su Aggiungi.
