@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 66%
@@ -22,7 +22,7 @@ ht-degree: 66%
 
 L’ottimizzazione SEO (Search Engine Optimization, ottimizzazione per i motori di ricerca) consente di migliorare il volume di traffico verso un sito Web generato dai motori di ricerca. I motori di ricerca possono raccogliere informazioni sui contenuti testuali, ma non dai video a meno che le informazioni necessarie per le ricerche non siano appositamente specificate.
 
-Con Dynamic Media Classic Video SEO potete sfruttare i metadati video per fornire ai motori di ricerca le descrizioni dei video. Dynamic Media Classic consente di creare Video Sitemap e feed mRSS. Si tratta di file XML standard per la trasmissione di informazioni sui video ai motori di ricerca:
+Mediante Dynamic Media Classic Video SEO, potete sfruttare i metadati video per fornire ai motori di ricerca le descrizioni dei video. Dynamic Media Classic consente di creare Video Sitemap e feed mRSS. Si tratta di file XML standard per la trasmissione di informazioni sui video ai motori di ricerca:
 
 **Video Sitemap** Comunica a Google esattamente dove si trova il contenuto video in un sito e cosa lo contiene. I video possono quindi essere inclusi nei risultati delle ricerche Google. In un Video Sitemap è possibile specificare ad esempio la durata e le categorie dei video. Per informazioni sui Video Sitemap, consultate https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
@@ -68,7 +68,7 @@ Nell’elenco a discesa Modalità automatica o Modalità manuale, scegliete se l
 
 **Modalità** automatica Dynamic Media Classic genera automaticamente un Video Sitemap, un feed mRSS (Media RSS) o entrambi, ogni giorno. Scegliete l’opzione Contrassegna per pubblicazione per contrassegnare automaticamente per la pubblicazione il file XML generato da Dynamic Media Classic.
 
-**Modalità** manuale Dynamic Media Classic genera il Video Sitemap, il feed mRSS o entrambi quando fate clic su Genera o Salva e genera nella schermata Impostazioni ottimizzazione ricerca video. Selezionate inoltre le seguenti opzioni:
+**Modalità** manuale Dynamic Media Classic genera il Video Sitemap, il feed mRSS (Media RSS) o entrambi quando fate clic su Genera o Salva e genera nella schermata Impostazioni ottimizzazione ricerca video. Selezionate inoltre le seguenti opzioni:
 
 **Nessuna ulteriore impostazione** Non contrassegna per la pubblicazione il file XML generato.
 
@@ -78,7 +78,7 @@ Nell’elenco a discesa Modalità automatica o Modalità manuale, scegliete se l
 
 ### Scelta delle impostazioni di generazione {#choosing-generation-settings}
 
-Nell’area Impostazioni generazione sono elencati i campi di input per Video Sitemap e/o feed mRSS; nel pannello Metadati sono elencati i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo si indica ad Dynamic Media Classic dove ottenere i metadati per il Video Sitemap e/o il feed mRSS.
+Nell’area Impostazioni generazione sono elencati i campi di input per Video Sitemap e/o feed mRSS; nel pannello Metadati sono elencati i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo si indica a Dynamic Media Classic dove ottenere i metadati per il Video Sitemap e/o il feed mRSS.
 
 1. Nel menu Visualizzazioni metadati, scegliete una visualizzazione per i metadati. I nomi dei campi di metadati compaiono quindi nel pannello Metadati. Per informazioni sulle visualizzazioni di metadati, consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 1. Trascinate i nomi dei campi di metadati dal pannello Metadati ai campi di input Pagina di arrivo, Titolo, Descrizione, Tag e Categoria. I campi Pagina di arrivo, Titolo e Descrizione sono obbligatori.
