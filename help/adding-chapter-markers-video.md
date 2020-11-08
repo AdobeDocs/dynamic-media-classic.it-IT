@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 85%
@@ -58,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **Per aggiungere marcatori capitolo a video**
 
-1. Utilizzando un semplice editor di testo esterno ad Dynamic Media Classic, create il file video del capitolo.
+1. Utilizzando un semplice editor di testo esterno a Dynamic Media Classic, create il file dei capitoli video.
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
 
-1. In Dynamic Media Classic, caricate il file WebVTT dei capitoli.
+1. In Dynamic Media Classic, caricate il file dei capitoli WebVTT.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video da associare al file dei capitoli che avete caricato.
-1. Nel pannello delle risorse, selezionate una singola risorsa video, quindi, sotto la miniatura della risorsa, fate clic su **Anteprima** > **Elenco visualizzatori**.
+1. Nel pannello delle risorse, selezionate una singola risorsa video, quindi, sotto la miniatura della risorsa, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 1. Nella tabella Elenco visualizzatori, individuate il visualizzatore HTML5 denominato **Univeral_HTML5_Video** ed effettuate una delle seguenti operazioni:
 
-   * Per un’esperienza di visualizzazione con video a comparsa, fate clic su **Copia URL** all’estrema destra del nome.
+   * Per un’esperienza di visualizzazione con video a comparsa, fate clic su **[!UICONTROL Copia URL]** all’estrema destra del nome.
 
       Aggiungete l’URL del video che avete copiato con la sintassi seguente per associarlo all’URL del l file dei sottotitoli:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Per un’esperienza di visualizzazione con video incorporato, fate clic su **Incorpora codice** all’estrema destra del nome.
+   * Per un’esperienza di visualizzazione con video incorporato, fate clic su **[!UICONTROL Incorpora codice]** all’estrema destra del nome.
 
-      Nella finestra di dialogo Codice da incorporare, fate clic su **Copia negli Appunti**.
+      Nella finestra di dialogo Codice da incorporare, fate clic su **[!UICONTROL Copia negli Appunti]**.
 
       For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
 
