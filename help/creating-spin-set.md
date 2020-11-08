@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 74%
@@ -24,7 +24,7 @@ Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le 
 
 >[!NOTE]
 >
->Le versioni precedenti di Dynamic Media Classic non offrirono set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
+>Le versioni precedenti di Dynamic Media Classic non prevedevano set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
 
 ## Linee guida per lo scatto di immagini per set 360 gradi {#guidelines-for-shooting-spin-set-images}
 
