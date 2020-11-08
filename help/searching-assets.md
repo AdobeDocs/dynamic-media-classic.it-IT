@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 77%
@@ -155,7 +155,7 @@ Si apre la schermata di impostazione del server metadati, con le seguenti opzion
 
 **Pubblicazione** istantanea Invia automaticamente tutte le modifiche ai metadati al momento dell’esecuzione, incluse nuove risorse, modifiche alle parole chiave e così via.
 
-**Pacchetto** XMP Pubblica il pacchetto XMP. Questo pacchetto non viene usato per ricerche, ma offre i dati XMP più aggiornati.
+**XMP pacchetto** Pubblica il pacchetto XMP. Questo pacchetto non viene usato per ricerche, ma offre i dati XMP più aggiornati.
 
 **Parole chiave** Pubblica le parole chiave nel server di metadati da usare nelle ricerche.
 
