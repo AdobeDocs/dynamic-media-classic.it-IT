@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 61%
@@ -24,7 +24,7 @@ Gli elementi eliminati da Dynamic Media Classic vengono spostati nella cartella 
 
 Tutti gli utenti possono ripristinare gli elementi della cartella Cestino alle cartelle da cui sono stati eliminati. Possono inoltre svuotare la cartella Cestino di tutto il suo contenuto.
 
-Se eliminate gli elementi dalla cartella Cestino, vengono eliminati definitivamente gli elementi da Dynamic Media Classic; gli elementi eliminati dalla cartella Cestino non possono più essere ripristinati. Per informazioni sulla configurazione delle notifiche per gli amministratori della società quando le risorse stanno per essere eliminate automaticamente dal Cestino, consultate [Impostazioni generali applicazione](application-setup.md#general_settings).
+se eliminate gli elementi dalla cartella Cestino, vengono eliminati definitivamente quelli da Dynamic Media Classic; gli elementi eliminati dalla cartella Cestino non possono più essere ripristinati. Per informazioni sulla configurazione delle notifiche per gli amministratori della società quando le risorse stanno per essere eliminate automaticamente dal Cestino, consultate [Impostazioni generali applicazione](application-setup.md#general_settings).
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Se eliminate gli elementi dalla cartella Cestino, vengono eliminati definitivame
 
 Se eliminate un elemento di una cartella, questo viene inserito nella cartella Cestino e si verifica quanto segue:
 
-* Sebbene l’elemento sia stato rimosso dalle cartelle di Dynamic Media Classic, il relativo ID non può essere assegnato a un’altra risorsa finché l’elemento non viene rimosso dalla cartella Cestino. Se provate a caricare una risorsa con lo stesso nome di un file presente nella cartella Cestino, Dynamic Media Classic aggiunge un numero al nome della risorsa.
+* Sebbene l’elemento sia stato rimosso dalle cartelle di Dynamic Media Classic, il relativo ID non può essere assegnato a un’altra risorsa finché l’elemento rimane nella cartella Cestino. Se provate a caricare una risorsa con lo stesso nome di un file presente nella cartella Cestino, Dynamic Media Classic aggiunge un numero al nome della risorsa.
 * L’elemento non può essere pubblicato. Anche se l’elemento era contrassegnato per la pubblicazione al momento in cui è stato eliminato, non verrà pubblicato.
 * L’elemento resta nella cartella Cestino finché non viene ripristinato, finché non sono trascorsi sette giorni, o finché un utente non sceglie il comando Svuota il cestino. Trascorsi sette giorni, l’elemento viene eliminato automaticamente da un’operazione di pulizia automatica.
 
