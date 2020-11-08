@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 69%
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 # Collegamento di un modello a una pagina Web{#linking-a-template-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite le stringhe URL. Dopo aver pubblicato un modello, Dynamic Media Classic attiva una stringa URL che fa riferimento al modello sui server immagini Dynamic Media. Potete incollare questo URL in un browser Web per testarlo.
+I siti Web e le applicazioni accedono al contenuto del server di immagini per elementi multimediali dinamici tramite le stringhe URL. Dopo aver pubblicato un modello, Dynamic Media Classic attiva una stringa URL che fa riferimento al modello sui server immagini per file multimediali dinamici. Potete incollare questo URL in un browser Web per testarlo.
 
 Per inserire stringhe URL nelle pagine Web e nelle applicazioni, copiatele da Dynamic Media Classic. Per ottenere una stringa URL generata tramite un predefinito per modelli, passate alla schermata Anteprima o al pannello Sfoglia (in visualizzazione Dettagli). Quindi selezionate un predefinito immagine e fate clic sul pulsante Copia URL.
 
