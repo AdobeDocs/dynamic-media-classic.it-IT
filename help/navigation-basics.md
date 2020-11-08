@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 52%
@@ -30,11 +30,11 @@ Nella barra di navigazione globale, situata nella parte superiore della schermat
 
 **Selezionate Società** Scegliete la società a cui desiderate accedere dal menu. Questo pulsante non è disponibile se si lavora con un’unica società.
 
-**Carica** Consente di aprire la schermata Carica per caricare i file dal computer o dalla rete in Dynamic Media Classic. I file possono essere caricati dal desktop o mediante FTP. Consultate Caricamento dei file.
+**Carica** Consente di aprire la schermata Carica in cui potete caricare i file dal computer o dalla rete su Dynamic Media Classic. I file possono essere caricati dal desktop o mediante FTP. Consultate Caricamento dei file.
 
 **Genera** Scegliere un&#39;attività Genera dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
 
-**Pubblica** Consente di aprire la schermata Pubblica per pubblicare risorse per contenuti multimediali sui server immagini Dynamic Media e il resto dell’infrastruttura SAAS di Dynamic Media Classic. Consultate Pubblicazione.
+**Pubblica** Consente di aprire la schermata Pubblica per pubblicare risorse per contenuti multimediali sui server di immagini per contenuti multimediali dinamici e sul resto dell’infrastruttura SAAS per contenuti multimediali dinamici Classic. Consultate Pubblicazione.
 
 **Processi** Consente di aprire la schermata Processi da cui potete esaminare i record dei processi di caricamento e pubblicazione.
 
