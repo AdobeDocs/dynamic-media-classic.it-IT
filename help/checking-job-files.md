@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 71%
@@ -20,7 +20,7 @@ ht-degree: 71%
 
 # Verifica dei file di processo{#checking-job-files}
 
-Per monitorare i file caricati in Dynamic Media Classic e i file pubblicati sui server Dynamic Media Classic, la pagina Processi di Dynamic Media Classic è disponibile. Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
+Per monitorare i file caricati su Dynamic Media Classic e i file pubblicati su server Dynamic Media Classic, la pagina Processi di Dynamic Media Classic è disponibile. Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
 
 Quando caricate delle risorse, viene visualizzata un’icona rotante accanto al menu Processi a indicare che è in corso un processo; viene inoltre visualizzato il numero di file inclusi in tale processo. Potete fare clic sull’icona per visualizzare ulteriori informazioni sul processo attivo. 
 
@@ -42,7 +42,7 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 **Totale** Il numero di file trasferiti.
 
-**W (avvertenze)** Numero di eventuali avvertenze nel processo. Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, i file con estensione DS_store (Macintosh) e Thumbs.db (Windows) contengono informazioni sulla modalità di visualizzazione dei file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano la modalità di utilizzo di tali file in Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
+**W (avvertenze)** Numero di eventuali avvertenze nel processo. Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, i file con estensione DS_store (Macintosh) e Thumbs.db (Windows) contengono informazioni sulla modalità di visualizzazione dei file immagine agli utenti. Le voci di avviso relative a questi file possono tuttavia essere ignorate perché non riguardano l’utilizzo di questi file in Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
 
 **E (errori)** Elenca il numero di eventuali errori nel processo. Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
 
