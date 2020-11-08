@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 64%
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 I file PSD (Photoshop Document Files) vengono utilizzati più spesso in Dynamic Media Classic per creare i modelli. Quando caricate un file PSD, potete creare automaticamente dal file un modello Dynamic Media Classic (selezionate l’opzione Crea modello nella schermata Carica).
 
-Dynamic Media Classic crea più immagini da un file PSD con livelli se usate il file per creare un modello; crea un’immagine per ciascun livello.
+Dynamic Media Classic crea più immagini da un file PSD con livelli, se usate il file per creare un modello; crea un’immagine per ciascun livello.
 
 ## Opzioni di caricamento PSD {#psd-upload-options}
 
@@ -50,7 +50,7 @@ Per rifilare in base alla trasparenza, l’impostazione 0 ritaglia i pixel solo 
 
 **Mantieni spazio** colore originale Conserva lo spazio colore originale dell’immagine.
 
-**Personalizzato da > Per** aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Dynamic Media Classic. Consultate Profili ICC.
+**Personalizzato da > Per** aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic. Consultate Profili ICC.
 
 **Mantieni livelli** Rimuove gli eventuali livelli del file PSD in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in visualizzazione Dettagli e selezionate il pannello dei livelli. Consultate Visualizzazione e modifica dei livelli in un file PSD.
 
@@ -66,7 +66,7 @@ Per rifilare in base alla trasparenza, l’impostazione 0 ritaglia i pixel solo 
 
 **Photoshop e Numero** livello Denomina le immagini in base ai numeri dei rispettivi livelli nel file PSD, ignorando i nomi dei livelli originali. Le immagini vengono denominate con il nome file di Photoshop a cui viene aggiunto un numero di livello. Ad esempio, il secondo livello di un file con nome Spring Ad.psd viene denominato Spring Ad_2 anche se in Photoshop tale livello aveva un nome personalizzato.
 
-**Photoshop e nome** livello Denomina le immagini dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop. Ad esempio, al livello denominato Price Tag in un file PSD chiamato SpringAd viene assegnato il nome Spring Ad_Price Tag. Al livello con il nome predefinito Layer 2 viene assegnato il nome Spring Ad_2.
+**Photoshop e Nome** livello Denomina le immagini dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop. Ad esempio, al livello denominato Price Tag in un file PSD chiamato SpringAd viene assegnato il nome Spring Ad_Price Tag. Al livello con il nome predefinito Layer 2 viene assegnato il nome Spring Ad_2.
 
 **Ancoraggio** Specificate il modo in cui le immagini vengono ancorate nei modelli generati dalla composizione a livelli generata dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. L’ancoraggio centrale permette alle immagini sostitutive di riempire in modo ottimale lo spazio, indipendentemente dalle loro proporzioni. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
 
