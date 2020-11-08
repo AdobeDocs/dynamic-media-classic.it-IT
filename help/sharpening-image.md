@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 73%
@@ -22,7 +22,7 @@ ht-degree: 73%
 
 La nitidezza si ottiene con una tecnica di manipolazione dell’immagine che rende più netti i contorni di un’immagine digitale. La nitidezza aumenta il contrasto tra i pixel dei bordi ed enfatizza il passaggio dalle aree chiare a quelle scure e viceversa. La nitidezza aumenta il contrasto locale e mette in evidenza i dettagli. Non esiste una formula rigida per ottenere la giusta nitidezza per tutte le immagini. Una nitidezza troppo leggera può produrre immagini morbide mentre una nitidezza troppo accentuata può produrre immagini con artefatti, disturbo o aloni.
 
-Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per tutte le immagini. affinché abbiano dimensioni uniformi e affinché la nitidezza venga applicata a tutte le immagini richiamate d un particolare predefinito per immagini. Inoltre, potrete modificare facilmente i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
+Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti per immagini per tutte le immagini. affinché abbiano dimensioni uniformi e affinché la nitidezza venga applicata a tutte le immagini richiamate d un particolare predefinito per immagini. Inoltre, potrete modificare facilmente i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
 
 Dynamic Media Classic consiglia inoltre di aggiungere la nitidezza ai predefiniti per visualizzatori, quindi di richiamare un visualizzatore con tale predefinito. In questo modo tutte le immagini all’interno dei visualizzatori saranno nitide.
 
@@ -30,7 +30,7 @@ Tuttavia, a prescindere dall’utilizzo di predefiniti per immagini o per visual
 
 >[!NOTE]
 >
->il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono trasmesse dai server immagini di Dynamic Media. Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per distribuire tutte le immagini in modo che queste vengano trasmesse con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
+>il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono trasmesse dai server di immagini per file multimediali dinamici. Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per distribuire tutte le immagini in modo che queste vengano trasmesse con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
 
 È spesso necessario rendere le immagini più nitide. I server Dynamic Media Classic e Image offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
 
@@ -38,7 +38,7 @@ La nitidezza aumenta il contrasto tra i pixel dell’immagine in modo da accentu
 
 Nelle immagini con nitidezza eccessiva si possono osservare un effetto alone o bande nelle linee dei bordi.
 
-Per ottimizzare la nitidezza delle immagini in Dynamic Media Classic e sul server immagini Dynamic Media, sono disponibili procedure ottimali.
+Per ottimizzare la nitidezza delle immagini in Dynamic Media Classic e su Dynamic Media Image Server, sono disponibili procedure ottimali.
 
 Consultate [Procedure ottimali per la nitidezza delle immagini in Dynamic Media Classic e su Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
@@ -70,7 +70,7 @@ Selezionate il menu Nitidezza e scegliete un’opzione:
 
 Scegliete le seguenti opzioni per regolare la nitidezza con Maschera di contrasto:
 
-**Fattore** Controlla la quantità di contrasto applicata ai pixel lungo i bordi. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L’impostazione Fattore in Dynamic Media Classic non equivale all’impostazione Fattore in Photoshop. Photoshop utilizza un valore compreso tra 1% e 500%, mentre Dynamic Media Classic va da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
+**Fattore** Controlla la quantità di contrasto applicata ai pixel lungo i bordi. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L’impostazione Fattore in Dynamic Media Classic non equivale all’impostazione Fattore in Photoshop. Photoshop utilizza un valore compreso tra 1% e 500%, mentre Dynamic Media Classic viene ridimensionato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
 
 **Raggio** Determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni. 
 
