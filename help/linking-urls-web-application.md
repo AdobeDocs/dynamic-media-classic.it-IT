@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 72%
@@ -20,7 +20,7 @@ ht-degree: 72%
 
 # Collegamento degli URL all’applicazione Web{#linking-urls-to-your-web-application}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite le stringhe URL. Dopo la pubblicazione di un’immagine, Dynamic Media Classic attiva una stringa URL che fa riferimento al predefinito per immagini sui server di immagini Dynamic Media. Potete incollare questi URL in un browser Web per la verifica.
+I siti Web e le applicazioni accedono al contenuto del server di immagini per elementi multimediali dinamici tramite le stringhe URL. Dopo aver pubblicato un’immagine, Dynamic Media Classic attiva una stringa URL che fa riferimento al predefinito per immagini sui server immagini per file multimediali dinamici. Potete incollare questi URL in un browser Web per la verifica.
 
 Per inserire queste stringhe URL nelle pagine Web e nelle applicazioni, copiatele da Dynamic Media Classic. Per ottenere una stringa URL generata tramite un predefinito per immagini, passate alla schermata Anteprima o al pannello Sfoglia (in visualizzazione Dettagli).
 
@@ -53,11 +53,11 @@ Potete ottenere una stringa URL generata da un predefinito per immagini dalla sc
 
 ## Stringhe URL di predefiniti per immagini {#about-image-preset-url-strings}
 
-Una richiesta URL per il ridimensionamento delle immagini nei server immagini Dynamic Media presenta la seguente sintassi di base:
+Una richiesta URL per il ridimensionamento delle immagini sui server immagini per file multimediali dinamici presenta la seguente sintassi di base:
 
 *percorso*/*nome del server immagini*/*nome dell’account*/*nome dell’immagine*?*modificatore1*&amp;*modificatore2*&amp;...
 
-In un URL Dynamic Media Image Server, le istruzioni per la visualizzazione dell’immagine nel server vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa richiesta URL fornisce un’immagine denominata “backpack” con una larghezza di 250 pixel:
+In un URL di Dynamic Media Image Server, le istruzioni per la visualizzazione dell’immagine nel server vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa richiesta URL fornisce un’immagine denominata “backpack” con una larghezza di 250 pixel:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
