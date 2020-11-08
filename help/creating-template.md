@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3441'
 ht-degree: 65%
@@ -24,7 +24,7 @@ Per creare un modello, fate clic su Genera > Funzioni di base dei modelli. Selez
 
 >[!NOTE]
 >
->Se modificate un modello creato in una versione precedente di Dynamic Media Classic, potreste ricevere un messaggio di richiesta al momento del salvataggio in cui viene richiesto &quot;Vuoi aggiungere un livello quadro?&quot; Scegliete No per evitare di aggiungere un nuovo livello di base. Se accidentalmente scegliete Sì, eliminate i modificatori “&amp;allowCanvasPrompt” e “&amp;layer=0” dall’URL e premete Invio o A capo.
+>Se modificate un modello creato in una versione precedente di Dynamic Media Classic, al momento del salvataggio potreste ricevere una richiesta in cui chiedete &quot;Vuoi aggiungere un livello quadro?&quot; Scegliete No per evitare di aggiungere un nuovo livello di base. Se accidentalmente scegliete Sì, eliminate i modificatori “&amp;allowCanvasPrompt” e “&amp;layer=0” dall’URL e premete Invio o A capo.
 
 ## Creazione di un modello iniziale {#creating-the-initial-template}
 
@@ -53,7 +53,7 @@ Se necessario, potete creare un modello partendo da uno già esistente. Aprite i
 1. Fate clic su **Salva**.
 1. Selezionate una cartella in cui memorizzare il modello, immettete un nome per il modello, quindi fate clic sul pulsante **Invia**.
 
-   Se necessario, Dynamic Media Classic riduce le immagini per adattarle al quadro, l’area nella schermata Modello per la definizione del modello.
+   Dynamic Media Classic restringe le immagini se necessario per adattarle al quadro, l’area nella schermata Modello per la definizione del modello.
 
 ## Modifica di un set di modelli {#editing-a-template-set}
 
@@ -289,7 +289,7 @@ Per scegliere un colore di sfondo, opacità e metodo di fusione per un livello o
 
 **Opacità** Trascinate il cursore Opacità per rendere traslucido qualsiasi livello in modo che parte dell’immagine sottostante sia visibile. L’impostazione 100% significa completamente opaco; l’impostazione 0% significa trasparente.
 
-**Metodo** fusione Scegliete un’opzione per simulare uno dei metodi di fusione disponibili in Photoshop. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora. Queste opzioni sono disponibili per i livelli, ma non per il quadro.
+**Metodo** fusione Scegliere un’opzione per simulare uno dei metodi di fusione disponibili in Photoshop. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora. Queste opzioni sono disponibili per i livelli, ma non per il quadro.
 
 ## Utilizzo degli effetti ombra e bagliore sui livelli {#using-shadow-and-glow-effects-on-layers}
 
@@ -326,7 +326,7 @@ Per regolare un effetto ombra o bagliore, selezionatene il nome nell’elenco Li
 
 **Opacità** Trascinate il cursore per determinare l’intensità dell’effetto. Minore è l’opacità, più sono trasparenti gli effetti.
 
-**Metodo** fusione Scegliete un’opzione per simulare uno dei metodi di fusione disponibili in Photoshop. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora.
+**Metodo** fusione Scegliere un’opzione per simulare uno dei metodi di fusione disponibili in Photoshop. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora.
 
 **Dimensioni** Immettete i valori desiderati nelle caselle X e Y per ingrandire o ridurre l’effetto ombra. Le opzioni Dimensione sono disponibili per le ombre interne ed esterne.
 
