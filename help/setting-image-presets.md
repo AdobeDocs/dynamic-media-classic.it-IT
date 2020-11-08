@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 66%
@@ -20,7 +20,7 @@ ht-degree: 66%
 
 # Configurazione dei predefiniti immagine{#setting-up-image-presets}
 
-Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Per comprendere l’uso dei predefiniti per immagini, supponete che nel vostro sito Web ciascuna immagine di prodotto possa essere visualizzata in due dimensioni diverse: 500 x 500 pixel e 150 x 150 pixel. In questo caso dovrete creare due predefiniti per immagini, uno denominato “Ingrandimento” e l’altro “Miniatura” per visualizzare le immagini rispettivamente a 500 x 500 e 150 x 150 pixel. Per trasmettere le immagini nelle dimensioni &quot;Ingrandimento&quot; e &quot;Miniatura&quot;, un server immagini Dynamic Media cerca la definizione di Ingrandimento predefinito per immagini e Miniatura. Quindi il server genera in modo dinamico un’immagine secondo le specifiche di ridimensionamento e formattazione di ciascun predefinito per immagini.
+Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Per comprendere l’uso dei predefiniti per immagini, supponete che nel vostro sito Web ciascuna immagine di prodotto possa essere visualizzata in due dimensioni diverse: 500 x 500 pixel e 150 x 150 pixel. In questo caso dovrete creare due predefiniti per immagini, uno denominato “Ingrandimento” e l’altro “Miniatura” per visualizzare le immagini rispettivamente a 500 x 500 e 150 x 150 pixel. Per trasmettere le immagini nelle dimensioni &quot;Ingrandimento&quot; e &quot;Miniatura&quot;, un server di immagini per file multimediali dinamici cerca la definizione del predefinito per immagini Ingrandimento e Miniatura. Quindi il server genera in modo dinamico un’immagine secondo le specifiche di ridimensionamento e formattazione di ciascun predefinito per immagini.
 
 Dynamic Media Classic viene fornito con diversi predefiniti per immagini &quot;best practice&quot; già configurati per l’utilizzo. Tuttavia, gli amministratori possono creare nuovi predefiniti per immagini. Per creare un predefinito per immagini, potete partire da zero o iniziare da uno esistente e salvarlo con un nuovo nome.
 
@@ -64,7 +64,7 @@ Se siete l’amministratore della società, potete creare dei predefiniti per im
 
 1. Fate clic su **Salva**.
 
-Le opzioni &quot;best practice&quot; di Dynamic Media Classic per la creazione di predefiniti per immagini elencate di seguito offrono consigli generali; la nitidezza è molto soggettiva. Queste impostazioni si basano su un’immagine originale 2000 x 2000 e potrebbero pertanto differire per originali di dimensioni maggiori o minori. Per regolare le impostazioni Maschera di contrasto, Dynamic Media Classic consiglia i seguenti intervalli:
+Le opzioni &quot;best practice&quot; per la creazione di predefiniti per immagini elencate di seguito offrono consigli generali; la nitidezza è molto soggettiva. Queste impostazioni si basano su un’immagine originale 2000 x 2000 e potrebbero pertanto differire per originali di dimensioni maggiori o minori. Per regolare le impostazioni Maschera di contrasto, Dynamic Media Classic consiglia i seguenti intervalli:
 
 * **Importo** compreso tra 0,8 e 1,5.
 
