@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 71%
@@ -28,7 +28,7 @@ Oltre a utilizzare i profili ICC predefiniti, potete caricare altri profili ICC 
 
 ## Caricamento di profili ICC {#uploading-icc-profiles}
 
-Caricate profili ICC con le stesse tecniche usate per caricare altri file. Potete memorizzare i profili ICC in qualsiasi cartella di Dynamic Media Classic. Consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
+Caricate profili ICC con le stesse tecniche usate per caricare altri file. Potete archiviare i profili ICC in qualsiasi cartella Dynamic Media Classic. Consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
 
 ## Analisi di un profilo ICC {#examining-an-icc-profile}
 
