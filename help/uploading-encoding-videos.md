@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 81%
@@ -19,7 +19,7 @@ ht-degree: 81%
 
 # Caricamento e codifica dei video{#uploading-and-encoding-videos}
 
-Per creare video singoli o set video adattivi da distribuire sul Web o su dispositivi mobili, caricate prima i file video principali in Dynamic Media Classic. Dynamic Media Classic codifica i video in formato MP4 e li pubblica nei seguenti formati file:
+Per creare video singoli o set video adattivi da distribuire sul Web o su dispositivi mobili, caricate prima i file video principali su Dynamic Media Classic. Dynamic Media Classic codifica i video in formato MP4 e li pubblica nei seguenti formati file:
 
 **MP4** Dynamic Media Classic consiglia MP4 come formato di file video preferito. Utilizzate i file MP4 per le seguenti operazioni:
 
@@ -27,7 +27,7 @@ Per creare video singoli o set video adattivi da distribuire sul Web o su dispos
 * Streaming dinamico HTTP (protocollo di streaming Apple).
 * Video progressivo per dispositivi Android, Blackberry e Windows Mobile
 
-Dynamic Media Classic offre due flussi di lavoro per il caricamento di file video:
+Dynamic Media Classic offre due flussi di lavoro per il caricamento dei file video:
 
 **Video** precodificati Caricate i file MP4 direttamente in Dynamic Media Classic. Con questo flusso di lavoro, i file non vengono codificati durante il caricamento. I file vengono precodificati durante la preparazione per la visualizzazione sul desktop e sui dispositivi mobili.
 
@@ -150,7 +150,7 @@ La tabella seguente riassume le dimensioni consigliate, le proporzioni e il bitr
 
 ### Ottenimento dei metadati dei file {#obtaining-a-file-s-metadata}
 
-Potete ottenere i metadati di un file visualizzandone i metadati in Dynamic Media Classic, utilizzando uno strumento di modifica video o un’applicazione progettata per ottenere i metadati. Seguono istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti che consente di ottenere i metadati di un file video:
+Per ottenere i metadati di un file, potete visualizzarne i metadati in Dynamic Media Classic, usare uno strumento di modifica video o un’applicazione progettata per ottenere i metadati. Seguono istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti che consente di ottenere i metadati di un file video:
 
 1. Go to this web page: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Selezionate e scaricate il programma di installazione per la versione GUI, quindi seguite le istruzioni di installazione.
@@ -252,7 +252,7 @@ Ad esempio, supponete che il video sia di 1920x1080. Nella tabella seguente, i t
 
 ### Formato di file video codificato {#encoded-video-file-format}
 
-Adobe Dynamic Media Classic consiglia di utilizzare i predefiniti di codifica video MP4 H.264. Poiché i file MP4 utilizzano il codec video H.264, il video è di alta qualità ma la dimensione file è comunque ridotta.
+ Adobe Dynamic Media Classic consiglia di utilizzare i predefiniti di codifica video MP4 H.264. Poiché i file MP4 utilizzano il codec video H.264, il video è di alta qualità ma la dimensione file è comunque ridotta.
 
 ## Utilizzo dei predefiniti di codifica video {#working-with-video-encoding-presets}
 
@@ -331,7 +331,7 @@ I predefiniti per video attivati vengono visualizzati nella finestra di dialogo 
 
 Potete creare dei predefiniti per video con codifica singola personalizzati e aggiungerli alla tabella Predefiniti per video. Potete inoltre apportare modifiche ai predefiniti per video con codifica singola preimpostati forniti con Dynamic Media Classic, a condizione di salvare il predefinito modificato con un nuovo nome.
 
-Dynamic Media Classic ha impostato limiti massimi per la velocità dati di destinazione, l&#39;altezza di risoluzione e la larghezza di risoluzione, per garantire una corretta esperienza di riproduzione. Se superate questi limiti, vengono visualizzati alcuni messaggi di avvertenza:
+Dynamic Media Classic ha impostato limiti massimi per la velocità dati di destinazione, l&#39;altezza di risoluzione e la larghezza di risoluzione, in modo da garantire una corretta esperienza di riproduzione. Se superate questi limiti, vengono visualizzati alcuni messaggi di avvertenza:
 
 * Per la riproduzione su computer, i limiti sono: (larghezza/16) * (altezza/16) &lt; 8192. 
 * Per la riproduzione sui dispositivi mobili, i limiti sono: (larghezza/16) * (altezza/16) &lt; 660; frequenza dati di destinazione &lt; 4000. 
