@@ -29,9 +29,11 @@ Le impostazioni disponibili in questa schermata variano a seconda se siete un am
 
 Gli amministratori possono anche impostare i predefiniti per immagini e per visualizzatori nella schermata Configurazione:
 
-* **I predefiniti** per immagini sono formati salvati per la visualizzazione di immagini originali con dimensioni e formati diversi.
+* **Predefiniti per immaginiI predefiniti per immagini sono formati salvati per la visualizzazione di immagini principali con dimensioni e formati diversi.**
 
-* **I predefiniti per** visualizzatori di predefiniti per visualizzatori determinano in che modo vengono visualizzati i contenuti multimediali quando vengono visualizzati in un visualizzatore.
+
+* **Predefiniti**
+visualizzatoreI predefiniti per visualizzatori determinano in che modo vengono visualizzati i contenuti multimediali quando vengono visualizzati in un visualizzatore.
 
 >[!MORELIKETHIS]
 >
