@@ -24,9 +24,9 @@ Un set di campioni offre agli utenti l’opportunità di visualizzare un articol
 
 Ad esempio, per presentare immagini di berretti con visiere di diversi colori nelle varianti rosso, verde e blu, è necessario effettuare tre scatti dello stesso berretto: uno scatto con la visiera rossa, uno con quella verde e uno con quella blu. È anche necessario disporre di tre campioni colore: uno rosso, uno verde e uno blu. I campioni colore fungono da miniature su cui gli utenti possono fare clic nel visualizzatore del set di campioni per visualizzare il berretto con la visiera rossa, quello con la visiera verde o quello con la visiera blu.
 
-## Creazione di un set di campioni {#create}
+## Creazione di un set di campioni  {#create}
 
-Quando create un set, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
+Quando create un set, l&#39;opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
 | Opzione &quot;Pubblica dopo il salvataggio&quot; selezionata prima del salvataggio?|Stato del set dopo il salvataggio|Stato dei membri del set dopo il salvataggio|
 | | | |
 |Sì|Pubblicato|Pubblicato|
@@ -38,9 +38,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Effettuate una delle seguenti operazioni:
 
-   **Selezionate prima** le immagini Nel pannello Sfoglia, selezionate le immagini, quindi fate clic su Genera > Set campioni.
+   **Selezionate** prima le immaginiNel pannello Sfoglia, selezionate le immagini, quindi fate clic su Genera > Set campioni.
 
-   **Iniziate dalla schermata** Set campioni Fate clic su Genera > Set campioni. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
+   **Iniziate dalla** schermata Set campioniFate clic su Genera > Set campioni. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
 
 1. Trascinate i colori, i motivi o le finiture campione nella casella segnaposto Campioni nella pagina Set campioni.
 
@@ -51,7 +51,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Fate clic su **Salva**, selezionate una cartella in cui memorizzare il set di campioni, immettete un nome per il set, quindi fate clic su Invia.
 1. Per visualizzare il set di campioni nel visualizzatore di set di campioni, fate clic sul pulsante **Anteprima** nella schermata Set campioni. Potete fare clic sulle miniature campione nel visualizzatore di set di campioni per verificarne il funzionamento.
 
-## Modifica di un set di campioni {#editing-a-swatch-set}
+## Modifica di un set di campioni  {#editing-a-swatch-set}
 
 A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
 
@@ -76,7 +76,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica del set, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **Salva**.
 
-## Eliminazione di un set di campioni {#deleting-a-swatch-set}
+## Eliminazione di un set di campioni  {#deleting-a-swatch-set}
 
 Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
