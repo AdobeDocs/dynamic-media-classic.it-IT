@@ -24,7 +24,7 @@ Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le 
 
 >[!NOTE]
 >
->Le versioni precedenti di Dynamic Media Classic non prevedevano set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
+>Le versioni precedenti di Dynamic Media Classic non offrirono set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
 
 ## Linee guida per lo scatto di immagini per set 360 gradi {#guidelines-for-shooting-spin-set-images}
 
@@ -36,7 +36,7 @@ In generale, più sono le immagini contenute in un set 360 gradi, migliore è l�
 * Assicuratevi che i dettagli del prodotto siano ben illuminati e messi a fuoco.
 * Per le immagini per un set 360 gradi di capi di abbigliamento, utilizzate un manichino o un indossatore. Il manichino può essere mascherato completamente (utilizzando un manichino in vetro) oppure nell’immagine può essere visibile un manichino o busto da sarta stilizzato. Potete creare un set 360 gradi con un indossatore definendo il numero di angolazioni. Contrassegnate ciascun angolo con nastro sul pavimento per indicare all’indossatore dove spostarsi e come guardare nella direzione di ciascuno scatto. 
 
-## Creazione di un set 360 gradi {#create}
+## Creazione di un set 360 gradi  {#create}
 
 L’ordine in cui il set 360 gradi viene creato o creato in Dynamic Media Classic è importante. A seconda di come ordinate le risorse quando rilasciate le immagini nella griglia della pagina Set 360 gradi, la rotazione avviene in una determinata direzione. Di conseguenza, l’ordine di visualizzazione nel modulo di generazione corrisponde alla direzione di rotazione delle risorse quando un utente sposta il mouse o il dito, da sinistra a destra.
 
@@ -67,7 +67,7 @@ Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di gener
 1. Nella finestra di dialogo Salva, selezionate una cartella in cui salvare il set 360 gradi. Nel campo Nome file, digitate il nome del set.
 1. Fate clic su **Salva**.
 
-## Modifica di un set 360 gradi {#editing-a-spin-set}
+## Modifica di un set 360 gradi  {#editing-a-spin-set}
 
 A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
 
@@ -85,20 +85,24 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Fate clic sul pulsante rollover **Modifica** del set di campioni. 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Rimozione di immagini** Selezionate l’immagine e fate clic su 
+   * **Rimozione di**
+immagini: selezionate l’immagine e fate clic su 
 **Elimina**.
 
-   * **Aggiunta di immagini** Trascinate l’immagine in una cella.
+   * **Aggiunta di**
+immagini: trascinate l’immagine in una cella.
 
-   * **Riordinamento delle righe (set 360 gradi bidimensionali)** Fare clic su una casella di selezione delle righe (a sinistra della riga), quindi fare clic su 
-**Sposta riga in basso** o **Sposta riga in alto**.
+   * **Riordinamento delle righe (set 360 gradi bidimensionali)**
+Fare clic su una casella di selezione delle righe (a sinistra della riga), quindi fare clic su 
+**Sposta riga** verso il basso e  **sposta riga verso l&#39;alto**.
 
-   * **Aggiunta di righe e celle** Immettere un numero nella casella Righe e Celle per determinare il numero di righe e il numero di celle in ciascuna riga.
+   * **Aggiunta di righe e**
+celleImmettere un numero nella casella Righe e Celle per determinare il numero di righe e il numero di celle in ciascuna riga.
 
 1. Al termine dell’operazione di modifica, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **Salva**.
 
-## Eliminazione di un set 360 gradi {#deleting-a-spin-set}
+## Eliminazione di un set 360 gradi  {#deleting-a-spin-set}
 
 Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
