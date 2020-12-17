@@ -24,7 +24,7 @@ Gli elementi eliminati da Dynamic Media Classic vengono spostati nella cartella 
 
 Tutti gli utenti possono ripristinare gli elementi della cartella Cestino alle cartelle da cui sono stati eliminati. Possono inoltre svuotare la cartella Cestino di tutto il suo contenuto.
 
-se eliminate gli elementi dalla cartella Cestino, vengono eliminati definitivamente quelli da Dynamic Media Classic; gli elementi eliminati dalla cartella Cestino non possono più essere ripristinati. Per informazioni sulla configurazione delle notifiche per gli amministratori della società quando le risorse stanno per essere eliminate automaticamente dal Cestino, consultate [Impostazioni generali applicazione](application-setup.md#general_settings).
+Se eliminate gli elementi dalla cartella Cestino, vengono eliminati definitivamente gli elementi da Dynamic Media Classic; gli elementi eliminati dalla cartella Cestino non possono più essere ripristinati. Per informazioni sulla configurazione delle notifiche per gli amministratori della società quando le risorse stanno per essere eliminate automaticamente dal Cestino, consultate [Impostazioni generali applicazione](application-setup.md#general_settings).
 
 >[!NOTE]
 >
@@ -34,11 +34,11 @@ se eliminate gli elementi dalla cartella Cestino, vengono eliminati definitivame
 
 Se eliminate un elemento di una cartella, questo viene inserito nella cartella Cestino e si verifica quanto segue:
 
-* Sebbene l’elemento sia stato rimosso dalle cartelle di Dynamic Media Classic, il relativo ID non può essere assegnato a un’altra risorsa finché l’elemento rimane nella cartella Cestino. Se provate a caricare una risorsa con lo stesso nome di un file presente nella cartella Cestino, Dynamic Media Classic aggiunge un numero al nome della risorsa.
+* Sebbene l’elemento sia stato rimosso dalle cartelle di Dynamic Media Classic, il relativo ID non può essere assegnato a un’altra risorsa finché l’elemento non viene rimosso dalla cartella Cestino. Se provate a caricare una risorsa con lo stesso nome di un file presente nella cartella Cestino, Dynamic Media Classic aggiunge un numero al nome della risorsa.
 * L’elemento non può essere pubblicato. Anche se l’elemento era contrassegnato per la pubblicazione al momento in cui è stato eliminato, non verrà pubblicato.
 * L’elemento resta nella cartella Cestino finché non viene ripristinato, finché non sono trascorsi sette giorni, o finché un utente non sceglie il comando Svuota il cestino. Trascorsi sette giorni, l’elemento viene eliminato automaticamente da un’operazione di pulizia automatica.
 
-## Ripristino delle risorse dalla cartella Cestino {#restoring-assets-from-the-trash-folder}
+## Ripristino delle risorse dalla cartella Cestino  {#restoring-assets-from-the-trash-folder}
 
 Non è necessario che il file venga ripristinato dalla persona che lo ha eliminato: chiunque può ripristinare le risorse dalla cartella Cestino. Le risorse ripristinate vengono riportate nelle cartelle da cui erano state eliminate. Se queste cartelle non esistono più, Dynamic Media Classic le ricrea e le risorse ripristinate vengono inserite nelle cartelle ricreate.
 
@@ -48,15 +48,15 @@ Per ripristinare le risorse dalla cartella Cestino alle cartelle da cui erano st
 1. Selezionate le risorse che desiderate ripristinare.
 1. Scegliete File > Ripristina dal cestino.
 
-## Eliminazione definitiva delle risorse nella cartella Cestino {#permanently-deleting-assets-in-the-trash-folder}
+## Eliminazione definitiva delle risorse nella cartella Cestino  {#permanently-deleting-assets-in-the-trash-folder}
 
 Quando eliminate le risorse nella cartella Cestino, queste vengono eliminate definitivamente. Le risorse vengono eliminate automaticamente dalla cartella Cestino dopo sette giorni.
 
 Per eliminare definitivamente le risorse dalla cartella Cestino, fate clic sull’icona Cestino  per aprire la cartella Cestino. Quindi, eliminate le singole risorse o tutte le risorse presenti nella cartella:
 
-* **Eliminazione di singole risorse** Selezionate le risorse da eliminare definitivamente e fate clic su **[!UICONTROL File > Elimina dal cestino]**.
+* **Eliminazione di singole** risorseSelezionate le risorse da eliminare definitivamente e fate clic su  **[!UICONTROL File > Elimina dal cestino]**.
 
-* **Eliminazione di tutte le risorse** Fate clic su **[!UICONTROL File > Elimina cestino]**.
+* **Eliminazione di tutte le** risorseFate clic su  **[!UICONTROL File > Elimina cestino]**.
 
 >[!MORELIKETHIS]
 >
