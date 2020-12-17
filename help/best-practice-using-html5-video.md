@@ -26,7 +26,7 @@ Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente 
 
 Combinando in un singolo lettore la possibilità di progettare i componenti di riproduzione in HTML5 e CSS, di usufruire di riproduzione incorporata e di utilizzare lo streaming adattativo e progressivo a seconda delle caratteristiche del browser, i vostri contenuti multimediali potranno essere visti sia dagli utenti con computer desktop che da quelli con dispositivi mobili. Potrete così offrire ai visitatori un’esperienza di streaming video ottimizzata.
 
-Consultate anche [I visualizzatori](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 nella guida di riferimento dei visualizzatori Adobe.
+Consultate anche [I visualizzatori HTML5](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) nella guida di riferimento dei visualizzatori di Adobi .
 
 ## Riproduzione di video su computer desktop e dispositivi mobili mediante Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
