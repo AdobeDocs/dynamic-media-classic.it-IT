@@ -18,7 +18,7 @@ ht-degree: 48%
 ---
 
 
-# Uploading Zoom images{#uploading-zoom-images}
+# Caricamento di immagini di zoom{#uploading-zoom-images}
 
 Le immagini di zoom devono disporre di un numero elevato di pixel, in modo che i visualizzatori possano visualizzarne chiaramente i dettagli quando viene applicato lo zoom. Prima di caricare le immagini in Dynamic Media Classic, accertatevi che siano delle dimensioni appropriate.
 
@@ -30,11 +30,14 @@ Per istruzioni dettagliate sul caricamento delle immagini, consultate [Caricamen
 
 Per sfruttare al meglio le funzioni di zoom di Dynamic Media Classic, preparate i file immagine di zoom prima di caricarli:
 
-* **Dimensione** immagine Dynamic Media Classic consiglia di usare file di immagini con il lato più lungo almeno 2000 pixel. per consentire agli utenti di visualizzarle chiaramente quando applicano lo zoom.
+* **Dimensione**
+dell’immagineDynamic Media Classic consiglia di usare file di immagini con il lato più lungo almeno 2000 pixel. per consentire agli utenti di visualizzarle chiaramente quando applicano lo zoom.
 
-* **I formati** di file Dynamic Media Classic supportano tutti i formati di file immagine standard, inclusi TIFF, BMP, JPEG, PSD, GIF ed EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima.
+* **Formati**
+di fileDynamic Media Classic supporta tutti i formati di file immagine standard, inclusi TIFF, BMP, JPEG, PSD, GIF ed EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima.
 
-* **Lo spazio** colore RGB è lo spazio colore per le presentazioni di immagini Web; Le immagini CMYK vengono convertite automaticamente in RGB al momento del caricamento. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Consultate anche Profili ICC.
+* **Color**
+spaceRGB è lo spazio colore per le presentazioni di immagini Web; Le immagini CMYK vengono convertite automaticamente in RGB al momento del caricamento. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Consultate anche Profili ICC.
 
 >[!MORELIKETHIS]
 >
