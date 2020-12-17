@@ -34,32 +34,39 @@ Potete creare un progetto quando caricate dei file oppure li potete creare nel p
 >
 >la funzione progetti deve essere impostata dall’amministratore affinché possa essere usata dagli utenti. Se la sezione della cartella Progetti non è disponibile nella parte inferiore della Libreria risorse, significa che questo metodo di organizzazione delle risorse non è stato abilitato. Consultate [Impostazioni generali applicazione](application-setup.md#general-settings).
 
-## Creazione di una cartella di progetto {#creating-a-project-folder}
+## Creazione di una cartella di progetto  {#creating-a-project-folder}
 
 Potete creare una cartella Progetto dalla Libreria risorse o quando caricate i file in Dynamic Media Classic:
 
-* **Nella Libreria** risorse, scorrete fino alla parte inferiore della Libreria risorse, fino alla sezione Progetti, quindi fate clic sul pulsante Aggiungi progetto . Quindi, immettete un nome per il progetto.
+* **Nella**
+Libreria risorse, scorrete fino alla parte inferiore della Libreria risorse, fino alla sezione Progetti, quindi fate clic sul pulsante Aggiungi progetto . Quindi, immettete un nome per il progetto.
 
-* **Quando caricate dei file** Nella schermata Carica, selezionate il menu Aggiungi a progetto e scegliete Crea progetto. Quindi, immettete un nome per il progetto.
+* **Quando caricate**
+i fileNella schermata Carica, selezionate il menu Aggiungi a progetto e scegliete Crea progetto. Quindi, immettete un nome per il progetto.
 
 >[!NOTE]
 >
 >l’area Progetti nella Libreria risorse è un elenco di cartelle a livello singolo e non è possibile aggiungere sottocartelle.
 
-## Uso delle cartelle Progetto {#working-with-project-folders}
+## Uso delle cartelle Progetto  {#working-with-project-folders}
 
 Per visualizzare, eliminare e rinominare una cartella Progetto, effettuate le seguenti operazioni:
 
-* **Esplorazione dei contenuti** Selezionate il nome della cartella nella Libreria risorse. Le relative risorse vengono visualizzate nel pannello Sfoglia.
+* **Esplorazione dei**
+contenuti: selezionate il nome della cartella nella Libreria risorse. Le relative risorse vengono visualizzate nel pannello Sfoglia.
 
-* **Eliminazione delle cartelle** Progetto Selezionate la cartella Progetto, quindi fate clic sul pulsante Rimuovi progetto . Se eliminate le risorse da una cartella Progetto, queste non vengono eliminate da Dynamic Media Classic; le risorse rimangono nelle cartelle originali in cui sono memorizzate.
+* **Eliminazione**
+delle cartelle ProgettoSelezionate la cartella Progetto e fate clic sul pulsante Rimuovi progetto . Se eliminate le risorse da una cartella Progetto, queste non vengono eliminate da Dynamic Media Classic; le risorse rimangono nelle cartelle originali in cui sono memorizzate.
 
-* **Ridenominazione delle cartelle** Progetto Fate doppio clic sul nome della cartella nel pannello delle risorse, quindi immettete un nuovo nome.
+* **Ridenominazione delle**
+cartelle ProgettoFate doppio clic sul nome della cartella nel pannello delle risorse, quindi immettete un nuovo nome.
 
 ## Aggiunta di risorse alla cartella Progetto {#adding-assets-to-a-project-folder}
 
 Potete aggiungere immagini a una cartella Progetto a partire dal pannello Sfoglia o quando caricate i file in Dynamic Media Classic:
 
-* **Dal pannello** Sfoglia Selezionate le risorse e trascinatele in una cartella Progetto. In alternativa, scegliete File > Aggiungi a progetto, selezionate il nome di una cartella di progetto nella finestra di dialogo Selezionate un progetto, quindi fate clic sul pulsante Invia.
+* **Dal**
+pannello Sfoglia: selezionate le risorse e trascinatele in una cartella Progetto. In alternativa, scegliete File > Aggiungi a progetto, selezionate il nome di una cartella di progetto nella finestra di dialogo Selezionate un progetto, quindi fate clic sul pulsante Invia.
 
-* **Quando caricate dei file** Nella schermata Carica, fate clic sul pulsante Opzioni processo. Nella finestra di dialogo Opzioni processo di caricamento, scegliete Progetti e selezionate il nome di un progetto.
+* **Quando caricate**
+i fileNella schermata Carica, fate clic sul pulsante Opzioni processo. Nella finestra di dialogo Opzioni processo di caricamento, scegliete Progetti e selezionate il nome di un progetto.
