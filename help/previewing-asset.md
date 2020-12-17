@@ -26,7 +26,7 @@ Consultate [Configurazione di visualizzatori predefiniti](application-setup.md#c
 
 Se state visualizzando in anteprima una risorsa di modello con livelli di parametro, potete apportare modifiche ai parametri o modificare il predefinito per immagini. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
 
-Consultate anche [esempi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)della libreria di riferimento visualizzatori di Adobi.
+Consultate anche [ libreria di riferimento visualizzatori di Adobi, Esempi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Per visualizzare in anteprima una risorsa**
 
@@ -42,7 +42,7 @@ Consultate anche [esempi](https://landing.adobe.com/en/na/dynamic-media/ctir-275
    * Nella finestra Risorse in visualizzazione Griglia o Elenco, selezionate una singola risorsa e fate clic su Anteprima vicino alla miniatura.
    * Nella barra degli strumenti sopra la finestra Risorse in visualizzazione Griglia, Elenco o Dettagli, fate clic su Anteprima.
 
-## Anteprima di una risorsa in base al tipo di piattaforma per visualizzatori {#previewing-an-asset-based-on-viewer-platform-type}
+## Anteprima di una risorsa in base al tipo di piattaforma per visualizzatori  {#previewing-an-asset-based-on-viewer-platform-type}
 
 Potete usare Elenco visualizzatori per ottenere l’anteprima di una risorsa in base a un particolare tipo di piattaforma per visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
@@ -79,7 +79,7 @@ Per una specifica piattaforma per visualizzatore, la finestra Elenco visualizzat
 
 1. Nell’angolo in basso a destra della finestra Elenco visualizzatori, fate clic su Chiudi per tornare alla schermata Risorse.
 
-## Anteprima di una risorsa immagine basata sul suo predefinito per immagini {#previewing-an-image-asset-based-on-its-image-preset}
+## Anteprima di una risorsa immagine basata sul suo predefinito per immagini  {#previewing-an-image-asset-based-on-its-image-preset}
 
 Potete visualizzare in anteprima una risorsa immagine basata sul suo predefinito per immagini per verificarne l’aspetto quando questa viene trasmessa in modo dinamico al sito Web o all’applicazione in dimensioni diverse.
 
