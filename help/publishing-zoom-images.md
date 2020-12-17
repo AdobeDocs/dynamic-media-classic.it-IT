@@ -24,11 +24,11 @@ Le immagini di zoom pubblicate vengono inserite sui server immagini Dynamic Medi
 
 ## Contrassegno delle immagini per la pubblicazione {#marking-images-for-publish}
 
-Per poter copiare le immagini nei server immagini Dynamic Media, queste devono essere contrassegnate per la pubblicazione. You can mark your images for publish in the Browse Panel by selecting the **Mark for Publish** icon. Potete anche contrassegnare le immagini per la pubblicazione mentre le caricate. 
+Per poter copiare le immagini nei server immagini Dynamic Media, queste devono essere contrassegnate per la pubblicazione. Per contrassegnare le immagini per la pubblicazione nel pannello Sfoglia, fate clic sull&#39;icona **Contrassegna per pubblicazione**. Potete anche contrassegnare le immagini per la pubblicazione mentre le caricate. 
 
-## Pubblicazione di immagini {#publishing-the-images}
+## Pubblicazione di immagini  {#publishing-the-images}
 
-To publish zoom images, start by clicking **Publish** on the Global Navigation bar. Then, select a **When option (One-Time or Recurring)**, optionally enter a name for the publish job, and click **Start Publish**.
+Per pubblicare le immagini di zoom, fate clic su **Pubblica** nella barra di navigazione globale. Quindi, selezionate un&#39;opzione **Quando (Una tantum o Periodico)**, immettete facoltativamente un nome per il processo di pubblicazione e fate clic su **Avvia pubblicazione**.
 
 >[!MORELIKETHIS]
 >
