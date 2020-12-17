@@ -22,7 +22,7 @@ ht-degree: 96%
 
 I *gruppi* facilitano l’amministrazione degli utenti di Media Portal. Per accedere a una risorsa, un utente deve appartenere ad almeno un gruppo autorizzato ad accedere a tale risorsa. Quando aggiungete un utente, lo potete assegnare a uno o più gruppi. Così facendo gli assegnate le autorizzazioni di accesso alle cartelle a cui è stato assegnato un dato gruppo. Potete inoltre scegliere i predefiniti per immagini disponibili per un dato gruppo.
 
-## Utilizzo dei gruppi per limitare l’accesso a cartelle, risorse e predefiniti per immagini {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
+## Utilizzo dei gruppi per limitare l’accesso a cartelle, risorse e predefiniti per immagini  {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
 La creazione di gruppi consente di assegnare diversi livelli di autorizzazione di accesso. Per ogni gruppo, potete assegnare le autorizzazioni di lettura, scrittura ed eliminazione per diverse cartelle e risorse nelle cartelle. Potete inoltre decidere quali predefiniti per immagini rendere disponibili per il gruppo. Successivamente, potete assegnare utenti ai relativi gruppi. Un utente può appartenere a più di un gruppo. Grazie all’uso dei gruppi potete limitare il diritto di accesso a soli alcuni set di risorse.
 
@@ -32,7 +32,7 @@ Se non assegnate espressamente a un gruppo l’autorizzazione per una risorsa o 
 >
 >gli utenti possono appartenere a più di un gruppo. Se un utente appartiene a due gruppi con diverse autorizzazioni di accesso a una cartella, gli viene assegnato il livello di accesso più alto.
 
-## Aggiunta di un gruppo {#adding-a-group}
+## Aggiunta di un gruppo  {#adding-a-group}
 
 1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
 1. Fate clic su **Aggiungi**.
@@ -48,7 +48,7 @@ Se non assegnate espressamente a un gruppo l’autorizzazione per una risorsa o 
 
 1. Fate clic su **Chiudi**.
 
-## Definizione delle autorizzazioni di accesso alle risorse per un gruppo {#establishing-asset-access-permissions-for-a-group}
+## Definizione delle autorizzazioni di accesso alle risorse per un gruppo  {#establishing-asset-access-permissions-for-a-group}
 
 1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
 1. Nella pagina dell’elenco Gruppi, effettuate una delle seguenti operazioni:
@@ -76,7 +76,7 @@ Se non assegnate espressamente a un gruppo l’autorizzazione per una risorsa o 
 >
 >le autorizzazioni di accesso entrano in vigore non appena selezionate una casella. Quando assegnate le autorizzazioni a una cartella, queste vengono applicate anche alle relative sottocartelle e a tutti i file al loro interno. Tuttavia, potete specificare autorizzazioni diverse per singole sottocartelle e file di risorse.
 
-## Scelta delle autorizzazioni di accesso ai predefiniti per immagini per un gruppo {#choosing-image-preset-access-permissions-for-a-group}
+## Scelta delle autorizzazioni di accesso ai predefiniti per immagini per un gruppo  {#choosing-image-preset-access-permissions-for-a-group}
 
 Le autorizzazioni di accesso ai predefiniti per immagini per un gruppo vi permettono di specificare quali predefiniti per immagini sono disponibili per gli utenti del gruppo al momento dell’esportazione di risorse in Media Portal.
 
@@ -92,12 +92,12 @@ Consultate anche [Specifica delle opzioni di esportazione disponibili per gli ut
 1. Selezionate o deselezionate i predefiniti per immagini per specificare quelli che devono essere disponibili per gli utenti di Media Portal in fase di esportazione delle risorse.
 1. Fate clic su **Chiudi**.
 
-## Modificare ed eliminare i gruppi {#edit-and-delete-groups}
+## Modificare ed eliminare i gruppi  {#edit-and-delete-groups}
 
 1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
 1. Nella pagina dell’elenco Gruppi, selezionate un gruppo e modificatelo o eliminatelo.
 
-   **Modifica di un gruppo** Fate clic su Modifica, quindi scegliete le opzioni desiderate nella finestra di dialogo Modifica gruppo.
+   **Modifica di un** gruppoFate clic su Modifica, quindi scegliete le opzioni desiderate nella finestra di dialogo Modifica gruppo.
 
-   **Eliminazione di un gruppo** Fate clic su Elimina.
+   **Eliminazione di un** gruppoFate clic su Elimina.
 
