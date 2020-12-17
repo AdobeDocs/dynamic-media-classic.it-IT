@@ -2,7 +2,7 @@
 title: Servizi di formazione Adobe
 seo-title: Servizi di formazione Adobe
 description: 'null'
-seo-description: Ulteriori informazioni su Adobe Training Services.
+seo-description: Ulteriori informazioni sui servizi di formazione  Adobe.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -26,13 +26,13 @@ Dynamic Media Classic offre formazione sotto forma di esercitazioni video, works
 
 I servizi di formazione Adobe offrono una preparazione personalizzata e approfondita progettata per la vostra organizzazione. La formazione può essere svolta sotto forma di classi regionali in stile universitario, sessioni basate su Web o laboratori in loco personalizzati. Le classi regionali sono aperte a tutti i clienti e vengono tenute periodicamente in vari luoghi in Nord America, Europa, Medio oriente e Asia. Le sessioni personalizzate possono essere personalizzate per utenti esperti e inesperti, utenti finali, amministratori e personale IT.
 
-Consultate [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
+Vedere [ servizi di formazione sui Adobi](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
 **Dimostrazioni**
 
 Guardate le dimostrazioni delle funzioni del visualizzatore Dynamic Media Classic.
 
-Consultate [Demo](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
+Vedere [Demo](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
 
 **Sezione Guida introduttiva dell’Aiuto**
 
