@@ -21,11 +21,11 @@ ht-degree: 84%
 
 Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento con cui potrete caricare le risorse immagine o vettoriali.
 
-## Richiesta di una chiave segreta condivisa {#requesting-a-shared-secret-key}
+## Richiesta di una chiave segreta condivisa  {#requesting-a-shared-secret-key}
 
-Richiedete una chiave *segreta* condivisa [utilizzando il Admin Console  per creare un caso di assistenza.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel caso di supporto, richiedete una chiave segreta condivisa.
+Richiedete una *chiave segreta condivisa* di [utilizzando il Admin Console  per creare un caso di supporto.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel caso di supporto, richiedete una chiave segreta condivisa.
 
-Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per un utilizzo futuro.
+Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per poterla utilizzare in futuro.
 
 ## Ottenimento del token di caricamento {#retrieving-the-upload-token}
 
@@ -34,10 +34,10 @@ L’utilizzo di un *token di caricamento* fa sì che nessuno debba usare la chia
 Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Per ottenere il codice di caricamento usate i seguenti URL sostituendo la chiave segreta condivisa.
 
 * Immagine
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave segreta condivisa è `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave segreta condivisa è  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * Vettoriale
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In questo esempio, la chiave segreta condivisa è `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In questo esempio, la chiave segreta condivisa è  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
 Per impostazione predefinita, il token di caricamento scade cinque minuti (300 secondi) dopo averlo ottenuto. Per richiedere più tempo, includete nell’URL il parametro `expires` e il tempo desiderato, in secondi. Ad esempio, con il seguente URL immagine di esempio si ottiene un token di caricamento che sarà valido per 1800 secondi:
 
@@ -90,7 +90,7 @@ Ora potete caricare una risorsa immagine.
 
 Consultate [Caricamento di una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Caricamento di una risorsa immagine {#uploading-an-image-asset}
+## Caricamento di una risorsa immagine  {#uploading-an-image-asset}
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa immagine. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 
@@ -98,7 +98,7 @@ Dopo aver recuperato un token di caricamento valido per un periodo di tempo spec
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+I campi `upload_token` e `company_name` sono obbligatori.
 
 Consultate [Ottenimento del token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -110,7 +110,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+Il parametro `file_limit` specifica il limite di dimensione del file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -126,7 +126,7 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
 * Se mantenere o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo nelle opzioni di modifica delle [immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo in [Opzioni di modifica delle immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare
 
 <!-- 
@@ -145,9 +145,9 @@ Per visualizzare il codice sorgente HTML associato al modulo sopra, fare clic su
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi fare clic su **Visualizza origine** pagina. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
+In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi fare clic su **Visualizza origine pagina**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza > Sorgente**. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza > Sorgente**. Per visualizzare la risposta XML in Firefox, fare clic su **Strumenti > Sviluppatore Web > Origine pagina**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -205,7 +205,7 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 POST
 
-### Ottenimento dei metadati di risorsa per immagini {#getting-asset-metadata-for-images}
+### Ottenimento dei metadati di risorsa per immagini  {#getting-asset-metadata-for-images}
 
 Per ottenere i metadati di una risorsa caricata, potete usare `image_info`, come illustrato nell’esempio di seguito:
 
@@ -253,7 +253,7 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 
 GET e POST
 
-## Caricamento di una risorsa vettoriale {#uploading-a-vector-asset}
+## Caricamento di una risorsa vettoriale  {#uploading-a-vector-asset}
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa vettoriale. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 
@@ -261,7 +261,7 @@ Dopo aver recuperato un token di caricamento valido per un periodo di tempo spec
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+I campi `upload_token` e `company_name` sono obbligatori.
 
 Consultate [Ottenimento del token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -273,7 +273,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+Il parametro `file_limit` specifica il limite di dimensione del file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -289,7 +289,7 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
 * Se mantenere o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo nelle opzioni di modifica delle [immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo in [Opzioni di modifica delle immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare
 
 <!-- 
