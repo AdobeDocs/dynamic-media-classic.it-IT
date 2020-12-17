@@ -52,7 +52,7 @@ Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori p
 
 Consultate anche [Anteprima dei video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-### Aggiunta o modifica di un predefinito per visualizzatori video {#adding-or-editing-a-video-viewer-preset}
+### Aggiunta o modifica di un predefinito per visualizzatori video  {#adding-or-editing-a-video-viewer-preset}
 
 Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore e le rispettivi impostazioni predefinite. Potete inoltre aggiungere e modificare i predefiniti per visualizzatori personalizzati o modificare quelli forniti con Dynamic Media Classic.
 
@@ -62,21 +62,21 @@ Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_prese
 
 **Per aggiungere o modificare un predefinito per visualizzatori video**
 
-1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
+1. Nell&#39;angolo superiore destro di Dynamic Media Classic, fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 
    Per visualizzare soltanto i predefiniti per i visualizzatori video, selezionate Visualizzatore video dall’elenco a discesa Visualizzatori nella barra degli strumenti che si trova appena sopra la tabella.
 
 1. Aggiungete o modificate un predefinito per visualizzatori per la visualizzazione di video:
 
-   **Aggiunta** di Click Add nella barra degli strumenti. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma e un visualizzatore dai rispettivi elenchi a discesa, quindi fate clic su Aggiungi.
+   **** AggiuntaFate clic su Aggiungi nella barra degli strumenti. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma e un visualizzatore dai rispettivi elenchi a discesa, quindi fate clic su Aggiungi.
 
    Consultate anche [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Aggiungendo i dati da un predefinito** per visualizzatori esistente Nella tabella, selezionate un predefinito per visualizzatori video e fate clic su Modifica nella barra degli strumenti.
+   **Aggiunta iniziando da un** predefinito per visualizzatori esistenteNella tabella, selezionate un predefinito per visualizzatori video e fate clic su Modifica nella barra degli strumenti.
 
    Dopo aver configurato il visualizzatore video, fate clic su **Salva con nome** per salvare il predefinito specificando un altro nome nel campo Nome predefinito.
 
-   **Modifica** Selezionate un predefinito per visualizzatori video e fate clic su Modifica.
+   **** Modifica: selezionate un predefinito per visualizzatori video, quindi fate clic su Modifica.
 
 1. Nella schermata Configura visualizzatore, immettete o modificate il nome del predefinito nel campo Nome predefinito.
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
