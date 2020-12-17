@@ -1,6 +1,6 @@
 ---
 title: Guida di Dynamic Media Classic
-seo-title: Adobe Dynamic Media Classic
+seo-title: ' Adobe Dynamic Media Classic'
 description: Panoramica di Dynamic Media Classic
 seo-description: Panoramica di Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 # Guida di Dynamic Media Classic {#scene7-overview}
 
-Benvenuti in Adobe Dynamic Media Classic, il sistema leader on-demand per la pubblicazione su più supporti per caricare, gestire, ottimizzare e pubblicare contenuti dinamici avanzati su tutti i dispositivi e gli schermi. Le soluzioni Adobe Dynamic Media Classic includono quanto segue:
+Benvenuti  Adobe Dynamic Media Classic, il sistema leader on-demand per la pubblicazione di contenuti multimediali per caricare, gestire, ottimizzare e pubblicare contenuti dinamici avanzati su tutti i dispositivi e gli schermi.  Adobe di soluzioni Dynamic Media Classic sono le seguenti:
 
 * Imaging dinamico: modifiche, formattazione e ridimensionamento in tempo reale; zoom e panoramica interattivi; campioni colori e campioni trama; set 360 gradi; modelli immagini; visualizzatori multimediali.
 * eCatalog: Creare, collegare punti di attivazione, eseguire ricerche, pubblicare e distribuire cataloghi online trasmessi in modo dinamico in visualizzatori configurabili.
@@ -35,7 +35,7 @@ Benvenuti in Adobe Dynamic Media Classic, il sistema leader on-demand per la pub
 * [Avvio rapido: Set di file multimediali diversi](/help/quick-start-mixed-media-sets.md)
 * [Avvio rapido: Set 360 gradi](/help/quick-start-spin-sets.md)
 * [Avvio rapido: Set di campioni](/help/quick-start-swatch-sets.md)
-* [Avvio rapido: Integrazione Target Standard/Premium](/help/quick-start-target-integration.md)
+* [Avvio rapido: Integrazione con Target Standard/Premium](/help/quick-start-target-integration.md)
 * [Avvio rapido: Funzioni di base dei modelli](/help/quick-start-template-basics.md)
 * [Avvio rapido: video](/help/quick-start-video.md)
 * [Avvio rapido: zoom](/help/quick-start-zoom.md)
