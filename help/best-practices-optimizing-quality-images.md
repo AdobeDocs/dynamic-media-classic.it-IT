@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 62%
@@ -71,14 +71,14 @@ Esistono due metodi per rendere le immagini più nitide:
       * `threshold` (0-255, sensibilità dell&#39;effetto.)
 
          Questo parametro determina la differenza tra i pixel da rendere più nitidi rispetto all’area circostante, prima che vengano considerati pixel del bordo e che il filtro li renda più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato per evitare di aggiungere “disturbo”, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
-      Per ulteriori informazioni su come impostare questi tre parametri, incluse le procedure ottimali per l’utilizzi del filtro, consultate le risorse seguenti:
 
-      Argomento della Guida di Dynamic Media Classic su [Nitidezza di un&#39;immagine](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+         Per ulteriori informazioni su come impostare questi tre parametri, incluse le procedure ottimali per l’utilizzi del filtro, consultate le risorse seguenti:
 
-      White paper sulle procedure ottimali [Nitidezza delle immagini in  Adobe Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
+         Argomento della Guida di Dynamic Media Classic su [Nitidezza di un&#39;immagine](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
-   * Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
+         White paper sulle procedure ottimali [Nitidezza delle immagini in  Adobe Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
+      * Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
 
 Come procedura ottimale, iniziate con il parametro di maschera di contrasto “radius”. Potete iniziare con le seguenti impostazioni del raggio:
 
@@ -130,4 +130,3 @@ Per ottimizzare il flusso di lavoro, può essere utile seguire anche i consigli 
 * Provate a utilizzare parametri diversi in tempo reale, direttamente su un URL Dynamic Media Classic o utilizzando la funzionalità di regolazione delle immagini di Dynamic Media Classic che fornisce anteprime in tempo reale per le operazioni di regolazione.
 * Come procedura ottimale, potete raggruppare i comandi di Dynamic Media Image Serving in un predefinito per immagini. Un predefinito per immagini è in pratica una macro di comandi URL con nomi predefiniti personalizzati, ad esempio `$thumb_low$` e `&product_high$`. Il nome del predefinito personalizzato in un percorso URL richiama il predefinito corrispondente. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
 * Dynamic Media Classic offre anche metodi più avanzati per ottimizzare la qualità delle immagini, ad esempio l’applicazione della nitidezza alle immagini durante l’assimilazione. Per le situazioni d’uso avanzate in cui questa può rappresentare un’opzione per ottimizzare ulteriormente i risultati di rendering, il team Adobe Professional Services può aiutarvi con approfondimenti mirati e procedure ottimali.
-
