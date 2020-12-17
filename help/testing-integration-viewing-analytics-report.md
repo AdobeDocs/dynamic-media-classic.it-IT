@@ -20,7 +20,7 @@ ht-degree: 42%
 
 # Verificare l’integrazione visualizzando un rapporto di Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Dopo aver creato le variabili necessarie in  Adobe Analytics, averle collegate agli eventi Dynamic Media Classic e aver completato i passaggi di implementazione necessari, è necessario verificare la configurazione. Potete verificare che i dati vengano acquisiti in Adobe Analytics stesso. Se la configurazione funziona, non sono necessari ulteriori interventi. Se avete seguito i passaggi descritti qui sopra e collegato i dati dell&#39;evento Dynamic Media Classic a una o più variabili di traffico personalizzate, seguite questo flusso di lavoro per verificare i dati all&#39;interno  Adobe Analytics.
+Dopo aver creato le variabili necessarie in  Adobe Analytics, averle collegate agli eventi di Dynamic Media Classic e aver completato i passaggi di implementazione necessari, è necessario verificare la configurazione. Potete verificare che i dati vengano acquisiti in Adobe Analytics stesso. Se la configurazione funziona, non sono necessari ulteriori interventi. Se avete seguito i passaggi descritti qui sopra e collegato i dati dell&#39;evento Dynamic Media Classic a una o più variabili di traffico personalizzate, seguite questo flusso di lavoro per verificare i dati all&#39;interno  Adobe Analytics.
 
 **Per verificare l’integrazione con visualizzando un rapporto di Adobe Analytics**
 
@@ -28,7 +28,7 @@ Dopo aver creato le variabili necessarie in  Adobe Analytics, averle collegate a
 
    Ad esempio, se desiderate misurare le visualizzazioni alternative di maggior successo in un set di immagini, visualizzate un’anteprima del set di immagini e fate clic sulle varie miniature.
 
-1. Inside Adobe Analytics, go to Custom Traffic > Custom Traffic 1-10 > [Name of prop], selecting your traffic prop name from the menu choices.
+1. All&#39;interno  Adobe Analytics, passare a Custom Traffic (Traffico personalizzato) > Custom Traffic 1-10 > [Name of prop] (Traffico personalizzato), selezionando il nome proprietà traffico dalle opzioni di menu.
 
    Ad esempio, per accedere a LoadAsset nell’account di esempio, scegliete Custom Traffic > Custom Traffic 1-10 > LoadAsset. Se sono presenti più di 10 proprietà personalizzate, saranno visualizzate ulteriori voci di menu.
 
@@ -38,4 +38,4 @@ Dopo aver creato le variabili necessarie in  Adobe Analytics, averle collegate a
 >
 >Tutti i dati del visualizzatore Dynamic Media Classic vengono visualizzati e riportati nei rapporti Traffico personalizzato o Conversione personalizzata di  Adobe Analytics.
 
-Per ulteriori informazioni, consultate [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
+Per ulteriori informazioni, vedere [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
