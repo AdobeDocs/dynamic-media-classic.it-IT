@@ -31,8 +31,8 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Effettuate una delle seguenti operazioni:
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
-   * To edit an existing Swatch Set Viewer preset, select the preset, then click **Edit**.
+   * Per creare un nuovo predefinito, fate clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore set campioni, quindi fate clic su **Aggiungi**.
+   * Per modificare un predefinito esistente, selezionate il predefinito, quindi fate clic su **Modifica**.
 
 1. Digitate nella casella Nome predefinito un nome per il visualizzatore di set campioni.
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
@@ -54,7 +54,7 @@ Con la funzione Anteprima è possibile verificare in che modo una risorsa viene 
    * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. Nella finestra Risorse, passate il mouse su una risorsa e fate clic su **Anteprima**.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione griglia** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **Anteprima** nella miniatura di una risorsa.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione dettagli** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **Anteprima**.
-   * Nella finestra Risorse, selezionate una risorsa. On the toolbar, click **File** > **Preview**.
+   * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fare clic su **File** > **Anteprima**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
 1. Fate clic sul collegamento di un visualizzatore per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
