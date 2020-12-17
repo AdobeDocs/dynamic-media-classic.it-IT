@@ -18,7 +18,7 @@ ht-degree: 73%
 ---
 
 
-# Gestione del contenuto del pannello Info nei set di immagini{#managing-info-panel-content-in-image-sets}
+# Gestione del contenuto del pannello Info in set di immagini{#managing-info-panel-content-in-image-sets}
 
 Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Potete anche gestire il pannello Info usando la cache a tempo e pianificando gli aggiornamenti dei contenuti.
 
@@ -35,7 +35,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 **Per impostare un modello di risposta**
 
 1. Fate doppio clic sul set di immagini per aprirlo in visualizzazione Dettagli.
-1. Click **InfoPanel Setup** to unfold the panel.
+1. Fate clic su **Impostazioni pannello Info** per aprire il pannello.
 1. Dall’elenco a discesa Modello risposta, effettuate una delle seguenti operazioni:
 
    * Selezionate Predefinito per utilizzare la risposta predefinita. Il codice XML per la creazione dei modelli viene visualizzato in modo attenuato nella casella Modello utente.
@@ -47,12 +47,12 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
    * Con un valore più elevato i dati sono relativamente stabili e non richiedono un aggiornamento frequente durante il giorno. Il valore predefinito è dieci ore.
 
-1. Click **Upload** to upload info panel content, based on the rollover_key values, to s7info.
-1. In the S7Info Upload dialog box, browse to the file that you want to use, and then click **Upload**.
+1. Fate clic su **Carica** per caricare in s7info il contenuto del pannello Info, in base ai valori rollover_key.
+1. Nella finestra di dialogo Caricamento S7Info, individuate il file da utilizzare e fate clic su **Carica**.
 
    I formati file supportati sono file delimitati da tabulazioni con codifica UTF-16 e file CSV con codifica ASCII. Per i file CSV, i caratteri non ASCII devono essere codificati in HTML.
 
-1. In the InfoPanel Setup panel, click **Publish**.
+1. Nel pannello Impostazioni pannello Info, fate clic su **Pubblica**.
 
 ## Importare il contenuto sorgente per il pannello Info nei set di immagini {#import-source-content-for-the-info-panel-in-image-sets}
 
@@ -64,14 +64,14 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 * Il primo elemento o la prima colonna di dati deve essere l’identificatore di rollover (associato al valore rollover_key degli URL della mappa immagine).
 * Verificate che ciascun elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento da sostituire nel modello di risposta (la prima colonna viene sostituita da $1$, la seconda colonna da $2$ e così via).
 
-### Importare contenuti CSV in set di immagini da una posizione ospitata esternamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### Importare contenuti CSV in set di immagini da un percorso esterno {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Fate doppio clic sul set di immagini per aprirlo in visualizzazione Dettagli.
-1. Click **InfoPanel Datafeed** to unfold the panel.
+1. Fate clic su **Feed di dati del pannello Info** per aprire il pannello.
 1. Nel campo Posizione file CSV esterno (HTTP), immettete l’URL del file CSV.
-1. (Optional) In the Schedule Update fields, specify a time to update the content, and then click **Add**.
+1. (Facoltativo) Nei campi Pianifica aggiornamento specificare l&#39;ora in cui aggiornare il contenuto, quindi fare clic su **Aggiungi**.
 
-   Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. To remove a scheduled time, select it, and then click **Delete**.
+   Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario pianificato, selezionatelo e fate clic su **Elimina**.
 
-1. (Optional) Click **Run Update** to immediately update the content.
+1. (Facoltativo) Fare clic su **Esegui aggiornamento** per aggiornare immediatamente il contenuto.
 
