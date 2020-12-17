@@ -54,7 +54,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    Fate clic su **Anteprima** per vedere l’aspetto del set combinato di immagini in un visualizzatore per set di immagini.
 
-## Modificare un set di file multimediali diversi {#edit-a-mixed-media-set}
+## Modificare un set di file multimediali diversi  {#edit-a-mixed-media-set}
 
 Potete modificare un set di file multimediali diversi. Per modificare un set contenuto in un set di file multimediali diversi, aprite il set desiderato separatamente, modificatelo e salvatelo. Le modifiche saranno riportate anche nel set di file multimediali diversi.
 
@@ -80,7 +80,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica del set, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva** o **Salva con nome**.
 
-## Eliminare un set di file multimediali diversi {#deleting-a-mixed-media-set}
+## Eliminare un set di file multimediali diversi  {#deleting-a-mixed-media-set}
 
 Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
