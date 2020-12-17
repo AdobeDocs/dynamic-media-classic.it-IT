@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # Utilizzo dei file PDF{#working-with-pdfs}
 
-I file PDF (Portable Document Format) vengono utilizzati più spesso in Dynamic Media Classic per creare eCatalog. Quando caricate un file PDF, per impostazione predefinita le pagine vengono rasterizzate (ossia ne vengono estratti i dati) da Dynamic Media Classic in modo che possano essere utilizzate per la creazione di contenuti multimediali.
+I file PDF (Portable Document Format) vengono utilizzati più spesso in Dynamic Media Classic per creare eCatalog. Quando caricate un file PDF, per impostazione predefinita Dynamic Media Classic rasterizza (ovvero estrae i dati) le pagine in modo che possano essere utilizzate per creare contenuti multimediali.
 
 ## Opzioni di caricamento PDF {#pdf-upload-options}
 
@@ -32,13 +32,13 @@ Le opzioni per caricare i file PDF si trovano nella sezione Opzioni PDF della sc
 
 Le opzioni di elaborazione sono le seguenti:
 
-**Rasterizza** (impostazione predefinita) Rimuove l’ordine delle pagine nel file PDF e converte la grafica vettoriale in immagini bitmap. Scegliete questa opzione per creare un eCatalog. 
+**Rasterizza**  (impostazione predefinita) Esegue l&#39;striping delle pagine nel file PDF e converte la grafica vettoriale in immagini bitmap. Scegliete questa opzione per creare un eCatalog. 
 
-**Estrai termini** di ricerca Estrai le parole dal file PDF in modo che sia possibile effettuare ricerche nel file mediante parole chiave in un visualizzatore di eCatalog.
+**Estrai** parole di ricercaEstrae le parole dal file PDF in modo che sia possibile effettuare ricerche nel file mediante parole chiave in un visualizzatore di eCatalog.
 
-**Estrai collegamenti** Estrae i collegamenti dai file PDF e li converte in mappe immagine utilizzate in un visualizzatore di eCatalog.
+**Estrai** collegamentiEstrae i collegamenti dai file PDF e li converte in mappe immagine utilizzate in un visualizzatore di eCatalog.
 
-**Genera automaticamente eCatalog con PDF** con più pagine Crea automaticamente un eCatalog dal file PDF. All’eCatalog viene assegnato un nome in base al file PDF caricato. Questa opzione è disponibile solo se il file PDF viene rasterizzato al momento del caricamento.
+**Genera automaticamente eCatalog con** PDF con più pagineCrea automaticamente un eCatalog dal file PDF. All’eCatalog viene assegnato un nome in base al file PDF caricato. Questa opzione è disponibile solo se il file PDF viene rasterizzato al momento del caricamento.
 
 **Risoluzione**
 
@@ -48,42 +48,42 @@ Specifica l’impostazione della risoluzione. Questa impostazione determina la q
 
 Dal menu Spazio colore scegliete uno spazio colore per il file PDF. La maggior parte dei file PDF contiene immagini a colori sia in RGB che in CMYK. Per la visualizzazione online è preferibile lo spazio colore RGB.
 
-**Rileva automaticamente** Conserva lo spazio colore del file PDF.
+**Rileva** automaticamenteConserva lo spazio colore del file PDF.
 
-**Forza come RGB** Converte nello spazio colore RGB.
+**Forza come** RGBConverti nello spazio colore RGB.
 
-**Forza come CMYK** Converte nello spazio colore CMYK.
+**Forza come** CMYKConverte lo spazio colore CMYK.
 
-**Forza come scala di grigio** Consente di convertire nello spazio colore Scala di grigio.
+**Forza come** scala di grigio: consente di convertire lo spazio colore Scala di grigio.
 
 **Profilo colore**
 
 Scegliete un’opzione Profilo colore:
 
-**Converti in sRGB** Converte in sRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
+**Converti in** sRGBConverts in sRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
 
-**Mantieni spazio** colore originale Conserva lo spazio colore originale.
+**Mantieni** spazio colore originale: consente di mantenere lo spazio colore originale.
 
-**Personalizzato da > Per** aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
+**Personalizzata da >** Per aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
-## Ritaglio dello spazio bianco da un file PDF {#cropping-white-space-from-a-pdf-file}
+## Ritaglio dello spazio bianco da un file PDF  {#cropping-white-space-from-a-pdf-file}
 
 1. Per ritagliare automaticamente i pixel dello spazio bianco da un file PDF mentre lo caricate, selezionate il menu Ritaglio e scegliete Rifila.
 1. Specificate le seguenti opzioni:
 
-   **RifilaBasato su** Consente di scegliere se ritagliare in base al colore o alla trasparenza:
+   **Rifila in base** a:
 
-   **Colore** Scegliete l’opzione Colore. Dal menu Angolo scegliete quindi l’angolo del PDF con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
+   **** Colore: scegliete l’opzione Colore. Dal menu Angolo scegliete quindi l’angolo del PDF con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
 
-   **Trasparenza** Scegliere l&#39;opzione Trasparenza.
+   **** Trasparenza: scegliete l’opzione Trasparenza.
 
-   **Tolleranza** Trascinate il cursore per specificare una tolleranza da 0 a 1:
+   **** Tolleranza: trascinate il cursore per specificare una tolleranza da 0 a 1:
 
-   **Ritaglio in base al colore** Specificate 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo del PDF. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+   **Ritaglio in base al** colore: l’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo del PDF. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
 
-   **Ritaglio in base alla trasparenza** Specificate 0 per ritagliare i pixel solo se sono completamente trasparenti; Con valori più vicini a 1 viene invece tollerata una minore trasparenza.
+   **Ritaglio in base alla** trasparenza: l’impostazione 0 ritaglia i pixel solo se sono completamente trasparenti; Con valori più vicini a 1 viene invece tollerata una minore trasparenza.
 
 ## Ritaglio dai lati delle pagine PDF {#cropping-from-the-sides-of-pdf-pages}
 
