@@ -28,13 +28,13 @@ Con la pubblicazione l’eCatalog e il PDF vengono inseriti nei server immagini 
 
 Per pubblicare l’eCatalog sui server immagini Dynamic Media:
 
-1. Click **Publish** on the Global Navigation bar.
+1. Fate clic su **Pubblica** nella barra di navigazione globale.
 1. Nella schermata Pubblica, selezionate un’opzione per Quando (Una tantum o Periodico).
 1. (Facoltativo) Se necessario, inserite un nome per il processo di pubblicazione ma mantenete l’indicazione di data e ora.
 
    Se impostate l’eCatalog in modo da consentire agli utenti di eseguire ricerche per parole chiave, accertatevi che i dati relativi ai termini di ricerca siano pubblicati. Fate clic su Avanzate, quindi su Opzioni avanzate. Nel menu a discesa Pubblica, fate clic su Completa con dati di ricerca. Questa opzione è attiva per impostazione predefinita.
 
-1. Click **Start Publish**.
+1. Fare clic su **Avvia pubblicazione**.
 
 >[!MORELIKETHIS]
 >
