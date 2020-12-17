@@ -27,8 +27,8 @@ Per creare un predefinito per visualizzatori di set 360 gradi, effettuate le seg
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Effettuate una delle seguenti operazioni:
 
-   * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
-   * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+   * Per creare un nuovo predefinito, fate clic su **Aggiungi**, quindi nella finestra di dialogo Aggiungi predefinito per visualizzatore scegliete una piattaforma e fate clic su **Visualizzatore set 360 gradi**.
+   * Per modificare un predefinito esistente, selezionatelo e fate clic su **Modifica**.
 
    Si apre la schermata Configura visualizzatore.
 
