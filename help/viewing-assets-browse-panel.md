@@ -18,15 +18,18 @@ ht-degree: 65%
 ---
 
 
-# Viewing assets in the Browse panel{#viewing-assets-in-the-browse-panel}
+# Visualizzazione delle risorse nel pannello Sfoglia{#viewing-assets-in-the-browse-panel}
 
 Per cambiare il tipo di visualizzazione delle risorse nel pannello Sfoglia, fate clic su uno dei pulsanti Visualizza:
 
-* **Visualizzazione** Griglia Fate clic sul pulsante Visualizzazione griglia per visualizzare le risorse sotto forma di miniature in una griglia. In visualizzazione Griglia, per modificare la dimensione delle immagini in miniatura trascinate il cursore Miniatura.
+* **Griglia:**
+fate clic sul pulsante Visualizzazione griglia per visualizzare le risorse sotto forma di miniature in una griglia. In visualizzazione Griglia, per modificare la dimensione delle immagini in miniatura trascinate il cursore Miniatura.
 
-* **Visualizzazione** elenco Fate clic sul pulsante Visualizzazione elenco per visualizzare le risorse sotto forma di elenco. Per ciascuna risorsa viene riportato il nome, il tipo, la data di creazione e la data dell’ultima modifica. A seconda del tipo di risorsa che state usando, potete ottenere anche altre informazioni. Ad esempio, potete visualizzare le dimensioni di un’immagine e del relativo file.
+* **Visualizzazione**
+elenco: fate clic sul pulsante Visualizzazione elenco per visualizzare le risorse sotto forma di elenco. Per ciascuna risorsa viene riportato il nome, il tipo, la data di creazione e la data dell’ultima modifica. A seconda del tipo di risorsa che state usando, potete ottenere anche altre informazioni. Ad esempio, potete visualizzare le dimensioni di un’immagine e del relativo file.
 
-* **Visualizzazione** Dettagli Selezionate una risorsa, quindi fate clic sul pulsante Visualizzazione dettagli per esaminare la risorsa in visualizzazione Dettagli. In alternativa, potete fare doppio clic su una risorsa oppure selezionarla e scegliere File > Dettagli. Se l’amministratore ha specificato la preferenza Mostra URL, per tutte le risorse vengono visualizzati i rispettivi URL in visualizzazione Dettagli; tuttavia, gli URL diventano attivi solo dopo la pubblicazione della risorsa.
+* **Visualizzazione**
+Dettagli: selezionate una risorsa, quindi fate clic sul pulsante Visualizzazione dettagli per esaminare la risorsa in visualizzazione Dettagli. In alternativa, potete fare doppio clic su una risorsa oppure selezionarla e scegliere File > Dettagli. Se l’amministratore ha specificato la preferenza Mostra URL, per tutte le risorse vengono visualizzati i rispettivi URL in visualizzazione Dettagli; tuttavia, gli URL diventano attivi solo dopo la pubblicazione della risorsa.
 
 >[!TIP]
 >
