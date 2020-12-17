@@ -21,7 +21,7 @@ ht-degree: 71%
 
 Di solito, un eCatalog viene generato a partire da file Adobe PDF contenenti tutti i dati sulle immagini, sui font e sulla grafica vettoriale. Potete anche creare un eCatalog a partire da immagini. Dopo aver preparato i file PDF per il caricamento, fate clic sul pulsante Carica nella barra di navigazione globale per avviarne il caricamento.
 
-## Preparazione dei file PDF {#preparing-your-pdf-files}
+## Preparazione dei file PDF  {#preparing-your-pdf-files}
 
 Preparate i file PDF prima di caricarli in Dynamic Media Classic:
 
@@ -33,33 +33,43 @@ Preparate i file PDF prima di caricarli in Dynamic Media Classic:
 
    Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
-## Opzioni di caricamento dei PDF “best practice” {#best-practice-pdf-upload-options}
+## Opzioni di caricamento dei PDF “best practice”  {#best-practice-pdf-upload-options}
 
 Per informazioni dettagliate sui diversi metodi di caricamento, consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
 
 Selezionate i file da caricare, quindi selezionate le opzioni PDF *best practice*:
 
-* **Ritaglia** Selezionate il menu Ritaglio e scegliete Manuale se le pagine contengono indicatori di taglio, crocini di registro o altri indicatori. Specificate quanti pixel ritagliare dalla parte superiore, destra, inferiore e sinistra delle pagine. Gli indicatori di taglio vengono impostati generalmente in un margine di mezzo pollice. Supponiamo che scegliate 150 come risoluzione di pixel per pollice (impostazione consigliata): inserendo 75, 75, 75, 75 nelle caselle di testo In alto, A destra, In basso e A sinistra, il ritaglio applicato è di mezzo pollice dai margini (a 150 ppi, mezzo pollice corrisponde a 75 pixel).
+* ****
+Ritaglia: selezionate il menu Ritaglio e scegliete Manuale se le pagine contengono indicatori di taglio, crocini di registro o altri indicatori. Specificate quanti pixel ritagliare dalla parte superiore, destra, inferiore e sinistra delle pagine. Gli indicatori di taglio vengono impostati generalmente in un margine di mezzo pollice. Supponiamo che scegliate 150 come risoluzione di pixel per pollice (impostazione consigliata): inserendo 75, 75, 75, 75 nelle caselle di testo In alto, A destra, In basso e A sinistra, il ritaglio applicato è di mezzo pollice dai margini (a 150 ppi, mezzo pollice corrisponde a 75 pixel).
 
-* **Elaborazione** Selezionate il menu Elaborazione e scegliete Rasterizza. Il file PDF deve essere rasterizzato affinché tutte le pagine e le immagini possano essere visualizzate nell’eCatalog.
+* ****
+Elaborazione: selezionate il menu Elaborazione e scegliete Rasterizza. Il file PDF deve essere rasterizzato affinché tutte le pagine e le immagini possano essere visualizzate nell’eCatalog.
 
-* **Estrai termini di ricerca (facoltativo)** Selezionate questa opzione se desiderate che gli utenti possano effettuare ricerche per parole chiave nell’eCatalog.
+* **Estrai termini di ricerca (facoltativo)**
+Selezionate questa opzione se desiderate che gli utenti possano effettuare ricerche per parole chiave nell’eCatalog.
 
-* **Genera automaticamente eCatalog da PDF con più pagine (facoltativo)** Selezionate questa opzione per creare automaticamente un eCatalog al momento del caricamento. Potete accedere direttamente alla schermata eCatalog e iniziare a lavorarci senza dover prima selezionare i file PDF e il comando Genera. L’eCatalog viene denominato in base al file PDF.
+* **Genera automaticamente eCatalog da PDF con più pagine (facoltativo)**
+Selezionate questa opzione per creare automaticamente un eCatalog al momento del caricamento. Potete accedere direttamente alla schermata eCatalog e iniziare a lavorarci senza dover prima selezionare i file PDF e il comando Genera. L’eCatalog viene denominato in base al file PDF.
 
-* **Risoluzione** Dynamic Media Classic consiglia 150 pixel per pollice.
+* ****
+RisoluzioneDynamic Media Classic consiglia 150 pixel per pollice.
 
-* **Colorspace** Dynamic Media Classic consiglia di scegliere Rileva automaticamente. Generalmente, i PDF creati per la stampa sono in CMYK; i PDF per la visualizzazione online sono in RGB. Se un PDF utilizza entrambi gli spazi colore, potete selezionarne uno specifico scegliendo Forza come RGB oppure Forza come CMYK. Nei PDF possono essere utilizzati entrambi gli spazi colore se, ad esempio, la grafica utilizza uno spazio colore CMYK mentre le immagini utilizzano RGB. Se avete caricato un profilo ICC, il relativo nome viene visualizzato nel menu Spazio colore e lo potete scegliere. 
+* ****
+ColorspaceDynamic Media Classic consiglia di scegliere Rileva automaticamente. Generalmente, i PDF creati per la stampa sono in CMYK; i PDF per la visualizzazione online sono in RGB. Se un PDF utilizza entrambi gli spazi colore, potete selezionarne uno specifico scegliendo Forza come RGB oppure Forza come CMYK. Nei PDF possono essere utilizzati entrambi gli spazi colore se, ad esempio, la grafica utilizza uno spazio colore CMYK mentre le immagini utilizzano RGB. Se avete caricato un profilo ICC, il relativo nome viene visualizzato nel menu Spazio colore e lo potete scegliere. 
 
    Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
-* **Profilo** colore Scegliete un’opzione Profilo colore:
+* **Profilo**
+coloreScegliete un’opzione Profilo colore:
 
-* **ConvertTo SRGB** Converte in SRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
+* **Converti in**
+SRGBConverts in SRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
 
-* **Mantieni spazio** colore originale Conserva lo spazio colore originale.
+* **Mantieni**
+spazio colore originale: consente di mantenere lo spazio colore originale.
 
-* **Personalizzato da >** Apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Dynamic Media Classic.
+* **Personalizzata da >**
+Per aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
