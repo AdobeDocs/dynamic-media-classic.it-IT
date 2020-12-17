@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -95,11 +95,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Assemblate immagini o video per il set di offerte. Iniziate nella schermata Set di offerte Test&amp;Target oppure nella vista Griglia o Elenco e usate uno dei seguenti metodi:
 
-   * **Set di offerte Test&amp;Target**
-schermataFate clic su  **[!UICONTROL Genera > Set]** di offerte Test&amp;Target. Trascinate le immagini o i video sulla schermata. Per creare video o immagini di diverse misure, trascinate più copie delle immagini o dei video e impostatene le dimensioni singolarmente.
+   * **Set di offerte Test&amp;Target** schermataFate clic su  **[!UICONTROL Genera > Set]** di offerte Test&amp;Target. Trascinate le immagini o i video sulla schermata. Per creare video o immagini di diverse misure, trascinate più copie delle immagini o dei video e impostatene le dimensioni singolarmente.
 
-   * **Griglia o**
-Visualizzazione elencoSelezionate le immagini o i video, quindi fate clic su  **[!UICONTROL Genera > Set]** di offerte Test&amp;Target.
+   * **Griglia o** Visualizzazione elencoSelezionate le immagini o i video, quindi fate clic su  **[!UICONTROL Genera > Set]** di offerte Test&amp;Target.
 
 1. Facoltativamente, potete selezionare un’immagine o un video e fare clic su **Anteprima**. Nella pagina Anteprima offerte potete modificare le dimensioni e l’aspetto dell’immagine o del video selezionato. Oppure potete modificare tutte le immagini o i video del set di offerte.
 
