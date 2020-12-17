@@ -4,25 +4,25 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Guida ad Adobe Dynamic Media Classic
 breadcrumb-title: Guida a Dynamic Media Classic
-user-guide-description: Scopri di più sull’utilizzo di Dynamic Media Classic
+user-guide-description: Scopri come usare Dynamic Media Classic
 index: y
 translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
 
-# Guida ad Adobe Dynamic Media Classic {#using}
+# Guida ad Adobe Dynamic Media Classic  {#using}
 
 + [Guida ad Adobe Dynamic Media Classic](home.md)
 + [Esercitazione sulle best practice](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [Nuova esperienza di accesso Dynamic Media Classic ora disponibile](new-ui-2020.md)
++ [Nuova esperienza di accesso di Dynamic Media Classic ora disponibile](new-ui-2020.md)
 + [Dynamic Media Newsletter di  Experience League](dynamic-media-newsletter.md)
 + Presentazione  Adobe Dynamic Media Classic {#intro}
-   + [Adobe Dynamic Media Classic Desktop app - Ora disponibile](dynamic-media-classic-desktop-app.md)
+   + [ app Dynamic Media Classic Desktop - Ora disponibile](dynamic-media-classic-desktop-app.md)
    + [Informazioni su Dynamic Media Classic Help](introduction.md)
    + [Risorse per sviluppatori](developer-resources.md)
    + [Novità](whats-new.md)
@@ -33,7 +33,7 @@ ht-degree: 76%
    + [Risorse utili](popular-resources.md)
    + [Video di formazione](training-videos.md)
 + Guida introduttiva {#getting-started}
-   + [Panoramica della piattaforma  Dynamic Media Classic](dmc-platform-overview.md)
+   + [Panoramica della piattaforma Dynamic Media Classic  Adobe](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Accesso e disconnessione](signing-out.md)
    + [Nozioni di base sulla navigazione](navigation-basics.md)
@@ -124,7 +124,7 @@ ht-degree: 76%
    + [Pubblicazione di un set 360 gradi](publishing-spin-set.md)
    + [Impostazione dei predefiniti per il visualizzatore di set 360 gradi](setting-spin-set-viewer-presets.md)
    + [Collegamento di un set 360 gradi a una pagina Web](linking-spin-set-web-page.md)
-+ Template basics {#template-basics}
++ Funzioni di base dei modelli {#template-basics}
    + [Avvio rapido: funzioni di base dei modelli](quick-start-template-basics.md)
    + [Caricamento dei file di modello](uploading-template-files.md)
    + [Creazione di un modello](creating-template.md)
@@ -141,13 +141,13 @@ ht-degree: 76%
    + [Aggiunta di marcatori capitolo a video](adding-chapter-markers-video.md)
    + [Implementazione dei video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md)
    + [Esportazione di video sorgente e codificati](exporting-source-encoded-videos.md)
-+ Mixed media sets {#mixed-media-sets}
++ Set di supporti misti {#mixed-media-sets}
    + [Avvio rapido: set di file multimediali diversi](quick-start-mixed-media-sets.md)
    + [Impostazione di un predefinito per visualizzatori di set di file multimediali diversi](setting-mixed-media-set-viewer.md)
    + [Creazione di un set di file multimediali diversi](creating-mixed-media-set.md)
    + [Pubblicazione di un set di file multimediali diversi](publishing-mixed-media-set.md)
    + [Collegamento di un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentation kit {#analytics-kit}
++  Adobe Analytics strumentazione kit {#analytics-kit}
    + [Avvio rapido: Integrazione di Dynamic Media Classic con  Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Accedere ad Adobe Analytics](log-analytics.md)
    + [Configurazione dei rapporti di Adobe Analytics](configuring-analytics-reports.md)
