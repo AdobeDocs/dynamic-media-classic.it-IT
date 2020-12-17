@@ -31,9 +31,9 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Per creare o modificare un predefinito per visualizzatori nella schermata Predefiniti visualizzatore, effettuate una delle seguenti operazioni:
 
-   **Creazione** Fate Clic Su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore zoom: Personalizzato e fate clic su Aggiungi. Potete anche creare un predefinito per visualizzatori zoom sulla base di uno già esistente. Visualizzate il nome del predefinito, selezionatelo, quindi fate clic sul pulsante Modifica. Nella schermata Configura visualizzatore, inserite un nuovo nome per il predefinito.
+   **** CreazioneFate clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore zoom: Personalizzato e fate clic su Aggiungi. Potete anche creare un predefinito per visualizzatori zoom sulla base di uno già esistente. Visualizzate il nome del predefinito, selezionatelo, quindi fate clic sul pulsante Modifica. Nella schermata Configura visualizzatore, inserite un nuovo nome per il predefinito.
 
-   **Modifica** Consente di visualizzare il nome di un predefinito, selezionarlo, quindi fare clic su **Modifica**.
+   **** ModificaConsente di visualizzare il nome di un predefinito, selezionarlo, quindi fare clic su  **Modifica**.
 
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
 
@@ -51,10 +51,10 @@ Con la funzione Anteprima è possibile verificare in che modo una risorsa viene 
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle delle risorse per selezionare il set di immagini che vi interessa.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. In the Asset window, hover on an asset, then click **Preview**.
+   * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. Nella finestra Risorse, passate il mouse su una risorsa, quindi fate clic su **Anteprima**.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione griglia** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **Anteprima** nella miniatura di una risorsa.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione dettagli** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **Anteprima**.
-   * Nella finestra Risorse, selezionate una risorsa. On the toolbar, click **File** > **Preview**.
+   * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fare clic su **File** > **Anteprima**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
 1. Fate clic sul collegamento di un visualizzatore per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
