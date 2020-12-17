@@ -28,13 +28,17 @@ Prima di caricare i file, accertatevi di creare una struttura e organizzazione d
 
 Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle. Quando selezionate una cartella nella Libreria risorse, il relativo contenuto viene visualizzato nel pannello Sfoglia. Per individuare le cartelle nella struttura, effettuate le seguenti operazioni:
 
-* **Visualizzazione delle sottocartelle** Selezionate l’icona Espandi cartella per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Visualizzazione delle**
+sottocartelleSelezionate l’icona Espandi cartella per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Spostamento di una cartella**&#x200B;È possibile spostare una cartella trascinandola nella nuova posizione oppure selezionando File > Sposta cartella.
+* **Spostamento di una**
+cartella: per spostare una cartella, trascinatela nella nuova posizione oppure scegliete File > Sposta cartella.
 
-* **Nascondere le cartelle** Per comprimere le sottocartelle, fate clic sull’icona Comprimi cartella . Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Nascondere**
+le cartelleSelezionate l’icona Comprimi cartella per comprimere le sottocartelle. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Apertura di una cartella** Selezionate una cartella per visualizzarne il contenuto nel pannello Sfoglia.
+* **Apertura di una**
+cartella: selezionate una cartella per visualizzarne il contenuto nel pannello Sfoglia.
 
 ***Suggerimento **: Per nascondere o visualizzare la Libreria risorse, fate clic sul controllo Espandi/Riduci a sinistra. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.*
 
@@ -50,13 +54,15 @@ Per creare una cartella, effettuate le seguenti operazioni:
    >
    >Potete anche creare cartelle in Dynamic Media Classic quando caricate i file tramite FTP. Se selezionate l’opzione Includi sottocartelle in fase di caricamento tramite FTP, la struttura delle cartelle viene replicata nel computer del sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
 
-## Eliminazione e ridenominazione delle cartelle {#deleting-and-renaming-folders}
+## Eliminazione e ridenominazione delle cartelle  {#deleting-and-renaming-folders}
 
 Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti operazioni:
 
-* **Eliminazione** Fate clic sul pulsante Rimuovi cartella . Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
+* ****
+EliminazioneFate clic sul pulsante Rimuovi cartella . Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
 
-* **Ridenominazione** Fare doppio clic sul nome e immettere un nuovo nome.
+* **Ridenominazione: fate**
+doppio clic sul nome e immettete un nuovo nome.
 
 >[!NOTE]
 >
