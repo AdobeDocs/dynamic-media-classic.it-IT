@@ -18,14 +18,18 @@ ht-degree: 29%
 ---
 
 
-# Selecting assets in the Browse panel{#selecting-assets-in-the-browse-panel}
+# Selezione delle risorse nel pannello Sfoglia{#selecting-assets-in-the-browse-panel}
 
 Nel pannello Sfoglia, selezionate una risorsa da usare. Per selezionare le risorse, effettuate le seguenti operazioni:
 
-* **Una singola risorsa** Fate clic sulla risorsa (se fate doppio clic, la risorsa viene aperta in visualizzazione Dettagli).
+* **Una singola**
+risorsa: fate clic sulla risorsa (se invece fate doppio clic, la risorsa viene aperta in visualizzazione Dettagli).
 
-* **Per selezionare le risorse in diverse aree del pannello Sfoglia, tenete premuto il tasto Ctrl (Windows) o Comando (Macintosh) e fate** clic. Per selezionare risorse adiacenti, tenete premuto il tasto Maiusc e fate clic (fate clic sulla prima risorsa, quindi tenete premuto il tasto Maiusc e fate clic sull’ultima).
+* **Diverse**
+risorse: tenete premuto Ctrl (Windows) o Comando (Macintosh) e fate clic per selezionare le risorse in diverse aree del pannello Sfoglia. Per selezionare risorse adiacenti, tenete premuto il tasto Maiusc e fate clic (fate clic sulla prima risorsa, quindi tenete premuto il tasto Maiusc e fate clic sull’ultima).
 
-* **Tutte le risorse nel pannello** Sfoglia, fate clic su Seleziona > Tutto.
+* **Tutte le risorse nel**
+pannello SfogliaFate clic su Seleziona > Tutto.
 
-* **Nessuna risorsa** Fare clic su Seleziona > Nessuno.
+* **Nessuna**
+risorsaFate clic su Seleziona > Nessuno.
