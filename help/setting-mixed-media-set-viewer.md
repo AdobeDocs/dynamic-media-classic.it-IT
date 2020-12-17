@@ -27,8 +27,8 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Nella pagina Predefiniti visualizzatore, effettuate una delle seguenti operazioni:
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
-   * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+   * Per creare un nuovo predefinito, fate clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore set di file multimediali diversi, quindi fate clic su **Aggiungi**.
+   * Per modificare un predefinito per visualizzatori di set di file multimediali diversi, selezionatelo, quindi fate clic su **Modifica**.
 
    Viene aperta la schermata Configura visualizzatore.
 
@@ -55,15 +55,19 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
 1. Per aggiungere al visualizzatore funzioni per la community Internet (Incorpora, Collegamento, Visita), specificate le opzioni per una delle seguenti operazioni:
 
-   * **E-mail** Fate clic su Attivato per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti fanno clic sul pulsante E-mail durante la visualizzazione del set, si apre un messaggio e-mail contenente il collegamento al set.
+   * **E-**
+mailFate clic su Attivato per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti fanno clic sul pulsante E-mail durante la visualizzazione del set, si apre un messaggio e-mail contenente il collegamento al set.
 
-   * **Incorpora** clic su Live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se desiderato, fate clic su 
-**Individuare** e selezionare un&#39;interfaccia personalizzata per il pulsante.
+   * **IncorporaClic**
+live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se desiderato, fate clic su 
+**Per individuare e** selezionare un&#39;interfaccia personalizzata per il pulsante, fare clic su Sfoglia.
 
-   * **Link** Click Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. Se desiderato, fate clic su 
-**Individuare** e selezionare un&#39;interfaccia personalizzata per il pulsante.
+   * ****
+Link: fai clic su Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. Se desiderato, fate clic su 
+**Per individuare e** selezionare un&#39;interfaccia personalizzata per il pulsante, fare clic su Sfoglia.
 
-   * **Visita** clic 
+   * ****
+VisitClick 
 **Live**. Nella casella Etichetta pulsante visita, digitate il nome da visualizzare nel visualizzatore per il pulsante Visita. Nella casella URL visita, digitate l’URL del sito Web da aprire quando gli utenti fanno clic sul collegamento.
 
 1. Specificate le altre opzioni desiderate. Per visualizzare la descrizione di un’opzione, fate clic sull’icona Suggerimento  accanto all’opzione.
