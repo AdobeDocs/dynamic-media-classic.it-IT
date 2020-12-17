@@ -41,11 +41,11 @@ Dopo aver pubblicato un set di file multimediali diversi, potete ottenere il rel
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-## Aggiungere URL di set di file multimediali diversi a una pagina Web {#add-mixed-media-set-urls-to-your-web-page}
+## Aggiungere URL di set di file multimediali diversi a una pagina Web  {#add-mixed-media-set-urls-to-your-web-page}
 
 Il modo più comune di pubblicare i set di file multimediali diversi consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (ASP o JSP) in cui viene visualizzato il set di file multimediali diversi nel relativo visualizzatore.
 
-## Copia del codice da incorporare di un visualizzatore set di file multimediali diversi {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copia del codice da incorporare di un visualizzatore set di file multimediali diversi  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di file multimediali diversi selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Incorpora codice.
 
