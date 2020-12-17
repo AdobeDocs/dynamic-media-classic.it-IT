@@ -22,19 +22,21 @@ ht-degree: 76%
 
 Le risorse vengono pubblicate sui server immagini Dynamic Media. Potete pubblicare le risorse una sola volta oppure fare in modo che Dynamic Media Classic le pubblichi su una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Potete copiare le chiamate URL da Dynamic Media Classic e aggiungerle al sito Web o all’applicazione.
 
-Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video via HTTP/2. ossia un URL pubblicato o un codice da incorporare per l’immagine o il video può essere integrato con qualsiasi applicazione che accetta una risorsa ospitata. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui i browser e i server comunicano, consentendo una migliore risposta e tempi di caricamento di tutte le risorse Dynamic Media Classic. Consultate [HTTP2 Delivery of Content FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)(Distribuzione HTTP2 di contenuti).
+Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video via HTTP/2. ossia un URL pubblicato o un codice da incorporare per l’immagine o il video può essere integrato con qualsiasi applicazione che accetta una risorsa ospitata. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui i browser e i server comunicano, consentendo una migliore risposta e tempi di caricamento di tutte le risorse Dynamic Media Classic. Consultate [HTTP2 Delivery of Content FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html) (Distribuzione HTTP2 di contenuti - Domande frequenti).
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
 Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, tutte le risorse caricate in Dynamic Media Classic vengono contrassegnate automaticamente per la pubblicazione.
 
-Per ulteriori informazioni, consultate il PDF [Avviso di pubblicazione](/help/assets/rendering-instant-publish-notification.pdf)istantanea.
+Per ulteriori informazioni, consultare il documento PDF [Instant Publish Notice (Avviso di pubblicazione istantanea)](/help/assets/rendering-instant-publish-notification.pdf).
 
 Per contrassegnare le risorse per la pubblicazione, eseguite i seguenti metodi:
 
-* **Pubblica dopo il caricamento** Nella pagina Carica, in basso, selezionate Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
+* **Pubblica dopo il**
+caricamentoNella parte inferiore della pagina Carica, selezionate Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
 
-* **Pubblica dopo il caricamento** Nella finestra di dialogo Opzioni processo, selezionate Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
+* **Pubblica dopo il**
+caricamentoNella finestra di dialogo Opzioni processo, selezionate Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
 
 Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblicazione quando lo sono anche le relative risorse principali. Nella seguente tabella sono illustrate le risorse secondarie contrassegnate automaticamente per la pubblicazione.
 
@@ -47,7 +49,7 @@ Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblica
 
 Quando le immagini principali sono contrassegnate per la pubblicazione, vengono contrassegnate automaticamente anche le immagini derivate. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Potete visualizzare queste immagini derivate nella visualizzazione Dettagli in Generate e derivate.
 
-## Creazione di un processo di pubblicazione {#creating-a-publish-job}
+## Creazione di un processo di pubblicazione  {#creating-a-publish-job}
 
 Potete creare un processo di pubblicazione per pubblicare le risorse che avete caricato sui server Dynamic Media Classic ma che non sono ancora state pubblicate automaticamente. Potete effettuare un processo di pubblicazione una tantum oppure pianificare processi periodici. Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione di risorse già pubblicate.
 
@@ -77,7 +79,7 @@ Per creare un processo di pubblicazione una tantum, selezionate l’opzione Una 
 
 Per pubblicare un processo di pubblicazione da eseguire in una data successiva, selezionate il menu Quando e scegliete Pianifica per un momento successivo. Usate quindi il cursore Calendar and Time per selezionare un giorno e un’ora in cui eseguire il processo di pubblicazione.
 
-### Creazione di un processo di pubblicazione periodico {#creating-a-recurring-publish-job}
+### Creazione di un processo di pubblicazione periodico  {#creating-a-recurring-publish-job}
 
 Per creare un processo di pubblicazione periodico, selezionate l’opzione Periodico nella pagina Pubblica.
 
@@ -93,17 +95,21 @@ Consultate [Creazione di un intervallo personalizzato per un processo di caricam
 
 Potete visualizzare le Opzioni avanzate nella pagina Pubblica e sceglierle per gestire un processo di pubblicazione:
 
-* **Pubblica su** Scegliete un tipo di server per pubblicare le risorse solo su un server specifico, non su tutti i server.
+* **Pubblica**
+su: scegliete un tipo di server per pubblicare le risorse solo su un server specifico, non su tutti i server.
 
-* **Pubblica** Per impostazione predefinita, Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate in precedenza (opzione Nuovo dall’ultima pubblicazione). Potete tuttavia scegliere Pubblicazione completa per pubblicare anche le risorse aggiornate o modificate dopo l’ultima pubblicazione. Scegliete Completa con dati di ricerca se pubblicate un eCatalog e desiderate consentire ai lettori di effettuare ricerche in base alla parola chiave.
+* ****
+PubblicaPer impostazione predefinita, Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate in precedenza (opzione Nuovo dall’ultima pubblicazione). Potete tuttavia scegliere Pubblicazione completa per pubblicare anche le risorse aggiornate o modificate dopo l’ultima pubblicazione. Scegliete Completa con dati di ricerca se pubblicate un eCatalog e desiderate consentire ai lettori di effettuare ricerche in base alla parola chiave.
 
-* **Esegui processo come** Scegliere un nome utente dall’elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, verrà associato un processo di pubblicazione a un utente.
+* **Esegui processo**
+come: scegliete un nome utente dall’elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, verrà associato un processo di pubblicazione a un utente.
 
-**Notifica** HTTP Inserite un URL per attivare i processi di pubblicazione successivi.
+**Notifica HTTP:**
+inserite un URL per attivare i processi di pubblicazione successivi.
 
 Consultate [Uso di un processo di caricamento o pubblicazione come trigger](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).
 
-## Annullamento di un processo di pubblicazione {#canceling-a-publish-job}
+## Annullamento di un processo di pubblicazione  {#canceling-a-publish-job}
 
 Potete annullare un processo di pubblicazione in corso. Se siete un amministratore, potete inoltre annullare un processo di pubblicazione in corso dalla pagina Processi della società.
 
@@ -113,7 +119,7 @@ Per annullare un processo di pubblicazione, aprite la pagina Processi e fate cli
 >
 >quando annullate un processo di pubblicazione, il relativo stato diventa “interruzione in corso” finché il processo raggiunge il punto in cui può essere interrotto in maniera sicura. Se il processo di pubblicazione viene interrotto durante il recupero dei dati dal database, l’interruzione può richiedere alcuni minuti.
 
-## Pubblicazione manuale di risorse {#manually-publishing-assets}
+## Pubblicazione manuale di risorse  {#manually-publishing-assets}
 
 Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblicate dei set, ad esempio un set di immagini o un set video adattivo, vengono pubblicati sia il set (“elemento principale”) sia tutti i membri (“elementi secondari”) all’interno del set.
 
@@ -129,7 +135,7 @@ Le risorse non pubblicate sono indicate nell’interfaccia utente tramite un’i
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, fate clic sull’icona rotonda grigia barrata a sinistra del nome della risorsa.
 
-## Annullamento manuale della pubblicazione di risorse {#manually-unpublishing-assets}
+## Annullamento manuale della pubblicazione di risorse  {#manually-unpublishing-assets}
 
 Potete annullare la pubblicazione di singole risorse manualmente. Quando si annulla la pubblicazione di un set, ad esempio un set di campioni o un eCatalog, il set (“elemento principale”) diventa Non pubblicato. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
@@ -141,11 +147,11 @@ Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate una o più risorse pubblicate.
 
-      On the Global Navigation Bar, click **File > **Unpublish**.
+      Nella barra di navigazione globale, fate clic su **File > **Annulla pubblicazione**.
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, fate clic sull’icona verde rotonda con il segno di spunta a sinistra del nome della risorsa.
 
-## Visualizzazione della cronologia di pubblicazione di una risorsa {#getting-an-asset-s-publish-history}
+## Visualizzazione della cronologia di pubblicazione di una risorsa  {#getting-an-asset-s-publish-history}
 
 L’ultima data di pubblicazione di una risorsa viene visualizzata nella visualizzazione Dettagli nella parte superiore del pannello. Per visualizzare ulteriori dettagli sulla cronologia di pubblicazione, aprite il pannello Server per cronologia e pubblicati nella visualizzazione Dettagli. Questo pannello mostra la data di pubblicazione della risorsa e i server su cui è stata pubblicata.
 
