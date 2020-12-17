@@ -20,7 +20,7 @@ ht-degree: 63%
 
 # Avvio rapido: set di campioni{#quick-start-swatch-sets}
 
-I set di campioni per elementi multimediali dinamici classici offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di campioni dinamico, gli utenti possono visualizzare uno stesso elemento con diversi colori, materiali, texture, finiture o stoffa semplicemente facendo clic su una miniatura.
+I set di campioni di Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di campioni dinamico, gli utenti possono visualizzare uno stesso elemento con diversi colori, materiali, texture, finiture o stoffa semplicemente facendo clic su una miniatura.
 
 **Avvio rapido**
 
@@ -50,9 +50,9 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
 **5. Pubblicazione di un set di campioni**
 
-Quando un set di campioni viene pubblicato, viene inserito nei server Dynamic Media Classic e viene attivata la stringa URL.
+Quando si pubblica un set di campioni, questo viene inserito sui server Dynamic Media Classic e viene attivata la stringa URL.
 
-Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+Fate clic sull&#39;icona **Contrassegna per pubblicazione** a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, fate clic su **Pubblica**. Nella schermata Pubblica, fate clic su **Avvia pubblicazione**.
 
 Consultate [Pubblicazione](publishing-files.md#publishing-files).
 
