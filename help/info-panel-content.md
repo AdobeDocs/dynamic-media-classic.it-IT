@@ -29,13 +29,13 @@ Potete gestire la configurazione e i dati del pannello Info utilizzando le segue
 * La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed di dati con l’opzione file CSV per il testo di rollover.
 * La visualizzazione Mappe pagine fornisce un’opzione di anteprima del file xml visualizzato per mappe immagine specifiche.
 
-## Impostazione di un modello di risposta per gli eCatalog {#set-up-a-response-template-for-ecatalogs}
+## Configurare un modello di risposta per gli eCatalog {#set-up-a-response-template-for-ecatalogs}
 
 Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizzazione del testo in un pannello Info. I modelli di risposta predefiniti determinano come le informazioni vengono presentate nel pannello Info: il numero di colonne e righe, la dimensione dei caratteri, il font e così via. Potete selezionare un modello di risposta predefinito o crearne uno personalizzato.
 
 >[!NOTE]
 >
->potete anche impostare il modello di risposta nel predefinito del visualizzatore. To use the Response Template in the Viewer Preset instead, add `fmt=1` to the end of the Information Server URL in the Viewer Preset.
+>potete anche impostare il modello di risposta nel predefinito del visualizzatore. Per usare il modello di risposta nel predefinito per visualizzatori, aggiungete `fmt=1` alla fine dell’URL del server informazioni nel predefinito per visualizzatori.
 >
 >Consultate [Impostazione dei predefiniti per il visualizzatore di eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
@@ -52,9 +52,9 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
    * Con un valore più elevato i dati sono relativamente stabili e non richiedono un aggiornamento frequente durante il giorno. Il valore predefinito è dieci ore.
 
-1. Click **Publish**.
+1. Fare clic su **Pubblica**.
 
-## Import source content for the Info Panel in eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}
+## Importare il contenuto sorgente per il pannello Info negli eCatalog {#import-source-content-for-the-info-panel-in-ecatalogs}
 
 Potete usare un file con valori separati da virgole (CSV) o delimitati da tabulazioni (TXT) per il testo sorgente per il pannello Info di un eCatalog. Per i file delimitati da tabulazioni è richiesta la codifica UTF16 (Unicode). Potete importare tipi di file diversi utilizzando metodi diversi.
 
@@ -64,7 +64,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 * Verificate che il primo elemento o la prima colonna di dati sia un identificatore di rollover (associato al valore rollover_key degli URL della mappa immagine).
 * Verificate che ciascun elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento da sostituire nel modello di risposta (la prima colonna viene sostituita da $1$, la seconda colonna da $2$ e così via).
 
-### Import CSV content into eCatalogs from an externally hosted location {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importare contenuti CSV negli eCatalog da un percorso esterno {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Fate doppio clic sull’eCatalog per aprirlo in visualizzazione dettagli.
 1. Fate clic nel pannello Feed di dati per pannello Info per aprirlo.
@@ -72,7 +72,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 1. (Facoltativo) Specificate quando aggiornare il contenuto mediante i menu Pianifica aggiornamento e fate clic su Aggiungi. Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario di aggiornamento, selezionatelo e fate clic su Elimina.
 1. (Facoltativo) Fate clic su Esegui aggiornamento ora per aggiornare immediatamente il contenuto.
 
-### Importare un file CSV o delimitato da tabulazioni {#import-a-tab-delimited-or-csv-file}
+### Importare un file CSV o delimitato da tabulazioni  {#import-a-tab-delimited-or-csv-file}
 
 <!-- 
 
@@ -87,7 +87,7 @@ Last Modified Date:
 1. Fate doppio clic sull’eCatalog per aprirlo in visualizzazione dettagli.
 1. Fate clic sul pannello Impostazioni pannello Info per aprirlo.
 1. **Fate clic su Carica contenuto** S7Info.
-1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
+1. Fare clic su **Sfoglia**, selezionare il file TXT delimitato da tabulazioni, CSV o SSV che si desidera utilizzare, quindi fare clic su **Apri**.
 1. Fate clic su **Carica**.
 
 Dynamic Media Classic invia un messaggio e-mail in cui viene comunicato se il caricamento ha avuto esito positivo o meno.
