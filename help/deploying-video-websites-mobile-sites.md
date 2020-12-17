@@ -26,7 +26,7 @@ I siti Web, i siti mobili e le applicazioni desktop accedono al contenuto del se
 >
 >l’URL o il codice da incorporare diventa attivo solo dopo che la risorsa è stata pubblicata.
 
-## Pubblicazione dei video {#publishing-video}
+## Pubblicazione dei video  {#publishing-video}
 
 La pubblicazione di un video consente ai server Dynamic Media Classic di distribuire i video al sito Web, al sito mobile o all’applicazione.
 
@@ -63,22 +63,22 @@ Consultate anche [Incorporamento di un visualizzatore video in una pagina Web](d
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set di video adattivi che desiderate collegare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Fate clic su **Visualizzazione griglia** o **Visualizzazione elenco**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, nella sezione Streaming HTTP, fate clic su **Copia URL** a destra del visualizzatore desiderato. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+   * Fate clic su **Visualizzazione griglia** o **Visualizzazione elenco**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, nella sezione Streaming HTTP, fate clic su **Copia URL** a destra del visualizzatore desiderato. Come procedura ottimale, copiate l&#39;URL associato al visualizzatore `Universal_HTML5_Video`.
    * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. Come procedura ottimale, copiate l&#39;URL associato al visualizzatore `Universal_HTML5_Video`.
 
    * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. Come procedura ottimale, copiate l&#39;URL associato al visualizzatore `Universal_HTML5_Video`.
 
    * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. Come procedura ottimale, copiate l&#39;URL associato al visualizzatore `Universal_HTML5_Video`.
 
 1. Inserite il collegamento URL per il video HTML5 nel sito Web e nel sito mobile.
 
-## Incorporamento di un visualizzatore video in una pagina Web {#embedding-the-video-viewer-on-a-web-page}
+## Incorporamento di un visualizzatore video in una pagina Web  {#embedding-the-video-viewer-on-a-web-page}
 
 Per riprodurre il video incorporato nella pagina Web, utilizzate la funzione Incorpora codice. Puoi copiare il codice da incorporare negli Appunti, per poi incollarlo nelle pagine web. La modifica del codice non è consentita nella finestra di dialogo Incorpora codice.
 
@@ -90,18 +90,18 @@ Consultate anche [Collegamento di un URL per video a un sito mobile o a un sito 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set video adattivo di cui desiderate copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Fate clic su **Visualizzazione griglia** o **Visualizzazione elenco**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, in Streaming HTTP, fate clic su **Incorpora codice** a destra del visualizzatore desiderato. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+   * Fate clic su **Visualizzazione griglia** o **Visualizzazione elenco**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, in Streaming HTTP, fate clic su **Incorpora codice** a destra del visualizzatore desiderato. Come procedura ottimale, fate clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
    * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura video, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. Come procedura ottimale, fate clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
 
    * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. Come procedura ottimale, fate clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
 
    * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. Come procedura ottimale, fate clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
 
 1. Nella finestra di dialogo Codice da incorporare, fate clic su **Copia negli Appunti**.
 
@@ -110,9 +110,9 @@ Consultate anche [Collegamento di un URL per video a un sito mobile o a un sito 
 1. Fai clic su **Chiudi**.
 1. Incollate il codice da incorporare nelle pagine Web.
 
-### Implementing embed code for using HTML5 video with MP4 video assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implementazione del codice da incorporare per utilizzare video HTML5 con risorse video MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-If you do not use the Dynamic Media Classic HTML5 video player, but instead want to use the native HTML5 `<video>` tag with MP4 video assets, you can use the following embed code sample:
+Se non usate il lettore video Dynamic Media Classic HTML5, ma desiderate utilizzare il tag nativo HTML5 `<video>` con risorse video MP4, potete usare il seguente esempio di codice da incorporare:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -122,43 +122,43 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 </video>
 ```
 
-* Replace `"S7 video thumbnail URL"` with the video’s thumbnail URL. Si tratta della miniatura del video che l’utente vede prima che venga riprodotto il video.
+* Sostituite `"S7 video thumbnail URL"` con l’URL della miniatura del video. Si tratta della miniatura del video che l’utente vede prima che venga riprodotto il video.
 
    Consultate [Reperimento degli URL delle miniature video](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
-* Replace `"S7 OGG video asset URL (no player)"` with the video’s progressive URL for OGG video.
+* Sostituite `"S7 OGG video asset URL (no player)"` con l’URL progressivo del video OGG.
 
    Consultate [Collegamento di un URL per video a un sito mobile o a un sito Web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-* Sostituisci `"S7 MP4 mobile progressive video asset URL (no player)"` con l’URL progressivo mobile del video.
+* Sostituite `"S7 MP4 mobile progressive video asset URL (no player)"` con l’URL progressivo mobile del video.
 
    Consultate [Collegamento di un URL per video a un sito mobile o a un sito Web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-## Implementazione di video mediante un lettore video di terze parti {#deploying-video-using-a-third-party-video-player}
+## Implementazione di video mediante un lettore video di terze parti  {#deploying-video-using-a-third-party-video-player}
 
-Se utilizzate un lettore video di terze parti o personalizzato anziché un visualizzatore video Dynamic Media Classic, potete ottenere l’URL video diretto che funziona per lo streaming di video con bitrate multiplo HLS o per il download progressivo.
+Se utilizzate un lettore video di terze parti o personalizzato anziché un visualizzatore video Dynamic Media Classic, potete ottenere l’URL video diretto che funziona per lo streaming video con bitrate multiplo HLS o per il download progressivo.
 
 **Per implementare video mediante un lettore video di terze parti**
 
-1. In Dynamic Media Classic, on the Global Navigation bar, click **Setup** > **Application Setup** > **General Settings**.
+1. In Dynamic Media Classic, nella barra di navigazione globale, fate clic su **Configurazione** > **Impostazione applicazione** > **Impostazioni generali**.
 1. A seconda del tipo di URL che desiderate usare, effettuate una delle seguenti operazioni:
 * Per generare un URL diretto per lo streaming video HLS (bitrate multiplo)
 
-   Nella pagina Impostazioni **generali** applicazione, nel campo di testo Nome **server** pubblicato del gruppo **Server** , create l’URL diretto utilizzando la sintassi seguente: `server/is/content/company/folder/filename.m3u8`
-Ad esempio, se il nome del server pubblicato `https://s7d9.scene7.com/.` utilizza la sintassi del passaggio 2, l’URL diretto potrebbe essere simile al seguente:
+   Nella pagina **Impostazioni generali applicazione**, nel gruppo **Server**, nel campo di testo **Nome server pubblicato**, create l&#39;URL diretto utilizzando la sintassi seguente: `server/is/content/company/folder/filename.m3u8`
+Ad esempio, se il nome del server pubblicato è `https://s7d9.scene7.com/.` Utilizzando la sintassi del passaggio 2, l’URL diretto potrebbe essere simile al seguente:
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Per generare un URL diretto per lo streaming video HLS (bitrate singolo)
 
-   On the **Application General Settings** page, in the **Servers** group, in the **HLS Streaming Server Name** text field, construct the direct URL using the following syntax:
+   Nella pagina **Impostazioni generali applicazione**, nel gruppo **Server**, nel campo di testo **HLS Streaming Server Name**, generare l&#39;URL diretto utilizzando la sintassi seguente:
    `server/company/folder/filename.ext.m3u8`
-Ad esempio, se il nome del server di streaming HLS è `https://s7mbrstream.scene7.com/hls-vod/`. in base alla sintassi del punto 2 l’URL diretto potrebbe essere:
+Ad esempio, se il nome del server di streaming HLS è  `https://s7mbrstream.scene7.com/hls-vod/`. in base alla sintassi del punto 2 l’URL diretto potrebbe essere:
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Per generare un URL diretto per video progressivo
 
-   Nella pagina **Impostazioni generali applicazione**, nel campo di testo **Nome server video progressivo** che si trova nel gruppo **Server**, create l’URL diretto con la sintassi seguente: `server/company/folder/filename`
-For example, suppose the progressive video server name is `https://s7d9.scene7.com/is/content/`. in base alla sintassi del punto 2 l’URL diretto potrebbe essere:
+   Nella pagina **Impostazioni generali applicazione**, nel campo di testo **Nome server video progressivo** che si trova nel gruppo **Server**, create l’URL diretto con la sintassi seguente:  `server/company/folder/filename`
+Ad esempio, se il nome del server video progressivo è  `https://s7d9.scene7.com/is/content/`. in base alla sintassi del punto 2 l’URL diretto potrebbe essere:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Utilizzo delle miniature video {#working-with-video-thumbnails}
@@ -177,7 +177,7 @@ Consultate [Pubblicazione dei video](deploying-video-websites-mobile-sites.md#pu
 
 Una volta effettuata la pubblicazione, potete reperire gli URL delle miniature video nella visualizzazione Dettagli del pannello URL e codice da incorporare. Fate clic su **Copia URL** a destra della miniatura del video miniatura per copiarne l’URL.
 
-### Modifica dei fotogrammi poster nei visualizzatori video {#modifying-poster-frames-in-video-viewers}
+### Modifica dei fotogrammi poster nei visualizzatori video  {#modifying-poster-frames-in-video-viewers}
 
 Il *fotogramma poster* è il fotogramma iniziale che viene visualizzato nei visualizzatori per video prima che venga riprodotto il video. Dynamic Media Classic utilizza le miniature video come fotogrammi poster.
 
@@ -185,7 +185,7 @@ Potete applicare al fotogramma poster i modificatori di immagini. Ad esempio, po
 
 Consultate [Aggiunta o modifica di un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)
 
-Consultate [www.adobe.com/go/learn_s7_image_server_guide_en](https://www.adobe.com/go/learn_s7_image_server_guide_en).
+Vedere [www.adobe.com/go/learn_s7_image_server_guide_en](https://www.adobe.com/go/learn_s7_image_server_guide_en).
 
 Potete inoltre modificare le miniature video aggiungendo dei modificatori ai relativi URL.
 
