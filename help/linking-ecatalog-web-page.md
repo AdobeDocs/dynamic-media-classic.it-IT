@@ -26,7 +26,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 >
 >l’URL non è attivo finché non pubblicate la risorsa.
 
-## Copia dell’URL di un eCatalog {#copying-an-ecatalog-url}
+## Copia dell’URL di un eCatalog  {#copying-an-ecatalog-url}
 
 1. Nel pannello delle risorse, nell’elenco a discesa Mostra, fate clic su **Catalogo**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene l’eCatalog di cui desiderate copiare il codice incorporato.
@@ -45,11 +45,11 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-## Aggiunta di URL di eCatalog alla pagina Web {#adding-ecatalog-urls-to-your-web-page}
+## Aggiunta di URL di eCatalog alla pagina Web  {#adding-ecatalog-urls-to-your-web-page}
 
 Il modo più comune di pubblicare un eCatalog consiste nell’inserire nella pagina Web un collegamento sotto forma di miniatura della copertina dell’eCatalog. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento del visualizzatore HTML5 per eCatalog nella guida di riferimento dei visualizzatori di Adobi guida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
+Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento del visualizzatore HTML5 per eCatalog nella guida di riferimento dei visualizzatori di Adobi ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
 
 ## Copia del codice da incorporare di un visualizzatore di eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
