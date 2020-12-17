@@ -22,9 +22,9 @@ ht-degree: 64%
 
 Lo zoom consente di visualizzare interattivamente i dettagli ad alta risoluzione nelle immagini. Potete ad esempio visualizzare i colori, le opzioni, le angolazioni e i dettagli di un’immagine in un visualizzatore integrato dinamico e completamente configurabile. Questo visualizzatore può essere incorporato in una pagina Web o visualizzato in una finestra a comparsa. Potete esaminare le immagini nel dettaglio e scorrere le immagini ad alta risoluzione per controllarle attentamente. Lo zoom offre ai clienti un’esperienza interattiva, accattivante e informativa.
 
-Dynamic Media Classic offre anche lo zoom guidato, uno strumento utile per evidenziare le funzioni importanti di un’immagine. Ad esempio, per richiamare l’attenzione degli utenti su un logo, potete creare una destinazione di zoom per il logo. Quando gli utenti fanno clic su questa destinazione di zoom, applicano lo zoom al logo. 
+Dynamic Media Classic offre anche lo zoom guidato, uno strumento che consente di evidenziare le funzioni importanti di un’immagine. Ad esempio, per richiamare l’attenzione degli utenti su un logo, potete creare una destinazione di zoom per il logo. Quando gli utenti fanno clic su questa destinazione di zoom, applicano lo zoom al logo. 
 
-Tutte le immagini di zoom vengono create e servite da singoli elementi grafici, immagini e attributi basati su database principali. Lo zoom Dynamic Media Classic riduce notevolmente i tempi e i costi di produzione e distribuzione delle immagini. Potete usare i visualizzatori zoom per ingrandire e ridurre le immagini. Il visualizzatore zoom include pulsanti su cui potete fare clic per applicare lo zoom e scorrere l’immagine (panning). Per scorrere l’immagine potete anche trascinare sullo schermo. Usando i predefiniti del visualizzatore zoom, potete configurare il visualizzatore zoom usato per applicare lo zoom alle immagini.
+Tutte le immagini di zoom vengono create e servite da singoli elementi grafici, immagini e attributi basati su database principali. Lo zoom di Dynamic Media Classic riduce notevolmente i tempi e i costi di produzione e distribuzione delle immagini. Potete usare i visualizzatori zoom per ingrandire e ridurre le immagini. Il visualizzatore zoom include pulsanti su cui potete fare clic per applicare lo zoom e scorrere l’immagine (panning). Per scorrere l’immagine potete anche trascinare sullo schermo. Usando i predefiniti del visualizzatore zoom, potete configurare il visualizzatore zoom usato per applicare lo zoom alle immagini.
 
 **Avvio rapido**
 
@@ -32,7 +32,7 @@ Questa sezione è stata progettata come punto di partenza per imparare a usare l
 
 **1. Caricamento di immagini di zoom**
 
-Per iniziare, caricate le immagini di zoom su Dynamic Media Classic. Per un ingrandimento ottimale, Dynamic Media Classic consiglia di disporre di almeno 2000 pixel per il lato più lungo.
+Per iniziare, caricate le immagini di zoom in Dynamic Media Classic. Per uno zoom ottimale, Dynamic Media Classic consiglia di ottenere immagini di almeno 2000 pixel per il lato più lungo.
 
 Per caricare le immagini dal computer o dalla rete in una cartella di Dynamic Media Classic, fate clic sul pulsante Carica nella barra di navigazione globale. Consultate [Caricamento delle immagini zoom](uploading-zoom-images.md#uploading_zoom_images).
 
@@ -60,10 +60,10 @@ Vengono visualizzati i pulsanti Zoom. Potete visualizzare l’aspetto delle imma
 
 **5. Pubblicazione di immagini di zoom**
 
-Quando pubblicate le immagini di zoom, queste vengono inserite sui server di immagini per elementi multimediali dinamici in modo che possano essere distribuite sul sito Web o l’applicazione. Come parte del processo di pubblicazione, Dynamic Media Classic attiva le stringhe URL. Queste stringhe URL richiamano le immagini dai server immagini per file multimediali dinamici al sito Web o all’applicazione.
+Quando pubblicate le immagini di zoom, queste vengono inserite sui server immagini Dynamic Media in modo che possano essere distribuite sul sito Web o l’applicazione. Come parte del processo di pubblicazione, Dynamic Media Classic attiva le stringhe URL. Queste stringhe URL richiamano le immagini dai server immagini Dynamic Media al sito Web o all’applicazione.
 
 Per avviare una pubblicazione, fate clic sul pulsante Pubblica nella barra di navigazione globale. Nella schermata Pubblica, fate clic sul pulsante Avvia pubblicazione. Consultate [Pubblicazione delle immagini di zoom](publishing-zoom-images.md#publishing_zoom_images).
 
 **6. Collegamento di visualizzatori zoom alla pagina Web**
 
-Dynamic Media Classic crea le stringhe URL di richiamo necessarie per lo zoom delle immagini e le attiva quando pubblicate le immagini sui server immagini per elementi multimediali dinamici. Potete copiare queste stringhe URL dalla schermata Anteprima. Dopo essere state copiate, le stringhe URL sono disponibili sui siti Web e le applicazioni. Consultate [Collegamento di visualizzatori zoom alla pagina Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages)
+Dynamic Media Classic crea le stringhe URL per richiamare le immagini e le attiva quando pubblicate le immagini sui server immagini Dynamic Media. Potete copiare queste stringhe URL dalla schermata Anteprima. Dopo essere state copiate, le stringhe URL sono disponibili sui siti Web e le applicazioni. Consultate [Collegamento di visualizzatori zoom alla pagina Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages)
