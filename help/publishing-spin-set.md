@@ -26,7 +26,7 @@ Quando si pubblica un set 360 gradi, le immagini del set vengono inserite nei se
 
 Per poter copiare il set 360 gradi nei server immagini Dynamic Media Classic, contrassegnate il set 360 gradi per la pubblicazione. Per contrassegnare il set 360 gradi per la pubblicazione, nel pannello Sfoglia fate clic sull’icona Contrassegna per pubblicazione  a sinistra del nome. Quando il set 360 gradi è contrassegnato per la pubblicazione, anche tutte le immagini in esso contenute sono contrassegnate per la pubblicazione.
 
-## Pubblicazione del set 360 gradi {#publishing-the-spin-set}
+## Pubblicazione del set 360 gradi  {#publishing-the-spin-set}
 
 Per pubblicare un set 360 gradi sui server immagini Dynamic Media, fate clic sul pulsante Pubblica nella barra di navigazione globale. Quindi, selezionate un’opzione Quando, immettete un nome per il processo di pubblicazione (facoltativo) e fate clic sul pulsante Avvia pubblicazione.
 
