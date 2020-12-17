@@ -21,7 +21,7 @@ ht-degree: 66%
 
 I predefiniti per il visualizzatore di eCatalog determinano lo stile, il comportamento e l’aspetto dei visualizzatori eCatalog. Dynamic Media Classic fornisce predefiniti per visualizzatori di eCatalog e gli amministratori possono creare nuovi predefiniti per visualizzatori di eCatalog.
 
-Per creare un nuovo predefinito, potete partire da zero o iniziare da un predefinito per visualizzatori di eCatalog preimpostato per i contenuti multimediali dinamici di Classic e salvarlo con un nuovo nome. Potete creare predefiniti per visualizzatore di eCatalog personalizzati per presentare ad esempio il materiale stampato con i colori della vostra azienda.
+Per creare un nuovo predefinito, potete partire da zero o iniziare da un predefinito per visualizzatore di eCatalog fornito da Dynamic Media Classic e salvarlo con un nuovo nome. Potete creare predefiniti per visualizzatore di eCatalog personalizzati per presentare ad esempio il materiale stampato con i colori della vostra azienda.
 
 I predefiniti per visualizzatore di eCatalog offrono diverse impostazioni per passare da una pagina all’altra, effettuare zoom e ricerche e scegliere le interfacce. L’aspetto di questi controlli e del visualizzatore dipende dalla scelta del predefinito per il visualizzatore di eCatalog.
 
@@ -30,11 +30,13 @@ Per creare un predefinito per visualizzatore di eCatalog, effettuate le operazio
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Nella schermata Predefiniti visualizzatori, create un predefinito per visualizzatore di eCatalog iniziando da zero o da un predefinito esistente:
 
-   * **Per creare un predefinito** per visualizzatori di eCatalog, fate clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore eCatalog e fate clic su 
+   * **Creazione di un**
+predefinito per visualizzatore di eCatalogFate clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore eCatalog e fate clic su 
 **Aggiungi**.
 
-   * **Modifica di un predefinito** per visualizzatori di eCatalog Selezionate un predefinito per visualizzatori di eCatalog, quindi fate clic su Modifica. Clic 
-**Dopo aver creato il predefinito, Salva con nome** .
+   * **Modifica di un**
+predefinito per visualizzatori di eCatalogSelezionate un predefinito per visualizzatori di eCatalog, quindi fate clic su Modifica. Clic 
+**Dopo aver** completato la creazione del predefinito, salvate Asas.
 
 1. Nella schermata Configura visualizzatore, inserite un nome per il predefinito del visualizzatore eCatalog.
 1. Nella schermata Configura visualizzatore, impostate le opzioni desiderate.
@@ -47,11 +49,11 @@ Per creare un predefinito per visualizzatore di eCatalog, effettuate le operazio
 
    | Token | Sostituito da | Note |
    |--- |--- |--- |
-   | `$1$` | valore rollover_key | The item identifier from the `<area>` element of the map. |
+   | `$1$` | valore rollover_key | Identificatore elemento dall&#39;elemento `<area>` della mappa. |
    | `$2$` | frame | Numero di sequenza del fotogramma attualmente visualizzato nel set di immagini. |
    | `$3$` | imageroot | Primo elemento del percorso del primo elemento specificato nel comando dell’immagine (in genere si tratta dell’ID del catalogo di immagini per la voce del catalogo che specifica il set di immagini). |
 
-1. (Facoltativo) Nelle Impostazioni pannello Info, nella casella Modello di risposta, digitate il testo da visualizzare se in Dynamic Media Classic viene rilevato un errore nel recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
+1. (Facoltativo) Nelle Impostazioni pannello Info, nella casella Modello di risposta, digitate il testo da visualizzare se Dynamic Media Classic rileva un errore nel recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
 
 >[!NOTE]
 >
@@ -60,7 +62,7 @@ Per creare un predefinito per visualizzatore di eCatalog, effettuate le operazio
 1. Fate clic su **Salva**.
 1. Fate clic su Impostazione predefinita se desiderate che il predefinito per visualizzatore di eCatalog creato sia quello usato per visualizzare l’eCatalog sulla pagina Web.
 
-To delete an eCatalog Viewer Preset, select it on the Viewer Presets screen and click **Delete**.
+Per eliminare un predefinito per visualizzatori di eCatalog, selezionatelo nella schermata Predefiniti visualizzatore e fate clic su **Elimina**.
 
 >[!MORELIKETHIS]
 >
