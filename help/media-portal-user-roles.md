@@ -22,13 +22,17 @@ ht-degree: 73%
 
 In Media Portal sono disponibili i seguenti ruoli, ognuno con diritti di accesso e autorizzazioni diversi. Quando registrate un nuovo utente, assegnate all’utente uno dei seguenti ruoli:
 
-* **Amministratore** di Media Portal Può aggiungere e rimuovere amministratori, collaboratori e utenti. L’amministratore può anche impostare i diritti di accesso ai gruppi, gestire gli account FTP, assegnare formati di conversione (predefiniti) approvati dall’azienda, inviare e-mail agli utenti di Media Portal e visualizzare rapporti sull’uso e l’archiviazione del portale.
+* **Media Portal**
+Administrator: consente di aggiungere e rimuovere amministratori, collaboratori e utenti. L’amministratore può anche impostare i diritti di accesso ai gruppi, gestire gli account FTP, assegnare formati di conversione (predefiniti) approvati dall’azienda, inviare e-mail agli utenti di Media Portal e visualizzare rapporti sull’uso e l’archiviazione del portale.
 
-* **Utente** Media Portal Ha accesso a cartelle e file. Un utente può solo cercare, visualizzare le anteprime e scaricare i file. Questo ruolo è adatto per i partner di canale o di servizi che devono poter accedere alle risorse approvate dall’azienda.
+* **Media Portal**
+User: consente di accedere a cartelle e file. Un utente può solo cercare, visualizzare le anteprime e scaricare i file. Questo ruolo è adatto per i partner di canale o di servizi che devono poter accedere alle risorse approvate dall’azienda.
 
-* **Collaboratore** Media Portal Può caricare, visualizzare in anteprima e sfogliare i file e i metadati nelle aree per le quali un amministratore ha concesso le autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
+* **Media Portal**
+Contributor: consente di caricare, visualizzare in anteprima e sfogliare file e metadati nelle aree per le quali l’amministratore ha concesso le autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
 
-**Collaboratore-utente** di Media Portal Ha accesso a cartelle e file. Un collaboratore-utente può sfogliare, visualizzare in anteprima, scaricare e caricare immagini e metadati. I collaboratori-utenti possono cambiare i nomi dei file, spostare file in altre cartelle ed eliminare file.
+**Collaboratore-**
+utente di Media Portal: consente di accedere a cartelle e file. Un collaboratore-utente può sfogliare, visualizzare in anteprima, scaricare e caricare immagini e metadati. I collaboratori-utenti possono cambiare i nomi dei file, spostare file in altre cartelle ed eliminare file.
 
 Questa tabella descrive le attività che possono essere eseguite dagli utenti in base ai diversi ruoli. Gli amministratori e i collaboratori-utenti possono eseguire tutte le attività elencate nella tabella di seguito:
 
