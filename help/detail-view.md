@@ -45,7 +45,7 @@ Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potet
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
    * Fate doppio clic sulla risorsa.
-   * Selezionate la risorsa, quindi fate clic su Visualizzazione **** dettagli.
+   * Selezionate la risorsa, quindi fate clic su **[!UICONTROL Visualizzazione dettagli]**.
    * Selezionate la risorsa, quindi fate clic su **[!UICONTROL File > Dettagli]**.
 
 >[!NOTE]
@@ -62,15 +62,20 @@ Potete inoltre ottenere un URL della risorsa; tuttavia, tenete presente che l’
 
 La visualizzazione Dettagli offre gli strumenti per agire sulla risorsa aperta. Gli strumenti disponibili variano in base al tipo di risorsa usata, tuttavia in visualizzazione Dettagli vengono sempre fornite le seguenti funzioni:
 
-* **elementi per la pubblicazione** Fate clic sull’icona **[!UICONTROL Pubblica]** a sinistra del nome, oppure fate clic su **[!UICONTROL File > Pubblica]** o **[!UICONTROL File > Annulla pubblicazione]**.
+* **elementi per la**
+pubblicazioneFate clic sull’icona  **** Pubblica a sinistra del nome, oppure fate clic su  **[!UICONTROL File >]** File  **[!UICONTROL editore > Annulla pubblicazione]**.
 
-* **Ridenominazione della risorsa** Selezionate il nome e immettete un nuovo nome.
+* **Ridenominazione della**
+risorsa: selezionate il nome e immettete un nuovo nome.
 
-* **Modifica e aggiunta di metadati** Selezionate il pannello Metadati e apportate le modifiche necessarie. Consultate [Visualizzazione, aggiunta ed esportazione di metadati](/help/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiunta di**
+metadatiSelezionate il pannello Metadati e apportate le modifiche necessarie. Consultate [Visualizzazione, aggiunta ed esportazione di metadati](/help/viewing-adding-exporting-metadata.md).
 
-* **Modifica e aggiunta di parole chiave** Selezionare le parole chiave e aggiungerle o rimuoverle come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiunta di**
+parole chiaveSelezionate Parole chiave e aggiungete o rimuovete le parole chiave desiderate. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
 
-* **Per eliminare la risorsa**, fate clic su **[!UICONTROL File > Elimina]**.
+* **Per eliminare la**
+risorsa, fate clic su  **[!UICONTROL File > Elimina]**.
 
 Per i file discreti quali immagini, set di immagini e font, in visualizzazione Dettagli potete visualizzare la cronologia di pubblicazione e modifica, nonché controllare i dettagli del processo.
 
