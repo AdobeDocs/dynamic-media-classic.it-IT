@@ -20,9 +20,9 @@ ht-degree: 36%
 
 # Accedere ad Adobe Analytics{#log-in-to-adobe-analytics}
 
-Prima di accedere per configurare  rapporti Adobe Analytics e far corrispondere  variabili di rapporti Adobe Analytics agli eventi di Dynamic Media Classic, verificate di essere stato aggiunto come membro del gruppo Web Service Access in  Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti della suite specificata tramite Marketing Cloud’s Web Services API a prescindere dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics fate clic su **Admin Tools** > **User Management** > **Edit Groups** (Strumenti amministrazione > Gestione utenti > Modifica gruppi).
+Prima di accedere per configurare  rapporti Adobe Analytics e far corrispondere  variabili di rapporti Adobe Analytics agli eventi Dynamic Media Classic, verificate di essere stato aggiunto come membro del gruppo Web Service Access in  Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti della suite specificata tramite Marketing Cloud’s Web Services API a prescindere dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics fate clic su **Admin Tools** > **User Management** > **Edit Groups** (Strumenti amministrazione > Gestione utenti > Modifica gruppi).
 
-Al momento dell’accesso potete immettere l’ID organizzazione Marketing Cloud per utilizzare l’implementazione di analisi video più recente. Se scegliete di non inserire l’ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione corretta dei dati con altri dati per quel client dall’esterno di Dynamic Media Classic.
+Al momento dell’accesso potete immettere l’ID organizzazione Marketing Cloud per utilizzare l’implementazione di analisi video più recente. Se scegliete di non inserire l’ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione corretta dei dati con altri dati per quel client dall&#39;esterno di Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -30,15 +30,15 @@ Al momento dell’accesso potete immettere l’ID organizzazione Marketing Cloud
 
 **Per accedere ad Adobe Analytics**
 
-1. Nell’angolo in alto a destra della pagina Dynamic Media Classic, toccate **[!UICONTROL Configurazione > Impostazione]** applicazione.
-1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
-1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
-1. Nella **[!UICONTROL finestra di dialogo Accesso]** Adobe Analytics, immettete il nome della società, l’ID organizzazione Marketing Cloud (facoltativo), il nome utente e la chiave segreta ** condivisa nel campo di testo **[!UICONTROL Password]** .
+1. Vicino all&#39;angolo superiore destro della pagina Dynamic Media Classic, toccate **[!UICONTROL Configurazione > Impostazione applicazione]**.
+1. Nel riquadro a sinistra, in **[!UICONTROL Impostazione applicazione]**, toccare **[!UICONTROL Adobe Analytics]**.
+1. Nella  pagina Configurazione Adobe Analytics, toccare **[!UICONTROL Accesso Adobe Analytics]**.
+1. Nella finestra di dialogo **[!UICONTROL Adobe Analytics Login]**, immettere il nome della società, l&#39;ID organizzazione Marketing Cloud (facoltativo), il nome utente e la chiave *segreta condivisa* nel campo di testo **[!UICONTROL Password]**.
 
-   Puoi recuperare la chiave segreta ** condivisa dalla console di amministrazione di Analytics. Consultate [Come ottenere le credenziali API per gli account](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)utente.
+   Puoi recuperare la chiave *segreta condivisa* dalla console di amministrazione di Analytics. Consultate [Come ottenere le credenziali API per gli account utente](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html).
 
 1. Fate clic su **[!UICONTROL Accesso]**.
-1. Nel menu a discesa Suite **[!UICONTROL di]** rapporti, scegliete una suite di rapporti, quindi fate clic su **[!UICONTROL OK]**.
+1. Nel menu a discesa **[!UICONTROL Suite di rapporti]**, scegliete una suite di rapporti, quindi fate clic su **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
