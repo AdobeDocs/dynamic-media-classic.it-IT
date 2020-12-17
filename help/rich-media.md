@@ -18,24 +18,33 @@ ht-degree: 51%
 ---
 
 
-# Rich media{#rich-media}
+# Contenuti multimediali {#rich-media}
 
 Dynamic Media Classic offre numerosi strumenti per la creazione di contenuti multimediali. Potete creare i seguenti tipi di contenuti multimediali:
 
-* **eCatalog** Presenta una versione Web interattiva e abilitata per la ricerca del catalogo o di altro materiale per la stampa. Potete creare aree selezionabili (o “mappe immagine”) per mostrare contenuti di rollover e consentire agli utenti di voltare le pagine, effettuare lo zoom, scorrere le pagine e allegarvi delle note. Consultate [Avvio rapido: eCatalog](/help/quick-start-ecatalog.md).
+* ****
+eCatalogPresentate una versione Web interattiva e abilitata per la ricerca del catalogo o di altro materiale per la stampa. Potete creare aree selezionabili (o “mappe immagine”) per mostrare contenuti di rollover e consentire agli utenti di voltare le pagine, effettuare lo zoom, scorrere le pagine e allegarvi delle note. Consultate [Avvio rapido: eCatalog](/help/quick-start-ecatalog.md).
 
-* **eVideo** Offre esperienze video di alta qualità a schermi diversi, inclusi desktop, dispositivi mobili e tablet. Usate predefiniti di codifica Dynamic Media Classic oppure personalizzate la codifica per controllare la qualità e le dimensioni del video. Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. Consultate [Avvio rapido: eVideo](/help/quick-start-video.md).
+* ****
+eVideoDistribuzione di esperienze video di alta qualità su schermi diversi, inclusi desktop, dispositivi mobili e tablet. Usate predefiniti di codifica Dynamic Media Classic oppure personalizzate la codifica per controllare la qualità e le dimensioni del video. Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. Consultate [Avvio rapido: eVideo](/help/quick-start-video.md).
 
-* **Le mappe** immagine trasmettono dinamicamente le immagini di qualsiasi dimensione e formato all’interno del sito Web. Invece di creare manualmente molte immagini con diverse dimensioni, è sufficiente utilizzare un’immagine principale. Dynamic Media Classic trasmette l’immagine richiesta e ottimizza l’immagine per ottenere risultati di massima qualità in termini di dimensioni, formato, peso, qualità e nitidezza. Consultate [Avvio rapido: ridimensionamento delle immagini](/help/quick-start-image-sizing.md)
+* **Image**
+MapsConsente di trasmettere in modo dinamico immagini di qualsiasi dimensione e formato all’interno del sito Web. Invece di creare manualmente molte immagini con diverse dimensioni, è sufficiente utilizzare un’immagine principale. Dynamic Media Classic trasmette l’immagine richiesta e ottimizza l’immagine per ottenere risultati di massima qualità in termini di dimensioni, formato, peso, qualità e nitidezza. Consultate [Avvio rapido: ridimensionamento delle immagini](/help/quick-start-image-sizing.md)
 
-* **Set** di immagini Offre un’esperienza di acquisto interattiva grazie alla quale gli utenti possono visualizzare i prodotti in più viste. Potete combinare zoom, visualizzazioni multiple e campioni colori per un’esperienza di visualizzazione integrata. Consultate [Avvio rapido: set di immagini](/help/quick-start-image-sets.md).
+* **Set**
+di immagini: un’esperienza di acquisto interattiva grazie alla quale gli utenti possono visualizzare i prodotti in più viste. Potete combinare zoom, visualizzazioni multiple e campioni colori per un’esperienza di visualizzazione integrata. Consultate [Avvio rapido: set di immagini](/help/quick-start-image-sets.md).
 
-* **Set** di file multimediali diversi Potete usare set di immagini, set 360 gradi, set di campioni, destinazioni di zoom, video e audio in un’unica presentazione. Potete impostare i set di file multimediali con schede in modo da separare i video dalle immagini. Potete anche specificare la posizione e la modalità di visualizzazione dei campioni e delle destinazioni di zoom e fornire agli utenti una visualizzazione completa dei file multimediali dei vostri prodotti o servizi. Consultate [Avvio rapido: set di file multimediali diversi](/help/quick-start-mixed-media-sets.md).
+* **Set**
+di file multimediali diversiFornite set di immagini, set 360 gradi, set di campioni, destinazioni di zoom, video e audio in un’unica presentazione. Potete impostare i set di file multimediali con schede in modo da separare i video dalle immagini. Potete anche specificare la posizione e la modalità di visualizzazione dei campioni e delle destinazioni di zoom e fornire agli utenti una visualizzazione completa dei file multimediali dei vostri prodotti o servizi. Consultate [Avvio rapido: set di file multimediali diversi](/help/quick-start-mixed-media-sets.md).
 
-* **Set 360 gradi** Le immagini della sequenza vengono riprodotte in orizzontale. I set 360 gradi consentono agli utenti del vostro sito Web di ruotare i prodotti per visualizzarli da diverse angolazioni. Potete creare set a 360 gradi mono o bidimensionali. Consultate [Avvio rapido: set 360 gradi](/help/quick-start-spin-sets.md).
+* **Set**
+360 gradiLe immagini della sequenza vengono riprodotte in orizzontale. I set 360 gradi consentono agli utenti del vostro sito Web di ruotare i prodotti per visualizzarli da diverse angolazioni. Potete creare set a 360 gradi mono o bidimensionali. Consultate [Avvio rapido: set 360 gradi](/help/quick-start-spin-sets.md).
 
-* **Set** di campioni Offre un’esperienza di acquisto interattiva grazie alla quale gli utenti possono visualizzare i prodotti in diversi colori e motivi. Potete combinare zoom, visualizzazioni multiple e campioni colori per un’esperienza di visualizzazione integrata. See [Quick Start: Swatch Sets](/help/quick-start-swatch-sets.md).
+* **Set campioniOffre un’esperienza di acquisto interattiva in cui gli utenti possono visualizzare i prodotti in diversi colori e motivi.**
+Potete combinare zoom, visualizzazioni multiple e campioni colori per un’esperienza di visualizzazione integrata. Vedere [Avvio rapido: Set di campioni](/help/quick-start-swatch-sets.md).
 
-* **Funzioni di base dei modelli** Creazione di modelli basati sui dati che combinano font, immagini e elementi grafici per la creazione di programmi di monogramma, la personalizzazione online e le promozioni. Ad esempio, potete integrare la grafica da materiali di vendita o altri tipi di attività promozionali nelle immagini dei prodotti; consentire l’inserimento dei nomi dei clienti su articoli quali T-shirt o tazze; o ancora inserire il nome dei clienti nei messaggi e-mail o nelle brochure cartacee che ricevono. Consultate [Avvio rapido: funzioni di base dei modelli](/help/quick-start-template-basics.md).
+* **Template**
+Basics: consente di creare modelli basati su dati che combinano font, immagini e grafica per la codifica, la personalizzazione online e le promozioni. Ad esempio, potete integrare la grafica da materiali di vendita o altri tipi di attività promozionali nelle immagini dei prodotti; consentire l’inserimento dei nomi dei clienti su articoli quali T-shirt o tazze; o ancora inserire il nome dei clienti nei messaggi e-mail o nelle brochure cartacee che ricevono. Consultate [Avvio rapido: funzioni di base dei modelli](/help/quick-start-template-basics.md).
 
-* **Destinazioni** di zoom Consente agli utenti di ingrandire, ridurre e scorrere le immagini mediante i visualizzatori configurabili forniti con Dynamic Media Classic. I clienti possono visualizzare rapidamente e interattivamente i dettagli dei prodotti ad alta risoluzione. Consultate [Avvio rapido: zoom](/help/quick-start-zoom.md).
+* **Destinazioni**
+di zoomConsente agli utenti di ingrandire, ridurre e scorrere le immagini mediante i visualizzatori configurabili forniti con Dynamic Media Classic. I clienti possono visualizzare rapidamente e interattivamente i dettagli dei prodotti ad alta risoluzione. Consultate [Avvio rapido: zoom](/help/quick-start-zoom.md).
