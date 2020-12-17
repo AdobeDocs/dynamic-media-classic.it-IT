@@ -33,13 +33,15 @@ Consultate anche [Esportazione di risorse da Dynamic Media Classic](exporting-as
 1. Fate clic su **Configurazione** > **Predefiniti immagini**.
 1. Nella finestra Predefiniti immagine, selezionate una delle seguenti opzioni:
 
-   * **Abilita conversione** definita dall’utente quando è selezionata, questa opzione consente agli utenti di scegliere un’altra opzione dall’elenco a discesa Dimensione nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
+   * **Abilita**
+conversione definita dall’utenteQuando è selezionata, questa opzione consente agli utenti di scegliere un’altra opzione dall’elenco a discesa Dimensione nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
 
       Se dall’elenco a discesa **Dimensione** vengono scelti i **pixel**, i valori di larghezza x altezza risultanti per l’immagine non possono superare i 100 milioni di pixel. Questa dimensione corrisponde a 10.000 x 10.000 pixel per un’immagine quadrata o circa 8.000 x 12.000 pixel per un’immagine con proporzioni 2x3. Questo limite di dimensione non è applicabile se esportate le immagini principali originali.
 
       Deselezionate questa opzione se desiderate che gli utenti possano solo scaricare i file senza modificarne il formato in fase di scaricamento.
 
-   * **Abilita esportazione originale** Consente di esportare le immagini principali originali. Nella finestra di dialogo Esporta risorse selezionate, gli utenti possono aprire il menu Conversione e scegliere Esporta originale per esportare i file originali. Deselezionate questa opzione se desiderate che gli utenti debbano scegliere un predefinito per immagini o singole opzioni di conversione al momento dell’esportazione delle immagini.
+   * **Abilita esportazione**
+originale: consente di esportare le immagini principali originali. Nella finestra di dialogo Esporta risorse selezionate, gli utenti possono aprire il menu Conversione e scegliere Esporta originale per esportare i file originali. Deselezionate questa opzione se desiderate che gli utenti debbano scegliere un predefinito per immagini o singole opzioni di conversione al momento dell’esportazione delle immagini.
 
 >[!MORELIKETHIS]
 >
