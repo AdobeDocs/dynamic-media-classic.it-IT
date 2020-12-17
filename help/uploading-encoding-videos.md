@@ -19,7 +19,7 @@ ht-degree: 81%
 
 # Caricamento e codifica dei video{#uploading-and-encoding-videos}
 
-Per creare video singoli o set video adattivi da distribuire sul Web o su dispositivi mobili, caricate prima i file video principali su Dynamic Media Classic. Dynamic Media Classic codifica i video in formato MP4 e li pubblica nei seguenti formati file:
+Per creare video singoli o set video adattivi da distribuire sul Web o su dispositivi mobili, caricate prima i file video principali in Dynamic Media Classic. Dynamic Media Classic codifica i video in formato MP4 e li pubblica nei seguenti formati file:
 
 **MP4** Dynamic Media Classic consiglia MP4 come formato di file video preferito. Utilizzate i file MP4 per le seguenti operazioni:
 
@@ -27,11 +27,11 @@ Per creare video singoli o set video adattivi da distribuire sul Web o su dispos
 * Streaming dinamico HTTP (protocollo di streaming Apple).
 * Video progressivo per dispositivi Android, Blackberry e Windows Mobile
 
-Dynamic Media Classic offre due flussi di lavoro per il caricamento dei file video:
+Dynamic Media Classic offre due flussi di lavoro per il caricamento di file video:
 
-**Video** precodificati Caricate i file MP4 direttamente in Dynamic Media Classic. Con questo flusso di lavoro, i file non vengono codificati durante il caricamento. I file vengono precodificati durante la preparazione per la visualizzazione sul desktop e sui dispositivi mobili.
+**Video precodificati** Potete caricare i file MP4 direttamente in Dynamic Media Classic. Con questo flusso di lavoro, i file non vengono codificati durante il caricamento. I file vengono precodificati durante la preparazione per la visualizzazione sul desktop e sui dispositivi mobili.
 
-**Video** sorgente principali Caricare i file video sorgente principali e, al momento del caricamento, codificarli in file MP4. Nel pannello Sfoglia, i video codificati sono etichettati “Video”. Dynamic Media Classic supporta la codifica di file video in molti formati.
+**Video** sorgente principaliCaricate i file video sorgente principali e, al momento del caricamento, codificateli come file MP4. Nel pannello Sfoglia, i video codificati sono etichettati “Video”. Dynamic Media Classic supporta la codifica di file video in molti formati.
 
 * Verificate che i file principali/sorgente che desiderate codificare siano supportati. 
 
@@ -55,7 +55,7 @@ Effettuate una delle seguenti operazioni:
 
 1. Nella barra di navigazione globale, fate clic su **Carica**.
 1. Nella schermata Carica, fate clic sulla scheda **Da desktop**.
-1. On the Upload page, in the Select Files for Upload panel, click **Browse**, navigate to an MP4 video file, and then click **Open**.
+1. Nella pagina Carica, nel pannello Seleziona file da caricare, fate clic su **Sfoglia**, individuate un file video MP4 e fate clic su **Apri**.
 1. Nel pannello Scegliete la destinazione della cartella, selezionate una cartella per il file caricato.
 1. Nella pagina Carica, accertatevi che **Pubblica dopo il caricamento** sia attivato.
 1. Fate clic su **Invia caricamento**.
@@ -100,9 +100,9 @@ Quando generate un set di video adattivi automaticamente o manualmente vengono c
 
 La seguente tabella indica i tipi di file video (con i codec video consentiti) che potete codificare in formato MP4 o OGV quando caricate i file. La tabella elenca i formati file e i codec:
 
-**Formati** di file video Simili a un file ZIP, un formato di file video determina il modo in cui i file sono contenuti nel file video. Generalmente, un file video contiene più tracce (una traccia video senza audio e una o più tracce audio senza video) che vengono associate e sincronizzate. Il formato file del video determina come le diverse tracce di dati e metadati vengono organizzate.
+**Formati** di file videoAnalogamente a un file ZIP, un formato di file video determina il modo in cui i file sono contenuti nel file video. Generalmente, un file video contiene più tracce (una traccia video senza audio e una o più tracce audio senza video) che vengono associate e sincronizzate. Il formato file del video determina come le diverse tracce di dati e metadati vengono organizzate.
 
-**Codec video** Un codec video descrive l’algoritmo con cui un video viene codificato. Un lettore video decodifica il video in base al relativo codec, quindi visualizza una serie di immagini o fotogrammi sullo schermo. I codec riducono la quantità di informazioni richieste dai file video per memorizzare e riprodurre il video. Invece delle informazioni su ciascun fotogramma, vengono memorizzate solo le informazioni relative alle differenze tra l’uno e l’altro. Poiché la maggior parte dei video presenta pochi cambiamenti tra un fotogramma e l’altro, i codec consentono elevate frequenze di compressione, che consentono di ridurre le dimensioni dei file.
+**Codec** videoUn codec video descrive l’algoritmo in base al quale un video viene codificato. Un lettore video decodifica il video in base al relativo codec, quindi visualizza una serie di immagini o fotogrammi sullo schermo. I codec riducono la quantità di informazioni richieste dai file video per memorizzare e riprodurre il video. Invece delle informazioni su ciascun fotogramma, vengono memorizzate solo le informazioni relative alle differenze tra l’uno e l’altro. Poiché la maggior parte dei video presenta pochi cambiamenti tra un fotogramma e l’altro, i codec consentono elevate frequenze di compressione, che consentono di ridurre le dimensioni dei file.
 
 | Formato file video | Codec video |
 |:--- |:--- |
@@ -127,13 +127,13 @@ La seguente tabella indica i tipi di file video (con i codec video consentiti) c
 >
 >La schermata Processi invia una notifica se caricate e tentate di codificare un file video e il file viene rifiutato perché contiene un codec o un contenitore file incompatibile. Per ulteriori informazioni, consultate [Verifica dei file di processo](checking-job-files.md).
 
-## Best practice per la codifica video {#best-practices-for-video-encoding}
+## Best practice per la codifica video  {#best-practices-for-video-encoding}
 
 Di seguito sono riportati alcuni suggerimenti per la codifica di file video sorgente in Dynamic Media Classic.
 
 Per consigli sulla codifica video, consultate le seguenti risorse:
 
-* Article: *Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
+* Articolo: *Streaming 101: Nozioni di base — Codec, larghezza di banda, velocità dati e risoluzione: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
 * Video: *Nozioni di base sulla codifica video: * [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en).
 
 ### File video sorgente {#source-video-files}
@@ -148,15 +148,15 @@ La tabella seguente riassume le dimensioni consigliate, le proporzioni e il bitr
 | 1280x720 | 16:9 | 3000 - 6000 Kbps, a seconda della quantità di movimento presente del video. |
 | 1920x1080 | 16:9 | 6000 - 8000 Kbps, a seconda della quantità di movimento presente del video. |
 
-### Ottenimento dei metadati dei file {#obtaining-a-file-s-metadata}
+### Ottenimento dei metadati dei file  {#obtaining-a-file-s-metadata}
 
-Per ottenere i metadati di un file, potete visualizzarne i metadati in Dynamic Media Classic, usare uno strumento di modifica video o un’applicazione progettata per ottenere i metadati. Seguono istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti che consente di ottenere i metadati di un file video:
+Potete ottenere i metadati di un file visualizzandone i metadati in Dynamic Media Classic, utilizzando uno strumento di modifica video o un’applicazione progettata per ottenere i metadati. Seguono istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti che consente di ottenere i metadati di un file video:
 
-1. Go to this web page: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Vai a questa pagina Web: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Selezionate e scaricate il programma di installazione per la versione GUI, quindi seguite le istruzioni di installazione.
 1. Al termine dell’installazione, fate clic con il pulsante destro del mouse sul file video (solo in Windows) e selezionate MediaInfo, oppure aprite MediaInfo e trascinate il file video nell’applicazione. Potete vedere tutti i metadati associati al file video, inclusi i valori di larghezza, altezza e fotogrammi al secondo.
 
-### Proporzioni {#aspect-ratio}
+### Proporzioni  {#aspect-ratio}
 
 Quando scegliete o create un predefinito di codifica video da applicare al file video principale, accertatevi che il predefinito abbia le stesse proporzioni del file video principale. Le *proporzioni* sono il rapporto tra la larghezza e l’altezza del video. 
 
@@ -175,9 +175,9 @@ Nella tabella che segue, i risultati della formula vengono correlati alle relati
 
 Ad esempio, un file video di 1440 di larghezza per 1080 di altezza ha proporzioni pari a 1440/1080, ossia 1,33. In questo caso per codificare il file video potete scegliere un predefinito di codifica video con proporzioni 4:3.
 
-### Velocità dati {#data-rate}
+### Velocità dati  {#data-rate}
 
-The *data rate* (also called the* bit rate*) is the amount of data that is encoded to make up a single second of video playback. La velocità dati è misurata in kilobit al secondo (Kbps).
+La *velocità dati* (o bitrate*) è la quantità di dati codificati per creare un secondo di riproduzione video. La velocità dati è misurata in kilobit al secondo (Kbps).
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ La tabella di seguito riporta la velocità dati per velocità di connessioni tip
 | 2000 | Connessione desktop tipica a banda larga. Per questa connessione, eseguite il targeting di una velocità dati nell&#39;intervallo 800-2000 Kbps, con una media di 1200-1500 Kbps per la maggior parte delle destinazioni. |
 | 5000 | Connessione a banda larga elevata tipica. Non si consiglia di applicare la codifica per questo valore elevato, in quanto la maggior parte dei clienti non dispone di trasmissione video di tale velocità.  |
 
-### Risoluzione {#resolution}
+### Risoluzione  {#resolution}
 
 La *Risoluzione* descrive l’altezza e la larghezza di un file video, in pixel. La maggior parte delle sorgenti video è memorizzata ad alta risoluzione (ad esempio, 1920x1080). Per lo streaming, il video sorgente viene compresso in una risoluzione inferiore (per un valore massimo di 640x480).
 
@@ -227,13 +227,13 @@ Quando scegliete (o create) un predefinito di codifica video per il file video p
 | 720p | 720 | Schermo grande |
 | 1080p | 1080 | Schermo grande ad alta definizione |
 
-### Fps (fotogrammi al secondo) {#fps-frames-per-second}
+### Fps (fotogrammi al secondo)  {#fps-frames-per-second}
 
 Negli Stati Uniti e in Giappone, i video sono in genere ripresi a 29,97 fotogrammi al secondo (fps); in Europa sono invece ripresi a 25 fps. I film sono ripresi a 24 fps.
 
 Scegliete un predefinito di codifica video con un valore fps pari a quello del file video principale. Ad esempio, se il video principale ha una frequenza fotogrammi di 25 fps, scegliete un predefinito di codifica a 25 fps. Per impostazione predefinita, per tutte le codifiche personalizzate viene usato lo stesso valore fps del file video principale. Quando create un predefinito di codifica video non è pertanto necessario specificare l’impostazione fps.
 
-### Dimensioni di codifica video {#video-encoding-dimensions}
+### Dimensioni di codifica video  {#video-encoding-dimensions}
 
 Per ottenere risultati ottimali, selezionate dimensioni di codifica tali che il video sorgente sia un multiplo intero di tutti i video codificati.
 
@@ -247,14 +247,14 @@ Ad esempio, supponete che il video sia di 1920x1080. Nella tabella seguente, i t
 |--- |--- |--- |--- |
 | Sorgente | 1920x1080 | 1 | 1 |
 | Codificato | 960x540 | 2 | 2 |
-| Codificato | 640x360 | 3 | 3 |
+| Codificato | 640x360 | 3 | 1 |
 | Codificato | 480x270 | 4 | 4 |
 
-### Formato di file video codificato {#encoded-video-file-format}
+### Formato di file video codificato  {#encoded-video-file-format}
 
  Adobe Dynamic Media Classic consiglia di utilizzare i predefiniti di codifica video MP4 H.264. Poiché i file MP4 utilizzano il codec video H.264, il video è di alta qualità ma la dimensione file è comunque ridotta.
 
-## Utilizzo dei predefiniti di codifica video {#working-with-video-encoding-presets}
+## Utilizzo dei predefiniti di codifica video  {#working-with-video-encoding-presets}
 
 I file video principali creati con le apparecchiature di produzione video e con un software per la modifica di video sono spesso troppo grandi e in formato errato per essere riprodotti in destinazioni online. Per convertire i video digitali nel formato e nelle specifiche corretti per la riproduzione su diversi schermi, potete *transcodificare* i file video (un processo noto anche come *codifica*). Durante il processo di codifica, il video viene compresso per ridurne le dimensioni e ottimizzarlo per la riproduzione sul Web e dispositivi mobili.
 
@@ -287,7 +287,7 @@ Per le risorse video caricate e codificate in Dynamic Media Classic, il video vi
 
 Qualsiasi altro formato video e codec viene trattato come &quot;Video principale&quot;. ossia come file video sorgente che non può essere utilizzato per la riproduzione su computer desktop o dispositivi mobili. Ad esempio, non potete visualizzare in anteprima questi tipi di video in Dynamic Media Classic. Non potete inoltre generare URL da copiare e codice da incorporare e da usare per lettori video, siti Web e così via.
 
-### Applicazione di filtri all’elenco di predefiniti di codifica video {#filtering-the-list-of-video-encoding-presets}
+### Applicazione di filtri all’elenco di predefiniti di codifica video  {#filtering-the-list-of-video-encoding-presets}
 
 Le pagine Predefiniti per video e Predefiniti video adattati contengono una tabella in cui sono elencate le seguenti informazioni per ciascun predefinito video: stato di attivazione, nome, dispositivo di riproduzione, dimensione video e frequenza dei dati di destinazione.
 
@@ -297,7 +297,7 @@ Potete anche scegliere un’opzione per il dispositivo di riproduzione e limitar
 
 **Per filtrare l’elenco dei predefiniti di codifica video**
 
-1. In Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets** or **Single Encoding Presets**.
+1. In Dynamic Media Classic, fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti video** > **Predefiniti video adattati** o **Predefiniti codifica singola**.
 
    Le pagine Predefiniti video adattati e Predefiniti codifica singola contengono una tabella in cui sono elencate le seguenti informazioni per ciascun predefinito video: stato di attivazione, nome del predefinito, dispositivo di riproduzione, dimensione video e frequenza dei dati di destinazione.
 
@@ -306,13 +306,13 @@ Potete anche scegliere un’opzione per il dispositivo di riproduzione e limitar
    * Nel primo elenco a discesa, più stretto, scegliete **Entrambi** per vedere tutti i predefiniti per video, oppure scegliete **Attivo** o **Inattivo** per visualizzare solo i predefiniti per video con lo stato Attivo o Inattivo.
    * Nel secondo elenco a discesa, più largo, scegliete un’opzione per il dispositivo di riproduzione in modo da limitare l’elenco ai soli predefiniti per video creati per la riproduzione di video per computer desktop oppure per dispositivi mobili o tablet.
 
-### Attivazione o disattivazione dei predefiniti di codifica video {#activating-or-deactivating-video-encoding-presets}
+### Attivazione o disattivazione dei predefiniti di codifica video  {#activating-or-deactivating-video-encoding-presets}
 
 I predefiniti per video attivati vengono visualizzati nella finestra di dialogo Opzioni processo di caricamento che compare quando un utente carica dei file video durante il processo di caricamento. L’utente può quindi scegliere tra tutti i predefiniti di codifica attivati.
 
 **Per attivare o disattivare i predefiniti di codifica video**
 
-1. In Dynamic Media Classic, fate clic su **Configurazione** > Impostazione **** applicazione > Predefiniti **** video.
+1. In Dynamic Media Classic, fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti per video**.
 1. Effettuate una delle seguenti operazioni:
 
    * Fate clic su **Predefiniti video adattati**.
@@ -323,15 +323,15 @@ I predefiniti per video attivati vengono visualizzati nella finestra di dialogo 
    * Per attivare un predefinito per video, nella pagina dei predefiniti, selezionate la casella accanto al nome di un predefinito nella colonna Attivo.
    * Per disattivare un predefinito per video, deselezionate la casella accanto al predefinito per video da rendere inattivo.
 
-      ***note**: Inactive Video Presets do not appear in the Upload Job Options dialog box. *
+      ***nota**: I predefiniti per video inattivi non vengono visualizzati nella finestra di dialogo Opzioni processo di caricamento. *
 
 1. Nell’angolo in basso a destra della pagina, fate clic su **Chiudi**.
 
-### Aggiunta o modifica di un predefinito di codifica video {#adding-or-editing-a-video-encoding-preset}
+### Aggiunta o modifica di un predefinito di codifica video  {#adding-or-editing-a-video-encoding-preset}
 
 Potete creare dei predefiniti per video con codifica singola personalizzati e aggiungerli alla tabella Predefiniti per video. Potete inoltre apportare modifiche ai predefiniti per video con codifica singola preimpostati forniti con Dynamic Media Classic, a condizione di salvare il predefinito modificato con un nuovo nome.
 
-Dynamic Media Classic ha impostato limiti massimi per la velocità dati di destinazione, l&#39;altezza di risoluzione e la larghezza di risoluzione, in modo da garantire una corretta esperienza di riproduzione. Se superate questi limiti, vengono visualizzati alcuni messaggi di avvertenza:
+Dynamic Media Classic ha impostato limiti massimi per la velocità dati di destinazione, l&#39;altezza di risoluzione e la larghezza di risoluzione, per garantire una corretta esperienza di riproduzione. Se superate questi limiti, vengono visualizzati alcuni messaggi di avvertenza:
 
 * Per la riproduzione su computer, i limiti sono: (larghezza/16) * (altezza/16) &lt; 8192. 
 * Per la riproduzione sui dispositivi mobili, i limiti sono: (larghezza/16) * (altezza/16) &lt; 660; frequenza dati di destinazione &lt; 4000. 
@@ -339,14 +339,14 @@ Dynamic Media Classic ha impostato limiti massimi per la velocità dati di desti
 
 **Per aggiungere o modificare un predefinito di codifica video**
 
-1. In Dynamic Media Classic, fate clic su **Configurazione** > Impostazione **** applicazione > Predefiniti **** video.
+1. In Dynamic Media Classic, fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti per video**.
 1. Fate clic su **Predefiniti codifica singola** per aprire la pagina Predefiniti per video.
 1. Nella pagina Predefiniti per video, effettuate una delle seguenti operazioni:
 
    * Nella barra degli strumenti Predefiniti per video, fate clic su **Aggiungi** per aggiungere un nuovo predefinito per video.
    * Selezionate un predefinito per video. Nella barra degli strumenti, fate clic su **Modifica**.
 
-      You cannot edit Dynamic Media Classic predefined presets; you can only create a preset from an existing one by choosing **Save As**.
+      Non potete modificare i predefiniti predefiniti di Dynamic Media Classic; potete creare un predefinito solo da uno esistente scegliendo **Salva con nome**.
 
 1. Nella pagina Aggiungi predefinito video o Modifica predefinito video, impostate le opzioni Predefinito per video desiderate.
 
@@ -368,13 +368,13 @@ Dynamic Media Classic ha impostato limiti massimi per la velocità dati di desti
    * Fate clic su **Salva** se avete aggiunto o modificato un predefinito per video.
    * Fate clic su **Salva con nome** se avete aggiunto un predefinito per video a partire da un predefinito esistente.
 
-### Eliminazione un predefinito di codifica video {#deleting-a-video-encoding-preset}
+### Eliminazione un predefinito di codifica video  {#deleting-a-video-encoding-preset}
 
 Gli amministratori possono eliminare i predefiniti per video personalizzati. I predefiniti per video forniti con Dynamic Media Classic non possono essere eliminati.
 
 **Per eliminare un predefinito di codifica video**
 
-1. In Dynamic Media Classic, fate clic su **Configurazione** > Impostazione **** applicazione > Predefiniti **** video.
+1. In Dynamic Media Classic, fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti per video**.
 1. Fate clic su **Predefiniti codifica singola** per aprire la pagina Predefiniti per video.
 1. Nella pagina Predefiniti per video, selezionate nella tabella il predefinito per video da eliminare.
 1. Nella barra degli strumenti dei predefiniti per video, fate clic su **Elimina**.
