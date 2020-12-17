@@ -20,13 +20,13 @@ ht-degree: 86%
 
 # Collegamento di visualizzatori zoom alle pagine Web{#linking-zoom-viewers-to-your-web-pages}
 
-I siti Web e le applicazioni possono accedere al contenuto del server di immagini per elementi multimediali dinamici, incluse le immagini principali e le destinazioni di zoom associate e i predefiniti per visualizzatori zoom, mediante stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiatele da Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server, incluse le immagini principali e le destinazioni di zoom associate e i predefiniti per visualizzatori zoom, mediante stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiatele da Dynamic Media Classic.
 
 >[!NOTE]
 >
 >l’URL non è attivo finché non pubblicate la risorsa.
 
-## Copia dell’URL di un visualizzatore zoom {#copying-a-zoom-viewer-url}
+## Copia dell’URL di un visualizzatore zoom  {#copying-a-zoom-viewer-url}
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il visualizzatore zoom di cui desiderate copiare l’URL.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
@@ -44,11 +44,11 @@ I siti Web e le applicazioni possono accedere al contenuto del server di immagin
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-## Aggiunta degli URL del visualizzatore zoom alla pagina Web {#adding-zoom-viewer-urls-to-your-web-page}
+## Aggiunta degli URL del visualizzatore zoom alla pagina Web  {#adding-zoom-viewer-urls-to-your-web-page}
 
 Generalmente i visitatori di un sito Web applicano lo zoom alle immagini selezionando innanzitutto un’icona Zoom (spesso l’immagine di una lente di ingrandimento). Selezionando questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l’immagine in una finestra a comparsa. La finestra a comparsa rappresenta il punto in cui i visitatori applicano effettivamente lo zoom all’immagine.
 
-Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di HTML5 Basic Zoom Viewer nella guida di riferimento dei visualizzatori di Adobi guida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di HTML5 Basic Zoom Viewer nella guida di riferimento dei visualizzatori di Adobi ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
 ## Copia del codice da incorporare di un visualizzatore zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
