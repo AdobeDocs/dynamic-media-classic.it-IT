@@ -45,11 +45,11 @@ Dopo aver pubblicato un set di campioni, potete inserirne l’URL o il codice da
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-## Aggiunta di URL di set di campioni alla pagina Web {#adding-swatch-set-urls-to-your-web-page}
+## Aggiunta di URL di set di campioni alla pagina Web  {#adding-swatch-set-urls-to-your-web-page}
 
 Il modo più comune di pubblicare i set di campioni consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (ASP o JSP) in cui viene visualizzato il set di campioni in una finestra a comparsa. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento del visualizzatore zoom HTML5 nella guida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)di riferimento dei visualizzatori di Adobi .
+Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di visualizzatori zoom HTML5 nella guida di riferimento dei visualizzatori di Adobi ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
 ## Copia del codice da incorporare di un visualizzatore di set di campioni {#copying-the-embed-code-of-a-swatch-set-viewer}
 
