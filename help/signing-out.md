@@ -20,25 +20,27 @@ ht-degree: 6%
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Accesso a Dynamic Media Classic {#sign-in}
+# Accesso ad Dynamic Media Classic {#sign-in}
 
-La modalità di accesso a Dynamic Media Classic e di disconnessione dipende dal tipo di utilizzo dell’applicazione desktop o del browser Web.
+La modalità di accesso ad Dynamic Media Classic e di disconnessione dipende dal tipo di utilizzo dell’applicazione desktop o del browser Web.
 
-A prescindere da come effettuate l’accesso, prima di usare Dynamic Media Classic accertatevi di disporre dei seguenti elementi:
+Indipendentemente da come effettuate l’accesso, prima di utilizzare Dynamic Media Classic accertatevi di disporre dei seguenti elementi:
 
-* **Nome** di accesso Il vostro indirizzo e-mail viene usato come nome di accesso.
+* **Nome**
+di loginIl vostro indirizzo e-mail viene usato come nome di login.
 
-* **Password**&#x200B;È possibile ottenere la password temporanea tramite un messaggio e-mail di benvenuto inviato da Dynamic Media Classic o dall’amministratore di Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
+* ****
+PasswordLa password temporanea viene fornita in un messaggio e-mail di benvenuto inviato da Dynamic Media Classic o dall’amministratore di Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
 
-## Accesso a Dynamic Media Classic tramite l’app desktop {#sign-in-dmc-app}
+## Accesso ad Dynamic Media Classic tramite l&#39;app desktop {#sign-in-dmc-app}
 
-1. Apri  Adobe applicazione desktop Dynamic Media Classic.
+1. Aprite  Adobe l’applicazione desktop Dynamic Media Classic.
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Nel campo Nome **** utente, immettete il vostro indirizzo e-mail.
-1. Nel campo **[!UICONTROL Password]** , digitare la password.
-1. Nell&#39;elenco a discesa **[!UICONTROL Server]** , selezionate un server.
+1. Nel campo **[!UICONTROL Nome utente]**, immettete il vostro indirizzo e-mail.
+1. Nel campo **[!UICONTROL Password]** digitare la password.
+1. Nell&#39;elenco a discesa **[!UICONTROL Server]**, selezionare un server.
 Utilizzate la mappatura seguente per selezionare l&#39;ambiente di produzione da utilizzare.
 
    | URL browser | Nome server app desktop |
@@ -49,33 +51,35 @@ Utilizzate la mappatura seguente per selezionare l&#39;ambiente di produzione da
 
 1. Toccate **[!UICONTROL Accedi]**.
 
-### Disconnessione da Dynamic Media tramite l’app desktop {#sign-out-dmc-app}
+### Disconnessione da Dynamic Media tramite l&#39;app desktop {#sign-out-dmc-app}
 
-1. Nell’angolo superiore destro dell’applicazione desktop Dynamic Media Classic, toccate **[!UICONTROL Disconnetti]**, quindi toccate **[!UICONTROL Disconnetti]** di nuovo.
+1. Nell&#39;angolo superiore destro dell&#39;applicazione desktop Dynamic Media Classic, toccare **[!UICONTROL Disconnetti]**, quindi toccare di nuovo **[!UICONTROL Disconnetti]**.
 
-## Accesso a Dynamic Media Classic tramite il browser Web {#signing-in-and-out}
+## Accesso ad Dynamic Media Classic tramite il browser Web {#signing-in-and-out}
 
-Oltre al nome utente e alla password, accertatevi di disporre anche di quanto segue prima di usare Dynamic Media Classic dal browser Web:
+Oltre al nome utente e alla password, accertatevi di disporre anche di quanto segue prima di utilizzare Dynamic Media Classic dal browser Web:
 
-* **Configurazione**&#x200B;È necessario che l’amministratore abbia impostato l’utilizzo di Dynamic Media Classic.
+* ****
+Configurazione: l’amministratore deve aver impostato Dynamic Media Classic per l’utilizzo.
 
-* **URL**&#x200B;È necessario avere il percorso URL per accedere a Dynamic Media Classic. Puoi ottenere questo URL tramite il pulsante 
-*E-mail di benvenuto* o dal vostro amministratore di Dynamic Media Classic.
+* ****
+URLYYou deve avere il percorso URL per accedere ad Dynamic Media Classic. Puoi ottenere questo URL tramite il pulsante 
+*Messaggio di* benvenuto o dal vostro amministratore Dynamic Media Classic.
 
-Poiché Dynamic Media Classic è basato su Web, l&#39;accesso a un altro sito Web causa l&#39;uscita dal sistema. Ad esempio, se fate clic sul pulsante Indietro nella finestra del browser, uscite da Dynamic Media Classic.
+Poiché Dynamic Media Classic è basato sul Web, l&#39;accesso a un altro sito Web causa l&#39;uscita dal sistema. Ad esempio, se fate clic sul pulsante Indietro nella finestra del browser, uscite da Dynamic Media Classic.
 
 1. Avviate il browser Web.
-1. Andate all’URL di accesso di Dynamic Media Classic (dal messaggio e-mail di benvenuto). In alternativa, potete accedere dal sito Web di Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) facendo clic sul pulsante Client Login (Accesso cliente).
-1. Nel campo di testo Nome **** utente, immettete il vostro indirizzo e-mail.
-1. Nel campo di testo **[!UICONTROL Password]** , inserite la password.
-1. Optionally, you can make your computer remember your e-mail address by selecting the **[!UICONTROL Remember My User Name]** option.
+1. Andate all’URL di accesso di Dynamic Media Classic (dal messaggio e-mail di benvenuto). In alternativa, potete accedere dal sito Web Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) facendo clic sul pulsante Client Login (Accesso cliente).
+1. Nel campo di testo **[!UICONTROL Nome utente]**, immettete il vostro indirizzo e-mail.
+1. Nel campo di testo **[!UICONTROL Password]**, immettere la password.
+1. Facoltativamente, è possibile memorizzare l&#39;indirizzo e-mail nel computer selezionando l&#39;opzione **[!UICONTROL Ricorda nome utente]**.
 1. Toccate **[!UICONTROL Accedi]**.
 
 ### Disconnessione da Dynamic Media tramite il browser Web {#sign-out}
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Sul lato destro della barra di navigazione globale, toccate **[!UICONTROL Disconnetti]**.
+   * Sul lato destro della barra di navigazione globale, toccate **[!UICONTROL Esci]**.
    * Uscite dal browser.
 
 >[!MORELIKETHIS]
