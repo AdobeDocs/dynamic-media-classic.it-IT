@@ -20,7 +20,7 @@ ht-degree: 62%
 
 # Avvio rapido: set di immagini{#quick-start-image-sets}
 
-I set di immagini Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare visualizzazioni alternative ad alta risoluzione di un elemento.
+I set di immagini di Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare visualizzazioni alternative ad alta risoluzione di un elemento.
 
 Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desiderate, potete includere nel set di immagini anche destinazioni di zoom e mappe immagine. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
 
@@ -66,7 +66,7 @@ Quando un set di immagini viene pubblicato, viene inserito sui server Dynamic Me
 >
 >Questo passaggio non è necessario se al momento della creazione e del salvataggio del set di immagini avete selezionato **Pubblica dopo il salvataggio ** (impostazione predefinita).
 
-Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+Fate clic sull’icona Contrassegna per pubblicazione a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, fate clic su **Pubblica**. Nella schermata Pubblica, fate clic su **Avvia pubblicazione**.
 
 Consultate [Pubblicazione](publishing-files.md#publishing-files).
 
@@ -74,6 +74,6 @@ Consultate [Pubblicazione](publishing-files.md#publishing-files).
 
 Dynamic Media Classic crea richieste URL per i set di immagini e le attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
 
-Selezionate il set di immagini, quindi fate clic sul pulsante Anteprima. Viene visualizzata la schermata Anteprima. Select an Image Set Viewer Preset and click **Copy URL**.
+Selezionate il set di immagini, quindi fate clic sul pulsante Anteprima. Viene visualizzata la schermata Anteprima. Selezionate un predefinito per visualizzatori di set di immagini e fate clic su **Copia URL**.
 
 Consultate [Collegamento di un set di immagini a una pagina Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
