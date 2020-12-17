@@ -12,8 +12,8 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
 source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1450'
+ht-degree: 64%
 
 ---
 
@@ -34,7 +34,7 @@ Un eCatalog è la versione digitale per il Web di un materiale originariamente d
 * Usare gesti quali avvicinare le dita per ingrandire o passare il dito per voltare pagina
 * Effettuare ricerche di elementi mediante parole chiave
 
-![eCatalog visualizzato dagli utenti finali. A) Pagina di apertura dell’eCatalog. B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
+![eCatalog visualizzato dagli utenti finali. A) Pagina di apertura dell’eCatalog. B)eCatalog trasformato in pagina 2.](/help/assets/ec_cat_viewer_popup.png)
 
 Per creare un eCatalog, di solito vengono utilizzati file PDF ad alta risoluzione creati con Adobe® Acrobat® o con un altro programma per la stampa. Tuttavia potete anche creare un eCatalog da file di immagini.
 
@@ -42,11 +42,11 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 
 >[!NOTE]
 >
->Se siete utenti in modalità AEM contenuti multimediali dinamici - Scene7 e desiderate usare gli eCatalog, dovrete modificare il `pdfbrochure` valore in CRXDE Lite. A tale scopo, in AEM fare clic su **[!UICONTROL Strumenti > Generale > CRXDE Lite]**. Nella struttura di navigazione del pannello a sinistra, andate a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Se siete un utente in modalità Dynamic Media - Scene7 AEM e desiderate usare gli eCatalog, dovrete modificare il valore `pdfbrochure` in CRXDE Lite. A tale scopo, in AEM fare clic su **[!UICONTROL Strumenti > Generale > CRXDE Lite]**. Nella struttura di navigazione del pannello a sinistra, andate a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
->Nel riquadro in basso a destra, nella scheda **[!UICONTROL Proprietà]** , selezionare la `jobParam` riga. Impostate il valore per `pdfbrochure` da `false` a `true`. Come `pdfbrochure=true`
+>Nel riquadro in basso a destra, nella scheda **[!UICONTROL Proprietà]**, selezionare la riga `jobParam`. Impostare il valore per `pdfbrochure` da `false` a `true`. Come in `pdfbrochure=true`
 >
->Nell’angolo in alto a sinistra della pagina dei CRXDE Lite, fate clic su **[!UICONTROL Salva tutto]**.
+>Nell&#39;angolo superiore sinistro della pagina dei CRXDE Lite, fare clic su **[!UICONTROL Salva tutto]**.
 >
 >Ora potete creare eCatalog in Dynamic Media Classic.
 
@@ -72,7 +72,7 @@ Nella scheda Ordina pagine, selezionate uno dei pulsante Layout (1 immagine, 2 i
 
 Per aggiungere delle pagine, selezionate una cartella nella Libreria risorse, quindi trascinate i file PDF o i file di immagini nella schermata Ordina pagine. Invece di numeri di pagina predefiniti, potete fornire nomi di pagina personalizzati o importare una grande quantità di nomi di pagina.
 
-Fate clic su **[!UICONTROL Salva]**, inserite un nome per l’eCatalog, scegliete una cartella Dynamic Media Classic in cui memorizzarlo e fate clic su **[!UICONTROL Salva]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+Fate clic su **[!UICONTROL Salva]**, immettete un nome per l’eCatalog, scegliete una cartella Dynamic Media Classic in cui memorizzarlo e fate clic su **[!UICONTROL Salva]**. Ogni volta che modificate l’ordine delle pagine o modificate l’eCatalog, salvate le modifiche facendo clic su **[!UICONTROL Salva]**.
 
 Consultate [Creazione di un eCatalog](creating-ecatalog.md).
 
@@ -80,7 +80,7 @@ Consultate [Creazione di un eCatalog](creating-ecatalog.md).
 
 Le mappe immagine aggiungono un’altra dimensione alle pagine eCatalog. Una mappa immagine è l’area di una pagina che fornisce ulteriori informazioni su un elemento. Quando un utenti passa il puntatore su una mappa immagine, viene visualizzata una descrizione dell’elemento. Facendo clic su una mappa immagine si attiva un riferimento esterno per l’apertura di una nuova pagina Web con ulteriori informazioni sull’elemento corrispondente.
 
-Per creare una mappa immagine, aprite la schermata eCatalog. Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. Potete regolare la posizione e la dimensione delle mappe immagine trascinando i bordi delle mappe con lo strumento scorrimento .
+Per creare una mappa immagine, aprite la schermata eCatalog. Quindi passate alla scheda **[!UICONTROL Mappe pagine]** della schermata eCatalog e disegnate la mappa con lo strumento rettangolo o poligono. Potete regolare la posizione e la dimensione delle mappe immagine trascinando i bordi delle mappe con lo strumento scorrimento .
 
 Dopo aver disegnato la mappa immagine, inserite l’indirizzo URL a cui accedere quando si fa clic su di essa. Potete anche inserire il testo di rollover visualizzato quando si passa il puntatore sulla mappa immagine. 
 
@@ -96,7 +96,7 @@ Consultate [Gestione del contenuto del pannello Informazioni](info-panel-content
 
 Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog e personalizzarlo modificandone il colore di contorno e selezionando una nuova interfaccia. Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori di eCatalog &quot;best practice&quot;. Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
 
-Per creare un predefinito per visualizzatori di eCatalog, nella barra di navigazione globale fate clic su **[!UICONTROL Configurazione]** e scegliete Predefiniti per **[!UICONTROL visualizzatori]**. Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
+Per creare un predefinito per visualizzatori di eCatalog, nella barra di navigazione globale fate clic su **[!UICONTROL Configurazione]** e scegliete **[!UICONTROL Predefiniti visualizzatore]**. Fate clic su **[!UICONTROL Aggiungi]**, scegliete una piattaforma, quindi fate clic su **[!UICONTROL eCatalog > Visualizzatore]**.
 
 Consultate [Impostazione dei predefiniti per il visualizzatore di eCatalog](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -104,7 +104,7 @@ Consultate [Impostazione dei predefiniti per il visualizzatore di eCatalog](sett
 
 I predefiniti per visualizzatori di eCatalog determinano lo stile e il comportamento di tali visualizzatori.
 
-To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. La schermata Anteprima si apre nel visualizzatore predefinito.
+Per vedere come un eCatalog viene visualizzato dai predefiniti per visualizzatori di eCatalog, selezionate l’eCatalog nel pannello Sfoglia e fate clic su **[!UICONTROL Anteprima]**. La schermata Anteprima si apre nel visualizzatore predefinito.
 
 Notate l’orientamento, lo schema colori, l’aspetto dei controlli per passare alle diverse pagine e come si presentano le pagine voltate. 
 
@@ -112,15 +112,15 @@ Consultate [Anteprima di eCatalog nel visualizzatore di eCatalog](previewing-eca
 
 **6. Pubblicazione di eCatalog e PDF associati**
 
-Quando un eCatalog viene pubblicato e i PDF associati, viene inserito sui server immagini per file multimediali dinamici in modo che possa essere trasmesso al sito Web o all’applicazione in cui deve essere visualizzato. Come parte del processo di pubblicazione, Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzate questo URL per richiamare l’eCatalog dai server immagini per file multimediali dinamici al sito Web o all’applicazione.
+Quando un eCatalog viene pubblicato e i PDF associati, questo viene inserito sui server immagini Dynamic Media in modo che possa essere trasmesso al sito Web o all’applicazione in cui deve essere visualizzato. Come parte del processo di pubblicazione, Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzate questo URL per richiamare l’eCatalog dai server immagini Dynamic Media al sito Web o all’applicazione.
 
-Per avviare la pubblicazione, contrassegnate l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, quindi fate clic sul pulsante Pubblica nella barra di navigazione globale. On the Publish screen, click **[!UICONTROL Start Publish]**.
+Per avviare la pubblicazione, contrassegnate l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, quindi fate clic sul pulsante Pubblica nella barra di navigazione globale. Nella schermata Pubblica, fate clic su **[!UICONTROL Avvia pubblicazione]**.
 
-Consultate [Pubblicazione di eCatalog e PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)associati.
+Consultate [Pubblicazione di eCatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 **7. Collegamento di un eCatalog a una pagina Web**
 
-Dynamic Media Classic attiva la stringa di richiesta dell’URL necessaria per visualizzare l’eCatalog quando questo viene pubblicato sui server immagini per elementi multimediali dinamici. Potete copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in visualizzazione Dettagli) selezionando l’opzione URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
+Dynamic Media Classic attiva la stringa di richiesta URL necessaria per visualizzare l’eCatalog quando questo viene pubblicato sui server immagini Dynamic Media. Potete copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in visualizzazione Dettagli) selezionando l’opzione URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
 
 Consultate il personale IT per inserire il collegamento all’eCatalog nella posizione appropriata sulla pagina Web. Quando un utente farà clic sul collegamento, verrà aperto il visualizzatore di eCatalog che consente all’utente di sfogliare l’eCatalog. 
 
