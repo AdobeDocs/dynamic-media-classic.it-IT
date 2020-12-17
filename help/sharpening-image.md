@@ -22,7 +22,7 @@ ht-degree: 73%
 
 La nitidezza si ottiene con una tecnica di manipolazione dell’immagine che rende più netti i contorni di un’immagine digitale. La nitidezza aumenta il contrasto tra i pixel dei bordi ed enfatizza il passaggio dalle aree chiare a quelle scure e viceversa. La nitidezza aumenta il contrasto locale e mette in evidenza i dettagli. Non esiste una formula rigida per ottenere la giusta nitidezza per tutte le immagini. Una nitidezza troppo leggera può produrre immagini morbide mentre una nitidezza troppo accentuata può produrre immagini con artefatti, disturbo o aloni.
 
-Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti per immagini per tutte le immagini. affinché abbiano dimensioni uniformi e affinché la nitidezza venga applicata a tutte le immagini richiamate d un particolare predefinito per immagini. Inoltre, potrete modificare facilmente i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
+Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per tutte le immagini. affinché abbiano dimensioni uniformi e affinché la nitidezza venga applicata a tutte le immagini richiamate d un particolare predefinito per immagini. Inoltre, potrete modificare facilmente i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
 
 Dynamic Media Classic consiglia inoltre di aggiungere la nitidezza ai predefiniti per visualizzatori, quindi di richiamare un visualizzatore con tale predefinito. In questo modo tutte le immagini all’interno dei visualizzatori saranno nitide.
 
@@ -30,7 +30,7 @@ Tuttavia, a prescindere dall’utilizzo di predefiniti per immagini o per visual
 
 >[!NOTE]
 >
->il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono trasmesse dai server di immagini per file multimediali dinamici. Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per distribuire tutte le immagini in modo che queste vengano trasmesse con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
+>il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono trasmesse dai server immagini di Dynamic Media. Dynamic Media Classic consiglia vivamente di usare i predefiniti per immagini per distribuire tutte le immagini in modo che queste vengano trasmesse con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
 
 È spesso necessario rendere le immagini più nitide. I server Dynamic Media Classic e Image offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
 
@@ -38,13 +38,13 @@ La nitidezza aumenta il contrasto tra i pixel dell’immagine in modo da accentu
 
 Nelle immagini con nitidezza eccessiva si possono osservare un effetto alone o bande nelle linee dei bordi.
 
-Per ottimizzare la nitidezza delle immagini in Dynamic Media Classic e su Dynamic Media Image Server, sono disponibili procedure ottimali.
+Per ottimizzare la nitidezza delle immagini in Dynamic Media Classic e sul server immagini Dynamic Media, sono disponibili procedure ottimali.
 
 Consultate [Procedure ottimali per la nitidezza delle immagini in Dynamic Media Classic e su Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Per rendere più nitida un’immagine**
 
-To sharpen an image, click its rollover **Edit** button and choose Sharpen, or open it in the Browse Panel in Detail view, then click **Sharpen**. Viene visualizzato l’Editor nitidezza con i relativi comandi. Scegliete i comandi e fate clic su **Salva**.
+Per rendere nitida un’immagine, fate clic sul relativo pulsante rollover **Modifica** e scegliete Più nitido oppure apritelo nel pannello Sfoglia in visualizzazione Dettagli, quindi fate clic su **Più nitido**. Viene visualizzato l’Editor nitidezza con i relativi comandi. Scegliete i comandi e fate clic su **Salva**.
 
 >[!NOTE]
 >
@@ -58,47 +58,47 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 |--- |--- |--- |--- |
 | Nitidezza semplice | op_sharpen | `0 | 1` | op_sharpen=1 |
 | Modalità di ricampionamento | resMode | `bilin | bicub | sharp2 | trilin`<br><br>bilin: interpolazione bilineare standard. È il metodo di ricampionamento più veloce; possono essere visibili alcuni artefatti di alias.<br>bicub: interpolazione bicubica. Richiede maggiori risorse CPU rispetto a bilin, ma produce immagini più nitide e con meno artefatti di alias.<br><br>sharp2: come algoritmo di interpolazione viene utilizzata una funzione Lanczos Window modificata. I risultati possono essere leggermente più nitidu dell’opzione bicubica, ma richiede un utilizzo maggiore della CPU.<br><br>trilin: interpolazione trilineare modificata, che utilizza risoluzioni più elevate e più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | resMode=sharp2 |
-| Maschera di contrasto | op_usm | amount, radius, threshold,<br><br>monochromeamount: fattore di intensità del filtro (reale 0...5)<br><br>raggio: raggio kernel del filtro in pixel ( <br><br>soglia reale 0...250): livello di soglia del filtro (numero intero: 0...255)<br><br>monocromatico: impostato su 0 per applicare la maschera di contrasto separatamente a ciascun componente di colore, con l’impostazione su 1 per applicare la maschera di contrasto alla luminosità dell’immagine (intensità) | op_usm=1,1,10,0 |
+| Maschera di contrasto | op_usm | amount, radius, threshold, monocromatico<br><br>amount: fattore di intensità del filtro (reale 0...5)<br><br>raggio: raggio kernel del filtro in pixel (numero reale 0...250) <br><br>soglia: livello di soglia del filtro (numero intero: 0...255)<br><br>monocromatico: impostato su 0 per applicare la maschera di contrasto separatamente a ciascun componente di colore, con l’impostazione su 1 per applicare la maschera di contrasto alla luminosità dell’immagine (intensità) | op_usm=1,1,10,0 |
 
 Selezionate il menu Nitidezza e scegliete un’opzione:
 
-**Nessuno** Disattiva la nitidezza.
+**** NoneDisattiva la nitidezza.
 
-**Nitidezza** Esegue una semplice passata di nitidezza sul file ridimensionato. Questa funzione è simile al filtro Nitidezza di Photoshop e supporta tutti i parametri utente. In genere si utilizza questo filtro o Maschera di contrasto, ma non entrambi. Questo metodo non è consigliato come procedura abituale, ma può servire per compensare un’eventuale sfocatura delle immagini. (URL: op_sharpen)
+**Nitidezza:** esegue una passata di nitidezza semplice sul file ridimensionato. Questa funzione è simile al filtro Nitidezza di Photoshop e supporta tutti i parametri utente. In genere si utilizza questo filtro o Maschera di contrasto, ma non entrambi. Questo metodo non è consigliato come procedura abituale, ma può servire per compensare un’eventuale sfocatura delle immagini. (URL: op_sharpen)
 
-**Maschera** di contrasto Consente di regolare un effetto filtro di nitidezza sull’immagine ricampionata finale. Potete controllare l’intensità dell’effetto e il raggio (in pixel) e impostare una soglia per il livello di contrasto da ignorare. L’effetto utilizza le stesse opzioni del filtro “Maschera definizione dettagli” di Photoshop. (URL: op_usm)
+**Maschera** di contrasto: consente di regolare un effetto filtro di nitidezza sull’immagine ricampionata finale. Potete controllare l’intensità dell’effetto e il raggio (in pixel) e impostare una soglia per il livello di contrasto da ignorare. L’effetto utilizza le stesse opzioni del filtro “Maschera definizione dettagli” di Photoshop. (URL: op_usm)
 
 Scegliete le seguenti opzioni per regolare la nitidezza con Maschera di contrasto:
 
-**Fattore** Controlla la quantità di contrasto applicata ai pixel lungo i bordi. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L’impostazione Fattore in Dynamic Media Classic non equivale all’impostazione Fattore in Photoshop. Photoshop utilizza un valore compreso tra 1% e 500%, mentre Dynamic Media Classic viene ridimensionato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
+**** Fattore: consente di controllare la quantità di contrasto applicata ai pixel lungo i bordi. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. Tenete presente che l’impostazione Importo in Dynamic Media Classic non equivale all’impostazione Importo in Photoshop. Photoshop utilizza un valore compreso tra 1% e 500%, mentre Dynamic Media Classic viene ridimensionato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
 
-**Raggio** Determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni. 
+**Raggio (** Radius): determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni. 
 
 Il valore di raggio più adatto dipende dalle dimensioni dell’immagine. Un valore basso rende più nitidi solo i pixel dei bordi. Un valore alto rende più nitida una banda più ampia di pixel. 
 
 Ad esempio, per ottenere un effetto di nitidezza simile per un’immagine di 2000x2000 pixel e una di 500x500 pixel, potete impostare un raggio di 2 pixel per l’immagine di 2000x2000 pixel. Quindi impostate un raggio di 1 pixel per l’immagine di 500x500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel. 
 
-**Soglia** Determina l’intervallo di contrasto da ignorare quando viene applicato il filtro maschera di contrasto. Questa opzione specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi.
+**** Soglia: determina l’intervallo di contrasto da ignorare quando viene applicato il filtro maschera di contrasto. Questa opzione specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi.
 
 Soglia utilizza un valore da 0-255, che corrisponde al numero di incrementi di luminosità di un’immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e incarnato. 
 
 Ad esempio, per una foto di un volto, Maschera di contrasto agisce sulle parti dell’immagine con maggior contrasto, ma anche sulle aree di incarnato uniforme. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentuerebbe tali lievi variazioni nei pixel dell’incarnato rendendolo meno uniforme (creando un effetto indesiderato), mentre aumenterebbe il contrasto per le ciglia rendendole più nitide (creando un effetto gradevole). Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso della pelle. Per evitare di introdurre disturbo o posterizzazione, ad esempio nelle immagini con toni di carne, provate a sperimentare con valori di soglia compresi tra 2 e 20. Il valore predefinito di Soglia pari a 0 rende più nitidi tutti i pixel dell’immagine.
 
-**Applica a** scegliere ogni colore per applicare la nitidezza separatamente a ciascun componente di colore; scegliete Luminosità per rendere più nitide le aree di luminosità delle immagini.
+**Applica** a: scegliete Ciascun colore per applicare la nitidezza separatamente a ciascun componente di colore; scegliete Luminosità per rendere più nitide le aree di luminosità delle immagini.
 
 **Ricampionamento**
 
 Selezionate il menu Ricampionamento e scegliete un’opzione. Queste opzioni aumentano la nitidezza quando si esegue il downsampling dell’immagine:
 
-**Nessuno** Disattiva il ricampionamento.
+**** NessunoDisattiva il ricampionamento.
 
-**Bilineare** Il metodo di ricampionamento più veloce; alcuni artefatti di alias sono visibili.
+**** Bilineare: il metodo di ricampionamento più veloce; alcuni artefatti di alias sono visibili.
 
-**Bicubica** Aumenta l’utilizzo della CPU sul server immagini, ma produce immagini più nitide con meno artefatti di alias.
+**Bicubica:** aumenta l’utilizzo della CPU sul server immagini, ma produce immagini più nitide con meno artefatti di alias.
 
 **Sharpen2** Può produrre risultati leggermente più nitidi rispetto all’opzione Bicubica, ma con un utilizzo maggiore della CPU sul server immagini.
 
-**Trilineare** utilizza risoluzioni più elevate e più basse, se disponibili; consigliato solo quando l&#39;aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
+**** Trilineare: utilizza risoluzioni più elevate e più basse, se disponibili; consigliato solo quando l&#39;aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
 **Nitidezza e predefiniti per immagini**
 
@@ -115,11 +115,11 @@ Se utilizzate un predefinito per ciascuna immagine di una categoria di dimension
 
 Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
-**Qualità** JPG Selezionate questa opzione se desiderate controllare i livelli di compressione e il downsampling della crominanza.
+**JPG** QualitySelezionate questa opzione se desiderate controllare i livelli di compressione e il downsampling della crominanza.
 
-**Slider** Determina il livello di compressione JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPG va da 1 a 100.
+**** SliderDetermina il livello di compressione JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPG va da 1 a 100.
 
-**Attiva il downsampling della crominanza** JPG Poiché l’occhio è meno sensibile alle informazioni sui colori ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni sulle immagini in componenti luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce di metà o un terzo il volume di dati, con impatto trascurabile sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
+**Attiva il** downsampling della crominanza JPGpoiché l’occhio è meno sensibile alle informazioni sui colori ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni sulle immagini in componenti luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce di metà o un terzo il volume di dati, con impatto trascurabile sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
 **Impostazione delle opzioni di nitidezza a livello di società**
 
