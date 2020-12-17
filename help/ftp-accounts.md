@@ -20,7 +20,7 @@ ht-degree: 88%
 
 # Gestione degli account FTP{#managing-ftp-accounts}
 
-solo gli amministratori di Media Portal possono amministrare e gestire gli account FTP. In addition, only users with the role of *Media Portal Contributor-User *or *Media Portal Contributor* can upload digital assets.
+solo gli amministratori di Media Portal possono amministrare e gestire gli account FTP. Inoltre, solo gli utenti che hanno il ruolo di *Collaboratore-utente di Media Portal *o *Collaboratore di Media Portal* possono caricare le risorse digitali.
 
 È possibile attivare o disattivare gli utenti esistenti di Media Portal nella pagina Amministrazione utente in Impostazione amministrazione.
 
@@ -40,7 +40,7 @@ Consultate [Attivazione o disattivazione degli utenti](administration-setup.md#a
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
-## Eliminazione di un account FTP esistente {#deleting-an-existing-ftp-account}
+## Eliminazione di un account FTP esistente  {#deleting-an-existing-ftp-account}
 
 1. Fate clic su **Configurazione** > **Media Portal** > **Account FTP**.
 1. Nella pagina Aggiungi account FTP, selezionate l’account FTP da rimuovere nella tabella Account esistenti.
