@@ -28,7 +28,7 @@ Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda o
 >
 >dopo aver ritagliato l’immagine, potete fare clic sul pulsante Salva con nome per salvare la versione ritagliata con un nome diverso. Nella finestra Salva con nome, scegliete Salva come nuovo elemento principale per salvare una seconda copia dell’immagine. Scegliete Salva come visualizzazione aggiuntiva dell’elemento principale per salvare l’originale e la versione ritagliata con un nome diverso. Scegliete Sostituisci originale per eliminare il file originale da cui è stata ritagliata l’immagine. A questo punto, immettete un nome per l’immagine e fate clic sul pulsante Invia.
 
-## Ritagliare per rimuovere lo spazio bianco intorno a un’immagine {#crop-to-remove-white-space-around-an-image}
+## Ritagliare per rimuovere lo spazio bianco intorno a un’immagine  {#crop-to-remove-white-space-around-an-image}
 
 Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine ritagliandoli.
 
@@ -44,11 +44,11 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 >
 >per riportare un’immagine al suo stato originale dopo averla ritagliata, visualizzatela nella schermata Editor di ritaglio e fate clic sul pulsante Reimposta.
 
-## Selezionare un’area da ritagliare {#select-an-area-to-crop}
+## Selezionare un’area da ritagliare  {#select-an-area-to-crop}
 
-1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
+1. Per ritagliare un&#39;immagine, fate clic sul relativo pulsante rollover Modifica e scegliete **Ritaglia** oppure visualizzatela nel pannello Sfoglia in visualizzazione Dettagli e fate clic su **Ritaglia**.
 
-1. Nella finestra Editor di ritaglio, inserite nella casella di ritaglio la parte dell’immagine da non ritagliare. What appears inside the box remains when you click **Save** and crop the image.
+1. Nella finestra Editor di ritaglio, inserite nella casella di ritaglio la parte dell’immagine da non ritagliare. Quando si fa clic su **Salva** e si ritaglia l&#39;immagine, viene conservato il contenuto della casella.
 1. Per regolare l’area di ritaglio, effettuate una delle seguenti operazioni:
 
    * Trascinate un lato o un angolo della casella. Tenete premuto il tasto Maiusc mentre trascinate per cambiare le dimensioni ma mantenere le stesse proporzioni (forma) del rettangolo di ritaglio.
