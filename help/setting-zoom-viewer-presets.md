@@ -28,9 +28,11 @@ Tutti i visualizzatori zoom includono pulsanti per applicare lo zoom in avanti, 
 
 Dynamic Media Classic offre i seguenti predefiniti per visualizzatori zoom:
 
-* **Visualizzatore zoom: Base** Fornisce uno zoom di base sull’immagine originale.
+* **Visualizzatore zoom:**
+BaseFornisce uno zoom di base sull’immagine originale.
 
-* **Visualizzatore zoom: A comparsa** Visualizza una seconda immagine dell’area ingrandita accanto all’immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
+* **Visualizzatore zoom: A comparsaConsente di**
+visualizzare una seconda immagine dell’area ingrandita accanto all’immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
 
 Quando calcolate l’utilizzo di larghezza di banda totale per questo visualizzatore, tenete presente che nel visualizzatore vengono caricate sia l’immagine principale che l’immagine a comparsa. Le dimensioni dell’immagine a comparsa dipendono da quelle dell’immagine principale (larghezza e altezza dell’area di visualizzazione) e dal fattore di zoom. Per impedire che le dimensioni del file dell’immagine a comparsa diventino eccessive, bilanciate questi due valori: se le dimensioni dell’immagine principale sono grandi, riducete il fattore di zoom. I valori Larghezza a comparsa e Altezza comparsa determinano le dimensioni della finestra a comparsa ma non dell’immagine a comparsa caricata nel visualizzatore.
 
@@ -38,11 +40,14 @@ Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel,
 
 Dynamic Media Classic consiglia i seguenti parametri per i predefiniti per visualizzatori zoom a comparsa:
 
-* **Dimensioni** immagine ingrandita Circa 1500 x 1500 pixel, non superiore a 2000 x 2000 pixel.
+* **Ingrandimento delle**
+dimensioni delle immaginiCirca 1500 x 1500 pixel, non superare i 2000 x 2000 pixel.
 
-* **Dimensione** dell&#39;immagine pari o inferiore a 100 KB, per non superare i 150 KB (comprimere il file per mantenerlo al di sotto dei 150 KB).
+* **Dimensione**
+ dell&#39;immagine pari o inferiore a 100 KB, per non superare i 150 KB (comprimere il file per mantenerlo al di sotto dei 150 KB).
 
-* **Visualizzatore zoom: Personalizzato** Fornisce lo zoom guidato o non guidato con immagini, set di immagini con più viste o set di campioni colore.
+* **Visualizzatore zoom:**
+Personalizzato: consente di eseguire uno zoom guidato o non guidato con immagini, set di immagini con più viste o set di campioni colore.
 
 ## Creazione e modifica dei predefiniti per visualizzatori zoom {#creating-and-editing-zoom-viewer-presets}
 
@@ -51,9 +56,11 @@ Per creare o modificare un predefinito per visualizzatori zoom, effettuate le se
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Effettuate una delle seguenti operazioni:
 
-   * **Creazione di un predefinito** Fate clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate un visualizzatore zoom e fate clic su Aggiungi. Immettete un nome per il predefinito nella casella Nome predefinito.
+   * **Creazione di un**
+predefinitoFate clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate un visualizzatore zoom e fate clic su Aggiungi. Immettete un nome per il predefinito nella casella Nome predefinito.
 
-   * **Modifica di un predefinito** Selezionate un predefinito per visualizzatori zoom, quindi fate clic su 
+   * **Modifica di un**
+predefinitoSelezionate un predefinito per visualizzatori zoom, quindi fate clic su 
 **Modifica**.
 
 1. Specificate le impostazioni desiderate.
@@ -63,7 +70,7 @@ Per creare o modificare un predefinito per visualizzatori zoom, effettuate le se
    Nella schermata di anteprima viene riportato il visualizzatore con le impostazioni aggiornate e modificate.
 
 1. Fate clic su **Salva** o **Salva con nome**.
-1. Nella schermata Predefiniti visualizzatore, esaminate il predefinito per visualizzatori zoom o il predefinito per visualizzatori zoom guidato creato. If it needs adjusting, click **Edit**, change settings on the Configure Viewer screen, and click **Save**.
+1. Nella schermata Predefiniti visualizzatore, esaminate il predefinito per visualizzatori zoom o il predefinito per visualizzatori zoom guidato creato. Se è necessario apportare modifiche, fare clic su **Modifica**, modificare le impostazioni nella schermata Configura visualizzatore, quindi fare clic su **Salva**.
 
 Per informazioni sulla gestione dei predefiniti per visualizzatore nella schermata Predefiniti visualizzatore, consultate [Predefiniti per visualizzatore](application-setup.md#viewer_presets).
 
