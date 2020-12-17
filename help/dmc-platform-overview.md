@@ -1,6 +1,6 @@
 ---
-title: Panoramica della piattaforma Adobe Dynamic Media Classic
-seo-title: Panoramica della piattaforma Adobe Dynamic Media Classic
+title: Panoramica della piattaforma Dynamic Media Classic  Adobe
+seo-title: Panoramica della piattaforma Dynamic Media Classic  Adobe
 description: 'null'
 seo-description: Panoramica della piattaforma Dynamic Media Classic e del processo di workflow.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
@@ -18,21 +18,25 @@ ht-degree: 32%
 ---
 
 
-# Panoramica della piattaforma Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
+# Panoramica della piattaforma Dynamic Media Classic  Adobe{#adobe-scene-platform-overview}
 
 Dynamic Media Classic è un ambiente integrato per la gestione, la pubblicazione e la distribuzione di contenuti multimediali avanzati. I contenuti multimediali possono essere distribuiti a tutti i canali di marketing e vendita, incluso il Web, materiale stampato, campagne e-mail, portali Web, desktop e dispositivi.
 
-## Processo del flusso di lavoro {#workflow-process}
+## Processo del flusso di lavoro  {#workflow-process}
 
 I passaggi principali del flusso di lavoro di Dynamic Media Classic sono:
 
-* **Carica e gestisci le risorse** Carica le risorse multimediali in Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, nonché applicarvi metadati.
+* **Caricare e gestire**
+le risorseCaricare le risorse multimediali in Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, nonché applicarvi metadati.
 
-* **Creazione di contenuti multimediali** Create configurazioni diverse delle risorse disponibili, ad esempio eCatalog, set di immagini, set 360 gradi, set di campioni, set di file multimediali diversi, modelli di base e modelli FXG. Per ulteriori informazioni, consultate I contenuti multimediali.
+* **Creazione di**
+contenuti multimedialiCreate configurazioni diverse delle risorse disponibili, ad esempio eCatalog, set di immagini, set 360 gradi, set di campioni, set di file multimediali diversi, modelli di base e modelli FXG. Per ulteriori informazioni, consultate I contenuti multimediali.
 
-* **Pubblicate e amministrate** le risorse Pubblica nella rete Saas di Dynamic Media Classic, nonché monitorate lo stato delle risorse al momento della pubblicazione, amministrate i diritti utente e mantenete la sicurezza.
+* **Pubblicare e**
+amministrare risorsePubblicare sulla rete Saas di Dynamic Media Classic, nonché monitorare lo stato delle risorse al momento della pubblicazione, amministrare i diritti utente e mantenere la sicurezza.
 
-* **Trasmettere** contenuti dalla rete SaaS di Dynamic Media Classic a pagine Web, applicazioni e dispositivi mobili; i supporti sono ottimizzati per le prestazioni e vengono distribuiti con la memorizzazione cache CDN. Dynamic Media Classic fornisce un URL per ciascuna risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
+* ****
+ServeFornire contenuti multimediali dalla rete SaaS di Dynamic Media Classic a pagine Web, applicazioni e dispositivi mobili; i supporti sono ottimizzati per le prestazioni e vengono distribuiti con la memorizzazione cache CDN. Dynamic Media Classic fornisce un URL per ciascuna risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
 
 ![Processo del flusso di lavoro Dynamic Media Classic](/help/assets/gs_workflow.png)
 
