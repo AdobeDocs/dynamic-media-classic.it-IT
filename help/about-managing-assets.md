@@ -17,7 +17,7 @@ ht-degree: 81%
 ---
 
 
-# Gestione delle risorse{#about-managing-assets}
+# Informazioni sulla gestione delle risorse{#about-managing-assets}
 
 Dynamic Media Classic offre la Libreria risorse per la gestione delle risorse. La Libreria risorse contiene le cartelle in cui vengono memorizzati i file di risorse. Se selezionate una cartella nella Libreria risorse, i contenuti della cartella vengono visualizzati nel pannello Sfoglia. Potete visualizzare gli elementi nel pannello Sfoglia in visualizzazione Griglia, Elenco o Dettagli. Se desiderate concentrarvi su una singola risorsa, fate doppio clic su di essa nel pannello Sfoglia per visualizzarla in visualizzazione Dettagli.
 
