@@ -22,7 +22,7 @@ ht-degree: 59%
 
 Per pubblicare un set di file multimediali diversi contrassegnato per la pubblicazione su Dynamic Media Classic Video Server e Image Server, create un processo di pubblicazione. Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione di risorse già pubblicate.
 
-***nota **: I set di file multimediali diversi devono essere pubblicati sia sul server****video che sul server****immagini. Sul**server video **vengono pubblicati i video effettivi contrassegnati per la pubblicazione, mentre sul server****immagini vengono pubblicate le risorse correlate, ad esempio le miniature video, e vengono impostate le informazioni relative a eventuali set video adattivi.*
+***nota **: I set di file multimediali diversi devono essere pubblicati sia sul**server **video che sul server****immagini. Sul**server video **vengono pubblicati i video effettivi contrassegnati per la pubblicazione, Inoltre, potete usare**Image Server **per pubblicare le risorse correlate, come le miniature video, e impostare le informazioni per qualsiasi set video adattivo.*
 
 Dynamic Media Classic tiene traccia dei processi di pubblicazione nella schermata Processi.
 
