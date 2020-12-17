@@ -20,9 +20,9 @@ ht-degree: 64%
 
 # Uso dei file PSD {#working-with-psd-files}
 
-I file PSD (Photoshop Document Files) vengono utilizzati più spesso in Dynamic Media Classic per creare i modelli. Quando caricate un file PSD, potete creare automaticamente dal file un modello Dynamic Media Classic (selezionate l’opzione Crea modello nella schermata Carica).
+PSD (file Photoshop Document) viene utilizzato più spesso in Dynamic Media Classic per creare i modelli. Quando caricate un file PSD, potete creare automaticamente dal file un modello Dynamic Media Classic (selezionate l’opzione Crea modello nella schermata Carica).
 
-Dynamic Media Classic crea più immagini da un file PSD con livelli, se usate il file per creare un modello; crea un’immagine per ciascun livello.
+Dynamic Media Classic crea più immagini da un file PSD con livelli se usate il file per creare un modello; crea un’immagine per ciascun livello.
 
 ## Opzioni di caricamento PSD {#psd-upload-options}
 
@@ -30,9 +30,9 @@ Le opzioni per caricare file PSD si trovano nella sezione Opzioni Photoshop, in 
 
 Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
-**Ritaglio** (in Opzioni di ritaglio). Scegliete Rifila per ritagliare automaticamente lo spazio bianco dai bordi di un file PSD; scegliete Manuale per ritagliare dai lati del file PSD:
+**Ritaglio**  (in Opzioni di ritaglio). Scegliete Rifila per ritagliare automaticamente lo spazio bianco dai bordi di un file PSD; scegliete Manuale per ritagliare dai lati del file PSD:
 
-**Rifila** Selezionate il menu Rifila in base a e scegliete Colore o Trasparenza.
+**** Rifila: selezionate il menu Rifila in base a e scegliete Colore o Trasparenza.
 
 Se scegliete l’opzione Colore, dal menu Angolo scegliete l’angolo del file PSD con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
 
@@ -42,35 +42,35 @@ Per rifilare in base al colore, l’impostazione 0 ritaglia i pixel solo se corr
 
 Per rifilare in base alla trasparenza, l’impostazione 0 ritaglia i pixel solo se sono completamente trasparenti. Con valori più vicini a 1 viene invece tollerata una minore trasparenza. 
 
-**Manuale** Consente di immettere il numero di pixel da ritagliare da ogni lato o da uno dei lati dell’immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Ad esempio, se l’immagine viene visualizzata a 150 ppi e immettete 75 nelle caselle di testo, viene ritagliato mezzo pollice da ogni lato dell’immagine.
+**** Manuale: consente di immettere il numero di pixel da ritagliare da ogni lato o da ogni lato dell’immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Ad esempio, se l’immagine viene visualizzata a 150 ppi e immettete 75 nelle caselle di testo, viene ritagliato mezzo pollice da ogni lato dell’immagine.
 
-**Profilo** colore (in Opzioni profilo colore). Scegliete un’opzione:
+**Profilo**  colore (in Opzioni profilo colore). Scegliete un’opzione:
 
 **Converti in sRGB (impostazione predefinita)** Effettua la conversione in sRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
 
-**Mantieni spazio** colore originale Conserva lo spazio colore originale dell’immagine.
+**Mantieni** spazio colore originale: consente di mantenere lo spazio colore originale dell’immagine.
 
-**Personalizzato da > Per** aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic. Consultate Profili ICC.
+**Personalizzata da >** Per aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic. Consultate Profili ICC.
 
-**Mantieni livelli** Rimuove gli eventuali livelli del file PSD in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in visualizzazione Dettagli e selezionate il pannello dei livelli. Consultate Visualizzazione e modifica dei livelli in un file PSD.
+**Mantieni** livelliRimuove gli eventuali livelli del file PSD in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in visualizzazione Dettagli e selezionate il pannello dei livelli. Consultate Visualizzazione e modifica dei livelli in un file PSD.
 
-**Crea modello** Consente di creare un modello dai livelli presenti nel file PSD.
+**Crea** modello: crea un modello dai livelli presenti nel file PSD.
 
-**Estrai testo** Estrae il testo in modo che gli utenti possano cercare il testo in un visualizzatore.
+**Estrai** testo: consente di estrarre il testo per consentire agli utenti di effettuare ricerche di testo in un visualizzatore.
 
-**Estendi i livelli in base alle dimensioni** dello sfondo Estende le dimensioni dei livelli immagine estratti alle dimensioni del livello di sfondo.
+**Estendi livelli a** dimensioni sfondoEstende le dimensioni dei livelli immagine estratti alle dimensioni del livello di sfondo.
 
-**I livelli di denominazione** dei livelli nel file PSD vengono caricati come immagini separate. Scegliete un’opzione per denominare queste immagini in Dynamic Media Classic:
+**I livelli** Denominazione livello nel file PSD vengono caricati come immagini separate. Scegliete un’opzione per denominare queste immagini in Dynamic Media Classic:
 
-**Nome** livello Denomina le immagini in base ai nomi dei rispettivi livelli nel file PSD. Ad esempio, un livello denominato Price Tag nel file PSD originale diventa un’immagine denominata Price Tag. Se però i nomi dei livelli del file PSD sono nomi di livello predefiniti di Photoshop (Sfondo, Livello 1, Livello 2 e così via), le immagini vengono denominate in base al numero del rispettivo livello nel file PSD e non in base al nome predefinito del livello.
+**Nome livello:** indica le immagini dopo i nomi dei rispettivi livelli nel file PSD. Ad esempio, un livello denominato Price Tag nel file PSD originale diventa un’immagine denominata Price Tag. Se però i nomi dei livelli del file PSD sono nomi di livello predefiniti di Photoshop (Sfondo, Livello 1, Livello 2 e così via), le immagini vengono denominate in base al numero del rispettivo livello nel file PSD e non in base al nome predefinito del livello.
 
-**Photoshop e Numero** livello Denomina le immagini in base ai numeri dei rispettivi livelli nel file PSD, ignorando i nomi dei livelli originali. Le immagini vengono denominate con il nome file di Photoshop a cui viene aggiunto un numero di livello. Ad esempio, il secondo livello di un file con nome Spring Ad.psd viene denominato Spring Ad_2 anche se in Photoshop tale livello aveva un nome personalizzato.
+**Photoshop e** Numero livelliDenomina le immagini in base ai numeri dei rispettivi livelli nel file PSD, ignorando i nomi dei livelli originali. Le immagini vengono denominate con il nome file di Photoshop a cui viene aggiunto un numero di livello. Ad esempio, il secondo livello di un file con nome Spring Ad.psd viene denominato Spring Ad_2 anche se in Photoshop tale livello aveva un nome personalizzato.
 
-**Photoshop e Nome** livello Denomina le immagini dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop. Ad esempio, al livello denominato Price Tag in un file PSD chiamato SpringAd viene assegnato il nome Spring Ad_Price Tag. Al livello con il nome predefinito Layer 2 viene assegnato il nome Spring Ad_2.
+**Photoshop e** Nome livelloDenomina le immagini dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop. Ad esempio, al livello denominato Price Tag in un file PSD chiamato SpringAd viene assegnato il nome Spring Ad_Price Tag. Al livello con il nome predefinito Layer 2 viene assegnato il nome Spring Ad_2.
 
-**Ancoraggio** Specificate il modo in cui le immagini vengono ancorate nei modelli generati dalla composizione a livelli generata dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. L’ancoraggio centrale permette alle immagini sostitutive di riempire in modo ottimale lo spazio, indipendentemente dalle loro proporzioni. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
+**** Ancoraggio: consente di specificare il modo in cui le immagini vengono ancorate nei modelli generati dalla composizione a livelli generata dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. L’ancoraggio centrale permette alle immagini sostitutive di riempire in modo ottimale lo spazio, indipendentemente dalle loro proporzioni. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
 
-## Visualizzazione e modifica dei livelli in un file PSD {#viewing-and-editing-layers-in-a-psd-file}
+## Visualizzazione e modifica dei livelli in un file PSD  {#viewing-and-editing-layers-in-a-psd-file}
 
 Se al momento di caricare il file PSD selezionate l’opzione Mantieni livelli, Dynamic Media Classic estrae i singoli livelli come risorse. Per visualizzare e modificare i livelli delle risorse appartenenti al file PSD, aprite il file nel pannello Sfoglia in visualizzazione Dettagli.
 
