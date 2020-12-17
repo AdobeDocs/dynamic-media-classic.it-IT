@@ -18,7 +18,7 @@ ht-degree: 87%
 ---
 
 
-# Previewing image assets with different Zoom viewers{#previewing-image-assets-with-different-zoom-viewers}
+# Anteprima delle risorse di immagini con diversi visualizzatori zoom{#previewing-image-assets-with-different-zoom-viewers}
 
 Nella schermata Elenco visualizzatori, potete visualizzare l’anteprima delle immagini usando altri predefiniti per visualizzatori zoom.
 
