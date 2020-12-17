@@ -1,8 +1,6 @@
 ---
-title: Accesso e disconnessione
-seo-title: Accesso e disconnessione
-description: 'null'
-seo-description: Scopri come accedere e disconnettersi in Dynamic Media Classic
+title: Accesso e disconnessione  Adobe Dynamic Media Classic
+description: Scopri come accedere e uscire  Adobe Dynamic Media Classic e connettersi a un server dell'ambiente di produzione in Nord America (NA) oppure in Europa, Medio Oriente, Africa (EMEA) o Asia-Pacifico (APAC).
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,24 +8,24 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Accesso ad Dynamic Media Classic {#sign-in}
+# Accesso  Adobe Dynamic Media Classic {#sign-in}
 
-La modalità di accesso ad Dynamic Media Classic e di disconnessione dipende dal tipo di utilizzo dell’applicazione desktop o del browser Web.
+La modalità di accesso ad Dynamic Media Classic e di disconnessione dipende dal tipo di applicazione [desktop](#sign-in-dmc-app) o [browser Web](#sign-out) utilizzata.
 
 Indipendentemente da come effettuate l’accesso, prima di utilizzare Dynamic Media Classic accertatevi di disporre dei seguenti elementi:
 
-* **Nome**
-di loginIl vostro indirizzo e-mail viene usato come nome di login.
+* **Nome utente:**
+usate il vostro indirizzo e-mail come nome di accesso.
 
 * ****
 PasswordLa password temporanea viene fornita in un messaggio e-mail di benvenuto inviato da Dynamic Media Classic o dall’amministratore di Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
