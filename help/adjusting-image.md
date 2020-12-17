@@ -57,7 +57,7 @@ Consultate anche [Creazione di un alias per un’immagine](adjusting-image.md#cr
 
       Fate clic su **Salva**.
 
-## Creazione di un alias per un’immagine {#creating-an-alias-for-an-image}
+## Creazione di un alias per un’immagine  {#creating-an-alias-for-an-image}
 
 Dopo aver modificato un’immagine, potete salvarla come visualizzazione aggiuntiva dell’immagine principale. A questo scopo, potete creare un alias utilizzando la funzione **Salva come visualizzazione aggiuntiva dell’elemento principale**.
 
