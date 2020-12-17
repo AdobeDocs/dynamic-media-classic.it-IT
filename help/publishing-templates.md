@@ -26,9 +26,9 @@ Quando un modello viene pubblicato, viene inserito nei server immagini Dynamic M
 >
 >per usare il modello, pubblicate tutti i contenuti utilizzati per la sua realizzazione, inclusi font e immagini. Se non includete tutti i file richiesti, viene visualizzato un messaggio di errore durante la pubblicazione.
 
-## Contrassegnazione dei modelli per la pubblicazione {#marking-templates-for-publish}
+## Contrassegnazione dei modelli per la pubblicazione  {#marking-templates-for-publish}
 
-Per poter essere inseriti nei server immagini Dynamic Media, i modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione. You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+Per poter essere inseriti nei server immagini Dynamic Media, i modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione. Per contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia, fate clic sull&#39;icona **Contrassegna per pubblicazione**.
 
 ## Pubblicazione del modello {#publishing-your-template}
 
