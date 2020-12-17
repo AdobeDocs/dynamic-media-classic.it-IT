@@ -66,7 +66,7 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
 Quando si pubblica un set di file multimediali diversi, questo viene inserito sui server Dynamic Media Classic e viene attivata la stringa URL.
 
-i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Sul **server video** vengono pubblicati i video effettivi contrassegnati per la pubblicazione, mentre sul server **** immagini vengono pubblicate le risorse correlate, ad esempio le miniature video, e vengono impostate le informazioni relative a eventuali set video adattivi.
+i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Sul **server video** vengono pubblicati i video effettivi contrassegnati per la pubblicazione, Inoltre, potete usare **Image Server** per pubblicare le risorse correlate, come le miniature video, e impostare le informazioni per qualsiasi set video adattivo.
 
 Consultate [Pubblicazione di un set di file multimediali diversi](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
