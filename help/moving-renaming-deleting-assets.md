@@ -31,7 +31,7 @@ Potete spostare le risorse in altre cartelle del pannello Sfoglia.
    * Nella Libreria risorse, visualizzate la cartella in cui desiderate spostare le risorse e trascinatele in essa.
    * Scegliete File > Sposta, selezionate una cartella nella finestra Sposta risorse, quindi fate clic su Sposta.
 
-## Rinominare le risorse {#rename-assets}
+## Rinominare le risorse  {#rename-assets}
 
 Per rinominare una risorsa, effettuate le seguenti operazioni:
 
@@ -55,19 +55,19 @@ Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. 
 1. Effettuate una delle seguenti operazioni:
 
    * Per eliminare una o più risorse, selezionatele nel pannello Sfoglia, quindi premete Canc o scegliete File > Elimina.
-   * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
+   * Per eliminare una cartella, selezionatela nella Libreria risorse e fate clic su **Rimuovi cartella**.
 
       Se eliminate una cartella, verranno eliminate la cartella, tutte le risorse presenti in essa, nonché tutte le risorse nelle relative sottocartelle.
 
 >[!NOTE]
 >
->Dynamic Media Classic consiglia di sovrascrivere i file di risorse invece di eliminarli se intendete eliminare un file di risorse per sostituirlo con un altro con lo stesso nome.
+>Dynamic Media Classic consiglia di sovrascrivere i file di risorse invece di eliminarli se intendete sostituire un file di risorse con un altro con lo stesso nome.
 
 ## Eliminare più risorse con un file di testo {#delete-multiple-assets-with-a-text-file}
 
-Per eliminare più risorse alla volta nella Libreria risorse, potete elencare le risorse da eliminare in un file di testo e inviare l’elenco a Dynamic Media Classic.
+Per eliminare più risorse alla volta nella Libreria risorse, potete elencare le risorse da eliminare in un file di testo e inviare l’elenco ad Dynamic Media Classic.
 
-Create l’elenco degli ID Dynamic Media Classic e salvatelo come file di testo (.txt). Ogni ID Dynamic Media Classic deve essere su una propria riga (seguito da un ritorno a capo).
+Create l’elenco degli ID Dynamic Media Classic e salvatelo come file di testo (.txt). Ogni Dynamic Media Classic ID deve essere su una propria riga (seguito da un ritorno a capo).
 
 Una volta creato l’elenco, effettuate le operazioni seguenti:
 
@@ -75,7 +75,7 @@ Una volta creato l’elenco, effettuate le operazioni seguenti:
 1. Nella finestra di dialogo Elimina elenco risorse, individuate o digitate il percorso del file di testo contenente l’elenco delle risorse da eliminare.
 1. Fate clic sul pulsante Elimina.
 
-Quando eliminate delle risorse con un file di testo, se nell’elenco non è presente un ID Dynamic Media Classic, viene visualizzato un messaggio che informa che Dynamic Media Classic è &quot;Impossibile convalidare queste voci nell’elenco:&quot; insieme all’elenco delle voci. Tuttavia, Dynamic Media Classic non genera un errore nella schermata Processo.
+Quando eliminate delle risorse con un file di testo, se un ID Dynamic Media Classic non è presente nell’elenco, viene visualizzato un messaggio che informa che Dynamic Media Classic è &quot;Impossibile convalidare queste voci nell’elenco:&quot; insieme all’elenco delle voci. Tuttavia, Dynamic Media Classic non genera un errore nella schermata Processo.
 
 >[!MORELIKETHIS]
 >
