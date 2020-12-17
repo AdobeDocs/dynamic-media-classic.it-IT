@@ -26,7 +26,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 >
 >l’URL non è attivo finché non pubblicate la risorsa.
 
-## Copia dell’URL di un set 360 gradi {#copying-a-spin-set-url}
+## Copia dell’URL di un set 360 gradi  {#copying-a-spin-set-url}
 
 1. Nel pannello delle risorse, nell’elenco a discesa Mostra, fate clic su **Set 360 gradi**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set 360 gradi di cui desiderate copiare il codice incorporato.
@@ -45,7 +45,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-## Aggiunta di URL di set 360 gradi alla pagina Web {#adding-spin-set-urls-to-your-web-page}
+## Aggiunta di URL di set 360 gradi alla pagina Web  {#adding-spin-set-urls-to-your-web-page}
 
 I set 360 gradi vengono distribuiti come tutti i visualizzatori di zoom, tramite una pagina dinamica (ASP o JSP) che visualizza il set 360 gradi in una finestra di zoom. La richiesta URL alla piattaforma Dynamic Media Classic segue lo stesso protocollo sul visualizzatore zoom. Tuttavia, il nome del predefinito per visualizzatori dipende dal l’impostazione predefinita specificata dall’amministratore per i visualizzatori di set 360 gradi. Ad esempio, la sintassi dell’URL di prova riportato di seguito include un predefinito denominato `viewer.jsp` e il parametro SKU è il nome del set 360 gradi:
 
@@ -53,7 +53,7 @@ I set 360 gradi vengono distribuiti come tutti i visualizzatori di zoom, tramite
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-In questo esempio di sintassi URL (il collegamento non è attivo), è riportato un numero SKU ( `sku=backpack_spin`). The string after `sku=` is the Spin Set name ( `backpack spin`).
+In questo esempio di sintassi URL (il collegamento non è attivo), è riportato un numero SKU ( `sku=backpack_spin`). La stringa dopo `sku=` è il nome del set 360 gradi ( `backpack spin`).
 
 ## Copia del codice da incorporare di un visualizzatore set 360 gradi {#copying-the-embed-code-of-a-spin-set-viewer}
 
