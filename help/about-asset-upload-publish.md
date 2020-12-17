@@ -17,7 +17,7 @@ ht-degree: 34%
 ---
 
 
-# Informazioni sul caricamento e la pubblicazione delle risorse{#about-uploading-and-publishing-assets}
+# Informazioni sul caricamento e la pubblicazione di risorse{#about-uploading-and-publishing-assets}
 
 Il vostro lavoro in Dynamic Media Classic si articola in tre aree di base:
 
