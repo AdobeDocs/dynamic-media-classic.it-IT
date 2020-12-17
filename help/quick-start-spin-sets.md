@@ -90,7 +90,7 @@ Consultate [Anteprima di un set 360 gradi](previewing-spin-set.md#previewing-a-s
 
 Quando si pubblica un set 360 gradi, questo viene inserito sui server Dynamic Media Classic in modo che possa essere trasmesso in modo dinamico al sito Web o all’applicazione in cui deve essere visualizzato. Inoltre, attiva la stringa URL che richiama il set 360 gradi dai server immagini Dynamic Media al sito Web o all’applicazione.
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. Per avviare una pubblicazione, fate clic su **Pubblica** nella barra di navigazione globale. On the Publish screen, click **Start Publish**.
+Per pubblicare un set 360 gradi, contrassegnatelo per la pubblicazione selezionando l’icona **Contrassegna per pubblicazione** accanto al nome corrispondente nel pannello Sfoglia. Fate clic su **Pubblica** nella barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica, fate clic su **Avvia pubblicazione**.
 
 Consultate [Pubblicazione di un set 360 gradi](publishing-spin-set.md#publishing-a-spin-set).
 
