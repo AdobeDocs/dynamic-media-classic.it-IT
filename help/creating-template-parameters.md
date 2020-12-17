@@ -28,13 +28,13 @@ Nei parametri del livello di testo, potete anche fare sì che la stringa di test
 
 Potete fare riferimento più volte a uno stesso parametro. Utilizzate la casella combinata per ciascun comando nella finestra di dialogo dei parametri per selezionare un parametro che corrisponda a uno specifico comando. Ad esempio, tutti i parametri di dimensione sono disponibili per il comando size=. Potete riassegnare il riferimento del parametro a qualsiasi parametro già presente nella casella combinata e rinominarlo in modo diverso da quanto già elencato. In quest’ultimo caso, il nome deve essere univoco altrimenti si verifica un errore di tipo “parametro già esistente”. Quando eliminate un riferimento di parametro, il parametro viene rimosso dall’URL se non vi si fa riferimento anche altrove. Quando cambiate il valore predefinito di un parametro di testo, vengono aggiornati di conseguenza tutti i riferimenti a tale parametro. L’aggiornamento è riportato nella tabella dei livelli, nel rendering del modello e nell’URL. Quando cambiate un attributo di livello manipolandone le maniglie di ridimensionamento o digitando dei valori nel pannello delle proprietà, vengono aggiornati sia il valore del parametro che tutti i riferimenti a tale parametro. Ad esempio, se avete parametrizzato la dimensione di due livelli usando uno stesso parametro e cambiate la dimensione di un livello, vengono aggiornate le dimensioni di entrambi i livelli. Quando visualizzate in anteprima un modello e cambiate un parametro, vengono aggiornati tutti i riferimenti a tale parametro.
 
-## Impostazione di parametri per un livello {#parameterizing-a-layer}
+## Impostazione di parametri per un livello  {#parameterizing-a-layer}
 
 Per ciascun livello nel modello, attenetevi a questa procedura per creare parametri del modello:
 
 1. Nell’elenco Modelli, fate clic sul pulsante Parametri  accanto al nome del livello per il quale desiderate creare dei parametri. Si apre la schermata Parametri. In essa sono elencati i nomi di ciascun parametro applicato al livello, il suo valore e il suo tipo.
 1. Selezionate l’opzione Attivato accanto al nome di ciascun parametro da includere nell’immagine modello.
-1. Selezionate **Chiudi** per uscire dalla schermata Parametri.
+1. Selezionare **Chiudi** per uscire dalla schermata Parametri.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Per ciascun livello nel modello, attenetevi a questa procedura per creare parame
 
 Per visualizzare un elenco dei parametri creati per il modello, fate clic sul pulsante Riepilogo parametri nella schermata Modello. Viene visualizzata la schermata Riepilogo parametri. In essa sono elencati i nomi dei vari livelli nonché i nomi e i valori di eventuali parametri.
 
-## Creazione di parametri di testo dinamici {#creating-dynamic-text-parameters}
+## Creazione di parametri di testo dinamici  {#creating-dynamic-text-parameters}
 
 Per i livelli di testo, potete inoltre fare sì che la stringa di testo sia un campo dinamico collegato a un valore del database. Effettuate le seguenti operazioni:
 
