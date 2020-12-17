@@ -20,7 +20,7 @@ ht-degree: 71%
 
 # Verifica dei file di processo{#checking-job-files}
 
-Per monitorare i file caricati su Dynamic Media Classic e i file pubblicati su server Dynamic Media Classic, la pagina Processi di Dynamic Media Classic è disponibile. Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
+Per monitorare i file caricati in Dynamic Media Classic e i file pubblicati sui server Dynamic Media Classic, la pagina Processi di Dynamic Media Classic è disponibile. Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
 
 Quando caricate delle risorse, viene visualizzata un’icona rotante accanto al menu Processi a indicare che è in corso un processo; viene inoltre visualizzato il numero di file inclusi in tale processo. Potete fare clic sull’icona per visualizzare ulteriori informazioni sul processo attivo. 
 
@@ -28,31 +28,31 @@ Quando caricate delle risorse, viene visualizzata un’icona rotante accanto al 
 >
 >nella pagina Attività recenti è disponibile un elenco dei processi pubblicati di recente. Per aprire tale pagina, fate clic su Recente nella barra di navigazione globale.
 
-## La pagina Processi {#about-the-jobs-page}
+## La pagina Processi  {#about-the-jobs-page}
 
 Per aprire la pagina Processi, fate clic sul pulsante Processi nella barra di navigazione globale. Per impostazione predefinita, i processi più recenti vengono visualizzati all’inizio dell’elenco.
 
 I processi vengono elencati in queste categorie nella scheda Cronologia della pagina Processi:
 
-**Tipo** processo Un’icona indica il tipo di processo: Caricare e pubblicare sono i tipi di processi più comuni.
+**Tipo** processoUn’icona indica il tipo di processo: Caricare e pubblicare sono i tipi di processi più comuni.
 
-**Nome** processo Il nome del processo. Il nome include la parte del nome immessa dall’utente e il timbro della data e dell’ora.
+**Nome** processo: nome del processo. Il nome include la parte del nome immessa dall’utente e il timbro della data e dell’ora.
 
-**Avviato** All’inizio del processo.
+**** Avviato: all’inizio del processo.
 
-**Totale** Il numero di file trasferiti.
+**** Totale: il numero di file trasferiti.
 
-**W (avvertenze)** Numero di eventuali avvertenze nel processo. Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, i file con estensione DS_store (Macintosh) e Thumbs.db (Windows) contengono informazioni sulla modalità di visualizzazione dei file immagine agli utenti. Le voci di avviso relative a questi file possono tuttavia essere ignorate perché non riguardano l’utilizzo di questi file in Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
+**W (avvertenze)** Numero di eventuali avvertenze nel processo. Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, i file con estensione DS_store (Macintosh) e Thumbs.db (Windows) contengono informazioni sulla modalità di visualizzazione dei file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano la modalità di utilizzo di tali file in Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
 
-**E (errori)** Elenca il numero di eventuali errori nel processo. Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
+**E (errori)** Indica il numero di eventuali errori nel processo. Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
 
-**Durata** : tempo necessario per completare il processo.
+**** Durata: tempo necessario per completare il processo.
 
-**Stato** Mostra lo stato del processo.
+**** Stato: mostra lo stato del processo.
 
-**Destinazione** Per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non può essere applicata ai processi di pubblicazione.
+**** Destinazione: per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non può essere applicata ai processi di pubblicazione.
 
-**Inviato** da elenchi che hanno caricato le risorse.
+**Inviato** daElenchi che hanno caricato le risorse.
 
 ***Nota **: Per annullare i processi di pubblicazione e caricamento in corso, fate clic sul pulsante Annulla accanto alla barra di avanzamento.*
 
@@ -60,13 +60,13 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 Per ordinare i processi o modificare la visualizzazione della scheda Cronologia nella pagina Processi, effettuate le seguenti procedure:
 
-**Ordinamento** Selezionare un nome di colonna per ordinare l&#39;elenco in base a una particolare colonna. Potete selezionare l’interruttore accanto al nome della colonna per impostare l’ordinamento ascendente o discendente.
+**** Ordinamento: selezionate un nome di colonna per ordinare l’elenco in base a una particolare colonna. Potete selezionare l’interruttore accanto al nome della colonna per impostare l’ordinamento ascendente o discendente.
 
-**Intervallo** date Selezionate il menu Intervallo date e scegliete un’opzione per limitare l’elenco dei processi alla data corrente, alla settimana precedente o al mese precedente. Per immettere un intervallo date specifico, scegliete Intervallo di date personalizzato.
+**Intervallo di date:** selezionate il menu Intervallo date e scegliete un’opzione per restringere l’elenco dei processi alla data corrente, alla settimana precedente o al mese precedente. Per immettere un intervallo date specifico, scegliete Intervallo di date personalizzato.
 
-**Tipo** processo Selezionate il menu Tipo processo e scegliete Pubblica o Carica per limitare l’elenco ai soli processi di pubblicazione o caricamento. Per visualizzare entrambi i tipi di processi, scegliete Tutto. 
+**Tipo** processo: selezionate il menu Tipo processo e scegliete Pubblica o Carica per limitare l’elenco ai soli processi di pubblicazione o caricamento. Per visualizzare entrambi i tipi di processi, scegliete Tutto. 
 
-**Mostra** scegliere Mostra > Processi personali o Mostra > Tutti i processi per limitare l’elenco ai soli processi ordinati o ai processi ordinati dagli utenti della società.
+**** Mostra: scegliete Mostra > Processi personali o Mostra > Tutti i processi per limitare l’elenco ai soli processi ordinati o ai processi ordinati dagli utenti della società.
 
 ## Visualizzazione, copia o stampa di un rapporto Dettagli lavoro {#viewing-copying-or-printing-a-job-details-report}
 
@@ -88,17 +88,17 @@ Per modificare ed eliminare i processi periodici, fate clic sul pulsante Process
 >
 >per filtrare l’elenco dei processi nella scheda Pianificati, selezionate i menu Tipo processo e Mostra. Per restringere l’elenco includendo solo i processi di pubblicazione di un determinato tipo, scegliete Tipo processo. Per visualizzare i processi creati da voi o da qualsiasi utente aziendale, scegliete l’opzione Mostra.
 
-### Modifica, eliminazione, sospensione e ripristino di processi periodici {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Modifica, eliminazione, sospensione e ripristino di processi periodici  {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 Selezionate un processo periodico nella pagina Processi e seguite le seguenti istruzioni per modificarlo o eliminarlo:
 
-**Modifica di un processo** periodico Selezionare il pulsante Modifica e immettere le informazioni sulla pianificazione nella finestra di dialogo Modifica processo pianificato. Per pianificare l’esecuzione del processo a un intervallo desiderato, scegliete Ripeti > Personalizzato.
+**Modifica di un** processo periodicoFate clic sul pulsante Modifica e immettete le informazioni sulla pianificazione nella finestra di dialogo Modifica processo pianificato. Per pianificare l’esecuzione del processo a un intervallo desiderato, scegliete Ripeti > Personalizzato.
 
 Consultate [Creazione di un intervallo personalizzato per un processo di caricamento o pubblicazione](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-**Eliminazione di un processo** periodico Fate clic sul pulsante Elimina.
+**Eliminazione di un** processo periodicoFate clic sul pulsante Elimina.
 
-**Sospensione (e ripristino) di un processo** periodico Nella colonna Attivo, deselezionate una casella di controllo per sospendere un processo; selezionate una casella di controllo per riprendere un processo in pausa.
+**Sospensione (e ripristino) di un** processo periodicoNella colonna Attivo, deselezionate una casella di controllo per sospendere un processo; selezionate una casella di controllo per riprendere un processo in pausa.
 
 ### Creazione di un intervallo personalizzato per un processo di caricamento o pubblicazione {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -108,7 +108,7 @@ La sintassi per la descrizione degli intervalli personalizzati di caricamento e 
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-For example, `0 15 10 * * ?` schedules a job at 10:15.00 every day.
+Ad esempio, `0 15 10 * * ?` pianifica un processo alle 10:15.00 ogni giorno.
 
 Nelle tabelle e nell’elenco seguenti viene illustrato come specificare un intervallo temporale nella casella Regola.
 
@@ -151,7 +151,7 @@ Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli interval
 * 0 15 10 ? * 6L: alle 10:15 l’ultimo venerdì di ogni mese
 * 0 15 10 * * 6#3: alle 10:15 il terzo venerdì di ogni mese
 
-## Utilizzo di un processo di caricamento o pubblicazione come trigger {#using-an-upload-or-publish-job-as-a-trigger}
+## Utilizzo di un processo di caricamento o pubblicazione come trigger  {#using-an-upload-or-publish-job-as-a-trigger}
 
 Quando caricate risorse mediante FTP o eseguite un processo di pubblicazione, potete pianificare l’inizio di un processo successivo subito dopo il termine del caricamento. Se all’ora specificata è pianificato l’inizio di altri processi, il processo impostato in questo campo verrà messo in coda. Il nuovo processo invia una notifica all’indirizzo specificato per poter attivare il codice nella posizione esatta. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
 
