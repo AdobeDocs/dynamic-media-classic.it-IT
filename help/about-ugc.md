@@ -17,14 +17,14 @@ ht-degree: 56%
 ---
 
 
-# Informazioni sul contenuto generato dall’utente{#about-user-generated-content}
+# Informazioni sul contenuto generato dall&#39;utente{#about-user-generated-content}
 
 L’utilizzo di UGC (user-generated content, contenuto generato dall’utente) consiste nel caricare risorse in un archivio Dynamic Media Classic dedicato e nell’eseguire le relative operazioni.
 
 UGC supporta i seguenti formati:
 
 * Raster: JPG, PNG, TIFF
-* Vettoriale: AI, EPS (i file EPS di Adobe Illustrator 2018 non sono supportati), PDF (solo quando il file PDF è stato aperto e salvato in Adobe Illustrator CS6)
+* Vettoriale: AI, EPS (i file EPS di  Adobe Illustrator 2018 non sono supportati), PDF (solo quando il file PDF è stato aperto e salvato in  Adobe Illustrator CS6)
 
 Prima di caricare le risorse, dovete ottenere una chiave segreta condivisa Usate questa chiave per ottenere un token di caricamento. Il token di caricamento verrà quindi fornito al momento di caricare le risorse ed eseguire altre operazioni UGC.
 
