@@ -50,15 +50,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. L’indicatore temporale del cue point `00:00:000 --> 01:04:364` indica il minutaggio iniziale e finale del capitolo, in formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. L’identificatore del cue point, il cue point iniziale e il titolo del capitolo vengono visualizzati in una finestra a comparsa del lettore video quando l’utente passa il puntatore del mouse sul riferimento visivo nella timeline del video.
+Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. L’indicatore temporale del cue point `00:00:000 --> 01:04:364` indica il minutaggio iniziale e finale del capitolo, in formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L’identificatore del cue point, il cue point iniziale e il titolo del capitolo vengono visualizzati in una finestra a comparsa del lettore video quando l’utente passa il puntatore del mouse sul riferimento visivo nella timeline del video.
 
 Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file dei capitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
-See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
+Vedere [WebVTT: Il formato Web Video Text Tracks](https://dev.w3.org/html5/webvtt/).
 
 **Per aggiungere marcatori capitolo a video**
 
-1. Utilizzando un semplice editor di testo esterno a Dynamic Media Classic, create il file dei capitoli video.
+1. Utilizzando un semplice editor di testo esterno ad Dynamic Media Classic, create il file video del capitolo.
 
    >[!NOTE]
    >
@@ -66,9 +66,9 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 1. Salvate il file .vtt in codifica UTF8 per evitare problemi di rendering dei carattere nel titolo del capitolo.
 
-   Generally, you want to name the chapter VTT file the same name as the video file, and append it with `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
+   In genere, è consigliabile assegnare al file VTT dei capitoli lo stesso nome del file video, aggiungendo il suffisso `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
 
-1. In Dynamic Media Classic, caricate il file dei capitoli WebVTT.
+1. In Dynamic Media Classic, caricate il file WebVTT dei capitoli.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
@@ -86,7 +86,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
       Nella finestra di dialogo Codice da incorporare, fate clic su **[!UICONTROL Copia negli Appunti]**.
 
-      For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
+      Per il visualizzatore HTML5 `Universal_HTML5_Video`, aggiungete il codice da incorporare copiato con la seguente sintassi:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
