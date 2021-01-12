@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '1032'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -117,7 +117,7 @@ Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Po
 
    **[!UICONTROL Invia]** e-mail: deselezionate questa opzione se non desiderate informare i nuovi utenti tramite e-mail che li avete registrati.
 
-   **[!UICONTROL Password]** predefinita: consente di immettere una password temporanea per i nuovi utenti o di lasciare vuoto il campo per consentire ad Dynamic Media Classic di generare password casuali. Agli utenti verrà chiesto di cambiare questa password al loro primo accesso.
+   **[!UICONTROL Password]** predefinita: consente di immettere una password temporanea per i nuovi utenti o di lasciare vuoto il campo per consentire ad Dynamic Media Classic di generare password casuali. Agli utenti verrà chiesto di cambiare la password al loro primo accesso.
 
    **[!UICONTROL Sostituisci]** URL: inserite un URL diverso da quello predefinito se gli utenti accedono ad Dynamic Media Classic tramite un URL diverso.
 
