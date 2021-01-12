@@ -1,11 +1,11 @@
 ---
-title: Guida ad Adobe Dynamic Media Classic
+title: Guida di Adobe Dynamic Media Classic
 seo-title: Documentazione tecnica e supporto autonomo per  Adobe Dynamic Media Classic
 description: ' Adobe Dynamic Media Classic documentazione tecnica'
 seo-description: 'Documentazione tecnica, note sulla versione e materiali di supporto per  Adobe Dynamic Media Classic, ex Scene 7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 13%
@@ -13,13 +13,13 @@ ht-degree: 13%
 ---
 
 
-# Guida ad Adobe Dynamic Media Classic {#scene7-overview}
+# Guida di Adobe Dynamic Media Classic {#scene7-overview}
 
 Benvenuti nell’Aiuto di Dynamic Media Classic. Qui puoi accedere a tutte le risorse disponibili per ottenere ulteriori informazioni sull’utilizzo di Dynamic Media Classic (precedentemente noto come Scene7).
 
 ## Nuova esperienza di accesso Dynamic Media Classic disponibile dal 30 giugno 2020
 
-Il 30 giugno 2020, gli utenti classici di Dynamic Media avranno accesso a una nuova esperienza di accesso che non si avvale più  tecnologia di Adobe Flash nel browser. Leggi le seguenti Domande frequenti per saperne di più.
+Il 30 giugno 2020, gli utenti classici di Dynamic Media avranno accesso a una nuova esperienza di accesso che non si basa più  tecnologia di Adobe Flash nel browser. Leggi le seguenti Domande frequenti per saperne di più.
 
 Vedere [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti a partire dal 7 maggio 2020.
 
