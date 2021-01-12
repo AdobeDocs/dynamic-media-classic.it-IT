@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messag
 
    Dopo il salvataggio, un messaggio chiede se desiderate aggiungere l’utente a un’altra società. Fate clic su Aggiungi per aggiungere l’utente a una società.
 
-   A tutti i nuovi utenti viene assegnata una password generata in modo casuale; gli utenti devono cambiare la password al loro primo accesso ad Dynamic Media Classic.
+   A tutti i nuovi utenti viene assegnata una password generata in modo casuale; gli utenti devono cambiare la password al loro primo accesso all’applicazione desktop Dynamic Media Classic.
 
-   Dopo essere stati aggiunti da un amministratore, i nuovi utenti ricevono un messaggio e-mail di benvenuto. Il messaggio contiene una password temporanea e le istruzioni per accedere a Scene7 Publishing System.
+   Dopo essere stati aggiunti da un amministratore, i nuovi utenti ricevono un messaggio e-mail di benvenuto. L&#39;e-mail fornisce una password temporanea e spiega come accedere ad Dynamic Media Classic.
 
    Se l’utente non riceve il messaggio e-mail di benvenuto, chiedetegli di passare alla pagina di accesso di Dynamic Media Classic (https://s7sps1.scene7.com) e di fare clic su Password dimenticata. La password viene reimpostata e viene inviato un nuovo messaggio e-mail. Se l’utente non riceve l’e-mail (e se il messaggio non è stato inserito nella cartella della posta indesiderata), contattate il Supporto tecnico.
 
