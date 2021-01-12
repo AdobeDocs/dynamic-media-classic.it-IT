@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '279'
+ht-degree: 70%
 
 ---
 
@@ -29,9 +29,9 @@ Con più copie di Dynamic Media Classic in esecuzione su uno o più computer del
 * Caricare una o più risorse (sia desktop che FTP)
 * Creare, eliminare o rinominare una cartella
 
-Dopo che viene apportata una modifica nel client di origine, tutti i client peer connessi nella stessa società vengono aggiornati di conseguenza. Le modifiche vengono applicate ai client peer senza alcuna notifica, a meno che non sia in corsa la modifica di una delle risorse da aggiornare negli editor di immagini o negli strumenti di generazione.
+Dopo aver apportato una modifica nel client di origine, tutti i client peer firmati nella stessa società vengono aggiornati di conseguenza. Le modifiche vengono applicate ai client peer senza alcuna notifica, a meno che non sia in corsa la modifica di una delle risorse da aggiornare negli editor di immagini o negli strumenti di generazione.
 
-Quando effettuate l’accesso, una notifica di Flash Player richiede se accettare o rifiutare gli aggiornamenti peer. È possibile ricordare la scelta ed evitare così che tale notifica venga successivamente riproposta. Per annullare la scelta, eliminate il sito appropriato dal pannello Connettività peer-to-peer in Impostazioni globali.
+Quando effettuate l’accesso, vi viene richiesto di consentire o negare gli aggiornamenti peer. È possibile ricordare la scelta ed evitare così che tale notifica venga successivamente riproposta. Per annullare la scelta, eliminate il sito appropriato dal pannello Connettività peer-to-peer in Impostazioni globali.
 
 Se state modificando una risorsa modificata da un utente peer, viene richiesto di inserire la modifica nello strumento di generazione o nell’editor. Se scegliete Sì, le modifiche apportate alla risorsa vengono eliminate e viene reimportata la risorsa aggiornata. Se scegliete No, la risorsa resta inalterata nel modulo di generazione o nell’editor e vengono mantenute le modifiche che avete apportato nella sessione corrente.
 
