@@ -1,36 +1,30 @@
 ---
 title: Accesso e disconnessione  Adobe Dynamic Media Classic
 description: Scopri come accedere e uscire  Adobe Dynamic Media Classic e connettersi a un server dell'ambiente di produzione in Nord America (NA) oppure in Europa, Medio Oriente, Africa (EMEA) o Asia-Pacifico (APAC).
-uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
+source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 7%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Accesso  Adobe Dynamic Media Classic {#sign-in}
+# Accesso  Adobe Dynamic Media Classic {#dmc-sign-in}
 
-La modalità di accesso ad Dynamic Media Classic e di disconnessione dipende dal tipo di applicazione [desktop](#sign-in-dmc-app) o [browser Web](#sign-out) utilizzata.
-
-Indipendentemente da come effettuate l’accesso, prima di utilizzare Dynamic Media Classic accertatevi di disporre dei seguenti elementi:
+Prima di utilizzare l’applicazione desktop Dynamic Media Classic, accertatevi di disporre dei seguenti elementi:
 
 * **Nome utente:**
 usate il vostro indirizzo e-mail come nome di accesso.
 
 * ****
 PasswordLa password temporanea viene fornita in un messaggio e-mail di benvenuto inviato da Dynamic Media Classic o dall’amministratore di Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
-
-## Accesso ad Dynamic Media Classic tramite l&#39;app desktop {#sign-in-dmc-app}
 
 1. Aprite  Adobe l’applicazione desktop Dynamic Media Classic.
 
@@ -49,36 +43,9 @@ Utilizzate la mappatura seguente per selezionare l&#39;ambiente di produzione da
 
 1. Toccate **[!UICONTROL Accedi]**.
 
-### Disconnessione da Dynamic Media tramite l&#39;app desktop {#sign-out-dmc-app}
+## Disconnessione da  Adobe Dynamic Media Classic {#dmc-sign-out}
 
 1. Nell&#39;angolo superiore destro dell&#39;applicazione desktop Dynamic Media Classic, toccare **[!UICONTROL Disconnetti]**, quindi toccare di nuovo **[!UICONTROL Disconnetti]**.
-
-## Accesso ad Dynamic Media Classic tramite il browser Web {#signing-in-and-out}
-
-Oltre al nome utente e alla password, accertatevi di disporre anche di quanto segue prima di utilizzare Dynamic Media Classic dal browser Web:
-
-* ****
-Configurazione: l’amministratore deve aver impostato Dynamic Media Classic per l’utilizzo.
-
-* ****
-URLYYou deve avere il percorso URL per accedere ad Dynamic Media Classic. Puoi ottenere questo URL tramite il pulsante 
-*Messaggio di* benvenuto o dal vostro amministratore Dynamic Media Classic.
-
-Poiché Dynamic Media Classic è basato sul Web, l&#39;accesso a un altro sito Web causa l&#39;uscita dal sistema. Ad esempio, se fate clic sul pulsante Indietro nella finestra del browser, uscite da Dynamic Media Classic.
-
-1. Avviate il browser Web.
-1. Andate all’URL di accesso di Dynamic Media Classic (dal messaggio e-mail di benvenuto). In alternativa, potete accedere dal sito Web Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) facendo clic sul pulsante Client Login (Accesso cliente).
-1. Nel campo di testo **[!UICONTROL Nome utente]**, immettete il vostro indirizzo e-mail.
-1. Nel campo di testo **[!UICONTROL Password]**, immettere la password.
-1. Facoltativamente, è possibile memorizzare l&#39;indirizzo e-mail nel computer selezionando l&#39;opzione **[!UICONTROL Ricorda nome utente]**.
-1. Toccate **[!UICONTROL Accedi]**.
-
-### Disconnessione da Dynamic Media tramite il browser Web {#sign-out}
-
-1. Effettuate una delle seguenti operazioni:
-
-   * Sul lato destro della barra di navigazione globale, toccate **[!UICONTROL Esci]**.
-   * Uscite dal browser.
 
 >[!MORELIKETHIS]
 >
