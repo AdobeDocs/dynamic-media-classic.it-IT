@@ -1,18 +1,15 @@
 ---
 title: Informazioni sul caricamento e la pubblicazione delle risorse
-seo-title: Informazioni sul caricamento e la pubblicazione delle risorse
-description: 'null'
-seo-description: Introduzione al caricamento e alla pubblicazione di risorse in Dynamic Media Classic.
-uuid: 01a9c2d7-16bf-4fb2-9001-cb07a6233692
+description: Introduzione al caricamento e alla pubblicazione di risorse in Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 34%
+source-wordcount: '215'
+ht-degree: 35%
 
 ---
 
