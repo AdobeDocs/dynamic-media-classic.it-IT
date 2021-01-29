@@ -1,8 +1,6 @@
 ---
-title: '"Procedura ottimale: utilizzo del visualizzatore per video HTML5"'
-seo-title: '"Procedura ottimale: utilizzo del visualizzatore per video HTML5"'
-description: 'null'
-seo-description: Scoprite le procedure ottimali per l’utilizzo del visualizzatore video HTML5.
+title: Procedura ottimale per l’utilizzo del visualizzatore video HTML5
+description: Scoprite le procedure ottimali per l’utilizzo del visualizzatore video HTML5.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 29%
+source-wordcount: '422'
+ht-degree: 24%
 
 ---
 
 
-# Procedura ottimale: utilizzo del visualizzatore per video HTML5{#best-practice-using-the-html-video-viewer}
+# Procedure ottimali per l’utilizzo del visualizzatore video HTML5{#best-practice-using-the-html-video-viewer}
 
 I predefiniti per visualizzatori video HTML5 di Dynamic Media Classic sono lettori video affidabili. Dal punto di vista della progettazione del lettore, potete creare tutte le funzionalità del lettore video utilizzando gli strumenti di sviluppo Web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
 
