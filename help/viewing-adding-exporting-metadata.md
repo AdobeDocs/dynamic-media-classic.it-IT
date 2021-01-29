@@ -1,8 +1,6 @@
 ---
 title: Visualizzazione, aggiunta ed esportazione di metadati
-seo-title: Visualizzazione, aggiunta ed esportazione di metadati
-description: 'null'
-seo-description: Scoprite come visualizzare, aggiungere ed esportare i metadati.
+description: Scoprite come visualizzare, aggiungere ed esportare i metadati.
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2256'
 ht-degree: 78%
 
 ---
