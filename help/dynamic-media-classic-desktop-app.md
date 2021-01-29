@@ -1,16 +1,14 @@
 ---
 title: ' app desktop Dynamic Media Classic - Ora disponibile'
-seo-title: ' app desktop Dynamic Media Classic - Ora disponibile'
-description: 'null'
-seo-description: Ulteriori informazioni sull'app desktop Dynamic Media Classic.
+description: Ulteriori informazioni sull'app desktop Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -34,12 +32,18 @@ Consulta le Domande frequenti per la [Nuova esperienza di accesso di Dynamic Med
 * macOS X 10.10 o successivo.
 * Windows 7 o successivo.
 
-## Correzioni nell&#39;ultima versione 20.20.2 {#latest-fixes-desktop-app}
+## Correzioni nell&#39;ultima versione (20.21.1) {#latest-fixes-desktop-app}
+
+* Problemi di accesso a causa di timeout che generano il seguente messaggio: *Questo utente può essere assegnato al gruppo o ai gruppi senza autorizzazione. Contattare l&#39;amministratore.*
+* I predefiniti per visualizzatori vengono duplicati con ogni tentativo di password non corretto.
+* L’applicazione desktop non risponde a causa di una grande quantità di risorse nella cartella principale. (Problema corretto in Windows; funziona come desiderato su macOS.)
+
+## Correzioni nella versione precedente (20.20.2) {#previous-version-fixes-desktop-app}
 
 * Nessun limite al numero di file che potete caricare tramite l&#39;interfaccia utente dell&#39;app desktop sia per MacOS che per Windows.
 * Non è necessario disconnettersi dall&#39;app desktop per passare da un&#39;azienda all&#39;altra.
 * Ctrl+V per l&#39;operazione Incolla ora funziona in Windows.
-* In futuro, quando verrà rilasciata una nuova versione dell&#39;app desktop, gli utenti riceveranno una notifica all&#39;interno dell&#39;app desktop stessa.
+* In futuro, quando verrà rilasciata una nuova versione dell&#39;app desktop, gli utenti riceveranno una notifica all&#39;interno dell&#39;app desktop stessa. —>
 
 ## Scaricate e installate l&#39;app desktop Dynamic Media Classic di  Adobe più recente su macOS o Windows {#installation-dmc-app}
 
@@ -52,20 +56,14 @@ Consultate anche:
 
 1. Scaricate il programma di installazione più recente per &#39;app desktop Dynamic Media Classic ad Adobe.
 
-   >[!NOTE]
-   >
-   >L&#39;utente che ha già installato la versione GA deve *disinstallarla* dal proprio sistema Windows locale prima di installare la versione più recente. In alternativa, gli utenti possono semplicemente *sostituire* la versione GA installata nel sistema MacOS locale con la versione più recente. I nuovi utenti devono installare direttamente la versione più recente 20.20.2.
+   * L’ultima versione (20.21.1) è disponibile al seguente indirizzo:
 
-   L&#39;ultima versione è 20.20.2 disponibile al seguente indirizzo:
+      * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows (.EXE) - Scarica.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * La versione precedente (20.20.2) è disponibile al seguente indirizzo:
 
-   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows (.EXE) - Scarica.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
-
-   GA (General Availability) versione 20.20.1 disponibile al seguente indirizzo:
-
-   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) - Scarica.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
-
+      * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+      * [Windows (.EXE) - Scarica.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 
 
@@ -111,11 +109,11 @@ Per scaricare e installare *silent* l&#39;ultima versione dell&#39;app desktop D
 
 1. Scaricate il programma di installazione più recente per &#39;app desktop Dynamic Media Classic ad Adobe per macOS.
 
-   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
 
 1. Montare l&#39;Immagine disco scaricata (.DMG) in una posizione punto di montaggio utilizzando il seguente comando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
 
 1. Copiate il file .APP in **[!UICONTROL Applicazioni]** utilizzando il seguente comando:
 
@@ -151,19 +149,19 @@ Per scaricare e installare *silent* l&#39;ultima versione dell&#39;app desktop D
 
 1. Scaricate il programma di installazione più recente per &#39;app desktop Dynamic Media Classic ad Adobe.
 
-   * [Windows (.EXE) - Scarica.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows (.EXE) - Scarica.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 1. Eseguite il programma di installazione in modalità record utilizzando il seguente comando:
 
-   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
 
 1. Nella finestra del programma di installazione dell&#39;interfaccia utente grafica, seguite i passaggi necessari per installare in modo che le interazioni/gli ingressi, come il percorso di installazione, vengano registrati nel file `Setup.iss`.
 
-1. Copiare il file `Setup.iss` creato e `adobe-dynamic-media-classic-20.20.2.exe` in un altro computer.
+1. Copiare il file `Setup.iss` creato e `adobe-dynamic-media-classic-20.21.1.exe` in un altro computer.
 
 1. Eseguite il comando seguente per un&#39;installazione invisibile:
 
-   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
 
    I dettagli sui parametri della riga di comando sono disponibili in [Setup.exe e Update.exe Parametri della riga di comando.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -184,7 +182,7 @@ Per scaricare e installare *silent* l&#39;ultima versione dell&#39;app desktop D
 
 ## Video dettagliato sull&#39;utilizzo di Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Guardate il video introduttivo sull&#39;utilizzo di Dynamic Media Classic Desktop App[ (Lunghezza: 2 minuti 36 secondi).](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html)
+Guardate il video introduttivo sull&#39;utilizzo di Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (Lunghezza: 2 minuti 36 secondi).[
 
 ## Cancellazione della cache delle immagini e della cache delle risorse sul computer mediante l’app desktop
 
