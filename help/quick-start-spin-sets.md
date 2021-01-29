@@ -1,8 +1,6 @@
 ---
 title: '"Avvio rapido: set 360 gradi"'
-seo-title: '"Avvio rapido: set 360 gradi"'
-description: 'null'
-seo-description: Introduzione e Avvio rapido per il set 360 gradi per consentirvi di iniziare a usare le funzioni più rapidamente.
+description: Introduzione e Avvio rapido per il set 360 gradi per consentirvi di iniziare a usare le funzioni più rapidamente.
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 68%
 
 ---
