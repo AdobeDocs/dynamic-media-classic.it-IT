@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Questa nuova app è ora disponibile per Windows e macOS.
 
 >[!IMPORTANT]
 >
->È consigliabile installare la nuova app desktop Dynamic Media Classic per  Adobe entro il 1° ottobre 2020. In questo modo, assicurerete una transizione uniforme prima che  Flash Player Adobe venga dichiarato obsoleto il 31 dicembre 2020. A tale data, non sarà più possibile accedere alla versione del browser dell&#39;interfaccia utente di  Adobe Dynamic Media Classic, etichettata come Dynamic Media Classic nel prodotto.
+> Adobe consiglia di installare la nuova app desktop  Adobe Dynamic Media Classic entro il 1° ottobre 2020. In questo modo, assicurerete una transizione uniforme prima che  Flash Player Adobe venga dichiarato obsoleto il 31 dicembre 2020. Dopo tale data, non è possibile accedere alla versione del browser dell&#39;interfaccia utente Dynamic Media Classic  Adobe, etichettata come Dynamic Media Classic nel prodotto.
 
 Consulta le Domande frequenti per la [Nuova esperienza di accesso di Dynamic Media Classic ora disponibile.](/help/new-ui-2020.md)
 
 ## Requisiti di sistema per  app desktop Dynamic Media Classic {#system-requirements-dmc-app} Adobe
 
  Adobe l&#39;app desktop Dynamic Media Classic è compatibile con i seguenti sistemi operativi:
-* macOS X 10.10 o successivo.
+
+* macOS 10.10 o successivo.
 * Windows 7 o successivo.
 
 ## Correzioni nell&#39;ultima versione (20.21.1) {#latest-fixes-desktop-app}
 
 * Problemi di accesso a causa di timeout che generano il seguente messaggio: *Questo utente può essere assegnato al gruppo o ai gruppi senza autorizzazione. Contattare l&#39;amministratore.*
 * I predefiniti per visualizzatori vengono duplicati con ogni tentativo di password non corretto.
-* L’applicazione desktop non risponde a causa di una grande quantità di risorse nella cartella principale. (Problema corretto in Windows; funziona come desiderato su macOS.)
+* Applicazione desktop che non risponde a causa di molte risorse nella cartella principale. (Problema corretto in Windows; funziona come desiderato su macOS.)
 
 ## Correzioni nella versione precedente (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -84,7 +85,7 @@ Consultate anche:
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Utilizzate le stesse credenziali del browser per accedere  Adobe Dynamic Media Classic.
+1. Per accedere all&#39;app desktop Dynamic Media Classic  Adobe, utilizza le stesse credenziali utilizzate per accedere ad Dynamic Media Classic nel browser.
 
    Per l&#39;utilizzo di **[!UICONTROL Server]**, vedere la seguente mappatura per l&#39;ambiente di produzione:
 
@@ -94,7 +95,7 @@ Consultate anche:
    | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
 
-1. Pubblicate l’interfaccia utente di accesso e noterete l’esperienza acquisita con l’interfaccia utente del browser. Ora puoi svolgere le tue attività quotidiane come al solito nell&#39;interfaccia utente dell&#39;app desktop.
+1. Dopo l&#39;accesso, notate la familiare esperienza di interfaccia utente del browser. Puoi continuare la tua attività quotidiana con Dynamic Media Classic come sempre nell’app desktop.
 
 ## Scaricate e *silenziosa* installate l&#39;app desktop Dynamic Media Classic per Adobi  più recente su macOS {#install-silent-mac-dmc-app}
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Utilizzate le stesse credenziali del browser per accedere  Adobe Dynamic Media Classic.
+1. Per accedere all&#39;app desktop Dynamic Media Classic  Adobe, utilizza le stesse credenziali utilizzate per accedere ad Dynamic Media Classic nel browser.
 
    Per l&#39;utilizzo di **[!UICONTROL Server]**, vedere la seguente mappatura per l&#39;ambiente di produzione:
 
@@ -169,7 +170,7 @@ Per scaricare e installare *silent* l&#39;ultima versione dell&#39;app desktop D
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Utilizzate le stesse credenziali del browser per accedere  Adobe Dynamic Media Classic.
+1. Per accedere all&#39;app desktop Dynamic Media Classic  Adobe, utilizza le stesse credenziali utilizzate per accedere ad Dynamic Media Classic nel browser.
 
    Per l&#39;utilizzo di **[!UICONTROL Server]**, vedere la seguente mappatura per l&#39;ambiente di produzione:
 
@@ -194,7 +195,7 @@ Guardate il video introduttivo sull&#39;utilizzo di Dynamic Media Classic Deskto
 
 ### Cancellazione manuale della cache delle immagini e della cache delle risorse
 
-Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app desktop, potete eseguire questa operazione manualmente cancellando la cache direttamente dal file system.
+Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app desktop, potete cancellare manualmente la cache direttamente dal file system.
 
 1. In base al sistema operativo in uso, accedete a quanto segue:
 
@@ -207,7 +208,7 @@ Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app de
 
 **_Si applica a Windows e macOS - Come si passa da un&#39;azienda all&#39;altra?_**<br>Per passare da una società all’altra, effettuate le seguenti operazioni:
 * Nell&#39;app Dynamic Media Classic, seleziona la nuova società dall&#39;elenco a discesa della società.
-* Quando viene visualizzato il pop-up, toccate **[!UICONTROL OK]** per disconnettervi e chiudere l&#39;app.
+* Quando viene visualizzata la finestra a comparsa, toccate **[!UICONTROL OK]** per disconnettervi e chiudere l&#39;app.
 
    ![Riavviate l&#39;app per utilizzare la nuova società](/help/assets/dmclassic-new-company1.png)
 * Riavviate Dynamic Media Classic, quindi effettuate l&#39;accesso come al solito per lavorare con la nuova società.
@@ -216,7 +217,7 @@ Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app de
 
 **_Impossibile visualizzare il pannello Carrello sulla pagina di destinazione di Dynamic Media Classic._**<br>In Dynamic Media Classic, toccate**[!UICONTROL Configurazione > Configurazione ]**personale. Nella sezione Browser, accertatevi che l&#39;opzione**[!UICONTROL Mostra funzionalità di Media Portal ]**sia selezionata (selezionata). Toccate**[!UICONTROL Salva > Chiudi ]**.
 
-**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene riflesso correttamente._**<br>Nell’interfaccia utente del browser, per visualizzare lo stato di pubblicazione corretto delle risorse era necessario accedere nuovamente all’interfaccia utente. Nell&#39;app desktop, è stata introdotta l&#39;icona**[!UICONTROL Aggiorna ]**sulla barra degli strumenti, a destra del pulsante**[!UICONTROL Seleziona nessuno ]**. Toccate l&#39;icona**[!UICONTROL Aggiorna ]**per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare nuovamente l&#39;accesso come con l&#39;interfaccia utente del browser.
+**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene riflesso correttamente._**<br>Nell’interfaccia utente del browser, per visualizzare lo stato di pubblicazione corretto delle risorse era necessario accedere nuovamente all’interfaccia utente. Nell&#39;app desktop,  Adobe ha introdotto l&#39;icona**[!UICONTROL Aggiorna ]**nella barra degli strumenti, a destra del pulsante**[!UICONTROL Seleziona nessuno ]**. Toccate l&#39;icona**[!UICONTROL Aggiorna ]**per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare nuovamente l&#39;accesso come con l&#39;interfaccia utente del browser.
 
 ![Icona ](/help/assets/refresh-icon1.png)
 *AggiornaIcona Aggiorna*
