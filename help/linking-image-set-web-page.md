@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 91%
+source-wordcount: '680'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ Dopo aver pubblicato un set di immagini, potete copiarne l’URL o il codice da 
 
 Il modo più comune di pubblicare i set di immagini consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (JSP) in cui viene visualizzato il set di immagini in una finestra a comparsa. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di visualizzatori zoom HTML5 nella guida di riferimento dei visualizzatori di Adobi ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di visualizzatori zoom HTML5 nella guida di riferimento dei visualizzatori di Adobi ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copia del codice da incorporare di un visualizzatore set di immagini {#copying-the-embed-code-of-an-image-set-viewer}
 
