@@ -1,13 +1,11 @@
 ---
 title: Risorse utili
 description: Collegamenti a seminari Web, video di formazione, informazioni sulle procedure ottimali e risorse per gli sviluppatori.
-uuid: a2ef0e50-056c-4528-96d8-343c24f944a2
 contentOwner: Rick Brough
-discoiquuid: 094f1894-59f9-4e66-aa0a-1e0c4d7cc452
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -17,14 +15,14 @@ ht-degree: 16%
 
 ## Documentazione tecnica Dynamic Media Classic
 
-* [Note sulla versione](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)
+* [Note sulla versione](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [Guida utente](introduction.md)
 
 ## Risorse per sviluppatori Dynamic Media Classic
 
-* [Guida di riferimento visualizzatori di Adobi ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)
+* [Guida di riferimento visualizzatori di Adobi ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)
 * [Esempi della libreria di visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [API Image Server e Image Rendering](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html)
+* [API Image Server e Image Rendering](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html)
 
 ## Dynamic Media Classic Webinar e Tutorials
 
@@ -40,6 +38,6 @@ ht-degree: 16%
 ## Dynamic Media Classic Training
 
 Andate [qui](https://training.adobe.com/training/courses.html#product=adobe-scene7) per vedere i corsi di formazione attualmente disponibili.
-[Video](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/training-videos.html) di formazione Dynamic Media Classic.
+[Video](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/training-videos.html#intro) di formazione Dynamic Media Classic.
 
 Vedi tutte le risorse più utilizzate disponibili per [Dynamic Media Classic](home.md).
