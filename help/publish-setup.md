@@ -1,13 +1,11 @@
 ---
 title: Configurazione pubblicazione
 description: Le impostazioni della schermata Configurazione pubblicazione specificano il modo in cui le risorse vengono distribuite per impostazione predefinita dai server Dynamic Media Classic ai siti Web o alle applicazioni.
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ Le impostazioni della schermata Configurazione pubblicazione specificano il modo
 
 Gli amministratori possono modificare le impostazioni predefinite delle schermate Server immagini, Modulo di rendering immagini e Vignettatura per configurare nuove impostazioni predefinite per la distribuzione delle risorse dai server.
 
-Per aprire le schermate Impostazione pubblicazione, scegliete Configurazione > Impostazione applicazione e selezionate Impostazione pubblicazione.
+Per aprire le schermate Impostazione pubblicazione, fate clic su **Configurazione** > **Impostazione applicazione** > **Impostazione pubblicazione**.
 
 >[!NOTE]
 >
