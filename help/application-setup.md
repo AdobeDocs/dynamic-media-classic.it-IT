@@ -1,18 +1,14 @@
 ---
 title: Impostazione applicazione
-seo-title: Impostazione applicazione
-description: Scopri come impostare l’area dell’applicazione di Dynamic Media Classic.
-seo-description: Scopri come impostare l’area dell’applicazione di Dynamic Media Classic.
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
+description: Scoprite come impostare l'area Applicazione di Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10979'
+source-wordcount: '10914'
 ht-degree: 68%
 
 ---
@@ -160,7 +156,7 @@ Gli amministratori possono creare predefiniti per l’esportazione delle risorse
 
 Per aprire la schermata Predefinito immagine, nella barra di navigazione globale fate clic su **Configurazione** > **Predefiniti immagine**.
 
-Vedere [Smart imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Vedere [Smart imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ### Creazione e modifica dei predefiniti per visualizzatori {#creating-and-editing-image-presets}
 
@@ -372,12 +368,12 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 512x288, Mobile (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
+| 1 | 16:9, 512x288, Mobile (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
 | 2 | 4:3, 384x288 px, Mobile (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
-| 1 | 16:9, 512x288, Mobile (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Come sorgente | 64 | Risoluzione media, 3G |
-| 4 | 4:3, 384x288, Mobile (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384x288 | Come sorgente | 64 | Risoluzione media, 3G |
-| 5 | 16:9, 640x360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 600 | 640x360 | Come sorgente | 80 | Risoluzione media, WiFi |
-| 6 | 4:3, 640x480, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x480_800K | 600 | 640x480 | Come sorgente | 80 | Risoluzione media, WiFi |
+| 3 | 16:9, 512x288, Mobile (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Come sorgente | 64 | Risoluzione media, 3G |
+| 4 | 4:3, 384x288, Mobile (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 800 | 384x288 | Come sorgente | 64 | Risoluzione media, 3G |
+| 5 | 16:9, 640x360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640x360 | Come sorgente | 80 | Risoluzione media, WiFi |
+| 6 | 4:3, 640x480, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640x480 | Come sorgente | 80 | Risoluzione media, WiFi |
 | 7 | 16:9, 768x432, Tablet (iPad, Android), (1200 Kbps) | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | Come sorgente | 96 | Alta risoluzione, WiFi |
 | 8 | 4:3, 768x576, Tablet (iPad, Android), (1200 Kbps) | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | Come sorgente | 96 | Alta risoluzione, WiFi |
 | 9 | 16:9, 1280x720, Desktop, (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Come sorgente | 128 | Widescreen ad alta definizione |
@@ -393,12 +389,12 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Come sorgente | 64 | Widescreen a bassa risoluzione |
-| 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 600 | 640x360 | Come sorgente | 80 | Widescreen a risoluzione media |
+| 3 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Come sorgente | 64 | Widescreen a bassa risoluzione |
+| 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | Come sorgente | 80 | Widescreen a risoluzione media |
 | 3 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800x450 | Come sorgente | 96 | Risoluzione medio-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Come sorgente | 128 | Widescreen ad alta definizione |
 | 5 | 4:3, 320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320x240 | Come sorgente | 64 | Bassa risoluzione |
-| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 600 | 480x360 | Come sorgente | 80 | Risoluzione media |
+| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480x360 | Come sorgente | 80 | Risoluzione media |
 | 7 | 4:3, 640x480 (1200 Kbps) | 1,5 Mbps | _640x480_1200K | 1200 | 640x480 | Come sorgente | 96 | Risoluzione medio-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 | 1280x960 | Come sorgente | 128 | Alta definizione |
 
@@ -407,11 +403,11 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Come sorgente | 64 | Widescreen a bassa risoluzione |
-| 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 600 | 640x360 | Come sorgente | 80 | Widescreen a risoluzione media |
-| 1 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | Come sorgente | 96 | Risoluzione medio-alta |
+| 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Come sorgente | 80 | Widescreen a risoluzione media |
+| 3 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | Come sorgente | 96 | Risoluzione medio-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | Come sorgente | 128 | Widescreen ad alta definizione |
 | 5 | 4:3, 320x240 (400 Kbps), OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | Come sorgente | 64 | Bassa risoluzione |
-| 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 600 | 480x360 | Come sorgente | 80 | Risoluzione media |
+| 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | Come sorgente | 80 | Risoluzione media |
 | 7 | 4:3, 640x480 (1200 Kbps), OGG | 1,5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | Come sorgente | 96 | Risoluzione medio-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x960_2000K | 2000 | 1280x960 | Come sorgente | 128 | Alta definizione |
 
@@ -426,13 +422,13 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Bitrate video (Kbps) | Larghezza/Altezza in pixel | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 512x288, Mobile (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
-| 2 | 16:9, 512x288, Mobile (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Come sorgente | 64 | Risoluzione media, 3G |
-| 3 | 16:9, 512x288, Mobile (800 Kbps) | 900 | _Mobile_512x288_800K | 600 | 512x288 | Come sorgente | 80 | Risoluzione media, Wi-Fi |
+| 2 | 16:9, 512x288, Mobile (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Come sorgente | 64 | Risoluzione media, 3G |
+| 3 | 16:9, 512x288, Mobile (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Come sorgente | 80 | Risoluzione media, Wi-Fi |
 | 4 | 16:9, 512x288, Mobile (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | Come sorgente | 80 | Alta risoluzione, Wi-Fi |
 | 5 | 16:9, 512x288, Mobile (1200 Kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | Come sorgente | 96 | Alta risoluzione, Wi-Fi |
 | 6 | 4:3, 384x288, Mobile (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
-| 7 | 4:3, 384x288, Mobile (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | Come sorgente | 64 | Risoluzione media, 3G |
-| 8 | 4:3, 448x336, Mobile (800 Kbps) | 900 | _Mobile_448x336_800K | 600 | 448x336 | Come sorgente | 80 | Risoluzione media, Wi-Fi |
+| 7 | 4:3, 384x288, Mobile (600 Kbps) | 700 | _Mobile_384x288_600K | 800 | 384x288 | Come sorgente | 64 | Risoluzione media, 3G |
+| 8 | 4:3, 448x336, Mobile (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Come sorgente | 80 | Risoluzione media, Wi-Fi |
 | 9 | 4:3, 448x336, Mobile (1000 Kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | Come sorgente | 80 | Alta risoluzione, Wi-Fi |
 | 10 | 4:3, 448x336, Mobile (1200 Kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | Come sorgente | 96 | Alta risoluzione, Wi-Fi |
 
@@ -440,13 +436,13 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 >[!NOTE]
 >
->**Avviso**  di fine del ciclo di vita dei visualizzatori di Flash - A partire dal 31 gennaio 2017,  Adobe Dynamic Media Classic ha ufficialmente terminato il supporto per la piattaforma di visualizzatori di Flash. Per ulteriori informazioni su questa importante modifica, consulta il seguente sito Web sulle domande frequenti: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Avviso**  di fine del ciclo di vita dei visualizzatori di Flash - A partire dal 31 gennaio 2017,  Adobe Dynamic Media Classic ha ufficialmente terminato il supporto per la piattaforma di visualizzatori di Flash.
 
 Un *predefinito per visualizzatori* è un gruppo di impostazioni con cui viene definito in che modo le risorse multimediali verranno visualizzate sullo schermo del computer e sui dispositivi mobili dell’utente. In qualità di amministratore, potete creare dei predefiniti per visualizzatori. Sono disponibili impostazioni per un’ampia gamma di opzioni di configurazione dei visualizzatori. Ad esempio, è possibile modificare le dimensioni dello schermo del visualizzatore, il comportamento dello zoom, gli schemi di colori, i bordi e i font.
 
 Come procedura ottimale, usate i visualizzatori video HTML5 di Dynamic Media Classic. I predefiniti utilizzati nei visualizzatori Video HTML5 sono lettori video affidabili. Combinando in un singolo lettore la possibilità di progettare i componenti di riproduzione in HTML5 e CSS, usufruire di riproduzione incorporata e utilizzare lo streaming adattativo e progressivo a seconda delle caratteristiche del browser, i contenuti multimediali potranno essere visti dagli utenti con computer desktop, tablet e dispositivi mobili. Potrete così offrire ai visitatori un’esperienza di streaming video ottimizzata.
 
-Consultate [I visualizzatori HTML5](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) nella guida di riferimento dei visualizzatori di Adobi .
+Consultate [I visualizzatori HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) nella guida di riferimento dei visualizzatori di Adobi .
 
 Consultate [Matrice di compatibilità dei predefiniti per visualizzatori Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -490,15 +486,13 @@ Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel,
 
 **Avviso** di fine del ciclo di vita dei visualizzatori di Flash: A partire dal 31 gennaio 2017,  Adobe Dynamic Media Classic ha dichiarato ufficialmente terminato il supporto per la piattaforma di visualizzatori Flash.
 
-Per ulteriori informazioni su questa importante modifica, consulta il seguente sito Web sulle domande frequenti: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
-
 Nella tabella seguente sono elencati i predefiniti per visualizzatori Dynamic Media Classic attualmente disponibili. Viene inoltre specificata la compatibilità con dispositivi desktop e mobili nonché la tecnologia utilizzata per ciascun visualizzatore.
 
 Consultate anche [ libreria di riferimento visualizzatori di Adobi, Esempi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Per informazioni sui browser Web e sulle versioni del sistema operativo supportati per i visualizzatori, consultate le relative Note sulla versione.
 
-Consultate [ Note sulla versione di riferimento dei visualizzatori di Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Consultate [ Note sulla versione di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android | Tablet Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Consultate [Esportazione di un predefinito per visualizzatori HTML5](application
    >
    >scegliete Come sorgente per ridimensionare automaticamente il visualizzatore video nella dimensione di risoluzione del video codificato stesso. Se scegliete questa opzione, non potete specificare i valori di larghezza e altezza dell’area di visualizzazione e tali valori verranno invece determinati dal video stesso. Se scegliete Come sorgente, impostate le opzioni relative alle dimensioni dei margini per riflettere le dimensioni dell’interfaccia fuori dall’area di riproduzione del video. Le dimensioni del margine corrispondono all’altezza e alla larghezza in pixel dei controlli video. La figura di seguito illustra come determinare le dimensioni dei margini da usare.*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![Configurazione del margine del visualizzatore video](assets/vs_video_viewer_configure_margin.png)
 
 1. Effettuate una delle seguenti operazioni:
 
