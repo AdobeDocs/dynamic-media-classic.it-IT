@@ -1,17 +1,15 @@
 ---
 title: Collegamento di visualizzatori zoom alle pagine Web
 description: Scoprite come collegare i visualizzatori zoom alle pagine Web.
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
 Generalmente i visitatori di un sito Web applicano lo zoom alle immagini selezionando innanzitutto un’icona Zoom (spesso l’immagine di una lente di ingrandimento). Selezionando questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l’immagine in una finestra a comparsa. La finestra a comparsa rappresenta il punto in cui i visitatori applicano effettivamente lo zoom all’immagine.
 
-Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di HTML5 Basic Zoom Viewer nella guida di riferimento dei visualizzatori di Adobi ](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di HTML5 Basic Zoom Viewer nella guida di riferimento dei visualizzatori di Adobi ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copia del codice da incorporare di un visualizzatore zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 
    La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-1. Fai clic su Chiudi.
-
+1. Fai clic su **Chiudi**.
