@@ -1,17 +1,15 @@
 ---
 title: Procedure ottimali per ottimizzare la qualità delle immagini
 description: Scoprite le best practice per ottimizzare la qualità delle immagini.
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 62%
+source-wordcount: '1474'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +20,7 @@ L’ottimizzazione della qualità delle immagini può richiedere del tempo, poic
 
 Dynamic Media Classic include più di 100 comandi per la gestione delle immagini per ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
 
-Vedere anche [Smart imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Vedere anche [Smart imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ## Procedure ottimali per il formato delle immagini (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -50,7 +48,7 @@ La nitidezza delle immagini è l’aspetto più complesso e suscettibile ad erro
 
 White paper sulle procedure ottimali [Nitidezza delle immagini in  Adobe Dynamic Media Classic e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
-Vedere anche [Nitidezza di un&#39;immagine con maschera di contrasto](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 Con Dynamic Media Classic potete rendere le immagini più nitide al momento dell’assimilazione, della distribuzione o di entrambi. In molti casi, tuttavia, è necessario rendere le immagini più nitide utilizzando un solo metodo e non entrambi. In genere si ottengono i risultati migliori applicando la nitidezza in fase di distribuzione, agendo sull’URL.
 
@@ -70,11 +68,7 @@ Esistono due metodi per rendere le immagini più nitide:
 
          Questo parametro determina la differenza tra i pixel da rendere più nitidi rispetto all’area circostante, prima che vengano considerati pixel del bordo e che il filtro li renda più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato per evitare di aggiungere “disturbo”, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
 
-         Per ulteriori informazioni su come impostare questi tre parametri, incluse le procedure ottimali per l’utilizzi del filtro, consultate le risorse seguenti:
-
-         Argomento della Guida di Dynamic Media Classic su [Nitidezza di un&#39;immagine](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
-
-         White paper sulle procedure ottimali [Nitidezza delle immagini in  Adobe Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
+         Per ulteriori informazioni su come impostare questi tre parametri, comprese le best practice da utilizzare con il filtro, consultate [Nitidezza delle immagini in  Adobe Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
 
