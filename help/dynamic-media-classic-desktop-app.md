@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Consulta le Domande frequenti per la [Nuova esperienza di accesso di Dynamic Med
 * Problemi di accesso a causa di timeout che generano il seguente messaggio: *Questo utente può essere assegnato al gruppo o ai gruppi senza autorizzazione. Contattare l&#39;amministratore.*
 * I predefiniti per visualizzatori vengono duplicati con ogni tentativo di password non corretto.
 * Applicazione desktop che non risponde a causa di molte risorse nella cartella principale. (Problema corretto in Windows; funziona come desiderato su macOS.)
+* jlkjlkj
 
 ## Correzioni nella versione precedente (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -81,7 +82,7 @@ Consultate anche:
 
    * **Per Windows** , eseguite il programma di installazione binario e seguite le istruzioni visualizzate per installare l&#39;app desktop.
 
-1. Quando aprite l’applicazione, viene visualizzata la nuova pagina di accesso di Dynamic Media Classic per il nuovo Adobe:
+1. Quando si apre l&#39;applicazione, viene visualizzata la nuova pagina di accesso di Dynamic Media Classic  Adobe:
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -121,7 +122,7 @@ Per scaricare e installare *silent* l&#39;ultima versione dell&#39;app desktop D
    `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
 Unmount DMG - hdiutil detach <mount_point_path>`
 
-1. Quando aprite l’applicazione, viene visualizzata la nuova pagina di accesso di Dynamic Media Classic per il nuovo Adobe:
+1. Quando si apre l&#39;applicazione, viene visualizzata la nuova pagina di accesso di Dynamic Media Classic  Adobe:
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -166,7 +167,7 @@ Per scaricare e installare *silent* l&#39;ultima versione dell&#39;app desktop D
 
    I dettagli sui parametri della riga di comando sono disponibili in [Setup.exe e Update.exe Parametri della riga di comando.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
-1. Quando aprite l’applicazione, viene visualizzata la nuova pagina di accesso di Dynamic Media Classic per il nuovo Adobe:
+1. Quando si apre l&#39;applicazione, viene visualizzata la nuova pagina di accesso di Dynamic Media Classic  Adobe:
 
    ![Accesso Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -189,11 +190,11 @@ Guardate il video introduttivo sull&#39;utilizzo di Dynamic Media Classic Deskto
 
 1. Nell&#39;app desktop Dynamic Media Classic, accanto all&#39;angolo superiore destro, toccate **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**.
 1. Nella pagina **[!UICONTROL Configurazione personale]**, sotto l&#39;intestazione **[!UICONTROL Desktop]**, effettuare una delle seguenti operazioni:
-   * Toccate **[!UICONTROL Cancella cache immagine]** per rimuovere dal computer tutti  file di immagini Dynamic Media memorizzati nella cache del Adobe. Toccate **[!UICONTROL OK]**.
-   * Toccate **[!UICONTROL Cancella cache risorse]** per rimuovere dal computer tutti  file di risorse Dynamic Media memorizzati nella cache del Adobe. Toccate **[!UICONTROL OK]**.
+   * Per rimuovere dal computer tutti  file di immagini Dynamic Media memorizzati nella cache del Adobe, toccare **[!UICONTROL Cancella cache immagine]**, quindi toccare **[!UICONTROL OK]**.
+   * Per rimuovere dal computer tutti  file di risorse Dynamic Media memorizzati nella cache del Adobe, toccate **[!UICONTROL Cancella cache risorse]**, quindi toccate **[!UICONTROL OK]**.
 1. Nell&#39;angolo inferiore destro della pagina, toccare **[!UICONTROL Chiudi]**.
 
-### Cancellazione manuale della cache delle immagini e della cache delle risorse
+### Cancellazione manuale della cache delle immagini e della cache delle risorse {#clear-cache}
 
 Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app desktop, potete cancellare manualmente la cache direttamente dal file system.
 
@@ -201,6 +202,10 @@ Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app de
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Limitazione nota in Dynamic Media Classic 2021.1
+
+* L&#39;elenco a discesa **[!UICONTROL Server]** è vuoto dopo l&#39;aggiornamento all&#39;app desktop Dynamic Media Classic 20.21.1 - Scenario: Installate e accedete ad Dynamic Media Classic 20.20.1 o 20.20.2, quindi chiudete l&#39;applicazione. Quindi eseguite l&#39;aggiornamento ad Dynamic Media Classic 20.21.1. Quando si tenta di accedere, l&#39;elenco a discesa **[!UICONTROL Server]** nella finestra di dialogo **[!UICONTROL Accedi al tuo account]** è vuoto. Per risolvere questo problema, [cancellare manualmente la cache](#clear-cache).
 
 ## Limitazioni note in Dynamic Media Classic 20.20.1 (risolto in 20.20.2)
 
@@ -210,7 +215,8 @@ Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app de
 * Nell&#39;app Dynamic Media Classic, seleziona la nuova società dall&#39;elenco a discesa della società.
 * Quando viene visualizzata la finestra a comparsa, toccate **[!UICONTROL OK]** per disconnettervi e chiudere l&#39;app.
 
-   ![Riavviate l&#39;app per utilizzare la nuova società](/help/assets/dmclassic-new-company1.png)
+   ![Per utilizzare la nuova società, riavviate l&#39;app](/help/assets/dmclassic-new-company1.png)
+
 * Riavviate Dynamic Media Classic, quindi effettuate l&#39;accesso come al solito per lavorare con la nuova società.
 
 ## Suggerimenti e trucchi
