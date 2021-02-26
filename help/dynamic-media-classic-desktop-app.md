@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
+source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -203,7 +203,7 @@ Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app de
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Limitazione nota in Dynamic Media Classic 2021.1
+## Limitazione nota in Dynamic Media Classic 20.21.1
 
 * L&#39;elenco a discesa **[!UICONTROL Server]** è vuoto dopo l&#39;aggiornamento all&#39;app desktop Dynamic Media Classic 20.21.1 - Scenario: Installate e accedete ad Dynamic Media Classic 20.20.1 o 20.20.2, quindi chiudete l&#39;applicazione. Quindi effettuate l’aggiornamento ad Dynamic Media Classic 20.21.1. Quando si tenta di accedere, l&#39;elenco a discesa **[!UICONTROL Server]** nella finestra di dialogo **[!UICONTROL Accedi al tuo account]** è vuoto. Per risolvere questo problema, è necessario [cancellare manualmente la cache](#clear-cache) (vedere i passaggi sopra).
 
