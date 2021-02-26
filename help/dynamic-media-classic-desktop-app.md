@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -186,7 +186,7 @@ Per scaricare e installare *silent* l&#39;ultima versione dell&#39;app desktop D
 
 Guardate il video introduttivo sull&#39;utilizzo di Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Lunghezza: 2 minuti 36 secondi).[
 
-## Cancellazione della cache delle immagini e della cache delle risorse sul computer mediante l’app desktop
+## Cancellazione della cache delle immagini e della cache delle risorse sul computer mediante l&#39;app desktop {#clear-cache}
 
 1. Nell&#39;app desktop Dynamic Media Classic, accanto all&#39;angolo superiore destro, toccate **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**.
 1. Nella pagina **[!UICONTROL Configurazione personale]**, sotto l&#39;intestazione **[!UICONTROL Desktop]**, effettuare una delle seguenti operazioni:
@@ -194,7 +194,7 @@ Guardate il video introduttivo sull&#39;utilizzo di Dynamic Media Classic Deskto
    * Per rimuovere dal computer tutti  file di risorse Dynamic Media memorizzati nella cache del Adobe, toccate **[!UICONTROL Cancella cache risorse]**, quindi toccate **[!UICONTROL OK]**.
 1. Nell&#39;angolo inferiore destro della pagina, toccare **[!UICONTROL Chiudi]**.
 
-### Cancellazione manuale della cache delle immagini e della cache delle risorse {#clear-cache}
+### Cancellazione manuale della cache delle immagini e della cache delle risorse
 
 Oltre a cancellare l&#39;immagine e la cache delle risorse mediante l&#39;app desktop, potete cancellare manualmente la cache direttamente dal file system.
 
