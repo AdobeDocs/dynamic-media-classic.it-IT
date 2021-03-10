@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 0%
@@ -44,7 +44,7 @@ L’app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistem
 * Nessuna limitazione sul numero di file che è possibile caricare tramite l&#39;interfaccia utente dell&#39;app desktop sia per macOS che per Windows.
 * Non è necessario disconnettersi dall’app desktop per passare da un’azienda all’altra.
 * Ctrl+V per operazione Incolla ora funziona su Windows.
-* In futuro, quando verrà rilasciata una nuova versione dell’app desktop, gli utenti riceveranno una notifica all’interno dell’app desktop stessa. —>
+* In futuro, quando verrà rilasciata una nuova versione dell’app desktop, gli utenti riceveranno una notifica all’interno dell’app desktop stessa.
 
 ## Scarica e installa l&#39;app desktop Dynamic Media Classic più recente su macOS o Windows {#installation-dmc-app}
 
