@@ -1,17 +1,19 @@
 ---
 title: 'Creazione e gestione di gruppi in Media Portal '
-description: Scoprite come creare e gestire i gruppi in Media Portal.
+description: Scopri come creare e gestire i gruppi di Media Portal.
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 96%
+source-wordcount: '831'
+ht-degree: 95%
 
 ---
 
@@ -95,7 +97,7 @@ Consultate anche [Specifica delle opzioni di esportazione disponibili per gli ut
 1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
 1. Nella pagina dell’elenco Gruppi, selezionate un gruppo e modificatelo o eliminatelo.
 
-   **Modifica di un** gruppoFate clic su Modifica, quindi scegliete le opzioni desiderate nella finestra di dialogo Modifica gruppo.
+   **Modifica di un** gruppoFare clic su Modifica, quindi scegliere le opzioni nella finestra di dialogo Modifica gruppo.
 
-   **Eliminazione di un** gruppoFate clic su Elimina.
+   **Eliminazione di un** gruppoFare clic su Elimina.
 
