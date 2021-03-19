@@ -1,17 +1,19 @@
 ---
 title: 'Uso della vista Dettaglio '
-description: Scoprite come lavorare in visualizzazione Dettagli.
+description: Scopri come lavorare nella vista Dettaglio.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 79%
+source-wordcount: '590'
+ht-degree: 78%
 
 ---
 
@@ -43,8 +45,8 @@ Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potet
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
    * Fate doppio clic sulla risorsa.
-   * Selezionate la risorsa, quindi fate clic su **[!UICONTROL Visualizzazione dettagli]**.
-   * Selezionate la risorsa, quindi fate clic su **[!UICONTROL File > Dettagli]**.
+   * Seleziona la risorsa, quindi fai clic su **[!UICONTROL Vista dettagli]**.
+   * Seleziona la risorsa, quindi fai clic su **[!UICONTROL File > Dettagli]**.
 
 >[!NOTE]
 >
@@ -52,7 +54,7 @@ Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potet
 
 ## Ottenimento di informazioni nella vista Dettaglio {#getting-information-in-detail-view}
 
-La visualizzazione dettagli fornisce diverse informazioni su una risorsa o un file: Vengono visualizzate le seguenti informazioni su un elemento: la cartella in cui è memorizzato, il nome del file, la data di caricamento dell’elemento in Dynamic Media Classic e la cronologia di pubblicazione. In visualizzazione Dettagli potete inoltre visualizzare e modificare i metadati e aggiungere parole chiave a una risorsa.
+La visualizzazione dettagli fornisce diverse informazioni su una risorsa o un file: Mostra le informazioni seguenti su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Dynamic Media Classic e la cronologia di pubblicazione. In visualizzazione Dettagli potete inoltre visualizzare e modificare i metadati e aggiungere parole chiave a una risorsa.
 
 Potete inoltre ottenere un URL della risorsa; tuttavia, tenete presente che l’URL sarà attivo solo dopo la pubblicazione della risorsa. Per le immagini, la visualizzazione Dettagli fornisce anche un elenco di risorse e metadati generati o derivati, quali ad esempio destinazioni di zoom e set di immagini.
 
@@ -61,19 +63,19 @@ Potete inoltre ottenere un URL della risorsa; tuttavia, tenete presente che l’
 La visualizzazione Dettagli offre gli strumenti per agire sulla risorsa aperta. Gli strumenti disponibili variano in base al tipo di risorsa usata, tuttavia in visualizzazione Dettagli vengono sempre fornite le seguenti funzioni:
 
 * **elementi per la**
-pubblicazioneFate clic sull’icona  **** Pubblica a sinistra del nome, oppure fate clic su  **[!UICONTROL File >]** File  **[!UICONTROL editore > Annulla pubblicazione]**.
+pubblicazioneFai clic sull’icona  **** Pubblica a sinistra del nome, oppure fai clic su  **[!UICONTROL File >]** File autore  **[!UICONTROL > Annulla pubblicazione]**.
 
 * **Ridenominazione della**
-risorsa: selezionate il nome e immettete un nuovo nome.
+risorsaSeleziona il nome e immetti un nuovo nome.
 
 * **Modifica e aggiunta di**
-metadatiSelezionate il pannello Metadati e apportate le modifiche necessarie. Consultate [Visualizzazione, aggiunta ed esportazione di metadati](/help/viewing-adding-exporting-metadata.md).
+metadatiSeleziona il pannello Metadati e apporta le modifiche desiderate. Consultate [Visualizzazione, aggiunta ed esportazione di metadati](/help/viewing-adding-exporting-metadata.md).
 
 * **Modifica e aggiunta di**
-parole chiaveSelezionate Parole chiave e aggiungete o rimuovete le parole chiave desiderate. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
+parole chiaveSelezionare le parole chiave e aggiungerle o rimuoverle in base alle proprie esigenze. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
 
-* **Per eliminare la**
-risorsa, fate clic su  **[!UICONTROL File > Elimina]**.
+* **Eliminazione della**
+risorsaFai clic su  **[!UICONTROL File > Elimina]**.
 
 Per i file discreti quali immagini, set di immagini e font, in visualizzazione Dettagli potete visualizzare la cronologia di pubblicazione e modifica, nonché controllare i dettagli del processo.
 
@@ -81,7 +83,7 @@ La seguente tabella riassume le opzioni aggiuntive disponibili con diversi tipi 
 
 | Tipo di risorsa | Modifica/regolazione | Anteprima |
 |--- |--- |--- |
-| Immagini | Aggiunta di mappe immagine Aggiungere destinazioni di zoom Nitidezza ritaglio Creare visualizzazioni regolate | Sì; Zoom e Predefiniti immagine. |
+| Immagini | Aggiunta di mappe immagine Aggiungi destinazioni di zoom Ritaglia nitidezza Crea visualizzazioni regolate | Sì; Zoom e Predefiniti immagine. |
 | Immagini di rifinitura finestre e scaffali | No | Miniatura. |
 | eCatalog | Modifica | Sì. È anche disponibile il Pannello Info. |
 | Font | Modifica delle informazioni sui font | No. |
