@@ -1,32 +1,34 @@
 ---
 title: Pubblicazione di immagini di zoom
-description: Scoprite come pubblicare le immagini di zoom.
+description: Scopri come pubblicare immagini zoom.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
+feature: Dynamic Media Classic,Visualizzatori,Zoom
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 26%
+source-wordcount: '157'
+ht-degree: 25%
 
 ---
 
 
 # Pubblicazione di immagini di zoom{#publishing-zoom-images}
 
-Le immagini di zoom pubblicate vengono inserite sui server immagini Dynamic Media in modo che possano essere rese disponibili sul sito Web e l’applicazione. Come parte del processo di pubblicazione, Dynamic Media Classic attiva le stringhe URL. Potete inserire queste stringhe URL nel codice HTML del sito Web.
+La pubblicazione inserisce le immagini zoom sui server di immagini Dynamic Media in modo che possano essere rese disponibili al sito Web e all’applicazione. Come parte del processo di pubblicazione, Dynamic Media Classic attiva le stringhe URL. Potete inserire queste stringhe URL nel codice HTML del sito Web.
 
 ## Contrassegno delle immagini per la pubblicazione {#marking-images-for-publish}
 
-Per poter copiare le immagini nei server immagini Dynamic Media, queste devono essere contrassegnate per la pubblicazione. Per contrassegnare le immagini per la pubblicazione nel pannello Sfoglia, fate clic sull&#39;icona **Contrassegna per pubblicazione**. Potete anche contrassegnare le immagini per la pubblicazione mentre le caricate. 
+Le immagini devono essere contrassegnate per la pubblicazione per poter essere copiate nei server di immagini Dynamic Media. Per contrassegnare le immagini per la pubblicazione nel pannello Sfoglia, seleziona l’icona **Contrassegna per pubblicazione** . Potete anche contrassegnare le immagini per la pubblicazione mentre le caricate. 
 
 ## Pubblicazione di immagini  {#publishing-the-images}
 
-Per pubblicare le immagini di zoom, fate clic su **Pubblica** nella barra di navigazione globale. Quindi, selezionate un&#39;opzione **Quando (Una tantum o Periodico)**, immettete facoltativamente un nome per il processo di pubblicazione e fate clic su **Avvia pubblicazione**.
+Per pubblicare le immagini di zoom, inizia facendo clic su **Pubblica** nella barra di navigazione globale. Quindi, seleziona un&#39;opzione **Quando (Una tantum o Ricorrente)**, immetti facoltativamente un nome per il processo di pubblicazione e fai clic su **Avvia pubblicazione**.
 
 >[!MORELIKETHIS]
 >
