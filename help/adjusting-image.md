@@ -1,17 +1,19 @@
 ---
 title: Regolazione di un’immagine
-description: Scoprite come regolare un’immagine
+description: Scopri come regolare un’immagine
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +32,7 @@ Consultate anche [Creazione di un alias per un’immagine](adjusting-image.md#cr
    * Usate il cursore Ruota per ruotare l’immagine. Per ruotare un’immagine potete immettere dei valori nel campo Ruota. I valori positivi la ruotano in senso orario, quelli negativi in senso antiorario.
    * Usate il cursore Sfocatura o la casella corrispondente per sfocare un’immagine. Più alto è il valore, più sfocata sarà l’immagine.
    * Usate le opzioni Contrasto, Luminosità, Saturazione, Tonalità e Bilanciamento colore per regolare colore e luminosità. Questi effetti sono cumulativi. Ad esempio, le modifiche delle impostazioni Magenta/Verde si sommano a quelle delle impostazioni Tonalità.
-   * Usate le opzioni Colora per colorare un’immagine conservandone le zone d’ombra e di luce. Anche le modifiche delle opzioni Colora sono cumulative. Dal menu Luminosità scegliete Nessuna compensazione per disattivare la compensazione automatica della luminosità. Impostate il valore di contrasto su 0 per conservare l’intervallo di contrasto dell’immagine originale o specificate un intervallo con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici sono compresi tra 30 e 70.
+   * Usate le opzioni Colora per colorare un’immagine conservandone le zone d’ombra e di luce. Anche le modifiche delle opzioni Colora sono cumulative. Dal menu Luminosità scegliete Nessuna compensazione per disattivare la compensazione automatica della luminosità. Impostate il valore di contrasto su 0 per conservare l’intervallo di contrasto dell’immagine originale o specificate un intervallo con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici sono compresi nell’intervallo 30-70.
 
 1. Una volta completata la regolazione dell’immagine, effettuate una delle seguenti operazioni:
 
