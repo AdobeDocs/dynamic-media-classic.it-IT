@@ -1,17 +1,19 @@
 ---
 title: Anteprima di una risorsa
-description: Scoprite come visualizzare in anteprima una risorsa.
+description: Scopri come visualizzare in anteprima una risorsa.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
+feature: Dynamic Media Classic, Gestione Risorse, Visualizzatori
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 98%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +26,7 @@ Consultate [Configurazione di visualizzatori predefiniti](application-setup.md#c
 
 Se state visualizzando in anteprima una risorsa di modello con livelli di parametro, potete apportare modifiche ai parametri o modificare il predefinito per immagini. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
 
-Consultate anche [ libreria di riferimento visualizzatori di Adobi, Esempi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulta anche [Esempi della libreria di riferimento visualizzatori di Adobi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Per visualizzare in anteprima una risorsa**
 
