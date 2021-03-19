@@ -1,17 +1,19 @@
 ---
 title: Creazione di un set 360 gradi
-description: Scoprite come creare un set 360 gradi.
+description: Scopri come creare un set 360 gradi.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
+feature: Dynamic Media Classic,Visualizzatori,Set 360 gradi
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 74%
+source-wordcount: '909'
+ht-degree: 73%
 
 ---
 
@@ -22,13 +24,13 @@ Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le 
 
 >[!NOTE]
 >
->Le versioni precedenti di Dynamic Media Classic non offrirono set 360 gradi bidimensionali. Se avete creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non potete salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Fate clic su Salva con nome nella schermata Set 360 gradi e immettete un nuovo nome per modificarlo in Dynamic Media Classic.
+>Le versioni precedenti di Dynamic Media Classic non offrivano set 360 gradi bidimensionali. Se hai creato un set 360 gradi in una versione precedente di Dynamic Media Classic, non puoi salvare il set 360 gradi unidimensionale senza prima salvarlo con un nome diverso. Fai clic su Salva con nome nella schermata Set 360 gradi e immetti un nuovo nome per modificarlo in Dynamic Media Classic.
 
 ## Linee guida per lo scatto di immagini per set 360 gradi {#guidelines-for-shooting-spin-set-images}
 
-In generale, più sono le immagini contenute in un set 360 gradi, migliore è l’effetto di rotazione dell’immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Dynamic Media Classic consiglia le seguenti linee guida per lo scatto di immagini da usare nei set 360 gradi:
+In generale, più sono le immagini contenute in un set 360 gradi, migliore è l’effetto di rotazione dell’immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Dynamic Media Classic consiglia le seguenti linee guida per le riprese di immagini da utilizzare nei set 360 gradi:
 
-* Utilizzate almeno 8-12 immagini in un set 360 gradi monodimensionale e 16-24 immagini in un set 360 gradi bidimensionale.
+* Utilizza almeno 8-12 immagini in un set 360 gradi unidimensionale e 16-24 immagini in un set 360 gradi bidimensionale.
 * Utilizzate un formato senza perdita di dati; si consigliano TIFF e PNG.
 * Mascherate tutte le immagini in modo che gli elementi appaiano su uno sfondo bianco puro o su un altro sfondo a elevato contrasto. Se necessario, aggiungete ombre.
 * Assicuratevi che i dettagli del prodotto siano ben illuminati e messi a fuoco.
@@ -72,7 +74,7 @@ A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubbli
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il proprio stato di pubblicazione. Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono il proprio stato di pubblicazione.Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione o di annullamento della pubblicazione. |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -84,18 +86,18 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Effettuate una delle seguenti operazioni:
 
    * **Rimozione di**
-immagini: selezionate l’immagine e fate clic su 
+immaginiSelezionare l&#39;immagine, quindi fare clic su 
 **Elimina**.
 
    * **Aggiunta di**
-immagini: trascinate l’immagine in una cella.
+immaginiTrascina l’immagine in una cella.
 
    * **Riordinamento delle righe (set 360 gradi bidimensionali)**
-Fare clic su una casella di selezione delle righe (a sinistra della riga), quindi fare clic su 
-**Sposta riga** verso il basso e  **sposta riga verso l&#39;alto**.
+Fai clic su una casella di selezione delle righe (a sinistra della riga) e quindi fai clic su 
+**Sposta riga** verso il basso  **Sposta riga verso l’alto**.
 
    * **Aggiunta di righe e**
-celleImmettere un numero nella casella Righe e Celle per determinare il numero di righe e il numero di celle in ciascuna riga.
+celleImmettere un numero nella casella Righe e Celle per determinare il numero di righe e il numero di celle in ogni riga.
 
 1. Al termine dell’operazione di modifica, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **Salva**.
