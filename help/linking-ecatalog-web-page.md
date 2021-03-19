@@ -1,24 +1,26 @@
 ---
 title: Collegamento di un eCatalog a una pagina Web
-description: Scoprite come collegare un eCatalog a una pagina Web.
+description: Scopri come collegare un eCatalog a una pagina web.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
+feature: Dynamic Media Classic,Visualizzatori,eCatalog
+role: Professionista
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 86%
+source-wordcount: '686'
+ht-degree: 85%
 
 ---
 
 
 # Collegamento di un eCatalog a una pagina Web{#linking-an-ecatalog-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server, inclusi gli eCatalog, mediante stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l’eCatalog nelle pagine Web e nelle applicazioni, copiate la stringa o il codice da Dynamic Media Classic.
+I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server, inclusi gli eCatalog, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l’eCatalog nelle pagine web e nelle applicazioni, copialo da Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -47,7 +49,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
 Il modo più comune di pubblicare un eCatalog consiste nell’inserire nella pagina Web un collegamento sotto forma di miniatura della copertina dell’eCatalog. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento del visualizzatore HTML5 per eCatalog nella guida di riferimento dei visualizzatori di Adobi ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, consulta [Incorporamento del visualizzatore HTML5 per eCatalog nella Guida di riferimento per visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copia del codice da incorporare di un visualizzatore di eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
