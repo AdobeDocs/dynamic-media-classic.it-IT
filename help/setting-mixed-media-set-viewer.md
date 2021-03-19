@@ -1,17 +1,19 @@
 ---
 title: Impostazione di un predefinito per visualizzatori di set di file multimediali diversi
-description: Scoprite come impostare un predefinito per visualizzatori di set di file multimediali diversi.
+description: Scopri come impostare un predefinito per visualizzatori di set di file multimediali diversi.
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
+feature: Dynamic Media Classic,Visualizzatori,Set Di File Multimediali Diversi
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 82%
+source-wordcount: '611'
+ht-degree: 81%
 
 ---
 
@@ -23,10 +25,10 @@ I predefiniti per visualizzatori di set di file multimediali diversi determinano
 Potete scegliere di includere nel visualizzatore di set di file multimediali diversi tutte le funzioni per le community Internet o solo alcune di esse. La funzione Incorpora aggiunge al visualizzatore un collegamento che permette agli utenti di copiare il codice richiesto per aprire il visualizzatore in una pagina esterna (ad esempio un blog, un sito Web o un sito di social networking). La funzione Collegamento fornisce l’URL del visualizzatore, in modo che gli utenti possano usare un collegamento al visualizzatore. La funzione Visita fornisce un collegamento al sito Web specificato.
 
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
-1. Nella pagina Predefiniti visualizzatore, effettuate una delle seguenti operazioni:
+1. Nella pagina Predefiniti visualizzatore , effettua una delle seguenti operazioni:
 
-   * Per creare un nuovo predefinito, fate clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore set di file multimediali diversi, quindi fate clic su **Aggiungi**.
-   * Per modificare un predefinito per visualizzatori di set di file multimediali diversi, selezionatelo, quindi fate clic su **Modifica**.
+   * Per creare un nuovo predefinito, fai clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli Visualizzatore set di file multimediali diversi, quindi fai clic su **Aggiungi**.
+   * Per modificare un predefinito visualizzatore di set di file multimediali diversi, selezionalo, quindi fai clic su **Modifica**.
 
    Viene aperta la schermata Configura visualizzatore.
 
@@ -53,16 +55,16 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
 1. Per aggiungere al visualizzatore funzioni per la community Internet (Incorpora, Collegamento, Visita), specificate le opzioni per una delle seguenti operazioni:
 
-   * **E-**
-mailFate clic su Attivato per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti fanno clic sul pulsante E-mail durante la visualizzazione del set, si apre un messaggio e-mail contenente il collegamento al set.
-
-   * **IncorporaClic**
-live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se desiderato, fate clic su 
-**Per individuare e** selezionare un&#39;interfaccia personalizzata per il pulsante, fare clic su Sfoglia.
+   * ****
+E-mailFai clic su Attivato per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti fanno clic sul pulsante E-mail durante la visualizzazione del set, si apre un messaggio e-mail contenente il collegamento al set.
 
    * ****
-Link: fai clic su Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. Se desiderato, fate clic su 
-**Per individuare e** selezionare un&#39;interfaccia personalizzata per il pulsante, fare clic su Sfoglia.
+EmbedClick Live. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se lo desideri, fai clic su 
+**** Naviga per individuare e selezionare uno skin personalizzato per il pulsante.
+
+   * ****
+LinkClick Live. Nella casella Etichetta pulsante collegamento, digitate il nome che sarà visibile nel visualizzatore per il pulsante Collegamento. Se lo desideri, fai clic su 
+**** Naviga per individuare e selezionare uno skin personalizzato per il pulsante.
 
    * ****
 VisitClick 
