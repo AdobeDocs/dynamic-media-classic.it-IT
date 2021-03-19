@@ -1,17 +1,19 @@
 ---
 title: Inserimento di destinazioni di zoom e mappe immagine nei set di immagini
-description: Scoprite come includere destinazioni di zoom e mappe immagine nei set di immagini.
+description: Scopri come includere le destinazioni di zoom e le mappe immagine nei set di immagini.
 uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 92%
+source-wordcount: '168'
+ht-degree: 88%
 
 ---
 
