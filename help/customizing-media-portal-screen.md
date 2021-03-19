@@ -1,17 +1,19 @@
 ---
 title: Personalizzazione della schermata di Media Portal
-description: Scoprite come personalizzare la schermata di Media Portal.
+description: Scopri come personalizzare la schermata Media Portal.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 52%
+source-wordcount: '350'
+ht-degree: 51%
 
 ---
 
@@ -22,23 +24,23 @@ Le impostazioni di stile di Media Portal consentono di personalizzare la scherma
 
 Per accedere alle impostazioni di stile, scegliete **Configurazione** > **Configurazione Media Portal** > **Impostazioni stile**. Accertatevi di fare clic su **Salva** per salvare le impostazioni modificate. Se necessario, per ripristinare le impostazioni predefinite potete fare clic su **Ripristina**. Mentre selezionate le opzioni desiderate, nel pannello Anteprima viene riportato il relativo risultato.
 
-**** LogoFate clic su Sfoglia e scegliete un elemento grafico nella finestra Seleziona immagine logo.
+**** LogoFai clic su Sfoglia e scegli un grafico nella finestra Seleziona immagine logo.
 
-**** ApplicazioneConsente di creare una sfumatura di colore scegliendo tra i menu Colori sfumatura sfondo.
+**** ApplicazioneCreate una blend di colore con sfumatura effettuando le scelte sui menu Colori sfumatura sfondo.
 
-**** Albero: scegliete un colore di rollover (il colore che appare quando portate il puntatore su un elemento) e un colore di selezione (il colore che appare quando selezionate un elemento).
+**** AlberoScegli un colore di rollover (il colore visualizzato quando il puntatore viene spostato su un elemento) e un colore di selezione (il colore visualizzato quando selezioni un elemento).
 
-**** AccordionScegliete i colori di sfondo, uno stile del bordo e i colori rollover e selezionati per l’elemento Accordion che viene visualizzato sul lato destro dello schermo nella visualizzazione Dettagli.
+**** Pannello a soffiettoScegli i colori di sfondo, uno stile del bordo e i colori rollover e selezionati per il pannello a soffietto che appare sul lato destro dello schermo nella vista Dettagli.
 
-**Intestazione** Accordion: scegliete se il testo deve essere in grassetto nell’intestazione dell’elemento Accordion.
+**Intestazione** pannello a soffiettoScegliere se creare testo nel grassetto dell&#39;intestazione del pannello a soffietto.
 
-**** DatagridConsente di scegliere i colori per la riga di intestazione nelle griglie di dati.
+**** DatagridScegli i colori per la riga di intestazione nelle griglie dati.
 
-**** Avviso: consente di scegliere un colore di sfondo per le finestre contenenti i messaggi di avviso.
+**** AvvisoScegliere un colore di sfondo per le finestre dei messaggi di avviso.
 
-**Barra** di avanzamento: scegliete un colore per la barra che indica l’avanzamento dei caricamenti e dei download.
+**Barra** di avanzamentoScegli un colore per la barra che indica l’avanzamento dei caricamenti e dei download.
 
-Affinché gli utenti di Media Portal possano vedere le impostazioni di stile scelte, devono aggiungere `?company=(company name)` all’URL con il quale accedono a Media Portal. Ad esempio, per vedere le impostazioni di stile, gli utenti di Media Portal che accedono alla società PortalCo mediante l’URL seguente:
+Affinché gli utenti del Media Portal possano vedere le impostazioni di stile selezionate, devono aggiungere `?company=(company name)` all’URL con cui accedono a Media Portal. Ad esempio, per vedere le impostazioni di stile, gli utenti di Media Portal che accedono alla società PortalCo mediante l’URL seguente:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
