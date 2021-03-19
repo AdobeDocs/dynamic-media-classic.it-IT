@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
+feature: Dynamic Media Classic
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1197'
 ht-degree: 78%
 
 ---
@@ -22,7 +24,7 @@ Le impostazioni della schermata Configurazione personale possono essere modifica
 
 >[!NOTE]
 >
->Nella schermata Configurazione personale è riportato il ruolo utente assegnatovi in Dynamic Media Classic: Amministratore società, Amministratore o Utente.
+>Nella schermata Configurazione personale è indicato il ruolo utente in Dynamic Media Classic: Amministratore, amministratore o utente della società.
 
 Le impostazioni della schermata Configurazione personale controllano il comportamento predefinito del pannello Sfoglia, il modo in cui ricevete i messaggi e-mail e le impostazioni della password. Dopo aver modificato queste impostazioni, fate clic su Salva.
 
@@ -36,7 +38,7 @@ Fare clic su Installa per installare la versione desktop di Dynamic Media Classi
 
 ## Per installare il plug-in sul disco rigido locale
 
-1. Nella pagina Configurazione personale di Dynamic Media Classic, in  Illustrator Plug-in per la funzione Web-stampa, fate clic su **Scarica ora** per scaricare il file **Illustrator Plug-in for Web-to-Print.zip**.
+1. Nella pagina Configurazione personale di Dynamic Media Classic, in Plug-in Illustrator per Web-to-Print, fai clic su **Scarica ora** per scaricare il file **Plug-in Illustrator per Web-to-Print.zip** .
 1. Decomprimete il file ZIP in una cartella temporanea.
 
    Nel livello principale del file decompresso è presente un file di istruzioni che contiene ulteriori informazioni sul plug-in.
@@ -47,17 +49,17 @@ Fare clic su Installa per installare la versione desktop di Dynamic Media Classi
 
 | Programma in esecuzione | Procedura |
 |--- |--- |
-| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC-2014.</li><li>In base alla versione di Adobe Illustrator che state utilizzando, fate clic su win32 o win64.</li><li>Fate clic su libreries > flames, quindi copiate `aflame.dll` nella cartella di esecuzione di Adobe Illustrator, Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Nota**: Questo percorso di esempio si riferisce alla posizione a 64 bit; la posizione a 32 bit può invece essere in Programmi (x86).  <br/><ul><li>Tornate nella cartella libraries, fate clic su flamingo e copiate `aflamingo.dll` nella stessa cartella di esecuzione di Adobe Illustrator utilizzata in precedenza. </li><li>Tornate infine nella cartella win32 o win64 che avevate selezionato al punto 2 e copiate `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in di Adobe Illustrator, Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Nota**: Questo percorso di esempio si riferisce alla posizione a 64 bit; la posizione a 32 bit può invece essere in Programmi (x86). |
-| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC. </li><li>In base alla versione di Adobe Illustrator che state utilizzando, fate clic su win32 o win64.</li><li> Copiate `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in  Adobe Illustrator. Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Nota**: Questo percorso di esempio si riferisce alla posizione a 64 bit; la posizione a 32 bit può invece essere in Programmi (x86). |
-| Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Dal livello principale della cartella decompressa, fate clic su 6.0. </li><li>In base alla versione di Adobe Illustrator che state utilizzando, fate clic su win32 o win64. </li><li>Copiate AdobeS7FXGFileFormat.aip nella cartella dei plug-in di Adobe Illustrator, Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Nota**: Questo percorso di esempio si riferisce alla posizione a 64 bit; la posizione a 32 bit può invece essere in Programmi (x86). |
+| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC-2014.</li><li>In base alla versione di Adobe Illustrator che state utilizzando, fate clic su win32 o win64.</li><li>Fate clic su libreries > flames, quindi copiate `aflame.dll` nella cartella di esecuzione di Adobe Illustrator, Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Nota**: Questo percorso di esempio è per la posizione a 64 bit; la posizione a 32 bit può invece rientrare in File di programma (x86).  <br/><ul><li>Tornate nella cartella libraries, fate clic su flamingo e copiate `aflamingo.dll` nella stessa cartella di esecuzione di Adobe Illustrator utilizzata in precedenza. </li><li>Tornate infine nella cartella win32 o win64 che avevate selezionato al punto 2 e copiate `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in di Adobe Illustrator, Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Nota**: Questo percorso di esempio è per la posizione a 64 bit; la posizione a 32 bit può invece rientrare in File di programma (x86). |
+| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC. </li><li>In base alla versione di Adobe Illustrator che state utilizzando, fate clic su win32 o win64.</li><li> Copia `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in di Adobe Illustrator. Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Nota**: Questo percorso di esempio è per la posizione a 64 bit; la posizione a 32 bit può invece rientrare in File di programma (x86). |
+| Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Dal livello principale della cartella decompressa, fate clic su 6.0. </li><li>In base alla versione di Adobe Illustrator che state utilizzando, fate clic su win32 o win64. </li><li>Copiate AdobeS7FXGFileFormat.aip nella cartella dei plug-in di Adobe Illustrator, Ad esempio, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Nota**: Questo percorso di esempio è per la posizione a 64 bit; la posizione a 32 bit può invece rientrare in File di programma (x86). |
 
 ### Mac
 
 | Programma in esecuzione | Procedura |
 |--- |--- |
-|  Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC-2014 > mac64.</li><li>Fate clic su libraries > flame, quindi copiate la cartella `aflame.framework` nella cartella di esecuzione di Adobe Illustrator, Ad esempio, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. Per aprire  cartella dei contenuti del pacchetto di Adobe Illustrator, fate clic con il pulsante destro del mouse sull’icona Illustrator CC 2014 dell’Adobe  e fate clic su Mostra contenuti pacchetto dal menu di scelta rapida.</li><li>Tornate nella cartella libraries, fate clic su `flamingo` e copiate la cartella `aflamingo.framework` nella stessa cartella di esecuzione di Adobe Illustrator utilizzata in precedenza.</li><li>Tornate infine nella cartella mac 64 che avevate selezionato al punto 1 e copiate la cartella `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in di Adobe Illustrator, Ad esempio, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-|  Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC > mac64</li><li>Copiate la cartella `AdobeS7FXGFileFormat.aip` nella cartella  plug-in di Adobe Illustrator. Ad esempio, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-|  Adobe Illustrator 16 in  Adobe Creative Suite 6 | <ul><li>Dal livello principale della cartella decompressa, fate clic su 6.0 > mac64</li><li>Copiate la cartella `AdobeS7FXGFileFormat.aip` nella cartella  plug-in di Adobe Illustrator. Ad esempio, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC-2014 > mac64.</li><li>Fate clic su libraries > flame, quindi copiate la cartella `aflame.framework` nella cartella di esecuzione di Adobe Illustrator, Ad esempio, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. Per aprire la cartella dei contenuti del pacchetto di Adobe Illustrator, fai clic con il pulsante destro del mouse sull’icona dell’illustratore di Adobe CC 2014 e fai clic su Mostra contenuti del pacchetto dal menu di scelta rapida.</li><li>Tornate nella cartella libraries, fate clic su `flamingo` e copiate la cartella `aflamingo.framework` nella stessa cartella di esecuzione di Adobe Illustrator utilizzata in precedenza.</li><li>Tornate infine nella cartella mac 64 che avevate selezionato al punto 1 e copiate la cartella `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in di Adobe Illustrator, Ad esempio, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Dal livello principale della cartella decompressa, fate clic su CC > mac64</li><li>Copia la cartella `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in di Adobe Illustrator. Ad esempio, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 16 nella Creative Suite Adobe 6 | <ul><li>Dal livello principale della cartella decompressa, fate clic su 6.0 > mac64</li><li>Copia la cartella `AdobeS7FXGFileFormat.aip` nella cartella dei plug-in di Adobe Illustrator. Ad esempio, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
 
 È ora possibile utilizzare il plug-in in Adobe Illustrator.
 
@@ -102,7 +104,7 @@ Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fiel
 ## E-mail
 
 * **Opzioni e-mail**
-   * Scegliete come desiderate che Dynamic Media Classic vi informi via e-mail al termine dei processi di caricamento e pubblicazione. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
+   * Scegli come desideri che Dynamic Media Classic ti informi via e-mail al termine dei processi di caricamento e pubblicazione. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
 * **Ambito e-mail**
    * Specifica se ricevere un’e-mail per tutti i processi della società o solo per quelli di caricamento e pubblicazione avviati da voi stessi.
 * **Tipi di e-mail**
@@ -113,11 +115,11 @@ Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fiel
 * **Password**
 * **Nuova password**
    * Immettere una nuova password valida. La password deve soddisfare i seguenti requisiti:
-      * Deve contenere tra 8 e 25 caratteri
-      * Contiene almeno una lettera minuscola
-      * Contiene almeno una lettera maiuscola
-      * Contiene almeno un numero
-      * Contiene almeno uno dei seguenti caratteri speciali: #$&amp;-_:{}
+      * Può contenere tra 8 e 25 caratteri
+      * Contenere almeno una lettera minuscola
+      * Contenere almeno una lettera maiuscola
+      * Contenere almeno un numero
+      * Contenere almeno uno dei seguenti caratteri speciali: #$&amp;-_:{}
 * **Ridigitate la password**
    * Reinserite la nuova password per verificare che sia stata digitata correttamente.
 * **Scadenza password**
