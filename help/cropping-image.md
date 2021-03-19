@@ -1,24 +1,26 @@
 ---
 title: Ritaglio di un’immagine
-description: Scoprite come ritagliare un’immagine.
+description: Scopri come ritagliare un’immagine.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '559'
+ht-degree: 85%
 
 ---
 
 
 # Ritaglio di un’immagine{#cropping-an-image}
 
-Potete ritagliare le immagini in Dynamic Media Classic. Il sistema conserva le informazioni sulle immagini ritagliate per permettere di riportarle eventualmente al loro stato originale. Potete anche ritagliare un’immagine e salvare la versione ritagliata con un nuovo nome.
+È possibile ritagliare le immagini in Dynamic Media Classic. Il sistema conserva le informazioni sulle immagini ritagliate per permettere di riportarle eventualmente al loro stato originale. Potete anche ritagliare un’immagine e salvare la versione ritagliata con un nuovo nome.
 
 Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda oppure ritagliare un’area dell’immagine.
 
@@ -44,9 +46,9 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 
 ## Selezionare un’area da ritagliare  {#select-an-area-to-crop}
 
-1. Per ritagliare un&#39;immagine, fate clic sul relativo pulsante rollover Modifica e scegliete **Ritaglia** oppure visualizzatela nel pannello Sfoglia in visualizzazione Dettagli e fate clic su **Ritaglia**.
+1. Per ritagliare un&#39;immagine, fai clic sul relativo pulsante Modifica rollover e scegli **Ritaglia** oppure visualizzala nel pannello Sfoglia in visualizzazione Dettagli e fai clic su **Ritaglia**.
 
-1. Nella finestra Editor di ritaglio, inserite nella casella di ritaglio la parte dell’immagine da non ritagliare. Quando si fa clic su **Salva** e si ritaglia l&#39;immagine, viene conservato il contenuto della casella.
+1. Nella finestra Editor ritaglio, posizionate la parte dell’immagine da non ritagliare nella casella Ritaglio. Ciò che viene visualizzato all&#39;interno della casella rimane quando si fa clic su **Salva** e si ritaglia l&#39;immagine.
 1. Per regolare l’area di ritaglio, effettuate una delle seguenti operazioni:
 
    * Trascinate un lato o un angolo della casella. Tenete premuto il tasto Maiusc mentre trascinate per cambiare le dimensioni ma mantenere le stesse proporzioni (forma) del rettangolo di ritaglio.
