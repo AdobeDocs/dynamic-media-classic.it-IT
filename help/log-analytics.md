@@ -1,16 +1,18 @@
 ---
 title: Accedere ad Adobe Analytics
-description: Scoprite come accedere a  Adobe Analytics.
+description: Scopri come accedere ad Adobe Analytics.
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
+feature: Dynamic Media Classic
+role: Ingegnere dati,Amministratore,Professionista aziendale
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '362'
 ht-degree: 35%
 
 ---
@@ -18,25 +20,25 @@ ht-degree: 35%
 
 # Accedere ad Adobe Analytics{#log-in-to-adobe-analytics}
 
-Prima di accedere per configurare  rapporti Adobe Analytics e far corrispondere  variabili di rapporti Adobe Analytics agli eventi Dynamic Media Classic, verificate di essere stato aggiunto come membro del gruppo Web Service Access in  Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti della suite specificata tramite Marketing Cloud’s Web Services API a prescindere dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics fate clic su **Admin Tools** > **User Management** > **Edit Groups** (Strumenti amministrazione > Gestione utenti > Modifica gruppi).
+Prima di accedere per configurare i rapporti di Adobe Analytics e associare le variabili di rapporto di Adobe Analytics agli eventi di Dynamic Media Classic, verifica di essere aggiunto come membro del gruppo Accesso al servizio Web in Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti della suite specificata tramite Marketing Cloud’s Web Services API a prescindere dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics fate clic su **Admin Tools** > **User Management** > **Edit Groups** (Strumenti amministrazione > Gestione utenti > Modifica gruppi).
 
-Al momento dell’accesso potete immettere l’ID organizzazione Marketing Cloud per utilizzare l’implementazione di analisi video più recente. Se scegliete di non inserire l’ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione corretta dei dati con altri dati per quel client dall&#39;esterno di Dynamic Media Classic.
+Quando effettui l’accesso puoi immettere l’ID organizzazione del Marketing Cloud per utilizzare la più recente implementazione di video analytics. Se scegli di non inserire il tuo ID, la generazione di rapporti video continuerà a funzionare. Tuttavia, può causare l’integrazione corretta dei dati con altri dati per quel client dall’esterno di Dynamic Media Classic.
 
 >[!NOTE]
 >
->Se l&#39;account Adobe Analytics  è stato migrato  autenticazione basata su IMS ( Identity Management System) del Adobe per l&#39;accesso, l&#39;immissione delle credenziali dirette non funzionerà.
+>Se il tuo account Adobe Analytics è stato migrato all’autenticazione basata su Adobe IMS (Identity Management System) per l’accesso, l’immissione delle credenziali dirette non funzionerà.
 
 **Per accedere ad Adobe Analytics**
 
-1. Vicino all&#39;angolo superiore destro della pagina Dynamic Media Classic, toccate **[!UICONTROL Configurazione > Impostazione applicazione]**.
-1. Nel riquadro a sinistra, in **[!UICONTROL Impostazione applicazione]**, toccare **[!UICONTROL Adobe Analytics]**.
-1. Nella  pagina Configurazione Adobe Analytics, toccare **[!UICONTROL Accesso Adobe Analytics]**.
-1. Nella finestra di dialogo **[!UICONTROL Adobe Analytics Login]**, immettere il nome della società, l&#39;ID organizzazione Marketing Cloud (facoltativo), il nome utente e la chiave *segreta condivisa* nel campo di testo **[!UICONTROL Password]**.
+1. Vicino all&#39;angolo superiore destro della pagina Dynamic Media Classic, tocca **[!UICONTROL Configurazione > Impostazione applicazione]**.
+1. Nel riquadro a sinistra, sotto **[!UICONTROL Impostazione applicazione]**, toccare **[!UICONTROL Adobe Analytics]**.
+1. Nella pagina Configurazione Adobe Analytics, tocca **[!UICONTROL Accesso Adobe Analytics]**.
+1. Nella finestra di dialogo **[!UICONTROL Accesso Adobe Analytics]**, immetti il nome dell&#39;azienda, l&#39;ID organizzazione Marketing Cloud (facoltativo), il nome utente e la chiave *segreto condiviso* nel campo di testo **[!UICONTROL Password]**.
 
-   Puoi recuperare la chiave *segreta condivisa* dalla console di amministrazione di Analytics. Consultate [Come ottenere le credenziali API per gli account utente](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md).
+   Puoi recuperare la chiave *segreto condiviso* dalla console di amministrazione di Analytics. Consulta [Come ottenere le credenziali API per gli account utente](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md).
 
 1. Fate clic su **[!UICONTROL Accesso]**.
-1. Nel menu a discesa **[!UICONTROL Suite di rapporti]**, scegliete una suite di rapporti, quindi fate clic su **[!UICONTROL OK]**.
+1. Nel menu a discesa **[!UICONTROL Suite di rapporti]**, scegli una suite di rapporti, quindi fai clic su **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
