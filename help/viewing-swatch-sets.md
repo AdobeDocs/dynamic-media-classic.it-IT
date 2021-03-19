@@ -1,17 +1,19 @@
 ---
 title: Visualizzazione dei set di campioni
-description: Scoprite come visualizzare i set di campioni.
+description: Scopri come visualizzare i set di campioni.
 uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
+feature: Dynamic Media Classic,Visualizzatori
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 86%
+source-wordcount: '436'
+ht-degree: 85%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 86%
 
 Potete visualizzare i set di campioni nella finestra Anteprima tramite i predefiniti disponibili. Potete usare un predefinito Visualizzatore zoom: Personalizzato per i set di campioni.
 
-Dynamic Media Classic viene fornito con predefiniti per visualizzatori preimpostati. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
+Dynamic Media Classic viene fornito con predefiniti per visualizzatori. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
 
 ## Configurazione dei predefiniti per visualizzatori zoom per i set di campioni {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
@@ -29,8 +31,8 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Effettuate una delle seguenti operazioni:
 
-   * Per creare un nuovo predefinito, fate clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore set campioni, quindi fate clic su **Aggiungi**.
-   * Per modificare un predefinito esistente, selezionate il predefinito, quindi fate clic su **Modifica**.
+   * Per creare un nuovo predefinito, fai clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli Visualizzatore set di campioni, quindi fai clic su **Aggiungi**.
+   * Per modificare un predefinito visualizzatore di set di campioni esistente, seleziona il predefinito, quindi fai clic su **Modifica**.
 
 1. Digitate nella casella Nome predefinito un nome per il visualizzatore di set campioni.
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
@@ -52,7 +54,7 @@ Con la funzione Anteprima è possibile verificare in che modo una risorsa viene 
    * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. Nella finestra Risorse, passate il mouse su una risorsa e fate clic su **Anteprima**.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione griglia** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **Anteprima** nella miniatura di una risorsa.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione dettagli** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **Anteprima**.
-   * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fare clic su **File** > **Anteprima**.
+   * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fai clic su **File** > **Anteprima**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
 1. Fate clic sul collegamento di un visualizzatore per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
