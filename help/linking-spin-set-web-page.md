@@ -1,24 +1,26 @@
 ---
 title: Collegamento di un set 360 gradi a una pagina Web
-description: Come collegare un set 360 gradi a una pagina Web.
+description: Scopri come collegare un set 360 gradi a una pagina web.
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
+feature: Dynamic Media Classic,Visualizzatori,Set 360 gradi
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 88%
+source-wordcount: '722'
+ht-degree: 87%
 
 ---
 
 
 # Collegamento di un set 360 gradi a una pagina Web{#linking-a-spin-set-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server, compresi i set 360 gradi, mediante stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice da incorporare per il set 360 gradi nelle pagine Web e nelle applicazioni, copiate la stringa o il codice da Dynamic Media Classic.
+I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server, compresi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine Web e nelle applicazioni, è necessario copiarlo da Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -45,7 +47,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
 ## Aggiunta di URL di set 360 gradi alla pagina Web  {#adding-spin-set-urls-to-your-web-page}
 
-I set 360 gradi vengono distribuiti come tutti i visualizzatori di zoom, tramite una pagina dinamica (ASP o JSP) che visualizza il set 360 gradi in una finestra di zoom. La richiesta URL alla piattaforma Dynamic Media Classic segue lo stesso protocollo sul visualizzatore zoom. Tuttavia, il nome del predefinito per visualizzatori dipende dal l’impostazione predefinita specificata dall’amministratore per i visualizzatori di set 360 gradi. Ad esempio, la sintassi dell’URL di prova riportato di seguito include un predefinito denominato `viewer.jsp` e il parametro SKU è il nome del set 360 gradi:
+I set 360 gradi vengono distribuiti come tutti i visualizzatori di zoom, tramite una pagina dinamica (ASP o JSP) che visualizza il set 360 gradi in una finestra di zoom. La chiamata URL alla piattaforma Dynamic Media Classic segue lo stesso protocollo sul visualizzatore zoom. Tuttavia, il nome del predefinito per visualizzatori dipende dal l’impostazione predefinita specificata dall’amministratore per i visualizzatori di set 360 gradi. Ad esempio, la sintassi dell’URL di prova riportato di seguito include un predefinito denominato `viewer.jsp` e il parametro SKU è il nome del set 360 gradi:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
