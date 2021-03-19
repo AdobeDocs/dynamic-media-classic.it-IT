@@ -1,16 +1,18 @@
 ---
 title: Impostazione amministrazione
-description: Scopri come impostare l'area di amministrazione di Dynamic Media Classic.
+description: Scopri come impostare l’area di amministrazione di Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
+feature: Dynamic Media Classic
+role: Amministratore
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 63%
+source-wordcount: '1948'
+ht-degree: 62%
 
 ---
 
@@ -19,25 +21,25 @@ ht-degree: 63%
 
 # Impostazione amministrazione{#administration-setup}
 
-Le schermate Impostazione amministrazione sono riservate agli utenti di Dynamic Media Classic. Usate queste schermate per consentire agli utenti di lavorare in Dynamic Media Classic e per comunicare tramite e-mail con gli utenti.
+Le schermate di Configurazione amministrazione sono per l&#39;amministrazione degli utenti di Dynamic Media Classic. Utilizzare queste schermate per consentire agli utenti di lavorare in Dynamic Media Classic e di comunicare via e-mail con gli utenti.
 
-1. Per accedere alle opzioni di impostazione amministrazione, fate clic su **Configurazione** > **Configurazione personale** > **Impostazione amministrazione**.
+1. Per accedere alle opzioni di impostazione amministrazione, fai clic su **Configurazione** > **Configurazione personale** > **Configurazione amministrazione**.
 
 ## Amministrazione utente {#user-administration}
 
-A tutti gli utenti di Dynamic Media Classic viene assegnato un ruolo che ne determina privilegi e diritti di accesso alle funzioni di Dynamic Media Classic. Gli amministratori specificano i diversi ruoli e responsabilità per le società a cui sono assegnati.
+A tutti gli utenti di Dynamic Media Classic viene assegnato un ruolo che determina i loro privilegi e diritti di accesso alle funzioni di Dynamic Media Classic. Gli amministratori specificano i diversi ruoli e responsabilità per le società a cui sono assegnati.
 
-In genere, Dynamic Media Classic configura il primo gruppo di società e assegna un amministratore di società. L’amministratore della società, quindi, configura e amministra gli utenti di Dynamic Media Classic.
+In genere, Dynamic Media Classic configura il primo set di società e assegna un amministratore aziendale. L’amministratore dell’azienda configura e amministra gli utenti di Dynamic Media Classic.
 
-Dynamic Media Classic supporta diversi ruoli utente. Questi ruoli possono accedere alle società configurate per Dynamic Media Classic:
+Dynamic Media Classic supporta diversi ruoli utente. Questi ruoli possono accedere alle aziende configurate per Dynamic Media Classic:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic** UserPuò accedere alle società a cui è stato assegnato; non può eseguire alcuna attività amministrativa.
+**Adobe Dynamic Media Classic** UserCan può accedere alle società a cui è stato assegnato; non può svolgere alcuna attività amministrativa.
 
-**Adobe Dynamic Media Classic Company** AdminPuò visualizzare e amministrare solo le proprie società. Un amministratore di società può inoltre eseguire tutte le funzioni amministrative, inclusa l’aggiunta di amministratori e utenti. Un amministratore società può aggiungere un utente agli account di amministrazione società DMC. Questo ruolo è il ruolo utente predefinito.
+**Adobe** Amministratore società Dynamic Media ClassicPuò visualizzare e amministrare solo le proprie aziende. Un amministratore di società può inoltre eseguire tutte le funzioni amministrative, inclusa l’aggiunta di amministratori e utenti. Un amministratore società può aggiungere un utente agli account di amministrazione dell’azienda DMC. Questo ruolo è il ruolo utente predefinito.
 
-Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messaggio e-mail di benvenuto. Il messaggio include una password e l&#39;URL Dynamic Media Classic.
+Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messaggio e-mail di benvenuto. Il messaggio include una password e l’URL di Dynamic Media Classic.
 
 ### Aggiunta di un utente o di un amministratore {#adding-a-user-or-administrator}
 
@@ -51,7 +53,7 @@ Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messag
 
 1. Scegliete un ruolo da assegnare all’utente.
 
-   Consultate [Ruoli utente e privilegi di Dynamic Media Classic](administration-setup.md#user_administration).
+   Consulta [Ruoli utente e privilegi di Dynamic Media Classic](administration-setup.md#user_administration).
 
 1. Selezionate un nome di società per aggiungere un utente a una società.
 1. Per aggiungere l’utente a un gruppo (se state aggiungendo un utente o un collaboratore di Media Portal), fate clic su Avanti e aggiungete l’utente.
@@ -59,17 +61,17 @@ Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messag
 
    Dopo il salvataggio, un messaggio chiede se desiderate aggiungere l’utente a un’altra società. Fate clic su Aggiungi per aggiungere l’utente a una società.
 
-   A tutti i nuovi utenti viene assegnata una password generata in modo casuale; gli utenti devono cambiare la password al loro primo accesso all’applicazione desktop Dynamic Media Classic.
+   A tutti i nuovi utenti viene assegnata una password generata in modo casuale; gli utenti devono cambiare la password al primo accesso all’applicazione desktop Dynamic Media Classic.
 
-   Dopo essere stati aggiunti da un amministratore, i nuovi utenti ricevono un messaggio e-mail di benvenuto. L&#39;e-mail fornisce una password temporanea e spiega come accedere ad Dynamic Media Classic.
+   Dopo essere stati aggiunti da un amministratore, i nuovi utenti ricevono un messaggio e-mail di benvenuto. L&#39;e-mail fornisce una password temporanea e spiega come accedere a Dynamic Media Classic.
 
-   Se l’utente non riceve il messaggio e-mail di benvenuto, chiedetegli di passare alla pagina di accesso di Dynamic Media Classic (https://s7sps1.scene7.com) e di fare clic su Password dimenticata. La password viene reimpostata e viene inviato un nuovo messaggio e-mail. Se l’utente non riceve l’e-mail (e se il messaggio non è stato inserito nella cartella della posta indesiderata), contattate il Supporto tecnico.
+   Se l’utente non riceve l’e-mail di benvenuto, chiedi all’utente di accedere alla pagina Dynamic Media Classic (https://s7sps1.scene7.com) e fai clic su Password dimenticata . La password viene reimpostata e viene inviato un nuovo messaggio e-mail. Se l’utente non riceve l’e-mail (e se il messaggio non è stato inserito nella cartella della posta indesiderata), contattate il Supporto tecnico.
 
    Quando aggiungete nuovi utenti di Media Portal, potete anche accedere a Configurazione > Impostazione applicazione > Amministrazione utente, fare clic su Carica elenco utenti e selezionare un file .csv contenente un massimo di 500 utenti.
 
 ### Eliminazione di un utente  {#deleting-a-user}
 
-Puoi eliminare gli utenti da Dynamic Media Classic impostandone la modalità non valida. Gli utenti con stato Non valido vengono eliminati dal sistema e da tutti gli account.
+È possibile eliminare gli utenti da Dynamic Media Classic rendendoli non validi. Gli utenti con stato Non valido vengono eliminati dal sistema e da tutti gli account.
 
 1. Fate clic su **Configurazione** > **Impostazione applicazione** > **Impostazione amministrazione** > **Amministrazione utente**.
 1. Selezionate un utente dall’elenco e fate clic su **Modifica**.
@@ -100,15 +102,15 @@ Potete filtrare e ordinare l’elenco degli utenti per individuare un utente. Tu
 
 È possibile filtrare l’elenco di utenti con le seguenti tecniche:
 
-**Filtrare per** gruppoSelezionate il menu Per gruppo e scegliete un’opzione per limitare l’elenco agli utenti di un gruppo.
+**Filtrare per** gruppoSelezionare il menu Per gruppo e scegliere un’opzione per limitare l’elenco agli utenti di un gruppo.
 
 **Filtrare per** ruolo utenteSelezionate il menu Per ruolo utente e scegliete un’opzione per limitare l’elenco a utenti o amministratori di tipi diversi.
 
-**Filtrare per** nome campoSelezionare l&#39;opzione Attiva filtro per campo. Dal menu Per nome campo, scegliete una colonna per filtrare l’elenco; dal menu Filtra carattere, scegliete una lettera. L’elenco viene ridotto a una sola colonna in base alla lettera scelta. Per visualizzare di nuovo l’elenco completo, deselezionate l’opzione Attiva filtro per campo.
+**Filtrare per** nome campoSelezionare l’opzione Abilita filtro per campo. Dal menu Per nome campo, scegliete una colonna per filtrare l’elenco; dal menu Filtra carattere, scegliete una lettera. L’elenco viene ridotto a una sola colonna in base alla lettera scelta. Per visualizzare di nuovo l’elenco completo, deselezionate l’opzione Attiva filtro per campo.
 
-**Escludere** gli utenti non validiDeselezionare l&#39;opzione Includi non validi. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono quelli che avete eliminato dal sistema e dagli account da voi amministrati.
+**Filtrare** gli utenti non validiDeselezionare l&#39;opzione Includi non validi. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono quelli che avete eliminato dal sistema e dagli account da voi amministrati.
 
-**Ordina per** intestazione di colonnaFate clic su un’intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail, per ruolo utente o per stato valido/non valido.
+**Ordina per** intestazione di colonnaFare clic su un&#39;intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail, per ruolo utente o per stato valido/non valido.
 
 Se nel sistema è presente un numero elevato di utenti, potete limitare le dimensioni dell’elenco specificando un numero nel menu Dimensione massima elenco.
 
@@ -142,7 +144,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 ## Larghezza di banda e spazio di archiviazione  {#bandwidth-storage}
 
-Gli amministratori di Dynamic Media Classic possono generare larghezza di banda, archiviazione e altri tipi di rapporti per le aziende che amministrano. Tali rapporti sono disponibili nella schermata Larghezza di banda e spazio di archiviazione. 
+Gli amministratori di Dynamic Media Classic possono generare larghezza di banda, storage e altri tipi di report per le aziende che amministrano. Tali rapporti sono disponibili nella schermata Larghezza di banda e spazio di archiviazione. 
 
 Per aprire questa schermata, fate clic su Configurazione > Configurazione personale. Espandete Impostazione amministrazione e fate clic su Larghezza di banda e spazio di archiviazione.
 
@@ -164,15 +166,15 @@ Il rapporto Contenuti immagine offre informazioni sulle richieste per i seguenti
 
 **Image** RequestRequests per le immagini.
 
-**Thumbnail** RequestRequest per campioni o immagini alternative nei visualizzatori.
+**Thumbnail** RequestRequests per campioni o immagini alternative nei visualizzatori.
 
-**Maschera** richiesta: le immagini che restituiscono maschere in scala di grigio.
+**Mask** RequestRequests alle immagini che restituiscono maschere in scala di grigi.
 
-**Richieste** RequestImage per la sezione del visualizzatore caricate da un visualizzatore.
+**Richieste** RequestImage per riquadro visualizzatore caricate da un visualizzatore.
 
-**Richieste di rendering Vnt Object** RequestImage che restituiscono un&#39;immagine con oggetti specificati nelle vignettature richieste.
+**Richieste di rendering Vnt Object** RequestImage che restituiscono un&#39;immagine con oggetti specificati nelle vignette richieste.
 
-**Richieste di rendering Vnt Info** RequestImage che restituiscono informazioni sulle vignettature richieste.
+**Richieste di rendering Vnt Info** RequestImage che restituiscono informazioni sulle vignette richieste.
 
 >[!NOTE]
 >
@@ -192,31 +194,31 @@ Per generare un rapporto sulla larghezza di banda, l’archiviazione, i contenut
 
 Dopo la generazione di un rapporto dalla pagina Larghezza di banda e spazio di archiviazione, potete scegliere diverse opzioni per la visualizzazione delle informazioni. Potete scegliere come presentare le informazioni, se visualizzarle sotto forma di grafico o griglia, nonché specificare un periodo di tempo per i dati da acquisire. In visualizzazione Dati, potete inoltre ordinare le informazioni e riordinare le colonne.
 
-**Visualizzazione dei dati in un grafico o in una** griglia di datiFare clic sull&#39;opzione Visualizzazione grafico per visualizzare i dati in un grafico; fare clic sull&#39;opzione Visualizzazione dati per visualizzare i dati sotto forma di griglia.
+**Visualizzazione dei dati in un grafico o in una** griglia di datiFare clic sull&#39;opzione Visualizzazione grafico per visualizzare i dati in un grafico; fare clic sull&#39;opzione Visualizzazione dati per visualizzare i dati in una griglia dati.
 
-**Scelta di un** tipo di presentazione del rapportoNel menu Tipo rapporto, scegliete Riepilogo, Giornaliero o Mensile per organizzare i dati in forma di riepilogo, per giorno o per mese. Questa opzione non è disponibile per tutti i rapporti.
+**Scelta di un** tipo di presentazione del rapportoScegliere Riepilogo, Giornaliero o mensile dal menu Tipo di rapporto per organizzare i dati in forma di riepilogo, per giorno o per mese. Questa opzione non è disponibile per tutti i rapporti.
 
-**Specifica di un** periodo di tempo: scegli le opzioni per definire un periodo di tempo per il rapporto, quindi fai clic su Aggiorna dopo aver definito un periodo di tempo:
+**Specifica di un** periodo di tempoScegliere le opzioni per definire un periodo di tempo per il rapporto, quindi fare clic su Aggiorna dopo aver definito un periodo di tempo:
 
-**Periodo** di tempo predefinitoScegliere un’opzione dal menu Rapporto predefinito. Ad esempio, scegliete Ultimo mese per acquisire i dati a partire dall’ultimo mese.
+**** Periodo di tempo predefinitoScegliere un’opzione dal menu Rapporto predefinito. Ad esempio, scegliete Ultimo mese per acquisire i dati a partire dall’ultimo mese.
 
-**Periodo** di tempo personalizzatoScegliere Personalizzato dal menu Rapporto predefinito. Quindi scegliete una data dal menu Mese iniziale (o Data iniziale) e una dal menu N. di mesi (o N. di giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
+**Periodo di tempo personalizzatoScegliere Personalizzato** dal menu Rapporto predefinito. Quindi scegliete una data dal menu Mese iniziale (o Data iniziale) e una dal menu N. di mesi (o N. di giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
 
-**Ordinamento dei dati (solo in visualizzazione Dati)** Per ordinare le informazioni in una colonna, fare clic sull’intestazione della colonna. Fate di nuovo clic per ordinare i dati in ordine discendente.
+**Ordinamento dei dati (solo visualizzazione dati)** Per ordinare le informazioni su una colonna, fai clic sull’intestazione della colonna. Fate di nuovo clic per ordinare i dati in ordine discendente.
 
-**Ridisposizione delle colonne (solo in visualizzazione Dati)** Per spostare una colonna in un&#39;altra posizione nella griglia di dati, trascinarne l&#39;intestazione.
+**Ridisposizione delle colonne (solo visualizzazione dati)** Per spostare una colonna in una posizione diversa sulla griglia di dati, trascinarne l’intestazione.
 
 ### Esportazione e stampa dei rapporti {#exporting-and-printing-reports}
 
 I rapporti generati possono essere esportati in modo da consentire l’utilizzo dei dati in fogli di calcolo e altre applicazioni. I rapporti possono inoltre essere stampati.
 
-**Esportazione** dei dati del rapportoNella visualizzazione Dati, ordinare e disporre i dati in base alle esigenze. Quindi aprite il menu Esporta e scegliete un formato: Delimitato da tabulazioni, Separato da virgola o Formato HTML. I dati vengono copiati negli Appunti nel formato scelto e li potete quindi incollare in un foglio di calcolo o in un’altra applicazione.
+**Esportazione dei** dati del reportIn visualizzazione Dati, ordinare e disporre i dati in base alle esigenze. Quindi aprite il menu Esporta e scegliete un formato: Delimitato da tabulazioni, Separato da virgola o Formato HTML. I dati vengono copiati negli Appunti nel formato scelto e li potete quindi incollare in un foglio di calcolo o in un’altra applicazione.
 
-**Stampa di un** rapportoFare clic su Stampa, scegliere le opzioni desiderate nella finestra di dialogo Stampa, quindi fare clic su OK.
+**Stampa di un** reportFare clic su Stampa, scegliere le opzioni desiderate nella finestra di dialogo Stampa, quindi fare clic su OK.
 
 ## Errori immagini {#image-errors}
 
-Gli amministratori di Dynamic Media Classic possono generare rapporti Errori immagini. Questi rapporti forniscono un elenco dei 20 errori più frequenti relativi alle immagini, per le ultime 24 ore, riferiti alla società a cui siete attualmente collegati. Per generare un rapporto Errori immagini, effettuate le seguenti operazioni:
+Gli amministratori di Dynamic Media Classic possono generare rapporti sugli errori immagine. Questi rapporti forniscono un elenco dei 20 errori più frequenti relativi alle immagini, per le ultime 24 ore, riferiti alla società a cui siete attualmente collegati. Per generare un rapporto Errori immagini, effettuate le seguenti operazioni:
 
 1. Fate clic su Configurazione > Configurazione personale.
 1. Espandete Impostazione amministrazione e fate clic su Errori immagini.
@@ -230,16 +232,16 @@ Gli amministratori di Dynamic Media Classic possono generare rapporti Errori imm
 
 Gli errori visualizzati si riferiscono alla società a cui siete attualmente connessi. Ciascun errore include le seguenti informazioni:
 
-**ID immagine** per l’immagine che ha originato l’errore.
+**ID immagine** per l&#39;immagine offesa.
 
-**** Ora: intervallo di tempo della prima volta in cui l’errore è stato segnalato all’ultima volta che l’errore è stato segnalato, entro le ultime 24 ore.
+**** TimeL’intervallo di tempo della prima segnalazione dell’errore all’ultima segnalazione dell’errore, entro le ultime 24 ore.
 
-**** Conteggio: il numero di errori segnalati sull’immagine.
+**** CountIl numero di errori segnalati sull&#39;immagine.
 
-**** Risposta: il messaggio di errore specifico. Gli errori possono essere di tipo 4xx o 5xx.
+**** RispostaIl messaggio di errore specifico. Gli errori possono essere di tipo 4xx o 5xx.
 
-**URLs** Elenca l’URL dell’immagine in Scene7.
+**** URLsElenca l&#39;URL dell&#39;immagine in Scene 7.
 
-**** Referente: specifica l’URL del sito Web da cui proveniva la richiesta iniziale. Il referente può essere qualsiasi sito Web contenente un collegamento all’immagine.
+**** ReferrerSpecifica l&#39;URL del sito Web da cui proviene la richiesta iniziale. Il referente può essere qualsiasi sito Web contenente un collegamento all’immagine.
 
 Alle colonne URL e Referente è stata associata la relativa funzione Copia URL per facilitare la verifica.
