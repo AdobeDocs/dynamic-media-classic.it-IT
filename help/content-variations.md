@@ -1,17 +1,19 @@
 ---
 title: Gestione delle varianti di contenuto
-description: Scoprite come gestire le varianti di contenuto.
+description: Scopri come gestire le varianti di contenuto.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
+feature: Dynamic Media Classic
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 97%
+source-wordcount: '249'
+ht-degree: 95%
 
 ---
 
