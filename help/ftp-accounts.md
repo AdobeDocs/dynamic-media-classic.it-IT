@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 89%
+source-wordcount: '240'
+ht-degree: 85%
 
 ---
 
 
 # Gestione degli account FTP{#managing-ftp-accounts}
 
-solo gli amministratori di Media Portal possono amministrare e gestire gli account FTP. Inoltre, solo gli utenti che hanno il ruolo di *Collaboratore-utente di Media Portal *o *Collaboratore di Media Portal* possono caricare le risorse digitali.
+solo gli amministratori di Media Portal possono amministrare e gestire gli account FTP. Inoltre, solo gli utenti con il ruolo di *Collaboratore-Utente portale multimediale *o *Collaboratore portale multimediale* possono caricare le risorse digitali.
 
 È possibile attivare o disattivare gli utenti esistenti di Media Portal nella pagina Amministrazione utente in Impostazione amministrazione.
 
