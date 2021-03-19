@@ -1,24 +1,26 @@
 ---
 title: Nozioni di base sulla configurazione
-description: Scoprite come utilizzare la schermata Configurazione per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società.
+description: Scopri come utilizzare la schermata Configurazione per inserire le impostazioni personali. se siete un amministratore, le impostazioni della società.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
+feature: Dynamic Media Classic
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 66%
+source-wordcount: '199'
+ht-degree: 64%
 
 ---
 
 
 # Nozioni di base sulla configurazione{#setup-basics}
 
-Usate la schermata di configurazione di Dynamic Media Classic per specificare le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire questa schermata, fate clic sul pulsante Configurazione nella barra di navigazione globale.
+Utilizza la schermata Configurazione di Dynamic Media Classic per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire questa schermata, fate clic sul pulsante Configurazione nella barra di navigazione globale.
 
 Le impostazioni disponibili in questa schermata variano a seconda se siete un amministratore o un utente:
 
@@ -27,15 +29,15 @@ Le impostazioni disponibili in questa schermata variano a seconda se siete un am
 
 Gli amministratori possono anche impostare i predefiniti per immagini e per visualizzatori nella schermata Configurazione:
 
-* **Predefiniti per immaginiI predefiniti per immagini sono formati salvati per la visualizzazione di immagini principali con dimensioni e formati diversi.**
+* **Image**
+PresetsImage Preset sono formati salvati per la visualizzazione delle immagini master con dimensioni e formati diversi.
 
+* **I predefiniti per visualizzatori determinano il modo in cui i contenuti multimediali vengono visualizzati in un visualizzatore.**
 
-* **Predefiniti**
-visualizzatoreI predefiniti per visualizzatori determinano in che modo vengono visualizzati i contenuti multimediali quando vengono visualizzati in un visualizzatore.
 
 >[!MORELIKETHIS]
 >
->* [Ruoli utente e privilegi di Dynamic Media Classic](administration-setup.md#user_administration)
+>* [Ruoli e privilegi utente di Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Predefiniti immagine](application-setup.md#image_presets)
 >* [Predefiniti per visualizzatori](application-setup.md#viewer_presets)
 
