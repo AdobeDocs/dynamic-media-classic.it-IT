@@ -1,16 +1,18 @@
 ---
 title: Creazione di un set di campioni
-description: Scoprite come creare un set di campioni.
+description: Scopri come creare un set di campioni.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
+feature: Dynamic Media Classic,Visualizzatori
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 84%
 
 ---
@@ -24,11 +26,11 @@ Ad esempio, per presentare immagini di berretti con visiere di diversi colori ne
 
 ## Creazione di un set di campioni  {#create}
 
-Quando create un set, l&#39;opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
+Quando crei un set, l&#39;opzione **Pubblica dopo il salvataggio** influisce sul set e sui membri impostati nei seguenti modi:
 | Opzione &quot;Pubblica dopo il salvataggio&quot; selezionata prima del salvataggio?|Stato del set dopo il salvataggio|Stato dei membri del set dopo il salvataggio|
 | | | |
 |Sì|Pubblicato|Pubblicato|
-|No|Non pubblicato|I membri del set mantengono il proprio stato di pubblicazione (Pubblicato o Non pubblicato).|
+|No|Non pubblicato|I membri del set mantengono lo stato di pubblicazione o di annullamento della pubblicazione.|
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
@@ -36,9 +38,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Effettuate una delle seguenti operazioni:
 
-   **Selezionate** prima le immaginiNel pannello Sfoglia, selezionate le immagini, quindi fate clic su Genera > Set campioni.
+   **Seleziona** prima le immaginiNel pannello Sfoglia, seleziona le immagini e fai clic su Genera > Set di campioni.
 
-   **Iniziate dalla** schermata Set campioniFate clic su Genera > Set campioni. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
+   **Inizia dalla** schermata Set campioniFai clic su Genera > Set campioni. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
 
 1. Trascinate i colori, i motivi o le finiture campione nella casella segnaposto Campioni nella pagina Set campioni.
 
@@ -56,7 +58,7 @@ A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubbli
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il proprio stato di pubblicazione. Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono il proprio stato di pubblicazione.Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione o di annullamento della pubblicazione. |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
