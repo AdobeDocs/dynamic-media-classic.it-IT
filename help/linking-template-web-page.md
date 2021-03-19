@@ -1,26 +1,28 @@
 ---
 title: Collegamento di un modello a una pagina Web
-description: Scoprite come collegare un modello a una pagina Web.
+description: Scopri come collegare un modello a una pagina web.
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
+feature: Dynamic Media Classic
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 69%
+source-wordcount: '337'
+ht-degree: 68%
 
 ---
 
 
 # Collegamento di un modello a una pagina Web{#linking-a-template-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite le stringhe URL. Dopo aver pubblicato un modello, Dynamic Media Classic attiva una stringa URL che fa riferimento al modello sui server immagini Dynamic Media. Potete incollare questo URL in un browser Web per testarlo.
+I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite stringhe URL. Dopo aver pubblicato un modello, Dynamic Media Classic attiva una stringa URL che fa riferimento al modello sui server di immagini Dynamic Media. Potete incollare questo URL in un browser Web per testarlo.
 
-Per inserire stringhe URL nelle pagine Web e nelle applicazioni, copiatele da Dynamic Media Classic. Per ottenere una stringa URL generata tramite un predefinito per modelli, passate alla schermata Anteprima o al pannello Sfoglia (in visualizzazione Dettagli). Quindi selezionate un predefinito immagine e fate clic sul pulsante Copia URL.
+Per inserire stringhe URL nelle pagine web e nelle applicazioni, copiale da Dynamic Media Classic. Per ottenere una stringa URL generata tramite un predefinito per modelli, passate alla schermata Anteprima o al pannello Sfoglia (in visualizzazione Dettagli). Quindi selezionate un predefinito immagine e fate clic sul pulsante Copia URL.
 
 >[!NOTE]
 >
@@ -36,7 +38,7 @@ Potete ottenere una stringa URL per il modello, generata da un predefinito immag
 
 ## Aggiunta di URL modello alla pagina Web  {#adding-template-urls-to-your-web-page}
 
-Per aggiungere un modello alla pagina Web, rivolgetevi al team di sviluppo Web per modificare il tag `<IMG>` nel codice HTML della pagina Web utilizzando la stringa URL Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Media. Il motore del sito commerce o il codice della pagina Web dinamica inserisce l’immagine modello in base alle dimensioni e specifiche di formattazione definite dal predefinito per immagini che scegliete per il modello.
+Per aggiungere un modello alla pagina web, rivolgiti al team di sviluppo della pagina web per modificare il tag `<IMG>` nel codice della pagina web HTML utilizzando la stringa URL Dynamic Media Classic per effettuare una richiesta ai server di immagini Dynamic Media. Il motore del sito commerce o il codice della pagina Web dinamica inserisce l’immagine modello in base alle dimensioni e specifiche di formattazione definite dal predefinito per immagini che scegliete per il modello.
 
 >[!MORELIKETHIS]
 >
