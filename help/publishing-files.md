@@ -1,38 +1,40 @@
 ---
 title: 'Pubblicazione di file '
-description: Le risorse vengono pubblicate sui server immagini Dynamic Media. Potete pubblicare le risorse una sola volta oppure fare in modo che Dynamic Media Classic le pubblichi su una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Potete copiare le chiamate URL da Dynamic Media Classic e aggiungerle al sito Web o all’applicazione.
+description: '"Scopri come pubblicare le risorse sui server di immagini Dynamic Media. Puoi pubblicare le risorse una tantum oppure fare in modo che Dynamic Media Classic le pubblichi secondo una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Dynamic Media Classic e aggiungerle al tuo sito web o applicazione."'
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 75%
+source-wordcount: '1715'
+ht-degree: 74%
 
 ---
 
 
 # Pubblicazione di file {#publishing-files}
 
-Le risorse vengono pubblicate sui server immagini Dynamic Media. Potete pubblicare le risorse una sola volta oppure fare in modo che Dynamic Media Classic le pubblichi su una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Potete copiare le chiamate URL da Dynamic Media Classic e aggiungerle al sito Web o all’applicazione.
+Le risorse vengono pubblicate sui server di immagini Dynamic Media. Puoi pubblicare le risorse una tantum oppure fare in modo che Dynamic Media Classic le pubblichi secondo una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Dynamic Media Classic e aggiungerle al tuo sito web o applicazione.
 
-Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video via HTTP/2. ossia un URL pubblicato o un codice da incorporare per l’immagine o il video può essere integrato con qualsiasi applicazione che accetta una risorsa ospitata. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui i browser e i server comunicano, consentendo una migliore risposta e tempi di caricamento di tutte le risorse Dynamic Media Classic. Consultate [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic) (Distribuzione HTTP2 di contenuti - Domande frequenti).
+Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video su HTTP/2. In altre parole, è disponibile un URL o un codice di incorporamento pubblicato per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di consegna migliora il modo in cui i browser e i server comunicano, consentendo una migliore risposta e tempi di caricamento di tutte le risorse di Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
 Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, tutte le risorse caricate in Dynamic Media Classic vengono contrassegnate automaticamente per la pubblicazione.
 
-Per ulteriori informazioni, consultare il documento PDF [Instant Publish Notice (Avviso di pubblicazione istantanea)](/help/assets/rendering-instant-publish-notification.pdf).
+Per ulteriori informazioni, consulta [Avviso di pubblicazione istantanea PDF](/help/assets/rendering-instant-publish-notification.pdf).
 
 Per contrassegnare le risorse per la pubblicazione, eseguite i seguenti metodi:
 
 * **Pubblica dopo il**
-caricamentoNella parte inferiore della pagina Carica, selezionate Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
+caricamentoNella pagina Carica, in basso, seleziona Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
 
-* **Pubblica dopo il**
-caricamentoNella finestra di dialogo Opzioni processo, selezionate Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
+* **Pubblica dopo**
+il caricamentoNella finestra di dialogo Opzioni processo, seleziona Pubblica dopo il caricamento. Per impostazione predefinita, questa opzione è selezionata.
 
 Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblicazione quando lo sono anche le relative risorse principali. Nella seguente tabella sono illustrate le risorse secondarie contrassegnate automaticamente per la pubblicazione.
 
@@ -47,7 +49,7 @@ Quando le immagini principali sono contrassegnate per la pubblicazione, vengono 
 
 ## Creazione di un processo di pubblicazione  {#creating-a-publish-job}
 
-Potete creare un processo di pubblicazione per pubblicare le risorse che avete caricato sui server Dynamic Media Classic ma che non sono ancora state pubblicate automaticamente. Potete effettuare un processo di pubblicazione una tantum oppure pianificare processi periodici. Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione di risorse già pubblicate.
+Crea un processo di pubblicazione per pubblicare le risorse caricate sui server Dynamic Media Classic ma scegli di non pubblicarle ancora automaticamente. Potete effettuare un processo di pubblicazione una tantum oppure pianificare processi periodici. Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
 
 **Per creare un processo di pubblicazione**
 
@@ -63,7 +65,7 @@ Potete creare un processo di pubblicazione per pubblicare le risorse che avete c
 
 1. Fate clic su **Invia pubblicazione**.
 
-Dynamic Media Classic tiene traccia dei processi di pubblicazione nella pagina Processi. In questa pagina potete controllare i processi di pubblicazione.
+Dynamic Media Classic tiene traccia dei processi di pubblicazione nella pagina Processi . In questa pagina potete controllare i processi di pubblicazione.
 
 >[!NOTE]
 >
@@ -79,7 +81,7 @@ Per pubblicare un processo di pubblicazione da eseguire in una data successiva, 
 
 Per creare un processo di pubblicazione periodico, selezionate l’opzione Periodico nella pagina Pubblica.
 
-Scegliete quindi un’opzione di Ripeti: Quotidianamente, Settimanalmente, Mensilmente o Personalizzato, per specificare quando eseguire il processo di pubblicazione. Dynamic Media Classic presenta gli strumenti calendario per pianificare il processo di pubblicazione periodico. Potete scegliere l’opzione Personalizzato e immettere una regola nella casella Regola in cui descrivere un intervallo per il processo personalizzato. 
+Scegliete quindi un’opzione di Ripeti: Quotidianamente, Settimanalmente, Mensilmente o Personalizzato, per specificare quando eseguire il processo di pubblicazione. Dynamic Media Classic presenta gli strumenti di calendario per la pianificazione del processo di pubblicazione ricorrente. Potete scegliere l’opzione Personalizzato e immettere una regola nella casella Regola in cui descrivere un intervallo per il processo personalizzato. 
 
 Consultate [Creazione di un intervallo personalizzato per un processo di caricamento o pubblicazione](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -92,16 +94,16 @@ Consultate [Creazione di un intervallo personalizzato per un processo di caricam
 Potete visualizzare le Opzioni avanzate nella pagina Pubblica e sceglierle per gestire un processo di pubblicazione:
 
 * **Pubblica**
-su: scegliete un tipo di server per pubblicare le risorse solo su un server specifico, non su tutti i server.
+suScegli un tipo di server per pubblicare le risorse solo su un server specifico, non su tutti i server.
 
 * ****
-PubblicaPer impostazione predefinita, Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate in precedenza (opzione Nuovo dall’ultima pubblicazione). Potete tuttavia scegliere Pubblicazione completa per pubblicare anche le risorse aggiornate o modificate dopo l’ultima pubblicazione. Scegliete Completa con dati di ricerca se pubblicate un eCatalog e desiderate consentire ai lettori di effettuare ricerche in base alla parola chiave.
+PublishPer impostazione predefinita, Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate (opzione New Since Last Publish). Potete tuttavia scegliere Pubblicazione completa per pubblicare anche le risorse aggiornate o modificate dopo l’ultima pubblicazione. Scegliete Completa con dati di ricerca se pubblicate un eCatalog e desiderate consentire ai lettori di effettuare ricerche in base alla parola chiave.
 
 * **Esegui processo**
-come: scegliete un nome utente dall’elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, verrà associato un processo di pubblicazione a un utente.
+comeScegli un nome utente dall’elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, verrà associato un processo di pubblicazione a un utente.
 
-**Notifica HTTP:**
-inserite un URL per attivare i processi di pubblicazione successivi.
+**HTTP**
+NotificationImmettere un URL per attivare i processi di pubblicazione successivi.
 
 Consultate [Uso di un processo di caricamento o pubblicazione come trigger](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).
 
@@ -143,7 +145,7 @@ Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate una o più risorse pubblicate.
 
-      Nella barra di navigazione globale, fate clic su **File > **Annulla pubblicazione**.
+      Nella barra di navigazione globale, fai clic su **File > **Annulla pubblicazione**.
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, fate clic sull’icona verde rotonda con il segno di spunta a sinistra del nome della risorsa.
 
@@ -153,11 +155,11 @@ L’ultima data di pubblicazione di una risorsa viene visualizzata nella visuali
 
 ## Risorse pubblicate e ritardi CDN {#republished-assets-and-cdn-delays}
 
-Le risorse Dynamic Media Classic sono distribuite sulla rete di distribuzione dei contenuti (CDN). Una rete CDN è un sistema di computer server collegati tra di loro per collaborare in maniera trasparente alla distribuzione di contenuti, specialmente contenuti multimediali di grandi dimensioni, agli utenti finali. Nel sistema CDN il contenuto Web viene archiviato nelle cache Web di Internet (chiamata rete di edge caching). Il contenuto Web viene distribuito agli utenti finali da queste cache Web per accelerare le operazioni.
+Le risorse Dynamic Media Classic sono distribuite sulla rete CDN (Content Delivery Network). Una rete CDN è un sistema di computer server collegati tra di loro per collaborare in maniera trasparente alla distribuzione di contenuti, specialmente contenuti multimediali di grandi dimensioni, agli utenti finali. Nel sistema CDN il contenuto Web viene archiviato nelle cache Web di Internet (chiamata rete di edge caching). Il contenuto Web viene distribuito agli utenti finali da queste cache Web per accelerare le operazioni.
 
 La prima volta che un utente scarica una pagina Web, le risorse vengono distribuite su un server cache Web CDN. Le risorse vengono quindi archiviate su questo server in modo che la prossima volta che un utente nella stessa area accede alla pagina Web, è possibile distribuire più velocemente lo stesso contenuto memorizzato nella cache. Il contenuto viene distribuito più velocemente perché si trova più vicino all’utente finale. La rete CDN assicura visualizzazioni di pagine Web più veloci. Una rete CDN diminuisce le esigenze di larghezza di banda sul server centrale perché il contenuto viene distribuito dalla rete di edge caching e non da un server centrale in ogni istanza.
 
-Il contenuto di Dynamic Media Classic appena pubblicato è disponibile immediatamente per l&#39;utente finale e popola rapidamente la rete di edge caching. Tuttavia, il contenuto appena ripubblicato, ovvero le immagini con nomi identici a quelli delle immagini pubblicate precedentemente su un server di immagini, non viene aggiornato sulla rete CDN per almeno dieci ore. Gli utenti finali invece visualizzano il contenuto di una cache Web sulla rete CDN. Per questo motivo, le risorse ripubblicate di Dynamic Media Classic potrebbero non essere visualizzate agli utenti finali per dieci ore.
+Il nuovo contenuto di Dynamic Media Classic pubblicato è disponibile immediatamente per l’utente finale e popola rapidamente la rete della cache edge. Tuttavia, il contenuto appena ripubblicato, ovvero le immagini con nomi identici a quelli delle immagini pubblicate precedentemente su un server di immagini, non viene aggiornato sulla rete CDN per almeno dieci ore. Gli utenti finali invece visualizzano il contenuto di una cache Web sulla rete CDN. Per questo motivo, le risorse ripubblicate di Dynamic Media Classic potrebbero non essere visualizzate agli utenti finali per dieci ore.
 
 Per rendere disponibili le risorse appena ripubblicate prima che sia trascorso questo intervallo di dieci ore, potete cancellare le cache Web sulla rete CDN. La cancellazione delle cache Web rimuove i vecchi contenuti dalle cache Web della rete CDN e li sostituisce con le risorse pubblicate più di recente.
 
