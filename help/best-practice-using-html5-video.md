@@ -1,38 +1,40 @@
 ---
-title: Procedura ottimale per l’utilizzo del visualizzatore video HTML5
-description: Scoprite le procedure ottimali per l’utilizzo del visualizzatore video HTML5.
+title: Procedure consigliate per l’utilizzo del visualizzatore video HTML5
+description: Scopri le best practice per l’utilizzo del visualizzatore video HTML5.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
+feature: Dynamic Media Classic,Visualizzatori,Video
+role: Professionista
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '430'
 ht-degree: 24%
 
 ---
 
 
-# Procedure ottimali per l’utilizzo del visualizzatore video HTML5{#best-practice-using-the-html-video-viewer}
+# Best practice per l’utilizzo del visualizzatore video HTML5{#best-practice-using-the-html-video-viewer}
 
-I predefiniti per visualizzatori video HTML5 di Dynamic Media Classic sono lettori video affidabili. Dal punto di vista della progettazione del lettore, potete creare tutte le funzionalità del lettore video utilizzando gli strumenti di sviluppo Web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
+I predefiniti per visualizzatori video HTML5 di Dynamic Media Classic sono lettori video affidabili. Dal lato del design del lettore, puoi creare tutte le funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
 
-Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Quindi trasmette il video usando HLS (streaming video adattivo). Oppure, se tale metodo di consegna non è presente, viene utilizzato lo progressivo HTML5.
+Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Quindi distribuisce il video usando HLS (streaming video adattivo). Oppure, se tale metodo di consegna non è presente, viene invece utilizzato il progressivo HTML5.
 
 Combinando in un singolo lettore la possibilità di progettare i componenti di riproduzione in HTML5 e CSS, di usufruire di riproduzione incorporata e di utilizzare lo streaming adattativo e progressivo a seconda delle caratteristiche del browser, i vostri contenuti multimediali potranno essere visti sia dagli utenti con computer desktop che da quelli con dispositivi mobili. Potrete così offrire ai visitatori un’esperienza di streaming video ottimizzata.
 
-Consultate anche [I visualizzatori HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) nella guida di riferimento dei visualizzatori di Adobi .
+Consulta anche [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) nella Guida di riferimento visualizzatori di Adobi.
 
-## Riproduzione di video su computer desktop e dispositivi mobili mediante Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+## Riproduzione di video su computer desktop e dispositivi mobili utilizzando il visualizzatore video Dynamic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
-Per lo streaming di video adattivi per desktop e dispositivi mobili, i video utilizzati per il cambio di bitrate si basano su tutti i video MP4 presenti nel set video adattivo.
+Per lo streaming video adattivo per desktop e dispositivi mobili, i video utilizzati per la commutazione del bit rate si basano su tutti i video MP4 nel set video adattivo.
 
-La riproduzione video si verifica utilizzando HLS o video progressivo. HLS (HTTP Live Streaming) è uno standard Apple per lo streaming di video adattivi che regola automaticamente la riproduzione in base alla capacità di larghezza di banda della rete. Consente inoltre al cliente di &quot;cercare&quot; in qualsiasi punto del video senza dover attendere il resto del video per scaricarlo. Vedere anche [HTTP Live Streaming](https://developer.apple.com/streaming/). Il video progressivo viene distribuito scaricando e memorizzando localmente il video sullo schermo desktop o sul dispositivo mobile di un utente.
+La riproduzione video avviene tramite HLS o video progressivo. HLS (HTTP Live Streaming) è uno standard Apple per lo streaming video adattivo che regola automaticamente la riproduzione in base alla capacità della larghezza di banda della rete. Permette inoltre al cliente di &quot;cercare&quot; in qualsiasi punto del video senza dover attendere che il resto del video venga scaricato. Vedere anche [Streaming live HTTP](https://developer.apple.com/streaming/). Il video progressivo viene distribuito scaricando e memorizzando localmente il video sullo schermo desktop o sul dispositivo mobile di un utente.
 
-La tabella seguente riassume il dispositivo, il browser e il metodo di riproduzione dei video su computer desktop e dispositivi mobili che utilizzano Dynamic Media Classic Video Viewer.
+La tabella seguente descrive il dispositivo, il browser e il metodo di riproduzione dei video su computer desktop e dispositivi mobili che utilizzano il visualizzatore video Dynamic Media Classic.
 
 | Dispositivo | Browser | Modalità di riproduzione video |
 |--- |--- |--- |
@@ -40,9 +42,9 @@ La tabella seguente riassume il dispositivo, il browser e il metodo di riproduzi
 | Desktop | Internet Explorer 11+ | Streaming video HLS. |
 | Desktop | Firefox 23-44 | Download progressivo. |
 | Desktop | Firefox 45 o versione successiva | Streaming video HLS. |
-| Desktop | Effetto cromatura | Streaming video HLS. |
+| Desktop | Chrome | Streaming video HLS. |
 | Desktop | Safari (Mac) | Streaming video HLS. |
-| Cellulare | Chrome (Android 6 o versione precedente) | Download progressivo. |
+| Cellulare | Chrome (Android 6 o precedente) | Download progressivo. |
 | Cellulare | Chrome (Android 7 o successivo) | Streaming video HLS. |
 | Cellulare | Android (browser predefinito) | Download progressivo. |
 | Cellulare | Safari (iOS) | Streaming video HLS. |
