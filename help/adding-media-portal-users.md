@@ -1,17 +1,19 @@
 ---
 title: Aggiunta e gestione di utenti in Media Portal
-description: Scoprite come aggiungere e gestire gli utenti di Media Portal
+description: Scopri come aggiungere e gestire gli utenti di Media Portal
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 83%
+source-wordcount: '1034'
+ht-degree: 82%
 
 ---
 
@@ -107,30 +109,30 @@ Potete visualizzare i nomi e gli indirizzi e-mail degli utenti Media Portal in u
 
 ## Impostazione de l messaggio di benvenuto per gli utenti di Media Portal  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Portal, potete inviare loro un messaggio di benvenuto. Potete configurare questo messaggio e-mail o indicare ad Dynamic Media Classic di non inviarlo.
+Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Portal, potete inviare loro un messaggio di benvenuto. È possibile configurare questo messaggio di posta elettronica o comunicare a Dynamic Media Classic di non inviarlo.
 
 1. Scegliete **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione amministrazione]** > **[!UICONTROL Amministrazione utente]**.
-1. Nella schermata di configurazione Amministrazione utente, fate clic su **[!UICONTROL Impostazioni e-mail]**.
+1. Nella schermata Configurazione amministrazione utente, fai clic su **[!UICONTROL Impostazioni e-mail]**.
 1. Nella finestra di dialogo Impostazioni e-mail, specificate una delle seguenti impostazioni:
 
-   **[!UICONTROL Invia]** e-mail: deselezionate questa opzione se non desiderate informare i nuovi utenti tramite e-mail che li avete registrati.
+   **[!UICONTROL Invia]** e-mailDeseleziona questa opzione se non desideri informare i nuovi utenti tramite e-mail che li hai registrati.
 
-   **[!UICONTROL Password]** predefinita: consente di immettere una password temporanea per i nuovi utenti o di lasciare vuoto il campo per consentire ad Dynamic Media Classic di generare password casuali. Agli utenti verrà chiesto di cambiare la password al loro primo accesso.
+   **[!UICONTROL Password]** predefinitaImmettere una password temporanea per i nuovi utenti o lasciare vuoto il campo per consentire a Dynamic Media Classic di generare password casuali. Agli utenti viene richiesto di cambiare la password al primo accesso.
 
-   **[!UICONTROL Sostituisci]** URL: inserite un URL diverso da quello predefinito se gli utenti accedono ad Dynamic Media Classic tramite un URL diverso.
+   **[!UICONTROL Sostituisci]** URLimmetti un URL diverso da quello predefinito se gli utenti accedono a Dynamic Media Classic tramite un URL diverso.
 
 ## Altre attività di gestione degli utenti {#other-user-management-tasks}
 
 A partire dalla schermata di configurazione Amministrazione utenti potete effettuare le seguenti attività:
 
-**[!UICONTROL Filtrare e ordinare l’]** elenco di utentiFiltrare l’elenco di utenti Media Portal per individuare gli utenti. Consultate Filtrare e ordinare l’elenco di utenti.
+**[!UICONTROL Filtrare e ordinare l’]** elenco di utentiFiltrare l’elenco degli utenti di Media Portal per individuare gli utenti. Consultate Filtrare e ordinare l’elenco di utenti.
 
-**[!UICONTROL Eliminare]** gli utentiEliminare un utente dall’elenco. Consultate Eliminare un utente.
+**[!UICONTROL Elimina]** utentiElimina un utente dall’elenco. Consultate Eliminare un utente.
 
-**[!UICONTROL Attivare e disattivare]** gli utentiSospendere l’accesso alle cartelle da parte di un utente. Consultate Attivare e disattivare gli utenti.
+**[!UICONTROL Attivare e disattivare]** gli utentiSospendere l&#39;accesso alle cartelle da parte di un utente. Consultate Attivare e disattivare gli utenti.
 
-**[!UICONTROL Modifica]** delle informazioni utenteImmettere informazioni aggiornate su un utente. Consultate Modificare le informazioni utente.
+**[!UICONTROL Modifica]** informazioni utenteImmettere informazioni aggiornate su un utente. Consultate Modificare le informazioni utente.
 
-**[!UICONTROL Creazione di]** campi di metadati definiti dall’utenteCreazione di campi di metadati definiti dall’utente per organizzare in modo più efficace le risorse in Dynamic Media Classic. I campi possono essere attivati o disattivati, in base alle esigenze.
+**[!UICONTROL Creazione di]** campi definiti dall’utenteCrea campi di metadati personalizzati definiti dall’utente per organizzare le risorse in Dynamic Media Classic. I campi possono essere attivati o disattivati, in base alle esigenze.
 
 Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fields).
