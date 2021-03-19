@@ -1,41 +1,43 @@
 ---
 title: Risorse per sviluppatori
-description: Scoprite le risorse per lo sviluppo disponibili per Dynamic Media.
+description: Scopri quali risorse per sviluppatori sono disponibili per Dynamic Media.
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
+feature: Dynamic Media Classic, SDK/API
+role: Sviluppatore
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 39%
+source-wordcount: '288'
+ht-degree: 38%
 
 ---
 
 
 # Risorse per sviluppatori{#developer-resources}
 
-Dynamic Media Classic fornisce la documentazione relativa alla versione principale più recente di ciascun modulo software Dynamic Media Classic. Sono disponibili documenti per i moduli Authoring delle immagini, Dynamic Media Classic, Server immagini e Rendering delle immagini e per i visualizzatori.
+Dynamic Media Classic fornisce la documentazione relativa alla versione principale più recente di ciascun modulo software Dynamic Media Classic. I documenti del modulo sono disponibili per Authoring immagini, Dynamic Media Classic, Image Server e Image Rendering e visualizzatori.
 
 Per alcuni moduli sono inoltre disponibili le Note sulla versione. Queste note forniscono dettagli sull’ultima versione rilasciata, inclusi miglioramenti, nuove funzionalità, suggerimenti, consigli per la risoluzione dei problemi e i principali problemi noti. Inoltre offrono esempi interattivi delle funzioni rich media e di come attivarle. Oltre a questo, le Note sulla versione riportano le istruzioni di installazione e configurazione per il software su licenza.
 
-Le Guide di riferimento a Image Server e Image Rendering e i visualizzatori descrivono i protocolli http per questi moduli server. Per gli sviluppatori di siti Web che desiderano personalizzare e utilizzare ulteriormente i contenuti multimediali avanzati di Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata è possibile utilizzare queste guide. Dynamic Media Classic presuppone che il lettore abbia familiarità con l&#39;app desktop, gli standard e le convenzioni generali del protocollo http e la terminologia di base dell&#39;imaging.
+Guide di riferimento a Image Server e Image Rendering e i visualizzatori descrivono i protocolli http per questi moduli server. Queste guide possono essere utilizzate dagli sviluppatori di siti web che desiderano personalizzare e utilizzare ulteriormente i rich media di Dynamic Media Classic per un sito web o un&#39;applicazione personalizzata. Dynamic Media Classic presuppone che il lettore abbia familiarità con l’app desktop, gli standard e le convenzioni generali del protocollo http e la terminologia di imaging di base.
 
 
-**API Dynamic Media Classic**
+**API di Dynamic Media Classic**
 
 | Documento | Indirizzo Web |
 |--- |--- |
-| Guida di riferimento API | Per la documentazione, contattate l’assistenza tecnica di Dynamic Media Classic. |
+| Guida di riferimento API | Per la documentazione, contatta il supporto tecnico Dynamic Media Classic . |
 
 **Image Authoring**
 
 | Documento | Indirizzo Web |
 |--- |--- |
-| Guida utente | Per questa documentazione, contattate l’assistenza tecnica di Dynamic Media Classic. |
-| Note sulla versione | Per questa documentazione, contattate l’assistenza tecnica di Dynamic Media Classic. |
+| Guida utente | Per questa documentazione, contatta il supporto tecnico Dynamic Media Classic . |
+| Note sulla versione | Per questa documentazione, contatta il supporto tecnico Dynamic Media Classic . |
 
 **Image Server e Image Rendering**
 
