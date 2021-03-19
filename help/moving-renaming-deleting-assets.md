@@ -1,17 +1,19 @@
 ---
 title: Spostamento, ridenominazione ed eliminazione di risorse
-description: Scoprite come spostare, rinominare ed eliminare le risorse.
+description: Scopri come spostare, rinominare ed eliminare le risorse.
 uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 66%
+source-wordcount: '574'
+ht-degree: 65%
 
 ---
 
@@ -38,7 +40,7 @@ Per rinominare una risorsa, effettuate le seguenti operazioni:
    * Selezionate il nome, digitate un nuovo nome, quindi premete Invio o fate clic in un altro punto della schermata.
    * Scegliete File > Rinomina. Il nome della risorsa viene evidenziato. Immettete un nuovo nome e premete Invio.
 
-Accertatevi di non immettere il nome di una risorsa Dynamic Media Classic esistente.
+Assicurati di non inserire il nome di una risorsa Dynamic Media Classic esistente.
 
 ## Eliminare le risorse {#delete-assets}
 
@@ -53,19 +55,19 @@ Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. 
 1. Effettuate una delle seguenti operazioni:
 
    * Per eliminare una o più risorse, selezionatele nel pannello Sfoglia, quindi premete Canc o scegliete File > Elimina.
-   * Per eliminare una cartella, selezionatela nella Libreria risorse e fate clic su **Rimuovi cartella**.
+   * Per eliminare una cartella, selezionala nella Libreria risorse e fai clic su **Rimuovi cartella**.
 
       Se eliminate una cartella, verranno eliminate la cartella, tutte le risorse presenti in essa, nonché tutte le risorse nelle relative sottocartelle.
 
 >[!NOTE]
 >
->Dynamic Media Classic consiglia di sovrascrivere i file di risorse invece di eliminarli se intendete sostituire un file di risorse con un altro con lo stesso nome.
+>Dynamic Media Classic consiglia di sovrascrivere i file di risorse anziché eliminarli se si desidera sostituire un file di risorse con un altro con lo stesso nome.
 
 ## Eliminare più risorse con un file di testo {#delete-multiple-assets-with-a-text-file}
 
-Per eliminare più risorse alla volta nella Libreria risorse, potete elencare le risorse da eliminare in un file di testo e inviare l’elenco ad Dynamic Media Classic.
+Per eliminare più risorse contemporaneamente nella libreria delle risorse, puoi elencare le risorse da eliminare in un file di testo e inviare l’elenco a Dynamic Media Classic.
 
-Create l’elenco degli ID Dynamic Media Classic e salvatelo come file di testo (.txt). Ogni Dynamic Media Classic ID deve essere su una propria riga (seguito da un ritorno a capo).
+Crea l’elenco degli ID di Dynamic Media Classic e salvalo come file di testo (.txt). Ogni ID Dynamic Media Classic deve trovarsi sulla propria riga (seguito da un ritorno a capo).
 
 Una volta creato l’elenco, effettuate le operazioni seguenti:
 
@@ -73,7 +75,7 @@ Una volta creato l’elenco, effettuate le operazioni seguenti:
 1. Nella finestra di dialogo Elimina elenco risorse, individuate o digitate il percorso del file di testo contenente l’elenco delle risorse da eliminare.
 1. Fate clic sul pulsante Elimina.
 
-Quando eliminate delle risorse con un file di testo, se un ID Dynamic Media Classic non è presente nell’elenco, viene visualizzato un messaggio che informa che Dynamic Media Classic è &quot;Impossibile convalidare queste voci nell’elenco:&quot; insieme all’elenco delle voci. Tuttavia, Dynamic Media Classic non genera un errore nella schermata Processo.
+Quando elimini le risorse con un file di testo, se un ID Dynamic Media Classic non è presente nell’elenco, viene visualizzato un messaggio che informa che Dynamic Media Classic è &quot;Impossibile convalidare queste voci nell’elenco:&quot; insieme all’elenco delle voci. Tuttavia, Dynamic Media Classic non genererà un errore nella schermata Job.
 
 >[!MORELIKETHIS]
 >
