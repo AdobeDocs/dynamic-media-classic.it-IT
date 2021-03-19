@@ -1,16 +1,18 @@
 ---
 title: Verifica delle risorse prima di renderle pubbliche
-description: Scoprite come verificare le risorse prima di renderle pubbliche.
+description: Scopri come verificare le risorse prima di renderle pubbliche.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1103'
 ht-degree: 54%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 54%
 
 # Verifica delle risorse prima di renderle pubbliche {#testing-assets-before-making-them-public}
 
-La funzione di verifica consente di definire un ambiente di verifica protetto e di creare una solida soluzione B2B, in base a una serie di indirizzi e intervalli IP configurabili. Questa funzionalità consente di far corrispondere le distribuzioni Dynamic Media Classic all&#39;architettura della piattaforma di gestione dei contenuti e di e-commerce.
+La funzione di verifica consente di definire un ambiente di verifica protetto e di creare una solida soluzione B2B, in base a una serie di indirizzi e intervalli IP configurabili. Questa funzionalità ti consente di far corrispondere le implementazioni di Dynamic Media Classic con l’architettura della piattaforma di gestione dei contenuti e di e-commerce.
 
 La verifica protetta consente di visualizzare in anteprima una versione per uso interno del sito Web, con contenuti non ancora pubblicati.
 
@@ -30,23 +32,23 @@ Può essere preferibile creare un ambiente di pubblicazione protetta per solo us
 
 >[!NOTE]
 >
->La verifica protetta non influisce sull&#39;accesso ad Dynamic Media Classic. La protezione di Dynamic Media Classic rimane coerente e richiede le normali credenziali per l&#39;accesso ad Dynamic Media Classic e ai servizi Web correlati.
+>La verifica sicura non influisce sull’accesso a Dynamic Media Classic. La sicurezza di Dynamic Media Classic rimane coerente e richiede le credenziali usuali per l&#39;accesso a Dynamic Media Classic e ai servizi Web correlati.
 
 ## Funzionamento della verifica protetta {#how-secure-testing-works}
 
 Per la maggior parte delle società le connessioni Internet avvengono mediante un firewall. L’accesso a Internet è possibile tramite alcuni indirizzamenti e in genere con una serie limitata di indirizzi IP pubblici.
 
-Dalla rete aziendale, potete risalire all’indirizzo IP pubblico utilizzando siti Web come https://whatismyip.com o richiedendo tali informazioni all’organizzazione IT aziendale.
+Dalla rete aziendale, è possibile individuare l&#39;indirizzo IP pubblico utilizzando siti web come https://whatismyip.com o richiedere queste informazioni all&#39;organizzazione IT aziendale.
 
-Con la verifica protetta, Dynamic Media Classic stabilisce un server di immagini dedicato per gli ambienti di pubblicazione protetta o le applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta non proviene dall’elenco di indirizzi IP approvato, viene restituita una risposta di operazione non riuscita. L’amministratore di Dynamic Media Classic Company configura l’elenco approvato di indirizzi IP per l’ambiente di verifica protetta della propria azienda.
+Con il test protetto, Dynamic Media Classic stabilisce un server di immagini dedicato per gli ambienti di staging o le applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta non proviene dall’elenco di indirizzi IP approvato, viene restituita una risposta di operazione non riuscita. L’amministratore della società Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test Secure della propria azienda.
 
-Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio di verifica protetta non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico del server immagini Dynamic Media. Le richieste al servizio di verifica protetta potrebbero presentare una latenza leggermente superiore rispetto ai server immagini pubblici di Dynamic Media.
+Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio Secure Testing non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico di Dynamic Media Image Server. Le richieste al servizio di test sicuro potrebbero avere una latenza leggermente più elevata rispetto ai server di immagini pubblici di Dynamic Media.
 
 Le risorse non pubblicate sono immediatamente disponibili dai servizi di verifica protetta, senza dover essere pubblicati. Potete così visualizzare un’anteprima delle risorse prima che vengano pubblicate sul server immagine pubblico.
 
-***nota **: I servizi di verifica protetta utilizzano il server catalogo configurato con contesto di pubblicazione interno. Pertanto, se la società è configurata per la pubblicazione in modalità di verifica protetta, tutte le risorse caricate in Dynamic Media Classic diventano immediatamente disponibili nei servizi di verifica protetta. Questa funzionalità è valida sia per le risorse contrassegnate per la pubblicazione al momento del caricamento che per quelle che non lo sono.*
+***nota **: I servizi di verifica protetta sfruttano il server di catalogo configurato con un contesto di pubblicazione interno. Pertanto, se la tua azienda è configurata per la pubblicazione su Secure Testing, tieni presente che tutte le risorse caricate in Dynamic Media Classic diventano immediatamente disponibili sui servizi Secure Testing. Questa funzionalità è valida sia per le risorse contrassegnate per la pubblicazione al momento del caricamento che per quelle che non lo sono.*
 
-I servizi di verifica protetta al momento supportano i seguenti tipi di risorse e funzionalità:
+I servizi di verifica sicura supportano attualmente i seguenti tipi di risorse e funzionalità:
 
 <!-- 
 
@@ -60,9 +62,9 @@ Last Modified Date:
 
 * Immagini.
 * Vignettature (richieste per il server di rendering).
-* Richieste del server di rendering (supportate, ma richieste esplicitamente dal cliente).
+* Richieste server di rendering (supportate, ma richieste esplicitamente dal cliente).
 * Set, compresi i set di immagini, eCatalog, set di rendering e set di file multimediali.
-* Visualizzatori Dynamic Media Classic per contenuti multimediali avanzati standard.
+* Visualizzatori rich media standard di Dynamic Media Classic.
 * Pagine Dynamic Media Classic OnDemand JSP.
 * Contenuto statico, ad esempio file PDF e video progressivi.
 * Streaming video HTTP.
@@ -73,14 +75,14 @@ I seguenti tipi di risorse e funzionalità non sono attualmente supportati:
 * Streaming video RTMP
 * Servizi UGC
 * Web-stampa
-* Ricerca in informazioni classiche Dynamic Media o eCatalog
+* Ricerca in informazioni o eCatalog classici di Dynamic Media
 
 ## Verifica del servizio di verifica protetta {#testing-the-secure-testing-service}
 
 È consigliabile verificare il servizio di verifica protetta per controllare che funzioni correttamente.
 
-Nota: Se non viene indicato alcun IP in Configurazione > Impostazione pubblicazione > Server immagini > Test Image Service
-se aggiungete solo un IP, l’IP sarà in grado di chiamare le risorse e nessun altro IP potrà effettuare le chiamate. Finché non viene menzionato alcun IP in quella sezione, tutti gli IP possono effettuare le chiamate per le risorse e verranno visualizzati.
+Nota: Se non si menzionano IP in Configurazione > Impostazioni pubblicazione > Image Server > Test Image Service
+se aggiungi solo un IP, l’IP sarà in grado di chiamare le risorse e nessun altro IP potrà effettuare le chiamate. Finché non viene menzionato nessun IP in quella sezione, tutti gli IP possono effettuare le chiamate per le risorse e verranno visualizzati.
 
 **Preparare l’account**
 
@@ -95,20 +97,20 @@ Last Modified Date:
  -->
 
 1. Contattate l’assistenza tecnica e richiedete l’attivazione del servizio di verifica protetta per il vostro account.
-1. In Dynamic Media Classic, fate clic su **Configurazione** > **Impostazione pubblicazione** > **Server immagini**.
+1. In Dynamic Media Classic, fai clic su **Configurazione** > **Impostazioni pubblicazione** > **Server immagini**.
 1. Nella pagina Pubblica su Image Server, nell’elenco a discesa Contesto di pubblicazione, selezionate l’opzione per la **verifica del server immagini**.
 1. Per Filtro indirizzi client, fate clic su **Aggiungi**.
 1. Selezionate la casella di controllo per attivare l’indirizzo e digitate un indirizzo IP e una maschera di rete nei rispettivi campi.
 
    >[!NOTE]
    >
-   >Se aggiungete un indirizzo IP singolo e una maschera di rete, tale indirizzo può effettuare chiamate alle risorse. Tuttavia, a tutti gli altri indirizzi IP e maschere di rete aggiunti non è consentito effettuare chiamate di risorse. È quindi possibile disattivare (disattivare) la casella di controllo del passaggio precedente per disattivare la possibilità di specificare un indirizzo IP e una maschera di rete. In questo modo, tutti gli indirizzi *tutti* IP possono effettuare chiamate alle risorse e verranno visualizzati.
+   >Se aggiungi un indirizzo IP singolo e una maschera di rete, tale indirizzo può effettuare chiamate alle risorse. Tuttavia, non è consentito effettuare chiamate alle risorse ad altri indirizzi IP e maschere di rete aggiunti. Pertanto, è consigliabile disattivare la casella di controllo nel passaggio precedente per disattivare la possibilità di specificare un indirizzo IP e una maschera di rete. In questo modo, tutti gli indirizzi IP *tutti* possono effettuare chiamate alle risorse e verranno visualizzati.
 
 1. Effettuate una delle seguenti operazioni:
    * Ripete questi due passaggi per aggiungere altri indirizzi IP.
-   * Passate al passaggio successivo.
+   * Procedi al passaggio successivo.
 1. In basso a sinistra nella pagina Pubblica su Image Server, fate clic su **Salva**
-1. Caricate le immagini desiderate nel vostro account Dynamic Media Classic.
+1. Carica le immagini desiderate nel tuo account Dynamic Media Classic.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
@@ -119,14 +121,14 @@ Last Modified Date:
 1. Determinate il nome del servizio di verifica protetta facendo clic su **Configurazione** > **Impostazione applicazione** > **Impostazioni generali**.
 1. Nella pagina Impostazioni generali applicazione, nella sezione Server, individuate il nome a destra di **Nome server contesto pubblicazione di prova**.
 
-Contatta  Adobe se il nome del server risulta mancante o se gli URL del server non funzionano.
+Se il nome del server è mancante o se gli URL del server non funzionano, contatta l’Assistenza Adobe.
 
 **Preparare le varianti del sito Web**
 
 È necessario disporre di due varianti di un sito Web, con collegamenti alle risorse pubblicate e a quelle non pubblicate:
 
-* Versione pubblica - Collegate le risorse utilizzando la normale sintassi URL di Dynamic Media Classic.
-* Versione di verifica: collegate le risorse con la stessa sintassi ma con il nome del sito di verifica protetta.
+* Versione pubblica : collega le risorse utilizzando la sintassi URL tradizionale di Dynamic Media Classic.
+* Versione di staging : collega le risorse utilizzando la stessa sintassi ma con il nome del sito di Secure Testing.
 
 **Eseguire le verifiche**
 
@@ -136,7 +138,7 @@ Eseguite le seguenti verifiche:
 
    Dall’interno della rete aziendale identificata dall’intervallo di indirizzi IP precedentemente definito, nella versione di verifica del sito Web devono essere visualizzate tutte le immagini, sia quelle contrassegnate per la pubblicazione che quelle che non lo sono. Questo vi permette di effettuare la verifica senza correre il rischio rendere le immagini disponibili prima dell’approvazione o del lancio di un prodotto.
 
-   Verificate che la versione pubblica del sito contenga le risorse pubblicate come precedentemente sperimentato con Dynamic Media Classic.
+   Conferma che la versione pubblica del sito mostri le risorse pubblicate come precedentemente sperimentato con Dynamic Media Classic.
 
 1. Dall’esterno della rete aziendale, verificate che non sia possibile a terzi accedere alle risorse non pubblicate (cioè quelle non contrassegnate per la pubblicazione).
 
