@@ -1,16 +1,18 @@
 ---
 title: Opzioni di modifica delle immagini al caricamento
-description: Scoprite le opzioni di modifica delle immagini disponibili al momento del caricamento.
+description: Scopri le opzioni di modifica delle immagini disponibili al momento del caricamento.
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1145'
 ht-degree: 78%
 
 ---
@@ -34,22 +36,22 @@ Queste opzioni si trovano nella sezione Opzioni modifica immagini della schermat
 Per ritagliare automaticamente i pixel degli spazi bianchi da un’immagine, selezionate il menu Ritaglio e scegliete Rifila. A questo punto, scegliete le seguenti opzioni:
 
 * **Rifila in base**
-a:
+aScegli se ritagliare in base a colore o trasparenza:
 
 * ****
-Colore: scegliete l’opzione Colore. Dall’elenco a discesa Angolo scegliete quindi l’angolo dell’immagine con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
+ColoreScegli l’opzione Colore. Dall’elenco a discesa Angolo scegliete quindi l’angolo dell’immagine con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
 
 * ****
-Trasparenza: scegliete l’opzione Trasparenza.
+TrasparenzaScegli l’opzione Trasparenza.
 
 * ****
-Tolleranza: trascinate il cursore per specificare una tolleranza da 0 a 1:
+TolleranzaTrascinate il cursore per specificare una tolleranza da 0 a 1:
 
 * **Ritaglio in base al**
-colore: l’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+coloreSpecificate 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo dell&#39;immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
 
-* **Ritaglio in base alla**
-trasparenza: l’impostazione 0 ritaglia i pixel solo se sono completamente trasparenti; Con valori più vicini a 1 viene invece tollerata una minore trasparenza.
+* **Ritaglio basato sulla**
+trasparenzaSpecificare 0 per ritagliare i pixel solo se sono completamente trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
 
 **Ritaglio manuale dai lati delle immagini**
 
@@ -63,10 +65,10 @@ Scegliete un’opzione Profilo colore per selezionare uno spazio colore per l’
 sRGBConverts in sRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
 
 * **Mantieni**
-spazio colore originale: consente di mantenere lo spazio colore originale.
+spazio colore originaleConserva lo spazio colore originale.
 
-* **Personalizzata da >**
-Per aprire i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Potete scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
+* **Personalizzato da >**
+A aperture menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
@@ -84,14 +86,14 @@ In Maschera di contrasto, impostate le opzioni desiderate come descritto nella s
 
 | Opzioni di Maschera di contrasto | Descrizione |
 |--- |--- |
-| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Corrisponde all’intensità dell’effetto. La differenza principale tra il valore amount Mask in Dynamic Media Classic e i valori amount in  Adobe Photoshop, è che Photoshop ha un intervallo compreso tra 1% e 500%. In Dynamic Media Classic, invece, l&#39;intervallo di valori è compreso tra 0,0 e 5,0. Il valore 5.0 in Dynamic Media Classic corrisponde approssimativamente al 500% in Photoshop; un valore pari a 0,9 equivale a 90% e così via. |
-| Raggio | Controlla il raggio dell’effetto. <br><br>L’intervallo di valori è compreso tra 0 e 250. L’effetto viene eseguito su tutti i pixel di un’immagine e si irradia da tutti i pixel in tutte le direzioni. Il raggio è espresso in pixel. Ad esempio, per ottenere un effetto di nitidezza simile per un’immagine di 2000x 2000 pixel e una di 500x 500 pixel, potete impostare un raggio di 2 pixel per l’immagine di 2000x2000 pixel e raggio di 1 pixel per l’immagine di 500x500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel.  |
+| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Corrisponde all’intensità dell’effetto. La differenza principale tra i valori di quantità di Maschera definizione dettagli in Dynamic Media Classic e i valori di quantità in Adobe Photoshop, è che Photoshop ha un intervallo di quantità compreso tra l’1% e il 500%. considerando che, in Dynamic Media Classic, l&#39;intervallo di valori è compreso tra 0,0 e 5,0. Un valore di 5,0 in Dynamic Media Classic corrisponde approssimativamente al 500% in Photoshop; il valore 0,9 equivale al 90% e così via. |
+| Raggio | Controlla il raggio dell’effetto. <br><br>L&#39;intervallo di valori è da 0 a 250. L&#39;effetto viene eseguito su tutti i pixel di un&#39;immagine e si irradia da tutti i pixel in tutte le direzioni. Il raggio è espresso in pixel. Ad esempio, per ottenere un effetto di nitidezza simile per un’immagine di 2000x 2000 pixel e una di 500x 500 pixel, potete impostare un raggio di 2 pixel per l’immagine di 2000x2000 pixel e raggio di 1 pixel per l’immagine di 500x500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel.  |
 | Soglia | Specifica l’intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. È importante per evitare di introdurre “disturbo” quando questo filtro viene applicato a un’immagine. Il valore di soglia deve essere compreso tra 0 e 255 e corrisponde al numero di incrementi di luminosità di un’immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. <br><br>Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e palpebre.<br><br>Ad esempio, per una foto di un volto, Maschera di contrasto agisce sulle parti dell’immagine con maggior contrasto (come tra ciglia e palpebre) e sull’incarnato uniforme. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentua le lievi differenze di tonalità nelle aree di pelle. Questo genera un effetto sgradevole mentre il maggior contrasto delle ciglia migliora la nitidezza dell’immagine.<br><br>Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso dell’incarnato uniforme. <br><br>Nella precedente grafica delle zip, osservate la texture accanto alle zip. Si verifica del disturbo perché i valori di soglia sono troppo bassi per evitarlo. |
 | Monocromatico | Seleziona la luminosità dell’immagine con maschera di contrasto (intensità).<br><br>Deselezionate questa opzione per applicare la maschera di contrasto separatamente a ciascun componente di colore. |
 
 Consultate anche [Nitidezza di un’immagine](sharpening-image.md#sharpening_an_image).
 
-Consultate anche [Nitidezza delle immagini in Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
+Vedere anche [Nitidezza delle immagini in Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Foratura sfondo**
 
