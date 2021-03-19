@@ -7,20 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
+feature: Dynamic Media Classic
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 45%
+source-wordcount: '98'
+ht-degree: 42%
 
 ---
 
 
 # Requisiti di sistema {#system-requirements}
 
-Per una migliore esperienza con l&#39;app desktop Dynamic Media Classic, accertatevi che il sistema soddisfi i seguenti requisiti di sistema:
+Per una migliore esperienza con l’app desktop Dynamic Media Classic, assicurati che il sistema soddisfi i seguenti requisiti di sistema e consigli:
 
-* Microsoft® Windows® 7 o versione successiva oppure MacOS X 10.6 o versione successiva con processore Macintosh® Intel.
+* È richiesto il processore Intel Macintosh® Windows® 7 o successivo o macOS X 10.6 o superiore Macintosh®.
 * Almeno 3 GB di RAM (consigliato: almeno 4 GB).
 * Monitor a colori.
 * Scheda video che supporti milioni di colori con risoluzione da almeno 1280x1024.
