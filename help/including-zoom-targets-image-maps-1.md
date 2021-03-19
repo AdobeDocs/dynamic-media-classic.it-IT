@@ -1,17 +1,19 @@
 ---
 title: Inserimento di destinazioni di zoom e mappe immagine nei set di campioni
-description: Scoprite come includere destinazioni di zoom e mappe immagine nei set di campioni.
+description: Scopri come includere le destinazioni di zoom e le mappe immagine nei set di campioni.
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
+feature: Dynamic Media Classic,Visualizzatori
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 92%
+source-wordcount: '166'
+ht-degree: 89%
 
 ---
 
