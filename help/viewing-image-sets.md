@@ -1,17 +1,19 @@
 ---
 title: Visualizzazione di set di immagini
-description: Scoprite come visualizzare i set di immagini.
+description: Scopri come visualizzare i set di immagini.
 uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 89%
+source-wordcount: '464'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 89%
 
 Potete visualizzare i set di immagini nella finestra Anteprima tramite i predefiniti disponibili. Potete usare un predefinito Visualizzatore zoom: Personalizzato per i set di immagini.
 
-Dynamic Media Classic viene fornito con predefiniti per visualizzatori preimpostati. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
+Dynamic Media Classic viene fornito con predefiniti per visualizzatori. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
 
 ## Configurazione dei predefiniti per visualizzatori zoom per i set di immagini {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -29,9 +31,9 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Per creare o modificare un predefinito per visualizzatori nella schermata Predefiniti visualizzatore, effettuate una delle seguenti operazioni:
 
-   **** CreazioneFate clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore zoom: Personalizzato e fate clic su Aggiungi. Potete anche creare un predefinito per visualizzatori zoom sulla base di uno già esistente. Visualizzate il nome del predefinito, selezionatelo, quindi fate clic sul pulsante Modifica. Nella schermata Configura visualizzatore, inserite un nuovo nome per il predefinito.
+   **** Creazione di clic su Aggiungi. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma, selezionate Visualizzatore zoom: Personalizzato e fate clic su Aggiungi. Potete anche creare un predefinito per visualizzatori zoom sulla base di uno già esistente. Visualizzate il nome del predefinito, selezionatelo, quindi fate clic sul pulsante Modifica. Nella schermata Configura visualizzatore, inserite un nuovo nome per il predefinito.
 
-   **** ModificaConsente di visualizzare il nome di un predefinito, selezionarlo, quindi fare clic su  **Modifica**.
+   **** ModificaVisualizza il nome di un predefinito, selezionalo, quindi fai clic su  **Modifica**.
 
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
 
@@ -49,10 +51,10 @@ Con la funzione Anteprima è possibile verificare in che modo una risorsa viene 
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle delle risorse per selezionare il set di immagini che vi interessa.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. Nella finestra Risorse, passate il mouse su una risorsa, quindi fate clic su **Anteprima**.
+   * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. Nella finestra Risorsa, passa il puntatore del mouse su una risorsa, quindi fai clic su **Anteprima**.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione griglia** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **Anteprima** nella miniatura di una risorsa.
    * Sopra la finestra Risorse, fate clic su **Visualizzazione dettagli** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **Anteprima**.
-   * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fare clic su **File** > **Anteprima**.
+   * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fai clic su **File** > **Anteprima**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
 1. Fate clic sul collegamento di un visualizzatore per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
