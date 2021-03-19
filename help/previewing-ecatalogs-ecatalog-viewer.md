@@ -1,17 +1,19 @@
 ---
 title: Anteprima dell’eCatalog nel visualizzatore di eCatalog
-description: Scoprite come visualizzare l’anteprima degli eCatalog nel visualizzatore per eCatalog.
+description: Scopri come visualizzare in anteprima gli eCatalog nel visualizzatore eCatalog.
 uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
+feature: Dynamic Media Classic,Visualizzatori,eCatalog
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 96%
+source-wordcount: '261'
+ht-degree: 93%
 
 ---
 
