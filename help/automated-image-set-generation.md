@@ -1,17 +1,19 @@
 ---
 title: Generazione automatica di set di immagini
-description: 'Scoprite come automatizzare la generazione di set di immagini. '
+description: 'Scopri come automatizzare la generazione di set di immagini. '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 90%
+source-wordcount: '103'
+ht-degree: 83%
 
 ---
 
