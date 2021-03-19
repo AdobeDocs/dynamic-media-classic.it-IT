@@ -1,28 +1,30 @@
 ---
 title: Pubblicazione delle informazioni di configurazione di Adobe Analytics
-description: Scoprite come pubblicare  informazioni di configurazione Adobe Analytics.
+description: Scopri come pubblicare le informazioni sulla configurazione di Adobe Analytics.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
+feature: Dynamic Media Classic
+role: Ingegnere dati,Amministratore,Professionista aziendale
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 44%
+source-wordcount: '151'
+ht-degree: 41%
 
 ---
 
 
 # Pubblicazione delle informazioni di configurazione di Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Pubblicate i visualizzatori Dynamic Media Classic in modo che le informazioni sulla configurazione  rapporti Adobe Analytics vengano inviate ai server Dynamic Media Classic. Queste informazioni vengono incorporate nei visualizzatori. La pubblicazione è necessaria in modo che le informazioni contenute nei visualizzatori siano disponibili sui server Dynamic Media Classic. da dove possono essere trasmesse ad Adobe Analytics non appena gli utenti eseguono specifiche attività nei visualizzatori. 
+Pubblica i visualizzatori di Dynamic Media Classic in modo che le informazioni sulla configurazione dei rapporti di Adobe Analytics vengano inviate ai server di Dynamic Media Classic. Queste informazioni vengono incorporate nei visualizzatori. La pubblicazione è necessaria in modo che le informazioni contenute nei visualizzatori siano disponibili sui server Dynamic Media Classic. da dove possono essere trasmesse ad Adobe Analytics non appena gli utenti eseguono specifiche attività nei visualizzatori. 
 
 >[!NOTE]
 >
->Ogni volta che modificate  impostazioni di Adobe Analytics Report in  Adobe Analytics, è necessario accedere nuovamente ad  Adobe Analytics da Dynamic Media Classic, salvare nuovamente le impostazioni di configurazione  Adobe Analytics e quindi ripubblicare.
+>Ogni volta che modifichi le impostazioni dei rapporti di Adobe Analytics in Adobe Analytics, assicurati di accedere nuovamente ad Adobe Analytics da Dynamic Media Classic, salvare nuovamente le impostazioni di configurazione di Adobe Analytics e quindi ripubblicare.
 
 Consultate [Accedere ad Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
