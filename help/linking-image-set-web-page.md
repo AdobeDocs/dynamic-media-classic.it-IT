@@ -1,17 +1,19 @@
 ---
 title: Collegamento di un set di immagini a una pagina Web
-description: Come collegare un set di immagini a una pagina Web.
+description: Scopri come collegare un set di immagini a una pagina web.
 uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
+role: Professionista
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 90%
+source-wordcount: '688'
+ht-degree: 89%
 
 ---
 
@@ -45,9 +47,9 @@ Dopo aver pubblicato un set di immagini, potete copiarne l’URL o il codice da 
 
 ## Aggiunta di URL di set di immagini alla pagina Web  {#adding-image-set-urls-to-your-web-page}
 
-Il modo più comune di pubblicare i set di immagini consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (JSP) in cui viene visualizzato il set di immagini in una finestra a comparsa. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
+Il modo più comune di pubblicare i set di immagini consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Facendo clic su di esso, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra a comparsa di zoom. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, consultate [Incorporamento di visualizzatori zoom HTML5 nella guida di riferimento dei visualizzatori di Adobi ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, consulta [Incorporamento di visualizzatori HTML5 per zoom nella Guida di riferimento per visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copia del codice da incorporare di un visualizzatore set di immagini {#copying-the-embed-code-of-an-image-set-viewer}
 
