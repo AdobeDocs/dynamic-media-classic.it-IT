@@ -1,17 +1,19 @@
 ---
 title: Aggiunta di marcatori capitolo a video
-description: Scoprite come aggiungere marcatori capitolo a un video.
+description: Scopri come aggiungere marcatori capitolo a un video.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
+feature: Dynamic Media Classic,Visualizzatori,Video
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 85%
+source-wordcount: '626'
+ht-degree: 84%
 
 ---
 
@@ -52,11 +54,11 @@ Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificato
 
 Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file dei capitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
-Vedere [WebVTT: Il formato Web Video Text Tracks](https://dev.w3.org/html5/webvtt/).
+Consultare [WebVTT: Il formato Tracce testo video web](https://dev.w3.org/html5/webvtt/).
 
 **Per aggiungere marcatori capitolo a video**
 
-1. Utilizzando un semplice editor di testo esterno ad Dynamic Media Classic, create il file video del capitolo.
+1. Utilizzando un semplice editor di testo esterno a Dynamic Media Classic, crea il file dei capitoli video.
 
    >[!NOTE]
    >
@@ -64,9 +66,9 @@ Vedere [WebVTT: Il formato Web Video Text Tracks](https://dev.w3.org/html5/webvt
 
 1. Salvate il file .vtt in codifica UTF8 per evitare problemi di rendering dei carattere nel titolo del capitolo.
 
-   In genere, è consigliabile assegnare al file VTT dei capitoli lo stesso nome del file video, aggiungendo il suffisso `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
+   In genere, si desidera assegnare al file VTT capitolo lo stesso nome del file video e aggiungerlo con `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
 
-1. In Dynamic Media Classic, caricate il file WebVTT dei capitoli.
+1. In Dynamic Media Classic, carica il file del capitolo WebVTT.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
@@ -84,7 +86,7 @@ Vedere [WebVTT: Il formato Web Video Text Tracks](https://dev.w3.org/html5/webvt
 
       Nella finestra di dialogo Codice da incorporare, fate clic su **[!UICONTROL Copia negli Appunti]**.
 
-      Per il visualizzatore HTML5 `Universal_HTML5_Video`, aggiungete il codice da incorporare copiato con la seguente sintassi:
+      Per il visualizzatore HTML5 `Universal_HTML5_Video` , aggiungi il codice da incorporare copiato con quanto segue:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
