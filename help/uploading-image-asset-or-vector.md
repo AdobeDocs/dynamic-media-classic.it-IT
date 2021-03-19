@@ -1,13 +1,15 @@
 ---
 title: Caricamento di una risorsa immagine o vettoriale
-description: Scoprite come caricare una risorsa immagine o vettoriale.
+description: Scopri come caricare una risorsa immagine o vettoriale.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Professionista
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1532'
 ht-degree: 84%
 
 ---
@@ -19,9 +21,9 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 ## Richiesta di una chiave segreta condivisa  {#requesting-a-shared-secret-key}
 
-Richiedete una *chiave segreta condivisa* di [utilizzando il Admin Console  per creare un caso di supporto.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel caso di supporto, richiedete una chiave segreta condivisa.
+Richiedi una *chiave segreta condivisa* di [utilizzando l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel tuo caso di supporto, richiedi una chiave segreta condivisa.
 
-Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvatela localmente per poterla utilizzare in futuro.
+Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Dynamic Media Classic, salvala localmente per un utilizzo futuro.
 
 ## Ottenimento del token di caricamento {#retrieving-the-upload-token}
 
@@ -121,8 +123,8 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Token di caricamento.
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
-* Se mantenere o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo in [Opzioni di modifica delle immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Mantenere o meno il profilo colore e il nome file associati alla risorsa.
+* Se utilizzare o meno lo sfondo di Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento. Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare
 
 <!-- 
@@ -137,13 +139,13 @@ Last Modified Date:
 
 ![]()
 
-Per visualizzare il codice sorgente HTML associato al modulo sopra, fare clic sul seguente collegamento:
+Per visualizzare il codice sorgente HTML associato al modulo sopra riportato, fai clic sul seguente collegamento:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi fare clic su **Visualizza origine pagina**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
+In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi fai clic su **Visualizza origine pagina**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza > Sorgente**. Per visualizzare la risposta XML in Firefox, fare clic su **Strumenti > Sviluppatore Web > Origine pagina**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza > Sorgente**. Per visualizzare la risposta XML in Firefox, fai clic su **Strumenti > Sviluppatore web > Origine pagina**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -284,8 +286,8 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Token di caricamento.
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
-* Se mantenere o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno il Foratura sfondo. Se abilitate Foratura sfondo, impostate Angolo, Tolleranza e Metodo di riempimento. Consultate Foratura dello sfondo in [Opzioni di modifica delle immagini al momento del caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Mantenere o meno il profilo colore e il nome file associati alla risorsa.
+* Se utilizzare o meno lo sfondo di Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento. Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare
 
 <!-- 
@@ -374,9 +376,9 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 | Parametro URL | Richiesto o facoltativo | Valore |
 |--- |--- |--- |
-| op | Obbligatorio | upload |
+| op | Obbligatorio | caricare |
 | upload_token | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
-| company_name | Obbligatorio | Nome della società che esegue il caricamento. |
+| nome_azienda | Obbligatorio | Nome della società che esegue il caricamento. |
 | file_limit | Facoltativo | Limite dimensione file in byte per la risorsa. |
 | file_exts | Facoltativo | Elenco di estensioni consentite per il file della risorsa. |
 
