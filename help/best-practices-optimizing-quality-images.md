@@ -1,15 +1,17 @@
 ---
 title: Procedure ottimali per ottimizzare la qualità delle immagini
-description: Scoprite le best practice per ottimizzare la qualità delle immagini.
+description: Scopri le best practice per ottimizzare la qualità delle immagini.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+feature: Dynamic Media Classic,Gestione risorse
+role: Professionista
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 63%
+source-wordcount: '1481'
+ht-degree: 62%
 
 ---
 
@@ -18,44 +20,44 @@ ht-degree: 63%
 
 L’ottimizzazione della qualità delle immagini può richiedere del tempo, poiché molti fattori incidono sui risultati. Inoltre il risultato ottenuto è in parte soggettivo in quanto persone diverse percepiscono in modo differente la qualità dell’immagine. È indispensabile procedere mediante sperimentazione strutturata.
 
-Dynamic Media Classic include più di 100 comandi per la gestione delle immagini per ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
+Dynamic Media Classic include più di 100 comandi di gestione delle immagini per ottimizzare e ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
 
 Vedere anche [Smart imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ## Procedure ottimali per il formato delle immagini (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * I formati JPG e PNG rappresentano la scelta migliore per la distribuzione di immagini di buona qualità e di dimensioni gestibili.
-* Se nell’URL non viene fornito alcun comando di formato, per impostazione predefinita Dynamic Media Image Server utilizza il formato JPG per la distribuzione.
-* Con il formato JPG si ottiene un rapporto di compressione di 10:1 e si ottengono in genere file di dimensioni ridotte. Il formato PNG viene compresso con un rapporto di circa 2:1, tranne in alcuni casi, ad esempio quando le immagini contengono uno sfondo vuoto. In genere, tuttavia, i file PNG sono di dimensioni maggiori rispetto ai file JPG.
+* Se nell’URL non viene fornito alcun comando di formato, per impostazione predefinita Dynamic Media Image Serving utilizza JPG per la distribuzione.
+* Con il formato JPG si ottiene un rapporto di compressione di 10:1 e si ottengono in genere file di dimensioni ridotte. PNG si comprime a un rapporto di circa 2:1, tranne in alcuni casi, ad esempio quando le immagini contengono uno sfondo vuoto. In genere, tuttavia, i file PNG sono di dimensioni maggiori rispetto ai file JPG.
 * Il formato JPG utilizza la compressione con perdita di dati, ossia durante la compressione vengono omessi degli elementi grafici (pixel). Il formato PNG utilizza invece la compressione senza perdita di dati.
 * Il formato JPG spesso comprime le immagini fotografiche con fedeltà migliore rispetto alle immagini sintetiche contenenti bordi netti e contrasto ben definito.
 * Se le immagini contengono trasparenze, utilizzate il formato PNG perché il JPG non supporta la trasparenza.
 
-Come procedura ottimale per il formato immagine, iniziate con l&#39;impostazione più comune `&fmt=JPG`.
+Come best practice per il formato immagine, inizia con l’impostazione più comune `&fmt=JPG`.
 
 ## Procedure ottimali per le dimensioni delle immagini {#best-practices-for-image-size}
 
-La riduzione dinamica delle dimensioni delle immagini è una delle attività più comuni eseguite da Dynamic Media Image Server. Occorre specificare le dimensioni e, facoltativamente, la modalità di downsampling da usare per la riduzione dell’immagine.
+La riduzione dinamica delle dimensioni dell&#39;immagine è una delle attività più comuni che Dynamic Media Image Serving esegue. Occorre specificare le dimensioni e, facoltativamente, la modalità di downsampling da usare per la riduzione dell’immagine.
 
-* Per il ridimensionamento delle immagini, l&#39;approccio migliore e più semplice consiste nell&#39;utilizzare `&wid=<value>` e `&hei=<value>` o semplicemente `&hei=<value>`. Questi parametri impostano automaticamente la larghezza dell’immagine in base alle proporzioni.
-* `&resMode=<value>` controlla l’algoritmo utilizzato per il downsampling. Iniziate con `&resMode=sharp2`. Questo valore offre la qualità immagine migliore. Anche se l&#39;utilizzo del valore di downsampling `=bilin` è più veloce, spesso si verifica l&#39;aliasing degli artefatti.
+* Per il dimensionamento delle immagini, l&#39;approccio migliore e più semplice consiste nell&#39;utilizzare `&wid=<value>` e `&hei=<value>` o semplicemente `&hei=<value>`. Questi parametri impostano automaticamente la larghezza dell’immagine in base alle proporzioni.
+* `&resMode=<value>` controlla l’algoritmo utilizzato per il downsampling. Inizia con `&resMode=sharp2`. Questo valore offre la qualità immagine migliore. L’utilizzo del valore di downsampling `=bilin` è più veloce, ma spesso comporta l’aliasing degli artefatti.
 
-Come procedura ottimale per il ridimensionamento delle immagini, utilizzate `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
+Come best practice per il dimensionamento delle immagini, utilizza `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
 
 ## Procedure ottimali per la nitidezza delle immagini {#best-practices-for-image-sharpening}
 
-La nitidezza delle immagini è l’aspetto più complesso e suscettibile ad errori per la gestione delle immagini di un sito Web. Dedica il tempo a scoprire come funzionano la nitidezza e la maschera di contrasto in Dynamic Media Classic, facendo riferimento alle seguenti risorse:
+La nitidezza delle immagini è l’aspetto più complesso e suscettibile ad errori per la gestione delle immagini di un sito Web. Dedica del tempo a scoprire come funziona la nitidezza e la Mascheratura definizione dettagli in Dynamic Media Classic facendo riferimento alle seguenti risorse utili:
 
-White paper sulle procedure ottimali [Nitidezza delle immagini in  Adobe Dynamic Media Classic e su Image Server](/help/assets/s7_sharpening_images.pdf).
+White paper sulle best practice [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Con Dynamic Media Classic potete rendere le immagini più nitide al momento dell’assimilazione, della distribuzione o di entrambi. In molti casi, tuttavia, è necessario rendere le immagini più nitide utilizzando un solo metodo e non entrambi. In genere si ottengono i risultati migliori applicando la nitidezza in fase di distribuzione, agendo sull’URL.
+Con Dynamic Media Classic è possibile rendere più nitide le immagini in fase di acquisizione, consegna o entrambe. In molti casi, tuttavia, è necessario rendere le immagini più nitide utilizzando un solo metodo e non entrambi. In genere si ottengono i risultati migliori applicando la nitidezza in fase di distribuzione, agendo sull’URL.
 
 Esistono due metodi per rendere le immagini più nitide:
 
-* Nitidezza semplice ( `&op_sharpen`): simile al filtro di nitidezza usato in Photoshop, la nitidezza semplice applica la nitidezza di base alla visualizzazione finale dell’immagine dopo il ridimensionamento dinamico. Tuttavia, questo metodo non può essere configurato dall’utente. La procedura ottimale consiste nell&#39;utilizzare `&op_sharpen` solo se necessario.
-* Maschera di contrasto ( `&op_USM`) - Maschera di contrasto è un filtro di nitidezza standard di settore. Come procedura ottimale si consiglia di rendere le immagini più nitide con la maschera di contrasto in base alle linee guida riportate di seguito. La mascheratura di contrasto consente di controllare tre parametri:
+* Nitidezza semplice ( `&op_sharpen`) : simile al filtro di nitidezza utilizzato in Photoshop, la nitidezza semplice applica una nitidezza di base alla visualizzazione finale dell’immagine dopo il ridimensionamento dinamico. Tuttavia, questo metodo non può essere configurato dall’utente. La best practice consigliata consiste nell’utilizzare `&op_sharpen` solo se necessario.
+* Maschera definizione dettagli ( `&op_USM`) - Il mascheramento definizione dettagli è un filtro di nitidezza standard del settore. Come procedura ottimale si consiglia di rendere le immagini più nitide con la maschera di contrasto in base alle linee guida riportate di seguito. La mascheratura di contrasto consente di controllare tre parametri:
 
    * `&op_sharpen=amount,radius,threshold`
 
@@ -68,7 +70,7 @@ Esistono due metodi per rendere le immagini più nitide:
 
          Questo parametro determina la differenza tra i pixel da rendere più nitidi rispetto all’area circostante, prima che vengano considerati pixel del bordo e che il filtro li renda più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato per evitare di aggiungere “disturbo”, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
 
-         Per ulteriori informazioni su come impostare questi tre parametri, comprese le best practice da utilizzare con il filtro, consultate [Nitidezza delle immagini in  Adobe Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
+         Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, consulta [Nitidezza delle immagini in Adobe Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
 
@@ -86,12 +88,12 @@ Lasciate il parametro “monochrome” su 0.
 ## Procedure ottimali per la compressione JPEG (&amp;qlt=)  {#best-practices-for-jpeg-compression-qlt}
 
 * Questo parametro controlla la qualità della codifica JPG. A un valore più elevato corrisponde un’immagine di qualità migliore ma anche un file di dimensioni maggiori, e viceversa. I valori ammessi per questo parametro sono 0-100.
-* Per ottimizzare la qualità, non impostate il valore del parametro su 100. La differenza tra un’impostazione di 90 o 95 e 100 è quasi impercettibile, ma con un valore pari a 100 le dimensioni del file immagini aumentano inutilmente. Pertanto, per ottimizzare la qualità ma evitare che i file di immagine diventino troppo grandi, impostate il valore `qlt=` su 90 o 95.
-* Per ottimizzare un file di dimensioni ridotte ma mantenere la qualità dell&#39;immagine a un livello accettabile, impostate il valore `qlt=` su 80. Con valori inferiori a 70-75 si verifica invece un notevole degrado della qualità dell’immagine.
-* Come procedura ottimale, per restare al centro, impostate il valore `qlt=` su 85 per rimanere al centro.
+* Per ottimizzare la qualità, non impostate il valore del parametro su 100. La differenza tra un’impostazione di 90 o 95 e 100 è quasi impercettibile, ma con un valore pari a 100 le dimensioni del file immagini aumentano inutilmente. Pertanto, per ottimizzare la qualità ma evitare che i file di immagine diventino troppo grandi, imposta il valore `qlt=` su 90 o 95.
+* Per ottimizzare le dimensioni di un file immagine di piccole dimensioni ma mantenere la qualità dell&#39;immagine a un livello accettabile, imposta il valore `qlt=` su 80. Con valori inferiori a 70-75 si verifica invece un notevole degrado della qualità dell’immagine.
+* Come best practice, per rimanere al centro, imposta il valore `qlt=` su 85 per rimanere al centro.
 * Utilizzo del flag chroma in `qlt=`
 
-   * Il parametro `qlt=` dispone di una seconda impostazione che consente di attivare il downsampling della cromaticità RGB utilizzando il valore normale `,0` (predefinito), oppure di disattivarlo utilizzando il valore `,1`.
+   * Il parametro `qlt=` dispone di una seconda impostazione che consente di attivare il sottocampionamento della cromaticità RGB utilizzando il valore normale `,0` (impostazione predefinita) o di disattivarlo utilizzando il valore `,1`.
    * Per semplificare le cose, iniziate con il downsampling della cromaticità RGB disattivato ( `,1`). Questa impostazione offre in genere una migliore qualità immagine, in particolare per le immagini sintetiche con bordi netti e forte contrasto.
 
 Come procedura ottimale, per la compressione JPG si consiglia di utilizzare `&qlt=85,0`.
@@ -101,9 +103,9 @@ Come procedura ottimale, per la compressione JPG si consiglia di utilizzare `&ql
 `jpegSize` è un parametro utile affinché l’immagine non superi determinate dimensioni per la distribuzione su dispositivi con memoria limitata.
 
 * Questo parametro è impostato in kilobyte ( `jpegSize=<size_in_kilobytes>`). Definisce la dimensione file massima consentita per la distribuzione dell’immagine.
-* `&jpegSize=` interagisce con il parametro di compressione JPG  `&qlt=`. Se la risposta JPG con il parametro di compressione JPG specificato ( `&qlt=`) non supera il valore `jpegSize`, l&#39;immagine viene restituita con `&qlt=` come definito. In caso contrario, `&qlt=` viene ridotto gradualmente finché l&#39;immagine non rientra nelle dimensioni massime consentite, oppure finché il sistema non lo determina e restituisce un errore.
+* `&jpegSize=` interagisce con il parametro di compressione JPG  `&qlt=`. Se la risposta JPG con il parametro di compressione JPG specificato ( `&qlt=`) non supera il valore `jpegSize`, l&#39;immagine viene restituita con `&qlt=` come definito. In caso contrario, `&qlt=` viene gradualmente ridotto finché l&#39;immagine non rientra nelle dimensioni massime consentite, o finché il sistema non lo determina e restituisce un errore.
 
-Come procedura ottimale, impostate `&jpegSize=` e aggiungete il parametro `&qlt=` se distribuite immagini JPG a dispositivi con memoria limitata.
+Come best practice, imposta `&jpegSize=` e aggiungi il parametro `&qlt=` se distribuisci immagini JPG a dispositivi con memoria limitata.
 
 ## Riepilogo delle procedure ottimali {#best-practices-summary}
 
@@ -119,6 +121,6 @@ Se i risultati non sono ancora soddisfacenti, aumentate il raggio per incrementi
 
 Per ottimizzare il flusso di lavoro, può essere utile seguire anche i consigli generali riportati di seguito:
 
-* Provate a utilizzare parametri diversi in tempo reale, direttamente su un URL Dynamic Media Classic o utilizzando la funzionalità di regolazione delle immagini di Dynamic Media Classic che fornisce anteprime in tempo reale per le operazioni di regolazione.
-* Come procedura ottimale, potete raggruppare i comandi di Dynamic Media Image Serving in un predefinito per immagini. Un predefinito per immagini è in pratica una macro di comandi URL con nomi predefiniti personalizzati, ad esempio `$thumb_low$` e `&product_high$`. Il nome del predefinito personalizzato in un percorso URL richiama il predefinito corrispondente. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
-* Dynamic Media Classic offre anche metodi più avanzati per ottimizzare la qualità delle immagini, ad esempio l’applicazione della nitidezza alle immagini durante l’assimilazione. Per le situazioni d’uso avanzate in cui questa può rappresentare un’opzione per ottimizzare ulteriormente i risultati di rendering, il team Adobe Professional Services può aiutarvi con approfondimenti mirati e procedure ottimali.
+* Prova e verifica diversi parametri in tempo reale, direttamente su un URL Dynamic Media Classic o utilizzando la funzionalità di regolazione delle immagini di Dynamic Media Classic che fornisce anteprime in tempo reale per le operazioni di regolazione.
+* Come best practice, ricorda che puoi raggruppare i comandi di Dynamic Media Image Serving in un predefinito per immagini. Un predefinito per immagini è fondamentalmente macro di comando URL con nomi predefiniti personalizzati come `$thumb_low$` e `&product_high$`. Il nome del predefinito personalizzato in un percorso URL richiama il predefinito corrispondente. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
+* Dynamic Media Classic offre anche modi più avanzati per ottimizzare la qualità delle immagini, ad esempio applicando la nitidezza delle immagini durante l’acquisizione. Per le situazioni d’uso avanzate in cui questa può rappresentare un’opzione per ottimizzare ulteriormente i risultati di rendering, il team Adobe Professional Services può aiutarvi con approfondimenti mirati e procedure ottimali.
