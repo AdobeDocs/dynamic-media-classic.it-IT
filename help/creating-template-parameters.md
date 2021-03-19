@@ -1,17 +1,19 @@
 ---
 title: Creazione di parametri per i modelli
-description: Scoprite come creare i parametri dei modelli.
+description: Scopri come creare parametri modello.
 uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
+feature: Dynamic Media Classic
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 98%
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +34,7 @@ Per ciascun livello nel modello, attenetevi a questa procedura per creare parame
 
 1. Nell’elenco Modelli, fate clic sul pulsante Parametri  accanto al nome del livello per il quale desiderate creare dei parametri. Si apre la schermata Parametri. In essa sono elencati i nomi di ciascun parametro applicato al livello, il suo valore e il suo tipo.
 1. Selezionate l’opzione Attivato accanto al nome di ciascun parametro da includere nell’immagine modello.
-1. Selezionare **Chiudi** per uscire dalla schermata Parametri.
+1. Seleziona **Chiudi** per uscire dalla schermata Parametri.
 
 >[!NOTE]
 >
