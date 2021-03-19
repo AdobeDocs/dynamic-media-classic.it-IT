@@ -1,16 +1,18 @@
 ---
 title: '"Avvio rapido: funzioni di base dei modelli"'
-description: Un'introduzione e l'Avvio rapido alle funzioni di base dei modelli consentono di iniziare a usare le funzioni più rapidamente.
+description: Introduzione e nozioni di base sui modelli per un rapido utilizzo.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
+feature: Dynamic Media Classic
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '789'
 ht-degree: 71%
 
 ---
@@ -18,25 +20,25 @@ ht-degree: 71%
 
 # Avvio rapido: funzioni di base dei modelli{#quick-start-template-basics}
 
-Le funzioni di base dei modelli sono file immagine con più livelli creati in modo dinamico e indirizzabili, ad esempio file con più livelli in applicazioni di modifica delle immagini come  Adobe Photoshop. Diversamente dai file statici contenenti livelli, come ad esempio un file PSD, un modello può includere dei parametri che consentono di agire su diversi aspetti dell’immagine e personalizzarli.
+I modelli di base vengono creati in modo dinamico e indirizzabili file di immagini a più livelli, come file a più livelli in applicazioni di modifica delle immagini come Adobe Photoshop. Diversamente dai file statici contenenti livelli, come ad esempio un file PSD, un modello può includere dei parametri che consentono di agire su diversi aspetti dell’immagine e personalizzarli.
 
-Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. Potete convertire un file statico contenente livelli, ad esempio un file PSD a livelli, in un modello, nonché creare modelli in Dynamic Media Classic. Potete creare livelli di testo nei modelli utilizzando i font caricati in Dynamic Media Classic. Dopo aver aggiunto del testo a un modello, potete formattarlo modificandone giustificazione, font, dimensioni font e colore.
+Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. È possibile convertire un file statico contenente livelli, ad esempio un file PSD a livelli, in un modello e creare modelli in Dynamic Media Classic. È possibile creare livelli di testo nei modelli utilizzando i font caricati in Dynamic Media Classic. Dopo aver aggiunto del testo a un modello, potete formattarlo modificandone giustificazione, font, dimensioni font e colore.
 
 Tramite la schermata Parametri, potete convertire qualsiasi aspetto di un modello in un parametro indirizzabile. Questo consente di scegliere l’immagine a livelli o il valore di testo da usare nel modello. I parametri vengono trasmessi con la stringa URL e possono essere modificati per personalizzare in modo dinamico l’immagine di risposta generata dal server immagini.
 
-**Avvio rapido**
+**Guida introduttiva**
 
 Questa sezione è stata progettata per imparare a usare rapidamente i modelli di tipo Funzioni di base dei modelli.
 
 **1. Caricare i file**
 
-Per iniziare, caricate il file PSD o il file immagine per il modello. Dynamic Media Classic supporta molti formati di file immagine oltre a PSD, ma per i modelli sono consigliate immagini senza perdita di dati TIFF e PNG, poiché consentono la trasparenza.
+Per iniziare, caricate il file PSD o il file immagine per il modello. Dynamic Media Classic supporta molti formati di file immagine oltre a PSD, ma le immagini TIFF e PNG senza perdita sono consigliate per i modelli perché consentono la trasparenza.
 
-Se generate il modello a partire da un file PSD, quando caricate il file PSD selezionate l’opzione Crea modello nella finestra di dialogo Opzioni processo di caricamento. Scegliete anche un’opzione Denominazione livello per specificare ad Dynamic Media Classic come assegnare un nome ai livelli PSD quando vengono caricati in Dynamic Media Classic.
+Se generate il modello a partire da un file PSD, quando caricate il file PSD selezionate l’opzione Crea modello nella finestra di dialogo Opzioni processo di caricamento. Scegli anche un’opzione di denominazione dei livelli per dire a Dynamic Media Classic come denominare i livelli PSD quando vengono caricati in Dynamic Media Classic.
 
 Se utilizzate dei file immagine, al momento del caricamento potete ritagliare le immagini e creare una maschera dai tracciati di ritaglio presenti nelle immagini.
 
-Fate clic sul pulsante Carica nella barra di navigazione globale per caricare un file PSD o altri file immagine dal computer a una cartella in Dynamic Media Classic. Consultate [Caricamento dei file modello](uploading-template-files.md#uploading_template_files)
+Seleziona il pulsante Carica nella barra di navigazione globale per caricare un file PSD o altri file di immagine dal computer in una cartella in Dynamic Media Classic. Consultate [Caricamento dei file modello](uploading-template-files.md#uploading_template_files)
 
 **2. Creare un modello**
 
@@ -58,7 +60,7 @@ Per impostare parametri per un livello, aprite il modello nella schermata Modell
 
 **4. Pubblicare i modelli**
 
-Quando un modello viene pubblicato, viene inserito sui server immagini Dynamic Media in modo che possa essere trasmesso in modo dinamico al sito Web o all’applicazione in cui deve essere visualizzato. La pubblicazione attiva inoltre l’URL per il richiamo del modello dai server immagini Dynamic Media al sito Web o all’applicazione.
+Quando si pubblica un modello, questo viene inserito sui server di immagini Dynamic Media in modo che possa essere distribuito in modo dinamico al sito Web o all’applicazione. La pubblicazione attiva anche l’URL per chiamare il modello dai server immagini Dynamic Media al sito Web o all’applicazione.
 
 Assicuratevi di pubblicare tutte le immagini associate al modello.
 
@@ -66,6 +68,6 @@ Per pubblicare un modello, contrassegnatelo per la pubblicazione e fate clic sul
 
 **5. Collegare un modello a una pagina Web**
 
-Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblicate i modelli sui server immagini Dynamic Media. Potete copiare le stringhe URL dalla schermata Anteprima modello.
+Dynamic Media Classic crea gli URL per i modelli e li attiva quando i modelli vengono pubblicati sui server di immagini Dynamic Media. Potete copiare le stringhe URL dalla schermata Anteprima modello.
 
 Selezionate il modello nel pannello Sfoglia e fate clic sul pulsante Anteprima per aprire la schermata Anteprima modello. Quindi scegliete un Predefinito immagine per la trasmissione del modello e fate clic sul pulsante Copia URL. Dopo aver copiato l’URL dalla schermata Anteprima, potete usarlo nel sito Web o nell’applicazione. Consultate [Collegamento di un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
