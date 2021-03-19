@@ -1,24 +1,26 @@
 ---
 title: Pubblicazione di modelli
-description: Scoprite come pubblicare i modelli.
+description: Scopri come pubblicare i modelli.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
+feature: Dynamic Media Classic
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 40%
+source-wordcount: '177'
+ht-degree: 38%
 
 ---
 
 
 # Pubblicazione di modelli{#publishing-templates}
 
-Quando un modello viene pubblicato, viene inserito nei server immagini Dynamic Media, dove è disponibile per il sito Web e l’applicazione. Durante il processo di pubblicazione, Dynamic Media Classic attiva gli URL necessari per il sito Web e l’applicazione.
+Quando si pubblica un modello, questo viene inserito sui server di immagini Dynamic Media, dove è disponibile per il sito Web e l’applicazione. Durante il processo di pubblicazione, Dynamic Media Classic attiva gli URL necessari per il sito Web e l’applicazione.
 
 >[!NOTE]
 >
@@ -26,11 +28,11 @@ Quando un modello viene pubblicato, viene inserito nei server immagini Dynamic M
 
 ## Contrassegnazione dei modelli per la pubblicazione  {#marking-templates-for-publish}
 
-Per poter essere inseriti nei server immagini Dynamic Media, i modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione. Per contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia, fate clic sull&#39;icona **Contrassegna per pubblicazione**.
+I modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione per poter essere inseriti sui server di immagini Dynamic Media. Per contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia, fai clic sull&#39;icona **Contrassegna per pubblicazione** .
 
 ## Pubblicazione del modello {#publishing-your-template}
 
-Per pubblicare i modelli sui server immagini Dynamic Media, fate clic sul pulsante Pubblica nella barra di navigazione globale. Quindi, selezionate un’opzione Quando, immettete un nome per il processo di pubblicazione (facoltativo) e fate clic sul pulsante Avvia pubblicazione.
+Per pubblicare i modelli sui server di immagini Dynamic Media, inizia selezionando il pulsante Pubblica nella barra di navigazione globale. Quindi, selezionate un’opzione Quando, immettete un nome per il processo di pubblicazione (facoltativo) e fate clic sul pulsante Avvia pubblicazione.
 
 >[!MORELIKETHIS]
 >
