@@ -1,24 +1,26 @@
 ---
 title: Nozioni di base sulla navigazione
-description: Scopri come spostarsi nell’interfaccia utente di Dynamic Media Classic.
+description: Scopri come navigare nell’interfaccia utente di Dynamic Media Classic.
 uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
+feature: Dynamic Media Classic
+role: Amministratore, Business Practices
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 52%
+source-wordcount: '615'
+ht-degree: 51%
 
 ---
 
 
 # Nozioni di base sulla navigazione{#navigation-basics}
 
-La schermata Dynamic Media Classic include tre aree principali: Barra di navigazione globale, Libreria risorse e pannello Sfoglia/Genera.
+La schermata Dynamic Media Classic include tre aree principali: Barra di navigazione globale, Libreria risorse e pannello Sfoglia/Build.
 
 ![Nozioni di base sulla navigazione](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -26,33 +28,33 @@ La schermata Dynamic Media Classic include tre aree principali: Barra di navigaz
 
 Nella barra di navigazione globale, situata nella parte superiore della schermata, si trovano i pulsanti che consentono di eseguire diverse attività:
 
-**Selezionate** Società: scegliete la società a cui desiderate accedere dal menu. Questo pulsante non è disponibile se si lavora con un’unica società.
+**Selezionare** SocietàScegliere la società a cui si desidera accedere dal menu. Questo pulsante non è disponibile se si lavora con un’unica società.
 
-**** Carica: consente di aprire la schermata Carica per caricare i file dal computer o dalla rete in Dynamic Media Classic. I file possono essere caricati dal desktop o mediante FTP. Consultate Caricamento dei file.
+**** CaricaApre la schermata Carica in modo da poter caricare i file dal computer o dalla rete in Dynamic Media Classic. I file possono essere caricati dal desktop o mediante FTP. Consultate Caricamento dei file.
 
-**** Genera: scegliete un’attività Genera dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
+**** BuildScegli un’attività Build dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
 
-**** Pubblica: consente di aprire la schermata Pubblica per pubblicare risorse per contenuti multimediali sui server immagini Dynamic Media e sul resto dell’infrastruttura SAAS di Dynamic Media Classic. Consultate Pubblicazione.
+**** PubblicaApre la schermata Pubblica per consentire la pubblicazione di risorse rich media nei server di immagini Dynamic Media e nel resto dell’infrastruttura SAAS di Dynamic Media Classic. Consultate Pubblicazione.
 
-**** ProcessiConsente di aprire la schermata Processi da cui potete esaminare i record dei processi di caricamento e pubblicazione.
+**** ProcessiApre la schermata Processi in modo da poter esaminare i record dei processi di caricamento e pubblicazione.
 
-**** Recente: consente di aprire la schermata Attività recenti per visualizzare i nomi delle risorse modificate di recente e i processi recenti di caricamento e pubblicazione.
+**** RecenteApre la schermata Attività recente per visualizzare i nomi delle risorse modificate di recente e i processi di caricamento e pubblicazione recenti.
 
-**** ConfigurazioneConsente di aprire la schermata Configurazione per scegliere le opzioni di configurazione o amministrazione per ottimizzare l’utilizzo di Dynamic Media Classic. Consultate Configurazione.
+**** ConfigurazioneApre la schermata Configurazione in modo da poter scegliere le opzioni di configurazione o amministrazione per ottimizzare l’utilizzo di Dynamic Media Classic. Consultate Configurazione.
 
-**** AiutoScegliete un’opzione di Aiuto:
+**** GuidaScegliere un&#39;opzione della Guida:
 
-**Aiuto > Aiuto su questo** argomentoApre il sistema di Aiuto in una pagina con informazioni sull’attività in corso.
+**Guida > Guida in** questo argomentoApre il sistema della Guida in linea in una pagina con informazioni sull&#39;attività in corso.
 
-**Aiuto >** Esercitazione videoConsente di accedere ai video su argomenti specifici per illustrare come iniziare a utilizzare ogni flusso di lavoro per la pubblicazione di contenuti multimediali.
+**Guida > Video** TutorialConsente di accedere a video su argomenti specifici per illustrare come iniziare a utilizzare ogni flusso di lavoro di pubblicazione di contenuti multimediali avanzati.
 
-**Aiuto >** Sommario AiutoApre la pagina Introduzione del sistema di Aiuto. Potete scorrere il Sommario per reperire e visualizzare diversi argomenti.
+**Aiuto >** SommarioApre il sistema della Guida alla pagina Introduzione. Potete scorrere il Sommario per reperire e visualizzare diversi argomenti.
 
-**Aiuto >** Informazioni suIndica la versione di Dynamic Media Classic in esecuzione.
+**Aiuto >** Informazioni su Indica la versione di Dynamic Media Classic in esecuzione.
 
 **Aiuto >** SupportoIndica come ottenere supporto tecnico da Dynamic Media Classic.
 
-**DisconnettiEsci** Da Dynamic Media Classic.
+**Esci** da Dynamic Media Classic.
 
 ## Libreria risorse {#asset-library}
 
@@ -68,9 +70,9 @@ La parte superiore del pannello Libreria risorse contiene i comandi che consento
 
 Nel pannello Sfoglia/Genera viene effettuata la maggior parte delle attività. Il contenuto del pannello varia a seconda della modalità usata: Sfoglia o Genera.
 
-**Modalità** Sfoglia: selezionate una cartella nella Libreria risorse per visualizzarne e usarne il contenuto nel pannello Sfoglia. Il pannello include i menu File, Anteprima, Seleziona tutto, Seleziona nessuno e Ordina che consentono di agire sulle risorse. Potete inoltre visualizzare le risorse in diversi modi spostando il cursore o selezionando il pulsante Visualizzazione griglia , Visualizzazione elenco  o Visualizzazione dettagli . Se selezionate il pulsante Visualizzazione dettagli o fate doppio clic su una risorsa, questa viene aperta in visualizzazione Dettagli e potete eseguire operazioni sui file in base alla risorsa. 
+**Modalità** SfogliaSeleziona una cartella nella Libreria risorse per visualizzarne e utilizzarne il contenuto nel pannello Sfoglia. Il pannello include i menu File, Anteprima, Seleziona tutto, Seleziona nessuno e Ordina che consentono di agire sulle risorse. Potete inoltre visualizzare le risorse in diversi modi spostando il cursore o selezionando il pulsante Visualizzazione griglia , Visualizzazione elenco  o Visualizzazione dettagli . Se selezionate il pulsante Visualizzazione dettagli o fate doppio clic su una risorsa, questa viene aperta in visualizzazione Dettagli e potete eseguire operazioni sui file in base alla risorsa. 
 
-**Modalità Genera:** fate clic su Genera, quindi scegliete un’opzione per iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno degli altri elementi disponibili nel menu Genera. Si apre la schermata Genera. Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
+**Modalità build** Fare clic su Genera, quindi scegliere un&#39;opzione per iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno degli altri elementi disponibili nel menu Genera. Si apre la schermata Genera. Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
 
 >[!MORELIKETHIS]
 >
