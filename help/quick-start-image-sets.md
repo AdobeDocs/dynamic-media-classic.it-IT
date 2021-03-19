@@ -1,34 +1,36 @@
 ---
 title: '"Avvio rapido: set di immagini"'
-description: Introduzione e avvio rapido per i set di immagini per imparare a usare le funzioni per i set di immagini.
+description: Introduzione e avvio rapido ai set di immagini per consentirti di iniziare a usare rapidamente le tecniche relative ai set di immagini.
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
+role: Professionista
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 62%
+source-wordcount: '568'
+ht-degree: 61%
 
 ---
 
 
 # Avvio rapido: set di immagini{#quick-start-image-sets}
 
-I set di immagini di Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare visualizzazioni alternative ad alta risoluzione di un elemento.
+I set di immagini di Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare viste alternative ad alta risoluzione di un elemento.
 
 Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desiderate, potete includere nel set di immagini anche destinazioni di zoom e mappe immagine. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
 
-Questa sezione è stata progettata come punto di partenza per imparare a usare le funzioni per i set di immagini di Dynamic Media Classic.
+Questa procedura rapida per i set di immagini è stata progettata per iniziare a utilizzare rapidamente le tecniche per i set di immagini in Dynamic Media Classic.
 
 **1. Caricamento di immagini principali per più visualizzazioni e campioni**
 
-Per iniziare, caricate le immagini per il set di immagini. Nel visualizzatore di set di immagini, gli utenti possono eseguire operazioni di zoom sulle immagini, dunque considerate anche lo zoom quando scegliete le immagini. Verifica che le immagini abbiano una dimensione maggiore che sia di almeno 2000 pixel. Dynamic Media Classic supporta molti formati di file immagine, ma sono consigliate immagini senza perdita di dati TIFF, PNG ed EPS.
+Per iniziare, caricate le immagini per il set di immagini. Nel visualizzatore di set di immagini, gli utenti possono eseguire operazioni di zoom sulle immagini, dunque considerate anche lo zoom quando scegliete le immagini. Verifica che le immagini abbiano una dimensione maggiore che sia di almeno 2000 pixel. Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
 
-Per caricare i file dal computer a una cartella di Dynamic Media Classic, fate clic sul pulsante Carica nella barra di navigazione globale.
+Seleziona il pulsante Carica nella barra di navigazione globale per caricare i file dal computer in una cartella in Dynamic Media Classic.
 
 Consultate [Preparazione delle risorse di set di immagini per il caricamento](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [Caricamento dei file](uploading-files.md#uploading-your-files).
 
@@ -44,7 +46,7 @@ Consultate anche [Inserimento di destinazioni di zoom e mappe immagine nei set d
 
 **3. Impostazione dei predefiniti per visualizzatori di set di immagini, in base alle esigenze**
 
-Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Dynamic Media Classic viene fornito con predefiniti per visualizzatori per ogni tipo di contenuto multimediale. Per visualizzare i set di immagini, usate i predefiniti Visualizzatore zoom: Personalizzato > Immagini o Set di immagini/Visualizzazioni multiple.
+Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Dynamic Media Classic viene fornito con predefiniti per visualizzatori per ogni tipo di rich media. Per visualizzare i set di immagini, usate i predefiniti Visualizzatore zoom: Personalizzato > Immagini o Set di immagini/Visualizzazioni multiple.
 
 Potete aggiungere o modificare i predefiniti per visualizzatori dalla schermata Impostazione applicazione.
 
@@ -58,20 +60,20 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
 **5. Pubblicazione di un set di immagini**
 
-Quando un set di immagini viene pubblicato, viene inserito sui server Dynamic Media Classic e viene attivata la stringa URL.
+La pubblicazione di un set di immagini lo inserisce sui server Dynamic Media Classic e attiva la stringa URL.
 
 >[!NOTE]
 >
->Questo passaggio non è necessario se al momento della creazione e del salvataggio del set di immagini avete selezionato **Pubblica dopo il salvataggio ** (impostazione predefinita).
+>Questo passaggio non è necessario se al momento della creazione e del salvataggio del set di immagini hai selezionato **Pubblica dopo il salvataggio ** (impostazione predefinita).
 
-Fate clic sull’icona Contrassegna per pubblicazione a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, fate clic su **Pubblica**. Nella schermata Pubblica, fate clic su **Avvia pubblicazione**.
+Fai clic sull’icona Contrassegna per pubblicazione a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, fai clic su **Pubblica**. Nella schermata Pubblica , fai clic su **Avvia pubblicazione**.
 
 Consultate [Pubblicazione](publishing-files.md#publishing-files).
 
 **6. Collegamento di un set di immagini nel sito Web**
 
-Dynamic Media Classic crea richieste URL per i set di immagini e le attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
+Dynamic Media Classic crea le chiamate URL per i set di immagini e li attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
 
-Selezionate il set di immagini, quindi fate clic sul pulsante Anteprima. Viene visualizzata la schermata Anteprima. Selezionate un predefinito per visualizzatori di set di immagini e fate clic su **Copia URL**.
+Selezionate il set di immagini, quindi fate clic sul pulsante Anteprima. Viene visualizzata la schermata Anteprima. Seleziona un predefinito per visualizzatori di set di immagini e fai clic su **Copia URL**.
 
 Consultate [Collegamento di un set di immagini a una pagina Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
