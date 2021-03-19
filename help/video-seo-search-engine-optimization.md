@@ -1,16 +1,18 @@
 ---
 title: SEO (Search Engine Optimization) per i video
-description: Scoprite come configurare le impostazioni Video SEO.
+description: Scopri come configurare le impostazioni SEO video.
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
+feature: Dynamic Media Classic
+role: Amministratore
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '982'
 ht-degree: 66%
 
 ---
@@ -20,29 +22,29 @@ ht-degree: 66%
 
 L’ottimizzazione SEO (Search Engine Optimization, ottimizzazione per i motori di ricerca) consente di migliorare il volume di traffico verso un sito Web generato dai motori di ricerca. I motori di ricerca possono raccogliere informazioni sui contenuti testuali, ma non dai video a meno che le informazioni necessarie per le ricerche non siano appositamente specificate.
 
-Con Dynamic Media Classic Video SEO potete sfruttare i metadati video per fornire ai motori di ricerca le descrizioni dei video. Dynamic Media Classic consente di creare Video Sitemap e feed mRSS. Si tratta di file XML standard per la trasmissione di informazioni sui video ai motori di ricerca:
+Utilizzando Dynamic Media Classic Video SEO, puoi sfruttare i metadati video per fornire ai motori di ricerca le descrizioni dei tuoi video. Dynamic Media Classic consente di creare video Sitemap e feed mRSS. Si tratta di file XML standard per la trasmissione di informazioni sui video ai motori di ricerca:
 
-**Video** SitemapComunica a Google esattamente dove e cosa si trova il contenuto video in un sito. I video possono quindi essere inclusi nei risultati delle ricerche Google. In un Video Sitemap è possibile specificare ad esempio la durata e le categorie dei video. Per informazioni sui Video Sitemap, consultate https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Video** SitemapInforma Google esattamente dove e quale contenuto video si trova su un sito. I video possono quindi essere inclusi nei risultati delle ricerche Google. In un Video Sitemap è possibile specificare ad esempio la durata e le categorie dei video. Per informazioni sulle mappe video dei siti, consulta https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
-**mRSS (Media Really Simple Syndication)** feedUtilizzato dagli editori di contenuti per trasmettere file multimediali a Yahoo! Video Search. Per informazioni sui feed mRSS, consultate https://www.rssboard.org/media-rss.
+**** Feed mRSS (Media Veramente Simple Syndication) Utilizzato dagli editori di contenuti per alimentare file multimediali in Yahoo! Video Search. Per informazioni sui feed mRSS, vedere https://www.rssboard.org/media-rss.
 
 >[!NOTE]
 >
 >Google supporta sia Video Sitemap che il protocollo di feed mRSS per la trasmissione di informazioni ai motori di ricerca.
 
-Dynamic Media Classic può generare Video Sitemap e feed mRSS dai metadati memorizzati con ciascun video. Quando create dei Video Sitemap e feed mRSS, potete scegliere quali campi di metadati includere tra quelli presenti nei file video. Questo vi permette di descrivere i video per i motori di ricerca, che saranno quindi in grado di proporre con più precisione, tra i risultati di ricerca, i video presenti nel vostro sito Web.
+Dynamic Media Classic può generare video Sitemap e feed mRSS dai metadati memorizzati con ogni video. Quando create dei Video Sitemap e feed mRSS, potete scegliere quali campi di metadati includere tra quelli presenti nei file video. Questo vi permette di descrivere i video per i motori di ricerca, che saranno quindi in grado di proporre con più precisione, tra i risultati di ricerca, i video presenti nel vostro sito Web.
 
 >[!NOTE]
 >
 >prima di creare un Video Sitemap o feed mRSS, verificate quali campi occorre includere nel file XML e come devono essere strutturati, in base ai requisiti del motore di ricerca. Per creare un Video Sitemap o un feed mRSS di successo, questo deve soddisfare i requisiti del motore di ricerca.
 
-Dynamic Media Classic crea rapporti sui Video Sitemap e i feed mRSS generati dall’utente. disponibili nella schermata Rapporto Video SEO.
+Dynamic Media Classic crea rapporti su Video Sitemap e feed mRSS dopo la loro generazione. disponibili nella schermata Rapporto Video SEO.
 
 >[!NOTE]
 >
->Per i Video Sitemap e i feed mRSS, Dynamic Media Classic acquisisce i metadati solo dai video contrassegnati per la pubblicazione. Contrassegnate i video per la pubblicazione per includerne i metadati nei Video Sitemap e nei feed mRSS.
+>Per le mappe video e i feed mRSS, Dynamic Media Classic acquisisce i metadati solo dai video contrassegnati per la pubblicazione. Contrassegnate i video per la pubblicazione per includerne i metadati nei Video Sitemap e nei feed mRSS.
 
-## Scelta delle impostazioni Video SEO {#choosing-video-seo-settings}
+## Scelta delle impostazioni SEO video {#choosing-video-seo-settings}
 
 Potete scegliere le impostazioni Video SEO per i Video Sitemap e i feed mRSS nella schermata Impostazioni ottimizzazione motore di ricerca video. che potete aprire scegliendo Configurazione > Impostazione applicazione > Video SEO > Impostazioni.
 
@@ -54,29 +56,29 @@ Al termine, fate clic su Genera (o su Salva e genera) per creare il Video Sitema
 
 Dall’elenco a discesa Modalità generazione, scegliete una modalità di rapporto:
 
-**Video** SitemapCreare un Video Sitemap.
+**Video** SitemapCreare una mappa del sito video.
 
-**mRSS** FeedCreate un feed RSS multimediale (mRSS).
+**Feed** RSSCreazione di un feed RSS (mRSS) multimediale.
 
-**** Entrambi: create entrambi i tipi di file XML.
+**** Entrambi: consente di creare entrambi i tipi di file XML.
 
-**** DisattivatoScegliete questa opzione per interrompere la generazione di Video Sitemap e di feed RSS multimediali (mRSS).
+**** DisattivatoScegli questa opzione per interrompere la generazione di mappe video e feed RSS (mRSS) multimediali.
 
 Nell’elenco a discesa Modalità automatica o Modalità manuale, scegliete se la generazione deve essere automatica o manuale:
 
-**Modalità automatica:** Dynamic Media Classic genera automaticamente ogni giorno un Video Sitemap, un feed mRSS (Media RSS) o entrambi. Scegliete l’opzione Contrassegna per pubblicazione per contrassegnare automaticamente per la pubblicazione il file XML generato da Dynamic Media Classic.
+**Modalità automatica** Dynamic Media Classic genera automaticamente una mappa del sito video, un feed RSS (mRSS) o entrambi, ogni giorno. Scegli l’opzione Contrassegna per pubblicazione per contrassegnare automaticamente per la pubblicazione il file XML generato da Dynamic Media Classic.
 
-**Modalità** manualeDynamic Media Classic genera il Video Sitemap, il feed mRSS (Media RSS) o entrambi quando fate clic su Genera o Salva e genera nella schermata Impostazioni ottimizzazione ricerca video. Selezionate inoltre le seguenti opzioni:
+**Modalità manualeDynamic Media Classic genera la mappa del sito video, il feed RSS (mRSS) o entrambi quando si fa clic su Genera o Salva e genera nella schermata Impostazioni ottimizzazione ricerca video.** Selezionate inoltre le seguenti opzioni:
 
-**Nessuna ulteriore** impostazione: non contrassegna per la pubblicazione il file XML generato.
+**Nessun&#39;altra** impostazioneNon contrassegna per pubblicare il file XML generato.
 
-**Contrassegnate per** PublishMarks per pubblicare il file XML generato.
+**Contrassegna per** PublishMarks per pubblicare il file XML generato.
 
-**L’opzione Consenti motori** di ricerca parziali potrebbe rifiutare un file XML se non contiene informazioni complete sui metadati per tutti i video. Con questa opzione il file XML viene generato anche se per alcuni video non sono disponibili i metadati necessari. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
+**Se non contiene informazioni complete sui metadati per tutti i video, i motori** di ricerca parziali possono rifiutare un file XML. Con questa opzione il file XML viene generato anche se per alcuni video non sono disponibili i metadati necessari. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
 
 ### Scelta delle impostazioni di generazione  {#choosing-generation-settings}
 
-Nell’area Impostazioni generazione sono elencati i campi di input per Video Sitemap e/o feed mRSS; nel pannello Metadati sono elencati i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo si indica ad Dynamic Media Classic dove ottenere i metadati per il Video Sitemap e/o il feed mRSS.
+Nell’area Impostazioni generazione sono elencati i campi di input per Video Sitemap e/o feed mRSS; nel pannello Metadati sono elencati i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo, si comunica a Dynamic Media Classic dove ottenere i metadati per la mappa del sito video e/o il feed mRSS.
 
 1. Nel menu Visualizzazioni metadati, scegliete una visualizzazione per i metadati. I nomi dei campi di metadati compaiono quindi nel pannello Metadati. Per informazioni sulle visualizzazioni di metadati, consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 1. Trascinate i nomi dei campi di metadati dal pannello Metadati ai campi di input Pagina di arrivo, Titolo, Descrizione, Tag e Categoria. I campi Pagina di arrivo, Titolo e Descrizione sono obbligatori.
@@ -104,6 +106,6 @@ Per trasmettere il file Video Sitemap o feed mRSS ai motori di ricerca, copiate 
 
 ## Visualizzazione dei rapporti Video SEO  {#viewing-video-seo-reports}
 
-Potete visualizzare i rapporti Video SEO nella schermata Report di ottimizzazione motore di ricerca video Per aprire questa schermata, fate clic su Configurazione > Impostazione applicazione > Video SEO > Rapporti.
+Potete visualizzare i rapporti Video SEO nella schermata Report di ottimizzazione motore di ricerca video Per aprire questa schermata, fai clic su Configurazione > Impostazione applicazione > Video SEO > Rapporti.
 
 Se durante la generazione del rapporto si erano verificati degli errori, questi vengono elencati nella schermata Rapporto.
