@@ -10,21 +10,27 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Visualizzatori,Video
 role: Professionista
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 24%
+source-wordcount: '427'
+ht-degree: 12%
 
 ---
 
 
 # Best practice per l’utilizzo del visualizzatore video HTML5{#best-practice-using-the-html-video-viewer}
 
-I predefiniti per visualizzatori video HTML5 di Dynamic Media Classic sono lettori video affidabili. Dal lato del design del lettore, puoi creare tutte le funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
+I predefiniti per visualizzatori video HTML5 di Dynamic Media Classic sono lettori video affidabili. Dal lato del design del lettore, puoi creare l’intera funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
 
 Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Quindi distribuisce il video usando HLS (streaming video adattivo). Oppure, se tale metodo di consegna non è presente, viene invece utilizzato il progressivo HTML5.
 
-Combinando in un singolo lettore la possibilità di progettare i componenti di riproduzione in HTML5 e CSS, di usufruire di riproduzione incorporata e di utilizzare lo streaming adattativo e progressivo a seconda delle caratteristiche del browser, i vostri contenuti multimediali potranno essere visti sia dagli utenti con computer desktop che da quelli con dispositivi mobili. Potrete così offrire ai visitatori un’esperienza di streaming video ottimizzata.
+Combinando in un unico lettore le seguenti capacità:
+
+* Componenti di riproduzione progettati utilizzando HTML5 e CSS
+* Riproduzione incorporata
+* Utilizzo dello streaming adattivo e progressivo in base alla capacità del browser
+
+Estendi la portata dei contenuti rich media agli utenti desktop e mobili. Assicurati anche un’esperienza video semplificata.
 
 Consulta anche [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) nella Guida di riferimento visualizzatori di Adobi.
 
@@ -44,9 +50,9 @@ La tabella seguente descrive il dispositivo, il browser e il metodo di riproduzi
 | Desktop | Firefox 45 o versione successiva | Streaming video HLS. |
 | Desktop | Chrome | Streaming video HLS. |
 | Desktop | Safari (Mac) | Streaming video HLS. |
-| Cellulare | Chrome (Android 6 o precedente) | Download progressivo. |
-| Cellulare | Chrome (Android 7 o successivo) | Streaming video HLS. |
-| Cellulare | Android (browser predefinito) | Download progressivo. |
+| Cellulare | Chrome (Android™ 6 o precedente) | Download progressivo. |
+| Cellulare | Chrome (Android™ 7 o successivo) | Streaming video HLS. |
+| Cellulare | Android™ (browser predefinito) | Download progressivo. |
 | Cellulare | Safari (iOS) | Streaming video HLS. |
 | Cellulare | Chrome (iOS) | Streaming video HLS. |
-| Cellulare | Blackberry | Streaming video HLS. |
+| Cellulare | BlackBerry® | Streaming video HLS. |
