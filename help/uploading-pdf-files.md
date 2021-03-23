@@ -9,25 +9,25 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Professionista
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 70%
+source-wordcount: '701'
+ht-degree: 56%
 
 ---
 
 
 # Caricamento di file PDF{#uploading-the-pdf-files}
 
-Di solito, un eCatalog viene generato a partire da file Adobe PDF contenenti tutti i dati sulle immagini, sui font e sulla grafica vettoriale. Potete anche creare un eCatalog a partire da immagini. Dopo aver preparato i file PDF per il caricamento, fate clic sul pulsante Carica nella barra di navigazione globale per avviarne il caricamento.
+In genere, i file Adobe PDF sono l’origine di un eCatalog. Questi file contengono tutte le informazioni sulle immagini, i font e la grafica vettoriale. Potete anche creare un eCatalog a partire da immagini. Dopo aver preparato i file PDF per il caricamento, fate clic sul pulsante Carica nella barra di navigazione globale per avviarne il caricamento.
 
 ## Preparazione dei file PDF  {#preparing-your-pdf-files}
 
 Prepara i file PDF prima di caricarli in Dynamic Media Classic:
 
-* Per facilitare il caricamento dei file, posizionateli tutti nella stessa cartella sul computer locale o sulla rete.
+* Per semplificare il caricamento dei file, inserisci tutti i file nella stessa cartella sul computer o sulla rete.
 * Denominate i file in ordine alfanumerico per pagina in modo da facilitare il posizionamento delle pagine nell’ordine corretto dopo che i file sono stati caricati.
-* Esaminate le pagine PDF per verificare se contengono indicatori di ritaglio, crocini di registro o barre di colore. Questi indicatori determinano come tagliare la carta quando i documenti vengono stampati e devono essere rimossi prima di pubblicare l’eCatalog in rete. Dynamic Media Classic fornisce opzioni per gli indicatori di ritaglio quando si caricano i file PDF.
+* Per verificare se le pagine PDF contengono indicatori di ritaglio, destinazioni di registrazione o barre dei colori, esaminare le pagine. Questi indicatori determinano come tagliare la carta quando i documenti vengono stampati e devono essere rimossi prima di pubblicare l’eCatalog in rete. Dynamic Media Classic fornisce opzioni per gli indicatori di ritaglio quando si caricano i file PDF.
 * Per consentire agli utenti di effettuare ricerche nell’eCatalog mediante parole chiave, verificate che i file PDF non siano “appiattiti” (convertiti in immagini). Non è possibile estrarre parole di ricerca da file PDF appiattiti. Per verificare se un PDF è stato appiattito, provate a selezionare il testo al suo interno. Se non potete selezionare il testo, il PDF è appiattito e gli utenti non possono effettuare ricerche per parole chiave nell’eCatalog.
 * Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Per impostazione predefinita, Dynamic Media Classic può rilevare in modo intelligente queste immagini CMYK e convertirle utilizzando un profilo colore CMYK interno. Se necessario potete anche utilizzare un profilo colore personalizzato per convertire le immagini CMYK. 
 
@@ -40,7 +40,7 @@ Per informazioni dettagliate sui diversi metodi di caricamento, consultate [Cari
 Selezionate i file da caricare, quindi selezionate le opzioni PDF *best practice*:
 
 * ****
-RitaglioSelezionate il menu Ritaglio e scegliete Manuale se le pagine contengono indicatori di ritaglio, indicatori di registrazione o altri indicatori. Specificate quanti pixel ritagliare dalla parte superiore, destra, inferiore e sinistra delle pagine. Gli indicatori di taglio vengono impostati generalmente in un margine di mezzo pollice. Supponiamo che scegliate 150 come risoluzione di pixel per pollice (impostazione consigliata): inserendo 75, 75, 75, 75 nelle caselle di testo In alto, A destra, In basso e A sinistra, il ritaglio applicato è di mezzo pollice dai margini (a 150 ppi, mezzo pollice corrisponde a 75 pixel).
+RitaglioSelezionate il menu Ritaglio e scegliete Manuale se le pagine contengono indicatori di ritaglio, indicatori di registrazione o altri indicatori. Specificate quanti pixel ritagliare dalla parte superiore, destra, inferiore e sinistra delle pagine. I segni di ritaglio sono spesso impostati su un margine di mezzo pollice. Si supponga di scegliere 150 (consigliato) come risoluzione pixel per pollice e di immettere 75, 75, 75, 75, 75 nelle caselle di testo In alto, A destra, In basso e A sinistra. In tal caso, ritaglia un pollice e mezzo dai margini (a 150 ppi, metà di 1 è uguale a 75 pixel).
 
 * ****
 ElaborazioneSelezionare il menu Elaborazione e scegliere Rasterizza. Il file PDF deve essere rasterizzato affinché tutte le pagine e le immagini possano essere visualizzate nell’eCatalog.
