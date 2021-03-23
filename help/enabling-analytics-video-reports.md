@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Ingegnere dati,Amministratore,Professionista aziendale
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 19%
+source-wordcount: '248'
+ht-degree: 16%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 19%
 
 Utilizzando il reporting video basato su heartbeat di Adobe Analytics, non è più necessario abilitare i quattro eventi del visualizzatore video (Play, Pause, Stop, Milestone) durante la configurazione di Adobe Analytics in Dynamic Media Classic. Video Heartbeat funziona con i visualizzatori video HTML5 e MixedMedia integrati di Dynamic Media Classic. Il lettore video genera dati di tracciamento per la visualizzazione in Adobe Analytics Video Reports.
 
-* Per un&#39;introduzione ai contenuti multimediali in streaming e alla &quot;misurazione heartbeat&quot;, consulta [Informazioni su Adobe Analytics per i file multimediali in streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
+* Per un&#39;introduzione allo streaming media e alla &quot;misurazione heartbeat&quot;, consulta [Informazioni su Adobe Analytics per lo streaming multimediale](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
 
 * L’integrazione dei rapporti video di Adobe Analytics con Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
 
    Per ulteriori informazioni sulle variabili della soluzione e le variabili personalizzate, consulta [Parametri audio e video](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) .
 
-* Sono supportati i segmenti forniti di incrementi di un minuto. Non è invece supportata la generazione di rapporti per segmenti personalizzati, ad esempio pietre miliari definite dall’utente basate su incrementi temporali, percentuali o scostamento.
+* Sono supportati i segmenti preconfigurati di incrementi di un minuto. Non è invece supportata la generazione di rapporti per segmenti personalizzati, ad esempio pietre miliari definite dall’utente basate su incrementi temporali, percentuali o scostamento.
 
    Per ulteriori informazioni sui requisiti e sulla configurazione dei contenuti multimediali in streaming, consulta [Misurazione dei file multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
@@ -34,5 +34,5 @@ Utilizzando il reporting video basato su heartbeat di Adobe Analytics, non è pi
 
 >[!NOTE]
 >
->Se la soluzione con licenza di Adobe Analytics non include Video Heartbeat, dovrai continuare a utilizzare i passaggi descritti in questo capitolo per assegnare le variabili Adobe Analytics agli eventi e alle variabili del visualizzatore Dynamic Media Classic.
+>Se la soluzione con licenza di Adobe Analytics non include Video Heartbeat, devi continuare a utilizzare i passaggi descritti in questo capitolo per assegnare le variabili Adobe Analytics agli eventi e alle variabili del visualizzatore Dynamic Media Classic.
 
