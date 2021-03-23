@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Amministratore
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 
 L’ottimizzazione SEO (Search Engine Optimization, ottimizzazione per i motori di ricerca) consente di migliorare il volume di traffico verso un sito Web generato dai motori di ricerca. I motori di ricerca possono raccogliere informazioni sui contenuti testuali, ma non dai video a meno che le informazioni necessarie per le ricerche non siano appositamente specificate.
 
-Utilizzando Dynamic Media Classic Video SEO, puoi sfruttare i metadati video per fornire ai motori di ricerca le descrizioni dei tuoi video. Dynamic Media Classic consente di creare video Sitemap e feed mRSS. Si tratta di file XML standard per la trasmissione di informazioni sui video ai motori di ricerca:
+Utilizzando Dynamic Media Classic Video SEO, è possibile applicare metadati video per fornire ai motori di ricerca descrizioni dei video. Dynamic Media Classic consente di creare video Sitemap e feed mRSS. Questi file XML standard vengono utilizzati per inviare informazioni video ai motori di ricerca:
 
-**Video** SitemapInforma Google esattamente dove e quale contenuto video si trova su un sito. I video possono quindi essere inclusi nei risultati delle ricerche Google. In un Video Sitemap è possibile specificare ad esempio la durata e le categorie dei video. Per informazioni sulle mappe video dei siti, consulta https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Video** SitemapInforma Google esattamente dove e quale contenuto video si trova su un sito. Quindi, i video sono completamente ricercabili su Google. In un Video Sitemap è possibile specificare ad esempio la durata e le categorie dei video. Per informazioni sulle mappe video dei siti, consulta https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
 **** Feed mRSS (Media Veramente Simple Syndication) Utilizzato dagli editori di contenuti per alimentare file multimediali in Yahoo! Video Search. Per informazioni sui feed mRSS, vedere https://www.rssboard.org/media-rss.
 
@@ -62,7 +62,7 @@ Dall’elenco a discesa Modalità generazione, scegliete una modalità di rappor
 
 **** Entrambi: consente di creare entrambi i tipi di file XML.
 
-**** DisattivatoScegli questa opzione per interrompere la generazione di mappe video e feed RSS (mRSS) multimediali.
+**** DisattivatoPer interrompere la generazione dei feed Video Sitemap e Media RSS (mRSS), scegli questa opzione.
 
 Nell’elenco a discesa Modalità automatica o Modalità manuale, scegliete se la generazione deve essere automatica o manuale:
 
@@ -74,7 +74,7 @@ Nell’elenco a discesa Modalità automatica o Modalità manuale, scegliete se l
 
 **Contrassegna per** PublishMarks per pubblicare il file XML generato.
 
-**Se non contiene informazioni complete sui metadati per tutti i video, i motori** di ricerca parziali possono rifiutare un file XML. Con questa opzione il file XML viene generato anche se per alcuni video non sono disponibili i metadati necessari. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
+**Consenti ai motori** di ricerca parziale di rifiutare un file XML se non contiene informazioni complete sui metadati per tutti i video. Con questa opzione il file XML viene generato anche se per alcuni video non sono disponibili i metadati necessari. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
 
 ### Scelta delle impostazioni di generazione  {#choosing-generation-settings}
 
@@ -93,7 +93,7 @@ Nell’area Impostazioni generazione sono elencati i campi di input per Video Si
 
 >[!NOTE]
 >
->prima di poter essere trasmesso ai motori di ricerca, il Video Sitemap o feed mRSS deve essere pubblicato. I file del Video Sitemap e del feed mRSS vengono salvati nella cartella root della società. Se necessario, contrassegnate tali file XML per la pubblicazione e fate clic su Pubblica.
+>Pubblica la mappa del sito video o il feed mRSS prima di inviarla ai motori di ricerca. I file del Video Sitemap e del feed mRSS vengono salvati nella cartella root della società. Se necessario, contrassegnate tali file XML per la pubblicazione e fate clic su Pubblica.
 
 ## Trasmissione dei file Video Sitemap e feed mRSS ai motori di ricerca  {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
