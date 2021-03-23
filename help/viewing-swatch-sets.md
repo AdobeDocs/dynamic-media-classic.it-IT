@@ -10,10 +10,10 @@ discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 feature: Dynamic Media Classic,Visualizzatori
 role: Professionista
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 85%
+source-wordcount: '435'
+ht-degree: 71%
 
 ---
 
@@ -31,13 +31,13 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 1. Fate clic su **Configurazione** > **Predefiniti visualizzatore**.
 1. Effettuate una delle seguenti operazioni:
 
-   * Per creare un nuovo predefinito, fai clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli Visualizzatore set di campioni, quindi fai clic su **Aggiungi**.
+   * Per creare un predefinito, fai clic su **Aggiungi**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli Visualizzatore set di campioni, quindi fai clic su **Aggiungi**.
    * Per modificare un predefinito visualizzatore di set di campioni esistente, seleziona il predefinito, quindi fai clic su **Modifica**.
 
 1. Digitate nella casella Nome predefinito un nome per il visualizzatore di set campioni.
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
 
-   Per visualizzare la descrizione di un’opzione, fate clic sull’icona Suggerimento  accanto all’opzione.
+   Per visualizzare una descrizione di un’opzione, fai clic sull’icona Suggerimento informazioni accanto all’opzione .
 
    Nella schermata di anteprima viene riportato il visualizzatore con le impostazioni aggiornate e modificate.
 
@@ -47,7 +47,7 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 
 Con la funzione Anteprima è possibile verificare in che modo una risorsa viene visualizzata con il visualizzatore per una particolare piattaforma, ad esempio HTML5. Le piattaforme disponibili in Anteprima dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
-1. Nel pannello Libreria risorse a sinistra, selezionate nell’elenco a discesa Mostra un tipo di risorsa basata su set di campioni come ad esempio Set di campioni.
+1. Nel pannello Libreria risorse a sinistra, nell’elenco a discesa Mostra , seleziona un tipo di risorsa basato su set di campioni, ad esempio Set di campioni.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse contenente il set di campioni da visualizzare in anteprima con un visualizzatore.
 1. Effettuate una delle seguenti operazioni:
 
@@ -57,11 +57,11 @@ Con la funzione Anteprima è possibile verificare in che modo una risorsa viene 
    * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fai clic su **File** > **Anteprima**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
-1. Fate clic sul collegamento di un visualizzatore per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
+1. Per visualizzare un’anteprima della risorsa nel visualizzatore selezionato, fai clic sul collegamento di un visualizzatore.
 
    Quando fate clic sul collegamento di un visualizzatore, l’URL associato viene automaticamente copiato negli Appunti.
 
-1. Chiudete il visualizzatore per tornare alla schermata Anteprima.
+1. Per tornare alla schermata Anteprima, chiudere il visualizzatore visualizzato.
 1. Fate clic su **Chiudi** per tornare alla schermata Risorse.
 
 >[!MORELIKETHIS]
