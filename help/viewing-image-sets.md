@@ -10,10 +10,10 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Professionista
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 88%
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
 
-   Per visualizzare la descrizione di un’opzione, fate clic sull’icona Suggerimento  accanto all’opzione.
+   Per visualizzare una descrizione di un’opzione, fai clic sull’icona Suggerimento informazioni accanto all’opzione .
 
    Nella schermata di anteprima viene riportato il visualizzatore con le impostazioni aggiornate e modificate.
 
@@ -57,11 +57,11 @@ Con la funzione Anteprima è possibile verificare in che modo una risorsa viene 
    * Nella finestra Risorse, selezionate una risorsa. Sulla barra degli strumenti, fai clic su **File** > **Anteprima**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
-1. Fate clic sul collegamento di un visualizzatore per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
+1. Per visualizzare un’anteprima della risorsa nel visualizzatore selezionato, fai clic sul collegamento di un visualizzatore.
 
    Quando fate clic sul collegamento di un visualizzatore, l’URL associato viene automaticamente copiato negli Appunti.
 
-1. Chiudete il visualizzatore per tornare alla schermata Anteprima.
+1. Per tornare alla schermata Anteprima, chiudere il visualizzatore visualizzato.
 1. Fate clic su **Chiudi** per tornare alla schermata Risorse.
 
 >[!MORELIKETHIS]
