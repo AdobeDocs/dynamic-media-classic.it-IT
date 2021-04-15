@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,Visualizzatori,Set di immagini
-role: Professionista
+role: Business Practitioner
+exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 83%
+source-wordcount: '101'
+ht-degree: 85%
 
 ---
-
 
 # Generazione automatica di set di immagini{#automated-image-set-generation}
 
@@ -34,12 +34,11 @@ Potete automatizzare la generazione dei set come processo indipendente dal caric
 
 **Per automatizzare la generazione di set di immagini**
 
-1. Fate clic su **File** > **Genera set**.
+1. Fate clic su **[!UICONTROL File]** > **[!UICONTROL Genera set]**.
 1. Nella finestra di dialogo risultante, specificate un nome per il processo.
 
    Per impostazione predefinita, al processo viene assegnato un nome che indica che si tratta di un lavoro generato e quando è stato generato.
 
 1. Selezionate il predefinito che desiderate applicare.
-1. Fate clic su **Cartella di destinazione** e specificate la cartella da usare.
-1. Fate clic su **Invia**.
-
+1. Fate clic su **[!UICONTROL Cartella di destinazione]** e specificate la cartella da usare.
+1. Fate clic su **[!UICONTROL Invia]**.
