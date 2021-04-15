@@ -7,15 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
-role: Amministratore
+role: Administrator
+exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 62%
+source-wordcount: '1946'
+ht-degree: 61%
 
 ---
-
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
@@ -89,7 +89,7 @@ Gli utenti che sono stati disattivati non sono più autorizzati ad accedere all�
 
 Le informazioni utente che potete modificare dipendono dal vostro ruolo di amministratore e dal ruolo assegnato all’utente di cui desiderate modificare le informazioni. Le opzioni che appaiono attenuate (non disponibili) non possono essere modificate.
 
-1. Passate a **Configurazione** > **Impostazione applicazione** > **Impostazione amministrazione** > **Amministrazione utente**.
+1. Vai a **Configurazione** > **Impostazione applicazione** > **Configurazione amministrazione** > **Amministrazione utente**.
 1. Selezionate l’utente e fate clic su **Modifica**.
 1. Selezionate nella tabella la voce corrispondente alla società per la quale desiderate modificare le autorizzazioni o l’accesso, quindi fate clic sul collegamento Gestisci società.
 1. Selezionate il ruolo utente.
@@ -102,15 +102,15 @@ Potete filtrare e ordinare l’elenco degli utenti per individuare un utente. Tu
 
 È possibile filtrare l’elenco di utenti con le seguenti tecniche:
 
-**Filtrare per** gruppoSelezionare il menu Per gruppo e scegliere un’opzione per limitare l’elenco agli utenti di un gruppo.
+* **Filtra per gruppo** : selezionate il menu Per gruppo e scegliete un’opzione per limitare l’elenco agli utenti di un gruppo.
 
-**Filtrare per** ruolo utenteSelezionate il menu Per ruolo utente e scegliete un’opzione per limitare l’elenco a utenti o amministratori di tipi diversi.
+* **Filtrare per ruolo**  utente: selezionate il menu Per ruolo utente e scegliete un’opzione per limitare l’elenco a utenti o amministratori di tipi diversi.
 
-**Filtrare per** nome campoSelezionare l’opzione Abilita filtro per campo. Dal menu Per nome campo, scegliete una colonna per filtrare l’elenco; dal menu Filtra carattere, scegliete una lettera. L’elenco viene ridotto a una sola colonna in base alla lettera scelta. Per visualizzare di nuovo l’elenco completo, deselezionate l’opzione Attiva filtro per campo.
+* **Filtra per nome**  campo: seleziona l’opzione Abilita filtro per campo. Dal menu Per nome campo, scegliete una colonna per filtrare l’elenco; dal menu Filtra carattere, scegliete una lettera. L’elenco viene ridotto a una sola colonna in base alla lettera scelta. Per visualizzare di nuovo l’elenco completo, deselezionate l’opzione Attiva filtro per campo.
 
-**Filtrare** gli utenti non validiDeselezionare l&#39;opzione Includi non validi. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono quelli che avete eliminato dal sistema e dagli account da voi amministrati.
+* **Filtrare gli utenti**  non validi - Deselezionare l&#39;opzione Includi non validi. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono quelli che avete eliminato dal sistema e dagli account da voi amministrati.
 
-**Ordina per** intestazione di colonnaFare clic su un&#39;intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail, per ruolo utente o per stato valido/non valido.
+* **Ordina per intestazione di colonna**  - Fai clic su un’intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail, per ruolo utente o per stato valido/non valido.
 
 Se nel sistema è presente un numero elevato di utenti, potete limitare le dimensioni dell’elenco specificando un numero nel menu Dimensione massima elenco.
 
@@ -161,20 +161,19 @@ La tabella seguente descrive i rapporti che potete generare dalla schermata Larg
 | Streaming video | Utilizzo della larghezza di banda per lo streaming video | Consente di tenere traccia dell’utilizzo di streaming video da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
 | Contenuti video | Tempo di riproduzione di diversi video | Consente di individuare i video più visualizzati e quelli meno visualizzati. |
 
-
 Il rapporto Contenuti immagine offre informazioni sulle richieste per i seguenti tipi di immagini:
 
-**Image** RequestRequests per le immagini.
+* **Richiesta immagine**  - Richieste di immagini.
 
-**Thumbnail** RequestRequests per campioni o immagini alternative nei visualizzatori.
+* **Richiesta miniature** : richieste di campioni o immagini alternative nei visualizzatori.
 
-**Mask** RequestRequests alle immagini che restituiscono maschere in scala di grigi.
+* **Richiesta maschera**  - Richieste alle immagini che restituiscono maschere in scala di grigio.
 
-**Richieste** RequestImage per riquadro visualizzatore caricate da un visualizzatore.
+* **Richiesta riquadro visualizzatore** : richieste di immagini caricate da un visualizzatore.
 
-**Richieste di rendering Vnt Object** RequestImage che restituiscono un&#39;immagine con oggetti specificati nelle vignette richieste.
+* **Richiesta oggetto vnt** : richieste di rendering delle immagini che restituiscono un&#39;immagine con oggetti specificati nelle vignette richieste.
 
-**Richieste di rendering Vnt Info** RequestImage che restituiscono informazioni sulle vignette richieste.
+* **Richiesta informazioni vnt** : richieste di rendering delle immagini che restituiscono informazioni sulle vignette richieste.
 
 >[!NOTE]
 >
@@ -194,27 +193,27 @@ Per generare un rapporto sulla larghezza di banda, l’archiviazione, i contenut
 
 Dopo la generazione di un rapporto dalla pagina Larghezza di banda e spazio di archiviazione, potete scegliere diverse opzioni per la visualizzazione delle informazioni. Potete scegliere come presentare le informazioni, se visualizzarle sotto forma di grafico o griglia, nonché specificare un periodo di tempo per i dati da acquisire. In visualizzazione Dati, potete inoltre ordinare le informazioni e riordinare le colonne.
 
-**Visualizzazione dei dati in un grafico o in una** griglia di datiFare clic sull&#39;opzione Visualizzazione grafico per visualizzare i dati in un grafico; fare clic sull&#39;opzione Visualizzazione dati per visualizzare i dati in una griglia dati.
+* **Visualizzazione dei dati in un grafico o in una griglia**  di dati: fare clic sull&#39;opzione Visualizzazione grafico per visualizzare i dati in un grafico; fare clic sull&#39;opzione Visualizzazione dati per visualizzare i dati in una griglia dati.
 
-**Scelta di un** tipo di presentazione del rapportoScegliere Riepilogo, Giornaliero o mensile dal menu Tipo di rapporto per organizzare i dati in forma di riepilogo, per giorno o per mese. Questa opzione non è disponibile per tutti i rapporti.
+* **Scelta di un tipo di presentazione del rapporto** : scegliere Riepilogo, Giornaliero o mensile dal menu Tipo di rapporto per organizzare i dati in forma di riepilogo, per giorno o per mese. Questa opzione non è disponibile per tutti i rapporti.
 
-**Specifica di un** periodo di tempoScegliere le opzioni per definire un periodo di tempo per il rapporto, quindi fare clic su Aggiorna dopo aver definito un periodo di tempo:
+* **Specifica di un periodo**  di tempo: scegli le opzioni per definire un periodo di tempo per il rapporto, quindi fai clic su Aggiorna dopo aver definito un periodo di tempo:
 
-**** Periodo di tempo predefinitoScegliere un’opzione dal menu Rapporto predefinito. Ad esempio, scegliete Ultimo mese per acquisire i dati a partire dall’ultimo mese.
+* **Periodo di tempo predefinito** : nel menu Rapporto predefinito, scegli un’opzione. Ad esempio, scegliete Ultimo mese per acquisire i dati a partire dall’ultimo mese.
 
-**Periodo di tempo personalizzatoScegliere Personalizzato** dal menu Rapporto predefinito. Quindi scegliete una data dal menu Mese iniziale (o Data iniziale) e una dal menu N. di mesi (o N. di giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
+* **Periodo di tempo personalizzato** : scegliere Personalizzato dal menu Rapporto predefinito. Quindi scegliete una data dal menu Mese iniziale (o Data iniziale) e una dal menu N. di mesi (o N. di giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
 
-**Ordinamento dei dati (solo visualizzazione dati)** Per ordinare le informazioni su una colonna, fai clic sull’intestazione della colonna. Fate di nuovo clic per ordinare i dati in ordine discendente.
+* **Ordinamento dei dati (solo visualizzazione dati)** : per ordinare le informazioni in una colonna, fai clic sull’intestazione della colonna. Fate di nuovo clic per ordinare i dati in ordine discendente.
 
-**Ridisposizione delle colonne (solo visualizzazione dati)** Per spostare una colonna in una posizione diversa sulla griglia di dati, trascinarne l’intestazione.
+* **Ridisposizione delle colonne (solo visualizzazione dati)**  - Per spostare una colonna in una posizione diversa sulla griglia dati, trascinarne l’intestazione.
 
 ### Esportazione e stampa dei rapporti {#exporting-and-printing-reports}
 
 I rapporti generati possono essere esportati in modo da consentire l’utilizzo dei dati in fogli di calcolo e altre applicazioni. I rapporti possono inoltre essere stampati.
 
-**Esportazione dei** dati del reportIn visualizzazione Dati, ordinare e disporre i dati in base alle esigenze. Quindi aprite il menu Esporta e scegliete un formato: Delimitato da tabulazioni, Separato da virgola o Formato HTML. I dati vengono copiati negli Appunti nel formato scelto e li potete quindi incollare in un foglio di calcolo o in un’altra applicazione.
+* **Esportazione dei dati dei rapporti** : in visualizzazione dati, ordinare e disporre i dati in base alle esigenze. Quindi aprite il menu Esporta e scegliete un formato: Delimitato da tabulazioni, Separato da virgola o Formato HTML. I dati vengono copiati negli Appunti nel formato scelto e li potete quindi incollare in un foglio di calcolo o in un’altra applicazione.
 
-**Stampa di un** reportFare clic su Stampa, scegliere le opzioni desiderate nella finestra di dialogo Stampa, quindi fare clic su OK.
+* **Stampa di un rapporto**  - Fare clic su  **[!UICONTROL Stampa]**, scegliere le opzioni desiderate nella finestra di dialogo Stampa, quindi fare clic su  **[!UICONTROL OK]**.
 
 ## Errori immagini {#image-errors}
 
@@ -227,21 +226,21 @@ Gli amministratori di Dynamic Media Classic possono generare rapporti sugli erro
    * Fate clic su un’intestazione per ordinare gli errori in base alle informazioni dell’intestazione. Per impostazione predefinita, gli errori vengono ordinati per numero di occorrenze, dalla più alta alla più bassa.
    * Portate il cursore sul campo Risposta di un errore per visualizzare il messaggio di errore specifico.
    * Portate il cursore sul campo URL o Referente per visualizzare il collegamento all’immagine o il sito Web del referente.
-   * Fate clic su Copia URL nella colonna URL per copiare il collegamento all’immagine vera e propria. Potete quindi incollare il collegamento nel campo indirizzo della finestra di un browser per passare all’immagine ed esaminare l’errore.
-   * Fate clic su Copia URL nella colonna Referente per copiare il collegamento alla pagina Web del referente.
+   * Fai clic su **[!UICONTROL URL Copia URL]** per copiare il collegamento all&#39;immagine effettiva. Potete quindi incollare il collegamento nel campo indirizzo della finestra di un browser per passare all’immagine ed esaminare l’errore.
+   * Fai clic su **[!UICONTROL URL copia referente]** per copiare il collegamento alla pagina web del referente.
 
 Gli errori visualizzati si riferiscono alla società a cui siete attualmente connessi. Ciascun errore include le seguenti informazioni:
 
-**ID immagine** per l&#39;immagine offesa.
+* **ID immagine** : ID per l&#39;immagine offesa.
 
-**** TimeL’intervallo di tempo della prima segnalazione dell’errore all’ultima segnalazione dell’errore, entro le ultime 24 ore.
+* **Ora** : l’intervallo di tempo della prima segnalazione dell’errore all’ultima segnalazione dell’errore, entro le ultime 24 ore.
 
-**** CountIl numero di errori segnalati sull&#39;immagine.
+* **Conteggio** : il numero di errori segnalati sull&#39;immagine.
 
-**** RispostaIl messaggio di errore specifico. Gli errori possono essere di tipo 4xx o 5xx.
+* **Risposta**  - Il messaggio di errore specifico. Gli errori possono essere di tipo 4xx o 5xx.
 
-**** URLsElenca l&#39;URL dell&#39;immagine in Scene 7.
+* **URL**  - Elenca l&#39;URL dell&#39;immagine in Dynamic Media Classic.
 
-**** ReferrerSpecifica l&#39;URL del sito Web da cui proviene la richiesta iniziale. Il referente può essere qualsiasi sito Web contenente un collegamento all’immagine.
+* **Referrer**  - Specifica l&#39;URL del sito Web da cui proviene la richiesta iniziale. Il referente può essere qualsiasi sito Web contenente un collegamento all’immagine.
 
 Alle colonne URL e Referente è stata associata la relativa funzione Copia URL per facilitare la verifica.
