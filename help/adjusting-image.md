@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Gestione risorse
-role: Professionista
+role: Business Practitioner
+exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 94%
+source-wordcount: '553'
+ht-degree: 86%
 
 ---
-
 
 # Regolazione di un’immagine{#adjusting-an-image}
 
@@ -36,35 +36,34 @@ Consultate anche [Creazione di un alias per un’immagine](adjusting-image.md#cr
 
 1. Una volta completata la regolazione dell’immagine, effettuate una delle seguenti operazioni:
 
-   * Fate clic su **Salva**.
-   * Per sostituire l’originale dell’immagine, fate clic su **Salva con nome**.
+   * Fate clic su **[!UICONTROL Salva]**.
+   * Per sostituire l’originale dell’immagine, fate clic su **[!UICONTROL Salva con nome]**.
 
-      Dall’elenco a discesa, scegliete **Sostituisci originale** e fate clic su **Salva**.
+      Dall’elenco a discesa, scegliete **[!UICONTROL Sostituisci originale]** e fate clic su **[!UICONTROL Salva]**.
 
-   * Per salvare l’immagine come nuova immagine principale, fate clic su **Salva con nome**.
+   * Per salvare l’immagine come nuova immagine principale, fate clic su **[!UICONTROL Salva con nome]**.
 
-      Dall’elenco a discesa, scegliete **Salva come nuovo elemento principale**.
+      Dall’elenco a discesa, scegliete **[!UICONTROL Salva come nuovo elemento principale]**.
 
-      Nella casella di riepilogo **Nome cartella**, selezionate la cartella in cui desiderate salvare la nuova immagine principale.
+      Nella casella di riepilogo **[!UICONTROL Nome cartella]**, selezionate la cartella in cui desiderate salvare la nuova immagine principale.
 
-      Fate clic su **Salva**.
+      Fate clic su **[!UICONTROL Salva]**.
 
-   * Per salvare l’immagine come visualizzazione aggiuntiva dell’immagine principale potete creare un alias. Fate clic su **Salva con nome**.
+   * Per salvare l’immagine come un’altra vista dell’immagine master. potete creare un alias. Fate clic su **[!UICONTROL Salva con nome]**.
 
-      Nella finestra di dialogo **Salva con nome**, fate clic su **Salva come visualizzazione aggiuntiva dell’elemento principale** nell’elenco a discesa.
+      Nella finestra di dialogo **[!UICONTROL Salva con nome]**, nell&#39;elenco a discesa fare clic su **[!UICONTROL Salva come un&#39;altra visualizzazione di master]**.
 
-      Nella casella di riepilogo **Nome cartella**, selezionate la cartella in cui desiderate salvare la nuova immagine principale.
+      Nella casella di riepilogo **[!UICONTROL Nome cartella]**, selezionate la cartella in cui desiderate salvare la nuova immagine principale.
 
-      Fate clic su **Salva**.
+      Fate clic su **[!UICONTROL Salva]**.
 
 ## Creazione di un alias per un’immagine  {#creating-an-alias-for-an-image}
 
-Dopo aver modificato un’immagine, potete salvarla come visualizzazione aggiuntiva dell’immagine principale. A questo scopo, potete creare un alias utilizzando la funzione **Salva come visualizzazione aggiuntiva dell’elemento principale**.
+Dopo aver regolato un’immagine, potete salvarla come un’altra vista dell’immagine master. A questo scopo, potete creare un alias utilizzando la funzione **[!UICONTROL Salva come visualizzazione aggiuntiva dell’elemento principale]**.
 
-1. Nella vista Griglia o Elenco, fate clic su **Regola** nell’elenco a discesa **Modifica** accanto all’immagine per la quale desiderate creare un alias.
-1. Nell’angolo inferiore destro della pagina fate clic su **Salva con nome**.
-1. Nella finestra di dialogo **Salva con nome**, nell’elenco di riepilogo, fate clic su **Salva come visualizzazione aggiuntiva dell’elemento principale**.
-1. Nella finestra di dialogo **Nome cartella**, selezionate la cartella in cui desiderate salvare l’immagine alias.
-1. Nel campo **Nome file**, digitate il nome da assegnare all’alias.
-1. Fate clic su **Salva**.
-
+1. Nella vista Griglia o Elenco, fate clic su **[!UICONTROL Regola]** nell’elenco a discesa **[!UICONTROL Modifica]** accanto all’immagine per la quale desiderate creare un alias.
+1. Nell’angolo inferiore destro della pagina fate clic su **[!UICONTROL Salva con nome]**.
+1. Nella finestra di dialogo **[!UICONTROL Salva con nome]**, fate clic su **[!UICONTROL Salva come visualizzazione aggiuntiva dell’elemento principale]** nell’elenco a discesa.
+1. Nella finestra di dialogo **[!UICONTROL Nome cartella]**, selezionate la cartella in cui desiderate salvare l’immagine alias.
+1. Nel campo **[!UICONTROL Nome file]**, digitate il nome da assegnare all’alias.
+1. Fate clic su **[!UICONTROL Salva]**.
