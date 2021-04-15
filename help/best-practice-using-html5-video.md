@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Visualizzatori,Video
-role: Professionista
+role: Business Practitioner
+exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '431'
 ht-degree: 12%
 
 ---
-
 
 # Best practice per l’utilizzo del visualizzatore video HTML5{#best-practice-using-the-html-video-viewer}
 
 I predefiniti per visualizzatori video HTML5 di Dynamic Media Classic sono lettori video affidabili. Dal lato del design del lettore, puoi creare l’intera funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
 
-Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Quindi distribuisce il video usando HLS (streaming video adattivo). Oppure, se tale metodo di consegna non è presente, viene invece utilizzato il progressivo HTML5.
+Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Il video viene quindi trasmesso tramite HLS (HTTP Live Streaming), noto anche come streaming video adattivo. Oppure, se tale metodo di consegna non è presente, viene invece utilizzato il progressivo HTML5.
 
 Combinando in un unico lettore le seguenti capacità:
 
