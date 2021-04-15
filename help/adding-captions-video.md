@@ -5,15 +5,15 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Visualizzatori,Video
-role: Professionista
+role: Business Practitioner
+exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 51%
+source-wordcount: '897'
+ht-degree: 50%
 
 ---
-
 
 # Aggiunta di sottotitoli a video{#adding-captions-to-video}
 
@@ -25,11 +25,13 @@ I sottotitoli, in particolare i sottotitoli per non udenti, garantiscono inoltre
 >
 >il lettore video utilizzato deve supportare la visualizzazione delle didascalie.
 
-Consultate [Aggiunta o modifica di un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) per configurare l’Effetto didascalia e per modificare il Menu didascalia, compreso il testo di menu per i seguenti visualizzatori.
+Per configurare l’effetto didascalia e modificare il menu della didascalia, incluso il testo del menu per uno dei seguenti visualizzatori:
 
-* `Universal_HTML5_Video` visualizzatore.
-* `Universal_HTML5_MixedMedia_dark` visualizzatore.
-* `Universal_HTML5_MixedMedia_light` visualizzatore.
+* `Universal_HTML5_Video` visualizzatore
+* `Universal_HTML5_MixedMedia_dark` visualizzatore
+* `Universal_HTML5_MixedMedia_light` visualizzatore
+
+consulta [Aggiunta o modifica di un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consultate anche [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -43,7 +45,7 @@ Per ulteriori informazioni sull’utilizzo della funzione JSON in un URL, consul
 
    | Tipo visualizzatore | File di sottotitoli |
    |--- |--- |
-   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file di sottotitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Consultare WebVTT](https://dev.w3.org/html5/webvtt/): Il formato Tracce testo video web. <br><br>Sono disponibili strumenti e servizi gratuiti e a pagamento che è possibile utilizzare per creare file di sottotitoli all’esterno di Dynamic Media Classic. Ad esempio, per creare un semplice file di sottotitoli video senza stili, è possibile utilizzare il seguente strumento online gratuito per la creazione e modifica di sottotitoli: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Per risultati ottimali, utilizzare lo strumento in Internet Explorer 9 o versioni successive, Google Chrome o Safari. <br><br>In questo strumento, nel campo <b>Enter URL of video file</b> (Inserire l’URL del file video), incollate l’URL del file video e fate clic su <b>Load</b> (Carica). <br><br>Ad esempio, se utilizzi un URL Dynamic Media Classic per il file video, fai doppio clic su una singola risorsa video (non un set video adattivo o un video master) per aprirla in visualizzazione Dettagli. Nel pannello a destra della vista Dettagli, espandete URL e codice da incorporare. Quindi nel gruppo Mobile, a destra di Mobile (progressivo), fate clic su Copia URL. Questo processo ti dà l&#39;URL del file video stesso che puoi quindi incollare nel campo <b>Enter URL of video file</b> (Inserisci URL del file video). A quel punto, Internet Explorer, Chrome o Safari possono riprodurre il video in modalità nativa. Seguite ora le istruzioni visualizzate dal sito per creare e salvare il file WebVTT. Al termine, copia il contenuto del file della didascalia e incollalo in un editor di testo normale e salvalo con un’estensione del nome file .VTT. <br><br><b>Nota:</b> per il supporto globale dei sottotitoli video in lingue diverse dall&#39;inglese, lo standard WebVTT richiede la creazione di file .vtt separati e di chiamate per ogni lingua che si desidera supportare. <br><br>In genere, è consigliabile assegnare al file VTT dei sottotitoli lo stesso nome del file video, aggiungendo il suffisso captions. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web. |
+   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file di sottotitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Consultare WebVTT](https://w3c.github.io/webvtt/): Il formato Tracce testo video web. <br><br>Sono disponibili strumenti e servizi gratuiti e a pagamento che è possibile utilizzare per creare file di sottotitoli all’esterno di Dynamic Media Classic. Ad esempio, per creare un semplice file di sottotitoli video senza stili, è possibile utilizzare il seguente strumento online gratuito per la creazione e modifica di sottotitoli: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Per risultati ottimali, utilizzare lo strumento in Internet Explorer 9 o versioni successive, Google Chrome o Safari. <br><br>In questo strumento, nel campo <b>Enter URL of video file</b> (Inserire l’URL del file video), incollate l’URL del file video e fate clic su <b>Load</b> (Carica). <br><br>Ad esempio, se utilizzi un URL Dynamic Media Classic per il file video, fai doppio clic su una singola risorsa video (non un set video adattivo o un video master) per aprirla in visualizzazione Dettagli. Nel pannello a destra della vista Dettagli, espandete URL e codice da incorporare. Quindi nel gruppo Mobile, a destra di Mobile (progressivo), fate clic su Copia URL. Questo processo ti dà l&#39;URL del file video stesso che puoi quindi incollare nel campo <b>Enter URL of video file</b> (Inserisci URL del file video). A quel punto, Internet Explorer, Chrome o Safari possono riprodurre il video in modalità nativa. Seguite ora le istruzioni visualizzate dal sito per creare e salvare il file WebVTT. Al termine, copiate il contenuto del file dei sottotitoli, incollatelo in un editor di solo testo e salvatelo con l’estensione .vtt. <br><br><b>Nota:</b> per il supporto globale dei sottotitoli video in lingue diverse dall&#39;inglese, lo standard WebVTT richiede la creazione di file .vtt separati e di chiamate per ogni lingua che si desidera supportare. <br><br>In genere, è consigliabile assegnare al file VTT dei sottotitoli lo stesso nome del file video, aggiungendo il suffisso captions. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web. |
 
 1. In Dynamic Media Classic, carica il file di sottotitoli XML WebVTT, DFXP o SMPTE.
 
@@ -59,7 +61,7 @@ Per ulteriori informazioni sull’utilizzo della funzione JSON in un URL, consul
 
       `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Osserva `,1` alla fine del percorso URL della didascalia. Immediatamente dopo l’estensione .VTT nel percorso, è possibile abilitare o disabilitare il pulsante Closed Caption sulla barra del lettore video impostando rispettivamente `1` o `0`.
+      Osserva `,1` alla fine del percorso URL della didascalia. Immediatamente dopo l’estensione .vtt nel percorso, è possibile abilitare o disabilitare il pulsante closed caption sulla barra del lettore video impostando rispettivamente `1` o `0`.
 
    * Per un’esperienza di visualizzazione con video incorporato, fate clic su **[!UICONTROL Incorpora codice]** all’estrema destra del nome.
 
@@ -69,5 +71,4 @@ Per ulteriori informazioni sull’utilizzo della funzione JSON in un URL, consul
 
       `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Osserva il percorso `,1` alla fine del percorso URL. Subito dopo l’estensione .VTT nel percorso URL, puoi facoltativamente abilitare o disabilitare il pulsante della didascalia sulla barra del lettore video impostando rispettivamente `1` o `0`.
-
+      Osserva il percorso `,1` alla fine del percorso URL. Subito dopo l’estensione .vtt nel percorso URL, puoi facoltativamente abilitare o disabilitare il pulsante della didascalia sulla barra del lettore video impostando rispettivamente `1` o `0`.
