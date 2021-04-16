@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: Ingegnere dati,Amministratore,Professionista aziendale
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 50%
+source-wordcount: '1196'
+ht-degree: 46%
 
 ---
-
 
 # Configurazione dei rapporti di Adobe Analytics{#configuring-adobe-analytics-reports}
 
 Per comunicare ad Adobe Analytics quali informazioni includere nei rapporti, passate alla schermata Configurazione Adobe Analytics. Dopo aver configurato i rapporti, questa schermata elenca, per ogni evento di visualizzatore di cui desideri ottenere informazioni, una variabile Adobe Analytics corrispondente e una variabile Dynamic Media Classic. Queste combinazioni di variabili Adobe Analytics variable-Dynamic Media Classic per il visualizzatore eventi determinano quali informazioni vengono riportate.
 
-Oltre ad associare gli eventi del visualizzatore con le variabili, nella schermata Configurazione Adobe Analytics sono disponibili strumenti per attivare, modificare ed eliminare degli eventi del visualizzatore.
+Oltre ad associare gli eventi del visualizzatore alle variabili, la schermata Configurazione di Adobe Analytics offre strumenti per attivare, modificare ed eliminare gli eventi del visualizzatore.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Utilizza la schermata Configurazione di Adobe Analytics per associare gli eventi
 
 **Per assegnare le variabili Adobe Analytics agli eventi e alle variabili del visualizzatore Dynamic Media Classic**
 
-1. Dopo aver effettuato l&#39;accesso ad Adobe Analytics da Dynamic Media Classic e aver selezionato una suite di rapporti, nella pagina Configurazione Adobe Analytics, nella colonna a destra della tabella, attiva un evento visualizzatore facendo clic su **Abilita**.
+1. Dopo aver effettuato l&#39;accesso ad Adobe Analytics da Dynamic Media Classic e aver selezionato una suite di rapporti, nella pagina Configurazione Adobe Analytics, nella colonna della tabella a destra, attiva un evento visualizzatore facendo clic su **[!UICONTROL Abilita]**.
 1. Per visualizzare il selettore della coppia di variabili, nella colonna Variabili fate clic sul pulsante freccia dell’evento visualizzatore desiderato.
 
    Consultate [Eventi dei visualizzatori](configuring-analytics-reports.md#viewer_events).
@@ -60,7 +60,7 @@ Utilizza la schermata Configurazione di Adobe Analytics per associare gli eventi
 
 ### Eventi dei visualizzatori {#viewer-events}
 
-Gli eventi del visualizzatore descrivono le azioni eseguite dagli utenti con i visualizzatori Dynamic Media Classic. Quando un utente avvia un’azione, ad esempio fa clic su una miniatura oppure avvia o arresta un video, il visualizzatore “trasmette” un evento e i relativi dati alla pagina Web.
+Gli eventi del visualizzatore descrivono le azioni eseguite dagli utenti con i visualizzatori Dynamic Media Classic. Quando un utente avvia una determinata azione, ad esempio facendo clic su una miniatura o avviando o arrestando un video, il visualizzatore &quot;trasmette&quot; un evento alla pagina web, insieme ai dati associati a tale evento.
 
 La tabella di seguito descrive gli eventi dei visualizzatori che potete aggiungere alla schermata Configurazione Adobe Analytics.
 
