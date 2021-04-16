@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Gestione risorse
-role: Professionista
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # Verifica dei file di processo{#checking-job-files}
 
@@ -121,7 +121,7 @@ In questa tabella vengono visualizzati gli incrementi temporali, i relativi valo
 | Ore | 0-23 | Notare l’uso dell’orologio costituito da 24 ore. | `, - * /` |
 | Giorno del mese | 1-31 | Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve utilizzare un carattere jolly `?`. | `, - * / ? L C` |
 | Mese | 1-12 o gen, feb, mar, Apr, May, Jun, Jul, Aug, Set, Set, ott, nov, Dec | I valori sono sensibili all’uso di maiuscole e minuscole. | `, - * /` |
-| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori sono sensibili all’uso di maiuscole e minuscole. Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve usare un carattere jolly ? . | `, - * / ? L C #` |
+| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori sono sensibili all’uso di maiuscole e minuscole. Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve utilizzare un carattere jolly `?`. | `, - * / ? L C #` |
 | Anno (facoltativo) | Vuoto o 1970-2099 |  | `, - * /` |
 
 
