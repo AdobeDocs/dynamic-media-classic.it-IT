@@ -8,35 +8,32 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
-role: Professionista
+role: Business Practitioner
+exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 95%
+source-wordcount: '244'
+ht-degree: 59%
 
 ---
-
 
 # Gestione delle varianti di contenuto{#managing-content-variations}
 
 Utilizzando dei set di modelli è possibile gestire il modo in cui vengono pubblicate le varianti delle risorse.
 
-Potete creare un set di modelli per gestire le varianti di un modello e controllare quale variante viene utilizzata senza modificare il codice nel sito. In questo modo i manager dei contenuti possono cambiare i contenuti visualizzati senza che il reparto IT debba modificare alcun URL nel codice Web.
+Potete creare un set di modelli per gestire le varianti di un modello e controllare quale variante viene utilizzata senza modificare il codice nel sito. Questo metodo consente ai content manager di ruotare il contenuto senza richiedere all’IT di modificare un URL nel codice Web.
 
-Per visualizzare la variante del modello che compare nella pagina vengono utilizzati gli URL universali, in base all’ordine nel set. Il primo modello nell’elenco del set di modelli viene sempre pubblicato.
+Gli URL universali vengono utilizzati per visualizzare la variante del modello che appare sulla pagina, in base all’ordine in cui sono elencati nel set. Il primo modello nell’elenco del set di modelli viene sempre pubblicato.
 
 Potete utilizzare qualsiasi URL di predefinito per immagini presente nell’elenco. Gli URL di predefiniti per immagini sono simili agli URL universali. Possono essere presenti più URL di predefiniti per immagini.
 
-1. Fate clic su Genera > Set di modelli.
+1. Fai clic su **[!UICONTROL Genera]** > **[!UICONTROL Set di modelli]**. Viene aperta la funzione di generazione.
+1. Seleziona un modello, quindi fai clic su **[!UICONTROL Aggiungi/Anteprima]**.
+1. Modifica le proprietà del modello e fai clic su **[!UICONTROL Salva con nome]** per creare un&#39;altra versione.
+1. Digita un nome e fai clic su **[!UICONTROL Salva]**.
 
-   Viene aperta la funzione di generazione.
-
-1. Selezionate un modello e fate clic su Aggiungi/Anteprima.
-1. Modificate le proprietà del modello e fate clic su Salva con nome per creare una nuova versione.
-1. Digitate un nome e fate clic su Salva.
-
-   Dovete pubblicare sia la risorsa che il modello.
+   La risorsa e il modello devono essere pubblicati.
 
 1. Passate alla pagina Dettagli per ottenere l’URL della copia dalla sezione URL.
 
@@ -44,5 +41,4 @@ Potete spostare un modello nell’ordine dei modelli (ad esempio, per portarlo i
 
 >[!NOTE]
 >
->per visualizzare le modifiche potrebbe essere necessario cancellare la cache. Le modifiche vengono visualizzate nel sito Web solo dopo che sono state implementate nella cache.
-
+>Se necessario, cancella la cache per visualizzare le modifiche. Le modifiche vengono visualizzate nel sito Web solo dopo che sono state implementate nella cache.
