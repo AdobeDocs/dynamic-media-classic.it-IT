@@ -3,7 +3,7 @@ title: Risorse utili
 description: Collegamenti a webinar, video di formazione, informazioni sulle best practice e risorse per sviluppatori.
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
-role: Amministratore, Business Practices
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

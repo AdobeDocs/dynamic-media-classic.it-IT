@@ -3,7 +3,7 @@ description: 'La newsletter Dynamic Media di Experience League è una newsletter
 keywords: contenuti multimediali dinamici;newsletter;aggiornamenti prodotto;suggerimenti e trucchi;eventi;successo cliente;blog;blog;blog;immagini;video;funzionalità;funzionalità
 title: Newsletter Dynamic Media
 feature: Dynamic Media Classic
-role: Amministratore, Business Practices
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 title: Video di formazione su Dynamic Media Classic
 description: Video di formazione su come iniziare, come usare immagini dinamiche, video, portale multimediale, modelli e creazione e rendering delle immagini.
 feature: Dynamic Media Classic
-role: Amministratore, Business Practices
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
