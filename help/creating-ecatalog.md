@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Business Practitioner
+exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 78%
+source-wordcount: '986'
+ht-degree: 79%
 
 ---
-
 
 # Creazione di un eCatalog{#creating-an-ecatalog}
 
@@ -24,7 +24,7 @@ Quando si crea un eCatalog occorre ordinare le pagine, scegliere il layout delle
 
 ## Creazione di un eCatalog  {#create}
 
-In un eCatalog potete includere file di immagini e file PDF.
+Puoi includere file di immagine e file PDF nel tuo eCatalog.
 
 Quando create un eCatalog, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
 
@@ -39,45 +39,47 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Iniziate a creare l’eCatalog mediante una di queste tecniche:
 
-   **Seleziona** prima i fileNel pannello Sfoglia, seleziona i file e fai clic su Genera > eCatalogs.
+   * **Seleziona prima i file** . Nel pannello Sfoglia, seleziona i file e fai clic su  **[!UICONTROL Genera]**  >  **[!UICONTROL eCatalogs]**.
 
-   **Inizia dalla** schermata eCatalogFai clic su Genera > eCatalogs. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
+   * **Inizia dalla schermata**  eCatalog - Fai clic su  **[!UICONTROL Genera]**  >  **[!UICONTROL eCatalog]**. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
 
-   ***nota**: Per visualizzare gli elementi nella Libreria risorse per nome anziché per miniatura, seleziona l’opzione Nome per Vista libreria risorse predefinita in Configurazione personale. *
+      >[!NOTE]
+      >
+      >per visualizzare gli elementi nella Libreria risorse per nome anziché per miniatura, selezionate l’opzione Nome per Visualizzazione predefinita libreria di risorse in Configurazione personale.
 
-1. Selezionate un layout completo per l’eCatalog. Per ottenere pagine singole, fate clic sul pulsante 1 immagine ; per disporre le pagine in coppie di pagine affiancate, fate clic su 2 immagini ; per disporle come più pagine affiancate, fate clic sul pulsante Personalizzato . Viene visualizzata la finestra di dialogo Modifica layout eCatalog. Selezionare le opzioni Tutte le pagine affiancate e fare clic su **OK**.
-1. Se necessario, potete impostare un diverso layout per pagine singole e affiancate selezionandole e scegliendo il pulsante 1 immagine, 2 immagini o Personalizzato. Viene visualizzata la finestra di dialogo Modifica layout eCatalog. Selezionare le opzioni Pagine affiancate selezionate e fare clic su **OK**.
+1. Selezionate un layout completo per l’eCatalog. Per ottenere pagine singole, fate clic sul pulsante 1 immagine ; per disporre le pagine in coppie di pagine affiancate, fate clic su 2 immagini ; per disporle come più pagine affiancate, fate clic sul pulsante Personalizzato . Viene visualizzata la finestra di dialogo Modifica layout eCatalog. Selezionare le opzioni Tutte le pagine affiancate e fare clic su **[!UICONTROL OK]**.
+1. Facoltativamente, modifica il layout delle singole pagine o pagine affiancate facendo clic su di esse e quindi scegliendo il pulsante **[!UICONTROL 1 Su]**, **[!UICONTROL 2 Su]** o **[!UICONTROL Personalizzato]** . Viene visualizzata la finestra di dialogo Modifica layout eCatalog. Selezionare le opzioni Pagine affiancate selezionate e fare clic su **[!UICONTROL OK]**.
 1. Riordinate le pagine in base alle necessità utilizzando una delle seguenti tecniche:
 
-   **** TrascinamentoTrascina una pagina o un set di pagine affiancate in una nuova posizione. Una barra verticale indica la posizione in cui la pagina viene spostata.
+   * **Trascinamento** : consente di trascinare una pagina o un set di pagine affiancate in una nuova posizione. Una barra verticale indica la posizione in cui la pagina viene spostata.
 
-   **Pulsante Sposta** aSelezionare una pagina o un set di pagine affiancate, fare clic sul pulsante Sposta a e scegliere la pagina dal menu che si desidera visualizzare in precedenza.
+   * **Pulsante Sposta a** : seleziona una pagina o un set di pagine affiancate, fai clic su  **[!UICONTROL Sposta a]** e scegli la pagina dal menu che desideri visualizzare in precedenza.
 
-   **Sequenza #** In Vista a elenco, immettere i numeri di pagina nei campi Sequenza # .
+   * **Sequenza #**  - Nella vista a elenco, immettere i numeri di pagina nei campi Sequenza # .
 
-1. Al termine dell’operazione, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
-1. Fate clic su **Salva**.
+1. Al termine dell’operazione, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
+1. Fate clic su **[!UICONTROL Salva]**.
 1. Nella finestra di dialogo Salva, selezionate una cartella in cui memorizzare l’eCatalog. Nel campo Nome file, digitate il nome del set.
-1. Fate clic su **Salva**.
+1. Fate clic su **[!UICONTROL Salva]**.
 
-   Per visualizzare l’anteprima dell’eCatalog, dopo averlo salvato, fate clic su **Anteprima**.
+   Per visualizzare l’anteprima dell’eCatalog, dopo averlo salvato, fate clic su **[!UICONTROL Anteprima]**.
 
 ## Modifica di un eCatalog  {#editing-an-ecatalog}
 
-A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
+A seconda se modificate un set pubblicato o non pubblicato, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** incide su set e relativi membri nei seguenti modi:
 
 | Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono il proprio stato di pubblicazione.Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione o di annullamento della pubblicazione. |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
-**Per modificare un eCatalog**
+**Per modificare un eCatalog:**
 
-1. Fate clic sul pulsante rollover **Modifica** dell’eCatalog.
+1. Fate clic sul pulsante rollover **[!UICONTROL Modifica]** dell’eCatalog.
 1. Apportate le modifiche necessarie.
 1. Al termine dell’operazione di modifica, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **Salva**.
@@ -111,15 +113,15 @@ Per inserire manualmente i nomi delle pagine uno alla volta, aprite la scheda Or
 
 L’importazione dei nomi di pagina è consigliata se disponete di un eCatalog con numerose pagine. Potete importare i nomi da un file XML o delimitato da tabulazioni.
 
-L’etichetta del sommario viene memorizzata nel campo Dati utente di un’immagine; formatta questi dati come elenco di `name=<value>` ` pairs separated by two question marks “??” `. Ad esempio, per impostare un’etichetta per un campo TOC denominato tocEN &quot;, imposta i dati utente dell’immagine su:
+L’etichetta del sommario viene memorizzata nel campo Dati utente di un’immagine; formatta questi dati come elenco di `name=<value>` ` pairs separated by two question marks “??” `. Ad esempio, per impostare un’etichetta per un campo di sommario denominato `tocEN`, impostate i Dati utente dell’immagine su:
 
-tocEN=&lt;etichetta_pagina_EN>
+`tocEN=&lt;EN_page_label>`
 
-Per impostare etichette diverse per i campi di sommario denominati tocEN e tocFR:
+Per impostare etichette separate per i campi del sommario denominati `tocEN` e `tocFR`:
 
-tocEN=&lt;etichetta_pagina_EN>??tocFR=&lt;etichetta_pagina_FR>
+`tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>`
 
-Per importare il campo Dati utente in un file delimitato da tabulazioni, includete i dati utente del campo:
+Per importare il campo Dati utente in un file delimitato da tabulazioni, includere i dati utente del campo:
 
 | IPSID | Dati utente |
 |--- |--- |
