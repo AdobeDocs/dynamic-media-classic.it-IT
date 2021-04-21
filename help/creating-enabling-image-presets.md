@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
+feature: Dynamic Media Classic, Collaborazione, Predefiniti immagine, Gestione risorse
 role: Administrator,Business Practitioner
+exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 81%
 
 ---
-
 
 # Creazione e attivazione dei predefiniti per immagini{#creating-and-enabling-image-presets}
 
@@ -27,7 +27,7 @@ Gli amministratori di Media Portal possono creare i predefiniti per immagini per
 Per l’esportazione delle risorse di immagine sono applicabili le restrizioni seguenti:
 
 * Le dimensioni larghezza x altezza devono essere inferiori o uguali a 100 MB per immagine. Ad esempio, l’immagine non può essere più grande di 10.000x10.000 o di variazioni di proporzioni inferiori come ad esempio 8.000x12.000.
-* Il limite massimo di dimensioni file totale per singolo processo di esportazione è di 1 GB.
+* È disponibile un massimo di 1 GB di dimensione totale del file per processo di esportazione.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
 
 >[!NOTE]
