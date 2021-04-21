@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
 role: Administrator,Business Practitioner
+exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 95%
+source-wordcount: '827'
+ht-degree: 86%
 
 ---
-
 
 # Creazione e gestione di gruppi in Media Portal {#creating-and-managing-media-portal-groups}
 
@@ -26,7 +26,7 @@ I *gruppi* facilitano l’amministrazione degli utenti di Media Portal. Per acce
 
 La creazione di gruppi consente di assegnare diversi livelli di autorizzazione di accesso. Per ogni gruppo, potete assegnare le autorizzazioni di lettura, scrittura ed eliminazione per diverse cartelle e risorse nelle cartelle. Potete inoltre decidere quali predefiniti per immagini rendere disponibili per il gruppo. Successivamente, potete assegnare utenti ai relativi gruppi. Un utente può appartenere a più di un gruppo. Grazie all’uso dei gruppi potete limitare il diritto di accesso a soli alcuni set di risorse.
 
-Se non assegnate espressamente a un gruppo l’autorizzazione per una risorsa o una cartella, questa eredita le autorizzazioni assegnate alla cartella principale (la cartella che si trova al livello superiore nella gerarchia di cartelle). Assegnando le autorizzazioni a una cartella principale potrete avere la certezza che tutte le relative sottocartelle ereditino le stesse autorizzazioni.
+Se non si concede in modo specifico l’autorizzazione di un gruppo a una risorsa o a una cartella, tale risorsa o cartella eredita le autorizzazioni assegnate alla relativa cartella padre (la cartella sopra di essa nella gerarchia delle cartelle). Assegnando le autorizzazioni a una cartella principale potrete avere la certezza che tutte le relative sottocartelle ereditino le stesse autorizzazioni.
 
 >[!NOTE]
 >
@@ -34,29 +34,29 @@ Se non assegnate espressamente a un gruppo l’autorizzazione per una risorsa o 
 
 ## Aggiunta di un gruppo  {#adding-a-group}
 
-1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
-1. Fate clic su **Aggiungi**.
-1. Nella finestra di dialogo Aggiungi gruppo, inserite un nome per il gruppo nella casella Nome gruppo e fate clic su **Aggiungi gruppo**.
+1. Fate clic su **[!UICONTROL Configurazione]** >**[!UICONTROL Configurazione Media Portal]** > **[!UICONTROL Gruppi]**.
+1. Fate clic su **[!UICONTROL Aggiungi]**.
+1. Nella finestra di dialogo Aggiungi gruppo, inserite un nome per il gruppo nella casella Nome gruppo e fate clic su **[!UICONTROL Aggiungi gruppo]**.
 1. Se lo desiderate, potete selezionare le caselle di controllo accanto ai nomi di utenti per aggiungere degli utenti a un nuovo gruppo.
-1. Se desiderate specificare autorizzazioni di accesso in questa fase, fate clic sulla scheda **Autorizzazioni di accesso alle risorse** e specificate le opzioni desiderate.
+1. Per specificare ora le autorizzazioni di accesso, fare clic sulla scheda **[!UICONTROL Autorizzazioni di accesso alle risorse]** e quindi specificare le opzioni desiderate.
 
    Consultate [Definire le autorizzazioni di accesso alle risorse per un gruppo](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Per scegliere quali predefiniti per immagini rendere disponibili per il gruppo, fate clic sulla scheda **Autorizzazioni di accesso ImagePreset** e selezionate i predefiniti per immagini che potranno essere usati dal gruppo.
+1. Per scegliere quali predefiniti per immagini rendere disponibili per il gruppo, fate clic sulla scheda **[!UICONTROL Autorizzazioni di accesso ImagePreset]** e selezionate i predefiniti per immagini che potranno essere usati dal gruppo.
 
    Consultate [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
-1. Fate clic su **Chiudi**.
+1. Fate clic su **[!UICONTROL Chiudi]**.
 
 ## Definizione delle autorizzazioni di accesso alle risorse per un gruppo  {#establishing-asset-access-permissions-for-a-group}
 
-1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
+1. Fate clic su **[!UICONTROL Configurazione]** >**[!UICONTROL Configurazione Media Portal]** > **[!UICONTROL Gruppi]**.
 1. Nella pagina dell’elenco Gruppi, effettuate una delle seguenti operazioni:
 
-   * Per aggiungere un gruppo e specificare le autorizzazioni, fate clic su **Aggiungi**. Nella finestra di dialogo Aggiungi gruppo, inserite un nome per il gruppo, fate clic su **Aggiungi gruppo** e aggiungete utenti al gruppo.
-   * Per modificare le autorizzazioni assegnate a un gruppo, selezionate il gruppo e fate clic su **Modifica**.
+   * Per aggiungere un gruppo e specificare le autorizzazioni, fate clic su **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi gruppo, inserite un nome per il gruppo, fate clic su **[!UICONTROL Aggiungi gruppo]** e aggiungete utenti al gruppo.
+   * Per modificare le autorizzazioni assegnate a un gruppo, selezionate il gruppo e fate clic su **[!UICONTROL Modifica]**.
 
-1. Nella finestra di dialogo Aggiungi gruppo o Modifica gruppo, fate clic sulla scheda **Autorizzazioni di accesso alle risorse**. Nella parte destra della scheda sono disponibili le caselle per specificare le autorizzazioni di lettura, scrittura ed eliminazione per cartelle e risorse. Potete espandere e comprimere cartelle e sottocartelle nel riquadro a sinistra.
+1. Nella finestra di dialogo Aggiungi gruppo o Modifica gruppo, fate clic sulla scheda **[!UICONTROL Autorizzazioni di accesso alle risorse]**. Nella parte destra della scheda sono disponibili le caselle per specificare le autorizzazioni di lettura, scrittura ed eliminazione per cartelle e risorse. Potete espandere e comprimere cartelle e sottocartelle nel riquadro a sinistra.
 1. Per assegnare le autorizzazioni necessarie a cartelle o singole risorse, selezionate la cartella nel riquadro a sinistra. Il contenuto della cartella viene visualizzato nel riquadro a destra. Per assegnare le autorizzazioni al gruppo, selezionate le caselle per i corrispondenti file e cartelle nel riquadro a destra.
 
    La tabella di seguito presenta le associazioni tra diverse attività e le autorizzazioni di lettura, scrittura ed eliminazione.
@@ -70,7 +70,7 @@ Se non assegnate espressamente a un gruppo l’autorizzazione per una risorsa o 
    | Rinominare i file |  | X |  |
    | Eliminare i file |  |  | X |
 
-1. Fai clic su **Chiudi**.
+1. Fai clic su **[!UICONTROL Chiudi]**.
 
 >[!NOTE]
 >
@@ -82,22 +82,21 @@ Le autorizzazioni di accesso ai predefiniti per immagini per un gruppo vi permet
 
 Consultate anche [Specifica delle opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
+1. Fate clic su **[!UICONTROL Configurazione]** >**[!UICONTROL Configurazione Media Portal]** > **[!UICONTROL Gruppi]**.
 1. Nella pagina dell’elenco Gruppi, effettuate una delle seguenti operazioni:
 
-   * Per aggiungere un gruppo e specificare quali predefiniti per immagini sono disponibili per tale gruppo, fate clic su **Aggiungi**. Nella finestra di dialogo Aggiungi gruppo, inserite un nome per il gruppo, fate clic su **Aggiungi gruppo** e aggiungete utenti al gruppo.
-   * Per modificare le opzioni di predefiniti per immagini di un gruppo, selezionate il gruppo e fate clic su **Modifica**.
+   * Per aggiungere un gruppo e specificare quali predefiniti per immagini sono disponibili per tale gruppo, fate clic su **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi gruppo, inserite un nome per il gruppo, fate clic su **[!UICONTROL Aggiungi gruppo]** e aggiungete utenti al gruppo.
+   * Per modificare le opzioni di predefiniti per immagini di un gruppo, selezionate il gruppo e fate clic su **[!UICONTROL Modifica]**.
 
-1. Nella finestra di dialogo Aggiungi gruppo o Modifica gruppo, fate clic sulla scheda **Autorizzazioni di accesso ImagePreset**.
-1. Selezionate o deselezionate i predefiniti per immagini per specificare quelli che devono essere disponibili per gli utenti di Media Portal in fase di esportazione delle risorse.
-1. Fate clic su **Chiudi**.
+1. Nella finestra di dialogo Aggiungi gruppo o Modifica gruppo, fate clic sulla scheda **[!UICONTROL Autorizzazioni di accesso ImagePreset]**.
+1. Per specificare quali predefiniti sono disponibili per gli utenti di Media Portal al momento dell’esportazione delle risorse, seleziona o deseleziona Predefiniti immagini .
+1. Fate clic su **[!UICONTROL Chiudi]**.
 
 ## Modificare ed eliminare i gruppi  {#edit-and-delete-groups}
 
-1. Fate clic su **Configurazione** >**Configurazione Media Portal** > **Gruppi**.
+1. Fate clic su **[!UICONTROL Configurazione]** >**[!UICONTROL Configurazione Media Portal]** > **[!UICONTROL Gruppi]**.
 1. Nella pagina dell’elenco Gruppi, selezionate un gruppo e modificatelo o eliminatelo.
 
-   **Modifica di un** gruppoFare clic su Modifica, quindi scegliere le opzioni nella finestra di dialogo Modifica gruppo.
+   **Modifica di un gruppo**  - Fai clic su  **[!UICONTROL Modifica]**, quindi scegli le opzioni nella finestra di dialogo Modifica gruppo.
 
-   **Eliminazione di un** gruppoFare clic su Elimina.
-
+   **Eliminazione di un gruppo**  - Fai clic su  **[!UICONTROL Elimina]**.
