@@ -7,14 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 60%
+source-wordcount: '1583'
+ht-degree: 61%
 
 ---
 
@@ -54,9 +54,11 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 **Inviato** daElenchi che hanno caricato le risorse.
 
-***Nota **: Per annullare i processi di pubblicazione e caricamento in corso, fai clic sul pulsante Annulla accanto alla barra di avanzamento.*
+>[!NOTE]
+>
+>per annullare i processi di pubblicazione e caricamento in corso, fate clic sul pulsante Annulla accanto alla barra di avanzamento.
 
-## Modifica delle visualizzazioni nella pagina Processi {#changing-views-on-the-jobs-page}
+## Modifica delle visualizzazioni nella pagina Processi  {#changing-views-on-the-jobs-page}
 
 Per ordinare i processi o modificare la visualizzazione della scheda Cronologia nella pagina Processi, effettuate le seguenti procedure:
 
