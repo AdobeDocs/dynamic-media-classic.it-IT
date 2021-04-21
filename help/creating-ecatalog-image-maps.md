@@ -7,43 +7,42 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Business Practitioner
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 60%
+source-wordcount: '1484'
+ht-degree: 55%
 
 ---
 
 # Creazione di mappe immagine per un eCatalog{#creating-ecatalog-image-maps}
 
-Una mappa immagine è un’area in una pagina eCatalog su cui l’utente può passare il mouse o fare clic per effettuare operazioni di vario tipo. Quando si passa il puntatore su una mappa immagine, si può ad esempio visualizzare la descrizione a comparsa di un elemento. Quando fate clic su una Mappa immagine, viene avviata un’altra azione. Ad esempio, potete aprire una pagina Web per consentire agli utenti di visualizzare ulteriori informazioni su un elemento o per acquistarlo, oppure per avviare un video che ne illustra l’uso.
+Una mappa immagine è un’area in una pagina eCatalog su cui l’utente può passare il mouse o fare clic per effettuare operazioni di vario tipo. Quando si sposta il puntatore su una mappa immagine, ad esempio, viene visualizzata una descrizione testuale di rollover di un elemento. Quando fate clic su una Mappa immagine, viene avviata un’altra azione. Ad esempio, potete aprire una pagina Web per consentire agli utenti di visualizzare ulteriori informazioni su un elemento o per acquistarlo, oppure per avviare un video che ne illustra l’uso.
 
 ## Disegnare mappe immagine per eCatalog  {#drawing-ecatalog-image-maps}
 
 Per gli eCatalog, potete disegnare le mappe immagine nella scheda Mappe pagine della schermata eCatalog. Questa schermata include l’area Mappa immagine in cui vengono visualizzate le pagine eCatalog e, a destra, l’elenco delle mappe immagine. Quando create delle mappe immagine, i relativi nomi vengono inseriti nell’elenco delle mappe immagine.
 
-1. Fate clic sul pulsante rollover Modifica dell’eCatalog.
+1. Fate clic sul pulsante rollover **[!UICONTROL Modifica]** dell’eCatalog.
 1. Fai clic su **[!UICONTROL Mappa pagine]**.
 1. A sinistra della schermata Mappe pagine, selezionate la pagina che ci interessa.
 1. Nell’area Mappa immagine, disegnate una mappa immagine rettangolare o poligonale:
 
-   * **Mappa rettangolareSeleziona lo strumento Mappa immagine rettangolare e trascina sulla pagina per creare il rettangolo.**
+   * **Mappa rettangolare** : seleziona lo strumento Mappa immagine rettangolare e trascina sulla pagina per creare il rettangolo.
 
+   * **Mappa poligonale** : selezionate lo strumento Mappa immagine poligonale e fate clic il numero di volte necessario intorno al perimetro dell&#39;immagine. Facendo clic su, Dynamic Media Classic disegna i bordi della mappa immagine.
 
-   * **Mappa poligonaleSelezionate lo strumento Mappa immagine poligonale e fate clic il numero di volte necessario intorno al perimetro dell&#39;immagine.**
-Facendo clic su, Dynamic Media Classic disegna i bordi della mappa immagine.
-   Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome nell’elenco Mappa immagine. Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome della pagina eCatalog in cui si sta lavorando.
+      Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome nell’elenco Mappa immagine. Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome della pagina eCatalog in cui si sta lavorando.
 
 1. (Facoltativo) Nell’elenco delle mappe immagini, nella colonna Nome, immettete un nuovo nome per la mappa immagine. Non includete spazi nel nome inserito.
 1. Una mappa immagine può essere usata per consentire agli utenti di aprire una nuova pagina Web quando fanno clic sulla mappa immagine. Nell’elenco delle mappe immagini, inserite l’URL della pagina Web nella colonna URL.
 
-   Fai clic su **[!UICONTROL Modifica]** e immetti un modello per semplificare l’immissione degli URL (modelli Href).
+   Per semplificare l’immissione degli URL (modelli Href), fai clic su **[!UICONTROL Modifica]** e immetti un modello.
 
-   Consulta [Utilizzo di un modello per immettere JavaScript™ e URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+Consulta [Utilizzo di un modello per immettere JavaScript™ e URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Facoltativo) Nell&#39;elenco a discesa Mostra, fare clic su **[!UICONTROL Testo di rollover]**, quindi immettere il testo che gli utenti dovranno visualizzare sullo schermo quando passano il puntatore sulla mappa immagine.
 1. (Facoltativo) Nell&#39;elenco a discesa Mostra , fai clic su **[!UICONTROL Altre azioni]** e immetti un attributo per attivare un&#39;azione di sfocatura o messa a fuoco quando gli utenti spostano i loro puntatori su una mappa immagine.
@@ -61,44 +60,39 @@ Per eliminare una mappa immagine, selezionane il nome nell’elenco Mappa immagi
 
 Facoltativamente, puoi anche visualizzare il testo della descrizione comando quando i clienti spostano i loro puntatori sulla mappa immagine in modo che sappiano cosa stanno facendo.
 
-**Per incorporare contenuti multimediali in un eCatalog**
+**Per incorporare contenuti multimediali in un eCatalog:**
 
 1. Disegnate una mappa immagine nell’eCatalog.
 
    Consultate [Disegnare mappe immagine per eCatalog](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
-1. Nell’elenco a discesa Mostra, selezionate Contenuti multimediali avanzati.
+1. Nell’elenco a discesa Mostra , seleziona **[!UICONTROL Contenuti multimediali avanzati]**.
 1. Nel pannello Aggiungi risorse sulla sinistra, individuate la cartella che contiene il set 360 gradi o il video (formato MP4) da incorporare.
 1. Trascinate la risorsa sulla mappa immagine.
-1. (Facoltativo) Nel pannello Mappa immagine, nella colonna Descrizione, inserite il testo che gli utenti devono vedere quando passano il mouse sulla mappa immagine.
+1. (Facoltativo) Nel pannello elenco Mappa immagine, sotto l&#39;intestazione di colonna **[!UICONTROL Descrizione comandi]** , immetti il testo che gli utenti dovranno visualizzare sullo schermo quando posizionano il puntatore del mouse sulla mappa immagine.
 1. Fate clic su **[!UICONTROL Salva]**.
 
 ## Modifica di mappe immagine per eCatalog {#editing-ecatalog-image-maps}
 
 Nella scheda Mappe pagine della schermata eCatalog, utilizzate le tecniche seguenti per modificare le mappe immagine per l’eCatalog:
 
-* **Regolazione della**
-posizioneSelezionate lo strumento Panning e spostate il puntatore vicino ma non oltre il bordo della mappa. Quando il puntatore diventa una freccia a quattro punte, trascinate l’intera mappa immagine in una nuova posizione.
+* **Regolazione della posizione** : seleziona lo strumento Panning e sposta il puntatore vicino ma non oltre il bordo della mappa. Quando il puntatore diventa una freccia a quattro punte, trascinate l’intera mappa immagine in una nuova posizione.
 
    Consultate [Regolazione della posizione, forma e dimensione delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Modifica della forma e delle**
-dimensioniPer ridimensionare una mappa immagine rettangolare, selezionate lo strumento Panning. Portate il puntatore su un lato o un angolo e quando compare l’icona della freccia a due punte, trascinate. Per ridimensionare una mappa immagine poligonale, trascinate una maniglia di selezione quadrata. Per creare una maniglia di selezione, fate clic sul bordo della mappa immagine e trascinate.
+* **Modifica della forma e delle dimensioni** : per ridimensionare una mappa immagine rettangolare, selezionate lo strumento Panning. Portate il puntatore su un lato o un angolo e quando compare l’icona della freccia a due punte, trascinate. Per ridimensionare una mappa immagine poligonale, trascinate una maniglia di selezione quadrata. Per creare una maniglia di selezione, fate clic sul bordo della mappa immagine e trascinate.
 
    Consultate [Regolazione della posizione, forma e dimensione delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Eliminazione delle**
-mappe immagineSelezionate lo strumento Panning, fate clic sulla mappa immagine per selezionarla, quindi fate clic su  **[!UICONTROL Elimina]**.
+* **Eliminazione delle mappe immagine** : selezionate lo strumento Panning, fate clic sulla mappa immagine per selezionarla, quindi fate clic su  **[!UICONTROL Elimina]**.
 
    Per rimuovere tutte le mappe immagine da un eCatalog, fai clic sulla scheda **[!UICONTROL Ordina pagine]** , quindi fai clic su **[!UICONTROL Cancella mappe]**.
 
-* **Gestione delle**
-mappe immagine sovrapposteTrascinate per modificare l’ordine delle mappe immagine nell’elenco Mappa immagine.
+* **Gestione delle mappe immagine sovrapposte**  - Trascinate per modificare l’ordine delle mappe immagine nell’elenco Mappa immagine.
 
    Consultate [Gestione delle mappe immagine sovrapposte](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Copiare le mappe immagine in altre**
-pagineSelezionate il pulsante Copia mappe in (assicuratevi di essere nella scheda Mappa pagine ). Nella schermata Seleziona immagini , seleziona la pagina o le pagine in cui desideri copiare le mappe immagine e fai clic sul pulsante **[!UICONTROL Seleziona]** .
+* **Copiare le mappe immagine in altre pagine**  - Fate clic su  **[!UICONTROL Copia mappe in]**  (accertatevi di essere nella scheda Mappe pagine). Nella schermata Seleziona immagini , seleziona la pagina o le pagine in cui desideri copiare le mappe immagine e fai clic su **[!UICONTROL Seleziona]**.
 
    Consultate [Copia delle mappe immagine in altre immagini](creating-image-maps.md#copying_image_maps).
 
@@ -118,8 +112,8 @@ Per visualizzare la schermata Riepilogo mappe, nella scheda Mappe pagine della s
 
    Nella schermata Riepilogo mappe viene visualizzato il numero di mappe immagine, di URL, di descrizioni di testi di rollover e di altre azioni presenti nell’eCatalog.
 
-1. In caso di errori con la chiave di rollover, fai clic sull’errore nella colonna Errore Rollover_Key per vedere cosa deve cambiare nel foglio di calcolo per correggere l’errore. Potete selezionare e copiare il testo di questo messaggio e incollarlo nel foglio dati.
-1. Fai clic su **[!UICONTROL Anteprima]** per esaminare una pagina nel visualizzatore di eCatalog, fai clic sulla X per chiudere la schermata Riepilogo e tornare alla schermata Mappa pagine oppure fai clic su **[!UICONTROL Chiudi]** per tornare a **[!UICONTROL Sfoglia]**.
+1. In caso di errori con la chiave di rollover, fai clic sull’errore nella colonna **[!UICONTROL Errore rollover_Key]** per vedere cosa deve cambiare nel foglio di calcolo per correggere l’errore. Potete selezionare e copiare il testo di questo messaggio e incollarlo nel foglio dati.
+1. Fai clic su **[!UICONTROL Anteprima]** per esaminare una pagina nel visualizzatore di eCatalog, fai clic sulla X per chiudere la schermata Riepilogo e tornare alla schermata Mappa pagine oppure fai clic su **[!UICONTROL Chiudi]** per tornare a Sfoglia.
 
 ### Importare i dati per le mappe immagine {#import-image-map-data}
 
@@ -132,8 +126,7 @@ Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potet
 Nella schermata Riepilogo mappe, seguite queste istruzioni per importare i dati della mappa immagine per le mappe immagine create:
 
 1. Fai clic su **[!UICONTROL Importa dati mappa]**.
-1. Nella finestra di dialogo Importa metadati fare clic su **[!UICONTROL Sfoglia]**.
-1. Selezionare il file DTD XML o delimitato da tabulazioni.
+1. Nella finestra di dialogo Importa metadati fare clic su **[!UICONTROL Sfoglia]**, quindi selezionare il file DTD XML o delimitato da tabulazioni.
 1. Nel campo Nome processo, digitate un nome per il file (fate attenzione a mantenere l’estensione).
 1. Fate clic su **[!UICONTROL Carica]**.
 
@@ -145,10 +138,10 @@ Potete copiare tutte le mappe immagine di un eCatalog in un diverso eCatalog. Qu
 >
 >se l’eCatalog in cui copiate le mappe immagine ne contiene già altre, queste ultime verranno sostituite a seguito della copia.
 
-Per copiare tutte le mappe immagine di un eCatalog in un altro eCatalog, effettuate le seguenti operazioni:
+Per copiare tutte le mappe immagine di un eCatalog in un altro eCatalog, procedi come segue:
 
 1. Seleziona l’eCatalog con le mappe immagine da copiare e fai clic sul pulsante rollover dell’eCatalog **[!UICONTROL Modifica]** .
 1. Nella scheda Pagine ordine fare clic su **[!UICONTROL Copia mappe]**.
 1. Nella finestra di dialogo Seleziona risorsa , seleziona l’eCatalog in cui desideri copiare le mappe immagine, quindi fai clic su **[!UICONTROL Seleziona]**.
 
-Dynamic Media Classic visualizza un messaggio di avviso se l’eCatalog di destinazione (l’eCatalog in cui copiate le mappe immagine) ha un numero diverso di pagine o immagini di dimensioni diverse. È possibile fare clic su **[!UICONTROL Continua]** per copiare le mappe immagine nonostante l&#39;avviso.
+Dynamic Media Classic visualizza un messaggio di avviso se l’eCatalog di destinazione (l’eCatalog in cui copiate le mappe immagine) ha un numero diverso di pagine o immagini di dimensioni diverse. Fai clic su **[!UICONTROL Continua]** per copiare le mappe immagine nonostante l&#39;avviso.
