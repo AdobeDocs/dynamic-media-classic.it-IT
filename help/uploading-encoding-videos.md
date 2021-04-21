@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
-ht-degree: 81%
+source-wordcount: '3942'
+ht-degree: 82%
 
 ---
-
 
 # Caricamento e codifica dei video{#uploading-and-encoding-videos}
 
@@ -249,7 +249,7 @@ Ad esempio, supponete che il video sia di 1920x1080. Nella tabella seguente, i t
 |--- |--- |--- |--- |
 | Sorgente | 1920x1080 | 1 | 3 |
 | Codificato | 960x540 | 2 | 2 |
-| Codificato | 640x360 | 3 | 1 |
+| Codificato | 640x360 | 3 | 3 |
 | Codificato | 480x270 | 4 | 4 |
 
 ### Formato di file video codificato  {#encoded-video-file-format}
@@ -312,22 +312,24 @@ Potete anche scegliere un’opzione per il dispositivo di riproduzione e limitar
 
 I predefiniti per video attivati vengono visualizzati nella finestra di dialogo Opzioni processo di caricamento che compare quando un utente carica dei file video durante il processo di caricamento. L’utente può quindi scegliere tra tutti i predefiniti di codifica attivati.
 
-**Per attivare o disattivare i predefiniti di codifica video**
+**Per attivare o disattivare i predefiniti di codifica video:**
 
-1. In Dynamic Media Classic, fate clic su **Configurazione** > **Impostazione applicazione** > **Predefiniti video**.
+1. In Dynamic Media Classic, fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Predefiniti video]**.
 1. Effettuate una delle seguenti operazioni:
 
-   * Fate clic su **Predefiniti video adattati**.
-   * Fate clic su **Predefiniti codifica singola**.
+   * Fate clic su **[!UICONTROL Predefiniti video adattati]**.
+   * Fate clic su **[!UICONTROL Predefiniti codifica singola]**.
 
 1. Effettuate una delle seguenti operazioni:
 
    * Per attivare un predefinito per video, nella pagina dei predefiniti, selezionate la casella accanto al nome di un predefinito nella colonna Attivo.
    * Per disattivare un predefinito per video, deselezionate la casella accanto al predefinito per video da rendere inattivo.
 
-      ***nota**: I predefiniti per video inattivi non vengono visualizzati nella finestra di dialogo Opzioni processo di caricamento. *
+      >[!NOTE]
+      >
+      >I predefiniti per video disattivati non vengono elencati nella finestra di dialogo Opzioni processo di caricamento.
 
-1. Nell’angolo in basso a destra della pagina, fate clic su **Chiudi**.
+1. Nell’angolo in basso a destra della pagina, fate clic su **[!UICONTROL Chiudi]**.
 
 ### Aggiunta o modifica di un predefinito di codifica video  {#adding-or-editing-a-video-encoding-preset}
 
