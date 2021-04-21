@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,9 +36,11 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 * **Apertura di una cartella** : seleziona una cartella per visualizzarne il contenuto nel pannello Sfoglia.
 
-***Suggerimento **: Per nascondere o visualizzare la Libreria risorse, fai clic sul controllo Espandi/Comprimi a sinistra. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.*
+>[!TIP]
+>
+>Per nascondere o visualizzare la Libreria risorse, fai clic sul controllo **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** a sinistra. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.
 
-## Creazione di cartelle {#creating-folders}
+## Creazione di cartelle  {#creating-folders}
 
 Per creare le cartelle, effettua le seguenti operazioni:
 
