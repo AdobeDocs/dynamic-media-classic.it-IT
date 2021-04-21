@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: a5a6596213e273d806fbc012e2c63bf3458127b0
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1402'
 ht-degree: 77%
 
 ---
@@ -109,23 +109,26 @@ Per individuare le risorse filtrandole in base ai valori dei metadati, effettuat
 
 1. Fate clic sul pulsante Campo  di un pannello e seguite le istruzioni seguenti per visualizzare il menu di filtro e impostare l’operazione filtro:
 
-   **Scelta di un** campo metadatiSelezionare il nome del campo nel menu di filtro.
+   * **Scelta di un campo di metadati**  - Seleziona il nome del campo nel menu di filtro.
 
-   ***nota **: Nel menu di filtro vengono visualizzati solo i nomi dei campi di metadati nella visualizzazione metadati predefinita.*
+      >[!NOTE]
+      >
+      >nel menu sono riportati solo i nomi dei campi metadati della visualizzazione metadati predefinita. 
 
-   Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
+      Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
-   **Aggiunta di un** campo metadatiScegliere Aggiungi un pannello. Dopo che il pannello compare nel riquadro Filtri, fate clic sul relativo pulsante Campo e scegliete il nome del campo di metadati desiderato del menu.
+   * **Aggiunta di un campo**  metadati - Scegli Aggiungi un pannello. Dopo che il pannello compare nel riquadro Filtri, fate clic sul relativo pulsante Campo e scegliete il nome del campo di metadati desiderato del menu.
 
-   **Rimozione di un** campo metadatiScegliere Rimuovi pannello dal menu di filtro.
+   * **Rimozione di un campo metadati**  - Scegliere  **[!UICONTROL Rimuovi questo]** pannello dal menu di filtro.
 
    Quando scegliete un campo di metadati, nel relativo pannello vengono elencati i seguenti elementi:
 
    * Tutti i valori di metadati immessi per tale campo.
    * Per ciascun valore di metadati, il numero di risorse a cui è stato assegnato tale valore.
 
+
 1. Ripete il passo 2 fino a elencare tutti i campi di metadati per l’operazione filtro nei pannelli.
-1. In ciascun pannello, selezionate un valore di metadati da usare come filtro. Potete selezionare un solo valore per ciascun pannello.
+1. In ciascun pannello, selezionate un valore di metadati da usare come filtro. Non puoi selezionare più di un valore di metadati in ciascun pannello.
 
    Le risorse che corrispondono a tutti i valori selezionati vengono elencate nel pannello Sfoglia.
 
@@ -139,13 +142,13 @@ Per individuare le risorse filtrandole in base ai valori dei metadati, effettuat
 
 Per salvare, ripetere ed eliminare le operazioni filtro, effettuate le seguenti operazioni nella scheda Filtri:
 
-**Salvataggio di un&#39;** operazione filtroFare clic sul pulsante Seleziona predefinito, scegliere Salva corrente come nuovo predefinito e immettere un nome nella finestra di dialogo Salva.
+* **Salvataggio di un’operazione filtro**  - Fai clic su  **[!UICONTROL Seleziona predefinito]**, scegli  **[!UICONTROL Salva corrente come nuovo predefinito]** e immetti un nome nella finestra di dialogo Salva.
 
-**Ripetizione di un&#39;** operazione filtroFare clic sul pulsante Seleziona predefinito e scegliere il nome di un&#39;operazione filtro dal menu. Nel menu sono elencate le operazioni filtro precedentemente salvate.
+* **Ripetizione di un&#39;operazione filtro**  - Fare clic su  **[!UICONTROL Seleziona]** predefinito e scegliere il nome di un&#39;operazione filtro dal menu. Nel menu sono elencate le operazioni filtro precedentemente salvate.
 
-**Eliminazione di un&#39;operazione filtro dal** menu Seleziona predefinitoEseguire l&#39;operazione filtro. Quindi fate clic sul pulsante Seleziona predefinito e nel menu scegliete Elimina predefinito.
+* **Eliminazione di un&#39;operazione filtro dal menu**  Seleziona predefinito - Esecuzione dell&#39;operazione filtro. Quindi, fai clic su **[!UICONTROL Seleziona predefinito]** e scegli Elimina predefinito dal menu.
 
-## Utilizzo del server di metadati  {#using-the-metadata-server}
+## Utilizzo del server di metadati {#using-the-metadata-server}
 
 Il server di metadati è un’API pubblica che potete usare per ricercare risorse in base ai metadati tramite richieste http.
 
@@ -153,15 +156,15 @@ Per configurare il server di metadati, fate clic su Configurazione > Impostazio
 
 Si apre la schermata di impostazione del server metadati, con le seguenti opzioni:
 
-**Instant** PublishInvia automaticamente tutte le modifiche ai metadati quando vengono effettuate, incluse nuove risorse, modifiche alle parole chiave e così via.
+* **Pubblicazione istantanea** : invia automaticamente tutte le modifiche ai metadati quando vengono effettuate, incluse nuove risorse, modifiche alle parole chiave e così via.
 
-**XMP** PacketPubblica il pacchetto XMP. Questo pacchetto non viene usato per ricerche, ma offre i dati XMP più aggiornati.
+* **Pacchetto XMP**  - Pubblica il pacchetto XMP. Questo pacchetto non viene usato per ricerche, ma offre i dati XMP più aggiornati.
 
-**** Parole chiavePubblica le parole chiave sul server di metadati da utilizzare nelle ricerche.
+* **Parole chiave**  - Pubblica le parole chiave sul server di metadati da utilizzare nelle ricerche.
 
-**Campi di pubblicazione server metadatiSelezionare i campi da includere nei metadati.** Questo consente di determinare quante informazioni sulle risorse vengono rese disponibili al pubblico. Questi campi vengono anche visualizzati nelle visualizzazioni metadati, ma possono essere modificati solo nel server di metadati.
+* **Campi di pubblicazione server metadati**  - Selezionare i campi da includere nei metadati. Questo consente di determinare quante informazioni sulle risorse vengono rese disponibili al pubblico. Questi campi vengono anche visualizzati nelle visualizzazioni metadati, ma possono essere modificati solo nel server di metadati.
 
-Fai clic su **Pubblica ora** per avviare il processo. Viene visualizzato un messaggio di conferma, che indica l’inizio del processo.
+Fai clic su **[!UICONTROL Pubblica ora]** per avviare il processo. Viene visualizzato un messaggio di conferma, che indica l’inizio del processo.
 
 >[!MORELIKETHIS]
 >
