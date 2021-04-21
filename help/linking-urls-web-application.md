@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
-
 
 # Collegamento degli URL all’applicazione Web{#linking-urls-to-your-web-application}
 
@@ -28,9 +28,11 @@ Per inserire queste stringhe URL nelle pagine web e nelle applicazioni, copiale 
 
 Potete ottenere una stringa URL generata da un predefinito per immagini dalla schermata Anteprima o dalla visualizzazione Dettagli. Una volta copiato, l’URL viene inserito negli Appunti ed è pronto per essere incollato.
 
-***Nota **: L’URL non è attivo finché non pubblichi la risorsa.*
+>[!NOTE]
+>
+>l’URL diventa attivo solo dopo che la risorsa è stata pubblicata.
 
-### Ottenimento di un URL di un predefinito per immagini da Anteprima {#obtaining-an-image-preset-url-from-preview}
+### Ottenimento di un URL di un predefinito per immagini da Anteprima  {#obtaining-an-image-preset-url-from-preview}
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
