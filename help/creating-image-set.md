@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Business Practitioner
+exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 88%
+source-wordcount: '586'
+ht-degree: 86%
 
 ---
-
 
 # Creazione di un set di immagini{#creating-an-image-set}
 
@@ -33,43 +33,43 @@ Quando create un set, l’opzione **Pubblica dopo il salvataggio** incide su set
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
-**Per creare un set di immagini**
+**Per creare un set di immagini:**
 
 1. Effettuate una delle seguenti operazioni:
 
-   **Seleziona** prima le immaginiNel pannello Sfoglia, seleziona le immagini desiderate per il set di immagini, fai clic su Genera > Set di immagini.
+   * **Seleziona prima le immagini** . Nel pannello Sfoglia, seleziona le immagini desiderate per il set di immagini, fai clic su  **[!UICONTROL Genera]**  >  **[!UICONTROL Set di immagini]**.
 
-   **Inizia dalla** schermata Set immaginiFai clic su Genera > Set immagini. Viene visualizzata la schermata Set immagini. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di immagini nella schermata Set immagini.
+   * **Inizia dalla schermata**  Set di immagini - Fai clic su  **[!UICONTROL Genera]**  >  **[!UICONTROL Set di immagini]**. Viene visualizzata la schermata Set immagini. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di immagini nella schermata Set immagini.
 
 1. Per modificare l’ordine delle immagini, trascinate queste ultime in nuove posizioni.
-1. Verificate che l’opzione **Pubblica dopo il salvataggio** (impostazione predefinita) nell’angolo inferiore destro della pagina sia selezionata.
-1. Fate clic su **Salva**, selezionate una cartella in cui memorizzare il set di immagini, immettete un nome per il set, quindi fate clic su **Salva**.
-1. Per visualizzare il set di immagini nel visualizzatore di set di immagini, fate clic sul pulsante **Anteprima** nella schermata Set immagini. Potete fare clic sulle miniature campione nel visualizzatore di set di immagini per verificarne il funzionamento.
+1. Verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) nell’angolo inferiore destro della pagina sia selezionata.
+1. Fate clic su **[!UICONTROL Salva]**, selezionate una cartella in cui memorizzare il set di immagini, immettete un nome per il set, quindi fate clic su **[!UICONTROL Salva]**.
+1. Per visualizzare il set di immagini nel visualizzatore di set di immagini, fate clic sul pulsante **[!UICONTROL Anteprima]** nella schermata Set immagini. Potete fare clic sulle miniature campione nel visualizzatore di set di immagini per verificarne il funzionamento.
 
 ## Modifica di un set di immagini  {#editing-an-image-set}
 
-A seconda se modificate un set pubblicato o non pubblicato, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
+Sia che modifichi un set pubblicato che non pubblicato, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** influisce sul set e sui membri impostati nei seguenti modi:
 
-| Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL Pubblica dopo il]** salvataggio, opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono il proprio stato di pubblicazione.Tutti i nuovi membri del set aggiunti durante la modifica conservano il proprio stato di pubblicazione o di annullamento della pubblicazione. |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
-**Per modificare un set di immagini**
+**Per modificare un set di immagini:**
 
-1. Nella visualizzazioni Griglia, individuate un Set di immagini e fate clic su **Modifica** sotto l’immagine.
+1. Nella visualizzazioni Griglia, individuate un Set di immagini e fate clic su **[!UICONTROL Modifica]** sotto l’immagine.
 1. Effettuate una delle seguenti operazioni:
 
-   * Per aggiungere un’immagine (pubblicata o non pubblicata), trascinatela da una cartella di Aggiungi risorse nella pagina **Visualizzazioni** del set di immagini.
-   * Per rimuovere un’immagine, selezionatela e fate clic su **Elimina** nella barra degli strumenti.
+   * Per aggiungere un’immagine (pubblicata o non pubblicata), trascinatela da una cartella di Aggiungi risorse nella pagina **[!UICONTROL Visualizzazioni]** del set di immagini.
+   * Per rimuovere un’immagine, selezionatela e fate clic su **[!UICONTROL Elimina]** nella barra degli strumenti.
    * Per riordinare le immagini, trascinate un’immagine fino alla posizione desiderata.
 
-1. Al termine dell’operazione di modifica del set, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
-1. Fate clic su **Salva**, selezionate una cartella di archiviazione, immettete un nome per il set, quindi fate clic su **Salva**.
+1. Al termine dell’operazione di modifica del set, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
+1. Fate clic su **[!UICONTROL Salva]**, selezionate una cartella di archiviazione, immettete un nome per il set, quindi fate clic su **[!UICONTROL Salva]**.
 
 ## Eliminazione di un set di immagini  {#deleting-an-image-set}
 
@@ -77,8 +77,7 @@ Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elem
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
-**Per eliminare un set di immagini**
+**Per eliminare un set di immagini:**
 
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set di immagini.
-1. Nella barra di navigazione globale, fate clic su **File** > **Elimina** > **Elimina**.
-
+1. Nella barra di navigazione globale, fate clic su **[!UICONTROL File]** > **[!UICONTROL Elimina]** > **[!UICONTROL Elimina]**.
