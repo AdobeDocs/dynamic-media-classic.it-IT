@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # Verifica delle risorse prima di renderle pubbliche {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ Poiché la posizione della richiesta originale deve essere confermata, il traffi
 
 Le risorse non pubblicate sono immediatamente disponibili dai servizi di verifica protetta, senza dover essere pubblicati. Potete così visualizzare un’anteprima delle risorse prima che vengano pubblicate sul server immagine pubblico.
 
-***nota **: I servizi di verifica protetta sfruttano il server di catalogo configurato con un contesto di pubblicazione interno. Pertanto, se la tua azienda è configurata per la pubblicazione su Secure Testing, tieni presente che tutte le risorse caricate in Dynamic Media Classic diventano immediatamente disponibili sui servizi Secure Testing. Questa funzionalità è valida sia per le risorse contrassegnate per la pubblicazione al momento del caricamento che per quelle che non lo sono.*
+>[!NOTE]
+>
+>i servizi di verifica protetta usano il server catalogo configurato con contesto di pubblicazione interna. Pertanto, se la tua azienda è configurata per la pubblicazione su Secure Testing, tieni presente che tutte le risorse caricate in Dynamic Media Classic diventano immediatamente disponibili sui servizi Secure Testing. Questa funzionalità è valida sia per le risorse contrassegnate per la pubblicazione al momento del caricamento che per quelle che non lo sono.
 
 I servizi di verifica sicura supportano attualmente i seguenti tipi di risorse e funzionalità:
 
@@ -145,4 +147,3 @@ Eseguite le seguenti verifiche:
    Accedete alla rete dall’esterno (ad esempio, dal vostro computer di casa o da una connessione 3G), quindi verificate che la versione pubblica del sito contenga tutte le risorse pubblicate ma nessuno dei contenuti non pubblicati.
 
    Confermate che la versione di verifica non contenga alcuna risorsa, poiché state tentando di accedere al servizio di verifica protetta da un indirizzo IP non autorizzato.
-
