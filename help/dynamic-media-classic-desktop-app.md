@@ -9,9 +9,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ L’app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistem
 * In **[!UICONTROL Opzioni processo di caricamento]**, il valore predefinito per la denominazione dei livelli in **[!UICONTROL Opzioni Photoshop]** è ora **[!UICONTROL Photoshop e Nome livello]**. I livelli del file PSD vengono caricati come immagini a sé stanti.
    * Il valore predefinito precedente di **[!UICONTROL Nome livello]**, denominato le immagini dopo il nome o il numero di livello nel file PSD. Il numero del livello è stato utilizzato se i nomi dei livelli nel file PSD erano nomi di livello Photoshop predefiniti.
    * Il nuovo valore predefinito di **[!UICONTROL Photoshop e Nome livello]** assegna un nome alle immagini dopo il file PSD seguito dal nome del livello o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop.
-   * Dato che le immagini di livello in Dynamic Media Classic ora hanno nomi univoci, non si verificheranno aggiornamenti a PSD o Modelli esistenti (quali nomi di livello condivisi nei file PSD originali).
+   * Dato che le immagini di livello in Dynamic Media Classic ora hanno nomi univoci, non verrà effettuato alcun aggiornamento a PSD o Modelli esistenti (quali nomi di livello condivisi nei file PSD originali).
 * Miniature delle risorse interrotte.
 
 ## Correzioni nell&#39;ultima versione (20.21.1) {#latest-fixes-desktop-app}
