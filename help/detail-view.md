@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
+exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 78%
+source-wordcount: '587'
+ht-degree: 69%
 
 ---
-
 
 # Uso della vista Dettaglio {#working-in-detail-view}
 
@@ -46,11 +46,11 @@ Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potet
 
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi fai clic su **[!UICONTROL Vista dettagli]**.
-   * Seleziona la risorsa, quindi fai clic su **[!UICONTROL File > Dettagli]**.
+   * Seleziona la risorsa, quindi fai clic su **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
 >[!NOTE]
 >
->Per sfogliare le risorse presenti in una stessa cartella in visualizzazione Dettagli, fate clic sul pulsante Risorsa precedente o Risorsa successiva, nell’angolo in alto a destra della visualizzazione Dettagli.
+>Per sfogliare le risorse presenti in una stessa cartella in visualizzazione Dettagli, fate clic sul pulsante Risorsa precedente o Risorsa successiva, Questi pulsanti si trovano nell’angolo superiore destro della vista Dettaglio.
 
 ## Ottenimento di informazioni nella vista Dettaglio {#getting-information-in-detail-view}
 
@@ -62,45 +62,40 @@ Potete inoltre ottenere un URL della risorsa; tuttavia, tenete presente che l’
 
 La visualizzazione Dettagli offre gli strumenti per agire sulla risorsa aperta. Gli strumenti disponibili variano in base al tipo di risorsa usata, tuttavia in visualizzazione Dettagli vengono sempre fornite le seguenti funzioni:
 
-* **elementi per la**
-pubblicazioneFai clic sull’icona  **** Pubblica a sinistra del nome, oppure fai clic su  **[!UICONTROL File >]** File autore  **[!UICONTROL > Annulla pubblicazione]**.
+* **elementi per la pubblicazione**  - Fai clic sull’icona  **** Pubblica a sinistra del nome, oppure fai clic su  **[!UICONTROL File >]** File autore  **[!UICONTROL > Annulla pubblicazione]**.
 
-* **Ridenominazione della**
-risorsaSeleziona il nome e immetti un nuovo nome.
+* **Ridenominazione della risorsa** : seleziona il nome e immetti un nuovo nome.
 
-* **Modifica e aggiunta di**
-metadatiSeleziona il pannello Metadati e apporta le modifiche desiderate. Consultate [Visualizzazione, aggiunta ed esportazione di metadati](/help/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiunta di metadati** : seleziona il pannello Metadati e modifica nel modo desiderato. Consultate [Visualizzazione, aggiunta ed esportazione di metadati](/help/viewing-adding-exporting-metadata.md).
 
-* **Modifica e aggiunta di**
-parole chiaveSelezionare le parole chiave e aggiungerle o rimuoverle in base alle proprie esigenze. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiunta di parole chiave** : seleziona Parole chiave e aggiungili o rimuovili in base alle tue esigenze. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
 
-* **Eliminazione della**
-risorsaFai clic su  **[!UICONTROL File > Elimina]**.
+* **Eliminazione della risorsa**  - Fai clic su  **[!UICONTROL File]**  >  **[!UICONTROL Elimina]**.
 
 Per i file discreti quali immagini, set di immagini e font, in visualizzazione Dettagli potete visualizzare la cronologia di pubblicazione e modifica, nonché controllare i dettagli del processo.
 
-La seguente tabella riassume le opzioni aggiuntive disponibili con diversi tipi di risorse in visualizzazione Dettagli.
+Questa tabella mostra quali altre opzioni sono disponibili con diversi tipi di risorse nella vista Dettaglio.
 
 | Tipo di risorsa | Modifica/regolazione | Anteprima |
 |--- |--- |--- |
-| Immagini | Aggiunta di mappe immagine Aggiungi destinazioni di zoom Ritaglia nitidezza Crea visualizzazioni regolate | Sì; Zoom e Predefiniti immagine. |
-| Immagini di rifinitura finestre e scaffali | No | Miniatura. |
-| eCatalog | Modifica | Sì. È anche disponibile il Pannello Info. |
-| Font | Modifica delle informazioni sui font | No. |
-| File FXG | Modifica | Sì. |
-| Profili ICC | Modifica delle informazioni sui profili | No. |
-| File di Illustrator | No (eccetto se convertiti in FXG) | No. |
-| Set di immagini | Modifica | Sì. |
-| File di InDesign | No (eccetto se convertiti in FXG) | No. |
-| File PDF | No | No. |
-| File PSD | Sì, per singoli livelli | Sì, per singoli livelli. |
-| Set 360 gradi | Modifica | Sì. |
-| File SVG | No | No. |
-| Modelli | Modifica | Sì. |
-| Video | No | Sì. |
-| Vignettature e vignettature di rendering | No | L’immagine è visualizzata. Potete visualizzare i contenuti e la struttura degli elementi di rendering della vignettatura in formato XML.. |
-| File XML | No | I contenuti sono visualizzati. |
-| File ZIP | No | I contenuti non sono visualizzati |
+| Immagini | Aggiunta di mappe immagine<br>Aggiungi <br><br><br>destinazioni di zoomRitagliaNitidezzaCrea visualizzazioni regolate | Sì; Zoom e Predefiniti immagine |
+| Immagini di rifinitura finestre e scaffali | No | Miniatura |
+| eCatalog | Modifica | Sì<br>È disponibile anche il pannello Info |
+| Font | Modifica delle informazioni sui font | No |
+| File FXG | Modifica | Sì |
+| Profili ICC | Modifica delle informazioni sui profili | No |
+| File di Illustrator | No (eccetto se convertiti in FXG) | No |
+| Set di immagini | Modifica | Sì |
+| File di InDesign | No (eccetto se convertiti in FXG) | No |
+| File PDF | No | No |
+| File PSD | Sì, per singoli livelli | Sì, per singoli livelli |
+| Set 360 gradi | Modifica | Sì |
+| File SVG | No | No |
+| Modelli | Modifica | Sì |
+| Video | No | Sì |
+| Vignettature e vignettature di rendering | No | L&#39;immagine viene mostrata<br>È possibile visualizzare il contenuto e la struttura degli elementi renderizzabili della vignetta in formato XML |
+| File XML | No | I contenuti sono visualizzati |
+| File ZIP | No | Contenuto non visualizzato |
 
 >[!MORELIKETHIS]
 >
