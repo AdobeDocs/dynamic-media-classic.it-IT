@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
+exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 68%
+source-wordcount: '1683'
+ht-degree: 64%
 
 ---
-
 
 # Implementazione dei video nei siti Web e siti mobili{#deploying-video-to-your-websites-and-mobile-sites}
 
@@ -32,21 +32,17 @@ La pubblicazione di un video consente ai server Dynamic Media Classic di distrib
 
 Esistono due metodi diversi per pubblicare un video:
 
-* **Pubblicare automaticamente i video in fase di caricamento**
+* **Pubblicare automaticamente i video in fase di caricamento** - Come parte del processo di caricamento dei video, Dynamic Media Classic può pubblicare automaticamente i video quando vengono caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
 
-   Come parte del processo di caricamento dei video, Dynamic Media Classic può pubblicare automaticamente i video quando vengono caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
-
-* **Pubblicare i video manualmente dopo il caricamento**
-
-   Se non desiderate pubblicare subito i video, potete pubblicarli manualmente in qualsiasi momento.
+* **Pubblicare i video manualmente dopo il caricamento** - Se non desiderate pubblicare subito i video, potete pubblicarli manualmente in qualsiasi momento.
 
 Dopo la pubblicazione dei video, Dynamic Media Classic attiva le stringhe URL per la pagina HTML o il codice dell&#39;applicazione.
 
-**Per pubblicare i video**
+**Per pubblicare i video:**
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Per pubblicare automaticamente i video in fase di caricamento, nella schermata Carica fate clic su **Pubblica dopo il caricamento**. È tutto, non sono necessari ulteriori passaggi.
+   * Per pubblicare i video in modo automatico e istantaneo al momento del caricamento, nella pagina Carica fai clic su **[!UICONTROL Pubblica dopo il caricamento]**. È tutto, non sono necessari ulteriori passaggi.
    * Per pubblicare i video manualmente in un secondo tempo dopo il caricamento, nel pannello Sfoglia selezionate i video e fate clic su **Pubblica** nella barra di navigazione globale.
 
 ## Collegamento di un URL per video a un sito mobile o a un sito Web {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -57,24 +53,24 @@ Quando un cliente fa clic sul collegamento, vengono automaticamente rilevati il 
 
 Consultate anche [Incorporamento di un visualizzatore video in una pagina Web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
-**Per collegare l’URL di un video a un sito mobile o a un sito Web**
+**Per collegare l’URL di un video a un sito mobile o a un sito Web:**
 
-1. Nel pannello delle risorse, nell’elenco a discesa Mostra, fate clic su **Video** o **Set video adattivo**.
+1. Nel pannello Sfoglia risorse, nell’elenco a discesa **[!UICONTROL Mostra]** , fai clic su **[!UICONTROL Video]** o su **[!UICONTROL Set video adattivo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set di video adattivi che desiderate collegare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Fate clic su **Visualizzazione griglia** o **Visualizzazione elenco**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, nella sezione Streaming HTTP, fate clic su **Copia URL** a destra del visualizzatore desiderato. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
-   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
+   * Fate clic su **[!UICONTROL Visualizzazione griglia]** o **[!UICONTROL Visualizzazione elenco]**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, nella sezione Streaming HTTP, fate clic su **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
+   * Fate clic su **[!UICONTROL Visualizzazione griglia]**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
 
-   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
+   * Fate clic su **[!UICONTROL Visualizzazione elenco]**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
 
-   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
+   * Fate clic su **[!UICONTROL Visualizzazione griglia]**, **[!UICONTROL Visualizzazione elenco]** o **[!UICONTROL Visualizzazione dettagli]**. Nella stessa barra degli strumenti, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**. Come best practice, copia l’URL associato al visualizzatore `Universal_HTML5_Video` .
 
 1. Inserite il collegamento URL per il video HTML5 nel sito Web e nel sito mobile.
 
@@ -84,30 +80,30 @@ Per riprodurre il video incorporato nella pagina Web, utilizzate la funzione Inc
 
 Consultate anche [Collegamento di un URL per video a un sito mobile o a un sito Web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**Per incorporare il visualizzatore video in una pagina Web**
+**Per incorporare il visualizzatore video in una pagina Web:**
 
-1. Nel pannello delle risorse, nell’elenco a discesa Mostra, fate clic su **Video** o **Set video adattivo**.
+1. Nel pannello delle risorse, nell’elenco a discesa Mostra, fate clic su **[!UICONTROL Video]** o **[!UICONTROL Set video adattivo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set video adattivo di cui desiderate copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Fate clic su **Visualizzazione griglia** o **Visualizzazione elenco**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, in Streaming HTTP, fate clic su **Incorpora codice** a destra del visualizzatore desiderato. Come best practice, fai clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
-   * Fate clic su **Visualizzazione griglia**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura video, fate clic su **Anteprima** > **Elenco visualizzatori**.
+   * Fate clic su **[!UICONTROL Visualizzazione griglia]** o **[!UICONTROL Visualizzazione elenco]**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, in Streaming HTTP, fate clic su **[!UICONTROL Incorpora codice]** a destra del visualizzatore desiderato. Come best practice, fai clic su **[!UICONTROL Incorpora codice]** associato al visualizzatore `Universal_HTML5_Video`.
+   * Fate clic su **[!UICONTROL Visualizzazione griglia]**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, sotto la miniatura video, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. Come best practice, fai clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Incorpora codice]**. Come best practice, fai clic su **[!UICONTROL Incorpora codice]** associato al visualizzatore `Universal_HTML5_Video`.
 
-   * Fate clic su **Visualizzazione elenco**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **Anteprima** > **Elenco visualizzatori**.
+   * Fate clic su **[!UICONTROL Visualizzazione elenco]**. Nel pannello delle risorse, selezionate una singola risorsa, quindi, a destra della miniatura, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. Come best practice, fai clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Incorpora codice]**. Come best practice, fai clic su **[!UICONTROL Incorpora codice]** associato al visualizzatore `Universal_HTML5_Video`.
 
-   * Fate clic su **Visualizzazione griglia**, **Visualizzazione elenco** o **Visualizzazione dettagli**. Nella stessa barra degli strumenti, fate clic su **Anteprima** > **Elenco visualizzatori**.
+   * Fate clic su **[!UICONTROL Visualizzazione griglia]**, **[!UICONTROL Visualizzazione elenco]** o **[!UICONTROL Visualizzazione dettagli]**. Nella stessa barra degli strumenti, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Incorpora codice**. Come best practice, fai clic su **Incorpora codice** associato al visualizzatore `Universal_HTML5_Video`.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Incorpora codice]**. Come best practice, fai clic su **[!UICONTROL Incorpora codice]** associato al visualizzatore `Universal_HTML5_Video`.
 
-1. Nella finestra di dialogo Codice da incorporare, fate clic su **Copia negli Appunti**.
+1. Nella finestra di dialogo Codice da incorporare, fate clic su **[!UICONTROL Copia negli Appunti]**.
 
    La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-1. Fai clic su **Chiudi**.
+1. Fai clic su **[!UICONTROL Chiudi]**.
 1. Incollate il codice da incorporare nelle pagine Web.
 
 ### Implementazione del codice di incorporamento per utilizzare video HTML5 con risorse video MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
@@ -122,7 +118,7 @@ Se non utilizzi il lettore video HTML5 di Dynamic Media Classic, ma desideri uti
 </video>
 ```
 
-* Sostituisci `"S7 video thumbnail URL"` con l’URL della miniatura del video. Si tratta della miniatura del video che l’utente vede prima che venga riprodotto il video.
+* Sostituisci `"S7 video thumbnail URL"` con l’URL della miniatura del video, che è l’immagine miniatura del video che un utente vede prima di riprodurre il video.
 
    Consultate [Reperimento degli URL delle miniature video](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
@@ -136,29 +132,36 @@ Se non utilizzi il lettore video HTML5 di Dynamic Media Classic, ma desideri uti
 
 ## Implementazione di video mediante un lettore video di terze parti  {#deploying-video-using-a-third-party-video-player}
 
-Se utilizzi un lettore video di terze parti o un lettore video personalizzato anziché un visualizzatore video Dynamic Media Classic, puoi ottenere l’URL video diretto che funziona per lo streaming video a più bit o il download progressivo HLS.
+Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic, puoi ottenere l’URL video diretto che funziona per lo streaming video a più bit HLS o per il download progressivo.
 
-**Per implementare video mediante un lettore video di terze parti**
+**Per implementare video mediante un lettore video di terze parti:**
 
-1. In Dynamic Media Classic, nella barra di navigazione globale, fate clic su **Configurazione** > **Impostazione applicazione** > **Impostazioni generali**.
+1. In Dynamic Media Classic, nella barra di navigazione globale, fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]**.
 1. A seconda del tipo di URL che desiderate usare, effettuate una delle seguenti operazioni:
+
 * Per generare un URL video in streaming HLS diretto (con bitrate multiplo)
 
-   Nella pagina **Impostazioni generali dell&#39;applicazione**, nel gruppo **Server**, nel campo di testo **Nome server pubblicato**, crea l&#39;URL diretto utilizzando la seguente sintassi: `server/is/content/company/folder/filename.m3u8`
-Ad esempio, supponiamo che il nome del server pubblicato sia `https://s7d9.scene7.com/.` Utilizzando la sintassi nel passaggio 2, l’URL diretto potrebbe avere il seguente aspetto:
+   Nella pagina **[!UICONTROL Impostazioni generali dell&#39;applicazione]**, nel gruppo **[!UICONTROL Server]**, nel campo di testo **[!UICONTROL Nome server pubblicato]**, crea l&#39;URL diretto. Utilizza la sintassi seguente: `server/is/content/company/folder/filename.m3u8`
+
+   Ad esempio, supponiamo che il nome del server pubblicato sia `https://s7d9.scene7.com/.` Utilizzando la sintassi nel passaggio 2, l&#39;URL diretto potrebbe avere il seguente aspetto:
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Per generare un URL video in streaming HLS diretto (a bit rate singolo)
 
-   Nella pagina **Impostazioni generali dell&#39;applicazione**, nel gruppo **Server**, nel campo di testo **Nome server di streaming HLS**, crea l&#39;URL diretto utilizzando la seguente sintassi:
+   Nella pagina **[!UICONTROL Impostazioni generali dell&#39;applicazione]**, nel gruppo **[!UICONTROL Server]**, nel campo di testo **[!UICONTROL Nome server di streaming HLS]**, crea l&#39;URL diretto utilizzando la seguente sintassi:
+
    `server/company/folder/filename.ext.m3u8`
-Ad esempio, supponiamo che il nome del server di streaming HLS sia  `https://s7mbrstream.scene7.com/hls-vod/`. in base alla sintassi del punto 2 l’URL diretto potrebbe essere:
+
+   Ad esempio, supponiamo che il nome del server di streaming HLS sia `https://s7mbrstream.scene7.com/hls-vod/`. Utilizzando la sintassi nel passaggio 2, l’URL diretto potrebbe avere il seguente aspetto:
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Per generare un URL diretto per video progressivo
 
-   Nella pagina **Impostazioni generali applicazione**, nel campo di testo **Nome server video progressivo** che si trova nel gruppo **Server**, create l’URL diretto con la sintassi seguente:  `server/company/folder/filename`
-Ad esempio, supponiamo che il nome del server video progressivo sia  `https://s7d9.scene7.com/is/content/`. in base alla sintassi del punto 2 l’URL diretto potrebbe essere:
+   Nella pagina **[!UICONTROL Impostazioni generali applicazione]**, nel campo di testo **[!UICONTROL Nome server video progressivo]** che si trova nel gruppo **[!UICONTROL Server]**, create l’URL diretto con la sintassi seguente:
+
+   `server/company/folder/filename`
+
+   Ad esempio, supponiamo che il nome del server video progressivo sia `https://s7d9.scene7.com/is/content/`. Utilizzando la sintassi nel passaggio 2, l’URL diretto potrebbe avere il seguente aspetto:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Utilizzo delle miniature video {#working-with-video-thumbnails}
@@ -175,9 +178,9 @@ Per generare gli URL delle miniature video, effettuate un’operazione di pubbli
 
 Consultate [Pubblicazione dei video](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Una volta effettuata la pubblicazione, potete reperire gli URL delle miniature video nella visualizzazione Dettagli del pannello URL e codice da incorporare. Fate clic su **Copia URL** a destra della miniatura del video miniatura per copiarne l’URL.
+Una volta effettuata la pubblicazione, potete reperire gli URL delle miniature video nella visualizzazione Dettagli del pannello URL e codice da incorporare. Fate clic su **[!UICONTROL Copia URL]** a destra della miniatura del video miniatura per copiarne l’URL..
 
-### Modifica dei fotogrammi poster nei visualizzatori video  {#modifying-poster-frames-in-video-viewers}
+### Modifica dei fotogrammi poster nei visualizzatori video {#modifying-poster-frames-in-video-viewers}
 
 Il *fotogramma poster* è il fotogramma iniziale che viene visualizzato nei visualizzatori per video prima che venga riprodotto il video. Dynamic Media Classic utilizza le miniature video come fotogrammi poster.
 
@@ -185,11 +188,10 @@ Potete applicare al fotogramma poster i modificatori di immagini. Ad esempio, po
 
 Consultate [Aggiunta o modifica di un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)
 
-Vedere [www.adobe.com/go/learn_s7_image_server_guide_en](https://www.adobe.com/go/learn_s7_image_server_guide_en).
+Consulta [Guida all&#39;Image Serving](https://experienceleague.corp.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
 
 Potete inoltre modificare le miniature video aggiungendo dei modificatori ai relativi URL.
 
 >[!MORELIKETHIS]
 >
 >* [Pubblicazione di file ](publishing-files.md#publishing_files)
-
