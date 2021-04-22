@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 32%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
-
 
 # Adobe Panoramica della piattaforma Dynamic Media Classic{#adobe-scene-platform-overview}
 
@@ -26,17 +26,13 @@ Dynamic Media Classic è un ambiente integrato di gestione, pubblicazione e dist
 
 I passaggi chiave del flusso di lavoro di Dynamic Media Classic sono i seguenti:
 
-* **Carica e gestisci le**
-risorseCarica le risorse multimediali in Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, nonché applicarvi metadati.
+* **Carica e gestisci le risorse**  - Carica le risorse multimediali in Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, nonché applicarvi metadati.
 
-* **Crea**
-contenuti multimediali avanzatiCrea configurazioni diverse delle risorse come eCatalog, set di immagini, set 360 gradi, set di campioni, set di file multimediali diversi, modelli di base e modelli FXG. Per ulteriori informazioni, consultate I contenuti multimediali.
+* **Crea rich media** : crea diverse configurazioni delle risorse come eCatalog, set di immagini, set 360 gradi, set di campioni, set di file multimediali diversi, modelli di base e modelli FXG.
 
-* **Pubblicare e**
-amministrare le risorsePubblicare sulla rete Saas di Dynamic Media Classic, nonché monitorare lo stato delle risorse quando vengono pubblicate, amministrare i diritti utente e mantenere la sicurezza.
+* **Pubblica e amministra** : consente di pubblicare risorse nella rete SaaS di Dynamic Media Classic, nonché di monitorare lo stato delle risorse quando vengono pubblicate, amministrare i diritti utente e mantenere la sicurezza.
 
-* ****
-Distribuzione di contenuti multimediali dalla rete SaaS di Dynamic Media Classic a pagine web, applicazioni e dispositivi mobili; i supporti sono ottimizzati per le prestazioni e vengono forniti con la memorizzazione in cache CDN. Dynamic Media Classic fornisce un URL per ogni risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
+* **Serve** : fornire contenuti dalla rete SaaS di Dynamic Media Classic a pagine web, applicazioni e dispositivi mobili; i supporti sono ottimizzati per le prestazioni e vengono forniti con la memorizzazione in cache CDN. Dynamic Media Classic fornisce un URL per ogni risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
 
 ![Il processo del flusso di lavoro di Dynamic Media Classic](/help/assets/gs_workflow.png)
 
@@ -50,4 +46,4 @@ Le stringhe URL generate con Dynamic Media Classic includono istruzioni che indi
 
 ## Memorizzazione dei contenuti nella cache {#content-caching}
 
-Le immagini generate dinamicamente da Dynamic Media Classic sono compatibili con la cache; nella maggior parte dei casi si tratta di immagini JPEG con chiamate URL univoche che le identificano. Le immagini vengono pubblicate sulla rete CDN (content delivery network, rete di distribuzione dei contenuti), un sistema di server in rete su Internet che consente di trasmettere i contenuti più rapidamente. Le immagini vengono distribuite dai server a livello globale ai computer degli utenti. Quando si implementa un meccanismo di caching utilizzando un fornitore CDN, è sufficiente cambiare il nome del server in modo che indirizzi al server immagini Dynamic Media abilitato per CDN. Tutte le edizioni di Dynamic Media Classic includono il caching CDN in bundle.
+Le immagini generate dinamicamente da Dynamic Media Classic sono compatibili con la cache; in genere si tratta di immagini JPEG con chiamate URL univoche che le identificano. Le immagini vengono pubblicate sulla rete CDN (content delivery network, rete di distribuzione dei contenuti), un sistema di server in rete su Internet che consente di trasmettere i contenuti più rapidamente. Le immagini vengono distribuite dai server a livello globale ai computer degli utenti. Quando si implementa un meccanismo di caching utilizzando un fornitore CDN, è sufficiente cambiare il nome del server in modo che indirizzi al server immagini Dynamic Media abilitato per CDN. Tutte le edizioni di Dynamic Media Classic includono il caching CDN in bundle.
