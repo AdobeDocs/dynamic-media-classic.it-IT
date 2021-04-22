@@ -7,16 +7,16 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Business Practitioner
+exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 73%
+source-wordcount: '763'
+ht-degree: 54%
 
 ---
-
 
 # Gestione del contenuto del pannello informazioni in Set immagini{#managing-info-panel-content-in-image-sets}
 
@@ -25,21 +25,21 @@ Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, p
 È possibile gestire la configurazione e i dati di InfoPanel utilizzando le seguenti funzionalità in Dynamic Media Classic:
 
 * Il pannello Impostazioni pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita in caso di errori e il numero di ore in cui le informazioni restano nella cache. Inoltre, potete specificare se pubblicare automaticamente il set di immagini.
-* Il pannello Feed di dati per pannello Info consente di specificare un file CSV contenente il testo che desiderate visualizzare nel testo di rollover del pannello Info, nonché i tempi di pianificazione per l’aggiornamento delle informazioni.
-* La finestra di dialogo Importa metadati consente di importare un file TXT delimitato da tabulazioni contenente le informazioni per il testo di rollover. Potete utilizzare questa opzione TXT o il pannello Info con l’opzione file CSV per il testo di rollover.
+* Il pannello Feed di dati InfoPanel consente di specificare un file CSV contenente il testo da visualizzare nel testo di rollover del pannello Info e i tempi di pianificazione per l’aggiornamento delle informazioni.
+* La finestra di dialogo Importa metadati consente di importare un file TXT delimitato da tabulazioni contenente le informazioni per il testo di rollover. Puoi utilizzare questa opzione TXT o il pannello Feed dati InfoPanel con l’opzione file CSV per il testo di rollover.
 
 ## Imposta un modello di risposta per i set di immagini {#set-up-a-response-template-for-image-sets}
 
 Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizzazione del testo in un pannello Info. I modelli di risposta predefiniti determinano come le informazioni vengono presentate nel pannello Info: il numero di colonne e righe, la dimensione dei caratteri, il font e così via. Potete selezionare un modello di risposta predefinito o crearne uno personalizzato.
 
-**Per impostare un modello di risposta**
+**Per impostare un modello di risposta:**
 
 1. Fate doppio clic sul set di immagini per aprirlo in visualizzazione Dettagli.
-1. Fai clic su **InfoPanel Setup** per aprire il pannello.
+1. Fare clic su **[!UICONTROL InfoPanel Setup]**.
 1. Dall’elenco a discesa Modello risposta, effettuate una delle seguenti operazioni:
 
-   * Selezionate Predefinito per utilizzare la risposta predefinita. Il codice XML per la creazione dei modelli viene visualizzato in modo attenuato nella casella Modello utente.
-   * Selezionate Personalizzato per creare un modello di risposta personale. Nella casella di testo Modello utente, digitate la definizione XML del modello. Come base, potete usare il modello predefinito che è già definito nella casella di testo.
+   * Per utilizzare la risposta predefinita, selezionare **[!UICONTROL Predefinito]**. Il codice XML per la creazione dei modelli viene visualizzato in modo attenuato nella casella Modello utente.
+   * Per creare un modello di risposta personalizzato, seleziona **[!UICONTROL Personalizzato]**. Nella casella di testo Modello utente, digitate la definizione XML del modello. Come base, potete usare il modello predefinito che è già definito nella casella di testo.
 
 1. (Facoltativo) Nella casella Risposta predefinita, digitare il testo che si desidera visualizzare se Dynamic Media Classic rileva un errore nel recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un set di immagini, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
 1. Nel campo TTL di risposta viene visualizzato il numero di ore di attesa prima che i dati vengano memorizzati nella cache.
@@ -47,12 +47,12 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
    * Con un valore più elevato i dati sono relativamente stabili e non richiedono un aggiornamento frequente durante il giorno. Il valore predefinito è dieci ore.
 
-1. Fai clic su **Carica** per caricare il contenuto del pannello informazioni, in base ai valori rollover_key, su s7info.
-1. Nella finestra di dialogo Caricamento S7Info, individuare il file che si desidera utilizzare, quindi fare clic su **Carica**.
+1. Fai clic su **[!UICONTROL Carica]** per caricare il contenuto del pannello informazioni, in base ai valori rollover_key, su s7info.
+1. Nella finestra di dialogo Caricamento S7Info, individuare il file che si desidera utilizzare, quindi fare clic su **[!UICONTROL Carica]**.
 
-   I formati file supportati sono file delimitati da tabulazioni con codifica UTF-16 e file CSV con codifica ASCII. Per i file CSV, i caratteri non ASCII devono essere codificati in HTML.
+   I formati di file supportati sono file delimitati da TAB con codifica UTF-16 e file CSV con codifica ASCII. Per i file CSV, i caratteri non ASCII devono essere codificati in HTML.
 
-1. Nel pannello Configurazione InfoPanel, fai clic su **Pubblica**.
+1. Nel pannello Configurazione InfoPanel, fai clic su **[!UICONTROL Pubblica]**.
 
 ## Importa il contenuto sorgente del pannello Informazioni in Set immagini {#import-source-content-for-the-info-panel-in-image-sets}
 
@@ -60,18 +60,17 @@ Per il testo sorgente per il pannello Info di un set di immagini, potete usare u
 
 Durante la formattazione del contenuto sorgente, tenete presente i seguenti accorgimenti:
 
-* I dati delimitati da tabulazioni e virgole devono contenere tutte le colonne desiderate per il modello di rollover.
-* Il primo elemento o la prima colonna di dati deve essere l’identificatore di rollover (associato al valore rollover_key degli URL della mappa immagine).
-* Verificate che ciascun elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento da sostituire nel modello di risposta (la prima colonna viene sostituita da $1$, la seconda colonna da $2$ e così via).
+* I dati delimitati da tabulazioni e virgole possono contenere tutte le colonne necessarie per il modello di rollover.
+* Il primo elemento o colonna di dati è l’identificatore di rollover (associato al valore rollover_key dagli URL della mappa immagine).
+* Assicurati che ogni elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento che desideri sostituire nel modello di risposta. Quindi, la prima colonna viene sostituita in $1$, la seconda colonna in $2$, e così via).
 
 ### Importare contenuti CSV in set di immagini da una posizione ospitata esternamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Fate doppio clic sul set di immagini per aprirlo in visualizzazione Dettagli.
-1. Fare clic su **InfoPanel Datafeed** per aprire il pannello.
+1. Fare clic su **[!UICONTROL InfoPanel Datafeed]**.
 1. Nel campo Posizione file CSV esterno (HTTP), immettete l’URL del file CSV.
-1. (Facoltativo) Nei campi Pianifica aggiornamento specificare l&#39;ora in cui aggiornare il contenuto, quindi fare clic su **Aggiungi**.
+1. (Facoltativo) Nei campi Pianifica aggiornamento specificare l&#39;ora in cui aggiornare il contenuto, quindi fare clic su **[!UICONTROL Aggiungi]**.
 
-   Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario pianificato, selezionarlo e fare clic su **Elimina**.
+   Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario pianificato, selezionarlo e fare clic su **[!UICONTROL Elimina]**.
 
-1. (Facoltativo) Fai clic su **Esegui aggiornamento** per aggiornare immediatamente il contenuto.
-
+1. (Facoltativo) Fai clic su **[!UICONTROL Esegui aggiornamento]** per aggiornare immediatamente il contenuto.
