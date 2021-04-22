@@ -6,14 +6,14 @@ seo-description: 'Documentazione tecnica, note sulla versione e materiali di sup
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 6%
+source-wordcount: '585'
+ht-degree: 7%
 
 ---
-
 
 # Guida di Adobe Dynamic Media Classic {#scene7-overview}
 
@@ -27,8 +27,8 @@ Consulta [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti a partire dal 
 
 ## Risorse per sviluppatori Dynamic Media
 
-* [Pagina](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  di destinazione Risorse per sviluppatori di Dynamic Media: include la guida di riferimento per visualizzatori, l’API Image Serving/Image Rendering, l’API Image Production System e le note sulla versione di Dynamic Media Classic.
-* [Esempi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  libreria visualizzatori: include esempi di visualizzatori per video, file multimediali acquistabili, file multimediali diversi, set 360 gradi, zoom in linea, set di immagini e campioni e layout di visualizzazione.
+* [Pagina di destinazione Risorse per sviluppatori di Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) : include la guida di riferimento per i visualizzatori, l’API Image Serving/Image Rendering, l’API Image Production System e le note sulla versione di Dynamic Media Classic.
+* [Esempi libreria visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) : include esempi di visualizzatori per video, file multimediali acquistabili, file multimediali diversi, set 360 gradi, zoom in linea, set di immagini e campioni e layout di visualizzazione.
 
 ## Risorse utente di Dynamic Media Classic
 
