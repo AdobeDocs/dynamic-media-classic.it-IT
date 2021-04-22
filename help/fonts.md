@@ -9,18 +9,18 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 39%
+source-wordcount: '426'
+ht-degree: 36%
 
 ---
 
-
 # Font{#fonts}
 
-In alcuni casi, Dynamic Media Classic richiede di caricare un file di font per immettere o eseguire il rendering del testo in un particolare font. Ad esempio, per usare un font particolare per un testo su un livello di modello, caricate il file di font. Per visualizzare i numeri della pagina Visualizzatore eCatalog in un font particolare, caricate il file del font.
+A volte, Dynamic Media Classic richiede di caricare un file di font per immettere o eseguire il rendering del testo in un particolare font. Ad esempio, per usare un font particolare per un testo su un livello di modello, caricate il file di font. Per visualizzare i numeri della pagina Visualizzatore eCatalog in un font particolare, caricate il file del font.
 
 Dynamic Media Classic supporta i seguenti tipi di font:
 
@@ -42,28 +42,28 @@ Caricate i file di font con le stesse tecniche usate per caricare altri file. È
 
 ## Modifica delle informazioni sui file di font  {#editing-font-file-information}
 
-Potete modificare il nome ID di un font, nonché le informazioni relative al tipo. La modifica di un file di font può essere utile per le ricerche e per identificare i font più facilmente.
+È possibile modificare il nome ID di un font e le relative informazioni sul tipo. La modifica di un file di font può essere utile per le ricerche e per identificare i font più facilmente.
 
 Nel pannello Sfoglia, selezionate il file di font che desiderate modificare in visualizzazione Dettagli e scegliete File > Modifica info. Viene visualizzata la schermata Modifica info. Scegliete le seguenti opzioni e fate clic sul pulsante Invia.
 
-**Font** NameQuesto nome identifica il font quando viene pubblicato.
+* **Nome font** : questo nome identifica il font quando viene pubblicato.
 
-**PostScript** NameQuesto nome è il nome PostScript completo del font. Generalmente indica ne lo spessore o stile.
+* **Nome**  PostScript: nome completo del font. Generalmente indica ne lo spessore o stile.
 
-**Nome RTF** Questo nome viene visualizzato in un menu a comparsa nell&#39;editor RTF in cui vengono creati i livelli di testo del modello.
+* **Nome RTF**  - Questo nome viene visualizzato in un menu a comparsa nell&#39;editor RTF in cui vengono creati i livelli di testo del modello.
 
-**Font Family** NameQuesto nome elenca il nome del font senza l&#39;indicatore di stile, spessore o tipo di carattere.
+* **Font Family Name**  - Questo nome elenca il nome del font senza l&#39;indicatore di stile, spessore o tipo di carattere.
 
-**Font** StyleLe opzioni sono Plain, Bold, Italic e Bold-Italic.
+* **Stile carattere** : le opzioni sono Normale, Grassetto, Corsivo e Grassetto-Corsivo.
 
-**Font** TypeLe opzioni sono TrueType e Adobe Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
+* **Tipo di carattere**  - Le opzioni sono TrueType e Adobe Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
 
-**Tipo di carattere** AbbreviazioneLe opzioni sono le seguenti:
+* **Abbreviazione tipo di carattere**  - Le opzioni sono le seguenti:
 
-**** File di font TTFTrueType utilizzati per il rendering PDF/PostScript e il servizio immagini.
+   * **** File di font TTFTrueType utilizzati per il rendering PDF/PostScript e il servizio immagini.
 
-**** File di font AFMAdobe PostScript contenenti informazioni Adobi sulle metriche dei font e utilizzati per il serving delle immagini.
+   * **** File di font AFMAdobe PostScript contenenti informazioni Adobi sulle metriche dei font e utilizzati per il serving delle immagini.
 
-**** File di font PFMAdobe PostScript che contengono informazioni binarie sulla metrica dei font.
+   * **** File di font PFMAdobe PostScript che contengono informazioni binarie sulla metrica dei font.
 
-**** File di font PFBAdobe PostScript che contengono informazioni di struttura dei font binari e sono utilizzati per il rendering PDF/PostScript e per il serving delle immagini.
+   * **** File di font PFBAdobe PostScript che contengono informazioni di struttura dei font binari e sono utilizzati per il rendering PDF/PostScript e per il serving delle immagini.
