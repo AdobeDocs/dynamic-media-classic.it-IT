@@ -6,21 +6,21 @@ seo-description: Panoramica di Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 30%
+source-wordcount: '249'
+ht-degree: 31%
 
 ---
-
 
 # Guida di Dynamic Media Classic {#scene7-overview}
 
 Benvenuti in Adobe Dynamic Media Classic, il principale sistema di pubblicazione on-demand su più media per caricare, gestire, ottimizzare e pubblicare contenuti rich dinamici su tutti i dispositivi e gli schermi. Le soluzioni Dynamic Media Classic di Adobe includono:
 
 * Imaging dinamico: modifiche, formattazione e ridimensionamento in tempo reale; zoom e panoramica interattivi; campioni colori e campioni trama; set 360 gradi; modelli immagini; visualizzatori multimediali.
-* eCatalog: Creazione, collegamento ai punti attivi, abilitazione alla ricerca, pubblicazione e distribuzione di cataloghi online distribuiti in modo dinamico in visualizzatori configurabili.
+* eCatalog: Creazione, collegamento di punti attivi, abilitazione della ricerca, pubblicazione e distribuzione di cataloghi online distribuiti in modo dinamico in visualizzatori configurabili.
 * Portale multimediale: Ambiente self-service che fornisce agli utenti del portale delle risorse Dynamic Media Classic &quot;visualizzazioni&quot; controllate dall’amministratore per un facile accesso a operazioni di caricamento, navigazione, ricerca, anteprima ed esportazione delle risorse.
 * eVideo: Carica i video finali in qualsiasi formato, gestisci, modifica, crea hot spot e modelli video, pubblica e invia in streaming i visualizzatori video configurabili
 * Configuratori visivi: tecnologia di rendering in tempo reale che consente di creare configurazioni visive online per effetti personalizzati come rendering in tempo reale di colori, trame, superfici, pattern, monogrammi e incisioni nelle immagini o nelle scene.
@@ -41,4 +41,3 @@ Benvenuti in Adobe Dynamic Media Classic, il principale sistema di pubblicazione
 * [Avvio rapido: Nozioni di base sui modelli](/help/quick-start-template-basics.md)
 * [Avvio rapido: video](/help/quick-start-video.md)
 * [Avvio rapido: zoom](/help/quick-start-zoom.md)
-
