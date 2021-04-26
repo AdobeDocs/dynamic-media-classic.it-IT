@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Administrator,Business Practitioner
+exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 40%
+source-wordcount: '103'
+ht-degree: 15%
 
 ---
 
-
 # Media Portal{#media-portal}
 
-Adobe Media Portal consente alle aziende di acquisire, controllare e distribuire con facilità le risorse creative approvate ai partner e ai canali esterni nonché ai colleghi interni. Questo ambiente &quot;self-service&quot; basato su browser fornisce agli utenti del portale delle &quot;visualizzazioni&quot; controllate dall’amministratore nelle risorse Dynamic Media Classic per un facile accesso da caricare, sfogliare, cercare, visualizzare in anteprima ed esportare le risorse nei formati approvati dall’azienda.
+Adobe Medium Portal consente alle aziende di acquisire, controllare e distribuire facilmente le risorse approvate ai partner e ai canali esterni, nonché agli utenti interni. L’ambiente &quot;self-service&quot; basato su browser offre agli utenti del portale delle risorse Dynamic Media Classic &quot;viste&quot; controllate dall’amministratore, che consentono di caricare, sfogliare, cercare, visualizzare in anteprima ed esportare le risorse nei formati approvati dall’azienda.
 
 Per ulteriori informazioni su Media Portal e sui requisiti di sistema, consulta [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
 
