@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 52%
+source-wordcount: '610'
+ht-degree: 27%
 
 ---
 
@@ -28,51 +28,51 @@ La schermata Dynamic Media Classic include tre aree principali: Barra di navigaz
 
 Nella barra di navigazione globale, situata nella parte superiore della schermata, si trovano i pulsanti che consentono di eseguire diverse attività:
 
-**Selezionare** SocietàScegliere la società a cui si desidera accedere dal menu. Questo pulsante non è disponibile se si lavora con un’unica società.
+* **Seleziona Società** : scegli la società a cui desideri accedere dal menu. Questo pulsante non è disponibile se lavori con una sola azienda.
 
-**** CaricaApre la schermata Carica in modo da poter caricare i file dal computer o dalla rete in Dynamic Media Classic. I file possono essere caricati dal desktop o mediante FTP. Consultate Caricamento dei file.
+* **Carica** : apre la schermata Carica in modo da poter caricare i file dal computer o dalla rete in Dynamic Media Classic. I file possono essere caricati dal desktop o mediante FTP. Consultate [Caricamento dei file](/help/uploading-files.md).
 
-**** BuildScegli un’attività Build dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
+* **Build**  (Crea) - Scegli un’attività Build dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
 
-**** PubblicaApre la schermata Pubblica per consentire la pubblicazione di risorse rich media nei server di immagini Dynamic Media e nel resto dell’infrastruttura SAAS di Dynamic Media Classic. Consultate Pubblicazione.
+* **Pubblica** : apre la schermata Pubblica per consentire la pubblicazione di risorse rich media sui server di immagini Dynamic Media e sul resto dell’infrastruttura SAAS di Dynamic Media Classic.
 
-**** ProcessiApre la schermata Processi in modo da poter esaminare i record dei processi di caricamento e pubblicazione.
+* **Processi** : apre la schermata Processi in modo da poter esaminare i record dei processi di caricamento e pubblicazione.
 
-**** RecenteApre la schermata Attività recente per visualizzare i nomi delle risorse modificate di recente e i processi di caricamento e pubblicazione recenti.
+* **Recente** : apre la schermata Attività recente per visualizzare i nomi delle risorse modificate di recente e i processi di caricamento e pubblicazione recenti.
 
-**** ConfigurazioneApre la schermata Configurazione in modo da poter scegliere le opzioni di configurazione o amministrazione per ottimizzare l’utilizzo di Dynamic Media Classic. Consultate Configurazione.
+* **Configurazione** : apre la schermata Configurazione in modo da poter scegliere le opzioni di configurazione o amministrazione per ottimizzare l’utilizzo di Dynamic Media Classic. Consultate [Configurazione](/help/setup-basics.md).
 
-**** GuidaScegliere un&#39;opzione della Guida:
+* **** GuidaScegliere un&#39;opzione della Guida:
 
-**Guida > Guida in** questo argomentoApre il sistema della Guida in linea in una pagina con informazioni sull&#39;attività in corso.
+* **Guida > Aiuto su questo argomento** : apre il sistema della Guida in linea in una pagina con informazioni sull&#39;attività in corso.
 
-**Guida > Video** TutorialConsente di accedere a video su argomenti specifici per illustrare come iniziare a utilizzare ogni flusso di lavoro di pubblicazione di contenuti multimediali avanzati.
+* **Aiuto > Esercitazione video**  - Consente di accedere a video su argomenti specifici che mostrano come iniziare a utilizzare ogni flusso di lavoro per la pubblicazione di contenuti multimediali avanzati.
 
-**Aiuto >** SommarioApre il sistema della Guida alla pagina Introduzione. Potete scorrere il Sommario per reperire e visualizzare diversi argomenti.
+* **Aiuto > Sommario** : apre il sistema della Guida alla pagina Introduzione. Potete scorrere il Sommario per reperire e visualizzare diversi argomenti.
 
-**Aiuto >** Informazioni su Indica la versione di Dynamic Media Classic in esecuzione.
+* **Aiuto > Informazioni su**  - Indica la versione di Dynamic Media Classic in esecuzione.
 
-**Aiuto >** SupportoIndica come ottenere supporto tecnico da Dynamic Media Classic.
+* **Aiuto > Supporto**  - Informazioni su come ottenere supporto tecnico da Dynamic Media Classic.
 
-**Esci** da Dynamic Media Classic.
+* **Disconnessione** : esce da Dynamic Media Classic.
 
 ## Libreria risorse {#asset-library}
 
 La Libreria risorse consente di organizzare le risorse che state usando. Potete creare cartelle e sottocartelle per ordinare le risorse nella Libreria risorse.
 
-La parte superiore del pannello Libreria risorse contiene i comandi che consentono di individuare le risorse. Potete cercare le risorse e applicare dei filtri per individuare le risorse. Fate clic sull’icona Cestino  nella parte inferiore della Libreria risorse per esaminare le risorse eliminate.
+La parte superiore del pannello Libreria risorse contiene i comandi che consentono di individuare le risorse. Potete cercare le risorse e applicare dei filtri per individuare le risorse. Fai clic sull’icona **[!UICONTROL Elimina]** nella parte inferiore della libreria delle risorse per esaminare le risorse eliminate.
 
 >[!NOTE]
 >
->usate i controlli di Libreria risorse per aprire o chiudere la Libreria risorse in modo da avere a disposizione più spazio sullo schermo. Selezionate Espandi/Riduci per espandere o chiudere il pannello. Questi controlli si trovano sul lato sinistro del pannello.
+>Puoi fare clic sui controlli **[!UICONTROL Libreria risorse]** per aprire o chiudere la Libreria risorse e ottenere più spazio per lavorare sullo schermo. Fai clic sul controllo **[!UICONTROL Espandi]**/**[!UICONTROL Comprimi]** per espandere o chiudere il pannello. Questi controlli si trovano sul lato sinistro del pannello.
 
 ## Pannello Sfoglia/Genera {#browse-panel-build-panel}
 
-Nel pannello Sfoglia/Genera viene effettuata la maggior parte delle attività. Il contenuto del pannello varia a seconda della modalità usata: Sfoglia o Genera.
+Nel pannello Sfoglia/Genera viene effettuata la maggior parte delle attività. Le funzioni disponibili in questo pannello dipendono dalla modalità Sfoglia o Genera.
 
-**Modalità** SfogliaSeleziona una cartella nella Libreria risorse per visualizzarne e utilizzarne il contenuto nel pannello Sfoglia. Il pannello include i menu File, Anteprima, Seleziona tutto, Seleziona nessuno e Ordina che consentono di agire sulle risorse. Potete inoltre visualizzare le risorse in diversi modi spostando il cursore o selezionando il pulsante Visualizzazione griglia , Visualizzazione elenco  o Visualizzazione dettagli . Se selezionate il pulsante Visualizzazione dettagli o fate doppio clic su una risorsa, questa viene aperta in visualizzazione Dettagli e potete eseguire operazioni sui file in base alla risorsa. 
+* **Modalità Sfoglia** : per visualizzare e utilizzare il contenuto di una cartella nel pannello Sfoglia, seleziona una cartella nella Libreria risorse. Questo pannello offre i menu **[!UICONTROL File]**, **[!UICONTROL Anteprima]**, **[!UICONTROL Seleziona tutto]**, **[!UICONTROL Seleziona Nessuno]** e **[!UICONTROL Ordina]** per lavorare con le risorse. Puoi anche visualizzare le risorse in modi diversi spostando il cursore o facendo clic su **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]** o su **[!UICONTROL Vista dettagli]**. Facendo clic su **[!UICONTROL Vista dettagli]** o facendo doppio clic su una risorsa, la risorsa viene aperta nella vista Dettaglio, in cui è possibile eseguire operazioni relative ai file dipendenti dalla risorsa.
 
-**Modalità build** Fare clic su Genera, quindi scegliere un&#39;opzione per iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno degli altri elementi disponibili nel menu Genera. Si apre la schermata Genera. Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
+* **Modalità di creazione**  - Fai clic su  **[!UICONTROL Genera]**, quindi scegli un’opzione per iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno degli altri elementi disponibili nel menu Genera. Viene visualizzata la pagina Build . Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
 
 >[!MORELIKETHIS]
 >
