@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 73%
+source-wordcount: '832'
+ht-degree: 53%
 
 ---
 
@@ -37,23 +37,23 @@ Potete ottenere una stringa URL generata da un predefinito per immagini dalla sc
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima > Elenco predefiniti immagine, sotto la miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione elenco a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa immagine; quindi fate clic su Anteprima > Elenco predefiniti immagine, a destra della miniatura.
-   * Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su Anteprima > Elenco predefiniti immagine.
+   * Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione griglia]** a destra della barra degli strumenti. Nella finestra Risorsa, seleziona una singola risorsa immagine, quindi fai clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]** sotto la miniatura.
+   * Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione elenco]** a destra della barra degli strumenti. Nella finestra Risorsa, seleziona una singola risorsa immagine, quindi fai clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]** a destra della miniatura.
+   * Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione dettagli]** a destra della barra degli strumenti. Sulla stessa barra degli strumenti, fai clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
 
-1. (Facoltativo) Nella finestra Elenco predefiniti immagine, nell’elenco a discesa Codifica URL per Copia generazione URL che si trova in basso, selezionate la codifica URL da applicare all’URL della risorsa immagine quando viene copiato.
-1. Nella finestra Elenco predefiniti immagine, in alto a destra nel riquadro di anteprima, fate clic su Copia URL per il tipo di predefinito selezionato.
-1. Nell’angolo in basso a destra della finestra Elenco predefiniti immagine, fate clic su Chiudi per tornare alla schermata Risorse.
+1. (Facoltativo) Nell’elenco a discesa Codifica URL per generazione copia URL dell’elenco Predefiniti immagine , seleziona la codifica URL da applicare all’URL della risorsa immagine quando viene copiata.
+1. Nella finestra Elenco predefiniti immagine, nell’area in alto a destra del riquadro di anteprima, fai clic su **[!UICONTROL Copia URL]** per il tipo di predefinito selezionato.
+1. Nell’angolo in basso a destra della finestra Elenco predefiniti immagine, fai clic su **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
 
-### Ottenimento di un URL di un predefinito per immagini dal pannello Sfoglia  {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Ottenimento di un URL di un predefinito per immagini dal pannello Sfoglia {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
-1. Sopra la finestra Risorse, fate clic su Visualizzazione griglia a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa di immagine.
-1. Sopra la finestra Risorse, fate clic su Visualizzazione dettagli a destra della barra degli strumenti. 
-1. Per aprire l’elenco dei predefiniti per immagini, selezionate URL nel pannello sul lato destro della schermata.
-1. Selezionate il collegamento Copia URL accanto al nome del predefinito per immagini con l’URL che desiderate copiare negli Appunti.
+1. Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione griglia]** a destra della barra degli strumenti. Nella finestra Risorse, selezionate una singola risorsa di immagine.
+1. Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione dettagli]** a destra della barra degli strumenti.
+1. Fai clic su **[!UICONTROL URL]** nel pannello sul lato destro dello schermo per aprire l’elenco dei predefiniti immagine.
+1. Fai clic sul collegamento **[!UICONTROL Copia URL]** accanto al nome del predefinito immagine con l’URL da copiare negli Appunti.
 
-## Stringhe URL di predefiniti per immagini  {#about-image-preset-url-strings}
+## Stringhe URL di predefiniti per immagini {#about-image-preset-url-strings}
 
 Una chiamata URL per il dimensionamento dell&#39;immagine nei server di immagini Dynamic Media ha la seguente sintassi di base:
 
@@ -89,7 +89,7 @@ Ad esempio, al posto della tipica richiesta di apertura di un’immagine statica
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-ora utilizzi il tag `<IMG>`per sostituire il riferimento a un’immagine statica con una chiamata Image Preset alla piattaforma Dynamic Media Classic. Esempio di richiesta:
+Ora puoi utilizzare il tag `<IMG>`per sostituire il riferimento a un’immagine statica con una chiamata Image Preset alla piattaforma Dynamic Media Classic. Esempio di richiesta:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
