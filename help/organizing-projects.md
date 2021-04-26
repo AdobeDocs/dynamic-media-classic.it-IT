@@ -7,22 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
+exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 58%
+source-wordcount: '477'
+ht-degree: 38%
 
 ---
-
 
 # Organizzazione del lavoro tramite progetti{#organizing-your-work-with-projects}
 
 I progetti offrono un metodo secondario facoltativo con cui organizzare le risorse indipendentemente dalle cartelle in cui vengono memorizzate. Una risorsa può essere inserita in una sola cartella, ma può essere copiata in più cartelle Progetto per motivi organizzativi.
 
-Dopo aver creato una cartella Progetto, è possibile inserirvi delle risorse. Tuttavia, le risorse presenti in un progetto sono in realtà indicatori che fanno riferimento alla cartella Libreria risorse in cui sono effettivamente memorizzate. Potete inserire una risorsa in più progetti. Ad esempio, l’immagine di una camicetta può essere inserita sia nel progetto “Camicette” che nel progetto “Collezione primavera”.
+Dopo aver creato una cartella Progetto, è possibile inserirvi delle risorse. Tuttavia, le risorse in un progetto sono in realtà puntatori alla cartella Libreria risorse in cui sono memorizzate le risorse. Potete inserire una risorsa in più progetti. Ad esempio, l’immagine di una camicetta può essere inserita sia nel progetto “Camicette” che nel progetto “Collezione primavera”.
 
 Potete creare un progetto quando caricate dei file oppure li potete creare nel pannello Libreria risorse.
 
@@ -38,35 +38,28 @@ Potete creare un progetto quando caricate dei file oppure li potete creare nel p
 
 Puoi creare una cartella Progetto a partire dalla Libreria risorse o quando carichi i file in Dynamic Media Classic:
 
-* **Nella**
-libreria delle risorse, scorri fino alla parte inferiore della libreria delle risorse, fino alla sezione Progetti , quindi fai clic sul pulsante Aggiungi progetto . Quindi, immettete un nome per il progetto.
+* **Nella libreria delle risorse**  - Scorri fino alla parte inferiore della libreria delle risorse, fino alla sezione Progetti, quindi fai clic su  **[!UICONTROL Aggiungi progetto]**. Inserisci un nome per il progetto.
 
-* **Quando carichi**
-i fileNella schermata Carica , seleziona il menu Aggiungi a progetto e scegli Crea progetto . Quindi, immettete un nome per il progetto.
+* **Quando carichi i file**  - Nella schermata Carica , fai clic su  **[!UICONTROL Aggiungi a progetto]**  >  **[!UICONTROL Crea progetto]**. Inserisci un nome per il progetto.
 
 >[!NOTE]
 >
->l’area Progetti nella Libreria risorse è un elenco di cartelle a livello singolo e non è possibile aggiungere sottocartelle.
+>L’area Progetti nella libreria delle risorse è un elenco di cartelle a livello singolo; non consente sottocartelle.
 
-## Uso delle cartelle Progetto  {#working-with-project-folders}
+## Uso delle cartelle Progetto {#working-with-project-folders}
 
-Per visualizzare, eliminare e rinominare una cartella Progetto, effettuate le seguenti operazioni:
+Per visualizzare, eliminare e rinominare una cartella Progetto, effettuare una delle seguenti operazioni:
 
-* **Esplorazione**
-dei contenutiSeleziona il nome della cartella nella Libreria risorse. Le relative risorse vengono visualizzate nel pannello Sfoglia.
+* **Esplorazione dei contenuti** : seleziona il nome della cartella nella Libreria risorse. Le relative risorse vengono visualizzate nel pannello Sfoglia.
 
-* **Eliminazione delle**
-cartelle ProgettoSeleziona la cartella Progetto e quindi fai clic sul pulsante Rimuovi progetto . L’eliminazione delle risorse da una cartella Progetto non le elimina da Dynamic Media Classic; le risorse rimangono nelle cartelle originali in cui sono memorizzate.
+* **Eliminazione delle cartelle**  Progetto: selezionare la cartella Progetto, quindi fare clic su  **[!UICONTROL Rimuovi progetto]**. L’eliminazione delle risorse da una cartella Progetto non le elimina da Dynamic Media Classic; le risorse rimangono nelle cartelle originali in cui sono memorizzate.
 
-* **Ridenominazione delle**
-cartelle di ProjectFare doppio clic sul nome della cartella nel pannello Risorse e quindi immettere un nuovo nome.
+* **Ridenominazione delle cartelle di progetto** : fai doppio clic sul nome della cartella nel pannello Risorse e immetti un nuovo nome.
 
 ## Aggiunta di risorse alla cartella Progetto {#adding-assets-to-a-project-folder}
 
 Puoi aggiungere immagini a una cartella Progetto a partire dal pannello Sfoglia o quando carichi i file in Dynamic Media Classic:
 
-* **Dal**
-pannello SfogliaSeleziona le risorse e trascinale in una cartella Progetto. In alternativa, scegliete File > Aggiungi a progetto, selezionate il nome di una cartella di progetto nella finestra di dialogo Selezionate un progetto, quindi fate clic sul pulsante Invia.
+* **Dal pannello**  Sfoglia : seleziona le risorse e trascinale in una cartella Progetto. Puoi anche fare clic su **[!UICONTROL File]** > **[!UICONTROL Aggiungi al progetto]**. Selezionare un nome di cartella Progetto nella finestra di dialogo Seleziona progetto, quindi fare clic su **[!UICONTROL Invia]**.
 
-* **Quando carichi**
-i fileNella schermata Carica fai clic sul pulsante Opzioni processo . Nella finestra di dialogo Opzioni processo di caricamento, scegliete Progetti e selezionate il nome di un progetto.
+* **Durante il caricamento di file**  - Nella pagina Carica , fai clic su Opzioni  **[!UICONTROL processo]**. Nella finestra di dialogo Opzioni processo di caricamento , fai clic su **[!UICONTROL Progetti]**, quindi seleziona un nome di progetto.
