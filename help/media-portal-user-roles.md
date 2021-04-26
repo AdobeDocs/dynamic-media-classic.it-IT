@@ -9,32 +9,28 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
 role: Administrator,Business Practitioner
+exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 71%
 
 ---
-
 
 # Ruoli utente di Media Portal{#media-portal-user-roles}
 
 In Media Portal sono disponibili i seguenti ruoli, ognuno con diritti di accesso e autorizzazioni diversi. Quando registrate un nuovo utente, assegnate all’utente uno dei seguenti ruoli:
 
-* **Media Portal**
-AdministratorÈ possibile aggiungere e rimuovere amministratori, collaboratori e utenti. L’amministratore può anche impostare i diritti di accesso ai gruppi, gestire gli account FTP, assegnare formati di conversione (predefiniti) approvati dall’azienda, inviare e-mail agli utenti di Media Portal e visualizzare rapporti sull’uso e l’archiviazione del portale.
+* **Amministratore del portale multimediale** : può aggiungere e rimuovere amministratori, collaboratori e utenti. L’amministratore può anche impostare i diritti di accesso ai gruppi, gestire gli account FTP, assegnare formati di conversione (predefiniti) approvati dall’azienda, inviare e-mail agli utenti di Media Portal e visualizzare rapporti sull’uso e l’archiviazione del portale.
 
-* **Media Portal**
-UserHa accesso a cartelle e file. Un utente può solo cercare, visualizzare le anteprime e scaricare i file. Questo ruolo è adatto per i partner di canale o di servizi che devono poter accedere alle risorse approvate dall’azienda.
+* **Media Portal User**  - Consente l&#39;accesso a cartelle e file. Un utente può solo cercare, visualizzare le anteprime e scaricare i file. Questo ruolo è adatto per i partner di canale o di servizi che devono poter accedere alle risorse approvate dall’azienda.
 
-* **Collaboratore Media Portal**
-Consente di caricare, visualizzare in anteprima e sfogliare file e metadati nelle aree a cui un amministratore ha concesso le autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
+* **Collaboratore Media Portal** : consente di caricare, visualizzare in anteprima e sfogliare file e metadati nelle aree a cui un amministratore ha concesso le autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
 
-**Collaboratore Media Portal-**
-UtenteHa accesso a cartelle e file. Un collaboratore-utente può sfogliare, visualizzare in anteprima, scaricare e caricare immagini e metadati. I collaboratori-utenti possono cambiare i nomi dei file, spostare file in altre cartelle ed eliminare file.
+* **Collaboratore-utente**  di Media Portal - Ha accesso a cartelle e file. Un collaboratore-utente può sfogliare, visualizzare in anteprima, scaricare e caricare immagini e metadati. I collaboratori-utenti possono cambiare i nomi dei file, spostare file in altre cartelle ed eliminare file.
 
 Questa tabella descrive le attività che possono essere eseguite dagli utenti in base ai diversi ruoli. Gli amministratori e i collaboratori-utenti possono eseguire tutte le attività elencate nella tabella di seguito:
 
