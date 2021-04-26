@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
+exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 65%
+source-wordcount: '553'
+ht-degree: 44%
 
 ---
-
 
 # Spostamento, ridenominazione ed eliminazione di risorse{#moving-renaming-and-deleting-assets}
 
@@ -29,22 +29,20 @@ Potete spostare le risorse in altre cartelle del pannello Sfoglia.
 1. Selezionate la risorsa o le risorse nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
 
    * Nella Libreria risorse, visualizzate la cartella in cui desiderate spostare le risorse e trascinatele in essa.
-   * Scegliete File > Sposta, selezionate una cartella nella finestra Sposta risorse, quindi fate clic su Sposta.
+   * Fai clic su **[!UICONTROL File]** > **[!UICONTROL Sposta]**, seleziona una cartella nella finestra Sposta risorse e seleziona **[!UICONTROL Sposta]**.
 
-## Rinominare le risorse  {#rename-assets}
-
-Per rinominare una risorsa, effettuate le seguenti operazioni:
+## Rinominare le risorse {#rename-assets}
 
 1. Selezionate la risorsa nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
 
-   * Selezionate il nome, digitate un nuovo nome, quindi premete Invio o fate clic in un altro punto della schermata.
-   * Scegliete File > Rinomina. Il nome della risorsa viene evidenziato. Immettete un nuovo nome e premete Invio.
+   * Seleziona il nome, digita un nuovo nome e premi **[!UICONTROL Invio]** oppure fai clic lontano dal nome.
+   * Fare clic su **[!UICONTROL File]** > **[!UICONTROL Rinomina]**. Il nome della risorsa viene evidenziato. Immettere un nuovo nome e premere **[!UICONTROL Invio]**.
 
 Assicurati di non inserire il nome di una risorsa Dynamic Media Classic esistente.
 
 ## Eliminare le risorse {#delete-assets}
 
-Potete eliminare le risorse selezionate nel pannello Sfoglia, nonché intere cartelle. Le risorse e le cartelle eliminate vengono spostate nella cartella Cestino, dove restano per sette giorni prima di essere eliminate definitivamente. 
+Potete eliminare le risorse selezionate nel pannello Sfoglia ed eliminare intere cartelle. Le risorse e le cartelle eliminate vengono spostate nella cartella Cestino, dove restano per sette giorni prima di essere eliminate definitivamente. 
 
 Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. Ad esempio, se eliminate un’immagine per la quale avete creato delle destinazioni di zoom, anche queste ultime vengono eliminate.
 
@@ -54,10 +52,10 @@ Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. 
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Per eliminare una o più risorse, selezionatele nel pannello Sfoglia, quindi premete Canc o scegliete File > Elimina.
-   * Per eliminare una cartella, selezionala nella Libreria risorse e fai clic su **Rimuovi cartella**.
+   * Per eliminare una o più risorse, selezionale nel pannello Sfoglia e premi **[!UICONTROL Elimina]** oppure fai clic su **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
+   * Per eliminare una cartella, selezionala nella Libreria risorse e fai clic su **[!UICONTROL Rimuovi cartella]**.
 
-      Se eliminate una cartella, verranno eliminate la cartella, tutte le risorse presenti in essa, nonché tutte le risorse nelle relative sottocartelle.
+      Se si elimina una cartella, vengono eliminate tutte le risorse presenti nella cartella e tutte le relative sottocartelle.
 
 >[!NOTE]
 >
@@ -71,11 +69,11 @@ Crea l’elenco degli ID di Dynamic Media Classic e salvalo come file di testo (
 
 Una volta creato l’elenco, effettuate le operazioni seguenti:
 
-1. Scegliete File > Elimina elenco risorse.
-1. Nella finestra di dialogo Elimina elenco risorse, individuate o digitate il percorso del file di testo contenente l’elenco delle risorse da eliminare.
-1. Fate clic sul pulsante Elimina.
+1. Fai clic su **[!UICONTROL File]** > **[!UICONTROL Elimina elenco risorse]**.
+1. Nella finestra di dialogo Elimina elenco risorse , sfoglia o digita il percorso del file di testo con l’elenco delle risorse da eliminare.
+1. Fate clic su **[!UICONTROL Elimina]**.
 
-Quando elimini le risorse con un file di testo, se un ID Dynamic Media Classic non è presente nell’elenco, viene visualizzato un messaggio che informa che Dynamic Media Classic è &quot;Impossibile convalidare queste voci nell’elenco:&quot; insieme all’elenco delle voci. Tuttavia, Dynamic Media Classic non genererà un errore nella schermata Job.
+Quando elimini le risorse con un file di testo, se un ID Dynamic Media Classic non è presente nell’elenco, viene visualizzato il messaggio &quot;Impossibile convalidare queste voci nell’elenco:&quot; e l’elenco delle voci. Tuttavia, Dynamic Media Classic non genera un errore nella pagina Processo.
 
 >[!MORELIKETHIS]
 >
