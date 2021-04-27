@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 38%
+source-wordcount: '171'
+ht-degree: 22%
 
 ---
-
 
 # Pubblicazione di modelli{#publishing-templates}
 
@@ -24,15 +24,15 @@ Quando si pubblica un modello, questo viene inserito sui server di immagini Dyna
 
 >[!NOTE]
 >
->per usare il modello, pubblicate tutti i contenuti utilizzati per la sua realizzazione, inclusi font e immagini. Se non includete tutti i file richiesti, viene visualizzato un messaggio di errore durante la pubblicazione.
+>per usare il modello, pubblicate tutti i contenuti utilizzati per la sua realizzazione, inclusi font e immagini. Se non includi tutti i file richiesti, quando pubblichi viene visualizzato un messaggio di errore.
 
-## Contrassegnazione dei modelli per la pubblicazione  {#marking-templates-for-publish}
+## Contrassegnazione dei modelli per la pubblicazione {#marking-templates-for-publish}
 
-I modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione per poter essere inseriti sui server di immagini Dynamic Media. Per contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia, fai clic sull&#39;icona **Contrassegna per pubblicazione** .
+I modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione per poter essere inseriti sui server di immagini Dynamic Media. Per contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia, fai clic sull&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** .
 
 ## Pubblicazione del modello {#publishing-your-template}
 
-Per pubblicare i modelli sui server di immagini Dynamic Media, inizia selezionando il pulsante Pubblica nella barra di navigazione globale. Quindi, selezionate un’opzione Quando, immettete un nome per il processo di pubblicazione (facoltativo) e fate clic sul pulsante Avvia pubblicazione.
+Per pubblicare i modelli sui server di immagini Dynamic Media, nella barra di navigazione globale fai clic su **[!UICONTROL Pubblica]**, quindi seleziona un&#39;opzione **[!UICONTROL Quando]**. Facoltativamente, puoi inserire un nome per il processo di pubblicazione. Fate clic su **[!UICONTROL Invia pubblicazione]**.
 
 >[!MORELIKETHIS]
 >
