@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 61%
 
 ---
-
 
 # Avvio rapido: set di immagini{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ La pubblicazione di un set di immagini lo inserisce sui server Dynamic Media Cla
 >
 >Questo passaggio non è necessario se al momento della creazione e del salvataggio del set di immagini hai selezionato **Pubblica dopo il salvataggio ** (impostazione predefinita).
 
-Fai clic sull’icona Contrassegna per pubblicazione a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, fai clic su **Pubblica**. Nella schermata Pubblica , fai clic su **Avvia pubblicazione**.
+Fai clic sull’icona Contrassegna per pubblicazione a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, fai clic su **Pubblica**. Nella schermata Pubblica , fai clic su **Invia pubblicazione**.
 
 Consultate [Pubblicazione](publishing-files.md#publishing-files).
 
-**6. Collegamento di un set di immagini nel sito Web**
+**6. Collegamento di un set di immagini nel sito Web:**
 
 Dynamic Media Classic crea le chiamate URL per i set di immagini e li attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
 
