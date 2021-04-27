@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 56%
+source-wordcount: '850'
+ht-degree: 55%
 
 ---
-
 
 # Avvio rapido: ridimensionamento delle immagini{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ La pubblicazione dei file immagine originali ha due scopi fondamentali:
 * Pubblicazione delle immagini master sui server di immagini Dynamic Media in modo che le immagini possano essere distribuite in modo dinamico al sito Web e all’applicazione.
 * La pubblicazione attiva le stringhe URL per richiamare le immagini dai server immagini Dynamic Media al sito Web o all&#39;applicazione. Dopo la pubblicazione, puoi copiare e inserire gli URL generati da Dynamic Media Classic, se necessario, nel sito web o nell’applicazione.
 
-Per avviare una pubblicazione, fate clic sul pulsante Pubblica nella barra di navigazione globale. Nella schermata Pubblica, fate clic sul pulsante Avvia pubblicazione. Consultate [Pubblicazione delle immagini originali](publishing-master-images.md#publishing_master_images).
+Per avviare una pubblicazione, fate clic sul pulsante Pubblica nella barra di navigazione globale. Nella finestra di dialogo Pubblica , fai clic su **[!UICONTROL Invia pubblicazione]**. Consultate [Pubblicazione delle immagini originali](publishing-master-images.md#publishing_master_images).
 
-**5. Collegamento degli URL all’applicazione Web**
+**5. Collegamento degli URL all’applicazione Web:**
 
 Dynamic Media Classic crea stringhe di callout URL per le immagini. Quando pubblichi le immagini sui server di immagini Dynamic Media, gli URL diventano attivi. Potete copiare queste stringhe URL dal pannello Sfoglia (in visualizzazione Dettagli) o dalla schermata Anteprima. Dopo aver copiato le stringhe URL, potete usarle nel sito Web o nelle applicazioni. Nel codice della pagina Web, l’URL per il ridimensionamento delle immagini sostituisce il riferimento al nome di un’immagine statica. L’URL fa riferimento al nome di un’immagine originale, che verrà sostituito dal database per ciascuna immagine nuova da visualizzare.
 
