@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # Avvio rapido: funzioni di base dei modelli{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ Quando si pubblica un modello, questo viene inserito sui server di immagini Dyna
 
 Assicuratevi di pubblicare tutte le immagini associate al modello.
 
-Per pubblicare un modello, contrassegnatelo per la pubblicazione e fate clic sul pulsante Pubblica sulla barra Navigazione globale. Quindi fate clic sul pulsante Avvia pubblicazione. Consultate [Pubblicazione dei modelli](publishing-templates.md#publishing_templates).
+Per pubblicare un modello, contrassegnatelo per la pubblicazione e fate clic sul pulsante Pubblica sulla barra Navigazione globale. Quindi fai clic su **[!UICONTROL Invia pubblicazione]**. Consultate [Pubblicazione dei modelli](publishing-templates.md#publishing_templates).
 
 **5. Collegare un modello a una pagina Web**
 
