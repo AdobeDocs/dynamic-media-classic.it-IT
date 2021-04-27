@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,Visualizzatori,Set 360 gradi
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # Avvio rapido: set 360 gradi{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Consultate [Anteprima di un set 360 gradi](previewing-spin-set.md#previewing-a-s
 
 La pubblicazione di un set 360 gradi lo colloca sui server Dynamic Media Classic in modo che possa essere distribuito in modo dinamico al sito Web o all’applicazione. Attiva anche la stringa URL che chiama il set 360 gradi dai server immagini Dynamic Media al tuo sito Web o applicazione.
 
-Per pubblicare un set 360 gradi, contrassegnalo per la pubblicazione selezionando l’icona **Contrassegna per pubblicazione** accanto al nome nel pannello Sfoglia. Fai clic su **Pubblica** nella barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica , fai clic su **Avvia pubblicazione**.
+Per pubblicare un set 360 gradi, contrassegnalo per la pubblicazione selezionando l’icona **Contrassegna per pubblicazione** accanto al nome nel pannello Sfoglia. Fai clic su **Pubblica** nella barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica , fai clic su **Invia pubblicazione**.
 
 Consultate [Pubblicazione di un set 360 gradi](publishing-spin-set.md#publishing-a-spin-set).
 
