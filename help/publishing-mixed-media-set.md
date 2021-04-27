@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Visualizzatori,Set Di File Multimediali Diversi
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**Per pubblicare un set di file multimediali diversi**
+**Per pubblicare un set di file multimediali diversi:**
 
 1. Effettuate una delle seguenti operazioni:
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (Facoltativo) Nel campo **[!UICONTROL Nome processo]**, specificate un nome per il processo di caricamento dei metadati.
 1. Nell’elenco a discesa **[!UICONTROL Pubblica su]** nella sezione delle opzioni **[!UICONTROL Avanzate]**, selezionate **[!UICONTROL Server video]**.
 
-   Consultate [Opzioni avanzate di pubblicazione](publishing-files.md#advanced_publish_options) per informazioni su altre opzioni che potete impostare.
+   Per ulteriori opzioni è possibile impostare, consulta [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options) .
 
 1. Fate clic su **[!UICONTROL Invia pubblicazione]**.
 1. Ripetete i passaggi da 2 a 4.
 1. Nell’elenco a discesa **[!UICONTROL Pubblica su]** nella sezione **[!UICONTROL Avanzate]**, selezionate **[!UICONTROL Server immagini]**.
 
-   Consultate [Opzioni avanzate di pubblicazione](publishing-files.md#advanced_publish_options) per informazioni su altre opzioni che potete impostare.
+   Per ulteriori opzioni è possibile impostare, consulta [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options) .
 
 1. Fate clic su **[!UICONTROL Invia pubblicazione]**.
