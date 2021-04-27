@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
+exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 83%
+source-wordcount: '766'
+ht-degree: 66%
 
 ---
-
 
 # Anteprima dei video in un visualizzatore video{#previewing-videos-in-a-video-viewer}
 
@@ -24,25 +24,25 @@ Potete visualizzare l’anteprima per verificare come si presenterà e come verr
 
 Consultate [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
-**Per visualizzare in anteprima i video in un visualizzatore video**
+**Per visualizzare in anteprima i video in un visualizzatore video:**
 
-1. Nel pannello Libreria risorse a sinistra, nell’elenco a discesa Mostra, selezionate **Video** (video con codifica singola) o **Set video adattivi** (quando si utilizza il predefinito di codifica per video adattivi, si ottiene un set di video codificati con diversi valori di bitrate).
+1. Nel pannello Libreria risorse a sinistra, nell’elenco a discesa Mostra , seleziona **[!UICONTROL Video]** (video con codifica singola) o **[!UICONTROL Set video adattivo]**. Quando si utilizza il predefinito di codifica per video adattivo, si ottiene un set di video con codifica a più bit rate.
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle delle risorse per selezionare il video che vi interessa.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, fate clic su **Visualizzazione elenco** a destra della barra degli strumenti. Nella finestra Risorse, passate il mouse su una risorsa e fate clic su **Anteprima**.
-   * Sopra la finestra Risorse, fate clic su **Visualizzazione griglia** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **Anteprima** nella miniatura di una risorsa.
-   * Sopra la finestra Risorse, fate clic su **Visualizzazione dettagli** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **Anteprima**.
-   * Nella finestra Risorse, selezionate una risorsa. Nella barra degli strumenti, fate clic su **File** > **Anteprima**.
+   * Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione elenco]** a destra della barra degli strumenti. Nella finestra Risorse, passate il mouse su una risorsa e fate clic su **[!UICONTROL Anteprima]**.
+   * Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione griglia]** a destra della barra degli strumenti. Nella finestra Risorse, fate clic su **[!UICONTROL Anteprima]** nella miniatura di una risorsa.
+   * Sopra la finestra Risorse, fate clic su **[!UICONTROL Visualizzazione dettagli]** a destra della barra degli strumenti. Nella stessa barra degli strumenti, fate clic su **[!UICONTROL Anteprima]**.
+   * Nella finestra Risorse, selezionate una risorsa. Nella barra degli strumenti, fate clic su **[!UICONTROL File]** > **[!UICONTROL Anteprima]**.
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
-1. Fate clic sul collegamento Anteprima per ottenere un’anteprima della risorsa mediante il visualizzatore selezionato.
-1. Chiudete il visualizzatore per tornare alla schermata Anteprima.
-1. Fate clic su **Chiudi** per tornare alla schermata Risorse.
+1. Fai clic sul collegamento Anteprima per visualizzare un’anteprima della risorsa nel visualizzatore selezionato.
+1. Chiudi il visualizzatore visualizzato.
+1. Fate clic su **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
 
 >[!NOTE]
 >
->Dynamic Media Classic fornisce un metodo pratico per visualizzare in anteprima video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che visualizzate nell’anteprima desktop non mostra in modo realistico l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare l’anteprima dell’aspetto del video e come verrà riprodotto su un dispositivo mobile, passate alla schermata Anteprima, selezionate l’opzione Copia URL e inserite tale URL nel browser Web di un dispositivo mobile. Per ulteriori informazioni, consultate [Implementare i video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Dynamic Media Classic fornisce un metodo pratico per visualizzare in anteprima video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che visualizzate nell’anteprima desktop non mostra in modo realistico l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare un&#39;anteprima dell&#39;aspetto e della riproduzione del video su un dispositivo mobile, passa alla schermata Anteprima , fai clic su **[!UICONTROL Copia URL]** e immetti tale URL nel browser web di un dispositivo mobile. Per ulteriori informazioni, consultate [Implementare i video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilizzo dei predefiniti per visualizzatori video {#working-with-video-viewer-presets}
 
@@ -60,33 +60,33 @@ In Predefiniti visualizzatore potete attivare, filtrare, ordinare e visualizzare
 
 Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_presets).
 
-**Per aggiungere o modificare un predefinito per visualizzatori video**
+**Per aggiungere o modificare un predefinito per visualizzatori video:**
 
-1. Nell’angolo in alto a destra di Dynamic Media Classic, fai clic su **Configurazione** > **Predefiniti visualizzatore**.
+1. Nell’angolo in alto a destra di Dynamic Media Classic, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 
-   Per visualizzare soltanto i predefiniti per i visualizzatori video, selezionate Visualizzatore video dall’elenco a discesa Visualizzatori nella barra degli strumenti che si trova appena sopra la tabella.
+   Per visualizzare solo i predefiniti per i visualizzatori video, seleziona Visualizzatore video dall’elenco a discesa Visualizzatori aperti nella barra degli strumenti, direttamente sopra la tabella.
 
 1. Aggiungete o modificate un predefinito per visualizzatori per la visualizzazione di video:
 
-   **** Aggiunta di clic su Aggiungi nella barra degli strumenti. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma e un visualizzatore dai rispettivi elenchi a discesa, quindi fate clic su Aggiungi.
-
+   * **Aggiunta di**  - Fai clic su  **** Aggiungi nella barra degli strumenti. Nella finestra di dialogo Aggiungi predefinito per visualizzatore, scegliete una piattaforma e un visualizzatore dai rispettivi elenchi a discesa, quindi fate clic su **[!UICONTROL Aggiungi]**.
    Consultate anche [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Aggiungendo un** predefinito visualizzatore esistente Nella tabella, seleziona un predefinito visualizzatore video e fai clic su Modifica nella barra degli strumenti.
+   * **Aggiunta iniziando da un predefinito visualizzatore esistente** : nella tabella, seleziona un predefinito visualizzatore video e fai clic su  **** Modifica nella barra degli strumenti.
+   Dopo aver configurato il visualizzatore video, fate clic su **[!UICONTROL Salva con nome]** per salvare il predefinito specificando un altro nome nel campo Nome predefinito.
 
-   Dopo aver configurato il visualizzatore video, fate clic su **Salva con nome** per salvare il predefinito specificando un altro nome nel campo Nome predefinito.
+   * **Modifica** : seleziona un predefinito per visualizzatori video e fai clic su  **[!UICONTROL Modifica]**.
 
-   **** ModificaSeleziona un predefinito per visualizzatori video e fai clic su Modifica.
 
-1. Nella schermata Configura visualizzatore, immettete o modificate il nome del predefinito nel campo Nome predefinito.
+
+1. Nella pagina Configura visualizzatore , immetti o modifica il nome del predefinito nel campo Nome predefinito .
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
 
    Per visualizzare la descrizione di un’opzione, fate clic sull’icona Suggerimento.
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Fate clic su **Salva con nome** se avete aggiunto un predefinito per visualizzatori a partire da un predefinito esistente.
-   * Fate clic su **Salva** se avete aggiunto o modificato un predefinito per visualizzatori.
+   * Fate clic su **[!UICONTROL Salva con nome]** se avete aggiunto un predefinito per visualizzatori a partire da un predefinito esistente.
+   * Fate clic su **[!UICONTROL Salva]** se avete aggiunto o modificato un predefinito per visualizzatori.
 
 >[!MORELIKETHIS]
 >
