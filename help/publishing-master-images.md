@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
+exl-id: b0010107-248c-4ebc-955c-7514462f351d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 27%
+source-wordcount: '160'
+ht-degree: 22%
 
 ---
-
 
 # Pubblicazione di immagini originali{#publishing-master-images}
 
@@ -24,11 +24,13 @@ Quando si pubblicano i file di immagine, questi vengono pubblicati sui server di
 
 ## Contrassegnazione delle immagini originali per la pubblicazione {#marking-master-images-for-publish}
 
-Le immagini master devono essere contrassegnate per la pubblicazione per poter essere copiate nei server di immagini Dynamic Media. Per contrassegnare le immagini master da pubblicare nel pannello Sfoglia, fai clic sull’icona Contrassegna per pubblicazione . Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Dynamic Media Classic.
+Le immagini master devono essere contrassegnate per la pubblicazione affinché vengano copiate nei server immagini Dynamic Media. Per contrassegnare le immagini master da pubblicare nel pannello Sfoglia, fai clic sull&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** . Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Dynamic Media Classic.
 
 ## Pubblicazione delle immagini originali {#publishing-your-master-images}
 
-Per pubblicare le immagini master sui server di immagini Dynamic Media, inizia selezionando il pulsante Pubblica nella barra di navigazione globale. Quindi, selezionate un’opzione Quando (Una tantum o Periodico), immettete un nome per il processo di pubblicazione (facoltativo) e fate clic sul pulsante Avvia pubblicazione.
+1. Nella barra di navigazione globale, fate clic su **[!UICONTROL Pubblica]**. Nella finestra di dialogo Pubblica, seleziona un&#39;opzione Quando (**[!UICONTROL Una tantum]** o **[!UICONTROL Ricorrente]**), quindi immetti facoltativamente un nome per il processo di pubblicazione
+
+1. Fate clic su **[!UICONTROL Invia pubblicazione]**.
 
 >[!NOTE]
 >
