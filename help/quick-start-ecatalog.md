@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Business Practitioner
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1427'
 ht-degree: 51%
 
 ---
@@ -50,11 +50,9 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 >
 >Ora puoi creare eCatalogs in Dynamic Media Classic.
 
-## Guida introduttiva
-
 Questa sezione è stata progettata per aiutarvi a imparare a usare rapidamente gli eCatalog. Seguite i passaggi da 1 a 7. Alla fine di ciascun passaggio è riportato un riferimento a un argomento correlato con ulteriori informazioni.
 
-### 1. Caricamento dei file PDF
+## 1. Caricamento dei file PDF
 
 I file Adobe PDF sono di solito usati come file sorgente per un eCatalog. Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Dynamic Media Classic rileva queste immagini e le converte utilizzando un profilo colore CMYK standard. Tuttavia, devi caricare e utilizzare un profilo colore personalizzato.
 
@@ -64,7 +62,7 @@ Le Opzioni PDF nella schermata Carica riguardano il caricamento dei file PDF nel
 
 Consultate [Caricamento di file PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
-### 2. Creazione di un eCatalog
+## 2. Creazione di un eCatalog
 
 Crea l’eCatalog selezionando i file PDF o di immagine nel pannello Sfoglia. Fai clic su **[!UICONTROL Build]**, quindi scegli **[!UICONTROL eCatalogs]**.
 
@@ -76,7 +74,7 @@ Fai clic su **[!UICONTROL Salva]**, immetti un nome per il tuo eCatalog, scegli 
 
 Consultate [Creazione di un eCatalog](creating-ecatalog.md).
 
-### 3. Creazione di mappe immagine
+## 3. Creazione di mappe immagine
 
 Le mappe immagine aggiungono un altro aspetto alle pagine di eCatalog. Una mappa immagine è l’area di una pagina che fornisce ulteriori informazioni su un elemento. Quando un utenti passa il puntatore su una mappa immagine, viene visualizzata una descrizione dell’elemento. Facendo clic su una mappa immagine si attiva un riferimento esterno per l’apertura di una nuova pagina Web con ulteriori informazioni sull’elemento corrispondente.
 
@@ -92,7 +90,7 @@ Potete impostare e gestire il testo della mappa immagine mediante le impostazion
 
 Consultate [Gestione del contenuto del pannello Informazioni](info-panel-content.md#managing-info-panel-content).
 
-### 4. Configurazione dei predefiniti per visualizzatori di eCatalog
+## 4. Configurazione dei predefiniti per visualizzatori di eCatalog
 
 Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog e personalizzarlo modificandone il colore di contorno e selezionando una nuova interfaccia. Dynamic Media Classic include diversi predefiniti per visualizzatori di eCatalog &quot;best practice&quot;. Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
 
@@ -100,7 +98,7 @@ Per creare un predefinito per visualizzatori di eCatalog, nella barra di navigaz
 
 Consultate [Impostazione dei predefiniti per il visualizzatore di eCatalog](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
-### 5. Anteprima degli eCatalog nel visualizzatore di eCatalog
+## 5. Anteprima degli eCatalog nel visualizzatore di eCatalog
 
 I predefiniti per visualizzatori di eCatalog determinano lo stile e il comportamento di tali visualizzatori.
 
@@ -110,7 +108,7 @@ Notate l’orientamento, lo schema colori, l’aspetto dei controlli per passare
 
 Consultate [Anteprima di eCatalog nel visualizzatore di eCatalog](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-### 6. Pubblicazione di eCatalog e PDF associati
+## 6. Pubblicazione di eCatalog e PDF associati
 
 Quando si pubblica l’eCatalog e il PDF associato, questo viene inserito sui server di immagini Dynamic Media in modo che possa essere distribuito al sito Web e all’applicazione. Come parte del processo di pubblicazione, Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizza questo URL per chiamare l&#39;eCatalog dai server di immagini Dynamic Media al tuo sito web o applicazione.
 
@@ -118,7 +116,7 @@ Dopo aver contrassegnato l’eCatalog e il PDF per la pubblicazione nel pannello
 
 Consulta [Pubblicazione di eCatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-### 7. Collegamento di un eCatalog a una pagina web
+## 7. Collegamento di un eCatalog a una pagina web
 
 Dynamic Media Classic attiva la stringa di callout degli URL necessaria per visualizzare l’eCatalog quando lo si pubblica in Dynamic Media Image Server. Potete copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in visualizzazione Dettagli) selezionando l’opzione URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
 
