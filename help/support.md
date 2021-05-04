@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 translation-type: tm+mt
-source-git-commit: ed39a8f7febe194a70fb00acbb9d346f6e9a57ca
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 28%
+source-wordcount: '186'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle 
 | Forum della community | [Forum della community di Experienci Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA (contratti a livello di servizio) | [Servizi di supporto / Termini e Condizioni](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utenti supportati | Puoi designare fino a dieci utenti per organizzazione come Utenti supportati, che possono aprire casi con l’Assistenza clienti. |
-| Formazione Web dal vivo ed esercitazioni video gratuite | Incluse. |
+| Video di formazione e istruzione online gratuiti | Incluse. |
 | Supporto telefonico | <ul><li>Stati Uniti e Canada: 1-800-497-0335 </li><li>[Numeri di telefono per altre regioni](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
