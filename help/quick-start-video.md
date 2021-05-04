@@ -9,7 +9,7 @@ feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 43%
@@ -40,7 +40,9 @@ Per la gestione di set video singoli e di set video adattivi, Dynamic Media Clas
 
    Quando viene generato un set video adattivo, questo include video MP4.
 
-   `**Note:**` I video master/sorgente e qualsiasi altro video in formato sorgente  ** non vengono aggiunti a un set video adattivo.
+   >[!NOTE]
+   >
+   >I video master/sorgente e qualsiasi altro video in formato sorgente sono *non* aggiunti a un set video adattivo.
 
 * sottotitoli video nei visualizzatori Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e nella navigazione dei capitoli video nei visualizzatori Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
