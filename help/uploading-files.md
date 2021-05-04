@@ -6,28 +6,28 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
+exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '3859'
-ht-degree: 43%
+source-wordcount: '3833'
+ht-degree: 36%
 
 ---
 
-
 # Caricamento dei file{#uploading-files}
 
-Prima di caricare i file di risorse in Dynamic Media Classic, accertati che i file di risorse siano denominati correttamente e che la struttura delle cartelle sia impostata e organizzata nel modo desiderato. Puoi caricare i file da un sito FTP fornito da Dynamic Media Classic o direttamente dal computer o dalla rete. Dynamic Media Classic offre opzioni per l’ottimizzazione dei file durante il caricamento. Se hai installato l’applicazione desktop Adobe Dynamic Media Classic, puoi caricare file e cartelle trascinandoli direttamente dal desktop. Consultate [Impostazioni generali dell’applicazione](application-setup.md#general_settings).
+Prima di caricare i file di risorse in Dynamic Media Classic, accertati che i file di risorse siano denominati correttamente e che la struttura delle cartelle sia impostata e organizzata nel modo desiderato. Puoi caricare i file da un sito FTP fornito da Dynamic Media Classic o direttamente dal computer o dalla rete. Dynamic Media Classic offre opzioni per l’ottimizzazione dei file durante il caricamento. Se hai installato l’applicazione desktop Adobe Dynamic Media Classic, puoi caricare file e cartelle trascinandoli direttamente dal desktop. Consultate [Impostazioni generali applicazione](application-setup.md#general_settings).
 
-## Preparazione delle risorse e delle cartelle per il caricamento  {#preparing-your-assets-and-folders-for-uploading}
+## Preparazione delle risorse e delle cartelle per il caricamento {#preparing-your-assets-and-folders-for-uploading}
 
 Prima di caricare le risorse in Dynamic Media Classic, accertati che siano nel formato e nelle dimensioni corretti. È inoltre necessario osservare le regole di Dynamic Media Classic per la denominazione delle risorse. È anche utile organizzare e disporre i file in una cartella per semplificarne l’individuazione e l’utilizzo. 
 
 ### Formati di file di risorse supportati  {#supported-asset-file-formats}
 
-In questa tabella sono elencati i formati di file delle risorse supportati da Dynamic Media Classic. Per informazioni sui file Camera Raw supportati, consulta [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+In questa tabella sono elencati i formati di file delle risorse supportati da Dynamic Media Classic. Per informazioni sui file Camera Raw supportati, consulta [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Formati di file di risorse | Descrizione |
 |--- |--- |
@@ -37,9 +37,9 @@ In questa tabella sono elencati i formati di file delle risorse supportati da Dy
 | Font | AFM, OTF, PFB, PFM, PhotoFont, TTC, TTF |
 | FXG | FXG |
 | Illustrator | AI, FXG |
-| Immagini | BMP, FPX, GIF, JPEG, JPG, PNG, PICT (solo Windows), TIF, TIFF |
+| Immagini | BMP, FPX, GIF, JPEG, JPG, PNG, PICT (solo Windows®), TIF, TIFF |
 | InDesign | INDD, INDT |
-| MS Office | DOC, PPT, RTF, XLS |
+| MS® Office | DOC, PPT, RTF, XLS |
 | PDF | PDF |
 | Photoshop | PSD, FXG e Camera Raw |
 | PostScript | EPS, PS |
@@ -67,26 +67,26 @@ Vedere anche [Rilevamento di formati di file non supportati per Dynamic Media](h
 
 ### Tipi di risorse {#asset-types}
 
-Per ottenere risultati ottimali con la piattaforma Dynamic Media Classic, assicurati di utilizzare i formati e le dimensioni di file consigliati. Nella tabella seguente sono elencati i tipi di risorse con i formati e le dimensioni di file consigliati per le risorse usate comunemente.
+Per ottenere risultati ottimali con il programma Dynamic Media Classic, assicurati di utilizzare i formati e le dimensioni di file consigliati. Nella tabella seguente sono elencati i tipi di risorse con i formati e le dimensioni di file consigliati per le risorse usate comunemente.
 
 | Tipo di risorsa | Descrizione/Consigli |
 |--- |--- |
 | Audio | I formati per l’input di risorse audio comprendono AAC, HE-AAC, AC3, WAV, WMA, AIFF e MP3. Potete transcodificare l’audio nei seguenti formati: MP3, AAC e HE-AAC. |
-| Immagini (per Ridimensionamento immagini, Zoom, Set immagini, Set 360 gradi) | Le immagini devono avere il lato più lungo pari ad almeno 2000 pixel; le dimensioni delle immagini sono in genere comprese tra 1500 e 2500 pixel per il lato più lungo. Si consiglia di usare formati immagine senza perdita di dati, come i formati TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima. I file GIF animati vengono gestiti come altri contenuti statici. |
+| Immagini (per Ridimensionamento immagini, Zoom, Set immagini, Set 360 gradi) | Le immagini devono essere di almeno 2000 pixel per le dimensioni più lunghe; Le dimensioni tipiche delle immagini variano da 1500 a 2500 pixel nel formato più lungo. Si consiglia di usare formati immagine senza perdita di dati, come i formati TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima. I file GIF animati vengono gestiti come altri contenuti statici. |
 | eCatalog | Usate i file PDF ad alta risoluzione creati in Adobe® Acrobat® o in un’applicazione Creative Suite salvati come “pronta per la stampa”. I file PDF includono tutti i font, le immagini, le maschere e gli elementi grafici di riferimento necessari nel formato a pagina singola, a due pagine affiancate o a più pagine. Ordinate le pagine assegnando ai file nomi in ordine alfanumerico. Salvate tutti i file PDF dell’eCatalog in un’unica cartella per semplificarne il caricamento. Potete selezionare le opzioni di ritaglio al momento del caricamento per rimuovere l’area di ritaglio dai file PDF, inclusi gli indicatori di taglio, i crocini di registro o le barre colore. La maggior parte dei file PDF pronti per la usano lo spazio cromatico CMYK; è quindi importante ottenere il profilo colore ICC CMYK usato con i file PDF. |
-| Modelli | Un’immagine con livelli o un layout può includere testo, immagini e livelli. I livelli immagine, le stringhe di testo e gli attributi, quali il colore e le dimensioni, possono essere parametrizzati in modo da personalizzare i dati variabili. I requisiti delle immagini da usare nei modelli sono gli stessi delle altre immagini. Preparate gli elementi grafici in Photoshop o in un altro programma di modifica delle immagini. Salvate ogni elemento grafico come file trasparente a livello unico nel formato TIFF o PNG. Assicuratevi che la risoluzione delle immagini sia appropriata all’uso previsto. Le immagini da stampare devono essere a 300 ppi. |
-| Video | Dynamic Media Classic supporta i file video salvati in formato OGV e MP4. Puoi transcodificare i file in formato MP4 al momento del caricamento.Consulta [Formati di file di risorse supportati](#supported-static-file-formats). |
-| Font | Font TrueType, Type1 (solo Windows), OpenType caricati e PhotoFonts caricati |
+| Modelli | Un’immagine con livelli o un layout può includere testo, immagini e livelli. I livelli immagine, le stringhe di testo e gli attributi, quali il colore e le dimensioni, possono essere parametrizzati in modo da personalizzare i dati variabili. I requisiti delle immagini da usare nei modelli sono gli stessi delle altre immagini. Preparate gli elementi grafici in Photoshop o in un altro programma di modifica delle immagini. Salvate ogni elemento grafico come file trasparente a livello unico nel formato TIFF o PNG. Assicuratevi che la risoluzione delle immagini sia appropriata all’uso previsto. Le immagini per la stampa sono a 300 ppi. |
+| Video | Dynamic Media Classic supporta i file video salvati in formato OGV e MP4. Potete transcodificare i file in formato MP4 al momento del caricamento. Consultate [Formati di file di risorse supportati](#supported-static-file-formats). |
+| Font | Tipi di carattere TrueType, Type1 (solo Windows®), OpenType® e PhotoFonts caricati |
 | Immagini | Immagini e file immagine con più livelli. |
 | Set di immagini e set di campioni | Set di immagini correlate che possono essere visualizzate in un visualizzatore. |
 | Profili ICC | Profilo colore che potete usare per convertire un’immagine caricata dallo spazio colore di origine in un altro spazio colore. |
-| Vignettature | Immagini create con il programma Image Authoring e i file correlati. |
+| Vignettature | Immagini create con il programma Image Authoring e file correlati. |
 | File contenuto | File di contenuto Adobe InDesign, Illustrator o Photoshop. |
 | File FXG | File di formato grafico indipendenti dalla risoluzione che potete usare per creare modelli personalizzabili per la stampa, il Web, l’e-mail, il desktop e i dispositivi.  |
 | File SVG | File di grafica vettoriale scalabile che possono essere sottoposti a rendering sui server Image Server.  |
 | File XML | File che definiscono le regole di pre-elaborazione usate per modificare il percorso e le porzioni di query delle richieste.  |
 | File Cascading Style Sheet. | Potete caricare interfacce CSS per personalizzare i visualizzatori HTML5. |
-| File JavaScript | Nei file JavaScript vengono memorizzate le informazioni account durante la scrittura del codice per il visualizzatore. Adobe Security consiglia di usarli solo per gli account di clienti con un dominio separato per la consegna (per evitare il rischio di scripting attraverso più siti). |
+| File JavaScript™ | I file JavaScript™ vengono utilizzati per la strumentazione del visualizzatore per contenere le informazioni dell&#39;account. Adobe Security consiglia questo tipo di risorsa solo per gli account client con un dominio separato in uso per la consegna (per evitare vulnerabilità cross-site scripting). |
 
 >[!NOTE]
 >
@@ -94,16 +94,16 @@ Per ottenere risultati ottimali con la piattaforma Dynamic Media Classic, assicu
 
 ### Formati di file statici supportati {#supported-static-file-formats}
 
-Dynamic Media Classic supporta diversi formati di file statici. Per contenuto statico si intende qualsiasi risorsa pubblicata &quot;così com’è&quot;, ad esempio CSS, PDF, SVG, XML e così via.
+Dynamic Media Classic supporta diversi formati di file statici. Per contenuto statico si intende qualsiasi risorsa pubblicata &quot;così com’è&quot;, ad esempio CSS, PDF, SVG e XML.
 
 È possibile pubblicare i seguenti tipi di file:
 
 * GIF animata
 * File audio
 * CSS
-* JavaScript (se la società è configurata con un proprio dominio)
+* JavaScript™ (quando la società è configurata con un proprio dominio)
 * Video Master
-* PDF (se il file PDF è specificatamente contrassegnato per la pubblicazione dopo il caricamento, per evitare la distribuzione di tutti i file PDF per il flusso di lavoro eCatalog/PDF esistente)
+* PDF (quando il PDF è contrassegnato per la pubblicazione dopo il caricamento, per evitare la consegna di tutti i PDF per il flusso di lavoro esistente eCatalog/PDF)
 * Video PrX
 * SVG
 * XML
@@ -118,7 +118,7 @@ Poiché nelle estensioni viene rimosso il nome del file durante il processo di c
 Assicuratevi che le seguenti regole di denominazione dei file vengano comprese da tutti gli utenti della società:
 
 * Non sono consentiti nel sistema ID di risorse con lo stesso identico nome.
-* I nomi ID delle risorse seguono la distinzione tra maiuscole e minuscole.
+* I nomi degli ID risorsa sono sensibili all’uso di maiuscole e minuscole.
 * Come procedura consigliata assicuratevi che gli ID delle risorse non contengano spazi vuoti, ad esempio evitate di usare nomi come giacca nera.tif o giacca blu.jpg. Il codice ASCII di Dynamic Media Classic codifica gli spazi vuoti nei nomi delle risorse quando utilizza i nomi delle risorse per creare stringhe URL. Poiché questi codici ASCII sono difficili da leggere, la lettura degli URL può risultare più complicata.
 * I nomi file possono contenere caratteri specifici per particolari lingue. Tuttavia, non possono contenere i seguenti caratteri:
 
@@ -126,7 +126,7 @@ Assicuratevi che le seguenti regole di denominazione dei file vengano comprese d
 
    Se il nome del file contiene uno o più di questi caratteri, questi vengono eliminati dal nome del file al momento del caricamento.
 
-Nella maggior parte dei casi, il nome file di una risorsa può essere uguale al relativo numero di elemento, allo SKU del prodotto o a un altro nome. Ad esempio:
+Di solito, un nome file di una risorsa può essere lo stesso del numero di articolo, SKU del prodotto o altro nome come nel seguente:
 
 | Elemento | Nome file | ID risorsa |
 |--- |--- |--- |
@@ -142,13 +142,13 @@ Organizzare e strutturare cartelle e sottocartelle per i contenuti in Dynamic Me
 
 L’approccio e la struttura per la denominazione delle cartelle scelti per memorizzare i contenuti in Dynamic Media Classic dipende dalle esigenze della tua organizzazione. Di seguito sono riportati alcune strutture di cartelle di esempio:
 
-**Le cartelle** basate su SKU vengono denominate in base a SKU o numeri di elemento. Vengono ad esempio create cartelle separate per tutte le serie di numeri 0-, 20-, 30.
+**Basato su SKU** : le cartelle vengono denominate in base a SKU o ai numeri di elemento. Vengono ad esempio create cartelle separate per tutte le serie di numeri 0-, 20-, 30.
 
-**Brand-** basedPer i produttori con più linee di brand e i rivenditori che commercializzano altri marchi di altre aziende, separa i file in cartelle di prodotti denominate per marchi diversi.
+**Basato sul marchio**  - Per i produttori con più linee di brand e i rivenditori che commercializzano altri marchi di altre aziende, separa i file in cartelle di prodotti denominate per marchi diversi.
 
-**Le cartelle** basate su progetti sono organizzate in base alla data di rollout/drop o al nome del progetto. Questa procedura è preferita dai clienti che si occupano principalmente della produzione di eCatalog. 
+**Basato su progetto** : le cartelle sono organizzate in base alla data di rollout/drop o al nome del progetto. Questa procedura è preferita dai clienti che si occupano principalmente della produzione di eCatalog. 
 
-**Specchio della** gerarchia di cartelle del sito WebQuesta struttura di cartelle rispecchia la struttura di cartelle del sito Web, con le cartelle denominate, ad esempio, per le categorie di prodotti.
+**Mirror della gerarchia delle cartelle del sito Web** : questa struttura di cartelle riflette la struttura delle cartelle del sito Web, con le cartelle denominate, ad esempio, per le categorie di prodotti.
 
 ## Informazioni sul caricamento di file {#uploading-your-files}
 
@@ -156,111 +156,103 @@ Potete caricare singoli file dal desktop oppure caricare le cartelle mediante FT
 
 Dynamic Media Classic invia un messaggio e-mail per confermare l’inizio e la fine del processo di caricamento e per segnalare eventuali problemi.
 
-Durante, o subito dopo, un grande processo di caricamento, per alcuni elementi nuovi può venire visualizzato il messaggio “Immagine non ancora ottimizzata”. Questo messaggio viene visualizzato perché i file non sono ancora stati completamente elaborati e aggiunti a Dynamic Media Classic. Potete ottimizzare questi file successivamente. Consultate [Ottimizzare i file](application-setup.md#optimize_files).
+Durante (o subito dopo) un grande lavoro di caricamento, alcuni nuovi elementi potrebbero visualizzare il messaggio &quot;Immagine non ancora ottimizzata&quot;. Questo messaggio viene visualizzato perché i file non sono ancora stati completamente elaborati e aggiunti a Dynamic Media Classic. Potete ottimizzare questi file successivamente. Consulta [Ottimizzare i file](application-setup.md#optimize_files).
 
-### Caricamento di file tramite la scheda DA DESKTOP {#upload-files-using-sps-desktop-application}
+### Caricamento di file tramite la scheda Da desktop {#upload-files-using-sps-desktop-application}
 
 L’applicazione Dynamic Media Classic Desktop consente di caricare file e cartelle mediante trascinamento.
 
-1. Nell&#39;applicazione desktop Dynamic Media Classic, nella barra di navigazione globale, fai clic su **Carica**.
-1. Nella pagina Carica , fai clic sulla scheda **DA DESKTOP** .
-1. Sul lato sinistro della pagina Carica, nell&#39;area **Seleziona file da caricare**, fai clic su **Sfoglia** per selezionare i file o le cartelle da caricare, quindi fai clic su **Apri**.
+1. Nell&#39;applicazione desktop Dynamic Media Classic, nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]**.
+1. Nella pagina Carica , fai clic sulla scheda **[!UICONTROL Da desktop]** .
+1. Sul lato sinistro della pagina Carica, nell&#39;area **[!UICONTROL Seleziona file da caricare]**, fai clic su **[!UICONTROL Sfoglia]** per selezionare i file o le cartelle da caricare, quindi fai clic su **[!UICONTROL Apri]**.
 1. Sul lato destro della pagina Carica, nell’area **Scegli destinazione cartella** , individua la cartella di destinazione in cui desideri aggiungere i file o le cartelle caricati.
-1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, nel campo **Nome processo** specifica il nuovo nome del processo di caricamento. Oppure, puoi semplicemente utilizzare il nome predefinito generato dal sistema fornito da Dynamic Media Classic. Il processo in corso e gli altri processi di caricamento e pubblicazione vengono registrati nella pagina Processi dove è possibile controllarne lo stato.
-Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_files).
-1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **Pubblica dopo il caricamento** per pubblicare automaticamente le risorse caricate.
+1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, nel campo **[!UICONTROL Nome processo]** specifica il nuovo nome del processo di caricamento. Oppure, puoi semplicemente utilizzare il nome predefinito generato dal sistema fornito da Dynamic Media Classic. Il processo in corso e gli altri processi di caricamento e pubblicazione vengono registrati nella pagina Processi dove è possibile controllarne lo stato. Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_files).
+1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **[!UICONTROL Pubblica dopo il caricamento]** per pubblicare automaticamente le risorse caricate.
 Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
-1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **Sovrascrivi in qualsiasi cartella, lo stesso nome della risorsa di base indipendentemente dall&#39;estensione** se desideri che i file caricati sostituiscano quelli esistenti con gli stessi nomi. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
+1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **[!UICONTROL Sovrascrivi in qualsiasi cartella, lo stesso nome della risorsa di base indipendentemente dall&#39;estensione]** se desideri che i file caricati sostituiscano quelli esistenti con gli stessi nomi. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
 Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **Impostazione applicazione > Impostazioni generali > Carica nell&#39;applicazione > Sovrascrivi immagini**.
-1. Fai clic su **Opzioni processo** nell’angolo in basso a destra della pagina Carica, quindi specifica le opzioni desiderate.
+1. Fai clic su **[!UICONTROL Opzioni processo]** nell’angolo in basso a destra della pagina Carica, quindi specifica le opzioni desiderate.
 
    Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
 
-1. Nella finestra di dialogo Opzioni processo di caricamento, fate clic su **Salva**.
-1. Nell’angolo in basso a destra della pagina Carica, fai clic su **Invia caricamento**.
-Per visualizzare l’avanzamento del caricamento, fate clic su **Processi** nella barra di navigazione globale. Puoi continuare a lavorare in Dynamic Media Classic e tornare alla pagina Processi in qualsiasi momento per rivedere un processo in corso. Per annullare un processo di caricamento in corso, fate clic sul pulsante **Annulla** accanto alla durata.
+1. Nella finestra di dialogo Opzioni processo di caricamento, fate clic su **[!UICONTROL Salva]**.
+1. Nell’angolo in basso a destra della pagina Carica, fai clic su **[!UICONTROL Invia caricamento]**.
+Per visualizzare l’avanzamento del caricamento, fate clic su **[!UICONTROL Processi]** nella barra di navigazione globale. Puoi continuare a lavorare in Dynamic Media Classic e tornare alla pagina Processi in qualsiasi momento per rivedere un processo in corso. Per annullare un processo di caricamento in corso, fate clic sul pulsante **[!UICONTROL Annulla]** accanto alla durata.
 
 ### Caricamento di file tramite la scheda FTP VIA {#upload-files-using-via-ftp}
 
 1. Accedi al sito FTP Dynamic Media Classic specifico per la tua area geografica. Utilizzate il nome utente e la password per FTP ricevuti dall’amministratore.
-1. In Dynamic Media Classic, nella barra di navigazione globale fate clic su **Upload**.
-1. Nella pagina Carica , fai clic sulla scheda **VIA FTP** .
-1. Sul lato sinistro della pagina Carica, nell&#39;area **Scegli cartella FTP per il caricamento** , scegli una cartella FTP da cui caricare i file.
-1. Sul lato destro della pagina Carica, nell’area **Scegli Adobe destinazione cartella Dynamic Media** , scegli una cartella di destinazione in Dynamic Media Classic.
-1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, nel campo **Nome processo** specifica il nuovo nome del processo di caricamento. Oppure, puoi semplicemente utilizzare il nome predefinito generato dal sistema fornito da Dynamic Media Classic. Il processo in corso e gli altri processi di caricamento e pubblicazione vengono registrati nella pagina Processi dove è possibile controllarne lo stato.
+1. In Dynamic Media Classic, nella barra di navigazione globale fate clic su **[!UICONTROL Upload]**.
+1. Nella pagina Carica , fai clic sulla scheda **[!UICONTROL VIA FTP]** .
+1. Sul lato sinistro della pagina Carica, nell&#39;area **[!UICONTROL Scegli cartella FTP per il caricamento]** , scegli una cartella FTP da cui caricare i file.
+1. Sul lato destro della pagina Carica, nell’area **[!UICONTROL Scegli Adobe destinazione cartella Dynamic Media]** , scegli una cartella di destinazione in Dynamic Media Classic.
+1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, nel campo **[!UICONTROL Nome processo]** specifica il nuovo nome del processo di caricamento. Oppure, puoi semplicemente utilizzare il nome predefinito generato dal sistema fornito da Dynamic Media Classic. Il processo in corso e gli altri processi di caricamento e pubblicazione vengono registrati nella pagina Processi dove è possibile controllarne lo stato.
 Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_files).
-1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **Pubblica dopo il caricamento** per pubblicare automaticamente le risorse caricate.
+1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **[!UICONTROL Pubblica dopo il caricamento]** per pubblicare automaticamente le risorse caricate.
 Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
-1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **Sovrascrivi in qualsiasi cartella, lo stesso nome della risorsa di base indipendentemente dall&#39;estensione** se desideri che i file caricati sostituiscano quelli esistenti con gli stessi nomi. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
-Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **Impostazione applicazione > Impostazioni generali > Carica nell&#39;applicazione > Sovrascrivi immagini**.
-1. (Facoltativo; disponibile solo se hai fatto clic sulla scheda **VIA FTP**) Vicino alla parte inferiore della pagina Carica, seleziona **Annulla compressione file Zip o Tar su Carica** se desideri estrarre automaticamente tutti i file dal file ZIP o TAR caricato. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
-1. Fai clic su **Opzioni processo** nell’angolo in basso a destra della pagina Carica, quindi specifica le opzioni desiderate.
+1. (Facoltativo) Vicino alla parte inferiore della pagina Carica, seleziona **[!UICONTROL Sovrascrivi in qualsiasi cartella, lo stesso nome della risorsa di base indipendentemente dall&#39;estensione]** se desideri che i file caricati sostituiscano quelli esistenti con gli stessi nomi. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
+Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Carica su applicazione]** > **[!UICONTROL Sovrascrivi immagini]**.
+1. Facoltativo; disponibile solo se hai fatto clic sulla scheda **[!UICONTROL VIA FTP]** . Vicino alla parte inferiore della pagina Carica, seleziona **[!UICONTROL Annulla compressione file Zip o Tar su Carica]** se desideri estrarre automaticamente tutti i file dal file ZIP o TAR caricato. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
+1. Fai clic su **[!UICONTROL Opzioni processo]** nell’angolo in basso a destra della pagina Carica, quindi specifica le opzioni desiderate.
 
    Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
 
-1. Nella finestra di dialogo Opzioni processo di caricamento, fate clic su **Salva**.
-1. Nell’angolo in basso a destra della pagina Carica, fai clic su **Invia caricamento**.
+1. Nella finestra di dialogo Opzioni processo di caricamento, fate clic su **[!UICONTROL Salva]**.
+1. Nell’angolo in basso a destra della pagina Carica, fai clic su **[!UICONTROL Invia caricamento]**.
 
-   Per visualizzare l’avanzamento del caricamento, nella barra di navigazione globale fate clic su **Processi**. Viene visualizzata la pagina Processi che mostra l’avanzamento del caricamento. Puoi continuare a lavorare in Dynamic Media Classic e tornare alla pagina Processi in qualsiasi momento per rivedere un processo in corso.
+   Per visualizzare l’avanzamento del caricamento, nella barra di navigazione globale fate clic su **[!UICONTROL Processi]**. Viene visualizzata la pagina Processi che mostra l’avanzamento del caricamento. Puoi continuare a lavorare in Dynamic Media Classic e tornare alla pagina Processi in qualsiasi momento per rivedere un processo in corso.
 
-Per annullare un processo di caricamento in corso, fate clic sul pulsante **Annulla** accanto alla durata.
+Per annullare un processo di caricamento in corso, fate clic sul pulsante **[!UICONTROL Annulla]** accanto alla durata.
 
 ## Finestra di dialogo Opzioni processo di caricamento {#upload-options}
 
 Durante il caricamento dei file, puoi scegliere tra le seguenti opzioni nella finestra di dialogo Opzioni processo di caricamento :
 
-* **JOB**  - Fai clic su  **** JOBper scegliere le opzioni che influiscono sull&#39;intero processo di caricamento.
+* **LAVORO**  - Fai clic su  **** JOBper scegliere le opzioni che influiscono sull&#39;intero processo di caricamento.
 
-   È inoltre possibile scegliere le opzioni *default* per il caricamento dei lavori utilizzando la finestra di dialogo **Opzioni di caricamento predefinite** in Impostazioni generali. Fai clic su **Configurazione > Impostazione applicazione > Impostazioni generali > Opzioni di caricamento predefinite**, quindi imposta le opzioni predefinite desiderate.
+   Puoi anche scegliere le opzioni *default* per caricare i processi utilizzando la finestra di dialogo **[!UICONTROL Opzioni di caricamento predefinite]** in Impostazioni generali. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Opzioni di caricamento predefinite]**, quindi imposta le opzioni predefinite desiderate.
 
-   * **Quando**  - L&#39;opzione  **** Quando è disponibile solo se hai selezionato la scheda  **VIA** FTP.
-      * **Una tantum** : specifica un processo di caricamento da eseguire una sola volta. Le opzioni includono:
-         * **Ora** : esegue il processo di caricamento immediatamente dopo aver fatto clic su  **** Salva nella finestra di dialogo Opzioni processo di caricamento, quindi fai clic su  **Invia** caricamento nella pagina Carica.
-         * **Pianificazione per più tardi** : selezionate l&#39;anno, il mese, il giorno e l&#39;ora (con incrementi di 15 minuti) che desiderate venga eseguito il processo di caricamento.
+   * **Quando**  - Questa opzione è disponibile solo se hai selezionato la scheda  **[!UICONTROL VIA]** FTP.
+      * **Una tantum**  - Specifica un processo di caricamento da eseguire una sola volta. Le opzioni includono:
+         * **Ora**  - Esegue il processo di caricamento immediatamente dopo aver fatto clic su  **** Salva nella finestra di dialogo Opzioni processo di caricamento, quindi fai clic su  **[!UICONTROL Invia]** caricamento nella pagina Carica.
+         * **Pianifica per più tardi** : seleziona l’anno, il mese, il giorno e l’ora (con incrementi di 15 minuti) che desideri che venga eseguito il processo di caricamento.
       * **Ricorrente** : specifica un processo di caricamento che viene eseguito quotidianamente, settimanalmente o mensilmente. Oppure, personalizza il processo di caricamento secondo le tue specifiche.
-         * **Giornaliero** : imposta l&#39;ora in cui desideri che il processo venga eseguito ogni giorno. Se si desidera eseguire il processo solo dal lunedì al venerdì, selezionare **Solo giorni feriali**.
-         * **Settimanale** : scegli un giorno specifico della settimana e dell&#39;ora in cui desideri eseguire il processo.
-         * **Mensile** : scegli un giorno specifico del mese o del giorno della settimana, inclusa l&#39;ora di inizio, in cui desideri eseguire il processo.
+         * **Giornaliero** : imposta l’ora in cui desideri che il processo venga eseguito ogni giorno. Se si desidera eseguire il processo solo dal lunedì al venerdì, selezionare **[!UICONTROL Solo giorni feriali]**.
+         * **Settimanale** : scegli un giorno specifico della settimana e dell’ora in cui desideri eseguire il processo.
+         * **Mensile** : scegli un giorno specifico del mese o del giorno della settimana, inclusa l’ora di inizio, in cui desideri eseguire il processo.
          * **Personalizzato** : personalizza un intervallo di tempo del lavoro di caricamento o pubblicazione in base alle tue specifiche. Consultate [Creazione di un intervallo personalizzato per un processo di caricamento o pubblicazione](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
-   * **Pubblica dopo il caricamento** : disponibile se hai selezionato la scheda  **FROM** DESKTOP o  **VIA** FTP. Selezionate questa opzione per pubblicare automaticamente le risorse caricate. Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. Questa opzione è disponibile anche nella pagina di caricamento.
+   * **Pubblica dopo il caricamento** : disponibile se hai selezionato la scheda  **[!UICONTROL FROM]** DESKTOP o  **[!UICONTROL VIA]** FTP. Selezionate questa opzione per pubblicare automaticamente le risorse caricate. Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. Questa opzione è disponibile anche nella pagina di caricamento.
 
-   * **Sovrascrivi in qualsiasi cartella, lo stesso nome della risorsa di base indipendentemente dall’estensione** : disponibile se hai selezionato la scheda  **FROM** DESKTOP o la scheda  **VIA** FTP. Selezionate questa opzione per sostituire i file esistenti con quelli caricati mantenendo gli stessi nomi. Questa opzione è disponibile anche nella pagina di caricamento. Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **Impostazione applicazione > Impostazioni generali > Carica nell&#39;applicazione > Sovrascrivi immagini**.
+   * **Sovrascrivi in qualsiasi cartella, lo stesso nome della risorsa di base indipendentemente dall’estensione**  - Disponibile se hai selezionato la scheda  **[!UICONTROL FROM]** DESKTOP o la scheda  **[!UICONTROL VIA]** FTP. Selezionate questa opzione per sostituire i file esistenti con quelli caricati mantenendo gli stessi nomi. Questa opzione è disponibile anche nella pagina di caricamento. Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Carica su applicazione]** > **[!UICONTROL Sovrascrivi immagini]**.
 
-   * **Decomprimi file Zip o Tar durante il caricamento** : disponibili se hai selezionato la scheda  **FROM** DESKTOP o la scheda  **VIA** FTP.
+   * **Decomprimi file Zip o Tar durante il caricamento** : disponibili se hai selezionato la scheda  **[!UICONTROL FROM]** DESKTOP o  **[!UICONTROL VIA]** FTP.
 Seleziona questa opzione se desideri estrarre automaticamente tutti i file dal file ZIP o TAR caricato. Questa stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
 
-   * **Includi sottocartelle** : disponibile solo se hai selezionato la scheda  **VIA** FTP.
+   * **Includi sottocartelle**  - Disponibile solo se hai selezionato la scheda  **[!UICONTROL VIA]** FTP.
 Selezionate questa opzione per caricare le sottocartelle della cartella che intendete caricare. I nomi della cartella e delle relative sottocartelle caricate vengono inseriti automaticamente in Dynamic Media Classic.
 
-   * **Elabora file**  di metadati: disponibile solo se hai selezionato la scheda  **VIA** FTP. Selezionate questa opzione se desiderate caricare un file delimitato da tabulazioni o XML per aggiungere metadati a più risorse. Consultate [Importare metadati (tramite FTP)](viewing-adding-exporting-metadata.md#import-metadata).
+   * **Elabora file di metadati**  - Disponibile solo se hai selezionato la scheda  **[!UICONTROL VIA]** FTP. Selezionate questa opzione se desiderate caricare un file delimitato da tabulazioni o XML per aggiungere metadati a più risorse. Consultate [Importare metadati (tramite FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPTIONS**  ritaglio: per ritagliare automaticamente i pixel dello spazio bianco da un’immagine, aprite il menu Ritaglio, scegliete Manuale e immettete le misurazioni dei pixel nei campi In alto, A destra, In basso e A sinistra per ritagliare dai lati. Potete inoltre scegliere Rifila dal menu Ritaglia e selezionare le seguenti opzioni:
+* **OPTIONS di ritaglio** : per ritagliare automaticamente i pixel dello spazio bianco da un’immagine, apri il  **** menu a discesa, fai clic su  **[!UICONTROL Manuale]** e immetti le misurazioni dei pixel nei campi di testo In alto, A destra, In basso e A sinistra per ritagliare dai lati. È inoltre possibile fare clic su **[!UICONTROL Trim]** nel menu Ritaglio e scegliere le seguenti opzioni:
 
    * **Rifila in base a** : scegli se ritagliare in base al colore o alla trasparenza:
-
-      * **Colore** : scegli l&#39;opzione Colore. Dal menu Angolo scegliete quindi l’angolo dell’immagine con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
-
-         Rifilatura in base al colore: Specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo dell&#39;immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
-
-      * **Trasparenza** : scegli l’opzione Trasparenza.
-
-         Per rifilare in base alla trasparenza, l’impostazione 0 ritaglia i pixel solo se sono completamente trasparenti. Con valori più vicini a 1 viene invece tollerata una minore trasparenza. 
-
-      * **Tolleranza** : trascinare il cursore per specificare una tolleranza da 0 a 1.
+      * **Colore** : scegli l’opzione Colore. Dal menu Angolo scegliete quindi l’angolo dell’immagine con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
+Rifilatura in base al colore: Specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo dell&#39;immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+      * **Trasparenza** : scegli l’opzione  **** Trasparenza.
+Rifilatura in base alla trasparenza: Specificare 0 per ritagliare i pixel solo se sono trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
+      * **Tolleranza** : trascina il cursore per specificare una tolleranza da 0 a 1.
 
 * **OPTIONS**  PROFILO COLORE: scegli una conversione del colore quando crei file ottimizzati utilizzati per la distribuzione dinamica Dynamic Media Classic:
 
-   * **Conservazione**  colore predefinita: mantiene i colori dell&#39;immagine sorgente ogni volta che le immagini contengono informazioni sullo spazio colore; non vi è alcuna conversione del colore. In quasi tutte le immagini è incorporato il relativo profilo colore. Tuttavia, se un’immagine sorgente CMYK non contiene un profilo colore incorporato, i colori vengono convertiti nello spazio colore sRGB. sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
+   * **Conservazione colore predefinita** : mantiene i colori dell&#39;immagine sorgente ogni volta che le immagini contengono informazioni sullo spazio colore; non vi è alcuna conversione del colore. In quasi tutte le immagini è incorporato il relativo profilo colore. Tuttavia, se un’immagine sorgente CMYK non contiene un profilo colore incorporato, i colori vengono convertiti nello spazio colore sRGB. sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
+   * **Conserva spazio colore originale** : mantiene i colori originali senza alcuna conversione di colore al momento dell&#39;acquisizione in Dynamic Media Classic. Per le immagini prive di un profilo colore incorporato, la conversione del colore necessaria per elaborare le richieste di immagine viene effettuata utilizzando i profili colore predefiniti, come configurato nelle impostazioni di pubblicazione. Questi profili di colore non sempre si allineano al colore nei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
+   * **Personalizzato da > A**  - Apre i menu in modo da poter scegliere uno spazio  **[!UICONTROL Converti]** da e  **[!UICONTROL Converti]** colore. Questa opzione avanzata ha priorità rispetto a eventuali informazioni di colore incorporate nel file sorgente. Selezionare questa opzione solo quando tutte le immagini che si stanno inviando contengono dati di profilo colore errati o mancanti.
 
-   * **Conserva spazio colore originale** : mantiene i colori originali senza alcuna conversione di colore al momento dell&#39;acquisizione in Dynamic Media Classic. Per le immagini senza un profilo colore incorporato, l’eventuale conversione colore per le richieste di elaborazione viene effettuata utilizzando i profili colore predefiniti in base alla configurazione delle impostazioni di pubblicazione. Tali profili colore potrebbero non essere allineati al colore nei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
-
-   * **Personalizzato da > A** : apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Questa opzione avanzata ha priorità rispetto a eventuali informazioni di colore incorporate nel file sorgente. Selezionare questa opzione solo quando tutte le immagini che si stanno inviando contengono dati di profilo colore errati o mancanti.
-
-* **OPTIONS**  MODIFICA IMMAGINE: è possibile mantenere le  &lt;> maschere di ritaglio nelle immagini e scegliere un profilo colore.
+* **OPTIONS di MODIFICA IMMAGINE** : è possibile mantenere le  &lt;> maschere di ritaglio nelle immagini e scegliere un profilo colore.
 Consultate [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **OPTIONS**  POSTSCRIPT: puoi rasterizzare file di PostScript®, ritagliare file, mantenere sfondi trasparenti, scegliere una risoluzione e scegliere uno spazio colore.
+* **PostScript® OPTIONS** : puoi rasterizzare file di PostScript®, ritagliare file, mantenere sfondi trasparenti, scegliere una risoluzione e scegliere uno spazio colore.
 Consultate [Utilizzo dei file PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **OPTIONS Photoshop** : puoi creare modelli da file Adobe® Photoshop®, mantenere i livelli, specificare il nome dei livelli, estrarre il testo e specificare il modo in cui le immagini vengono ancorate ai modelli.
@@ -275,24 +267,24 @@ Consultate [Utilizzo dei file PostScript e Illustrator](postscript-illustrator-f
 * **OPTIONS**  EVIDEO: è possibile transcodificare un file video scegliendo un predefinito per video.
 Consultate [Utilizzo dei predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **ULTERIORI METADATI** : immetti le parole chiave che descrivono i file che caricerai. Separate le parole chiave con una virgola. Le parole chiave consentono di effettuare ricerche di risorse in modo semplificato. Consultate [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
+* **METADATA AGGIUNTIVA**  - Inserisci le parole chiave che descrivono i file che intendi caricare. Separate le parole chiave con una virgola. Le parole chiave consentono di effettuare ricerche di risorse in modo semplificato. Consultate [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
 
-* **PREDEFINITI SET BATCH** : per creare un set di immagini, un set 360 gradi o un set di campioni con più assi dai file caricati, fai clic sulla colonna Attivo per il predefinito da utilizzare. Potete selezionare più di un predefinito. Potete creare i predefiniti nella pagina Impostazione applicazione/Predefiniti set di batch. Consultate [Predefiniti per set di batch](application-setup.md#batch_set_presets).
+* **PREDEFINITI SET BATCH** : se desideri creare un set di immagini, un set 360 gradi o un set di campioni con più assi dai file caricati, fai clic sulla colonna Attivo per il predefinito da utilizzare. Potete selezionare più di un predefinito. Potete creare i predefiniti nella pagina Impostazione applicazione/Predefiniti set di batch. Consultate [Predefiniti per set di batch](application-setup.md#batch_set_presets).
 
 * **AVANZATO**  - Consulta  [Seguire un caricamento con un altro processo](uploading-files.md#follow-an-upload-with-another-job).
 
 ## Avviare un altro processo al termine di un caricamento {#follow-an-upload-with-another-job}
 
-Quando caricate elementi mediante FTP, potete pianificare l’inizio di un altro processo subito dopo il completamento del caricamento. Se all’ora specificata è pianificato l’inizio di altri processi, il processo impostato in questo campo verrà messo in coda.
+Quando carichi elementi tramite FTP, puoi pianificare un processo successivo per iniziare una volta completato il caricamento. Se l&#39;inizio di altri lavori è programmato, il lavoro programmato qui viene messo in coda dopo di essi.
 
 Il nuovo processo invia una notifica all’indirizzo specificato per poter attivare il codice nella posizione esatta. Questo processo di pubblicazione sequenziale usa lo stesso nome del processo di caricamento, con l’aggiunta del testo *Pub_* all’inizio.
 
-**Per avviare un altro processo al termine di un caricamento**
+**Per avviare un altro processo al termine di un caricamento:**
 
-1. Fai clic su **Carica**, quindi fai clic sulla scheda **VIA FTP** .
-1. Nell’angolo in basso a destra della pagina Carica, fai clic su **Opzioni processo**.
-1. Nella finestra di dialogo Opzioni processo di caricamento , espandi la sezione **AVANZATO** .
-1. Scegli una delle seguenti opzioni dall&#39;elenco a discesa **Segui il caricamento con un altro processo**:
+1. Fai clic su **[!UICONTROL Carica]**, quindi fai clic sulla scheda **[!UICONTROL VIA FTP]** .
+1. Nell’angolo in basso a destra della pagina Carica, fai clic su **[!UICONTROL Opzioni processo]**.
+1. Nella finestra di dialogo Opzioni processo di caricamento , espandi la sezione **[!UICONTROL AVANZATO]** .
+1. Scegli una delle seguenti opzioni dall&#39;elenco a discesa **[!UICONTROL Segui il caricamento con un altro processo]**:
 
    * Nessuno
    * Richiesta HTTP
@@ -306,7 +298,7 @@ Il nuovo processo invia una notifica all’indirizzo specificato per poter attiv
 
    >[!NOTE]
    >
-   >è possibile che i processi pianificati regolarmente non comportino la pubblicazione di alcun file.
+   >A volte i lavori pianificati regolarmente non possono causare la pubblicazione di file.
 
 >[!MORELIKETHIS]
 >
