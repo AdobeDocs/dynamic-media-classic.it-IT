@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
 role: Administrator,Business Practitioner
+exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 81%
+source-wordcount: '380'
+ht-degree: 71%
 
 ---
-
 
 # Specifica delle opzioni di esportazione disponibili per gli utenti di Media Portal {#specifying-export-options-available-to-media-portal-users}
 
@@ -28,20 +28,18 @@ Se esportate le risorse di immagini mediante una conversione definita dall’ute
 
 Consulta anche [Esportazione di risorse da Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**Per specificare le opzioni di esportazione disponibili per gli utenti di Media Portal**
+**Per specificare le opzioni di esportazione disponibili per gli utenti di Media Portal:**
 
-1. Fate clic su **Configurazione** > **Predefiniti immagini**.
+1. Nella barra di navigazione globale, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagini]**.
 1. Nella finestra Predefiniti immagine, selezionate una delle seguenti opzioni:
 
-   * **Abilita**
-conversione definita dall’utenteSe selezionata, questa opzione consente agli utenti di scegliere un’altra opzione dall’elenco a discesa Dimensione della finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
+   * **Abilita conversione definita dall’utente** : se selezionata, questa opzione consente agli utenti di scegliere un’altra opzione dall’elenco a discesa  **** delle dimensioni nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
 
-      Se dall’elenco a discesa **Dimensione** vengono scelti i **pixel**, i valori di larghezza x altezza risultanti per l’immagine non possono superare i 100 milioni di pixel. Questa dimensione corrisponde a 10.000 x 10.000 pixel per un’immagine quadrata o circa 8.000 x 12.000 pixel per un’immagine con proporzioni 2x3. Questo limite di dimensione non è applicabile se esportate le immagini principali originali.
+      Se dall’elenco a discesa **[!UICONTROL Dimensione]** vengono scelti i **[!UICONTROL pixel]**, i valori di larghezza x altezza risultanti per l’immagine non possono superare i 100 milioni di pixel. Questa dimensione corrisponde a 10.000 x 10.000 pixel per un’immagine quadrata o circa 8.000 x 12.000 pixel per un’immagine con proporzioni 2x3. Questo limite di dimensione non è applicabile se esportate le immagini principali originali.
 
       Deselezionate questa opzione se desiderate che gli utenti possano solo scaricare i file senza modificarne il formato in fase di scaricamento.
 
-   * **Abilita esportazione**
-originale Consente di esportare le immagini master originali. Nella finestra di dialogo Esporta risorse selezionate, gli utenti possono aprire il menu Conversione e scegliere Esporta originale per esportare i file originali. Deselezionate questa opzione se desiderate che gli utenti debbano scegliere un predefinito per immagini o singole opzioni di conversione al momento dell’esportazione delle immagini.
+   * **Abilita esportazione originale** : consente di esportare le immagini master originali. Nel pannello **[!UICONTROL Esporta risorse selezionate]**, gli utenti possono aprire il menu a discesa **[!UICONTROL Conversione]** e scegliere **[!UICONTROL Esporta originale]** per esportare i file originali. Deseleziona questa opzione se vuoi obbligare gli utenti a scegliere un predefinito per immagini o a scegliere le opzioni di conversione al momento dell’esportazione delle immagini.
 
 >[!MORELIKETHIS]
 >
