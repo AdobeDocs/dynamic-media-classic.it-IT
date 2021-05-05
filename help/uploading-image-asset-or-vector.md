@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 84%
+source-wordcount: '1497'
+ht-degree: 78%
 
 ---
-
 
 # Caricamento di una risorsa immagine o vettoriale{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ Nel messaggio e-mail, fornite il nome della società che desiderate usare per ca
 
 L’utilizzo di un *token di caricamento* fa sì che nessuno debba usare la chiave segreta condivisa per caricare le risorse. Garantisce inoltre la legittimità del caricamento e la provenienza da una fonte affidabile.
 
-Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Per ottenere il codice di caricamento usate i seguenti URL sostituendo la chiave segreta condivisa.
+Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Utilizza i seguenti URL, sostituendo la chiave segreta condivisa con altri utenti, in modo da poter recuperare il token di caricamento.
 
 * Immagine
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave segreta condivisa è  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ Per impostazione predefinita, il token di caricamento scade cinque minuti (300 s
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-La risposta corretta per le immagini si presenta come di seguito:
+La risposta corretta per le immagini appare simile alla seguente:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ Per ottenere un token di caricamento, potete usare i seguenti campi nella string
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**Metodi HTTP consentiti:** GET e POST
+**Metodi HTTP consentiti:**
+`GET` e  `POST`
 
 Ora potete caricare una risorsa immagine.
 
@@ -123,9 +124,10 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Token di caricamento.
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
-* Mantenere o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno lo sfondo di Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento. Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nome del file da caricare
+* Se mantenere il profilo colore e il nome file associati alla risorsa.
+* Se utilizzare Sfondo Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento.
+Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Nome del file da caricare.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+Per visualizzare il codice sorgente HTML associato al modulo precedente, fai clic su [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Per visualizzare il codice sorgente HTML associato al modulo sopra riportato, fai clic sul seguente collegamento:
+In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi fai clic su **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi fai clic su **Visualizza origine pagina**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
-
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza > Sorgente**. Per visualizzare la risposta XML in Firefox, fai clic su **Strumenti > Sviluppatore web > Origine pagina**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, fate clic su **[!UICONTROL Visualizza]** > **[!UICONTROL Sorgente]**. Per visualizzare la risposta XML in Firefox, fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -183,13 +181,13 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 | Parametro URL | Richiesto o facoltativo | Valore |
 |--- |--- |--- |
-| op | Obbligatorio | upload |
-| upload_token | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
-| company_name | Obbligatorio | Nome della società che esegue il caricamento. |
-| file_limit | Facoltativo | Limite dimensione file in byte per la risorsa. |
-| file_exts | Facoltativo | Elenco di estensioni consentite per il file della risorsa immagine. |
-| preserve_colorprofile | Facoltativo | Mantiene eventuale profilo colore incorporato durante la conversione in formato PTIFF del file caricato. I valori consentiti sono true o false. Il valore predefinito è false.. |
-| preserve_filename | Facoltativo | Mantiene il nome file della risorsa caricata. I valori consentiti sono true o false. Il valore predefinito è false.. |
+| `op` | Obbligatorio | upload |
+| `upload_token` | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
+| `company_name` | Obbligatorio | Nome della società che esegue il caricamento. |
+| `file_limit` | Facoltativo | Limite dimensione file in byte per la risorsa. |
+| `file_exts` | Facoltativo | Elenco di estensioni consentite per il file della risorsa immagine. |
+| `preserve_colorprofile` | Facoltativo | Mantiene eventuale profilo colore incorporato durante la conversione in formato PTIFF del file caricato. I valori consentiti sono true o false. Il valore predefinito è false.. |
+| `preserve_filename` | Facoltativo | Mantiene il nome file della risorsa caricata. I valori consentiti sono true o false. Il valore predefinito è false.. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ Per ottenere i metadati di una risorsa caricata, potete usare `image_info`, come
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Esempio di una risposta riuscita:
+Un esempio di risposta corretta è simile al seguente:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 
 | Parametro URL | Richiesto o facoltativo | Valore |
 |--- |--- |--- |
-| op | Obbligatorio | image_info |
-| shared_secret | Obbligatorio | Chiave segreta condivisa della società. |
-| image_name | Obbligatorio | Nome dell’immagine. |
+| `op` | Obbligatorio | image_info |
+| `shared_secret` | Obbligatorio | Chiave segreta condivisa della società. |
+| `image_name` | Obbligatorio | Nome dell’immagine. |
 
 **URL campione:**
 
@@ -286,9 +284,10 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Token di caricamento.
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
-* Mantenere o meno il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare o meno lo sfondo di Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento. Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nome del file da caricare
+* Se mantenere il profilo colore e il nome file associati alla risorsa.
+* Se utilizzare Sfondo Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento.
+Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Nome del file da caricare.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-Il codice HTML di seguito viene visualizzato quando fate clic con il pulsante destro del mouse nella finestra del browser e fate clic su **Visualizza sorgente** per il modulo illustrato nella figura. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **Invia**.
+Il seguente codice HTML viene visualizzato quando si fa clic con il pulsante destro del mouse nella finestra del browser, quindi si fa clic su **[!UICONTROL Visualizza origine]** per il modulo mostrato nell&#39;esempio. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **Visualizza** > **Sorgente**. Per visualizzare la risposta XML in Firefox, fate clic su **Visualizza** > **Sorgente pagina**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, fate clic su **[!UICONTROL Visualizza]** > **[!UICONTROL Sorgente]**. Per visualizzare la risposta XML in Firefox, fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Origine pagina]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -366,7 +363,7 @@ Segue un esempio di risposta a seguito di un caricamento riuscito:
 >
 >la risorsa caricata (AI, EPS, PDF e così via) viene convertita in formato FXG e la risposta invia un collegamento diretto a tale risorsa FXG.
 
-La risorsa è come qualsiasi altra risorsa Web-stampa ed è possibile applicarvi delle query di elaborazione. Ad esempio, l’URL seguente converte una risorsa FXG in immagine PNG da 500x500.
+La risorsa è come qualsiasi altra risorsa Web-to-print; gli si applicano le query di elaborazione. Ad esempio, l’URL seguente converte una risorsa FXG in immagine PNG da 500x500.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 | Parametro URL | Richiesto o facoltativo | Valore |
 |--- |--- |--- |
-| op | Obbligatorio | caricare |
-| upload_token | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
-| nome_azienda | Obbligatorio | Nome della società che esegue il caricamento. |
-| file_limit | Facoltativo | Limite dimensione file in byte per la risorsa. |
-| file_exts | Facoltativo | Elenco di estensioni consentite per il file della risorsa. |
+| `op` | Obbligatorio | caricare |
+| `upload_token` | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
+| `company_name` | Obbligatorio | Nome della società che esegue il caricamento. |
+| `file_limit` | Facoltativo | Limite dimensione file in byte per la risorsa. |
+| `file_exts` | Facoltativo | Elenco di estensioni consentite per il file della risorsa. |
 
 >[!NOTE]
 >
