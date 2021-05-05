@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 61%
+source-wordcount: '1160'
+ht-degree: 59%
 
 ---
 
@@ -33,19 +33,19 @@ Queste opzioni si trovano nella pagina Carica in Opzioni di modifica delle immag
 
 ## Ritaglio di spazi bianchi dalle immagini
 
-Per ritagliare automaticamente i pixel degli spazi bianchi da un’immagine, selezionate il menu Ritaglio e scegliete Rifila. A questo punto, scegliete le seguenti opzioni:
+Per ritagliare automaticamente i pixel dello spazio bianco da un&#39;immagine, nella finestra di dialogo Opzioni processo di caricamento fai clic su **[!UICONTROL Opzioni di ritaglio]**. Nell&#39;elenco a discesa **[!UICONTROL Ritaglia]**, scegli **[!UICONTROL Taglia]**. A questo punto, scegliete le seguenti opzioni:
 
-* **Rifila in base a** : scegli se ritagliare in base al colore o alla trasparenza:
+* **Rifila in base a** : da questo elenco a discesa, scegli se ritagliare in base al colore o alla trasparenza:
 
-* **Colore** : scegli l’opzione  **** Colore. Dall’elenco a discesa **[!UICONTROL Angolo]** , seleziona quindi l’angolo dell’immagine con il colore che rappresenta meglio lo spazio bianco da ritagliare.
+   * **Colore** : scegli l’opzione  **** Colore. Dall’elenco a discesa **[!UICONTROL Angolo]** , seleziona quindi l’angolo dell’immagine con il colore che rappresenta meglio lo spazio bianco da ritagliare.
 
-* **Trasparenza** : scegli l’opzione Trasparenza.
+   * **Trasparenza** : scegli l’opzione Trasparenza.
 
 * **Tolleranza** : trascina il cursore per specificare una tolleranza da 0 a 1:
 
-* **Rifilatura in base al colore**  - Consente di specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+   * **Rifilatura in base al colore**  - Consente di specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
 
-* **Rifilatura in base alla trasparenza**  - Consente di specificare 0 per ritagliare i pixel solo se sono trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
+   * **Rifilatura in base alla trasparenza**  - Consente di specificare 0 per ritagliare i pixel solo se sono trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
 
 ## Ritaglio manuale dai lati delle immagini
 
