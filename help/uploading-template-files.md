@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 69%
+source-wordcount: '236'
+ht-degree: 48%
 
 ---
-
 
 # Caricamento dei file di modello{#uploading-template-files}
 
@@ -30,8 +30,11 @@ Carica i file necessari per il modello in Dynamic Media Classic prima di iniziar
 
 Per istruzioni dettagliate sul caricamento dei file, consultate [Caricamento dei file](uploading-files.md#uploading_files). Tenete in mente quanto segue per il caricamento dei file modello:
 
-* Se caricate un file PSD, potete creare un modello in fase di caricamento. Dynamic Media Classic crea un&#39;immagine separata per ogni livello della PSD. Nella finestra di dialogo Opzioni processo di caricamento, selezionate Opzioni Photoshop, selezionate le opzioni Mantieni livelli, quindi l’opzione Crea modello. Quindi scegliete un&#39;opzione nel menu Denominazione livello per denominare le immagini create da Dynamic Media Classic dai livelli della PSD. Consultate [Opzioni di caricamento PSD](psd-files.md#psd_upload_options).
-* Se caricate delle immagini, potete creare una maschera dal relativo tracciato di ritaglio. Questa opzione può essere applicata alle immagini create con applicazioni di elaborazione immagini in cui è stato creato un tracciato di ritaglio. Nella finestra di dialogo Opzioni processo di caricamento, selezionate Opzioni di modifica immagini e selezionate l’opzione Crea maschera dal tracciato di ritaglio. Consultate [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Se carichi un file PSD, puoi crearne uno. Dynamic Media Classic crea un&#39;immagine separata per ogni livello della PSD. Nella finestra di dialogo Opzioni processo di caricamento, fai clic su **[!UICONTROL Opzioni Photoshop]**, quindi seleziona **[!UICONTROL Gestisci livelli]** e **[!UICONTROL Crea modello]**. Quindi scegli un&#39;opzione dall&#39;elenco a discesa **[!UICONTROL Denominazione livello]** per denominare le immagini create da Dynamic Media Classic dai livelli della PSD.
+Consultate [Opzioni di caricamento PSD](psd-files.md#psd_upload_options).
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
