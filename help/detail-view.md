@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 69%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Vista dettagli](/help/assets/image_0.img.png)
+![Vista ](/help/assets/image_0.img.png)
+*DettagliVista dettagli con il pannello Libreria risorse nascosto dalla vista a sinistra.*
 
 >[!NOTE]
 >
@@ -44,8 +45,8 @@ Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potet
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
+   * Selezionate la risorsa. Fai clic sull&#39;icona **[!UICONTROL Vista dettagli]** nell&#39;angolo in alto a destra di Dynamic Media Classic .
    * Fate doppio clic sulla risorsa.
-   * Seleziona la risorsa, quindi fai clic su **[!UICONTROL Vista dettagli]**.
    * Seleziona la risorsa, quindi fai clic su **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
 >[!NOTE]
