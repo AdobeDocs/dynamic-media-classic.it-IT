@@ -11,18 +11,20 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # Nozioni di base sulla navigazione{#navigation-basics}
 
-La schermata Dynamic Media Classic include tre aree principali: Barra di navigazione globale, Libreria risorse e pannello Sfoglia/Build.
+La schermata Dynamic Media Classic include tre aree principali: Barra di navigazione globale, libreria delle risorse, scheda Filtri risorse, pannello Sfoglia/Genera e carrello multimediale (solo Portale multimediale).
 
-![Nozioni di base sulla navigazione](/help/assets/gs_navigation_basics_popup_popup.png)
+![Nozioni ](/help/assets/gs_navigation_basics_popup_popup.png)
+*di base sulla navigazione*
+*Aree principali di Dynamic Media ClassicA) Barra di navigazione globale B) Pannello Libreria risorse C) Scheda Filtri risorse D) Pannello Sfoglia E) Carrello multimediale (solo Portale multimediale)*
 
 ## Barra di navigazione globale {#global-navigation-bar}
 
