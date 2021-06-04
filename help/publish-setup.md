@@ -7,8 +7,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: 35c62fb1f4f136c06ccfbfd80f918462e839d931
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 47%
@@ -21,7 +20,7 @@ Le impostazioni della pagina Configurazione pubblicazione determinano il modo in
 
 Gli amministratori possono modificare le impostazioni predefinite nelle pagine Image Server, Image Renderer e Vignette per stabilire le impostazioni predefinite per la distribuzione delle risorse dai server.
 
-Per aprire le pagine Pubblica installazione, fai clic su **Configurazione** > **Impostazione applicazione** > **Impostazioni pubblicazione**.
+Per aprire le pagine Pubblica installazione, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni pubblicazione]**.
 
 >[!NOTE]
 >
@@ -108,13 +107,13 @@ Con la localizzazione, un URL di Image Server aggiunge il parametro `locale=` al
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Al ricevimento della chiamata http da parte del server di immagini, il parametro `locale=` viene analizzato attraverso il campo localeMap disponibile nel gruppo ****[!UICONTROL Configurazione]**** > ****[!UICONTROL Impostazione applicazione]**** > ****[!UICONTROL Configurazione pubblicazione]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Supporto localizzazione]****.
+Al ricevimento della chiamata http da parte del server di immagini, il parametro `locale=` viene analizzato attraverso il campo localeMap disponibile nel gruppo **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Configurazione pubblicazione]** > **[!UICONTROL Image Server]** > **[!UICONTROL Supporto localizzazione]**.
 
 Il campo Mappa lingua contiene un elenco di voci separate con il simbolo di barra verticale (|).
 
 Ogni voce è un elenco di valori separati da virgola. Il primo valore è il valore di ricerca trasmesso dal parametro `locale=`. I valori rimanenti sono suffissi/valori di sostituzione che vengono poi provati fino a quando non si ottiene un&#39;immagine esistente.
 
-L’applicazione del valore di suffisso o di sostituzione dipende dall’impostazione Lingua globale in ****[!UICONTROL Configurazione]**** > ****[!UICONTROL Impostazione applicazione]**** > ****[!UICONTROL Configurazione pubblicazione]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Supporto per la localizzazione]****.
+L’applicazione del valore di suffisso o di sostituzione dipende dall’impostazione Lingua globale in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Configurazione pubblicazione]** > **[!UICONTROL Image Server]** > **[!UICONTROL Supporto per la localizzazione]**.
 
 >[!NOTE]
 >
