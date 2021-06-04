@@ -1,25 +1,16 @@
 ---
-source-git-commit: f5c296566dba4ea1a01ce74a537b7a94c92eef15
-translation-type: tm+mt
+source-git-commit: 23660fd17351c68027a79ce21a913fd19e7abc3f
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 # Licenza MIT
 
-© Copyright 2018 Adobe. Tutti i diritti riservati.
+© Copyright 2021 Adobe. all rights reserved.
 
-L'autorizzazione è concessa gratuitamente a qualsiasi persona che riceve una copia
-di questo software e dei file associati della documentazione ("Software"), per gestire
-il Software senza limitazioni, compresi senza limitazioni i diritti
-per utilizzare, copiare, modificare, unire, pubblicare, distribuire, modificare, unire, pubblicare, distribuire, modificare, unire, pubblicare, distribuire, cancellare e/o vendere
-il Software in base alle condizioni seguenti:
+È concessa gratuitamente l&#39;autorizzazione a qualsiasi persona che ottenga una copia di questo software e dei relativi file di documentazione (il &quot;Software&quot;), a trattare il Software senza restrizioni, compresi, a titolo esemplificativo, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, concedere in sublicenza e/o vendere copie del Software, e a consentire alle persone a cui il Software è fornito di farlo, alle seguenti condizioni:
 
-L'avviso di copyright riportato sopra e questo avviso di autorizzazione devono essere inclusi in tutte
-le copie o in parti sostanziali del Software.
+L&#39;avviso di copyright di cui sopra e l&#39;avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+IL SOFTWARE VIENE FORNITO &quot;COSÌ COM’È&quot;, SENZA GARANZIA DI ALCUN TIPO, ESPLICITA O IMPLICITA, COMPRESE MA NON LIMITATE ALLE GARANZIE DI COMMERCIABILITÀ, IDONEITÀ A UNO SCOPO PARTICOLARE E NON VIOLAZIONE. IN NESSUN CASO GLI AUTORI O I TITOLARI DEL DIRITTO D&#39;AUTORE DEVONO ESSERE RESPONSABILI DI QUALSIASI CREDITO, DANNO O ALTRA RESPONSABILITÀ, SIA IN UN&#39;AZIONE DI CONTRATTO, DI TRATTAMENTO O DI ALTRO TIPO, DERIVANTE DAL SOFTWARE O DALL&#39;UTILIZZO O DI ALTRI DEL SOFTWARE.
