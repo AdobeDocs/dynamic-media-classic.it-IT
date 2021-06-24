@@ -10,7 +10,6 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '2427'
@@ -35,7 +34,7 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 * Definire altre azioni secondo quanto stabilito dal World Wide Web Consortium.
 * Visualizzare l’anteprima delle mappe immagine.
 
-## Disegno e regolazione di una mappa immagine  {#drawing-and-adjusting-an-image-map}
+## Disegno e regolazione di una mappa immagine {#drawing-and-adjusting-an-image-map}
 
 1. Effettuate una delle seguenti operazioni:
 
@@ -92,7 +91,7 @@ Per cambiare posizione, forma e dimensione alla mappa immagine, fate clic sul pu
 
 Se l’immagine o la pagina di eCatalog include più mappe immagine che si sovrappongono, potete gestirne la sovrapposizione cambiando l’ordine delle mappe nell’elenco Mappa immagine. Trascinate i nomi delle mappe verso l’alto o il basso nell’elenco. Le mappe immagine si sovrappongono l’una sull’altra in base all’ordine dei relativi nomi in questo elenco, dall’alto al basso.
 
-### Importazione di dati per le mappe immagine  {#importing-image-map-data}
+### Importazione di dati per le mappe immagine {#importing-image-map-data}
 
 Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potete importare i dati per l’immagine, il set 360 gradi o l’eCatalog nella schermata Riepilogo mappe. Potete importare i dati delle mappe immagine come un file delimitato da tabulazioni o un file XML DTD. I campi presenti nel file devono essere nell’ordine visualizzato nella schermata Riepilogo mappe: Nome, Etichette di sommario, Mappe, URL, Testo di rollover, Altre azioni e Stringhe di ricerca. Importando i dati delle mappe immagine si evita di dover inserire i dati nell’elenco delle mappe immagine durante la creazione di ciascuna mappa immagine.
 
@@ -107,7 +106,7 @@ Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potet
 1. (Facoltativo) Nel campo Nome processo, specificate un nome per il processo di caricamento dei metadati.
 1. Fate clic su Carica.
 
-### Copia delle mappe immagine  {#copying-image-maps}
+### Copia delle mappe immagine {#copying-image-maps}
 
 Potete copiare le mappe immagine da un’immagine o una pagina di eCatalog all’altra, Utilizza **[!UICONTROL Copia mappa immagine]** per ottenere un primo inizio nella creazione di tali immagini. o per ricrearle in immagini o pagine che condividono lo stesso layout o la stessa struttura di mappatura. 
 
@@ -168,7 +167,7 @@ Per creare un modello URL:
 1. Immetti il codice JavaScript™ e l&#39;URL completo (con la porzione di variabile sostituita dal simbolo del dollaro [$]). Potete incollare il codice facendo clic con il pulsante destro del mouse e scegliendo Incolla.
 1. Fate clic sul pulsante Salva.
 
-### Gestione dei modelli URL  {#handling-url-templates}
+### Gestione dei modelli URL {#handling-url-templates}
 
 La pagina Editor mappa (per le immagini e i set 360 gradi) e la scheda Mappe pagine della schermata eCatalog (per gli eCatalog) offrono i seguenti comandi per gestire i modelli URL:
 
