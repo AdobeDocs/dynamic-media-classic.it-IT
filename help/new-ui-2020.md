@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '1121'
@@ -104,7 +103,7 @@ Per ulteriori informazioni sui vantaggi dell&#39;aggiornamento alla nuova genera
 >[!MORELIKETHIS]
 >
 >* [Accesso e uscita dall’applicazione desktop Dynamic Media Classic](/help/signing-out.md)
->* [Download e installazione dell’applicazione desktop Dynamic Media Classic](/help/dynamic-media-classic-desktop-app.md)
+* [Download e installazione dell’applicazione desktop Dynamic Media Classic](/help/dynamic-media-classic-desktop-app.md)
 
 
 
