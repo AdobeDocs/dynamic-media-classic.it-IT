@@ -10,7 +10,6 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '1683'
@@ -26,7 +25,7 @@ I siti web, i siti mobili e le applicazioni desktop accedono al contenuto del se
 >
 >l’URL o il codice da incorporare diventa attivo solo dopo che la risorsa è stata pubblicata.
 
-## Pubblicazione dei video  {#publishing-video}
+## Pubblicazione dei video {#publishing-video}
 
 La pubblicazione di un video consente ai server Dynamic Media Classic di distribuire video al sito web, al sito mobile o all’applicazione.
 
@@ -74,7 +73,7 @@ Consultate anche [Incorporamento di un visualizzatore video in una pagina Web](d
 
 1. Inserite il collegamento URL per il video HTML5 nel sito Web e nel sito mobile.
 
-## Incorporamento di un visualizzatore video in una pagina Web  {#embedding-the-video-viewer-on-a-web-page}
+## Incorporamento di un visualizzatore video in una pagina Web {#embedding-the-video-viewer-on-a-web-page}
 
 Per riprodurre il video incorporato nella pagina Web, utilizzate la funzione Incorpora codice. Puoi copiare il codice da incorporare negli Appunti, per poi incollarlo nelle pagine web. La modifica del codice non è consentita nella finestra di dialogo Incorpora codice.
 
@@ -130,7 +129,7 @@ Se non utilizzi il lettore video HTML5 di Dynamic Media Classic, ma desideri uti
 
    Consultate [Collegamento di un URL per video a un sito mobile o a un sito Web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-## Implementazione di video mediante un lettore video di terze parti  {#deploying-video-using-a-third-party-video-player}
+## Implementazione di video mediante un lettore video di terze parti {#deploying-video-using-a-third-party-video-player}
 
 Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic, puoi ottenere l’URL video diretto che funziona per lo streaming video a più bit HLS o per il download progressivo.
 
