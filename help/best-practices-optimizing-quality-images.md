@@ -5,10 +5,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '1465'
@@ -27,7 +26,7 @@ Vedere anche [Smart imaging](https://experienceleague.adobe.com/docs/experience-
 ## Procedure ottimali per il formato delle immagini (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * I formati JPG e PNG rappresentano la scelta migliore per la distribuzione di immagini di buona qualità e di dimensioni gestibili.
-* Se nell’URL non viene fornito alcun comando di formato, per impostazione predefinita Dynamic Media Image Serving utilizza JPG per la consegna.
+* Se nell’URL non viene fornito alcun comando di formato, per impostazione predefinita Dynamic Media Image Serving utilizza JPG per la distribuzione.
 * Con il formato JPG si ottiene un rapporto di compressione di 10:1 e si ottengono in genere file di dimensioni ridotte. PNG si comprime a un rapporto di circa 2:1, a meno che talvolta le immagini contengano uno sfondo vuoto. In genere, tuttavia, i file PNG sono di dimensioni maggiori rispetto ai file JPG.
 * Il formato JPG utilizza la compressione con perdita di dati, ossia durante la compressione vengono omessi degli elementi grafici (pixel). Il formato PNG utilizza invece la compressione senza perdita di dati.
 * Il formato JPG spesso comprime le immagini fotografiche con fedeltà migliore rispetto alle immagini sintetiche contenenti bordi netti e contrasto ben definito.
@@ -85,7 +84,7 @@ Potete aumentare quindi gradualmente il valore di intensità “amount” da 1.7
 
 Lasciate il parametro “monochrome” su 0.
 
-## Procedure ottimali per la compressione JPEG (&amp;qlt=)  {#best-practices-for-jpeg-compression-qlt}
+## Procedure ottimali per la compressione JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
 
 * Questo parametro controlla la qualità della codifica JPG. A un valore più elevato corrisponde un’immagine di qualità migliore ma anche un file di dimensioni maggiori, e viceversa. I valori ammessi per questo parametro sono 0-100.
 * Per ottimizzare la qualità, non impostate il valore del parametro su 100. La differenza tra un’impostazione di 90 o 95 e 100 è quasi impercettibile, ma con un valore pari a 100 le dimensioni del file immagini aumentano inutilmente. Pertanto, per ottimizzare la qualità ma evitare che i file di immagine diventino troppo grandi, imposta il valore `qlt=` su 90 o 95.
