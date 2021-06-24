@@ -10,7 +10,6 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '543'
@@ -64,6 +63,6 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 >[!MORELIKETHIS]
 >
 >* [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Ritaglio dello spazio bianco da un file PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Ritaglio dai lati delle pagine PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+* [Ritaglio dello spazio bianco da un file PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+* [Ritaglio dai lati delle pagine PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
