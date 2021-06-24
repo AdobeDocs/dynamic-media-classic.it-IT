@@ -10,11 +10,10 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '1223'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -108,7 +107,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Consultate [Invio dei set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Modifica di un set di offerte  {#editing-an-offer-set}
+## Modifica di un set di offerte {#editing-an-offer-set}
 
 Sia che modifichi un set pubblicato che un set non pubblicato, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** influisce sul set e sui membri impostati nei seguenti modi:
 
@@ -138,7 +137,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine della modifica, accertati che nell’angolo in basso a destra della pagina sia selezionato **[!UICONTROL Pubblica dopo aver salvato]** (impostazione predefinita).
 1. Fate clic su **[!UICONTROL Salva]**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **[!UICONTROL Salva]**.
 
-## Eliminazione di un set di offerte  {#deleting-an-offer-set}
+## Eliminazione di un set di offerte {#deleting-an-offer-set}
 
 Quando eliminate un set di offerte, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
