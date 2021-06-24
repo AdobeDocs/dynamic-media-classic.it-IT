@@ -10,7 +10,6 @@ discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Business Practitioner
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '684'
@@ -26,7 +25,7 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 >
 >l’URL non è attivo finché non pubblicate la risorsa.
 
-## Copia dell’URL di un eCatalog  {#copying-an-ecatalog-url}
+## Copia dell’URL di un eCatalog {#copying-an-ecatalog-url}
 
 1. Nel pannello delle risorse, nell’elenco a discesa Mostra, fate clic su **[!UICONTROL Catalogo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene l’eCatalog di cui desiderate copiare il codice incorporato.
@@ -45,7 +44,7 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **Copia URL**.
 
-## Aggiunta di URL di eCatalog alla pagina Web  {#adding-ecatalog-urls-to-your-web-page}
+## Aggiunta di URL di eCatalog alla pagina Web {#adding-ecatalog-urls-to-your-web-page}
 
 Il modo più comune di pubblicare un eCatalog consiste nell’inserire nella pagina Web un collegamento sotto forma di miniatura della copertina dell’eCatalog. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
