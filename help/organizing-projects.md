@@ -10,7 +10,6 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '477'
@@ -34,7 +33,7 @@ Potete creare un progetto quando caricate dei file oppure li potete creare nel p
 >
 >la funzione progetti deve essere impostata dall’amministratore affinché possa essere usata dagli utenti. Se la sezione della cartella Progetti non è disponibile nella parte inferiore della Libreria risorse, significa che questo metodo di organizzazione delle risorse non è stato abilitato. Consultate [Impostazioni generali applicazione](application-setup.md#general-settings).
 
-## Creazione di una cartella di progetto  {#creating-a-project-folder}
+## Creazione di una cartella di progetto {#creating-a-project-folder}
 
 Puoi creare una cartella Progetto a partire dalla Libreria risorse o quando carichi i file in Dynamic Media Classic:
 
