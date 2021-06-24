@@ -10,7 +10,6 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '426'
@@ -36,11 +35,11 @@ Dopo aver caricato un file di font, puoi modificarne l’ID Dynamic Media Classi
 >
 >Dynamic Media Classic consiglia di caricare tutti gli stili di font (grassetto, corsivo, grassetto/corsivo e normale) se prevedi di utilizzare i font nei livelli modello. Dynamic Media Classic richiede questi stili di font per elaborare le richieste. Si consiglia anche di caricare tutti i file PostScript/Adobe Type 1 associati a un font, poiché alcuni di questi contengono informazioni dettagliate per la crenatura.
 
-## Caricamento di file di font  {#uploading-font-files}
+## Caricamento di file di font {#uploading-font-files}
 
 Caricate i file di font con le stesse tecniche usate per caricare altri file. È possibile memorizzare i file di font in qualsiasi cartella di Dynamic Media Classic. Consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
 
-## Modifica delle informazioni sui file di font  {#editing-font-file-information}
+## Modifica delle informazioni sui file di font {#editing-font-file-information}
 
 È possibile modificare il nome ID di un font e le relative informazioni sul tipo. La modifica di un file di font può essere utile per le ricerche e per identificare i font più facilmente.
 
