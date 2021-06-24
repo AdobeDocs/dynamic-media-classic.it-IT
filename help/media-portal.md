@@ -10,7 +10,6 @@ discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
 feature: Dynamic Media Classic,Gestione risorse
 role: Administrator,Business Practitioner
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '103'
@@ -18,7 +17,7 @@ ht-degree: 15%
 
 ---
 
-# Media Portal{#media-portal}
+# Portale multimediale{#media-portal}
 
 Adobe Medium Portal consente alle aziende di acquisire, controllare e distribuire facilmente le risorse approvate ai partner e ai canali esterni, nonché agli utenti interni. L’ambiente &quot;self-service&quot; basato su browser offre agli utenti del portale delle risorse Dynamic Media Classic &quot;viste&quot; controllate dall’amministratore, che consentono di caricare, sfogliare, cercare, visualizzare in anteprima ed esportare le risorse nei formati approvati dall’azienda.
 
