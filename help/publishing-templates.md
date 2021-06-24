@@ -10,7 +10,6 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '171'
@@ -37,5 +36,5 @@ Per pubblicare i modelli sui server di immagini Dynamic Media, nella barra di na
 >[!MORELIKETHIS]
 >
 >* [Contrassegnazione delle risorse per la pubblicazione](publishing-files.md#publish_after_uploading)
->* [Creazione di un processo di pubblicazione](publishing-files.md#creating_a_publish_job)
+* [Creazione di un processo di pubblicazione](publishing-files.md#creating_a_publish_job)
 
