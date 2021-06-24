@@ -9,7 +9,6 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '1935'
@@ -78,7 +77,7 @@ Dopo aver aggiunto un utente, Dynamic Media Classic invia all’utente un messag
 1. Deselezionate Valido.
 1. Fate clic su **[!UICONTROL Salva]**.
 
-### Attivazione o disattivazione degli utenti  {#activating-or-deactivating-users}
+### Attivazione o disattivazione degli utenti {#activating-or-deactivating-users}
 
 Gli utenti che sono stati disattivati non sono più autorizzati ad accedere all’account indicato all’inizio del menu Seleziona account per l’accesso.
 
@@ -96,7 +95,7 @@ Le informazioni utente che potete modificare dipendono dal vostro ruolo di ammin
 1. Se desideri modificare l’iscrizione al gruppo dell’utente (se stai modificando o aggiungendo un utente o un collaboratore di Media Portal), fai clic su **[!UICONTROL Avanti]** e modifica l’iscrizione al gruppo.
 1. Fate clic su **[!UICONTROL Salva]**.
 
-### Filtro e ordine dell’elenco degli utenti  {#filtering-and-sorting-the-user-list}
+### Filtro e ordine dell’elenco degli utenti {#filtering-and-sorting-the-user-list}
 
 Potete filtrare e ordinare l’elenco degli utenti per individuare un utente. Tutti gli utenti di tutti gli account da voi amministrati compaiono nell’elenco utenti, indipendentemente dall’account selezionato nel menu Seleziona account per l’accesso.
 
@@ -142,7 +141,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
       Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
-## Larghezza di banda e spazio di archiviazione  {#bandwidth-storage}
+## Larghezza di banda e spazio di archiviazione {#bandwidth-storage}
 
 Gli amministratori di Dynamic Media Classic possono generare larghezza di banda, storage e altri tipi di report per le aziende che amministrano. Questi report sono disponibili nella pagina Larghezza di banda e archiviazione.
 
@@ -179,7 +178,7 @@ Il rapporto Contenuti immagine offre informazioni sulle richieste per i seguenti
 >
 >il rapporto Streaming video è applicabile solo ai video in streaming. Non tiene traccia della visualizzazione di video progressivi.
 
-### Generazione di un rapporto  {#generating-a-report}
+### Generazione di un rapporto {#generating-a-report}
 
 Per generare un rapporto sulla larghezza di banda, l’archiviazione, i contenuti immagine, il dominio, lo streaming video o i contenuti video:
 
@@ -189,7 +188,7 @@ Per generare un rapporto sulla larghezza di banda, l’archiviazione, i contenut
 
    Consultate [Tipi di rapporti](administration-setup.md#types_of_reports).
 
-### Visualizzazione dei dati in diversi modi  {#viewing-data-in-different-ways}
+### Visualizzazione dei dati in diversi modi {#viewing-data-in-different-ways}
 
 Dopo la generazione di un rapporto dalla pagina Larghezza di banda e spazio di archiviazione, potete scegliere diverse opzioni per la visualizzazione delle informazioni. Potete scegliere come presentare le informazioni, se visualizzarle sotto forma di grafico o griglia, nonché specificare un periodo di tempo per i dati da acquisire. In visualizzazione Dati, potete inoltre ordinare le informazioni e riordinare le colonne.
 
