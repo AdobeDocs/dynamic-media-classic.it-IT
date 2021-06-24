@@ -10,7 +10,6 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic, Gestione risorse, Metadati
 role: Business Practitioner
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '2254'
@@ -56,7 +55,7 @@ Per informazioni sulla creazione di visualizzazioni metadati, consulta [Visualiz
 >
 >Per modificare i metadati di più risorse contemporaneamente, seleziona le risorse e fai clic su **[!UICONTROL File]** > **[!UICONTROL Modifica informazioni]**. Le modifiche effettuate ai metadati nella finestra Modifica info vengono applicate a tutte le risorse selezionate.
 
-## Aggiungere o modificare le parole chiave  {#add-or-edit-keywords}
+## Aggiungere o modificare le parole chiave {#add-or-edit-keywords}
 
 Oltre ai metadati, è possibile utilizzare parole chiave per facilitare la ricerca e la gestione delle risorse.
 
@@ -76,7 +75,7 @@ Se hai aggiunto le parole chiave ad altri file durante questa sessione o se hai 
 >È possibile aggiungere parole chiave ai file durante il caricamento in Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento , scegli **[!UICONTROL Metadati aggiuntivi]** e immetti le parole chiave.
 >Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
 
-## Importare i metadati  {#import-metadata}
+## Importare i metadati {#import-metadata}
 
 Invece di immettere manualmente i metadati per una risorsa alla volta, potete importare i metadati per diverse risorse da un file XML o delimitato da tabulazioni. L’immissione dei metadati in un file XML o delimitato da tabulazioni e l’importazione di tale file risulta più rapida rispetto all’immissione dei metadati in singole risorse. Nella prima riga del file delimitato da tabulazioni, inserite l’ID e i nomi dei campi per i quali desiderate registrare i metadati. In ogni riga successiva, immettete il nome dell’ID della risorsa seguito dai valori di metadati. I campi non inclusi nel file XML o delimitato da tabulazioni non vengono modificati. Per importare metadati da un file XML, accertatevi che sia conforme al DTD.
 
@@ -126,7 +125,7 @@ Ad esempio:
 
 Il prefisso deve essere aggiunto alla relativa intestazione di colonna del campo da importare.
 
-## Importare metadati (tramite FTP)  {#import-metadata-via-ftp}
+## Importare metadati (tramite FTP) {#import-metadata-via-ftp}
 
 È possibile importare metadati per più file immettendo i metadati in un file XML o delimitato da tabulazioni e selezionando **[!UICONTROL Elabora file di metadati]** nella pagina Opzioni processo di caricamento (tramite scheda FTP).
 
@@ -149,7 +148,7 @@ Ad esempio:
 
 Il registro dei processi per il processo Metadati mostra quali ID sono stati rinominati correttamente e quali no.
 
-## Creare un modello per l’immissione di metadati da caricare.{#create-a-template-for-entering-metadata-to-upload}
+## Creare un modello per l’immissione di metadati da caricare. {#create-a-template-for-entering-metadata-to-upload}
 
 Dynamic Media Classic offre un comando per la creazione di un modello per la registrazione dei metadati. L’utilizzo del modello assicura che i metadati siano immessi nel formato corretto e possano essere caricati correttamente in Dynamic Media Classic. Per creare un modello da utilizzare per la registrazione e l’importazione di metadati in Dynamic Media Classic, effettua le seguenti operazioni:
 
@@ -217,5 +216,5 @@ Quando la struttura della proprietà è Scelta aperta o Scelta chiusa, immettete
 >[!MORELIKETHIS]
 >
 >* [Predefiniti per visualizzatori](application-setup.md#viewer_presets)
->* [Predefiniti per metadati](application-setup.md#metadata_presets)
+* [Predefiniti per metadati](application-setup.md#metadata_presets)
 
