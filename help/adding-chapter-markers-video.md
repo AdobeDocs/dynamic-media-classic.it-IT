@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 84%
+source-wordcount: '624'
+ht-degree: 82%
 
 ---
-
 
 # Aggiunta di marcatori capitolo a video{#adding-chapter-markers-to-video}
 
@@ -50,7 +49,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. L’indicatore temporale del cue point `00:00:000 --> 01:04:364` indica il minutaggio iniziale e finale del capitolo, in formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L’identificatore del cue point, il cue point iniziale e il titolo del capitolo vengono visualizzati in una finestra a comparsa del lettore video quando l’utente passa il puntatore del mouse sul riferimento visivo nella timeline del video.
+Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. Il tempo di cue di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e di fine del capitolo, in formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L’identificatore del cue point, il cue point iniziale e il titolo del capitolo vengono visualizzati in una finestra a comparsa del lettore video quando l’utente passa il puntatore del mouse sul riferimento visivo nella timeline del video.
 
 Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file dei capitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
@@ -89,4 +88,3 @@ Consultare [WebVTT: Il formato Tracce testo video web](https://dev.w3.org/html5/
       Per il visualizzatore HTML5 `Universal_HTML5_Video` , aggiungi il codice da incorporare copiato con quanto segue:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
-
