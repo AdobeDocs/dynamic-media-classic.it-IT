@@ -10,7 +10,6 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '989'
@@ -70,7 +69,7 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
    * **Ancoraggio**  - Consente di specificare il modo in cui le immagini vengono ancorate nei modelli generati dalla composizione a livelli prodotta dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. L’ancoraggio centrale permette alle immagini sostitutive di riempire in modo ottimale lo spazio, indipendentemente dalle loro proporzioni. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
 
 
-## Visualizzazione e modifica dei livelli in un file PSD  {#viewing-and-editing-layers-in-a-psd-file}
+## Visualizzazione e modifica dei livelli in un file PSD {#viewing-and-editing-layers-in-a-psd-file}
 
 Se hai selezionato l’opzione Mantieni livelli al momento del caricamento del file PSD, Dynamic Media Classic ha suddiviso i singoli livelli in risorse. Per visualizzare e modificare i livelli delle risorse appartenenti al file PSD, aprite il file nel pannello Sfoglia in visualizzazione Dettagli.
 
