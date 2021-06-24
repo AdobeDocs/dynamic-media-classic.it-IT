@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 88%
+source-wordcount: '166'
+ht-degree: 89%
 
 ---
-
 
 # Inserimento di destinazioni di zoom e mappe immagine nei set di immagini{#including-zoom-targets-and-image-maps-in-image-sets}
 
@@ -27,5 +26,5 @@ Per rendere disponibili agli utenti le funzioni di destinazioni di zoom e mappe 
 >[!MORELIKETHIS]
 >
 >* [Creazione di destinazioni di zoom per lo zoom guidato](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
->* [Creazione di mappe immagine](creating-image-maps.md#creating_image_maps)
+* [Creazione di mappe immagine](creating-image-maps.md#creating_image_maps)
 
