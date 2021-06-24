@@ -10,7 +10,6 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '832'
@@ -24,7 +23,7 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
 Per inserire queste stringhe URL nelle pagine web e nelle applicazioni, copiale da Dynamic Media Classic. Per ottenere una stringa URL generata tramite un predefinito per immagini, passate alla schermata Anteprima o al pannello Sfoglia (in visualizzazione Dettagli).
 
-## Ottenimento di un URL di un predefinito per immagini  {#obtaining-an-image-preset-url}
+## Ottenimento di un URL di un predefinito per immagini {#obtaining-an-image-preset-url}
 
 Potete ottenere una stringa URL generata da un predefinito per immagini dalla schermata Anteprima o dalla visualizzazione Dettagli. Una volta copiato, l’URL viene inserito negli Appunti ed è pronto per essere incollato.
 
@@ -32,7 +31,7 @@ Potete ottenere una stringa URL generata da un predefinito per immagini dalla sc
 >
 >l’URL diventa attivo solo dopo che la risorsa è stata pubblicata.
 
-### Ottenimento di un URL di un predefinito per immagini da Anteprima  {#obtaining-an-image-preset-url-from-preview}
+### Ottenimento di un URL di un predefinito per immagini da Anteprima {#obtaining-an-image-preset-url-from-preview}
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
