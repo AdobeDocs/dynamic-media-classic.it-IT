@@ -6,7 +6,6 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Scopri come usare Dynamic Media Classic
 index: y
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
@@ -15,12 +14,12 @@ ht-degree: 77%
 ---
 
 
-# Guida di Adobe Dynamic Media Classic  {#using}
+# Guida di Adobe Dynamic Media Classic {#using}
 
 + [Guida di Adobe Dynamic Media Classic](home.md)
 + [Tutorial sulle best practice](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [È ora disponibile una nuova esperienza di accesso a Dynamic Media Classic](new-ui-2020.md)
-+ [Newsletter Dynamic Media di Experience League](dynamic-media-newsletter.md)
++ [Newsletter Dynamic Media per Experience League](dynamic-media-newsletter.md)
 + Introduzione ad Adobe Dynamic Media Classic {#intro}
    + [Adobe App Dynamic Media Classic Desktop - Ora disponibile](dynamic-media-classic-desktop-app.md)
    + [Guida di Dynamic Media Classic](introduction.md)
@@ -180,5 +179,5 @@ ht-degree: 77%
    + [Utilizzo di file di vignettatura, rifinitura finestre e scaffali](vignette-window-covering-cabinet-files.md)
 + File di supporto {#support-files}
    + [Font](fonts.md)
-   + [XML, file](xml-files.md)
+   + [File XML](xml-files.md)
    + [Profili ICC](icc-profiles.md)
