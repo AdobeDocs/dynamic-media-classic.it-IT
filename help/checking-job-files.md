@@ -10,7 +10,6 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-translation-type: tm+mt
 source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
 source-wordcount: '1583'
@@ -58,7 +57,7 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 >
 >per annullare i processi di pubblicazione e caricamento in corso, fate clic sul pulsante Annulla accanto alla barra di avanzamento.
 
-## Modifica delle visualizzazioni nella pagina Processi  {#changing-views-on-the-jobs-page}
+## Modifica delle visualizzazioni nella pagina Processi {#changing-views-on-the-jobs-page}
 
 Per ordinare i processi o modificare la visualizzazione della scheda Cronologia nella pagina Processi, effettuate le seguenti procedure:
 
@@ -90,7 +89,7 @@ Per modificare ed eliminare i processi periodici, fate clic sul pulsante Process
 >
 >per filtrare l’elenco dei processi nella scheda Pianificati, selezionate i menu Tipo processo e Mostra. Per restringere l’elenco includendo solo i processi di pubblicazione di un determinato tipo, scegliete Tipo processo. Per visualizzare i processi creati da voi o da qualsiasi utente aziendale, scegliete l’opzione Mostra.
 
-### Modifica, eliminazione, sospensione e ripristino di processi periodici  {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Modifica, eliminazione, sospensione e ripristino di processi periodici {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 Selezionate un processo periodico nella pagina Processi e seguite le seguenti istruzioni per modificarlo o eliminarlo:
 
@@ -153,7 +152,7 @@ Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli interval
 * 0 15 10 ? * 6L: alle 10:15 l’ultimo venerdì di ogni mese
 * 0 15 10 * * 6#3: alle 10:15 il terzo venerdì di ogni mese
 
-## Utilizzo di un processo di caricamento o pubblicazione come trigger  {#using-an-upload-or-publish-job-as-a-trigger}
+## Utilizzo di un processo di caricamento o pubblicazione come trigger {#using-an-upload-or-publish-job-as-a-trigger}
 
 Quando carichi le risorse tramite FTP o esegui un processo di pubblicazione, puoi pianificare un processo successivo affinché inizi una volta completato il caricamento. (Se sono programmati altri lavori per l&#39;inizio, il lavoro pianificato viene messo in coda dietro di essi.) Il nuovo processo invia una notifica all’indirizzo specificato per poter attivare il codice nella posizione esatta. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
 
