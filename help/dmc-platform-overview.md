@@ -10,7 +10,6 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
 source-wordcount: '454'
@@ -18,11 +17,11 @@ ht-degree: 30%
 
 ---
 
-# Adobe Panoramica del programma Dynamic Media Classic{#adobe-scene-platform-overview}
+# Panoramica del programma Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
 
 Dynamic Media Classic è un ambiente integrato di gestione, pubblicazione e distribuzione di contenuti multimediali. I contenuti multimediali possono essere distribuiti a tutti i canali di marketing e vendita, incluso il Web, materiale stampato, campagne e-mail, portali Web, desktop e dispositivi.
 
-## Processo del flusso di lavoro  {#workflow-process}
+## Processo del flusso di lavoro {#workflow-process}
 
 I passaggi chiave del flusso di lavoro di Dynamic Media Classic sono i seguenti:
 
