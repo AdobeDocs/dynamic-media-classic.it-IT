@@ -10,7 +10,6 @@ discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Business Practitioner
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '686'
@@ -45,7 +44,7 @@ Dopo aver pubblicato un set di immagini, potete copiarne l’URL o il codice da 
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**.
 
-## Aggiunta di URL di set di immagini alla pagina Web  {#adding-image-set-urls-to-your-web-page}
+## Aggiunta di URL di set di immagini alla pagina Web {#adding-image-set-urls-to-your-web-page}
 
 Il modo più comune di pubblicare i set di immagini consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Facendo clic su di esso, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra a comparsa di zoom. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
