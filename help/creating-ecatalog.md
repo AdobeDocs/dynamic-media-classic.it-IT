@@ -10,7 +10,6 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Business Practitioner
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '986'
@@ -22,7 +21,7 @@ ht-degree: 79%
 
 Quando si crea un eCatalog occorre ordinare le pagine, scegliere il layout delle pagine e collegare le pagine tracciando delle mappe immagine e inserendo i dati necessari per rollover e collegamenti ipertestuali. Se desiderato, potete personalizzare il sommario in modo da presentare agli utenti i nomi delle pagine anziché i numeri di pagina nel visualizzatore dell’eCatalog.
 
-## Creazione di un eCatalog  {#create}
+## Creazione di un eCatalog {#create}
 
 Puoi includere file di immagine e file PDF nel tuo eCatalog.
 
@@ -64,7 +63,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    Per visualizzare l’anteprima dell’eCatalog, dopo averlo salvato, fate clic su **[!UICONTROL Anteprima]**.
 
-## Modifica di un eCatalog  {#editing-an-ecatalog}
+## Modifica di un eCatalog {#editing-an-ecatalog}
 
 A seconda se modificate un set pubblicato o non pubblicato, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** incide su set e relativi membri nei seguenti modi:
 
@@ -84,7 +83,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica, verificate che l’opzione **Pubblica dopo il salvataggio** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **Salva**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **Salva**.
 
-## Eliminazione di un eCatalog  {#deleting-an-ecatalog}
+## Eliminazione di un eCatalog {#deleting-an-ecatalog}
 
 Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
@@ -95,7 +94,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più eCatalog.
 1. Nella barra di navigazione globale, fate clic su **File** > **Elimina** > **Elimina**.
 
-## Personalizzazione del sommario  {#customizing-the-table-of-contents-toc}
+## Personalizzazione del sommario {#customizing-the-table-of-contents-toc}
 
 Dynamic Media Classic fornisce i numeri di pagina predefiniti nell&#39;eCatalog nella scheda Pagine ordine della schermata eCatalog. Per i nomi di pagina personalizzati, potete modificare le etichette di pagina contenute nel sommario. Si consiglia di rinominare la copertina anteriore e quella posteriore. Ad esempio, la copertina anteriore può riportare &quot;Copertina&quot; invece di &quot;Pagina 0-1&quot;.
 
@@ -105,11 +104,11 @@ Potete creare un sommario personalizzato per l’eCatalog manualmente oppure imp
 >
 >per reimpostare i titoli di pagina predefiniti, selezionate Etichette di sommario nella scheda Ordina pagine e scegliete Ripristina titoli predefiniti (Tutto).
 
-### Inserimento manuale dei nomi delle pagine  {#manually-entering-page-names}
+### Inserimento manuale dei nomi delle pagine {#manually-entering-page-names}
 
 Per inserire manualmente i nomi delle pagine uno alla volta, aprite la scheda Ordina pagine della schermata eCatalog. Fate clic nel campo relativo al numero di pagina e inserite un nome. Inserite un nome per ogni pagina che desiderate denominare.
 
-### Importazione di nomi di pagina  {#importing-page-names}
+### Importazione di nomi di pagina {#importing-page-names}
 
 L’importazione dei nomi di pagina è consigliata se disponete di un eCatalog con numerose pagine. Potete importare i nomi da un file XML o delimitato da tabulazioni.
 
