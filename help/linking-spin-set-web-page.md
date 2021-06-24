@@ -10,7 +10,6 @@ discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic,Visualizzatori,Set 360 gradi
 role: Business Practitioner
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '720'
@@ -26,7 +25,7 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 >
 >l’URL non è attivo finché non pubblicate la risorsa.
 
-## Copia dell’URL di un set 360 gradi  {#copying-a-spin-set-url}
+## Copia dell’URL di un set 360 gradi {#copying-a-spin-set-url}
 
 1. Nel pannello delle risorse, nell’elenco a discesa Mostra, fate clic su **[!UICONTROL Set 360 gradi]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set 360 gradi di cui desiderate copiare il codice incorporato.
@@ -45,7 +44,7 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**.
 
-## Aggiunta di URL di set 360 gradi alla pagina Web  {#adding-spin-set-urls-to-your-web-page}
+## Aggiunta di URL di set 360 gradi alla pagina Web {#adding-spin-set-urls-to-your-web-page}
 
 I set 360 gradi vengono distribuiti come tutti i visualizzatori di zoom, tramite una pagina dinamica (ASP o JSP) che visualizza il set 360 gradi in una finestra di zoom. La chiamata URL alla piattaforma Dynamic Media Classic segue lo stesso protocollo sul visualizzatore zoom. Tuttavia, il nome del predefinito per visualizzatori dipende dal l’impostazione predefinita specificata dall’amministratore per i visualizzatori di set 360 gradi. Ad esempio, la sintassi dell’URL di prova riportato di seguito include un predefinito denominato `viewer.jsp` e il parametro SKU è il nome del set 360 gradi:
 
