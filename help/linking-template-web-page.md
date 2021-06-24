@@ -10,7 +10,6 @@ discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '331'
@@ -28,7 +27,7 @@ Per inserire stringhe URL nelle pagine web e nelle applicazioni, copiale da Dyna
 >
 >l’URL diventa attivo solo dopo che la risorsa è stata pubblicata.
 
-## Ottenimento di un URL per un modello  {#obtaining-a-template-url}
+## Ottenimento di un URL per un modello {#obtaining-a-template-url}
 
 Potete ottenere una stringa URL per il modello, generata da un predefinito immagine dalla schermata Anteprima modello. Una volta copiato, l’URL viene inserito negli Appunti ed è pronto per essere incollato. Per ottenere una stringa URL del modello generata con un predefinito immagine dalla pagina Anteprima modello, procedi come segue:
 
