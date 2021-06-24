@@ -10,7 +10,6 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Business Practitioner
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-translation-type: tm+mt
 source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
 source-wordcount: '1484'
@@ -22,7 +21,7 @@ ht-degree: 55%
 
 Una mappa immagine è un’area in una pagina eCatalog su cui l’utente può passare il mouse o fare clic per effettuare operazioni di vario tipo. Quando si sposta il puntatore su una mappa immagine, ad esempio, viene visualizzata una descrizione testuale di rollover di un elemento. Quando fate clic su una Mappa immagine, viene avviata un’altra azione. Ad esempio, potete aprire una pagina Web per consentire agli utenti di visualizzare ulteriori informazioni su un elemento o per acquistarlo, oppure per avviare un video che ne illustra l’uso.
 
-## Disegnare mappe immagine per eCatalog  {#drawing-ecatalog-image-maps}
+## Disegnare mappe immagine per eCatalog {#drawing-ecatalog-image-maps}
 
 Per gli eCatalog, potete disegnare le mappe immagine nella scheda Mappe pagine della schermata eCatalog. Questa schermata include l’area Mappa immagine in cui vengono visualizzate le pagine eCatalog e, a destra, l’elenco delle mappe immagine. Quando create delle mappe immagine, i relativi nomi vengono inseriti nell’elenco delle mappe immagine.
 
@@ -54,7 +53,7 @@ Consulta [Utilizzo di un modello per immettere JavaScript™ e URL](creating-ima
 
 Per eliminare una mappa immagine, selezionane il nome nell’elenco Mappa immagine e fai clic su **[!UICONTROL Elimina]**. Per disattivare temporaneamente una mappa immagine in una pagina senza eliminarla completamente, deselezionate l’opzione Attivato corrispondente nel pannello di elencazione delle mappe immagine.
 
-## Incorporamento di contenuti multimediali in un eCatalog  {#embedding-rich-media-in-an-ecatalog}
+## Incorporamento di contenuti multimediali in un eCatalog {#embedding-rich-media-in-an-ecatalog}
 
 È possibile utilizzare l’opzione Contenuti multimediali avanzati dell’eCatalog per includere video in formato MP4 o set 360 gradi nelle mappe immagine aggiunte a un eCatalog. Quando un utente fa clic sull’area della mappa immagine nell’eCatalog, viene visualizzato il video o set 360 gradi associato. Questa funzione è particolarmente utile quando si desidera illustrare ai clienti l’utilizzo di un oggetto oppure per mostrare l’oggetto da angolazioni e prospettive diverse.
 
@@ -100,13 +99,13 @@ Nella scheda Mappe pagine della schermata eCatalog, utilizzate le tecniche segue
 >
 >Oltre a copiare le mappe immagine in pagine diverse di un eCatalog, puoi copiare tutte le mappe immagine di un eCatalog in un altro eCatalog. Consultate [Copia di mappe immagine tra diversi eCatalog](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)
 
-## Revisione e importazione dei dati delle mappe immagine  {#reviewing-and-importing-image-map-data}
+## Revisione e importazione dei dati delle mappe immagine {#reviewing-and-importing-image-map-data}
 
 La schermata Riepilogo mappe fornisce i metadati relativi all’eCatalog. Potete anche importare in batch i dati delle mappe immagine per l’eCatalog partendo dalla schermata Riepilogo mappe. L’importazione dei dati delle mappe immagine in questo modo consente di inserire in modo semplice gli URL delle mappe immagine e il testo di rollover.
 
 Per visualizzare la schermata Riepilogo mappe, nella scheda Mappe pagine della schermata eCatalog fate clic su Riepilogo.
 
-### Rivedere il riepilogo dei dati delle mappe immagine  {#review-image-map-data-summary}
+### Rivedere il riepilogo dei dati delle mappe immagine {#review-image-map-data-summary}
 
 1. Nella schermata Mappa pagine, fai clic su **[!UICONTROL Riepilogo]**.
 
