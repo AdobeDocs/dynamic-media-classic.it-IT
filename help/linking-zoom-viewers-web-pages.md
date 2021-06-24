@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 feature: Dynamic Media Classic,Visualizzatori,Zoom
 role: Business Practitioner
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '678'
@@ -24,7 +23,7 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 >
 >l’URL non è attivo finché non pubblicate la risorsa.
 
-## Copia dell’URL di un visualizzatore zoom  {#copying-a-zoom-viewer-url}
+## Copia dell’URL di un visualizzatore zoom {#copying-a-zoom-viewer-url}
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il visualizzatore zoom di cui desiderate copiare l’URL.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
@@ -42,7 +41,7 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**.
 
-## Aggiunta degli URL del visualizzatore zoom alla pagina Web  {#adding-zoom-viewer-urls-to-your-web-page}
+## Aggiunta degli URL del visualizzatore zoom alla pagina Web {#adding-zoom-viewer-urls-to-your-web-page}
 
 In genere, i visitatori ingrandiscono le immagini di un sito web selezionando prima un’icona Zoom (spesso l’icona mostra l’immagine di una lente di ingrandimento). Selezionando questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l’immagine in una finestra a comparsa. La finestra a comparsa rappresenta il punto in cui i visitatori applicano effettivamente lo zoom all’immagine.
 
