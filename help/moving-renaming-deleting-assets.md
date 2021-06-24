@@ -10,7 +10,6 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '553'
@@ -78,6 +77,6 @@ Quando elimini le risorse con un file di testo, se un ID Dynamic Media Classic n
 >[!MORELIKETHIS]
 >
 >* [Selezione delle risorse nel pannello Sfoglia](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Preparazione delle risorse e delle cartelle per il caricamento](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [Ripristino delle risorse dalla cartella Cestino](trash-folder.md#restoring_assets_from_the_trash_folder)
+* [Preparazione delle risorse e delle cartelle per il caricamento](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+* [Ripristino delle risorse dalla cartella Cestino](trash-folder.md#restoring_assets_from_the_trash_folder)
 
