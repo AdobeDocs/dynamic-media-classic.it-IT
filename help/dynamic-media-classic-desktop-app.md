@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '1850'
@@ -28,7 +27,7 @@ Questa nuova app è ora disponibile per Windows® e macOS.
 
 Consulta le Domande frequenti per la [Nuova esperienza di accesso di Dynamic Media Classic ora disponibile.](/help/new-ui-2020.md)
 
-## Requisiti di sistema per l’app desktop Dynamic Media Classic {#system-requirements-dmc-app} di Adobe
+## Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
 L’app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistemi operativi:
 
@@ -48,13 +47,13 @@ L’app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistem
    * Dato che le immagini di livello in Dynamic Media Classic ora hanno nomi univoci, non verrà effettuato alcun aggiornamento a PSD o Modelli esistenti (quali nomi di livello condivisi nei file PSD originali).
 * Miniature delle risorse interrotte.
 
-## Correzioni nell&#39;ultima versione (20.21.1) {#latest-fixes-desktop-app}
+## Correzioni nell’ultima versione (20.21.1) {#latest-fixes-desktop-app}
 
 * Problemi di accesso a causa di timeout e il seguente messaggio: *Questo utente può essere assegnato al gruppo o ai gruppi senza autorizzazione. Contatta l&#39;amministratore.*
 * I predefiniti visualizzatore vengono duplicati a ogni tentativo di password errato.
 * Applicazione desktop che non risponde a causa di molte risorse nella cartella principale. (fisso su Windows®; funziona come desiderato su macOS).
 
-## Correzioni nella versione precedente (20.20.2) {#previous-version-fixes-desktop-app}
+## Problemi risolti nella versione precedente (20.20.2) {#previous-version-fixes-desktop-app}
 
 * Nessuna limitazione sul numero di file che è possibile caricare tramite l&#39;interfaccia utente dell&#39;app desktop sia per macOS che per Windows®.
 * Non è necessario disconnettersi dall’app desktop per passare da un’azienda all’altra.
@@ -199,11 +198,11 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
 
 
-## Procedura dettagliata sull’utilizzo dell’app desktop Dynamic Media Classic {#dmc-app-video-walk-through}
+## Procedura dettagliata sul video con l’app desktop Dynamic Media Classic {#dmc-app-video-walk-through}
 
 Guarda un video introduttivo su come utilizzare Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Lunghezza: 2 minuti e 36 secondi).[
 
-## Cancellazione della cache delle immagini e delle risorse sul computer utilizzando l’app desktop {#clear-cache}
+## Cancellazione della cache delle immagini e delle risorse sul computer tramite l’app desktop {#clear-cache}
 
 1. Nell’app desktop Dynamic Media Classic, nell’angolo in alto a destra, tocca **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**.
 1. Nella pagina **[!UICONTROL Configurazione personale]**, sotto l&#39;intestazione **[!UICONTROL Desktop]**, effettuare una delle seguenti operazioni:
