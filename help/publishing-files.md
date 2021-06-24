@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '1712'
@@ -45,7 +44,7 @@ Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblica
 
 Quando le immagini principali sono contrassegnate per la pubblicazione, vengono contrassegnate automaticamente anche le immagini derivate. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Potete visualizzare queste immagini derivate nella visualizzazione Dettagli in Generate e derivate.
 
-## Creazione di un processo di pubblicazione  {#creating-a-publish-job}
+## Creazione di un processo di pubblicazione {#creating-a-publish-job}
 
 Crea un processo di pubblicazione per pubblicare le risorse caricate sui server Dynamic Media Classic, ma scegli di non pubblicarle ancora automaticamente. È possibile eseguire un processo di pubblicazione una tantum o pianificare i processi da eseguire regolarmente. Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
 
@@ -101,7 +100,7 @@ Potete visualizzare le Opzioni avanzate nella pagina Pubblica e sceglierle per g
 
 Consultate [Uso di un processo di caricamento o pubblicazione come trigger](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).
 
-## Annullamento di un processo di pubblicazione  {#canceling-a-publish-job}
+## Annullamento di un processo di pubblicazione {#canceling-a-publish-job}
 
 Potete annullare un processo di pubblicazione in corso. Se siete un amministratore, potete inoltre annullare un processo di pubblicazione in corso dalla pagina Processi della società.
 
@@ -111,7 +110,7 @@ Per annullare un processo di pubblicazione, vai alla pagina Processi e fai clic 
 >
 >quando annullate un processo di pubblicazione, il relativo stato diventa “interruzione in corso” finché il processo raggiunge il punto in cui può essere interrotto in maniera sicura. Se il processo di pubblicazione viene interrotto durante il recupero dei dati dal database, l’interruzione può richiedere alcuni minuti.
 
-## Pubblicazione manuale di risorse  {#manually-publishing-assets}
+## Pubblicazione manuale di risorse {#manually-publishing-assets}
 
 Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblicate dei set, ad esempio un set di immagini o un set video adattivo, vengono pubblicati sia il set (“elemento principale”) sia tutti i membri (“elementi secondari”) all’interno del set.
 
@@ -143,7 +142,7 @@ Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, fate clic sull’icona verde rotonda con il segno di spunta a sinistra del nome della risorsa.
 
-## Visualizzazione della cronologia di pubblicazione di una risorsa  {#getting-an-asset-s-publish-history}
+## Visualizzazione della cronologia di pubblicazione di una risorsa {#getting-an-asset-s-publish-history}
 
 L’ultima data di pubblicazione di una risorsa viene visualizzata nella visualizzazione Dettagli nella parte superiore del pannello. Per visualizzare ulteriori dettagli sulla cronologia di pubblicazione, aprite il pannello Server per cronologia e pubblicati nella visualizzazione Dettagli. Questo pannello mostra la data di pubblicazione della risorsa e i server su cui è stata pubblicata.
 
@@ -162,5 +161,5 @@ Per svuotare la cache, nella barra di navigazione globale fai clic su **[!UICONT
 >[!MORELIKETHIS]
 >
 >* [Verifica dei file di processo](checking-job-files.md)
->* [Modifica, eliminazione, sospensione e ripristino di processi periodici](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+* [Modifica, eliminazione, sospensione e ripristino di processi periodici](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
 
