@@ -10,7 +10,6 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-translation-type: tm+mt
 source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
 workflow-type: tm+mt
 source-wordcount: '3382'
@@ -75,7 +74,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **[!UICONTROL Salva]**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **[!UICONTROL Salva]**.
 
-## Eliminazione di un modello  {#deleting-a-template}
+## Eliminazione di un modello {#deleting-a-template}
 
 Quando eliminate un set di modelli, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
@@ -114,7 +113,7 @@ Per creare i modelli, usate questi strumenti disponibili nella schermata Modello
 
 * **Area Proprietà livello** : offre gli strumenti per modificare il colore di sfondo, l’opacità, le dimensioni e la posizione di un livello, nonché il colore di sfondo, l’opacità e le dimensioni dell’area di lavoro. Potete anche regolare gli effetti di ombra e bagliore. Consultate [Utilizzo dei livelli](#working-with-layers).
 
-## Creazione di livelli di immagine  {#creating-image-layers}
+## Creazione di livelli di immagine {#creating-image-layers}
 
 1. Trascinate l’immagine dalla Libreria risorse al quadro.
 
@@ -230,7 +229,7 @@ Per effettuare operazioni con i livelli, usate l’elenco Livelli e l’area Pro
 
 Potete anche modificare le dimensioni di un quadro, sceglierne il colore di sfondo e modificarne le impostazioni di opacità.
 
-### Riordinamento dei livelli  {#reordering-layers}
+### Riordinamento dei livelli {#reordering-layers}
 
 La modifica dell’ordine dei livelli può influire sull’aspetto, in particolare quando si tratta di trasparenza o sovrastampa. Prima di salvare le modifiche verificate quindi l’anteprima del risultato.
 
@@ -239,7 +238,7 @@ La modifica dell’ordine dei livelli può influire sull’aspetto, in particola
    * Selezionate un livello nel pannello Livelli. Quindi fai clic su **[!UICONTROL Su]** o **[!UICONTROL Giù]** il numero di volte necessario per posizionarlo nella posizione corretta nell&#39;elenco.
    * Trascinate un livello verso l’alto o il basso nell’elenco Livelli.
 
-### Modifica delle dimensioni e della posizione dei livelli e del quadro  {#changing-the-size-and-position-of-layers-and-the-canvas}
+### Modifica delle dimensioni e della posizione dei livelli e del quadro {#changing-the-size-and-position-of-layers-and-the-canvas}
 
 I livelli devono essere di dimensioni tali da rientrare nel quadro. Potete modificare le dimensioni di un livello o del quadro manualmente o immettendo i valori desiderati. Potete modificare la posizione di un livello manualmente o immettendo i valori di scostamento desiderati. Potete anche ruotare un livello.
 
@@ -287,13 +286,13 @@ Per scegliere un colore di sfondo, opacità e metodo di fusione per un livello o
 
 * **Metodo fusione** : per simulare uno dei metodi di fusione disponibili in Photoshop, scegliete un&#39;opzione. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora. Queste opzioni sono disponibili per i livelli, ma non per il quadro.
 
-## Utilizzo degli effetti ombra e bagliore sui livelli  {#using-shadow-and-glow-effects-on-layers}
+## Utilizzo degli effetti ombra e bagliore sui livelli {#using-shadow-and-glow-effects-on-layers}
 
 Potete applicare un’ombra o un bagliore a un livello. L’ombra o il bagliore viene applicato al perimetro del livello e si estende verso l’interno o l’esterno, a seconda dell’opzione scelta. Se il modello è stato creato con un file PSD con effetti di ombra e bagliore, è possibile regolare questi effetti in Dynamic Media Classic.
 
 Dopo aver applicato un effetto ombra o bagliore, potete regolarne le dimensioni, il colore, l’opacità e la posizione nell’area Proprietà livello della schermata Modello.
 
-### Applicazione di un effetto ombra o bagliore a un livello  {#applying-a-shadow-or-glow-effect-to-a-layer}
+### Applicazione di un effetto ombra o bagliore a un livello {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Selezionate un livello nel pannello Livelli.
 1. Selezionate il menu Aggiungi effetto e scegliete un’opzione:
@@ -328,7 +327,7 @@ Per regolare un effetto ombra o bagliore, selezionatene il nome nell’elenco Li
 
 * **Sfoca** : trascina il cursore per controllare la sfumatura ai bordi dell&#39;effetto. Con una sfocatura maggiore si ottengono bordi più sfumati.
 
-## Maschere di livello  {#masking-layers}
+## Maschere di livello {#masking-layers}
 
 L’elenco Modelli offre un pulsante Maschera che consente di specificare come viene usata la maschera o il canale alfa di un livello. Tramite il pulsante Maschera, potete applicare l’effetto di un livello di sfondo a un particolare livello o all’intero livello principale nel modello. Seleziona un livello nell&#39;elenco Livelli e fai clic su **[!UICONTROL Maschera]** per scorrere tra questi stati:
 
