@@ -10,7 +10,6 @@ discoiquuid: a55f7279-6bba-43f1-99fa-88e922ac1803
 feature: Dynamic Media Classic,Brand Portal
 role: Administrator,Business Practitioner
 exl-id: 2c7c0838-0c48-450e-94ff-521bae19425f
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '87'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Guida per Dynamic Media Classic Media Portal{#help-for-scene-media-portal}
+# Aiuto per Dynamic Media Classic Media Portal{#help-for-scene-media-portal}
 
 Il seguente documento della Guida è disponibile anche da Dynamic Media Classic:
 
