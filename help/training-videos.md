@@ -3,14 +3,13 @@ title: Video di formazione su Dynamic Media Classic
 description: Video di formazione su come iniziare, come usare immagini dinamiche, video, portale multimediale, modelli e creazione e rendering delle immagini.
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '6550'
+source-wordcount: '6547'
 ht-degree: 0%
 
 ---
-
 
 # Video di formazione Adobe Dynamic Media Classic {#training-videos}
 
@@ -84,7 +83,7 @@ Video di formazione su come iniziare, come usare immagini dinamiche, video, port
 
 * [Panoramica del modello](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)
 
-## Funzioni principali della versione {#release-highlights}
+## Elementi di rilievo della versione {#release-highlights}
 
 * [SPS 6.0, panoramica sull&#39;aggiornamento](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/524_6.0%20Release%20Highlights_converted%20renamed_6.0%20Release%20Highlights-AVS)
 
@@ -200,7 +199,7 @@ Torna a [Authoring e rendering delle immagini](#image-authoring-rendering-traini
 
 * [Introduzione ai pattern](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/597_IA002-Intro-Patterns_ia_02pattern-AVS)
 
-### Mappa di illuminazione {#illumination-map}
+### Mappa dell&#39;illuminazione {#illumination-map}
 
 Torna a [Authoring e rendering delle immagini](#image-authoring-rendering-training)
 
@@ -236,7 +235,7 @@ Torna a [Authoring e rendering delle immagini](#image-authoring-rendering-traini
 
 * [Introduzione alla sovrapposizione di oggetti](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/610_IA005-Intro-Overlap_ia_05overlap-AVS)
 
-### Scenari di sale 3D {#three-dimensional-room-scenes}
+### Scenari in camera 3D {#three-dimensional-room-scenes}
 
 Torna a [Authoring e rendering delle immagini](#image-authoring-rendering-training)
 
@@ -301,7 +300,3 @@ Torna a [Authoring e rendering delle immagini](#image-authoring-rendering-traini
 * [Modificatori URL di rendering](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/640_904_rendering_url_modifiers_ia_09rendering-AVS)
 
 * [Introduzione al rendering](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)\
-
-
-
-
