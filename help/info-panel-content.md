@@ -10,7 +10,6 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Visualizzatori,eCatalog
 role: Business Practitioner
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '862'
@@ -18,7 +17,7 @@ ht-degree: 67%
 
 ---
 
-# Gestione del contenuto del pannello informazioni negli eCatalog{#managing-info-panel-content-in-ecatalogs}
+# Gestione del contenuto del pannello informazioni negli eCatalogs{#managing-info-panel-content-in-ecatalogs}
 
 Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Potete anche gestire il pannello Info usando la cache a tempo e pianificando gli aggiornamenti dei contenuti.
 
@@ -29,7 +28,7 @@ Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, pote
 * La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed di dati con l’opzione file CSV per il testo di rollover.
 * La visualizzazione Mappe pagine fornisce un’opzione di anteprima del file xml visualizzato per mappe immagine specifiche.
 
-## Imposta un modello di risposta per gli eCatalog {#set-up-a-response-template-for-ecatalogs}
+## Configurare un modello di risposta per gli eCatalogs {#set-up-a-response-template-for-ecatalogs}
 
 Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizzazione del testo in un pannello Info. I modelli di risposta predefiniti determinano come le informazioni vengono presentate nel pannello Info: il numero di colonne e righe, la dimensione dei caratteri, il font e così via. Potete selezionare un modello di risposta predefinito o crearne uno personalizzato.
 
@@ -54,7 +53,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 
 1. Fai clic su **[!UICONTROL Pubblica]**.
 
-## Importare il contenuto sorgente per il pannello Informazioni negli eCatalog {#import-source-content-for-the-info-panel-in-ecatalogs}
+## Importare il contenuto sorgente per il pannello Informazioni negli eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}
 
 Potete usare un file con valori separati da virgole (CSV) o delimitati da tabulazioni (TXT) per il testo sorgente per il pannello Info di un eCatalog. Per i file delimitati da tabulazioni è richiesta la codifica UTF16 (Unicode). Potete importare tipi di file diversi utilizzando metodi diversi.
 
@@ -64,7 +63,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 * Verificate che il primo elemento o la prima colonna di dati sia un identificatore di rollover (associato al valore rollover_key degli URL della mappa immagine).
 * Assicurati che ogni elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento da sostituire nel modello di risposta. Quindi, la prima colonna viene sostituita in $1$, la seconda colonna in $2$, e così via.
 
-### Importare contenuti CSV negli eCatalog da una posizione ospitata esternamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importare contenuti CSV in eCatalog da una posizione ospitata esternamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Fate doppio clic sull’eCatalog per aprirlo in visualizzazione dettagli.
 1. Fare clic sul pannello Feed di dati InfoPanel.
@@ -72,7 +71,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 1. (Facoltativo) Specificate quando aggiornare il contenuto mediante i menu Pianifica aggiornamento e fate clic su Aggiungi. Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario di aggiornamento, selezionatelo e fate clic su Elimina.
 1. (Facoltativo) Fate clic su Esegui aggiornamento ora per aggiornare immediatamente il contenuto.
 
-### Importare un file CSV o delimitato da tabulazioni  {#import-a-tab-delimited-or-csv-file}
+### Importare un file CSV o delimitato da tabulazioni {#import-a-tab-delimited-or-csv-file}
 
 <!-- 
 
