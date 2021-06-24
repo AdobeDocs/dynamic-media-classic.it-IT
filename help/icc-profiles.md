@@ -10,7 +10,6 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '442'
@@ -28,13 +27,13 @@ Consultate [Opzioni di modifica delle immagini al caricamento](image-editing-opt
 
 Oltre a utilizzare i profili ICC predefiniti, puoi caricare altri profili ICC in Dynamic Media Classic e renderli disponibili per la conversione dello spazio colore. In visualizzazione Dettagli nel pannello Sfoglia potete vedere la classe del profilo, il tipo di spazio colore e il tipo PCS di un profilo ICC.
 
-## Caricamento di profili ICC  {#uploading-icc-profiles}
+## Caricamento di profili ICC {#uploading-icc-profiles}
 
 Caricate profili ICC con le stesse tecniche usate per caricare altri file. Puoi archiviare i profili ICC in qualsiasi cartella di Dynamic Media Classic.
 
 Consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
 
-## Analisi di un profilo ICC  {#examining-an-icc-profile}
+## Analisi di un profilo ICC {#examining-an-icc-profile}
 
 Per analizzare un profilo ICC, selezionatelo nel pannello Sfoglia per visualizzarlo in visualizzazione Dettagli. La visualizzazione Dettagli fornisce informazioni sui profili ICC.
 
