@@ -10,7 +10,6 @@ discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 feature: Dynamic Media Classic,Collaborazione,Gestione risorse
 role: Administrator,Business Practitioner
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '234'
@@ -40,7 +39,7 @@ Consultate [Attivazione o disattivazione degli utenti](administration-setup.md#a
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
-## Eliminazione di un account FTP esistente  {#deleting-an-existing-ftp-account}
+## Eliminazione di un account FTP esistente {#deleting-an-existing-ftp-account}
 
 1. Fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Account FTP]**.
 1. Nella pagina Aggiungi account FTP, selezionate l’account FTP da rimuovere nella tabella Account esistenti.
