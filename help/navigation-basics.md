@@ -10,7 +10,6 @@ discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
 source-wordcount: '644'
@@ -79,7 +78,7 @@ Nel pannello Sfoglia/Genera viene effettuata la maggior parte delle attività. L
 >[!MORELIKETHIS]
 >
 >* [Gestione delle risorse](about-managing-assets.md)
->* [Visualizzazione delle risorse nel pannello Sfoglia](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
->* [Selezione delle risorse nel pannello Sfoglia](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Ricerca di risorse](searching-assets.md#searching_assets)
+* [Visualizzazione delle risorse nel pannello Sfoglia](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
+* [Selezione delle risorse nel pannello Sfoglia](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+* [Ricerca di risorse](searching-assets.md#searching_assets)
 
