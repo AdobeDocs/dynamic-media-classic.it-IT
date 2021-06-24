@@ -10,7 +10,6 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '299'
@@ -44,6 +43,6 @@ function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eve
 
 Il nome della funzione distingue tra maiuscole e minuscole. L&#39;unico parametro passato a `s7componentEvent`richiesto è l&#39;ultimo: `eventData`. Dove `s7track()` è definito in s_code.jsp incluso in precedenza. E `s7track` gestisce tutto il tracciamento per ogni evento. Per personalizzare ulteriormente i dati trasmessi ad Adobe Analytics, occorre farlo qui.
 
-## Attivazione di eventi HREF e ITEM  {#enabling-href-and-item-events}
+## Attivazione di eventi HREF e ITEM {#enabling-href-and-item-events}
 
 È possibile attivare gli eventi HREF (rollover) e ITEM (clic del mouse/tocco) nei visualizzatori attraverso la modifica delle mappe immagini. Definite gli identificatori per HREF e ITEM nella mappa immagine associata al contenuto del visualizzatore. Aggiungere un parametro `&rolloverKey=` al valore HREF nella mappa immagine.
