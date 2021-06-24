@@ -11,7 +11,6 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '3882'
@@ -123,7 +122,7 @@ La seguente tabella indica i tipi di file video (con i codec video consentiti) c
    >
    >La schermata Processi invia una notifica se caricate e tentate di codificare un file video e il file viene rifiutato perché contiene un codec o un contenitore file incompatibile. Per ulteriori informazioni, consultate [Verifica dei file di processo](checking-job-files.md).
 
-## Best practice per la codifica video  {#best-practices-for-video-encoding}
+## Best practice per la codifica video {#best-practices-for-video-encoding}
 
 Di seguito sono riportati alcuni suggerimenti per la codifica di file video di origine in Dynamic Media Classic.
 
@@ -145,7 +144,7 @@ La tabella seguente descrive le dimensioni, le proporzioni e il bit rate minimo 
 | 1280x720 | 16:9 | 3000 - 6000 Kbps, a seconda della quantità di movimento presente del video. |
 | 1920x1080 | 16:9 | 6000 - 8000 Kbps, a seconda della quantità di movimento presente del video. |
 
-### Ottenimento dei metadati dei file  {#obtaining-a-file-s-metadata}
+### Ottenimento dei metadati dei file {#obtaining-a-file-s-metadata}
 
 È possibile ottenere i metadati di un file visualizzandone i metadati in Dynamic Media Classic, utilizzando uno strumento di editing video o un&#39;applicazione progettata per ottenere i metadati. Seguono istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti che consente di ottenere i metadati di un file video:
 
@@ -153,7 +152,7 @@ La tabella seguente descrive le dimensioni, le proporzioni e il bit rate minimo 
 1. Selezionate e scaricate il programma di installazione per la versione GUI, quindi seguite le istruzioni di installazione.
 1. Dopo l&#39;installazione, fare clic con il pulsante destro del mouse sul file video (solo Windows®) e selezionare MediaInfo oppure aprire MediaInfo e trascinare il file video nell&#39;applicazione. Potete vedere tutti i metadati associati al file video, inclusi i valori di larghezza, altezza e fotogrammi al secondo.
 
-### Proporzioni  {#aspect-ratio}
+### Proporzioni {#aspect-ratio}
 
 Quando scegliete o create un predefinito di codifica video da applicare al file video principale, accertatevi che il predefinito abbia le stesse proporzioni del file video principale. Le *proporzioni* sono il rapporto tra la larghezza e l’altezza del video. 
 
@@ -191,7 +190,7 @@ La tabella di seguito riporta la velocità dati per velocità di connessioni tip
 | 2000 | Connessione desktop tipica a banda larga. Per questa connessione, eseguire il targeting di una velocità dati nell&#39;intervallo 800-2000 Kbps, con la maggior parte delle destinazioni con una media di 1200-1500 Kbps. |
 | 5000 | Connessione a banda larga elevata tipica. Non si consiglia di applicare la codifica per questo valore elevato, in quanto la maggior parte dei clienti non dispone di trasmissione video di tale velocità.  |
 
-### Risoluzione  {#resolution}
+### Risoluzione {#resolution}
 
 La *Risoluzione* descrive l’altezza e la larghezza di un file video, in pixel. La maggior parte delle sorgenti video è memorizzata ad alta risoluzione (ad esempio, 1920x1080). Per lo streaming, il video sorgente viene compresso in una risoluzione inferiore (per un valore massimo di 640x480).
 
@@ -224,13 +223,13 @@ Quando scegliete (o create) un predefinito di codifica video per il file video p
 | 720p | 720 | Schermo grande |
 | 1080p | 1080 | Schermo grande ad alta definizione |
 
-### Fps (fotogrammi al secondo)  {#fps-frames-per-second}
+### Fps (fotogrammi al secondo) {#fps-frames-per-second}
 
 Negli Stati Uniti e in Giappone, i video sono in genere ripresi a 29,97 fotogrammi al secondo (fps); in Europa sono invece ripresi a 25 fps. I film sono ripresi a 24 fps.
 
 Scegliete un predefinito di codifica video con un valore fps pari a quello del file video principale. Ad esempio, se il video principale ha una frequenza fotogrammi di 25 fps, scegliete un predefinito di codifica a 25 fps. Per impostazione predefinita, per tutte le codifiche personalizzate viene usato lo stesso valore fps del file video principale. Quando create un predefinito di codifica video non è pertanto necessario specificare l’impostazione fps.
 
-### Dimensioni di codifica video  {#video-encoding-dimensions}
+### Dimensioni di codifica video {#video-encoding-dimensions}
 
 Per ottenere risultati ottimali, selezionate dimensioni di codifica tali che il video sorgente sia un multiplo intero di tutti i video codificati.
 
@@ -242,16 +241,16 @@ Ad esempio, supponete che il video sia di 1920x1080. Nella tabella seguente, i t
 
 | Tipo di video | Larghezza x altezza | Rapporto larghezza | Rapporto altezza |
 |--- |--- |--- |--- |
-| Sorgente | 1920x1080 | 1 | 3 |
+| Sorgente | 1920x1080 | 1 | 1 |
 | Codificato | 960x540 | 2 | 2 |
 | Codificato | 640x360 | 3 | 3 |
 | Codificato | 480x270 | 4 | 4 |
 
-### Formato di file video codificato  {#encoded-video-file-format}
+### Formato di file video codificato {#encoded-video-file-format}
 
 Adobe Dynamic Media Classic consiglia di utilizzare i predefiniti di codifica video MP4 H.264. Poiché i file MP4 utilizzano il codec video H.264, il video è di alta qualità ma la dimensione file è comunque ridotta.
 
-## Utilizzo dei predefiniti di codifica video  {#working-with-video-encoding-presets}
+## Utilizzo dei predefiniti di codifica video {#working-with-video-encoding-presets}
 
 I file video principali creati con le apparecchiature di produzione video e con un software per la modifica di video sono spesso troppo grandi e in formato errato per essere riprodotti in destinazioni online. Per convertire i video digitali nel formato e nelle specifiche corretti per la riproduzione su diversi schermi, potete *transcodificare* i file video (un processo noto anche come *codifica*). Durante il processo di codifica, il video viene compresso per ridurne le dimensioni e ottimizzarlo per la riproduzione sul Web e dispositivi mobili.
 
@@ -284,7 +283,7 @@ Per le risorse video caricate e codificate in Dynamic Media Classic, il video vi
 
 Qualsiasi altro formato video e codec viene trattato come un &quot;video principale&quot;. ossia come file video sorgente che non può essere utilizzato per la riproduzione su computer desktop o dispositivi mobili. Ad esempio, non puoi visualizzare in anteprima questi tipi di video in Dynamic Media Classic. Non potete inoltre generare URL da copiare e codice da incorporare e da usare per lettori video, siti Web e così via.
 
-### Applicazione di filtri all’elenco di predefiniti di codifica video  {#filtering-the-list-of-video-encoding-presets}
+### Applicazione di filtri all’elenco di predefiniti di codifica video {#filtering-the-list-of-video-encoding-presets}
 
 La pagina Predefiniti video e la pagina Predefiniti video adattivi sono costituite da una tabella che elenca lo stato attivo, il nome del predefinito, il dispositivo di riproduzione previsto, le dimensioni del video e la velocità dati di ciascun predefinito video.
 
@@ -303,7 +302,7 @@ Potete anche scegliere un’opzione per il dispositivo di riproduzione e limitar
    * Nel primo elenco a discesa, più stretto, scegliete **[!UICONTROL Entrambi]** per vedere tutti i predefiniti per video, oppure scegliete **[!UICONTROL Attivo]** o **[!UICONTROL Inattivo]** per visualizzare solo i predefiniti per video con lo stato Attivo o Inattivo.
    * Nel secondo elenco a discesa, più largo, scegliete un’opzione per il dispositivo di riproduzione in modo da limitare l’elenco ai soli predefiniti per video creati per la riproduzione di video per computer desktop oppure per dispositivi mobili o tablet.
 
-### Attivazione o disattivazione dei predefiniti di codifica video  {#activating-or-deactivating-video-encoding-presets}
+### Attivazione o disattivazione dei predefiniti di codifica video {#activating-or-deactivating-video-encoding-presets}
 
 I predefiniti per video attivati vengono visualizzati nella finestra di dialogo Opzioni processo di caricamento La finestra di dialogo viene visualizzata quando un utente carica file video durante il processo di caricamento. L’utente può quindi scegliere tra tutti i predefiniti di codifica attivati.
 
@@ -324,7 +323,7 @@ I predefiniti per video attivati vengono visualizzati nella finestra di dialogo 
 
 1. Nell’angolo in basso a destra della pagina, fate clic su **[!UICONTROL Chiudi]**.
 
-### Aggiunta o modifica di un predefinito di codifica video  {#adding-or-editing-a-video-encoding-preset}
+### Aggiunta o modifica di un predefinito di codifica video {#adding-or-editing-a-video-encoding-preset}
 
 Potete creare dei predefiniti per video con codifica singola personalizzati e aggiungerli alla tabella Predefiniti per video. È inoltre possibile modificare i predefiniti video con codifica singola predefiniti forniti con Dynamic Media Classic, purché venga salvato il predefinito modificato con un nuovo nome.
 
@@ -365,7 +364,7 @@ Dynamic Media Classic ha impostato limiti massimi per la velocità dei dati di d
    * Fate clic su **[!UICONTROL Salva]** se avete aggiunto o modificato un predefinito per video.
    * Fate clic su **[!UICONTROL Salva con nome]** se avete aggiunto un predefinito per video a partire da un predefinito esistente.
 
-### Eliminazione un predefinito di codifica video  {#deleting-a-video-encoding-preset}
+### Eliminazione un predefinito di codifica video {#deleting-a-video-encoding-preset}
 
 Gli amministratori possono eliminare i predefiniti per video personalizzati. I predefiniti video forniti con Dynamic Media Classic non possono essere eliminati.
 
@@ -378,6 +377,6 @@ Gli amministratori possono eliminare i predefiniti per video personalizzati. I p
 >[!MORELIKETHIS]
 >
 >* [Avvio rapido: video](quick-start-video.md#quick-start-video)
->* [Caricamento e codifica dei video](uploading-encoding-videos.md#uploading-and-encoding-videos)
->* [Utilizzo dei predefiniti per visualizzatori video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+* [Caricamento e codifica dei video](uploading-encoding-videos.md#uploading-and-encoding-videos)
+* [Utilizzo dei predefiniti per visualizzatori video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 
