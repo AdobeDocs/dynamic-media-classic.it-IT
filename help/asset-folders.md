@@ -10,7 +10,6 @@ discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
@@ -40,7 +39,7 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 >
 >Per nascondere o visualizzare la Libreria risorse, fai clic sul controllo **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** a sinistra. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.
 
-## Creazione di cartelle  {#creating-folders}
+## Creazione di cartelle {#creating-folders}
 
 Per creare le cartelle, effettua le seguenti operazioni:
 
@@ -52,7 +51,7 @@ Per creare le cartelle, effettua le seguenti operazioni:
    >
    >Puoi anche creare cartelle in Dynamic Media Classic quando carichi i file tramite FTP. Se selezionate l’opzione Includi sottocartelle in fase di caricamento tramite FTP, la struttura delle cartelle viene replicata nel computer del sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
 
-## Eliminazione e ridenominazione delle cartelle  {#deleting-and-renaming-folders}
+## Eliminazione e ridenominazione delle cartelle {#deleting-and-renaming-folders}
 
 Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti operazioni:
 
