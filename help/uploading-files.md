@@ -9,7 +9,6 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '3833'
@@ -25,7 +24,7 @@ Prima di caricare i file di risorse in Dynamic Media Classic, accertati che i fi
 
 Prima di caricare le risorse in Dynamic Media Classic, accertati che siano nel formato e nelle dimensioni corretti. È inoltre necessario osservare le regole di Dynamic Media Classic per la denominazione delle risorse. È anche utile organizzare e disporre i file in una cartella per semplificarne l’individuazione e l’utilizzo. 
 
-### Formati di file di risorse supportati  {#supported-asset-file-formats}
+### Formati di file di risorse supportati {#supported-asset-file-formats}
 
 In questa tabella sono elencati i formati di file delle risorse supportati da Dynamic Media Classic. Per informazioni sui file Camera Raw supportati, consulta [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
@@ -133,7 +132,7 @@ Di solito, un nome file di una risorsa può essere lo stesso del numero di artic
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
-### Organizzazione e struttura delle cartelle  {#folder-organization-and-structure}
+### Organizzazione e struttura delle cartelle {#folder-organization-and-structure}
 
 Organizzare e strutturare cartelle e sottocartelle per i contenuti in Dynamic Media Classic prima di caricare i contenuti nel sistema. La pianificazione preventiva di questa procedura presenta i due grandi vantaggi seguenti:
 
@@ -150,7 +149,7 @@ L’approccio e la struttura per la denominazione delle cartelle scelti per memo
 
 **Mirror della gerarchia delle cartelle del sito Web** : questa struttura di cartelle riflette la struttura delle cartelle del sito Web, con le cartelle denominate, ad esempio, per le categorie di prodotti.
 
-## Informazioni sul caricamento di file {#uploading-your-files}
+## Informazioni sul caricamento dei file {#uploading-your-files}
 
 Potete caricare singoli file dal desktop oppure caricare le cartelle mediante FTP. Se desideri caricare più di 100 MB di file o caricare intere cartelle e sottocartelle, seleziona la scheda **VIA FTP** .
 
@@ -179,7 +178,7 @@ Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni 
 1. Nell’angolo in basso a destra della pagina Carica, fai clic su **[!UICONTROL Invia caricamento]**.
 Per visualizzare l’avanzamento del caricamento, fate clic su **[!UICONTROL Processi]** nella barra di navigazione globale. Puoi continuare a lavorare in Dynamic Media Classic e tornare alla pagina Processi in qualsiasi momento per rivedere un processo in corso. Per annullare un processo di caricamento in corso, fate clic sul pulsante **[!UICONTROL Annulla]** accanto alla durata.
 
-### Caricamento di file tramite la scheda FTP VIA {#upload-files-using-via-ftp}
+### Caricamento di file tramite la scheda FTP {#upload-files-using-via-ftp}
 
 1. Accedi al sito FTP Dynamic Media Classic specifico per la tua area geografica. Utilizzate il nome utente e la password per FTP ricevuti dall’amministratore.
 1. In Dynamic Media Classic, nella barra di navigazione globale fate clic su **[!UICONTROL Upload]**.
@@ -303,6 +302,6 @@ Il nuovo processo invia una notifica all’indirizzo specificato per poter attiv
 >[!MORELIKETHIS]
 >
 >* [Utilizzo delle cartelle di risorse](asset-folders.md#working_with_asset_folders)
->* [Gestione di processi di caricamento e pubblicazione periodici](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Utilizzo di un processo di caricamento o pubblicazione come trigger](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+* [Gestione di processi di caricamento e pubblicazione periodici](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+* [Utilizzo di un processo di caricamento o pubblicazione come trigger](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
 
