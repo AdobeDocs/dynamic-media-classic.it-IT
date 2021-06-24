@@ -10,7 +10,6 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Visualizzatori,Set 360 gradi
 role: Business Practitioner
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '902'
@@ -36,7 +35,7 @@ In generale, più sono le immagini contenute in un set 360 gradi, migliore è l�
 * Assicuratevi che i dettagli del prodotto siano ben illuminati e messi a fuoco.
 * Per le immagini per un set 360 gradi di capi di abbigliamento, utilizzate un manichino o un indossatore. Spesso il mannequin è mascherato (utilizzando un manichino in vetro) o un mannequin/dressform stilizzato è mostrato nell&#39;immagine. Potete creare un set 360 gradi con un indossatore definendo il numero di angolazioni. Contrassegnate ciascun angolo con nastro sul pavimento per indicare all’indossatore dove spostarsi e come guardare nella direzione di ciascuno scatto. 
 
-## Creazione di un set 360 gradi  {#create}
+## Creazione di un set 360 gradi {#create}
 
 L’ordine in cui il set 360 gradi viene creato o creato in Dynamic Media Classic è importante. A seconda di come ordinate le risorse quando rilasciate le immagini nella griglia della pagina Set 360 gradi, la rotazione avviene in una determinata direzione. Pertanto, l’ordine in cui viene visualizzato visivamente nel generatore è il modo in cui la risorsa viene ruotata quando un utente sposta il puntatore del mouse o il dito, da sinistra a destra.
 
@@ -67,7 +66,7 @@ Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di gener
 1. Nella finestra di dialogo Salva, selezionate una cartella in cui salvare il set 360 gradi. Nel campo Nome file, digitate il nome del set.
 1. Fate clic su **[!UICONTROL Salva]**.
 
-## Modifica di un set 360 gradi  {#editing-a-spin-set}
+## Modifica di un set 360 gradi {#editing-a-spin-set}
 
 Sia che modifichi un set pubblicato che un set non pubblicato, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** influisce sul set e sui membri impostati nei seguenti modi:
 
@@ -96,7 +95,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **[!UICONTROL Salva]**, selezionate una cartella di archiviazione, immettete un nome per il set e fate clic su **[!UICONTROL Salva]**.
 
-## Eliminazione di un set 360 gradi  {#deleting-a-spin-set}
+## Eliminazione di un set 360 gradi {#deleting-a-spin-set}
 
 Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
