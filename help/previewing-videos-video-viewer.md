@@ -10,7 +10,6 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Visualizzatori,Video
 role: Business Practitioner
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '766'
@@ -52,7 +51,7 @@ Dynamic Media Classic viene fornito con molti predefiniti per visualizzatori per
 
 Consultate anche [Anteprima dei video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-### Aggiunta o modifica di un predefinito per visualizzatori video  {#adding-or-editing-a-video-viewer-preset}
+### Aggiunta o modifica di un predefinito per visualizzatori video {#adding-or-editing-a-video-viewer-preset}
 
 Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore e le rispettivi impostazioni predefinite. Puoi anche aggiungere e modificare i predefiniti visualizzatore personalizzati o modificare quelli esistenti forniti con Dynamic Media Classic.
 
@@ -91,5 +90,5 @@ Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_prese
 >[!MORELIKETHIS]
 >
 >* [Best practice per la codifica video](uploading-encoding-videos.md#best_practices_for_video_encoding)
->* [Utilizzo dei predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets)
+* [Utilizzo dei predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets)
 
