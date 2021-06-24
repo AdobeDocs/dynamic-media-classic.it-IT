@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic,Visualizzatori
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -43,7 +42,7 @@ Dopo aver pubblicato un set di campioni, potete inserirne l’URL o il codice da
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**.
 
-## Aggiunta di URL di set di campioni alla pagina Web  {#adding-swatch-set-urls-to-your-web-page}
+## Aggiunta di URL di set di campioni alla pagina Web {#adding-swatch-set-urls-to-your-web-page}
 
 Il modo più comune di pubblicare i set di campioni consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (ASP o JSP) in cui viene visualizzato il set di campioni in una finestra a comparsa. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
