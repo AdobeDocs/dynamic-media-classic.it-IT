@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Collaborazione,Gestione risorse
 role: Administrator,Business Practitioner
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '1009'
@@ -26,7 +25,7 @@ In qualità di amministratore, potete aggiungere e gestire gli utenti, scegliere
 >
 >prima di aggiungere degli utenti, impostate i gruppi con cui potrete amministrarli. In Media Portal non è possibile aggiungere un utente senza assegnarlo ad almeno un gruppo. Per ulteriori informazioni, consultate [Creazione e gestione di gruppi in Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## Gestione delle password per Media Portal  {#handling-media-portal-passwords}
+## Gestione delle password per Media Portal {#handling-media-portal-passwords}
 
 Quando vengono registrati per l’accesso, gli utenti, i collaboratori e i collaboratori-utenti di Media Portal ricevono un messaggio di benvenuto contenente una password. Gli amministratori possono scegliere se consentire agli utenti di Media Portal di modificare tale password.
 
@@ -38,7 +37,7 @@ Quando vengono registrati per l’accesso, gli utenti, i collaboratori e i colla
 >
 >gli utenti Media Portal cui tale modifica è consentita possono scegliere **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]** e modificare la propria password nella schermata risultante.
 
-## Aggiunta di utente di Media Portal  {#adding-a-media-portal-user}
+## Aggiunta di utente di Media Portal {#adding-a-media-portal-user}
 
 1. Fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione amministrazione]** > **[!UICONTROL Amministrazione utente]**.
 1. Nella pagina Amministrazione utente, fate clic su **Aggiungi**.
@@ -60,13 +59,13 @@ Quando vengono registrati per l’accesso, gli utenti, i collaboratori e i colla
 
 Dopo avere aggiunto un utente, Media Portal invia all’utente un messaggio e-mail di benvenuto. Il messaggio contiene una password temporanea e l’URL di Media Portal.
 
-## Caricamento di un elenco di utenti in Media Portal  {#uploading-a-media-portal-user-list}
+## Caricamento di un elenco di utenti in Media Portal {#uploading-a-media-portal-user-list}
 
 Se dovete aggiungere numerosi utenti, potete caricare un elenco di utenti. Gli utenti vengono aggiunti automaticamente all’account attualmente selezionato.
 
 Create l’elenco di utenti in un file in formato CSV (con valori separati da virgole) contenente le informazioni sugli utenti. Una volta caricato il file, gli utenti inclusi nell’elenco vengono automaticamente aggiunti all’account e assegnati ai gruppi specificati. A ogni nuovo utente viene inviato un messaggio e-mail di benvenuto contenente un collegamento a Media Portal e una password temporanea.
 
-### Creazione del file CSV  {#creating-the-csv-file}
+### Creazione del file CSV {#creating-the-csv-file}
 
 Create un file CSV (nomefile.csv) rispettando il formato e i campi indicati di seguito. La prima riga del file deve contenere le intestazioni di colonna riportate in questa tabella; potete ordinare le colonne in base alle vostre esigenze. Tutte le colonne sono obbligatorie.
 
@@ -87,7 +86,7 @@ Il seguente foglio di calcolo di esempio illustra come deve essere preparato il 
 | Rick | Brodo | `rickb@myco.com` | benvenuto | MediaPortalUser | PortalCo/MktgGroup,PortalCo/test |
 
 
-### Caricamento del file CSV  {#uploading-the-csv-file}
+### Caricamento del file CSV {#uploading-the-csv-file}
 
 1. Aprite la schermata di configurazione Amministrazione utente.
 1. Fate clic su **[!UICONTROL Carica elenco utenti]**.
@@ -99,7 +98,7 @@ Ogni utente dell’elenco viene automaticamente aggiunto al gruppo specificato. 
 >
 >se il file CSV non è stato formattato correttamente, viene visualizzato il seguente messaggio di errore: “Si è verificato un errore durante l’elaborazione del file CSV caricato. Verificate che il file contenga dati validi.” Inoltre, se il file CSV contiene un utente IP o IPS esistente, quest’ultimo non viene aggiunto all’elenco di utenti.
 
-## Generazione di un elenco selezionabile di utenti Media Portal  {#generating-a-selectable-list-of-media-portal-users}
+## Generazione di un elenco selezionabile di utenti Media Portal {#generating-a-selectable-list-of-media-portal-users}
 
 Potete visualizzare i nomi e gli indirizzi e-mail degli utenti Media Portal in una finestra a comparsa. Questo elenco è utile per tagliare e incollare nomi utente e indirizzi da usare all’esterno di Media Portal.
 
