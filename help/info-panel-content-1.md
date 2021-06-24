@@ -10,7 +10,6 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Business Practitioner
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '763'
@@ -18,7 +17,7 @@ ht-degree: 54%
 
 ---
 
-# Gestione del contenuto del pannello informazioni in Set immagini{#managing-info-panel-content-in-image-sets}
+# Gestione del contenuto del pannello informazioni nei set di immagini{#managing-info-panel-content-in-image-sets}
 
 Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Potete anche gestire il pannello Info usando la cache a tempo e pianificando gli aggiornamenti dei contenuti.
 
@@ -28,7 +27,7 @@ Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, p
 * Il pannello Feed di dati InfoPanel consente di specificare un file CSV contenente il testo da visualizzare nel testo di rollover del pannello Info e i tempi di pianificazione per l’aggiornamento delle informazioni.
 * La finestra di dialogo Importa metadati consente di importare un file TXT delimitato da tabulazioni contenente le informazioni per il testo di rollover. Puoi utilizzare questa opzione TXT o il pannello Feed dati InfoPanel con l’opzione file CSV per il testo di rollover.
 
-## Imposta un modello di risposta per i set di immagini {#set-up-a-response-template-for-image-sets}
+## Impostare un modello di risposta per i set di immagini {#set-up-a-response-template-for-image-sets}
 
 Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizzazione del testo in un pannello Info. I modelli di risposta predefiniti determinano come le informazioni vengono presentate nel pannello Info: il numero di colonne e righe, la dimensione dei caratteri, il font e così via. Potete selezionare un modello di risposta predefinito o crearne uno personalizzato.
 
@@ -54,7 +53,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 
 1. Nel pannello Configurazione InfoPanel, fai clic su **[!UICONTROL Pubblica]**.
 
-## Importa il contenuto sorgente del pannello Informazioni in Set immagini {#import-source-content-for-the-info-panel-in-image-sets}
+## Importare il contenuto sorgente per il pannello Informazioni nei set di immagini {#import-source-content-for-the-info-panel-in-image-sets}
 
 Per il testo sorgente per il pannello Info di un set di immagini, potete usare un file CSV (separato da virgole) con codifica ASCII (i caratteri non ASCII devono essere codificati in HTML) o un file delimitato da tabulazioni. Per i file delimitati da tabulazioni è richiesta la codifica UTF-16 (Unicode). Potete importare tipi di file diversi utilizzando metodi diversi.
 
