@@ -10,7 +10,6 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '1021'
@@ -78,7 +77,7 @@ Nell&#39;elenco a discesa **[!UICONTROL Modalità automatica/manuale]**, sceglie
 
    * **Consenti generazione parziale** : i motori di ricerca possono rifiutare un file XML se non contiene informazioni complete sui metadati per tutti i video. Con questa opzione il file XML viene generato anche se per alcuni video non sono disponibili i metadati necessari. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
 
-### Scelta delle impostazioni di generazione  {#choosing-generation-settings}
+### Scelta delle impostazioni di generazione {#choosing-generation-settings}
 
 Nell’area Impostazioni generazione sono elencati i campi di input per la mappa del sito video, il feed mRSS o entrambi, nonché nel pannello Metadati, i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo, si comunica a Dynamic Media Classic dove ottenere i metadati per la mappa del sito video e/o il feed mRSS.
 
@@ -110,7 +109,7 @@ I file di Video Sitemap e feed mRSS vengono salvati nella cartella root della so
 
 Per trasmettere il file Video Sitemap o feed mRSS ai motori di ricerca, copiate uno di questi URL negli strumenti per webmaster del motore di ricerca.
 
-## Visualizzazione dei rapporti Video SEO  {#viewing-video-seo-reports}
+## Visualizzazione dei rapporti Video SEO {#viewing-video-seo-reports}
 
 Visualizzare i rapporti SEO video nella pagina Rapporto di ottimizzazione motore di ricerca video . Per aprire questa pagina, nella barra di navigazione globale fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Rapporti]**.
 
