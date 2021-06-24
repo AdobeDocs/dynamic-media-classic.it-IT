@@ -10,7 +10,6 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-translation-type: tm+mt
 source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
 source-wordcount: '1196'
@@ -83,7 +82,7 @@ La tabella di seguito descrive gli eventi dei visualizzatori che potete aggiunge
 | SPIN (Set a 360 gradi) | **X** (Set a 360 gradi) | Questo evento non è seguito da Adobe Analytics.<br> |
 
 
-### Variabili Dynamic Media Classic {#scene-variables}
+### Variabili di Dynamic Media Classic {#scene-variables}
 
 Per ogni evento visualizzatore nella schermata Configurazione Adobe Analytics, scegli una variabile Adobe Analytics e una variabile *Dynamic Media Classic*. Le variabili di Dynamic Media Classic rappresentano i dati ottenibili per un rapporto. La variabile `searchTerm`, ad esempio, riporta le parole chiavi utilizzate nelle ricerche effettuate negli eCatalog.
 
@@ -103,7 +102,7 @@ La tabella seguente descrive le variabili di Dynamic Media Classic.
 | progress | Percentuale di completamento di un evento milestone (pietra miliare). |
 | targetId | Il valore id (un numero). |
 
-## Attivazione, modifica ed eliminazione degli eventi dei visualizzatori  {#activating-editing-and-deleting-viewer-events}
+## Attivazione, modifica ed eliminazione degli eventi dei visualizzatori {#activating-editing-and-deleting-viewer-events}
 
 Nella schermata Configurazione Adobe Analytics, potete attivare, modificare e quindi eliminare gli eventi dei visualizzatori:
 
