@@ -10,7 +10,6 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '1160'
@@ -53,7 +52,7 @@ Per ritagliare manualmente dai lati di un’immagine, scegliete Manuale dal menu
 
 ## Scelta di un profilo colore
 
-Per selezionare uno spazio colore per l’immagine, scegli un’opzione Profilo colore:
+Per selezionare uno spazio colore per l&#39;immagine, scegli un&#39;opzione Profilo colore:
 
 * **Converti in sRGB**  - Converte in sRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
 
