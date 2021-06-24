@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-translation-type: tm+mt
 source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
 workflow-type: tm+mt
 source-wordcount: '10917'
@@ -150,7 +149,7 @@ Gli ID Dynamic Media Classic utilizzati per accedere alle immagini dai server di
 
 Se deselezionate questa opzione, tutte le immagini con lo stesso nome file delle immagini esistenti vengono considerate copie e non vengono aggiunte.
 
-## Predefiniti immagine  {#image-presets}
+## Predefiniti immagine {#image-presets}
 
 Nella schermata Predefiniti immagine è possibile creare e modificare i predefiniti per le immagini. I predefiniti per immagini consentono a Dynamic Media Classic di distribuire dinamicamente immagini di dimensioni diverse dalla stessa immagine master. Ogni predefinito immagine rappresenta una raccolta predefinita di comandi di ridimensionamento e formattazione per la visualizzazione delle immagini. Quando create un predefinito per immagini, dovete scegliere una dimensione da usare per la distribuzione delle immagini. È inoltre necessario scegliere dei comandi di formattazione con cui ottimizzare l’aspetto delle immagini per la distribuzione.
 
@@ -178,7 +177,7 @@ Vedere [Smart imaging](https://experienceleague.adobe.com/docs/experience-manage
 
 Per modificare un predefinito immagine, selezionatene il nome nella schermata Predefiniti immagine e fate clic su Modifica. Per eliminare un predefinito immagine, selezionatelo e fate clic su Elimina.
 
-### Opzioni dei predefiniti immagine  {#image-preset-options}
+### Opzioni dei predefiniti immagine {#image-preset-options}
 
 Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le seguenti opzioni per creare e modificare i predefiniti immagine:
 
@@ -250,7 +249,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **L&#39;** URL dell&#39;immagine di esempio elenca la stringa URL &quot;grezza&quot; utilizzata dal server immagini di Dynamic Media per fornire immagini con il predefinito immagine che si sta aggiungendo o modificando. Nella stringa URL vengono codificate tutte le impostazioni di formattazione selezionate nella schermata Aggiungi predefinito o Modifica predefinito.
 
-### Modifica, rimozione o disattivazione di un predefinito immagine  {#editing-removing-or-deactivating-an-image-preset}
+### Modifica, rimozione o disattivazione di un predefinito immagine {#editing-removing-or-deactivating-an-image-preset}
 
 1. Fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagini]**.
 1. Nella schermata Predefiniti immagine, selezionate un predefinito nella tabella ed effettuate una delle seguenti operazioni:
@@ -271,9 +270,9 @@ Consultate [Caricamento e codifica dei video](uploading-encoding-videos.md#uploa
 
 1. Nell&#39;angolo in alto a destra di Dynamic Media Classic, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Predefiniti video]** > **[!UICONTROL Predefiniti video adattivi]**.
 1. Nella pagina Predefiniti video adattati, deselezionate la casella di controllo accanto al nome di un predefinito per eliminarlo dall’elenco Opzioni eVideo nella finestra di dialogo Opzioni processo di caricamento.
-1. Fate clic su **[!UICONTROL Chiudi]**.
+1. Fai clic su **[!UICONTROL Chiudi]**.
 
-## Predefiniti video per la codifica di file video  {#video-presets-for-encoding-video-files}
+## Predefiniti video per la codifica di file video {#video-presets-for-encoding-video-files}
 
 Per scegliere un predefinito di codifica, fate clic su Opzioni processo nell’angolo in basso a destra della pagina Carica. Nella finestra di dialogo Opzioni processo di caricamento, espandete le opzioni eVideo e scegliete i predefiniti di codifica desiderati.
 
@@ -309,7 +308,7 @@ Per scegliere un predefinito di codifica, fate clic su Opzioni processo nell’a
 
 Dopo aver fatto clic sul pulsante **[!UICONTROL Avvia caricamento]**, il file video principale originale viene caricato e da tale file vengono generati file codificati.
 
-### Le opzioni dei predefiniti di codifica  {#about-encoding-preset-options}
+### Le opzioni dei predefiniti di codifica {#about-encoding-preset-options}
 
 I parametri delle opzioni dei predefiniti di codifica sono i seguenti:
 
@@ -327,7 +326,7 @@ I parametri delle opzioni dei predefiniti di codifica sono i seguenti:
 
 Le tabelle di seguito indicano le procedure ottimali per la scelta dei predefiniti per video e le convenzioni di denominazione utilizzate per designare i file codificati.
 
-### Video adattivo (predefinito)  {#adaptive-video-default}
+### Video adattivo (predefinito) {#adaptive-video-default}
 
 Per creare video da distribuire a dispositivi mobili, tablet e computer desktop; predefinito di codifica che funziona con qualsiasi proporzione. I video sorgente caricati e codificati con questo predefinito (per impostazione predefinita e procedura ottimale) sono impostati su un’altezza specifica, ma il valore della larghezza viene ridimensionato automaticamente per mantenere le proporzioni del video.
 
@@ -339,7 +338,7 @@ Per creare video da distribuire a dispositivi mobili, tablet e computer desktop;
 | 2 | Auto x480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Auto x480 | Come sorgente | 96 | Per tablet (iPad, Android™) |
 | 3 | Auto x720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Auto x720 | Come sorgente | 128 | Per desktop |
 
-### Predefiniti per codifica video adattiva (16:9 o 4:3){#adaptive-video-encoding-or-video-presets}
+### Predefiniti per codifica video adattiva (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
 
 Di seguito sono elencati i predefiniti di codifica disponibili per video adattivi; combinano una serie di singoli predefiniti di codifica selezionati automaticamente in base alle proporzioni del video caricato. Ad esempio, se caricate un video da 4:3, questo viene codificato automaticamente utilizzando i cinque predefiniti da 4:3 inclusi nell’elenco dei predefiniti principali per l’opzione **Codifica video adattiva (16:9 o 4:3)**.
 
@@ -360,7 +359,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 | 9 | 16:9, 1280x720, desktop, (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Come sorgente | 128 | Widescreen ad alta definizione |
 | 10 | 4:3, 1280x960, desktop, (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 Kbps | 1280x960 | Come sorgente | 128 | Alta definizione |
 
-### Predefiniti di codifica video per computer desktop  {#desktop-video-encoding-presets}
+### Predefiniti di codifica video per computer desktop {#desktop-video-encoding-presets}
 
 Predefiniti di codifica video per MP4 e OGV su computer desktop.
 
@@ -383,9 +382,9 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Come sorgente | 64 | Widescreen a bassa risoluzione |
+| 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Come sorgente | 64 | Widescreen a bassa risoluzione |
 | 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Come sorgente | 80 | Widescreen a risoluzione media |
-| 3 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | Come sorgente | 96 | Risoluzione medio-alta |
+| 1 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | Come sorgente | 96 | Risoluzione medio-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | Come sorgente | 128 | Widescreen ad alta definizione |
 | 5 | 4:3, 320x240 (400 Kbps), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Come sorgente | 64 | Bassa risoluzione |
 | 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Come sorgente | 80 | Risoluzione media |
@@ -408,12 +407,12 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 | 4 | 16:9, 512x288, Mobile (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | Come sorgente | 80 | Alta risoluzione, Wi-Fi |
 | 5 | 16:9, 512x288, Mobile (1200 Kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | Come sorgente | 96 | Alta risoluzione, Wi-Fi |
 | 6 | 4:3, 384x288, Mobile (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Come sorgente | 64 | Bassa risoluzione, 3G |
-| 7 | 4:3, 384x288, Mobile (600 Kbps) | 700 | _Mobile_384x288_600K | 800 | 384 x 288 | Come sorgente | 64 | Risoluzione media, 3G |
-| 8 | 4:3, 448x336, Mobile (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Come sorgente | 80 | Risoluzione media, Wi-Fi |
+| 7 | 4:3, 384x288, Mobile (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Come sorgente | 64 | Risoluzione media, 3G |
+| 8 | 4:3, 448x336, Mobile (800 Kbps) | 900 | _Mobile_448x336_800K | 600 | 448x336 | Come sorgente | 80 | Risoluzione media, Wi-Fi |
 | 9 | 4:3, 448x336, Mobile (1000 Kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1000 | 448 x 336 | Come sorgente | 80 | Alta risoluzione, Wi-Fi |
 | 10 | 4:3, 448x336, Mobile (1200 Kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448 x 336 | Come sorgente | 96 | Alta risoluzione, Wi-Fi |
 
-## Predefiniti per visualizzatori  {#viewer-presets}
+## Predefiniti per visualizzatori {#viewer-presets}
 
 >[!NOTE]
 >
@@ -655,7 +654,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consultate [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
-### Attivazione o disattivazione dei predefiniti per visualizzatori  {#activating-or-deactivating-viewer-presets}
+### Attivazione o disattivazione dei predefiniti per visualizzatori {#activating-or-deactivating-viewer-presets}
 
 Per creare un URL per la visualizzazione delle risorse, gli utenti aprono l’elenco a discesa Predefiniti nella finestra di dialogo Anteprima, selezionano un predefinito per visualizzatore e fanno clic su Copia URL (consultate [Copia dell’URL di un predefinito per visualizzatori](application-setup.md#copying_the_url_of_a_viewer_preset)). Questo elenco di predefiniti offre i predefiniti per visualizzatori aggiunti e gestiti dagli amministratori nella schermata Predefiniti per visualizzatore. Ad esempio, tutti i predefiniti per visualizzatori eCatalog attivi vengono visualizzati nell’elenco a discesa Predefiniti nella finestra di dialogo Anteprima quando un utente esegue l’anteprima di un eCatalog.
 
@@ -688,7 +687,7 @@ L’URL viene copiato negli Appunti. Potete utilizzarlo come desiderate nel codi
    * Fate clic su **[!UICONTROL Visualizzazione griglia]**, **[!UICONTROL Visualizzazione elenco]** o **[!UICONTROL Visualizzazione dettagli]**. Nella stessa barra degli strumenti, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**.
 
-### Copiare il codice da incorporare di un predefinito per visualizzatori  {#copying-the-embed-code-of-a-viewer-preset}
+### Copiare il codice da incorporare di un predefinito per visualizzatori {#copying-the-embed-code-of-a-viewer-preset}
 
 La funzione Incorpora codice permette di analizzare il codice visualizzatore del predefinito per visualizzatori selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. 
 
@@ -711,9 +710,9 @@ La modifica del codice non è consentita nella finestra di dialogo Incorpora cod
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Incorpora codice]**.
 
 1. Nella finestra di dialogo Codice da incorporare, fate clic su **[!UICONTROL Copia negli Appunti]**.
-1. Fate clic su **[!UICONTROL Chiudi]**.
+1. Fai clic su **[!UICONTROL Chiudi]**.
 
-## Configurazione dei visualizzatori predefiniti  {#configuring-default-viewers}
+## Configurazione dei visualizzatori predefiniti {#configuring-default-viewers}
 
 Puoi utilizzare i visualizzatori predefiniti per configurare il visualizzatore predefinito associato a una risorsa quando utilizzi Anteprima in Dynamic Media Classic. Potete impostare l’esperienza di anteprima predefinita per i seguenti tipi di risorse:
 
@@ -752,7 +751,7 @@ Dynamic Media Classic viene fornito con Visualizzazioni metadati predefinite e g
 
    Le categorie e i campi selezionati per la visualizzazione vengono visualizzati nel pannello Anteprima.
 
-### Gestione di visualizzazioni metadati  {#managing-metadata-views}
+### Gestione di visualizzazioni metadati {#managing-metadata-views}
 
 1. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Visualizzazioni metadati]**.
 1. Effettuate una delle seguenti operazioni:
@@ -762,7 +761,7 @@ Dynamic Media Classic viene fornito con Visualizzazioni metadati predefinite e g
    * Per eliminare una visualizzazione, selezionala e fai clic su **[!UICONTROL Elimina]**.
    * Per rendere una visualizzazione predefinita, selezionala e fai clic su **[!UICONTROL Rendi predefinito]**. La visualizzazione predefinita è quella che gli utenti vedono non appena aprono una risorsa in visualizzazione Dettagli e passano al pannello Metadati.
 
-## Predefiniti per metadati  {#metadata-presets}
+## Predefiniti per metadati {#metadata-presets}
 
 I predefiniti per metadati consentono agli amministratori di controllare e modificare i metadati assegnati alle risorse. In visualizzazione Dettagli, un utente può specificare i metadati relativi a una risorsa nei campi forniti a tale scopo. Ad esempio, un utente può inserire un nome proprietario, una descrizione del copyright e un indirizzo. Per verificare che gli utenti inseriscano queste informazioni in modo preciso e completo, potete creare predefiniti per metadati. Scegliendo un predefinito per metadati in visualizzazione Dettagli, i campi metadati vengono compilati automaticamente con valori predefiniti. Ad esempio, il nome proprietario, la descrizione del copyright e l’indirizzo vengono inseriti automaticamente.
 
@@ -781,7 +780,7 @@ Create un predefinito per metadati per ciascun set di valori per metadati che de
 
    Le categorie e i campi selezionati per il predefinito vengono visualizzati nel pannello dell’anteprima.
 
-### Gestione di predefiniti per metadati  {#managing-metadata-presets}
+### Gestione di predefiniti per metadati {#managing-metadata-presets}
 
 1. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Predefiniti metadati]**.
 1. Effettuate una delle seguenti operazioni:
@@ -803,7 +802,7 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 >
 >per cercare le risorse utilizzando i campi definiti dall’utente, fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]** e selezionate **[!UICONTROL Includi UDF nella ricerca]**. Consultate [Configurazione personale](personal-setup.md#personal_setup).
 
-### Creazione di un campo di metadati definito dall’utente  {#creating-a-user-defined-metadata-field}
+### Creazione di un campo di metadati definito dall’utente {#creating-a-user-defined-metadata-field}
 
 1. Fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Campi definiti dall’utente]**.
 1. Fate clic su **[!UICONTROL Aggiungi]**.
@@ -841,7 +840,7 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
 1. Al termine della creazione del campo di metadati, fate clic su **[!UICONTROL Salva]**.
 
-### Gestire i campi definiti dall’utente  {#manage-user-defined-fields}
+### Gestire i campi definiti dall’utente {#manage-user-defined-fields}
 
 Nella schermata Campi definiti dall’utente sono disponibili i comandi necessari per gestire i campi di metadati personalizzati, definiti dall’utente. 
 
@@ -897,7 +896,7 @@ In alternativa, potete usare l’opzione Visualizza codice, senza campi del modu
 
 Per la definizione sono disponibili due elementi, Corrispondenza e Nome base. Questi campi consentono di definire tutti gli elementi di una convenzione di denominazione e identificare la porzione della convenzione usata per denominare il set in cui sono contenuti. Una convenzione di denominazione individuale di un’azienda può utilizzare una o più righe di definizione per ciascuno di questi elementi. Potete usare tutte le righe necessarie a creare una definizione univoca e raggrupparle in elementi distinti, ad esempio per l’immagine principale, l’elemento colore, l’elemento visualizzazione alternativa e l’elemento campione.
 
-### Creazione di un predefinito per set di batch  {#creating-a-batch-set-preset}
+### Creazione di un predefinito per set di batch {#creating-a-batch-set-preset}
 
 Dynamic Media Classic utilizza i predefiniti per set di batch per organizzare le risorse che condividono alcune informazioni o contenuti in set di immagini da visualizzare nei visualizzatori. Le ricette predefinite per set di batch vengono eseguite automaticamente insieme ai processi di importazione delle risorse programmati in Dynamic Media Classic.
 
@@ -928,7 +927,7 @@ Consultate anche [Creazione di un predefinito per set di batch per la generazion
 
 1. Fate clic su **[!UICONTROL Salva]** nel pannello Dettagli.
 
-### Creazione di un predefinito per set di batch per la generazione automatica di un set 360 gradi 2D  {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
+### Creazione di un predefinito per set di batch per la generazione automatica di un set 360 gradi 2D {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
 Potete usare il tipo di set di batch **Set 360 gradi con asse multiplo** per creare una definizione che automatizza la generazione di set 360 gradi 2D. Il raggruppamento delle immagini utilizza espressioni regolari per riga e colonna per il corretto allineamento delle risorse di immagini nella posizione corrispondente nell’array multidimensionale.
 
@@ -1006,7 +1005,7 @@ Quando il set 360 gradi viene caricato e pubblicato, puoi attivare il nome della
 >[!MORELIKETHIS]
 >
 >* [Anteprima di una risorsa](previewing-asset.md#previewing_an_asset)
->* [Configurazione dei predefiniti immagine](setting-image-presets.md#setting_up_image_presets)
->* [Visualizzazione, aggiunta ed esportazione di metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
->* [Verifica dei file di processo](checking-job-files.md#checking_job_files)
+* [Configurazione dei predefiniti immagine](setting-image-presets.md#setting_up_image_presets)
+* [Visualizzazione, aggiunta ed esportazione di metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+* [Verifica dei file di processo](checking-job-files.md#checking_job_files)
 
