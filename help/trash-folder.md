@@ -10,7 +10,6 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Gestione risorse
 role: Business Practitioner
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '545'
@@ -38,7 +37,7 @@ Se eliminate un elemento di una cartella, questo viene inserito nella cartella C
 * L’elemento non può essere pubblicato. Anche se l’elemento era contrassegnato per la pubblicazione al momento in cui è stato eliminato, non verrà pubblicato.
 * L&#39;elemento rimane nella cartella Cestino fino a quando non viene ripristinato, sette giorni dopo, o qualcuno sceglie il comando **[!UICONTROL Svuota il Cestino]**. Trascorsi sette giorni, l’elemento viene eliminato automaticamente da un’operazione di pulizia automatica.
 
-## Ripristino delle risorse dalla cartella Cestino  {#restoring-assets-from-the-trash-folder}
+## Ripristino delle risorse dalla cartella Cestino {#restoring-assets-from-the-trash-folder}
 
 Non è necessario che il file venga ripristinato dalla persona che lo ha eliminato: chiunque può ripristinare le risorse dalla cartella Cestino. Le risorse ripristinate vengono riportate nelle cartelle da cui erano state eliminate. Se queste cartelle non esistono più, Dynamic Media Classic le ricrea e le risorse ripristinate vengono inserite nelle cartelle ricreate.
 
