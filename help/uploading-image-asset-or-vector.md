@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '1497'
@@ -19,7 +18,7 @@ ht-degree: 78%
 
 Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento con cui potrete caricare le risorse immagine o vettoriali.
 
-## Richiesta di una chiave segreta condivisa  {#requesting-a-shared-secret-key}
+## Richiesta di una chiave segreta condivisa {#requesting-a-shared-secret-key}
 
 Richiedi una *chiave segreta condivisa* di [utilizzando l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel tuo caso di supporto, richiedi una chiave segreta condivisa.
 
@@ -89,7 +88,7 @@ Ora potete caricare una risorsa immagine.
 
 Consultate [Caricamento di una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Caricamento di una risorsa immagine  {#uploading-an-image-asset}
+## Caricamento di una risorsa immagine {#uploading-an-image-asset}
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa immagine. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 
@@ -201,7 +200,7 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 POST
 
-### Ottenimento dei metadati di risorsa per immagini  {#getting-asset-metadata-for-images}
+### Ottenimento dei metadati di risorsa per immagini {#getting-asset-metadata-for-images}
 
 Per ottenere i metadati di una risorsa caricata, potete usare `image_info`, come illustrato nell’esempio di seguito:
 
@@ -249,7 +248,7 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 
 GET e POST
 
-## Caricamento di una risorsa vettoriale  {#uploading-a-vector-asset}
+## Caricamento di una risorsa vettoriale {#uploading-a-vector-asset}
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa vettoriale. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 
