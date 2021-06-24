@@ -8,16 +8,15 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 55%
+source-wordcount: '138'
+ht-degree: 56%
 
 ---
 
-
-# Informazioni sul contenuto generato dall&#39;utente{#about-user-generated-content}
+# Informazioni sul contenuto generato dall’utente{#about-user-generated-content}
 
 L’utilizzo di UGC (contenuto generato dall’utente) consiste nel caricare risorse in un archivio di archiviazione Dynamic Media Classic dedicato e nell’eseguire le operazioni correlate.
 
@@ -34,4 +33,3 @@ Una volta ottenuta la chiave segreta condivisa e caricato il token, potete esegu
 * Ottenere i metadati di una risorsa immagine.
 * Eliminare una risorsa caricata.
 * Ottenere informazioni sull’utilizzo del disco rigido di una società.
-
