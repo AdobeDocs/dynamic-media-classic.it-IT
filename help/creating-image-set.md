@@ -10,7 +10,6 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Visualizzatori,Set di immagini
 role: Business Practitioner
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '586'
@@ -22,7 +21,7 @@ ht-degree: 86%
 
 Per creare un set di immagini a visualizzazione multipla, sono necessarie immagini di uno stesso elemento da più punti di vista o che mostrino diversi aspetti dello stesso elemento. L’obiettivo è quello di presentare agli utenti diverse immagini di un elemento, in modo che possano farsi un’idea concreta dell’aspetto o della funzione di quest’ultimo.
 
-## Creazione di un set di immagini  {#create}
+## Creazione di un set di immagini {#create}
 
 Quando create un set, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
 
@@ -46,7 +45,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Fate clic su **[!UICONTROL Salva]**, selezionate una cartella in cui memorizzare il set di immagini, immettete un nome per il set, quindi fate clic su **[!UICONTROL Salva]**.
 1. Per visualizzare il set di immagini nel visualizzatore di set di immagini, fate clic sul pulsante **[!UICONTROL Anteprima]** nella schermata Set immagini. Potete fare clic sulle miniature campione nel visualizzatore di set di immagini per verificarne il funzionamento.
 
-## Modifica di un set di immagini  {#editing-an-image-set}
+## Modifica di un set di immagini {#editing-an-image-set}
 
 Sia che modifichi un set pubblicato che non pubblicato, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** influisce sul set e sui membri impostati nei seguenti modi:
 
@@ -71,7 +70,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica del set, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Fate clic su **[!UICONTROL Salva]**, selezionate una cartella di archiviazione, immettete un nome per il set, quindi fate clic su **[!UICONTROL Salva]**.
 
-## Eliminazione di un set di immagini  {#deleting-an-image-set}
+## Eliminazione di un set di immagini {#deleting-an-image-set}
 
 Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
 
