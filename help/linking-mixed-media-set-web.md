@@ -10,7 +10,6 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Visualizzatori,Set Di File Multimediali Diversi
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -41,11 +40,11 @@ Dopo aver pubblicato un set di file multimediali diversi, potete ottenere il rel
 
       Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, fate clic su **[!UICONTROL Copia URL]**.
 
-## Aggiungere URL di set di file multimediali diversi a una pagina Web  {#add-mixed-media-set-urls-to-your-web-page}
+## Aggiungere URL di set di file multimediali diversi a una pagina Web {#add-mixed-media-set-urls-to-your-web-page}
 
 Il modo più comune di pubblicare i set di file multimediali diversi consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (ASP o JSP) in cui viene visualizzato il set di file multimediali diversi nel relativo visualizzatore.
 
-## Copia del codice da incorporare di un visualizzatore set di file multimediali diversi  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copia del codice da incorporare di un visualizzatore set di file multimediali diversi {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di file multimediali diversi selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Incorpora codice.
 
