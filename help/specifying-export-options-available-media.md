@@ -9,7 +9,6 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaborazione,Gestione risorse
 role: Administrator,Business Practitioner
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '380'
@@ -44,5 +43,5 @@ Consulta anche [Esportazione di risorse da Dynamic Media Classic](exporting-asse
 >[!MORELIKETHIS]
 >
 >* [Predefiniti immagine](application-setup.md#image_presets)
->* [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+* [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 
