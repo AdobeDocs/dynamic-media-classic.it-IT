@@ -10,7 +10,6 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Visualizzatori,Zoom
 role: Business Practitioner
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '734'
@@ -35,7 +34,7 @@ La percentuale massima di zoom delle destinazioni di zoom è 100 percento. La pe
 
 Potete modificare le dimensioni del visualizzatore zoom in modo che corrispondano a quelle usate sulla pagina Web. Solo gli amministratori possono modificare questa impostazione in maniera permanente, modificando le dimensioni del visualizzatore nella schermata Configurazione. Consultate [Impostazione dei predefiniti per il visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## Creazione e modifica delle destinazioni di zoom  {#creating-and-editing-zoom-targets}
+## Creazione e modifica delle destinazioni di zoom {#creating-and-editing-zoom-targets}
 
 Potete creare e modificare le destinazioni di zoom nella schermata Editor destinazioni di zoom. Per aprire questa schermata, selezionate un’immagine ed effettuate una delle seguenti operazioni:
 
@@ -73,7 +72,7 @@ Per creare una destinazione di zoom, apri la pagina Editor destinazione di zoom 
 >
 >Per visualizzare l’aspetto delle destinazioni di zoom in un visualizzatore zoom, fate clic sul pulsante Anteprima nella schermata Editor destinazioni di zoom e scegliete un visualizzatore zoom nella schermata Anteprima. Per informazioni su questa schermata, consultate [Anteprima delle immagini con diversi visualizzatori zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
-### Modifica delle destinazioni di zoom  {#editing-zoom-targets}
+### Modifica delle destinazioni di zoom {#editing-zoom-targets}
 
 Per modificare le destinazioni di zoom, utilizza le seguenti tecniche nella pagina Editor di destinazione zoom:
 
