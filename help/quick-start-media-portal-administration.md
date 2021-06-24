@@ -10,7 +10,6 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaborazione,Gestione risorse
 role: Administrator,Business Practitioner
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -18,7 +17,7 @@ ht-degree: 73%
 
 ---
 
-# Avvio rapido: Media Portal{#quick-start-media-portal}
+# Avvio rapido: Portale multimediale{#quick-start-media-portal}
 
 Media Portal consente alle aziende di acquisire, controllare e distribuire facilmente le risorse approvate a partner e canali esterni e agli utenti interni di un’azienda. Questo ambiente &quot;self-service&quot; basato su browser offre agli utenti di Media Portal delle &quot;visualizzazioni&quot; controllate dall’amministratore nelle risorse di Dynamic Media Classic per un facile accesso, navigazione, ricerca, anteprima ed esportazione delle risorse nei formati approvati dall’azienda.
 
