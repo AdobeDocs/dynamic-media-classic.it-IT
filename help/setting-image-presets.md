@@ -10,7 +10,6 @@ discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Predefiniti immagine
 role: Business Practitioner
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '654'
@@ -26,7 +25,7 @@ Dynamic Media Classic include diversi predefiniti immagine &quot;best practice&q
 
 Le immagini la cui dimensione viene ridotta quando vengono trasmesse da un server in modo dinamico possono perdere nitidezza e dettaglio. Per questa ragione, ciascun predefinito per immagini contiene controlli di formattazione per ottimizzare l’immagine quando questa viene trasmessa in una determinata dimensione. Grazie a tali controlli, le immagini trasmesse al sito Web o all’applicazione restano nitide e chiare.
 
-## Creazione di un predefinito immagine  {#creating-an-image-preset}
+## Creazione di un predefinito immagine {#creating-an-image-preset}
 
 Se siete l’amministratore della società, potete creare dei predefiniti per immagini in base alle vostre specifiche esigenze. È possibile creare nuovi predefiniti per immagini o iniziare con un predefinito per immagini predefinito fornito da Dynamic Media Classic, modificarlo e salvarlo con un nuovo nome.
 
@@ -65,7 +64,7 @@ Immetti le impostazioni mostrate qui:
    |--- |--- |--- |--- |--- |
    | Oggetti correlati (mini miniature) | 75 x 75 | 1,5 | 0,8 | 5 |
    | Miniatura | 150 x 150 | 1,1 | 1 | 5 |
-   | Principale | 350 x 350 | 3 | 3 | 6 |
+   | Principale | 350 x 350 | 3 | 1 | 6 |
    | Ingrandimento | 500 x 500 | 1,2 | 1,2 | 5 |
 
 1. Fate clic su **Salva**.
@@ -86,6 +85,6 @@ Per eliminare un predefinito per immagini, selezionatelo nella schermata Predefi
 >[!MORELIKETHIS]
 >
 >* [Creare e modificare i predefiniti immagine](application-setup.md#creating_and_editing_image_presets)
->* [Opzioni dei predefiniti immagine](application-setup.md#image_preset_options)
->* [Anteprima di una risorsa immagine basata sul suo predefinito per immagini](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+* [Opzioni dei predefiniti immagine](application-setup.md#image_preset_options)
+* [Anteprima di una risorsa immagine basata sul suo predefinito per immagini](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
 
