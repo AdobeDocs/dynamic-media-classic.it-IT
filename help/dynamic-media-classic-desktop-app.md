@@ -135,8 +135,7 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
 
 1. Copia il file .APP in **[!UICONTROL Applicazioni]** utilizzando il seguente comando:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. Quando apri l’applicazione, viene visualizzata la nuova pagina di accesso Adobe Dynamic Media Classic:
 
