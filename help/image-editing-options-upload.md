@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Gestione risorse
-role: Business Practitioner
+role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 59%
@@ -52,7 +52,7 @@ Per ritagliare manualmente dai lati di un’immagine, scegliete Manuale dal menu
 
 ## Scelta di un profilo colore
 
-Per selezionare uno spazio colore per l&#39;immagine, scegli un&#39;opzione Profilo colore:
+Per selezionare uno spazio colore per l’immagine, scegli un’opzione Profilo colore:
 
 * **Converti in sRGB**  - Converte in sRGB (Standard Rosso Verde Blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
 
