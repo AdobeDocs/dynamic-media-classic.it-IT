@@ -10,24 +10,24 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Media Classic,Gestione risorse
 role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 19%
+ht-degree: 15%
 
 ---
 
-# Caricamento delle immagini originali{#uploading-master-images}
+# Caricare immagini master{#uploading-master-images}
 
 Prima di caricare le immagini in Dynamic Media Classic, accertati che le dimensioni e il formato siano della massima qualità. Dynamic Media Classic consiglia di caricare immagini di alta qualità con un numero di pixel sufficiente (da 1500 a 2000 pixel nelle dimensioni lunghe). Questo dimensionamento consente di ottenere qualsiasi immagine dinamica necessaria.
 
 Per informazioni sul caricamento delle immagini, consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
-**Preparazione delle immagini originali per il caricamento:**
+**Prepara le immagini master da caricare:**
 
 Prepara i file immagine master prima di caricarli in Dynamic Media Classic:
 
-* **Dimensioni immagine** : consente di creare le immagini di dimensioni maggiori che si prevede di utilizzare. Le dimensioni tipiche delle immagini variano da 1500 a 2500 pixel nel formato più lungo. Se si intende utilizzare la funzione Zoom, Dynamic Media Classic consiglia di utilizzare immagini di dimensioni almeno 2000 pixel nella dimensione più lunga, per ottenere dettagli di zoom ottimali. Dynamic Media Classic può eseguire il rendering delle immagini fino a 25 megapixel ciascuna. Ad esempio, è possibile utilizzare un&#39;immagine da 5000 x 5000 megapixel o qualsiasi altra combinazione di dimensioni fino a 25 megapixel.
+* **Dimensioni immagine** : consente di creare le immagini di dimensioni maggiori che si prevede di utilizzare. Le dimensioni tipiche delle immagini variano da 1500 a 2500 pixel nel formato più lungo. Se si intende utilizzare la funzione Zoom, Dynamic Media Classic consiglia di utilizzare immagini di dimensioni almeno 2000 pixel nella dimensione più lunga, per ottenere dettagli di zoom ottimali. Dynamic Media Classic può eseguire il rendering delle immagini fino a 25 megapixel ciascuna. Ad esempio, è possibile utilizzare un&#39;immagine da 5000 x 5000 MP o qualsiasi altra combinazione di dimensioni fino a 25 MP.
 
 * **Formati di file**  - Dynamic Media Classic supporta tutti i formati di file immagine standard, inclusi TIFF, BMP, JPEG, PSD, GIF ed EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
 
