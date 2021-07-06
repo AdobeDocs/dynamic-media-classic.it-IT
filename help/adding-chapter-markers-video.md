@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Visualizzatori,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 82%
+source-wordcount: '627'
+ht-degree: 53%
 
 ---
 
 # Aggiunta di marcatori capitolo a video{#adding-chapter-markers-to-video}
 
-Potete rendere più semplice la visualizzazione e la navigazione nei video di formato esteso aggiungendo marcatori capitolo a singoli video o a set video adattivi. Quando un utente riproduce il video, può fare clic sui marcatori capitolo nella timeline del video (detta anche cursore di scorrimento video) per navigare con facilità verso il suo punto di interesse, oppure passare immediatamente su altri contenuti, dimostrazioni, esercitazioni e così via.
+Potete rendere più semplice la visualizzazione e la navigazione nei video di formato esteso aggiungendo marcatori capitolo a singoli video o a set video adattivi. Quando un utente riproduce il video, può fare clic sui marcatori capitolo nella timeline del video (nota anche come scorrimento video). In questo modo è possibile spostarsi facilmente nel punto di interesse o passare immediatamente a nuovi contenuti, dimostrazioni, tutorial e così via.
 
 >[!NOTE]
 >
 >il lettore video utilizzato deve supportare l’uso di marcatori capitolo.
 
-Consultate [Aggiunta o modifica di un predefinito per visualizzatori ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) per configurare i cue point di navigazione dei capitoli e il testo del titolo della finestra a comparsa del capitolo per il visualizzatore `Universal_HTML5_Video`_Video (HTML5).
+Per configurare i punti di cue per la navigazione dei capitoli e il testo a comparsa del titolo del capitolo per il visualizzatore `Universal_HTML5_Video` (HTML5), consulta [Aggiunta o modifica di un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) .
 
 Consultate anche [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -49,21 +49,21 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. Il tempo di cue di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e di fine del capitolo, in formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L’identificatore del cue point, il cue point iniziale e il titolo del capitolo vengono visualizzati in una finestra a comparsa del lettore video quando l’utente passa il puntatore del mouse sul riferimento visivo nella timeline del video.
+Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. Il tempo di cue di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e di fine del capitolo, in formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L’identificatore di cue, il tempo di cue iniziale e il titolo del capitolo vengono visualizzati in un pop-up nel lettore video quando il puntatore passa sopra un punto di cue visivo nella timeline del video.
 
-Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file dei capitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
+Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L&#39;estensione del nome del capitolo è .VTT. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
-Consultare [WebVTT: Il formato Tracce testo video web](https://dev.w3.org/html5/webvtt/).
+Consultare [WebVTT: Il Testo Video Web Tiene Traccia Del Formato](https://w3c.github.io/webvtt/).
 
-**Per aggiungere marcatori capitolo a video**
+**Per aggiungere marcatori capitolo a video:**
 
 1. Utilizzando un semplice editor di testo esterno a Dynamic Media Classic, crea il file dei capitoli video.
 
    >[!NOTE]
    >
-   >per il supporto globale di capitoli a video in lingue diverse dall’inglese, tenete presente che lo standard WebVTT richiede che vengano creati file .vtt e chiamate separati per ogni lingua da supportare.
+   >Per il supporto globale dei capitoli video in lingue diverse dall&#39;inglese, lo standard WebVTT richiede la creazione di file .vtt separati e di chiamate per ogni lingua che si desidera supportare.
 
-1. Salvate il file .vtt in codifica UTF8 per evitare problemi di rendering dei carattere nel titolo del capitolo.
+1. Salva il file VTT nella codifica UTF8 in modo da evitare problemi con il rendering dei caratteri nel testo del titolo del capitolo.
 
    In genere, si desidera assegnare al file VTT capitolo lo stesso nome del file video e aggiungerlo con `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
 
@@ -77,7 +77,7 @@ Consultare [WebVTT: Il formato Tracce testo video web](https://dev.w3.org/html5/
 
    * Per un’esperienza di visualizzazione con video a comparsa, fate clic su **[!UICONTROL Copia URL]** all’estrema destra del nome.
 
-      Aggiungete l’URL del video che avete copiato con la sintassi seguente per associarlo all’URL del l file dei sottotitoli:
+      Aggiungi l’URL del video copiato con la sintassi seguente, in modo da poterlo associare all’URL copiato al file della didascalia:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
