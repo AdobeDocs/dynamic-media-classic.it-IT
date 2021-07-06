@@ -1,13 +1,13 @@
 ---
-title: File XML
+title: XML, file
 description: I siti web che utilizzano un sistema basato su XML per gestire immagini e informazioni sulle immagini possono caricare file XML in Dynamic Media Classic. Ulteriori informazioni sui file XML.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 exl-id: 6eaecd25-7de3-492c-81e0-86a78145feb0
-source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 45%
