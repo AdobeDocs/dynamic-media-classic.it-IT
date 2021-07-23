@@ -1,15 +1,15 @@
 ---
 title: Adobe app desktop Dynamic Media Classic
-description: Gli utenti di Dynamic Media Classic possono ora provare un aggiornamento completo dell'interfaccia utente. L’esperienza offre un accesso aggiornato con collegamenti a risorse preziose, e questo aggiornamento non si basa più sulla tecnologia Adobe Flash nel browser.
+description: Gli utenti di Dynamic Media Classic possono ora provare un aggiornamento completo dell'interfaccia utente. L’esperienza offre un accesso aggiornato con collegamenti a risorse preziose, oltre a questo aggiornamento non si basa più sulla tecnologia Adobe Flash nel browser.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ I collegamenti per il download sono disponibili anche tramite la [pagina di abbo
 
 ### **_Come funziona la nuova app desktop?_**
 
-Dopo aver scaricato, installato e avviato l’app desktop, viene visualizzata un’esperienza di accesso aggiornata. Inserendo il nome utente e la password esistenti e selezionando il server appropriato in base alla propria area geografica, puoi accedere a Dynamic Media Classic. L’esperienza complessiva è la stessa della versione familiare del browser Web a cui sei abituato. Dall’app desktop puoi accedere agli ambienti di produzione e staging di Dynamic Media Classic. Puoi anche accedere a Media Portal se hai ricevuto delle credenziali per questa funzionalità.
+Dopo aver scaricato, installato e avviato l’app desktop, riceverai un’esperienza di accesso aggiornata. Inserendo il nome utente e la password esistenti e selezionando il server appropriato in base alla propria area geografica, puoi accedere a Dynamic Media Classic. L’esperienza complessiva è la stessa della versione familiare del browser Web a cui sei abituato. Dall’app desktop puoi accedere agli ambienti di produzione e staging di Dynamic Media Classic. Puoi anche accedere a Media Portal se hai ricevuto delle credenziali per questa funzionalità.
 
 >[!IMPORTANT]
 >
@@ -98,7 +98,7 @@ Inoltre, [iscriviti alla newsletter Dynamic Media](https://www.adobe.com/subscri
 
 ### **_Sono interessato a ulteriori informazioni sull’aggiornamento a Dynamic Media con AEM Assets. Dove posso trovare ulteriori informazioni?_**
 
-Per ulteriori informazioni sui vantaggi dell&#39;aggiornamento alla nuova generazione di contenuti rich media authoring, pubblicazione e distribuzione dinamica, visita il [portale di aggiornamento Dynamic Media](http://exploreadobe.com/dynamic-media-upgrade/).
+Per ulteriori informazioni sui vantaggi dell&#39;aggiornamento alla nuova generazione di contenuti rich media authoring, pubblicazione e distribuzione dinamica, visita il [portale di aggiornamento Dynamic Media](https://exploreadobe.com/dynamic-media-upgrade/).
 
 >[!MORELIKETHIS]
 >
