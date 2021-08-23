@@ -1,6 +1,6 @@
 ---
-title: Aggiunta di marcatori capitolo a video
-description: Scopri come aggiungere marcatori capitolo a un video.
+title: Aggiungere marcatori capitolo al video
+description: Scopri come aggiungere marcatori capitolo a un video in Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Visualizzatori,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 53%
+source-wordcount: '631'
+ht-degree: 39%
 
 ---
 
-# Aggiunta di marcatori capitolo a video{#adding-chapter-markers-to-video}
+# Aggiungere marcatori capitolo al video {#adding-chapter-markers-to-video}
 
-Potete rendere più semplice la visualizzazione e la navigazione nei video di formato esteso aggiungendo marcatori capitolo a singoli video o a set video adattivi. Quando un utente riproduce il video, può fare clic sui marcatori capitolo nella timeline del video (nota anche come scorrimento video). In questo modo è possibile spostarsi facilmente nel punto di interesse o passare immediatamente a nuovi contenuti, dimostrazioni, tutorial e così via.
+Potete rendere più semplice la visualizzazione e la navigazione nei video di formato esteso aggiungendo marcatori capitolo a singoli video o a set video adattivi. Quando un utente riproduce il video, può selezionare i marcatori capitolo nella timeline del video (nota anche come scorrimento video). In questo modo è possibile spostarsi facilmente nel punto di interesse o passare immediatamente a nuovi contenuti, dimostrazioni, tutorial e così via.
 
 >[!NOTE]
 >
 >il lettore video utilizzato deve supportare l’uso di marcatori capitolo.
 
-Per configurare i punti di cue per la navigazione dei capitoli e il testo a comparsa del titolo del capitolo per il visualizzatore `Universal_HTML5_Video` (HTML5), consulta [Aggiunta o modifica di un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) .
+Per configurare i punti di cue per la navigazione dei capitoli e il testo a comparsa del titolo del capitolo per il visualizzatore `Universal_HTML5_Video` (HTML5), consultate [Aggiungere o modificare un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) .
 
-Consultate anche [Aggiunta e modifica dei predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
+Consulta anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
 
 Gli elenchi di capitoli si creano in modo analogo alle didascalie, Quindi creando un file WebVTT. Tuttavia, non è possibile utilizzare lo stesso file WebVTT anche per i sottotitoli; non è possibile impostare didascalie e capitoli in un unico file WebVTT.
 
@@ -69,21 +69,21 @@ Consultare [WebVTT: Il Testo Video Web Tiene Traccia Del Formato](https://w3c.gi
 
 1. In Dynamic Media Classic, carica il file del capitolo WebVTT.
 
-   Consultate [Caricamento dei file](uploading-files.md#uploading_files).
+   Consulta [Caricare file](uploading-files.md#uploading_files).
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video da associare al file dei capitoli che avete caricato.
-1. Nel pannello delle risorse, selezionate una singola risorsa video, quindi, sotto la miniatura della risorsa, fate clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+1. Nel pannello delle risorse, seleziona una singola risorsa video, quindi, sotto l’immagine miniatura della risorsa, seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 1. Nella tabella Elenco visualizzatori, individuate il visualizzatore HTML5 denominato **Univeral_HTML5_Video** ed effettuate una delle seguenti operazioni:
 
-   * Per un’esperienza di visualizzazione con video a comparsa, fate clic su **[!UICONTROL Copia URL]** all’estrema destra del nome.
+   * Per un’esperienza di visualizzazione video a comparsa, seleziona **[!UICONTROL Copia URL]** all’estrema destra del nome.
 
       Aggiungi l’URL del video copiato con la sintassi seguente, in modo da poterlo associare all’URL copiato al file della didascalia:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Per un’esperienza di visualizzazione con video incorporato, fate clic su **[!UICONTROL Incorpora codice]** all’estrema destra del nome.
+   * Per un’esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Incorpora codice]** all’estrema destra del nome.
 
-      Nella finestra di dialogo Codice da incorporare, fate clic su **[!UICONTROL Copia negli Appunti]**.
+      Nella finestra di dialogo Incorpora codice selezionare **[!UICONTROL Copia negli Appunti]**.
 
       Per il visualizzatore HTML5 `Universal_HTML5_Video` , aggiungi il codice da incorporare copiato con quanto segue:
 
