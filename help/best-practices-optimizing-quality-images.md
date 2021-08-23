@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Gestione risorse
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 56%
@@ -69,7 +69,7 @@ Esistono due metodi per rendere le immagini più nitide:
 
          Questo parametro determina la differenza tra i pixel da rendere più nitidi rispetto all’area circostante, prima che vengano considerati pixel del bordo e che il filtro li renda più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato per evitare di aggiungere “disturbo”, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
 
-         Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, consulta [Nitidezza delle immagini in Adobe Scene7 Publishing System e su Image Server](/help/assets/s7_sharpening_images.pdf).
+         Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, vedere [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
 
