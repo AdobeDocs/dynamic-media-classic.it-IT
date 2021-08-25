@@ -1,16 +1,17 @@
 ---
+title: Archivio newsletter Dynamic Media
 description: 'La newsletter Dynamic Media archiviata per Experience League era una newsletter mensile. È stato progettato per aiutarti a imparare a usare Dynamic Media e Dynamic Media Classic in modo da poter realizzare subito valore. Le newsletter archiviate contengono preziose risorse per la creazione di conoscenze, disponibili in questa newsletter di one-stop che è ora discontinua. Le newsletter archiviate includono video dimostrativi e panoramica delle soluzioni. Sono inoltre disponibili presentazioni alle funzioni e funzionalità chiave come i predefiniti per immagini, i predefiniti per visualizzatori e i profili video. '
 keywords: contenuti multimediali dinamici;newsletter;aggiornamenti prodotto;suggerimenti e trucchi;eventi;successo cliente;blog;blog;blog;immagini;video;funzionalità;funzionalità
-title: Archivio newsletter Dynamic Media
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
+
 
 # ![Logo della newsletter Dynamic Media](/help/assets/dynamic-media-newsletter-logo.png)
 
