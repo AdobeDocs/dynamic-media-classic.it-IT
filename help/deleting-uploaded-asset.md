@@ -1,6 +1,6 @@
 ---
-title: Eliminazione di una risorsa caricata
-description: Scopri come eliminare una risorsa caricata.
+title: Eliminare una risorsa caricata
+description: Scopri come eliminare una risorsa caricata in Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 85%
+source-wordcount: '95'
+ht-degree: 84%
 
 ---
 
-# Eliminazione di una risorsa caricata{#deleting-an-uploaded-asset}
+# Eliminare una risorsa caricata{#deleting-an-uploaded-asset}
 
 Per eliminare una risorsa potete usare il parametro `delete`, come segue:
 
@@ -45,9 +45,9 @@ Di seguito è riportato un esempio di una risposta a seguito dell’eliminazione
 Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 
 | Parametro URL | Obbligatorio/facoltativo | Valore |
-|--- |--- |--- |
-| op | Obbligatorio | delete |
-| shared_secret | Obbligatorio | Chiave segreta condivisa della società. |
+| --- | --- | --- |
+| `op` | Obbligatorio | delete |
+| `shared_secret` | Obbligatorio | Chiave segreta condivisa della società. |
 | <ul><li>Per immagini:nome_immagine</li><li>Per risorse vettoriali:fxg_name</li></ul> | Obbligatorio | Nome della risorsa da eliminare. |
 
 **URL immagine campione:**
