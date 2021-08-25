@@ -1,6 +1,6 @@
 ---
-title: Gestione delle varianti di contenuto
-description: Scopri come gestire le varianti di contenuto.
+title: Gestire le varianti di contenuto
+description: Scopri come gestire le varianti di contenuto in Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '250'
+ht-degree: 54%
 
 ---
 
-# Gestione delle varianti di contenuto{#managing-content-variations}
+# Gestire le varianti di contenuto{#managing-content-variations}
 
 Utilizzando dei set di modelli è possibile gestire il modo in cui vengono pubblicate le varianti delle risorse.
 
@@ -27,10 +27,10 @@ Gli URL universali vengono utilizzati per visualizzare la variante del modello c
 
 Potete utilizzare qualsiasi URL di predefinito per immagini presente nell’elenco. Gli URL di predefiniti per immagini sono simili agli URL universali. Possono essere presenti più URL di predefiniti per immagini.
 
-1. Fai clic su **[!UICONTROL Genera]** > **[!UICONTROL Set di modelli]**. Viene aperta la funzione di generazione.
-1. Seleziona un modello, quindi fai clic su **[!UICONTROL Aggiungi/Anteprima]**.
-1. Modifica le proprietà del modello e fai clic su **[!UICONTROL Salva con nome]** per creare un&#39;altra versione.
-1. Digita un nome e fai clic su **[!UICONTROL Salva]**.
+1. Vai a **[!UICONTROL Build]** > **[!UICONTROL Set di modelli]**.
+1. Nel generatore, seleziona un modello, quindi seleziona **[!UICONTROL Aggiungi/Anteprima]**.
+1. Modifica le proprietà del modello e seleziona **[!UICONTROL Salva con nome]** per creare un&#39;altra versione.
+1. Digita un nome e seleziona **[!UICONTROL Salva]**.
 
    La risorsa e il modello devono essere pubblicati.
 
