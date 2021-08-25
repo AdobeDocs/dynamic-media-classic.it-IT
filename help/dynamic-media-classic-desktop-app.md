@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Consultate anche:
 
 1. Effettua una delle seguenti operazioni in base al programma di installazione scaricato.
 
-   * **Per macOS**  - Nella finestra di dialogo  **[!UICONTROL Trascina e rilascia per]** l&#39;installazione, trascina  **[!UICONTROL Adobe Dynamic Media]** Classic e rilascialo su  **[!UICONTROL Applicazioni]**.
+   * **macOS**  - Nella finestra di dialogo  **[!UICONTROL Trascina e rilascia per]** installare, trascina  **[!UICONTROL Adobe Dynamic Media]** Classic e rilascialo su  **[!UICONTROL Applicazioni]**.
 
       ![Trascinare l’installazione su macOS](/help/assets/dragondrop-install1.png)
 
@@ -96,9 +96,9 @@ Consultate anche:
 
       ![Apri app scaricata](/help/assets/open-dmclassicapp1.png)
 
-   * **Per Windows**  - Esegui il binario di installazione e segui le istruzioni sullo schermo per installare l&#39;app desktop.
+   * **Windows**  - Esegui il binario di installazione e segui le istruzioni sullo schermo per installare l&#39;app desktop.
 
-1. Quando apri l’applicazione, viene visualizzata la nuova pagina di accesso Adobe Dynamic Media Classic:
+1. Quando apri l’applicazione, viene visualizzata la nuova pagina di accesso di Adobe Dynamic Media Classic:
 
    ![Accesso a Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -107,7 +107,7 @@ Consultate anche:
    Per il **[!UICONTROL Server]** da utilizzare, vedi la seguente mappatura per l&#39;ambiente di produzione:
 
    | URL browser | Nome server app desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produzione NA (Nord America) |
    | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
@@ -140,7 +140,7 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
    Unmount DMG - hdiutil detach <mount_point_path>
    ```
 
-1. Quando apri l’applicazione, viene visualizzata la nuova pagina di accesso Adobe Dynamic Media Classic:
+1. Quando apri l’applicazione, viene visualizzata la nuova pagina di accesso di Adobe Dynamic Media Classic:
 
    ![Accesso a Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -149,7 +149,7 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
    Per il **[!UICONTROL Server]** da utilizzare, vedi la seguente mappatura per l&#39;ambiente di produzione:
 
    | URL browser | Nome server app desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produzione NA (Nord America) |
    | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
@@ -185,7 +185,7 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
 
    I dettagli sui parametri della riga di comando sono disponibili in [Setup.exe e Update.exe Parametri della riga di comando.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
-1. Quando apri l’applicazione, viene visualizzata la nuova pagina di accesso Adobe Dynamic Media Classic:
+1. Quando apri l’applicazione, viene visualizzata la nuova pagina di accesso di Adobe Dynamic Media Classic:
 
    ![Accesso a Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -194,7 +194,7 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
    Per il **[!UICONTROL Server]** da utilizzare, vedi la seguente mappatura per l&#39;ambiente di produzione:
 
    | URL browser | Nome server app desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produzione NA (Nord America) |
    | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
