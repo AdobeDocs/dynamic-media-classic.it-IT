@@ -1,25 +1,25 @@
 ---
-title: 'Uso della vista Dettaglio '
-description: Scopri come lavorare nella vista Dettaglio.
+title: Lavorare nella vista Dettaglio
+description: Scopri come lavorare in Vista dettagli in Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 65%
+ht-degree: 24%
 
 ---
 
-# Uso della vista Dettaglio {#working-in-detail-view}
+# Lavorare nella vista Dettaglio{#working-in-detail-view}
 
-Potete usare e ottenere informazioni su una risorsa aprendola in visualizzazione Dettagli. In questa visualizzazione potete visualizzare le dimensioni, gli attributi, le derivate e i metadati di una risorsa. Potete inoltre visualizzare se e quando la risorsa è stata pubblicata o ottenere l’URL delle risorse pubblicate. A seconda del tipo di risorsa, potete visualizzarne l’anteprima in dimensioni diverse, ingrandirla, nonché eseguire operazioni di nitidezza, ritaglio e altre operazioni di formattazione.
+Per lavorare con e conoscere una risorsa, aprila in Vista dettagli. Nella Vista dettagli sono disponibili le dimensioni della risorsa, gli attributi, i derivati e i metadati. Potete inoltre visualizzare se e quando la risorsa è stata pubblicata o ottenere l’URL delle risorse pubblicate. A seconda del tipo di risorsa, potete visualizzarne l’anteprima in dimensioni diverse, ingrandirla, nonché eseguire operazioni di nitidezza, ritaglio e altre operazioni di formattazione.
 
 <!-- 
 
@@ -32,52 +32,52 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
  -->
 
 ![Vista ](/help/assets/image_0.img.png)
-*DettagliVista dettagli con il pannello Libreria risorse nascosto dalla vista a sinistra.*
+*dettagliVista dettagli con il pannello Libreria risorse nascosto dalla vista a sinistra.*
 
 >[!NOTE]
 >
->Per aprire la cartella in cui è memorizzata la risorsa, potete fare clic sul percorso della cartella nella parte superiore del pannello Informazioni.
+>Per aprire la cartella in cui è memorizzata la risorsa, puoi selezionare il percorso della cartella nella parte superiore del pannello Informazioni.
 
-## Apri una risorsa nella vista Dettaglio {#open-an-asset-in-detail-view}
+## Apri una risorsa in Vista dettagli {#open-an-asset-in-detail-view}
 
-Per esaminare da vicino una risorsa, visualizzarne l’anteprima o usarla, potete aprirla in visualizzazione Dettagli.
+Per esaminare, visualizzare in anteprima o lavorare con precisione su una risorsa, puoi visualizzarla in Vista dettagli.
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Selezionate la risorsa. Fai clic sull&#39;icona **[!UICONTROL Vista dettagli]** nell&#39;angolo in alto a destra di Dynamic Media Classic .
+   * Selezionate la risorsa. Vicino all&#39;angolo superiore destro di Dynamic Media Classic, seleziona l&#39;icona **[!UICONTROL Vista dettagli]** .
    * Fate doppio clic sulla risorsa.
-   * Seleziona la risorsa, quindi fai clic su **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
+   * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
 >[!NOTE]
 >
->Per sfogliare le risorse presenti in una stessa cartella in visualizzazione Dettagli, fate clic sul pulsante Risorsa precedente o Risorsa successiva, Questi pulsanti si trovano nell’angolo superiore destro della vista Dettaglio.
+>Per passare da una risorsa all’altra nella stessa cartella in Vista dettagli, seleziona **[!UICONTROL Risorsa precedente]** o **[!UICONTROL Risorsa successiva]**. Questi pulsanti si trovano nell&#39;angolo superiore destro della vista Dettaglio.
 
-## Ottenimento di informazioni nella vista Dettaglio {#getting-information-in-detail-view}
+## Ottenere informazioni nella visualizzazione dettagli {#getting-information-in-detail-view}
 
-La visualizzazione dettagli fornisce diverse informazioni su una risorsa o un file: Mostra le informazioni seguenti su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Dynamic Media Classic e la cronologia di pubblicazione. In visualizzazione Dettagli potete inoltre visualizzare e modificare i metadati e aggiungere parole chiave a una risorsa.
+La Vista dettagli fornisce informazioni su una risorsa o un file. Mostra le informazioni seguenti su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa in Vista dettagli.
 
-Potete inoltre ottenere un URL della risorsa; tuttavia, tenete presente che l’URL sarà attivo solo dopo la pubblicazione della risorsa. Per le immagini, la visualizzazione Dettagli fornisce anche un elenco di risorse e metadati generati o derivati, quali ad esempio destinazioni di zoom e set di immagini.
+Puoi ottenere un URL della risorsa in Vista dettagli; tuttavia, l’URL non è attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettagli fornisce anche un elenco di risorse e metadati generati e derivati, come destinazioni di zoom e set di immagini.
 
-## Uso delle risorse nella vista Dettaglio {#working-with-assets-in-detail-view}
+## Utilizzare le risorse nella vista Dettaglio {#working-with-assets-in-detail-view}
 
-La visualizzazione Dettagli offre gli strumenti per agire sulla risorsa aperta. Gli strumenti disponibili variano in base al tipo di risorsa usata, tuttavia in visualizzazione Dettagli vengono sempre fornite le seguenti funzioni:
+La Vista dettagli offre gli strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma in Vista dettagli sono sempre disponibili le seguenti funzioni:
 
-* **elementi per la pubblicazione**  - Fai clic sull’icona  **** Pubblica a sinistra del nome, oppure fai clic su  **[!UICONTROL File >]** File autore  **[!UICONTROL > Annulla pubblicazione]**.
+* **elementi per la pubblicazione**  - Seleziona l’icona  **** Pubblica a sinistra del nome, oppure vai a  **[!UICONTROL File]**  >  **** File di pubblicazione  ****  >  **[!UICONTROL Annulla pubblicazione]**.
 
-* **Ridenominazione della risorsa** : seleziona il nome e immetti un nuovo nome.
+* **Rinomina la risorsa** : seleziona il nome e immetti un nuovo nome.
 
-* **Modifica e aggiunta di metadati** : seleziona il pannello Metadati e modifica nel modo desiderato. Consultate [Visualizzazione, aggiunta ed esportazione di metadati](/help/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiungi metadati** : seleziona il pannello Metadati e modifica nel modo desiderato. Consulta [Visualizzare, aggiungere ed esportare metadati](/help/viewing-adding-exporting-metadata.md).
 
-* **Modifica e aggiunta di parole chiave** : seleziona Parole chiave e aggiungili o rimuovili in base alle tue esigenze. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiungi parole chiave** : seleziona Parole chiave e aggiungili o rimuovili come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
 
-* **Eliminazione della risorsa**  - Fai clic su  **[!UICONTROL File]**  >  **[!UICONTROL Elimina]**.
+* **Elimina la risorsa**  - Vai a  **[!UICONTROL File]**  >  **[!UICONTROL Elimina]**.
 
-Per i file discreti quali immagini, set di immagini e font, in visualizzazione Dettagli potete visualizzare la cronologia di pubblicazione e modifica, nonché controllare i dettagli del processo.
+Per i file discreti, ad esempio immagini, set di immagini e font, è possibile visualizzare la cronologia di pubblicazione e modifica e controllare i dettagli del processo in Vista dettagli.
 
-Questa tabella mostra quali altre opzioni sono disponibili con diversi tipi di risorse nella vista Dettaglio.
+Questa tabella mostra quali altre opzioni sono disponibili con diversi tipi di risorse in Vista dettagli.
 
 | Tipo di risorsa | Modifica/regolazione | Anteprima |
-|--- |--- |--- |
+| --- | --- | --- |
 | Immagini | Aggiunta di mappe immagine<br>Aggiungi <br><br><br>destinazioni di zoomRitagliaNitidezzaCrea visualizzazioni regolate | Sì; Zoom e Predefiniti immagine |
 | Immagini di rifinitura finestre e scaffali | No | Miniatura |
 | eCatalog | Modifica | Sì<br>È disponibile anche il pannello Info |
@@ -99,5 +99,5 @@ Questa tabella mostra quali altre opzioni sono disponibili con diversi tipi di r
 
 >[!MORELIKETHIS]
 >
->* [Visualizzazione, aggiunta ed esportazione di metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Visualizzare, aggiungere ed esportare metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 
