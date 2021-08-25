@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Gestione risorse
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 39%
 
 ---
 
@@ -34,8 +34,8 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 1. Per ritagliare un&#39;immagine, selezionarne il pulsante rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglia]**, oppure visualizzarlo nel pannello Sfoglia in visualizzazione Dettagli e selezionare il pulsante **[!UICONTROL Ritaglia]**.
 1. Nella pagina Editor ritaglio, effettuare una delle seguenti operazioni:
 
-   * Per tagliare i pixel dei colori, vai a **[!UICONTROL Trim]** > **[!UICONTROL Colore]**. Viene visualizzata la finestra di dialogo Ritaglio automatico in base al colore. Selezionate il menu **[!UICONTROL Angolo]** e scegliete un angolo con il colore di sfondo da ritagliare. Quindi immetti un&#39;impostazione **[!UICONTROL Tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Selezionare **[!UICONTROL Ritaglia]**.
-   * Per tagliare i pixel trasparenti, vai su **[!UICONTROL Trim]** > **[!UICONTROL Trasparente]**. Viene visualizzata la finestra di dialogo Ritaglio automatico in base alla trasparenza. Immettete un valore Tolleranza da 0 a 1. L’impostazione 0 ritaglia i pixel solo se sono trasparenti. Con valori più vicini a 1 viene invece tollerata una minore trasparenza. Selezionare **[!UICONTROL Ritaglia]**.
+   * Per tagliare i pixel dei colori, vai a **[!UICONTROL Trim]** > **[!UICONTROL Colore]**. Nella finestra di dialogo **[!UICONTROL Ritaglio automatico per colore]**, selezionate il menu **[!UICONTROL Angolo]** e scegliete un angolo con il colore di sfondo da ritagliare. Quindi immetti un&#39;impostazione **[!UICONTROL Tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Selezionare **[!UICONTROL Ritaglia]**.
+   * Per tagliare i pixel trasparenti, vai su **[!UICONTROL Trim]** > **[!UICONTROL Trasparente]**. Nella finestra di dialogo **[!UICONTROL Ritaglio automatico per trasparenza]**, immettere un&#39;impostazione di tolleranza da 0 a 1. L’impostazione 0 ritaglia i pixel solo se sono trasparenti. Con valori più vicini a 1 viene invece tollerata una minore trasparenza. Selezionare **[!UICONTROL Ritaglia]**.
 
 1. Selezionare **[!UICONTROL Salva]**.
 
