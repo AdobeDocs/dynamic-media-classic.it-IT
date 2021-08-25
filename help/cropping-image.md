@@ -1,19 +1,19 @@
 ---
-title: Ritaglio di un’immagine
-description: Scopri come ritagliare un’immagine.
+title: Ritagliare un’immagine
+description: Scopri come ritagliare un’immagine in Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,13 @@ Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda o
 
 >[!NOTE]
 >
->Dopo aver ritagliato l&#39;immagine, puoi selezionare **[!UICONTROL Salva con nome]** e salvare una versione ritagliata dell&#39;immagine con un nome diverso. Nella finestra Salva con nome, scegliete Salva come nuovo elemento principale per salvare una seconda copia dell’immagine. Seleziona **[!UICONTROL Salva come visualizzazione di aggiunta del principale]** in modo da salvare l&#39;originale e la relativa versione ritagliata con un nome diverso. Selezionare **[!UICONTROL Sostituisci originale]** per eliminare il file originale dal quale è stata ritagliata l&#39;immagine. Quindi immetti un nome per l&#39;immagine e seleziona **[!UICONTROL Invia]**.
+>Dopo aver ritagliato l&#39;immagine, puoi selezionare **[!UICONTROL Salva con nome]** e salvare una versione ritagliata dell&#39;immagine con un nome diverso. Nella finestra Salva con nome, selezionare **[!UICONTROL Salva come nuovo principale]** per salvare una seconda copia dell&#39;immagine. Seleziona **[!UICONTROL Salva come visualizzazione di aggiunta del principale]** in modo da salvare l&#39;originale e la relativa versione ritagliata con un nome diverso. Selezionare **[!UICONTROL Sostituisci originale]** per eliminare il file originale dal quale è stata ritagliata l&#39;immagine. Quindi inserisci un nome per l&#39;immagine e seleziona **[!UICONTROL Invia]**.
 
 ## Ritagliare per rimuovere lo spazio bianco intorno a un’immagine {#crop-to-remove-white-space-around-an-image}
 
 Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine ritagliandoli.
 
-1. Per ritagliare un&#39;immagine, selezionarne il pulsante rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglia]**, oppure visualizzarlo nel pannello Sfoglia in visualizzazione Dettagli e selezionare il pulsante **[!UICONTROL Ritaglia]**.
+1. Per ritagliare un&#39;immagine, selezionane il pulsante rollover **[!UICONTROL Modifica]** e seleziona **[!UICONTROL Ritaglia]** oppure visualizzalo nel pannello Sfoglia in visualizzazione Dettagli e seleziona il pulsante **[!UICONTROL Ritaglia]** .
 1. Nella pagina Editor ritaglio, effettuare una delle seguenti operazioni:
 
    * Per tagliare i pixel dei colori, vai a **[!UICONTROL Trim]** > **[!UICONTROL Colore]**. Nella finestra di dialogo **[!UICONTROL Ritaglio automatico per colore]**, selezionate il menu **[!UICONTROL Angolo]** e scegliete un angolo con il colore di sfondo da ritagliare. Quindi immetti un&#39;impostazione **[!UICONTROL Tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Selezionare **[!UICONTROL Ritaglia]**.
@@ -63,6 +63,6 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 >[!MORELIKETHIS]
 >
 >* [Opzioni per la modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload)
-* [Ritaglio di spazio bianco da un file PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [Ritaglio dai lati delle pagine PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Ritaglio di spazio bianco da un file PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Ritaglio dai lati delle pagine PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
