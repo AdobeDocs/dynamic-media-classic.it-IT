@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
-feature: Dynamic Media Classic,Visualizzatori,eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 51%
+source-wordcount: '1424'
+ht-degree: 50%
 
 ---
 
@@ -87,7 +87,7 @@ Consultate [Incorporamento di contenuti multimediali in un eCatalog](creating-ec
 
 Potete impostare e gestire il testo della mappa immagine mediante le impostazioni del pannello Informazioni nella schermata eCatalog. 
 
-Consultate [Gestione del contenuto del pannello Informazioni](info-panel-content.md#managing-info-panel-content).
+Consulta [Gestire il contenuto del pannello informazioni negli eCatalog](/help/info-panel-content-ecatalog.md).
 
 ## 4. Configurazione dei predefiniti per visualizzatori di eCatalog
 

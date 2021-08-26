@@ -1,5 +1,5 @@
 ---
-title: Esportazione di risorse da Dynamic Media Classic
+title: Esportare risorse da Dynamic Media Classic
 description: Scopri come esportare risorse da Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
@@ -7,17 +7,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 63%
+source-wordcount: '425'
+ht-degree: 52%
 
 ---
 
-# Esportazione di risorse da Dynamic Media Classic{#exporting-assets-from-dmc}
+# Esportare risorse da Dynamic Media Classic{#exporting-assets-from-dmc}
 
 È possibile salvare le risorse modificate in Dynamic Media Classic in un&#39;unità di rete locale. Le risorse esportate vengono raccolte in un file ZIP per il download o l’invio tramite e-mail.
 
@@ -27,28 +27,28 @@ Nella schermata Processi di Dynamic Media Classic viene conservata una registraz
 
 **Per esportare le risorse da Dynamic Media Classic:**
 
-1. Selezionate le risorse da esportare e scegliete **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
-1. Nella finestra Esporta risorse selezionate, fate clic su **Opzioni immagini** e specificate una delle seguenti opzioni (gli amministratori stabiliscono quali opzioni rendere disponibili agli utenti):
+1. Seleziona le risorse da esportare, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
+1. Nella finestra Esporta risorse selezionate, fate clic su **[!UICONTROL Opzioni immagini]** e specificate una delle seguenti opzioni (gli amministratori stabiliscono quali opzioni rendere disponibili agli utenti):
 
-   * **Predefiniti** : facoltativamente, scegli un predefinito immagine per formattare la risorsa quando la esporti. Se scegliete un predefinito per immagini, le altre opzioni di formattazione non sono disponibili, poiché vengono adottati i formati specificati dal predefinito.
+   * **[!UICONTROL Predefiniti]** : facoltativamente, scegli un predefinito immagine per formattare la risorsa quando la esporti. Se scegliete un predefinito per immagini, le altre opzioni di formattazione non sono disponibili, poiché vengono adottati i formati specificati dal predefinito.
 
-   * **Conversione** : consente di convertire il file della risorsa o l’immagine originale.
+   * **[!UICONTROL Conversione]** : consente di convertire il file della risorsa o l’immagine originale.
 
-   * **Dimensioni**  - È possibile selezionare una dimensione standard. In alternativa, potete fare clic su **[!UICONTROL Altro]** nell’elenco a discesa Dimensione, scegliere l’unità di misura desiderata e specificare la larghezza e l’altezza.****
+   * **[!UICONTROL Dimensioni]**  - È possibile selezionare una dimensione standard. In alternativa, è possibile selezionare **[!UICONTROL Altro]** dall&#39;elenco a discesa **[!UICONTROL Dimensioni]**, scegliere l&#39;unità di misura desiderata e specificare la larghezza e l&#39;altezza.
 
-      Consultate anche [Specifica delle opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+      Consulta anche [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Formato**  - Scegli un formato immagine.
+   * **[!UICONTROL Formato]**  - Scegli un formato immagine.
 
-   * **Colore** : scegli RGB, CMYK o Grigio.
+   * **[!UICONTROL Colore]** : scegli RGB, CMYK o Grigio.
 
-   * **Risoluzione** : scegli 72 ppi, 150 ppi o 300 ppi.
+   * **[!UICONTROL Risoluzione]** : scegli 72 ppi, 150 ppi o 300 ppi.
 
-   * **Nome processo** : è possibile assegnare un nome di processo all&#39;esportazione.
+   * **[!UICONTROL Nome processo]** : è possibile assegnare un nome di processo all&#39;esportazione.
 
-   * **Invia e-mail a** : se necessario, immetti un indirizzo e-mail per inviare le risorse tramite e-mail. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
+   * **[!UICONTROL Invia e-mail a]** : se lo desideri, immetti facoltativamente un indirizzo e-mail per inviare le risorse tramite e-mail. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
 
-1. Fate clic su **[!UICONTROL Esporta]**.
+1. Selezionare **[!UICONTROL Esporta]**.
 
 Sono supportate tre azioni di esportazione di base:
 

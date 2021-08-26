@@ -1,6 +1,6 @@
 ---
-title: Abilitazione di Adobe Analytics Video Report.
-description: Scopri come abilitare i rapporti video di Adobe Analytics.
+title: Abilitare i rapporti video su Adobe Analytics
+description: Scopri come abilitare i rapporti video di Adobe Analytics in Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 17%
+source-wordcount: '245'
+ht-degree: 13%
 
 ---
 
-# Abilitazione di Adobe Analytics Video Report.{#enabling-adobe-analytics-video-reports}
+# Abilitare i rapporti video su Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
 Utilizzando il reporting video basato su heartbeat di Adobe Analytics, non è più necessario abilitare i quattro eventi del visualizzatore video (Play, Pause, Stop, Milestone) durante la configurazione di Adobe Analytics in Dynamic Media Classic. Video Heartbeat funziona con i visualizzatori video HTML5 e file multimediali diversi di Dynamic Media Classic integrati. Il lettore video genera dati di tracciamento per la visualizzazione in Adobe Analytics Video Reports.
 
@@ -27,7 +27,7 @@ Utilizzando il reporting video basato su heartbeat di Adobe Analytics, non è pi
 
 * Sono supportati i segmenti preconfigurati di incrementi di un minuto. Non è invece supportata la generazione di rapporti per segmenti personalizzati, ad esempio pietre miliari definite dall’utente basate su incrementi temporali, percentuali o scostamento.
 
-   Per ulteriori informazioni sui requisiti e sulla configurazione dei contenuti multimediali in streaming, consulta [Misurazione dei file multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+   Per ulteriori informazioni sui requisiti e sulla configurazione dei contenuti multimediali in streaming, consulta [Misurare i file multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 * Per informazioni sulle variabili personalizzate e della soluzione, consulta [Abilitazione dei report multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 

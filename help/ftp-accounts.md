@@ -1,46 +1,46 @@
 ---
-title: Gestione degli account FTP
-description: Scopri come gestire gli account FTP.
+title: Gestire gli account FTP
+description: Scopri come gestire gli account FTP in Dynamic Media Classic.
 uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
-feature: Dynamic Media Classic,Collaborazione,Gestione risorse
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 82%
+ht-degree: 63%
 
 ---
 
-# Gestione degli account FTP{#managing-ftp-accounts}
+# Gestire gli account FTP{#managing-ftp-accounts}
 
 solo gli amministratori di Media Portal possono amministrare e gestire gli account FTP. Inoltre, solo gli utenti con il ruolo di *Collaboratore/Utente di Media Portal* o *Collaboratore di Media Portal* possono caricare i file.
 
 È possibile attivare o disattivare gli utenti esistenti di Media Portal nella pagina Amministrazione utente in Impostazione amministrazione.
 
-Consultate [Attivazione o disattivazione degli utenti](administration-setup.md#activating_or_deactivating_users).
+Consulta [Attivare o disattivare gli utenti](administration-setup.md#activating_or_deactivating_users).
 
-1. Fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Account FTP]**.
+1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Account FTP]**.
 1. Nella pagina Aggiungi account FTP, selezionate un utente dall’elenco a discesa Nome utente account FTP.
 
    Se un utente non è presente nell’elenco, è necessario aggiungerlo come Amministratore del Media Portal, Collaboratore-Utente del Media Portal o Collaboratore del Media Portal tramite Configurazione amministrazione. Dopo aver aggiunto l’utente con il ruolo corretto, il suo nome utente diventa disponibile nell’elenco a discesa.
 
-   Consultate [Aggiunta di utente di Media Portal](adding-media-portal-users.md#adding_a_media_portal_user).
+   Consulta [Aggiungi un utente del Media Portal](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. Nei campi Password e Conferma, digitate la password per l’account FTP.
-1. Fate clic su **[!UICONTROL Salva]** per aggiungere l’account alla tabella di account esistenti.
+1. Selezionare **[!UICONTROL Salva]** per aggiungere l&#39;account alla tabella Account esistenti.
 
    Per caricare risorse multimediali, è necessario disporre del nome utente dell’account FTP elencato nella tabella Account esistenti e della password assegnata a tale account.
 
-   Consultate [Caricamento dei file](uploading-files.md#uploading_files).
+   Consulta [Caricare file](uploading-files.md#uploading_files).
 
-## Eliminazione di un account FTP esistente {#deleting-an-existing-ftp-account}
+## Eliminare un account FTP esistente {#deleting-an-existing-ftp-account}
 
-1. Fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Account FTP]**.
+1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Account FTP]**.
 1. Nella pagina Aggiungi account FTP, selezionate l’account FTP da rimuovere nella tabella Account esistenti.
-1. Fate clic su **[!UICONTROL Elimina]**.
+1. Selezionare **[!UICONTROL Elimina]**.
