@@ -1,6 +1,6 @@
 ---
-title: Preparazione delle risorse di set di campioni per il caricamento
-description: Scopri come preparare le risorse dei set di campioni da caricare.
+title: Preparare le risorse dei set di campioni per il caricamento
+description: Scopri come preparare le risorse dei set di campioni da caricare in Adobe Dynamic Media Classic.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 84%
+source-wordcount: '178'
+ht-degree: 65%
 
 ---
 
-# Preparazione delle risorse di set di campioni per il caricamento{#preparing-swatch-set-assets-for-upload}
+# Preparare le risorse dei set di campioni per il caricamento{#preparing-swatch-set-assets-for-upload}
 
 Prima di caricare le immagini necessarie, accertatevi che queste siano delle dimensioni e del formato corretti. Assemblate anche i file di campioni necessari.
 
@@ -28,9 +28,9 @@ Per creare un set di campioni, è necessario disporre di vignettature o diversi 
 
 Poiché gli utenti possono eseguire lo zoom delle immagini in set di campioni, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
 
-Per istruzioni dettagliate sul caricamento delle risorse, consultate [Caricamento dei file](uploading-files.md#uploading_files).
+Per istruzioni dettagliate sul caricamento delle risorse, consulta [Caricare file](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Utilizzo di file di vignettatura, rifinitura finestre e scaffali](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Operazioni con vignetta, rivestimento di finestre e file CAB](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

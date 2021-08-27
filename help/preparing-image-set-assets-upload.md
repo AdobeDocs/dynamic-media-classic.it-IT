@@ -1,6 +1,6 @@
 ---
-title: Preparazione delle risorse di set di immagini per il caricamento
-description: Scopri come preparare le risorse dei set di immagini per il caricamento.
+title: Preparare le risorse del set di immagini per il caricamento
+description: Scopri come preparare le risorse dei set di immagini da caricare in Adobe Dynamic Media Classic.
 uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 66%
+source-wordcount: '160'
+ht-degree: 44%
 
 ---
 
-# Preparazione delle risorse di set di immagini per il caricamento{#preparing-image-set-assets-for-upload}
+# Preparare le risorse del set di immagini per il caricamento{#preparing-image-set-assets-for-upload}
 
 Prima di caricare le immagini necessarie per i set di immagini in Adobe Dynamic Media Classic, accertati che le immagini siano delle dimensioni e del formato corretti.
 
@@ -25,10 +25,10 @@ Per creare un set di immagini a visualizzazione multipla, sono necessarie immagi
 
 Poiché gli utenti possono eseguire lo zoom delle immagini in set di immagini, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
 
-Per istruzioni dettagliate sul caricamento delle risorse, consultate [Caricamento dei file](uploading-files.md#uploading_files).
+Per istruzioni dettagliate sul caricamento delle risorse, consulta [Caricare file](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Caricamento dei file](uploading-files.md#uploading_your_files)
->* [Utilizzo di file di vignettatura, rifinitura finestre e scaffali](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Caricare i file](uploading-files.md#uploading_your_files)
+>* [Operazioni con vignetta, rivestimento di finestre e file CAB](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 
