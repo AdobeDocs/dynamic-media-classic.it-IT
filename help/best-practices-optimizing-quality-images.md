@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 56%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 56%
 
 L’ottimizzazione della qualità delle immagini può richiedere del tempo, poiché molti fattori incidono sui risultati. Inoltre il risultato ottenuto è in parte soggettivo in quanto persone diverse percepiscono in modo differente la qualità dell’immagine. È indispensabile procedere mediante sperimentazione strutturata.
 
-Dynamic Media Classic include più di 100 comandi di gestione delle immagini per ottimizzare e ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
+Adobe Dynamic Media Classic include più di 100 comandi di gestione delle immagini per ottimizzare e ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
 
 Vedere anche [Smart imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
@@ -45,13 +45,13 @@ Come best practice per il dimensionamento delle immagini, utilizza `&wid=<value>
 
 ## Procedure ottimali per la nitidezza delle immagini {#best-practices-for-image-sharpening}
 
-La nitidezza delle immagini è l’aspetto più complesso e suscettibile ad errori per la gestione delle immagini di un sito Web. Dedica del tempo a scoprire come funziona la nitidezza e la Mascheratura definizione dettagli in Dynamic Media Classic facendo riferimento alle seguenti risorse utili:
+La nitidezza delle immagini è l’aspetto più complesso e suscettibile ad errori per la gestione delle immagini di un sito Web. Prenditi del tempo per saperne di più su come funziona la nitidezza e la Maschera definizione dettagli in Adobe Dynamic Media Classic facendo riferimento alle seguenti risorse utili:
 
 White paper sulle best practice [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Con Dynamic Media Classic è possibile rendere più nitide le immagini in fase di acquisizione, consegna o entrambe. Di solito, tuttavia, le immagini vengono rese più nitide utilizzando un solo metodo o l’altro, ma non entrambi. In genere si ottengono i risultati migliori applicando la nitidezza in fase di distribuzione, agendo sull’URL.
+Ad Adobe, Dynamic Media Classic consente di rendere più nitide le immagini in fase di acquisizione, consegna o entrambe. Di solito, tuttavia, le immagini vengono rese più nitide utilizzando un solo metodo o l’altro, ma non entrambi. In genere si ottengono i risultati migliori applicando la nitidezza in fase di distribuzione, agendo sull’URL.
 
 Esistono due metodi per rendere le immagini più nitide:
 
@@ -71,7 +71,7 @@ Esistono due metodi per rendere le immagini più nitide:
 
          Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, vedere [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
-      * Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
+      * Adobe Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
 
 Come procedura ottimale, iniziate con il parametro di maschera di contrasto “radius”. Potete iniziare con le seguenti impostazioni del raggio:
 
@@ -120,6 +120,6 @@ Se i risultati non sono ancora soddisfacenti, aumentate il raggio per incrementi
 
 Durante l’esperimento, i seguenti suggerimenti generali sono utili per ottimizzare il flusso di lavoro:
 
-* Prova e verifica diversi parametri in tempo reale, direttamente su un URL Dynamic Media Classic o utilizzando la funzionalità di regolazione delle immagini di Dynamic Media Classic. Quest&#39;ultima fornisce anteprime in tempo reale per le operazioni di regolazione.
+* Prova e verifica parametri diversi in tempo reale, direttamente su un URL Dynamic Media Classic di Adobe o utilizzando la funzionalità di regolazione delle immagini di Dynamic Media Classic di Adobe. Quest&#39;ultima fornisce anteprime in tempo reale per le operazioni di regolazione.
 * Come best practice, ricorda che puoi raggruppare i comandi di Dynamic Media Image Serving in un predefinito per immagini. Un predefinito per immagini è fondamentalmente macro di comando URL con nomi predefiniti personalizzati come `$thumb_low$` e `&product_high$`. Il nome predefinito personalizzato in un percorso URL chiama questi predefiniti. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
-* Dynamic Media Classic offre anche modi più avanzati per ottimizzare la qualità delle immagini, ad esempio applicando la nitidezza delle immagini durante l’acquisizione. Per i casi d’uso avanzati in cui l’ulteriore ottimizzazione e ottimizzazione dei risultati di rendering è un’opzione, Adobe Professional Services può aiutarti con informazioni personalizzate e best practice.
+* Adobe Dynamic Media Classic offre anche modi più avanzati per ottimizzare la qualità delle immagini, ad esempio applicando la nitidezza delle immagini durante l’acquisizione. Per i casi d’uso avanzati in cui l’ulteriore ottimizzazione e ottimizzazione dei risultati di rendering è un’opzione, Adobe Professional Services può aiutarti con informazioni personalizzate e best practice.

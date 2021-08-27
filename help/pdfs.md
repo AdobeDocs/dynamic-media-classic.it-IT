@@ -1,25 +1,25 @@
 ---
 title: Utilizzo dei file PDF
-description: Scopri come utilizzare i PDF in Dynamic Media Classic.
+description: Scopri come utilizzare i PDF in Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 45%
 
 ---
 
 # Utilizzo dei file PDF{#working-with-pdfs}
 
-I file PDF (Portable Document Format) vengono utilizzati più spesso in Dynamic Media Classic per creare gli eCatalog. Quando carichi un file PDF, per impostazione predefinita Dynamic Media Classic rasterizza, o copia, le pagine in modo che possano essere utilizzate per generare contenuti multimediali.
+I file PDF (Portable Document Format) vengono utilizzati più spesso in Adobe Dynamic Media Classic per creare gli eCatalog. Quando carichi un file PDF, ad Adobe Dynamic Media Classic rasterizza, o estrae, le pagine per impostazione predefinita, in modo che le pagine possano essere utilizzate per generare contenuti multimediali.
 
 ## Opzioni di caricamento PDF {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ Dal menu Spazio colore scegliete uno spazio colore per il file PDF. La maggior p
 
 * **Mantieni spazio colore originale** : mantiene lo spazio colore originale.
 
-* **Personalizzato da > A** : apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
+* **Personalizzato da > A** : apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. È possibile scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Adobe Dynamic Media Classic.
 
 Consultate anche [Profili ICC](/help/icc-profiles.md#icc_profiles).
 

@@ -1,18 +1,18 @@
 ---
 title: Aggiungere marcatori capitolo al video
-description: Scopri come aggiungere marcatori capitolo a un video in Dynamic Media Classic.
+description: Scopri come aggiungere marcatori capitolo a un video in Adobe Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Visualizzatori,Video
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 39%
 
 ---
@@ -57,7 +57,7 @@ Consultare [WebVTT: Il Testo Video Web Tiene Traccia Del Formato](https://w3c.gi
 
 **Per aggiungere marcatori capitolo a video:**
 
-1. Utilizzando un semplice editor di testo esterno a Dynamic Media Classic, crea il file dei capitoli video.
+1. Utilizzando un semplice editor di testo all’esterno di Adobe Dynamic Media Classic, crea il file dei capitoli video.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Consultare [WebVTT: Il Testo Video Web Tiene Traccia Del Formato](https://w3c.gi
 
    In genere, si desidera assegnare al file VTT capitolo lo stesso nome del file video e aggiungerlo con `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
 
-1. In Dynamic Media Classic, carica il file del capitolo WebVTT.
+1. In Adobe Dynamic Media Classic, carica il file del capitolo WebVTT.
 
    Consulta [Caricare file](uploading-files.md#uploading_files).
 

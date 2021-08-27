@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
-feature: Dynamic Media Classic,Visualizzatori,Zoom
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '606'
 ht-degree: 52%
 
 ---
 
 # Impostazione di predefiniti per visualizzatori zoom{#setting-up-zoom-viewer-presets}
 
-I predefiniti per visualizzatori zoom determinano lo stile, il comportamento e l’aspetto dei visualizzatori zoom. Dynamic Media Classic offre diverse opzioni per personalizzare e skin dei visualizzatori. Dynamic Media Classic viene fornito con predefiniti per visualizzatori zoom di base (veloci), a comparsa e personalizzati. Gli amministratori possono creare predefiniti visualizzatore zoom della società o modificare un predefinito predefinito e salvarlo con un nuovo nome.
+I predefiniti per visualizzatori zoom determinano lo stile, il comportamento e l’aspetto dei visualizzatori zoom. Adobe Dynamic Media Classic offre diverse opzioni per personalizzare e adattare i visualizzatori. Adobe Dynamic Media Classic viene fornito con predefiniti per visualizzatori zoom di base (veloci), a comparsa e personalizzati. Gli amministratori possono creare predefiniti visualizzatore zoom della società o modificare un predefinito predefinito e salvarlo con un nuovo nome.
 
 Tutti i visualizzatori zoom includono pulsanti per applicare lo zoom in avanti, indietro, la panoramica e per ripristinare le stato originale dell’immagine dopo lo zoom. L’aspetto di questi pulsanti e la modalità di visualizzazione della finestra dipende dalla scelta dei predefiniti per visualizzatori zoom. Potete configurare un predefinito per visualizzatori zoom con diverse impostazioni di colori, bordi, font e immagine. Quando configurate un visualizzatore zoom guidato, potete anche scegliere il percorso di salvataggio delle destinazioni di zoom. Le destinazioni di zoom sono miniature che gli utenti possono selezionare per applicare lo zoom alle aree specificate.
 
 ## I predefiniti per visualizzatori zoom {#about-zoom-viewer-presets}
 
-In Dynamic Media Classic sono disponibili i seguenti predefiniti per visualizzatori zoom:
+Ad Adobe, Dynamic Media Classic offre i seguenti predefiniti per visualizzatori zoom:
 
 * **Visualizzatore zoom: Base**  - Fornisce uno zoom di base sull&#39;immagine originale.
 
@@ -35,7 +35,7 @@ Quando calcolate l’utilizzo di larghezza di banda totale per questo visualizza
 
 Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel, con un fattore di zoom pari a 3 l’immagine a comparsa risultante sarà di 1050 x 1050 pixel. Se le dimensioni dell’immagine principale sono 300 x 300 pixel, con un fattore di zoom pari a 4 l’immagine a comparsa risultante sarà di 1200 x 1200 pixel. In base alla qualità JPEG impostata (impostazioni consigliate: 80-90), potete ridurre sensibilmente le dimensioni del file. I fattori di zoom consigliati sono i valori compresi tra 2,5 e 4, a seconda delle dimensioni dell’immagine principale.
 
-Dynamic Media Classic consiglia i seguenti parametri per i predefiniti visualizzatore zoom a comparsa:
+Ad Adobe, Dynamic Media Classic consiglia i seguenti parametri per i predefiniti visualizzatore zoom a comparsa:
 
 * **Dimensione**  dell&#39;immagine ingrandita: circa 1500 x 1500 pixel, non superiore a 2000 x 2000 pixel.
 

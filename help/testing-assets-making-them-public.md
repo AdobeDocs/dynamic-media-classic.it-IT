@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1036'
 ht-degree: 37%
 
 ---
 
 # Verifica delle risorse prima di renderle pubbliche {#testing-assets-before-making-them-public}
 
-Il test protetto consente di definire un ambiente di test sicuro e di creare una solida soluzione B2B, basata su un set configurabile di indirizzi IP e intervalli. Questa funzionalità consente di abbinare le implementazioni di Dynamic Media Classic all’architettura della gestione dei contenuti e del sistema aziendale.
+Il test protetto consente di definire un ambiente di test sicuro e di creare una solida soluzione B2B, basata su un set configurabile di indirizzi IP e intervalli. Questa funzionalità ti consente di abbinare le implementazioni Adobe Dynamic Media Classic all’architettura della gestione dei contenuti e del sistema aziendale.
 
 La verifica protetta consente di visualizzare in anteprima una versione per uso interno del sito Web, con contenuti non ancora pubblicati.
 
@@ -31,7 +31,7 @@ Se lo desideri, crea un ambiente di staging anziché rendere le risorse disponib
 
 >[!NOTE]
 >
->La verifica sicura non influisce sull’accesso a Dynamic Media Classic. La sicurezza di Dynamic Media Classic rimane coerente e richiede le credenziali usuali per l&#39;accesso a Dynamic Media Classic e ai servizi Web correlati.
+>La verifica sicura non influisce sull’accesso ad Adobe Dynamic Media Classic. Ad Adobe, la sicurezza di Dynamic Media Classic rimane coerente e richiede le solite credenziali per l’accesso ad Adobe Dynamic Media Classic e ai servizi Web correlati.
 
 ## Funzionamento della verifica protetta {#how-secure-testing-works}
 
@@ -39,7 +39,7 @@ Per la maggior parte delle società le connessioni Internet avvengono mediante u
 
 Dalla rete aziendale, è possibile individuare l&#39;indirizzo IP pubblico utilizzando siti web come https://whatismyip.com o richiedere queste informazioni all&#39;organizzazione IT aziendale.
 
-Con il test protetto, Dynamic Media Classic stabilisce un server di immagini dedicato per gli ambienti di staging o le applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta non proviene dall’elenco di indirizzi IP approvato, viene restituita una risposta di operazione non riuscita. L’amministratore della società Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test Secure della propria azienda.
+Con il test protetto, Adobe Dynamic Media Classic stabilisce un server di immagini dedicato per gli ambienti di staging o le applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta non proviene dall’elenco di indirizzi IP approvato, viene restituita una risposta di operazione non riuscita. L’amministratore della società Dynamic Media Classic Adobe configura l’elenco approvato di indirizzi IP per l’ambiente di test Secure della propria azienda.
 
 Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio Secure Testing non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico di Dynamic Media Image Server. Le richieste al servizio Secure Testing hanno una latenza leggermente più elevata rispetto ai server immagini pubblici di Dynamic Media.
 
@@ -47,7 +47,7 @@ Le risorse non pubblicate sono immediatamente disponibili dai servizi di verific
 
 >[!NOTE]
 >
->I servizi di verifica protetta utilizzano il server di catalogo configurato con un contesto di pubblicazione interno. Pertanto, se la tua azienda è configurata per la pubblicazione su Secure Testing, tutte le risorse caricate in Dynamic Media Classic diventano immediatamente disponibili sui servizi Secure Testing. Questa funzionalità è valida anche se le risorse sono contrassegnate per la pubblicazione al momento del caricamento.
+>I servizi di verifica protetta utilizzano il server di catalogo configurato con un contesto di pubblicazione interno. Pertanto, se la tua azienda è configurata per la pubblicazione su Secure Testing, tutte le risorse caricate in Adobe Dynamic Media Classic diventano immediatamente disponibili sui servizi Secure Testing. Questa funzionalità è valida anche se le risorse sono contrassegnate per la pubblicazione al momento del caricamento.
 
 I servizi di verifica sicura supportano attualmente i seguenti tipi di risorse e funzionalità:
 
@@ -65,8 +65,8 @@ Last Modified Date:
 * Vignettature (richieste per il server di rendering).
 * Richieste server di rendering (supportate, ma richieste esplicitamente dal cliente).
 * Set, compresi i set di immagini, eCatalog, set di rendering e set di file multimediali.
-* Visualizzatori rich media standard di Dynamic Media Classic.
-* Pagine Dynamic Media Classic OnDemand JSP.
+* Visualizzatori rich media standard di Adobe Dynamic Media Classic.
+* Adobe pagine JSP Dynamic Media Classic OnDemand.
 * Contenuto statico, ad esempio file PDF e video progressivi.
 * Streaming video HTTP.
 * Streaming di video progressivo.
@@ -76,7 +76,7 @@ I seguenti tipi di risorse e funzionalità non sono attualmente supportati:
 * Streaming video RTMP
 * Servizi UGC
 * Web-stampa
-* Ricerca in informazioni o eCatalog classici di Dynamic Media
+* Adobe Informazioni di Dynamic Media Classic o ricerca eCatalog
 
 ## Verifica del servizio di verifica protetta {#testing-the-secure-testing-service}
 
@@ -99,7 +99,7 @@ Last Modified Date:
  -->
 
 1. Contatta l’Assistenza clienti Adobe e richiedi l’abilitazione del test protetto sul tuo account.
-1. In Dynamic Media Classic, nella barra di navigazione globale, fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni di pubblicazione]** > **[!UICONTROL Server immagini]**.
+1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, fate clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni di pubblicazione]** > **[!UICONTROL Server immagini]**.
 1. Nella pagina Pubblica su Image Server, nell&#39;elenco a discesa **[!UICONTROL Contesto pubblicazione]**, selezionare **[!UICONTROL Test Image Serving]**.
 1. Per Filtro indirizzi client, fate clic su **[!UICONTROL Aggiungi]**.
 1. Selezionare la casella di controllo in modo che l&#39;indirizzo sia abilitato (attivato), quindi digitare un indirizzo IP e una maschera di rete nei rispettivi campi di testo.
@@ -112,7 +112,7 @@ Last Modified Date:
    * Ripeti i due passaggi precedenti se devi aggiungere altri indirizzi IP.
    * Procedi al passaggio successivo.
 1. In basso a sinistra della pagina Pubblicazione su Image Server, fai clic su **[!UICONTROL Salva]**
-1. Carica le immagini desiderate nel tuo account Dynamic Media Classic.
+1. Carica le immagini desiderate nel tuo account Adobe Dynamic Media Classic.
 
    Consultate [Caricamento dei file](uploading-files.md#uploading_files).
 
@@ -129,7 +129,7 @@ Se il nome del server è mancante o se gli URL del server non funzionano, contat
 
 È necessario disporre di due varianti di un sito Web, con collegamenti alle risorse pubblicate e a quelle non pubblicate:
 
-* Versione pubblica : collega le risorse utilizzando la sintassi URL tradizionale di Dynamic Media Classic.
+* Versione pubblica : collega le risorse utilizzando la sintassi URL tradizionale di Dynamic Media Classic di Adobe.
 * Versione di staging : collega le risorse utilizzando la stessa sintassi ma con il nome del sito di Secure Testing.
 
 ### Eseguire le verifiche
@@ -140,7 +140,7 @@ Eseguite le seguenti verifiche:
 
    Dall&#39;interno della rete aziendale identificata dall&#39;intervallo di indirizzi IP precedentemente definito, la versione di staging del sito web visualizza tutte le immagini, contrassegnate per la pubblicazione o meno. Puoi eseguire il test senza rendere accidentalmente disponibili le immagini prima dell’approvazione dell’anteprima o del lancio del prodotto.
 
-   Conferma che la versione pubblica del sito mostri le risorse pubblicate come precedentemente sperimentato con Dynamic Media Classic.
+   Conferma che la versione pubblica del sito mostri le risorse pubblicate come precedentemente sperimentato con Adobe Dynamic Media Classic.
 
 1. Dall’esterno della rete aziendale, verificate che non sia possibile a terzi accedere alle risorse non pubblicate (cioè quelle non contrassegnate per la pubblicazione).
 

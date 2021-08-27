@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-feature: Dynamic Media Classic,Visualizzatori,Video
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1432'
 ht-degree: 43%
 
 ---
@@ -21,7 +21,7 @@ Adobe Dynamic Media Classic Video è una soluzione end-to-end che semplifica la 
 
 Ad esempio, un dispositivo mobile iOS può rilevare un’ampiezza di banda 3G, 4G o Wi-Fi. Quindi seleziona automaticamente il video con la codifica corretta tra i vari bitrate presenti nel set video adattivo. Il video viene inviato in streaming a computer desktop, dispositivi mobili o tablet.
 
-Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Inoltre, se un cliente entra in modalità a schermo intero su un desktop, il set video adattivo risponde utilizzando una risoluzione migliore, migliorando l’esperienza di visualizzazione del cliente. L’utilizzo di Adaptive Video Sets offre la migliore riproduzione possibile per i clienti che riproducono video Dynamic Media Classic su più schermi e dispositivi.
+Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Inoltre, se un cliente entra in modalità a schermo intero su un desktop, il set video adattivo risponde utilizzando una risoluzione migliore, migliorando l’esperienza di visualizzazione del cliente. L’utilizzo di Adaptive Video Sets offre la migliore riproduzione possibile per i clienti che riproducono video Adobe Dynamic Media Classic su più schermi e dispositivi.
 
 Per determinare quale video codificato riprodurre o selezionare per la riproduzione, il lettore video utilizza l’algoritmo seguente:
 
@@ -33,7 +33,7 @@ Per determinare quale video codificato riprodurre o selezionare per la riproduzi
 
 Per informazioni tecniche, consulta la logica dell’algoritmo in [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
 
-Per la gestione di set video singoli e di set video adattivi, Dynamic Media Classic supporta le seguenti funzioni:
+Per la gestione di set video singoli e di set video adattivi, Adobe Dynamic Media Classic supporta le seguenti funzioni:
 
 * Caricamento di video da numerosi formati video e formati audio supportati e codifica dei video nel formato MP4 H.264 per la riproduzione su schermi diversi. È possibile utilizzare predefiniti video adattivi di Dynamic Media Classic, predefiniti di codifica video singoli o personalizzare la propria codifica per controllare la qualità e le dimensioni del video.
 
@@ -56,7 +56,7 @@ Per la gestione di set video singoli e di set video adattivi, Dynamic Media Clas
 
    Per informazioni aggiornate, consulta la [Guida di riferimento visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) .
 
-   Dynamic Media Classic supporta la riproduzione video mobile per video MP4 H.264. È possibile trovare i dispositivi BlackBerry® che supportano questo formato video nel seguente sito web:
+   Adobe Dynamic Media Classic supporta la riproduzione video mobile per video MP4 H.264. È possibile trovare i dispositivi BlackBerry® che supportano questo formato video nel seguente sito web:
 
    Vedi [Formati video supportati su BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -64,7 +64,7 @@ Per la gestione di set video singoli e di set video adattivi, Dynamic Media Clas
 
    Vedere [Formati video supportati su Windows® Phone](https://docs.microsoft.com/en-us/).
 
-* Riproduci il video utilizzando i predefiniti per visualizzatori di Dynamic Media Classic, tra cui:
+* Riproduci il video utilizzando i predefiniti per visualizzatori Dynamic Media Classic di Adobe, compresi i seguenti elementi:
 
    * Visualizzatori per singoli video.
    * Visualizzatori per contenuti multimediali misti che combinano video e immagini.
@@ -74,14 +74,14 @@ Per la gestione di set video singoli e di set video adattivi, Dynamic Media Clas
 
 **Guida introduttiva**
 
-La seguente descrizione dettagliata del flusso di lavoro è stata progettata per aiutarti a iniziare rapidamente a usare i set di video adattivi in Dynamic Media Classic. Alla fine di ciascun passaggio è riportato un riferimento a un argomento correlato con ulteriori informazioni.
+La seguente descrizione dettagliata del flusso di lavoro è stata progettata per aiutarti a iniziare rapidamente a usare i set di video adattivi in Adobe Dynamic Media Classic. Alla fine di ciascun passaggio è riportato un riferimento a un argomento correlato con ulteriori informazioni.
 
 ## 1. Caricamento e codifica dei video
 
 Potete caricare e generare i set di video adattivi utilizzando uno dei due scenari seguenti:
 
-* **Carica video precodificati** : se i video sono già stati codificati all’esterno di Dynamic Media Classic, nella barra di navigazione globale fai clic su  **** Carica per sfogliare e caricare i file video MP4 direttamente in Dynamic Media Classic. Fate clic su **[!UICONTROL Genera]** > **[!UICONTROL Set video adattivi]**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
-* **Carica video sorgente principali**  - Se i video non sono codificati, fai clic su  **** Carica nella barra di navigazione globale per caricare i file sorgente video master (non MP4) e fai clic su Codifica classica Dynamic Media in file MP4 per te. Nella finestra di dialogo **[!UICONTROL Opzioni processo di caricamento]**, in **[!UICONTROL Opzioni video]**, seleziona **[!UICONTROL Video adattivo]**.
+* **Carica video precodificati** : se i video sono già stati codificati all’esterno di Adobe Dynamic Media Classic, nella barra di navigazione globale fai clic su  **** Carica per sfogliare e caricare i file video MP4 direttamente in Adobe Dynamic Media Classic. Fate clic su **[!UICONTROL Genera]** > **[!UICONTROL Set video adattivi]**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
+* **Carica video sorgente master**  - Se i tuoi video non sono codificati, fai clic su  **** Carica per caricare i file sorgente video master (non MP4) nella barra di navigazione globale e codificali in file MP4 di Adobe Dynamic Media Classic. Nella finestra di dialogo **[!UICONTROL Opzioni processo di caricamento]**, in **[!UICONTROL Opzioni video]**, seleziona **[!UICONTROL Video adattivo]**.
 
    Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando inviate il processo di caricamento, viene automaticamente creato un set di video adattivi che comprende tre codifiche video con le proporzioni appropriate.
 
@@ -93,7 +93,7 @@ Consultate [Caricamento e codifica dei video](uploading-encoding-videos.md#uploa
 
 **Facoltativo**
 
-Dynamic Media Classic offre numerosi predefiniti di codifica video. Questi predefiniti riflettono le impostazioni di codifica video più comuni utilizzate oggi e sono ottimizzati per la riproduzione su pagine di destinazione.
+Adobe Dynamic Media Classic offre numerosi predefiniti di codifica video. Questi predefiniti riflettono le impostazioni di codifica video più comuni utilizzate oggi e sono ottimizzati per la riproduzione su pagine di destinazione.
 
 Tuttavia, qualora sia richiesta ulteriore personalizzazione, gli amministratori possono creare dei predefiniti video per personalizzare le dimensioni e l’esperienza di riproduzione video per gli utenti finali. Gli amministratori possono aggiungere e gestire i predefiniti video dalla pagina Predefiniti video disponibile in **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Predefiniti video]** > **[!UICONTROL Predefiniti codifica singola]**. La pagina Predefiniti video offre opzioni per aggiungere, modificare, eliminare e attivare i predefiniti per video.
 
@@ -109,7 +109,7 @@ Consultate [Anteprima dei video in un visualizzatore video](previewing-videos-vi
 
 **Facoltativo**
 
-Personalizzazione dei predefiniti per visualizzatori : Dynamic Media Classic offre predefiniti per visualizzatori per la distribuzione di video. Tali predefiniti determinano l’aspetto del visualizzatore e la modalità di funzionamento dei controlli di riproduzione. Per personalizzare il visualizzatore video, gli amministratori possono aggiungere e gestire i predefiniti per visualizzatore dalla pagina Predefiniti visualizzatore. Per aprire questa pagina, nell’angolo in alto a destra di Dynamic Media Classic, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**. Dalla pagina Predefiniti visualizzatore è possibile aggiungere, modificare, eliminare e attivare i predefiniti per visualizzatore.
+Personalizzazione dei predefiniti per visualizzatori : ad Adobe Dynamic Media Classic offre predefiniti per visualizzatori per la distribuzione di video. Tali predefiniti determinano l’aspetto del visualizzatore e la modalità di funzionamento dei controlli di riproduzione. Per personalizzare il visualizzatore video, gli amministratori possono aggiungere e gestire i predefiniti per visualizzatore dalla pagina Predefiniti visualizzatore. Per aprire questa pagina, nell’angolo in alto a destra di Adobe Dynamic Media Classic, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**. Dalla pagina Predefiniti visualizzatore è possibile aggiungere, modificare, eliminare e attivare i predefiniti per visualizzatore.
 
 Consultate [Utilizzo dei predefiniti per visualizzatori video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 

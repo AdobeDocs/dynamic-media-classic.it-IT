@@ -1,6 +1,6 @@
 ---
 title: Creare un set di immagini
-description: Scopri come creare un set di immagini in Dynamic Media Classic.
+description: Scopri come creare un set di immagini in Adobe Dynamic Media Classic.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 63%
 
 ---
@@ -60,7 +60,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per modificare un set di immagini:**
 
-1. Nella vista Griglia, individuare un ImageSet e quindi selezionare **[!UICONTROL Modifica]** sotto l&#39;immagine.
+1. Nella Vista a griglia, individuare un ImageSet e quindi selezionare **[!UICONTROL Modifica]** sotto l&#39;immagine.
 1. Effettuate una delle seguenti operazioni:
 
    * Per aggiungere un’immagine (pubblicata o non pubblicata), trascinatela da una cartella di Aggiungi risorse nella pagina **[!UICONTROL Visualizzazioni]** del set di immagini.

@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic,Visualizzatori,Set 360 gradi,Predefiniti visualizzatore
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 31%
+source-wordcount: '233'
+ht-degree: 32%
 
 ---
 
 # Impostazione dei predefiniti per il visualizzatore di set 360 gradi{#setting-up-spin-set-viewer-presets}
 
-I predefiniti per visualizzatori di set 360 gradi determinano lo stile, il comportamento e l’aspetto dei visualizzatori. Dynamic Media Classic viene fornito con i predefiniti visualizzatore di set 360 gradi. Gli utenti con ruolo di amministratore possono creare anche nuovi predefiniti per visualizzatori di Set 360 gradi in base alle proprie esigenze. Potete configurare un predefinito per visualizzatori di set 360 gradi con differenti impostazioni di colore, bordi, font e immagini.
+I predefiniti per visualizzatori di set 360 gradi determinano lo stile, il comportamento e l’aspetto dei visualizzatori. Ad Adobe, Dynamic Media Classic viene fornito con predefiniti visualizzatore per set 360 gradi. Gli utenti con ruolo di amministratore possono creare anche nuovi predefiniti per visualizzatori di Set 360 gradi in base alle proprie esigenze. Potete configurare un predefinito per visualizzatori di set 360 gradi con differenti impostazioni di colore, bordi, font e immagini.
 
 **Per creare un predefinito visualizzatore per set 360 gradi:**
 

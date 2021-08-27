@@ -1,6 +1,6 @@
 ---
 title: Creare un modello
-description: Scopri come creare un modello in Dynamic Media Classic.
+description: Scopri come creare un modello in Adobe Dynamic Media Classic.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3405'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ Per creare un modello, vai su **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di
 
 >[!NOTE]
 >
->Se modifichi un modello creato in una versione precedente di Dynamic Media Classic, al momento del salvataggio viene richiesto di specificare &quot;Aggiungere un livello di quadro?&quot;. Seleziona **[!UICONTROL No]** per evitare di aggiungere un livello di base. Se selezioni accidentalmente **[!UICONTROL Sì]**, elimina i modificatori `&allowCanvasPrompt` e `&layer=0` nell&#39;URL e premi **[!UICONTROL Invio]** o **[!UICONTROL Invio]**.
+>Se modifichi un modello creato in una versione precedente di Adobe Dynamic Media Classic, al momento del salvataggio viene visualizzato un messaggio in cui viene richiesto &quot;Aggiungere un livello di quadro?&quot;. Seleziona **[!UICONTROL No]** per evitare di aggiungere un livello di base. Se selezioni accidentalmente **[!UICONTROL Sì]**, elimina i modificatori `&allowCanvasPrompt` e `&layer=0` nell&#39;URL e premi **[!UICONTROL Invio]** o **[!UICONTROL Invio]**.
 
 ## Crea il modello iniziale {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ Se necessario, potete creare un modello partendo da uno già esistente. Apri il 
 1. Selezionare **[!UICONTROL Salva]**.
 1. Selezionare una cartella in cui memorizzare il modello, immettere un nome per il modello e selezionare **[!UICONTROL Invia]**.
 
-   Se necessario, Dynamic Media Classic restringe le immagini per adattarle all’area di lavoro, l’area nella schermata Modello per la definizione del modello.
+   Adobe Dynamic Media Classic restringe le immagini se necessario per adattarle all&#39;area di lavoro, l&#39;area nella schermata Modello per la definizione del modello.
 
 ## Modificare un set di modelli {#editing-a-template-set}
 
@@ -69,7 +69,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per modificare un set di modelli:**
 
-1. Nella vista Griglia, individuare un set di modelli e quindi selezionare **[!UICONTROL Modifica]** sotto l&#39;immagine.
+1. Nella Vista a griglia, individuare un set di modelli, quindi selezionare **[!UICONTROL Modifica]** sotto l&#39;immagine.
 1. Modificate il modello in base alle necessità.
 1. Al termine dell’operazione di modifica, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Selezionare **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set, quindi selezionare **[!UICONTROL Salva]**.
@@ -103,7 +103,7 @@ Utilizza questi strumenti nella schermata Modello per creare i modelli:
 
    >[!NOTE]
    >
-   >L’editor di testo v4.2 è pianificato per la rimozione come opzione in Dynamic Media Classic, pertanto si consiglia di utilizzare l’editor di testo 4.3 quando possibile. L’opzione **[!UICONTROL A capo automatico]** verrà incorporata in una versione futura dell’Editor di testo.
+   >L’editor di testo v4.2 è pianificato per la rimozione come opzione in Adobe Dynamic Media Classic, pertanto si consiglia di utilizzare l’editor di testo 4.3 quando possibile. L’opzione **[!UICONTROL A capo automatico]** verrà incorporata in una versione futura dell’Editor di testo.
 
 * **[!UICONTROL Designer e sviluppatore]** : seleziona l’opzione che meglio descrive il tuo ruolo.
 
@@ -121,7 +121,7 @@ Utilizza questi strumenti nella schermata Modello per creare i modelli:
 
    >[!NOTE]
    >
-   >Se necessario, Dynamic Media Classic restringe le immagini per adattarle all&#39;area di lavoro quando create un livello immagine.
+   >Se necessario, Adobe Dynamic Media Classic restringe le immagini per adattarle all&#39;area di lavoro quando create un livello immagine.
 
 ## Creare un livello di testo {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ Per formattare il testo in un livello di testo, procedi come segue:
 1. Nella casella di testo dell’Editor di testo, selezionare il testo che si desidera formattare. È possibile selezionare tutto il testo, parti del testo o singoli caratteri.
 1. Specificare una delle seguenti opzioni di formattazione, quindi selezionare **[!UICONTROL Applica]**.
 
-   * **[!UICONTROL Font]**  - Scegliere un font dal menu Font. Se un font desiderato non viene visualizzato nel menu, puoi caricarlo in Dynamic Media Classic. Consultate Font.
+   * **[!UICONTROL Font]**  - Scegliere un font dal menu Font. Se un font desiderato non viene visualizzato nel menu, puoi caricarlo nell’Adobe Dynamic Media Classic. Consultate Font.
 
    * **[!UICONTROL Font Size]**  - Scegli una dimensione del font dal menu, digita una dimensione specifica nella casella oppure seleziona le  **** Frecce  **** verso il basso per aumentare o diminuire la dimensione di due punti.
 
@@ -244,7 +244,7 @@ I livelli devono essere di dimensioni tali da rientrare nel quadro. Potete modif
 
 >[!NOTE]
 >
->Dynamic Media Classic consiglia di creare un predefinito per immagini con le stesse dimensioni del modello. Quando le dimensioni del predefinito per immagini corrispondono a quelle del modello, si otterranno impostazioni corrette per le dimensioni di output finali e le opzioni di nitidezza per il modello. Dopo aver creato il predefinito per immagini, potete sceglierlo dal menu Applica predefinito sulla schermata Anteprima modello. Nella schermata viene visualizzato l’aspetto dell’immagine che verrà trasmessa dal server. Consulta [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets).
+>Ad Adobe, Dynamic Media Classic consiglia di creare un predefinito per immagini con le stesse dimensioni del modello. Quando le dimensioni del predefinito per immagini corrispondono a quelle del modello, si otterranno impostazioni corrette per le dimensioni di output finali e le opzioni di nitidezza per il modello. Dopo aver creato il predefinito per immagini, potete sceglierlo dal menu Applica predefinito sulla schermata Anteprima modello. Nella schermata viene visualizzato l’aspetto dell’immagine che verrà trasmessa dal server. Consulta [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets).
 
 * **Modifica delle dimensioni di un livello** : per modificare le dimensioni di un livello o dell’area di lavoro, selezionate il livello o l’area di lavoro nell’elenco Livelli e utilizzate una delle seguenti tecniche:
 
@@ -288,7 +288,7 @@ Per scegliere un colore di sfondo, opacità e metodo di fusione per un livello o
 
 ## Usa effetti di ombra e bagliore sui livelli {#using-shadow-and-glow-effects-on-layers}
 
-Potete applicare un’ombra o un bagliore a un livello. L’ombra o il bagliore viene applicato al perimetro del livello e si estende verso l’interno o l’esterno, a seconda dell’opzione scelta. Se il modello è stato creato con un file PSD con effetti di ombra e bagliore, è possibile regolare questi effetti in Dynamic Media Classic.
+Potete applicare un’ombra o un bagliore a un livello. L’ombra o il bagliore viene applicato al perimetro del livello e si estende verso l’interno o l’esterno, a seconda dell’opzione scelta. Se il modello è stato creato con un file PSD con effetti di ombra e bagliore, è possibile regolare questi effetti in Adobe Dynamic Media Classic.
 
 Dopo aver applicato un effetto ombra o bagliore, potete regolarne le dimensioni, il colore, l’opacità e la posizione nell’area Proprietà livello della schermata Modello.
 

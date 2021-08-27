@@ -1,6 +1,6 @@
 ---
 title: Implementare i video nei siti Web e siti mobili
-description: Scopri come distribuire video ai siti web e mobili da Dynamic Media Classic.
+description: Scopri come distribuire video ai siti web e mobile da Adobe Dynamic Media Classic.
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 37%
+source-wordcount: '1704'
+ht-degree: 35%
 
 ---
 
 # Implementare i video nei siti Web e siti mobili{#deploying-video-to-your-websites-and-mobile-sites}
 
-I siti web, i siti mobili e le applicazioni desktop accedono al contenuto del server Dynamic Media Classic, incluso il video, utilizzando stringhe URL o codice incorporato. Dynamic Media Classic attiva queste stringhe URL durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il video nelle pagine web, nelle pagine mobili e nelle applicazioni desktop, copiala da Dynamic Media Classic.
+I siti web, i siti mobili e le applicazioni desktop accedono al contenuto del server Adobe Dynamic Media Classic, incluso il video, utilizzando stringhe URL o codice incorporato. Adobe Dynamic Media Classic attiva queste stringhe URL durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il video nelle pagine web, nelle pagine mobili e nelle applicazioni desktop, copiala da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ I siti web, i siti mobili e le applicazioni desktop accedono al contenuto del se
 
 ## Pubblicare i video {#publishing-video}
 
-La pubblicazione di un video consente ai server Dynamic Media Classic di distribuire video al sito web, al sito mobile o all’applicazione.
+La pubblicazione di un video consente ad Adobe Dynamic Media Classic Server di distribuire video al sito web, al sito mobile o all’applicazione.
 
 Esistono due metodi diversi per pubblicare un video:
 
-* **Pubblicare automaticamente i video in fase di caricamento** - Come parte del processo di caricamento dei video, Dynamic Media Classic può pubblicare automaticamente i video quando vengono caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
+* **Pubblicare automaticamente i video in fase di caricamento** - Come parte del processo di caricamento dei video, Adobe Dynamic Media Classic può pubblicare automaticamente i video quando vengono caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
 
 * **Pubblicare i video manualmente dopo il caricamento** - Se non desiderate pubblicare subito i video, potete pubblicarli manualmente in qualsiasi momento.
 
-Dopo la pubblicazione dei video, Dynamic Media Classic attiva le stringhe URL per la pagina HTML o il codice dell&#39;applicazione.
+Dopo aver pubblicato i video, Adobe Dynamic Media Classic attiva le stringhe URL per la pagina HTML o il codice dell&#39;applicazione.
 
 **Per pubblicare i video:**
 
@@ -107,7 +107,7 @@ Consulta anche [Collegare un URL video a un sito mobile o a un sito web](deployi
 
 ### Implementare il codice di incorporamento per utilizzare video HTML5 con risorse video MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Se non utilizzi il lettore video HTML5 di Dynamic Media Classic, ma desideri utilizzare il tag nativo HTML5 `<video>` con risorse video MP4, puoi utilizzare il seguente esempio di codice da incorporare:
+Se non utilizzi il lettore video HTML5 Adobe Classic Dynamic Media Classic, ma desideri utilizzare il tag nativo HTML5 `<video>` con risorse video MP4, puoi utilizzare il seguente esempio di codice da incorporare:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,11 +131,11 @@ Se non utilizzi il lettore video HTML5 di Dynamic Media Classic, ma desideri uti
 
 ## Distribuzione di video tramite un lettore video di terze parti {#deploying-video-using-a-third-party-video-player}
 
-Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic, ottieni l’URL video diretto che funziona per lo streaming video a più bit HLS o per il download progressivo.
+Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic di Adobe, ottieni l’URL video diretto che funziona per lo streaming video a più bit HLS o il download progressivo.
 
 **Per implementare video mediante un lettore video di terze parti:**
 
-1. In Dynamic Media Classic, nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]**.
+1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]**.
 1. A seconda del tipo di URL che desiderate usare, effettuate una delle seguenti operazioni:
 
 * Per generare un URL video in streaming HLS diretto (con bitrate multiplo)
@@ -165,13 +165,13 @@ Se utilizzi un lettore video di terze parti o un lettore video personalizzato in
 
 ## Utilizzare le miniature video {#working-with-video-thumbnails}
 
-Dynamic Media Classic genera miniature per video codificati e video precodificati. Potete usare le miniature video come qualsiasi altra risorsa di immagini. Inoltre, puoi ottenere gli URL per le miniature video generate da Dynamic Media Classic e distribuirli al di fuori di Dynamic Media Classic. Ad esempio, potete implementare le miniature nei risultati di ricerca, negli elenchi dei relativi video e negli elenchi di riproduzione video pubblicati in un sito Web.
+Adobe Dynamic Media Classic genera miniature per video codificati e video precodificati. Potete usare le miniature video come qualsiasi altra risorsa di immagini. Inoltre, puoi ottenere gli URL per le miniature video generate da Adobe Dynamic Media Classic e distribuirli al di fuori di Adobe Dynamic Media Classic. Ad esempio, potete implementare le miniature nei risultati di ricerca, negli elenchi dei relativi video e negli elenchi di riproduzione video pubblicati in un sito Web.
 
 Le miniature vengono generate in base al primo fotogramma eterogeneo (fotogramma che non sia tutto nero, tutto bianco e così via) del video.
 
 ### Ottenere gli URL delle miniature video {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic genera automaticamente le miniature video durante il processo di caricamento. Le miniature vengono visualizzate nel pannello Sfoglia in visualizzazione Elenco e Griglia.
+Adobe Dynamic Media Classic genera automaticamente le miniature video durante il processo di caricamento. Le miniature vengono visualizzate nel pannello Sfoglia in Vista a elenco e Vista a griglia.
 
 Per generare gli URL delle miniature video, effettuate un’operazione di pubblicazione.
 
@@ -181,7 +181,7 @@ Una volta effettuata la pubblicazione, potete reperire gli URL delle miniature v
 
 ### Modificare i fotogrammi poster nei visualizzatori video {#modifying-poster-frames-in-video-viewers}
 
-Il *fotogramma poster* è il fotogramma iniziale che viene visualizzato nei visualizzatori per video prima che venga riprodotto il video. Dynamic Media Classic utilizza le miniature video come fotogrammi poster.
+Il *fotogramma poster* è il fotogramma iniziale che viene visualizzato nei visualizzatori per video prima che venga riprodotto il video. Adobe Dynamic Media Classic utilizza le miniature video come fotogrammi poster.
 
 Potete applicare al fotogramma poster i modificatori di immagini. Ad esempio, potete ritagliare il fotogramma poster o renderlo trasparente. Per modificare il fotogramma poster, aprite la schermata di configurazione del visualizzatore per video e inserite i modificatori nella sezione Modificatori immagini poster. 
 

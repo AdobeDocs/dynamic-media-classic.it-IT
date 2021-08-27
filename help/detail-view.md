@@ -1,6 +1,6 @@
 ---
 title: Lavorare nella vista Dettaglio
-description: Scopri come lavorare in Vista dettagli in Dynamic Media Classic.
+description: Scopri come lavorare in Vista dettagli in Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 24%
 
 ---
@@ -44,7 +44,7 @@ Per esaminare, visualizzare in anteprima o lavorare con precisione su una risors
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Selezionate la risorsa. Vicino all&#39;angolo superiore destro di Dynamic Media Classic, seleziona l&#39;icona **[!UICONTROL Vista dettagli]** .
+   * Selezionate la risorsa. Nell&#39;angolo in alto a destra dell&#39;Adobe Dynamic Media Classic, seleziona l&#39;icona **[!UICONTROL Vista dettagli]** .
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
@@ -54,7 +54,7 @@ Per esaminare, visualizzare in anteprima o lavorare con precisione su una risors
 
 ## Ottenere informazioni nella visualizzazione dettagli {#getting-information-in-detail-view}
 
-La Vista dettagli fornisce informazioni su una risorsa o un file. Mostra le informazioni seguenti su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa in Vista dettagli.
+La Vista dettagli fornisce informazioni su una risorsa o un file. Mostra le informazioni seguenti su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Adobe Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa in Vista dettagli.
 
 Puoi ottenere un URL della risorsa in Vista dettagli; tuttavia, l’URL non è attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettagli fornisce anche un elenco di risorse e metadati generati e derivati, come destinazioni di zoom e set di immagini.
 

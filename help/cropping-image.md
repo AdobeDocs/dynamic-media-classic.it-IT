@@ -1,6 +1,6 @@
 ---
 title: Ritagliare un’immagine
-description: Scopri come ritagliare un’immagine in Dynamic Media Classic.
+description: Scopri come ritagliare un’immagine in Adobe Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 35%
 
 ---
 
 # Ritagliare un’immagine{#cropping-an-image}
 
-È possibile ritagliare le immagini in Dynamic Media Classic. Il sistema conserva le informazioni sulle immagini ritagliate per permettere di riportarle eventualmente al loro stato originale. Potete anche ritagliare un’immagine e salvare la versione ritagliata con un nuovo nome.
+È possibile ritagliare le immagini in Adobe Dynamic Media Classic. Il sistema conserva le informazioni sulle immagini ritagliate per permettere di riportarle eventualmente al loro stato originale. Potete anche ritagliare un’immagine e salvare la versione ritagliata con un nuovo nome.
 
 Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda oppure ritagliare un’area dell’immagine.
 
@@ -31,7 +31,7 @@ Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda o
 
 Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine ritagliandoli.
 
-1. Per ritagliare un&#39;immagine, selezionane il pulsante rollover **[!UICONTROL Modifica]** e seleziona **[!UICONTROL Ritaglia]** oppure visualizzalo nel pannello Sfoglia in visualizzazione Dettagli e seleziona il pulsante **[!UICONTROL Ritaglia]** .
+1. Per ritagliare un&#39;immagine, selezionane il pulsante rollover **[!UICONTROL Modifica]** e seleziona **[!UICONTROL Ritaglia]** oppure visualizzalo nel pannello Sfoglia in Vista dettagli e seleziona il pulsante **[!UICONTROL Ritaglia]** .
 1. Nella pagina Editor ritaglio, effettuare una delle seguenti operazioni:
 
    * Per tagliare i pixel dei colori, vai a **[!UICONTROL Trim]** > **[!UICONTROL Colore]**. Nella finestra di dialogo **[!UICONTROL Ritaglio automatico per colore]**, selezionate il menu **[!UICONTROL Angolo]** e scegliete un angolo con il colore di sfondo da ritagliare. Quindi immetti un&#39;impostazione **[!UICONTROL Tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Selezionare **[!UICONTROL Ritaglia]**.
@@ -45,7 +45,7 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 
 ## Selezionare un’area da ritagliare {#select-an-area-to-crop}
 
-1. Per ritagliare un&#39;immagine, selezionane il pulsante rollover **[!UICONTROL Modifica]** e scegli **[!UICONTROL Ritaglia]**, oppure visualizzalo nel pannello Sfoglia in visualizzazione Dettagli e seleziona **[!UICONTROL Ritaglia]**.
+1. Per ritagliare un&#39;immagine, selezionane il pulsante rollover **[!UICONTROL Modifica]** e scegli **[!UICONTROL Ritaglia]** oppure visualizzalo nel pannello Sfoglia in Vista dettagli e seleziona **[!UICONTROL Ritaglia]**.
 
 1. Nella finestra Editor ritaglio, posizionate la parte dell’immagine da non ritagliare nella casella Ritaglio. Qualsiasi cosa appaia all&#39;interno della casella è ciò che rimarrà dopo aver selezionato **[!UICONTROL Salva]** e ritagliato l&#39;immagine.
 1. Per regolare l’area di ritaglio, effettuate una delle seguenti operazioni:

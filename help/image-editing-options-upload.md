@@ -1,6 +1,6 @@
 ---
 title: Opzioni di ottimizzazione delle immagini al caricamento
-description: Scopri le opzioni di ottimizzazione delle immagini disponibili al momento del caricamento in Dynamic Media Classic.
+description: Scopri le opzioni di ottimizzazione delle immagini disponibili al momento del caricamento in Adobe Dynamic Media Classic.
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 54%
 
 ---
@@ -58,7 +58,7 @@ Per selezionare uno spazio colore per l’immagine, scegli un’opzione Profilo 
 
 * **[!UICONTROL Mantieni spazio colore originale]** : mantiene lo spazio colore originale.
 
-* **[!UICONTROL Personalizzato da]**  >  **[!UICONTROL a]** : apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic.
+* **[!UICONTROL Personalizzato da]**  >  **[!UICONTROL a]** : apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. È possibile scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Adobe Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
@@ -76,7 +76,7 @@ In Maschera di contrasto, impostate le opzioni desiderate come descritto nella s
 
 | Opzioni di Maschera di contrasto | Descrizione |
 | --- | --- |
-| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Corrisponde all’intensità dell’effetto. La differenza principale tra i valori di quantità di Maschera definizione dettagli in Dynamic Media Classic e i valori di quantità in Adobe Photoshop, è che Photoshop ha un intervallo di quantità compreso tra l’1% e il 500%. considerando che in Dynamic Media Classic l&#39;intervallo di valori è compreso tra 0,0 e 5,0. Un valore di 5,0 in Dynamic Media Classic corrisponde approssimativamente al 500% in Photoshop; il valore 0,9 equivale al 90% e così via. |
+| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Corrisponde all’intensità dell’effetto. La differenza principale tra i valori di quantità di Maschera definizione dettagli in Adobe Dynamic Media Classic e i valori di quantità in Adobe Photoshop, è che Photoshop ha un intervallo di quantità compreso tra l’1% e il 500%. considerando che in Dynamic Media Classic, ad Adobe, l&#39;intervallo di valori è compreso tra 0,0 e 5,0. Un valore pari a 5,0 in Adobe Dynamic Media Classic corrisponde approssimativamente al 500% in Photoshop; il valore 0,9 equivale al 90% e così via. |
 | Raggio | Controlla il raggio dell’effetto. <br><br>I valori consentiti sono compresi tra 0 e 250. L’effetto viene eseguito su tutti i pixel dell’immagine e si irradia da tutti i pixel in tutte le direzioni. Il raggio è espresso in pixel. Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 x 2000 pixel e un&#39;immagine da 500 x 500 pixel, è necessario impostare un raggio di due pixel sull&#39;immagine da 2000 x 2000 pixel. Quindi imposta un valore di raggio di un pixel sull&#39;immagine da 500 x 500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel.  |
 | Soglia | Specifica l’intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. Questo effetto è importante in modo che non venga introdotto alcun &quot;rumore&quot; a un&#39;immagine quando si utilizza questo filtro. Il valore di soglia deve essere compreso tra 0 e 255 e corrisponde al numero di incrementi di luminosità di un’immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. <br><br>Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e palpebre.<br><br>Ad esempio, se scegli una foto del volto di un utente, la Maschera definizione dettagli influisce sulle parti a contrasto dell’immagine. Ad esempio, dove ciglia e pelle si incontrano per creare un&#39;area ovvia di contrasto, e la pelle liscia stessa. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentua le lievi differenze di tonalità nelle aree di pelle. Questo genera un effetto sgradevole mentre il maggior contrasto delle ciglia migliora la nitidezza dell’immagine.<br><br>Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso dell’incarnato uniforme. <br><br>Nella precedente grafica delle zip, osservate la texture accanto alle zip. Si verifica del disturbo perché i valori di soglia sono troppo bassi per evitarlo. |
 | Monocromatico | Seleziona la luminosità dell’immagine con maschera di contrasto (intensità).<br><br>Deselezionate questa opzione per applicare la maschera di contrasto separatamente a ciascun componente di colore. |

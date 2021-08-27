@@ -1,6 +1,6 @@
 ---
 title: Configurazione personale
-description: Tutti gli utenti possono modificare le impostazioni nella schermata Configurazione personale di Dynamic Media Classic.
+description: Tutti gli utenti possono modificare le impostazioni nella schermata Configurazione personale di Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 28%
 
 ---
@@ -23,7 +23,7 @@ Le impostazioni della schermata Configurazione personale possono essere modifica
 
 >[!NOTE]
 >
->Nella schermata Configurazione personale è indicato il ruolo utente in Dynamic Media Classic: Amministratore, amministratore o utente della società.
+>Nella schermata Configurazione personale è indicato il ruolo utente in Adobe Dynamic Media Classic: Amministratore, amministratore o utente della società.
 
 Le impostazioni della schermata Configurazione personale controllano il comportamento predefinito del pannello Sfoglia, il modo in cui ricevete i messaggi e-mail e le impostazioni della password. Dopo aver modificato queste impostazioni, fate clic su Salva.
 
@@ -45,7 +45,7 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 **Per installare Adobe Dynamic Media Creative Suite Extension:**
 
-1. In Dynamic Media Classic, sulla barra degli strumenti, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**, in Estensione Creative Suite, fai clic su **[!UICONTROL Scarica ora]** per scaricare il file `s7csxs.zxp`.
+1. In Adobe Dynamic Media Classic, sulla barra degli strumenti, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**, in Estensione Creative Suite, fai clic su **[!UICONTROL Scarica ora]** per scaricare il file `s7csxs.zxp`.
 1. Fai clic sui collegamenti **[!UICONTROL Installazione]** e **[!UICONTROL Requisiti di sistema]** per ulteriori informazioni sull&#39;estensione.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -72,11 +72,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Browser
 
-* **Dimensione miniatura** : determina le dimensioni predefinite delle miniature nella vista Griglia del pannello Sfoglia.
+* **Dimensione miniatura** : determina le dimensioni predefinite delle miniature in Vista griglia nel pannello Sfoglia.
 * **Vista libreria risorse predefinita** : determina se le risorse nella libreria delle risorse per i set di build vengono visualizzate come miniature o per nome. Se dovete gestire grandi quantità di risorse nella libreria, è consigliabile visualizzarle per nome. Ad esempio, se state creando un eCatalog di grandi dimensioni contenente numerosi file PDF, potete visualizzare le risorse per nome per ridurre la lunghezza dell’elenco.
 * **Ordine di navigazione predefinito** : determina l’ordine in cui le risorse vengono visualizzate per impostazione predefinita nel pannello Sfoglia. Scegliete un criterio di ordinamento nel menu e specificate se l’ordine deve essere crescente o decrescente.
 * **Percorso di navigazione predefinito** : consente di impostare il percorso di ricerca sul valore predefinito, sull’ultima cartella selezionata o su un percorso specifico da individuare e identificare. Potete inoltre impostare il percorso Sfoglia per ordinare file e cartelle in ordine ascendente o discendente.
-* **Vista di navigazione predefinita** : determina se la vista Griglia o Elenco è la vista predefinita visualizzata alla prima apertura del pannello Sfoglia.
+* **Vista di navigazione predefinita** : determina se la vista a griglia o a elenco è la vista predefinita visualizzata alla prima apertura del pannello Sfoglia.
 * **Visualizzazione schermata iniziale**  - Determina se visualizzare schermate introduttive, inclusa la schermata iniziale.
 * **Mostra descrizioni comandi** : determina se le descrizioni comandi vengono visualizzate quando si posiziona il puntatore su pulsanti, menu e collegamenti di navigazione. Le descrizioni comandi descrivono gli elementi dell’interfaccia utente sullo schermo.
 * **Sfondo a scacchiera**  - Visualizza un livello a scacchiera dietro le immagini, consentendo di vedere facilmente le aree trasparenti di un&#39;immagine che ha un canale alfa.
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## E-mail
 
-* **Opzioni e-mail**  - Scegli come desideri che Dynamic Media Classic ti informi via e-mail al termine dei processi di caricamento e pubblicazione. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
+* **Opzioni e-mail**  - Scegli come desideri che Adobe Dynamic Media Classic ti informi via e-mail al termine dei processi di caricamento e pubblicazione. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
 * **Ambito e-mail** : determina se ricevere tutte le e-mail di processo per la tua azienda o solo e-mail sui processi di caricamento e pubblicazione avviati.
 * **Tipi di e-mail**  - Determina se ricevere informazioni al completamento dei processi di caricamento e pubblicazione.
 

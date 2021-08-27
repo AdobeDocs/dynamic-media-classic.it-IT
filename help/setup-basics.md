@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 23%
 
 ---
 
 # Nozioni di base sulla configurazione{#setup-basics}
 
-Utilizza la pagina Configurazione di Dynamic Media Classic per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina Configurazione, nella barra di navigazione globale fare clic su **[!UICONTROL Configurazione]**.
+Utilizza la pagina Adobe Dynamic Media Classic Setup per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina Configurazione, nella barra di navigazione globale fare clic su **[!UICONTROL Configurazione]**.
 
 Le impostazioni disponibili in questa pagina dipendono dallo stato di un utente o amministratore:
 
@@ -34,7 +34,7 @@ Gli amministratori possono anche impostare i predefiniti per immagini e visualiz
 
 >[!MORELIKETHIS]
 >
->* [Ruoli e privilegi utente di Dynamic Media Classic](administration-setup.md#user_administration)
-* [Predefiniti immagine](application-setup.md#image_presets)
-* [Predefiniti per visualizzatori](application-setup.md#viewer_presets)
+>* [Adobe di ruoli utente e privilegi di Dynamic Media Classic](administration-setup.md#user_administration)
+>* [Predefiniti immagine](application-setup.md#image_presets)
+>* [Predefiniti per visualizzatori](application-setup.md#viewer_presets)
 

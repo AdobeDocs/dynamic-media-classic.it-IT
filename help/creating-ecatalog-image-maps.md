@@ -1,18 +1,18 @@
 ---
 title: Creare mappe immagine di eCatalog
-description: Scopri come creare mappe immagine di eCatalog in Dynamic Media Classic.
+description: Scopri come creare mappe immagine di eCatalog in Adobe Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic,Visualizzatori,eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ Per gli eCatalog, potete disegnare le mappe immagine nella scheda Mappe pagine d
 
    * **Mappa rettangolare** : seleziona lo strumento Mappa immagine rettangolare e trascina sulla pagina per creare il rettangolo.
 
-   * **Mappa poligonale** : selezionate lo strumento Mappa immagine poligonale, quindi selezionate il numero di volte necessario intorno al perimetro dell&#39;immagine. Come selezionato, Dynamic Media Classic disegna i bordi della mappa immagine.
+   * **Mappa poligonale** : selezionate lo strumento Mappa immagine poligonale, quindi selezionate il numero di volte necessario intorno al perimetro dell&#39;immagine. Come selezionato, Adobe Dynamic Media Classic disegna i bordi della mappa immagine.
 
-      Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome nell’elenco Mappa immagine. Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome della pagina eCatalog in cui si sta lavorando.
+      Dopo aver disegnato una mappa immagine, Adobe Dynamic Media Classic le assegna un nome nell’elenco Mappa immagine. Per creare il nome, in Adobe Dynamic Media Classic viene aggiunto un numero sequenziale al nome della pagina eCatalog in cui si sta lavorando.
 
 1. (Facoltativo) Dall’elenco Mappa immagine, nella colonna [!UICONTROL Nome] puoi immettere un nuovo nome per la Mappa immagine. Non includete spazi nel nome inserito.
 1. È possibile fare in modo che i visualizzatori aprano una nuova pagina web quando selezionano la mappa immagine. Nell’elenco delle mappe immagini, inserite l’URL della pagina Web nella colonna URL.
@@ -131,7 +131,7 @@ Nella schermata Riepilogo mappe, seguite queste istruzioni per importare i dati 
 
 ## Copiare mappe immagine tra gli eCatalogs {#copying-image-maps-between-ecatalogs}
 
-Potete copiare tutte le mappe immagine di un eCatalog in un diverso eCatalog. Questo è utile ad esempio per copiare le mappe immagine tra versioni in lingue diverse di uno stesso eCatalog. Affinché la copia abbia successo, Dynamic Media Classic consiglia di copiare tra eCatalogs con lo stesso numero di pagine e le stesse immagini.
+Potete copiare tutte le mappe immagine di un eCatalog in un diverso eCatalog. Questo è utile ad esempio per copiare le mappe immagine tra versioni in lingue diverse di uno stesso eCatalog. Affinché la copia abbia successo, ad Adobe, Dynamic Media Classic consiglia di copiare tra eCatalogs con lo stesso numero di pagine e le stesse immagini.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Per copiare tutte le mappe immagine di un eCatalog in un altro eCatalog, procedi
 1. Nella scheda Pagine ordine , seleziona **[!UICONTROL Copia mappe]**.
 1. Nella finestra di dialogo Seleziona risorsa , seleziona l’eCatalog in cui desideri copiare le mappe immagine, quindi seleziona **[!UICONTROL Seleziona]**.
 
-Dynamic Media Classic visualizza un messaggio di avviso se l’eCatalog di destinazione (l’eCatalog in cui copiate le mappe immagine) ha un numero diverso di pagine o immagini di dimensioni diverse. Seleziona **[!UICONTROL Continua]** per copiare le mappe immagine nonostante l&#39;avviso.
+Ad Adobe, Dynamic Media Classic visualizza un messaggio di avviso se l’eCatalog di destinazione (l’eCatalog in cui copiate le mappe immagine) ha un numero diverso di pagine o immagini di dimensioni diverse. Seleziona **[!UICONTROL Continua]** per copiare le mappe immagine nonostante l&#39;avviso.

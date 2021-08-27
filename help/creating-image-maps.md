@@ -1,6 +1,6 @@
 ---
 title: Creare mappe immagine
-description: Scopri come creare mappe immagine in Dynamic Media Classic.
+description: Scopri come creare mappe immagine in Adobe Dynamic Media Classic.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2422'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 Una mappa immagine è un’area su un’immagine, una pagina di eCatalog o un’immagine di un set 360 gradi, che visualizza un pannello di rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Quando l’utente sposta il puntatore su una mappa immagine, viene visualizzato un contorno intorno a una mappa immagine.
 
-Oltre alla possibilità di creare mappe immagine in Dynamic Media Classic, puoi anche creare mappe immagine quando progetti un catalogo in Adobe Acrobat o Adobe InDesign.
+Oltre alla possibilità di creare mappe immagine in Adobe Dynamic Media Classic, è anche possibile creare mappe immagine quando si progetta un catalogo in Adobe Acrobat o Adobe InDesign.
 
 Quando create le mappe immagine, potete effettuare una delle seguenti operazioni:
 
@@ -50,9 +50,9 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 
    * **Mappa poligonale** : selezionate lo strumento Mappa immagine poligonale e selezionate i punti sul perimetro dell&#39;area dell&#39;immagine da racchiudere. Usate il cursore di densità del poligono per variare la densità dei punti nel poligono. La densità originale viene ricordata se selezionate altre mappe. Se un punto del poligono viene aggiunto, eliminato o spostato, la densità originale viene perduta e il cursore viene reimpostato sul valore massimo.
 
-1. Se lo desiderate, potete immettere un nome per la mappa immagine nell’elenco Mappa immagine. Dopo aver disegnato una mappa immagine, Dynamic Media Classic le assegna un nome.
+1. Se lo desiderate, potete immettere un nome per la mappa immagine nell’elenco Mappa immagine. Dopo aver disegnato una mappa immagine, Adobe Dynamic Media Classic le assegna un nome.
 
-   Per creare il nome, Dynamic Media Classic aggiunge un numero sequenziale al nome dell&#39;immagine o della pagina eCatalog con cui si sta lavorando. Potete immettere un nome di vostra scelta.
+   Per creare il nome, in Adobe Dynamic Media Classic viene aggiunto un numero sequenziale al nome dell’immagine o della pagina eCatalog con cui si sta lavorando. Potete immettere un nome di vostra scelta.
 
 1. Per aprire una nuova pagina web quando gli utenti selezionano la mappa immagine, immetti l’URL nell’elenco Mappa immagine.
 
@@ -126,7 +126,7 @@ Ad esempio, può essere utile copiare tutte le mappe immagine di un eCatalog per
 
 ## Utilizzare un modello per immettere JavaScript e URL {#using-a-template-to-enter-javascript-and-urls}
 
-Potete definire un modello URL (detto anche modello Href) per facilitare e migliorare l’immissione degli URL delle mappe immagine. La definizione di un modello URL risulta utile se la maggior parte degli URL della mappa immagine hanno uno stesso formato fisso. Immettendo la parte fissa dell’URL come modello URL non sarà necessario reimmetterla ogni volta che create una mappa immagine. Il modello URL può contenere anche parametri, nomi di percorso e comandi JavaScript. Per impostazione predefinita, il modello URL contiene un gestore JavaScript proprietario di Dynamic Media Classic denominato `loadProduct` che apre l’immagine in una nuova finestra.
+Potete definire un modello URL (detto anche modello Href) per facilitare e migliorare l’immissione degli URL delle mappe immagine. La definizione di un modello URL risulta utile se la maggior parte degli URL della mappa immagine hanno uno stesso formato fisso. Immettendo la parte fissa dell’URL come modello URL non sarà necessario reimmetterla ogni volta che create una mappa immagine. Il modello URL può contenere anche parametri, nomi di percorso e comandi JavaScript. Per impostazione predefinita, il modello URL contiene un gestore JavaScript proprietario di Adobe Dynamic Media Classic denominato `loadProduct` che apre l’immagine in una nuova finestra.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Inserisci tutti i valori che non cambiano tra le mappe immagine nel modello URL.
 * Valore URL - `product.htm`
 * URL effettivo generato - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Per impostazione predefinita, il modello URL include un gestore JavaScript proprietario di Dynamic Media Classic denominato `loadProduct` che apre una nuova finestra con la destinazione URL. Tuttavia, è possibile utilizzare qualsiasi codice JavaScript per sostituire questo gestore JavaScript o utilizzare uno dei seguenti gestori Dynamic Media Classic:
+Per impostazione predefinita, il modello URL include un gestore JavaScript proprietario di Adobe Dynamic Media Classic denominato `loadProduct` che apre una nuova finestra con la destinazione URL. Tuttavia, è possibile utilizzare qualsiasi codice JavaScript per sostituire questo gestore JavaScript o utilizzare uno dei seguenti gestori Dynamic Media Classic di Adobe:
 
 * `loadProductCW` - visualizza la destinazione URL specificata nella colonna URL nella finestra corrente. Questo handler è indicato soprattutto per gli eCatalog integrati in una pagina di un sito Web.
 
@@ -192,7 +192,7 @@ Seleziona il menu **[!UICONTROL Mostra]** e seleziona **[!UICONTROL Entrambi]** 
 
 Potete creare le mappe immagine mentre create un eCatalog in Adobe Acrobat o Adobe InDesign.
 
-In Acrobat o InDesign, inserite i riferimenti ipertestuali in corrispondenza delle mappe immagine desiderate e specificate i percorsi URL per le mappe immagine. Quando si seleziona l’opzione Estrai collegamenti durante il caricamento del file PDF in Dynamic Media Classic, i collegamenti vengono automaticamente convertiti in mappe immagine.
+In Acrobat o InDesign, inserite i riferimenti ipertestuali in corrispondenza delle mappe immagine desiderate e specificate i percorsi URL per le mappe immagine. Quando si seleziona l’opzione Estrai collegamenti durante il caricamento del file PDF in Adobe, Dynamic Media Classic converte automaticamente i collegamenti in mappe immagine.
 
 Per ulteriori informazioni, consulta la Guida di Adobe InDesign o la Guida di Adobe Acrobat.
 
@@ -203,15 +203,15 @@ Per ulteriori informazioni, consulta la Guida di Adobe InDesign o la Guida di Ad
 1. Selezionare **[!UICONTROL Nuovo collegamento ipertestuale]** dal menu del pannello.
 1. Nella finestra di dialogo Nuovo collegamento ipertestuale, dal menu **[!UICONTROL Collega a]**, scegliere **[!UICONTROL URL]**.
 1. Digita o incolla l’ID prodotto nella casella URL.
-1. Selezionare **[!UICONTROL OK]**. (Dynamic Media Classic completa l’URL utilizzando il modello URL della mappa immagine.)
+1. Selezionare **[!UICONTROL OK]**. Ad Adobe, Dynamic Media Classic completa l’URL utilizzando il modello URL della mappa immagine.
 
    >[!NOTE]
    >
-   >Non è necessario impostare le opzioni di aspetto in Adobe InDesign. Puoi specificare l’aspetto in Dynamic Media Classic.
+   >Non è necessario impostare le opzioni di aspetto in Adobe InDesign. È possibile specificare l’aspetto in Adobe Dynamic Media Classic.
 
 1. Ripetete i passaggi da 2 a 6 per tutte le mappe immagine da creare.
 1. Esportate il file come PDF.
-1. Carica il PDF in Dynamic Media Classic.
+1. Carica il PDF in Adobe Dynamic Media Classic.
 1. In **[!UICONTROL Opzioni PDF]**, selezionare **[!UICONTROL Estrai collegamenti]**.
 
 ### Per creare mappe immagine in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -222,11 +222,11 @@ Per ulteriori informazioni, consulta la Guida di Adobe InDesign o la Guida di Ad
 
 >[!NOTE]
 >
->Non è necessario impostare le opzioni di aspetto in Adobe Acrobat. Puoi specificare l’aspetto in Dynamic Media Classic.
+>Non è necessario impostare le opzioni di aspetto in Adobe Acrobat. È possibile specificare l’aspetto in Adobe Dynamic Media Classic.
 
 1. Nella casella Proprietà collegamento, seleziona **[!UICONTROL Azioni]**.
 1. Selezionare **[!UICONTROL Apri un collegamento web]** dal menu Seleziona azione, quindi selezionare **[!UICONTROL Aggiungi]**.
-1. Digita l&#39;ID prodotto per la mappa immagine nella casella Modifica URL e seleziona **[!UICONTROL OK]**. (Dynamic Media Classic completa l&#39;URL utilizzando il modello URL della mappa immagine.)
+1. Digita l&#39;ID prodotto per la mappa immagine nella casella Modifica URL e seleziona **[!UICONTROL OK]**. Ad Adobe, Dynamic Media Classic completa l’URL utilizzando il modello URL della mappa immagine.
 1. Ripetete i passaggi da 1 a 7 per tutte le mappe immagine da creare.
 1. Salvate il file.
-1. Carica il PDF in Dynamic Media Classic e seleziona Estrai collegamenti dalle opzioni PDF.
+1. Carica il PDF in Adobe Dynamic Media Classic e seleziona Estrai collegamenti dalle opzioni PDF.

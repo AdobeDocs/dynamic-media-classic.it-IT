@@ -10,26 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 41%
 
 ---
 
 # Avvio rapido: set di immagini{#quick-start-image-sets}
 
-I set di immagini di Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare viste alternative ad alta risoluzione di un elemento.
+Ad Adobe, i set di immagini Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare viste alternative ad alta risoluzione di un elemento.
 
 Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desiderate, potete includere nel set di immagini anche destinazioni di zoom e mappe immagine. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
 
-Questa procedura rapida per i set di immagini è stata progettata per iniziare a utilizzare rapidamente le tecniche per i set di immagini in Dynamic Media Classic.
+Questa procedura rapida per i set di immagini è stata progettata per iniziare a utilizzare rapidamente le tecniche per i set di immagini in Adobe Dynamic Media Classic.
 
 ## 1. Caricamento delle immagini master per più viste e campioni
 
-Per iniziare, caricate le immagini per il set di immagini. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di immagini, assicurati di tenere conto di questa funzionalità durante la scelta delle immagini. Assicurati che le immagini siano di almeno 2000 pixel nelle dimensioni più grandi. Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
+Per iniziare, caricate le immagini per il set di immagini. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di immagini, assicurati di tenere conto di questa funzionalità durante la scelta delle immagini. Assicurati che le immagini siano di almeno 2000 pixel nelle dimensioni più grandi. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
 
-Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare i file dal computer in una cartella di Dynamic Media Classic.
+Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare i file dal computer in una cartella in Adobe Dynamic Media Classic.
 
 Consultate [Preparazione delle risorse di set di immagini per il caricamento](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [Caricamento dei file](uploading-files.md#uploading-your-files).
 
@@ -45,7 +45,7 @@ Consultate anche [Inserimento di destinazioni di zoom e mappe immagine nei set d
 
 ## 3. Impostazione dei predefiniti visualizzatore di set di immagini, in base alle esigenze
 
-Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Dynamic Media Classic viene fornito con predefiniti per visualizzatori per ogni tipo di rich media. Per visualizzare i set di immagini, usate i predefiniti Visualizzatore zoom: Personalizzato > Immagini o Set di immagini/Visualizzazioni multiple.
+Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Ad Adobe, Dynamic Media Classic viene fornito con predefiniti visualizzatore per ogni tipo di rich media. Per visualizzare i set di immagini, usate i predefiniti Visualizzatore zoom: Personalizzato > Immagini o Set di immagini/Visualizzazioni multiple.
 
 Potete aggiungere o modificare i predefiniti per visualizzatori dalla schermata Impostazione applicazione.
 
@@ -59,7 +59,7 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
 ## 5. Pubblicazione di un set di immagini
 
-La pubblicazione di un set di immagini lo inserisce sui server Dynamic Media Classic e attiva la stringa URL.
+La pubblicazione di un set di immagini lo inserisce sui server Adobe Dynamic Media Classic e attiva la stringa URL.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Consultate [Pubblicazione](publishing-files.md#publishing-files).
 
 ## 6. Collegamento di un set di immagini al sito web
 
-Dynamic Media Classic crea le chiamate URL per i set di immagini e li attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
+Ad Adobe, Dynamic Media Classic crea le chiamate URL per i set di immagini e le attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
 
 Selezionare il set di immagini, quindi fare clic su **[!UICONTROL Anteprima]**. Ora seleziona un predefinito per visualizzatori di set di immagini e fai clic su **[!UICONTROL Copia URL]**.
 

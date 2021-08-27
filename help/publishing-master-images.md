@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
 
 # Pubblicazione di immagini originali{#publishing-master-images}
 
-Quando si pubblicano i file di immagine, questi vengono pubblicati sui server di immagini Dynamic Media, dove sono disponibili per il sito Web e l’applicazione. Inoltre, durante il processo di pubblicazione, Dynamic Media Classic attiva le stringhe URL necessarie per il sito web e l’applicazione.
+Quando si pubblicano i file di immagine, questi vengono pubblicati sui server di immagini Dynamic Media, dove sono disponibili per il sito Web e l’applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito web e l’applicazione.
 
 ## Contrassegnazione delle immagini originali per la pubblicazione {#marking-master-images-for-publish}
 
-Le immagini master devono essere contrassegnate per la pubblicazione affinché vengano copiate nei server immagini Dynamic Media. Per contrassegnare le immagini master da pubblicare nel pannello Sfoglia, fai clic sull&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** . Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Dynamic Media Classic.
+Le immagini master devono essere contrassegnate per la pubblicazione affinché vengano copiate nei server immagini Dynamic Media. Per contrassegnare le immagini master da pubblicare nel pannello Sfoglia, fai clic sull&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** . Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
 
 ## Pubblicazione delle immagini originali {#publishing-your-master-images}
 

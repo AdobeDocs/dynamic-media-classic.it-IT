@@ -1,6 +1,6 @@
 ---
 title: Gestire il contenuto del pannello informazioni nei set di immagini
-description: Scopri come gestire il contenuto del pannello informazioni nei set di immagini in Dynamic Media Classic.
+description: Scopri come gestire il contenuto del pannello informazioni nei set di immagini in Adobe Dynamic Media Classic.
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Potete anche gestire il pannello Info usando la cache a tempo e pianificando gli aggiornamenti dei contenuti.
 
-È possibile gestire la configurazione e i dati di InfoPanel utilizzando le seguenti funzionalità in Dynamic Media Classic:
+Puoi gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni in Adobe Dynamic Media Classic:
 
 * Il pannello Impostazioni pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita in caso di errori e il numero di ore in cui le informazioni restano nella cache. Inoltre, potete specificare se pubblicare automaticamente il set di immagini.
 * Il pannello Feed di dati InfoPanel consente di specificare un file CSV contenente il testo da visualizzare nel testo di rollover del pannello Info e i tempi di pianificazione per l’aggiornamento delle informazioni.
@@ -40,7 +40,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Per utilizzare la risposta predefinita, selezionare **[!UICONTROL Predefinito]**. Il codice XML per la creazione dei modelli viene visualizzato in modo attenuato nella casella Modello utente.
    * Per creare un modello di risposta personalizzato, seleziona **[!UICONTROL Personalizzato]**. Nella casella di testo Modello utente, digitate la definizione XML del modello. Come base, potete usare il modello predefinito che è già definito nella casella di testo.
 
-1. (Facoltativo) Nella casella Risposta predefinita, digitare il testo che si desidera visualizzare se Dynamic Media Classic rileva un errore nel recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un set di immagini, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
+1. (Facoltativo) Nella casella Risposta predefinita, digitare il testo che si desidera visualizzare se in Adobe Dynamic Media Classic viene rilevato un errore nel recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un set di immagini, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
 1. Nel campo TTL di risposta viene visualizzato il numero di ore di attesa prima che i dati vengano memorizzati nella cache.
 
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.

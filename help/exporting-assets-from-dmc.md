@@ -1,6 +1,6 @@
 ---
-title: Esportare risorse da Dynamic Media Classic
-description: Scopri come esportare risorse da Dynamic Media Classic.
+title: Esportare risorse da Adobe Dynamic Media Classic
+description: Scopri come esportare risorse da Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 52%
 
 ---
 
-# Esportare risorse da Dynamic Media Classic{#exporting-assets-from-dmc}
+# Esportare risorse da Adobe Dynamic Media Classic{#exporting-assets-from-dmc}
 
-È possibile salvare le risorse modificate in Dynamic Media Classic in un&#39;unità di rete locale. Le risorse esportate vengono raccolte in un file ZIP per il download o l’invio tramite e-mail.
+È possibile salvare le risorse modificate in Adobe Dynamic Media Classic in un&#39;unità di rete locale. Le risorse esportate vengono raccolte in un file ZIP per il download o l’invio tramite e-mail.
 
 Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione. Inoltre, è consentito un massimo di 500 risorse totali per processo di esportazione.
 
-Nella schermata Processi di Dynamic Media Classic viene conservata una registrazione dei processi di esportazione.
+Ad Adobe, Dynamic Media Classic conserva un record dei processi di esportazione nella schermata Processi.
 
-**Per esportare le risorse da Dynamic Media Classic:**
+**Per esportare risorse da Adobe Dynamic Media Classic:**
 
 1. Seleziona le risorse da esportare, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
 1. Nella finestra Esporta risorse selezionate, fate clic su **[!UICONTROL Opzioni immagini]** e specificate una delle seguenti opzioni (gli amministratori stabiliscono quali opzioni rendere disponibili agli utenti):

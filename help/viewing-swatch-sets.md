@@ -7,10 +7,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
-feature: Dynamic Media Classic,Visualizzatori
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 34%
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 Potete visualizzare i set di campioni nella finestra Anteprima tramite i predefiniti disponibili. Potete usare un predefinito Visualizzatore zoom: Personalizzato per i set di campioni.
 
-Dynamic Media Classic viene fornito con predefiniti per visualizzatori. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
+Ad Adobe, Dynamic Media Classic viene fornito con predefiniti per visualizzatori predefiniti. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
 
 ## Configurazione dei predefiniti per visualizzatori zoom per i set di campioni {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
@@ -50,9 +50,9 @@ Puoi utilizzare Anteprima per vedere come viene visualizzata una risorsa su un p
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse contenente il set di campioni da visualizzare in anteprima con un visualizzatore.
 1. Effettuate una delle seguenti operazioni:
 
-   * Fai clic sull&#39;icona **[!UICONTROL Vista a elenco]** nell&#39;angolo in alto a destra della finestra di Dynamic Media Classic. Nella finestra Risorsa, passa il puntatore del mouse su una risorsa, quindi fai clic su **[!UICONTROL Anteprima]** (non sull’elenco a discesa Anteprima).
-   * Fai clic sull&#39;icona **[!UICONTROL Vista griglia]** nell&#39;angolo superiore destro della finestra di Dynamic Media Classic. Nella finestra Risorsa, in una finestra miniatura risorsa, fai clic su **[!UICONTROL Anteprima]** (non nell’elenco a discesa Anteprima).
-   * Fai clic sull&#39;icona **[!UICONTROL Vista dettagli]** nell&#39;angolo superiore destro della finestra di Dynamic Media Classic. Sulla stessa barra degli strumenti, fare clic su **[!UICONTROL Anteprima]** (non sull&#39;elenco a discesa Anteprima).
+   * Fai clic sull&#39;icona **[!UICONTROL Vista a elenco]** nell&#39;angolo superiore destro della finestra Adobe Dynamic Media Classic. Nella finestra Risorsa, passa il puntatore del mouse su una risorsa, quindi fai clic su **[!UICONTROL Anteprima]** (non sull’elenco a discesa Anteprima).
+   * Fai clic sull&#39;icona **[!UICONTROL Vista griglia]** nell&#39;angolo superiore destro della finestra Adobe Dynamic Media Classic. Nella finestra Risorsa, in una finestra miniatura risorsa, fai clic su **[!UICONTROL Anteprima]** (non nell’elenco a discesa Anteprima).
+   * Fai clic sull&#39;icona **[!UICONTROL Vista dettagli]** nell&#39;angolo superiore destro della finestra Adobe Dynamic Media Classic. Sulla stessa barra degli strumenti, fare clic su **[!UICONTROL Anteprima]** (non sull&#39;elenco a discesa Anteprima).
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
 1. Per visualizzare un’anteprima della risorsa nel visualizzatore selezionato, fai clic sul collegamento di un visualizzatore.

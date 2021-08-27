@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
-feature: Dynamic Media Classic,Visualizzatori,Video
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 66%
+source-wordcount: '765'
+ht-degree: 67%
 
 ---
 
@@ -41,19 +41,19 @@ Consultate [Aggiunta e modifica dei predefiniti per visualizzatori](application-
 
 >[!NOTE]
 >
->Dynamic Media Classic fornisce un metodo pratico per visualizzare in anteprima video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che visualizzate nell’anteprima desktop non mostra in modo realistico l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare un&#39;anteprima dell&#39;aspetto e della riproduzione del video su un dispositivo mobile, passa alla schermata Anteprima , fai clic su **[!UICONTROL Copia URL]** e immetti tale URL nel browser web di un dispositivo mobile. Per ulteriori informazioni, consultate [Implementare i video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic fornisce un comodo metodo per visualizzare in anteprima video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che visualizzate nell’anteprima desktop non mostra in modo realistico l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare un&#39;anteprima dell&#39;aspetto e della riproduzione del video su un dispositivo mobile, passa alla schermata Anteprima , fai clic su **[!UICONTROL Copia URL]** e immetti tale URL nel browser web di un dispositivo mobile. Per ulteriori informazioni, consultate [Implementare i video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilizzo dei predefiniti per visualizzatori video {#working-with-video-viewer-presets}
 
 Gli utenti visualizzano i video nel visualizzatore video. Il comportamento del visualizzatore video, il relativo aspetto e il funzionamento dei controlli di riproduzione dipendono dal predefinito per visualizzatori scelto per la riproduzione del video. Potete scegliere un predefinito per visualizzatori nella schermata Anteprima. Dopo aver scelto un predefinito, potete ottenere l’URL per ottenere l’URL o il codice da incorporare per riprodurre il video mediante il predefinito per visualizzatore scelto.
 
-Dynamic Media Classic viene fornito con molti predefiniti per visualizzatori per la riproduzione di video e, se siete amministratori, potete creare predefiniti per visualizzatori personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
+Ad Adobe, Dynamic Media Classic viene fornito con molti predefiniti per visualizzatori per la riproduzione di video e, se siete amministratori, potete creare predefiniti per visualizzatori personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
 
 Consultate anche [Anteprima dei video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 ### Aggiunta o modifica di un predefinito per visualizzatori video {#adding-or-editing-a-video-viewer-preset}
 
-Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore e le rispettivi impostazioni predefinite. Puoi anche aggiungere e modificare i predefiniti visualizzatore personalizzati o modificare quelli esistenti forniti con Dynamic Media Classic.
+Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore e le rispettivi impostazioni predefinite. Puoi anche aggiungere e modificare i predefiniti visualizzatore personalizzati o modificare quelli esistenti forniti con Adobe Dynamic Media Classic.
 
 In Predefiniti visualizzatore potete attivare, filtrare, ordinare e visualizzare in anteprima i predefiniti per visualizzatore.
 
@@ -61,7 +61,7 @@ Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_prese
 
 **Per aggiungere o modificare un predefinito per visualizzatori video:**
 
-1. Nell’angolo in alto a destra di Dynamic Media Classic, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
+1. Nell’angolo in alto a destra di Adobe Dynamic Media Classic, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 
    Per visualizzare solo i predefiniti per i visualizzatori video, seleziona Visualizzatore video dall’elenco a discesa Visualizzatori aperti nella barra degli strumenti, direttamente sopra la tabella.
 
@@ -90,5 +90,5 @@ Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_prese
 >[!MORELIKETHIS]
 >
 >* [Best practice per la codifica video](uploading-encoding-videos.md#best_practices_for_video_encoding)
-* [Utilizzo dei predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets)
+>* [Utilizzo dei predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets)
 

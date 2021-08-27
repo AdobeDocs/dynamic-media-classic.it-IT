@@ -10,20 +10,20 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 15%
 
 ---
 
 # Verificare l’integrazione visualizzando un rapporto di Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Dopo aver creato le variabili necessarie in Adobe Analytics, averle collegate agli eventi di Dynamic Media Classic e aver completato i passaggi di implementazione necessari, puoi testare la configurazione. Potete verificare che i dati vengano acquisiti in Adobe Analytics stesso. Se la configurazione funziona, non sono necessari ulteriori interventi. Supponendo di aver seguito i passaggi precedenti e collegato i dati dell’evento Dynamic Media Classic a una o più variabili di traffico personalizzate, segui questo flusso di lavoro per testare i dati all’interno di Adobe Analytics.
+Dopo aver creato le variabili necessarie in Adobe Analytics, averle collegate agli eventi Adobe Dynamic Media Classic e aver completato i passaggi di implementazione necessari, puoi testare la configurazione. Potete verificare che i dati vengano acquisiti in Adobe Analytics stesso. Se la configurazione funziona, non sono necessari ulteriori interventi. Supponendo di aver seguito i passaggi precedenti e collegato i dati dell’evento Adobe Dynamic Media Classic a una o più variabili di traffico personalizzate, segui questo flusso di lavoro per testare i dati all’interno di Adobe Analytics.
 
 **Per verificare l’integrazione visualizzando un rapporto di Adobe Analytics:**
 
-1. Avvia un visualizzatore Dynamic Media Classic dal tuo account, in particolare quello che trasmette la metrica che desideri ottenere, e interagisce con esso per creare alcuni dati dell’evento.
+1. Avvia un visualizzatore Dynamic Media Classic di Adobe dal tuo account, in particolare quello che trasmette la metrica che desideri ottenere, e interagisce con esso per creare alcuni dati dell’evento.
 
    Ad esempio, se desideri misurare le viste alternative più diffuse in un set di immagini, visualizza in anteprima un set di immagini e fai clic sulle diverse immagini delle miniature.
 
@@ -35,6 +35,6 @@ Dopo aver creato le variabili necessarie in Adobe Analytics, averle collegate ag
 
 >[!NOTE]
 >
->Tutti i dati del visualizzatore Dynamic Media Classic vengono visualizzati e segnalati nei rapporti Traffico personalizzato o Conversione personalizzata di Adobe Analytics.
+>Tutti i dati del visualizzatore Dynamic Media Classic di Adobe vengono visualizzati e segnalati nei rapporti Traffico personalizzato o Conversione personalizzata di Adobe Analytics.
 
 Per ulteriori informazioni, consulta [Tutorials di Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).

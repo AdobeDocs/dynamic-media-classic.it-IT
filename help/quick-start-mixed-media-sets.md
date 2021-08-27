@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
-feature: Dynamic Media Classic,Visualizzatori,Set di file multimediali diversi
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 52%
 
 ---
@@ -23,13 +23,13 @@ I set di file multimediali diversi di offrono agli utenti un’esperienza visiva
 
 I predefiniti per visualizzatori di set di file multimediali diversi includono opzioni per le community Internet che permettono agli utenti finali di incorporare il codice, copiare l’URL e collegarsi al sito Web principale. Gli utenti possono usare queste opzioni per scambiarsi informazioni sui prodotti sui propri siti Web o sui siti di social networking.
 
-Questa guida rapida per set di file multimediali diversi è stata progettata per iniziare a utilizzare rapidamente le tecniche per set di file multimediali diversi in Dynamic Media Classic.
+Questa guida rapida per set di file multimediali diversi è stata progettata per iniziare a utilizzare rapidamente le tecniche per set di file multimediali diversi in Adobe Dynamic Media Classic.
 
 ## 1. Caricamento di immagini, file campione e video
 
 Per iniziare, caricate le immagini, i file di campioni e i video che desiderate inserire nei set di file multimediali diversi. Poiché gli utenti possono eseguire lo zoom sulle immagini nel visualizzatore di set di file multimediali diversi, assicurati di tenere conto di questa capacità durante la scelta delle immagini. Assicurati che le immagini siano di almeno 2000 pixel nelle dimensioni più grandi.
 
-Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare i file dal computer in una cartella di Dynamic Media Classic.
+Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare i file dal computer in una cartella in Adobe Dynamic Media Classic.
 
 Consultate [Caricamento dei file](uploading-files.md#uploading-your-files).
 
@@ -47,7 +47,7 @@ Consultate [Creazione di un set di file multimediali diversi](creating-mixed-med
 
 ## 4. Impostazione dei predefiniti visualizzatore di file multimediali diversi
 
-Dynamic Media Classic viene fornito con i predefiniti visualizzatore per set di file multimediali diversi. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di file multimediali diversi.
+Ad Adobe, Dynamic Media Classic include i predefiniti visualizzatore per set di file multimediali diversi. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di file multimediali diversi.
 
 Quando configuri un predefinito visualizzatore per set di file multimediali diversi, aggiungi i predefiniti visualizzatore per tutte le altre risorse del set. Ad esempio, se nel set di file multimediali diversi sono presenti dei video, al predefinito per visualizzatori di set di file multimediali diversi dovete aggiungere anche un predefinito per visualizzatori di video. Potete aggiungere al visualizzatore anche una colonna sonora. La colonna sonora viene riprodotta quando il visualizzatore viene aperto, ma non durante la riproduzione di un video.
 
@@ -61,7 +61,7 @@ Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
 ## 6. Pubblicazione di un set di file multimediali diversi
 
-La pubblicazione di un set di file multimediali diversi lo inserisce sui server Dynamic Media Classic e attiva la stringa URL.
+La pubblicazione di un set di file multimediali diversi lo inserisce sui server Dynamic Media Classic di Adobe e attiva la stringa URL.
 
 i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Sul **server video** vengono pubblicati i video effettivi contrassegnati per la pubblicazione, Inoltre, è possibile utilizzare **Image Server** per pubblicare le risorse correlate, come le miniature video, e impostare le informazioni per qualsiasi Adaptive Video Set.
 
@@ -69,6 +69,6 @@ Consultate [Pubblicazione di un set di file multimediali diversi](publishing-mix
 
 ## 7. Collegamento di un set di file multimediali diversi a una pagina web
 
-Dynamic Media Classic attiva le chiamate URL per i set di file multimediali diversi dopo la loro pubblicazione. Puoi copiare questi URL dalla pagina Anteprima.
+Adobe Dynamic Media Classic attiva le chiamate URL per set di file multimediali diversi dopo la pubblicazione. Puoi copiare questi URL dalla pagina Anteprima.
 
 Seleziona il set di file multimediali diversi, quindi fai clic su **[!UICONTROL Anteprima]**. Nella pagina Anteprima, seleziona un predefinito visualizzatore per set di file multimediali diversi, quindi fai clic su **[!UICONTROL Copia URL]**. Consultate [Collegamento di un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

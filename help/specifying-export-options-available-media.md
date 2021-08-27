@@ -6,13 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Collaborazione,Gestione risorse
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ Se esportate le risorse di immagini mediante una conversione definita dall’ute
 * Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
 
-Consulta anche [Esportazione di risorse da Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Consulta anche [Esportazione di risorse da Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Per specificare le opzioni di esportazione disponibili per gli utenti di Media Portal:**
 
@@ -43,5 +43,5 @@ Consulta anche [Esportazione di risorse da Dynamic Media Classic](exporting-asse
 >[!MORELIKETHIS]
 >
 >* [Predefiniti immagine](application-setup.md#image_presets)
-* [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

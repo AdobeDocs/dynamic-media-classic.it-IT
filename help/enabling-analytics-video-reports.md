@@ -1,6 +1,6 @@
 ---
 title: Abilitare i rapporti video su Adobe Analytics
-description: Scopri come abilitare i rapporti video di Adobe Analytics in Dynamic Media Classic.
+description: Scopri come abilitare i rapporti video di Adobe Analytics in Adobe Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,20 +8,20 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 13%
+source-wordcount: '250'
+ht-degree: 12%
 
 ---
 
 # Abilitare i rapporti video su Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
-Utilizzando il reporting video basato su heartbeat di Adobe Analytics, non è più necessario abilitare i quattro eventi del visualizzatore video (Play, Pause, Stop, Milestone) durante la configurazione di Adobe Analytics in Dynamic Media Classic. Video Heartbeat funziona con i visualizzatori video HTML5 e file multimediali diversi di Dynamic Media Classic integrati. Il lettore video genera dati di tracciamento per la visualizzazione in Adobe Analytics Video Reports.
+Utilizzando il reporting video basato su heartbeat di Adobe Analytics, non è più necessario abilitare i quattro eventi del visualizzatore video (Play, Pause, Stop, Milestone) durante la configurazione di Adobe Analytics in Adobe Dynamic Media Classic. Video Heartbeat funziona con i visualizzatori video HTML5 e file multimediali diversi di Dynamic Media Classic integrati con Adobe. Il lettore video genera dati di tracciamento per la visualizzazione in Adobe Analytics Video Reports.
 
 * Per un&#39;introduzione allo streaming media e alla &quot;misurazione heartbeat&quot;, consulta [Informazioni su Adobe Analytics per lo streaming multimediale](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
 
-* L’integrazione dei rapporti video di Adobe Analytics con Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
+* L’integrazione dei rapporti video di Adobe Analytics con Adobe Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
 
    Per ulteriori informazioni sulle variabili della soluzione e le variabili personalizzate, consulta [Parametri audio e video](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) .
 
@@ -33,4 +33,4 @@ Utilizzando il reporting video basato su heartbeat di Adobe Analytics, non è pi
 
 >[!NOTE]
 >
->Se la soluzione con licenza di Adobe Analytics non include Video Heartbeat, devi continuare a utilizzare i passaggi descritti in questo capitolo per assegnare le variabili Adobe Analytics agli eventi e alle variabili del visualizzatore Dynamic Media Classic.
+>Se la soluzione con licenza di Adobe Analytics non include Video Heartbeat, devi continuare a utilizzare i passaggi descritti in questo capitolo per assegnare le variabili Adobe Analytics ad Adobe gli eventi e le variabili del visualizzatore Dynamic Media Classic.

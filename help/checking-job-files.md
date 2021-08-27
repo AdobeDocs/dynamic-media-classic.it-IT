@@ -1,25 +1,25 @@
 ---
 title: Controllare i file di processo
-description: Scopri come controllare i file di lavoro in Dynamic Media Classic.
+description: Scopri come controllare i file di lavoro in Adobe Dynamic Media Classic.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 40%
 
 ---
 
 # Controllare i file di processo{#checking-job-files}
 
-Per monitorare i caricamenti di file in Dynamic Media Classic e i file pubblicati sui server Dynamic Media Classic, Dynamic Media Classic offre la pagina Processi . Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
+Per monitorare i caricamenti di file nell’Adobe Dynamic Media Classic e i file pubblicati nei server Adobe Dynamic Media Classic, la pagina Processi è disponibile in Adobe Dynamic Media Classic. Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
 
 Quando caricate delle risorse, viene visualizzata un’icona rotante accanto al menu Processi a indicare che è in corso un processo; viene inoltre visualizzato il numero di file inclusi in tale processo. Puoi selezionare l’icona per visualizzare ulteriori informazioni sul processo attivo.
 
@@ -41,7 +41,7 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 * **[!UICONTROL Totale]**  - Il numero di file trasferiti.
 
-* **[!UICONTROL W (avvisi)]**  - Il numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, i file `.DS_store` (Macintosh) e i file Thumbs.db (Windows®) contengono informazioni su come visualizzare i file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
+* **[!UICONTROL W (avvisi)]**  - Il numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, i file `.DS_store` (Macintosh) e i file Thumbs.db (Windows®) contengono informazioni su come visualizzare i file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
 
 * **[!UICONTROL E (errori)]**  - Elenca il numero di errori nel processo (se presenti). Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
 
@@ -71,7 +71,7 @@ Per ordinare i processi o modificare la visualizzazione della scheda Cronologia 
 
 ## Visualizzare, copiare o stampare un rapporto Dettagli lavoro {#viewing-copying-or-printing-a-job-details-report}
 
-Fare doppio clic sul nome di un rapporto nella pagina Processi per aprire la pagina Dettagli processo. Questa pagina fornisce un rapporto riassuntivo sui file inclusi nel processo. Seleziona **[!UICONTROL Visualizza dettagli]** per visualizzare l’ID Dynamic Media Classic di una voce, il percorso di destinazione e le informazioni sullo stato. Se hai caricato un file PDF o PostScript che richiede font non disponibili in Dynamic Media Classic, il rapporto elenca i font mancanti.
+Fare doppio clic sul nome di un rapporto nella pagina Processi per aprire la pagina Dettagli processo. Questa pagina fornisce un rapporto riassuntivo sui file inclusi nel processo. Seleziona **[!UICONTROL Visualizza dettagli]** per visualizzare l’Adobe Dynamic Media Classic ID di una voce, il percorso di destinazione e le informazioni sullo stato. Se hai caricato un file PDF o PostScript che richiede font non disponibili in Adobe Dynamic Media Classic, il rapporto elenca i font mancanti.
 
 Potete copiare queste informazioni negli Appunti.
 

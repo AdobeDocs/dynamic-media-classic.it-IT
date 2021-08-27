@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2174'
 ht-degree: 46%
 
 ---
@@ -21,29 +21,29 @@ ht-degree: 46%
 
 La nitidezza si ottiene con una tecnica di manipolazione dell’immagine che rende più netti i contorni di un’immagine digitale. La nitidezza aumenta il contrasto tra i pixel dei bordi ed enfatizza il passaggio dalle aree chiare a quelle scure e viceversa. La nitidezza aumenta il contrasto locale e mette in evidenza i dettagli. Non esiste una formula rigida per ottenere la giusta nitidezza per tutte le immagini. Una nitidezza troppo leggera può produrre immagini morbide mentre una nitidezza troppo accentuata può produrre immagini con artefatti, disturbo o aloni.
 
-Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti immagine per tutte le immagini. Garantiscono una dimensione uniforme e la nitidezza viene applicata a qualsiasi immagine chiamata con un predefinito per immagini. Inoltre, puoi facilmente modificare e modificare i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
+Ad Adobe, Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti immagine per tutte le immagini. Garantiscono una dimensione uniforme e la nitidezza viene applicata a qualsiasi immagine chiamata con un predefinito per immagini. Inoltre, puoi facilmente modificare e modificare i parametri di nitidezza di un predefinito per immagini. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
 
-Dynamic Media Classic consiglia inoltre di aggiungere nitidezza ai predefiniti per visualizzatori e quindi di chiamare un visualizzatore con tale predefinito. In questo modo, le immagini all&#39;interno dei visualizzatori sono nitide e accattivanti.
+Adobe Dynamic Media Classic consiglia inoltre di aggiungere nitidezza ai predefiniti per visualizzatori e quindi di chiamare un visualizzatore con tale predefinito. In questo modo, le immagini all&#39;interno dei visualizzatori sono nitide e accattivanti.
 
 Tuttavia, sia che si utilizzi Predefiniti immagine e Predefiniti visualizzatore, sia che si utilizzi un metodo alternativo di nitidezza, in sostanza è necessario rendere più nitide le immagini. In caso contrario, le immagini (e il sito web) possono sembrare morbide e sfocate.
 
 >[!NOTE]
 >
->il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono distribuite dai server di immagini Dynamic Media. Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti immagine per fornire tutte le immagini in modo che siano fornite con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
+>il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini regola le dimensioni e la formattazione con cui le immagini vengono distribuite dai server di immagini Dynamic Media. Ad Adobe, Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti per immagini per fornire tutte le immagini in modo che siano fornite con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
 
-È spesso necessario rendere le immagini più nitide. I server Dynamic Media Classic e Image offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
+È spesso necessario rendere le immagini più nitide. Adobe Dynamic Media Classic e Image Server offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
 
 La nitidezza aumenta il contrasto tra i pixel dell’immagine in modo da accentuarne i bordi. Gli esseri umani percepiscono il contrasto dei bordi come nitidezza. Sebbene sia facile migliorare un’immagine tramite filtri di nitidezza, è anche facile che tale regolazione risulti eccessiva.
 
 Nelle immagini con nitidezza eccessiva si possono osservare un effetto alone o bande nelle linee dei bordi.
 
-È possibile seguire le best practice per ottimizzare la nitidezza delle immagini in Dynamic Media Classic e su Dynamic Media Image Server.
+È possibile seguire le best practice per ottimizzare la nitidezza delle immagini in Adobe Dynamic Media Classic e su Dynamic Media Image Server.
 
-Consulta [Best practice per la nitidezza delle immagini in Dynamic Media Classic e su Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Consulta [Best practice per la nitidezza delle immagini in Adobe Dynamic Media Classic e su Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Per rendere più nitida un’immagine:**
 
-Per rendere più nitida un&#39;immagine, fare clic sul relativo pulsante rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Nitidezza]**, oppure aprirlo nel pannello Sfoglia in visualizzazione Dettagli, quindi fare clic su **[!UICONTROL Nitidezza]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegli i comandi e fai clic su **[!UICONTROL Salva]**.
+Per aumentare la nitidezza di un&#39;immagine, fare clic sul relativo pulsante rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Nitidezza]**, oppure aprirlo nel pannello Sfoglia in Vista dettagli, quindi fare clic su **[!UICONTROL Nitidezza]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegli i comandi e fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Selezionare il menu **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
 
 Scegli queste opzioni per ottimizzare la nitidezza con Maschera definizione dettagli:
 
-* **Importo** : controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L&#39;impostazione **[!UICONTROL Amount]** in Dynamic Media Classic non corrisponde all&#39;impostazione Amount in Adobe Photoshop. Adobe Photoshop utilizza un valore compreso tra l’1% e il 500%, mentre Dynamic Media Classic viene ridimensionato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
+* **Importo** : controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L&#39;impostazione **[!UICONTROL Amount]** in Adobe Dynamic Media Classic non corrisponde all&#39;impostazione Amount in Adobe Photoshop. Adobe Photoshop utilizza un valore compreso tra l’1% e il 500%, mentre Dynamic Media Classic viene ridimensionato da 0.0 a 5.0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
 
 * **Raggio** : determina il numero di pixel intorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni. 
 
@@ -101,7 +101,7 @@ Fai clic sul menu **[!UICONTROL Ricampionamento]** e scegli un&#39;opzione. Ques
 
 **Nitidezza e predefiniti per immagini**
 
-Potete incorporare tutti e tre gli effetti di nitidezza per ottenere il risultato finale. Tuttavia, questo metodo non è consigliato. Dynamic Media Classic consiglia di salvare gli effetti di nitidezza come parte di un predefinito per immagini. I predefiniti per immagini consentono di creare pacchetti dei modificatori di immagini più utilizzati per creare un&#39;immagine ridimensionata in modo dinamico in una stringa di testo di piccole dimensioni. Un predefinito per immagini contiene valori per il formato di file (in genere JPEG per il web), il conteggio dei pixel e la nitidezza delle immagini. Invece di aggiungere l’URL a ogni modificatore di immagine da utilizzare per creare un tipo specifico di dimensione dell’immagine, crea un predefinito per immagini denominato, ad esempio &quot;miniatura&quot;. Quindi, configura la miniatura Preimpostazione immagine con le dimensioni, il formato del file e le opzioni di nitidezza appropriate. Chiama l&#39;immagine utilizzando il nome del predefinito immagine. I predefiniti per immagini riducono la lunghezza dell’URL complessivo. Questi due URL producono la stessa immagine JPEG 350x350 con nitidezza:
+Potete incorporare tutti e tre gli effetti di nitidezza per ottenere il risultato finale. Tuttavia, questo metodo non è consigliato. Adobe Dynamic Media Classic consiglia di salvare gli effetti di nitidezza come parte di un predefinito per immagini. I predefiniti per immagini consentono di creare pacchetti dei modificatori di immagini più utilizzati per creare un&#39;immagine ridimensionata in modo dinamico in una stringa di testo di piccole dimensioni. Un predefinito per immagini contiene valori per il formato di file (in genere JPEG per il web), il conteggio dei pixel e la nitidezza delle immagini. Invece di aggiungere l’URL a ogni modificatore di immagine da utilizzare per creare un tipo specifico di dimensione dell’immagine, crea un predefinito per immagini denominato, ad esempio &quot;miniatura&quot;. Quindi, configura la miniatura Preimpostazione immagine con le dimensioni, il formato del file e le opzioni di nitidezza appropriate. Chiama l&#39;immagine utilizzando il nome del predefinito immagine. I predefiniti per immagini riducono la lunghezza dell’URL complessivo. Questi due URL producono la stessa immagine JPEG 350x350 con nitidezza:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -144,4 +144,4 @@ In questo caso il predefinito applica la nitidezza e cambia l’interfaccia pred
 
 L’ultimo metodo per l’applicazione della nitidezza, e il meno consigliato, consiste nel creare impostazioni locali di nitidezza a livello delle singole immagini. Questo metodo sostituisce la nitidezza in un predefinito immagine con i relativi valori specifici. Tuttavia, questo metodo esclude anche tutti gli altri metodi di nitidezza di qualsiasi dimensione. Questo metodo può risultare utile, ad esempio, se alcune delle immagini non sono ad alta risoluzione e i valori nei predefiniti per immagini sono quindi troppo elevati. In questo caso, è possibile che sia necessaria una certa nitidezza per immagine.
 
-In Dynamic Media Classic, selezionate un&#39;immagine, passate alla Vista dettagli (facendo doppio clic o premendo il pulsante **[!UICONTROL Visualizzazione dettagli]**) e fate clic su **[!UICONTROL Nitidezza]**. Modifica qualsiasi parametro, quindi fai clic su **[!UICONTROL Salva]**. Questo processo indica al server di immagini di utilizzare questi parametri di nitidezza anziché qualsiasi comando chiamato nell’URL, ad esempio un modificatore di nitidezza o un predefinito per immagini. Assicurati di pubblicare per vedere che le modifiche hanno effetto.
+In Adobe Dynamic Media Classic, selezionate un&#39;immagine, passate alla Vista dettagli (facendo doppio clic o premendo il pulsante **[!UICONTROL Vista dettagli]**) e fate clic su **[!UICONTROL Nitidezza]**. Modifica qualsiasi parametro, quindi fai clic su **[!UICONTROL Salva]**. Questo processo indica al server di immagini di utilizzare questi parametri di nitidezza anziché qualsiasi comando chiamato nell’URL, ad esempio un modificatore di nitidezza o un predefinito per immagini. Assicurati di pubblicare per vedere che le modifiche hanno effetto.

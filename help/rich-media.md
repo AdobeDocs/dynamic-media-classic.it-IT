@@ -1,6 +1,6 @@
 ---
 title: Contenuti multimediali
-description: Scopri la varietà di strumenti in Dynamic Media Classic che possono essere utili per la creazione di contenuti multimediali complessi.
+description: Scopri la varietà di strumenti disponibili in Adobe Dynamic Media Classic per la creazione di contenuti rich media.
 uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '456'
 ht-degree: 48%
 
 ---
 
 # Contenuti multimediali{#rich-media}
 
-Dynamic Media Classic offre molti strumenti per la creazione di rich media. Potete creare i seguenti tipi di contenuti multimediali:
+Adobe Dynamic Media Classic offre molti strumenti per la creazione di contenuti multimediali. Potete creare i seguenti tipi di contenuti multimediali:
 
 * **eCatalogs**  - Presenta una versione web interattiva e abilitata alla ricerca del catalogo o di altro materiale per la stampa. Potete creare aree selezionabili (o “mappe immagine”) per mostrare contenuti di rollover e consentire agli utenti di voltare le pagine, effettuare lo zoom, scorrere le pagine e allegarvi delle note.
 Consultate [Avvio rapido: eCatalog](/help/quick-start-ecatalog.md).
 
-* **eVideo** : per fornire esperienze video di alta qualità su più schermi, compresi desktop, dispositivi mobili e tablet. Utilizza predefiniti di codifica Dynamic Media Classic o personalizza la codifica per controllare la qualità e le dimensioni del video. Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video.
+* **eVideo** : per fornire esperienze video di alta qualità su più schermi, compresi desktop, dispositivi mobili e tablet. Utilizza predefiniti di codifica Dynamic Media Classic di Adobe o personalizza la codifica per controllare la qualità e le dimensioni del video. Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video.
 Consultate [Avvio rapido: eVideo](/help/quick-start-video.md).
 
-* **Mappe immagine** : consente di distribuire dinamicamente le immagini di qualsiasi dimensione e formato in tutto il sito web. Invece di creare manualmente molte immagini con diverse dimensioni, è sufficiente utilizzare un’immagine principale. Poiché Dynamic Media Classic fornisce l&#39;immagine richiesta, ottimizza l&#39;immagine per ottenere risultati di altissima qualità in dimensioni, formato, peso, qualità e nitidezza.
+* **Mappe immagine** : consente di distribuire dinamicamente le immagini di qualsiasi dimensione e formato in tutto il sito web. Invece di creare manualmente molte immagini con diverse dimensioni, è sufficiente utilizzare un’immagine principale. Ad Adobe, Dynamic Media Classic fornisce l&#39;immagine richiesta, ottimizza l&#39;immagine per ottenere risultati di altissima qualità in dimensioni, formato, peso, qualità e nitidezza.
 Consultate [Avvio rapido: ridimensionamento delle immagini](/help/quick-start-image-sizing.md)
 
 * **Set di immagini** : fornire un’esperienza di acquisto interattiva in cui gli utenti possono visualizzare i prodotti in più viste. Potete combinare zoom, visualizzazioni multiple e campioni colori per un’esperienza di visualizzazione integrata.
@@ -45,5 +45,5 @@ Vedere [Avvio rapido: Set di campioni](/help/quick-start-swatch-sets.md).
 * **Nozioni di base sui modelli** : consente di creare modelli basati su dati che combinano font, immagini e grafica per la mono-grafia, la personalizzazione online e le promozioni. Ad esempio, potete integrare la grafica da materiali di vendita o altri tipi di attività promozionali nelle immagini dei prodotti; consentire l’inserimento dei nomi dei clienti su articoli quali T-shirt o tazze; o ancora inserire il nome dei clienti nei messaggi e-mail o nelle brochure cartacee che ricevono.
 Consultate [Avvio rapido: funzioni di base dei modelli](/help/quick-start-template-basics.md).
 
-* **Destinazioni zoom** : consente ai clienti di ingrandire, ridurre e scorrere le immagini utilizzando i visualizzatori configurabili forniti con Dynamic Media Classic. I clienti possono visualizzare rapidamente e interattivamente i dettagli dei prodotti ad alta risoluzione.
+* **Destinazioni zoom** : consente ai clienti di ingrandire, ridurre e scorrere le immagini utilizzando i visualizzatori configurabili forniti con Adobe Dynamic Media Classic. I clienti possono visualizzare rapidamente e interattivamente i dettagli dei prodotti ad alta risoluzione.
 Consultate [Avvio rapido: zoom](/help/quick-start-zoom.md).

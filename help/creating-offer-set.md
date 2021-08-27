@@ -1,6 +1,6 @@
 ---
 title: Creare un set di offerte
-description: Scopri come creare un set di offerte in Dynamic Media Classic.
+description: Scopri come creare un set di offerte in Adobe Dynamic Media Classic.
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1232'
 ht-degree: 38%
 
 ---
@@ -27,11 +27,11 @@ Potete creare i seguenti tipi di set di offerte:
 
 Per i modelli, selezionare **[!UICONTROL Aggiungi e visualizza anteprima]**, quindi impostare i parametri scelti. Gli altri tipi di set di offerte non includono parametri, ma puoi comunque personalizzarli selezionando **[!UICONTROL Anteprima]** e modificando i predefiniti disponibili.
 
-Dynamic Media Classic offre strumenti per la modifica e la creazione di set di offerte.
+Adobe Dynamic Media Classic offre strumenti per la modifica e la creazione di set di offerte.
 
 >[!NOTE]
 >
->Prima di creare un set di offerte, accertati di pubblicare tutte le risorse che intendi utilizzare per il set in Dynamic Media Classic. Consultate [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
+>Prima di creare un set di offerte, accertati di pubblicare tutte le risorse che intendi utilizzare per il set in Adobe Dynamic Media Classic. Consultate [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipi di set di offerte {#types-of-offer-sets}
 
@@ -39,7 +39,7 @@ Potete creare un set di offerte dai seguenti tipi di set di offerte:
 
 * **Immagini**  - Puoi assemblare le immagini per un set di offerte. Ogni immagine include una diversa offerta nel set.
 
-* **Modello immagine**  - È possibile parametrizzare i modelli immagine in Dynamic Media Classic con il comando Genera > Nozioni di base sui modelli. Attraverso i parametri, potete scambiare e personalizzare i componenti del modello, come il testo all’interno di cornici di testo e le varie immagini. Per un set di offerte potete utilizzare i parametri dei modelli per creare, ad esempio, varianti di una stessa immagine nel set di offerte. Per informazioni sulla creazione e la definizione di parametri per i modelli per immagini, consultate Creazione di parametri per i modelli.
+* **Modello immagine** : è possibile parametrizzare modelli immagine in Adobe Dynamic Media Classic con il comando Genera > Nozioni di base sui modelli. Attraverso i parametri, potete scambiare e personalizzare i componenti del modello, come il testo all’interno di cornici di testo e le varie immagini. Per un set di offerte potete utilizzare i parametri dei modelli per creare, ad esempio, varianti di una stessa immagine nel set di offerte. Per informazioni sulla creazione e la definizione di parametri per i modelli per immagini, consultate Creazione di parametri per i modelli.
 
 * **Video** : puoi assemblare video per un set di offerte. Ciascun video rappresenta una diversa offerta nel set.
 
@@ -122,7 +122,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per modificare un set di offerte:**
 
-1. Per modificare un set di offerte, visualizzalo nella vista Griglia o Elenco e seleziona il relativo pulsante di rollover **[!UICONTROL Modifica]**.
+1. Per modificare un set di offerte, visualizzalo in Vista griglia o Vista a elenco, quindi seleziona il relativo pulsante di rollover **[!UICONTROL Modifica]**.
 1. Nella pagina Set di offerte Test&amp;Target , effettua una delle seguenti operazioni:
 
    * **Rimozione di un’offerta** : seleziona l’offerta, quindi seleziona  **** Elimina per rimuovere un’offerta dal set.
@@ -132,7 +132,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    >[!NOTE]
    >
-   >non potete eliminare un set di offerte associato a una campagna. Per eliminare un set di offerte associato a una campagna, accedi ad Adobe Target Standard/Premium e rimuovi prima le associazioni di campagne. Anche dopo aver annullato l’associazione da una campagna, la risorsa può essere eliminata solo da Dynamic Media Classic, richiedendo l’accesso ad Adobe Target Standard/Premium e non da Adobe Target Standard/Premium.
+   >non potete eliminare un set di offerte associato a una campagna. Per eliminare un set di offerte associato a una campagna, accedi ad Adobe Target Standard/Premium e rimuovi prima le associazioni di campagne. Anche dopo aver annullato l’associazione da una campagna, la risorsa può essere eliminata solo da Adobe Dynamic Media Classic, richiedendo l’accesso ad Adobe Target Standard/Premium e non da Adobe Target Standard/Premium.
 
 1. Al termine della modifica, accertati che nell’angolo in basso a destra della pagina sia selezionato **[!UICONTROL Pubblica dopo aver salvato]** (impostazione predefinita).
 1. Selezionare **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set, quindi selezionare **[!UICONTROL Salva]**.

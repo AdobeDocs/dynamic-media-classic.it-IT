@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 7%
+source-wordcount: '230'
+ht-degree: 6%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 7%
 
 # Accesso ad Adobe Dynamic Media Classic {#dmc-sign-in}
 
-Assicurati di avere quanto segue prima di utilizzare l&#39;applicazione desktop Dynamic Media Classic:
+Assicurati di avere quanto segue prima di utilizzare l&#39;applicazione desktop Adobe Dynamic Media Classic:
 
 * **Nome utente** : utilizza il tuo indirizzo e-mail come nome di accesso.
 
-* **Password** : puoi ottenere la password temporanea tramite un messaggio e-mail di benvenuto da Dynamic Media Classic o dal tuo amministratore Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
+* **Password** : puoi ottenere la password temporanea tramite un messaggio e-mail di benvenuto da Adobe Dynamic Media Classic o dal tuo amministratore Dynamic Media Classic di Adobe. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
 
 1. Apri l’applicazione desktop Adobe Dynamic Media Classic.
 
-   ![Accesso a Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Accesso Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Nel campo **[!UICONTROL Nome utente]**, immetti il tuo indirizzo e-mail.
 1. Nel campo **[!UICONTROL Password]**, digita la password.
@@ -44,7 +44,7 @@ Utilizza la seguente mappatura per selezionare l&#39;ambiente di produzione che 
 
 ## Disconnessione da Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Nell’angolo in alto a destra dell’applicazione desktop Dynamic Media Classic, tocca **[!UICONTROL Disconnetti]**, quindi tocca di nuovo **[!UICONTROL Disconnetti]**.
+1. Nell’angolo in alto a destra dell’applicazione desktop Adobe Dynamic Media Classic, tocca **[!UICONTROL Esci]**, quindi tocca di nuovo **[!UICONTROL Esci]**.
 
 >[!MORELIKETHIS]
 >

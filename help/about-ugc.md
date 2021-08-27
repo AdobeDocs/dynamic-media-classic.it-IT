@@ -1,5 +1,5 @@
 ---
-title: Informazioni sui contenuti generati dall’utente in Dynamic Media Classic
+title: Informazioni sui contenuti generati dall’utente in Adobe Dynamic Media Classic
 description: Introduzione al contenuto generato dall’utente.
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
@@ -9,16 +9,16 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 53%
 
 ---
 
-# Informazioni sui contenuti generati dall’utente in Dynamic Media Classic {#about-user-generated-content}
+# Informazioni sui contenuti generati dall’utente in Adobe Dynamic Media Classic {#about-user-generated-content}
 
-L’utilizzo di UGC (contenuto generato dall’utente) consiste nel caricare risorse in un archivio di archiviazione Dynamic Media Classic dedicato e nell’eseguire le operazioni correlate.
+L’utilizzo di UGC (contenuto generato dall’utente) consiste nel caricare risorse in un archivio di archiviazione Dynamic Media Classic dedicato ad Adobe ed eseguire le relative operazioni.
 
 UGC supporta i seguenti formati:
 

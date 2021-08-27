@@ -1,6 +1,6 @@
 ---
 title: Profili ICC (International Color Consortium)
-description: Scopri i profili ICC in Dynamic Media Classic.
+description: Scopri i profili ICC in Adobe Dynamic Media Classic.
 uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 64%
+source-wordcount: '451'
+ht-degree: 54%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 64%
 
 Un profilo ICC (International Color Consortium) è un file che descrive come convertire correttamente i file di immagini da uno spazio colore a un altro. I profili ICC consentono di ottenere i colori corretti per le immagini. Ad esempio, per visualizzare correttamente immagini destinate alla stampa sul monitor di un computer, potete scegliere un profilo ICC. Questo profilo consente di convertire l’immagine in un diverso spazio colore e garantisce che i colori vengano visualizzati correttamente online.
 
-In Dynamic Media Classic, puoi scegliere un profilo ICC per convertire le immagini in uno spazio colore diverso quando carichi le immagini. Tutti i profili ICC standard di Photoshop sono disponibili per impostazione predefinita in Dynamic Media Classic. Per visualizzare i nomi dei profili colore nella schermata Carica, selezionate il menu Profilo colore. Quindi scegliete Personale Da > A e scegliete il nome di un profilo ICC nei menu Personale Da e Personale A.
+In Adobe Dynamic Media Classic, puoi scegliere un profilo ICC per convertire le immagini in uno spazio colore diverso quando carichi le immagini. Tutti i profili ICC standard di Photoshop sono disponibili per impostazione predefinita in Dynamic Media Classic. Per visualizzare i nomi dei profili colore nella schermata Carica, selezionate il menu Profilo colore. Quindi scegliete Personale Da > A e scegliete il nome di un profilo ICC nei menu Personale Da e Personale A.
 
 Consulta [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 
-Oltre a utilizzare i profili ICC predefiniti, puoi caricare altri profili ICC in Dynamic Media Classic e renderli disponibili per la conversione dello spazio colore. In visualizzazione Dettagli nel pannello Sfoglia potete vedere la classe del profilo, il tipo di spazio colore e il tipo PCS di un profilo ICC.
+Oltre a utilizzare i profili ICC predefiniti, puoi caricare altri profili ICC in Adobe Dynamic Media Classic e renderli disponibili per la conversione dello spazio colore. Passa a Vista dettagli nel pannello Sfoglia per esaminare la classe di profilo, il tipo di spazio colore e il tipo PCS di un profilo ICC.
 
 ## Caricare profili ICC {#uploading-icc-profiles}
 
-Caricate profili ICC con le stesse tecniche usate per caricare altri file. Puoi archiviare i profili ICC in qualsiasi cartella di Dynamic Media Classic.
+Caricate profili ICC con le stesse tecniche usate per caricare altri file. Puoi archiviare i profili ICC in qualsiasi cartella Adobe Dynamic Media Classic.
 
 Consulta [Caricare i file](uploading-files.md#uploading_your_files).
 
 ## Esamina un profilo ICC {#examining-an-icc-profile}
 
-Per analizzare un profilo ICC, selezionatelo nel pannello Sfoglia per visualizzarlo in visualizzazione Dettagli. La Vista dettagli fornisce le seguenti informazioni sui profili ICC:
+Per esaminare un profilo ICC, selezionalo nel pannello Sfoglia e visualizzalo in visualizzazione Dettagli. La Vista dettagli fornisce le seguenti informazioni sui profili ICC:
 
 * **[!UICONTROL Classe di profilo]** : il ICC (International Color Consortium) definisce ogni classe per coprire un tipo di applicazione. Ad esempio, i profili di Input si applicano a dispositivi quali fotocamere digitali e scanner e i profili di Output si applicano alle stampanti.
 

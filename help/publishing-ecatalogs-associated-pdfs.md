@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic,Visualizzatori,eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 26%
 
 ---
 
 # Pubblicazione di eCatalogs e dei PDF associati{#publishing-ecatalogs-and-associated-pdfs}
 
-Con la pubblicazione l’eCatalog e il PDF vengono inseriti nei server di immagini Dynamic Media in modo che possano essere resi disponibili al sito Web o all’applicazione. Come parte del processo di pubblicazione, Dynamic Media Classic attiva la stringa URL. che potete inserire nel codice della pagina Web HTML.
+Con la pubblicazione l’eCatalog e il PDF vengono inseriti nei server di immagini Dynamic Media in modo che possano essere resi disponibili al sito Web o all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL. che potete inserire nel codice della pagina Web HTML.
 
 >[!NOTE]
 >

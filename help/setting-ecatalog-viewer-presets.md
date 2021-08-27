@@ -6,21 +6,21 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
-feature: Dynamic Media Classic,Visualizzatori,Predefiniti visualizzatore,eCatalog
+feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 42%
 
 ---
 
 # Impostazione dei predefiniti per il visualizzatore di eCatalog{#setting-up-ecatalog-viewer-presets}
 
-I predefiniti per il visualizzatore di eCatalog determinano lo stile, il comportamento e l’aspetto dei visualizzatori eCatalog. Dynamic Media Classic fornisce i predefiniti per visualizzatori di eCatalog ed è possibile creare i propri predefiniti per visualizzatori di eCatalog anche se si è un amministratore.
+I predefiniti per il visualizzatore di eCatalog determinano lo stile, il comportamento e l’aspetto dei visualizzatori eCatalog. Ad Adobe, Dynamic Media Classic fornisce i predefiniti per visualizzatori di eCatalog ed è possibile creare i propri predefiniti per visualizzatori di eCatalog anche se si è un amministratore.
 
-Per creare un predefinito, puoi iniziare da zero o iniziare con un predefinito per visualizzatori di eCatalog fornito da Dynamic Media Classic e salvarlo con un nuovo nome. Potete creare predefiniti per visualizzatore di eCatalog personalizzati per presentare ad esempio il materiale stampato con i colori della vostra azienda.
+Per creare un predefinito, puoi iniziare da zero o iniziare con un predefinito per visualizzatori eCatalog fornito da Dynamic Media Classic e salvarlo con un nuovo nome. Potete creare predefiniti per visualizzatore di eCatalog personalizzati per presentare ad esempio il materiale stampato con i colori della vostra azienda.
 
 I predefiniti per visualizzatore di eCatalog offrono diverse impostazioni per passare da una pagina all’altra, effettuare zoom e ricerche e scegliere le interfacce. L’aspetto di questi controlli e l’aspetto del visualizzatore dipendono dalla scelta dei predefiniti per visualizzatori di eCatalog.
 
@@ -48,7 +48,7 @@ Segui questi passaggi per creare un predefinito per visualizzatori di eCatalog (
    | `$2$` | frame | Numero di sequenza del fotogramma attualmente visualizzato nel set di immagini. |
    | `$3$` | imageroot | Primo elemento del percorso del primo elemento specificato nel comando dell’immagine (in genere si tratta dell’ID del catalogo di immagini per la voce del catalogo che specifica il set di immagini). |
 
-1. (Facoltativo) Nella casella **[!UICONTROL Impostazioni pannello informazioni]**, digitare il testo da visualizzare se Dynamic Media Classic rileva un errore nel recupero delle informazioni relative a una mappa immagine. **** Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
+1. (Facoltativo) Nella casella **[!UICONTROL Impostazioni pannello informazioni]**, digitare il testo che si desidera visualizzare se, ad Adobe, Dynamic Media Classic rileva un errore nel recupero delle informazioni relative a una mappa immagine. **** Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
 
 >[!NOTE]
 >

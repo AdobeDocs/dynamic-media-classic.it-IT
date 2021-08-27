@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic,Visualizzatori
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 82%
+source-wordcount: '173'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ Per creare un set di campioni, è necessario disporre di vignettature o diversi 
 * Uno scatto della stessa giacca in ciascuna delle varianti nero, marrone e verde.
 * Un campione di colore per ciascun colore (nero, marrone e verde).
 
-Poiché gli utenti possono eseguire lo zoom delle immagini in set di campioni, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
+Poiché gli utenti possono eseguire lo zoom delle immagini in set di campioni, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
 
 Per istruzioni dettagliate sul caricamento delle risorse, consultate [Caricamento dei file](uploading-files.md#uploading_files).
 

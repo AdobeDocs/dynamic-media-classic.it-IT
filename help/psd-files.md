@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 45%
+source-wordcount: '990'
+ht-degree: 41%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 45%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
 
-I file PSD (Photoshop Document Files) sono utilizzati più spesso in Dynamic Media Classic per creare i modelli. Quando carichi un file PSD, puoi creare automaticamente un modello Dynamic Media Classic dal file (seleziona l’opzione Crea modello nella schermata Carica ).
+I file PSD (Photoshop Document Files) sono utilizzati più spesso in Adobe Dynamic Media Classic per creare i modelli. Quando carichi un file PSD, puoi creare automaticamente un modello Adobe Dynamic Media Classic dal file (seleziona l’opzione Crea modello nella schermata Carica ).
 
-Dynamic Media Classic crea più immagini da un file PSD con livelli, se utilizzate il file per creare un modello; crea un&#39;immagine per ogni livello.
+Ad Adobe, Dynamic Media Classic crea più immagini da un file PSD con livelli se utilizzi il file per creare un modello; crea un&#39;immagine per ogni livello.
 
 ## Opzioni di caricamento PSD {#psd-upload-options}
 
@@ -33,7 +33,7 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
 * **Opzioni**  di ritaglio - Situato in Opzioni  **[!UICONTROL di ritaglio]**. Selezionate Trim per ritagliare automaticamente lo spazio bianco dai bordi di un file PSD; fare clic su **[!UICONTROL Manuale]** per ritagliare i lati del file PSD:
 
-   * **Taglia**  - Selezionate il menu di  **[!UICONTROL scelta rapida basato su]** rifilo e scegliete  **** Colore  **[!UICONTROL trasparenza]**.
+   * **Taglia**  - Selezionate il menu di  **[!UICONTROL menu]** Annulla rifilo basato su e scegliete  **** Colore  **[!UICONTROL trasparenza]**.
 
       Se scegliete l’opzione Colore, dal menu Angolo scegliete l’angolo del file PSD con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
 
@@ -47,11 +47,11 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
    * **Mantieni spazio colore originale** : mantiene lo spazio colore originale dell&#39;immagine.
 
-   * **Personalizzato da > A** : apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Dynamic Media Classic. Consultate [Profili ICC](/help/icc-profiles.md).
+   * **Personalizzato da > A** : apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. È possibile scegliere uno spazio colore Photoshop standard o uno spazio colore caricato in Adobe Dynamic Media Classic. Consultate [Profili ICC](/help/icc-profiles.md).
 
 * **Opzioni Photoshop**
 
-   * **Gestisci livelli** : consente di rimuovere gli eventuali livelli del file PSD in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in visualizzazione Dettagli e selezionate il pannello dei livelli. Consultate Visualizzazione e modifica dei livelli in un file PSD.
+   * **Gestisci livelli** : consente di rimuovere gli eventuali livelli del file PSD in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in Vista dettagli e selezionate il pannello dei livelli. Consultate Visualizzazione e modifica dei livelli in un file PSD.
 
    * **Crea modello** : crea un modello dai livelli nel file PSD.
 
@@ -59,7 +59,7 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
    * **Estendi i livelli alle dimensioni dello sfondo** : consente di estendere le dimensioni dei livelli immagine ritagliati alle dimensioni del livello di sfondo.
 
-   * **Denominazione livello** : i livelli nel file PSD vengono caricati come immagini separate. Per assegnare un nome a queste immagini in Dynamic Media Classic, scegli tra le seguenti opzioni:
+   * **Denominazione livello** : i livelli nel file PSD vengono caricati come immagini separate. Per assegnare un nome a queste immagini in Adobe Dynamic Media Classic, scegli tra le seguenti opzioni:
 
       * **Nome livello** : assegna un nome alle immagini dopo i loro nomi di livello nel file PSD. Ad esempio, un livello denominato Price Tag nel file PSD originale diventa un’immagine denominata Price Tag. Se però i nomi dei livelli del file PSD sono nomi di livello predefiniti di Photoshop (Sfondo, Livello 1, Livello 2 e così via), le immagini vengono denominate in base al numero del rispettivo livello nel file PSD e non in base al nome predefinito del livello.
 
@@ -71,9 +71,9 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
 ## Visualizzazione e modifica dei livelli in un file PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Se hai selezionato l’opzione Mantieni livelli al momento del caricamento del file PSD, Dynamic Media Classic ha suddiviso i singoli livelli in risorse. Per visualizzare e modificare i livelli delle risorse appartenenti al file PSD, aprite il file nel pannello Sfoglia in visualizzazione Dettagli.
+Se hai selezionato l’opzione Mantieni livelli al momento del caricamento del file PSD, Adobe Dynamic Media Classic ha suddiviso i singoli livelli in risorse. Per visualizzare e modificare i livelli delle risorse appartenenti a un file PSD, aprite il file nel pannello Sfoglia in visualizzazione Dettagli.
 
-1. Fare doppio clic sul file PSD completo nel pannello Sfoglia. Il file viene aperto nella vista Dettaglio.
+1. Fare doppio clic sul file PSD completo nel pannello Sfoglia. Il file viene aperto in Vista dettagli.
 
    >[!NOTE]
    >
@@ -90,4 +90,4 @@ Se hai selezionato l’opzione Mantieni livelli al momento del caricamento del f
 
 1. Fate clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome]**.
 1. Per visualizzare o modificare un altro livello, fate clic su una freccia sotto all’anteprima del livello.
-1. Per uscire dalla vista Dettaglio livello, fare clic sull&#39;icona **[!UICONTROL Vista griglia]**.
+1. Per uscire dalla Vista dettagli livello, fare clic sull&#39;icona **[!UICONTROL Vista griglia]**.

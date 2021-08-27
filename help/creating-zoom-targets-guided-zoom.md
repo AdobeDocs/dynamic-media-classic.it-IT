@@ -1,6 +1,6 @@
 ---
 title: Creare destinazioni di zoom per lo zoom guidato
-description: Scopri come creare destinazioni di zoom per lo zoom guidato in Dynamic Media Classic.
+description: Scopri come creare destinazioni di zoom per lo zoom guidato in Adobe Dynamic Media Classic.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 44%
 
 ---
@@ -38,7 +38,7 @@ Potete modificare le dimensioni del visualizzatore zoom in modo che corrispondan
 
 Potete creare e modificare le destinazioni di zoom nella schermata Editor destinazioni di zoom. Per aprire questa schermata, selezionate un’immagine ed effettuate una delle seguenti operazioni:
 
-* selezionate il pulsante rollover **[!UICONTROL Modifica]** e scegliete Destinazioni zoom.
+* Selezionare il pulsante rollover **[!UICONTROL Modifica]** e scegliere Destinazioni zoom.
 * Nel pannello Sfoglia, visualizza l&#39;immagine in **[!UICONTROL Vista dettagli]**, quindi seleziona **[!UICONTROL Destinazioni zoom]**.
 
 Nella schermata Editor di destinazione zoom, seleziona il pulsante **[!UICONTROL Seleziona destinazione]** (freccia) per selezionare una destinazione prima di modificarne le dimensioni o la posizione. Per creare una destinazione di zoom sull&#39;immagine, seleziona **[!UICONTROL Aggiungi destinazioni]** (rettangolo). La pagina Editor di destinazione zoom offre anche strumenti per eliminare, copiare e denominare le destinazioni di zoom.

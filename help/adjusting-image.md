@@ -1,31 +1,31 @@
 ---
 title: Regolare un’immagine
-description: Scopri come regolare un’immagine in Dynamic Media Classic.
+description: Scopri come regolare un’immagine in Adobe Dynamic Media Classic.
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic,Gestione risorse
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '565'
 ht-degree: 58%
 
 ---
 
 # Regolare un’immagine{#adjusting-an-image}
 
-Dynamic Media Classic offre vari comandi per regolare l’aspetto di un’immagine. Potete riflettere, ruotare, sfocare e colorare un’immagine e cambiarne il bilanciamento colore. Sperimentando con questi comandi potete vederne gli effetti sull’immagine con cui state lavorando.
+Adobe Dynamic Media Classic offre vari comandi per regolare l&#39;aspetto di un&#39;immagine. Potete riflettere, ruotare, sfocare e colorare un’immagine e cambiarne il bilanciamento colore. Sperimentando con questi comandi potete vederne gli effetti sull’immagine con cui state lavorando.
 
 Vedere anche [Creare un alias per un&#39;immagine](adjusting-image.md#creating_an_alias_for_an_image).
 
 **Per regolare un&#39;immagine:**
 
-1. Selezionate il pulsante rollover Modifica dell’immagine e scegliete Regola oppure nel pannello Sfoglia fate doppio clic sull’immagine per aprirla in visualizzazione Dettagli.
+1. Selezionate il pulsante rollover Modifica dell’immagine e scegliete Regola oppure nel pannello Sfoglia fate doppio clic sull’immagine per aprirla in Vista dettagli.
 1. Selezionate un formato e un predefinito immagine (nelle parte inferiore della finestra).
 1. Usate i comandi sul lato destro della finestra Editor regolazioni per regolare l’immagine:
 

@@ -10,9 +10,9 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '782'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 I modelli di base vengono creati in modo dinamico e indirizzabili file di immagini a più livelli, come file a più livelli in applicazioni di modifica delle immagini come Adobe Photoshop. Diversamente dai file statici contenenti livelli, come ad esempio un file PSD, un modello può includere dei parametri che consentono di agire su diversi aspetti dell’immagine e personalizzarli.
 
-Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. È possibile convertire un file statico contenente livelli, ad esempio un file PSD a livelli, in un modello e creare modelli in Dynamic Media Classic. È possibile creare livelli di testo nei modelli utilizzando i font caricati in Dynamic Media Classic. Dopo aver aggiunto del testo a un modello, potete formattarlo modificandone giustificazione, font, dimensioni font e colore.
+Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. È possibile convertire un file statico contenente livelli, ad esempio un file PSD a livelli, in un modello e creare modelli in Adobe Dynamic Media Classic. È possibile creare livelli di testo nei modelli utilizzando i font caricati in Adobe Dynamic Media Classic. Dopo aver aggiunto del testo a un modello, potete formattarlo modificandone giustificazione, font, dimensioni font e colore.
 
 La pagina Parametri consente di convertire qualsiasi aspetto di un modello in un parametro indirizzabile. Questo consente di scegliere l’immagine a livelli o il valore di testo da usare nel modello. I parametri vengono trasmessi con la stringa URL e possono essere modificati per personalizzare in modo dinamico l’immagine di risposta generata dal server immagini.
 
@@ -29,13 +29,13 @@ Questa sezione è stata progettata per imparare a usare rapidamente i modelli di
 
 ## 1. Carica i file
 
-Per iniziare, caricate il file PSD o il file immagine per il modello. Dynamic Media Classic supporta molti formati di file immagine oltre a PSD, ma le immagini TIFF e PNG senza perdita sono consigliate per i modelli perché consentono la trasparenza.
+Per iniziare, caricate il file PSD o il file immagine per il modello. Adobe Dynamic Media Classic supporta molti formati di file immagine oltre a PSD, ma le immagini TIFF e PNG senza perdite sono consigliate per i modelli perché consentono la trasparenza.
 
-Se utilizzi un file PSD per generare il modello, seleziona **[!UICONTROL Crea modello]** nella finestra di dialogo **[!UICONTROL Opzioni processo di caricamento]** quando carichi il file PSD. Scegli anche un&#39;opzione **[!UICONTROL Denominazione livello]** in modo che Dynamic Media Classic sappia come denominare i livelli PSD quando vengono caricati in Dynamic Media Classic.
+Se utilizzi un file PSD per generare il modello, seleziona **[!UICONTROL Crea modello]** nella finestra di dialogo **[!UICONTROL Opzioni processo di caricamento]** quando carichi il file PSD. Scegli anche un&#39;opzione **[!UICONTROL Denominazione livello]** in modo che Adobe Dynamic Media Classic sappia denominare i livelli PSD quando vengono caricati in Adobe Dynamic Media Classic.
 
 Se utilizzate dei file immagine, al momento del caricamento potete ritagliare le immagini e creare una maschera dai tracciati di ritaglio presenti nelle immagini.
 
-Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare un file PSD o altri file di immagine dal computer in una cartella in Dynamic Media Classic. Consultate [Caricamento dei file modello](uploading-template-files.md#uploading_template_files)
+Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare un file PSD o altri file di immagine dal computer in una cartella in Adobe Dynamic Media Classic. Consultate [Caricamento dei file modello](uploading-template-files.md#uploading_template_files)
 
 ## 2. Creare un modello
 

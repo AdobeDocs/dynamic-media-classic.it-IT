@@ -1,18 +1,18 @@
 ---
 title: Aggiungere e gestire gli utenti di Media Portal
-description: Scopri come aggiungere e gestire gli utenti di Media Portal in Dynamic Media Classic.
+description: Scopri come aggiungere e gestire gli utenti di Media Portal in Adobe Dynamic Media Classic.
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Collaborazione,Gestione risorse
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ Potete visualizzare i nomi e gli indirizzi e-mail degli utenti Media Portal in u
 
 ## Impostare il messaggio di benvenuto per gli utenti di Media Portal {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Portal, potete inviare loro un messaggio di benvenuto. È possibile configurare questo messaggio di posta elettronica o comunicare a Dynamic Media Classic di non inviarlo.
+Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Portal, potete inviare loro un messaggio di benvenuto. È possibile configurare questo messaggio di posta elettronica o comunicare ad Adobe Dynamic Media Classic di non inviarlo.
 
 1. Passa a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Configurazione amministrazione]** > **[!UICONTROL Amministrazione utente]**.
 1. Nella schermata Configurazione amministrazione utente, seleziona **[!UICONTROL Impostazioni e-mail]**.
@@ -115,9 +115,9 @@ Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Po
 
    * **[!UICONTROL Invia e-mail]** : deseleziona questa opzione se non desideri informare i nuovi utenti via e-mail che li hai registrati.
 
-   * **[!UICONTROL Password predefinita]** : immetti una password temporanea per i nuovi utenti o lascia vuoto il campo per consentire a Dynamic Media Classic di generare password casuali. Agli utenti viene richiesto di cambiare la password al primo accesso.
+   * **[!UICONTROL Password predefinita]** : immetti una password temporanea per i nuovi utenti o lascia vuoto il campo affinché Adobe Dynamic Media Classic generi password casuali. Agli utenti viene richiesto di cambiare la password al primo accesso.
 
-   * **[!UICONTROL URL di sostituzione]** : immetti un URL diverso da quello predefinito se i tuoi utenti accedono a Dynamic Media Classic tramite un URL diverso.
+   * **[!UICONTROL URL di sostituzione]** : immetti un URL diverso da quello predefinito se i tuoi utenti accedono ad Adobe Dynamic Media Classic tramite un URL diverso.
 
 ## Altre attività di gestione degli utenti {#other-user-management-tasks}
 
@@ -131,6 +131,6 @@ A partire dalla schermata di configurazione Amministrazione utenti potete effett
 
 * **[!UICONTROL Modifica informazioni utente]**  - Inserisci informazioni aggiornate su un utente.
 
-* **[!UICONTROL Creazione di campi definiti dall’utente]** : consente di creare campi di metadati personalizzati definiti dall’utente, che consentono di organizzare le risorse in Dynamic Media Classic. I campi possono essere attivati o disattivati, in base alle esigenze.
+* **[!UICONTROL Creazione di campi definiti dall’utente]** : consente di creare campi di metadati personalizzati definiti dall’utente, che consentono di organizzare le risorse in Adobe Dynamic Media Classic. I campi possono essere attivati o disattivati, in base alle esigenze.
 
 Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fields).

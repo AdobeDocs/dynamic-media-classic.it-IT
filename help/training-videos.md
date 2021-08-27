@@ -1,10 +1,10 @@
 ---
-title: Video di formazione su Dynamic Media Classic
-description: Video di formazione su come iniziare, come usare immagini dinamiche, video, portale multimediale, modelli e creazione e rendering delle immagini.
+title: Video di formazione Adobe Dynamic Media Classic
+description: Adobe video di formazione di Dynamic Media Classic su come iniziare, immagini dinamiche, video, portale multimediale, modelli, authoring e rendering delle immagini.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '6546'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Video di formazione Adobe Dynamic Media Classic {#training-videos}
 
-Video di formazione su come iniziare, come usare immagini dinamiche, video, portale multimediale, modelli e creazione e rendering delle immagini.
+Adobe video di formazione di Dynamic Media Classic su come iniziare, immagini dinamiche, video, portale multimediale, modelli, authoring e rendering delle immagini.
 
 ## Introduzione {#get-started-training}
 
