@@ -9,7 +9,7 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 42%
@@ -31,7 +31,7 @@ Segui questi passaggi per creare un predefinito per visualizzatori di eCatalog (
 
    * **Creazione di un predefinito per visualizzatori di eCatalog**  - Fai clic su  **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli Visualizzatore eCatalog, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
-   * **Modifica di un predefinito per visualizzatori di eCatalog** : seleziona un predefinito per visualizzatori di eCatalog e fai clic su Modifica. Fai clic su **[!UICONTROL Salva con nome]** al termine della creazione del predefinito.
+   * **Modifica di un predefinito per visualizzatori di eCatalog** : seleziona un predefinito per visualizzatori di eCatalog, quindi fai clic su  **[!UICONTROL Modifica]**. Fai clic su **[!UICONTROL Salva con nome]** al termine della creazione del predefinito.
 
 1. Nella schermata Configura visualizzatore, inserite un nome per il predefinito del visualizzatore eCatalog.
 1. Nella schermata Configura visualizzatore, impostate le opzioni desiderate.

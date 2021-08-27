@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 39%
 
 ---
@@ -37,7 +37,7 @@ Questa sezione è stata progettata per aiutarvi a usare in breve tempo Adobe Ana
 >
 >Prima di poter configurare i rapporti di Adobe Analytics e far corrispondere le variabili dei rapporti di Adobe Analytics agli eventi di Adobe Dynamic Media Classic, verifica di essere aggiunto come membro del gruppo Accesso ai servizi Web in Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti della suite specificata tramite Marketing Cloud’s Web Services API a prescindere dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics fate clic su **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]** (Strumenti amministrazione > Gestione utenti > Modifica gruppi).
 
-Dopo aver verificato di essere membro del gruppo Accesso al servizio Web, in Adobe Dynamic Media Classic fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Adobe Analytics]**. Nella pagina di configurazione di Adobe Analytics, fate clic su **[!UICONTROL Accesso ad Adobe Analytics]**.
+Dopo aver verificato di essere membro del gruppo Accesso al servizio Web, in Adobe Dynamic Media Classic, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Adobe Analytics]**. Nella pagina di configurazione di Adobe Analytics, fate clic su **[!UICONTROL Accesso ad Adobe Analytics]**.
 
 Consultate [Accedere ad Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 

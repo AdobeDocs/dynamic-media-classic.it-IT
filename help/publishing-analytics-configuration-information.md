@@ -1,6 +1,6 @@
 ---
-title: Pubblicazione delle informazioni di configurazione di Adobe Analytics
-description: Scopri come pubblicare le informazioni sulla configurazione di Adobe Analytics.
+title: Pubblicare le informazioni sulla configurazione di Adobe Analytics
+description: Scopri come pubblicare le informazioni sulla configurazione di Adobe Analytics da Adobe Dynamic Media Classic.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 37%
+source-wordcount: '152'
+ht-degree: 21%
 
 ---
 
-# Pubblicazione delle informazioni di configurazione di Adobe Analytics{#publishing-adobe-analytics-configuration-information}
+# Pubblicare le informazioni sulla configurazione di Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
 Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che le informazioni sulla configurazione dei rapporti Adobe Analytics vengano inviate ai server Adobe Dynamic Media Classic. Queste informazioni vengono incorporate nei visualizzatori. La pubblicazione è necessaria in modo che le informazioni contenute nei visualizzatori siano disponibili sui server Adobe Dynamic Media Classic. da dove possono essere trasmesse ad Adobe Analytics non appena gli utenti eseguono specifiche attività nei visualizzatori. 
 
@@ -27,9 +27,9 @@ Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che le informazion
 
 Consultate [Accedere ad Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Consultate [Configurazione dei rapporti di Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
+Consulta [Configurare i rapporti di Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
 **Per pubblicare le informazioni di configurazione:**
 
-1. Nella barra di navigazione globale, fate clic su **[!UICONTROL Pubblica]**.
-1. Nella finestra di dialogo Pubblica, fai clic su **[!UICONTROL Invia pubblicazione]**.
+1. Nella barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
+1. Nella finestra di dialogo Pubblica, seleziona **[!UICONTROL Invia pubblicazione]**.

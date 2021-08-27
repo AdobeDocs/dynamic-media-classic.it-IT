@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 46%
+source-wordcount: '2410'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ Le impostazioni della pagina Configurazione pubblicazione determinano il modo in
 
 Gli amministratori possono modificare le impostazioni predefinite nelle pagine Image Server, Image Renderer e Vignette per stabilire le impostazioni predefinite per la distribuzione delle risorse dai server.
 
-Per aprire le pagine Pubblica installazione, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni pubblicazione]**.
+Per aprire le pagine Pubblica installazione, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni pubblicazione]**.
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ La pagina Image Server stabilisce le impostazioni predefinite per la distribuzio
 
 Modificare queste impostazioni solo con l&#39;assistenza di un tecnico del supporto Adobe Dynamic Media Classic.
 
-* **Gestione catalogo** : queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server web, le chiamate URL di Dynamic Media Image Server vanno a un file manifesto o catalogo anziché a un file immagine corretto. Il file catalogo (da non confondersi con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini e il percorso di ciascuna immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
+* **[!UICONTROL Gestione catalogo]** : queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server web, le chiamate URL di Dynamic Media Image Server vanno a un file manifesto o catalogo anziché a un file immagine corretto. Il file catalogo (da non confondersi con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini e il percorso di ciascuna immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
 
-* **Richiedi attributi** : queste impostazioni impongono limiti alle immagini che possono essere consegnate dal server. Ad esempio, il *massimo* **[!UICONTROL Limite dimensione immagine risposta]** è **[!UICONTROL Larghezza]** 5000 e **[!UICONTROL Altezza]** 5000.
+* **[!UICONTROL Richiedi attributi]** : queste impostazioni impongono limiti alle immagini che possono essere consegnate dal server. Ad esempio, il *massimo* **[!UICONTROL Limite dimensione immagine risposta]** è **[!UICONTROL Larghezza]** 5000 e **[!UICONTROL Altezza]** 5000.
 
-* **Attributi richiesta predefiniti** : queste impostazioni si riferiscono all&#39;aspetto predefinito delle immagini.
+* **[!UICONTROL Attributi richiesta predefiniti]** : queste impostazioni si riferiscono all&#39;aspetto predefinito delle immagini.
 
-* **Attributi comuni delle miniature** : queste impostazioni si riferiscono all&#39;aspetto e all&#39;allineamento predefiniti delle immagini in miniatura.
+* **[!UICONTROL Attributi comuni delle miniature]** : queste impostazioni si riferiscono all&#39;aspetto e all&#39;allineamento predefiniti delle immagini in miniatura.
 
-* **Valori predefiniti per i campi del catalogo** : queste impostazioni si riferiscono alla risoluzione e al tipo di miniatura predefinito delle immagini.
+* **[!UICONTROL Valori predefiniti per i campi del catalogo]** : queste impostazioni si riferiscono alla risoluzione e al tipo di miniatura predefinito delle immagini.
 
-* **Attributi di gestione del colore** : queste impostazioni determinano quali profili di colore ICC vengono utilizzati.
+* **[!UICONTROL Attributi di gestione del colore]** : queste impostazioni determinano quali profili di colore ICC vengono utilizzati.
 
-* **Attributi di compatibilità** : questa impostazione consente ai paragrafi iniziali e finali nei livelli di testo di essere trattati come nella versione 3.6 per la compatibilità con le versioni precedenti.
+* **[!UICONTROL Attributi di compatibilità]** : questa impostazione consente ai paragrafi iniziali e finali nei livelli di testo di essere trattati come nella versione 3.6 per la compatibilità con le versioni precedenti.
 
-* **Supporto per la localizzazione** : queste impostazioni consentono di gestire più attributi di impostazione internazionale. Consentono inoltre di specificare una stringa di mappa lingua in modo da definire le lingue da supportare per le descrizioni comandi nei visualizzatori.
+* **[!UICONTROL Supporto per la localizzazione]***: queste impostazioni consentono di gestire più attributi di impostazione internazionale. Consentono inoltre di specificare una stringa di mappa lingua in modo da definire le lingue da supportare per le descrizioni comandi nei visualizzatori.
 
    Ad esempio, se fate parte di una società multinazionale che vende in diversi paesi, potete mettere a punto un visualizzatore localizzato specifico per ciascun paese. A questo scopo, dovete innanzi tutto specificare una stringa di mappa lingua. Quindi, modificate il testo della descrizione comando nel predefinito del visualizzatore aggiungendo le stringhe di testo tradotte per la lingua desiderata.
 
    >[!NOTE]
    > Per impostare le opzioni di supporto per la localizzazione, [utilizza l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel tuo caso di assistenza, richiedi aiuto per la configurazione.
 
-   Per ulteriori informazioni sull’impostazione del **supporto per la localizzazione**, consultate [Considerazioni per l’impostazione della localizzazione delle risorse](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+   Per ulteriori informazioni sull’impostazione del **[!UICONTROL supporto per la localizzazione]**, consultate [Considerazioni per l’impostazione della localizzazione delle risorse](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Considerazioni per l’impostazione della localizzazione delle risorse {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,12 +90,12 @@ Alcuni dei vantaggi dell&#39;utilizzo di `locale=` e `attribute::DefaultLocale` 
 #### Esempi applicativi
 
 | Applicazione | Scenario |
-|--- |--- |
+| --- | --- |
 | Localizzazione del visualizzatore | Dopo l’implementazione di cataloghi di contenuti statici, la localizzazione è controllata completamente dal parametro locale= che viene associato a tutte le richieste inviate a IS. I record di configurazione, le interface, le schermate iniziali e così via possono disporre o meno di varianti in base alla lingua. Il contenuto corretto viene fornito da IS e non è necessario che l’utente sappia quali contenuti sono localizzati e i relativi ID. |
 | Immagini e video | Le multinazionali utilizzano spesso una combinazione di contenuti generici e specifici per lingua. Un riferimento a un’immagine o un video può quindi essere generico e, se disponibile, IS ne fornisce la versione localizzata. |
 | Set di immagini e set di file multimediali | L’intero set di immagini può essere diverso per alcune impostazioni internazionali, ad esempio quando un eCatalog è diverso, con la traduzione da un set di immagini generico a uno specifico per le impostazioni internazionali gestito dal visualizzatore. Più comunemente, i singoli ID in un set generico possono fare riferimento a contenuti localizzati. Ad esempio, la maggior parte delle foto di un apparecchio può essere la stessa in tutte le lingue, ad eccezione della foto del Pannello di controllo Campaign. IS traduce automaticamente gli ID e non è quindi necessario generare set di immagini specifici per le diverse lingue. |
 
-#### Implementazione della localizzazione delle risorse
+#### Implementare la localizzazione delle risorse
 
 Adobe Dynamic Media Classic e Image Server dispongono di un’interfaccia che consente la localizzazione di immagini e contenuti statici.
 
@@ -107,7 +107,7 @@ Con la localizzazione, un URL di Image Server aggiunge il parametro `locale=` al
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Al ricevimento della chiamata http da parte del server di immagini, il parametro `locale=` viene analizzato attraverso il campo localeMap disponibile nel gruppo **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Configurazione pubblicazione]** > **[!UICONTROL Image Server]** > **[!UICONTROL Supporto localizzazione]**.
+Al ricevimento della chiamata http da parte del server di immagini, il parametro `locale=` viene analizzato attraverso il campo `localeMap` trovato in **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Configurazione pubblicazione]** > **[!UICONTROL Server immagini]** > **[!UICONTROL Supporto per la localizzazione]** gruppo.
 
 Il campo Mappa lingua contiene un elenco di voci separate con il simbolo di barra verticale (|).
 
@@ -122,18 +122,18 @@ L’applicazione del valore di suffisso o di sostituzione dipende dall’imposta
 **Esempio di suffisso:**
 
 | URL | ID di Mappa lingua | Risultato |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro di lingua de_DE viene associato alla prima voce nella Mappa lingua. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE che viene ricercata in Image Server e, se trovata, viene restituita. In caso contrario, viene utilizzato come suffisso il secondo valore “” e viene restituita l’immagine stessa. |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro locale de_DE viene confrontato con la prima voce in `localeMap`. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE che viene ricercata in Image Server e, se trovata, viene restituita. In caso contrario, viene utilizzato come suffisso il secondo valore “” e viene restituita l’immagine stessa. |
 
 **Esempio di sostituzione:**
 
-| URL | Lingua globale e ID di Mappa lingua | Risultato |
+| URL | `GlobalLocale` e  `localeMap` ID | Risultato |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | In questo esempio di sostituzione, il parametro della lingua globale GlobalLocale è impostato su main. Il parametro di lingua de_DE viene associato alla prima voce nella Mappa lingua. La sottostringa GlobalLocale viene trovata e sostituita con il primo valore corrispondente `de` nella localeMap: `image-de-01`. Se questo viene trovato in Image Server, viene restituito. In caso contrario, viene sostituito il secondo valore e si ottiene `image-main-01`. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | In questo esempio di sostituzione, il parametro della lingua globale GlobalLocale è impostato su main. Il parametro locale de_DE viene confrontato con la prima voce in `localeMap`. La sottostringa GlobalLocale viene trovata e sostituita con il primo valore corrispondente `de` in `localeMap`: `image-de-01`. Se questo viene trovato in Image Server, viene restituito. In caso contrario, viene sostituito il secondo valore e si ottiene `image-main-01`. |
 
 Se nell’URL non viene specificata alcuna lingua, Image Server applica all’URL la lingua predefinita, se questa è definita.
 
-Se con `locale=` viene fornito un parametro locale sconosciuto o vuoto, viene eseguita la scansione della Mappa locale per individuare il valore vuoto &quot;inizia con&quot;. È importante che le impostazioni internazionali predefinite siano applicate alle impostazioni internazionali sconosciute.
+Se con `locale=` viene fornito un parametro di impostazione internazionale sconosciuto o vuoto, viene eseguita la scansione del valore vuoto &quot;started with&quot; (inizia con). `localeMap` È importante che le impostazioni internazionali predefinite siano applicate alle impostazioni internazionali sconosciute.
 
 #### Informazioni su defaultImage
 
@@ -154,7 +154,7 @@ Gli ID delle lingue vengono mappati sui suffissi corrispondenti. Se nel catalogo
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | locale= | ID di output per la ricerca |
-|--- |--- |
+| --- | --- |
 | en,en_us, en_uk | myImg_E, myImg |
 | de,de_de,de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
@@ -167,7 +167,7 @@ Potete associare le lingue sconosciute a ID specifici o generici. Ad esempio, è
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | locale= | ID di output per la ricerca |
-|--- |--- |
+| --- | --- |
 | de,de_de,de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
 | Tutti gli altri | myImg_E, myImg |
@@ -180,7 +180,7 @@ Oppure, potete impostare la mappatura direttamente sull’ID generico:
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-##### Individuare la Mappa lingua con una ricerca a più livelli
+##### Trova la mappa locale utilizzando una ricerca a più livelli
 
 Spesso è utile raggruppare le lingue in base a gruppi che condividono uno stesso standard, ad esempio tre diversi tipo di interfaccia per Europa, Medio Oriente e Nord America. A questo scopo si può ricorrere alla ricerca a più livelli.
 
@@ -189,14 +189,14 @@ In questo esempio, supponiamo di voler supportare raccolte diverse per gli utent
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | locale= | ID di output per la ricerca |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
 | m2 | myImg-M2, myImg-M, myImg |
 | Tutti gli altri | mylmg |
 
-##### Ricerca della Mappa lingua mediante la ricerca di ID specifici
+##### Trova la mappa locale cercando ID specifici
 
 Alcune convenzioni di denominazione delle immagini non supportano ID immagine generici. Gli ID generici da questa richiesta devono essere associati a un ID specifico nel catalogo. Tuttavia, in alcuni casi l’ID specifico esatto non è noto.
 
@@ -205,7 +205,7 @@ Utilizzando il primo esempio come base, le immagini per tutte le lingue potrebbe
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | locale= | ID di output per la ricerca |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Tutti gli altri | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ Utilizzando il primo esempio come base, le immagini per tutte le lingue potrebbe
 
 La pagina Image Renderer stabilisce le impostazioni predefinite per la distribuzione di set di immagini dai server di rendering delle immagini. Le impostazioni sono disponibili nelle cinque categorie seguenti (per una descrizione dettagliata delle impostazioni, vedere la pagina Image Server stessa):
 
-* **Gestione catalogo** : queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il file di catalogo interagiscono. Ad Adobe, le chiamate URL del server di rendering Dynamic Media Classic vengono effettuate al catalogo, che a sua volta effettua chiamate per inviare immagini dal server. Modificare queste impostazioni solo con l&#39;assistenza di un tecnico del supporto Adobe Dynamic Media Classic.
+* **[!UICONTROL Gestione catalogo]** : queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il file di catalogo interagiscono. Ad Adobe, le chiamate URL del server di rendering Dynamic Media Classic vengono effettuate al catalogo, che a sua volta effettua chiamate per inviare immagini dal server. Modificare queste impostazioni solo con l&#39;assistenza di un tecnico del supporto Adobe Dynamic Media Classic.
 
-* **Attributi di sessione** : queste impostazioni stabiliscono i parametri di errore, l&#39;URL per gli URL delle immagini relative e se è consentita la sovrapposizione degli oggetti.
+* **[!UICONTROL Attributi di sessione]** : queste impostazioni stabiliscono i parametri di errore, l&#39;URL per gli URL delle immagini relative e se è consentita la sovrapposizione degli oggetti.
 
-* **Attributi del materiale predefiniti** : queste impostazioni stabiliscono le impostazioni predefinite di risoluzione e nitidezza per le immagini.
+* **[!UICONTROL Attributi del materiale predefiniti]** : queste impostazioni stabiliscono le impostazioni predefinite di risoluzione e nitidezza per le immagini.
 
-* **Attributi immagine di risposta** : queste impostazioni si riferiscono all&#39;aspetto predefinito delle immagini.
+* **[!UICONTROL Attributi immagine di risposta]** : queste impostazioni si riferiscono all&#39;aspetto predefinito delle immagini.
 
-* **Attributi di gestione del colore** : queste impostazioni si riferiscono alle impostazioni di colore predefinite delle immagini.
+* **[!UICONTROL Attributi di gestione del colore]** : queste impostazioni si riferiscono alle impostazioni di colore predefinite delle immagini.
 
 ## Vignettatura {#vignette}
 
