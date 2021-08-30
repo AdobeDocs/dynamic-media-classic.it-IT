@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 56%
 
 ---
@@ -120,6 +120,6 @@ Se i risultati non sono ancora soddisfacenti, aumentate il raggio per incrementi
 
 Durante l’esperimento, i seguenti suggerimenti generali sono utili per ottimizzare il flusso di lavoro:
 
-* Prova e verifica parametri diversi in tempo reale, direttamente su un URL Dynamic Media Classic di Adobe o utilizzando la funzionalità di regolazione delle immagini di Dynamic Media Classic di Adobe. Quest&#39;ultima fornisce anteprime in tempo reale per le operazioni di regolazione.
+* Prova e verifica diversi parametri in tempo reale, direttamente su un URL o utilizzando la funzionalità di regolazione delle immagini di Adobe Dynamic Media Classic. Quest&#39;ultima fornisce anteprime in tempo reale per le operazioni di regolazione.
 * Come best practice, ricorda che puoi raggruppare i comandi di Dynamic Media Image Serving in un predefinito per immagini. Un predefinito per immagini è fondamentalmente macro di comando URL con nomi predefiniti personalizzati come `$thumb_low$` e `&product_high$`. Il nome predefinito personalizzato in un percorso URL chiama questi predefiniti. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
 * Adobe Dynamic Media Classic offre anche modi più avanzati per ottimizzare la qualità delle immagini, ad esempio applicando la nitidezza delle immagini durante l’acquisizione. Per i casi d’uso avanzati in cui l’ulteriore ottimizzazione e ottimizzazione dei risultati di rendering è un’opzione, Adobe Professional Services può aiutarti con informazioni personalizzate e best practice.

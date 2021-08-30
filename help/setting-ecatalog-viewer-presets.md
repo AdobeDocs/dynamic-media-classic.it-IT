@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: fa0a3992e02f70e5fb4a54e770e2fe2b4f0371e1
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ Segui questi passaggi per creare un predefinito per visualizzatori di eCatalog (
    | --- | --- | --- |
    | `$1$` | valore rollover_key | Identificatore dell&#39;elemento dall&#39;elemento `<area>` della mappa. |
    | `$2$` | frame | Numero di sequenza del fotogramma attualmente visualizzato nel set di immagini. |
-   | `$3$` | radice immagine | Primo elemento del percorso del primo elemento specificato nel comando dell’immagine (in genere si tratta dell’ID del catalogo di immagini per la voce del catalogo che specifica il set di immagini). |
+   | `$3$` | imageroot | Primo elemento del percorso del primo elemento specificato nel comando dell’immagine (in genere si tratta dell’ID del catalogo di immagini per la voce del catalogo che specifica il set di immagini). |
 
 1. (Facoltativo) Nella casella **[!UICONTROL Impostazioni pannello informazioni]**, digitare il testo che si desidera visualizzare se, ad Adobe, Dynamic Media Classic rileva un errore nel recupero delle informazioni relative a una mappa immagine. **** Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
 

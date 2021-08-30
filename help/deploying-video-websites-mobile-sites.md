@@ -10,9 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1703'
 ht-degree: 35%
 
 ---
@@ -131,7 +131,7 @@ Se non utilizzi il lettore video HTML5 Adobe Classic Dynamic Media Classic, ma d
 
 ## Distribuzione di video tramite un lettore video di terze parti {#deploying-video-using-a-third-party-video-player}
 
-Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic di Adobe, ottieni l’URL video diretto che funziona per lo streaming video a più bit HLS o il download progressivo.
+Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic, ottieni l’URL video diretto che funziona per lo streaming video a più bit HLS o per il download progressivo.
 
 **Per implementare video mediante un lettore video di terze parti:**
 
