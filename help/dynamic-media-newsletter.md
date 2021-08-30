@@ -5,9 +5,9 @@ keywords: contenuti multimediali dinamici;newsletter;aggiornamenti prodotto;sugg
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ In questa newsletter archiviata con un unico punto vendita, puoi trovare prezios
    * Scopri un prossimo webinar sulla protezione delle risorse digitali.
    * Il prossimo si ferma sul Adobe Insider Tour compilato con le informazioni.
    * Funzionalità entusiasmanti disponibili quando disponi di Dynamic Media all’interno di Experience Manager Assets (risorse di Experience Manager).
-   * Aggiunta di video a 360 gradi e miniature video personalizzate al sito web.
+   * Aggiunta di video a 360° e miniature video personalizzate al sito web.
    * Scopri `Andrew Hathaway`, Principal Solutions Consultant per Dynamic Media all’interno di Experience Manager Assets.
 
 * **[Giugno 2019, Numero 06](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

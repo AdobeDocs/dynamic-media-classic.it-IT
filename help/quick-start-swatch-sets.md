@@ -1,6 +1,6 @@
 ---
 title: '"Avvio rapido: set di campioni"'
-description: Introduzione e avvio rapido per il set di campioni per consentirti di iniziare a usare rapidamente.
+description: Introduzione e avvio rapido al set di campioni per consentirti di iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 35%
+source-wordcount: '397'
+ht-degree: 25%
 
 ---
 
@@ -23,38 +23,38 @@ Ad Adobe, i set di campioni Dynamic Media Classic offrono agli utenti un’esper
 
 Questa guida rapida per set di campioni è stata progettata per iniziare a usare rapidamente le tecniche per i set di campioni in Adobe Dynamic Media Classic.
 
-## 1. Caricamento delle immagini e dei file di campioni
+## 1. Carica le immagini e i file campione
 
 Per iniziare, caricate le immagini e i file campione per il set di campioni.
 
-Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare i file dal computer in una cartella in Adobe Dynamic Media Classic. Consultate [Preparazione delle risorse dei set di campioni per il caricamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Caricamento dei file](uploading-files.md#uploading-your-files).
+Nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella in Adobe Dynamic Media Classic. Consulta [Preparare le risorse dei set di campioni per il caricamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
 
-## 2. Creazione di un set di campioni
+## 2. Creare un set di campioni
 
-Per creare un set di campioni, nella barra di navigazione globale fai clic su **[!UICONTROL Genera]** > **[!UICONTROL Set di campioni]**. Nella pagina Set di campioni, trascina le immagini e i campioni colore sulla pagina. Consultate [Creazione di un set di campioni](creating-swatch-set.md#creating-a-swatch-set).
+Per creare un set di campioni, nella barra di navigazione globale vai a **[!UICONTROL Build]** > **[!UICONTROL Set di campioni]**. Nella pagina Set di campioni, trascina le immagini e i campioni colore sulla pagina. Consulta [Creare un set di campioni](creating-swatch-set.md#creating-a-swatch-set).
 
-## 3. Impostazione dei predefiniti visualizzatore di set di campioni
+## 3. Impostare i predefiniti visualizzatore per set di campioni
 
 Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Ad Adobe, Dynamic Media Classic viene fornito con predefiniti visualizzatore per ogni tipo di rich media. Per visualizzare i set di campioni, usate il visualizzatore zoom: Personalizzato > predefiniti Set immagini/Campioni colore.
 
-Consultate [Creazione e modifica dei predefiniti per visualizzatori](application-setup.md#adding-and-editing-viewer-presets).
+Consulta [Creare e modificare i predefiniti visualizzatore](application-setup.md#adding-and-editing-viewer-presets).
 
 ## 4. Anteprima di un set di campioni
 
-Selezionare il set di campioni nel pannello Sfoglia, quindi fare clic su **[!UICONTROL Anteprima]**. Il set di campioni viene visualizzato in questa pagina. Fai clic sulle icone delle miniature e dei campioni per esaminare il set di campioni nel visualizzatore selezionato. Nel menu Predefiniti, potete scegliere diversi visualizzatori.
+Selezionare il set di campioni nel pannello Sfoglia, quindi selezionare **[!UICONTROL Anteprima]**. Il set di campioni viene visualizzato in questa pagina. Seleziona le icone delle miniature e dei campioni per esaminare il set di campioni nel visualizzatore selezionato. Nel menu Predefiniti, potete scegliere diversi visualizzatori.
 
-Consultate [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
+Consulta [Anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
-## 5. Pubblicazione di un set di campioni
+## 5. Pubblicare un set di campioni
 
 La pubblicazione di un set di campioni lo inserisce sui server Dynamic Media Classic di Adobe e attiva la stringa URL.
 
-Fai clic sull&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, fai clic su **[!UICONTROL Pubblica]**. Nella pagina Pubblica , fai clic su **[!UICONTROL Invia pubblicazione]**.
+Seleziona l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome corrispondente nel pannello Sfoglia. Quindi, seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblica , seleziona **[!UICONTROL Invia pubblicazione]**.
 
-Consultate [Pubblicazione](publishing-files.md#publishing-files).
+Consulta [Pubblicare file](publishing-files.md#publishing-files).
 
-## 6. Collegamento di un set di campioni a una pagina web
+## 6. Collegare un set di campioni a una pagina web
 
 Ad Adobe, Dynamic Media Classic crea le chiamate URL per i set di campioni e le attiva dopo la pubblicazione. Puoi copiare questi URL dalla pagina Anteprima.
 
-Selezionate il set di campioni, quindi fate clic sul pulsante Anteprima. Viene visualizzata la pagina Anteprima . Selezionate un predefinito per visualizzatori di set di campioni, quindi fate clic sul pulsante Copia URL. Consultate [Collegamento di un set di campioni gradi a una pagina Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Selezionate il set di campioni, quindi fate clic sul pulsante Anteprima. Viene visualizzata la pagina Anteprima . Selezionate un predefinito per visualizzatori di set di campioni, quindi fate clic sul pulsante Copia URL. Consulta [Collegare un set di campioni a una pagina web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

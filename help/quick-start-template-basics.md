@@ -1,6 +1,6 @@
 ---
 title: '"Avvio rapido: funzioni di base dei modelli"'
-description: Introduzione e nozioni di base sui modelli per un rapido utilizzo.
+description: Introduzione e Guida rapida alle nozioni di base sui modelli per consentirti di iniziare a utilizzare rapidamente Adobe Dynamic Media Classic.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 34%
+source-wordcount: '789'
+ht-degree: 32%
 
 ---
 
@@ -35,25 +35,25 @@ Se utilizzi un file PSD per generare il modello, seleziona **[!UICONTROL Crea mo
 
 Se utilizzate dei file immagine, al momento del caricamento potete ritagliare le immagini e creare una maschera dai tracciati di ritaglio presenti nelle immagini.
 
-Nella barra di navigazione globale, fai clic su **[!UICONTROL Carica]** per caricare un file PSD o altri file di immagine dal computer in una cartella in Adobe Dynamic Media Classic. Consultate [Caricamento dei file modello](uploading-template-files.md#uploading_template_files)
+Nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare un file PSD o altri file di immagine dal computer in una cartella in Adobe Dynamic Media Classic. Consulta [Caricare file modello](uploading-template-files.md#uploading_template_files).
 
 ## 2. Creare un modello
 
-Per creare un modello da un file PSD, seleziona **[!UICONTROL Crea modello]** quando carichi il file. Per creare un modello dalle immagini, nella barra di navigazione globale fai clic su **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**, immetti una misura di larghezza e altezza per l’area di lavoro. Nell’angolo in alto a destra della pagina, seleziona **[!UICONTROL Designer]** o **[!UICONTROL Sviluppatore]** e trascina le immagini nella pagina Modello. È inoltre possibile selezionare le immagini *prima* facendo clic su **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**. La pagina Modello offre gli strumenti per:
+Per creare un modello da un file PSD, seleziona **[!UICONTROL Crea modello]** quando carichi il file. Per creare un modello dalle immagini, nella barra di navigazione globale vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**, immetti una misura di larghezza e altezza per il quadro. Nell’angolo in alto a destra della pagina, seleziona **[!UICONTROL Designer]** o **[!UICONTROL Sviluppatore]** e trascina le immagini nella pagina Modello. È inoltre possibile selezionare le immagini *prima* per passare a **[!UICONTROL Build]** > **[!UICONTROL Nozioni di base sui modelli]**. La pagina Modello offre gli strumenti per:
 
 * Aggiungere dei livelli di immagine. Per aggiungere un livello, trascinate un’immagine nella pagina Modello.
-* Aggiungere dei livelli di testo. Fare clic sull&#39;icona **[!UICONTROL Strumento testo]**. Trascinare il puntatore per creare una casella per il livello di testo; quindi formattare il testo con gli strumenti nella pagina Testo .
+* Aggiungere dei livelli di testo. Selezionare l&#39;icona **[!UICONTROL Strumento testo]**. Trascinare il puntatore per creare una casella per il livello di testo; quindi formattare il testo con gli strumenti nella pagina Testo .
 * Modificare le dimensioni e la posizione dei livelli
 * Modificare l’ordine dei livelli
 * Applicare un effetto ombra o bagliore ai livelli di immagine e testo
 
-Consultate [Creazione di un modello](creating-template.md#creating_a_template).
+Consulta [Creare un modello](creating-template.md#creating_a_template).
 
 ## 3. Creare parametri modello
 
 La fase successiva comporta l’impostazione dei parametri per le proprietà dei livelli per determinare quali proprietà includere nella stringa URL. I parametri consentono di usare i modelli con la massima flessibilità. Dopo aver impostato un parametro per una proprietà del livello, potete modificarlo in modo dinamico.
 
-Per parametrizzare un livello, apri il modello nella pagina Modello, quindi fai clic su **[!UICONTROL Parametri]** accanto al nome di un livello. Nella pagina Parametri , seleziona l’opzione accanto a ciascun parametro da aggiungere. Consultate [Creazione di parametri per i modelli](creating-template-parameters.md#creating_template_parameters).
+Per parametrizzare un livello, apri il modello nella pagina Modello , quindi seleziona **[!UICONTROL Parametri]** accanto al nome di un livello. Nella pagina Parametri , seleziona l’opzione accanto a ciascun parametro da aggiungere. Consulta [Creare parametri modello](creating-template-parameters.md#creating_template_parameters).
 
 ## 4. Pubblicare modelli
 
@@ -61,10 +61,10 @@ Quando si pubblica un modello, questo viene inserito sui server di immagini Dyna
 
 Assicuratevi di pubblicare tutte le immagini associate al modello.
 
-Per pubblicare un modello, contrassegnalo per la pubblicazione e nella barra di navigazione globale fai clic su **[!UICONTROL Pubblica]**. Quindi fai clic su **[!UICONTROL Invia pubblicazione]**. Consultate [Pubblicazione dei modelli](publishing-templates.md#publishing_templates).
+Per pubblicare un modello, contrassegnalo per la pubblicazione e nella barra di navigazione globale seleziona **[!UICONTROL Pubblica]**. Quindi seleziona **[!UICONTROL Invia pubblicazione]**. Consulta [Pubblicare modelli](publishing-templates.md#publishing_templates).
 
 ## 5. Collegare un modello a una pagina web
 
 Dynamic Media Classic crea gli URL per i modelli e li attiva quando i modelli vengono pubblicati sui server di immagini Dynamic Media. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
 
-Seleziona il modello nel pannello Sfoglia, quindi fai clic su **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito per immagini per la consegna del modello, quindi fai clic su **[!UICONTROL Copia URL]**. Dopo aver copiato l’URL dalla pagina Anteprima, puoi utilizzarlo nel sito Web o nell’applicazione. Consultate [Collegamento di un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito per immagini per la consegna del modello, quindi seleziona **[!UICONTROL Copia URL]**. Dopo aver copiato l’URL dalla pagina Anteprima, puoi utilizzarlo nel sito Web o nell’applicazione. Consultate [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

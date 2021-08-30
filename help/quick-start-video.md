@@ -1,5 +1,5 @@
 ---
-title: '"Avvio rapido: video"'
+title: '"Avvio rapido: Video in Adobe Dynamic Media Classic"'
 description: Introduzione e avvio rapido ad Adobe Dynamic Media Classic Video per aiutarti a iniziare rapidamente a usare.
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 43%
+source-wordcount: '1444'
+ht-degree: 35%
 
 ---
 
-# Avvio rapido: video{#quick-start-video}
+# Avvio rapido: Video in Adobe Dynamic Media Classic{#quick-start-video}
 
 Adobe Dynamic Media Classic Video è una soluzione end-to-end che semplifica la pubblicazione di video adattivi di alta qualità per lo streaming su diversi schermi, tra cui desktop, iOS, Android™, BlackBerry® e dispositivi mobili Windows®. Un set video adattivo raggruppa versioni dello stesso video codificate con diversi bitrate e formati quali 400, 800 e 100 kbps. Il computer desktop o il dispositivo mobile rileva l’ampiezza di banda disponibile.
 
@@ -45,9 +45,9 @@ Per la gestione di set video singoli e di set video adattivi, Adobe Dynamic Medi
 
 * sottotitoli video nei visualizzatori Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e nella navigazione dei capitoli video nei visualizzatori Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
-   Consultate [Aggiunta di sottotitoli a video](adding-captions-video.md).
+   Consulta [Aggiungere sottotitoli a video](adding-captions-video.md).
 
-   Consultate [Aggiunta di marcatori capitolo a video](adding-chapter-markers-video.md).
+   Consulta [Aggiungere marcatori capitolo a video](adding-chapter-markers-video.md).
 
 * Organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. 
 * Distribuire set video adattivi sul web e su desktop e dispositivi mobili, inclusi iPhone, iPad, Android™, BlackBerry® e i telefoni Windows®.
@@ -76,20 +76,20 @@ Per la gestione di set video singoli e di set video adattivi, Adobe Dynamic Medi
 
 La seguente descrizione dettagliata del flusso di lavoro è stata progettata per aiutarti a iniziare rapidamente a usare i set di video adattivi in Adobe Dynamic Media Classic. Alla fine di ciascun passaggio è riportato un riferimento a un argomento correlato con ulteriori informazioni.
 
-## 1. Caricamento e codifica dei video
+## 1. Caricare e codificare i video
 
 Potete caricare e generare i set di video adattivi utilizzando uno dei due scenari seguenti:
 
-* **Carica video precodificati** : se i video sono già stati codificati all’esterno di Adobe Dynamic Media Classic, nella barra di navigazione globale fai clic su  **** Carica per sfogliare e caricare i file video MP4 direttamente in Adobe Dynamic Media Classic. Fate clic su **[!UICONTROL Genera]** > **[!UICONTROL Set video adattivi]**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
-* **Carica video sorgente master**  - Se i tuoi video non sono codificati, fai clic su  **** Carica per caricare i file sorgente video master (non MP4) nella barra di navigazione globale e codificali in file MP4 di Adobe Dynamic Media Classic. Nella finestra di dialogo **[!UICONTROL Opzioni processo di caricamento]**, in **[!UICONTROL Opzioni video]**, seleziona **[!UICONTROL Video adattivo]**.
+* **Carica video precodificati** : se i video sono già stati codificati all’esterno di Adobe Dynamic Media Classic, nella barra di navigazione globale seleziona  **** Carica per sfogliare e caricare i file video MP4 direttamente in Adobe Dynamic Media Classic. Quindi, vai a **[!UICONTROL Build]** > **[!UICONTROL Set video adattivi]**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
+* **Carica video sorgente principali** : se i video non sono codificati, seleziona  **** Carica per caricare i file sorgente video master (non MP4) nella barra di navigazione globale. Adobe Dynamic Media Classic li codifica in file MP4 per voi. Nella finestra di dialogo **[!UICONTROL Opzioni processo di caricamento]**, in **[!UICONTROL Opzioni video]**, seleziona **[!UICONTROL Video adattivo]**.
 
-   Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando inviate il processo di caricamento, viene automaticamente creato un set di video adattivi che comprende tre codifiche video con le proporzioni appropriate.
+   Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando si invia il processo di caricamento, viene automaticamente creato un set video adattivo che include tre impostazioni video codificate con le proporzioni corrette.
 
    Oppure, nella stessa finestra di dialogo **[!UICONTROL Opzioni processo]**, in **[!UICONTROL Opzioni video]**, espandi **[!UICONTROL Predefiniti codifica singola]**. Seleziona i singoli predefiniti di codifica video desiderati da **Desktop**, **Mobile (iPhone, iPad, Android™)** e **Tablet (iPad, Android™)** in modo da creare i file MP4.
 
 * In alternativa, è possibile rielaborare un video principale utilizzando la funzione **[!UICONTROL Rielabora]** . I video appena codificati vengono aggiunti al set video adattivo esistente.
 
-Consultate [Caricamento e codifica dei video](uploading-encoding-videos.md#uploading_and_encoding_videos).
+Consulta [Caricare e codificare i video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **Facoltativo**
 
@@ -97,31 +97,31 @@ Adobe Dynamic Media Classic offre numerosi predefiniti di codifica video. Questi
 
 Tuttavia, qualora sia richiesta ulteriore personalizzazione, gli amministratori possono creare dei predefiniti video per personalizzare le dimensioni e l’esperienza di riproduzione video per gli utenti finali. Gli amministratori possono aggiungere e gestire i predefiniti video dalla pagina Predefiniti video disponibile in **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Predefiniti video]** > **[!UICONTROL Predefiniti codifica singola]**. La pagina Predefiniti video offre opzioni per aggiungere, modificare, eliminare e attivare i predefiniti per video.
 
-Consultate [Utilizzo dei predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
+Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-## 2. Anteprima dei video in un visualizzatore video
+## 2. Anteprima di video in un visualizzatore video
 
-Per vedere in che modo un video verrà riprodotto per gli utenti finali su un computer desktop, un sito Web o un dispositivo mobile, selezionate il video nel pannello Sfoglia e fate clic su **[!UICONTROL Anteprima]**.
+Per vedere come viene riprodotto un video per gli utenti finali su un desktop, un sito web o un dispositivo mobile, seleziona il video nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]**.
 
-Consultate [Anteprima dei video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Consulta [Anteprima video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 È possibile riprodurre il video nella pagina Anteprima. È inoltre possibile scegliere diversi visualizzatori video per scoprire come appare il video in diversi lettori. È consigliato utilizzare il lettore video HTML5 per la riproduzione per schermi diversi su computer desktop, tablet e dispositivi mobili.
 
 **Facoltativo**
 
-Personalizzazione dei predefiniti per visualizzatori : ad Adobe Dynamic Media Classic offre predefiniti per visualizzatori per la distribuzione di video. Tali predefiniti determinano l’aspetto del visualizzatore e la modalità di funzionamento dei controlli di riproduzione. Per personalizzare il visualizzatore video, gli amministratori possono aggiungere e gestire i predefiniti per visualizzatore dalla pagina Predefiniti visualizzatore. Per aprire questa pagina, nell’angolo in alto a destra di Adobe Dynamic Media Classic, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**. Dalla pagina Predefiniti visualizzatore è possibile aggiungere, modificare, eliminare e attivare i predefiniti per visualizzatore.
+Personalizzazione dei predefiniti per visualizzatori : ad Adobe Dynamic Media Classic offre predefiniti per visualizzatori per la distribuzione di video. Tali predefiniti determinano l’aspetto del visualizzatore e la modalità di funzionamento dei controlli di riproduzione. Per personalizzare il visualizzatore video, gli amministratori possono aggiungere e gestire i predefiniti per visualizzatore dalla pagina Predefiniti visualizzatore. Per aprire questa pagina, nell’angolo in alto a destra di Adobe Dynamic Media Classic, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**. Dalla pagina Predefiniti visualizzatore è possibile aggiungere, modificare, eliminare e attivare i predefiniti per visualizzatore.
 
-Consultate [Utilizzo dei predefiniti per visualizzatori video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+Consulta [Utilizzare i predefiniti visualizzatore video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-## 3. Distribuzione di video nei siti web e nei siti mobili
+## 3. Distribuire video sui siti web e sui siti mobili
 
 Per integrare i video nel sito Web, potete effettuare una delle seguenti operazioni:
 
 * Visualizza il video nella relativa finestra a comparsa o modale, nel qual caso utilizza la funzione **[!UICONTROL Copia URL]** .
 
-   Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Fai clic su **[!UICONTROL Anteprima]**, quindi fai clic su **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
+   Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Seleziona **[!UICONTROL Anteprima]**, quindi seleziona **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
 
-   Quando fai clic su **[!UICONTROL Copia URL]**, l&#39;URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
+   Quando selezioni **[!UICONTROL Copia URL]**, l&#39;URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
 
    >[!NOTE]
    >
@@ -129,15 +129,15 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
 * Visualizza il video incorporato nella pagina web, nel qual caso utilizza la funzione **[!UICONTROL Incorpora codice]** .
 
-   Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Fai clic su **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, fai clic su **[!UICONTROL Incorpora codice]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
+   Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Incorpora codice]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
-   Fai clic su **[!UICONTROL Chiudi]** e incolla il codice di incorporamento nelle pagine web.
+   Seleziona **[!UICONTROL Chiudi]** e incolla il codice di incorporamento nelle pagine web.
 
    >[!NOTE]
    >
    >Incorpora codice è attivato solo dopo la pubblicazione del video o del set di video adattivi.
 
-Consultate [Implementazione dei video nei siti Web e siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+Consulta [Distribuire video sui siti web e sui siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >
