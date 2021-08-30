@@ -11,7 +11,7 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
 source-wordcount: '3893'
 ht-degree: 69%
@@ -83,9 +83,9 @@ Consultate [Predefiniti di codifica video per computer desktop](application-setu
 1. Fate clic su **[!UICONTROL File]** > **[!UICONTROL Rielabora]**.
 1. Nella finestra di dialogo Rielabora risorse , espandi **[!UICONTROL Opzioni eVideo]**, quindi effettua una delle seguenti operazioni:
    * Come procedura ottimale, si consiglia di utilizzare il metodo seguente. Selezionate **Video adattivo**. Consultate [Video adattivo (predefinito)](application-setup.md#adaptive-video-default).
-   * Facoltativo. Per utilizzare le singole impostazioni di codifica, espandere ****[!UICONTROL Predefiniti codifica singola]****, quindi selezionare le opzioni di codifica desiderate per Desktop, Mobile e Tablet.
+   * Facoltativo. Per utilizzare le singole impostazioni di codifica, espandere **[!UICONTROL Predefiniti codifica singola]**, quindi selezionare le opzioni di codifica desiderate per Desktop, Mobile e Tablet.
 Consultate [Predefiniti di codifica video per computer desktop](application-setup.md#desktop-video-encoding-presets), [Predefiniti di codifica per video per dispositivi mobili](application-setup.md#mobile-video-encoding-presets), [Predefiniti di codifica per video per tablet](application-setup.md#tablet-video-encoding-presets).
-1. Nella finestra di dialogo Rielabora risorse, fate clic su **[!UICONTROL Invia]**.
+1. Nella finestra di dialogo Rielabora risorse, seleziona **[!UICONTROL Invia]**.
 
 Quando utilizzate un predefinito di codifica per video adattivi oppure più predefiniti di codifica singola, viene creato automaticamente un set di video adattivi con più codifiche video. Potete anche creare manualmente un set di video adattivi, selezionando i singoli video.
 
@@ -139,7 +139,7 @@ Per la codifica di un file video, occorre usare un file video sorgente della mas
 La tabella seguente descrive le dimensioni, le proporzioni e il bit rate minimo consigliati che i file video sorgente devono avere quando li codifichi:
 
 | Dimensioni | Proporzioni | Bitrate minimo |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024x768 | 4:3 | 4500 Kbps per la maggior parte dei video. |
 | 1280x720 | 16:9 | 3000 - 6000 Kbps, a seconda della quantità di movimento presente del video. |
 | 1920x1080 | 16:9 | 6000 - 8000 Kbps, a seconda della quantità di movimento presente del video. |
@@ -148,7 +148,7 @@ La tabella seguente descrive le dimensioni, le proporzioni e il bit rate minimo 
 
 È possibile ottenere i metadati di un file visualizzandone i metadati in Adobe Dynamic Media Classic, utilizzando uno strumento di editing video o un&#39;applicazione progettata per ottenere i metadati. Seguono istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti che consente di ottenere i metadati di un file video:
 
-1. Vai a questa pagina web: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Vai a questa pagina web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Selezionate e scaricate il programma di installazione per la versione GUI, quindi seguite le istruzioni di installazione.
 1. Dopo l&#39;installazione, fare clic con il pulsante destro del mouse sul file video (solo Windows®) e selezionare MediaInfo oppure aprire MediaInfo e trascinare il file video nell&#39;applicazione. Potete vedere tutti i metadati associati al file video, inclusi i valori di larghezza, altezza e fotogrammi al secondo.
 

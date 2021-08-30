@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 6%
 
 ---
@@ -35,16 +35,16 @@ Assicurati di avere quanto segue prima di utilizzare l&#39;applicazione desktop 
 Utilizza la seguente mappatura per selezionare l&#39;ambiente di produzione che desideri utilizzare.
 
    | URL browser | Nome server app desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produzione NA (Nord America) |
    | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
    | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
 
-1. Tocca **[!UICONTROL Accedi]**.
+1. Seleziona **[!UICONTROL Accedi]**.
 
 ## Disconnessione da Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Nell’angolo in alto a destra dell’applicazione desktop Adobe Dynamic Media Classic, tocca **[!UICONTROL Esci]**, quindi tocca di nuovo **[!UICONTROL Esci]**.
+1. Nell&#39;angolo in alto a destra dell&#39;applicazione desktop Adobe Dynamic Media Classic, selezionare **[!UICONTROL Disconnetti]**, quindi selezionare di nuovo **[!UICONTROL Disconnetti]**.
 
 >[!MORELIKETHIS]
 >

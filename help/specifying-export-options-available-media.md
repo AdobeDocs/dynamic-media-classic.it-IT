@@ -1,6 +1,6 @@
 ---
-title: Specifica delle opzioni di esportazione disponibili per gli utenti di Media Portal
-description: Scopri come specificare le opzioni di esportazione disponibili per gli utenti di Media Portal.
+title: Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal
+description: Scopri come specificare le opzioni di esportazione disponibili per gli utenti di Media Portal in Adobe Dynamic Media Classic.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 72%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
-# Specifica delle opzioni di esportazione disponibili per gli utenti di Media Portal {#specifying-export-options-available-to-media-portal-users}
+# Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal {#specifying-export-options-available-to-media-portal-users}
 
 Se l’amministratore assegna le relative autorizzazioni, gli utenti di Media Portal possono riformattare le immagini al momento dell’esportazione. Ad esempio, possono modificarne le dimensioni, il formato file e la qualità. La riformattazione automatica delle immagini durante l’esportazione consente di risparmiare tempo evitando di dover riformattare le immagini singolarmente. Inoltre, gli amministratori possono creare un predefinito, ossia una raccolta di impostazioni preconfigurate per il formato delle immagini. Quando esportate le immagini potete usare un predefinito in modo da riformattarle in base alle specifiche richieste dalla vostra società.
 
@@ -25,11 +25,11 @@ Se esportate le risorse di immagini mediante una conversione definita dall’ute
 * Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
 
-Consulta anche [Esportazione di risorse da Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Consulta anche [Esportare risorse da Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Per specificare le opzioni di esportazione disponibili per gli utenti di Media Portal:**
 
-1. Nella barra di navigazione globale, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagini]**.
+1. Nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagini]**.
 1. Nella finestra Predefiniti immagine, selezionate una delle seguenti opzioni:
 
    * **Abilita conversione definita dall’utente** : se selezionata, questa opzione consente agli utenti di scegliere un’altra opzione dall’elenco a discesa  **** delle dimensioni nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.

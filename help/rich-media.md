@@ -10,10 +10,10 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 48%
+source-wordcount: '461'
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic offre molti strumenti per la creazione di contenuti 
 Consultate [Avvio rapido: eCatalog](/help/quick-start-ecatalog.md).
 
 * **eVideo** : per fornire esperienze video di alta qualità su più schermi, compresi desktop, dispositivi mobili e tablet. Utilizza predefiniti di codifica Dynamic Media Classic di Adobe o personalizza la codifica per controllare la qualità e le dimensioni del video. Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video.
-Consultate [Avvio rapido: eVideo](/help/quick-start-video.md).
+Vedere [Avvio rapido: Video in Adobe Dynamic Media Classic](/help/quick-start-video.md).
 
 * **Mappe immagine** : consente di distribuire dinamicamente le immagini di qualsiasi dimensione e formato in tutto il sito web. Invece di creare manualmente molte immagini con diverse dimensioni, è sufficiente utilizzare un’immagine principale. Ad Adobe, Dynamic Media Classic fornisce l&#39;immagine richiesta, ottimizza l&#39;immagine per ottenere risultati di altissima qualità in dimensioni, formato, peso, qualità e nitidezza.
 Consultate [Avvio rapido: ridimensionamento delle immagini](/help/quick-start-image-sizing.md)

@@ -1,6 +1,6 @@
 ---
-title: Nozioni di base sulla configurazione
-description: Scopri come utilizzare la schermata Configurazione per inserire le impostazioni personali. se siete un amministratore, le impostazioni della società.
+title: 'Nozioni di base sulla configurazione '
+description: Scopri come utilizzare la schermata Configurazione per inserire le impostazioni personali in Adobe Dynamic Media Classic. se siete un amministratore, le impostazioni della società.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 23%
+source-wordcount: '196'
+ht-degree: 22%
 
 ---
 
 # Nozioni di base sulla configurazione{#setup-basics}
 
-Utilizza la pagina Adobe Dynamic Media Classic Setup per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina Configurazione, nella barra di navigazione globale fare clic su **[!UICONTROL Configurazione]**.
+Utilizza la pagina Adobe Dynamic Media Classic Setup per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina Configurazione, nella barra di navigazione globale selezionare **[!UICONTROL Configurazione]**.
 
 Le impostazioni disponibili in questa pagina dipendono dallo stato di un utente o amministratore:
 
