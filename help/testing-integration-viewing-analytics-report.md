@@ -1,6 +1,6 @@
 ---
-title: Verificare l’integrazione visualizzando un rapporto di Adobe Analytics
-description: Scopri come verificare l’integrazione visualizzando un rapporto di Adobe Analytics.
+title: 'Verificare l’integrazione visualizzando un rapporto di '
+description: Scopri come verificare l’integrazione in Adobe Dynamic Media Classic visualizzando un rapporto Adobe Analytics.
 uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '339'
 ht-degree: 15%
 
 ---
 
-# Verificare l’integrazione visualizzando un rapporto di Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
+# Verificare l’integrazione visualizzando un rapporto di {#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
 Dopo aver creato le variabili necessarie in Adobe Analytics, averle collegate agli eventi Adobe Dynamic Media Classic e aver completato i passaggi di implementazione necessari, puoi testare la configurazione. Potete verificare che i dati vengano acquisiti in Adobe Analytics stesso. Se la configurazione funziona, non sono necessari ulteriori interventi. Supponendo di aver seguito i passaggi precedenti e collegato i dati dell’evento Adobe Dynamic Media Classic a una o più variabili di traffico personalizzate, segui questo flusso di lavoro per testare i dati all’interno di Adobe Analytics.
 
@@ -29,7 +29,7 @@ Dopo aver creato le variabili necessarie in Adobe Analytics, averle collegate ag
 
 1. All&#39;interno di Adobe Analytics, vai a **[!UICONTROL Traffico personalizzato]** > **[!UICONTROL Traffico personalizzato 1-10]** > [Nome della proprietà], selezionando il nome della proprietà di traffico dalle scelte del menu.
 
-   Ad esempio, per accedere alla proprietà **[!UICONTROL LoadAsset]** nell’account di esempio, la scelta corretta del menu sarà **[!UICONTROL Traffico personalizzato]** > **[!UICONTROL Traffico personalizzato 1-10]** > **[!UICONTROL LoadAsset]**. Se disponi di più di dieci proprietà personalizzate, vengono visualizzate anche altre opzioni di menu.
+   Ad esempio, per accedere alla proprietà **[!UICONTROL LoadAsset]** nell’account di esempio, la scelta corretta del menu è **[!UICONTROL Traffico personalizzato]** > **[!UICONTROL Traffico personalizzato 1-10]** > **[!UICONTROL LoadAsset]**. Se disponi di più di dieci proprietà personalizzate, vengono visualizzate anche altre opzioni di menu.
 
 1. Visualizzate il grafico generato da Adobe Analytics. Questo grafico è in genere solo il dato di una singola metrica. Se desideri anche sapere con quale risorsa sono associati questi dati, ottieni i dati della risorsa di questo evento. Ad esempio, spesso è utile sapere quale video viene guardato solo al 50% o quale immagine in un set è popolare.
 

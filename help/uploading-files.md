@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3866'
 ht-degree: 33%
@@ -128,7 +128,7 @@ Assicuratevi che le seguenti regole di denominazione dei file vengano comprese d
 Di solito, un nome file di una risorsa può essere lo stesso del numero di articolo, SKU del prodotto o altro nome come nel seguente:
 
 | Elemento | Nome file | ID risorsa |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -233,7 +233,7 @@ Selezionate questa opzione per caricare le sottocartelle della cartella che inte
    * **[!UICONTROL Elabora file di metadati]**  - Disponibile solo se hai selezionato la scheda  **[!UICONTROL VIA]** FTP. Selezionate questa opzione se desiderate caricare un file delimitato da tabulazioni o XML per aggiungere metadati a più risorse. Consultate [Importare metadati (tramite FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPTIONS di ritaglio** : per ritagliare automaticamente i pixel dello spazio bianco da un’immagine, apri il  **** menu a discesa, seleziona  **[!UICONTROL Manuale]** e immetti le misurazioni dei pixel nei campi di testo Superiore, Destro, Inferiore e Sinistra da ritagliare dai lati. È inoltre possibile selezionare **[!UICONTROL Trim]** dal menu Ritaglio e scegliere le seguenti opzioni:
+* **Opzioni di ritaglio**  - Per ritagliare automaticamente i pixel dello spazio bianco da un’immagine, apri il  **** menu di ritaglio, seleziona  **[!UICONTROL Manuale]** e immetti le misurazioni dei pixel nei campi di testo Superiore, Destro, Inferiore e Sinistra da ritagliare dai lati. È inoltre possibile selezionare **[!UICONTROL Trim]** dal menu Ritaglio e scegliere le seguenti opzioni:
 
    * **[!UICONTROL Rifila in base a]** : scegli se ritagliare in base al colore o alla trasparenza:
       * **[!UICONTROL Colore]** : scegli l’opzione Colore. Dal menu Angolo scegliete quindi l’angolo dell’immagine con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
@@ -242,25 +242,25 @@ Rifilatura in base al colore: Specificare 0 per ritagliare i pixel solo se corri
 Rifilatura in base alla trasparenza: Specificare 0 per ritagliare i pixel solo se sono trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
       * **[!UICONTROL Tolleranza]** : trascina il cursore per specificare una tolleranza da 0 a 1.
 
-* **OPTIONS**  PROFILO COLORE: scegli una conversione del colore quando crei file ottimizzati utilizzati per Adobe la distribuzione dinamica di Dynamic Media Classic:
+* **Opzioni**  del profilo colore: scegli una conversione del colore quando crei file ottimizzati utilizzati ad Adobe per la distribuzione dinamica di Dynamic Media Classic:
 
    * **[!UICONTROL Conservazione colore predefinita]** : mantiene i colori dell&#39;immagine sorgente ogni volta che le immagini contengono informazioni sullo spazio colore; non vi è alcuna conversione del colore. In quasi tutte le immagini è incorporato il relativo profilo colore. Tuttavia, se un’immagine sorgente CMYK non contiene un profilo colore incorporato, i colori vengono convertiti nello spazio colore sRGB. sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
    * **[!UICONTROL Conserva spazio colore originale]** : mantiene i colori originali senza alcuna conversione di colore al momento dell&#39;acquisizione in Adobe Dynamic Media Classic. Per le immagini prive di un profilo colore incorporato, la conversione del colore necessaria per elaborare le richieste di immagine viene effettuata utilizzando i profili colore predefiniti, come configurato nelle impostazioni di pubblicazione. Questi profili di colore non sempre si allineano al colore nei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
    * **[!UICONTROL Personalizzato da]**  >  **[!UICONTROL a]** : apre i menu in modo da poter scegliere uno spazio  **[!UICONTROL Converti]** da e  **[!UICONTROL Converti]** colore. Questa opzione avanzata ha priorità rispetto a eventuali informazioni di colore incorporate nel file sorgente. Selezionare questa opzione solo quando tutte le immagini che si stanno inviando contengono dati di profilo colore errati o mancanti.
 
-* **Opzioni di modifica delle immagini**  - È possibile mantenere le  &lt;> maschere di ritaglio nelle immagini e scegliere un profilo colore.
+* **Opzioni di modifica dell’immagine**  - È possibile mantenere le  &lt;> maschere di ritaglio nelle immagini e scegliere un profilo colore.
 Consulta [Opzioni di regolazione fine immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Opzioni PostScript®** : puoi rasterizzare i file di PostScript®, ritagliare i file, mantenere gli sfondi trasparenti, scegliere una risoluzione e scegliere uno spazio colore.
 Consultare [Operazioni con file PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Opzioni Photoshop** : puoi creare modelli da file Adobe® Photoshop®, mantenere i livelli, specificare il nome dei livelli, estrarre il testo e specificare il modo in cui le immagini vengono ancorate ai modelli.
+* **Opzioni**  Photoshop: puoi creare modelli da file Adobe® Photoshop®, mantenere i livelli, specificare il nome dei livelli, estrarre il testo e specificare il modo in cui le immagini vengono ancorate ai modelli.
 Consultate [Opzioni di caricamento PSD](psd-files.md#psd_upload_options).
 
 * **Opzioni PDF**  - È possibile rasterizzare i file, estrarre parole di ricerca e collegamenti, generare automaticamente un eCatalog, impostare la risoluzione e scegliere uno spazio colore.
 Consultate [Opzioni di caricamento PDF](pdfs.md#pdf_upload_options).
 
-* **Opzioni Illustrator** : puoi rasterizzare i file Adobe Illustrator®, mantenere uno sfondo trasparente, scegliere una risoluzione e scegliere uno spazio colore.
+* **Opzioni**  Illustrator: puoi rasterizzare i file Adobe Illustrator®, mantenere uno sfondo trasparente, scegliere una risoluzione e scegliere uno spazio colore.
 Consultare [Operazioni con file PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Opzioni EVIDEO**  - È possibile transcodificare un file video scegliendo un predefinito per video.

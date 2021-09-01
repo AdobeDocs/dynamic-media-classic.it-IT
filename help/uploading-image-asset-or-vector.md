@@ -1,30 +1,30 @@
 ---
-title: Caricamento di una risorsa immagine o vettoriale
-description: Scopri come caricare una risorsa immagine o vettoriale.
+title: Caricare una risorsa immagine o vettoriale
+description: Scopri come caricare una risorsa immagine o vettoriale in Adobe Dynamic Media Classic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 78%
+source-wordcount: '1504'
+ht-degree: 70%
 
 ---
 
-# Caricamento di una risorsa immagine o vettoriale{#uploading-an-image-asset-or-a-vector-asset}
+# Caricare una risorsa immagine o vettoriale{#uploading-an-image-asset-or-a-vector-asset}
 
 Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento con cui potrete caricare le risorse immagine o vettoriali.
 
-## Richiesta di una chiave segreta condivisa {#requesting-a-shared-secret-key}
+## Richiedere una chiave segreta condivisa {#requesting-a-shared-secret-key}
 
 Richiedi una *chiave segreta condivisa* di [utilizzando l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Nel tuo caso di supporto, richiedi una chiave segreta condivisa.
 
 Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvala localmente per un utilizzo futuro.
 
-## Ottenimento del token di caricamento {#retrieving-the-upload-token}
+## Recupera il token di caricamento {#retrieving-the-upload-token}
 
 L’utilizzo di un *token di caricamento* fa sì che nessuno debba usare la chiave segreta condivisa per caricare le risorse. Garantisce inoltre la legittimità del caricamento e la provenienza da una fonte affidabile.
 
@@ -68,7 +68,7 @@ Salvate localmente il token di caricamento per poterlo usare per richieste futur
 Per ottenere un token di caricamento, potete usare i seguenti campi nella stringa URL di richiesta:
 
 | Parametro URL | Richiesto o facoltativo | Valore |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obbligatorio | get_uploadtoken |
 | shared_secret | Obbligatorio | Chiave segreta condivisa della società che esegue il caricamento. |
 | expires | Facoltativo | Validità del token di caricamento, in secondi. Se non viene specificato, viene applicato il valore predefinito di 300 secondi. |
@@ -86,9 +86,9 @@ Per ottenere un token di caricamento, potete usare i seguenti campi nella string
 
 Ora potete caricare una risorsa immagine.
 
-Consultate [Caricamento di una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Consulta [Caricare una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Caricamento di una risorsa immagine {#uploading-an-image-asset}
+## Caricare una risorsa immagine {#uploading-an-image-asset}
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa immagine. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 
@@ -98,9 +98,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 I campi `upload_token` e `company_name` sono obbligatori.
 
-Consultate [Ottenimento del token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulta [Recupera il token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consultate [Ottenimento di una chiave segreta condivisa](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulta [Recuperare una chiave segreta condivisa](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, come nell’esempio di seguito:
 
@@ -113,7 +113,7 @@ Il parametro `file_limit` specifica il limite di dimensione del file in byte. Il
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
 | Limite globale  | Valore |
-|--- |--- |
+| --- | --- |
 | Dimensione file per tutti i client | 20 MB |
 | Formati file immagine supportati per il caricamento | BMP, GIF, JPG, PNG, PSD |
 
@@ -125,7 +125,7 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Elenco di estensione di nomi file.
 * Se mantenere il profilo colore e il nome file associati alla risorsa.
 * Se utilizzare Sfondo Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento.
-Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulta Sfondo per timeout in [Opzioni di regolazione fine immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-Per visualizzare il codice sorgente HTML associato al modulo precedente, fai clic su [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Per visualizzare il codice sorgente HTML associato al modulo precedente, seleziona [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi fai clic su **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
+In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi seleziona **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **[!UICONTROL Visualizza]** > **[!UICONTROL Sorgente]**. Per visualizzare la risposta XML in Firefox, fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Origine]**. Per visualizzare la risposta XML in Firefox, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -178,8 +178,8 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori come una stringa query URL. Nella stringa query URL potete usare i seguenti campi per caricare una risorsa:
 
-| Parametro URL | Richiesto o facoltativo | Valore |
-|--- |--- |--- |
+| Parametro URL | Obbligatorio o Facoltativo | Valore |
+| --- | --- | --- |
 | `op` | Obbligatorio | upload |
 | `upload_token` | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
 | `company_name` | Obbligatorio | Nome della società che esegue il caricamento. |
@@ -200,7 +200,7 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 POST
 
-### Ottenimento dei metadati di risorsa per immagini {#getting-asset-metadata-for-images}
+### Ottenere i metadati delle risorse per le immagini {#getting-asset-metadata-for-images}
 
 Per ottenere i metadati di una risorsa caricata, potete usare `image_info`, come illustrato nell’esempio di seguito:
 
@@ -235,7 +235,7 @@ Un esempio di risposta corretta è simile al seguente:
 Nella stringa query URL potete usare i seguenti campi per richiedere informazioni su una risorsa:
 
 | Parametro URL | Richiesto o facoltativo | Valore |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obbligatorio | image_info |
 | `shared_secret` | Obbligatorio | Chiave segreta condivisa della società. |
 | `image_name` | Obbligatorio | Nome dell’immagine. |
@@ -248,7 +248,7 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 
 GET e POST
 
-## Caricamento di una risorsa vettoriale {#uploading-a-vector-asset}
+## Caricare una risorsa vettoriale {#uploading-a-vector-asset}
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa vettoriale. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 
@@ -258,9 +258,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 I campi `upload_token` e `company_name` sono obbligatori.
 
-Consultate [Ottenimento del token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulta [Recupera il token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consultate [Ottenimento di una chiave segreta condivisa](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulta [Recuperare una chiave segreta condivisa](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, come nell’esempio di seguito:
 
@@ -273,7 +273,7 @@ Il parametro `file_limit` specifica il limite di dimensione del file in byte. Il
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
 | Limite globale  | Valore |
-|--- |--- |
+| --- | --- |
 | Dimensione file per tutti i client | 20 MB |
 | Formati file vettoriali supportati per il caricamento | AI, EPS, PDF (solo se il file PDF è stato aperto e salvato in Adobe Illustrator CS6) |
 
@@ -285,7 +285,7 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Elenco di estensione di nomi file.
 * Se mantenere il profilo colore e il nome file associati alla risorsa.
 * Se utilizzare Sfondo Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento.
-Consulta Sfondo per timeout in [Opzioni di modifica delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulta Sfondo per timeout in [Opzioni di regolazione fine immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-Il seguente codice HTML viene visualizzato quando si fa clic con il pulsante destro del mouse nella finestra del browser, quindi si fa clic su **[!UICONTROL Visualizza origine]** per il modulo mostrato nell&#39;esempio. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
+Il seguente codice HTML viene visualizzato quando si fa clic con il pulsante destro del mouse nella finestra del browser, quindi si seleziona **[!UICONTROL Visualizza origine]** per il modulo mostrato nell&#39;esempio. Il codice mostra la stringa di query URL corrispondente e il metodo POST che vengono eseguiti quando l&#39;utente seleziona **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-Per visualizzare la risposta XML in Internet Explorer, fate clic su **[!UICONTROL Visualizza]** > **[!UICONTROL Sorgente]**. Per visualizzare la risposta XML in Firefox, fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Origine pagina]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Origine]**. Per visualizzare la risposta XML in Firefox, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Origine pagina]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -370,8 +370,8 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori come una stringa query URL. Nella stringa query URL potete usare i seguenti campi per caricare una risorsa:
 
-| Parametro URL | Richiesto o facoltativo | Valore |
-|--- |--- |--- |
+| Parametro URL | Obbligatorio o Facoltativo | Valore |
+| --- | --- | --- |
 | `op` | Obbligatorio | caricare |
 | `upload_token` | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
 | `company_name` | Obbligatorio | Nome della società che esegue il caricamento. |

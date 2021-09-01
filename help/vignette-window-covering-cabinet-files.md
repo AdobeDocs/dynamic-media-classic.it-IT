@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di file di vignettatura, rifinitura finestre e scaffali
-description: Scopri come utilizzare i file vignetta, rivestimento di finestre e archivio.
+title: Operazioni con vignetta, rivestimento di finestre e file CAB
+description: Scopri come utilizzare i file vignetta, finestra e archivio in Adobe Dynamic Media Classic.
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8d1e0c37-a648-4c7b-8f68-4b2ab71dfa11
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 27%
+source-wordcount: '144'
+ht-degree: 15%
 
 ---
 
-# Utilizzo di file di vignettatura, rifinitura finestre e scaffali{#working-with-vignette-window-covering-and-cabinet-files}
+# Operazioni con vignetta, rivestimento di finestre e file CAB{#working-with-vignette-window-covering-and-cabinet-files}
 
 Gli utenti dello strumento Adobe Dynamic Media Classic Image Authoring possono *utilizzare* vignette (file VNT), rivestimenti di finestre (file VNW) e archivi (file VNC). Questi file non possono essere creati o modificati in Adobe Dynamic Media Classic.
 

@@ -1,6 +1,6 @@
 ---
 title: SEO (Search Engine Optimization) per i video
-description: Scopri come configurare le impostazioni SEO video.
+description: Scopri come configurare le impostazioni SEO video in Adobe Dynamic Media Classic.
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 40%
+source-wordcount: '1037'
+ht-degree: 37%
 
 ---
 
@@ -43,15 +43,15 @@ Ad Adobe, Dynamic Media Classic crea rapporti sulle mappe video e sui feed mRSS 
 >
 >Per le mappe video e i feed mRSS, Adobe Dynamic Media Classic acquisisce i metadati solo dai video contrassegnati per la pubblicazione. Contrassegnate i video per la pubblicazione per includerne i metadati nei Video Sitemap e nei feed mRSS.
 
-## Scelta delle impostazioni SEO video {#choosing-video-seo-settings}
+## Scegli le impostazioni SEO video {#choosing-video-seo-settings}
 
-Fai clic su Video SEO settings for video Sitemaps and mRSS feed nella pagina **[!UICONTROL Video Search Engine Optimization Settings]** (Impostazioni ottimizzazione motore di ricerca video). Per aprire questa pagina, nella barra di navigazione globale fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Impostazioni]**.
+Nella pagina **[!UICONTROL Video Search Engine Optimization Settings]** (Impostazioni ottimizzazione motore di ricerca video), seleziona le impostazioni SEO video per video Sitemap e feed mRSS. Per aprire questa pagina, nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Impostazioni]**.
 
 Nell&#39;area **[!UICONTROL Impostazioni generali]**, scegli se generare mappe video, feed mRSS o entrambi. Nell&#39;area **[!UICONTROL Impostazioni di generazione]**, mappare i campi di metadati sui campi di input.
 
-Dopo aver scelto le impostazioni, fai clic su **[!UICONTROL Salva]** (o **[!UICONTROL Salva e genera]**) per creare la mappa del sito video, i feed mRSS o entrambi.
+Dopo aver scelto le impostazioni, seleziona **[!UICONTROL Salva]** (o **[!UICONTROL Salva e genera]**) per creare la mappa del sito video, i feed mRSS o entrambi.
 
-### Scelta delle impostazioni generali {#choosing-general-settings}
+### Imposta impostazioni generali {#choosing-general-settings}
 
 Nell&#39;elenco a discesa **[!UICONTROL Modalità di generazione]** , scegli una modalità di rapporto:
 
@@ -65,17 +65,17 @@ Nell&#39;elenco a discesa **[!UICONTROL Modalità di generazione]** , scegli una
 
 Nell&#39;elenco a discesa **[!UICONTROL Modalità automatica/manuale]**, scegliere se generare automaticamente o manualmente:
 
-* **Modalità automatica** : Adobe Dynamic Media Classic genera automaticamente una mappa del sito video, un feed RSS (mRSS) o entrambi, ogni giorno. Scegli l’opzione Contrassegna per pubblicazione per contrassegnare automaticamente per la pubblicazione il file XML generato da Adobe Dynamic Media Classic.
+* **Modalità automatica** : Adobe Dynamic Media Classic genera automaticamente una mappa del sito video, un feed RSS (mRSS) o entrambi, ogni giorno. Seleziona l&#39;opzione **[!UICONTROL Contrassegna per pubblicazione]** per contrassegnare automaticamente per la pubblicazione il file XML generato da Adobe Dynamic Media Classic.
 
    * **Contrassegna per** PublishMarks per pubblicare il file XML generato.
 
-* **Modalità manuale**  - Adobe Dynamic Media Classic genera la mappa del sito video, il feed RSS (mRSS) o entrambi quando si fa clic su Genera o Salva e genera nella schermata Impostazioni ottimizzazione ricerca video. Selezionate inoltre le seguenti opzioni:
+* **Modalità manuale**  - Adobe Dynamic Media Classic genera la mappa del sito video, il feed RSS (mRSS) o entrambi quando si seleziona  **** Genera o  **[!UICONTROL Salva e genera]** nella schermata Impostazioni ottimizzazione ricerca video. Selezionate inoltre le seguenti opzioni:
 
    * **Nessuna ulteriore impostazione** : non contrassegna per pubblicare il file XML generato.
 
    * **Contrassegna per pubblicazione** : contrassegna per pubblicare il file XML generato.
 
-   * **Consenti generazione parziale** : i motori di ricerca possono rifiutare un file XML se non contiene informazioni complete sui metadati per tutti i video. Con questa opzione il file XML viene generato anche se per alcuni video non sono disponibili i metadati necessari. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
+   * **Consenti generazione parziale** : i motori di ricerca possono rifiutare un file XML se non contiene informazioni complete sui metadati per tutti i video. Questa opzione genera il file XML anche se i metadati non sono disponibili per alcuni video. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
 
 ### Scelta delle impostazioni di generazione {#choosing-generation-settings}
 
@@ -91,16 +91,16 @@ Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Per salvare le impostazioni senza generare il file XML, fare clic su **[!UICONTROL Salva]**.
-   * Per salvare e generare il file, fai clic su **[!UICONTROL Salva e genera]**.
+   * Per salvare le impostazioni senza generare il file XML, selezionare **[!UICONTROL Salva]**.
+   * Per salvare e generare il file, selezionare **[!UICONTROL Salva e genera]**.
 
       Il file XML viene generato e registrato nel registro dei processi. I file del Video Sitemap (video-sitemap) e del feed mRSS (mrss-feed) vengono salvati nella cartella root della società.
 
 >[!NOTE]
 >
->Pubblica la mappa del sito video o il feed mRSS prima di inviarla ai motori di ricerca. I file del Video Sitemap e del feed mRSS vengono salvati nella cartella root della società. Contrassegna questi file XML per la pubblicazione, se necessario, e fai clic su **[!UICONTROL Pubblica]**.
+>Pubblica la mappa del sito video o il feed mRSS prima di inviarla ai motori di ricerca. I file del Video Sitemap e del feed mRSS vengono salvati nella cartella root della società. Contrassegna questi file XML per la pubblicazione, se necessario, e seleziona **[!UICONTROL Pubblica]**.
 
-## Trasmissione dei file Video Sitemap e feed mRSS ai motori di ricerca {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
+## Inviare file Video Sitemap e feed mRSS a un motore di ricerca {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
 I file di Video Sitemap e feed mRSS vengono salvati nella cartella root della società:
 
@@ -109,8 +109,8 @@ I file di Video Sitemap e feed mRSS vengono salvati nella cartella root della so
 
 Per trasmettere il file Video Sitemap o feed mRSS ai motori di ricerca, copiate uno di questi URL negli strumenti per webmaster del motore di ricerca.
 
-## Visualizzazione dei rapporti Video SEO {#viewing-video-seo-reports}
+## Visualizzare rapporti SEO video {#viewing-video-seo-reports}
 
-Visualizzare i rapporti SEO video nella pagina Rapporto di ottimizzazione motore di ricerca video . Per aprire questa pagina, nella barra di navigazione globale fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Rapporti]**.
+Visualizzare i rapporti SEO video nella pagina Rapporto di ottimizzazione motore di ricerca video . Per aprire questa pagina, nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Rapporti]**.
 
 Se si sono verificati errori durante la generazione di un rapporto, questi vengono elencati nella pagina Rapporto .

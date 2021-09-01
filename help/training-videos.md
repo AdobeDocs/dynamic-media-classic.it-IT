@@ -1,19 +1,19 @@
 ---
 title: Video di formazione Adobe Dynamic Media Classic
-description: Adobe video di formazione di Dynamic Media Classic su come iniziare, immagini dinamiche, video, portale multimediale, modelli, authoring e rendering delle immagini.
+description: Adobe video di formazione su Dynamic Media Classic per iniziare, Dynamic Imaging, video, portale multimediale, modelli e creazione e rendering delle immagini.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '6546'
+source-wordcount: '6552'
 ht-degree: 0%
 
 ---
 
 # Video di formazione Adobe Dynamic Media Classic {#training-videos}
 
-Adobe video di formazione di Dynamic Media Classic su come iniziare, immagini dinamiche, video, portale multimediale, modelli, authoring e rendering delle immagini.
+Adobe video di formazione su Dynamic Media Classic per iniziare, Dynamic Imaging, video, portale multimediale, modelli e creazione e rendering delle immagini.
 
 ## Introduzione {#get-started-training}
 
@@ -61,7 +61,7 @@ Adobe video di formazione di Dynamic Media Classic su come iniziare, immagini di
 
 * [Avvio rapido 2: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
-## Video {#video-training}
+## Video in Adobe Dynamic Media Classic {#video-training}
 
 * [Panoramica video MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
@@ -97,7 +97,7 @@ Adobe video di formazione di Dynamic Media Classic su come iniziare, immagini di
 
 * [SPS 6.5, panoramica dell&#39;aggiornamento](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/529_6.5%20highlights_2012.11.06%20-%20Scene7%20-%206.5%20Release%20Highlights_Scratch-AVS)
 
-## Creazione e rendering delle immagini {#image-authoring-rendering-training}
+## Authoring delle immagini e rendering delle immagini {#image-authoring-rendering-training}
 
 Video di formazione su vari aspetti dei seguenti aspetti:
 
@@ -155,11 +155,11 @@ Torna a [Authoring e rendering delle immagini](#image-authoring-rendering-traini
 
 * [Errori mappa illuminazione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/999_21_common_mistakes_bad_illumination_maps_ia_01colorizing-AVS)
 
-### Mappatura pattern {#pattern-mapping}
+### Mappa pattern {#pattern-mapping}
 
 Torna a [Authoring e rendering delle immagini](#image-authoring-rendering-training)
 
-* [Panoramica sulla mappatura pattern](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
+* [Panoramica della mappa pattern](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
 
 * [Passaggi prima della modifica della mesh](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/579_02_steps_before_mesh_editing_ia_02pattern-AVS)
 
