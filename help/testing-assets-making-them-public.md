@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: e8e2eeba81f93cd72bdf5e09d5441de9bd3bc776
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 32%
 
 ---
@@ -74,7 +74,7 @@ Last Modified Date:
 I seguenti tipi di risorse e funzionalità non sono attualmente supportati:
 
 * Streaming video RTMP
-* Servizi UGC
+* Servizi UGC (User-Generated Content)
 * Web-stampa
 * Adobe Informazioni di Dynamic Media Classic o ricerca eCatalog
 
