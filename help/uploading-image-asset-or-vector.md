@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 70%
+source-wordcount: '1540'
+ht-degree: 69%
 
 ---
 
 # Caricare una risorsa immagine o vettoriale{#uploading-an-image-asset-or-a-vector-asset}
 
 Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento con cui potrete caricare le risorse immagine o vettoriali.
+
+>[!IMPORTANT]
+>
+>Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic terminerà il 30 settembre 2021.
 
 ## Richiedere una chiave segreta condivisa {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 GET e POST
 
 ## Caricare una risorsa vettoriale {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic terminerà il 30 settembre 2021.
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa vettoriale. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 

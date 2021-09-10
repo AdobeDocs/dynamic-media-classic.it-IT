@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 53%
+source-wordcount: '164'
+ht-degree: 47%
 
 ---
 
@@ -24,6 +24,10 @@ UGC supporta i seguenti formati:
 
 * Raster: JPG, PNG, TIFF
 * Vettore: AI, EPS (i file EPS di Adobe Illustrator 2018 non sono supportati), PDF (solo quando il file PDF è stato aperto e salvato in precedenza in Adobe Illustrator CS6)
+
+>[!IMPORTANT]
+>
+>Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic terminerà il 30 settembre 2021.
 
 Prima di caricare le risorse, dovete ottenere una chiave segreta condivisa Usate questa chiave per ottenere un token di caricamento. Il token di caricamento verrà quindi fornito al momento di caricare le risorse ed eseguire altre operazioni UGC.
 

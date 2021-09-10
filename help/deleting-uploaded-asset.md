@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 83%
+source-wordcount: '114'
+ht-degree: 70%
 
 ---
 
@@ -49,6 +49,10 @@ Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 | `op` | Obbligatorio | delete |
 | `shared_secret` | Obbligatorio | Chiave segreta condivisa della società. |
 | <ul><li>Per immagini:nome_immagine</li><li>Per risorse vettoriali:fxg_name</li></ul> | Obbligatorio | Nome della risorsa da eliminare. |
+
+>[!IMPORTANT]
+>
+>Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic terminerà il 30 settembre 2021.
 
 **URL immagine campione:**
 
