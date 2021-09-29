@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2425'
 ht-degree: 51%
 
 ---
@@ -42,7 +42,7 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
    * Se si utilizza un Set 360 gradi nella visualizzazione Griglia o Elenco, selezionare **[!UICONTROL Modifica]**. In alternativa, aprilo in Vista dettagli e seleziona **[!UICONTROL Modifica]**. Seleziona una risorsa immagine, quindi seleziona **[!UICONTROL Mappa immagine]**.
    * Se si utilizza un eCatalog, in Vista griglia, Vista elenco, Vista dettagli, selezionare **[!UICONTROL Modifica]**. Seleziona la scheda **[!UICONTROL Mappa pagine]** .
 
-   ![](assets/ma_image_map.png)
+   ![Immagine mappa immagine](assets/ma_image_map.png)
 
 1. Disegnate una mappa immagine rettangolare o poligonale:
 

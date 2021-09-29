@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -38,22 +38,34 @@ L’app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistem
 >
 >La notifica di aggiornamento all’interno dell’applicazione desktop Adobe Dynamic Media Classic non viene generata per le versioni *secondarie*. I clienti che beneficiano di correzioni in una versione secondaria possono effettuare l’aggiornamento.
 
-## Correzioni nella versione minore (20.21.2) {#minor-release}
+## Correzioni nell’ultima versione (20.21.3) {#release-sept2021}
 
-* Limitazione nota nel menu a discesa 20.21.1 del server vuota.
+* Miniature interrotte per le risorse visualizzate dopo un periodo di inattività dell’app desktop.
+* L&#39;app desktop smette di rispondere, in genere dopo le operazioni Imposta.
+* Modalità offuscamento richieste e blocco abilitata automaticamente in **[!UICONTROL Test Image Serving]**.
+
+   Consulta [Test del servizio di verifica sicura](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+
+* È stato aggiornato il meccanismo di autenticazione con Adobe Analytics. Pertinente per le nuove integrazioni o se alcune variabili Analytics devono essere aggiornate dall’app desktop Dynamic Media Classic.
+
+   Consulta [Accedere ad Adobe Analytics](/help/log-analytics.md) per i passaggi aggiornati.
+
+## Problemi risolti nella versione 20.21.2 {#minor-release}
+
+* Limitazione nota alla versione 20.21.1: l&#39;elenco a discesa **[!UICONTROL Server]** nella schermata di accesso era vuoto.
 * In **[!UICONTROL Opzioni processo di caricamento]**, il valore predefinito per la denominazione dei livelli in **[!UICONTROL Opzioni Photoshop]** è ora **[!UICONTROL Photoshop e Nome livello]**. I livelli del file PSD vengono caricati come immagini a sé stanti.
    * Il valore predefinito precedente di **[!UICONTROL Nome livello]**, denominato le immagini dopo il nome o il numero di livello nel file PSD. Il numero del livello è stato utilizzato se i nomi dei livelli nel file PSD erano nomi di livello Photoshop predefiniti.
    * Il nuovo valore predefinito di **[!UICONTROL Photoshop e Nome livello]** assegna un nome alle immagini dopo il file PSD seguito dal nome del livello o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop.
    * Dato che le immagini di livello in Adobe Dynamic Media Classic ora hanno nomi univoci, non verrà effettuato alcun aggiornamento a PSD o Modelli esistenti (quali nomi di livello condivisi nei file PSD originali).
 * Miniature delle risorse interrotte.
 
-## Correzioni nell’ultima versione (20.21.1) {#latest-fixes-desktop-app}
+## Problemi risolti nella versione 20.21.1 {#latest-fixes-desktop-app}
 
 * Problemi di accesso a causa di timeout e il seguente messaggio: *Questo utente può essere assegnato al gruppo o ai gruppi senza autorizzazione. Contatta l&#39;amministratore.*
 * I predefiniti visualizzatore vengono duplicati a ogni tentativo di password errato.
 * Applicazione desktop che non risponde a causa di molte risorse nella cartella principale. (fisso su Windows®; funziona come desiderato su macOS).
 
-## Problemi risolti nella versione precedente (20.20.2) {#previous-version-fixes-desktop-app}
+## Problemi risolti nella versione 20.20.2 {#previous-version-fixes-desktop-app}
 
 * Nessuna limitazione sul numero di file che è possibile caricare tramite l&#39;interfaccia utente dell&#39;app desktop sia per macOS che per Windows®.
 * Non è necessario disconnettersi dall’app desktop per passare da un’azienda all’altra.
@@ -71,14 +83,14 @@ Consultate anche:
 
 1. Scarica l’ultimo programma di installazione per l’app desktop Dynamic Media Classic ad Adobe.
 
-   * L’ultima versione (20.21.2) è disponibile dal seguente indirizzo:
+   * L’ultima versione (20.21.3) è disponibile dal seguente indirizzo:
+
+      * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * La versione precedente (20.21.2) è disponibile nel seguente sito:
 
       * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * La versione precedente (20.21.1) è disponibile nel seguente sito:
-
-      * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ Consultate anche:
 
    Per il **[!UICONTROL Server]** da utilizzare, vedi la seguente mappatura per l&#39;ambiente di produzione:
 
-   | URL browser | Nome server app desktop |
+   | Server | URL browser |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Produzione NA (Nord America) |
-   | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
-   | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
+   | Produzione NA (Nord America) | https://s7sps1.scene7.com/ |
+   | Produzione EMEA (Europa, Medio Oriente e Africa) | https://s7sps3.scene7.com/ |
+   | Produzione APAC (Asia-Pacifico) | https://s7sps5.scene7.com/ |
 
 1. Dopo l’accesso, noterai l’esperienza dell’interfaccia utente del browser familiare. Puoi continuare la tua attività quotidiana di Adobe Dynamic Media Classic come sempre nell’app desktop.
 
@@ -127,11 +139,11 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
 
 1. Scarica l’ultimo programma di installazione per l’app desktop Adobe Dynamic Media Classic per macOS.
 
-   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. Montare l&#39;immagine disco scaricata (.DMG) in una posizione di montagna utilizzando il seguente comando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. Copia il file .APP in **[!UICONTROL Applicazioni]** utilizzando il seguente comando:
 
@@ -148,11 +160,11 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
 
    Per il **[!UICONTROL Server]** da utilizzare, vedi la seguente mappatura per l&#39;ambiente di produzione:
 
-   | URL browser | Nome server app desktop |
+   | Server | URL browser |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Produzione NA (Nord America) |
-   | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
-   | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
+   | Produzione NA (Nord America) | https://s7sps1.scene7.com/ |
+   | Produzione EMEA (Europa, Medio Oriente e Africa) | https://s7sps3.scene7.com/ |
+   | Produzione APAC (Asia-Pacifico) | https://s7sps5.scene7.com/ |
 
 ## Scarica e *silenzioso* installa l&#39;app desktop Dynamic Media Classic più recente su Windows® {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
 
 1. Scarica l’ultimo programma di installazione per l’app desktop Dynamic Media Classic ad Adobe.
 
-   * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. Esegui il programma di installazione in modalità record utilizzando il seguente comando:
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. Nella finestra del programma di installazione dell&#39;interfaccia grafica, seguire i passaggi per l&#39;installazione in modo che le interazioni/gli ingressi, come il percorso di installazione, vengano registrati nel file `Setup.iss`.
 
-1. Copia il file `Setup.iss` creato e `adobe-dynamic-media-classic-20.21.2.exe` in un altro computer.
+1. Copia il file `Setup.iss` creato e `adobe-dynamic-media-classic-20.21.3.exe` in un altro computer.
 
 1. Esegui il seguente comando per un&#39;installazione invisibile all&#39;utente:
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    I dettagli sui parametri della riga di comando sono disponibili in [Setup.exe e Update.exe Parametri della riga di comando.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ Per scaricare e *silenzioso* installare l&#39;ultima versione dell&#39;app deskt
 
    Per il **[!UICONTROL Server]** da utilizzare, vedi la seguente mappatura per l&#39;ambiente di produzione:
 
-   | URL browser | Nome server app desktop |
+   | Server | URL browser |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Produzione NA (Nord America) |
-   | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
-   | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
-
+   | Produzione NA (Nord America) | https://s7sps1.scene7.com/ |
+   | Produzione EMEA (Europa, Medio Oriente e Africa) | https://s7sps3.scene7.com/ |
+   | Produzione APAC (Asia-Pacifico) | https://s7sps5.scene7.com/ |
 
 ## Procedura dettagliata sul video con Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
