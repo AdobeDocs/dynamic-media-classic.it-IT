@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 31%
 
 ---
@@ -73,14 +73,14 @@ Last Modified Date:
 
 I seguenti tipi di risorse e funzionalità non sono attualmente supportati:
 
-* Streaming video RTMP
-* Servizi UGC (User-Generated Content)
-* Web-stampa
 * Adobe Informazioni di Dynamic Media Classic o ricerca eCatalog
+* Streaming video RTMP
+* Web-stampa
+* Servizi UGC (User-Generated Content)
 
 >[!IMPORTANT]
 >
->Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic terminerà il 30 settembre 2021.
+>Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
 
 ## Test del servizio Secure Testing {#testing-the-secure-testing-service}
 

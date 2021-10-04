@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 70%
+source-wordcount: '102'
+ht-degree: 71%
 
 ---
 
@@ -48,16 +48,18 @@ Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 | --- | --- | --- |
 | `op` | Obbligatorio | delete |
 | `shared_secret` | Obbligatorio | Chiave segreta condivisa della società. |
-| <ul><li>Per immagini:nome_immagine</li><li>Per risorse vettoriali:fxg_name</li></ul> | Obbligatorio | Nome della risorsa da eliminare. |
+| `image_name` | Obbligatorio | Nome della risorsa da eliminare. |
+
+<!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic terminerà il 30 settembre 2021.
+>Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
 
 **URL immagine campione:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif`
 
-**Esempio di URL vettoriale:**
+<!-- **Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg`
+`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg` -->
