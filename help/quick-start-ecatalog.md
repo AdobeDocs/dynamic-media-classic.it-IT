@@ -10,16 +10,23 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 42%
+source-wordcount: '1558'
+ht-degree: 39%
 
 ---
 
 # Avvio rapido: eCatalogs{#quick-start-ecatalogs}
 
-Un eCatalog è la versione digitale per il Web di un materiale originariamente destinato alla stampa, come ad esempio un catalogo, una brochure, un volantino, un manuale di un prodotto o un annuncio pubblicitario. Un eCatalog può essere visualizzato in un sito Web mediante un visualizzatore per eCatalog. Tale visualizzatore simula l’esperienza della lettura di una copia stampata. A seconda delle impostazioni selezionate per l’eCatalog, il visualizzatore può effettuare le seguenti operazioni:
+Un eCatalog è la versione digitale per il Web di un materiale originariamente destinato alla stampa, come ad esempio un catalogo, una brochure, un volantino, un manuale di un prodotto o un annuncio pubblicitario. Un eCatalog può essere visualizzato in un sito Web mediante un visualizzatore per eCatalog. Tale visualizzatore simula l’esperienza della lettura di una copia stampata.
+
+Vedi anche i seguenti video di formazione:
+
+* [Avvio rapido 1: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [Avvio rapido 2: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+
+A seconda delle impostazioni selezionate per l’eCatalog, il visualizzatore può effettuare le seguenti operazioni:
 
 * Cerca una parola chiave o parole chiave nel catalogo. I risultati della ricerca vengono visualizzati come un elenco di miniature in un pannello di ricerca sul lato sinistro del catalogo. Ogni miniatura cliccabile rappresenta un catalogo diffuso in cui è stato trovato il termine di ricerca evidenziato.
 
@@ -55,21 +62,21 @@ Questa sezione è stata progettata per aiutarvi a imparare a usare rapidamente g
 
 I file Adobe PDF sono di solito usati come file sorgente per un eCatalog. Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Adobe Dynamic Media Classic rileva queste immagini e le converte utilizzando un profilo colore CMYK standard. Tuttavia, devi caricare e utilizzare un profilo colore personalizzato.
 
-Nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per iniziare a caricare file PDF o immagini per il tuo eCatalog. Potete caricare i file dal desktop o via FTP; l’FTP è il metodo consigliato nel caso di molti file o file più grandi di 100 MB.
+Nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per iniziare a caricare file o immagini PDF per il tuo eCatalog. Potete caricare i file dal desktop o via FTP; l’FTP è il metodo consigliato nel caso di molti file o file più grandi di 100 MB.
 
 Le Opzioni PDF nella schermata Carica riguardano il caricamento dei file PDF nella risoluzione e nello spazio colore corretti. Si consiglia di usare una risoluzione di 150 pixel per pollice. Con l’opzione Genera automaticamente eCatalog potete creare un eCatalog durante il caricamento di un file PDF. 
 
-Consultare [Caricamento dei file PDF](uploading-pdf-files.md#uploading_the_pdf_files).
+Consulta [Caricare i file PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. Creare un eCatalog
 
-Crea l’eCatalog selezionando i file PDF o di immagine nel pannello Sfoglia. Seleziona **[!UICONTROL Build]**, quindi scegli **[!UICONTROL eCatalogs]**.
+Crea l’eCatalog selezionando i file di PDF o immagini nel pannello Sfoglia. Seleziona **[!UICONTROL Build]**, quindi scegli **[!UICONTROL eCatalogs]**.
 
 Nella pagina eCatalog, nella scheda **[!UICONTROL Ordina pagine]** , seleziona un’opzione Layout: **[!UICONTROL 1 Su]**, **[!UICONTROL 2 Su]** o **[!UICONTROL Personalizzato]**. Potete riordinare le pagine o pagine affiancate trascinandole oppure, negli eCatalog di grandi dimensioni, scegliendo un nome di pagina nel menu Sposta a.
 
 Per aggiungere delle pagine, selezionate una cartella nella Libreria risorse, quindi trascinate i file PDF o i file di immagini nella schermata Ordina pagine. Invece dei numeri di pagina predefiniti, è possibile fornire nomi di pagina personalizzati o importare molti nomi di pagina.
 
-Seleziona **[!UICONTROL Salva]**, immetti un nome per il tuo eCatalog, scegli una cartella Dynamic Media Classic di Adobe per memorizzarlo e seleziona **[!UICONTROL Salva]**. Ogni volta che modifichi l’ordine delle pagine o modifichi l’eCatalog, salva le modifiche facendo clic su **[!UICONTROL Salva]**.
+Seleziona **[!UICONTROL Salva]**, immetti un nome per il tuo eCatalog, scegli una cartella Adobe Dynamic Media Classic per memorizzarlo e seleziona **[!UICONTROL Salva]**. Ogni volta che modifichi l’ordine delle pagine o modifichi l’eCatalog, salva le modifiche facendo clic su **[!UICONTROL Salva]**.
 
 Consulta [Creare un eCatalog](creating-ecatalog.md).
 
@@ -91,7 +98,7 @@ Consulta [Gestire il contenuto del pannello informazioni negli eCatalog](/help/i
 
 ## 4. Configurazione dei predefiniti per visualizzatori di eCatalog
 
-Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog e personalizzarlo modificandone il colore di contorno e selezionando una nuova interfaccia. Ad Adobe, Dynamic Media Classic include diversi predefiniti per visualizzatori di eCatalog &quot;best practice&quot;. Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
+Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog e personalizzarlo modificandone il colore di contorno e selezionando una nuova interfaccia. Adobe Dynamic Media Classic viene fornito con diversi predefiniti per visualizzatori di eCatalog &quot;best practice&quot;. Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
 
 Per creare un predefinito per visualizzatori di eCatalog, nella barra di navigazione globale selezionate **[!UICONTROL Configurazione]**, quindi scegliete **[!UICONTROL Predefiniti visualizzatore]**. Seleziona **[!UICONTROL Aggiungi]**, scegli una piattaforma, quindi seleziona **[!UICONTROL eCatalog]** > **[!UICONTROL Visualizzatore]**.
 
@@ -109,15 +116,15 @@ Consulta [Anteprima di eCatalog nel visualizzatore di eCatalog](previewing-ecata
 
 ## 6. Pubblicare eCatalog e PDF associati
 
-Quando si pubblica l’eCatalog e il PDF associato, questo viene inserito sui server di immagini Dynamic Media in modo che possa essere distribuito al sito Web e all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizza questo URL per chiamare l&#39;eCatalog dai server di immagini Dynamic Media al tuo sito web o applicazione.
+Quando si pubblica l’eCatalog e i relativi PDF, questo viene inserito sui server di immagini Dynamic Media in modo che possa essere distribuito al sito Web e all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizza questo URL per chiamare l&#39;eCatalog dai server di immagini Dynamic Media al tuo sito web o applicazione.
 
-Dopo aver contrassegnato l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, selezionate il pulsante Pubblica nella barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica , seleziona **[!UICONTROL Invia pubblicazione]**.
+Dopo aver contrassegnato l’eCatalog e PDF per la pubblicazione nel pannello Sfoglia, seleziona il pulsante Pubblica nella barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica , seleziona **[!UICONTROL Invia pubblicazione]**.
 
 Consulta [Pubblicare eCatalogs e i PDF associati](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## 7. Collegare un eCatalog a una pagina web
 
-Ad Adobe, Dynamic Media Classic attiva la stringa di callout degli URL necessaria per visualizzare l’eCatalog quando lo si pubblica sui server di immagini Dynamic Media. Puoi copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in Vista dettaglio) selezionando URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
+Adobe Dynamic Media Classic attiva la stringa di callout degli URL necessaria per visualizzare l’eCatalog quando lo si pubblica sui server di immagini Dynamic Media. Puoi copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in Vista dettaglio) selezionando URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
 
 Consultate il personale IT per inserire il collegamento all’eCatalog nella posizione appropriata sulla pagina Web. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore di eCatalog e gli utenti possono navigare nell’eCatalog.
 

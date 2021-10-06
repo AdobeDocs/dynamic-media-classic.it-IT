@@ -10,10 +10,10 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 45%
+source-wordcount: '3466'
+ht-degree: 44%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 45%
 
 Per creare un modello, vai su **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**. Selezionate Designer o Sviluppatore. In questa pagina potete aggiungere livelli di immagine e testo. Potete anche riordinare livelli, modificarne le dimensioni e la posizione e applicare effetti di ombra e bagliore alle immagini e al testo.
 
+Guarda anche il video di formazione [Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) .
+
 >[!NOTE]
 >
->Se modifichi un modello creato in una versione precedente di Adobe Dynamic Media Classic, al momento del salvataggio viene visualizzato un messaggio in cui viene richiesto &quot;Aggiungere un livello di quadro?&quot;. Seleziona **[!UICONTROL No]** per evitare di aggiungere un livello di base. Se selezioni accidentalmente **[!UICONTROL Sì]**, elimina i modificatori `&allowCanvasPrompt` e `&layer=0` nell&#39;URL e premi **[!UICONTROL Invio]** o **[!UICONTROL Invio]**.
+>Se modifichi un modello creato in una versione precedente di Adobe Dynamic Media Classic, al momento del salvataggio viene richiesto &quot;Aggiungere un livello di quadro?&quot;. Seleziona **[!UICONTROL No]** per evitare di aggiungere un livello di base. Se selezioni accidentalmente **[!UICONTROL Sì]**, elimina i modificatori `&allowCanvasPrompt` e `&layer=0` nell&#39;URL e premi **[!UICONTROL Invio]** o **[!UICONTROL Invio]**.
 
 ## Crea il modello iniziale {#creating-the-initial-template}
 
@@ -42,7 +44,7 @@ Se necessario, potete creare un modello partendo da uno già esistente. Apri il 
 
 1. Per creare il modello iniziale, utilizza uno dei metodi seguenti:
 
-   * **Seleziona prima**  la PSD o le immagini. Nel pannello Sfoglia, seleziona il file PSD o le immagini che desideri per il tuo modello, vai a  **[!UICONTROL Genera]**  >  **[!UICONTROL Nozioni di base sui modelli]**.
+   * **Seleziona prima**  il PSD o le immagini. Nel pannello Sfoglia, seleziona il file PSD o le immagini che desideri per il modello, vai a  **[!UICONTROL Genera]**  >  **[!UICONTROL Nozioni di base sui modelli]**.
 
    * **Inizia dalla schermata**  Modello - Vai a  **[!UICONTROL Genera]**  >  **[!UICONTROL Nozioni di base sui modelli]**. Selezionate Designer o Sviluppatore.
 
@@ -52,7 +54,7 @@ Se necessario, potete creare un modello partendo da uno già esistente. Apri il 
 1. Selezionare **[!UICONTROL Salva]**.
 1. Selezionare una cartella in cui memorizzare il modello, immettere un nome per il modello e selezionare **[!UICONTROL Invia]**.
 
-   Adobe Dynamic Media Classic restringe le immagini se necessario per adattarle all&#39;area di lavoro, l&#39;area nella schermata Modello per la definizione del modello.
+   Se necessario, Adobe Dynamic Media Classic restringe le immagini per adattarle all’area di lavoro, l’area nella schermata Modello per la definizione del modello.
 
 ## Modificare un set di modelli {#editing-a-template-set}
 
@@ -121,7 +123,7 @@ Utilizza questi strumenti nella schermata Modello per creare i modelli:
 
    >[!NOTE]
    >
-   >Se necessario, Adobe Dynamic Media Classic restringe le immagini per adattarle all&#39;area di lavoro quando create un livello immagine.
+   >Se necessario, Adobe Dynamic Media Classic restringe le immagini per adattarle all&#39;area di lavoro quando si crea un livello immagine.
 
 ## Creare un livello di testo {#creating-a-text-layer}
 
@@ -142,7 +144,7 @@ Per formattare il testo in un livello di testo, procedi come segue:
 1. Nella casella di testo dell’Editor di testo, selezionare il testo che si desidera formattare. È possibile selezionare tutto il testo, parti del testo o singoli caratteri.
 1. Specificare una delle seguenti opzioni di formattazione, quindi selezionare **[!UICONTROL Applica]**.
 
-   * **[!UICONTROL Font]**  - Scegliere un font dal menu Font. Se un font desiderato non viene visualizzato nel menu, puoi caricarlo nell’Adobe Dynamic Media Classic. Consultate Font.
+   * **[!UICONTROL Font]**  - Scegliere un font dal menu Font. Se un font desiderato non viene visualizzato nel menu, puoi caricarlo in Adobe Dynamic Media Classic. Consultate Font.
 
    * **[!UICONTROL Font Size]**  - Scegli una dimensione del font dal menu, digita una dimensione specifica nella casella oppure seleziona le  **** Frecce  **** verso il basso per aumentare o diminuire la dimensione di due punti.
 
@@ -244,7 +246,7 @@ I livelli devono essere di dimensioni tali da rientrare nel quadro. Potete modif
 
 >[!NOTE]
 >
->Ad Adobe, Dynamic Media Classic consiglia di creare un predefinito per immagini con le stesse dimensioni del modello. Quando le dimensioni del predefinito per immagini corrispondono a quelle del modello, si otterranno impostazioni corrette per le dimensioni di output finali e le opzioni di nitidezza per il modello. Dopo aver creato il predefinito per immagini, potete sceglierlo dal menu Applica predefinito sulla schermata Anteprima modello. Nella schermata viene visualizzato l’aspetto dell’immagine che verrà trasmessa dal server. Consulta [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic consiglia di creare un predefinito per immagini con le stesse dimensioni del modello. Quando le dimensioni del predefinito per immagini corrispondono a quelle del modello, si otterranno impostazioni corrette per le dimensioni di output finali e le opzioni di nitidezza per il modello. Dopo aver creato il predefinito per immagini, potete sceglierlo dal menu Applica predefinito sulla schermata Anteprima modello. Nella schermata viene visualizzato l’aspetto dell’immagine che verrà trasmessa dal server. Consulta [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets).
 
 * **Modifica delle dimensioni di un livello** : per modificare le dimensioni di un livello o dell’area di lavoro, selezionate il livello o l’area di lavoro nell’elenco Livelli e utilizzate una delle seguenti tecniche:
 

@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 34%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
@@ -41,15 +41,17 @@ Consulta [Aggiungere e modificare i predefiniti visualizzatore](application-setu
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic fornisce un comodo metodo per visualizzare in anteprima video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che viene visualizzato nell’anteprima desktop non mostra realisticamente l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare un&#39;anteprima dell&#39;aspetto e della riproduzione del video su un dispositivo mobile, passa alla schermata Anteprima , seleziona **[!UICONTROL Copia URL]** e inserisci tale URL nel browser web di un dispositivo mobile. Per ulteriori informazioni, consulta [Distribuire video sui siti web e sui siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic fornisce un metodo pratico per visualizzare in anteprima video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tuttavia, ciò che viene visualizzato nell’anteprima desktop non mostra realisticamente l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare un&#39;anteprima dell&#39;aspetto e della riproduzione del video su un dispositivo mobile, passa alla schermata Anteprima , seleziona **[!UICONTROL Copia URL]** e inserisci tale URL nel browser web di un dispositivo mobile. Per ulteriori informazioni, consulta [Distribuire video sui siti web e sui siti mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilizzare i predefiniti per visualizzatori video {#working-with-video-viewer-presets}
 
 Gli utenti visualizzano i video nel visualizzatore video. Il comportamento del visualizzatore video, il relativo aspetto e il funzionamento dei controlli di riproduzione dipendono dal predefinito per visualizzatori scelto per la riproduzione del video. Potete scegliere un predefinito per visualizzatori nella schermata Anteprima. Dopo aver scelto un predefinito, potete ottenere l’URL per ottenere l’URL o il codice da incorporare per riprodurre il video mediante il predefinito per visualizzatore scelto.
 
-Ad Adobe, Dynamic Media Classic viene fornito con molti predefiniti per visualizzatori per la riproduzione di video e, se siete amministratori, potete creare predefiniti per visualizzatori personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
+Adobe Dynamic Media Classic viene fornito con molti predefiniti per visualizzatori per la riproduzione di video e, se siete amministratori, potete creare predefiniti per visualizzatori personalizzati. Sono disponibili oltre dodici diverse impostazioni per la configurazione del visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
 
-Consulta anche [Anteprima di video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Consulta [Anteprima video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+
+Vedere anche video di formazione [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Aggiungere o modificare un predefinito per visualizzatori video {#adding-or-editing-a-video-viewer-preset}
 
@@ -58,6 +60,8 @@ Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore
 In Predefiniti visualizzatore potete attivare, filtrare, ordinare e visualizzare in anteprima i predefiniti per visualizzatore.
 
 Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_presets).
+
+Vedere anche video di formazione [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 **Per aggiungere o modificare un predefinito per visualizzatori video:**
 

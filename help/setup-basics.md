@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '255'
+ht-degree: 17%
 
 ---
 
 # Nozioni di base sulla configurazione{#setup-basics}
 
-Utilizza la pagina Adobe Dynamic Media Classic Setup per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina Configurazione, nella barra di navigazione globale selezionare **[!UICONTROL Configurazione]**.
+Utilizza la pagina Configurazione Adobe Dynamic Media Classic per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina Configurazione, nella barra di navigazione globale selezionare **[!UICONTROL Configurazione]**.
 
 Le impostazioni disponibili in questa pagina dipendono dallo stato di un utente o amministratore:
 
@@ -28,13 +28,14 @@ Le impostazioni disponibili in questa pagina dipendono dallo stato di un utente 
 
 Gli amministratori possono anche impostare i predefiniti per immagini e visualizzatori nella pagina **[!UICONTROL Configurazione]** :
 
-* **Predefiniti immagine** : i predefiniti immagine sono formati salvati per la visualizzazione di immagini master con dimensioni e formati diversi.
+* **Predefiniti immagini** : i predefiniti per immagini sono formati salvati per la visualizzazione di immagini primarie con dimensioni e formati diversi.
 
 * **Predefiniti visualizzatore** : i predefiniti visualizzatore determinano il modo in cui vengono visualizzati i contenuti multimediali quando vengono visualizzati in un visualizzatore.
 
 >[!MORELIKETHIS]
 >
->* [Adobe di ruoli utente e privilegi di Dynamic Media Classic](administration-setup.md#user_administration)
+>* [Video di formazione sulle nozioni di base sull’installazione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Ruoli e privilegi utente di Adobe Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Predefiniti immagine](application-setup.md#image_presets)
 >* [Predefiniti per visualizzatori](application-setup.md#viewer_presets)
 

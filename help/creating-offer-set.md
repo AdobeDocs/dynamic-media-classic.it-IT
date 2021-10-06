@@ -10,10 +10,10 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 38%
+source-wordcount: '1293'
+ht-degree: 35%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic offre strumenti per la modifica e la creazione di se
 
 >[!NOTE]
 >
->Prima di creare un set di offerte, accertati di pubblicare tutte le risorse che intendi utilizzare per il set in Adobe Dynamic Media Classic. Consultate [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
+>Prima di creare un set di offerte, accertati di pubblicare su Adobe Dynamic Media Classic tutte le risorse che intendi utilizzare per il set. Consultate [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipi di set di offerte {#types-of-offer-sets}
 
@@ -39,7 +39,9 @@ Potete creare un set di offerte dai seguenti tipi di set di offerte:
 
 * **Immagini**  - Puoi assemblare le immagini per un set di offerte. Ogni immagine include una diversa offerta nel set.
 
-* **Modello immagine** : è possibile parametrizzare modelli immagine in Adobe Dynamic Media Classic con il comando Genera > Nozioni di base sui modelli. Attraverso i parametri, potete scambiare e personalizzare i componenti del modello, come il testo all’interno di cornici di testo e le varie immagini. Per un set di offerte potete utilizzare i parametri dei modelli per creare, ad esempio, varianti di una stessa immagine nel set di offerte. Per informazioni sulla creazione e la definizione di parametri per i modelli per immagini, consultate Creazione di parametri per i modelli.
+* **Modello immagine**  - È possibile parametrizzare i modelli immagine in Adobe Dynamic Media Classic con il comando  **[!UICONTROL Genera]**  > Nozioni di base sui modelli. Attraverso i parametri, potete scambiare e personalizzare i componenti del modello, come il testo all’interno di cornici di testo e le varie immagini. Per un set di offerte potete utilizzare i parametri dei modelli per creare, ad esempio, varianti di una stessa immagine nel set di offerte. Per informazioni sulla creazione e la parametrizzazione dei modelli immagine, consulta [Creare parametri modello](creating-template-parameters.md#creating_template_parameters).
+
+Guarda anche il video di formazione [Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) .
 
 * **Video** : puoi assemblare video per un set di offerte. Ciascun video rappresenta una diversa offerta nel set.
 

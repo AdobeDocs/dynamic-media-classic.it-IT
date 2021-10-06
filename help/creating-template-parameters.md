@@ -10,10 +10,10 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '844'
+ht-degree: 59%
 
 ---
 
@@ -26,6 +26,8 @@ Quando create dei parametri per i modelli, dichiarate quali parti del modello ri
 Nei parametri del livello di testo, potete anche fare sì che la stringa di testo sia un campo dinamico collegato ai valori in un database. La possibilità di collegare il testo a un database è utile, ad esempio, per gestire le promozioni. Potete personalizzare le immagini modello in modo che contengano i nomi dei clienti. È inoltre possibile collegare un parametro di livello di testo a un database dei prezzi per mostrare il prezzo di un elemento in un&#39;immagine modello.
 
 Potete fare riferimento più volte a uno stesso parametro. Utilizzate la casella combinata per ciascun comando nella finestra di dialogo dei parametri per selezionare un parametro che corrisponda a uno specifico comando. Ad esempio, tutti i parametri di dimensione sono disponibili per il comando `size=` . Potete riassegnare il riferimento del parametro a qualsiasi parametro già presente nella casella combinata e rinominarlo in modo diverso da quanto già elencato. In quest&#39;ultimo caso, il nome deve essere univoco. In caso contrario, viene visualizzato un errore che indica che il parametro esiste. Quando elimini un riferimento a un parametro, questo viene rimosso dall&#39;URL se non viene fatto riferimento in nessun altro punto. Quando modificate il valore predefinito di un parametro di testo, tutti i riferimenti a tale parametro vengono aggiornati. Puoi visualizzare l’aggiornamento nella tabella dei livelli, nel rendering del modello e nell’URL. Quando modificate un attributo di livello manipolando le maniglie di ridimensionamento o digitando valori nel pannello delle proprietà, il valore del parametro viene aggiornato e tutti i riferimenti al parametro vengono aggiornati. Ad esempio, se avete parametrizzato la dimensione di due livelli usando uno stesso parametro e cambiate la dimensione di un livello, vengono aggiornate le dimensioni di entrambi i livelli. Quando visualizzate in anteprima un modello e cambiate un parametro, vengono aggiornati tutti i riferimenti a tale parametro.
+
+Guarda anche il video di formazione [Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) .
 
 ## parametrizzare un livello {#parameterizing-a-layer}
 

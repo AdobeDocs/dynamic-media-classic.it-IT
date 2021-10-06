@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 25%
+source-wordcount: '796'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,9 @@ I set 360 gradi accettano le mappe immagine. Una mappa immagine è un’area del
 
 Consulta [Creare mappe immagine](creating-image-maps.md).
 
-Questa guida rapida per set 360 gradi è stata progettata per iniziare a utilizzare rapidamente le tecniche per i set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Al termine di ogni passaggio, puoi selezionare un collegamento a un argomento per ulteriori informazioni.
+Consulta [Set di immagini e set 360 gradi: Video di formazione su Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+
+Questa guida rapida per set 360 gradi è stata progettata per consentirti di iniziare rapidamente a usare le tecniche per i set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Al termine di ogni passaggio, puoi selezionare un collegamento a un argomento per ulteriori informazioni.
 
 ## 1. Crea e carica le immagini
 

@@ -10,20 +10,28 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 68%
+source-wordcount: '872'
+ht-degree: 52%
 
 ---
 
 # Avvio rapido: Portale multimediale{#quick-start-media-portal}
 
-Media Portal consente alle aziende di acquisire, controllare e distribuire facilmente le risorse approvate a partner e canali esterni e agli utenti interni di un’azienda. Questo ambiente &quot;self-service&quot; basato su browser fornisce agli utenti di Media Portal delle &quot;visualizzazioni&quot; controllate dall’amministratore in Adobe Dynamic Media Classic Assets per semplificare l’accesso, la navigazione, la ricerca, l’anteprima e l’esportazione delle risorse nei formati approvati dall’azienda.
+Media Portal consente alle aziende di acquisire, controllare e distribuire facilmente le risorse approvate a partner e canali esterni e agli utenti interni di un’azienda. Questo ambiente &quot;self-service&quot; basato su browser fornisce agli utenti di Media Portal delle &quot;visualizzazioni&quot; controllate dall’amministratore nelle risorse Adobe Dynamic Media Classic per consentire un facile accesso, navigazione, ricerca, anteprima ed esportazione delle risorse nei formati approvati dall’azienda.
 
 In qualità di amministratore, potete definire il modo in cui gli utenti possono visualizzare, accedere e usare le risorse in Media Portal. Inoltre, potete personalizzare l’interfaccia di Media Portal in conformità con il sito Web e il marchio dell’azienda. Nell’interfaccia di Media Portal è possibile specificare il font, il colore del font, la dimensione del font e incorporare elementi di branding come i logo.
 
-Questa sezione è stata progettata per aiutarvi a iniziare a usare in breve tempo le funzioni di amministrazione di Media Portal. Al termine di ogni passaggio, seleziona il collegamento dell’argomento per ulteriori informazioni.
+Guarda i seguenti video di formazione:
+
+* [Panoramica di Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+
+* [Presentazione del portale multimediale 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+
+* [Presentazione del portale multimediale 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+
+La seguente Guida rapida è stata progettata per aiutarti a iniziare rapidamente a usare l’amministrazione di Media Portal. Al termine di ogni passaggio, seleziona il collegamento dell’argomento per ulteriori informazioni.
 
 ## 1. Comprendere i ruoli utente di Media Portal
 

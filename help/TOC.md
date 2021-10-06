@@ -6,10 +6,10 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 30%
+source-wordcount: '776'
+ht-degree: 29%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 30%
 
 + [Guida di Adobe Dynamic Media Classic](home.md)
 + [Tutorial sulle best practice per le classi Dynamic Media di Adobe](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [È ora disponibile una nuova esperienza di accesso Adobe Dynamic Media Classic](new-ui-2020.md)
++ [È ora disponibile una nuova esperienza di accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
 + [Adobe archivio newsletter Dynamic Media per Experience League](dynamic-media-newsletter.md)
-+ Introduzione ad Adobe Dynamic Media Classic {#intro}
-   + [Adobe App Dynamic Media Classic Desktop - Ora disponibile](dynamic-media-classic-desktop-app.md)
-   + [Guida di Adobe Dynamic Media Classic](introduction.md)
++ Introduzione a Adobe Dynamic Media Classic {#intro}
+   + [App desktop Adobe Dynamic Media Classic - Ora disponibile](dynamic-media-classic-desktop-app.md)
+   + [Informazioni sull’Aiuto di Adobe Dynamic Media Classic](introduction.md)
    + [Risorse per sviluppatori](developer-resources.md)
    + [Novità](whats-new.md)
    + [Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic](system-requirements.md)
    + [Assistenza](support.md)
    + [Aiuto per Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Servizi di formazione Adobe](training-services.md)
-   + [Risorse utili](popular-resources.md)
+   + [Risorse di apprendimento popolari](popular-resources.md)
    + [Video di formazione](training-videos.md)
 + Guida introduttiva {#getting-started}
    + [Panoramica del programma Adobe Dynamic Media Classic](dmc-platform-overview.md)
@@ -98,7 +98,7 @@ ht-degree: 30%
    + [Gestire il contenuto del pannello informazioni negli eCatalog](info-panel-content-ecatalog.md)
    + [Configurare i predefiniti per visualizzatori di eCatalog](setting-ecatalog-viewer-presets.md)
    + [Anteprima di eCatalog nel visualizzatore di eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Pubblicare eCatalogs e i PDF associati](publishing-ecatalogs-associated-pdfs.md)
+   + [Pubblicare eCatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md)
    + [Collegamento di un eCatalog a una pagina web](linking-ecatalog-web-page.md)
 + Set di immagini {#image-sets}
    + [Avvio rapido: set di immagini](quick-start-image-sets.md)
@@ -174,7 +174,7 @@ ht-degree: 30%
    + [Regolare un’immagine](adjusting-image.md)
    + [Opzioni di modifica dell&#39;immagine regolate al momento del caricamento](image-editing-options-upload.md)
    + [Utilizzare i PDF](pdfs.md)
-   + [Utilizzare i file PSD](psd-files.md)
+   + [Operazioni con i file PSD](psd-files.md)
    + [Utilizzare i file PostScript e Illustrator](postscript-illustrator-files.md)
    + [Operazioni con vignetta, rivestimento di finestre e file CAB](vignette-window-covering-cabinet-files.md)
 + File di supporto {#support-files}

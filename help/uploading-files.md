@@ -9,16 +9,16 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3925'
 ht-degree: 33%
 
 ---
 
 # Caricare i file{#uploading-files}
 
-Prima di caricare i file di risorse in Adobe Dynamic Media Classic, accertati che i file di risorse siano denominati correttamente e che la struttura delle cartelle sia impostata e organizzata nel modo desiderato. Puoi caricare i file da un sito FTP fornito da Adobe Dynamic Media Classic o direttamente dal computer o dalla rete. Ad Adobe, Dynamic Media Classic offre opzioni per l’ottimizzazione dei file durante il caricamento. Se hai installato l’applicazione desktop Adobe Dynamic Media Classic, puoi caricare file e cartelle trascinandoli direttamente dal desktop. Consultate [Impostazioni generali applicazione](application-setup.md#general_settings).
+Prima di caricare i file di risorse in Adobe Dynamic Media Classic, accertati che i file di risorse siano denominati correttamente e che la struttura delle cartelle sia impostata e organizzata nel modo desiderato. Puoi caricare i file da un sito FTP fornito da Adobe Dynamic Media Classic o direttamente dal computer o dalla rete. Adobe Dynamic Media Classic offre opzioni per l’ottimizzazione dei file durante il caricamento. Se hai installato l’applicazione desktop Adobe Dynamic Media Classic, puoi caricare file e cartelle trascinandoli direttamente dal desktop. Consultate [Impostazioni generali applicazione](application-setup.md#general_settings).
 
 ## Prepara le risorse e le cartelle per il caricamento {#preparing-your-assets-and-folders-for-uploading}
 
@@ -42,7 +42,7 @@ In questa tabella sono elencati i formati di file delle risorse supportati da Ad
 | PDF | PDF |
 | Photoshop | PSD, FXG e Camera Raw |
 | PostScript | EPS, PS |
-| Adobe Dynamic Media Classic Image Authoring | VNC, VNT, VNW |
+| Creazione immagini Adobe Dynamic Media Classic | VNC, VNT, VNW |
 | SVG | SVG, SVGX |
 | TAR | TAR |
 | Video | 3GP, AVI, M2P, M2T, M2TS, M2V, M4V, MOV, MP4, MPEG, MPG, MTS, OGV, TS, VOB, WMV/ASF |
@@ -89,7 +89,7 @@ Per ottenere risultati ottimali con il programma Adobe Dynamic Media Classic, as
 
 >[!NOTE]
 >
->Quando si caricano file immagine e PDF in Adobe Dynamic Media Classic, il sistema converte questi file sorgente in file P-TIFF (TIFF piramidale). Questi file P-TIFF sono i file che vengono successivamente pubblicati sui server di immagini Dynamic Media. Adobe Dynamic Media Classic utilizza il formato di file TIF piramidale perché contiene vari rapporti di zoom che consentono un rapido zoom quando viene visualizzato con un visualizzatore di zoom Dynamic Media Classic Adobe.
+>Quando carichi file immagine e PDF in Adobe Dynamic Media Classic, il sistema converte questi file sorgente in file P-TIFF (Pyramid TIFF). Questi TIFF sono i file che vengono successivamente pubblicati sui server di immagini Dynamic Media. Adobe Dynamic Media Classic utilizza il formato file TIF piramidale perché contiene vari rapporti di zoom che consentono un rapido zoom quando viene visualizzato con un visualizzatore zoom Adobe Dynamic Media Classic.
 
 ### Formati di file statici supportati {#supported-static-file-formats}
 
@@ -102,7 +102,7 @@ Adobe Dynamic Media Classic supporta diversi formati di file statici. Per conten
 * CSS
 * JavaScript (se la società è configurata con un proprio dominio)
 * Video Master
-* PDF (quando il PDF è contrassegnato per la pubblicazione dopo il caricamento, per evitare la consegna di tutti i PDF per il flusso di lavoro esistente eCatalog/PDF)
+* PDF (quando PDF è contrassegnato per la pubblicazione dopo il caricamento, per evitare la consegna di tutti i PDF per il flusso di lavoro esistente di eCatalog/PDF)
 * Video PrX
 * SVG
 * XML
@@ -118,7 +118,7 @@ Assicuratevi che le seguenti regole di denominazione dei file vengano comprese d
 
 * Non sono consentiti nel sistema ID di risorse con lo stesso identico nome.
 * I nomi degli ID risorsa sono sensibili all’uso di maiuscole e minuscole.
-* Come procedura consigliata assicuratevi che gli ID delle risorse non contengano spazi vuoti, ad esempio evitate di usare nomi come giacca nera.tif o giacca blu.jpg. Ad Adobe, l’ASCII di Dynamic Media Classic codifica gli spazi vuoti nei nomi delle risorse quando utilizza i nomi delle risorse per creare stringhe URL. Poiché questi codici ASCII sono difficili da leggere, la lettura degli URL può risultare più complicata.
+* Come procedura consigliata assicuratevi che gli ID delle risorse non contengano spazi vuoti, ad esempio evitate di usare nomi come giacca nera.tif o giacca blu.jpg. Il codice ASCII di Adobe Dynamic Media Classic codifica gli spazi vuoti nei nomi delle risorse quando utilizza i nomi delle risorse per creare stringhe URL. Poiché questi codici ASCII sono difficili da leggere, la lettura degli URL può risultare più complicata.
 * I nomi file possono contenere caratteri specifici per particolari lingue. Tuttavia, non possono contenere i seguenti caratteri:
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -136,10 +136,10 @@ Di solito, un nome file di una risorsa può essere lo stesso del numero di artic
 
 Organizzare e strutturare cartelle e sottocartelle per i contenuti in Adobe Dynamic Media Classic prima di caricare i contenuti nel sistema. La pianificazione preventiva di questa procedura presenta i due grandi vantaggi seguenti:
 
-* Quando carichi il contenuto in Adobe Dynamic Media Classic tramite FTP, puoi dire al sistema di replicare la struttura delle cartelle durante il caricamento. In questo modo, il contenuto viene organizzato nelle stesse cartelle e sottocartelle di Adobe Dynamic Media Classic che si trova sul computer o sulla rete. Per replicare la struttura delle cartelle in Adobe Dynamic Media Classic, seleziona l’opzione Includi sottocartelle quando carichi le risorse tramite FTP.
+* Quando carichi il contenuto in Adobe Dynamic Media Classic tramite FTP, puoi dire al sistema di replicare la struttura delle cartelle durante il caricamento. In questo modo, il contenuto viene organizzato nelle stesse cartelle e sottocartelle di Adobe Dynamic Media Classic presenti sul computer o sulla rete. Per replicare la struttura delle cartelle in Adobe Dynamic Media Classic, seleziona l’opzione Includi sottocartelle quando carichi le risorse tramite FTP.
 * Riorganizzare le cartelle all’interno del sistema dopo il caricamento dei file è molto più difficile rispetto a iniziare la procedura con una struttura di cartelle pianificata con attenzione.
 
-L’approccio e la struttura per la denominazione delle cartelle scelti per memorizzare i contenuti nell’Adobe Dynamic Media Classic dipende dalle esigenze della tua organizzazione. Di seguito sono riportati alcune strutture di cartelle di esempio:
+L’approccio e la struttura per la denominazione delle cartelle scelti per memorizzare i contenuti in Adobe Dynamic Media Classic dipende dalle esigenze della tua organizzazione. Di seguito sono riportati alcune strutture di cartelle di esempio:
 
 **Basato su SKU** : le cartelle vengono denominate in base a SKU o ai numeri di elemento. Vengono ad esempio create cartelle separate per tutte le serie di numeri 0-, 20-, 30.
 
@@ -153,9 +153,9 @@ L’approccio e la struttura per la denominazione delle cartelle scelti per memo
 
 Potete caricare singoli file dal desktop oppure caricare le cartelle mediante FTP. Se desideri caricare più di 100 MB di file o caricare intere cartelle e sottocartelle, seleziona la scheda **VIA FTP** .
 
-Adobe Dynamic Media Classic ti invia un messaggio e-mail per confermare l’inizio e la fine del processo di caricamento e per avvisarti di eventuali problemi.
+Adobe Dynamic Media Classic invia un messaggio e-mail per confermare l’inizio e la fine del processo di caricamento e per segnalare eventuali problemi.
 
-Durante (o subito dopo) un grande lavoro di caricamento, alcuni nuovi elementi potrebbero visualizzare il messaggio &quot;Immagine non ancora ottimizzata&quot;. Questo messaggio viene visualizzato perché i file non sono ancora stati completamente elaborati e aggiunti ad Adobe Dynamic Media Classic. Potete ottimizzare questi file successivamente. Consulta [Ottimizzare i file](application-setup.md#optimize_files).
+Durante (o subito dopo) un grande lavoro di caricamento, alcuni nuovi elementi potrebbero visualizzare il messaggio &quot;Immagine non ancora ottimizzata&quot;. Questo messaggio viene visualizzato perché i file non sono ancora stati completamente elaborati e aggiunti a Adobe Dynamic Media Classic. Potete ottimizzare questi file successivamente. Consulta [Ottimizzare i file](application-setup.md#optimize_files).
 
 ### Caricare file utilizzando la scheda Da desktop {#upload-files-using-sps-desktop-application}
 
@@ -242,10 +242,10 @@ Rifilatura in base al colore: Specificare 0 per ritagliare i pixel solo se corri
 Rifilatura in base alla trasparenza: Specificare 0 per ritagliare i pixel solo se sono trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
       * **[!UICONTROL Tolleranza]** : trascina il cursore per specificare una tolleranza da 0 a 1.
 
-* **Opzioni**  del profilo colore: scegli una conversione del colore quando crei file ottimizzati utilizzati ad Adobe per la distribuzione dinamica di Dynamic Media Classic:
+* **Opzioni**  del profilo colore: scegli una conversione del colore quando crei file ottimizzati utilizzati per la distribuzione dinamica di Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Conservazione colore predefinita]** : mantiene i colori dell&#39;immagine sorgente ogni volta che le immagini contengono informazioni sullo spazio colore; non vi è alcuna conversione del colore. In quasi tutte le immagini è incorporato il relativo profilo colore. Tuttavia, se un’immagine sorgente CMYK non contiene un profilo colore incorporato, i colori vengono convertiti nello spazio colore sRGB. sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
-   * **[!UICONTROL Conserva spazio colore originale]** : mantiene i colori originali senza alcuna conversione di colore al momento dell&#39;acquisizione in Adobe Dynamic Media Classic. Per le immagini prive di un profilo colore incorporato, la conversione del colore necessaria per elaborare le richieste di immagine viene effettuata utilizzando i profili colore predefiniti, come configurato nelle impostazioni di pubblicazione. Questi profili di colore non sempre si allineano al colore nei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
+   * **[!UICONTROL Mantieni spazio colore originale]** : mantiene i colori originali senza alcuna conversione di colore al momento dell&#39;acquisizione in Adobe Dynamic Media Classic. Per le immagini prive di un profilo colore incorporato, la conversione del colore necessaria per elaborare le richieste di immagine viene effettuata utilizzando i profili colore predefiniti, come configurato nelle impostazioni di pubblicazione. Questi profili di colore non sempre si allineano al colore nei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
    * **[!UICONTROL Personalizzato da]**  >  **[!UICONTROL a]** : apre i menu in modo da poter scegliere uno spazio  **[!UICONTROL Converti]** da e  **[!UICONTROL Converti]** colore. Questa opzione avanzata ha priorità rispetto a eventuali informazioni di colore incorporate nel file sorgente. Selezionare questa opzione solo quando tutte le immagini che si stanno inviando contengono dati di profilo colore errati o mancanti.
 
 * **Opzioni di modifica dell’immagine**  - È possibile mantenere le  &lt;> maschere di ritaglio nelle immagini e scegliere un profilo colore.
@@ -266,7 +266,7 @@ Consultare [Operazioni con file PostScript e Illustrator](postscript-illustrator
 * **Opzioni EVIDEO**  - È possibile transcodificare un file video scegliendo un predefinito per video.
 Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Metadati aggiuntivi** : immetti le parole chiave che descrivono i file che intendi caricare. Separate le parole chiave con una virgola. Le parole chiave consentono di effettuare ricerche di risorse in modo semplificato. Consulta [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
+* **Metadati aggiuntivi** : immetti le parole chiave che descrivono i file che intendi caricare. Separate le parole chiave con una virgola. Le parole chiave consentono di effettuare ricerche di risorse in modo semplificato. Consulta [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search). Consulta anche [Caricare parole chiave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) video di formazione.
 
 * **Predefiniti set di batch** : se desideri creare un set di immagini, un set 360 gradi o un set di campioni dai file caricati, seleziona la colonna  **** Activecolumn per il predefinito da utilizzare. Potete selezionare più di un predefinito. Potete creare i predefiniti nella pagina Impostazione applicazione/Predefiniti set di batch. Consultate [Predefiniti per set di batch](application-setup.md#batch_set_presets).
 

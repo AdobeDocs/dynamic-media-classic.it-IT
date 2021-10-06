@@ -10,22 +10,22 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 12%
+source-wordcount: '488'
+ht-degree: 11%
 
 ---
 
 # Best practice per l’utilizzo del visualizzatore video HTML5{#best-practice-using-the-html-video-viewer}
 
-Gli Adobi predefiniti per visualizzatori video HTML5 di Dynamic Media Classic sono lettori video affidabili. Dal lato del design del lettore, puoi creare l’intera funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
+I predefiniti per visualizzatori video Adobe Dynamic Media Classic HTML5 sono lettori video affidabili. Dal lato del design del lettore, puoi creare l’intera funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
 
-Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Il video viene quindi trasmesso tramite HLS (HTTP Live Streaming), noto anche come streaming video adattivo. Oppure, se tale metodo di consegna non è presente, viene invece utilizzato il progressivo HTML5.
+Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Il video viene quindi trasmesso tramite HLS (HTTP Live Streaming), noto anche come streaming video adattivo. Oppure, se tale metodo di consegna non è presente, viene invece utilizzato HTML5 progressive.
 
 Combinando in un unico lettore le seguenti capacità:
 
-* Componenti di riproduzione progettati utilizzando HTML5 e CSS
+* Componenti di riproduzione progettati con HTML5 e CSS
 * Riproduzione incorporata
 * Utilizzo dello streaming adattivo e progressivo in base alla capacità del browser
 
@@ -33,7 +33,9 @@ Estendi la portata dei contenuti rich media agli utenti desktop e mobili. Assicu
 
 Consulta anche [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) nella Guida di riferimento visualizzatori di Adobi.
 
-## Riproduzione di video su computer desktop e dispositivi mobili utilizzando l’Adobe Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+Vedere anche video di formazione [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+
+## Riproduzione di video su computer desktop e dispositivi mobili utilizzando il visualizzatore video Adobe Dynamic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 Per lo streaming video adattivo per desktop e dispositivi mobili, i video utilizzati per la commutazione del bit rate si basano su tutti i video MP4 nel set video adattivo.
 

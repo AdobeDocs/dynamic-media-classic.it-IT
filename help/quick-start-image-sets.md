@@ -1,6 +1,6 @@
 ---
 title: '"Avvio rapido: set di immagini"'
-description: Introduzione e avvio rapido ai set di immagini per consentirti di iniziare a usare rapidamente le tecniche per i set di immagini in Adobe Dynamic Media Classic.
+description: Introduzione e avvio rapido ai set di immagini per consentirti di iniziare a utilizzare rapidamente le tecniche per i set di immagini in Adobe Dynamic Media Classic.
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,26 +10,28 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 25%
+source-wordcount: '626'
+ht-degree: 22%
 
 ---
 
 # Avvio rapido: set di immagini{#quick-start-image-sets}
 
-Ad Adobe, i set di immagini Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare viste alternative ad alta risoluzione di un elemento.
+I set di immagini di Adobe Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare viste alternative ad alta risoluzione di un elemento.
 
 Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desiderate, potete includere nel set di immagini anche destinazioni di zoom e mappe immagine. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
 
-Questa procedura rapida per i set di immagini è stata progettata per iniziare a utilizzare rapidamente le tecniche per i set di immagini in Adobe Dynamic Media Classic.
+Consulta [Set di immagini e set 360 gradi: Video di formazione su Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+
+La seguente procedura rapida per i set di immagini è stata progettata per aiutarti a iniziare rapidamente a usare le tecniche per i set di immagini in Adobe Dynamic Media Classic.
 
 ## 1. Carica le immagini master per più viste e campioni
 
-Per iniziare, caricate le immagini per il set di immagini. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di immagini, assicurati di tenere conto di questa funzionalità durante la scelta delle immagini. Assicurati che le immagini siano di almeno 2000 pixel nelle dimensioni più grandi. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG ed EPS senza perdita di dati.
+Per iniziare, caricate le immagini per il set di immagini. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di immagini, assicurati di tenere conto di questa funzionalità durante la scelta delle immagini. Assicurati che le immagini siano di almeno 2000 pixel nelle dimensioni più grandi. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG e EPS senza perdita di dati.
 
-Nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella in Adobe Dynamic Media Classic.
+Nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella su Adobe Dynamic Media Classic.
 
 Consulta [Preparare le risorse del set di immagini per il caricamento](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
 
@@ -45,7 +47,7 @@ Vedere anche [Includere destinazioni di zoom e mappe immagine nei set di immagin
 
 ## 3. Preparare i predefiniti visualizzatore dei set di immagini, in base alle esigenze
 
-Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Ad Adobe, Dynamic Media Classic viene fornito con predefiniti visualizzatore per ogni tipo di rich media. Utilizza il visualizzatore zoom: **[!UICONTROL Personalizzato]** > **[!UICONTROL Immagini]** o **[!UICONTROL Set di immagini]**/**[!UICONTROL Visualizzazioni multiple]** predefiniti per visualizzare i set di immagini.
+Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Adobe Dynamic Media Classic viene fornito con predefiniti per visualizzatori per ogni tipo di rich media. Utilizza il visualizzatore zoom: **[!UICONTROL Personalizzato]** > **[!UICONTROL Immagini]** o **[!UICONTROL Set di immagini]**/**[!UICONTROL Visualizzazioni multiple]** predefiniti per visualizzare i set di immagini.
 
 Potete aggiungere o modificare i predefiniti per visualizzatori dalla schermata Impostazione applicazione.
 
@@ -71,7 +73,7 @@ Consulta [Pubblicare file](publishing-files.md#publishing-files).
 
 ## 6. Collega un set di immagini al tuo sito web
 
-Ad Adobe, Dynamic Media Classic crea le chiamate URL per i set di immagini e le attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
+Adobe Dynamic Media Classic crea chiamate URL per i set di immagini e li attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
 
 Selezionare il set di immagini, quindi selezionare **[!UICONTROL Anteprima]**. Ora seleziona un predefinito per visualizzatori di set di immagini, quindi seleziona **[!UICONTROL Copia URL]**.
 
