@@ -1,20 +1,20 @@
 ---
 title: Guida di Adobe Dynamic Media Classic
-description: Benvenuti in Adobe Adobe Dynamic Media Classic, il principale sistema di pubblicazione su richiesta per contenuti multimediali diversi per caricare, gestire, ottimizzare e pubblicare contenuti dinamici avanzati su tutti i dispositivi e gli schermi.
+description: Benvenuto in Adobe Dynamic Media Classic, il principale sistema di pubblicazione su richiesta per contenuti multimediali diversi per caricare, gestire, ottimizzare e pubblicare contenuti dinamici avanzati su tutti i dispositivi e gli schermi.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
 
 # Guida di Adobe Dynamic Media Classic {#scene7-overview}
 
-Benvenuti in Adobe Adobe Dynamic Media Classic, il principale sistema di pubblicazione su richiesta per contenuti multimediali diversi per caricare, gestire, ottimizzare e pubblicare contenuti dinamici avanzati su tutti i dispositivi e gli schermi. Le soluzioni Adobe Dynamic Media Classic includono:
+Benvenuto in Adobe Dynamic Media Classic, il principale sistema di pubblicazione su richiesta per contenuti multimediali diversi per caricare, gestire, ottimizzare e pubblicare contenuti dinamici avanzati su tutti i dispositivi e gli schermi. Le soluzioni Adobe Dynamic Media Classic includono:
 
 * Dynamic Imaging: Modifica, formattazione e dimensionamento in tempo reale, zoom interattivo e panoramica; campioni colore e campioni di texture; 360° centrifuga; modelli di immagini; visualizzatori multimediali.
 * eCatalog: Creazione, collegamento di punti attivi, abilitazione della ricerca, pubblicazione e distribuzione di cataloghi online distribuiti in modo dinamico in visualizzatori configurabili.

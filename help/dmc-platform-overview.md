@@ -10,9 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ I passaggi chiave del flusso di lavoro di Adobe Dynamic Media Classic sono i seg
 
 * **Crea rich media** : crea diverse configurazioni delle risorse come eCatalog, set di immagini, set 360 gradi, set di campioni, set di file multimediali diversi, modelli di base e modelli FXG.
 
-* **Pubblica e amministra** : pubblica le risorse nella rete SaaS di Adobe Dynamic Media Classic, monitora lo stato delle risorse quando vengono pubblicate, amministra i diritti utente e mantieni la sicurezza.
+* **Pubblicare e amministrare**  - Pubblicare risorse nella rete SaaS di Adobe Dynamic Media Classic. Monitora lo stato delle risorse quando vengono pubblicate. Amministra i diritti utente e mantieni la sicurezza.
 
 * **Servire** : fornire contenuti dalla rete SaaS di Adobe Dynamic Media Classic a pagine web, applicazioni e dispositivi mobili; i supporti sono ottimizzati per le prestazioni e vengono forniti con la memorizzazione in cache CDN. Adobe Dynamic Media Classic fornisce un URL per ogni risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
 
