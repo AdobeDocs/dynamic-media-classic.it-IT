@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine, vicino all’angolo inferiore destro della pagina, accertati che l’opzione **[!UICONTROL Pubblica dopo il salvataggio*]** sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Chiudi]**, immetti un nome per il set di offerte, quindi seleziona **[!UICONTROL Salva]**.
 
-Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Consultate [Invio dei set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Consulta [Invio di set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Creare un set di offerte con immagini o video {#creating-an-offer-set-with-images-or-videos}
 
