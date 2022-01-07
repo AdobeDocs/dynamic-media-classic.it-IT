@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,13 @@ L’app desktop Adobe Dynamic Media Classic è compatibile con i seguenti sistem
 
 ## Correzioni nell’ultima versione (20.22.1) {#release-jan2022}
 
-* 
+Modifica delle immagini **[!UICONTROL Salva]** i pulsanti non funzionavano.
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* Modifica delle immagini **[!UICONTROL Salva]** i pulsanti non funzionavano.
+* Negli editor impostati, il **[!UICONTROL Chiudi]**, **[!UICONTROL Salva]** e **[!UICONTROL Salva con nome]** i pulsanti diventano disattivati dopo lo scorrimento delle risorse nel **[!UICONTROL Aggiungere risorse]** pannello.
+* **[!UICONTROL Play]** nella visualizzazione Dettagli video non funzionava.
+* Impossibile immettere `d` e `e` in **[!UICONTROL Nome utente]** e **[!UICONTROL Password]** campi durante l’esecuzione di macOS Monterey.
+* Le API di Analytics rimanenti sono state spostate nella versione 2.0.
 
 ## Problemi risolti nella versione (20.21.3) {#release-sept2021}
 
@@ -160,7 +152,7 @@ Per scaricare e *silenzioso* installa la versione più recente dell’app deskto
 
 1. Scarica il più recente programma di installazione per l’app desktop Adobe Dynamic Media Classic per macOS.
 
-   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. Montare l&#39;immagine disco scaricata (.DMG) in una posizione di montagna utilizzando il seguente comando:
 
