@@ -4,12 +4,12 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
-user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
+user-guide-description: Scopri come utilizzare Adobe Dynamic Media Classic
 index: y
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 29%
    + [Nozioni di base sulla navigazione](navigation-basics.md)
    + [Nozioni di base sulla configurazione](setup-basics.md)
    + [Contenuti multimediali](rich-media.md)
-+ Imposta {#setup}
++ Configurazione {#setup}
    + [Configurazione personale](personal-setup.md)
    + [Impostazione applicazione](application-setup.md)
    + [Configurazione pubblicazione](publish-setup.md)
@@ -59,6 +59,7 @@ ht-degree: 29%
    + [Informazioni sul caricamento e la pubblicazione delle risorse](about-asset-upload-publish.md)
    + [Caricare i file](uploading-files.md)
    + [Pubblicare i file](publishing-files.md)
+   + [Best practice e limiti applicati da Dynamic Media sui tipi di risorse](best-practices-enforced-limits.md)
    + [Verificare le risorse prima di renderle pubbliche](testing-assets-making-them-public.md)
    + [Controllare i file di processo](checking-job-files.md)
 + Gestione delle risorse {#managing-assets}
@@ -146,7 +147,7 @@ ht-degree: 29%
    + [Creare un set di file multimediali diversi](creating-mixed-media-set.md)
    + [Pubblicare un set di file multimediali diversi](publishing-mixed-media-set.md)
    + [Collegare un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md)
-+ Kit di strumentazione Adobe Analytics {#analytics-kit}
++ Kit strumentazione Adobe Analytics {#analytics-kit}
    + [Avvio rapido: Integrazione di Adobe Dynamic Media Classic con Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Accedere ad Adobe Analytics](log-analytics.md)
    + [Configurare i rapporti di Adobe Analytics](configuring-analytics-reports.md)

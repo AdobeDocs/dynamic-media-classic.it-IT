@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
+source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -33,13 +33,13 @@ Vedi anche i seguenti video di formazione:
 
 * [Introduzione e panoramica](/help/dmc-platform-overview.md)
 * [Avvio rapido: eCatalog](/help/quick-start-ecatalog.md)
-* [Avvio rapido: Set di immagini](/help/quick-start-image-sets.md)
+* [Avvio rapido: set di immagini](/help/quick-start-image-sets.md)
 * [Avvio rapido: Dimensionamento dell&#39;immagine](/help/quick-start-image-sizing.md)
 * [Avvio rapido: Integrazione di Adobe Dynamic Media Classic Analytics](/help/quick-start-integrating-dmc-analytics.md)
 * [Avvio rapido: Portale multimediale](/help/quick-start-media-portal-administration.md)
 * [Avvio rapido: Set di file multimediali diversi](/help/quick-start-mixed-media-sets.md)
-* [Avvio rapido: Set 360 gradi](/help/quick-start-spin-sets.md)
-* [Avvio rapido: Set di campioni](/help/quick-start-swatch-sets.md)
+* [Avvio rapido: set 360 gradi](/help/quick-start-spin-sets.md)
+* [Avvio rapido: set di campioni](/help/quick-start-swatch-sets.md)
 * [Avvio rapido: Integrazione di Target Standard/Premium](/help/quick-start-target-integration.md)
 * [Avvio rapido: Nozioni di base sui modelli](/help/quick-start-template-basics.md)
 * [Avvio rapido: video](/help/quick-start-video.md)
