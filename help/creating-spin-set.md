@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 54%
+source-wordcount: '947'
+ht-degree: 53%
 
 ---
 
@@ -48,15 +48,11 @@ Quando create un set, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** 
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually-publishing-assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually-unpublishing-assets).
 
->[!NOTE]
->
->Quando crei un set 360 gradi, Adobe consiglia le seguenti linee guida sulle best practice e i limiti applicati.
->
->* Numero massimo di righe/colonne per set 360 gradi 2D
-   > 
-   >   * Procedure consigliate: 1000
-   >   * Limite imposto: 1000
+Quando crei un set 360 gradi, Adobe consiglia di seguire la procedura consigliata e applica il seguente limite:
 
+| Tipo limite set 360 gradi | Best practice | Limite implementato |
+| --- | --- | --- |
+| Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 
 Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di generazione del set 360 gradi per vederne l’effetto nel visualizzatore predefinito.
 

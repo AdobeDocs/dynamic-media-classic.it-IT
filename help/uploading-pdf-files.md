@@ -9,10 +9,10 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '821'
+ht-degree: 39%
 
 ---
 
@@ -20,14 +20,20 @@ ht-degree: 0%
 
 In genere, i file Adobe PDF sono l’origine di un eCatalog. Questi file contengono tutte le informazioni sulle immagini, i font e la grafica vettoriale. Potete anche creare un eCatalog a partire da immagini. Dopo aver preparato i file PDF per il caricamento, seleziona nella barra di navigazione globale **[!UICONTROL Carica]** per iniziare a caricare i PDF.
 
+Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente limite:
+
+| Tipo limite PDF | Limite implementato | Modifiche al limite del 31 dicembre 2022 |
+| --- | --- | --- |
+| Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 |
+
+<!-- 
 >[!NOTE]
 >
->Quando carichi un PDF per l’estrazione della pagina, Adobe impone le seguenti linee guida sulle best practice e i limiti applicati.
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* Numero massimo di pagine per PDF considerate per l’estrazione
-   >   * Procedure consigliate: 100
-   >   * Limite imposto: 1000 (per caricamenti di aggiornamento)
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## Preparare i file PDF {#preparing-your-pdf-files}
 

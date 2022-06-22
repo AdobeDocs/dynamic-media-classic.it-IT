@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 22%
+source-wordcount: '833'
+ht-degree: 23%
 
 ---
 
@@ -29,15 +29,11 @@ Vedi [Creare mappe immagine](creating-image-maps.md).
 
 Vedi [Set di immagini e set 360 gradi: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) video di formazione.
 
->[!NOTE]
->
->Quando crei un set 360 gradi, Adobe consiglia le seguenti linee guida sulle best practice e i limiti applicati.
->
->* Numero massimo di righe/colonne per set 360 gradi 2D
-   > 
-   >   * Procedure consigliate: 1000
-   >   * Limite imposto: 1000
+Quando crei un set 360 gradi, Adobe consiglia di seguire la procedura consigliata e applica il seguente limite:
 
+| Tipo limite set 360 gradi | Best practice | Limite implementato |
+| --- | --- | --- |
+| Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 
 Questa guida rapida per set 360 gradi è stata progettata per consentirti di iniziare rapidamente a usare le tecniche per i set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Al termine di ogni passaggio, puoi selezionare un collegamento a un argomento per ulteriori informazioni.
 

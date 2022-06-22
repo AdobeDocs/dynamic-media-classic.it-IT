@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 36%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 36%
 
 I file PDF (Portable Document Format) vengono utilizzati più spesso in Adobe Dynamic Media Classic per creare eCatalog. Quando carichi un file PDF, Adobe Dynamic Media Classic rasterizza o copia le pagine per impostazione predefinita, in modo che possano essere utilizzate per creare contenuti multimediali complessi.
 
->[!NOTE]
->
->Quando carichi un PDF per l’estrazione della pagina, Adobe impone le seguenti linee guida sulle best practice e i limiti applicati.
->
->* Numero massimo di pagine per PDF considerate per l’estrazione
-   >   * Procedure consigliate: 100
-   >   * Limite imposto: 1000 (per caricamenti di aggiornamento)
+Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente limite:
 
+| Tipo limite PDF | Limite implementato | Modifiche al limite del 31 dicembre 2022 |
+| --- | --- | --- |
+| Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 |
 
 ## Opzioni di caricamento PDF {#pdf-upload-options}
 

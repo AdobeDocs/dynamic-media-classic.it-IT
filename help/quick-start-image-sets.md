@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 21%
 
 ---
@@ -25,17 +25,12 @@ Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli s
 
 Vedi [Set di immagini e set 360 gradi: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) video di formazione.
 
->[!NOTE]
->
->Quando crei un set di immagini, Adobe consiglia le seguenti linee guida sulle best practice e i limiti applicati.
->
->* Numero di risorse duplicate per set di immagini
-   >   * Procedure consigliate: 20
-   >   * Limite imposto: 20
->* Numero massimo di pagine per set di immagini
-   >   * Procedure consigliate: 1000
-   >   * Limite imposto: 1000
+Quando crei un set di immagini, Adobe consiglia le seguenti best practice e applica i seguenti limiti:
 
+| Tipo limite set di immagini | Best practice | Limite implementato | Modifiche al limite del 31 dicembre 2022 |
+| --- | --- | --- | --- |
+| Numero di risorse duplicate per set | Nessun duplicato | 100 | 20 |
+| Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
 
 La seguente procedura rapida per i set di immagini è stata progettata per aiutarti a iniziare rapidamente a usare le tecniche per i set di immagini in Adobe Dynamic Media Classic.
 
