@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 23%
+source-wordcount: '838'
+ht-degree: 22%
 
 ---
 
@@ -34,6 +34,8 @@ Quando crei un set 360 gradi, Adobe consiglia di seguire la procedura consigliat
 | Tipo limite set 360 gradi | Best practice | Limite implementato |
 | --- | --- | --- |
 | Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
+
+Vedi anche [Limiti Dynamic Media](/help/limitations.md).
 
 Questa guida rapida per set 360 gradi è stata progettata per consentirti di iniziare rapidamente a usare le tecniche per i set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Al termine di ogni passaggio, puoi selezionare un collegamento a un argomento per ulteriori informazioni.
 

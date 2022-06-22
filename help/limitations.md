@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '171'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,8 @@ Le sezioni seguenti descrivono le limitazioni in Dynamic Media.
 Questo argomento include le sezioni seguenti:
 
 * Best practice e limiti applicati da Dynamic Media sui tipi di risorse
-* Combinazioni di browser web e sistemi operativi non supportati per visualizzatori Dynamic Media
+
+<!-- * Unsupported web browser and operating system combinations for Dynamic Media Viewers -->
 
 ## Best practice e limiti applicati da Dynamic Media sui tipi di risorse
 
@@ -36,6 +37,8 @@ Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazio
 | **Set di immagini** - Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
 | **Set 360 gradi** - Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 | **PDF** - Numero massimo di pagine per un PDF da considerare per l’estrazione |  | 5000 (per nuovi caricamenti) | 100 |
+
+<!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 
 <!-- ## Unsupported web browser and operating system combinations for Dynamic Media Viewers
 
