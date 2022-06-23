@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '706'
 ht-degree: 36%
 
 ---
@@ -23,9 +23,9 @@ I file PDF (Portable Document Format) vengono utilizzati più spesso in Adobe Dy
 
 Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente limite:
 
-| Tipo limite PDF | Limite implementato | Modifiche al limite del 31 dicembre 2022 |
+| Tipo di limite | Limite imposto | Modifica del limite il 31 dicembre 2022 |
 | --- | --- | --- |
-| Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 |
+| Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 (per tutti i PDF) |
 
 Vedi anche [Limiti Dynamic Media](/help/limitations.md).
 

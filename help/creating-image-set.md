@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
@@ -34,9 +34,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 Quando crei un set di immagini, Adobe consiglia le seguenti best practice e applica i seguenti limiti:
 
-| Tipo limite set di immagini | Best practice | Limite implementato | Modifiche al limite del 31 dicembre 2022 |
-| --- | --- | --- | --- |
-| Numero di risorse duplicate per set | Nessun duplicato | 100 | 20 |
+| Tipo di limite | Best practice | Limite imposto |
+| --- | --- | --- |
+| Numero di risorse duplicate per set | Nessun duplicato | 20 |
 | Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
 
 Vedi anche [Limiti Dynamic Media](/help/limitations.md).
