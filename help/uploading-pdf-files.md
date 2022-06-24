@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '829'
 ht-degree: 38%
 
 ---
@@ -24,18 +24,9 @@ Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente
 
 | Tipo limite PDF | Limite imposto | Modifica del limite il 31 dicembre 2022 |
 | --- | --- | --- |
-| Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 |
+| Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 (per tutti i PDF) |
 
 Vedi anche [Limiti Dynamic Media](/help/limitations.md).
-
-<!-- 
->[!NOTE]
->
->When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
->
->* Maximum page size of a PDF to be considered for extraction
->   * Best practice: 100
->   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## Preparare i file PDF {#preparing-your-pdf-files}
 
