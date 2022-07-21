@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: 7a718386b128f650b98193dbba60e1b45abac53f
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 2%
+source-wordcount: '254'
+ht-degree: 3%
 
 ---
 
@@ -21,37 +21,34 @@ Le sezioni seguenti descrivono le limitazioni in Dynamic Media.
 
 Questo argomento include le sezioni seguenti:
 
-* Best practice e limiti applicati da Dynamic Media sui tipi di risorse
+* [Best practice e limiti applicati da Dynamic Media sui tipi di risorse](#best-practice-enforced-limits)
+* [Combinazioni di browser web e sistemi operativi non supportati per visualizzatori Dynamic Media](#unsupported-browser-os)
 
-<!-- * Unsupported web browser and operating system combinations for Dynamic Media Viewers -->
-
-## Best practice e limiti applicati da Dynamic Media sui tipi di risorse
+## Best practice e limiti applicati da Dynamic Media sui tipi di risorse {#best-practice-enforced-limits}
 
 Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazione della pagina, Adobe consiglia le seguenti best practice e applica i seguenti limiti:
 
-<!-- | **Image** - Number of Smart Crops per image | 5 | 100 |  | -->
-
 | Risorsa - Tipo limite | Best practice | Limite imposto | Modifica del limite il 31 dicembre 2022 |
 | --- | --- | --- | --- |
-| **Tutti i set** - Numero di risorse duplicate per set | Nessun duplicato | 20 |  |
-| **Tutti i set** - Numero massimo di risorse per set | 5-10 immagini per set | 1000 |
-| **Set 360 gradi** - Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
+| **Immagine** - Numero di ritagli avanzati per immagine | 5 | 100 | 20 |
+| **Tutti i set** - Numero di risorse duplicate per set | Nessun duplicato | 20 | Non applicabile |
+| **Tutti i set** - Numero massimo di risorse per set | 5-10 immagini per set | 1000 | Non applicabile |
+| **Set 360 gradi** - Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 | Non applicabile |
 | **PDF** - Numero massimo di pagine per un PDF da considerare per l’estrazione |  | 5000 (per nuovi caricamenti) | 100 (per tutti i PDF) |
 
-<!-- See also [Dynamic Media limitations](/help/limitations.md) -->
+<!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
 
-<!-- ## Unsupported web browser and operating system combinations for Dynamic Media Viewers
+## Combinazioni di browser web e sistemi operativi non supportati per visualizzatori Dynamic Media {#unsupported-browser-os}
 
-Dynamic Media Viewers do not support following combinations of web browser and operating system.
+I visualizzatori Dynamic Media non supportano le seguenti combinazioni di browser Web e sistemi operativi.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
 * Internet Explorer 11 + Windows Phone 8.1
-* Internet Explorer 11 + Windows Phone 8.1 Update
+* Aggiornamento di Internet Explorer 11 + Windows Phone 8.1
 * Safari 6 + iOS 6.0.1
 * Safari 7 + iOS 7.1
-* Safari 7 + macOS X 10.9 Mavericks
+* Safari 7 + OS X 10.9 Mavericks
 * Safari 8 + iOS 8.4
-* Safari 8 + macOS X 10.10 Yosemite -->
-
+* Safari 8 + OS X 10.10 Yosemite
 
