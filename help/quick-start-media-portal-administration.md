@@ -1,8 +1,8 @@
 ---
-title: '"Avvio rapido: Portale multimediale"'
+title: "Avvio rapido: Portale multimediale"
 description: Introduzione e avvio rapido a Media Portal per consentirti di iniziare a utilizzare rapidamente le tecniche e l’amministrazione di Media Portal in Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 52%
+ht-degree: 49%
 
 ---
 
@@ -43,19 +43,19 @@ Consultate [Ruoli utenti di Media Portal](media-portal-user-roles.md#media_porta
 
 I gruppi determinano le cartelle e i file a cui può accedere un utente, le operazioni che possono essere eseguite su tali cartelle e file e i predefiniti per immagini disponibili. In qualità di amministratore, il vostro primo compito consiste nel creare dei gruppi. Per ciascun gruppo potete definire le cartelle, i file e i predefiniti per immagini a cui potranno accedere i membri del gruppo. Inoltre, potete assegnare ai membri del gruppo le autorizzazioni di lettura, scrittura ed eliminazione. Tali autorizzazioni determinano se i membri del gruppo possono sfogliare, modificare, rinominare ed eliminare le cartelle e i file a cui hanno accesso. 
 
-Consulta [Creare e gestire gruppi del Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+Vedi [Creare e gestire gruppi del Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 3. Aggiungere gli utenti
 
 Quando aggiungete un utente, gli assegnate il suo specifico ruolo (utente, collaboratore o collaboratore-utente). Potete inoltre assegnare l’utente a uno o più gruppi. Per aggiungere numerosi utenti in modo più rapido, potete caricare un elenco di utenti sotto forma di file CSV. I nuovi utenti ricevono un messaggio e-mail di benvenuto e istruzioni per effettuare l’accesso a Media Portal. 
 
-Consulta [Aggiungere e gestire gli utenti di Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Vedi [Aggiungere e gestire gli utenti di Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Gestire gli account FTP
 
 Puoi avere account FTP separati associati a Media Portal e mappati a una cartella specifica nel tuo account Adobe Dynamic Media Classic. Questo consente agli utenti di caricare le risorse digitali nel vostro account utilizzando account FTP diversi.
 
-Consulta [Gestione account FTP](ftp-accounts.md#managing_ftp_accounts).
+Vedi [Gestire gli account FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
@@ -65,15 +65,15 @@ Consultate [Ruoli utenti di Media Portal](media-portal-user-roles.md#media_porta
 
 ## 5. Specificare le opzioni di esportazione
 
-Se assegnate agli utenti di Media Portal le relative autorizzazioni, al momento dell’esportazione di file essi possono riformattare ed esportare i file principali originali. In qualità di amministratore potete definire in che modo gli utenti potranno esportare i file. 
+Gli utenti di Media Portal, quando esportano i file, possono riformattare i file ed esportare i file principali originali, se gli si concede l&#39;autorizzazione per farlo. In qualità di amministratore potete definire in che modo gli utenti potranno esportare i file. 
 
-Consulta [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Vedi [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Creare i predefiniti per immagini
 
 Un predefinito per immagini è una raccolta di impostazioni preconfigurate che agiscono sulla dimensione, la qualità immagine, il formato, la risoluzione e altri aspetti di un’immagine quando questa viene esportata. Potete creare i predefiniti per immagini per controllare in che modo le immagini vengono riformattate quando vengono esportate dagli utenti. 
 
-Consulta [Creare e abilitare i predefiniti immagine](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Vedi [Creare e abilitare i predefiniti per immagini](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Creare predefiniti per metadati e campi di metadati definiti dall’utente
 
@@ -85,4 +85,4 @@ Consultate [Utilizzo efficiente dei metadati](making-efficient-metadata.md#makin
 
 Le impostazioni stile Media Portal consentono di creare un marchio della pagina Media Portal con il logo e i colori dell’azienda. Utilizza le impostazioni di stile per inserire il marchio della tua azienda in Media Portal.
 
-Consulta [Personalizzare la pagina del portale multimediale](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+Vedi [Personalizzare la pagina Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

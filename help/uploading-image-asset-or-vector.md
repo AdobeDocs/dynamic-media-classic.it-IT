@@ -1,13 +1,13 @@
 ---
 title: Caricare una risorsa immagine raster
 description: Scopri come caricare una risorsa immagine raster in Adobe Dynamic Media Classic
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 69%
@@ -20,11 +20,11 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 >[!IMPORTANT]
 >
->Il supporto per risorse vettoriali UGC nuove o esistenti in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
+>Il supporto per le risorse vettoriali UGC nuove o esistenti in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
 
 ## Richiedere una chiave segreta condivisa {#requesting-a-shared-secret-key}
 
-Richiedi una *chiave segreta condivisa* di [utilizzando l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi una chiave segreta condivisa.
+Richiedere un *chiave segreta condivisa* da [utilizzo dell&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi una chiave segreta condivisa.
 
 Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvala localmente per un utilizzo futuro.
 
@@ -35,7 +35,7 @@ L’utilizzo di un *token di caricamento* fa sì che nessuno debba usare la chia
 Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Utilizza i seguenti URL, sostituendo la chiave segreta condivisa con altri utenti, in modo da poter recuperare il token di caricamento.
 
 * Immagine raster
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave segreta condivisa è  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave segreta condivisa è `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -86,11 +86,11 @@ Per ottenere un token di caricamento, potete usare i seguenti campi nella string
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **Metodi HTTP consentiti:**
-`GET` e  `POST`
+`GET` e `POST`
 
 Ora potete caricare una risorsa immagine.
 
-Consulta [Caricare una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Vedi [Caricare una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## Caricare una risorsa immagine raster {#uploading-an-image-asset}
 
@@ -100,11 +100,11 @@ Dopo aver recuperato un token di caricamento valido per un periodo di tempo spec
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-I campi `upload_token` e `company_name` sono obbligatori.
+La `upload_token` e `company_name` i campi sono obbligatori.
 
-Consulta [Recupera il token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Vedi [Recupera il token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulta [Recuperare una chiave segreta condivisa](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Vedi [Recupera una chiave segreta condivisa](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, come nell’esempio di seguito:
 
@@ -112,7 +112,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Il parametro `file_limit` specifica il limite di dimensione del file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+La `file_limit` specifica il limite di dimensione del file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -129,14 +129,14 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Elenco di estensione di nomi file.
 * Se mantenere il profilo colore e il nome file associati alla risorsa.
 * Se utilizzare Sfondo Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento.
-Consulta Sfondo per timeout in [Opzioni di regolazione fine immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+Consultare Sfondo della rinuncia in [Opzioni di ottimizzazione delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare.
 
 Per visualizzare il codice sorgente HTML associato al modulo precedente, seleziona [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi seleziona **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
+In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi selezionare **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
 
-Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Origine]**. Per visualizzare la risposta XML in Firefox, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Origine]**. Per visualizzare la risposta XML in Firefox, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 

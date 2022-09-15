@@ -1,8 +1,8 @@
 ---
 title: Creare e abilitare i predefiniti per immagini
-description: Scopri come creare e abilitare i predefiniti immagine in Adobe Dynamic Media Classic.
+description: Scopri come creare e abilitare i predefiniti per immagini in Adobe Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 78%
+ht-degree: 72%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 78%
 
 Quando gli utenti esportano delle risorse immagini mediante Media Portal, possono scegliere un predefinito per immagini nella finestra di dialogo Esporta risorse selezionate. Un predefinito per immagini è una raccolta di impostazioni preconfigurate che agiscono sulla dimensione, la qualità immagine, il formato, la risoluzione e altri aspetti di un’immagine quando questa viene esportata. 
 
-Gli amministratori di Media Portal possono creare i predefiniti per immagini per determinare il modo in cui le immagini vengono riformattate al momento dell’esportazione. I predefiniti per immagini riformattano le immagini in base alle specifiche della tua azienda quando gli utenti esportano le immagini dall’Adobe Dynamic Media Classic. Anziché riformattare le immagini singolarmente impostandone le varie opzioni, gli utenti possono così esportarle secondo le esatte specifiche determinate da un particolare predefinito per immagini.
+Gli amministratori di Media Portal possono creare i predefiniti per immagini per determinare il modo in cui le immagini vengono riformattate al momento dell’esportazione. I predefiniti per immagini riformattano le immagini in base alle specifiche della tua azienda quando gli utenti esportano le immagini dal Adobe Dynamic Media Classic. Anziché riformattare le immagini singolarmente impostandone le varie opzioni, gli utenti possono così esportarle secondo le esatte specifiche determinate da un particolare predefinito per immagini.
 
 Per l’esportazione delle risorse di immagine sono applicabili le restrizioni seguenti:
 
@@ -31,7 +31,7 @@ Per l’esportazione delle risorse di immagine sono applicabili le restrizioni s
 
 >[!NOTE]
 >
->queste restrizioni riguardano solo l’esportazione di risorse di immagine derivate, non l’esportazione dei file principali.
+>Queste restrizioni si applicano solo all&#39;esportazione di risorse di immagini derivate, non all&#39;esportazione di file primari.
 
 Per creare i predefiniti per immagini, consultate [Predefiniti per immagini](application-setup.md#image_presets).
 

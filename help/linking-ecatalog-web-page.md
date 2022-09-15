@@ -2,7 +2,7 @@
 title: Collegamento di un eCatalog a una pagina web
 description: Scopri come collegare un eCatalog a una pagina web in Adobe Dynamic Media Classic.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,7 +10,7 @@ discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 38%
@@ -31,24 +31,24 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene l’eCatalog di cui desiderate copiare il codice incorporato.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, sotto l’immagine miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, seleziona una singola risorsa, quindi, sotto la miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Copia URL]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
-   * Selezionare **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse , seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Copia URL]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
-   * Selezionare **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]** o **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**, **[!UICONTROL Vista a elenco]** oppure **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **Copia URL**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **Copia URL**.
 
 ## Aggiungere URL di eCatalog alla pagina web {#adding-ecatalog-urls-to-your-web-page}
 
 Il modo più comune di pubblicare un eCatalog consiste nell’inserire nella pagina Web un collegamento sotto forma di miniatura della copertina dell’eCatalog. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli ed esempi di codice, consulta [Incorporare il visualizzatore di eCatalog HTML5 nella Guida di riferimento visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedi [Incorpora il visualizzatore eCatalog di HTML5 nella guida di riferimento visualizzatori Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copia il codice di incorporamento di un visualizzatore eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
@@ -60,21 +60,21 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene l’eCatalog di cui desiderate copiare il codice incorporato.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL a destra, seleziona **[!UICONTROL Codice di incorporamento]**.
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, sotto l’immagine miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL a destra, seleziona **[!UICONTROL Codice di incorporamento]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, seleziona una singola risorsa, quindi, sotto la miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
-   * Selezionare **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse , seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
-   * Selezionare **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]** o **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**, **[!UICONTROL Vista a elenco]** oppure **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
 1. Nella finestra di dialogo Incorpora codice selezionare **[!UICONTROL Copia negli Appunti]**.
 
    La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-1. Selezionare **[!UICONTROL Chiudi]**.
+1. Seleziona **[!UICONTROL Chiudi]**.

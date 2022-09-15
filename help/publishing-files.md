@@ -1,17 +1,17 @@
 ---
 title: Pubblicare i file
-description: '"Scopri come pubblicare le risorse sui server di immagini Dynamic Media. Puoi pubblicare le risorse una tantum oppure fare in modo che Adobe Dynamic Media Classic le pubblichi secondo una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al tuo sito web o applicazione."'
-contentOwner: admin
+description: "Scopri come pubblicare le risorse sui server di immagini Dynamic Media. Puoi pubblicare le risorse una tantum oppure fare in modo che Adobe Dynamic Media Classic le pubblichi secondo una pianificazione periodica. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al tuo sito web o applicazione."
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 48%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic tiene traccia dei processi di pubblicazione nella pa
 
 >[!NOTE]
 >
->le risorse ripubblicate (ovvero quelle che sono già state pubblicate) non vengono visualizzate subito sul sito Web a causa del sistema di Web caching sulla rete per la distribuzione dei contenuti (CDN). Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
+>Le risorse ripubblicate (le hai pubblicate prima) non vengono visualizzate immediatamente sul sito web a causa del meccanismo di web-caching nella rete CDN (Content Delivery Network). Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Creare un processo di pubblicazione una tantum {#creating-a-one-time-publish-job}
 
@@ -102,7 +102,7 @@ Vedi [Utilizzare un processo di caricamento o pubblicazione come attivatore](che
 
 ## Annullare un processo di pubblicazione {#canceling-a-publish-job}
 
-Potete annullare un processo di pubblicazione in corso. Se siete un amministratore, potete inoltre annullare un processo di pubblicazione in corso dalla pagina Processi della società.
+È possibile annullare un processo di pubblicazione in corso. Se siete un amministratore, potete inoltre annullare un processo di pubblicazione in corso dalla pagina Processi della società.
 
 Per annullare un processo di pubblicazione, passare alla pagina Processi e selezionare **[!UICONTROL Annulla]**. Nella scheda Pianificati della pagina Processi potete sospendere o ripristinare un processo deselezionando o selezionando la casella di controllo nella colonna Attivo del processo.
 
@@ -144,7 +144,7 @@ Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona
 
 ## Ottenere la cronologia di pubblicazione di una risorsa {#getting-an-asset-s-publish-history}
 
-L’ultima data di pubblicazione di una risorsa viene visualizzata in Vista dettagli nella parte superiore del pannello. Per ottenere ulteriori dettagli sulla cronologia delle pubblicazioni, apri il pannello Server precedenti e pubblicati in Vista dettagli. Questo pannello mostra la data di pubblicazione della risorsa e i server su cui è stata pubblicata.
+L’ultima data di pubblicazione di una risorsa è indicata in Vista dettagli nella parte superiore del pannello. Per ottenere ulteriori dettagli sulla cronologia delle pubblicazioni, apri il pannello Server precedenti e pubblicati in Vista dettagli. Questo pannello mostra la data di pubblicazione della risorsa e i server su cui è stata pubblicata.
 
 ## Risorse pubblicate e ritardi CDN {#republished-assets-and-cdn-delays}
 

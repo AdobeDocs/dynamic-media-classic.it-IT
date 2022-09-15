@@ -2,7 +2,7 @@
 title: Aggiungere marcatori capitolo al video
 description: Scopri come aggiungere marcatori capitolo a un video in Adobe Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
@@ -10,7 +10,7 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 39%
@@ -25,9 +25,9 @@ Potete rendere più semplice la visualizzazione e la navigazione nei video di fo
 >
 >il lettore video utilizzato deve supportare l’uso di marcatori capitolo.
 
-Per configurare i punti di cue per la navigazione dei capitoli e il testo a comparsa del titolo del capitolo per il visualizzatore `Universal_HTML5_Video` (HTML5), consultate [Aggiungere o modificare un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) .
+Vedi [Aggiungere o modificare un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) se si desidera configurare i punti di cue di navigazione dei capitoli e il testo a comparsa del titolo del capitolo per il `Universal_HTML5_Video` visualizzatore (HTML5).
 
-Consulta anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
+Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
 
 Gli elenchi di capitoli si creano in modo analogo alle didascalie, Quindi creando un file WebVTT. Tuttavia, non è possibile utilizzare lo stesso file WebVTT anche per i sottotitoli; non è possibile impostare didascalie e capitoli in un unico file WebVTT.
 
@@ -49,15 +49,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. Il tempo di cue di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e di fine del capitolo, in formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L’identificatore di cue, il tempo di cue iniziale e il titolo del capitolo vengono visualizzati in un pop-up nel lettore video quando il puntatore passa sopra un punto di cue visivo nella timeline del video.
+Nell’esempio riportato sopra, il `Chapter 1`capitolo  ( 1) è l’identificatore del cue point ed è opzionale. Il tempo di cue di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e di fine del capitolo, in 00:00:Formato 000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Titolo del capitolo `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L’identificatore di cue, il tempo di cue iniziale e il titolo del capitolo vengono visualizzati in un pop-up nel lettore video quando il puntatore passa sopra un punto di cue visivo nella timeline del video.
 
 Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L&#39;estensione del nome del capitolo è .VTT. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
-Consultare [WebVTT: Il Testo Video Web Tiene Traccia Del Formato](https://w3c.github.io/webvtt/).
+Vedi [WebVTT: Il formato del testo del video web](https://w3c.github.io/webvtt/).
 
 **Per aggiungere marcatori capitolo a video:**
 
-1. Utilizzando un semplice editor di testo all’esterno di Adobe Dynamic Media Classic, crea il file dei capitoli video.
+1. Utilizzando un semplice editor di testo esterno a Adobe Dynamic Media Classic, crea il file dei capitoli video.
 
    >[!NOTE]
    >
@@ -69,22 +69,22 @@ Consultare [WebVTT: Il Testo Video Web Tiene Traccia Del Formato](https://w3c.gi
 
 1. In Adobe Dynamic Media Classic, carica il file del capitolo WebVTT.
 
-   Consulta [Caricare file](uploading-files.md#uploading_files).
+   Vedi [Caricare file](uploading-files.md#uploading_files).
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video da associare al file dei capitoli che avete caricato.
-1. Nel pannello delle risorse, seleziona una singola risorsa video, quindi, sotto l’immagine miniatura della risorsa, seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+1. Nel pannello delle risorse, seleziona una singola risorsa video, quindi, sotto la miniatura della risorsa, seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 1. Nella tabella Elenco visualizzatori, individuate il visualizzatore HTML5 denominato **Univeral_HTML5_Video** ed effettuate una delle seguenti operazioni:
 
-   * Per un’esperienza di visualizzazione video a comparsa, seleziona **[!UICONTROL Copia URL]** all’estrema destra del nome.
+   * Per un’esperienza di visualizzazione video a comparsa, seleziona **[!UICONTROL Copia URL]** all&#39;estrema destra del nome.
 
       Aggiungi l’URL del video copiato con la sintassi seguente, in modo da poterlo associare all’URL copiato al file della didascalia:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Per un’esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Incorpora codice]** all’estrema destra del nome.
+   * Per un’esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Codice di incorporamento]** all&#39;estrema destra del nome.
 
       Nella finestra di dialogo Incorpora codice selezionare **[!UICONTROL Copia negli Appunti]**.
 
-      Per il visualizzatore HTML5 `Universal_HTML5_Video` , aggiungi il codice da incorporare copiato con quanto segue:
+      Per HTML5 `Universal_HTML5_Video` aggiungi al visualizzatore il codice da incorporare copiato con quanto segue:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`

@@ -2,7 +2,7 @@
 title: Lavorare nella vista Dettaglio
 description: Scopri come lavorare in Vista dettagli in Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,16 +10,16 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 24%
+source-wordcount: '617'
+ht-degree: 21%
 
 ---
 
 # Lavorare nella vista Dettaglio{#working-in-detail-view}
 
-Per lavorare con e conoscere una risorsa, aprila in Vista dettagli. Nella Vista dettagli sono disponibili le dimensioni della risorsa, gli attributi, i derivati e i metadati. Potete inoltre visualizzare se e quando la risorsa è stata pubblicata o ottenere l’URL delle risorse pubblicate. A seconda del tipo di risorsa, potete visualizzarne l’anteprima in dimensioni diverse, ingrandirla, nonché eseguire operazioni di nitidezza, ritaglio e altre operazioni di formattazione.
+Per lavorare con e conoscere una risorsa, aprila in Vista dettagli. Nella Vista dettagli sono disponibili le dimensioni della risorsa, gli attributi, i derivati e i metadati. Puoi anche verificare se e quando la risorsa è stata pubblicata e ottenere l’URL delle risorse pubblicate. A seconda del tipo di risorsa, potete visualizzarne l’anteprima in dimensioni diverse, ingrandirla, nonché eseguire operazioni di nitidezza, ritaglio e altre operazioni di formattazione.
 
 <!-- 
 
@@ -31,8 +31,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Vista ](/help/assets/image_0.img.png)
-*dettagliVista dettagli con il pannello Libreria risorse nascosto dalla vista a sinistra.*
+![Vista dettagli](/help/assets/image_0.img.png)
+*Vista dettagli con il pannello Libreria risorse nascosto dal lato sinistro.*
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Per esaminare, visualizzare in anteprima o lavorare con precisione su una risors
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Selezionate la risorsa. Nell&#39;angolo in alto a destra dell&#39;Adobe Dynamic Media Classic, seleziona l&#39;icona **[!UICONTROL Vista dettagli]** .
+   * Selezionate la risorsa. Nell’angolo in alto a destra del Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista dettagli]** icona .
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
@@ -62,15 +62,15 @@ Puoi ottenere un URL della risorsa in Vista dettagli; tuttavia, l’URL non è a
 
 La Vista dettagli offre gli strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma in Vista dettagli sono sempre disponibili le seguenti funzioni:
 
-* **elementi per la pubblicazione**  - Seleziona l’icona  **** Pubblica a sinistra del nome, oppure vai a  **[!UICONTROL File]**  >  **** File di pubblicazione  ****  >  **[!UICONTROL Annulla pubblicazione]**.
+* **elementi per la pubblicazione** - Seleziona la **[!UICONTROL Pubblica]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
-* **Rinomina la risorsa** : seleziona il nome e immetti un nuovo nome.
+* **Rinomina la risorsa** - Selezionare il nome e immettere un nuovo nome.
 
-* **Modifica e aggiungi metadati** : seleziona il pannello Metadati e modifica nel modo desiderato. Consulta [Visualizzare, aggiungere ed esportare metadati](/help/viewing-adding-exporting-metadata.md).
+* **Modificare e aggiungere metadati** - Selezionate il pannello Metadati e modificate come desiderato. Vedi [Visualizzare, aggiungere ed esportare metadati](/help/viewing-adding-exporting-metadata.md).
 
-* **Modifica e aggiungi parole chiave** : seleziona Parole chiave e aggiungili o rimuovili come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
+* **Modificare e aggiungere parole chiave** - Selezionare le parole chiave e aggiungerle o rimuoverle in base alle proprie esigenze. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
 
-* **Elimina la risorsa**  - Vai a  **[!UICONTROL File]**  >  **[!UICONTROL Elimina]**.
+* **Eliminare la risorsa** - Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
 
 Per i file discreti, ad esempio immagini, set di immagini e font, è possibile visualizzare la cronologia di pubblicazione e modifica e controllare i dettagli del processo in Vista dettagli.
 
@@ -78,8 +78,8 @@ Questa tabella mostra quali altre opzioni sono disponibili con diversi tipi di r
 
 | Tipo di risorsa | Modifica/regolazione | Anteprima |
 | --- | --- | --- |
-| Immagini | Aggiunta di mappe immagine<br>Aggiungi <br><br><br>destinazioni di zoomRitagliaNitidezzaCrea visualizzazioni regolate | Sì; Zoom e Predefiniti immagine |
-| Immagini di rifinitura finestre e scaffali | No | Miniatura |
+| Immagini | Aggiunta di mappe immagine<br>Aggiungere destinazioni di zoom<br>Ritaglio<br>Nitidezza<br>Creare visualizzazioni corrette | Sì; Zoom e Predefiniti immagine |
+| Immagini di armadio e rivestimento di finestre | No | Miniatura |
 | eCatalog | Modifica | Sì<br>È disponibile anche il pannello Info |
 | Font | Modifica delle informazioni sui font | No |
 | File FXG | Modifica | Sì |

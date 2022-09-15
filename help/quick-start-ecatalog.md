@@ -1,8 +1,8 @@
 ---
-title: '"Avvio rapido: eCatalogs"'
+title: "Avvio rapido: eCatalogs"
 description: Introduzione e avvio rapido agli eCatalog per aiutarti a iniziare rapidamente a usare le tecniche di eCatalog in Adobe Dynamic Media Classic.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 37%
+source-wordcount: '1559'
+ht-degree: 36%
 
 ---
 
@@ -56,7 +56,7 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 >
 >Ora puoi creare eCatalogs in Adobe Dynamic Media Classic.
 
-Questa sezione è stata progettata per aiutarvi a imparare a usare rapidamente gli eCatalog. Seguite i passaggi da 1 a 7. Alla fine di ciascun passaggio è riportato un riferimento a un argomento correlato con ulteriori informazioni.
+Questa sezione è stata progettata per aiutarvi a imparare a usare rapidamente gli eCatalog. Seguite i passaggi da 1 a 7. Dopo ogni passaggio, è disponibile un riferimento incrociato all’intestazione di un argomento in cui è possibile trovare ulteriori informazioni.
 
 ## 1. Carica i file PDF
 

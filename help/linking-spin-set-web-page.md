@@ -2,7 +2,7 @@
 title: Collegamento di un set 360 gradi a una pagina web
 description: Scopri come collegare un set 360 gradi a una pagina web in Adobe Dynamic Media Classic.
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,7 +10,7 @@ discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 40%
@@ -19,7 +19,7 @@ ht-degree: 40%
 
 # Collegamento di un set 360 gradi a una pagina web{#linking-a-spin-set-to-a-web-page}
 
-I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server, compresi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine web e nelle applicazioni, è necessario copiarlo da Adobe Dynamic Media Classic.
+I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server, compresi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine Web e nelle applicazioni, copialo da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -31,18 +31,18 @@ I siti web e le applicazioni accedono al contenuto di Dynamic Media Image Server
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set 360 gradi di cui desiderate copiare il codice incorporato.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, sotto l’immagine miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, seleziona una singola risorsa, quindi, sotto la miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Copia URL]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
-   * Selezionare **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse , seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Copia URL]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
-   * Selezionare **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]** o **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**, **[!UICONTROL Vista a elenco]** oppure **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Copia URL]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
 ## Aggiungi URL di set 360 gradi alla pagina web {#adding-spin-set-urls-to-your-web-page}
 
@@ -64,21 +64,21 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set 360 gradi di cui desiderate copiare il codice incorporato.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, seleziona **[!UICONTROL Codice da incorporare]** a destra del visualizzatore desiderato.
-   * Selezionare **[!UICONTROL Vista griglia]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, sotto l’immagine miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e codice da incorporare a destra, seleziona **[!UICONTROL Codice di incorporamento]** a destra del visualizzatore desiderato.
+   * Seleziona **[!UICONTROL Vista a griglia]**. Nel pannello delle risorse, seleziona una singola risorsa, quindi, sotto la miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
-   * Selezionare **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse , seleziona una singola risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
-   * Selezionare **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]** o **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Seleziona **[!UICONTROL Vista a griglia]**, **[!UICONTROL Vista a elenco]** oppure **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
+      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
 1. Nella finestra di dialogo Incorpora codice selezionare **[!UICONTROL Copia negli Appunti]**.
 
    La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-1. Selezionare **[!UICONTROL Chiudi]**.
+1. Seleziona **[!UICONTROL Chiudi]**.

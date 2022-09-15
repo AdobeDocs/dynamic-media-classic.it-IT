@@ -2,7 +2,7 @@
 title: Utilizzare i PDF
 description: Scopri come utilizzare i PDF in Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '710'
 ht-degree: 36%
 
 ---
@@ -95,4 +95,4 @@ Potete rimuovere manualmente gli indicatori di stampa dai lati delle pagine di u
 1. Dal menu Ritaglio, selezionate **[!UICONTROL Manuale]**.
 1. Immettete le impostazioni per i pixel nelle caselle di testo In alto, A destra, In basso e A sinistra per ritagliare dal corrispondente bordo delle pagine.
 
-La quantità di pagina che viene ritagliata dipende dall’impostazione della risoluzione in pixel per pollice immessa per il file PDF. Ad esempio, se immetti 150 (impostazione predefinita) come impostazione Risoluzione PX/Inch e ritagli 75 pixel dai lati delle pagine, viene ritagliato un ½ pollice; a 150 pixel per pollice, 75 pixel equivale a mezzo pollice.
+La quantità di pagina che viene ritagliata dipende dall’impostazione della risoluzione in pixel per pollice immessa per il file PDF. Ad esempio, supponiamo che immetti 150 (impostazione predefinita) come impostazione Risoluzione PX/Inch. Quindi ritagliate 75 pixel dai lati delle pagine. In tal caso, 0,5 pollici. è ritagliato. A 150 pixel per pollice, 75 pixel equivale a mezzo pollice.

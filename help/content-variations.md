@@ -2,7 +2,7 @@
 title: Gestire le varianti di contenuto
 description: Scopri come gestire le varianti di contenuto in Adobe Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 55%
@@ -27,9 +27,9 @@ Gli URL universali vengono utilizzati per visualizzare la variante del modello c
 
 Potete utilizzare qualsiasi URL di predefinito per immagini presente nell’elenco. Gli URL di predefiniti per immagini sono simili agli URL universali. Possono essere presenti più URL di predefiniti per immagini.
 
-1. Vai a **[!UICONTROL Build]** > **[!UICONTROL Set di modelli]**.
+1. Vai a **[!UICONTROL Crea]** > **[!UICONTROL Set di modelli]**.
 1. Nel generatore, seleziona un modello, quindi seleziona **[!UICONTROL Aggiungi/Anteprima]**.
-1. Modifica le proprietà del modello e seleziona **[!UICONTROL Salva con nome]** per creare un&#39;altra versione.
+1. Modifica le proprietà del modello e seleziona **[!UICONTROL Salva con nome]** per creare un’altra versione.
 1. Digita un nome e seleziona **[!UICONTROL Salva]**.
 
    La risorsa e il modello devono essere pubblicati.

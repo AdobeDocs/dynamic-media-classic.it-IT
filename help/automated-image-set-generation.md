@@ -1,8 +1,8 @@
 ---
 title: Generazione automatica di set di immagini
-description: 'Scopri come automatizzare la generazione di set di immagini in Adobe Dynamic Media Classic. '
+description: Scopri come automatizzare la generazione di set di immagini in Adobe Dynamic Media Classic.
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
@@ -10,7 +10,7 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 66%
@@ -39,5 +39,5 @@ Potete automatizzare la generazione dei set come processo indipendente dal caric
    Per impostazione predefinita, al processo viene assegnato un nome che indica che si tratta di un lavoro generato e quando è stato generato.
 
 1. Selezionate il predefinito che desiderate applicare.
-1. Selezionare **[!UICONTROL Cartella di destinazione]**, quindi specificare la cartella da utilizzare.
-1. Selezionare **[!UICONTROL Invia]**.
+1. Seleziona **[!UICONTROL Cartella di destinazione]**, quindi specifica la cartella da utilizzare.
+1. Seleziona **[!UICONTROL Invia]**.

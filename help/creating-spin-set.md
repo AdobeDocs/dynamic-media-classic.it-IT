@@ -2,7 +2,7 @@
 title: Creare un set 360 gradi
 description: Scopri come creare un set 360 gradi in Adobe Dynamic Media Classic.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 
@@ -27,13 +27,13 @@ Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le 
 
 ## Linee guida per lo scatto di immagini per set 360 gradi {#guidelines-for-shooting-spin-set-images}
 
-In generale, più sono le immagini contenute in un set 360 gradi, migliore è l’effetto di rotazione dell’immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Adobe Dynamic Media Classic consiglia le seguenti linee guida per le riprese di immagini da utilizzare nei set 360 gradi:
+In generale, più immagini si hanno in un set 360 gradi, migliore è l’effetto di rotazione dell’immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Adobe Dynamic Media Classic consiglia le seguenti linee guida per le riprese di immagini da utilizzare nei set 360 gradi:
 
 * Utilizza almeno 8-12 immagini in un set 360 gradi unidimensionale e 16-24 immagini in un set 360 gradi bidimensionale.
 * Utilizzate un formato senza perdita di dati; si consigliano TIFF e PNG.
 * Mascherate tutte le immagini in modo che gli elementi appaiano su uno sfondo bianco puro o su un altro sfondo a elevato contrasto. Se necessario, aggiungete ombre.
 * Assicuratevi che i dettagli del prodotto siano ben illuminati e messi a fuoco.
-* Per le immagini per un set 360 gradi di capi di abbigliamento, utilizzate un manichino o un indossatore. Spesso il mannequin è mascherato (utilizzando un manichino in vetro) o un mannequin/dressform stilizzato è mostrato nell&#39;immagine. Potete creare un set 360 gradi con un indossatore definendo il numero di angolazioni. Contrassegnare ogni angolo con il nastro sul pavimento in modo da guidare il modello a passo e guardare nella direzione di ogni ripresa.
+* Per le immagini per un set 360 gradi di capi di abbigliamento, utilizzate un manichino o un indossatore. Spesso il mannequin è mascherato (utilizzando un manichino in vetro) o un mannequin/dressform stilizzato è mostrato nell&#39;immagine. Potete creare un set 360 gradi sul modello definendo il numero di angoli. Contrassegnare ogni angolo con il nastro sul pavimento in modo da guidare il modello a passo e guardare nella direzione di ogni ripresa.
 
 ## Creare un set 360 gradi {#create}
 

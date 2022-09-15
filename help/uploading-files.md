@@ -2,17 +2,17 @@
 title: Caricare i file
 description: Scopri come caricare i file in Adobe Dynamic Media Classic.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3926'
-ht-degree: 32%
+source-wordcount: '3929'
+ht-degree: 31%
 
 ---
 
@@ -78,7 +78,7 @@ Per ottenere risultati ottimali con il programma Adobe Dynamic Media Classic, as
 | Font | Caratteri TrueType, Type1 (solo Windows®), OpenType® e PhotoFonts caricati. |
 | Immagini | Immagini e file immagine con più livelli. |
 | Set di immagini e set di campioni | Set di immagini correlate che possono essere visualizzate in un visualizzatore. |
-| Profili ICC | Profilo colore che potete usare per convertire un’immagine caricata dallo spazio colore di origine in un altro spazio colore. |
+| Profili ICC | Un profilo colore che consente di convertire un’immagine caricata dallo spazio colore sorgente in uno spazio colore diverso. |
 | Vignettature | Immagini create con il programma Image Authoring e file correlati. |
 | File contenuto | File di contenuto Adobe InDesign, Illustrator o Photoshop. |
 | File FXG | File di formato grafico indipendenti dalla risoluzione che potete usare per creare modelli personalizzabili per la stampa, il Web, l’e-mail, il desktop e i dispositivi.  |
@@ -101,7 +101,7 @@ Adobe Dynamic Media Classic supporta diversi formati di file statici. Per conten
 * File audio
 * CSS
 * JavaScript (se la società è configurata con un proprio dominio)
-* Video Master
+* Video principale
 * PDF (quando PDF è contrassegnato per la pubblicazione dopo il caricamento, per evitare la consegna di tutti i PDF per il flusso di lavoro esistente di eCatalog/PDF)
 * Video PrX
 * SVG
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classic non fornisce l’opzione per generare un URL di ante
 
 Poiché nelle estensioni viene rimosso il nome del file durante il processo di caricamento, nel sistema non sono consentiti file con lo stesso nome radice. Nel sistema Adobe Dynamic Media Classic, il nome del file della risorsa meno l’estensione del nome del file diventa l’ID della risorsa. Per questo motivo non sono consentite due risorse con lo stesso nome.
 
-Assicuratevi che le seguenti regole di denominazione dei file vengano comprese da tutti gli utenti della società:
+Assicurati che tutti gli utenti della tua azienda comprendano queste regole per la denominazione dei file:
 
 * Non sono consentiti nel sistema ID di risorse con lo stesso identico nome.
 * I nomi degli ID risorsa sono sensibili all’uso di maiuscole e minuscole.
 * Come procedura consigliata assicuratevi che gli ID delle risorse non contengano spazi vuoti, ad esempio evitate di usare nomi come giacca nera.tif o giacca blu.jpg. Il codice ASCII di Adobe Dynamic Media Classic codifica gli spazi vuoti nei nomi delle risorse quando utilizza i nomi delle risorse per creare stringhe URL. Poiché questi codici ASCII sono difficili da leggere, la lettura degli URL può risultare più complicata.
 * I nomi file possono contenere caratteri specifici per particolari lingue. Tuttavia, non possono contenere i seguenti caratteri:
 
-   \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    Se il nome del file contiene uno o più di questi caratteri, questi vengono eliminati dal nome del file al momento del caricamento.
 
@@ -276,7 +276,7 @@ Vedi [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#w
 
 Quando carichi elementi tramite FTP, puoi pianificare un processo successivo per iniziare una volta completato il caricamento. Se l&#39;inizio di altri lavori è programmato, il lavoro programmato qui viene messo in coda dopo di essi.
 
-Il nuovo processo invia una notifica all’indirizzo specificato per poter attivare il codice nella posizione esatta. Questo processo di pubblicazione sequenziale usa lo stesso nome del processo di caricamento, con l’aggiunta del testo *Pub_* all’inizio.
+Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in quella posizione possa essere attivato. Questo processo di pubblicazione sequenziale usa lo stesso nome del processo di caricamento, con l’aggiunta del testo *Pub_* all’inizio.
 
 **Per avviare un altro processo al termine di un caricamento:**
 

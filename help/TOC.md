@@ -6,7 +6,7 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Scopri come utilizzare Adobe Dynamic Media Classic
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 30%
@@ -79,8 +79,8 @@ ht-degree: 30%
    + [Organizzare il lavoro con i progetti](organizing-projects.md)
 + Ridimensionamento delle immagini {#image-sizing}
    + [Avvio rapido: ridimensionamento delle immagini](quick-start-image-sizing.md)
-   + [Caricare immagini master](uploading-master-images.md)
-   + [Pubblicare immagini master](publishing-master-images.md)
+   + [Caricare immagini primarie](uploading-master-images.md)
+   + [Pubblicare immagini primarie](publishing-master-images.md)
    + [Impostazione dei predefiniti per immagini](setting-image-presets.md)
    + [Collegare gli URL all’applicazione web](linking-urls-web-application.md)
 + Zoom {#zoom}

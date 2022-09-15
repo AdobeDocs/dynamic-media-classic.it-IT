@@ -2,17 +2,17 @@
 title: Caricare i file PDF
 description: Scopri come caricare i file PDF associati a un eCatalog in Adobe Dynamic Media Classic.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 38%
+source-wordcount: '831'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ Prepara i file PDF prima di caricarli in Adobe Dynamic Media Classic:
 
 Per informazioni dettagliate sui diversi metodi di caricamento, consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
 
-Selezionate i file da caricare, quindi selezionate le opzioni PDF *best practice*:
+Seleziona i file da caricare, quindi selezionali *best practice* Opzioni PDF:
 
 * **Opzioni di ritaglio** - Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni di ritaglio]**. Se le pagine PDF contengono segni di ritaglio, segni di registrazione o altri segni, nella **[!UICONTROL Ritaglio]** elenco a discesa, scegli **[!UICONTROL Manuale]**. Specificate quanti pixel ritagliare dalla parte superiore, destra, inferiore e sinistra delle pagine. I segni di ritaglio sono spesso impostati su un margine di mezzo pollice. Supponiamo di scegliere **[!UICONTROL 150]** (consigliato) come risoluzione pixel per pollice e immettete 75, 75, 75, 75 nelle caselle di testo In alto, A destra, In basso e A sinistra. In tal caso, ritaglia un pollice e mezzo dai margini (a 150 ppi, metà di 1 è uguale a 75 pixel).
 

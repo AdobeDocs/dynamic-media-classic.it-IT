@@ -2,7 +2,7 @@
 title: Accedere ad Adobe Analytics
 description: Scopri come accedere ad Adobe Analytics da Adobe Dynamic Media Classic.
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Quando effettui l’accesso, puoi immettere l’ID organizzazione Experience Clo
 
 Inizia integrando Dynamic Media Classic con Adobe Analytics OAuth. In genere, l’integrazione di Adobe Analytics OAuth con Dynamic Media Classic viene eseguita una sola volta per utente.
 
-1. Accesso [Console per sviluppatori di Adobe](https://developer.adobe.com/console). Assicurati che il tuo account disponga delle autorizzazioni di amministratore per l’organizzazione per la quale è richiesta l’integrazione.
+1. Accesso [Console Adobe Developer](https://developer.adobe.com/console). Assicurati che il tuo account disponga delle autorizzazioni di amministratore per l’organizzazione per la quale è richiesta l’integrazione.
 1. Seleziona l’azienda appropriata dall’elenco a discesa nell’angolo in alto a destra della home page. (La schermata seguente è a solo scopo informativo; il nome effettivo della società selezionato può variare.)
 
    ![Crea un nuovo progetto](assets/analytics-oauth1.png)
@@ -43,12 +43,12 @@ Inizia integrando Dynamic Media Classic con Adobe Analytics OAuth. In genere, l�
 
 1. Nella pagina del progetto, seleziona **[!UICONTROL Aggiungi API]**.
 1. Sulla **[!UICONTROL Aggiungere un’API]** pagina, seleziona **[!UICONTROL Adobe Analytics]**.
-1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Successivo]**.
+1. Nell’angolo in basso a destra della pagina, seleziona **[!UICONTROL Successivo]**.
 
    ![Aggiungere un’API](assets/analytics-oauth2.png)
 
 1. Sulla **[!UICONTROL Configurare l’API]** pagina, seleziona **[!UICONTROL OAuth AUTENTICAZIONE UTENTE]**.
-1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Successivo]**.
+1. Nell’angolo in basso a destra della pagina, seleziona **[!UICONTROL Successivo]**.
 1. Sulla **[!UICONTROL Configurare l’API]** pagina, seleziona **[!UICONTROL OAUTH 2.0 Web]**.
 1. In **[!UICONTROL URI di reindirizzamento predefinito]** campo di testo, immetti il percorso seguente esattamente come mostrato:
 
@@ -73,7 +73,6 @@ Inizia integrando Dynamic Media Classic con Adobe Analytics OAuth. In genere, l�
 >* In Analytics viene aggiunto un nuovo rapporto e l’utente desidera iniziare a inviare i dati a tale nuovo rapporto.
 >* Il server di tracciamento viene aggiornato in Adobe Analytics.
 >* Una nuova variabile di tracciamento viene introdotta in un rapporto e desideri collegare una variabile Visualizzatore specifica nell’interfaccia utente di Dynamic Media Classic a quella nuova variabile di Analytics.
-
 >
 
 
