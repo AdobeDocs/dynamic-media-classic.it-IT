@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 25%
 
 ---
@@ -34,12 +34,12 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 * **Opzioni di ritaglio** - Situato in **[!UICONTROL Opzioni di ritaglio]**. Seleziona **[!UICONTROL Rifila]** ritagliare automaticamente lo spazio bianco dai bordi di un file PSD; select **[!UICONTROL Manuale]** per ritagliare i lati del file PSD:
 
    * **[!UICONTROL Rifila]** - Seleziona la **[!UICONTROL Rifila in base a]** e scegli **[!UICONTROL Colore]** o **[!UICONTROL Trasparenza]**.
+   Se scegli la **[!UICONTROL Colore]** selezionate il menu Angolo (Corner) e scegliete l’angolo del PSD con il colore che rappresenta meglio lo spazio bianco da ritagliare.
 
-      Se scegli la **[!UICONTROL Colore]** selezionate il menu Angolo (Corner) e scegliete l’angolo del PSD con il colore che rappresenta meglio lo spazio bianco da ritagliare.
-
-      Trascinare il cursore per specificare una tolleranza da 0 a 1. Per rifilare in base al colore, l’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo del file PSD. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Per tagliare in base alla trasparenza, specificare 0 per ritagliare i pixel solo se sono trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
+   Trascinare il cursore per specificare una tolleranza da 0 a 1. Per rifilare in base al colore, l’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo del file PSD. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Per tagliare in base alla trasparenza, specificare 0 per ritagliare i pixel solo se sono trasparenti; numeri più vicini a 1 assicurano una maggiore trasparenza.
 
    * **[!UICONTROL Manuale]** - Immettere il numero di pixel da ritagliare da qualsiasi lato o lato dell&#39;immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Ad esempio, se l’immagine viene visualizzata a 150 ppi e immetti 75 nelle caselle di testo In alto, A destra, In basso e A sinistra, 0,5 pollici. viene ritagliato da ogni lato dell&#39;immagine.
+
 
 * **Opzioni del profilo colore** - Situato in **[!UICONTROL Opzioni del profilo colore]**.
 
@@ -72,6 +72,10 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 ## Visualizzare e modificare i livelli in un file PSD {#viewing-and-editing-layers-in-a-psd-file}
 
 Se hai selezionato l’opzione Mantieni livelli al momento del caricamento del PSD, Adobe Dynamic Media Classic suddivideva i singoli livelli in risorse. Per visualizzare e modificare i livelli delle risorse appartenenti a un file PSD, apri il file nel pannello Sfoglia in visualizzazione Dettagli.
+
+>[!NOTE]
+>
+>Adobe Dynamic Media Classic supporta fino a cinque livelli in un gruppo di livelli nidificato.
 
 1. Fare doppio clic sul file PSD completo nel pannello Sfoglia. Il file viene aperto in Vista dettagli.
 
