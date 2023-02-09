@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 33%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,8 @@ Dal pannello Sfoglia potete spostare, rinominare ed eliminare le risorse. Inoltr
 
 Potete spostare le risorse in altre cartelle del pannello Sfoglia.
 
+**Per spostare le risorse:**
+
 1. Selezionate la risorsa o le risorse nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
 
    * Visualizza la cartella in cui desideri spostare le risorse nella Libreria risorse e trascina le risorse nella cartella.
@@ -32,12 +34,10 @@ Potete spostare le risorse in altre cartelle del pannello Sfoglia.
 
 ## Rinominare le risorse {#rename-assets}
 
-1. Selezionate la risorsa nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
+1. Seleziona la risorsa nel pannello Sfoglia ed effettua una delle seguenti operazioni:
 
    * Selezionare il nome, digitare un nuovo nome e premere **[!UICONTROL Invio]** oppure seleziona un&#39;altra opzione dal nome.
-   * Vai a **[!UICONTROL File]** > **[!UICONTROL Rinomina]**. Il nome della risorsa viene evidenziato. Immettere un nuovo nome e premere **[!UICONTROL Invio]**.
-
-Assicurati di non inserire il nome di una risorsa Adobe Dynamic Media Classic esistente.
+   * Vai a **[!UICONTROL File]** > **[!UICONTROL Rinomina]**. Il nome della risorsa viene evidenziato. Immettere un nuovo nome e premere **[!UICONTROL Invio]**. Assicurati di non inserire il nome di una risorsa Adobe Dynamic Media Classic esistente.
 
 ## Eliminare le risorse {#delete-assets}
 
@@ -45,9 +45,13 @@ Potete eliminare le risorse selezionate nel pannello Sfoglia ed eliminare intere
 
 Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. Ad esempio, se eliminate un’immagine per la quale avete creato delle destinazioni di zoom, anche queste ultime vengono eliminate.
 
->[!NOTE]
+le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengono eliminati definitivamente quando rimuovete le risorse da cui derivano. Poiché non vengono spostate nel Cestino insieme alla risorsa, non possono essere ripristinate dal Cestino.
+
+>[!IMPORTANT]
 >
->le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengono eliminati definitivamente quando rimuovete le risorse da cui derivano. Poiché non vengono spostate nel Cestino insieme alla risorsa, non possono essere ripristinate dal Cestino.
+>L’eliminazione in blocco è un’operazione intensiva. Assicurati di eseguire le eliminazioni in serie in modo sequenziale anziché come operazioni di eliminazione simultanee e pesanti. L’Adobe consiglia di limitare le operazioni di eliminazione a 5000 o meno eliminazioni di risorse all’ora. Un numero superiore a 5000 all&#39;ora può causare una limitazione delle tariffe.
+
+**Per eliminare le risorse:**
 
 1. Effettuate una delle seguenti operazioni:
 
@@ -56,9 +60,7 @@ Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. 
 
       Se si elimina una cartella, vengono eliminate tutte le risorse presenti nella cartella e tutte le relative sottocartelle.
 
->[!NOTE]
->
->Adobe Dynamic Media Classic consiglia di sovrascrivere i file di risorse anziché eliminarli se si desidera sostituire un file di risorse con un altro con lo stesso nome.
+Adobe Dynamic Media Classic consiglia di sovrascrivere i file di risorse anziché eliminarli se si desidera sostituire un file di risorse con un altro con lo stesso nome.
 
 ## Eliminare più risorse con un file di testo {#delete-multiple-assets-with-a-text-file}
 
