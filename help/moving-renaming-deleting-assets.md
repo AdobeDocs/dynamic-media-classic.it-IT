@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -34,7 +34,7 @@ Potete spostare le risorse in altre cartelle del pannello Sfoglia.
 
 ## Rinominare le risorse {#rename-assets}
 
-1. Seleziona la risorsa nel pannello Sfoglia ed effettua una delle seguenti operazioni:
+1. Selezionate la risorsa nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
 
    * Selezionare il nome, digitare un nuovo nome e premere **[!UICONTROL Invio]** oppure seleziona un&#39;altra opzione dal nome.
    * Vai a **[!UICONTROL File]** > **[!UICONTROL Rinomina]**. Il nome della risorsa viene evidenziato. Immettere un nuovo nome e premere **[!UICONTROL Invio]**. Assicurati di non inserire il nome di una risorsa Adobe Dynamic Media Classic esistente.
@@ -49,7 +49,7 @@ le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengo
 
 >[!IMPORTANT]
 >
->L’eliminazione in blocco è un’operazione intensiva. Assicurati di eseguire le eliminazioni in serie in modo sequenziale anziché come operazioni di eliminazione simultanee e pesanti. L’Adobe consiglia di limitare le operazioni di eliminazione a 5000 o meno eliminazioni di risorse all’ora. Un numero superiore a 5000 all&#39;ora può causare una limitazione delle tariffe.
+>L’eliminazione in blocco è un’operazione intensiva. Assicurati di eseguire le eliminazioni di massa in sequenza anziché come operazioni di eliminazione simultanee e pesanti. L’Adobe consiglia di limitare le operazioni di eliminazione a 5000 o meno eliminazioni di risorse all’ora. Un numero superiore a 5000 all&#39;ora può causare una limitazione delle aliquote.
 
 **Per eliminare le risorse:**
 
