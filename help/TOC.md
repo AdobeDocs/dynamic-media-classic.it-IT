@@ -6,18 +6,18 @@ user-guide-title: Guida a Adobe Dynamic Media Classic
 breadcrumb-title: Guida a Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
 index: y
-source-git-commit: bf910596835d0cfc42919340e063b3c8e0d0ad43
+source-git-commit: 51b32a874654cf2070b67c7473554d401a264051
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '801'
+ht-degree: 25%
 
 ---
 
 
 # Guida a Adobe Dynamic Media Classic {#using}
 
-+ Aggiornamento da Adobe Dynamic Media Classic a Dynamic Media su Adobe Experience Manager Assets {#upgrade}
-   + [Aggiornamento da Dynamic Media Classic a Dynamic Media](upgrade.md)
++ Aggiornamento da Dynamic Media Classic a Dynamic Media {#upgrade}
+   + [Perché effettuare l’aggiornamento a Dynamic Media?](upgrade.md)
    + [Domande frequenti sull&#39;aggiornamento](upgrade-faq.md)
    + [Confronto tra le funzioni](upgrade-feature-comparison.md)
    + [Elenco di controllo della preparazione all&#39;aggiornamento](upgrade-readiness.md)
