@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 69%
+source-wordcount: '1023'
+ht-degree: 67%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 69%
 Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento Puoi quindi utilizzare il token di caricamento per caricare le risorse immagine raster.
 
 >[!IMPORTANT]
+>
+>A partire dal 1° maggio 2023, le risorse raster UGC in Dynamic Media Classic saranno disponibili per l’utilizzo fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+
+>[!NOTE]
 >
 >Il supporto per le risorse vettoriali UGC nuove o esistenti in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
 

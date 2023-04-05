@@ -1,5 +1,5 @@
 ---
-title: Eliminare una risorsa caricata
+title: Eliminare una risorsa immagine raster caricata
 description: Scopri come eliminare una risorsa caricata in Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 71%
+source-wordcount: '133'
+ht-degree: 51%
 
 ---
 
@@ -53,6 +53,10 @@ Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>A partire dal 1° maggio 2023, le risorse raster UGC in Dynamic Media Classic saranno disponibili per l’utilizzo fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+
+>[!NOTE]
 >
 >Il supporto per le risorse di immagini vettoriali nuove o esistenti UGC in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
 
