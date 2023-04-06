@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 51%
+source-wordcount: '131'
+ht-degree: 52%
 
 ---
 
@@ -54,7 +54,7 @@ Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse raster UGC in Dynamic Media Classic saranno disponibili per l’utilizzo fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’utilizzo fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
 
 >[!NOTE]
 >
