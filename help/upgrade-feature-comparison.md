@@ -4,7 +4,7 @@ description: Tabella di confronto delle funzioni tra [!DNL Dynamic Media] in [!D
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
-source-git-commit: 39dabb64c1c14422bf0dff234c01e6daad8ab0b5
+source-git-commit: 56efe781a1f4366f0c9d726332fd6633f50abc99
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Tabella di confronto delle funzioni tra [!DNL Dynamic Media] in [!DNL Adobe Expe
 | Visualizzatori interattivi | ✓ | ✓ |
 | File manifesto | ✓ | ✓ |
 | Media Portal | ✓<br>*Noto come &quot;Brand Portal&quot;* | ✓ |
-| Fogli di regole | ✓ | ✓ |
+| Set di regole | ✓ | ✓ |
 | Anteprima protetta | ✓ | ✓ |
 | Set (immagine, rotazione, file multimediali diversi) | ✓<br>*Nessun ciclo multiplo* | ✓ |
 | Imaging avanzato | ✓ | ✓ |
