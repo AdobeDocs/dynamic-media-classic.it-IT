@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: f3082fc6b66cf0903bf6cb1907a8615a12399fdc
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 55%
+source-wordcount: '1569'
+ht-degree: 52%
 
 ---
 
@@ -22,6 +22,18 @@ L’ottimizzazione della qualità delle immagini può richiedere del tempo, poic
 Adobe Dynamic Media Classic include più di 100 comandi di gestione delle immagini per ottimizzare e ottimizzare le immagini e i risultati di rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
 
 Vedi anche [Smart imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+
+>[!TIP]
+>
+>Prova e scopri i vantaggi dei modificatori di immagini Dynamic Media e Smart imaging utilizzando Dynamic Media [_Istantanea_](https://snapshot.scene7.com/).
+>
+> Lo snapshot è uno strumento di dimostrazione visiva progettato per illustrare la potenza di Dynamic Media per la distribuzione delle immagini ottimizzata e dinamica. Sperimenta con immagini di test o URL Dynamic Media, per osservare visivamente l’output di vari modificatori di immagini Dynamic Media e ottimizzazioni di Smart Imaging per i seguenti elementi:
+>* Dimensione del file (con distribuzione WebP e AVIF)
+>* Larghezza di banda della rete
+>* DPR (rapporto pixel dispositivo)
+>
+>Per imparare quanto è facile utilizzare Snapshot, riprodurre il [Video di formazione sulle istantanee](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuti e 17 secondi).
+
 
 ## Procedure ottimali per il formato delle immagini (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -67,7 +79,7 @@ Sono disponibili due metodi di nitidezza delle immagini:
 
       * `threshold` (0-255, sensibilità dell&#39;effetto.)
 
-         Questo parametro determina la differenza tra i pixel da rendere più nitidi rispetto all’area circostante, prima che vengano considerati pixel del bordo e che il filtro li renda più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato per evitare di aggiungere “disturbo”, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
+         Questo parametro specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e pelle.
 
          Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, consulta [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/assets/s7_sharpening_images.pdf).
 
