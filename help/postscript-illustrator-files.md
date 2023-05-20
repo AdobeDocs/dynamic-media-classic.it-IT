@@ -19,22 +19,22 @@ ht-degree: 36%
 
 # Utilizzare i file PostScript e Illustrator{#working-with-postscript-and-illustrator-files}
 
-È possibile utilizzare file Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) in Adobe Dynamic Media Classic. Adobe Dynamic Media Classic offre comandi per configurare questi file durante il caricamento.
+Puoi utilizzare i file Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) in Adobe Dynamic Media Classic. Adobe Dynamic Media Classic offre comandi per la configurazione di questi file durante il caricamento.
 
 Quando caricate i file immagine PostScript (EPS) o Illustrator (AI) potete formattarli in vari modi. Potete rasterizzare i file, convertirli in formato FXG per Pubblicazione modelli, conservare lo sfondo trasparente, scegliere una risoluzione e scegliere uno spazio colore. Le opzioni per formattare i file PostScript e Illustrator sono disponibili nelle sezioni Opzioni PostScript e Opzioni Illustrator della schermata Opzioni processo di caricamento.
 
-* **[!UICONTROL Elaborazione]** - Scegli **[!UICONTROL Rasterizza]** per convertire la grafica vettoriale nel file in formato bitmap.
+* **[!UICONTROL Elaborazione]** - Scegli **[!UICONTROL Rasterizza]** per convertire gli elementi grafici vettoriali nel file nel formato bitmap.
 
-* **[!UICONTROL Mantieni Sfondo Trasparente Nell&#39;Immagine Di Rendering]** - Mantiene la trasparenza in background del file.
+* **[!UICONTROL Mantieni sfondo trasparente nell&#39;immagine di rendering]** - Mantiene la trasparenza di sfondo del file.
 
 * **[!UICONTROL Risoluzione]** - Determina l&#39;impostazione della risoluzione. Questa impostazione determina la quantità di pixel visualizzati per pollice nel file.
 
-* **[!UICONTROL Spazio colore]** - Seleziona la **[!UICONTROL Spazio colore]** scegliere uno spazio colore:
+* **[!UICONTROL Spazio colore]** - Selezionare la **[!UICONTROL Spazio colore]** e scegliere uno spazio colore:
 
    * **[!UICONTROL Rileva automaticamente]** - Mantiene lo spazio colore del file.
 
-   * **[!UICONTROL Forza come RGB]** - Si converte nello spazio colore RGB.
+   * **[!UICONTROL Forza come RGB]** - Converte in spazio colore RGB.
 
-   * **[!UICONTROL Forza come CMYK]** - Si converte nello spazio colore CMYK.
+   * **[!UICONTROL Forza come CMYK]** - Converte in spazio colore CMYK.
 
-   * **[!UICONTROL Forza come scala di grigi]** - Converte lo spazio colore in scala di grigi.
+   * **[!UICONTROL Forza come gradazioni di grigio]** - Converte lo spazio colore in scala di grigi.

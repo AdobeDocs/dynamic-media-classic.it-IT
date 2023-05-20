@@ -1,6 +1,6 @@
 ---
-title: Operazioni con vignetta, rivestimento di finestre e file CAB
-description: Scopri come utilizzare i file vignetta, rivestimento di finestre e archivio in Adobe Dynamic Media Classic.
+title: Utilizzare vignettatura, copertina di finestre e file CAB
+description: Scopri come utilizzare vignettatura, copertina di finestre e file CAB in Adobe Dynamic Media Classic.
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 15%
 
 ---
 
-# Operazioni con vignetta, rivestimento di finestre e file CAB{#working-with-vignette-window-covering-and-cabinet-files}
+# Utilizzare vignettatura, copertina di finestre e file CAB{#working-with-vignette-window-covering-and-cabinet-files}
 
-Gli utenti dello strumento Adobe Dynamic Media Classic Image Authoring possono *use* vignette (file VNT), rivestimenti per finestre (file VNW) e armadi (file VNC). Questi file non possono essere creati o modificati in Adobe Dynamic Media Classic.
+Gli utenti dello strumento Adobe Dynamic Media Classic Image Authoring possono *utilizzare* vignettature (file VNT), coperture per finestre (file VNW) e archivi (file VNC). Questi file non possono essere creati o modificati in Adobe Dynamic Media Classic.
 
-Vignettature, rifiniture finestre e scaffali sono immagini di authoring. Utilizzando un programma Adobe Dynamic Media Classic diverso denominato Image Authoring, puoi mascherare gli oggetti in un&#39;immagine in modo che gli utenti possano vedere la stessa immagine in diverse texture o colori. Ad esempio, gli utenti vedono un divano imbottito con vari tessuti, una finestra decorata con vari trattamenti finestra, o un armadio rifinito con diversi tipi di legno.
+Vignettature, rifiniture finestre e scaffali sono immagini di authoring. Utilizzando un diverso programma di Adobe Dynamic Media Classic, denominato Image Authoring, potete mascherare gli oggetti di un&#39;immagine in modo che gli utenti possano vedere la stessa immagine in diverse texture o colori. Ad esempio, gli utenti vedono un divano imbottito con vari tessuti, una finestra decorata con vari trattamenti per finestre o un armadio rifinito con diversi tipi di legno.
 
 Potete caricate vignettature, rifiniture finestre e scaffali con la stessa modalità di caricamento usata per gli altri tipi di file.
 

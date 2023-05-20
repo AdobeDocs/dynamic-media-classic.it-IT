@@ -1,6 +1,6 @@
 ---
-title: Informazioni sul caricamento e la pubblicazione delle risorse
-description: Scopri come caricare e pubblicare le risorse in Adobe Dynamic Media Classic.
+title: Informazioni sul caricamento e sulla pubblicazione di risorse
+description: Scopri come caricare e pubblicare risorse in Adobe Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
@@ -15,15 +15,15 @@ ht-degree: 24%
 
 ---
 
-# Informazioni sul caricamento e la pubblicazione delle risorse {#about-uploading-and-publishing-assets}
+# Informazioni sul caricamento e sulla pubblicazione di risorse {#about-uploading-and-publishing-assets}
 
-Il tuo lavoro in Adobe Dynamic Media Classic si sviluppa in tre aree di base:
+Il tuo lavoro in Adobe Dynamic Media Classic si basa su tre aree fondamentali:
 
-* Caricamento di risorse di file in Adobe Dynamic Media Classic.
+* Caricamento delle risorse file in Adobe Dynamic Media Classic.
 * Gestione dei file in modo da poterli usare per creare risorse multimediali avanzate.
-* Pubblicazione dei file di risorse su un server Dynamic Media Classic in modo che siano disponibili per la distribuzione sul sito web e sull’applicazione.
+* Pubblicazione dei file di risorse su un server Dynamic Media Classic in modo che siano disponibili per la distribuzione al sito web e all’applicazione.
 
-Quando carichi i file di risorse in Adobe Dynamic Media Classic e quando pubblichi i file di risorse sui server Adobe Dynamic Media Classic, il sistema registra tali trasferimenti di file nella pagina **[!UICONTROL Processi]**. in cui potete tenere traccia e monitorare le attività di caricamento e pubblicazione. 
+Quando carichi i file di risorse in Adobe Dynamic Media Classic e pubblichi i file di risorse sui server Adobe Dynamic Media Classic, il sistema registra tali trasferimenti di file su **[!UICONTROL Processi]** pagina. in cui potete tenere traccia e monitorare le attività di caricamento e pubblicazione. 
 
 >[!NOTE]
 >

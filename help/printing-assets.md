@@ -1,5 +1,5 @@
 ---
-title: Stampare le risorse
+title: Stampa risorse
 description: Scopri come stampare le risorse da Adobe Dynamic Media Classic.
 uuid: 6cd5ba38-ec80-461f-b095-6cd4d7ea7814
 contentOwner: Rick Brough
@@ -17,8 +17,8 @@ ht-degree: 25%
 
 ---
 
-# Stampare le risorse{#printing-assets}
+# Stampa risorse{#printing-assets}
 
 1. Nel pannello Sfoglia, selezionate una o più risorse da stampare.
-1. Vai a **[!UICONTROL File]** > **[!UICONTROL Stampa]** o premere `Ctrl+P` (Windows®) o `Command+P` (Macintosh).
+1. Vai a **[!UICONTROL File]** > **[!UICONTROL Stampa]** o premere `Ctrl+P` (Windows®) o `Command+P` (Macintosh)
 1. Nella finestra di dialogo Stampa scegliere il numero di copie da stampare e quindi fare clic su **[!UICONTROL Stampa]**.

@@ -1,5 +1,5 @@
 ---
-title: Creare e abilitare i predefiniti per immagini
+title: Creare e abilitare i predefiniti immagine
 description: Scopri come creare e abilitare i predefiniti per immagini in Adobe Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: Rick Brough
@@ -17,21 +17,21 @@ ht-degree: 72%
 
 ---
 
-# Creare e abilitare i predefiniti per immagini{#creating-and-enabling-image-presets}
+# Creare e abilitare i predefiniti immagine{#creating-and-enabling-image-presets}
 
 Quando gli utenti esportano delle risorse immagini mediante Media Portal, possono scegliere un predefinito per immagini nella finestra di dialogo Esporta risorse selezionate. Un predefinito per immagini è una raccolta di impostazioni preconfigurate che agiscono sulla dimensione, la qualità immagine, il formato, la risoluzione e altri aspetti di un’immagine quando questa viene esportata. 
 
-Gli amministratori di Media Portal possono creare i predefiniti per immagini per determinare il modo in cui le immagini vengono riformattate al momento dell’esportazione. I predefiniti per immagini riformattano le immagini in base alle specifiche della tua azienda quando gli utenti esportano le immagini dal Adobe Dynamic Media Classic. Anziché riformattare le immagini singolarmente impostandone le varie opzioni, gli utenti possono così esportarle secondo le esatte specifiche determinate da un particolare predefinito per immagini.
+Gli amministratori di Media Portal possono creare i predefiniti per immagini per determinare il modo in cui le immagini vengono riformattate al momento dell’esportazione. I predefiniti per immagini riformattano le immagini secondo le specifiche della società quando gli utenti esportano immagini da Adobe Dynamic Media Classic. Anziché riformattare le immagini singolarmente impostandone le varie opzioni, gli utenti possono così esportarle secondo le esatte specifiche determinate da un particolare predefinito per immagini.
 
 Per l’esportazione delle risorse di immagine sono applicabili le restrizioni seguenti:
 
 * Le dimensioni larghezza x altezza devono essere inferiori o uguali a 100 MB per immagine. Ad esempio, l’immagine non può essere più grande di 10.000x10.000 o di variazioni di proporzioni inferiori come ad esempio 8.000x12.000.
-* È disponibile un massimo di 1 GB di dimensione totale del file per processo di esportazione.
+* Per ogni processo di esportazione è disponibile un massimo di 1 GB di dimensione totale del file.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
 
 >[!NOTE]
 >
->Queste restrizioni si applicano solo all&#39;esportazione di risorse di immagini derivate, non all&#39;esportazione di file primari.
+>Queste restrizioni si applicano solo all’esportazione di risorse immagine derivate, non all’esportazione di file primari.
 
 Per creare i predefiniti per immagini, consultate [Predefiniti per immagini](application-setup.md#image_presets).
 

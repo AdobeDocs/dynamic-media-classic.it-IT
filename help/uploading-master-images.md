@@ -1,6 +1,6 @@
 ---
-title: Caricare immagini primarie
-description: Scopri come caricare immagini primarie in Adobe Dynamic Media Classic.
+title: Carica immagini primarie
+description: Scopri come caricare le immagini primarie in Adobe Systems Dynamic Media Classic.
 uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
 contentOwner: Rick Brough
 content-type: reference
@@ -17,18 +17,18 @@ ht-degree: 2%
 
 ---
 
-# Caricare immagini primarie{#uploading-master-images}
+# Carica immagini primarie{#uploading-master-images}
 
-Prima di caricare le immagini su Adobe Dynamic Media Classic, assicurati che siano di dimensioni e formato della massima qualità. Adobe Dynamic Media Classic consiglia di caricare immagini di alta qualità con un numero di pixel sufficiente (da 1500 a 2000 pixel nelle dimensioni lunghe). Questo dimensionamento consente qualsiasi Dynamic Imaging richiesto.
+Prima di caricare le immagini in Adobe Systems Dynamic Media Classic, accertatevi che siano di dimensioni e formato di altissima qualità. Adobe Systems Dynamic Media Classic consiglia di caricare immagini di alta qualità con un numero di pixel sufficiente (da 1500 a 2000 pixel nella dimensione lunga). Questo ridimensionamento consente qualsiasi Dynamic Imaging necessario.
 
-Per informazioni sul caricamento delle immagini, consulta [Caricare file](uploading-files.md#uploading_files).
+Per i dettagli sul caricamento delle immagini, consultate [ caricare i file ](uploading-files.md#uploading_files) .
 
-**Prepara le immagini principali da caricare:**
+**Prepara le immagini primarie per il caricamento:**
 
-Prepara i file immagine principali prima di caricarli in Adobe Dynamic Media Classic:
+Prepara i file immagine primari prima di caricarli in Adobe Systems Dynamic Media Classic:
 
-* **Dimensione dell&#39;immagine** - Creare immagini di dimensioni maggiori che si prevede di utilizzare. Le dimensioni tipiche delle immagini variano da 1500 a 2500 pixel nel formato più lungo. Se si intende utilizzare la funzione Zoom, Adobe Dynamic Media Classic consiglia di utilizzare immagini di dimensioni almeno 2000 pixel per una visualizzazione ottimale dello zoom. Adobe Dynamic Media Classic può eseguire il rendering delle immagini fino a 25 megapixel ciascuna. Ad esempio, è possibile utilizzare un&#39;immagine da 5000 x 5000 MP o qualsiasi altra combinazione di dimensioni fino a 25 MP.
+* **Immagine dimensione** : crea le immagini di dimensioni maggiori che si prevede di utilizzare. Le dimensioni delle immagini tipiche variano da 1500 a 2500 pixel nella dimensione più lunga. Se intendete utilizzare la funzione Zoom, Adobe Systems Dynamic Media Classic consiglia di utilizzare immagini di almeno 2000 pixel nella dimensione più lunga per un dettaglio di zoom ottimale. Adobe Systems Dynamic Media Classic può eseguire il rendering di immagini fino a 25 megapixel ciascuna. Ad esempio, è possibile utilizzare un&#39;immagine 5000 x 5000 MP o qualsiasi altra combinazione di dimensioni fino a 25 MP.
 
-* **Formati di file** - Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard, inclusi TIFF, BMP, JPEG, PSD, GIF e EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Se utilizzi un’immagine di JPEG, utilizza le impostazioni di qualità più elevata.
+* **Formati** file-Adobe Systems Dynamic Media Classic supporta tutti i formati standard di file di immagine, compresi TIFF, BMP, JPEG, PSD, gif ed EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Se si utilizza un&#39;immagine JPEG, utilizzare le impostazioni di qualità più elevata.
 
-* **Spazio colore** - RGB è lo spazio colore per le presentazioni di immagini web; Le immagini CMYK comunemente utilizzate per la stampa vengono automaticamente convertite in RGB al momento del caricamento. Si consiglia di caricare immagini CMYK con un profilo colore ICC (International Color Consortium) incorporato per la conversione in RGB. Vedi anche [Profili ICC (International Color Consortium)](/help/icc-profiles.md).
+* **Colore spazio** -RGB è lo spazio colore per le presentazioni di immagini Web; CMYK immagini comunemente utilizzate per la stampa vengono convertite automaticamente in RGB quando le caricate. Si consiglia di caricare CMYK immagini che hanno un profilo di colore incorporato ICC (International Colore Consortium) per la conversione in RGB. Vedi anche [ profili ](/help/icc-profiles.md) ICC (International colore Consortium).

@@ -21,7 +21,7 @@ ht-degree: 67%
 
 Un set di campioni offre agli utenti l’opportunità di visualizzare un articolo in un colore, un motivo o una finitura differente. Per creare un set di campioni, è necessario disporre di un’immagine per ciascun colore, motivo o finitura differente che desiderate presentare all’utente. È anche necessario disporre di un campione di colore, motivo o finitura per ciascuno di questi.
 
-Ad esempio, per presentare immagini di berretti con visiere di diversi colori nelle varianti rosso, verde e blu, è necessario effettuare tre scatti dello stesso berretto: uno scatto con la visiera rossa, uno con quella verde e uno con quella blu. È anche necessario disporre di tre campioni colore: uno rosso, uno verde e uno blu. I campioni colore fungono da miniature selezionate dall’utente nel visualizzatore dei set di campioni per visualizzare il tappo rosso, verde o blu-bollito.
+Ad esempio, per presentare immagini di berretti con visiere di diversi colori nelle varianti rosso, verde e blu, è necessario effettuare tre scatti dello stesso berretto: uno scatto con la visiera rossa, uno con quella verde e uno con quella blu. È anche necessario disporre di tre campioni colore: uno rosso, uno verde e uno blu. I campioni colore fungono da miniature selezionate dagli utenti nel Visualizzatore set di campioni per visualizzare il cappuccio con fattura rossa, verde o blu.
 
 ## Creazione di un set di campioni {#create}
 
@@ -38,9 +38,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Seleziona prima le immagini** - Nel pannello Sfoglia, seleziona le immagini e vai a **[!UICONTROL Crea]** > **[!UICONTROL Set di campioni]**.
+   * **Seleziona prima le immagini** - Nel pannello Sfoglia, selezionare le immagini, quindi passare a **[!UICONTROL Genera]** > **[!UICONTROL Set campioni]**.
 
-   * **Inizia dalla schermata Set campioni** - Vai a **[!UICONTROL Crea]** > **[!UICONTROL Set di campioni]**. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
+   * **Inizia dalla schermata Set campioni** - Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set campioni]**. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
 
 1. Trascinate i colori, i motivi o le finiture campione nella casella segnaposto Campioni nella pagina Set campioni.
 
@@ -48,14 +48,14 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Per modificare l’ordine delle immagini nel set di campioni, trascinate queste ultime in nuove posizioni.
 1. Verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) nell’angolo inferiore destro della pagina sia selezionata.
-1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella in cui memorizzare il set di campioni di colore, immetti un nome per il set e seleziona **[!UICONTROL Invia]**.
-1. Per visualizzare il set di campioni nel visualizzatore dei set di campioni, seleziona **[!UICONTROL Anteprima]** nella schermata Set campioni. È possibile selezionare le miniature dei campioni nel visualizzatore dei set di campioni per verificarne il funzionamento.
+1. Seleziona **[!UICONTROL Salva]**, selezionate una cartella per la memorizzazione del set di campioni colore, immettete un nome per il set e selezionate **[!UICONTROL Invia]**.
+1. Per visualizzare il set di campioni nel visualizzatore del set di campioni, seleziona **[!UICONTROL Anteprima]** nella schermata Set campioni. Potete selezionare le miniature dei campioni nel Visualizzatore set di campioni per vedere come si comportano.
 
 ## Modifica di un set di campioni {#editing-a-swatch-set}
 
-Se modifichi un set pubblicato o non pubblicato, la **[!UICONTROL Pubblica dopo il salvataggio]** influenza i membri set e set nei seguenti modi:
+Sia che si modifichi un set pubblicato o non pubblicato, il **[!UICONTROL Pubblica dopo il salvataggio]** influisce sui membri set e set nei modi seguenti:
 
-| Il set è già pubblicato | **[!UICONTROL Pubblica dopo]** salva l&#39;opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL Pubblica dopo]** salvare l’opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -66,15 +66,15 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per modificare un set di campioni:**
 
-1. Nella Vista a griglia, individuare un set di campioni e quindi selezionare sotto l&#39;immagine **[!UICONTROL Modifica]**.
+1. Nella Vista griglia, individuate un set di campioni e, sotto l&#39;immagine, selezionate **[!UICONTROL Modifica]**.
 1. Effettuate una delle seguenti operazioni:
 
    * Per aggiungere un’immagine (pubblicata o non pubblicata), trascinatela da una cartella di Aggiungi risorse nella pagina **[!UICONTROL Visualizzazioni]** del set di campioni.
-   * Per rimuovere un’immagine, selezionala e seleziona **[!UICONTROL Elimina]** sulla barra degli strumenti.
+   * Per rimuovere un&#39;immagine, selezionarla e quindi selezionare **[!UICONTROL Elimina]** sulla barra degli strumenti.
    * Per riordinare le immagini, trascinate un’immagine fino alla posizione desiderata.
 
 1. Al termine dell’operazione di modifica del set, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
-1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella di archiviazione, immetti un nome per il set, quindi seleziona **[!UICONTROL Salva]**.
+1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.
 
 ## Eliminare un set di campioni {#deleting-a-swatch-set}
 
@@ -84,5 +84,5 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per eliminare un set di campioni:**
 
-1. In Vista griglia, Vista elenco o Vista dettagli, selezionare uno o più set di campioni.
-1. Nella barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]** > **[!UICONTROL Elimina]**.
+1. Nella Vista griglia, Vista elenco o Vista dettagli, selezionate uno o più set di campioni.
+1. Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]** > **[!UICONTROL Elimina]**.

@@ -1,6 +1,6 @@
 ---
 title: Risorse per sviluppatori
-description: Scopri quali risorse per sviluppatori sono disponibili per Dynamic Media.
+description: Scopri le risorse per sviluppatori disponibili per Dynamic Media.
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: Rick Brough
 content-type: reference
@@ -12,13 +12,13 @@ exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
 # Risorse per sviluppatori {#developer-resources}
 
-Le guide di riferimento per visualizzatori, Image Server e Image Rendering e Image Production System descrivono i protocolli http per questi moduli server. Per gli sviluppatori di siti Web che desiderano personalizzare e utilizzare ulteriormente i contenuti rich media di Adobe Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata è possibile utilizzare queste guide. Si presume che l’utente abbia familiarità con l’app desktop Dynamic Media Classic, gli standard e le convenzioni generali del protocollo http e la terminologia di imaging di base.
+Le guide di riferimento per visualizzatori, Image Server e Image Rendering e Image Production System descrivono i protocolli http per questi moduli server. Queste guide possono essere utilizzate dagli sviluppatori di siti Web che desiderano personalizzare ulteriormente i contenuti rich media di Adobe Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata. Si presume che l’utente abbia familiarità con l’app desktop Dynamic Media Classic, gli standard e le convenzioni generali del protocollo http e la terminologia di base per le immagini.
 
 Vedi anche [Risorse per sviluppatori Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
@@ -29,7 +29,7 @@ Vedi anche [Risorse per sviluppatori Dynamic Media](https://experienceleague.ado
 | Guida di riferimento dei visualizzatori e note sulla versione | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) |
 | Esempi della libreria di visualizzatori | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
-## API Image Serving/Image Rendering (IS/IR) {#is-ir-api-guide}
+## API Image Server/Image Rendering (IS/IR) {#is-ir-api-guide}
 
 | Documento | Indirizzo Web |
 | --- | --- |

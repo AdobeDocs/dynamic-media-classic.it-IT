@@ -21,18 +21,18 @@ ht-degree: 55%
 
 Utilizzando dei set di modelli è possibile gestire il modo in cui vengono pubblicate le varianti delle risorse.
 
-Potete creare un set di modelli per gestire le varianti di un modello e controllare quale variante viene utilizzata senza modificare il codice nel sito. Questo metodo consente ai content manager di ruotare il contenuto senza richiedere all’IT di modificare un URL nel codice Web.
+Potete creare un set di modelli per gestire le varianti di un modello e controllare quale variante viene utilizzata senza modificare il codice nel sito. Questo metodo consente ai content manager di ruotare il contenuto senza richiedere al reparto IT di modificare un URL nel codice web.
 
-Gli URL universali vengono utilizzati per visualizzare la variante del modello che appare sulla pagina, in base all’ordine in cui sono elencati nel set. Il primo modello nell’elenco del set di modelli viene sempre pubblicato.
+Gli URL universali vengono utilizzati per visualizzare la variante di modello visualizzata nella pagina, in base all’ordine in cui sono elencati nel set. Il primo modello nell’elenco del set di modelli viene sempre pubblicato.
 
 Potete utilizzare qualsiasi URL di predefinito per immagini presente nell’elenco. Gli URL di predefiniti per immagini sono simili agli URL universali. Possono essere presenti più URL di predefiniti per immagini.
 
-1. Vai a **[!UICONTROL Crea]** > **[!UICONTROL Set di modelli]**.
+1. Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di modelli]**.
 1. Nel generatore, seleziona un modello, quindi seleziona **[!UICONTROL Aggiungi/Anteprima]**.
-1. Modifica le proprietà del modello e seleziona **[!UICONTROL Salva con nome]** per creare un’altra versione.
-1. Digita un nome e seleziona **[!UICONTROL Salva]**.
+1. Modifica le proprietà del modello e seleziona **[!UICONTROL Salva con nome]** per creare un&#39;altra versione.
+1. Digita un nome, quindi seleziona **[!UICONTROL Salva]**.
 
-   La risorsa e il modello devono essere pubblicati.
+   Sia la risorsa che il modello devono essere pubblicati.
 
 1. Passate alla pagina Dettagli per ottenere l’URL della copia dalla sezione URL.
 

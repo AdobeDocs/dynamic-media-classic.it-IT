@@ -1,6 +1,6 @@
 ---
-title: Pubblicare immagini zoom
-description: Scopri come pubblicare immagini zoom da Adobe Dynamic Media Classic.
+title: Pubblicare immagini di zoom
+description: Scopri come pubblicare immagini di zoom da Adobe Dynamic Media Classic.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: Rick Brough
 content-type: reference
@@ -17,17 +17,17 @@ ht-degree: 9%
 
 ---
 
-# Pubblicare immagini zoom{#publishing-zoom-images}
+# Pubblicare immagini di zoom{#publishing-zoom-images}
 
-La pubblicazione inserisce le immagini zoom sui server di immagini Dynamic Media in modo che possano essere rese disponibili al sito Web e all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. Potete inserire queste stringhe URL nel codice HTML del sito Web.
+Quando si pubblicano le immagini zoom su server immagini Dynamic Media, è possibile renderle disponibili per il sito Web e l&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. Potete inserire queste stringhe URL nel codice HTML del sito Web.
 
-## Contrassegnare le immagini per la pubblicazione {#marking-images-for-publish}
+## Contrassegna immagini per la pubblicazione {#marking-images-for-publish}
 
-Le immagini devono essere contrassegnate per la pubblicazione affinché vengano copiate nei server di immagini Dynamic Media. Per contrassegnare le immagini per la pubblicazione nel pannello Sfoglia, seleziona la **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi.
+Le immagini devono essere contrassegnate per la pubblicazione per poter essere copiate nei server immagini Dynamic Media. È possibile contrassegnare le immagini per la pubblicazione nel pannello Sfoglia selezionando **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi.
 
 ## Pubblicare le immagini {#publishing-the-images}
 
-Per pubblicare immagini zoom, seleziona nella barra di navigazione globale **[!UICONTROL Pubblica]**, quindi seleziona una **[!UICONTROL Quando]** opzione (**[!UICONTROL Una tantum]** o **[!UICONTROL Ricorrente]**). Facoltativamente, puoi inserire un nome per il processo di pubblicazione. Seleziona **Invia pubblicazione**.
+Per pubblicare le immagini di zoom, nella barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**, quindi seleziona un **[!UICONTROL Quando]** opzione (**[!UICONTROL Una tantum]** o **[!UICONTROL Ricorrente]**). Facoltativamente, è possibile inserire un nome per il processo di pubblicazione. Seleziona **Invia pubblicazione**.
 
 >[!MORELIKETHIS]
 >

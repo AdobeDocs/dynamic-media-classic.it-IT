@@ -1,6 +1,6 @@
 ---
-title: Condividere le modifiche delle risorse con i peer in tempo reale
-description: Scopri come condividere i cambiamenti delle risorse con i colleghi in tempo reale in Adobe Dynamic Media Classic.
+title: Condividere in tempo reale le modifiche apportate alle risorse con altri utenti
+description: Scopri come condividere in tempo reale le modifiche apportate alle risorse con colleghi in Adobe Dynamic Media Classic.
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 44%
 
 ---
 
-# Condividere le modifiche delle risorse con i peer in tempo reale{#sharing-asset-changes-with-peers-in-real-time}
+# Condividere in tempo reale le modifiche apportate alle risorse con altri utenti{#sharing-asset-changes-with-peers-in-real-time}
 
-Con più copie di Adobe Dynamic Media Classic in esecuzione su più computer della stessa azienda, le seguenti azioni di qualsiasi client Adobe Dynamic Media Classic vengono aggiornate in tempo reale con tutti i client peer:
+Con più copie di Adobe Dynamic Media Classic in esecuzione su più computer della stessa società, le azioni seguenti di qualsiasi client Adobe Dynamic Media Classic vengono aggiornate in tempo reale con tutti i client peer:
 
 * Modificare una risorsa (generatore, editor di immagini e così via)
 * Rinominare una risorsa
@@ -28,10 +28,10 @@ Con più copie di Adobe Dynamic Media Classic in esecuzione su più computer del
 * Caricare una o più risorse (sia desktop che FTP)
 * Creare, eliminare o rinominare una cartella
 
-Dopo aver apportato una modifica nel client di origine, tutti i client peer firmati nella stessa società vengono aggiornati con la modifica. Le modifiche vengono applicate ai client peer senza alcuna notifica, a meno che non sia in corsa la modifica di una delle risorse da aggiornare negli editor di immagini o negli strumenti di generazione.
+Dopo aver apportato una modifica nel client di origine, tutti i client peer connessi alla stessa azienda vengono aggiornati con la modifica. Le modifiche vengono applicate ai client peer senza alcuna notifica, a meno che non sia in corsa la modifica di una delle risorse da aggiornare negli editor di immagini o negli strumenti di generazione.
 
-Quando effettui l’accesso, ti viene richiesto di consentire o negare gli aggiornamenti peer. È possibile ricordare la scelta ed evitare così che tale notifica venga successivamente riproposta. Per annullare la scelta, eliminate il sito appropriato dal pannello Connettività peer-to-peer in Impostazioni globali.
+Quando si esegue l&#39;accesso, viene richiesto di consentire o negare gli aggiornamenti peer. È possibile ricordare la scelta ed evitare così che tale notifica venga successivamente riproposta. Per annullare la scelta, eliminate il sito appropriato dal pannello Connettività peer-to-peer in Impostazioni globali.
 
-Se state modificando una risorsa modificata da un utente peer, viene richiesto di inserire la modifica nello strumento di generazione o nell’editor. Se scegli **[!UICONTROL Sì]**, quindi il generatore o l’editor elimina tutte le modifiche apportate alla risorsa e importa la risorsa aggiornata. Se scegli **[!UICONTROL No]**, la risorsa rimane invariata nel generatore o nell’editor e le eventuali modifiche apportate persistono nella sessione.
+Se state modificando una risorsa modificata da un utente peer, viene richiesto di inserire la modifica nello strumento di generazione o nell’editor. Se si sceglie **[!UICONTROL Sì]** Quindi il generatore o l’editor elimina eventuali modifiche apportate alla risorsa e importa la risorsa aggiornata. Se si sceglie **[!UICONTROL No]**, la risorsa rimane invariata nel generatore o nell’editor e tutte le modifiche apportate persistono in quella sessione.
 
 Quando salvate la risorsa, viene visualizzato un avviso di nuova versione e potete scegliere se sovrascrivere la risorsa con le modifiche che avete apportato.

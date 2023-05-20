@@ -1,6 +1,6 @@
 ---
-title: Disabilitare il tracciamento di Adobe Analytics
-description: Scopri come disabilitare il tracciamento di Adobe Analytics in Adobe Dynamic Media Classic.
+title: Disabilita tracciamento Adobe Analytics
+description: Scopri come disabilitare il tracciamento Adobe Analytics in Adobe Systems Dynamic Media Classic.
 uuid: 6998bb18-1809-4fc7-a1b6-d75c24798620
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 9%
 
 ---
 
-# Disabilitare il tracciamento di Adobe Analytics{#disabling-adobe-analytics-tracking}
+# Disabilita tracciamento Adobe Analytics{#disabling-adobe-analytics-tracking}
 
 **Per disattivare il tracciamento di Adobe Analytics:**
 
-1. Disattiva tutti gli eventi nella pagina Configurazione Adobe Analytics in Adobe Dynamic Media Classic.
+1. Disattiva tutti gli eventi nella pagina di configurazione di Adobe Analytics in Adobe Systems Dynamic Media Classic.
 1. Salvate ed effettuate la pubblicazione.
 
-Questi passaggi disattivano il supporto tramite Adobe Dynamic Media Classic e attraverso gli URL ottenuti dal **[!UICONTROL CopyURL]** funzionalità. Se implementi il tracciamento personalizzato, disattiva il tracciamento di Adobe Analytics come configurato nella pagina Configurazione per evitare conflitti con l’implementazione personalizzata.
+Questi passaggi disattivano il supporto tramite Adobe Systems Dynamic Media Classic e tramite gli **[!UICONTROL URL ottenuti dalla funzione copyurl]** . Se si implementare un tracciamento personalizzato, disattivare il tracciamento Adobe Analytics come impostazione nella pagina di configurazione per evitare conflitti con le implementazione personalizzate.

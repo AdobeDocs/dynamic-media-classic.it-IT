@@ -1,6 +1,6 @@
 ---
 title: Configurazione personale
-description: Tutti gli utenti possono modificare le impostazioni nella schermata Configurazione personale di Adobe Dynamic Media Classic.
+description: Tutti gli utenti possono modificare le impostazioni nella schermata Personal Setup (Impostazione personale) di Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: Rick Brough
 content-type: reference
@@ -19,11 +19,11 @@ ht-degree: 25%
 
 # Configurazione personale {#personal-setup}
 
-Le impostazioni della schermata Configurazione personale possono essere modificate da tutti gli utenti. Per aprire la schermata Configurazione personale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**.
+Le impostazioni della schermata Configurazione personale possono essere modificate da tutti gli utenti. Per aprire la schermata Impostazione personale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**.
 
 >[!NOTE]
 >
->Nella schermata Configurazione personale è indicato il ruolo utente in Adobe Dynamic Media Classic: Amministratore, amministratore o utente della società.
+>Nella schermata Impostazione personale viene visualizzato il ruolo utente in Adobe Dynamic Media Classic: Amministratore società, Amministratore o Utente.
 
 Le impostazioni della schermata Configurazione personale controllano il comportamento predefinito del pannello Sfoglia, il modo in cui ricevete i messaggi e-mail e le impostazioni della password. Ricorda di selezionare **[!UICONTROL Salva]** dopo aver modificato queste impostazioni.
 
@@ -33,10 +33,10 @@ Identifica il vostro nome e nome dell’account, il nome utente (indirizzo e-mai
 
 ## Desktop
 
-* **Cancella cache immagine** - Rimuove dal computer tutti i file immagine memorizzati nella cache di Adobe Dynamic Media.
-* **Cancella cache risorse** - Rimuove dal computer tutti i file di risorse memorizzati nella cache di Adobe Dynamic Media.
+* **Cancella cache immagini** - Rimuove dal computer tutti i file immagine Dynamic Media memorizzati nella cache di Adobe.
+* **Cancella cache risorse** - Rimuove dal computer tutti i file di risorse Adobe Dynamic Media memorizzati nella cache.
 
-Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app desktop, puoi cancellare manualmente la cache direttamente dal file system. In base al sistema operativo in uso, passa a quanto segue:
+Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app desktop, puoi cancellare manualmente la cache direttamente dal file system. In base al sistema operativo in uso, accedi a:
 
 * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
 * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
@@ -45,8 +45,8 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 **Per installare Adobe Dynamic Media Creative Suite Extension:**
 
-1. In Adobe Dynamic Media Classic, sulla barra degli strumenti, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**, in Estensione Creative Suite, seleziona **[!UICONTROL Scarica ora]** per scaricare `s7csxs.zxp` file.
-1. Seleziona la **[!UICONTROL Installazione]** e **[!UICONTROL Requisiti di sistema]** collegamenti per ulteriori informazioni sull&#39;estensione.
+1. In Adobe Dynamic Media Classic, nella barra degli strumenti, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**, in Estensione Creative Suite, seleziona **[!UICONTROL Scarica ora]** per scaricare `s7csxs.zxp` file.
+1. Seleziona la **[!UICONTROL Installazione]** e **[!UICONTROL Requisiti di sistema]** collegamenti per ulteriori informazioni sull’estensione.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -73,15 +73,15 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 ## Browser
 
 * **[!UICONTROL Dimensione miniatura]** - Determina le dimensioni predefinite delle miniature in Visualizzazione griglia nel pannello Sfoglia.
-* **[!UICONTROL Vista libreria risorse predefinita]** - Determina se le risorse nella Libreria risorse per i set di build vengono visualizzate come miniature o per nome. Se dovete gestire grandi quantità di risorse nella libreria, è consigliabile visualizzarle per nome. Ad esempio, se state creando un eCatalog di grandi dimensioni contenente numerosi file PDF, potete visualizzare le risorse per nome per ridurre la lunghezza dell’elenco.
-* **[!UICONTROL Ordine di navigazione predefinito]** - Determina l’ordine di visualizzazione predefinito delle risorse nel pannello Sfoglia. Scegliete un criterio di ordinamento nel menu e specificate se l’ordine deve essere crescente o decrescente.
-* **[!UICONTROL Percorso di navigazione predefinito]** - Consente di impostare il percorso di ricerca sul valore predefinito, l’ultima cartella selezionata o su un percorso specifico da individuare e identificare. Potete inoltre impostare il percorso Sfoglia per ordinare file e cartelle in ordine ascendente o discendente.
-* **[!UICONTROL Visualizzazione di ricerca predefinita]** - Determina se la vista Griglia o la vista Elenco è la vista predefinita visualizzata alla prima apertura del pannello Sfoglia.
-* **[!UICONTROL Visualizzazione schermata iniziale]** - Determina se visualizzare eventuali schermate introduttive, inclusa la schermata iniziale.
-* **[!UICONTROL Mostra descrizioni comandi]** - Determina se visualizzare le descrizioni comandi quando si sposta il puntatore su pulsanti, menu e collegamenti di navigazione. Le descrizioni comandi descrivono gli elementi dell’interfaccia utente sullo schermo.
-* **[!UICONTROL Sfondo a scacchi]** - Visualizza un livello a scacchiera dietro le immagini, consentendo di vedere facilmente le aree trasparenti di un&#39;immagine che ha un canale alfa.
-* **[!UICONTROL Mostra dimensioni file]** - Visualizza le dimensioni del file di una risorsa durante la navigazione.
-* **[!UICONTROL Includi UDF nella ricerca]** - Per migliorare le prestazioni del sistema per la maggior parte delle ricerche di metadati eseguite, deselezionare (impostazione predefinita).
+* **[!UICONTROL Visualizzazione predefinita libreria risorse]** - Determina se le risorse nella Libreria risorse per i set di build vengono visualizzate come miniature o per nome. Se dovete gestire grandi quantità di risorse nella libreria, è consigliabile visualizzarle per nome. Ad esempio, se state creando un eCatalog di grandi dimensioni contenente numerosi file PDF, potete visualizzare le risorse per nome per ridurre la lunghezza dell’elenco.
+* **[!UICONTROL Ordine di navigazione predefinito]** - Determina l’ordine in cui le risorse vengono visualizzate per impostazione predefinita nel pannello Sfoglia. Scegliete un criterio di ordinamento nel menu e specificate se l’ordine deve essere crescente o decrescente.
+* **[!UICONTROL Percorso predefinito per la navigazione]** : consente di impostare il percorso di navigazione sul valore predefinito, sull’ultima cartella visualizzata o su un percorso specifico da individuare e identificare. Potete inoltre impostare il percorso Sfoglia per ordinare file e cartelle in ordine ascendente o discendente.
+* **[!UICONTROL Visualizzazione Sfoglia predefinita]** - Determina se la vista griglia o la vista a elenco è quella predefinita visualizzata la prima volta che si apre il pannello Sfoglia.
+* **[!UICONTROL Visualizzazione schermata introduttiva]** - Determina se sono presenti schermate introduttive, inclusa la schermata introduttiva.
+* **[!UICONTROL Mostra descrizioni]** - Determina se le descrizioni comandi vengono visualizzate quando si sposta il puntatore su pulsanti, menu e collegamenti di spostamento. Le descrizioni descrivono gli elementi dell’interfaccia utente su schermo.
+* **[!UICONTROL Sfondo a scacchi]** - Visualizza un livello a scacchiera dietro le immagini, consentendo di vedere facilmente le aree trasparenti di un&#39;immagine con un canale alfa.
+* **[!UICONTROL Mostra dimensione file]** : visualizza la dimensione del file di una risorsa durante la navigazione.
+* **[!UICONTROL Includi FDU nella ricerca]** : deselezionata (impostazione predefinita) per migliorare le prestazioni del sistema per la maggior parte delle ricerche di metadati eseguite.
 
    Se invece la maggior parte delle ricerche di metadati richiedono l’inclusione dei campi definiti dall’utente, potete selezionare e attivare questa opzione. In alternativa, invece di includere i campi definiti dall’utente, potete usare la Ricerca avanzata per consentire una ricerca più mirata e rapida.
 
@@ -89,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
    Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Tipo di ricerca di base]** - È possibile scegliere tra due opzioni: **[!UICONTROL Contiene]** cerca la stringa completa per il valore specificato; **[!UICONTROL StartsWith]** cerca dall&#39;inizio della stringa e restituisce i risultati più rapidamente di **[!UICONTROL Contiene]**. Ciascuna opzione sostituisce l’impostazione predefinita in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali dell&#39;applicazione]** dall&#39;amministratore.
-* **[!UICONTROL Mostra feedback comando]** - Selezionare per attivare la visualizzazione delle richieste di comando sul server; deseleziona per disattivare.
-* **[!UICONTROL Mostra finestra di dialogo durante l’esportazione]** - Selezionare questa opzione per visualizzare una finestra di dialogo a comparsa durante un&#39;esportazione. Se deselezioni (disattiva) questa opzione, puoi comunque passare alla pagina Processi per recuperare i risultati dell’esportazione.
+* **[!UICONTROL Tipo di ricerca di base]** - È possibile scegliere tra due opzioni: **[!UICONTROL Contiene]** cerca nella stringa completa il valore specificato; **[!UICONTROL Inizia con]** esegue la ricerca dall&#39;inizio della stringa e restituisce i risultati più rapidamente di **[!UICONTROL Contiene]**. Entrambe le opzioni sostituiscono il valore predefinito impostato in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali applicazione]** dall&#39;amministratore.
+* **[!UICONTROL Mostra feedback comando]** - Selezionare per attivare la visualizzazione delle richieste di comandi al server; deselezionare per disattivarla.
+* **[!UICONTROL Mostra finestra di dialogo durante esportazione]** - Selezionare per visualizzare una finestra di dialogo a comparsa durante un&#39;esportazione. Se deselezioni (disattivi) questa opzione, puoi comunque passare alla pagina Processi per recuperare i risultati dell’esportazione.
 
 ## E-mail
 
-* **[!UICONTROL Opzioni e-mail]** - Scegli come desideri che Adobe Dynamic Media Classic ti informi via e-mail al termine dei processi di caricamento e pubblicazione. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
-* **[!UICONTROL Ambito e-mail]** - Determina se ricevere tutte le e-mail di processo per la tua azienda o solo e-mail sui processi di caricamento e pubblicazione avviati.
-* **[!UICONTROL Tipi di e-mail]** - Determina se ricevere informazioni al completamento dei processi di caricamento e pubblicazione.
+* **[!UICONTROL Opzioni e-mail]** : scegli come desideri che Adobe Dynamic Media Classic ti informi tramite e-mail quando i processi di caricamento e pubblicazione sono completati. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
+* **[!UICONTROL Ambito e-mail]** - Determina se si ricevono tutti i messaggi di posta elettronica per la società o solo quelli relativi ai processi di caricamento e pubblicazione avviati.
+* **[!UICONTROL Tipi di e-mail]** - Determina se sei informato quando vengono completati i processi di caricamento e pubblicazione.
 
 ## Lingua
 
-* **[!UICONTROL Lingua preferita]** - Determina la lingua che desideri utilizzare per l&#39;interfaccia.
+* **[!UICONTROL Lingua preferita]** - Determina la lingua che si desidera utilizzare per l&#39;interfaccia.
 
 ## Password
 
-* **[!UICONTROL Password corrente]** - Immettere la password della password attuale.
+* **[!UICONTROL Password corrente]** - Immettere la password attuale.
 * **[!UICONTROL Nuova password]** - Immettere una nuova password valida. La password deve soddisfare i seguenti requisiti:
-   * La lunghezza deve essere compresa tra 8 e 25 caratteri.
+   * Deve contenere tra 8 e 25 caratteri.
    * Contenere almeno una lettera minuscola.
    * Contenere almeno una lettera maiuscola.
    * Contenere almeno un numero.
-   * Contenere almeno uno dei seguenti caratteri speciali: `# $ & - _ : { }`
-* **[!UICONTROL Digitare nuovamente la password]** - Immettere nuovamente la nuova password per confermare che la si sta inserendo correttamente.
+   * Contengono almeno uno dei seguenti caratteri speciali: `# $ & - _ : { }`
+* **[!UICONTROL Ridigitate la password]** - Immettere nuovamente la nuova password per confermare che la si sta immettendo correttamente.
 * **[!UICONTROL Scadenza password]** - Determina se la password scade dopo 72 giorni come misura di sicurezza. Se scegliete Sì, trascorsi i 72 giorni verrà chiesto di creare una nuova password.

@@ -1,6 +1,6 @@
 ---
-title: Controllare i file di processo
-description: Scopri come controllare i file di lavoro in Adobe Dynamic Media Classic.
+title: Verifica file di processo
+description: Scopri come controllare i file di processo in Adobe Dynamic Media Classic.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
@@ -17,99 +17,99 @@ ht-degree: 39%
 
 ---
 
-# Controllare i file di processo{#checking-job-files}
+# Verifica file di processo{#checking-job-files}
 
-Per monitorare i caricamenti di file su Adobe Dynamic Media Classic e i file pubblicati sui server Adobe Dynamic Media Classic, Adobe Dynamic Media Classic offre la pagina Processi . Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
+Per monitorare i caricamenti di file in Adobe Dynamic Media Classic e i file pubblicati sui server Adobe Dynamic Media Classic, Adobe Dynamic Media Classic offre la pagina Processi. Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
 
 Quando caricate delle risorse, viene visualizzata un’icona rotante accanto al menu Processi a indicare che è in corso un processo; viene inoltre visualizzato il numero di file inclusi in tale processo. Puoi selezionare l’icona per visualizzare ulteriori informazioni sul processo attivo.
 
 >[!NOTE]
 >
->nella pagina Attività recenti è disponibile un elenco dei processi pubblicati di recente. Seleziona **[!UICONTROL Recente]** nella barra di navigazione globale.
+>nella pagina Attività recenti è disponibile un elenco dei processi pubblicati di recente. Seleziona **[!UICONTROL Recente]** sulla barra di navigazione globale.
 
 ## La pagina Processi {#about-the-jobs-page}
 
-Seleziona **[!UICONTROL Processi]** nella barra di navigazione globale per aprire la pagina Processi . Per impostazione predefinita, i processi più recenti vengono visualizzati all’inizio dell’elenco.
+Seleziona **[!UICONTROL Processi]** sulla barra di navigazione globale, in modo che venga visualizzata la pagina Processi. Per impostazione predefinita, i processi più recenti vengono visualizzati all’inizio dell’elenco.
 
 I processi vengono elencati in queste categorie nella scheda Cronologia della pagina Processi:
 
-* **[!UICONTROL Tipo di processo]** - Un&#39;icona indica il tipo di processo: Caricare e pubblicare sono i tipi di lavoro più comuni.
+* **[!UICONTROL Tipo di processo]** - Un’icona indica il tipo di processo: Carica e Pubblica sono i tipi di processo più comuni.
 
-* **[!UICONTROL Nome processo]** - Nome del lavoro. Il nome include la parte del nome inserita dall’utente e la data e l’ora.
+* **[!UICONTROL Nome processo]** - Nome del processo. Il nome include la parte del nome immessa dall&#39;utente e la data e l&#39;ora.
 
-* **[!UICONTROL Avviato]** - All&#39;inizio del lavoro.
+* **[!UICONTROL Avviato]** - Quando il processo è iniziato.
 
-* **[!UICONTROL Totale]** - Il numero di file trasferiti.
+* **[!UICONTROL Totale]** - Numero di file trasferiti.
 
-* **[!UICONTROL W (avvertenze)]** - Il numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio: `.DS_store` i file (Macintosh) e Thumbs.db (Windows®) contengono informazioni su come visualizzare i file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
+* **[!UICONTROL W (Avvertenze)]** -il numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, `.DS_store` i file (Macintosh) e thumbs. DB (Windows®) contengono informazioni su come visualizzare i file immagine agli utenti. Avvertenza voci relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Systems Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
 
-* **[!UICONTROL E (errori)]** - Elenca il numero di eventuali errori nel processo. Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
+* **[!UICONTROL E (errori)]** : elenca il numero di errori nel processo (se presenti). Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
 
-* **[!UICONTROL Durata]** - Quanto tempo è necessario per completare il lavoro.
+* **[!UICONTROL Durata]** - Il tempo necessario per completare il processo.
 
 * **[!UICONTROL Stato]** - Mostra lo stato del processo.
 
-* **[!UICONTROL Destinazione]** - Per i processi di caricamento, il nome dell’azienda e la cartella in cui sono stati caricati i file. Questa categoria non può essere applicata ai processi di pubblicazione.
+* **[!UICONTROL Destinazione]** : per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non può essere applicata ai processi di pubblicazione.
 
-* **[!UICONTROL Inviato da]** - Elenca chi ha caricato le risorse.
+* **[!UICONTROL Inviati da]** -lists che hanno caricato il risorse.
 
 >[!NOTE]
 >
->Puoi annullare i processi di pubblicazione e caricamento in corso selezionando la **[!UICONTROL Annulla]** accanto alla barra di avanzamento.
+>Potete annullare l&#39;pubblicare in corso e caricare i processi selezionando il **[!UICONTROL Annulla]** pulsante accanto alla barra di avanzamento.
 
 ## Modificare le visualizzazioni nella pagina Processi {#changing-views-on-the-jobs-page}
 
 Per ordinare i processi o modificare la visualizzazione della scheda Cronologia nella pagina Processi, effettuate le seguenti procedure:
 
-* **[!UICONTROL Ordinamento]** - Selezionare un nome di colonna per ordinare l’elenco in base a una particolare colonna. Potete selezionare l’interruttore accanto al nome della colonna per impostare l’ordinamento ascendente o discendente.
+* **[!UICONTROL Ordinamento]** - Selezionare un nome di colonna per ordinare l&#39;elenco in base a una colonna specifica. Potete selezionare l’interruttore accanto al nome della colonna per impostare l’ordinamento ascendente o discendente.
 
-* **[!UICONTROL Intervallo date]** - Seleziona la **[!UICONTROL Intervallo date]** e scegli un’opzione per limitare l’elenco dei processi alla data corrente, alla settimana precedente o al mese precedente. Seleziona **[!UICONTROL Intervallo date personalizzato]**, quindi immetti un intervallo di date specifico.
+* **[!UICONTROL Intervallo date]** - Selezionare la **[!UICONTROL Intervallo date]** e scegliere un&#39;opzione per limitare l&#39;elenco dei job alla data corrente, alla settimana precedente o al mese precedente. Seleziona **[!UICONTROL Intervallo date personalizzato]**, quindi inserisci un intervallo di date specifico.
 
-* **[!UICONTROL Tipo di processo]** - Seleziona la **[!UICONTROL Tipo di processo]** menu e scegli **[!UICONTROL Pubblica]** o **[!UICONTROL Carica]** per limitare l’elenco ai processi di pubblicazione o di caricamento. Seleziona **[!UICONTROL Tutto]** per visualizzare entrambi i tipi di lavori.
+* **[!UICONTROL Tipo di processo]** - Selezionare la **[!UICONTROL Tipo di processo]** e scegliere **[!UICONTROL Pubblica]** o **[!UICONTROL Carica]** restringere l&#39;elenco per la pubblicazione dei processi o il caricamento dei processi. Seleziona **[!UICONTROL Tutti]** per visualizzare entrambi i tipi di job.
 
-* **[!UICONTROL Mostra]** - Vai a **[!UICONTROL Mostra]** > **[!UICONTROL Processi personali]** o **[!UICONTROL Mostra]** > **[!UICONTROL Tutti i processi]** per limitare l’elenco ai lavori ordinati o ordinati da persone della tua azienda.
+* **[!UICONTROL Spettacolo]** - Vai a **[!UICONTROL Spettacolo]** > **[!UICONTROL Processi personali]** o **[!UICONTROL Spettacolo]** > **[!UICONTROL Tutti i processi]** per restringere l&#39;elenco ai processi ordinati dall&#39;utente o ai processi ordinati dagli utenti della società.
 
 ## Visualizzare, copiare o stampare un rapporto Dettagli lavoro {#viewing-copying-or-printing-a-job-details-report}
 
-Fare doppio clic sul nome di un rapporto nella pagina Processi per aprire la pagina Dettagli processo. Questa pagina fornisce un rapporto riassuntivo sui file inclusi nel processo. Seleziona **[!UICONTROL Visualizza dettagli]** puoi visualizzare l’ID Adobe Dynamic Media Classic di una voce, il percorso di destinazione e le informazioni sullo stato. Se hai caricato un file PDF o PostScript che richiede font non disponibili in Adobe Dynamic Media Classic, il rapporto elenca i font mancanti.
+Fare doppio clic sul nome di un report nella pagina Job per aprire la pagina Dettagli job. Questa pagina fornisce un rapporto riassuntivo sui file inclusi nel processo. Seleziona **[!UICONTROL Visualizza dettagli]** in modo da visualizzare l’ID Adobe Dynamic Media Classic, il percorso di destinazione e le informazioni sullo stato di una voce. Se avete caricato un file PDF o PostScript che richiede font non disponibili in Adobe Dynamic Media Classic, il report elenca i font mancanti.
 
 Potete copiare queste informazioni negli Appunti.
 
-1. Fare doppio clic sul nome di un rapporto nella pagina Processi.
-1. Nella pagina Dettagli processo, seleziona **[!UICONTROL Visualizza dettagli]** per ottenere un rapporto dettagliato su una voce.
-1. Seleziona **[!UICONTROL Copia negli Appunti]**.
+1. Fai doppio clic sul nome di un rapporto nella pagina processi.
+1. Nella pagina Dettagli processo, seleziona **[!UICONTROL Visualizza dettaglio]** per ottenere un rapporto dettagliato su una voce.
+1. Seleziona **[!UICONTROL copia in Appunti]** .
 
-## Gestire processi di caricamento e pubblicazione ricorrenti {#handling-recurring-upload-and-publish-jobs}
+## Gestire i processi di caricamento e pubblicare ricorrenti {#handling-recurring-upload-and-publish-jobs}
 
 I processi di caricamento e pubblicazione periodici creati nelle pagine Carica e Pubblica sono visualizzati nella scheda Pianificati della pagina Processi. In questa schermata potete modificare ed eliminare i processi periodici.
 
-Selezionare il pulsante Processi nella barra di navigazione globale e, nella pagina Processi, selezionare il pulsante **[!UICONTROL Pianificato]** per modificare ed eliminare i processi ricorrenti.
+Selezionare i processi pulsante nella barra di navigazione globale e, nella pagina processi, selezionare le **[!UICONTROL scheda pianificate]** in modo da poter modificare ed eliminare i processi ricorrenti.
 
 >[!NOTE]
 >
->È possibile filtrare l&#39;elenco dei processi in **[!UICONTROL Pianificato]** con la scheda **[!UICONTROL Tipo di processo]** e **[!UICONTROL Mostra]** menu. Seleziona un tipo di processo in modo da restringere l’elenco per pubblicare lavori di un tipo specifico. Seleziona una **[!UICONTROL Mostra]** se desideri visualizzare i lavori creati o quelli creati da tutti gli utenti della tua azienda.
+>È possibile filtrare l&#39;elenco **[!UICONTROL dei processi nella scheda pianificata]** con il tipo ]**di**[!UICONTROL  processo e **[!UICONTROL i menu Mostra]** . Selezionare un tipo di processo in modo da poter restringere l&#39;elenco a pubblicare processi di un tipo specifico. Seleziona un&#39; **[!UICONTROL opzione di Mostra]** se desideri visualizzare i processi creati o i processi creati da tutti nella tua azienda.
 
-### Modificare, eliminare, mettere in pausa e riprendere i processi ricorrenti {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Modifica, eliminare, sospendere e riprendere processi ricorrenti {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
-Seleziona un processo ricorrente nella pagina Processi e segui queste istruzioni se desideri modificarlo o eliminarlo:
+Seleziona un processo ricorrente nella pagina processi e seguire queste istruzioni se desideri modificarlo o eliminarlo:
 
-* **Modificare un processo ricorrente** - Seleziona la **[!UICONTROL Modifica]** e inserire le informazioni sulla pianificazione nella finestra di dialogo Modifica processo pianificato. Se desideri che il processo si ripeta a un intervallo desiderato, vai a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**.
+* **Modificare un processo ricorrente** - Selezionare la **[!UICONTROL Modifica]** e immettere le informazioni sulla programmazione nella finestra di dialogo Modifica OdL programmato. Se si desidera che il processo ricorra a un intervallo desiderato, passare a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**.
 
-Vedi [Crea un intervallo personalizzato per il processo di caricamento o pubblicazione](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-* **Eliminazione di un processo ricorrente** - Seleziona la **[!UICONTROL Elimina]** pulsante .
+* **Eliminazione di un processo ricorrente** - Selezionare la **[!UICONTROL Elimina]** pulsante.
 
-* **Sospensione (e ripresa) di un processo ricorrente** - Nella colonna Attivo deselezionare una casella di controllo per mettere in pausa un processo; selezionare una casella di controllo per riprendere un processo in pausa.
+* **Sospensione (e ripresa) di un processo ricorrente** - Nella colonna Attivo deselezionare una casella di controllo per mettere in pausa un job e selezionare una casella di controllo per riprendere un job sospeso.
 
-### Crea un intervallo personalizzato per il processo di caricamento o pubblicazione {#creating-a-custom-upload-or-publish-job-time-interval}
+### Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Per creare un intervallo di tempo personalizzato per un caricamento (tramite FTP) o un processo di pubblicazione, nella pagina Carica o Pubblica , vai a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**. Quindi inserisci numeri e caratteri jolly nella casella Regola che descrivono un intervallo di tempo per i processi di caricamento o pubblicazione da ripetere.
+Per creare un intervallo di tempo personalizzato per un caricamento (tramite FTP) o un processo di pubblicare, nella pagina carica o Publish, vai a **[!UICONTROL Ripeti]** > **[!UICONTROL personalizzato]** . Quindi immettete i numeri e i caratteri jolly nella casella della regola che descrive un intervallo di tempo per i processi di caricamento o pubblicare di ripresentarsi.
 
 La sintassi per la descrizione degli intervalli personalizzati di caricamento e pubblicazione nella casella Regola è la seguente:
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Ad esempio: `0 15 10 * * ?` pianifica un lavoro alle 10:15.00 ogni giorno.
+Ad esempio, `0 15 10 * * ?` Pianifica un processo alle 10:15.00 ogni giorno.
 
 Nelle tabelle e nell’elenco seguenti viene illustrato come specificare un intervallo temporale nella casella Regola.
 
@@ -121,8 +121,8 @@ In questa tabella vengono visualizzati gli incrementi temporali, i relativi valo
 | Minuti | 0-59 |  | `, - * /` |
 | Ore | 0-23 | Notare l’uso dell’orologio costituito da 24 ore. | `, - * /` |
 | Giorno del mese | 1-31 | Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C` |
-| Mese | 1-12 o gen, feb, mar, Apr, May, Jun, Jul, Aug, Set, Set, ott, nov, Dec | I valori sono sensibili all’uso di maiuscole e minuscole. | `, - * /` |
-| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori sono sensibili all’uso di maiuscole e minuscole. Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C #` |
+| Mese | 1-12 o gen, feb, mar, apr, mag, giu, lug, ago, set, set, ott, nov, dic | I valori sono distinzione tra maiuscole e minuscole. | `, - * /` |
+| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori sono distinzione tra maiuscole e minuscole. Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C #` |
 | Anno (facoltativo) | Vuoto o 1970-2099 |  | `, - * /` |
 
 
@@ -132,12 +132,12 @@ Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casell
 |--- |--- |--- |
 | `*` | Asterisco | Tutti i valori (ad esempio “ogni minuto”). |
 | `?` | Punto interrogativo | Nessun valore specifico (ad esempio, “un minuto qualsiasi nell’ora specificata”). |
-| `,` | Virgola | Altri valori (ad esempio, &quot;Lunedì e Mercoledì&quot;). |
+| `,` | Virgola | Altri valori (ad esempio, &quot;Lunedì e mercoledì&quot;). |
 | `-` | Trattino | Intervallo di valori (ad esempio “Da lunedì a venerdì”). |
 | `/` | Barra | Incrementi (ad esempio, “ogni 15 minuti”). |
-| `L` | L maiuscola | Ultimo “giorno del mese” o “giorno della settimana” (disponibile solo per questi campi). Se ad esempio il mese è Gennaio, un valore L per il campo “giorno del mese” pianifica l’esecuzione del processo per il 31 gennaio. Per il campo “giorno della settimana” potete immettere solo questo carattere per pianificare il processo ogni sabato. È possibile utilizzarlo con un numero (ad esempio `6L`) per specificare l’ultimo venerdì del mese. Non specificare `L` con i caratteri jolly virgola o trattino. |
-| `#` | Segno di numero | “Ennesimo” giorno del mese (disponibile solo per il campo “giorno della settimana”). Ad esempio: `6#3` nel campo &quot;giorno della settimana&quot; viene specificato il terzo venerdì del mese. La `6` indica &quot;venerdì&quot; (il sesto giorno della settimana) e `3` indica la terza occorrenza del mese. |
-| `C` | # C maiuscolo | Primo “giorno del mese” o “giorno della settimana” del calendario (disponibile solo per questi campi). Ad esempio, specificando un valore di `1C` per &quot;giorno del mese&quot; pianifica il primo giorno del calendario che si verifica il quinto o dopo il quinto. Per il campo &quot;giorno della settimana&quot;, specificando `1C` pianifica il primo giorno del calendario che si verifica il o dopo domenica |
+| `L` | L maiuscola | Ultimo “giorno del mese” o “giorno della settimana” (disponibile solo per questi campi). Se ad esempio il mese è Gennaio, un valore L per il campo “giorno del mese” pianifica l’esecuzione del processo per il 31 gennaio. Per il campo “giorno della settimana” potete immettere solo questo carattere per pianificare il processo ogni sabato. Puoi utilizzarlo con un numero (ad esempio, `6L`) per specificare l&#39;ultimo venerdì del mese. Non specificare `L` con i caratteri jolly virgola o trattino. |
+| `#` | Segno di numero | “Ennesimo” giorno del mese (disponibile solo per il campo “giorno della settimana”). Ad esempio, `6#3` nel campo &quot;giorno della settimana&quot; specifica il terzo venerdì del mese. La `6` denota &quot;venerdì&quot; (il sesto giorno della settimana) e la `3` denota la terza occorrenza nel mese. |
+| `C` | # C maiuscolo | Primo “giorno del mese” o “giorno della settimana” del calendario (disponibile solo per questi campi). Ad esempio, specificando un valore di `1C` per &quot;giorno del mese&quot; pianifica il primo giorno del calendario che si verifica il o dopo il quinto. Per il campo &quot;giorno della settimana&quot;, specificare `1C` pianifica il primo giorno del calendario che si verifica domenica o dopo domenica |
 
 Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli intervalli temporali nella casella Regola:
 
@@ -146,14 +146,14 @@ Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli interval
 * `0 0/5 14 * * ?`: ogni 5 minuti tra le 14:00 e le 14:55 di ogni giorno
 * `0 0/5 14,18 * * ?` : ogni 5 minuti tra le 14:00 e le 14:55 di ogni giorno e ogni 5 minuti tra le 18:00 e le 18:55 di ogni giorno
 * `0 10,44 14 ? 3` : Wed alle 14:10 e alle 14:44 ogni mercoledì di marzo
-* `0 15 10 ? *` : Venerdì alle 10:15 di ogni giorno feriale
+* `0 15 10 ? *` : lunedì alle 10:15 tutti i giorni feriali
 * `0 15 10 20 * ?` : alle 10:15 il 20 di ogni mese
 * `0 15 10 L * ?` : alle 10:15 l’ultimo giorno di ogni mese
 * `0 15 10 ? * 6L` : alle 10:15 l’ultimo venerdì di ogni mese
 * `0 15 10 * * 6#3` : alle 10:15 il terzo venerdì di ogni mese
 
-## Utilizzare un processo di caricamento o pubblicazione come attivatore {#using-an-upload-or-publish-job-as-a-trigger}
+## Utilizzare un processo di caricamento o pubblicare come attivatore {#using-an-upload-or-publish-job-as-a-trigger}
 
-Quando carichi le risorse tramite FTP o esegui un processo di pubblicazione, puoi pianificare un processo successivo affinché inizi una volta completato il caricamento. (Se sono programmati altri lavori per l&#39;inizio, il lavoro pianificato viene messo in coda dietro di essi.) Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in quella posizione possa essere attivato. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
+Quando caricate risorse tramite FTP o eseguite un processo di pubblicare, potete programmare un processo successivo per iniziare al termine del caricamento. Se è stato pianificato l&#39;inizio di altri processi, il processo pianificato in questa posizione verrà messo in coda dietro di essi. Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in tale posizione possa essere attivato. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
 
-Per fare in modo che un processo di caricamento o pubblicazione attivi un altro processo, seleziona **[!UICONTROL Avanzate]** nella pagina Carica o Pubblica . Immettete quindi l’URL nel campo di testo Notifica HTTP.
+Per fare in modo che un processo di caricamento o pubblicazione attivi un altro processo, seleziona **[!UICONTROL Avanzate]** nella pagina Carica o Pubblica. Immettete quindi l’URL nel campo di testo Notifica HTTP.

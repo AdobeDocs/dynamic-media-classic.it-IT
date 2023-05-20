@@ -1,6 +1,6 @@
 ---
-title: Invio di set di offerte push ad Adobe Target Standard/Premium
-description: Scopri come inviare i set di offerte ad Adobe Target Standard/Premium da Adobe Dynamic Media Classic.
+title: Invia set di offerte ad Adobe Target Standard/Premium
+description: Scopri come inviare set di offerte ad Adobe Target Standard/Premium da Adobe Dynamic Media Classic.
 uuid: 8c895a7c-21b4-4d85-8b0b-a3d2a420bf2e
 contentOwner: Rick Brough
 content-type: reference
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 ---
 
-# Invio di set di offerte push ad Adobe Target Standard/Premium {#pushing-offer-sets-to-target}
+# Invia set di offerte ad Adobe Target Standard/Premium {#pushing-offer-sets-to-target}
 
 Dopo aver creato o modificato un set di offerte, invialo ad Adobe Target Standard/Premium seguendo questi passaggi:
 
-1. Nella schermata Set di offerte Test&amp;Target , seleziona **[!UICONTROL Offerte push]**.
-1. Immetti il codice client e le credenziali di accesso.
+1. Nella schermata Set offerte Test&amp;Target, seleziona **[!UICONTROL Invia offerte]**.
+1. Immetti il codice cliente e le credenziali di accesso.
 1. Seleziona **[!UICONTROL Login]**.
 
-Durante il trasferimento ad Adobe Target Standard/Premium, il prefisso `S7_` viene allegato automaticamente all’inizio dei nomi delle offerte. Questo prefisso viene allegato per assicurarti di trovare facilmente le offerte Adobe Dynamic Media Classic nell’elenco delle offerte Test&amp;Target. Ad esempio, l’offerta viene visualizzata come `S7_<name of offer set>_<offer name>`.
+Durante il trasferimento ad Adobe Target Standard/Premium, il prefisso `S7_` viene associato automaticamente all’inizio dei nomi delle offerte. Questo prefisso è allegato per garantire che tu possa trovare facilmente le offerte Adobe Dynamic Media Classic nell’elenco delle offerte Test&amp;Target. Ad esempio, l’offerta viene visualizzata come `S7_<name of offer set>_<offer name>`.
 
-Adobe Dynamic Media Classic invia messaggi push alle offerte widget Adobe Target Standard/Premium. Puoi utilizzare le offerte Widget per ospitare contenuti di offerte personalizzati al di fuori di Adobe Target Standard/Premium. Le offerte Widget sono simili a un&#39;offerta standard ospitata al di fuori di Adobe Target Standard/Premium. Consentono ad Adobe Target Standard/Premium di distribuire il contenuto delle offerte memorizzato sul server, per un utilizzo più sofisticato e dinamico. Le offerte Widget possono recuperare il contenuto da un URL, memorizzarlo nella cache e servirlo per circa due ore. Le offerte Widget forniscono alcune funzionalità di generazione di contenuti dinamici che altre offerte al di fuori di Adobe Target Standard/Premium non forniscono. Se la mbox che serve l&#39;offerta contiene parametri mbox come `mboxProductID` e `mbox.offerId`, `productId=[PRODUCT_ID]`e `offerID=[OFFERID]` I parametri URL vengono aggiunti all’URL richiesto. Questi parametri possono essere utilizzati da un servizio disponibile presso l’URL dell’offerta Widget per restituire contenuti al di fuori di Adobe Target Standard/Premium che utilizza informazioni di prodotto o ordine dalle mbox. L’offerta Widget è accessibile anche tramite API per creare offerte a livello di programmazione al di fuori di Adobe Target Standard/Premium.
+Adobe Dynamic Media Classic introduce le offerte di widget Adobe Target Standard/Premium. Puoi utilizzare le offerte Widget per ospitare il contenuto delle offerte al di fuori di Adobe Target Standard/Premium. Le offerte di widget sono simili alle offerte standard ospitate al di fuori di Adobe Target Standard/Prermium. Consentono ad Adobe Target Standard/Premium di distribuire contenuti di offerte memorizzati sul server, consentendo un utilizzo più sofisticato e dinamico. Le offerte dei widget possono recuperare il contenuto da un URL, memorizzarlo nella cache e distribuirlo per circa due ore. Le offerte di widget forniscono alcune funzionalità di generazione di contenuti dinamici, diversamente da altre offerte al di fuori di Adobe Target Standard/Premium. Se la mbox che serve l’offerta contiene parametri mbox come `mboxProductID` e `mbox.offerId`, il `productId=[PRODUCT_ID]`e `offerID=[OFFERID]` I parametri URL vengono aggiunti all’URL richiesto. Questi parametri possono essere utilizzati da un servizio disponibile all’URL dell’offerta Widget per restituire contenuto esterno a Adobe Target Standard/Premium che utilizza informazioni su prodotti o ordini provenienti dalle mbox. L’offerta Widget è accessibile anche tramite l’API per creare in modo programmatico offerte al di fuori di Adobe Target Standard/Premium.

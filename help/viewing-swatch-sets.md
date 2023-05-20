@@ -21,46 +21,46 @@ ht-degree: 25%
 
 Potete visualizzare i set di campioni nella finestra Anteprima tramite i predefiniti disponibili. Potete usare un predefinito Visualizzatore zoom: Personalizzato per i set di campioni.
 
-Adobe Dynamic Media Classic viene fornito con predefiniti per visualizzatori predefiniti. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
+Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore predefiniti. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
 
-## Impostazione dei predefiniti visualizzatore zoom per i set di campioni {#setting-up-zoom-viewer-presets-for-swatch-sets}
+## Impostare i predefiniti visualizzatore zoom per i set di campioni {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 Potete creare e personalizzare i predefiniti per visualizzatori in base alle vostre esigenze.
 
-1. Nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
+1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Effettuate una delle seguenti operazioni:
 
-   * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**. Nell’elenco a discesa Visualizzatore della finestra di dialogo Aggiungi predefinito visualizzatore , scegli **[!UICONTROL Visualizzatore set di campioni]**, quindi seleziona **[!UICONTROL Aggiungi]**.
-   * Per modificare un predefinito visualizzatore di set di campioni esistente, seleziona il predefinito, quindi seleziona **[!UICONTROL Modifica]**.
+   * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona l’opzione **[!UICONTROL Visualizzatore set campioni]**, quindi seleziona **[!UICONTROL Aggiungi]**.
+   * Per modificare un predefinito esistente per visualizzatore set di campioni, selezionate il predefinito, quindi selezionate **[!UICONTROL Modifica]**.
 
-1. Nella pagina Configura visualizzatore, digita un nome per il predefinito Visualizzatore set di campioni nel campo di testo Nome predefinito.
+1. Nella pagina Configura visualizzatore, digitate un nome per il predefinito visualizzatore set di campioni nel campo di testo Nome predefinito.
 1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
 
-   Per visualizzare una descrizione di un’opzione, seleziona la **[!UICONTROL Suggerimento]** a destra dell’opzione .
+   Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** a destra dell’opzione.
 
-   Nella pagina Anteprima viene visualizzato il visualizzatore durante l’aggiornamento e la modifica delle impostazioni.
+   Nella pagina Anteprima viene visualizzato il visualizzatore durante l&#39;aggiornamento e la modifica delle impostazioni.
 
 1. Seleziona **[!UICONTROL Salva]**.
 
 ## Anteprima dei set di campioni in un visualizzatore {#previewing-swatch-sets-in-a-viewer}
 
-Puoi utilizzare Anteprima per vedere come viene visualizzata una risorsa su un particolare tipo di visualizzatore, ad esempio HTML5. A seconda del tipo di risorsa e del visualizzatore associato selezionato per l’anteprima, non tutte le piattaforme di tipo visualizzatore sono disponibili in Anteprima.
+Puoi utilizzare Anteprima per visualizzare come una risorsa viene visualizzata in un particolare tipo di visualizzatore, ad esempio HTML5. A seconda del tipo di risorsa e del visualizzatore associato che hai selezionato per l’anteprima, non tutte le piattaforme di tipo visualizzatore sono disponibili in Anteprima.
 
-1. Nel pannello Libreria risorse a sinistra, nella **[!UICONTROL Mostra]** dall’elenco a discesa, seleziona un tipo di risorsa basato su set di campioni come **[!UICONTROL Set di campioni]**.
+1. Nel pannello Libreria risorse a sinistra, nella sezione **[!UICONTROL Spettacolo]** , selezionare un tipo di risorsa basato su set di campioni, ad esempio **[!UICONTROL Set campioni]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse contenente il set di campioni da visualizzare in anteprima con un visualizzatore.
 1. Effettuate una delle seguenti operazioni:
 
-   * Nell’angolo in alto a destra della finestra Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista a elenco]** icona. Nella finestra Risorsa, passa il puntatore del mouse su una risorsa, quindi seleziona **[!UICONTROL Anteprima]** (non nell’elenco a discesa Anteprima ).
-   * Nell’angolo in alto a destra della finestra Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista a griglia]** icona. Nella finestra Risorsa, in una finestra miniatura risorsa, seleziona **[!UICONTROL Anteprima]** (non nell’elenco a discesa Anteprima ).
-   * Nell’angolo in alto a destra della finestra Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista dettagli]** icona. Nella stessa barra degli strumenti, seleziona **[!UICONTROL Anteprima]** (non nell’elenco a discesa Anteprima ).
+   * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista a elenco]** icona. Nella finestra Risorsa, passa il mouse su una risorsa, quindi seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
+   * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista griglia]** icona. Nella finestra Risorsa, in una finestra delle miniature della risorsa, seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
+   * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona. Sulla stessa barra degli strumenti, seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
 
 1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
-1. Per visualizzare in anteprima la risorsa nel visualizzatore selezionato, seleziona un collegamento al visualizzatore.
+1. Per visualizzare in anteprima la risorsa nel visualizzatore selezionato, seleziona un collegamento a tale visualizzatore.
 
-   Quando selezioni un determinato collegamento del visualizzatore, l’URL associato viene copiato automaticamente negli Appunti.
+   Quando selezioni un determinato collegamento visualizzatore, il relativo URL associato viene automaticamente copiato negli Appunti.
 
 1. Per tornare al pager Anteprima, chiudere il visualizzatore visualizzato.
-1. Seleziona **[!UICONTROL Chiudi]** per tornare alla pagina Risorse .
+1. Seleziona **[!UICONTROL Chiudi]** per tornare alla pagina Risorse.
 
 >[!MORELIKETHIS]
 >

@@ -21,13 +21,13 @@ ht-degree: 65%
 
 In Media Portal sono disponibili i seguenti ruoli, ognuno con diritti di accesso e autorizzazioni diversi. Quando registrate un nuovo utente, assegnate all’utente uno dei seguenti ruoli:
 
-* **[!UICONTROL Amministratore di Media Portal]** : può aggiungere e rimuovere amministratori, collaboratori e utenti. L’amministratore può anche impostare i diritti di accesso ai gruppi, gestire gli account FTP, assegnare formati di conversione (predefiniti) approvati dall’azienda, inviare e-mail agli utenti di Media Portal e visualizzare rapporti sull’uso e l’archiviazione del portale.
+* **[!UICONTROL Amministratore Media Portal]** : può aggiungere e rimuovere amministratori, collaboratori e utenti. L’amministratore può anche impostare i diritti di accesso ai gruppi, gestire gli account FTP, assegnare formati di conversione (predefiniti) approvati dall’azienda, inviare e-mail agli utenti di Media Portal e visualizzare rapporti sull’uso e l’archiviazione del portale.
 
-* **[!UICONTROL Utente di Media Portal]** - Ha accesso a cartelle e file. Un utente può solo cercare, visualizzare le anteprime e scaricare i file. Questo ruolo è adatto per i partner di canale o di servizi che devono poter accedere alle risorse approvate dall’azienda.
+* **[!UICONTROL Utente Media Portal]** : dispone dell’accesso a cartelle e file. Un utente può solo cercare, visualizzare le anteprime e scaricare i file. Questo ruolo è adatto per i partner di canale o di servizi che devono poter accedere alle risorse approvate dall’azienda.
 
-* **[!UICONTROL Collaboratore Media Portal]** - Possibilità di caricare, visualizzare in anteprima e sfogliare file e metadati nelle aree a cui un amministratore ha concesso le autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
+* **[!UICONTROL Collaboratore Media Portal]** : consente di caricare, visualizzare in anteprima e sfogliare file e metadati nelle aree per le quali un amministratore ha concesso le autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
 
-* **[!UICONTROL Collaboratore-utente del Media Portal]** - Ha accesso a cartelle e file. Un utente collaboratore può sfogliare, visualizzare in anteprima, scaricare e caricare immagini e metadati. Gli utenti collaboratori possono modificare i nomi dei file, spostare i file in cartelle diverse ed eliminare i file.
+* **[!UICONTROL Collaboratore/utente Media Portal]** : dispone dell’accesso a cartelle e file. L&#39;utente collaboratore può sfogliare, visualizzare in anteprima, scaricare e caricare immagini e metadati. Gli utenti collaboratori possono modificare i nomi dei file, spostare i file in cartelle diverse ed eliminare i file.
 
 Questa tabella descrive le attività che possono essere eseguite dagli utenti in base ai diversi ruoli. Gli amministratori e i collaboratori-utenti possono eseguire tutte le attività elencate nella tabella di seguito:
 
@@ -37,7 +37,7 @@ Questa tabella descrive le attività che possono essere eseguite dagli utenti in
 | Sfogliare i metadati | X | X | X |
 | Anteprima dei file | X | X | X |
 | Ricercare i file | X | X | X |
-| Caricare file in Adobe Dynamic Media Classic |  | X | X |
+| Carica file in Adobe Dynamic Media Classic |  | X | X |
 | Modificare e importare i metadati delle risorse |  | X | X |
 | Creare, rinominare ed eliminare le cartelle |  | X | X |
 | Esportare i metadati delle risorse | X |  | X |

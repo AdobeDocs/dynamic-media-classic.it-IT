@@ -39,5 +39,5 @@ Potete automatizzare la generazione dei set come processo indipendente dal caric
    Per impostazione predefinita, al processo viene assegnato un nome che indica che si tratta di un lavoro generato e quando è stato generato.
 
 1. Selezionate il predefinito che desiderate applicare.
-1. Seleziona **[!UICONTROL Cartella di destinazione]**, quindi specifica la cartella da utilizzare.
+1. Seleziona **[!UICONTROL Cartella di destinazione]** e quindi specificare la cartella che si desidera utilizzare.
 1. Seleziona **[!UICONTROL Invia]**.

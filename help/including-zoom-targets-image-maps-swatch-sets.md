@@ -1,6 +1,6 @@
 ---
 title: Includere destinazioni di zoom e mappe immagine nei set di campioni
-description: Scopri come includere le destinazioni di zoom e le mappe immagine nei set di campioni in Adobe Dynamic Media Classic.
+description: Scopri come includere destinazioni di zoom e mappe immagine nei Set di campioni in Adobe Dynamic Media Classic.
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: Rick Brough
 content-type: reference
@@ -19,9 +19,9 @@ ht-degree: 32%
 
 # Includere destinazioni di zoom e mappe immagine nei set di campioni{#including-zoom-targets-and-image-maps-in-swatch-sets}
 
-Eventuali destinazioni di zoom e mappe immagine specificate per le immagini del set di campioni vengono visualizzate nel visualizzatore di set di campioni. Gli utenti, ad esempio, possono selezionare una mappa immagine nel visualizzatore dei set di campioni e aprire una nuova pagina sul sito web con informazioni su un elemento. Gli utenti possono selezionare una miniatura di destinazione nel visualizzatore dei set di campioni e ingrandire automaticamente una parte dell’immagine.
+Eventuali destinazioni di zoom e mappe immagine specificate per le immagini del set di campioni vengono visualizzate nel visualizzatore di set di campioni. Gli utenti, ad esempio, possono selezionare una mappa immagine nel visualizzatore set di campioni e aprire una nuova pagina del sito Web con informazioni su un elemento. Gli utenti possono selezionare una miniatura di destinazione nel visualizzatore set di campioni e ingrandire automaticamente una parte dell&#39;immagine.
 
-Per rendere disponibili agli utenti le funzioni di destinazioni di zoom e mappe immagine, create questi elementi per le immagini del set di campioni È possibile farlo con gli strumenti Mappe immagine o Destinazioni zoom nella schermata Set campioni o nel pannello Sfoglia (in Vista dettagli).
+Per rendere disponibili agli utenti le funzioni di destinazioni di zoom e mappe immagine, create questi elementi per le immagini del set di campioni Potete eseguire questa operazione con gli strumenti Mappe immagine o Destinazioni zoom nella schermata Set campioni o nel pannello Sfoglia (in Vista dettagli).
 
 >[!MORELIKETHIS]
 >

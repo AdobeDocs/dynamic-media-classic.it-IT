@@ -1,6 +1,6 @@
 ---
-title: Caricare una risorsa immagine raster
-description: Scopri come caricare una risorsa immagine raster in Adobe Dynamic Media Classic
+title: Carica una risorsa immagine raster
+description: Scopri come caricare un’immagine raster in Adobe Dynamic Media Classic
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -14,32 +14,32 @@ ht-degree: 67%
 
 ---
 
-# Caricare una risorsa immagine raster {#uploading-an-image-asset-or-a-vector-asset}
+# Carica una risorsa immagine raster {#uploading-an-image-asset-or-a-vector-asset}
 
-Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento Puoi quindi utilizzare il token di caricamento per caricare le risorse immagine raster.
+Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento Quindi utilizzi il token di caricamento per caricare le risorse di immagini raster.
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’utilizzo fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
 
 >[!NOTE]
 >
->Il supporto per le risorse vettoriali UGC nuove o esistenti in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
+>Il supporto per risorse vettoriali UGC nuove o esistenti in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
 
-## Richiedere una chiave segreta condivisa {#requesting-a-shared-secret-key}
+## Richiedi una chiave con segreto condiviso {#requesting-a-shared-secret-key}
 
-Richiedere un *chiave segreta condivisa* da [utilizzo dell&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi una chiave segreta condivisa.
+Richiedi *chiave shared-secret* da [utilizzo dell’Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi una chiave con segreto condiviso.
 
-Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvala localmente per un utilizzo futuro.
+Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvarla localmente per utilizzarla in futuro.
 
-## Recupera il token di caricamento {#retrieving-the-upload-token}
+## Recuperare il token di caricamento {#retrieving-the-upload-token}
 
 L’utilizzo di un *token di caricamento* fa sì che nessuno debba usare la chiave segreta condivisa per caricare le risorse. Garantisce inoltre la legittimità del caricamento e la provenienza da una fonte affidabile.
 
-Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Utilizza i seguenti URL, sostituendo la chiave segreta condivisa con altri utenti, in modo da poter recuperare il token di caricamento.
+Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Utilizza i seguenti URL, sostituendo la chiave con segreto condiviso, in modo da poter recuperare il token di caricamento.
 
 * Immagine raster
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave segreta condivisa è `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave shared-secret è `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -50,7 +50,7 @@ Per impostazione predefinita, il token di caricamento scade cinque minuti (300 s
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-La risposta corretta per le immagini appare simile alla seguente:
+La risposta corretta per le immagini è simile alla seguente:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -94,9 +94,9 @@ Per ottenere un token di caricamento, potete usare i seguenti campi nella string
 
 Ora potete caricare una risorsa immagine.
 
-Vedi [Caricare una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Consulta [Caricare una risorsa immagine](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Caricare una risorsa immagine raster {#uploading-an-image-asset}
+## Carica una risorsa immagine raster {#uploading-an-image-asset}
 
 Dopo aver recuperato un token di caricamento valido per un periodo di tempo specificato, potete caricare una risorsa immagine. Potete caricare la risorsa come POST multiparte o modulo e inviare gli altri valori come una stringa di richiesta URL, come nell’esempio di seguito:
 
@@ -104,11 +104,11 @@ Dopo aver recuperato un token di caricamento valido per un periodo di tempo spec
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-La `upload_token` e `company_name` i campi sono obbligatori.
+Il `upload_token` e `company_name` sono obbligatori.
 
-Vedi [Recupera il token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulta [Recuperare il token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Vedi [Recupera una chiave segreta condivisa](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulta [Recuperare una chiave con segreto condiviso](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, come nell’esempio di seguito:
 
@@ -116,7 +116,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-La `file_limit` specifica il limite di dimensione del file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+Il `file_limit` parametro specifica il limite di dimensione file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -131,16 +131,16 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Token di caricamento.
 * Limite dimensione file.
 * Elenco di estensione di nomi file.
-* Se mantenere il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare Sfondo Knockout. Se si abilita Sfondo knockout, impostare il metodo Angolo, Tolleranza e Riempimento.
-Consultare Sfondo della rinuncia in [Opzioni di ottimizzazione delle immagini al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+* Specifica se mantenere il profilo colore e il nome file associati alla risorsa.
+* Se utilizzare Knockout Background. Se attivate Sfondo foratura (Knockout Background), impostate i metodi Angolo (Corner), Tolleranza (Tolerance) e Riempimento (Fill).
+Consulta Foratura sfondo in [Opzioni di ottimizzazione immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare.
 
-Per visualizzare il codice sorgente HTML associato al modulo precedente, seleziona [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Puoi visualizzare il codice sorgente HTML associato al modulo precedente selezionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi selezionare **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
+In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi seleziona **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
 
-Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Origine]**. Per visualizzare la risposta XML in Firefox, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Sorgente]**. Per visualizzare la risposta XML in Firefox, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori Web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -176,7 +176,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori come una stringa query URL. Nella stringa query URL potete usare i seguenti campi per caricare una risorsa:
 
-| Parametro URL | Obbligatorio o Facoltativo | Valore |
+| Parametro URL | Obbligatorio o facoltativo | Valore |
 | --- | --- | --- |
 | `op` | Obbligatorio | upload |
 | `upload_token` | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
@@ -198,7 +198,7 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 POST
 
-### Ottenere i metadati delle risorse per le immagini {#getting-asset-metadata-for-images}
+### Ottieni metadati risorsa per immagini {#getting-asset-metadata-for-images}
 
 Per ottenere i metadati di una risorsa caricata, potete usare `image_info`, come illustrato nell’esempio di seguito:
 

@@ -19,7 +19,7 @@ ht-degree: 13%
 
 # Pubblicare i modelli{#publishing-templates}
 
-Quando si pubblica un modello, questo viene inserito sui server di immagini Dynamic Media, dove è disponibile per il sito Web e l’applicazione. Durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva gli URL necessari per il sito Web e l’applicazione.
+Quando si pubblica un modello, questo viene collocato nei server immagini Dynamic Media, dove è disponibile per il sito Web e l&#39;applicazione. Durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva gli URL necessari per il sito web e l’applicazione.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Quando si pubblica un modello, questo viene inserito sui server di immagini Dyna
 
 ## Contrassegnare modelli per la pubblicazione {#marking-templates-for-publish}
 
-I modelli e tutti i relativi file di supporto devono essere contrassegnati affinché la pubblicazione possa essere inserita sui server di immagini Dynamic Media. Puoi contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia selezionando la **[!UICONTROL Contrassegna per pubblicazione]** icona.
+I modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione affinché possano essere posizionati sui server immagini Dynamic Media. È possibile contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia selezionando **[!UICONTROL Contrassegna per pubblicazione]** icona.
 
 ## Pubblicare il modello {#publishing-your-template}
 
-Per pubblicare modelli sui server di immagini Dynamic Media, seleziona nella barra di navigazione globale **[!UICONTROL Pubblica]**, quindi seleziona una **[!UICONTROL Quando]** opzione . Facoltativamente, puoi inserire un nome per il processo di pubblicazione. Seleziona **[!UICONTROL Invia pubblicazione]**.
+Per pubblicare i modelli nei server immagini Dynamic Media, nella barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**, quindi seleziona un **[!UICONTROL Quando]** opzione. Facoltativamente, è possibile inserire un nome per il processo di pubblicazione. Seleziona **[!UICONTROL Invia pubblicazione]**.
 
 >[!MORELIKETHIS]
 >

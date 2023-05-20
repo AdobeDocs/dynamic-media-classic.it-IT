@@ -12,7 +12,7 @@ exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -35,12 +35,12 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per creare un set di file multimediali diversi:**
 
-1. Vai a **[!UICONTROL Crea]** > **[!UICONTROL Set di file multimediali diversi]**.
+1. Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di file multimediali diversi]**.
 1. Trascinate i video, i set di immagini, i set 360 gradi e i campioni dalla libreria delle risorse alla schermata Set di file multimediali diversi.
 
    >[!NOTE]
    >
-   >Un set di file multimediali diversi non supporta le risorse con nomi di file contenenti uno dei seguenti caratteri: `( ) { }`.
+   >Un set di file multimediali diversi non supporta le risorse con nomi di file che contengono i seguenti caratteri: `( ) { }`.
 
 1. Effettuate una delle seguenti operazioni:
 
@@ -50,16 +50,16 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) nell’angolo inferiore destro della pagina sia selezionata.
 1. Seleziona **[!UICONTROL Salva]**.
-1. Seleziona una cartella in cui memorizzare il set di file multimediali diversi, quindi immetti un nome per il set.
+1. Seleziona una cartella per l’archiviazione del set di file multimediali diversi, quindi immetti un nome per il set.
 1. Seleziona **[!UICONTROL Salva]**.
 
-   Per visualizzare l’aspetto del set di immagini combinato in un visualizzatore di set di immagini, seleziona **[!UICONTROL Anteprima]**.
+   Per visualizzare l&#39;aspetto del set di immagini combinato in un visualizzatore di set di immagini, selezionare **[!UICONTROL Anteprima]**.
 
 ## Modificare un set di file multimediali diversi {#edit-a-mixed-media-set}
 
 Potete modificare un set di file multimediali diversi. Per modificare un set contenuto in un set di file multimediali diversi, aprite il set desiderato separatamente, modificatelo e salvatelo. Le modifiche saranno riportate anche nel set di file multimediali diversi.
 
-Se modifichi un set pubblicato o non pubblicato, la **[!UICONTROL Pubblica dopo il salvataggio]** influenza i membri set e set nei seguenti modi:
+Sia che si modifichi un set pubblicato o non pubblicato, il **[!UICONTROL Pubblica dopo il salvataggio]** influisce sui membri set e set nei modi seguenti:
 
 | Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- |--- |--- |--- |
@@ -72,7 +72,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per modificare un set di file multimediali diversi:**
 
-1. Selezionare il rollover del set di file multimediali diversi **[!UICONTROL Modifica]** pulsante .
+1. Seleziona il rollover del set di file multimediali diversi **[!UICONTROL Modifica]** pulsante.
 1. Effettuate una delle seguenti operazioni:
 
    * Per rimuovere gli elementi, selezionali e seleziona **[!UICONTROL Elimina]**.
@@ -90,4 +90,4 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 **Per eliminare un set di file multimediali diversi:**
 
 1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set di file multimediali diversi.
-1. Nella barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]** > **[!UICONTROL Elimina]**.
+1. Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]** > **[!UICONTROL Elimina]**.

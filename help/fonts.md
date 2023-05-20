@@ -19,50 +19,50 @@ ht-degree: 28%
 
 # Font{#fonts}
 
-A volte, Adobe Dynamic Media Classic richiede di caricare un file di font per immettere o eseguire il rendering del testo in un particolare font. Ad esempio, per usare un font particolare per un testo su un livello di modello, caricate il file di font. Per visualizzare i numeri della pagina Visualizzatore eCatalog in un font particolare, caricate il file del font.
+A volte, Adobe Dynamic Media Classic richiede di caricare un file di font per immettere o riprodurre il testo in un determinato font. Ad esempio, per usare un font particolare per un testo su un livello di modello, caricate il file di font. Per visualizzare i numeri della pagina Visualizzatore eCatalog in un font particolare, caricate il file del font.
 
-Adobe Dynamic Media Classic supporta i seguenti tipi di font:
+Adobe Dynamic Media Classic supporta i tipi di carattere seguenti:
 
 * Tutti i font TrueType
-* Font PostScript®
+* PostScript®
 * Font OpenType/TrueType
 * Font OpenType/PostScript
 * PhotoFonts
 
-Dopo aver caricato un file di font, puoi modificarne l’ID Adobe Dynamic Media Classic, il nome del font e digitare le informazioni nella schermata Modifica informazioni.
+Dopo il caricamento di un file di caratteri, è possibile modificarne l&#39;ID Adobe Dynamic Media Classic, il nome e le informazioni sul tipo nella schermata Modifica informazioni.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic consiglia di caricare tutti gli stili di font (grassetto, corsivo, grassetto/corsivo e normale) se prevedi di utilizzare i font nei livelli modello. Adobe Dynamic Media Classic richiede questi stili di font per elaborare le richieste. Si consiglia anche di caricare tutti i file PostScript/Adobe Type 1 associati a un font, poiché alcuni di questi contengono informazioni dettagliate per la crenatura.
+>Adobe Dynamic Media Classic consiglia di caricare tutti gli stili di carattere (grassetto, corsivo, grassetto/corsivo e normale) se intendi utilizzare i caratteri nei livelli modello. Adobe Dynamic Media Classic richiede questi stili di carattere per elaborare le richieste. Si consiglia anche di caricare tutti i file PostScript/Adobe Type 1 associati a un font, poiché alcuni di questi contengono informazioni dettagliate per la crenatura.
 
-## Caricare file di font {#uploading-font-files}
+## Carica file di font {#uploading-font-files}
 
-Caricate i file di font con le stesse tecniche usate per caricare altri file. È possibile memorizzare i file di font in qualsiasi cartella Adobe Dynamic Media Classic. Consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
+Caricate i file di font con le stesse tecniche usate per caricare altri file. È possibile memorizzare i file dei caratteri in qualsiasi cartella di Adobe Dynamic Media Classic. Consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
 
-## Modifica delle informazioni sul file di font {#editing-font-file-information}
+## Modifica informazioni file font {#editing-font-file-information}
 
-È possibile modificare il nome ID di un font e le relative informazioni sul tipo. La modifica di un file di font può essere utile per le ricerche e per identificare i font più facilmente.
+È possibile modificare il nome ID di un tipo di carattere e le relative informazioni sul tipo. La modifica di un file di font può essere utile per le ricerche e per identificare i font più facilmente.
 
-Nel pannello Sfoglia, selezionare il file di font da modificare in Vista dettagli e scegliere File > Modifica informazioni. Viene visualizzata la schermata Modifica info. Scegli le seguenti opzioni e seleziona **[!UICONTROL Invia]**.
+Nel pannello Sfoglia, selezionate il file di font da modificare in Vista dettagli e scegliete File > Modifica informazioni. Viene visualizzata la schermata Modifica info. Scegli le seguenti opzioni, quindi seleziona **[!UICONTROL Invia]**.
 
-* **[!UICONTROL Nome font]** - Questo nome identifica il font quando viene pubblicato.
+* **[!UICONTROL Nome font]** - Questo nome identifica il carattere quando viene pubblicato.
 
-* **[!UICONTROL Nome PostScript]** - Questo nome è il nome PostScript completo del font. Generalmente indica ne lo spessore o stile.
+* **[!UICONTROL Nome PostScript]** - Questo nome rappresenta il nome PostScript completo del tipo di carattere. Generalmente indica ne lo spessore o stile.
 
 * **[!UICONTROL Nome RTF]** - Questo nome viene visualizzato in un menu a comparsa nell&#39;editor RTF in cui vengono creati i livelli di testo del modello.
 
-* **[!UICONTROL Nome famiglia font]** - Questo nome elenca il nome del font senza l&#39;indicatore di stile, spessore o tipo di carattere.
+* **[!UICONTROL Nome famiglia font]** - Questo nome elenca il nome del carattere senza l&#39;indicatore di stile, spessore o tipo di carattere.
 
-* **[!UICONTROL Stile font]** - Le opzioni disponibili sono Normale, Grassetto, Corsivo e Grassetto-Corsivo.
+* **[!UICONTROL Stile font]** - Le opzioni sono Plain, Bold, Italic e Bold-Italic.
 
-* **[!UICONTROL Tipo di carattere]** - Le opzioni sono TrueType e Adobe Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
+* **[!UICONTROL Tipo font]** - Le opzioni sono TrueType e Adobe Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
 
-* **[!UICONTROL Abbreviazione tipo di carattere]** - Le opzioni sono le seguenti:
+* **[!UICONTROL Abbreviazione tipo font]** - Le opzioni sono le seguenti:
 
-   * **[!UICONTROL TTF]** - File di font TrueType utilizzati per il rendering di PDF/PostScript e per il server di immagini.
+   * **[!UICONTROL TTF]** : file di font TrueType utilizzati per il rendering PDF/PostScript e per la gestione delle immagini.
 
-   * **[!UICONTROL AFM]** - File di font Adobe PostScript contenenti informazioni Adobi sulle metriche dei font e utilizzati per il serving delle immagini.
+   * **[!UICONTROL AFM]** : file di font di Adobe PostScript contenenti informazioni sulle metriche dei font di Adobe e utilizzati per la riproduzione delle immagini.
 
-   * **[!UICONTROL PFM]** - File di font Adobe PostScript che contengono informazioni binarie sulla metrica dei font.
+   * **[!UICONTROL PFM]** : file di font Adobe PostScript contenenti informazioni binarie sulle metriche dei font.
 
-   * **[!UICONTROL PFB]** - File di font Adobe PostScript che contengono informazioni binarie sulla struttura dei font e vengono utilizzati per il rendering PDF/PostScript e il servizio immagini.
+   * **[!UICONTROL PFB]** : file di font Adobe PostScript che contengono informazioni binarie sulla struttura del font e che vengono utilizzati per il rendering PDF/PostScript e per la gestione delle immagini.

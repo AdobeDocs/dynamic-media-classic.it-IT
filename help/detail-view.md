@@ -1,6 +1,6 @@
 ---
-title: Lavorare nella vista Dettaglio
-description: Scopri come lavorare in Vista dettagli in Adobe Dynamic Media Classic.
+title: Visualizzazione dettagli Work in Detail
+description: Scopri come lavorare nella Vista dettagli in Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 21%
 
 ---
 
-# Lavorare nella vista Dettaglio{#working-in-detail-view}
+# Visualizzazione dettagli Work in Detail{#working-in-detail-view}
 
-Per lavorare con e conoscere una risorsa, aprila in Vista dettagli. Nella Vista dettagli sono disponibili le dimensioni della risorsa, gli attributi, i derivati e i metadati. Puoi anche verificare se e quando la risorsa è stata pubblicata e ottenere l’URL delle risorse pubblicate. A seconda del tipo di risorsa, potete visualizzarne l’anteprima in dimensioni diverse, ingrandirla, nonché eseguire operazioni di nitidezza, ritaglio e altre operazioni di formattazione.
+Per lavorare con una risorsa e conoscerla meglio, aprila nella Vista dettagli. Nella Vista dettagli vengono visualizzati la dimensione della risorsa, gli attributi, i derivati e i metadati. Puoi anche vedere se e quando la risorsa è stata pubblicata e ottenere l’URL delle risorse pubblicate. A seconda del tipo di risorsa, potete visualizzarne l’anteprima in dimensioni diverse, ingrandirla, nonché eseguire operazioni di nitidezza, ritaglio e altre operazioni di formattazione.
 
 <!-- 
 
@@ -32,54 +32,54 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
  -->
 
 ![Vista dettagli](/help/assets/image_0.img.png)
-*Vista dettagli con il pannello Libreria risorse nascosto dal lato sinistro.*
+*Vista dettagli con il pannello Libreria risorse nascosto dalla vista sul lato sinistro.*
 
 >[!NOTE]
 >
 >Per aprire la cartella in cui è memorizzata la risorsa, puoi selezionare il percorso della cartella nella parte superiore del pannello Informazioni.
 
-## Apri una risorsa in Vista dettagli {#open-an-asset-in-detail-view}
+## Aprire una risorsa nella vista Dettaglio {#open-an-asset-in-detail-view}
 
-Per esaminare, visualizzare in anteprima o lavorare con precisione su una risorsa, puoi visualizzarla in Vista dettagli.
+Per esaminare attentamente, visualizzare in anteprima o lavorare su una risorsa, potete visualizzarla in Vista dettagli.
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Selezionate la risorsa. Nell’angolo in alto a destra del Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista dettagli]** icona .
+   * Selezionate la risorsa. Nell&#39;angolo superiore destro del Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona .
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
 >[!NOTE]
 >
->Per passare da una risorsa all’altra nella stessa cartella in Vista dettagli, seleziona **[!UICONTROL Risorsa precedente]** o **[!UICONTROL Risorsa successiva]**. Questi pulsanti si trovano nell&#39;angolo superiore destro della vista Dettaglio.
+>Puoi passare da una risorsa all’altra nella stessa cartella in Vista dettagli selezionando **[!UICONTROL Risorsa precedente]** o **[!UICONTROL Risorsa successiva]**. Questi pulsanti si trovano nell&#39;angolo superiore destro in Vista dettagli.
 
-## Ottenere informazioni nella visualizzazione dettagli {#getting-information-in-detail-view}
+## Ottieni informazioni nella vista Dettaglio {#getting-information-in-detail-view}
 
-La Vista dettagli fornisce informazioni su una risorsa o un file. Mostra le informazioni seguenti su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Adobe Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa in Vista dettagli.
+La Vista dettagli fornisce informazioni su una risorsa o un file. Mostra queste informazioni su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Adobe Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa nella Vista dettagli.
 
-Puoi ottenere un URL della risorsa in Vista dettagli; tuttavia, l’URL non è attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettagli fornisce anche un elenco di risorse e metadati generati e derivati, come destinazioni di zoom e set di immagini.
+Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sarà attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettaglio fornisce anche un elenco di build e delle risorse e dei metadati derivati, come le destinazioni di zoom e i set di immagini.
 
 ## Utilizzare le risorse nella vista Dettaglio {#working-with-assets-in-detail-view}
 
-La Vista dettagli offre gli strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma in Vista dettagli sono sempre disponibili le seguenti funzioni:
+La Vista dettagli offre strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma la Vista dettagli offre sempre queste funzioni:
 
-* **elementi per la pubblicazione** - Seleziona la **[!UICONTROL Pubblica]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
+* **elementi per la pubblicazione** - Selezionare la **[!UICONTROL Pubblica]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
 * **Rinomina la risorsa** - Selezionare il nome e immettere un nuovo nome.
 
-* **Modificare e aggiungere metadati** - Selezionate il pannello Metadati e modificate come desiderato. Vedi [Visualizzare, aggiungere ed esportare metadati](/help/viewing-adding-exporting-metadata.md).
+* **Modificare e aggiungere metadati** - Selezionate il pannello Metadati e modificate come desiderate. Consulta [Visualizzare, aggiungere ed esportare metadati](/help/viewing-adding-exporting-metadata.md).
 
-* **Modificare e aggiungere parole chiave** - Selezionare le parole chiave e aggiungerle o rimuoverle in base alle proprie esigenze. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
+* **Modificare e aggiungere parole chiave** - Selezionare Parole chiave e aggiungerle o rimuoverle come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/viewing-adding-exporting-metadata.md).
 
-* **Eliminare la risorsa** - Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
+* **Elimina la risorsa** - Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
 
-Per i file discreti, ad esempio immagini, set di immagini e font, è possibile visualizzare la cronologia di pubblicazione e modifica e controllare i dettagli del processo in Vista dettagli.
+Per i file discreti, ad esempio immagini, set di immagini e font, è possibile visualizzare la cronologia di pubblicazione e modifica e controllare i dettagli dell&#39;OdL in Vista dettagli.
 
-Questa tabella mostra quali altre opzioni sono disponibili con diversi tipi di risorse in Vista dettagli.
+In questa tabella sono illustrate le altre opzioni disponibili per i diversi tipi di risorse nella Vista dettagli.
 
 | Tipo di risorsa | Modifica/regolazione | Anteprima |
 | --- | --- | --- |
-| Immagini | Aggiunta di mappe immagine<br>Aggiungere destinazioni di zoom<br>Ritaglio<br>Nitidezza<br>Creare visualizzazioni corrette | Sì; Zoom e Predefiniti immagine |
-| Immagini di armadio e rivestimento di finestre | No | Miniatura |
+| Immagini | Aggiunta di mappe immagine<br>Aggiungi destinazioni di zoom<br>Ritaglio<br>Nitidezza<br>Creare viste regolate | Sì; Zoom e Predefiniti immagine |
+| Immagini per armadi e finestre | No | Miniatura |
 | eCatalog | Modifica | Sì<br>È disponibile anche il pannello Info |
 | Font | Modifica delle informazioni sui font | No |
 | File FXG | Modifica | Sì |
@@ -93,9 +93,9 @@ Questa tabella mostra quali altre opzioni sono disponibili con diversi tipi di r
 | File SVG | No | No |
 | Modelli | Modifica | Sì |
 | Video | No | Sì |
-| Vignettature e vignettature di rendering | No | L&#39;immagine viene mostrata<br>È possibile visualizzare il contenuto e la struttura degli elementi renderizzabili della vignetta in formato XML |
+| Vignettature e vignettature di rendering | No | Immagine visualizzata<br>È possibile visualizzare il contenuto e la struttura degli elementi renderizzabili della vignettatura in formato XML |
 | File XML | No | I contenuti sono visualizzati |
-| File ZIP | No | Contenuto non visualizzato |
+| File ZIP | No | Il contenuto non viene visualizzato |
 
 >[!MORELIKETHIS]
 >

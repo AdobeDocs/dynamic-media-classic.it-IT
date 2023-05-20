@@ -1,6 +1,6 @@
 ---
 title: Esportare risorse da Adobe Dynamic Media Classic
-description: Scopri come esportare risorse da Adobe Dynamic Media Classic.
+description: Scopri come esportare le risorse da Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
@@ -23,30 +23,30 @@ ht-degree: 51%
 
 Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione. Inoltre, è consentito un massimo di 500 risorse totali per processo di esportazione.
 
-Nella schermata Processi, Adobe Dynamic Media Classic registra i processi di esportazione.
+Adobe Dynamic Media Classic tiene traccia dei processi di esportazione nella schermata Processi.
 
-**Per esportare le risorse da Adobe Dynamic Media Classic:**
+**Per esportare risorse da Adobe Dynamic Media Classic:**
 
 1. Seleziona le risorse da esportare, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
 1. Nella finestra Esporta risorse selezionate, fate clic su **[!UICONTROL Opzioni immagini]** e specificate una delle seguenti opzioni (gli amministratori stabiliscono quali opzioni rendere disponibili agli utenti):
 
-   * **[!UICONTROL Predefiniti]** - Facoltativamente, scegli un predefinito per immagini per formattare la risorsa quando la esporti. Se scegliete un predefinito per immagini, le altre opzioni di formattazione non sono disponibili, poiché vengono adottati i formati specificati dal predefinito.
+   * **[!UICONTROL Predefiniti]** - Se necessario, scegli un predefinito immagine per formattare la risorsa al momento dell’esportazione. Se scegliete un predefinito per immagini, le altre opzioni di formattazione non sono disponibili, poiché vengono adottati i formati specificati dal predefinito.
 
-   * **[!UICONTROL Conversione]** - Convertire il file della risorsa o l&#39;immagine originale.
+   * **[!UICONTROL Conversione]** : converte il file della risorsa o l’immagine originale.
 
-   * **[!UICONTROL Dimensione]** - È possibile selezionare una dimensione standard. Oppure, puoi selezionare **[!UICONTROL Altro]** dal **[!UICONTROL Dimensione]** dall’elenco a discesa, scegli l’unità di misura desiderata e specifica la larghezza e l’altezza.
+   * **[!UICONTROL Dimensione]** - È possibile selezionare una dimensione standard. In alternativa, puoi selezionare **[!UICONTROL Altro]** dal **[!UICONTROL Dimensione]** scegliere l&#39;unità di misura desiderata e quindi specificare la larghezza e l&#39;altezza.
 
       Vedi anche [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Formato]** - Scegli un formato immagine.
+   * **[!UICONTROL Formato]** - Scegliere un formato di immagine.
 
-   * **[!UICONTROL Colore]** - Scegli RGB, CMYK o Grigio.
+   * **[!UICONTROL Colore]** - Scegliere RGB, CMYK o Grigio.
 
-   * **[!UICONTROL Risoluzione]** - Scegli 72 ppi, 150 ppi o 300 ppi.
+   * **[!UICONTROL Risoluzione]** - Scegliere tra 72 ppi, 150 ppi o 300 ppi.
 
    * **[!UICONTROL Nome processo]** - È possibile assegnare un nome di processo all&#39;esportazione.
 
-   * **[!UICONTROL Invia e-mail a]** - Se si desidera inviare le risorse tramite e-mail, è possibile inserire un indirizzo e-mail. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
+   * **[!UICONTROL Invia e-mail a]** - Se si desidera inviare le risorse per posta elettronica, è possibile inserire un indirizzo di posta elettronica. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
 
 1. Seleziona **[!UICONTROL Esporta]**.
 
@@ -62,7 +62,7 @@ Non è possibile esportare i seguenti tipi di risorsa. Tutti gli altri generano 
 * Set di rendering
 * Set 360 gradi
 * Set di file multimediali
-* Set a più byte
+* Set multibitrate
 * eCatalog
 
 Inoltre, non è possibile esportare i modelli come “file originale”.

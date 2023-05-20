@@ -3,13 +3,13 @@ title: Domande frequenti sull'aggiornamento
 description: Domande frequenti (FAQ) durante l’aggiornamento da [!DNL Adobe Dynamic Media Classic] applicazione desktop a [!DNL Dynamic Media] il [!DNL Adobe Experience Manager] Risorse.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
+source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
 
 ---
-
 
 # Domande frequenti sull&#39;aggiornamento da [!DNL Dynamic Media Classic] a [!DNL Dynamic Media]
 

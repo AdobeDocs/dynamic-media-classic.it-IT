@@ -19,15 +19,15 @@ ht-degree: 6%
 
 # Pubblicare immagini primarie{#publishing-master-images}
 
-Quando si pubblicano i file di immagine, questi vengono pubblicati sui server di immagini Dynamic Media, dove sono disponibili per il sito Web e l’applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito web e l’applicazione.
+Quando si pubblicano i file immagine, questi vengono pubblicati sui server immagini Dynamic Media, dove sono disponibili per il sito Web e l&#39;applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito web e l’applicazione.
 
-## Contrassegnare le immagini primarie per la pubblicazione {#marking-master-images-for-publish}
+## Contrassegna immagini primarie per la pubblicazione {#marking-master-images-for-publish}
 
-Le immagini primarie devono essere contrassegnate per la pubblicazione affinché vengano copiate nei server di immagini Dynamic Media. Per contrassegnare le immagini primarie da pubblicare nel pannello Sfoglia, fai clic su **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
+Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Media. Per contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia, fai clic su **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
 
 ## Pubblicare le immagini principali {#publishing-your-master-images}
 
-1. Nella barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Nella finestra di dialogo Pubblica , seleziona un’opzione Quando (**[!UICONTROL Una tantum]** o **[!UICONTROL Ricorrente]**), quindi facoltativamente immetti un nome per il processo di pubblicazione
+1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Nella finestra di dialogo Pubblica selezionare un&#39;opzione Quando (**[!UICONTROL Una tantum]** o **[!UICONTROL Ricorrente]**), quindi immettere facoltativamente un nome per il processo di pubblicazione
 
 1. Seleziona **[!UICONTROL Invia pubblicazione]**.
 

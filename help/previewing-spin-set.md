@@ -21,9 +21,9 @@ ht-degree: 38%
 
 Potete usare Elenco visualizzatori per ottenere l’anteprima di una risorsa in base a un particolare tipo di piattaforma per visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
-Vedi [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
+Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
 
-Vedi [Visualizzare un&#39;anteprima di una risorsa](previewing-asset.md#previewing_an_asset).
+Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#previewing_an_asset).
 
 **Per visualizzare in anteprima un set 360 gradi:**
 
@@ -31,13 +31,13 @@ Vedi [Visualizzare un&#39;anteprima di una risorsa](previewing-asset.md#previewi
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella delle risorse contenente il set 360 gradi da visualizzare in anteprima con un visualizzatore.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, seleziona a destra della barra degli strumenti **[!UICONTROL Vista a griglia]**. Nella finestra Risorsa, sotto l’immagine miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
-   * Sopra la finestra Risorse, seleziona a destra della barra degli strumenti **[!UICONTROL Vista a elenco]**. Nella finestra Risorsa , seleziona una risorsa, quindi, a destra della miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
-   * Sopra la finestra Risorse, seleziona a destra della barra degli strumenti **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista griglia]**. Nella finestra Risorsa, sotto l&#39;immagine di miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista a elenco]**. Nella finestra Risorsa, seleziona una risorsa e quindi, a destra dell’immagine di miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-1. Nella finestra Elenco visualizzatori, nella tabella, seleziona un collegamento visualizzatore per visualizzare l’anteprima della risorsa nel visualizzatore selezionato.
+1. Nella tabella della finestra Elenco visualizzatori, seleziona un collegamento visualizzatore per visualizzare in anteprima la risorsa nel visualizzatore selezionato.
 1. Chiudi il visualizzatore visualizzato.
-1. Nell’angolo in basso a destra della finestra Elenco visualizzatori, seleziona **[!UICONTROL Chiudi]** per tornare alla schermata Risorse .
+1. Nell&#39;angolo inferiore destro della finestra Elenco visualizzatori, selezionare **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
 
 >[!MORELIKETHIS]
 >

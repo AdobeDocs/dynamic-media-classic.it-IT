@@ -1,6 +1,6 @@
 ---
 title: "Avvio rapido: funzioni di base dei modelli"
-description: Introduzione e nozioni di base sui modelli per iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
+description: Introduzione e Guida rapida alle nozioni di base sui modelli per aiutarti a iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: Rick Brough
 content-type: reference
@@ -19,54 +19,54 @@ ht-degree: 28%
 
 # Avvio rapido: funzioni di base dei modelli{#quick-start-template-basics}
 
-I modelli di base vengono creati in modo dinamico e indirizzabili file di immagini a più livelli, come file a più livelli in applicazioni di modifica delle immagini come Adobe Photoshop. Diversamente dai file statici contenenti livelli, come ad esempio un file PSD, un modello può includere dei parametri che consentono di agire su diversi aspetti dell’immagine e personalizzarli.
+Le nozioni di base sui modelli sono file immagine a livelli dinamici e indirizzabili, come i file a livelli, nelle applicazioni di modifica delle immagini come Adobe Photoshop. Diversamente dai file statici contenenti livelli, come ad esempio un file PSD, un modello può includere dei parametri che consentono di agire su diversi aspetti dell’immagine e personalizzarli.
 
-Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. È possibile convertire un file statico contenente livelli, ad esempio un file PSD a livelli, in un modello e creare modelli in Adobe Dynamic Media Classic. È possibile creare livelli di testo nei modelli utilizzando i font caricati in Adobe Dynamic Media Classic. Dopo aver aggiunto del testo a un modello, potete formattarlo modificandone giustificazione, font, dimensioni font e colore.
+Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. Potete convertire un file statico contenente livelli, ad esempio un file di PSD con livelli, in un modello e creare modelli in Adobe Dynamic Media Classic. Potete creare livelli di testo nei modelli utilizzando i font caricati in Adobe Dynamic Media Classic. Dopo aver aggiunto del testo a un modello, potete formattarlo modificandone giustificazione, font, dimensioni font e colore.
 
 La pagina Parametri consente di convertire qualsiasi aspetto di un modello in un parametro indirizzabile. Questo consente di scegliere l’immagine a livelli o il valore di testo da usare nel modello. I parametri vengono trasmessi con la stringa URL e possono essere modificati per personalizzare in modo dinamico l’immagine di risposta generata dal server immagini.
 
 Vedi anche [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) video di formazione.
 
-Questa Guida rapida è progettata per aiutarti a iniziare rapidamente a usare le nozioni di base sui modelli.
+Questa Guida introduttiva è stata progettata per consentirti di iniziare subito a lavorare con le nozioni di base sui modelli.
 
-## 1. Carica i file
+## 1. Caricare i file
 
-Per iniziare, caricate il file PSD o il file immagine per il modello. Adobe Dynamic Media Classic supporta molti formati di file immagine oltre a PSD, ma le immagini TIFF e PNG senza perdita di dati sono consigliate per i modelli perché consentono la trasparenza.
+Per iniziare, caricate il file PSD o il file immagine per il modello. Adobe Dynamic Media Classic supporta molti formati di file immagine oltre a PSD, ma per i modelli sono consigliate immagini TIFF e PNG senza perdita di dati, in quanto consentono la trasparenza.
 
-Se utilizzi un file PSD per creare il modello, seleziona **[!UICONTROL Crea modello]** sulla **[!UICONTROL Opzioni processo di caricamento]** quando si carica il file PSD. Scegli anche un **[!UICONTROL Denominazione dei livelli]** in modo che Adobe Dynamic Media Classic sappia come assegnare un nome ai livelli PSD quando vengono caricati in Adobe Dynamic Media Classic.
+Se utilizzi un file PSD per generare il modello, seleziona **[!UICONTROL Crea modello]** il **[!UICONTROL Opzioni processo di caricamento]** quando si carica il file PSD. Scegli anche un **[!UICONTROL Denominazione livelli]** in modo che Adobe Dynamic Media Classic sappia come denominare i livelli PSD quando vengono caricati in Adobe Dynamic Media Classic.
 
 Se utilizzate dei file immagine, al momento del caricamento potete ritagliare le immagini e creare una maschera dai tracciati di ritaglio presenti nelle immagini.
 
-Nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare un file PSD o altri file di immagine dal computer in una cartella su Adobe Dynamic Media Classic. Vedi [Caricare file di modelli](uploading-template-files.md#uploading_template_files).
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare un file PSD o altri file immagine dal computer in una cartella su Adobe Dynamic Media Classic. Consulta [Carica file modello](uploading-template-files.md#uploading_template_files).
 
 ## 2. Creare un modello
 
-Per creare un modello da un file PSD, selezionare **[!UICONTROL Crea modello]** quando carichi il file. Per creare un modello da immagini, nella barra di navigazione globale vai a **[!UICONTROL Crea]** > **[!UICONTROL Nozioni di base sui modelli]**, immetti una misura di larghezza e altezza per l’area di lavoro. Nell’angolo in alto a destra della pagina, seleziona **[!UICONTROL Designer]** o **[!UICONTROL Sviluppatore]**, quindi trascina le immagini nella pagina Modello . È inoltre possibile selezionare le immagini *prima* vai a **[!UICONTROL Crea]** > **[!UICONTROL Nozioni di base sui modelli]**. La pagina Modello offre gli strumenti per:
+Per creare un modello da un file PSD, seleziona **[!UICONTROL Crea modello]** quando carichi il file. Per creare un modello dalle immagini, nella barra di navigazione globale vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**, immettere una misura di larghezza e altezza per l&#39;area di lavoro. Fai clic su nell’angolo superiore destro della pagina **[!UICONTROL Designer]** o **[!UICONTROL Sviluppatore]** e trascinare le immagini nella pagina Modello. È inoltre possibile selezionare le immagini *prima di* vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**. La pagina Modello offre strumenti per:
 
-* Aggiungere dei livelli di immagine. Per aggiungere un livello, trascinate un’immagine nella pagina Modello.
-* Aggiungere dei livelli di testo. Seleziona la **[!UICONTROL Strumento Testo]** icona. Trascinare il puntatore per creare una casella per il livello di testo; quindi formattare il testo con gli strumenti nella pagina Testo .
+* Aggiungere dei livelli di immagine. Per aggiungere un livello, trascinate un&#39;immagine nella pagina Modello.
+* Aggiungere dei livelli di testo. Seleziona la **[!UICONTROL Strumento Testo]** icona. Trascinare il puntatore per creare una casella per il livello di testo, quindi formattare il testo con gli strumenti nella pagina Testo.
 * Modificare le dimensioni e la posizione dei livelli
 * Modificare l’ordine dei livelli
 * Applicare un effetto ombra o bagliore ai livelli di immagine e testo
 
-Vedi [Creare un modello](creating-template.md#creating_a_template).
+Consulta [Creare un modello](creating-template.md#creating_a_template).
 
-## 3. Creare parametri modello
+## 3. Creare i parametri del modello
 
 La fase successiva comporta l’impostazione dei parametri per le proprietà dei livelli per determinare quali proprietà includere nella stringa URL. I parametri consentono di usare i modelli con la massima flessibilità. Dopo aver impostato un parametro per una proprietà del livello, potete modificarlo in modo dinamico.
 
-Per parametrizzare un livello, aprite il modello nella pagina Modello , quindi selezionate **[!UICONTROL Parametri]** accanto al nome di un livello. Nella pagina Parametri , seleziona l’opzione accanto a ciascun parametro da aggiungere. Vedi [Creare parametri di modello](creating-template-parameters.md#creating_template_parameters).
+Per parametrizzare un livello, aprite il modello nella pagina Modello, quindi selezionate **[!UICONTROL Parametri]** accanto al nome di un livello. Nella pagina Parametri selezionare l&#39;opzione accanto a ogni parametro che si desidera aggiungere. Consulta [Creare i parametri del modello](creating-template-parameters.md#creating_template_parameters).
 
-## 4. Pubblicare modelli
+## 4. Pubblicare i modelli
 
-Quando si pubblica un modello, questo viene inserito sui server di immagini Dynamic Media in modo che possa essere distribuito in modo dinamico al sito Web o all’applicazione. La pubblicazione attiva anche l’URL per chiamare il modello dai server immagini Dynamic Media al sito Web o all’applicazione.
+Quando si pubblica un modello, questo viene posizionato su Dynamic Media Image Server in modo che possa essere consegnato in modo dinamico al sito Web o all&#39;applicazione. La pubblicazione attiva anche l’URL per chiamare il modello dai server immagini di Dynamic Media al sito web o all’applicazione.
 
 Assicuratevi di pubblicare tutte le immagini associate al modello.
 
-Per pubblicare un modello, contrassegnalo per la pubblicazione e nella barra di navigazione globale seleziona **[!UICONTROL Pubblica]**. Quindi seleziona **[!UICONTROL Invia pubblicazione]**. Vedi [Pubblicare modelli](publishing-templates.md#publishing_templates).
+Per pubblicare un modello, contrassegnalo per la pubblicazione e sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Quindi seleziona **[!UICONTROL Invia pubblicazione]**. Consulta [Pubblicare modelli](publishing-templates.md#publishing_templates).
 
 ## 5. Collegare un modello a una pagina web
 
-Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblichi i modelli sui server di immagini Dynamic Media. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
+Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblichi i modelli sui server immagini Dynamic Media. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
 
-Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello . Scegli un predefinito per immagini per la consegna del modello, quindi seleziona **[!UICONTROL Copia URL]**. Dopo aver copiato l’URL dalla pagina Anteprima, puoi utilizzarlo nel sito Web o nell’applicazione. Consultate [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito immagine per la distribuzione del modello, quindi seleziona **[!UICONTROL Copia URL]**. Dopo aver copiato l’URL dalla pagina Anteprima, puoi utilizzarlo nel sito web o nell’applicazione. Consultate [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
