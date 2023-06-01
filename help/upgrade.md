@@ -4,9 +4,9 @@ description: 'Aggiorna da [!DNL Adobe Dynamic Media Classic] a [!DNL Dynamic Med
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Il nuovo [!DNL Dynamic Media] il [!DNL Adobe Experience Manager] si basa sulle f
 | Semplicità di authoring | Crea, personalizza e avvia rapidamente esperienze avanzate senza richiedere assistenza tecnica. |
 | Interfaccia intuitiva | Modifica i visualizzatori di immagini e i lettori video con un’interfaccia WYSIWYG (What You See It What You Get) facile da usare. |
 | Contenuti multimediali acquistabili | Crea immagini, video e caroselli acquistabili con hotspot per immagini e collegamenti selezionabili. |
-| CDN scalabile | Accedi alla rete CDN (Content Delivery Network) all&#39;avanguardia con scalabilità e prestazioni comprovate per soddisfare qualsiasi esigenza. |
+| CDN (Content Delivery Network) scalabile | Accedi alla rete CDN all&#39;avanguardia con scalabilità e prestazioni comprovate per soddisfare qualsiasi esigenza. |
 | Dynamic Imaging | Utilizzando un file principale, genera e pubblica automaticamente versioni illimitate, modificando dimensioni, formato, risoluzione, ritaglio o effetto. |
 | Video dinamico | Il video a schermo intero viene ridimensionato automaticamente per tutti gli schermi e inviato in streaming adattivo per garantire un&#39;esperienza utente coerente e di qualità. |
 | Personalizzazione | Facilità di creazione e pubblicazione [!DNL Dynamic Media] esperienze interattive, come configuratori di prodotti, banner personalizzati ed e-mail. |

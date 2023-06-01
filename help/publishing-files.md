@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 45%
+source-wordcount: '1730'
+ht-degree: 37%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
-Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, eventuali risorse caricate in Adobe Systems Dynamic Media Classic vengono contrassegnate automaticamente per la pubblicazione.
+Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, tutte le risorse caricate in Adobe Dynamic Media Classic vengono automaticamente contrassegnate per la pubblicazione.
 
-Per ulteriori informazioni, consulta l&#39; [ Instant Publish Notice PDF ](/help/assets/rendering-instant-publish-notification.pdf) .
+Per ulteriori informazioni, vedere [Instant Publish Notice PDF](/help/assets/rendering-instant-publish-notification.pdf).
 
 Per contrassegnare le risorse per la pubblicazione, eseguite i seguenti metodi:
 
@@ -44,13 +44,13 @@ Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblica
 
 Quando le immagini principali sono contrassegnate per la pubblicazione, vengono contrassegnate automaticamente anche le immagini derivate. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Puoi vedere queste immagini derivate nella sezione Visualizzazione dettagli in Generato e derivati.
 
-## Crea un processo di pubblicare {#creating-a-publish-job}
+## Creare un processo di pubblicazione {#creating-a-publish-job}
 
-Crea un processo di pubblicare per pubblicare risorse hai caricato su Adobe Systems Dynamic Media Server classici ma non desideri ancora pubblicare automaticamente. È possibile eseguire un processo di pubblicare una tantum o programmare processi per ripresentarsi regolarmente. Adobe Systems Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione risorse che sono già state pubblicate.
+Crea un processo di pubblicazione per pubblicare le risorse caricate sui server Adobe Dynamic Media Classic ma non desideri ancora pubblicarle automaticamente. Puoi eseguire un processo di pubblicazione una tantum o pianificare i processi in modo che ricorrano regolarmente. Adobe Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
 
 **Per creare un processo di pubblicazione:**
 
-1. Nella barra di navigazione globale, selezionare **[!UICONTROL Publish]** .
+1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
 1. Nella finestra di dialogo per la pubblicazione, scegliete se effettuare un processo di pubblicazione una tantum o periodico.
 
    Consulta [Creare un processo di pubblicazione una tantum](publishing-files.md#creating_a_one_time_publish_job) e [Creare un processo di pubblicazione ricorrente](publishing-files.md#creating_a_recurring_publish_job).
@@ -74,13 +74,13 @@ Creare un processo di pubblicazione una tantum selezionando la **[!UICONTROL Una
 
 Se desideri che il processo di pubblicazione avvenga in un secondo momento, nella pagina Pubblica seleziona **[!UICONTROL Una tantum]**, quindi seleziona **[!UICONTROL Pianifica per un momento successivo]** a discesa. Utilizza il Calendario e il cursore Ora per selezionare un giorno e un’ora per eseguire il processo di pubblicazione.
 
-### Crea un processo di pubblicare ricorrente {#creating-a-recurring-publish-job}
+### Creare un processo di pubblicazione ricorrente {#creating-a-recurring-publish-job}
 
-Crea un processo di pubblicare periodico selezionando **[!UICONTROL periodico]** nella pagina Publish.
+Creare un processo di pubblicazione ricorrente selezionando **[!UICONTROL Ricorrente]** nella pagina Pubblica.
 
-Quindi scegli un&#39;opzione di **[!UICONTROL ripetizione giornaliera]** , **[!UICONTROL settimanale]** , **[!UICONTROL mensile]** o **[!UICONTROL personalizzata]** , quindi specifica quando desideri che il processo di pubblicazione si ripeta. Adobe Systems Dynamic Media Classic presenta gli strumenti calendario per programmare il processo di pubblicare ricorrente. È possibile selezionare **[!UICONTROL l&#39;opzione personalizzato]** e immettere un regola nel campo testo regola per descrivere un intervallo di lavoro personalizzato.
+Quindi scegliete un&#39;opzione Ripeti di **[!UICONTROL Giornaliero]**, **[!UICONTROL Ogni settimana]**, **[!UICONTROL Mensile]**, o **[!UICONTROL Personalizzato]**, quindi specifica quando desideri che il processo di pubblicazione ricorra. Adobe Dynamic Media Classic presenta gli strumenti del calendario per pianificare il processo di pubblicazione ricorrente. Puoi selezionare **[!UICONTROL Personalizzato]** e immettere una regola nel campo di testo Regola per descrivere un intervallo di processo personalizzato.
 
-Consulta [ Crea un intervallo ](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval) di tempo di caricamento o pubblicare processo personalizzato.
+Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >
@@ -104,17 +104,17 @@ Consulta [Utilizzare un processo di caricamento o pubblicazione come attivatore]
 
 È possibile annullare un processo di pubblicazione in corso. Se siete un amministratore, potete inoltre annullare un processo di pubblicazione in corso dalla pagina Processi della società.
 
-Per annullare un processo di pubblicazione, vai alla pagina Processi e seleziona **[!UICONTROL Annulla]**. Nella scheda Pianificati della pagina Processi potete sospendere o ripristinare un processo deselezionando o selezionando la casella di controllo nella colonna Attivo del processo.
+Per annullare un processo di pubblicazione, vai alla pagina Processi e seleziona **[!UICONTROL Annulla]**. Nella scheda Pianificato della pagina Processi è possibile sospendere o riprendere un processo deselezionando o selezionando la casella di controllo nella colonna Attivo del processo.
 
 >[!NOTE]
 >
->quando annullate un processo di pubblicazione, il relativo stato diventa “interruzione in corso” finché il processo raggiunge il punto in cui può essere interrotto in maniera sicura. Se il processo di pubblicazione viene interrotto durante il recupero dei dati dal database, l’interruzione può richiedere alcuni minuti.
+>Dopo aver annullato un processo di pubblicazione, il relativo stato diventa &quot;arresto&quot; finché il processo non raggiunge un punto in cui può essere interrotto in modo sicuro. Se il processo di pubblicazione viene interrotto durante il recupero dei dati dal database, l’interruzione può richiedere alcuni minuti.
 
-## pubblicare manualmente risorse {#manually-publishing-assets}
+## Pubblicare manualmente le risorse {#manually-publishing-assets}
 
-Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblicate dei set, ad esempio un set di immagini o un set video adattivo, vengono pubblicati sia il set (“elemento principale”) sia tutti i membri (“elementi secondari”) all’interno del set.
+Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblichi dei set, ad esempio un set di immagini o un set di video adattivi, vengono pubblicati il set (o &quot;principale&quot;) e tutti i membri (o &quot;secondari&quot;) al suo interno.
 
-Le risorse non pubblicate sono indicate nell&#39;interfaccia utente da un&#39;icona grigia e rotonda con una barra (stato non pubblicato) a sinistra del nome del risorsa. Dopo la pubblicazione, l’icona della risorsa diventa verde e presenta un segno di spunta bianco al centro (stato Pubblicato).
+Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona rotonda grigia con una barra (&quot;stato non pubblicato&quot;) a sinistra del nome della risorsa. Dopo la pubblicazione, l’icona della risorsa diventa verde e presenta un segno di spunta bianco al centro (stato Pubblicato).
 
 **Per pubblicare le risorse manualmente:**
 
@@ -124,13 +124,13 @@ Le risorse non pubblicate sono indicate nell&#39;interfaccia utente da un&#39;ic
 
       Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]**.
 
-   * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia rotonda con una barra che la attraversa, a sinistra del nome della risorsa.
+   * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia arrotondata con una barra che la attraversa, a sinistra del nome della risorsa.
 
 ## Annullare la pubblicazione manuale delle risorse {#manually-unpublishing-assets}
 
-Potete annullare la pubblicazione di singole risorse manualmente. Quando si annulla la pubblicazione di un set, ad esempio un set di campioni o un eCatalog, il set (“elemento principale”) diventa Non pubblicato. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Potete annullare la pubblicazione di singole risorse manualmente. Quando annulli la pubblicazione di un set, ad esempio un set di campioni o un eCatalog, il set (o &quot;principale&quot;) passa a uno stato non pubblicato. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
-Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona rotonda verde con un segno di spunta bianco al centro (stato Pubblicato) a sinistra del nome. Dopo aver annullato la pubblicazione di una risorsa, l’icona diventa grigia con una barra (&quot;stato non pubblicato&quot;);
+Le risorse pubblicate sono indicate nell’interfaccia utente da un’icona rotonda, verde, con un segno di spunta bianco al centro (stato di pubblicazione), a sinistra del nome della risorsa. Dopo aver annullato la pubblicazione di una risorsa, l’icona diventa grigia con una barra (&quot;stato non pubblicato&quot;);
 
 **Per esportare manualmente le risorse non pubblicate:**
 
@@ -148,7 +148,7 @@ La data dell’ultima pubblicazione di una risorsa viene visualizzata in Vista d
 
 ## Risorse pubblicate e ritardi CDN {#republished-assets-and-cdn-delays}
 
-Le risorse Adobe Dynamic Media Classic vengono distribuite sulla rete CDN (Content Delivery Network). Una rete CDN è un sistema di computer server collegati tra di loro per collaborare in maniera trasparente alla distribuzione di contenuti, specialmente contenuti multimediali di grandi dimensioni, agli utenti finali. Nel sistema CDN il contenuto Web viene archiviato nelle cache Web di Internet (chiamata rete di edge caching). La contenuto Web viene consegnata dalle cache Web agli utenti finali per effettuare consegne più rapide.
+Le risorse Adobe Dynamic Media Classic vengono distribuite sulla rete CDN (Content Delivery Network). Una rete CDN è un sistema di computer server collegati tra di loro per collaborare in maniera trasparente alla distribuzione di contenuti, specialmente contenuti multimediali di grandi dimensioni, agli utenti finali. Nel sistema CDN il contenuto Web viene archiviato nelle cache Web di Internet (chiamata rete di edge caching). I contenuti web vengono consegnati dalle cache web agli utenti finali per velocizzare le consegne.
 
 La prima volta che un utente scarica una pagina Web, le risorse vengono distribuite su un server cache Web CDN. Le risorse vengono quindi archiviate su questo server in modo che la prossima volta che un utente nella stessa area accede alla pagina Web, è possibile distribuire più velocemente lo stesso contenuto memorizzato nella cache. Il contenuto viene distribuito più velocemente perché si trova più vicino all’utente finale. La rete CDN assicura visualizzazioni di pagine Web più veloci. Una rete CDN diminuisce le esigenze di larghezza di banda sul server centrale perché il contenuto viene distribuito dalla rete di edge caching e non da un server centrale in ogni istanza.
 

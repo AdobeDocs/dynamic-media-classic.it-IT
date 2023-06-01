@@ -10,10 +10,10 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '868'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ Potete gestire la configurazione e i dati del pannello Info utilizzando le segue
 
 * Il pannello Impostazioni pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita in caso di errori e il numero di ore in cui le informazioni restano nella cache. Inoltre, potete specificare se pubblicare automaticamente gli eCatalog.
 * Il pannello InfoPanel Datafeed consente di specificare un file CSV contenente il testo che si desidera visualizzare nel testo di rollover del pannello Info e di programmare gli orari per l&#39;aggiornamento delle informazioni.
-* La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed di dati con l’opzione file CSV per il testo di rollover.
+* La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Con l’opzione file CSV puoi utilizzare questa opzione TXT o il pannello Feed dati per il testo di rollover.
 * La visualizzazione Mappe pagine fornisce un’opzione di anteprima del file xml visualizzato per mappe immagine specifiche.
 
 ## Impostare un modello di risposta per gli eCatalog {#set-up-a-response-template-for-ecatalogs}
@@ -49,7 +49,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 1. Nella casella TTL di risposta viene visualizzato il numero di ore di attesa prima che i dati vengano memorizzati nella cache:
 
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
-   * Con un valore più elevato i dati sono relativamente stabili e non richiedono un aggiornamento frequente durante il giorno. Il valore predefinito è dieci ore.
+   * Impostare un numero più alto se i dati sono relativamente stabili e non richiedono aggiornamenti frequenti nel corso della giornata. Il valore predefinito è dieci ore.
 
 1. Seleziona **[!UICONTROL Pubblica]**.
 

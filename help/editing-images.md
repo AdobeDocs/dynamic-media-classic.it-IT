@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 15%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti rich media. Questi strumenti sono disponibili facendo clic sul rollover **[!UICONTROL Modifica]** e nel pannello Sfoglia in Visualizzazione dettagli. In Adobe Dynamic Media Classic è possibile eseguire le seguenti attività di modifica delle immagini:
 
-* **Creare mappe immagine** - Per creare una mappa immagine, seleziona il comando Immagine oppure **[!UICONTROL Mappa immagine]** pulsante. Una mappa immagine è un punto sensibile su un’immagine, una pagina eCatalog o un’immagine in un set 360 gradi, che consente di visualizzare un pannello con testo di rollover. Gli utenti possono selezionare una mappa immagine, ad esempio, per avviare una nuova pagina web. Consulta [Creare mappe immagine](/help/creating-image-maps.md).
+* **Creare mappe immagine** - Per creare una mappa immagine, seleziona il comando Immagine oppure **[!UICONTROL Mappa immagine]** pulsante. Una mappa immagine è un punto attivo su un’immagine, o una pagina eCatalog, o un’immagine in un set 360 gradi che visualizza un pannello con testo di rollover. Gli utenti possono selezionare una mappa immagine, ad esempio, per avviare una nuova pagina web. Consulta [Creare mappe immagine](/help/creating-image-maps.md).
 
 * **Creare destinazioni di zoom** - Per creare destinazioni di miniature, selezionate il comando Destinazioni di zoom o **[!UICONTROL Destinazioni di zoom]** pulsante. Gli utenti possono selezionare una destinazione di miniatura nel Visualizzatore zoom per effettuare lo zoom direttamente su una parte specifica dell&#39;immagine. Consulta [Creare destinazioni di zoom per lo zoom guidato](/help/creating-zoom-targets-guided-zoom.md).
 

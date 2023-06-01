@@ -10,7 +10,7 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -51,7 +51,7 @@ Seleziona **[!UICONTROL Salva]**.
 
    * Per salvare l&#39;immagine come un&#39;altra vista dell&#39;immagine primaria. potete creare un alias. Seleziona **[!UICONTROL Salva con nome]**.
 
-      In **[!UICONTROL Salva con nome]** nell&#39;elenco a discesa, selezionare **[!UICONTROL Salva come un&#39;altra vista della pagina mastro]**.
+      In **[!UICONTROL Salva con nome]** dall&#39;elenco a discesa, selezionare **[!UICONTROL Salva come un&#39;altra vista della pagina mastro]**.
 In **[!UICONTROL Nome cartella]** selezionare la cartella in cui si desidera salvare la nuova immagine principale.
 Seleziona **[!UICONTROL Salva]**.
 
@@ -63,7 +63,7 @@ Dopo aver regolato un&#39;immagine, è possibile salvarla come un&#39;altra visu
 
 1. Nella visualizzazione griglia o nella visualizzazione elenco, nella **[!UICONTROL Modifica]** accanto a un&#39;immagine per la quale si desidera creare un alias, selezionare **[!UICONTROL Regola]**.
 1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Salva con nome]**.
-1. In **[!UICONTROL Salva con nome]** nell&#39;elenco a discesa, selezionare **[!UICONTROL Salva come vista aggiuntiva della pagina mastro]**.
+1. In **[!UICONTROL Salva con nome]** dall&#39;elenco a discesa, selezionare **[!UICONTROL Salva come vista aggiuntiva della pagina mastro]**.
 1. Nella finestra di dialogo **[!UICONTROL Nome cartella]**, selezionate la cartella in cui desiderate salvare l’immagine alias.
 1. Nel campo **[!UICONTROL Nome file]**, digitate il nome da assegnare all’alias.
 1. Seleziona **[!UICONTROL Salva]**.

@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 25%
@@ -21,7 +21,7 @@ Adobe Dynamic Media Classic Video è una soluzione end-to-end che consente di pu
 
 Ad esempio, un dispositivo mobile iOS può rilevare un’ampiezza di banda 3G, 4G o Wi-Fi. Quindi seleziona automaticamente il video con la codifica corretta tra i vari bitrate presenti nel set video adattivo. Il video viene inviato in streaming a computer desktop, dispositivi mobili o tablet.
 
-Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Inoltre, se un cliente entra in modalità a tutto schermo su un desktop, il set video adattivo risponde utilizzando una risoluzione migliore, migliorando l’esperienza di visualizzazione del cliente. L’utilizzo di set video adattivi offre la migliore riproduzione possibile per i clienti che riproducono video Adobe Dynamic Media Classic su più schermi e dispositivi.
+Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Inoltre, se un cliente entra in modalità a tutto schermo su un desktop, il set video adattivo risponde con una risoluzione migliore, migliorando l’esperienza di visualizzazione del cliente. L’utilizzo di set video adattivi offre la migliore riproduzione possibile per i clienti che riproducono video Adobe Dynamic Media Classic su più schermi e dispositivi.
 
 Per determinare quale video codificato riprodurre o selezionare per la riproduzione, il lettore video utilizza l’algoritmo seguente:
 
@@ -66,7 +66,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
    I dispositivi Windows® che supportano questo formato video sono disponibili nei seguenti percorsi:
 
-   Consulta [Formati video supportati su Windows® Phone](https://docs.microsoft.com/en-us/).
+   Consulta [Formati video supportati su Windows® Phone](https://learn.microsoft.com/en-us/).
 
 * Riproduci il video utilizzando i predefiniti visualizzatore Adobe Dynamic Media Classic, inclusi i seguenti elementi:
 

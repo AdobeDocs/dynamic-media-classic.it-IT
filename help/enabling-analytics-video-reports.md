@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 12%
@@ -23,7 +23,7 @@ Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è pi
 
 * L’integrazione dei rapporti video di Adobe Analytics con Adobe Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
 
-   Consulta [Parametri audio e video](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate.
+   Consulta [Parametri audio e video](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/audio-video-parameters.html) per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate.
 
 * Sono supportati segmenti predefiniti di incrementi di un minuto. Non è invece supportata la generazione di rapporti per segmenti personalizzati, ad esempio pietre miliari definite dall’utente basate su incrementi temporali, percentuali o scostamento.
 

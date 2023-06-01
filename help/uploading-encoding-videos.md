@@ -9,10 +9,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '3967'
-ht-degree: 56%
+ht-degree: 54%
 
 ---
 
@@ -23,14 +23,14 @@ Per creare un singolo video o set di video adattivi da distribuire sul web o sui
 * **MP4** - Adobe Dynamic Media Classic consiglia MP4 come formato di file video preferito. Utilizzate i file MP4 per le seguenti operazioni:
 
    * Streaming dinamico HTTP su desktop.
-   * Streaming dinamico HTTP (protocollo di streaming Apple).
+   * HTTP Live Streaming (protocollo di streaming di Apple).
    * Consegna video progressiva a dispositivi mobili Android™, BlackBerry® e Windows®
 
    Adobe Dynamic Media Classic offre due flussi di lavoro per il caricamento di file video:
 
 * **Video precodificati** - Caricate i file MP4 direttamente su Adobe Dynamic Media Classic. Con questo flusso di lavoro, i file non vengono codificati durante il caricamento. I file vengono precodificati durante la preparazione per la visualizzazione sul desktop e sui dispositivi mobili.
 
-* **Video sorgente principale** : carica i file video sorgente primari e, al momento del caricamento, li codifica in file MP4. Nel pannello Sfoglia, i video codificati sono etichettati “Video”. Adobe Dynamic Media Classic supporta la codifica di file video in molti formati.
+* **Video sorgente principale** : carica i file video sorgente primari e, al momento del caricamento, li codifica in file MP4. I video codificati sono etichettati &quot;Video&quot; nel pannello Sfoglia. Adobe Dynamic Media Classic supporta la codifica di file video in molti formati.
 
    * Assicurati che i file video sorgente principali che desideri codificare siano supportati.
 
@@ -144,7 +144,7 @@ Nella tabella seguente vengono descritte le dimensioni, le proporzioni e la velo
 
 ### Ottenere i metadati di un file {#obtaining-a-file-s-metadata}
 
-Puoi ottenere i metadati di un file visualizzandone i metadati in Adobe Dynamic Media Classic, utilizzando uno strumento di modifica video o un’applicazione progettata per ottenere i metadati. Seguono istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti che consente di ottenere i metadati di un file video:
+È possibile ottenere i metadati di un file visualizzandone i metadati in Adobe Dynamic Media Classic, utilizzando uno strumento di modifica video o un&#39;applicazione progettata per ottenere i metadati. Di seguito sono riportate le istruzioni per l’utilizzo di MediaInfo, un’applicazione di terze parti, per ottenere i metadati di un file video:
 
 1. Vai a questa pagina Web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Selezionate e scaricate il programma di installazione per la versione GUI, quindi seguite le istruzioni di installazione.
@@ -154,7 +154,7 @@ Puoi ottenere i metadati di un file visualizzandone i metadati in Adobe Dynamic 
 
 Quando scegliete o create un predefinito di codifica video per il file video principale, accertatevi che il predefinito abbia le stesse proporzioni del file video principale. Le *proporzioni* sono il rapporto tra la larghezza e l’altezza del video. 
 
-Per determinare le proporzioni di un file video, ottieni i metadati del file e annota la larghezza e l’altezza del file (consulta [Ottenere i metadati di un file](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Quindi applicate questa formula per determinare le proporzioni:
+Per determinare le proporzioni di un file video, ottenere i metadati del file e annotare la larghezza e l&#39;altezza del file (vedere [Ottenere i metadati di un file](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Quindi applicate questa formula per determinare le proporzioni:
 
 larghezza/altezza = proporzioni
 
@@ -177,7 +177,7 @@ Per *velocità dati* (o *bitrate*) si intende la quantità di dati che vengono c
 >
 >poiché tutti i codec usano metodi di compressione con perdita di dati, la velocità dati è il fattore che influisce maggiormente sulla qualità video. Con la compressione con perdita di dati, infatti, a una maggiore compressione di un file video corrisponde un maggior degrado della qualità. Per questa ragione, a parità di tutte le altre caratteristiche (risoluzione, frequenza fotogrammi e codec), una velocità dati inferiore genera file compressi di qualità inferiore.
 
-Quando scegli un predefinito di codifica video, ricorda di tenere conto della velocità di connessione dell’utente finale target. Scegli un predefinito con una velocità dati pari all’80% di quella velocità. Ad esempio, se la connessione dell’utente finale è di 1000 Kbps, scegliete un predefinito con velocità dati video di 800 Kbps.
+Quando scegli un predefinito di codifica video, ricorda di tenere conto della velocità di connessione dell’utente finale di destinazione. Scegli un predefinito con una velocità dati pari all’80% di quella velocità. Ad esempio, se la velocità di connessione dell&#39;utente finale è di 1000 Kbps, il valore predefinito migliore è 800 Kbps.
 
 La tabella di seguito riporta la velocità dati per velocità di connessioni tipiche.
 
@@ -190,7 +190,7 @@ La tabella di seguito riporta la velocità dati per velocità di connessioni tip
 
 ### Risoluzione {#resolution}
 
-La *Risoluzione* descrive l’altezza e la larghezza di un file video, in pixel. La maggior parte delle sorgenti video è memorizzata ad alta risoluzione (ad esempio, 1920x1080). Per lo streaming, il video sorgente viene compresso in una risoluzione inferiore (per un valore massimo di 640x480).
+*Risoluzione* descrive l&#39;altezza e la larghezza in pixel di un file video. La maggior parte delle sorgenti video è memorizzata ad alta risoluzione (ad esempio, 1920x1080). Per lo streaming, il video sorgente viene compresso in una risoluzione inferiore (per un valore massimo di 640x480).
 
 La risoluzione e la velocità dati sono due fattori strettamente correlati da cui dipende la qualità video. Per mantenere la stessa qualità video, più elevato è il numero di pixel in un file video (ossia più elevata è la risoluzione), più elevata deve essere anche la velocità dati. Ad esempio, considerate il numero di pixel per fotogramma in due file video, rispettivamente con risoluzione 320x240 e 640x480:
 
@@ -352,7 +352,7 @@ Adobe Dynamic Media Classic ha impostato i limiti massimi per la velocità dati 
    | Descrizione | Descrivete il predefinito per video. Il testo immesso viene visualizzato come descrizione quando si posiziona il puntatore sul nome del predefinito nella finestra di dialogo Opzioni processo di caricamento, in cui gli utenti scelgono le opzioni di trascodifica. |
    | Dispositivo di riproduzione | Scegliete il dispositivo su cui riprodurre il video. Le opzioni sono Computer (desktop), Mobile (iPhone, iPad, Android™) o Tablet (solo iPad). Questa impostazione determina automaticamente il codec video e audio appropriato utilizzato durante la codifica. |
    | Velocità dati di destinazione | Inserite una velocità di connessione Internet media (in kilobit al secondo) dell’utente finale di destinazione. Potete inserire il valore desiderato oppure trascinare il cursore per impostarlo. La gamma di velocità di connessione utente indica le velocità tipiche per connessioni banda larga, DSL, mobile e mediante modem. Questa impostazione determina automaticamente la velocità di dati audio e video combinata, ossia la quantità di dati codificati necessaria per creare un secondo di riproduzione video. Più alta è la velocità dati, migliore sarà la qualità del video. Tuttavia, valori di velocità dati elevati aumentano le dimensioni dei file a scapito dell’esperienza di visualizzazione degli utenti che dispongono di una larghezza di banda ridotta. Si consiglia quindi di trovare un compromesso tra valori di velocità dati elevati e ridotti. Mirate a creare un’esperienza di riproduzione con qualità adeguata, senza limitare gli utenti con larghezze di banda ridotte. |
-   | Proporzioni | Le proporzioni sono il rapporto tra la larghezza e l’altezza del video. Le prime due proporzioni elencate di seguito sono comunemente utilizzate per visualizzare video in orizzontale:<ul><li> 4:3 - Usata per quasi tutti i contenuti di trasmissione TV con definizione standard.</li><li>16:9 - Utilizzato per quasi tutti i contenuti e i film in formato widescreen su televisori ad alta definizione (HDTV).</li><li>Scala automatica (impostazione predefinita) - Per creare video da distribuire a dispositivi mobili, tablet e computer desktop; predefinito codifica singola che funziona con qualsiasi proporzione. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, il valore della larghezza viene ridimensionato automaticamente per mantenere le proporzioni del video (rapporto larghezza per altezza).</li><li>Personale - Usata quando si desidera definire una dimensione video non standard.</li><li>Le proporzioni selezionate determinano le impostazioni di larghezza e altezza per Dimensione risoluzione. I valori di larghezza e altezza vengono automaticamente scalati in base alle proporzioni appropriate.</li></ul> |
+   | Proporzioni | Le proporzioni sono il rapporto tra la larghezza e l’altezza del video. Le prime due proporzioni elencate di seguito sono comunemente utilizzate per visualizzare video in orizzontale:<ul><li> 4:3 - Usata per quasi tutti i contenuti di trasmissione TV con definizione standard.</li><li>16:9 - Utilizzato per quasi tutti i contenuti e i film in formato widescreen su televisori ad alta definizione (HDTV).</li><li>Scala automatica (impostazione predefinita) - Per creare video da distribuire a dispositivi mobili, tablet e computer desktop; predefinito codifica singola che funziona con qualsiasi proporzione. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video (rapporto larghezza per altezza).</li><li>Personale - Usata quando si desidera definire una dimensione video non standard.</li><li>Le proporzioni selezionate determinano le impostazioni di larghezza e altezza per Dimensione risoluzione. I valori di larghezza e altezza vengono automaticamente scalati in base alle proporzioni appropriate.</li></ul> |
    | Dimensione risoluzione | La dimensione della risoluzione, espressa dal numero di pixel di larghezza per il numero di pixel di altezza, determina la dimensione. Potete inserire i valori di larghezza e altezza in pixel oppure trascinare il relativo cursore per impostarli. La gamma di risoluzioni elenca le dimensioni di risoluzioni tipiche. I valori di larghezza e altezza si adattano automaticamente alle proporzioni selezionate. Ad esempio, se selezionate 4:3 come proporzione e inserite 400 per la larghezza, 300 viene inserito automaticamente per l’altezza. Se per le proporzioni avete selezionato Scala automatica, il valore Larghezza di Dimensione risoluzione viene impostato automaticamente su Auto. Seleziona **[!UICONTROL Anteprima]** in modo da poter aprire una finestra del browser e visualizzare le scelte di risoluzione. |
    | Suffisso file codifica | Inserite un suffisso. Questo suffisso viene aggiunto al file video codificato. Potete inserire un trattino o un trattino basso nel nome; gli spazi bianchi e i caratteri speciali non sono consentiti. |
    | Altre impostazioni | Adobe Dynamic Media Classic determina automaticamente tutte le altre impostazioni di codifica in base alle linee guida per la codifica consigliate. |
