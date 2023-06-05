@@ -1,0 +1,52 @@
+---
+title: Accedere e uscire da Adobe Dynamic Media Classic
+description: Scopri come effettuare l’accesso a e da Adobe Dynamic Media Classic e come connettersi a un server dell’ambiente di produzione in Nord America (NA) o in Europa, Medio Oriente, Africa (EMEA) o Asia-Pacifico (APAC).
+contentOwner: Rick Brough
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+feature: Dynamic Media Classic
+role: Admin,User
+exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
+source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 6%
+
+---
+
+<!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
+
+# Accedere a Adobe Dynamic Media Classic {#dmc-sign-in}
+
+Prima di utilizzare l&#39;applicazione desktop Adobe Dynamic Media Classic, verificare che siano presenti le condizioni seguenti:
+
+* **Nome utente** - Utilizza il tuo indirizzo e-mail come nome di accesso.
+
+* **Password** - È possibile ottenere la password temporanea in un messaggio di posta elettronica di benvenuto da Adobe Dynamic Media Classic o dall&#39;amministratore di Adobe Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
+
+1. Aprire l&#39;applicazione desktop Adobe Dynamic Media Classic.
+
+   ![Accesso a Adobe Dynamic Media Classic](/help/using/assets/dmclassic-login1.png)
+
+1. In **[!UICONTROL Nome utente]** , immettere l&#39;indirizzo di posta elettronica.
+1. In **[!UICONTROL Password]** , digitare la password.
+1. In **[!UICONTROL Server]** selezionare un server.
+Utilizza la mappatura seguente per selezionare l’ambiente di produzione che desideri utilizzare.
+
+   | URL browser | Nome server app desktop |
+   | --- | --- |
+   | https://s7sps1.scene7.com/ | Produzione di NA (Nord America) |
+   | https://s7sps3.scene7.com/ | Produzione EMEA (Europa, Medio Oriente e Africa) |
+   | https://s7sps5.scene7.com/ | Produzione APAC (Asia-Pacifico) |
+
+1. Seleziona **[!UICONTROL Accedi]**.
+
+## Esci da Adobe Dynamic Media Classic {#dmc-sign-out}
+
+1. Nell&#39;angolo superiore destro dell&#39;applicazione desktop Adobe Dynamic Media Classic, selezionare **[!UICONTROL Esci]**, quindi selezionare **[!UICONTROL Esci]** di nuovo.
+
+>[!MORELIKETHIS]
+>
+>* [Configurazione personale](personal-setup.md#personal_setup)
+
