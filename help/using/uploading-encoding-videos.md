@@ -9,7 +9,9 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3967'
 ht-degree: 56%
@@ -26,7 +28,7 @@ Per creare un singolo video o set di video adattivi da distribuire sul web o sui
    * Streaming dinamico HTTP (protocollo di streaming Apple).
    * Consegna video progressiva a dispositivi mobili Android™, BlackBerry® e Windows®
 
-   Adobe Dynamic Media Classic offre due flussi di lavoro per il caricamento di file video:
+  Adobe Dynamic Media Classic offre due flussi di lavoro per il caricamento di file video:
 
 * **Video precodificati** - Caricate i file MP4 direttamente su Adobe Dynamic Media Classic. Con questo flusso di lavoro, i file non vengono codificati durante il caricamento. I file vengono precodificati durante la preparazione per la visualizzazione sul desktop e sui dispositivi mobili.
 
@@ -34,13 +36,13 @@ Per creare un singolo video o set di video adattivi da distribuire sul web o sui
 
    * Assicurati che i file video sorgente principali che desideri codificare siano supportati.
 
-      Consultate [Tipi di file video supportati per la codifica](uploading-encoding-videos.md#supported-video-file-types-for-encoding).
+     Consultate [Tipi di file video supportati per la codifica](uploading-encoding-videos.md#supported-video-file-types-for-encoding).
 
    * Scegliete un predefinito di codifica video.
 
-      Consultate [Predefiniti video per la codifica di file video](application-setup.md#video-presets-for-encoding-video-files).
+     Consultate [Predefiniti video per la codifica di file video](application-setup.md#video-presets-for-encoding-video-files).
 
-      Consultate [Procedure ottimali per la codifica video](uploading-encoding-videos.md#best-practices-for-video-encoding).
+     Consultate [Procedure ottimali per la codifica video](uploading-encoding-videos.md#best-practices-for-video-encoding).
 
 Adobe Dynamic Media Classic genera anche le miniature video. Per ulteriori informazioni sulle miniature video, su come ottenerne gli URL e come modificare i fotogrammi poster,
 
@@ -97,28 +99,28 @@ La seguente tabella indica i tipi di file video (con i codec video consentiti) c
 
 * **Codec video** - Un codec video descrive l&#39;algoritmo di codifica di un video. Un lettore video decodifica il video in base al relativo codec, quindi visualizza una serie di immagini o fotogrammi sullo schermo. I codec riducono la quantità di informazioni richieste dai file video per memorizzare e riprodurre il video. Invece delle informazioni su ciascun fotogramma, vengono memorizzate solo le informazioni relative alle differenze tra l’uno e l’altro. Poiché la maggior parte dei video cambia poco da un fotogramma all&#39;altro, i codec consentono tassi di compressione elevati, che si traducono in dimensioni di file più piccole.
 
-   | Formato file video | Codec video |
-   | --- | --- |
-   | 3GP | H.263, H.264 |
-   | AVI | DivX, DV |
-   | M2P | MPEG-2 PS |
-   | M2T | MPEG-2 TS |
-   | M2TS | MPEG-2 TS |
-   | M2V | MPEG-2 ES |
-   | M4V | H.264 |
-   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-   | MP4 | H.264/MPEG-4 AVC |
-   | MPEG | MPEG-2 SS |
-   | MPG | MPEG-2 SS |
-   | MTS | MPEG-2 |
-   | ProRes | APCN, APCS, APCO, APCH, AP4H |
-   | TS | DVCPro 50 |
-   | VOB | MPEG-2 |
-   | WMV/ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
+  | Formato file video | Codec video |
+  | --- | --- |
+  | 3GP | H.263, H.264 |
+  | AVI | DivX, DV |
+  | M2P | MPEG-2 PS |
+  | M2T | MPEG-2 TS |
+  | M2TS | MPEG-2 TS |
+  | M2V | MPEG-2 ES |
+  | M4V | H.264 |
+  | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
+  | MP4 | H.264/MPEG-4 AVC |
+  | MPEG | MPEG-2 SS |
+  | MPG | MPEG-2 SS |
+  | MTS | MPEG-2 |
+  | ProRes | APCN, APCS, APCO, APCH, AP4H |
+  | TS | DVCPro 50 |
+  | VOB | MPEG-2 |
+  | WMV/ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
 
-   >[!NOTE]
-   >
-   >La schermata Processi invia una notifica se caricate e tentate di codificare un file video e il file viene rifiutato perché contiene un codec o un contenitore file incompatibile. Per ulteriori informazioni, consulta [Verifica file di processo](checking-job-files.md).
+  >[!NOTE]
+  >
+  >La schermata Processi invia una notifica se caricate e tentate di codificare un file video e il file viene rifiutato perché contiene un codec o un contenitore file incompatibile. Per ulteriori informazioni, consulta [Verifica file di processo](checking-job-files.md).
 
 ## Best practice per la codifica video {#best-practices-for-video-encoding}
 
@@ -315,9 +317,9 @@ I predefiniti per video attivati vengono visualizzati nella finestra di dialogo 
    * Per attivare un predefinito per video, nella pagina dei predefiniti, selezionate la casella accanto al nome di un predefinito nella colonna Attivo.
    * Per disattivare un predefinito per video, deselezionate la casella accanto al predefinito per video da rendere inattivo.
 
-      >[!NOTE]
-      >
-      >I predefiniti per video disattivati non vengono elencati nella finestra di dialogo Opzioni processo di caricamento.
+     >[!NOTE]
+     >
+     >I predefiniti per video disattivati non vengono elencati nella finestra di dialogo Opzioni processo di caricamento.
 
 1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Chiudi]**.
 
@@ -340,7 +342,7 @@ Adobe Dynamic Media Classic ha impostato i limiti massimi per la velocità dati 
    * Sulla barra degli strumenti Predefiniti video, seleziona **[!UICONTROL Aggiungi]** in modo da poter aggiungere un predefinito video.
    * Selezionate un predefinito per video. Nella barra degli strumenti, seleziona **[!UICONTROL Modifica]**.
 
-      Non potete modificare i predefiniti predefiniti di Adobe Dynamic Media Classic; potete creare un predefinito solo da un predefinito esistente scegliendo **[!UICONTROL Salva con nome]**.
+     Non potete modificare i predefiniti predefiniti di Adobe Dynamic Media Classic; potete creare un predefinito solo da un predefinito esistente scegliendo **[!UICONTROL Salva con nome]**.
 
 1. Nella pagina Aggiungi predefinito video o Modifica predefinito video, impostate le opzioni Predefinito per video desiderate.
 
@@ -378,4 +380,3 @@ Gli amministratori possono eliminare i predefiniti per video personalizzati. Non
 >* [Caricare e codificare i video](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Utilizzare i predefiniti visualizzatore video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 >* [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) video di formazione
-

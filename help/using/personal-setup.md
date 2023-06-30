@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Mostra dimensione file]** : visualizza la dimensione del file di una risorsa durante la navigazione.
 * **[!UICONTROL Includi FDU nella ricerca]** : deselezionata (impostazione predefinita) per migliorare le prestazioni del sistema per la maggior parte delle ricerche di metadati eseguite.
 
-   Se invece la maggior parte delle ricerche di metadati richiedono l’inclusione dei campi definiti dall’utente, potete selezionare e attivare questa opzione. In alternativa, invece di includere i campi definiti dall’utente, potete usare la Ricerca avanzata per consentire una ricerca più mirata e rapida.
+  Se invece la maggior parte delle ricerche di metadati richiedono l’inclusione dei campi definiti dall’utente, potete selezionare e attivare questa opzione. In alternativa, invece di includere i campi definiti dall’utente, potete usare la Ricerca avanzata per consentire una ricerca più mirata e rapida.
 
-   Consultate [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
+  Consultate [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
 
-   Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fields).
+  Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fields).
 
 * **[!UICONTROL Tipo di ricerca di base]** - È possibile scegliere tra due opzioni: **[!UICONTROL Contiene]** cerca nella stringa completa il valore specificato; **[!UICONTROL Inizia con]** esegue la ricerca dall&#39;inizio della stringa e restituisce i risultati più rapidamente di **[!UICONTROL Contiene]**. Entrambe le opzioni sostituiscono il valore predefinito impostato in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali applicazione]** dall&#39;amministratore.
 * **[!UICONTROL Mostra feedback comando]** - Selezionare per attivare la visualizzazione delle richieste di comandi al server; deselezionare per disattivarla.

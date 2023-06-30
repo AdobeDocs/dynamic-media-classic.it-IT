@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 36%
@@ -68,13 +70,13 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
    * Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Copia URL]** per un visualizzatore e un tipo di piattaforma selezionati.
 
-      Quando selezioni **[!UICONTROL Copia URL]**, l’URL associato viene copiato automaticamente negli Appunti.
+     Quando selezioni **[!UICONTROL Copia URL]**, l’URL associato viene copiato automaticamente negli Appunti.
 
    * Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
 
-      Quando selezioni **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Incorpora codice, in cui è possibile esaminare il codice del visualizzatore. In questa finestra non è possibile modificare il codice. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web.
+     Quando selezioni **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Incorpora codice, in cui è possibile esaminare il codice del visualizzatore. In questa finestra non è possibile modificare il codice. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web.
 
-      Chiudete l&#39;anteprima visualizzata.
+     Chiudete l&#39;anteprima visualizzata.
 
 1. Nell&#39;angolo inferiore destro della finestra Elenco visualizzatori, selezionare **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
 

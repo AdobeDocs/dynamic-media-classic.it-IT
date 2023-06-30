@@ -10,7 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 28%
@@ -72,14 +74,14 @@ Vedi anche [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoView
 1. Aggiungete o modificate un predefinito per visualizzatori per la visualizzazione di video:
 
    * **Aggiungi** - Seleziona **[!UICONTROL Aggiungi]** nella barra degli strumenti. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma e un visualizzatore dai rispettivi elenchi a discesa, quindi seleziona **[!UICONTROL Aggiungi]**.
+
    Vedi anche [Aggiungere e modificare i predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
    * **Aggiungi partendo da un predefinito visualizzatore esistente** - Nella tabella, seleziona un predefinito per visualizzatore video, quindi fai clic su **[!UICONTROL Modifica]** nella barra degli strumenti.
+
    Dopo aver riconfigurato il Visualizzatore video, seleziona **[!UICONTROL Salva con nome]** per salvare il predefinito utilizzando un nome diverso nel campo di testo Nome predefinito.
 
    * **Modifica** - Selezionare un predefinito per visualizzatori video, quindi selezionare **[!UICONTROL Modifica]**.
-
-
 
 1. Nella pagina Configura visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
@@ -95,4 +97,3 @@ Vedi anche [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoView
 >
 >* [Best practice per la codifica video](uploading-encoding-videos.md#best_practices_for_video_encoding)
 >* [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets)
-

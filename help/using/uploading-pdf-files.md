@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 36%
@@ -38,7 +40,7 @@ Prepara i file PDF prima di caricarli in Adobe Dynamic Media Classic:
 * Per consentire agli utenti di effettuare ricerche nell’eCatalog mediante parole chiave, verificate che i file PDF non siano “appiattiti” (convertiti in immagini). Non è possibile estrarre parole di ricerca da file PDF appiattiti. Per verificare se un PDF è stato appiattito, provate a selezionare il testo al suo interno. Se non è possibile selezionare il testo, il PDF viene appiattito e gli utenti non possono eseguire ricerche per parola chiave nell&#39;eCatalog.
 * Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Per impostazione predefinita, Adobe Dynamic Media Classic è in grado di rilevare in modo intelligente queste immagini CMYK e convertirle utilizzando un profilo colore CMYK interno. Se necessario potete anche utilizzare un profilo colore personalizzato per convertire le immagini CMYK. 
 
-   Consulta [Profili ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
+  Consulta [Profili ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 
 ## Opzioni di caricamento dei PDF “best practice” {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ Seleziona i file da caricare, quindi fai clic su *best practice* Opzioni PDF:
 
 * **Spazio colore** - Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni PDF]**. Nell&#39;elenco a discesa Spazio colore, selezionate **[!UICONTROL Rileva automaticamente]**. Generalmente, i PDF creati per la stampa sono in CMYK; i PDF per la visualizzazione online sono in RGB. Se un PDF utilizza entrambi gli spazi colore, potete selezionarne uno specifico scegliendo Forza come RGB oppure Forza come CMYK. Nei PDF possono essere utilizzati entrambi gli spazi colore se, ad esempio, la grafica utilizza uno spazio colore CMYK mentre le immagini utilizzano RGB. Se avete caricato un profilo ICC, il relativo nome viene visualizzato nel menu Spazio colore e lo potete scegliere. 
 
-   Consulta [Profili ICC (International Color Consortium)](/help/using/icc-profiles.md).
+  Consulta [Profili ICC (International Color Consortium)](/help/using/icc-profiles.md).
 
 * **Opzioni profilo colore** - Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni profilo colore]**, quindi scegliere un&#39;opzione Profilo colore:
 

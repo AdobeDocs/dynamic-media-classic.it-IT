@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ Consultate anche [Profili ICC](/help/using/icc-profiles.md#icc_profiles).
       * **[!UICONTROL Colore]** - Scegliere l&#39;opzione Colore. Quindi seleziona la **[!UICONTROL Angolo]** e scegliete l&#39;angolo del PDF con il colore che meglio rappresenta lo spazio bianco da ritagliare.
 
       * **[!UICONTROL Trasparenza]** - Scegliere l&#39;opzione Trasparenza.
+
    * **[!UICONTROL Tolleranza]** - Trascinate il cursore per specificare una tolleranza da 0 a 1.
 
    * **[!UICONTROL Rifilatura in base al colore]** - Specificate 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo del PDF. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
 
    * **[!UICONTROL Rifilatura basata sulla trasparenza]** - Specificate 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
-
 
 ## Ritaglia dai lati delle pagine PDF {#cropping-from-the-sides-of-pdf-pages}
 

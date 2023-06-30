@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 19%
@@ -113,11 +115,11 @@ Segui questi passaggi per individuare le risorse filtrandole con i relativi valo
 
    * **Scegli un campo di metadati** - Selezionare il nome del campo nel menu di filtro.
 
-      >[!NOTE]
-      >
-      >nel menu sono riportati solo i nomi dei campi metadati della visualizzazione metadati predefinita. 
+     >[!NOTE]
+     >
+     >nel menu sono riportati solo i nomi dei campi metadati della visualizzazione metadati predefinita. 
 
-      Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
+     Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
    * **Aggiungere un campo di metadati** - Seleziona **[!UICONTROL Aggiungi un pannello]**. Dopo aver visualizzato il pannello nel riquadro Filtri, selezionane la relativa **[!UICONTROL Campo]** e scegliere il nome di un campo di metadati dal menu di filtro.
 
@@ -127,7 +129,6 @@ Segui questi passaggi per individuare le risorse filtrandole con i relativi valo
 
    * Tutti i valori di metadati immessi per tale campo.
    * Per ciascun valore di metadati, il numero di risorse a cui è stato assegnato tale valore.
-
 
 1. Ripete il passo 2 fino a elencare tutti i campi di metadati per l’operazione filtro nei pannelli.
 1. In ciascun pannello, selezionate un valore di metadati da usare come filtro. Non è possibile selezionare più di un valore di metadati in ciascun pannello.
@@ -172,4 +173,3 @@ Seleziona **[!UICONTROL Pubblica ora]** per avviare il processo. Viene visualizz
 >
 >* [Nozioni di base sulla navigazione](navigation-basics.md#navigation_basics)
 >* [Visualizzare, aggiungere ed esportare metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

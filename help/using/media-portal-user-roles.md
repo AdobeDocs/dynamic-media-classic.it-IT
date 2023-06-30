@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ Questa tabella descrive le attività che possono essere eseguite dagli utenti in
 | Sfogliare i metadati | X | X | X |
 | Anteprima dei file | X | X | X |
 | Ricercare i file | X | X | X |
-| Carica file in Adobe Dynamic Media Classic |  | X | X |
-| Modificare e importare i metadati delle risorse |  | X | X |
-| Creare, rinominare ed eliminare le cartelle |  | X | X |
-| Esportare i metadati delle risorse | X |  | X |
-| Modificare i nomi dei file |  | X | X |
-| Spostare i file in altre cartelle |  | X | X |
-| Rinominare i file |  | X | X |
-| Eliminare i file |  | X | X |
-| Esportare (scaricare) file da Adobe Dynamic Media Classic | X |  | X |
+| Carica file in Adobe Dynamic Media Classic | | X | X |
+| Modificare e importare i metadati delle risorse | | X | X |
+| Creare, rinominare ed eliminare le cartelle | | X | X |
+| Esportare i metadati delle risorse | X | | X |
+| Modificare i nomi dei file | | X | X |
+| Spostare i file in altre cartelle | | X | X |
+| Rinominare i file | | X | X |
+| Eliminare i file | | X | X |
+| Esportare (scaricare) file da Adobe Dynamic Media Classic | X | | X |

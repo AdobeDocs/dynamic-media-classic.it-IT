@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 52%
@@ -75,13 +77,13 @@ Esistono due metodi per la nitidezza delle immagini:
       * `amount` (0-5, quantità o intensità dell’effetto)
       * `radius` (0-250, raggio o larghezza in pixel delle “linee di nitidezza” tracciate attorno all’oggetto).
 
-         Tenete presente che i parametri `radius` e `amount` funzionano in contrapposizione l’uno con l’altro. Riduzione `radius` può essere compensato aumentando `amount`. Il parametro `Radius` consente di agire con precisione: con un valore ridotto si agisce infatti solo sui pixel del bordo, mentre con un valore più elevato si agisce su una fascia più ampia di pixel.
+        Tenete presente che i parametri `radius` e `amount` funzionano in contrapposizione l’uno con l’altro. Riduzione `radius` può essere compensato aumentando `amount`. Il parametro `Radius` consente di agire con precisione: con un valore ridotto si agisce infatti solo sui pixel del bordo, mentre con un valore più elevato si agisce su una fascia più ampia di pixel.
 
       * `threshold` (0-255, sensibilità dell&#39;effetto).
 
-         Questo parametro specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e pelle.
+        Questo parametro specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e pelle.
 
-         Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, consulta [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/using/assets/s7_sharpening_images.pdf).
+        Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, consulta [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
       * Adobe Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
 

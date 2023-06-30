@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -41,17 +43,17 @@ Vedi anche [Creare un alias per un&#39;immagine](adjusting-image.md#creating_an_
 
    * Per sostituire l&#39;originale dell&#39;immagine, selezionare **[!UICONTROL Salva con nome]**.
 
-      Nell’elenco a discesa, seleziona **[!UICONTROL Sostituisci originale]**, quindi selezionare **[!UICONTROL Salva]**.
+     Nell’elenco a discesa, seleziona **[!UICONTROL Sostituisci originale]**, quindi selezionare **[!UICONTROL Salva]**.
 
    * Per salvare l&#39;immagine come nuova immagine principale, selezionare **[!UICONTROL Salva con nome]**.
 
-      Dall’elenco a discesa, scegliete **[!UICONTROL Salva come nuovo elemento principale]**.
+     Dall’elenco a discesa, scegliete **[!UICONTROL Salva come nuovo elemento principale]**.
 In **[!UICONTROL Nome cartella]** selezionare la cartella in cui si desidera salvare la nuova immagine principale.
 Seleziona **[!UICONTROL Salva]**.
 
    * Per salvare l&#39;immagine come un&#39;altra vista dell&#39;immagine primaria. potete creare un alias. Seleziona **[!UICONTROL Salva con nome]**.
 
-      In **[!UICONTROL Salva con nome]** nell&#39;elenco a discesa, selezionare **[!UICONTROL Salva come un&#39;altra vista della pagina mastro]**.
+     In **[!UICONTROL Salva con nome]** nell&#39;elenco a discesa, selezionare **[!UICONTROL Salva come un&#39;altra vista della pagina mastro]**.
 In **[!UICONTROL Nome cartella]** selezionare la cartella in cui si desidera salvare la nuova immagine principale.
 Seleziona **[!UICONTROL Salva]**.
 

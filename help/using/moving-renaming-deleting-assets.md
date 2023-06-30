@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 31%
@@ -58,7 +60,7 @@ le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengo
    * Per eliminare una o più risorse, selezionale nel pannello Sfoglia e premi **[!UICONTROL Elimina]** o vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
    * Per eliminare una cartella, selezionala nella Libreria risorse, quindi fai clic su **[!UICONTROL Rimuovi cartella]**.
 
-      Quando si elimina una cartella, vengono eliminati anche la cartella, tutte le risorse presenti nella cartella e tutte le risorse presenti nelle relative sottocartelle.
+     Quando si elimina una cartella, vengono eliminati anche la cartella, tutte le risorse presenti nella cartella e tutte le risorse presenti nelle relative sottocartelle.
 
 Adobe Dynamic Media Classic consiglia di sovrascrivere i file di risorse anziché eliminarli se il motivo per cui si elimina un file di risorse è quello di sostituirlo con un altro con lo stesso nome.
 
@@ -81,4 +83,3 @@ Quando elimini le risorse con un file di testo, se nell’elenco non è presente
 >* [Selezionare le risorse nel pannello Sfoglia](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Preparare risorse e cartelle per il caricamento](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Ripristinare le risorse dalla cartella Cestino](trash-folder.md#restoring_assets_from_the_trash_folder)
-

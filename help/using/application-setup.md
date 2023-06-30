@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '11299'
 ht-degree: 40%
@@ -55,25 +57,25 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 * **[!UICONTROL Modello di annullamento validità CDN]** - Specifica il modello utilizzato per annullare la validità della cache CDN (Content Delivery Network).
 
-   Ad esempio, supponiamo di immettere un URL immagine (inclusi predefiniti immagine o modificatori) che faccia riferimento a `<ID>`, invece di un ID immagine specifico come nell’esempio seguente:
+  Ad esempio, supponiamo di immettere un URL immagine (inclusi predefiniti immagine o modificatori) che faccia riferimento a `<ID>`, invece di un ID immagine specifico come nell’esempio seguente:
 
-   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+  `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   Se il modello contiene `<ID>`, quindi Adobe Dynamic Media Classic inserisce `https://<server>/is/image`, dove `<server>` è il nome del server di pubblicazione definito in Impostazioni generali.
+  Se il modello contiene `<ID>`, quindi Adobe Dynamic Media Classic inserisce `https://<server>/is/image`, dove `<server>` è il nome del server di pubblicazione definito in Impostazioni generali.
 
-   Impostate il modello di annullamento validità CDN, selezionate un&#39;immagine denominata Backpack_B, quindi passate a **[!UICONTROL File]** > **[!UICONTROL Annulla validità CDN]** determina il seguente URL generato nell’interfaccia di annullamento validità CDN:
+  Impostate il modello di annullamento validità CDN, selezionate un&#39;immagine denominata Backpack_B, quindi passate a **[!UICONTROL File]** > **[!UICONTROL Annulla validità CDN]** determina il seguente URL generato nell’interfaccia di annullamento validità CDN:
 
-   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+  `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-   Nella casella di riepilogo URL selezionare **[!UICONTROL Continua]** per cancellare la cache per quella chiamata URL immagine specifica. È inoltre possibile aggiungere URL digitandoli o incollandoli nella casella di riepilogo URL, senza dover impostare il modello in precedenza.
+  Nella casella di riepilogo URL selezionare **[!UICONTROL Continua]** per cancellare la cache per quella chiamata URL immagine specifica. È inoltre possibile aggiungere URL digitandoli o incollandoli nella casella di riepilogo URL, senza dover impostare il modello in precedenza.
 
-   Dopo aver selezionato il modello di annullamento validità CDN e aver effettuato una richiesta di annullamento validità CDN, nell’interfaccia utente viene visualizzato un indicatore. Fornisce una stima del tempo necessario per cancellare la cache.
+  Dopo aver selezionato il modello di annullamento validità CDN e aver effettuato una richiesta di annullamento validità CDN, nell’interfaccia utente viene visualizzato un indicatore. Fornisce una stima del tempo necessario per cancellare la cache.
 
-   Analogamente, se in Adobe Dynamic Media Classic sono selezionate più immagini quando si passa a **[!UICONTROL File]** > **[!UICONTROL Annulla validità CDN]**, nell’URL del modello salvato viene fatto riferimento a ogni immagine. Pertanto, puoi definire un Modello di annullamento validità CDN facendo riferimento a ciascun URL a cui viene fatto riferimento nel sito web (ad esempio i dettagli del prodotto e i risultati della ricerca). Quindi, quando selezionate una o più immagini di cui annullare la validità della cache, gli URL vengono automaticamente inseriti nell’interfaccia.
+  Analogamente, se in Adobe Dynamic Media Classic sono selezionate più immagini quando si passa a **[!UICONTROL File]** > **[!UICONTROL Annulla validità CDN]**, nell’URL del modello salvato viene fatto riferimento a ogni immagine. Pertanto, puoi definire un Modello di annullamento validità CDN facendo riferimento a ciascun URL a cui viene fatto riferimento nel sito web (ad esempio i dettagli del prodotto e i risultati della ricerca). Quindi, quando selezionate una o più immagini di cui annullare la validità della cache, gli URL vengono automaticamente inseriti nell’interfaccia.
 
-   Consultate [Memorizzazione dei contenuti nella cache](dmc-platform-overview.md#content_caching).
+  Consultate [Memorizzazione dei contenuti nella cache](dmc-platform-overview.md#content_caching).
 
-   Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
+  Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Sfoglia
 
@@ -85,21 +87,21 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 * **[!UICONTROL Mostra video codificati]** - Deselezionato (disattivato) per impostazione predefinita.
 
-   Per cercare e sfogliare rapidamente i video in Adobe Dynamic Media Classic senza dover navigare attraverso numerosi derivati codificati dello stesso video, lascia deselezionata questa opzione (impostazione predefinita). Vengono visualizzate solo la miniatura del video principale (il video sorgente caricato e utilizzato per creare i derivati) e la miniatura del set video adattivo &quot;padre&quot; (che contiene i derivati &quot;figlio&quot; del set video codificato).
+  Per cercare e sfogliare rapidamente i video in Adobe Dynamic Media Classic senza dover navigare attraverso numerosi derivati codificati dello stesso video, lascia deselezionata questa opzione (impostazione predefinita). Vengono visualizzate solo la miniatura del video principale (il video sorgente caricato e utilizzato per creare i derivati) e la miniatura del set video adattivo &quot;padre&quot; (che contiene i derivati &quot;figlio&quot; del set video codificato).
 
-   È comunque possibile accedere ai singoli video codificati dal video principale o dal set di video adattivi. A questo scopo, fate doppio clic sulla miniatura del video per aprire la visualizzazione Dettagli. Quindi seleziona **[!UICONTROL Video codificati]** nel pannello a destra per accedere a tutti i video &quot;secondari&quot;.
+  È comunque possibile accedere ai singoli video codificati dal video principale o dal set di video adattivi. A questo scopo, fate doppio clic sulla miniatura del video per aprire la visualizzazione Dettagli. Quindi seleziona **[!UICONTROL Video codificati]** nel pannello a destra per accedere a tutti i video &quot;secondari&quot;.
 
-   Puoi anche passare a **[!UICONTROL File]** > **[!UICONTROL Rielabora]** per creare video &quot;secondari&quot; codificati direttamente da un set di video adattivi. Adobe Dynamic Media Classic trova automaticamente il video principale &quot;principale&quot; del set di video adattivi e lo utilizza come video sorgente per la transcodifica. Quando salvate i nuovi video codificati, tuttavia, questi non vengono visti nelle operazioni di ricerca o navigazione. Sono comunque accessibili dalla scheda Video codificati in visualizzazione Dettagli.
+  Puoi anche passare a **[!UICONTROL File]** > **[!UICONTROL Rielabora]** per creare video &quot;secondari&quot; codificati direttamente da un set di video adattivi. Adobe Dynamic Media Classic trova automaticamente il video principale &quot;principale&quot; del set di video adattivi e lo utilizza come video sorgente per la transcodifica. Quando salvate i nuovi video codificati, tuttavia, questi non vengono visti nelle operazioni di ricerca o navigazione. Sono comunque accessibili dalla scheda Video codificati in visualizzazione Dettagli.
 
-   Consulta [Caricare e transcodificare video](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Consulta [Caricare e transcodificare video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-   Per poter accedere a tutte le versioni derivate codificate durante la ricerca e la navigazione, selezionate **[!UICONTROL Mostra video codificati]**.
+  Per poter accedere a tutte le versioni derivate codificate durante la ricerca e la navigazione, selezionate **[!UICONTROL Mostra video codificati]**.
 
-   Alcune azioni nel menu Genera funzionano solo o eventualmente con singoli video. Questa funzionalità rende necessaria la visualizzazione di tutte le versioni derivate di video codificati disponibili per la selezione, a prescindere dall’impostazione di **[!UICONTROL Mostra video codificati]**. Le azioni Build che sostituiscono **[!UICONTROL Mostra video codificati]** impostazione include **[!UICONTROL Set video adattivi]**, e **[!UICONTROL eCatalog]**.
+  Alcune azioni nel menu Genera funzionano solo o eventualmente con singoli video. Questa funzionalità rende necessaria la visualizzazione di tutte le versioni derivate di video codificati disponibili per la selezione, a prescindere dall’impostazione di **[!UICONTROL Mostra video codificati]**. Le azioni Build che sostituiscono **[!UICONTROL Mostra video codificati]** impostazione include **[!UICONTROL Set video adattivi]**, e **[!UICONTROL eCatalog]**.
 
-   >[!NOTE]
-   >
-   >Se non hai utilizzato Adobe Dynamic Media Classic per caricare e codificare le risorse video, Adobe Dynamic Media Classic mostra tutti i singoli video codificati, anche se questa opzione è deselezionata.
+  >[!NOTE]
+  >
+  >Se non hai utilizzato Adobe Dynamic Media Classic per caricare e codificare le risorse video, Adobe Dynamic Media Classic mostra tutti i singoli video codificati, anche se questa opzione è deselezionata.
 
 * **[!UICONTROL Mostra pulsante Aggiorna sottocartelle]** - Attiva o disattiva la visualizzazione del pulsante Aggiorna delle sottocartelle.
 
@@ -198,22 +200,22 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
       * **[!UICONTROL Numero di colori]** - Trascinate il cursore per immettere 2-255.
 
       * **[!UICONTROL Elenco colori]** - Inserisci un elenco separato da virgole. Ad esempio, per bianco, grigio e nero inserite `000000,888888,ffffff`.
+
    * Opzioni JPEG
 
       * **[!UICONTROL Qualità]** - Controlla il livello di compressione JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPEG è 1-100.
 
       * **[!UICONTROL Abilita downsampling crominanza JPG]** - Poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni in luminanza e componenti di colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce di metà o un terzo il volume di dati, con impatto trascurabile sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
+
    * Opzioni PDF e TIFF
 
       * **[!UICONTROL Compressione]** - Selezionare un algoritmo di compressione.
-
-
 
 * **[!UICONTROL Spazio colore]** - Selezionare uno spazio colore.
 
 * **[!UICONTROL Nitidezza]** - Selezionare l&#39;opzione Attiva nitidezza semplice per applicare un filtro di nitidezza di base all&#39;immagine dopo il ridimensionamento. La nitidezza contribuisce a compensare la sfocatura che può prodursi quando si visualizza un’immagine in dimensioni diverse.
 
-   Per ulteriori informazioni sulla nitidezza, sulle modalità di ricampionamento e sulla maschera di contrasto, consultate [Nitidezza di un&#39;immagine](sharpening-image.md#sharpening_an_image). Vedi anche [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) video di formazione.
+  Per ulteriori informazioni sulla nitidezza, sulle modalità di ricampionamento e sulla maschera di contrasto, consultate [Nitidezza di un&#39;immagine](sharpening-image.md#sharpening_an_image). Vedi anche [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) video di formazione.
 
 * **[!UICONTROL Modalità di ricampionamento]** - Selezionate un&#39;opzione per la modalità Ricampionamento. Queste opzioni aumentano la nitidezza quando si esegue il downsampling dell’immagine:
 
@@ -239,7 +241,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Profilo colore di output]** - Seleziona **[!UICONTROL Usa predefinito]** o uno dei profili colore ICC disponibili sul Adobe Dynamic Media Classic.
 
-   Consultate anche [Profili ICC](icc-profiles.md#icc_profiles).
+  Consultate anche [Profili ICC](icc-profiles.md#icc_profiles).
 
 * **[!UICONTROL Intento di rendering]** - Selezionare un&#39;opzione se si desidera ignorare l&#39;intento di rendering predefinito del profilo colore. Utilizzare questa opzione quando uno dei profili ICC predefiniti è lo spazio colore di destinazione di una conversione colore. In alternativa, una periferica di output (stampante o monitor) è caratterizzata da questo profilo e l&#39;intento di rendering specificato è valido per questo profilo.
 
@@ -292,19 +294,19 @@ Per selezionare un predefinito di codifica, nell’angolo inferiore destro della
 
    * **[!UICONTROL Video adattivo]** : un singolo predefinito di codifica che funziona con qualsiasi proporzione per creare video da distribuire su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, il valore della larghezza viene ridimensionato automaticamente per mantenere le proporzioni del video.
 
-      La flessibilità di questo ridimensionamento automatico è disponibile anche per impostazione predefinita quando create un predefinito di codifica video personalizzato.
+     La flessibilità di questo ridimensionamento automatico è disponibile anche per impostazione predefinita quando create un predefinito di codifica video personalizzato.
 
-      Consulta [Aggiungere o modificare un predefinito di codifica video](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
+     Consulta [Aggiungere o modificare un predefinito di codifica video](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
    * **[!UICONTROL Codifica video adattiva (16:9 o 4:3)]** : crea video con proporzioni 16:9 e 4:3 da distribuire su desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™). Il tutto ottimizzato con la risoluzione e il bit rate che più si adattano alla velocità di connessione dell&#39;utente.
 
-      Consultate [Predefiniti per codifica video adattiva (16:9 o 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Consultate [Predefiniti per codifica video adattiva (16:9 o 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Predefiniti codifica singola]**
 
-      >[!NOTE]
-      >
-      >Per inviare video agli iPad, puoi selezionare un predefinito di codifica Mobile o un predefinito di codifica Tablet PC. I predefiniti Tablet sono stati creati appositamente per gli iPad, generalmente con risoluzione e qualità più alta per usufruire delle dimensioni delle schermo e della connessione di banda più elevata. La visualizzazione di file video codificati con un predefinito Tablet richiede di includere un codice di rilevamento dispositivi al sito mobile o all’applicazione. questo codice è disponibile per i video visualizzati su iPhone o iPad, a seconda del dispositivo di riproduzione. Se si sceglie un predefinito Mobile per la consegna dei file video ad iPad, il flusso di lavoro risulta semplificato poiché potete scegliere lo stesso file video sia per iPhone che per iPad. Tuttavia, la qualità viene standardizzata all’esperienza iPhone con risoluzione ridotta.
+     >[!NOTE]
+     >
+     >Per inviare video agli iPad, puoi selezionare un predefinito di codifica Mobile o un predefinito di codifica Tablet PC. I predefiniti Tablet sono stati creati appositamente per gli iPad, generalmente con risoluzione e qualità più alta per usufruire delle dimensioni delle schermo e della connessione di banda più elevata. La visualizzazione di file video codificati con un predefinito Tablet richiede di includere un codice di rilevamento dispositivi al sito mobile o all’applicazione. questo codice è disponibile per i video visualizzati su iPhone o iPad, a seconda del dispositivo di riproduzione. Se si sceglie un predefinito Mobile per la consegna dei file video ad iPad, il flusso di lavoro risulta semplificato poiché potete scegliere lo stesso file video sia per iPhone che per iPad. Tuttavia, la qualità viene standardizzata all’esperienza iPhone con risoluzione ridotta.
 
       * Nel gruppo Predefiniti di codifica, nell’elenco a discesa Ordina predefiniti codifica, selezionate Nome o Dimensioni per ordinare i predefiniti per nome o per dimensione di risoluzione.
       * Seleziona un predefinito di codifica in base alle dimensioni di risoluzione e alla larghezza di banda con cui intendi riprodurre il video.
@@ -558,29 +560,29 @@ La schermata Predefiniti visualizzatore offre strumenti che consentono di esegui
 
 * **Aggiungi un predefinito** - Seleziona **[!UICONTROL Aggiungi]** e effettuare le scelte desiderate nella finestra di dialogo Aggiungi predefinito visualizzatore.
 
-       Consultate [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_preets).
-   
+      Consultate [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_preets).
+  
 * **Modificare un predefinito** - Selezionare un predefinito, quindi selezionare **[!UICONTROL Modifica]**.
 
-       Consultate [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_preets).
-   
+      Consultate [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_preets).
+  
 * **Eliminare un predefinito** - Selezionare un predefinito, quindi selezionare **[!UICONTROL Elimina]**.
 
 * **Esportare un predefinito** - Seleziona un predefinito visualizzatore HTML5, quindi seleziona **[!UICONTROL Esporta]** per scaricare l’interfaccia del visualizzatore in modo da poterla utilizzare come base per creare e aggiungere un altro predefinito visualizzatore.
 
-       Consultate [Esportare un predefinito visualizzatore HTML5](application-setup.md#export_an_html5_viewer_preset).
-   
+      Consultate [Esportare un predefinito visualizzatore HTML5](application-setup.md#export_an_html5_viewer_preset).
+  
 * **Filtrare l’elenco dei predefiniti per visualizzatori** : utilizza questi strumenti per filtrare l’elenco:
 
-       * Apri l’elenco a discesa **Attivo/Inattivo** e seleziona un’opzione per visualizzare i predefiniti attivi, quelli inattivi o tutti i predefiniti.
-       * Apri l’elenco a discesa **Viewer** (Visualizzatore) e seleziona un’opzione per visualizzare solo i visualizzatori di un determinato tipo. Seleziona **[!UICONTROL Tutti i visualizzatori]** visualizzare tutti i visualizzatori.
-   
+      * Apri l’elenco a discesa **Attivo/Inattivo** e seleziona un’opzione per visualizzare i predefiniti attivi, quelli inattivi o tutti i predefiniti.
+      * Apri l’elenco a discesa **Viewer** (Visualizzatore) e seleziona un’opzione per visualizzare solo i visualizzatori di un determinato tipo. Seleziona **[!UICONTROL Tutti i visualizzatori]** visualizzare tutti i visualizzatori.
+  
 * **Ordinare i predefiniti** - Selezionare un&#39;intestazione di colonna (**[!UICONTROL Attivo]**, **[!UICONTROL Tipo]**, **[!UICONTROL Predefinito]**, o **[!UICONTROL Piattaforma]**) per ordinare l&#39;elenco in base a una colonna. Selezionare un&#39;intestazione di colonna una seconda volta per ordinare l&#39;elenco in ordine decrescente o crescente.
 
 * **Attivare e disattivare i predefiniti** - Selezionare un predefinito, quindi selezionare l&#39;opzione Attivo per attivarlo o disattivarlo.
 
-       Consultate [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_preets).
-   
+      Consultate [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_preets).
+  
 >[!NOTE]
 >
 >Seleziona **[!UICONTROL Anteprima]** sul lato destro della pagina Predefiniti visualizzatore, in modo da poter vedere come si presenta una risorsa nel Predefinito visualizzatore selezionato. Per visualizzare una risorsa diversa, seleziona **[!UICONTROL Sfoglia]** nella pagina Predefiniti visualizzatore e seleziona un’altra risorsa nella finestra di dialogo Seleziona anteprima risorsa.
@@ -603,12 +605,12 @@ Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/
 
    * **Aggiungi** - Sulla barra degli strumenti, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona una piattaforma e fai clic su un tipo di risorsa multimediale avanzato.
 
-          Seleziona **[!UICONTROL Salva con nome]** al termine della creazione del predefinito visualizzatore.
-      
+         Seleziona **[!UICONTROL Salva con nome]** al termine della creazione del predefinito visualizzatore.
+     
    * **Aggiungi partendo da un predefinito per visualizzatori esistente** - Nella tabella, seleziona un predefinito per visualizzatore video, quindi fai clic su **[!UICONTROL Modifica]** sulla barra degli strumenti.
 
-          Dopo aver riconfigurato il Visualizzatore video, seleziona **[!UICONTROL Salva con nome]** salvare il predefinito utilizzando un nome diverso nel campo di testo Nome predefinito.
-      
+         Dopo aver riconfigurato il Visualizzatore video, seleziona **[!UICONTROL Salva con nome]** salvare il predefinito utilizzando un nome diverso nel campo di testo Nome predefinito.
+     
    * **Modifica** - Selezionate un predefinito visualizzatore esistente, quindi selezionate **[!UICONTROL Modifica]**.
 
 1. Nella schermata Configura visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
@@ -696,9 +698,11 @@ L’URL viene copiato negli Appunti. Potete utilizzarlo come desiderate nel codi
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
    * Seleziona **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi a destra dell’immagine di miniatura vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
    * Seleziona **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]**, o **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
 ### Copiare il codice di incorporamento di un predefinito per visualizzatori {#copying-the-embed-code-of-a-viewer-preset}
@@ -718,9 +722,11 @@ La modifica del codice non è consentita nella finestra di dialogo Codice da inc
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
    * Seleziona **[!UICONTROL Vista a elenco]**. Nel pannello Sfoglia risorse, seleziona una singola risorsa, quindi a destra dell’immagine di miniatura vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
    * Seleziona **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]**, o **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]**.
 
 1. Nella finestra di dialogo Incorpora codice, seleziona **[!UICONTROL Copia negli Appunti]**.
@@ -848,9 +854,9 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
    * **[!UICONTROL Si applica a]** - È possibile selezionare un tipo di risorsa se si desidera che il campo dei metadati venga applicato solo a un tipo specifico di risorsa.
 
-      >[!NOTE]
-      >
-      >Seleziona un **[!UICONTROL Si applica a]** perché non è possibile modificare il **[!UICONTROL Si applica a]** dopo aver creato un campo definito dall&#39;utente. Adobe Dynamic Media Classic consente di modificare il nome, il tipo e il valore predefinito di un campo definito dall’utente, ma non il **[!UICONTROL Si applica a]** impostazione. *
+     >[!NOTE]
+     >
+     >Seleziona un **[!UICONTROL Si applica a]** perché non è possibile modificare il **[!UICONTROL Si applica a]** dopo aver creato un campo definito dall&#39;utente. Adobe Dynamic Media Classic consente di modificare il nome, il tipo e il valore predefinito di un campo definito dall’utente, ma non il **[!UICONTROL Si applica a]** impostazione. *
 
 1. Seleziona **[!UICONTROL Salva]** al termine della creazione del campo metadati.
 
@@ -1024,4 +1030,3 @@ Quando il set 360 gradi viene caricato e pubblicato, potete attivare il nome del
 >* [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets)
 >* [Visualizzare, aggiungere ed esportare metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 >* [Verifica file di processo](checking-job-files.md#checking_job_files)
-

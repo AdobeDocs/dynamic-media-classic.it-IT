@@ -10,7 +10,9 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -62,12 +64,12 @@ Se non concedi specificamente un’autorizzazione di gruppo a una risorsa o cart
 
    | Attività | Lettura (r) | Scrittura (w) | Eliminazione (d) |
    | --- | --- | --- | --- |
-   | Sfogliare cartelle e file | X |  |  |
-   | Modificare i file (ritaglio, nitidezza, regolazione) |  | X |  |
-   | Cambiare i nomi di file |  | X |  |
-   | Spostare i file in altre cartelle |  | X |  |
-   | Rinominare i file |  | X |  |
-   | Eliminare i file |  |  | X |
+   | Sfogliare cartelle e file | X | | |
+   | Modificare i file (ritaglio, nitidezza, regolazione) | | X | |
+   | Cambiare i nomi di file | | X | |
+   | Spostare i file in altre cartelle | | X | |
+   | Rinominare i file | | X | |
+   | Eliminare i file | | | X |
 
 1. Seleziona **[!UICONTROL Chiudi]**.
 

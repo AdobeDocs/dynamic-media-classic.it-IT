@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 45%
@@ -122,7 +124,7 @@ Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona 
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, usate i metodi di selezione file standard per selezionare uno o più video dal set.
 
-      Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]**.
+     Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]**.
 
    * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia rotonda con una barra che la attraversa, a sinistra del nome della risorsa.
 
@@ -138,7 +140,7 @@ Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona
 
    * In Vista griglia, Vista elenco o Vista dettagli, seleziona una o più risorse pubblicate.
 
-      Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
+     Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
    * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona a forma di segno di spunta arrotondato e verde a sinistra del nome della risorsa.
 
@@ -162,4 +164,3 @@ Per svuotare la cache, nella barra di navigazione globale, vai a **[!UICONTROL F
 >
 >* [Verifica file di processo](checking-job-files.md)
 >* [Modifica, elimina, sospendi e riprendi processi ricorrenti](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-

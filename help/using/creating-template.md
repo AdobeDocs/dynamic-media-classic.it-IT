@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 44%
@@ -103,9 +105,9 @@ Utilizza questi strumenti nella schermata Modello per creare modelli:
 
 * **[!UICONTROL Editor di testo v. 4.3 e editor di testo v. 4.2]** : puoi scegliere di utilizzare l’editor di testo più recente e più completo, Editor di testo v4.3 o l’editor di testo precedente, Editor di testo v4.2. Per impostazione predefinita, durante la creazione di modelli, è selezionato Editor di testo v. 4.3. Per la modifica di modelli meno recenti, per impostazione predefinita viene selezionato Editor di testo v4.2. Editor di testo v4.3 attualmente non supporta il ritorno a capo automatico, quindi per modificare i modelli meno recenti con la funzione di ritorno a capo automatico, usate Editor di testo v4.2. Se il modello meno recente non utilizza il ritorno a capo automatico, è possibile scegliere Editor di testo v. 4.3 per sfruttare le numerose nuove funzionalità offerte. Ad esempio, aumentare i margini, diminuire i margini, impostare il testo in maiuscolo e copiare il testo adattato.
 
-   >[!NOTE]
-   >
-   >L’editor di testo v. 4.2 è pianificato per la rimozione come opzione in Adobe Dynamic Media Classic, pertanto si consiglia di utilizzare l’editor di testo 4.3 quando possibile. Il **[!UICONTROL A capo automatico]** verrà incorporata in una versione futura dell’Editor di testo.
+  >[!NOTE]
+  >
+  >L’editor di testo v. 4.2 è pianificato per la rimozione come opzione in Adobe Dynamic Media Classic, pertanto si consiglia di utilizzare l’editor di testo 4.3 quando possibile. Il **[!UICONTROL A capo automatico]** verrà incorporata in una versione futura dell’Editor di testo.
 
 * **[!UICONTROL Designer e sviluppatore]** - Selezionare l&#39;opzione che meglio descrive il proprio ruolo.
 

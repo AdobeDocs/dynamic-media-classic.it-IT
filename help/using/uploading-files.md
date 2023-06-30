@@ -9,7 +9,9 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3929'
 ht-degree: 31%
@@ -121,9 +123,9 @@ Assicurati che tutti gli utenti della tua azienda comprendano queste regole per 
 * Come procedura consigliata assicuratevi che gli ID delle risorse non contengano spazi vuoti, ad esempio evitate di usare nomi come giacca nera.tif o giacca blu.jpg. Quando si utilizzano nomi di risorse per creare stringhe URL, Adobe Dynamic Media Classic ASCII codifica spazi vuoti nei nomi delle risorse. Poiché questi codici ASCII sono difficili da leggere, la lettura degli URL può risultare più complicata.
 * I nomi file possono contenere caratteri specifici per particolari lingue. Tuttavia, non possono contenere i seguenti caratteri:
 
-   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
-   Se il nome del file contiene uno o più di questi caratteri, questi vengono eliminati dal nome del file al momento del caricamento.
+  Se il nome del file contiene uno o più di questi caratteri, questi vengono eliminati dal nome del file al momento del caricamento.
 
 Di solito, il nome del file di una risorsa può essere uguale al numero dell’articolo, allo SKU del prodotto o a un altro nome, come illustrato di seguito:
 
@@ -209,7 +211,7 @@ Durante il caricamento dei file, nella finestra di dialogo Opzioni processo di c
 
 * **PROCESSO** - Seleziona **[!UICONTROL PROCESSO]** per scegliere le opzioni che influiscono sull’intero processo di caricamento.
 
-   Puoi anche scegliere *predefinito* opzioni per il caricamento di processi utilizzando **[!UICONTROL Opzioni di caricamento predefinite]** in Impostazioni generali. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Opzioni di caricamento predefinite]**, quindi impostare le opzioni predefinite desiderate.
+  Puoi anche scegliere *predefinito* opzioni per il caricamento di processi utilizzando **[!UICONTROL Opzioni di caricamento predefinite]** in Impostazioni generali. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Opzioni di caricamento predefinite]**, quindi impostare le opzioni predefinite desiderate.
 
    * **[!UICONTROL Quando]** - Questa opzione è disponibile solo se è stato selezionato il **[!UICONTROL TRAMITE FTP]** scheda.
       * **[!UICONTROL Una tantum]** : specifica un processo di caricamento che viene eseguito una volta. Le opzioni includono:
@@ -220,6 +222,7 @@ Durante il caricamento dei file, nella finestra di dialogo Opzioni processo di c
          * **[!UICONTROL Ogni settimana]** - Scegliere un giorno della settimana e un&#39;ora specifici per l&#39;esecuzione del job.
          * **[!UICONTROL Mensile]** - Scegliere un giorno specifico del mese o della settimana, inclusa l&#39;ora di inizio, in cui si desidera eseguire il job.
          * **[!UICONTROL Personalizzato]** : personalizza l’intervallo di tempo di un processo di caricamento o pubblicazione in base alle tue specifiche. Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+
    * **[!UICONTROL Pubblica dopo il caricamento]** - Disponibile se è stata selezionata l&#39;opzione **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda. Selezionate questa opzione per pubblicare automaticamente le risorse caricate. Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. Questa opzione è disponibile anche nella pagina di caricamento.
 
    * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]** - Disponibile se è stata selezionata l&#39;opzione **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda. Selezionate questa opzione per sostituire i file esistenti con quelli caricati mantenendo gli stessi nomi. Questa opzione è disponibile anche nella pagina di caricamento. Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Carica nell&#39;applicazione]** > **[!UICONTROL Sovrascrivi immagini]**.
@@ -231,7 +234,6 @@ Seleziona questa opzione se desideri estrarre automaticamente tutti i file dal f
 Selezionate questa opzione per caricare le sottocartelle della cartella che intendete caricare. I nomi della cartella e delle relative sottocartelle caricate vengono immessi automaticamente in Adobe Dynamic Media Classic.
 
    * **[!UICONTROL Elabora file di metadati]** - Disponibile solo se è stata selezionata l&#39;opzione **[!UICONTROL TRAMITE FTP]** scheda. Selezionate questa opzione se desiderate caricare un file delimitato da tabulazioni o XML per aggiungere metadati a più risorse. Consultate [Importare metadati (tramite FTP)](viewing-adding-exporting-metadata.md#import-metadata).
-
 
 * **Opzioni di ritaglio** - Per ritagliare automaticamente i pixel dello spazio bianco da un&#39;immagine, aprire **[!UICONTROL Ritaglio]** menu, seleziona **[!UICONTROL Manuale]**, e immettere le misure in pixel nei campi di testo In alto, A destra, In basso e A sinistra per ritagliare i dati dai lati. Puoi anche selezionare **[!UICONTROL Rifila]** scegliere le opzioni seguenti dal menu Ritaglia:
 
@@ -304,4 +306,3 @@ Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che i
 >* [Utilizzare le cartelle di risorse](asset-folders.md#working_with_asset_folders)
 >* [Gestire i processi di caricamento e pubblicazione ricorrenti](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Utilizzare un processo di caricamento o pubblicazione come attivatore](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
-

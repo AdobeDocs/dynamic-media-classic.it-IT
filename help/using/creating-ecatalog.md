@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 56%
@@ -42,9 +44,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    * **Inizia dalla schermata eCatalog** - Vai a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
 
-      >[!NOTE]
-      >
-      >per visualizzare gli elementi nella Libreria risorse per nome anziché per miniatura, selezionate l’opzione Nome per Visualizzazione predefinita libreria di risorse in Configurazione personale.
+     >[!NOTE]
+     >
+     >per visualizzare gli elementi nella Libreria risorse per nome anziché per miniatura, selezionate l’opzione Nome per Visualizzazione predefinita libreria di risorse in Configurazione personale.
 
 1. Selezionate un layout completo per l’eCatalog. Seleziona **[!UICONTROL 1 immagine]** pagine singole, **[!UICONTROL 2 Su]** per pagine affiancate doppie, oppure **[!UICONTROL Personalizzato]** per pagine affiancate con più di due pagine. In **[!UICONTROL Modifica layout eCatalog]** , selezionare la **[!UICONTROL Tutti gli spread]** opzioni e seleziona **[!UICONTROL OK]**.
 1. Se necessario, modificare il layout di singole pagine o pagine affiancate selezionandole e quindi scegliendo **[!UICONTROL 1 immagine]**, **[!UICONTROL 2 Su]**, o **[!UICONTROL Personalizzato]** pulsante. In **[!UICONTROL Modifica layout eCatalog]** , selezionare la **[!UICONTROL Pagine affiancate selezionate]** opzioni e seleziona **[!UICONTROL OK]**.

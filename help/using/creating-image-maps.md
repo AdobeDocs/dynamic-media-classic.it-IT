@@ -10,7 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 49%
@@ -152,9 +154,9 @@ Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL include
 
 * `loadProductPW` - visualizza la destinazione URL specificata nella colonna URL nella finestra principale (la pagina che ha aperto quella corrente). La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
 
-   >[!NOTE]
-   >
-   >L’handler `loadProductPW` non supporta i visualizzatori DHTML e HTML5.
+  >[!NOTE]
+  >
+  >L’handler `loadProductPW` non supporta i visualizzatori DHTML e HTML5.
 
 ### Creare un modello URL {#creating-a-url-template}
 

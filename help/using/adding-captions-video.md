@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 32%
@@ -56,18 +58,18 @@ Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleagu
 
    * Per visualizzare un video a comparsa, seleziona **[!UICONTROL Copia URL]** all&#39;estrema destra del nome.
 
-      Aggiungi l’URL copiato del video con la seguente sintassi, in modo da poterlo associare all’URL copiato nel file di didascalia:
+     Aggiungi l’URL copiato del video con la seguente sintassi, in modo da poterlo associare all’URL copiato nel file di didascalia:
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Osserva `,1` alla fine del percorso URL della didascalia. Subito dopo l’estensione del nome file VTT nel percorso, puoi facoltativamente abilitare o disabilitare il pulsante dei sottotitoli codificati nella barra del lettore video impostando su `1` o `0`, rispettivamente.
+     Osserva `,1` alla fine del percorso URL della didascalia. Subito dopo l’estensione del nome file VTT nel percorso, puoi facoltativamente abilitare o disabilitare il pulsante dei sottotitoli codificati nella barra del lettore video impostando su `1` o `0`, rispettivamente.
 
    * Per un’esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Codice di incorporamento]** all&#39;estrema destra del nome.
 
-      Nella finestra di dialogo Incorpora codice, seleziona **[!UICONTROL Copia negli Appunti]**.
+     Nella finestra di dialogo Incorpora codice, seleziona **[!UICONTROL Copia negli Appunti]**.
 
-      Per il HTML 5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, o `Universal_HTML5_MixedMedia_light` visualizzatori, aggiungi il codice da incorporare copiato con quanto segue:
+     Per il HTML 5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, o `Universal_HTML5_MixedMedia_light` visualizzatori, aggiungi il codice da incorporare copiato con quanto segue:
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Osserva `,1` alla fine del percorso URL. Immediatamente dopo l’estensione del nome file VTT nel percorso URL, puoi facoltativamente abilitare o disabilitare il pulsante della didascalia sulla barra del lettore video impostando su `1` o `0`, rispettivamente.
+     Osserva `,1` alla fine del percorso URL. Immediatamente dopo l’estensione del nome file VTT nel percorso URL, puoi facoltativamente abilitare o disabilitare il pulsante della didascalia sulla barra del lettore video impostando su `1` o `0`, rispettivamente.

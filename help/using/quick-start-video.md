@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Beginner
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 25%
@@ -49,24 +51,24 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
 * Sottotitoli video nei visualizzatori Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e nella navigazione dei capitoli video nei visualizzatori Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
-   Consulta [Aggiungi didascalie al video](adding-captions-video.md).
+  Consulta [Aggiungi didascalie al video](adding-captions-video.md).
 
-   Consulta [Aggiungere marcatori capitolo al video](adding-chapter-markers-video.md).
+  Consulta [Aggiungere marcatori capitolo al video](adding-chapter-markers-video.md).
 
 * Organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. 
 * Distribuisci set video adattivi sul web, sui desktop e sui dispositivi mobili, inclusi iPhone, iPad, Android™, BlackBerry® e Windows®.
 
-   Lo streaming video adattivo è supportato su varie piattaforme iOS.
+  Lo streaming video adattivo è supportato su varie piattaforme iOS.
 
-   Scopri il supporto più recente in [Guida di riferimento per i visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Scopri il supporto più recente in [Guida di riferimento per i visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264. I dispositivi BlackBerry® che supportano questo formato video sono disponibili sul seguente sito Web:
+  Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264. I dispositivi BlackBerry® che supportano questo formato video sono disponibili sul seguente sito Web:
 
-   Consulta [Formati video supportati su BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  Consulta [Formati video supportati su BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
-   I dispositivi Windows® che supportano questo formato video sono disponibili nei seguenti percorsi:
+  I dispositivi Windows® che supportano questo formato video sono disponibili nei seguenti percorsi:
 
-   Consulta [Formati video supportati su Windows® Phone](https://docs.microsoft.com/en-us/).
+  Consulta [Formati video supportati su Windows® Phone](https://docs.microsoft.com/en-us/).
 
 * Riproduci il video utilizzando i predefiniti visualizzatore Adobe Dynamic Media Classic, inclusi i seguenti elementi:
 
@@ -96,9 +98,9 @@ Potete caricare e generare i set di video adattivi utilizzando uno dei due scena
 * **Caricare video precodificati** - Se i tuoi video erano già stati codificati all’esterno di Adobe Dynamic Media Classic, nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per sfogliare e caricare i file video MP4 direttamente su Adobe Dynamic Media Classic. Quindi, vai a **[!UICONTROL Genera]** > **[!UICONTROL Set video adattivi]**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
 * **Carica video sorgente principale** - Se i video non sono codificati, nella barra di navigazione globale seleziona **[!UICONTROL Carica]** per caricare i file sorgente video primari (non MP4). Adobe Dynamic Media Classic li codifica automaticamente in file MP4. In **[!UICONTROL Opzioni processo di caricamento]** finestra di dialogo, sotto **[!UICONTROL Opzioni eVideo]**, seleziona **[!UICONTROL Video adattivo]**.
 
-   Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando invii il processo di caricamento, viene automaticamente creato un set di video adattivi che include tre impostazioni di codifica video nelle proporzioni corrette.
+  Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando invii il processo di caricamento, viene automaticamente creato un set di video adattivi che include tre impostazioni di codifica video nelle proporzioni corrette.
 
-   Oppure, nello stesso **[!UICONTROL Opzioni processo]** finestra di dialogo, sotto **[!UICONTROL Opzioni eVideo]**, espandi **[!UICONTROL Predefiniti codifica singola]**. Selezionate i singoli predefiniti di codifica video desiderati **Desktop**, **Mobile (iPhone, iPad, Android™)**, e **Tablet (iPad, Android™)** in modo da creare i file MP4.
+  Oppure, nello stesso **[!UICONTROL Opzioni processo]** finestra di dialogo, sotto **[!UICONTROL Opzioni eVideo]**, espandi **[!UICONTROL Predefiniti codifica singola]**. Selezionate i singoli predefiniti di codifica video desiderati **Desktop**, **Mobile (iPhone, iPad, Android™)**, e **Tablet (iPad, Android™)** in modo da creare i file MP4.
 
 * In alternativa, è possibile rielaborare un video principale utilizzando **[!UICONTROL Rielabora]** funzionalità. I video appena codificati vengono aggiunti al set video adattivo esistente.
 
@@ -134,27 +136,26 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
 * Visualizzare il video nella propria finestra a comparsa o modale, nel qual caso utilizzare il **[!UICONTROL Copia URL]** funzionalità.
 
-   Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Seleziona **[!UICONTROL Anteprima]**, quindi selezionare **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
+  Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Seleziona **[!UICONTROL Anteprima]**, quindi selezionare **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
 
-   Quando selezioni **[!UICONTROL Copia URL]**, l’URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
+  Quando selezioni **[!UICONTROL Copia URL]**, l’URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
 
-   >[!NOTE]
-   >
-   >gli URL diventano attivi solo dopo la pubblicazione del video o del set di video adattivi.
+  >[!NOTE]
+  >
+  >gli URL diventano attivi solo dopo la pubblicazione del video o del set di video adattivi.
 
 * Visualizza il video incorporato nella pagina web, nel qual caso utilizza **[!UICONTROL Codice di incorporamento]** funzionalità.
 
-   Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
+  Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
-   Seleziona **[!UICONTROL Chiudi]** e incolla il codice da incorporare nelle pagine web.
+  Seleziona **[!UICONTROL Chiudi]** e incolla il codice da incorporare nelle pagine web.
 
-   >[!NOTE]
-   >
-   >Incorpora codice è attivato solo dopo la pubblicazione del video o del set di video adattivi.
+  >[!NOTE]
+  >
+  >Incorpora codice è attivato solo dopo la pubblicazione del video o del set di video adattivi.
 
 Consulta [Distribuire video sui siti Web e mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >
 >* [Best practice per la codifica video](uploading-encoding-videos.md#best_practices_for_video_encoding)
-
