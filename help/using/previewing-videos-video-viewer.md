@@ -12,10 +12,10 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 28%
+source-wordcount: '880'
+ht-degree: 21%
 
 ---
 
@@ -36,7 +36,7 @@ Consulta [Aggiungere e modificare i predefiniti per visualizzatori](application-
    * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, seleziona **[!UICONTROL Anteprima]**.
    * Nella finestra Risorse, selezionate una risorsa. Nella barra degli strumenti, vai a **[!UICONTROL File]** > **[!UICONTROL Anteprima]**.
 
-1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
+1. (Facoltativo) Nella finestra Anteprima, seleziona dall’elenco a discesa in basso la codifica URL da applicare all’URL della risorsa quando viene copiata.
 1. Seleziona la **[!UICONTROL Anteprima]** per rivedere la risorsa nel visualizzatore selezionato.
 1. Chiudi il visualizzatore visualizzato.
 1. Seleziona **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
@@ -47,7 +47,7 @@ Consulta [Aggiungere e modificare i predefiniti per visualizzatori](application-
 
 ## Utilizzare i predefiniti visualizzatore video {#working-with-video-viewer-presets}
 
-Gli utenti visualizzano i video nel visualizzatore video. Il comportamento del visualizzatore video, il relativo aspetto e il funzionamento dei controlli di riproduzione dipendono dal predefinito per visualizzatori scelto per la riproduzione del video. Potete scegliere un predefinito per visualizzatori nella schermata Anteprima. Dopo aver scelto un predefinito, potete ottenere l’URL per ottenere l’URL o il codice da incorporare per riprodurre il video mediante il predefinito per visualizzatore scelto.
+Gli utenti visualizzano i video nel visualizzatore video. Il comportamento del visualizzatore video, il relativo aspetto e il funzionamento dei controlli di riproduzione dipendono dal predefinito per visualizzatori scelto per la riproduzione del video. Potete scegliere un predefinito per visualizzatori nella schermata Anteprima. Dopo aver scelto un predefinito, puoi ottenere l’URL, o il codice di incorporamento, per riprodurre il video utilizzando il predefinito per visualizzatori scelto.
 
 In Adobe Dynamic Media Classic sono disponibili molti predefiniti visualizzatore per la riproduzione di video e, se sei un amministratore, puoi creare predefiniti visualizzatore personalizzati. Sono disponibili più di 12 impostazioni diverse per la configurazione del Visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
 
@@ -59,7 +59,7 @@ Vedi anche [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoView
 
 Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore e le rispettivi impostazioni predefinite. È inoltre possibile aggiungere e modificare predefiniti visualizzatore personalizzati o modificare predefiniti visualizzatore esistenti forniti con Adobe Dynamic Media Classic.
 
-In Predefiniti visualizzatore potete attivare, filtrare, ordinare e visualizzare in anteprima i predefiniti per visualizzatore.
+In Predefiniti visualizzatore puoi attivare, filtrare, ordinare e visualizzare in anteprima i predefiniti visualizzatore.
 
 Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_presets).
 

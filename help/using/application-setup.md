@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '11299'
-ht-degree: 40%
+source-wordcount: '11297'
+ht-degree: 38%
 
 ---
 
@@ -115,7 +115,7 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 Vedi anche [Opzioni processo di caricamento predefinito](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) video di formazione.
 
-* **[!UICONTROL Sovrascrivi immagini]** - Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#39;ID Adobe Dynamic Media Classic di ogni elemento (il nome immagine meno l&#39;estensione del nome file) deve essere univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con il suffisso “-1” (ad esempio, il file sedia.tif viene rinominato sedia-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consulta [Utilizzare l’opzione Sovrascrivi immagini](#using-the-overwrite-images-option).
+* **[!UICONTROL Sovrascrivi immagini]** - Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#39;ID Adobe Dynamic Media Classic di ogni elemento (il nome immagine meno l&#39;estensione del nome file) deve essere univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con un &quot;-1&quot; (ad esempio, chair.tif viene rinominato chair-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consulta [Utilizzare l’opzione Sovrascrivi immagini](#using-the-overwrite-images-option).
 
    * **[!UICONTROL Sovrascrivi in cartella corrente, nome/estensione immagine di base uguale]** - Questa opzione rappresenta la regola più rigorosa per la sostituzione. Richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’immagine originale e che abbia la stessa estensione del nome file dell’originale. Se entrambi i requisiti non vengono soddisfatti, viene creata una copia dell’immagine.
 
@@ -139,7 +139,7 @@ Vedi anche [Opzioni processo di caricamento predefinito](https://s7d5.scene7.com
 
 ### Altre impostazioni, su applicazione
 
-* **[!UICONTROL Avvertenze per la pulizia del cestino]** - Le risorse nel cestino vengono rimosse automaticamente entro sette giorni. Selezionate “Invia e-mail prima che gli elementi nel cestino siano eliminati automaticamente” se desiderate che vengano inviate notifiche agli amministratori dell’azienda quattro giorni prima che le risorse nel cestino vengano definitivamente eliminate. Consulta [Gestire la cartella Cestino](/help/using/trash-folder.md).
+* **[!UICONTROL Avvertenze per la pulizia del cestino]** - Le risorse nel cestino vengono rimosse automaticamente entro sette giorni. Seleziona &quot;Invia e-mail prima dell’eliminazione automatica degli elementi dal cestino&quot; se desideri che vengano inviate notifiche agli amministratori della società quando le risorse presenti nel cestino sono a quattro giorni dall’eliminazione definitiva. Consulta [Gestire la cartella Cestino](/help/using/trash-folder.md).
 
 ## Utilizzare l’opzione Sovrascrivi immagini {#using-the-overwrite-images-option}
 
@@ -193,7 +193,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
    * Opzioni Quantizzazione colore GIF
 
-      * **[!UICONTROL Tipo]** - Selezionare Adattivo (impostazione predefinita), Web o Macintosh. Se si seleziona **[!UICONTROL GIF con alfa]**, l&#39;opzione Macintosh non è disponibile.
+      * **[!UICONTROL Tipo]** - Selezionare Adattivo (impostazione predefinita), Web o Macintosh. Se si seleziona **[!UICONTROL GIF con Alpha]**, l&#39;opzione Macintosh non è disponibile.
 
       * **[!UICONTROL Retinatura]** - Selezionare Diffondi o Disattivato.
 
@@ -205,7 +205,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
       * **[!UICONTROL Qualità]** - Controlla il livello di compressione JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPEG è 1-100.
 
-      * **[!UICONTROL Abilita downsampling crominanza JPG]** - Poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni in luminanza e componenti di colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce di metà o un terzo il volume di dati, con impatto trascurabile sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
+      * **[!UICONTROL Abilita downsampling crominanza JPG]** - Poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni in luminanza e componenti di colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
    * Opzioni PDF e TIFF
 
@@ -251,7 +251,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Modificatori URL]** - Se preferisci specificare i modificatori URL che definiscono il predefinito immagine anziché le impostazioni, inseriscili qui.
 
-* **[!UICONTROL URL immagine di esempio]** : elenca la stringa URL &quot;raw&quot; utilizzata dal server immagini Dynamic Media per distribuire le immagini con il predefinito immagine che si sta aggiungendo o modificando. Questa stringa URL codifica tutte le impostazioni di formato selezionate nella schermata Aggiungi predefinito o Modifica predefinito.
+* **[!UICONTROL URL immagine di esempio]** : elenca la stringa URL &quot;raw&quot; utilizzata dal server immagini Dynamic Medie per distribuire le immagini con il predefinito immagine che si sta aggiungendo o modificando. Questa stringa URL codifica tutte le impostazioni di formato selezionate nella schermata Aggiungi predefinito o Modifica predefinito.
 
 ### Modificare, rimuovere o disattivare un predefinito immagine {#editing-removing-or-deactivating-an-image-preset}
 
@@ -266,7 +266,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 Adobe Dynamic Media Classic offre predefiniti di codifica per video adattivo. Si tratta di un elenco principale di predefiniti che combina in un unico gruppo sia predefiniti per video adattivo 16:9 che predefiniti per video adattivo 4:3. Tali predefiniti riflettono le impostazioni di codifica più comuni e sono ottimizzati per la riproduzione su dispositivi mobili, tablet e computer desktop.
 
-Solo i predefiniti di codifica video adattiva sono attivati (o “abilitati”) per impostazione predefinita. Se necessario, potete disattivarli. I predefiniti per video adattivi non attivati non vengono visualizzati come opzione selezionabile nella sezione eVideo della finestra di dialogo Opzioni processo di caricamento.
+Per impostazione predefinita, sono attivati solo i predefiniti di codifica &quot;Video adattivo&quot; (abilitati o &quot;attivati&quot;). Se necessario, potete disattivarli. I predefiniti per video adattivi non attivati non vengono visualizzati come opzione selezionabile nella sezione eVideo della finestra di dialogo Opzioni processo di caricamento.
 
 Consulta [Caricare e codificare i video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -286,15 +286,15 @@ Per selezionare un predefinito di codifica, nell’angolo inferiore destro della
 >
 >Ad eccezione di &quot;Video adattivo&quot;, che è abilitato per impostazione predefinita, non è possibile visualizzare tutti gli altri predefiniti per video adattivo o codifica video singola nella finestra di dialogo Opzioni processo di caricamento. Gli amministratori di Adobe Dynamic Media Classic determinano quali predefiniti di codifica video sono visibili nella finestra di dialogo Opzioni processo di caricamento.
 
-* Scegli tra la seguente codifica video adattiva o i predefiniti di codifica singola:
+* Scegli una delle seguenti impostazioni di codifica video adattiva o a codifica singola:
 
    * **[!UICONTROL Video adattivo 16:9]** - Creazione di video in formato 16:9 da distribuire a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™), ottimizzati con la risoluzione e la velocità bit che meglio corrispondono alla velocità di connessione del visualizzatore.
 
    * **[!UICONTROL Video adattivo 4:3]** - Creazione di video in formato 4:3 da distribuire a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™), ottimizzati con la risoluzione e la velocità bit che meglio corrispondono alla velocità di connessione del visualizzatore.
 
-   * **[!UICONTROL Video adattivo]** : un singolo predefinito di codifica che funziona con qualsiasi proporzione per creare video da distribuire su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, il valore della larghezza viene ridimensionato automaticamente per mantenere le proporzioni del video.
+   * **[!UICONTROL Video adattivo]** : predefinito a codifica singola che funziona con qualsiasi proporzione per creare video per la distribuzione su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video.
 
-     La flessibilità di questo ridimensionamento automatico è disponibile anche per impostazione predefinita quando create un predefinito di codifica video personalizzato.
+     Questa flessibilità di scalabilità automatica è disponibile anche per impostazione predefinita quando crei un predefinito di codifica video personalizzato.
 
      Consulta [Aggiungere o modificare un predefinito di codifica video](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
@@ -334,7 +334,7 @@ Le tabelle di seguito indicano le procedure ottimali per la scelta dei predefini
 
 ### Video adattivo (predefinito) {#adaptive-video-default}
 
-Per creare video da distribuire a dispositivi mobili, tablet e computer desktop; predefinito di codifica che funziona con qualsiasi proporzione. I video sorgente caricati e codificati con questo predefinito (per impostazione predefinita e procedura ottimale) sono impostati su un’altezza specifica, ma il valore della larghezza viene ridimensionato automaticamente per mantenere le proporzioni del video.
+Per creare video da distribuire a dispositivi mobili, tablet e computer desktop; predefinito di codifica che funziona con qualsiasi proporzione. I video sorgente caricati che vengono codificati utilizzando questo predefinito (l’impostazione predefinita e una best practice) sono impostati su un’altezza fissa, mentre la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video.
 
 **Video adattivo (predefinito)**
 
@@ -354,14 +354,14 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
-| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
-| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | Come sorgente | 64 | Risoluzione media, 3G |
-| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | Come sorgente | 64 | Risoluzione media, 3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Come sorgente | 80 | Risoluzione media, WiFi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Come sorgente | 80 | Risoluzione media, WiFi |
-| 7 | `16:9, 768x432, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | Come sorgente | 96 | Alta risoluzione, WiFi |
-| 8 | `4:3, 768x576, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | Come sorgente | 96 | Alta risoluzione, WiFi |
+| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
+| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
+| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | Come sorgente | 64 | Risoluzione media, 3G |
+| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | Come sorgente | 64 | Risoluzione media, 3G |
+| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Come sorgente | 80 | Risoluzione media, WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Come sorgente | 80 | Risoluzione media, WiFi |
+| 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | Come sorgente | 96 | Alta risoluzione, WiFi |
+| 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | Come sorgente | 96 | Alta risoluzione, WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Come sorgente | 128 | Widescreen ad alta definizione |
 | 10 | `4:3, 1280x960, Desktop, (2000 Kbps)` | 3,0 Mbps | _1280x960_2000K | 2000 Kbps | 1280x960 | Come sorgente | 128 | Alta definizione |
 
@@ -480,7 +480,7 @@ Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel,
 
 **Avviso sulla fine del ciclo di vita dei visualizzatori di Flash**: a partire dal 31 gennaio 2017, Adobe Dynamic Media Classic ha ufficialmente terminato il supporto per la piattaforma di visualizzazione del Flash.
 
-La tabella seguente identifica i predefiniti visualizzatore Adobe Dynamic Media Classic attualmente disponibili. Viene inoltre specificata la compatibilità con dispositivi desktop e mobili nonché la tecnologia utilizzata per ciascun visualizzatore.
+La tabella seguente identifica i predefiniti visualizzatore Adobe Dynamic Media Classic attualmente disponibili. La tabella specifica anche la compatibilità del visualizzatore con i dispositivi desktop e mobili e la tecnologia utilizzata per ogni visualizzatore specificato.
 
 Vedi anche [Esempi della libreria di riferimento per visualizzatori di Adobi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -528,7 +528,7 @@ Consulta [Note sulla versione di riferimento per visualizzatori Adobi](https://e
 Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264.
 
 * È possibile trovare i dispositivi BlackBerry® che supportano questo formato video al seguente indirizzo: [Formati video supportati su BlackBerry®](https://developers.blackberry.com/us/en)
-* È inoltre possibile trovare i dispositivi Windows® che supportano questo formato video nei seguenti percorsi: [Formati video supportati su Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
+* È inoltre possibile trovare i dispositivi Windows® che supportano questo formato video nei seguenti percorsi: [Formati video supportati su Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -579,7 +579,7 @@ La schermata Predefiniti visualizzatore offre strumenti che consentono di esegui
   
 * **Ordinare i predefiniti** - Selezionare un&#39;intestazione di colonna (**[!UICONTROL Attivo]**, **[!UICONTROL Tipo]**, **[!UICONTROL Predefinito]**, o **[!UICONTROL Piattaforma]**) per ordinare l&#39;elenco in base a una colonna. Selezionare un&#39;intestazione di colonna una seconda volta per ordinare l&#39;elenco in ordine decrescente o crescente.
 
-* **Attivare e disattivare i predefiniti** - Selezionare un predefinito, quindi selezionare l&#39;opzione Attivo per attivarlo o disattivarlo.
+* **Attivare e disattivare i predefiniti** - Selezionare un predefinito, quindi selezionare l&#39;opzione Attivo corrispondente in modo da poterlo attivare o disattivare.
 
       Consultate [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_preets).
   
@@ -662,7 +662,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consulta [Carica file](uploading-files.md#uploading_files).
 
-1. Pubblica il file CSS sul server immagini Dynamic Media.
+1. Pubblica il file CSS sul server immagini Dynamic Medie.
 
    Consulta [Pubblicare i file](publishing-files.md#publishing_files).
 
@@ -749,7 +749,7 @@ Puoi utilizzare i visualizzatori predefiniti per configurare il visualizzatore p
 1. Nell’elenco a discesa Configurazione, seleziona **[!UICONTROL Impostazione applicazione]**.
 1. Nella finestra Configurazione, nel riquadro a sinistra, passare a **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Visualizzatori]**
 1. Seleziona **[!UICONTROL Visualizzatori predefiniti]**.
-1. Nella finestra Visualizzatori predefiniti, nell’elenco a discesa per ogni tipo di risorsa, selezionate il visualizzatore da associare all’anteprima della risorsa.
+1. Nella finestra Visualizzatori predefiniti, seleziona nell’elenco a discesa per ciascun tipo di risorsa il visualizzatore da associare all’anteprima della risorsa.
 1. Nell&#39;angolo inferiore destro della finestra Visualizzatori predefiniti, selezionare **[!UICONTROL Salva impostazioni]**.
 1. Nell&#39;angolo in basso a destra della finestra Setup (Impostazione), selezionare **[!UICONTROL Chiudi]** per tornare alla finestra Risorsa.
 
@@ -820,7 +820,7 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
 >[!NOTE]
 >
->Per cercare le risorse utilizzando campi personalizzati definiti dall’utente, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**, quindi selezionare **[!UICONTROL Includi FDU nella ricerca]**. Consultate [Configurazione personale](personal-setup.md#personal_setup).
+>Per cercare le risorse utilizzando campi personalizzati definiti dall’utente, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]** e quindi selezionare **[!UICONTROL Includi FDU nella ricerca]**. Consultate [Configurazione personale](personal-setup.md#personal_setup).
 
 ### Creare un campo di metadati definito dall&#39;utente {#creating-a-user-defined-metadata-field}
 
@@ -872,15 +872,15 @@ Per aprire questa schermata, vai a **[!UICONTROL Configurazione]** > **[!UICONTR
 
 * **Eliminare un campo** - Selezionare il campo, quindi selezionare **[!UICONTROL Elimina]**.
 
-* **Attiva campo** - Selezionare o deselezionare la **[!UICONTROL Attivo]** accanto al nome di un campo. Se hai il ruolo di amministrazione aziendale, questa opzione non viene visualizzata. Poiché questa opzione è relativa a Media Portal, è necessario selezionare (attivare) Mostra funzionalità Media Portal in Impostazione personale per visualizzare i campi di attivazione.
+* **Attiva campo** - Selezionare o deselezionare la **[!UICONTROL Attivo]** accanto al nome di un campo. Se hai il ruolo di amministrazione aziendale, questa opzione non viene visualizzata. Poiché questa opzione è correlata a Media Portal, è necessario selezionare (attivare) Mostra funzionalità Media Portal in Impostazione personale per visualizzare i campi attivati.
 
 ## Ottimizzare i file {#optimize-files}
 
-Quando si caricano i file in Adobe Dynamic Media Classic, il sistema li ottimizza per l&#39;archiviazione e la pubblicazione. Tuttavia, se il processo di caricamento viene interrotto, alcune immagini potrebbero non essere ottimizzate. In questo caso viene visualizzato il messaggio “Immagine non ancora ottimizzata”. Tali file possono comunque essere ottimizzati dagli utenti con ruolo di amministratore.
+Quando si caricano i file in Adobe Dynamic Media Classic, il sistema li ottimizza per l&#39;archiviazione e la pubblicazione. Tuttavia, se il processo di caricamento viene interrotto, alcune immagini potrebbero non essere ottimizzate. In questo caso, viene visualizzato il messaggio &quot;Immagine non ancora ottimizzata&quot;. Tali file possono comunque essere ottimizzati dagli utenti con ruolo di amministratore.
 
 Adobe Dynamic Media Classic esegue la ricerca nei file e ottimizza solo le immagini che non erano state completamente ottimizzate in precedenza.
 
-1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]**, quindi selezionare **[!UICONTROL Ottimizza file]**.
+1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** e quindi selezionare **[!UICONTROL Ottimizza file]**.
 1. Immettere le informazioni per il job di ottimizzazione e selezionare **[!UICONTROL Invia]**.
 
    Se lavorate con più società, ottimizzate separatamente i file appartenenti a società diverse.
@@ -914,7 +914,7 @@ Per utilizzare la funzionalità di predefinito per set di batch non è necessari
 
 In alternativa, potete usare l’opzione Visualizza codice, senza campi del modulo. In questa vista puoi creare le definizioni delle convenzioni di denominazione interamente utilizzando espressioni regolari.
 
-Per la definizione sono disponibili due elementi, Corrispondenza e Nome base. Questi campi consentono di definire tutti gli elementi di una convenzione di denominazione e identificare la porzione della convenzione usata per denominare il set in cui sono contenuti. Una convenzione di denominazione individuale di un’impresa potrebbe utilizzare una o più righe di definizione per ciascuno di questi elementi. Potete usare tutte le righe necessarie a creare una definizione univoca e raggrupparle in elementi distinti, ad esempio per l’immagine principale, l’elemento colore, l’elemento visualizzazione alternativa e l’elemento campione.
+Per la definizione sono disponibili due elementi, Corrispondenza e Nome base. Questi campi consentono di definire tutti gli elementi di una convenzione di denominazione e identificare la porzione della convenzione usata per denominare il set in cui sono contenuti. La convenzione di denominazione individuale di un’azienda può utilizzare una o più righe di definizione per ciascuno di questi elementi. Potete usare tutte le righe necessarie a creare una definizione univoca e raggrupparle in elementi distinti, ad esempio per l’immagine principale, l’elemento colore, l’elemento visualizzazione alternativa e l’elemento campione.
 
 ### Creare un predefinito per set di batch {#creating-a-batch-set-preset}
 
@@ -951,7 +951,7 @@ Vedi anche [Set 360 gradi 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewe
 
 ### Creare un predefinito per set di batch per la generazione automatica di un set 360 gradi 2D {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
-Potete usare il tipo di set di batch **Set 360 gradi con asse multiplo** per creare una definizione che automatizza la generazione di set 360 gradi 2D. Il raggruppamento delle immagini utilizza espressioni regolari per riga e colonna per il corretto allineamento delle risorse di immagini nella posizione corrispondente nell’array multidimensionale.
+È possibile utilizzare il tipo di set di batch **Set 360 gradi con asse multiplo** per creare una &quot;ricetta&quot; che automatizza la generazione di set 360 gradi 2D. Il raggruppamento delle immagini utilizza espressioni regolari per riga e colonna per il corretto allineamento delle risorse di immagini nella posizione corrispondente nell’array multidimensionale.
 
 Vedi anche [Creare un predefinito per set di batch](application-setup.md#creating_a_batch_set_preset).
 
@@ -983,7 +983,7 @@ Quando il set 360 gradi viene caricato e pubblicato, potete attivare il nome del
 1. Nel pannello Elenco predefiniti, selezionate **[!UICONTROL Aggiungi]** per attivare i campi di definizione nel pannello Dettagli sul lato destro della pagina.
 1. Nel pannello Dettagli, digitate nel campo Nome predefinito il nome da assegnare al predefinito.
 1. Selezionate **[!UICONTROL Set risorse]** dal menu a discesa Tipo set di batch.
-1. Nell’elenco a discesa Sottotipo, selezionate **[!UICONTROL Set 360 gradi con asse multiplo]**.
+1. Nell’elenco a discesa Sottotipo, seleziona **[!UICONTROL Set 360 gradi con asse multiplo]**.
 1. Espandi **[!UICONTROL Convenzioni di denominazione delle risorse]** e quindi nell&#39;elenco a discesa Denominazione file selezionare **[!UICONTROL Personalizzato]**.
 1. Utilizzate gli attributi **[!UICONTROL Corrispondenza]** e, facoltativamente, **[!UICONTROL Nome base]** per definire un’espressione regolare per la denominazione delle risorse di immagine che compongono il gruppo.
 
@@ -995,7 +995,7 @@ Quando il set 360 gradi viene caricato e pubblicato, potete attivare il nome del
 
    Usate le parentesi per racchiudere la posizione di riga o colonna nel nome file.
 
-   Ad esempio, per l’espressione regolare di riga, potrebbe avere l’aspetto seguente:
+   Ad esempio, per l’espressione regolare della riga, potrebbe essere simile alla seguente:
 
    `\w+-R([0-9]+)-\w+`
 
@@ -1015,7 +1015,7 @@ Quando il set 360 gradi viene caricato e pubblicato, potete attivare il nome del
 
    >[!NOTE]
    >
-   >Se la combinazione di espressioni regolari in righe e colonne non è in grado di determinare la posizione della risorsa all’interno della matrice multidimensionale dei set 360 gradi, la risorsa non viene aggiunta al set e viene registrato un errore.
+   >Se la combinazione di espressioni regolari in righe e colonne non è in grado di determinare la posizione della risorsa all’interno della matrice del set 360 gradi multidimensionale, tale risorsa non viene aggiunta al set e viene registrato un errore.
 
 1. Per Imposta convenzione di denominazione e creazione, specificate il suffisso o il prefisso da aggiungere al nome di base definito nella convenzione di denominazione della risorsa. Definisci anche dove viene creato il set di immagini nella struttura di cartelle di Adobe Dynamic Media Classic.
 

@@ -1,21 +1,19 @@
 ---
 title: "Guida introduttiva: eCatalog"
 description: Introduzione e Guida rapida agli eCatalog per aiutarti a iniziare rapidamente a utilizzare le tecniche di eCatalog in Adobe Dynamic Media Classic.
-uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 36%
+source-wordcount: '1560'
+ht-degree: 35%
 
 ---
 
@@ -50,11 +48,11 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 
 >[!NOTE]
 >
->Se sei un utente in modalità Dynamic Media - Scene7 e desideri utilizzare gli eCatalog, modifica il `pdfbrochure` valore in CRXDE Lite. Per farlo, in Adobe Experience Manager, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Generale]** > **[!UICONTROL CRXDE Lite]**. Nella struttura di navigazione del pannello sinistro, passa a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Se sei un utente in modalità Dynamic Medie - Scene7 e desideri utilizzare gli eCatalog, modifica il `pdfbrochure` valore in CRXDE Liti. Per farlo, in Adobe Experience Manager, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Generale]** > **[!UICONTROL CRXDE Liti]**. Nella struttura di navigazione del pannello sinistro, passa a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >Nel riquadro in basso a destra, nella **[!UICONTROL Proprietà]** , seleziona la scheda `jobParam` riga. Imposta il valore per `pdfbrochure` da `false` a `true`. Come in `pdfbrochure=true`
 >
->Nell’angolo superiore sinistro della pagina CRXDE Lite, seleziona **[!UICONTROL Salva tutto]**.
+>Nell’angolo superiore sinistro della pagina CRXDE Liti, seleziona **[!UICONTROL Salva tutto]**.
 >
 >Ora puoi creare eCatalog in Adobe Dynamic Media Classic.
 
@@ -100,7 +98,7 @@ Consulta [Gestire il contenuto del pannello informazioni nei cataloghi elettroni
 
 ## 4. Configurare i predefiniti per il visualizzatore eCatalog
 
-Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog e personalizzarlo modificandone il colore di contorno e selezionando una nuova interfaccia. Adobe Dynamic Media Classic viene fornito con diversi predefiniti visualizzatore eCatalog basati sulle best practice. Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
+Gli utenti finali possono vedere l’eCatalog nel visualizzatore per eCatalog. Se siete un amministratore, potete configurare il visualizzatore per eCatalog Puoi modificarne il colore di struttura e selezionare una nuova &quot;interfaccia&quot; per applicare il marchio al tuo eCatalog. Adobe Dynamic Media Classic viene fornito con diversi predefiniti visualizzatore eCatalog basati sulle best practice. Potete scegliere uno di questi predefiniti per la visualizzazione dell’eCatalog. Se siete un amministratore, potete inoltre creare un predefinito personalizzato per visualizzatori di eCatalog.
 
 Per creare un predefinito visualizzatore eCatalog, nella barra di navigazione globale, seleziona **[!UICONTROL Configurazione]** e quindi scegliere **[!UICONTROL Predefiniti visualizzatore]**. Seleziona **[!UICONTROL Aggiungi]**, scegli una piattaforma, quindi seleziona **[!UICONTROL eCatalog]** > **[!UICONTROL Visualizzatore]**.
 
@@ -118,7 +116,7 @@ Consulta [Anteprima dei cataloghi elettronici nel visualizzatore eCatalog](previ
 
 ## 6. Pubblicare eCatalog e PDF associati
 
-La pubblicazione dell’eCatalog e dei PDF associati lo inserisce nei server immagini Dynamic Media in modo che possa essere consegnato al sito web e all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzare questo URL per chiamare l&#39;eCatalog dai server immagini Dynamic Media al sito Web o all&#39;applicazione.
+La pubblicazione dell’eCatalog e dei PDF associati lo inserisce nei server immagini Dynamic Medie in modo che possa essere consegnato al sito web e all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzare questo URL per chiamare l&#39;eCatalog dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
 
 Dopo aver contrassegnato l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, seleziona il pulsante Pubblica sulla barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica, seleziona **[!UICONTROL Invia pubblicazione]**.
 
@@ -126,7 +124,7 @@ Consulta [Pubblicare eCatalog e PDF associati](publishing-ecatalogs-associated-p
 
 ## 7. Collegare un eCatalog a una pagina web
 
-Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Media Image Server. Puoi copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in Visualizzazione dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
+Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Medie Image Server. Puoi copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in Visualizzazione dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
 
 Consultate il personale IT per inserire il collegamento all’eCatalog nella posizione appropriata sulla pagina Web. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore eCatalog e gli utenti possono sfogliare l&#39;eCatalog.
 

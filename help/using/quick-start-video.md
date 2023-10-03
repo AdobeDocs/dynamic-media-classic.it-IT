@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 25%
+source-wordcount: '1817'
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Dynamic Media Classic Video è una soluzione end-to-end che consente di pu
 
 Ad esempio, un dispositivo mobile iOS può rilevare un’ampiezza di banda 3G, 4G o Wi-Fi. Quindi seleziona automaticamente il video con la codifica corretta tra i vari bitrate presenti nel set video adattivo. Il video viene inviato in streaming a computer desktop, dispositivi mobili o tablet.
 
-Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Inoltre, se un cliente entra in modalità a tutto schermo su un desktop, il set video adattivo risponde utilizzando una risoluzione migliore, migliorando l’esperienza di visualizzazione del cliente. L’utilizzo di set video adattivi offre la migliore riproduzione possibile per i clienti che riproducono video Adobe Dynamic Media Classic su più schermi e dispositivi.
+Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Inoltre, se un cliente entra in modalità a tutto schermo su un desktop, il set video adattivo risponde con una risoluzione migliore, migliorando l’esperienza di visualizzazione del cliente. L’utilizzo di set video adattivi offre la migliore riproduzione possibile per i clienti che riproducono video Adobe Dynamic Media Classic su più schermi e dispositivi.
 
 Per determinare quale video codificato riprodurre o selezionare per la riproduzione, il lettore video utilizza l’algoritmo seguente:
 
@@ -31,13 +31,13 @@ Per determinare quale video codificato riprodurre o selezionare per la riproduzi
 1. Il lettore video cambia in base alle modifiche apportate alla velocità della larghezza di banda utilizzando i seguenti criteri:
 
    1. Il lettore sceglie il flusso di larghezza di banda più alto al di sotto o uguale alla larghezza di banda stimata.
-   1. Il lettore considera solo l&#39;80% della larghezza di banda disponibile. Tuttavia, se si sta passando, è più prudente solo al 70% per evitare di sovrastimare e dover cambiare immediatamente.
+   1. Il lettore considera solo l&#39;80% della larghezza di banda disponibile. Tuttavia, se sta passando a up, è più prudente a solo il 70% per evitare di sopravvalutare e dover tornare immediatamente indietro.
 
 Vedi la logica dell’algoritmo in [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) per informazioni tecniche su di esso.
 
-Per la gestione di set video singoli e adattivi, Adobe Dynamic Media Classic supporta quanto segue:
+Per la gestione di singoli video e set di video adattivi, Adobe Dynamic Media Classic supporta quanto segue:
 
-* Caricamento di video da numerosi formati video e formati audio supportati e codifica video in formato MP4 H.264 per la riproduzione su più schermi. È possibile utilizzare predefiniti per video adattivi Adobe Dynamic Media Classic, predefiniti per codifica video singola o personalizzare la propria codifica per controllare la qualità e le dimensioni del video.
+* Caricamento di video da numerosi formati video e formati audio supportati e codifica dei video nel formato MP4 H.264 per la riproduzione su schermi diversi. È possibile utilizzare predefiniti per video adattivi Adobe Dynamic Media Classic, predefiniti per codifica video singola o personalizzare la propria codifica per controllare la qualità e le dimensioni del video.
 
 Consulta [Attivare o disattivare i predefiniti per video adattivi](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
@@ -56,7 +56,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
   Consulta [Aggiungere marcatori capitolo al video](adding-chapter-markers-video.md).
 
 * Organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. 
-* Distribuisci set video adattivi sul web, sui desktop e sui dispositivi mobili, inclusi iPhone, iPad, Android™, BlackBerry® e Windows®.
+* Distribuisci set video adattivi sul web e su desktop e dispositivi mobili, inclusi i telefoni iPhone, iPad, Android™, BlackBerry® e Windows®.
 
   Lo streaming video adattivo è supportato su varie piattaforme iOS.
 
@@ -68,7 +68,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
   I dispositivi Windows® che supportano questo formato video sono disponibili nei seguenti percorsi:
 
-  Consulta [Formati video supportati su Windows® Phone](https://docs.microsoft.com/en-us/).
+  Consulta [Formati video supportati su Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * Riproduci il video utilizzando i predefiniti visualizzatore Adobe Dynamic Media Classic, inclusi i seguenti elementi:
 
@@ -136,7 +136,7 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
 * Visualizzare il video nella propria finestra a comparsa o modale, nel qual caso utilizzare il **[!UICONTROL Copia URL]** funzionalità.
 
-  Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Seleziona **[!UICONTROL Anteprima]**, quindi selezionare **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
+  Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Seleziona **[!UICONTROL Anteprima]** e quindi selezionare **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
 
   Quando selezioni **[!UICONTROL Copia URL]**, l’URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
 
@@ -148,7 +148,7 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
   Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
-  Seleziona **[!UICONTROL Chiudi]** e incolla il codice da incorporare nelle pagine web.
+  Seleziona **[!UICONTROL Chiudi]** e incolla il codice da incorporare in una o più pagine web.
 
   >[!NOTE]
   >

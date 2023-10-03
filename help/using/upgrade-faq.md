@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * Gestione delle risorse digitali a livello aziendale con supporto affidabile per i metadati, ricerca intelligente, lightbox e raccolte, controllo delle versioni e condivisione sicura delle risorse da utilizzare da parte di fornitori, partner e affiliati Flussi di lavoro di revisione e approvazione per le risorse WIP.
 * Semplicità di adozione e utilizzo con la nuova interfaccia.
 * Crea esperienze multimediali acquistabili/interattive utilizzando immagini e video che guidano la conversione e arricchiscono il coinvolgimento e la soddisfazione degli utenti.
-* Combina le risorse della campagna con le informazioni sul prodotto per semplificare il click to cart.
+* Combina le risorse della campagna con le informazioni sul prodotto per semplificare il clic sul carrello.
 * È possibile creare, regolare, inserire il marchio e distribuire facilmente visualizzatori interattivi mediante WYSIWYG Viewer Designer.
 * Ottimizzazione dei rich media per [!DNL Experience Cloud] soluzioni.
 * Integrazione con [!DNL Experience Cloud] per analisi avanzate delle risorse, targeting e riutilizzo delle risorse tra i punti di contatto di marketing. Tali punti di contatto includono [!DNL Adobe Campaign] per la posta elettronica, [!DNL Adobe Social] per canali social, e [!DNL Experience Manager] Siti per app web e mobili dinamiche.
@@ -114,7 +114,7 @@ Non può contenere. Adobe continua a supportare e mantenere pienamente [!DNL Dyn
 +++
 
 +++**Posso continuare a utilizzare [!DNL Dynamic Media Classic] (precedentemente Adobe Scene7) dopo l’aggiornamento a [!DNL Dynamic Media]?**
-Dopo aver effettuato l’aggiornamento a [!DNL Dynamic Media], è consigliabile utilizzare Dynamic Media solo per immagini e video. Puoi continuare a utilizzare [!DNL Dynamic Media Classic] solo per funzioni non ancora disponibili in [!DNL Dynamic Media] compresi i seguenti:
+Dopo aver effettuato l’aggiornamento a [!DNL Dynamic Media], è consigliabile utilizzare Dynamic Medie solo per immagini e video. Puoi continuare a utilizzare [!DNL Dynamic Media Classic] solo per funzioni non ancora disponibili in [!DNL Dynamic Media] compresi i seguenti:
 
 * Configuratore visivo (autore immagine, rendering immagine).
 * Modelli di immagine.
@@ -177,7 +177,7 @@ Adobe continua a supportare e mantenere pienamente [!DNL Dynamic Media Classic] 
 +++
 
 +++**Quanta capacità di storage offre [!DNL Dynamic Media]?**
-Sono inclusi 60 GB di spazio di archiviazione. È possibile acquistare storage aggiuntivo in blocchi da 250 GB. Controlla i dettagli del tuo contratto per ottenere la tua attuale assegnazione di spazio di archiviazione.
+Dynamic Medie viene fornito con 60 GB di storage. È possibile acquistare storage aggiuntivo in blocchi da 250 GB. Controlla i dettagli del tuo contratto in modo da poter ottenere la tua attuale assegnazione di storage.
 
 +++
 
@@ -206,8 +206,8 @@ Sì. Puoi utilizzare una tua rete CDN con [!DNL Dynamic Media].
 
 +++
 
-+++**Does [!DNL Dynamic Media] dispone delle funzionalità necessarie per l&#39;aggiornamento? Quali funzioni sono disponibili con [!DNL Dynamic Media] il [!DNL Experience Manager] Risorse?**
-Consulta la [Caratteristiche a confronto](/help/using/upgrade-feature-comparison.md) per saperne di più.
++++**Does [!DNL Dynamic Media] dispone delle funzionalità necessarie per effettuare l&#39;aggiornamento? Quali funzioni sono disponibili con [!DNL Dynamic Media] il [!DNL Experience Manager] Risorse?**
+Consulta la [Caratteristiche a confronto](/help/using/upgrade-feature-comparison.md) pagina in cui puoi saperne di più.
 
 +++
 
@@ -218,7 +218,7 @@ I clienti che richiedono quanto segue possono continuare ad avere accesso a [!DN
 * Modelli di immagine.
 * eCatalog.
 
-Consulta anche [Caratteristiche a confronto](/help/using/upgrade-feature-comparison.md) per saperne di più.
+Consulta anche [Caratteristiche a confronto](/help/using/upgrade-feature-comparison.md) pagina in cui puoi saperne di più.
 
 +++
 

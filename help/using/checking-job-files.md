@@ -12,10 +12,10 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 39%
+source-wordcount: '1598'
+ht-degree: 28%
 
 ---
 
@@ -51,7 +51,7 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 * **[!UICONTROL Stato]** - Mostra lo stato del processo.
 
-* **[!UICONTROL Destinazione]** : per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non può essere applicata ai processi di pubblicazione.
+* **[!UICONTROL Destinazione]** : per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non si applica ai processi per la pubblicazione.
 
 * **[!UICONTROL Inviato da]** : elenca chi ha caricato le risorse.
 
@@ -73,7 +73,7 @@ Per ordinare i processi o modificare la visualizzazione della scheda Cronologia 
 
 ## Visualizzare, copiare o stampare un rapporto Dettagli lavoro {#viewing-copying-or-printing-a-job-details-report}
 
-Fare doppio clic sul nome di un report nella pagina Job per aprire la pagina Dettagli job. Questa pagina fornisce un rapporto riassuntivo sui file inclusi nel processo. Seleziona **[!UICONTROL Visualizza dettagli]** in modo da visualizzare l’ID Adobe Dynamic Media Classic, il percorso di destinazione e le informazioni sullo stato di una voce. Se avete caricato un file PDF o PostScript che richiede font non disponibili in Adobe Dynamic Media Classic, il report elenca i font mancanti.
+Fare doppio clic sul nome di un report nella pagina Job per aprire la pagina Dettagli job. Questa pagina fornisce un rapporto riassuntivo sui file inclusi nel processo. Seleziona **[!UICONTROL Visualizza dettagli]** in modo da visualizzare l&#39;ID Adobe Dynamic Media Classic, il percorso di destinazione e le informazioni sullo stato di una voce. Se avete caricato un file PDF o PostScript che richiede font non disponibili in Adobe Dynamic Media Classic, il report elenca i font mancanti.
 
 Potete copiare queste informazioni negli Appunti.
 
@@ -83,7 +83,7 @@ Potete copiare queste informazioni negli Appunti.
 
 ## Gestire i processi di caricamento e pubblicazione ricorrenti {#handling-recurring-upload-and-publish-jobs}
 
-I processi di caricamento e pubblicazione periodici creati nelle pagine Carica e Pubblica sono visualizzati nella scheda Pianificati della pagina Processi. In questa schermata potete modificare ed eliminare i processi periodici.
+I processi di caricamento e pubblicazione ricorrenti, creati nelle pagine Carica e Pubblica, sono elencati nella scheda Pianificato della pagina Processi. In questa schermata potete modificare ed eliminare i processi periodici.
 
 Selezionare il pulsante Processi sulla barra di navigazione globale e nella pagina Processi selezionare **[!UICONTROL Pianificato]** in modo da poter modificare ed eliminare i processi ricorrenti.
 
@@ -122,9 +122,9 @@ In questa tabella vengono visualizzati gli incrementi temporali, i relativi valo
 | Secondi | 0-59 |  | `, - * /` |
 | Minuti | 0-59 |  | `, - * /` |
 | Ore | 0-23 | Notare l’uso dell’orologio costituito da 24 ore. | `, - * /` |
-| Giorno del mese | 1-31 | Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C` |
+| Giorno del mese | 1-31 | Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C` |
 | Mese | 1-12 o gen, feb, mar, apr, mag, giu, lug, ago, set, set, ott, nov, dic | I valori fanno distinzione tra maiuscole e minuscole. | `, - * /` |
-| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori fanno distinzione tra maiuscole e minuscole. Per “giorno del mese” e “giorno della settimana” non potete specificare valori numerici. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C #` |
+| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori fanno distinzione tra maiuscole e minuscole. Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C #` |
 | Anno (facoltativo) | Vuoto o 1970-2099 |  | `, - * /` |
 
 
@@ -132,14 +132,14 @@ Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casell
 
 | Carattere jolly | Nome | Descrizione |
 |--- |--- |--- |
-| `*` | Asterisco | Tutti i valori (ad esempio “ogni minuto”). |
-| `?` | Punto interrogativo | Nessun valore specifico (ad esempio, “un minuto qualsiasi nell’ora specificata”). |
+| `*` | Asterisco | Tutti i valori (ad esempio, &quot;ogni minuto&quot;). |
+| `?` | Punto interrogativo | Nessun valore specifico, ad esempio &quot;qualsiasi minuto entro l’ora specificata&quot;. |
 | `,` | Virgola | Altri valori (ad esempio, &quot;Lunedì e mercoledì&quot;). |
-| `-` | Trattino | Intervallo di valori (ad esempio “Da lunedì a venerdì”). |
-| `/` | Barra | Incrementi (ad esempio, “ogni 15 minuti”). |
-| `L` | L maiuscola | Ultimo “giorno del mese” o “giorno della settimana” (disponibile solo per questi campi). Se ad esempio il mese è Gennaio, un valore L per il campo “giorno del mese” pianifica l’esecuzione del processo per il 31 gennaio. Per il campo “giorno della settimana” potete immettere solo questo carattere per pianificare il processo ogni sabato. Puoi utilizzarlo con un numero (ad esempio, `6L`) per specificare l&#39;ultimo venerdì del mese. Non specificare `L` con i caratteri jolly virgola o trattino. |
-| `#` | Segno di numero | “Ennesimo” giorno del mese (disponibile solo per il campo “giorno della settimana”). Ad esempio: `6#3` nel campo &quot;giorno della settimana&quot; è specificato il terzo venerdì del mese. Il `6` indica &quot;Friday&quot; (il sesto giorno della settimana) e il `3` indica la terza occorrenza del mese. |
-| `C` | # C maiuscolo | Primo “giorno del mese” o “giorno della settimana” del calendario (disponibile solo per questi campi). Ad esempio, specificando un valore di `1C` per &quot;giorno del mese&quot; pianifica il primo giorno del calendario che si verifica il o dopo il quinto. Per il campo &quot;giorno della settimana&quot;, specificare `1C` pianifica il primo giorno del calendario che si verifica domenica o dopo domenica |
+| `-` | Trattino | Intervallo di valori (ad esempio, &quot;da lunedì a venerdì&quot;). |
+| `/` | Barra | Incrementi (ad esempio, &quot;ogni 15 minuti&quot;). |
+| `L` | L maiuscola | Ultimo &quot;giorno del mese&quot; o &quot;giorno della settimana&quot; (disponibile solo per questi campi). Ad esempio, se il mese è gennaio, un valore L per il campo &quot;giorno del mese&quot; pianifica il processo per il 31 gennaio. Per il campo &quot;giorno della settimana&quot;, è possibile immettere questo carattere solo per pianificare il lavoro il sabato. Puoi utilizzarlo con un numero (ad esempio, `6L`) per specificare l&#39;ultimo venerdì del mese. Non specificare `L` con i caratteri jolly virgola o trattino. |
+| `#` | Segno di numero | &quot;Nth&quot; weekend day of the month (disponibile solo per il campo &quot;day of the week&quot;). Ad esempio: `6#3` nel campo &quot;giorno della settimana&quot; è specificato il terzo venerdì del mese. Il `6` indica &quot;Friday&quot; (il sesto giorno della settimana) e il `3` indica la terza occorrenza del mese. |
+| `C` | # C maiuscolo | Primo calendario &quot;giorno del mese&quot; o &quot;giorno della settimana&quot; (disponibile solo per questi campi). Ad esempio, specificando un valore di `1C` per &quot;giorno del mese&quot; pianifica il primo giorno del calendario che si verifica il o dopo il quinto. Per il campo &quot;giorno della settimana&quot;, specificare `1C` pianifica il primo giorno del calendario che si verifica domenica o dopo domenica |
 
 Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli intervalli temporali nella casella Regola:
 

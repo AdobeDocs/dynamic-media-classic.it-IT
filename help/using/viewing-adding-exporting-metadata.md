@@ -12,7 +12,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '2261'
 ht-degree: 45%
@@ -31,7 +31,7 @@ Per ulteriori informazioni sui metadati incorporati, consulta [Piattaforma metad
 
 ## Visualizzare i metadati {#view-metadata}
 
-Per visualizzare i metadati di una risorsa, apri la risorsa in Visualizzazione dettagli e tocca il pannello Metadati. Per selezionare un set di campi di metadati, scegliere un&#39;opzione dal menu Visualizzazione metadati. Adobe Dynamic Media Classic offre le seguenti visualizzazioni metadati:
+Per visualizzare i metadati di una risorsa, apri la risorsa in Vista dettagli e tocca il pannello Metadati. Per selezionare un set di campi di metadati, scegliere un&#39;opzione dal menu Visualizzazione metadati. Adobe Dynamic Media Classic offre le seguenti visualizzazioni metadati:
 
 * **Vista compatta** - Un elenco di base di valori.
 
@@ -139,7 +139,7 @@ Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]**. Per impor
 
 Utilizzando i metadati importati da un file delimitato da tabulazioni o da un file XML, è possibile rinominare gli ID Adobe Dynamic Media Classic. I metadati importati vengono applicati solo alle immagini specificate nel file di metadati. Non importa se le immagini sono selezionate nel pannello Sfoglia.
 
-Per rinominare l’ID Adobe Dynamic Media Classic di un’immagine, aggiungi una colonna etichettata *newipsid* nel file delimitato da tabulazioni oppure aggiungere un campo denominato `new_vc_objectname` ai dati XML.
+Per rinominare l&#39;ID Adobe Dynamic Media Classic di un&#39;immagine, aggiungi una colonna etichettata *newipsid* nel file delimitato da tabulazioni oppure aggiungere un campo denominato `new_vc_objectname` ai dati XML.
 
 Ad esempio:
 
@@ -176,7 +176,7 @@ Potete utilizzare l’Editor schema metadati per effettuare le operazioni seguen
 | Aggiungi | Aggiunge una proprietà allo schema. Una finestra di dialogo modale raccoglie le informazioni: ID, Etichetta, Struttura e Tipo di dati. |
 | Aggiungi valore di scelta | Aggiunge una nuova scelta selezionabile a una proprietà con struttura Scelta aperta o Scelta chiusa. Tutti i valori di scelta sono dello stesso tipo. Seleziona la proprietà stessa per abilitare il pulsante. |
 | Modifica | Modifica l’etichetta di una proprietà o di un valore di scelta. Potete modificare solo le informazioni di Etichetta e ID; Tipo non è modificabile. |
-| Sposta in alto/Sposta in basso | L’ordine impostato nello schema viene rispecchiato nell’interfaccia utente. Per modificare l’ordine, selezionate una proprietà o un valore di scelta e utilizzate questi pulsanti. Il trascinamento della selezione non è al momento supportato. |
+| Sposta in alto/Sposta in basso | L’ordine impostato nello schema viene rispecchiato nell’interfaccia utente. Per modificare l’ordine, selezionate una proprietà o un valore di scelta e utilizzate questi pulsanti. Il trascinamento della selezione non è attualmente supportato. |
 | Elimina | Elimina dallo schema una proprietà o un valore di scelta. Non elimina i valori dal blocco XMP o dal database. La proprietà non è più disponibile per le visualizzazioni metadati e viene rimossa dalla visualizzazione Dettagli risorsa. Se la proprietà è stata pubblicata sul server metadati, esegui una pubblicazione forzata per rimuovere i dati dal server metadati rivolto al pubblico. |
 
 Il sistema genera automaticamente uno schema personalizzato per i campi definiti dall&#39;utente con il prefisso `s7udf`. Si tratta di campi definiti dall&#39;utente esistenti che vengono modificati nella sezione Configurazione.

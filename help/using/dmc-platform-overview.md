@@ -12,7 +12,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 17%
@@ -50,4 +50,4 @@ Le stringhe URL generate con Adobe Dynamic Media Classic includono istruzioni ch
 
 ## Memorizzazione dei contenuti nella cache {#content-caching}
 
-Le immagini generate dinamicamente da Adobe Dynamic Media Classic sono favorevoli alla cache; in genere, sono immagini JPEG con chiamate URL univoche che le identificano. Le immagini vengono pubblicate sulla rete CDN (content delivery network, rete di distribuzione dei contenuti), un sistema di server in rete su Internet che consente di trasmettere i contenuti più rapidamente. Le immagini vengono distribuite dai server a livello globale ai computer degli utenti. Quando si implementa un meccanismo di caching utilizzando un fornitore CDN, è sufficiente modificare il nome del server in modo che punti al server immagini Dynamic Media abilitato per CDN. Tutte le edizioni di Adobe Dynamic Media Classic includono il caching CDN in bundle.
+Le immagini generate dinamicamente da Adobe Dynamic Media Classic sono favorevoli alla cache; in genere, sono immagini JPEG con chiamate URL univoche che le identificano. Le immagini vengono pubblicate sulla rete CDN (content delivery network, rete di distribuzione dei contenuti), un sistema di server in rete su Internet che consente di trasmettere i contenuti più rapidamente. Le immagini vengono distribuite dai server a livello globale ai computer degli utenti. Quando si implementa un meccanismo di caching utilizzando un fornitore CDN, è sufficiente modificare il nome del server in modo che punti al server immagini Dynamic Medie abilitato per CDN. Tutte le edizioni di Adobe Dynamic Media Classic includono il caching CDN in bundle.
