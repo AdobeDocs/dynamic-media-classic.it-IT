@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2035'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Questa nuova app è ora disponibile per Windows® e macOS.
 >
 >L’Adobe consiglia di installare la nuova app desktop Adobe Dynamic Media Classic entro il 1° ottobre 2020. Procedendo in questo modo potrai ottenere una transizione fluida prima che il Flash Player Adobe venga dichiarato obsoleto il 31 dicembre 2020. Dopo tale data, non è possibile accedere alla versione del browser dell’interfaccia utente di Adobe Dynamic Media Classic, etichettata come Adobe Dynamic Media Classic nel prodotto.
 
-Consulta le Domande frequenti per [È disponibile una nuova esperienza di accesso a Adobe Dynamic Media Classic.](/help/using/new-ui-2020.md)
+Consulta le Domande frequenti per [È ora disponibile il nuovo accesso a Adobe Dynamic Media Classic.](/help/using/new-ui-2020.md)
 
 ## Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -91,7 +91,7 @@ La notifica di aggiornamento all&#39;interno dell&#39;applicazione desktop Adobe
 Consultate anche:
 
 * [Scarica e installa in modalità silenziosa l’app desktop Adobe Dynamic Media Classic più recente su Mac](#install-silent-mac-dmc-app)
-* [Scarica e installa in modalità automatica l’app desktop Adobe Dynamic Media Classic più recente su Windows®](#install-silent-windows-dmc-app)
+* [Scarica e installa in modalità silenziosa la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
 
 1. Disinstalla le versioni precedenti dell’app desktop Adobe Dynamic Media Classic sul sistema.
 
@@ -110,7 +110,7 @@ Consultate anche:
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -149,8 +149,8 @@ Consultate anche:
 
 Consultate anche:
 
-* [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows®](#installation-dmc-app)
-* [Scarica e installa in modalità automatica l’app desktop Adobe Dynamic Media Classic più recente su Windows®](#install-silent-windows-dmc-app)
+* [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows](#installation-dmc-app)
+* [Scarica e installa in modalità silenziosa la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
 
 Per scaricare e *silenzioso* installa la versione più recente dell’app desktop Adobe Dynamic Media Classic su macOS:
 
@@ -191,7 +191,7 @@ Il comando utilizzato è per un&#39;installazione invisibile all&#39;utente di b
 
 Consultate anche:
 
-* [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows®](#installation-dmc-app)
+* [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows](#installation-dmc-app)
 
 * [Scarica e installa in modalità silenziosa l’app desktop Adobe Dynamic Media Classic più recente su macOS](#install-silent-mac-dmc-app)
 
@@ -239,8 +239,8 @@ Osserva un [video introduttivo sull’utilizzo di Adobe Dynamic Media Classic De
 
 1. Nell’app desktop Adobe Dynamic Media Classic, nell’angolo superiore destro, tocca **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**.
 1. Il giorno **[!UICONTROL Configurazione personale]** pagina, sotto **[!UICONTROL Desktop]** eseguire una delle operazioni seguenti:
-   * Per rimuovere dal computer tutti i file immagine Dynamic Media memorizzati nella cache di Adobe, tocca **[!UICONTROL Cancella cache immagini]**, quindi tocca **[!UICONTROL OK]**.
-   * Per rimuovere dal computer tutti i file di risorse Dynamic Media memorizzati nella cache di Adobe, tocca **[!UICONTROL Cancella cache risorse]**, quindi tocca **[!UICONTROL OK]**.
+   * Per rimuovere dal computer tutti i file immagine Dynamic Medie memorizzati nella cache di Adobe, tocca **[!UICONTROL Cancella cache immagini]**, quindi tocca **[!UICONTROL OK]**.
+   * Per rimuovere dal computer tutti i file di risorse Dynamic Medie memorizzati nella cache di Adobe, tocca **[!UICONTROL Cancella cache risorse]**, quindi tocca **[!UICONTROL OK]**.
 1. Nell’angolo inferiore destro della pagina, tocca **[!UICONTROL Chiudi]**.
 
 ### Cancellazione manuale della cache delle immagini e delle risorse

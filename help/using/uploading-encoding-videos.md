@@ -11,10 +11,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3962'
-ht-degree: 52%
+source-wordcount: '3951'
+ht-degree: 49%
 
 ---
 
@@ -169,7 +169,7 @@ Nella tabella che segue, i risultati della formula vengono correlati alle relati
 | 1,78 | 16:9 |
 | 0,56 | 9:16 |
 
-Ad esempio, un video con larghezza 1440 x altezza 1080 ha proporzioni 1440/1080 o 1,33. In questo caso, scegliete un predefinito di codifica video con proporzioni 4:3 per codificare il file video.
+Ad esempio, un video con larghezza 1440 × altezza 1080 ha proporzioni 1440/1080 o 1,33. In questo caso, scegliete un predefinito di codifica video con proporzioni 4:3 per codificare il file video.
 
 ### Velocità dati {#data-rate}
 
@@ -192,16 +192,16 @@ La tabella di seguito riporta la velocità dati per velocità di connessioni tip
 
 ### Risoluzione {#resolution}
 
-*Risoluzione* descrive l&#39;altezza e la larghezza in pixel di un file video. La maggior parte delle sorgenti video è memorizzata ad alta risoluzione (ad esempio, 1920x1080). Per lo streaming, il video sorgente viene compresso in una risoluzione inferiore (per un valore massimo di 640x480).
+*Risoluzione* descrive l&#39;altezza e la larghezza in pixel di un file video. La maggior parte dei video sorgente viene memorizzata ad alta risoluzione (ad esempio, 1920 × 1080). Ai fini dello streaming, il video sorgente viene compresso a una risoluzione inferiore (640 × 480 o inferiore).
 
-La risoluzione e la velocità dati sono due fattori strettamente correlati da cui dipende la qualità video. Per mantenere la stessa qualità video, più elevato è il numero di pixel in un file video (ossia più elevata è la risoluzione), più elevata deve essere anche la velocità dati. Ad esempio, considerate il numero di pixel per fotogramma in due file video, rispettivamente con risoluzione 320x240 e 640x480:
+La risoluzione e la velocità dati sono due fattori strettamente correlati da cui dipende la qualità video. Per mantenere la stessa qualità video, più elevato è il numero di pixel in un file video (ossia più elevata è la risoluzione), più elevata deve essere anche la velocità dati. Ad esempio, si consideri il numero di pixel per fotogramma in un file video con risoluzione 320 × 240 e 640 × 480:
 
 | Risoluzione | Pixel per fotogramma |
 | --- | --- |
-| 320x240 | 76.800 |
-| 640x480 | 307.200 |
+| 320 × 240 | 76.800 |
+| 640 × 480 | 307.200 |
 
-Il file da 640x480 ha quattro volte il numero di pixel per fotogramma. Per ottenere la stessa velocità dati per queste due risoluzioni, occorre applicare una compressione quattro volte maggiore al file da 640x480, riducendone quindi la qualità video. Di conseguenza. una velocità dati video pari a 250 Kbps produce risultati di alta qualità a una risoluzione di 320x240, ma non a una risoluzione di 640x480.
+Il file 640 × 480 ha un numero di pixel per fotogramma quattro volte superiore. Per ottenere la stessa velocità dati per queste due risoluzioni di esempio, applicate una compressione quattro volte superiore al file 640 × 480, riducendo in tal modo la qualità del video. Di conseguenza, una velocità di dati video di 250 Kbps produce una visualizzazione di alta qualità con una risoluzione di 320 × 240, ma non con una risoluzione di 640 × 480.
 
 >[!NOTE]
 >
@@ -237,14 +237,14 @@ Per calcolare questo rapporto, dividete la larghezza sorgente per la larghezza c
 
 Se il rapporto risultante è un numero intero, il video viene ridimensionato in scala in modo ottimale. Se il rapporto risultante non è un numero intero, questo può influire sulla qualità del video e generare artefatti di pixel superflui sul display, particolarmente evidente nel caso di video con testo.
 
-Ad esempio, supponete che il video sia di 1920x1080. Nella tabella seguente, i tre video codificati forniscono impostazioni di codifica ottimali.
+Ad esempio, supponiamo che il video sorgente sia 1920 × 1080. Nella tabella seguente, i tre video codificati forniscono impostazioni di codifica ottimali.
 
-| Tipo di video | Larghezza x altezza | Rapporto larghezza | Rapporto altezza |
+| Tipo di video | Larghezza × altezza | Rapporto larghezza | Rapporto altezza |
 | --- | --- | --- | --- |
-| Sorgente | 1920x1080 | 1 | 1 |
-| Codificato | 960x540 | 2 | 2 |
-| Codificato | 640x360 | 3 | 3 |
-| Codificato | 480x270 | 4 | 4 |
+| Sorgente | 1920 × 1080 | 1 | 1 |
+| Codificato | 960 × 540 | 2 | 2 |
+| Codificato | 640 × 360 | 3 | 3 |
+| Codificato | 480 × 270 | 4 | 4 |
 
 ### Formato di file video codificato {#encoded-video-file-format}
 

@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 42%
+source-wordcount: '2408'
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ La pagina Server immagini stabilisce le impostazioni predefinite per la consegna
 
 Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del supporto Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Gestione catalogo]** - Queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server web, le chiamate URL del server immagini di Dynamic Media vanno a un file manifesto o catalogo anziché a un file immagine propriamente detto. Il file catalogo (da non confondersi con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini e il percorso di ciascuna immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
+* **[!UICONTROL Gestione catalogo]** - Queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server web, le chiamate URL del server immagini di Dynamic Medie vanno a un file manifesto o catalogo anziché a un file immagine propriamente detto. Il file catalogo (da non confondersi con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini e il percorso di ciascuna immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
 
 * **[!UICONTROL Attributi della richiesta]** - Queste impostazioni impongono limiti alle immagini che possono essere distribuite dal server. Ad esempio, il *massimo* **[!UICONTROL Limite dimensioni immagine di risposta]** è **[!UICONTROL Larghezza]** 5000 e **[!UICONTROL Altezza]** 5000.
 
@@ -63,7 +63,7 @@ Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del 
 >
 >Se si desidera impostare le opzioni di supporto della localizzazione in Adobe Dynamic Media Classic, ad esempio il campo Mappa lingua, [utilizza l’Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
 
-Un modo comune di utilizzare Adobe Dynamic Media Classic consiste nel gestire le immagini del prodotto sui siti web di e-commerce. Le aziende internazionali devono poter gestire risorse per prodotti simili ma diverse da paese a paese. Di solito le differenze sono per alcune parti del media generale. Affrontare queste differenze copiando tutte le risorse per ciascuno dei paesi e sovrascrivere solo le differenze è uno sforzo enorme e contraddice la singola metafora della risorsa primaria. Le differenze nelle risorse possono spaziare da video specifici per i singoli paesi con tracce audio distinte, a cavi elettrici diversi da usare con un prodotto. Adobe Dynamic Media Classic utilizza un meccanismo di ricerca di base. Potete definire l’ordine di suffissi per risorse che il server immagini deve seguire per le ricerche, a partire dalla lingua richiesta.
+Un modo comune di utilizzare Adobe Dynamic Media Classic consiste nel gestire le immagini del prodotto sui siti web di e-commerce. Le aziende internazionali devono poter gestire risorse per prodotti simili ma diverse da paese a paese. Di solito le differenze sono per alcune parti del media generale. Affrontare queste differenze copiando tutte le risorse per ciascuno dei paesi e sovrascrivere solo le differenze è uno sforzo tremendo e contraddice la singola metafora della risorsa primaria. Le differenze nelle risorse possono spaziare da video specifici per i singoli paesi con tracce audio distinte, a cavi elettrici diversi da usare con un prodotto. Adobe Dynamic Media Classic utilizza un meccanismo di ricerca di base. Potete definire l’ordine di suffissi per risorse che il server immagini deve seguire per le ricerche, a partire dalla lingua richiesta.
 
 #### Come vengono localizzate le risorse
 
@@ -71,7 +71,7 @@ La lingua per una richiesta IS (Image Serving) è identificata con il seguente c
 
 `locale=`
 
-Questo comando accetta una stringa di ID della lingua (locid) che non fa distinzione tra maiuscole e minuscole. L’ID della lingua è in genere una stringa di 2-6 caratteri composta di lettere e trattino basso (_).
+Questo comando accetta una stringa di ID della lingua (locid) che non fa distinzione tra maiuscole e minuscole. L&#39;ID delle impostazioni internazionali è in genere una stringa di 2-6 caratteri composta da lettere e &quot;_&quot;.
 
 IS supporta stringhe ASCII stampabili arbitrarie. Il `locale=` Il comando ha ambito globale, ovvero viene applicato all&#39;intera richiesta, incluse tutte le richieste IS e IR nidificate, i modelli di riferimento e i livelli immagine. Non sono supportate più lingue per richiesta, ad esempio una lingua diversa per ciascun livello. Tuttavia, è possibile consentire sostituzioni esplicite nelle richieste nidificate.
 
@@ -99,7 +99,7 @@ Alcuni dei vantaggi dell’utilizzo di `locale=` e `attribute::DefaultLocale` in
 
 #### Implementare la localizzazione delle risorse
 
-Adobe Dynamic Media Classic e Image Server dispongono di un&#39;interfaccia che consente le localizzazioni di immagini e contenuto statico.
+Adobe Dynamic Media Classic e Image Server dispongono di un&#39;interfaccia che consente la localizzazione di immagini e contenuti statici.
 
 Senza localizzazione, un URL di Image Server si presenta come segue:
 
@@ -125,7 +125,7 @@ L’applicazione del valore di suffisso o di sostituzione dipende dall’imposta
 
 | URL | ID di Mappa lingua | Risultato |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE che viene ricercata in Image Server e, se trovata, viene restituita. In caso contrario, viene utilizzato come suffisso il secondo valore “” e viene restituita l’immagine stessa. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE che viene ricercata in Image Server e, se trovata, viene restituita. In caso contrario, viene utilizzato il secondo valore &quot;&quot; come suffisso, causando la restituzione dell’immagine stessa. |
 
 **Esempio di sostituzione:**
 

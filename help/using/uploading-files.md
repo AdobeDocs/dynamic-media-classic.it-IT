@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3929'
+source-wordcount: '3928'
 ht-degree: 31%
 
 ---
@@ -53,11 +53,11 @@ In questa tabella sono elencati i formati di file di risorse supportati da Adobe
 
 Il supporto per il caricamento di file TAR e ZIP comprende una casella di controllo per selezionare la decompressione dei file.
 
-### Formati di immagine non supportati in Dynamic Media {#unsupported-image-formats-dynamic-media}
+### Formati di immagine non supportati in Dynamic Medie {#unsupported-image-formats-dynamic-media}
 
-Nell&#39;elenco seguente vengono descritti i sottotipi di formati di file immagine raster *non* supportati in Dynamic Media.
+Nell&#39;elenco seguente vengono descritti i sottotipi di formati di file immagine raster *non* supportati in Dynamic Medie.
 
-Vedi anche [Rileva formati di file non supportati per Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+Vedi anche [Rileva formati di file non supportati per Dynamic Medie](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * File PNG con dimensioni del blocco IDAT superiori a 100 MB.
 * File PSB.
@@ -77,7 +77,7 @@ Per ottenere risultati ottimali con il programma Adobe Dynamic Media Classic, as
 | eCatalog | Utilizza i file PDF ad alta risoluzione creati in Adobe Acrobat o un’applicazione di Creative Suite di Adobe salvata come &quot;press-ready&quot;. I file PDF includono tutti i font, le immagini, le maschere e gli elementi grafici di riferimento necessari nel formato a pagina singola, a due pagine affiancate o a più pagine. Ordinate le pagine assegnando ai file nomi in ordine alfanumerico. Salvate tutti i file PDF dell’eCatalog in un’unica cartella per semplificarne il caricamento. Potete selezionare le opzioni di ritaglio al momento del caricamento per rimuovere l’area di ritaglio dai file PDF, inclusi gli indicatori di taglio, i crocini di registro o le barre colore. La maggior parte dei file PDF pronti per la usano lo spazio cromatico CMYK; è quindi importante ottenere il profilo colore ICC CMYK usato con i file PDF. |
 | Modelli | Un’immagine con livelli o un layout può includere testo, immagini e livelli. I livelli immagine, le stringhe di testo e gli attributi, quali il colore e le dimensioni, possono essere parametrizzati in modo da personalizzare i dati variabili. I requisiti delle immagini da usare nei modelli sono gli stessi delle altre immagini. Preparate gli elementi grafici in Photoshop o in un altro programma di modifica delle immagini. Salvate ogni elemento grafico come file trasparente a livello unico nel formato TIFF o PNG. Assicuratevi che la risoluzione delle immagini sia appropriata all’uso previsto. Le immagini da stampare sono 300 ppi. |
 | Video | Adobe Dynamic Media Classic supporta i file video salvati in formato OGV e MP4. Potete transcodificare i file in formato MP4 al momento del caricamento. Consultate [Formati di file di risorse supportati](#supported-static-file-formats). |
-| Font | Sono stati caricati TrueType, Type1 (solo Windows®), OpenType ® font e PhotoFonts. |
+| Font | TrueType caricato, `Type1` (Solo Windows®), OpenType ® tipi di carattere e PhotoFonts. |
 | Immagini | Immagini e file immagine con più livelli. |
 | Set di immagini e set di campioni | Set di immagini correlate che possono essere visualizzate in un visualizzatore. |
 | Profili ICC | Un profilo colore che puoi utilizzare per convertire un’immagine caricata dal suo spazio colore sorgente in uno spazio colore diverso. |
@@ -91,7 +91,7 @@ Per ottenere risultati ottimali con il programma Adobe Dynamic Media Classic, as
 
 >[!NOTE]
 >
->Quando si caricano file di immagine e PDF in Adobe Dynamic Media Classic, questi vengono convertiti in file P-TIFF (Pyramid TIFF). Questi TIFF-P sono i file che vengono successivamente pubblicati nei server immagini Dynamic Media. Adobe Dynamic Media Classic utilizza il formato di file Tiff piramidale perché contiene vari rapporti di zoom che consentono uno zoom rapido quando viene visualizzato con un Visualizzatore zoom di Adobe Dynamic Media Classic.
+>Quando si caricano file di immagine e PDF in Adobe Dynamic Media Classic, questi vengono convertiti in file P-TIFF (Pyramid TIFF). Questi TIFF-P sono i file che vengono successivamente pubblicati nei server immagini Dynamic Medie. Adobe Dynamic Media Classic utilizza il formato di file Tiff piramidale perché contiene vari rapporti di zoom che consentono uno zoom rapido quando viene visualizzato con un Visualizzatore zoom di Adobe Dynamic Media Classic.
 
 ### Formati di file statici supportati {#supported-static-file-formats}
 
@@ -186,7 +186,7 @@ Per visualizzare l’avanzamento del caricamento, seleziona **[!UICONTROL Proces
 1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, seleziona **[!UICONTROL Carica]**.
 1. Nella pagina Carica, seleziona la **[!UICONTROL TRAMITE FTP]** scheda.
 1. Sul lato sinistro della pagina Carica, nella **[!UICONTROL Scegliete la cartella FTP da caricare]** scegliere una cartella FTP dalla quale caricare i file.
-1. Sul lato destro della pagina Carica, nella **[!UICONTROL Scegli la destinazione della cartella Dynamic Media di Adobe]** selezionare una cartella di destinazione in Adobe Dynamic Media Classic.
+1. Sul lato destro della pagina Carica, nella **[!UICONTROL Scegli la destinazione della cartella Dynamic Medie di Adobe]** selezionare una cartella di destinazione in Adobe Dynamic Media Classic.
 1. (Facoltativo) Nella parte inferiore della pagina Carica, immetti il nuovo nome del processo di caricamento nel campo di testo Nome processo. In alternativa, è possibile utilizzare semplicemente il nome predefinito generato dal sistema fornito da Adobe Dynamic Media Classic. Il processo in corso e gli altri processi di caricamento e pubblicazione vengono registrati nella pagina Processi dove è possibile controllarne lo stato.
 Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_files).
 1. (Facoltativo) Nella parte inferiore della pagina Carica, seleziona **[!UICONTROL Pubblica dopo il caricamento]** per pubblicare automaticamente le risorse caricate.

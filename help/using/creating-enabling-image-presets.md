@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 72%
+source-wordcount: '255'
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ Gli amministratori di Media Portal possono creare i predefiniti per immagini per
 
 Per l’esportazione delle risorse di immagine sono applicabili le restrizioni seguenti:
 
-* Le dimensioni larghezza x altezza devono essere inferiori o uguali a 100 MB per immagine. Ad esempio, l’immagine non può essere più grande di 10.000x10.000 o di variazioni di proporzioni inferiori come ad esempio 8.000x12.000.
+* La larghezza × l&#39;altezza devono essere inferiori o uguali a 100 MB per immagine. Ad esempio, l&#39;immagine non può superare i 10 K × 10 K o qualsiasi variante di aspetto inferiore, ad esempio 8 K × 12 K.
 * Per ogni processo di esportazione è disponibile un massimo di 1 GB di dimensione totale del file.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
 

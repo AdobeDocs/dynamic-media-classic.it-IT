@@ -12,9 +12,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3468'
 ht-degree: 44%
 
 ---
@@ -111,7 +111,7 @@ Utilizza questi strumenti nella schermata Modello per creare modelli:
 
 * **[!UICONTROL Designer e sviluppatore]** - Selezionare l&#39;opzione che meglio descrive il proprio ruolo.
 
-* **[!UICONTROL Area di lavoro]** - Definisce l&#39;area totale disponibile, in pixel, per la definizione del modello. Le dimensioni predefinite sono 300 x 300 pixel. I livelli vengono inseriti nel quadro.
+* **[!UICONTROL Area di lavoro]** - Definisce l&#39;area totale disponibile, in pixel, per la definizione del modello. La dimensione predefinita è 300 × 300 pixel. I livelli vengono inseriti nel quadro.
 
 * **[!UICONTROL Elenco livelli]** - Elenca il nome dei livelli nel modello. Per selezionare un livello, selezionatene il nome nell’elenco Livelli. L’elenco Livelli offre strumenti per eliminare e riordinare i livelli, per aggiungere effetti e per impostare i parametri dei livelli. Consulta [Operazioni con i livelli](#working-with-layers).
 

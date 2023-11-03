@@ -12,10 +12,10 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 28%
+source-wordcount: '426'
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,7 @@ Dopo il caricamento di un file di caratteri, è possibile modificarne l&#39;ID A
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic consiglia di caricare tutti gli stili di carattere (grassetto, corsivo, grassetto/corsivo e normale) se intendi utilizzare i caratteri nei livelli modello. Adobe Dynamic Media Classic richiede questi stili di carattere per elaborare le richieste. Si consiglia anche di caricare tutti i file PostScript/Adobe Type 1 associati a un font, poiché alcuni di questi contengono informazioni dettagliate per la crenatura.
+>Adobe Dynamic Media Classic consiglia di caricare tutti gli stili di carattere (grassetto, corsivo, grassetto/corsivo e normale) se intendi utilizzare i caratteri nei livelli modello. Adobe Dynamic Media Classic richiede questi stili di carattere per elaborare le richieste. Caricamento di tutto `PostScript/Adobe Type1` file associati a un font è consigliabile, poiché alcuni di questi font contengono informazioni dettagliate sulla crenatura.
 
 ## Carica file di font {#uploading-font-files}
 
@@ -57,7 +57,7 @@ Nel pannello Sfoglia, selezionate il file di font da modificare in Vista dettagl
 
 * **[!UICONTROL Stile font]** - Le opzioni sono Plain, Bold, Italic e Bold-Italic.
 
-* **[!UICONTROL Tipo font]** - Le opzioni sono TrueType e Adobe Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
+* **[!UICONTROL Tipo font]** - Le opzioni sono TrueType e Adobi Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
 
 * **[!UICONTROL Abbreviazione tipo font]** - Le opzioni sono le seguenti:
 

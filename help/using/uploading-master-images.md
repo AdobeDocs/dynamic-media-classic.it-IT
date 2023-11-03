@@ -12,9 +12,9 @@ role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '259'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Per informazioni dettagliate sul caricamento delle immagini, consulta [Carica fi
 
 Prepara i file immagine principali prima di caricarli in Adobe Dynamic Media Classic:
 
-* **Dimensioni immagine** : crea le immagini di dimensioni maggiori con le quali prevedi di utilizzare. Le dimensioni tipiche delle immagini sono comprese tra 1500 e 2500 pixel nelle dimensioni più lunghe. Per utilizzare la funzione Zoom, Adobe Dynamic Media Classic consiglia di utilizzare immagini con una lunghezza di almeno 2000 pixel per ottenere un dettaglio di zoom ottimale. Adobe Dynamic Media Classic è in grado di eseguire il rendering di immagini fino a 25 megapixel ciascuna. Ad esempio, è possibile utilizzare un&#39;immagine 5000 x 5000 MP o qualsiasi altra combinazione di dimensioni fino a 25 MP.
+* **Dimensioni immagine** : crea le immagini di dimensioni maggiori con le quali prevedi di utilizzare. Le dimensioni tipiche delle immagini sono comprese tra 1500 e 2500 pixel nelle dimensioni più lunghe. Per utilizzare la funzione Zoom, Adobe Dynamic Media Classic consiglia di utilizzare immagini con una lunghezza di almeno 2000 pixel per ottenere un dettaglio di zoom ottimale. Adobe Dynamic Media Classic è in grado di eseguire il rendering di immagini fino a 25 megapixel ciascuna. Ad esempio, è possibile utilizzare un&#39;immagine da 5000 × 5000 MP o qualsiasi altra combinazione di dimensioni fino a 25 MP.
 
 * **Formati di file** : Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard, tra cui TIFF, BMP, JPEG, PSD, GIF e EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
 

@@ -1,21 +1,19 @@
 ---
 title: Gestire il contenuto del pannello informazioni nei cataloghi elettronici
 description: Scopri come gestire il contenuto del pannello Info negli eCatalog in Adobe Dynamic Media Classic.
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -51,7 +49,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 1. Nella casella TTL di risposta viene visualizzato il numero di ore di attesa prima che i dati vengano memorizzati nella cache:
 
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
-   * Con un valore più elevato i dati sono relativamente stabili e non richiedono un aggiornamento frequente durante il giorno. Il valore predefinito è dieci ore.
+   * Impostare un numero più alto se i dati sono relativamente stabili e non richiedono aggiornamenti frequenti nel corso della giornata. Il valore predefinito è dieci ore.
 
 1. Seleziona **[!UICONTROL Pubblica]**.
 

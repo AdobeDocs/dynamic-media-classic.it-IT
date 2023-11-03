@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 42%
+source-wordcount: '700'
+ht-degree: 40%
 
 ---
 
 # Collegare un set di campioni a una pagina web{#linking-a-swatch-set-to-a-web-page}
 
-Dopo aver pubblicato un set di campioni, potete inserirne l’URL o il codice da incorporare nel vostro sito Web o nella vostra applicazione. Potete quindi implementare l’URL o il codice da incorporare come desiderate, in modo che gli utenti possano visualizzare il set di campioni sul vostro sito Web o nella vostra applicazione.
+Dopo aver pubblicato un set di campioni, puoi utilizzarne l’URL associato o il codice da incorporare nel sito web o nell’applicazione. Potete quindi implementare l’URL o il codice da incorporare come desiderate, in modo che gli utenti possano visualizzare il set di campioni sul vostro sito Web o nella vostra applicazione.
 
 >[!NOTE]
 >

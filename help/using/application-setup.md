@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->Solo gli amministratori di Adobe Dynamic Media Classic possono modificare le impostazioni nelle pagine di Impostazione applicazione.
+>Solo gli amministratori di Adobe Dynamic Media Classic possono modificare le impostazioni in Impostazione applicazione.
 
 ## Impostazioni generali {#general-settings}
 
@@ -131,13 +131,13 @@ Vedi anche [Opzioni processo di caricamento predefinito](https://s7d5.scene7.com
 
 * **[!UICONTROL Opzioni di caricamento predefinite]** - Apre la finestra di dialogo Opzioni processo di caricamento, in cui è possibile specificare le opzioni di caricamento predefinite. Per informazioni su queste opzioni, consultate [Opzioni di caricamento](/help/using/uploading-files.md#upload_options).
 
-### Editor mappa immagine, su applicazione
+### Editor mappa immagine (su applicazione)
 
 * **[!UICONTROL HREF mappatura immagine predefinito]** - Definisce l&#39;URL predefinito utilizzato per la colonna HREF nella mappatura immagine. Questo URL è l&#39;URL predefinito visualizzato quando crei mappe immagine.
 
 * **[!UICONTROL Modello mappatura immagine predefinito]** - Definisce il JavaScript predefinito per il modello HREF nella mappatura immagine. Puoi impostare il codice personalizzato qui da eseguire ogni volta che selezioni una mappa immagine.
 
-### Altre impostazioni, su applicazione
+### Altre impostazioni (su applicazione)
 
 * **[!UICONTROL Avvertenze per la pulizia del cestino]** - Le risorse nel cestino vengono rimosse automaticamente entro sette giorni. Seleziona &quot;Invia e-mail prima dell’eliminazione automatica degli elementi dal cestino&quot; se desideri che vengano inviate notifiche agli amministratori della società quando le risorse presenti nel cestino sono a quattro giorni dall’eliminazione definitiva. Consulta [Gestire la cartella Cestino](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Bicubico]** - Aumenta l&#39;utilizzo della CPU sul server immagini, ma produce immagini più nitide con artefatti di aliasing meno evidenti.
 
-* **[!UICONTROL Nitido2]** : può produrre risultati leggermente più nitidi rispetto all&#39;opzione Bicubico, ma a un costo della CPU ancora più elevato sul server immagini.
+* **[!UICONTROL `Sharp 2`]** - Produce risultati con un grado di nitidezza leggermente superiore rispetto all’opzione Bicubico ma con un utilizzo maggiore di CPU sul server immagini.
 
 * **[!UICONTROL Trilineare]** : utilizza risoluzioni più alte e più basse, se disponibili; consigliato solo quando l’aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
@@ -308,7 +308,7 @@ Per selezionare un predefinito di codifica, nell’angolo inferiore destro della
      >
      >Per inviare video agli iPad, puoi selezionare un predefinito di codifica Mobile o un predefinito di codifica Tablet PC. I predefiniti Tablet sono stati creati appositamente per gli iPad, generalmente con risoluzione e qualità più alta per usufruire delle dimensioni delle schermo e della connessione di banda più elevata. La visualizzazione di file video codificati con un predefinito Tablet richiede di includere un codice di rilevamento dispositivi al sito mobile o all’applicazione. questo codice è disponibile per i video visualizzati su iPhone o iPad, a seconda del dispositivo di riproduzione. Se si sceglie un predefinito Mobile per la consegna dei file video ad iPad, il flusso di lavoro risulta semplificato poiché potete scegliere lo stesso file video sia per iPhone che per iPad. Tuttavia, la qualità viene standardizzata all’esperienza iPhone con risoluzione ridotta.
 
-      * Nel gruppo Predefiniti di codifica, nell’elenco a discesa Ordina predefiniti codifica, selezionate Nome o Dimensioni per ordinare i predefiniti per nome o per dimensione di risoluzione.
+      * Nell&#39;elenco a discesa Ordina predefiniti codifica del gruppo Predefiniti di codifica selezionare Nome o Dimensione per ordinare i predefiniti in base al nome o alla dimensione della risoluzione.
       * Seleziona un predefinito di codifica in base alle dimensioni di risoluzione e alla larghezza di banda con cui intendi riprodurre il video.
       * È possibile selezionare Codifica video adattiva e uno o più predefiniti di codifica per video. Ad esempio, potete codificare un file per desktop e dispositivo mobile in un unico processo di caricamento.
 
@@ -340,9 +340,9 @@ Per creare video da distribuire a dispositivi mobili, tablet e computer desktop;
 
 |  | Nome predefinito di codifica/Descrizione | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Auto x360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Auto x360 | Come sorgente | 64 | Per dispositivi mobili (iPhone, iPad, Android™) |
-| 2 | Auto x480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Auto x480 | Come sorgente | 96 | Per tablet (iPad, Android™) |
-| 3 | Auto x720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Auto x720 | Come sorgente | 128 | Per desktop |
+| 1 | Auto × 360, 800 Kbps | _Mobile_Auto×360p_800K | 800 | Auto×360 | Come sorgente | 64 | Per dispositivi mobili (iPhone, iPad, Android™) |
+| 2 | Auto × 480, 1400 Kbps | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | Come sorgente | 96 | Per tablet (iPad, Android™) |
+| 3 | Auto × 720, 2600 Kbps | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Come sorgente | 128 | Per desktop |
 
 ### Predefiniti per codifica video adattiva (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Tutti i file CSS predefiniti per visualizzatori in Adobe Dynamic Media Classic u
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-Tuttavia, se ospiti i file CSS del visualizzatore sul tuo sito, devi risolvere questi percorsi immagine relativi utilizzando un percorso esplicito al server immagini nel tuo ambiente. Ad esempio, se aggiorni il percorso relativo precedente a un percorso esplicito, potrebbe essere simile al seguente, in cui `https://s7d1.scene7.com` è il percorso diretto del server immagini: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Tuttavia, se ospiti i file CSS del visualizzatore sul tuo sito, devi risolvere questi percorsi immagine relativi utilizzando un percorso esplicito al server immagini nel tuo ambiente. Ad esempio, se hai aggiornato il percorso relativo precedente a un percorso esplicito, potrebbe essere simile al seguente, in cui `https://s7d1.scene7.com` è il percorso diretto del server immagini: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Per esportare un predefinito visualizzatore HTML5:**
 

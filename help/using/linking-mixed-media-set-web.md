@@ -1,27 +1,25 @@
 ---
 title: Collegare un set di file multimediali diversi a una pagina Web
 description: Scopri come collegare un set di file multimediali diversi a una pagina web in Adobe Dynamic Media Classic.
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 50%
+source-wordcount: '653'
+ht-degree: 47%
 
 ---
 
 # Collegare un set di file multimediali diversi a una pagina Web{#linking-a-mixed-media-set-to-a-web-page}
 
-Dopo aver pubblicato un set di file multimediali diversi, potete ottenere il relativo URL da usare in un sito Web o in un’applicazione. Potete quindi implementare l’URL come desiderate, in modo che gli utenti possano visualizzare il set di file multimediali diversi sul vostro sito Web o nella vostra applicazione.
+Dopo aver pubblicato un set di file multimediali diversi, puoi ottenere l’URL associato da utilizzare nel sito web o nell’applicazione. Potete quindi implementare l’URL come desiderate, in modo che gli utenti possano visualizzare il set di file multimediali diversi sul vostro sito Web o nella vostra applicazione.
 
 ## Ottenere l’URL di un set di file multimediali diversi {#obtain-a-mixed-media-set-url}
 

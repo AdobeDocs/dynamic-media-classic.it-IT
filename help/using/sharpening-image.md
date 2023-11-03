@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2274'
-ht-degree: 39%
+source-wordcount: '2267'
+ht-degree: 38%
 
 ---
 
@@ -60,7 +60,7 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 | Nome | Protocollo URL | Valori | Esempio |
 | --- | --- | --- | --- |
 | Nitidezza semplice | `op_sharpen` | `0` Oppure `1` | `op_sharpen=1` |
-| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona l&#39;interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bi-cubica. Richiede maggiori risorse CPU rispetto a bilin, ma produce immagini più nitide e con meno artefatti di alias.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato.<br><br>`trilin`: interpolazione trilineare modificata, che utilizza risoluzioni più elevate e più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
+| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona l&#39;interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bi-cubica. Richiede maggiori risorse CPU rispetto a `bilin`, ma produce immagini più nitide e con meno artefatti di alias.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato.<br><br>`trilin`: interpolazione trilineare modificata, che utilizza risoluzioni più elevate e più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
 | Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di intensità del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello soglia filtro (int 0...255)<br><br>`monochrome`: impostato su `0` per applicare una maschera di contrasto a ogni componente di colore separatamente, impostate `1` per mascherare la luminosità dell&#39;immagine (intensità) | `op_usm=1,1,10,0` |
 
 Seleziona la **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
@@ -79,7 +79,7 @@ Scegliete queste opzioni per ottimizzare la nitidezza con Maschera definizione d
 
 Il valore di raggio più adatto dipende dalle dimensioni dell’immagine. Un valore basso rende più nitidi solo i pixel dei bordi. Un valore alto rende più nitida una banda più ampia di pixel. 
 
-Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 x 2000 pixel e per un&#39;immagine da 500 x 500 pixel, potete impostare un valore di raggio di due pixel sull&#39;immagine da 2000 x 2000 pixel. Quindi impostate un raggio di 1 pixel per l’immagine di 500x500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel. 
+Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 × 2000 pixel e per un&#39;immagine da 500 × 500 pixel, è possibile impostare un valore di raggio di due pixel sull&#39;immagine da 2000 × 2000 pixel. Quindi, impostate un valore di raggio di un pixel sull&#39;immagine da 500 × 500 pixel (un valore maggiore per un&#39;immagine con più pixel).
 
 * **Soglia** - Determina l&#39;intervallo di contrasto da ignorare quando si applica il filtro Maschera di contrasto. Questa opzione specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi.
 
@@ -99,7 +99,7 @@ Seleziona la **[!UICONTROL Ricampionamento]** e scegliere un&#39;opzione. Queste
 
 * **[!UICONTROL Bicubica]** - Aumenta l&#39;utilizzo della CPU sul server immagini, ma produce immagini più nitide con artefatti di aliasing meno evidenti.
 
-* **[!UICONTROL Nitidezza2]** - Produce risultati leggermente più nitidi rispetto a **[!UICONTROL Bicubica]**, ma a un costo della CPU ancora più elevato sul server immagini.
+* **[!UICONTROL `Sharpen2`]** - Produce risultati leggermente più nitidi rispetto a **[!UICONTROL Bicubica]**, ma a un costo della CPU ancora più elevato sul server immagini.
 
 * **[!UICONTROL Trilineare]** : utilizza risoluzioni più alte e più basse se disponibili; consigliato solo quando l’aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
@@ -128,7 +128,7 @@ Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
 Se non usate un predefinito per immagini o non passate specifici protocolli di nitidezza per il server immagine tramite la stringa URL, l’immagine ricampionata non verrà resa più nitida. Tuttavia, se si verifica questa mancanza di nitidezza, potete impostare i valori di nitidezza predefiniti, in modo che qualsiasi immagine abbia sempre una certa nitidezza.
 
-Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se impostate la modalità di ricampionamento predefinita su **[!UICONTROL Nitido2]**, aumenta sempre la nitidezza dell&#39;immagine durante il downsampling.
+Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se impostate la modalità di ricampionamento predefinita su **[!UICONTROL `Sharp2`]**, aumenta sempre la nitidezza dell&#39;immagine durante il downsampling.
 
 **Aggiungi nitidezza ai predefiniti visualizzatore**
 

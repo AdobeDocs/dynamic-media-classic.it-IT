@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 56%
+source-wordcount: '969'
+ht-degree: 51%
 
 ---
 
@@ -29,7 +29,7 @@ Quando si crea un eCatalog occorre ordinare le pagine, scegliere il layout delle
 
 Quando create un eCatalog, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** incide su set e relativi membri nei seguenti modi:
 
-| Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Opzione &quot;Pubblica dopo il salvataggio&quot; selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -69,7 +69,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 Sia che si modifichi un set pubblicato o un set non pubblicato, il **[!UICONTROL Pubblica dopo il salvataggio]** influisce sui membri set e set nei modi seguenti:
 
-| Il set è già pubblicato | Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio delle modifiche | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | Opzione &quot;Pubblica dopo il salvataggio&quot; selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -80,14 +80,14 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per modificare un eCatalog:**
 
-1. Seleziona il rollover dell’eCatalog **[!UICONTROL Modifica]** pulsante.
+1. Seleziona il rollover dell&#39;eCatalog **[!UICONTROL Modifica]** pulsante.
 1. Apportate le modifiche necessarie.
 1. Al termine dell’operazione di modifica, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.
 
 ## Eliminare un eCatalog {#deleting-an-ecatalog}
 
-Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
@@ -104,7 +104,7 @@ Potete creare un sommario personalizzato per l’eCatalog manualmente oppure imp
 
 >[!NOTE]
 >
->Per ripristinare i titoli di pagina predefiniti, nella **[!UICONTROL Ordina pagine]** , seleziona **[!UICONTROL Etichette sommario]**, quindi selezionare **[!UICONTROL Ripristina valori predefiniti (tutti)]**.
+>Per ripristinare i titoli di pagina predefiniti, nella **[!UICONTROL Ordina pagine]** , seleziona **[!UICONTROL Etichette sommario]** e quindi selezionare **[!UICONTROL Ripristina valori predefiniti (tutti)]**.
 
 ### Inserimento manuale dei nomi delle pagine {#manually-entering-page-names}
 
@@ -114,7 +114,7 @@ Per inserire manualmente i nomi delle pagine uno alla volta, aprite la scheda Or
 
 L’importazione dei nomi di pagina è consigliata se disponete di un eCatalog con numerose pagine. Potete importare i nomi da un file XML o delimitato da tabulazioni.
 
-L’etichetta del sommario viene memorizzata nel campo Dati utente di un’immagine; formatta questi dati come elenco di `name=<value>` ` pairs separated by two question marks “??” `. Ad esempio, per impostare un’etichetta per un campo di sommario denominato `tocEN`, impostate i Dati utente dell’immagine su:
+L’etichetta del sommario viene memorizzata nel campo Dati utente di un’immagine; formatta questi dati come elenco di `name=<value>` ` pairs separated by two question marks "??" `. Ad esempio, per impostare un&#39;etichetta per un campo sommario denominato `tocEN`, imposta i dati utente dell&#39;immagine su:
 
 `tocEN=&lt;EN_page_label>`
 

@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 16%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 Benvenuti in Adobe Dynamic Media Classic, il principale sistema di pubblicazione multimediale on-demand per il caricamento, la gestione, l&#39;ottimizzazione e la pubblicazione di contenuti rich dinamici su tutti i dispositivi e schermi. Le soluzioni Adobe Dynamic Media Classic includono:
 
-* Dynamic Imaging: modifica in tempo reale, formattazione e dimensioni, zoom e panoramica interattivi; campioni colore e campioni texture; 360° rotazione; modelli immagine; visualizzatori multimediali.
+* Dynamic Imaging: modifica, formattazione e dimensionamento in tempo reale, zoom e panoramica interattivi; colore `swatching` e texture `swatching`; rotazione a 360 gradi; modelli di immagine; visualizzatori multimediali.
 * eCatalog: creazione, collegamento di punti attivi, ricerca abilitata, pubblicazione e distribuzione dinamica di cataloghi online serviti in visualizzatori configurabili.
 * Media Portal: ambiente self-service fornisce agli utenti del portale &quot;viste&quot; controllate dall’amministratore per le risorse Adobe Dynamic Media Classic e facilitare l’accesso a caricamento, ricerca, anteprima ed esportazione delle risorse.
 * eVideo: carica i video finali in qualsiasi formato, gestisci, modifica, crea hot spot e modelli video, pubblica e riproduci in visualizzatori video configurabili

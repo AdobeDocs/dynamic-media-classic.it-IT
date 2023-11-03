@@ -6,25 +6,25 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
 index: y
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 25%
+source-wordcount: '800'
+ht-degree: 26%
 
 ---
 
 
 # Guida di Adobe Dynamic Media Classic {#using}
 
-+ Aggiornamento da Dynamic Media Classic a Dynamic Media {#upgrade}
-   + [Perché effettuare l&#39;aggiornamento a Dynamic Media?](upgrade.md)
++ Aggiornamento da Dynamic Media Classic a Dynamic Medie {#upgrade}
+   + [Perché effettuare l&#39;aggiornamento a Dynamic Medie?](upgrade.md)
    + [Domande frequenti sull&#39;aggiornamento](upgrade-faq.md)
    + [Confronto tra elenchi di funzioni](upgrade-feature-comparison.md)
    + [Elenco di controllo preparazione all’aggiornamento](upgrade-readiness.md)
 + [Guida di Adobe Dynamic Media Classic](home.md)
 + [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [È disponibile una NUOVA esperienza di accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
-+ [Adobe Dynamic Media newsletter archivio per Experience League](dynamic-media-newsletter.md)
++ [È ora disponibile il NUOVO accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
++ [Adobe Dynamic Medie newsletter archivio per Experience League](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro}
    + [App Adobe Dynamic Media Classic Desktop - Ora disponibile](dynamic-media-classic-desktop-app.md)
    + [Informazioni su Adobe Dynamic Media Classic](introduction.md)
@@ -64,7 +64,7 @@ ht-degree: 25%
    + [Informazioni sul caricamento e la pubblicazione di risorse](about-asset-upload-publish.md)
    + [Caricare i file](uploading-files.md)
    + [Pubblicare i file](publishing-files.md)
-   + [Limitazioni di Dynamic Media](limitations.md)
+   + [Limitazioni di Dynamic Medie](limitations.md)
    + [Testare le risorse prima di renderle pubbliche](testing-assets-making-them-public.md)
    + [Verifica file di processo](checking-job-files.md)
 + Gestione delle risorse {#managing-assets}

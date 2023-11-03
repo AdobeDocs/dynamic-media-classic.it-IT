@@ -1,27 +1,25 @@
 ---
 title: Collegare un set di immagini a una pagina web
 description: Scopri come collegare un set di immagini a una pagina web in Adobe Dynamic Media Classic.
-uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 42%
+source-wordcount: '692'
+ht-degree: 38%
 
 ---
 
 # Collegare un set di immagini a una pagina web{#linking-an-image-set-to-a-web-page}
 
-Dopo aver pubblicato un set di immagini, potete copiarne l’URL o il codice da incorporare nel vostro sito Web o nella vostra applicazione. Potete quindi implementare l’URL o incollare il codice da incorporare come desiderate, in modo che gli utenti possano visualizzare il set di immagini sul vostro sito Web o nella vostra applicazione.
+Dopo aver pubblicato un set di immagini, puoi copiarne l’URL associato o il codice da incorporare da utilizzare nel sito web o nell’applicazione. Potete quindi implementare l’URL o incollare il codice da incorporare come desiderate, in modo che gli utenti possano visualizzare il set di immagini sul vostro sito Web o nella vostra applicazione.
 
 >[!NOTE]
 >

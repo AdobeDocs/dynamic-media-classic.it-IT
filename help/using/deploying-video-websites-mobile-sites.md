@@ -1,21 +1,19 @@
 ---
 title: Implementare i video nei siti Web e siti mobili
 description: Scopri come distribuire i video da Adobe Dynamic Media Classic ai siti web e mobili.
-uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 34%
+source-wordcount: '1708'
+ht-degree: 33%
 
 ---
 
@@ -48,7 +46,7 @@ Dopo la pubblicazione dei video, Adobe Dynamic Media Classic attiva le stringhe 
 
 ## Collegare l’URL di un video a un sito mobile o a un sito web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Dopo aver pubblicato un video, potete ottenerne l’URL da usare in un sito Web, un sito mobile o in un’applicazione desktop. Usate l’URL del video per visualizzare il video in una finestra a comparsa o modale sopra alla pagina Web.
+Quando pubblichi un video, puoi ottenere l’URL associato da utilizzare nel sito web, nel sito mobile o nell’applicazione desktop. Usate l’URL del video per visualizzare il video in una finestra a comparsa o modale sopra alla pagina Web.
 
 Quando un cliente seleziona il collegamento, il dispositivo, la larghezza di banda e le dimensioni dello schermo vengono rilevati automaticamente. Viene visualizzato il video corretto da riprodurre con un visualizzatore predefinito per desktop o sul lettore nativo del dispositivo smartphone e tablet.
 
@@ -56,7 +54,7 @@ Vedi anche [Incorporare il visualizzatore video in una pagina web](deploying-vid
 
 **Per collegare l’URL di un video a un sito mobile o a un sito Web:**
 
-1. Nel pannello Sfoglia risorse, nella **[!UICONTROL Spettacolo]** elenco a discesa, seleziona **[!UICONTROL Video]** o **[!UICONTROL Set video adattivo]**.
+1. Nel pannello Sfoglia risorse, nella **[!UICONTROL Spettacolo]** elenco a discesa, seleziona **[!UICONTROL Video]**, o **[!UICONTROL Set video adattivo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set di video adattivi che desiderate collegare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
@@ -83,7 +81,7 @@ Vedi anche [Collegare l’URL di un video a un sito mobile o a un sito web](depl
 
 **Per incorporare il visualizzatore video in una pagina Web:**
 
-1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Video]** o **[!UICONTROL Set video adattivo]**.
+1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Video]**, o **[!UICONTROL Set video adattivo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set video adattivo di cui desiderate copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
@@ -179,7 +177,7 @@ Per generare gli URL delle miniature video, effettuate un’operazione di pubbli
 
 Consulta [Pubblica video](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Una volta effettuata la pubblicazione, potete reperire gli URL delle miniature video nella visualizzazione Dettagli del pannello URL e codice da incorporare. Seleziona **[!UICONTROL Copia URL]** sulla destra della miniatura del video, in modo da poterne copiare l’URL.
+Una volta effettuata la pubblicazione, potete reperire gli URL delle miniature video nella visualizzazione Dettagli del pannello URL e codice da incorporare. Seleziona **[!UICONTROL Copia URL]** sulla destra della miniatura del video, in modo da poterne copiare l’URL associato.
 
 ### Modificare i fotogrammi poster nei visualizzatori video {#modifying-poster-frames-in-video-viewers}
 

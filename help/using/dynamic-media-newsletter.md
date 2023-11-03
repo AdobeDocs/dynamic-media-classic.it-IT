@@ -1,15 +1,15 @@
 ---
 title: archivio newsletter Dynamic Medie
-description: "La newsletter Dynamic Medie archiviata da Experience League era una newsletter mensile. È stato progettato per aiutarti a imparare a usare Dynamic Medie e Adobe Dynamic Media Classic in modo da poter realizzare valore fin da subito. Le newsletter archiviate contengono preziose risorse per lo sviluppo delle conoscenze disponibili in questa newsletter unica, che ora non è più disponibile. Le newsletter archiviate includono video dimostrativi e panoramiche delle soluzioni. Sono inoltre disponibili presentazioni di funzioni e funzionalità chiave come predefiniti per immagini, predefiniti per visualizzatori e profili video."
+description: La newsletter Dynamic Medie archiviata da Experience League era una newsletter mensile progettata per aiutarti a imparare a usare Dynamic Medie in AEM e Dynamic Media Classic.
 keywords: dynamic media;newsletter;aggiornamenti prodotto;suggerimenti e trucchi;eventi;successo cliente;blog;blog;immagini;video;funzionalità;dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capability
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ In questa newsletter archiviata, puoi trovare preziose risorse per la creazione 
    * Scopri un prossimo webinar sulla protezione delle risorse digitali.
    * Prossima fermata dell&#39;Adobe informativo Insider Tour.
    * Funzionalità interessanti disponibili quando si dispone di Dynamic Medie in Experience Manager Assets (Experience Manager Assets).
-   * È possibile aggiungere video a 360° e miniature video personalizzate al sito web.
+   * È possibile aggiungere video a 360 gradi e miniature video personalizzate al sito web.
    * Incontro `Andrew Hathaway`, Principal Solutions Consultant per Dynamic Medie in Experience Manager Assets.
 
 * **[Giugno 2019, numero 06](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -56,4 +56,4 @@ Il nuovo [!DNL Dynamic Media] il [!DNL Adobe Experience Manager] si basa sulle f
 * URL consultato il 14 giugno 2016. ^ (EN) 2016 Online Video Platform report, su Online Video Platform.
 * Il miglior fornitore di rich media per Internet Retail 1000, nove anni di fila.
 * Supporto 24/7/265, SLA 99,95%, Adobe Professional Services.
-* Infrastruttura collaudata che serve oltre 800 client in tutto il mondo, traffico di 3,5 petabyte al mese e oltre 500 milioni di risorse di gestione, crescita del traffico del 60% su base annua.
+* Infrastruttura collaudata che serve oltre 800 clienti in tutto il mondo, traffico di 3,5 PB al mese e oltre 500 milioni di asset nella gestione, crescita del traffico del 60% su base annua.

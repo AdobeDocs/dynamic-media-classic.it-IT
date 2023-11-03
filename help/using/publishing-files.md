@@ -1,6 +1,6 @@
 ---
 title: Pubblicare i file
-description: "Scopri come pubblicare le risorse sui server immagini Dynamic Media. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione."
+description: "Scopri come pubblicare le risorse sui server immagini Dynamic Medie. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione."
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 45%
+source-wordcount: '1732'
+ht-degree: 37%
 
 ---
 
 # Pubblicare i file{#publishing-files}
 
-Le risorse vengono pubblicate sui server immagini Dynamic Media. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione.
+Le risorse vengono pubblicate sui server immagini Dynamic Medie. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione.
 
 Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
@@ -74,7 +74,7 @@ Adobe Dynamic Media Classic tiene traccia dei processi di pubblicazione nella pa
 
 Creare un processo di pubblicazione una tantum selezionando la **[!UICONTROL Una tantum]** nella pagina Pubblica.
 
-Se desideri che il processo di pubblicazione avvenga in un secondo momento, nella pagina Pubblica seleziona **[!UICONTROL Una tantum]**, quindi seleziona **[!UICONTROL Pianifica per un momento successivo]** a discesa. Utilizza il Calendario e il cursore Ora per selezionare un giorno e un’ora per eseguire il processo di pubblicazione.
+Se desideri che il processo di pubblicazione avvenga in un secondo momento, nella pagina Pubblica seleziona **[!UICONTROL Una tantum]**, quindi seleziona **[!UICONTROL Pianifica per un momento successivo]** dall’elenco a discesa. Utilizza il Calendario e il cursore Ora per selezionare un giorno e un’ora per eseguire il processo di pubblicazione.
 
 ### Creare un processo di pubblicazione ricorrente {#creating-a-recurring-publish-job}
 
@@ -106,15 +106,15 @@ Consulta [Utilizzare un processo di caricamento o pubblicazione come attivatore]
 
 È possibile annullare un processo di pubblicazione in corso. Se siete un amministratore, potete inoltre annullare un processo di pubblicazione in corso dalla pagina Processi della società.
 
-Per annullare un processo di pubblicazione, vai alla pagina Processi e seleziona **[!UICONTROL Annulla]**. Nella scheda Pianificati della pagina Processi potete sospendere o ripristinare un processo deselezionando o selezionando la casella di controllo nella colonna Attivo del processo.
+Per annullare un processo di pubblicazione, vai alla pagina Processi e seleziona **[!UICONTROL Annulla]**. Nella scheda Pianificato della pagina Processi è possibile sospendere o riprendere un processo deselezionando o selezionando la casella di controllo nella colonna Attivo del processo.
 
 >[!NOTE]
 >
->quando annullate un processo di pubblicazione, il relativo stato diventa “interruzione in corso” finché il processo raggiunge il punto in cui può essere interrotto in maniera sicura. Se il processo di pubblicazione viene interrotto durante il recupero dei dati dal database, l’interruzione può richiedere alcuni minuti.
+>Dopo aver annullato un processo di pubblicazione, il relativo stato diventa &quot;arresto&quot; finché il processo non raggiunge un punto in cui può essere interrotto in modo sicuro. Se il processo di pubblicazione viene interrotto durante il recupero dei dati dal database, l’interruzione può richiedere alcuni minuti.
 
 ## Pubblicare manualmente le risorse {#manually-publishing-assets}
 
-Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblicate dei set, ad esempio un set di immagini o un set video adattivo, vengono pubblicati sia il set (“elemento principale”) sia tutti i membri (“elementi secondari”) all’interno del set.
+Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblichi dei set, ad esempio un set di immagini o un set di video adattivi, vengono pubblicati il set (o &quot;principale&quot;) e tutti i membri (o &quot;secondari&quot;) al suo interno.
 
 Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona rotonda grigia con una barra (&quot;stato non pubblicato&quot;) a sinistra del nome della risorsa. Dopo la pubblicazione, l’icona della risorsa diventa verde e presenta un segno di spunta bianco al centro (stato Pubblicato).
 
@@ -126,13 +126,13 @@ Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona 
 
      Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]**.
 
-   * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia rotonda con una barra che la attraversa, a sinistra del nome della risorsa.
+   * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia arrotondata con una barra che la attraversa, a sinistra del nome della risorsa.
 
 ## Annullare la pubblicazione manuale delle risorse {#manually-unpublishing-assets}
 
-Potete annullare la pubblicazione di singole risorse manualmente. Quando si annulla la pubblicazione di un set, ad esempio un set di campioni o un eCatalog, il set (“elemento principale”) diventa Non pubblicato. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Potete annullare la pubblicazione di singole risorse manualmente. Quando annulli la pubblicazione di un set, ad esempio un set di campioni o un eCatalog, il set (o &quot;principale&quot;) passa a uno stato non pubblicato. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
-Le risorse pubblicate sono indicate nell’interfaccia utente tramite un’icona rotonda verde con un segno di spunta bianco al centro (stato Pubblicato) a sinistra del nome. Dopo aver annullato la pubblicazione di una risorsa, l’icona diventa grigia con una barra (&quot;stato non pubblicato&quot;);
+Le risorse pubblicate sono indicate nell’interfaccia utente da un’icona rotonda, verde, con un segno di spunta bianco al centro (stato di pubblicazione), a sinistra del nome della risorsa. Dopo aver annullato la pubblicazione di una risorsa, l’icona diventa grigia con una barra (&quot;stato non pubblicato&quot;);
 
 **Per esportare manualmente le risorse non pubblicate:**
 
