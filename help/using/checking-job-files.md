@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1602'
 ht-degree: 28%
 
 ---
@@ -105,7 +105,7 @@ Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazi
 
 ### Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Per creare un intervallo di tempo personalizzato per un caricamento (tramite FTP) o un processo di pubblicazione, nella pagina Caricamento o Pubblicazione vai a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**. Quindi immetti numeri e caratteri jolly nella casella Regola che descrive un intervallo di tempo per la ricorrenza dei processi di caricamento o pubblicazione.
+Per creare un intervallo di tempo personalizzato per un caricamento (tramite FTP) o per un processo di pubblicazione, nella pagina Caricamento o Pubblicazione vai a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**. Quindi immetti numeri e caratteri jolly nella casella Regola che descrive un intervallo di tempo per la ricorrenza dei processi di caricamento o pubblicazione.
 
 La sintassi per la descrizione degli intervalli personalizzati di caricamento e pubblicazione nella casella Regola è la seguente:
 
@@ -156,6 +156,6 @@ Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli interval
 
 ## Utilizzare un processo di caricamento o pubblicazione come attivatore {#using-an-upload-or-publish-job-as-a-trigger}
 
-Quando carichi le risorse tramite FTP o esegui un processo di pubblicazione, puoi pianificare l’inizio di un processo successivo una volta completato il caricamento. Se è stato pianificato l&#39;inizio di altri processi, il processo pianificato in questa posizione verrà messo in coda dietro di essi. Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in tale posizione possa essere attivato. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
+Quando carichi le risorse tramite FTP o esegui un processo di pubblicazione, puoi pianificare l’inizio di un processo successivo al termine del caricamento. Se è stato pianificato l&#39;inizio di altri processi, il processo pianificato in questa posizione verrà messo in coda dietro di essi. Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in tale posizione possa essere attivato. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
 
 Per fare in modo che un processo di caricamento o pubblicazione attivi un altro processo, seleziona **[!UICONTROL Avanzate]** nella pagina Carica o Pubblica. Immettete quindi l’URL nel campo di testo Notifica HTTP.

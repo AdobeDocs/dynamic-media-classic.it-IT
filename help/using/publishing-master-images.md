@@ -12,7 +12,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -21,11 +21,11 @@ ht-degree: 6%
 
 # Pubblicare immagini primarie{#publishing-master-images}
 
-Quando si pubblicano i file immagine, questi vengono pubblicati sui server immagini Dynamic Media, dove sono disponibili per il sito Web e l&#39;applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito web e l’applicazione.
+Quando si pubblicano i file immagine, questi vengono pubblicati sui server immagini Dynamic Medie, dove sono disponibili per il sito Web e l&#39;applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito web e l’applicazione.
 
 ## Contrassegna immagini primarie per la pubblicazione {#marking-master-images-for-publish}
 
-Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Media. Per contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia, fai clic su **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
+Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Medie. Puoi contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia selezionando **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
 
 ## Pubblicare le immagini principali {#publishing-your-master-images}
 

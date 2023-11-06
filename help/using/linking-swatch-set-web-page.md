@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 40%
+source-wordcount: '702'
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ Dopo aver pubblicato un set di campioni, puoi utilizzarne l’URL associato o il
 
 ## Aggiungere gli URL del set di campioni alla pagina web {#adding-swatch-set-urls-to-your-web-page}
 
-Il modo più comune di pubblicare i set di campioni consiste nell’inserire in una pagina Web un collegamento (tramite un’icona di navigazione). Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (ASP o JSP) in cui viene visualizzato il set di campioni in una finestra a comparsa. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
+Il modo più comune per distribuire i set di campioni consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di campioni in una finestra di zoom popup. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
 Per ulteriori dettagli ed esempi di codice, vedi [Incorporazione del visualizzatore zoom di HTML5 nella guida di riferimento dei visualizzatori Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

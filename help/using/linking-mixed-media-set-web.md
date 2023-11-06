@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ Dopo aver pubblicato un set di file multimediali diversi, puoi ottenere l’URL 
 
 ## Aggiungere URL di set di file multimediali diversi a una pagina Web {#add-mixed-media-set-urls-to-your-web-page}
 
-Il modo più comune per distribuire un set di file multimediali diversi consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando un utente fa clic su di esso, il collegamento avvia una pagina dinamica (ASP o JSP) in cui viene visualizzato il set di file multimediali diversi nel relativo visualizzatore.
+Il modo più comune per distribuire un set di file multimediali diversi consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di file multimediali diversi in Visualizzatore set di file multimediali diversi.
 
 ## Copiare il codice di incorporamento di un visualizzatore di set di file multimediali diversi {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

@@ -12,10 +12,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 44%
+ht-degree: 40%
 
 ---
 
@@ -60,7 +60,7 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
    * **Collegamento** - Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante collegamento digitare il nome che si desidera visualizzare nel visualizzatore per il pulsante Collegamento. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare uno skin personalizzato per il pulsante.
 
-   * **Visita** - Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante visita digitare il nome che si desidera visualizzare nel visualizzatore del pulsante Visita. Nella casella URL visita, digitate l’URL del sito Web da aprire quando gli utenti fanno clic sul collegamento.
+   * **Visita** - Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante visita digitare il nome che si desidera visualizzare nel visualizzatore del pulsante Visita. Nella casella URL visita digitare l&#39;URL del sito Web che si desidera aprire quando si seleziona il collegamento.
 
 1. Specificate le altre opzioni desiderate. Per visualizzare una descrizione di un&#39;opzione, selezionare l&#39;icona Suggerimento informazioni accanto all&#39;opzione.
 

@@ -12,7 +12,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 15%
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 # Modificare le immagini{#editing-images}
 
-Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti rich media. Questi strumenti sono disponibili facendo clic sul rollover **[!UICONTROL Modifica]** e nel pannello Sfoglia in Visualizzazione dettagli. In Adobe Dynamic Media Classic è possibile eseguire le seguenti attività di modifica delle immagini:
+Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti rich media. Questi strumenti sono disponibili selezionando il rollover **[!UICONTROL Modifica]** e nel pannello Sfoglia in Visualizzazione dettagli. In Adobe Dynamic Media Classic è possibile eseguire le seguenti attività di modifica delle immagini:
 
 * **Creare mappe immagine** - Per creare una mappa immagine, seleziona il comando Immagine oppure **[!UICONTROL Mappa immagine]** pulsante. Una mappa immagine è un punto sensibile su un’immagine, una pagina eCatalog o un’immagine in un set 360 gradi, che consente di visualizzare un pannello con testo di rollover. Gli utenti possono selezionare una mappa immagine, ad esempio, per avviare una nuova pagina web. Consulta [Creare mappe immagine](/help/using/creating-image-maps.md).
 
@@ -29,7 +29,7 @@ Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti ri
 
 * **Ritagliare un’immagine** - Per ritagliare un&#39;immagine, selezionare il comando Ritaglia o **[!UICONTROL Ritaglio]** pulsante. Consulta [Ritagliare un’immagine](/help/using/cropping-image.md).
 
-* **Nitidezza di un&#39;immagine** - Per rendere più nitida un&#39;immagine e meno sfocata e più distinta la struttura, selezionate il comando Contrasta (Sharpen) o **[!UICONTROL Nitidezza]** pulsante. Consulta [Nitidezza di un&#39;immagine](/help/using/sharpening-image.md).
+* **Nitidezza di un&#39;immagine** - Per rendere più nitida un&#39;immagine e meno sfocata e più distinta la sua struttura, selezionate il comando Nitidezza o **[!UICONTROL Nitidezza]** pulsante. Consulta [Nitidezza di un&#39;immagine](/help/using/sharpening-image.md).
 
 * **Regolare un’immagine** - Selezionare il comando Regola o **[!UICONTROL Regola]** per capovolgere, ruotare, sfocare, colorare o modificare il bilanciamento del colore di un&#39;immagine. Consulta [Regolare un’immagine](/help/using/adjusting-image.md).
 

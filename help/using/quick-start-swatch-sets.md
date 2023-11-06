@@ -12,16 +12,16 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # Avvio rapido: set di campioni{#quick-start-swatch-sets}
 
-I set di campioni Adobe Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore di set di campioni dinamico, gli utenti possono visualizzare uno stesso elemento con diversi colori, materiali, texture, finiture o stoffa semplicemente facendo clic su una miniatura.
+I set di campioni Adobe Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore dinamico set di campioni, gli utenti possono visualizzare un elemento di cui è stato eseguito il rendering con un colore, un materiale, una trama, una finitura o un&#39;infrastruttura diversi semplicemente selezionando una miniatura.
 
 Questa Guida introduttiva per set di campioni è stata progettata per aiutarti a iniziare rapidamente a utilizzare le tecniche per set di campioni in Adobe Dynamic Media Classic.
 
@@ -29,7 +29,7 @@ Questa Guida introduttiva per set di campioni è stata progettata per aiutarti a
 
 Per iniziare, caricate le immagini e i file campione per il set di campioni.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare file dal computer in una cartella su Adobe Dynamic Media Classic. Consulta [Prepara risorse set di campioni per il caricamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare file dal computer in una cartella in Adobe Dynamic Media Classic. Consulta [Prepara risorse set di campioni per il caricamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
 
 ## 2. Creare un set di campioni
 

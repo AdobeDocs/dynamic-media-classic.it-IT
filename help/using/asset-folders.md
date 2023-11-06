@@ -12,9 +12,9 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 39%
 
 ---
@@ -49,7 +49,7 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
    >[!NOTE]
    >
-   >Puoi anche creare cartelle in Adobe Dynamic Media Classic quando carichi i file tramite FTP. Selezione del **[!UICONTROL Includi sottocartelle]** quando si esegue il caricamento tramite FTP, replica la struttura di cartelle sul computer nel sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
+   >Puoi anche creare cartelle in Adobe Dynamic Media Classic quando carichi i file tramite FTP. Selezione del **[!UICONTROL Includi sottocartelle]** quando si esegue il caricamento tramite FTP, replica la struttura di cartelle nel computer nel sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
 
 ## Eliminare e rinominare le cartelle {#deleting-and-renaming-folders}
 

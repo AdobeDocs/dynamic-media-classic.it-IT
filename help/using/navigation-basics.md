@@ -12,9 +12,9 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '713'
 ht-degree: 16%
 
 ---
@@ -37,7 +37,7 @@ Nella barra di navigazione globale, situata nella parte superiore della schermat
 
 * **[!UICONTROL Genera]** : scegli un’attività Genera dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
 
-* **[!UICONTROL Pubblica]** : apre la schermata Pubblica in modo da poter pubblicare risorse rich media su Adobe Dynamic Media Image Server e sul resto dell’infrastruttura Adobe Dynamic Media Classic SAAS.
+* **[!UICONTROL Pubblica]** : apre la schermata Pubblica in modo da poter pubblicare risorse rich media su Adobe Dynamic Medie Image Server e sul resto dell’infrastruttura Adobe Dynamic Media Classic SAAS.
 
 * **[!UICONTROL Processi]** - Apre la schermata Processi in modo da poter esaminare i record dei processi di caricamento e pubblicazione.
 

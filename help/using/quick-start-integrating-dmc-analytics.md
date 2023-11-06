@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 27%
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 Adobe Analytics è il prodotto leader di settore che offre agli addetti marketing un punto unico da cui misurare, analizzare e ottimizzare i dati integrati da tutte le iniziative online attraverso più canali di marketing.
 
-Dopo aver integrato Adobe Analytics con Adobe Dynamic Media Classic, puoi ottenere rapporti sul comportamento dei visitatori del sito web utilizzando i visualizzatori Adobe Dynamic Media Classic sul tuo sito web. Ad esempio, quando un visitatore del sito web fa clic su un target di zoom in un Visualizzatore zoom di Adobe Dynamic Media Classic, Adobe Analytics registra questa azione. I rapporti di Adobe Analytics possono raccogliere informazioni cumulative sull’attività degli utenti nei visualizzatori Adobe Dynamic Media Classic.
+Dopo aver integrato Adobe Analytics con Adobe Dynamic Media Classic, puoi ottenere rapporti sul comportamento dei visitatori del sito web utilizzando i visualizzatori Adobe Dynamic Media Classic sul tuo sito web. Ad esempio, quando un visitatore di un sito web seleziona una destinazione di zoom in un Visualizzatore zoom di Adobe Dynamic Media Classic, Adobe Analytics registra questa azione. I rapporti di Adobe Analytics possono raccogliere informazioni cumulative sull’attività degli utenti nei visualizzatori Adobe Dynamic Media Classic.
 
 Utilizzando i rapporti di Adobe Analytics, potete ricavare un’immagine chiara delle attività dei clienti sul vostro sito Web. Puoi determinare quali presentazioni di prodotti portano alla conversione e quali non attirano l’interesse dei clienti.
 

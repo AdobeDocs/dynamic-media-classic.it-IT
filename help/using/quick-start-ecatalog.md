@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 35%
+source-wordcount: '1562'
+ht-degree: 33%
 
 ---
 
@@ -31,7 +31,7 @@ A seconda delle impostazioni selezionate per l&#39;eCatalog, il visualizzatore c
 * Cercare nel catalogo una o più parole chiave. I risultati della ricerca vengono visualizzati sotto forma di elenco di miniature in un pannello di ricerca sul lato sinistro del catalogo. Ogni miniatura cliccabile rappresenta una pagina del catalogo in cui è stato trovato il termine di ricerca evidenziato.
 
 * Condividi il catalogo tramite social media; scarica il catalogo per visualizzarlo offline; abilita Preferiti per contrassegnare gli elementi a cui desideri tornare rapidamente o stampare il catalogo.
-* Spostarsi nel catalogo utilizzando il sommario o la visualizzazione griglia della pagina; spostarsi avanti o indietro facendo clic sul bordo centrale di una pagina.
+* Spostarsi nel catalogo utilizzando il sommario o la visualizzazione griglia della pagina; spostarsi avanti o indietro selezionando il bordo centrale di una pagina.
 * Ingrandire, ridurre e scorrere per esaminare i vari elementi presenti in una pagina
 * Spostare il puntatore su un&#39;area della pagina, denominata Mappa immagine, in modo da visualizzare una finestra popup con informazioni su un elemento.
 * Selezionare un&#39;area di pagina per aprire una nuova pagina Web con ulteriori informazioni su un elemento.
@@ -62,7 +62,7 @@ Questa sezione è stata progettata per aiutarvi a imparare a usare rapidamente g
 
 I file Adobe PDF sono di solito usati come file sorgente per un eCatalog. Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Adobe Dynamic Media Classic rileva queste immagini e le converte utilizzando un profilo colore CMYK standard. Tuttavia, devi caricare e utilizzare un profilo colore personalizzato.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per iniziare a caricare file o immagini PDF per l&#39;eCatalog. Potete caricare i file dal desktop o via FTP; l’FTP è il metodo consigliato nel caso di molti file o file più grandi di 100 MB.
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per iniziare a caricare file o immagini PDF per l&#39;eCatalog. Puoi caricare i file dal desktop o tramite FTP; l’FTP è consigliato se carichi molti file o file di dimensioni superiori a 100 MB.
 
 Le Opzioni PDF nella schermata Carica riguardano il caricamento dei file PDF nella risoluzione e nello spazio colore corretti. Si consiglia di usare una risoluzione di 150 pixel per pollice. Con l’opzione Genera automaticamente eCatalog potete creare un eCatalog durante il caricamento di un file PDF. 
 
@@ -76,7 +76,7 @@ Nella pagina eCatalog, nella **[!UICONTROL Ordina pagine]** , selezionare un&#39
 
 Per aggiungere delle pagine, selezionate una cartella nella Libreria risorse, quindi trascinate i file PDF o i file di immagini nella schermata Ordina pagine. Invece dei numeri di pagina predefiniti, puoi fornire nomi di pagina personalizzati o importare più nomi di pagina.
 
-Seleziona **[!UICONTROL Salva]**, immetti un nome per l&#39;eCatalog, scegli una cartella Adobe Dynamic Media Classic per la memorizzazione e seleziona **[!UICONTROL Salva]**. Ogni volta che modifichi l’ordine delle pagine o l’eCatalog, salva le modifiche facendo clic su **[!UICONTROL Salva]**.
+Seleziona **[!UICONTROL Salva]**, immetti un nome per l&#39;eCatalog, scegli una cartella Adobe Dynamic Media Classic per la memorizzazione e seleziona **[!UICONTROL Salva]**. Ogni volta che modifichi l’ordine delle pagine o l’eCatalog, salva le modifiche selezionando **[!UICONTROL Salva]**.
 
 Consulta [Creare un eCatalog](creating-ecatalog.md).
 

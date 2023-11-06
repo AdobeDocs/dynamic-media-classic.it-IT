@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 19%
+source-wordcount: '1510'
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Per ordinare il contenuto di una cartella o i risultati della ricerca visualizza
 
 Puoi anche scegliere **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]** per ordinare le risorse in ordine crescente o decrescente in base ai criteri scelti.
 
-In visualizzazione Elenco, potete ordinare le risorse facendo clic sul nome di una colonna.
+Nella Vista a elenco, puoi ordinare selezionando un nome di colonna.
 
 ## Eseguire una ricerca semplice {#conducting-a-simple-search}
 
@@ -153,7 +153,7 @@ Segui queste istruzioni nella scheda Filtri per salvare, ripetere ed eliminare l
 
 ## Utilizzare il server di metadati {#using-the-metadata-server}
 
-Il server di metadati è un’API pubblica che potete usare per ricercare risorse in base ai metadati tramite richieste http.
+Il server di metadati è un’API pubblica che puoi utilizzare per cercare le risorse in base ai metadati tramite richieste http.
 
 Per configurare il server dei metadati, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server metadati]**.
 

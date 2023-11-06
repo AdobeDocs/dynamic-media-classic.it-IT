@@ -12,7 +12,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 31%
@@ -21,7 +21,7 @@ ht-degree: 31%
 
 # Gestire la cartella Cestino{#managing-the-trash-folder}
 
-Gli elementi eliminati da Adobe Dynamic Media Classic vengono spostati nella cartella Cestino. Gli eliminati rimangono in questa cartella per sette giorni finché non vengono ripristinati o eliminati definitivamente. Puoi esaminare gli elementi eliminati facendo clic sul pulsante **[!UICONTROL Cestino]** nella parte inferiore della libreria delle risorse e visualizzazione degli elementi nella pagina Cartella cestino.
+Gli elementi eliminati da Adobe Dynamic Media Classic vengono spostati nella cartella Cestino. Gli eliminati rimangono in questa cartella per sette giorni finché non vengono ripristinati o eliminati definitivamente. Puoi esaminare gli elementi eliminati selezionando la **[!UICONTROL Cestino]** nella parte inferiore della libreria delle risorse e visualizzazione degli elementi nella pagina Cartella cestino.
 
 Tutti gli utenti possono ripristinare gli elementi della cartella Cestino alle cartelle da cui sono stati eliminati. Possono inoltre svuotare la cartella Cestino di tutto il suo contenuto.
 

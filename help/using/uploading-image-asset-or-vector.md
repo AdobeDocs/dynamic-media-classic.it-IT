@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -22,7 +22,7 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Medie saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Consulta Foratura sfondo in [Opzioni di ottimizzazione immagine al caricamento](
 
 Puoi visualizzare il codice sorgente HTML associato al modulo precedente selezionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi seleziona **[!UICONTROL Visualizza origine pagina]**. Nel codice viene mostrata la stringa di richiesta URL corrispondente e il metodo POST che vengono eseguiti quando l’utente fa clic su **[!UICONTROL Invia]**.
+In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi seleziona **[!UICONTROL Visualizza origine pagina]**. Il codice mostra la stringa di query URL corrispondente e il metodo POST eseguito quando l’utente seleziona **[!UICONTROL Invia]**.
 
 Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Sorgente]**. Per visualizzare la risposta XML in Firefox, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori Web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 

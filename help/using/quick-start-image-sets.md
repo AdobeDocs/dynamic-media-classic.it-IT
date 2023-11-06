@@ -12,16 +12,16 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
 # Avvio rapido: set di immagini{#quick-start-image-sets}
 
-I set di immagini Adobe Dynamic Media Classic offrono agli utenti un&#39;esperienza di visualizzazione integrata. Nel visualizzatore di set di immagini dinamico, gli utenti possono fare clic su una miniatura per vedere diverse vedute dello stesso oggetto. I set di immagini consentono di presentare visualizzazioni alternative ad alta risoluzione di un elemento.
+I set di immagini Adobe Dynamic Media Classic offrono agli utenti un&#39;esperienza di visualizzazione integrata. In Visualizzatore set di immagini dinamico, gli utenti possono visualizzare diverse visualizzazioni di un elemento selezionando una miniatura. I set di immagini consentono di presentare visualizzazioni alternative ad alta risoluzione di un elemento.
 
 Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desiderate, potete includere nel set di immagini anche destinazioni di zoom e mappe immagine. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
 
@@ -34,15 +34,15 @@ Quando crei un set di immagini, Adobe consiglia le seguenti best practice e appl
 | Numero di risorse duplicate per set | Nessun duplicato | 20 |
 | Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
 
-Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
-La Guida introduttiva per set di immagini riportata di seguito è stata progettata per consentirti di iniziare rapidamente a utilizzare le tecniche per set di immagini in Adobe Dynamic Media Classic.
+La Guida introduttiva per set di immagini riportata di seguito è stata progettata per consentirti di iniziare rapidamente a lavorare con le tecniche per set di immagini in Adobe Dynamic Media Classic.
 
 ## 1. Carica le immagini primarie per più viste e campioni
 
 Per iniziare, caricate le immagini per il set di immagini. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di immagini, assicurati di tenere presente questa possibilità quando scegli le immagini. Assicurati che le dimensioni delle immagini siano di almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG e EPS senza perdita di dati.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare file dal computer in una cartella su Adobe Dynamic Media Classic.
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare file dal computer in una cartella in Adobe Dynamic Media Classic.
 
 Consulta [Prepara risorse set immagini per il caricamento](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
 

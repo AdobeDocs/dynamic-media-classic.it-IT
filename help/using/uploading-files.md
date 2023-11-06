@@ -11,10 +11,10 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 31%
+source-wordcount: '3934'
+ht-degree: 30%
 
 ---
 
@@ -138,7 +138,7 @@ Di solito, il nome del file di una risorsa può essere uguale al numero dell’a
 
 Organizza e struttura cartelle e sottocartelle per i contenuti in Adobe Dynamic Media Classic prima di caricarli. La pianificazione preventiva di questa procedura presenta i due grandi vantaggi seguenti:
 
-* Quando carichi i contenuti in Adobe Dynamic Media Classic tramite FTP, puoi dire al sistema di replicare la struttura delle cartelle durante il caricamento. In questo modo, il contenuto viene organizzato nelle stesse cartelle e sottocartelle di Adobe Dynamic Media Classic presenti nel computer o in rete. Per replicare la struttura di cartelle in Adobe Dynamic Media Classic, seleziona l’opzione Includi sottocartelle quando carichi le risorse tramite FTP.
+* Quando carichi il contenuto in Adobe Dynamic Media Classic tramite FTP, puoi chiedere al sistema di replicare la struttura delle cartelle durante il caricamento. In questo modo, il contenuto viene organizzato nelle stesse cartelle e sottocartelle di Adobe Dynamic Media Classic presenti nel computer o in rete. Per replicare la struttura di cartelle in Adobe Dynamic Media Classic, seleziona l’opzione Includi sottocartelle quando carichi le risorse tramite FTP.
 * Riorganizzare le cartelle all’interno del sistema dopo il caricamento dei file è molto più difficile rispetto a iniziare la procedura con una struttura di cartelle pianificata con attenzione.
 
 L’approccio e la struttura di denominazione delle cartelle scelti per memorizzare il contenuto sul Adobe Dynamic Media Classic dipende dalle esigenze della tua organizzazione. Di seguito sono riportati alcune strutture di cartelle di esempio:
@@ -153,7 +153,7 @@ L’approccio e la struttura di denominazione delle cartelle scelti per memorizz
 
 ## Informazioni sul caricamento di file {#uploading-your-files}
 
-Potete caricare singoli file dal desktop oppure caricare le cartelle mediante FTP. Per caricare più di 100 MB di file o intere cartelle e sottocartelle, selezionare **TRAMITE FTP** scheda.
+Puoi caricare singoli file dal desktop o cartelle tramite FTP. Per caricare più di 100 MB di file o intere cartelle e sottocartelle, selezionare **TRAMITE FTP** scheda.
 
 Adobe Dynamic Media Classic ti invia un messaggio e-mail per confermare quando inizia e termina il processo di caricamento e per avvisarti di eventuali problemi.
 
@@ -193,7 +193,7 @@ Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_fi
 Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
 1. (Facoltativo) Nella parte inferiore della pagina Carica, seleziona **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]** se si desidera che i file caricati sostituiscano i file esistenti con gli stessi nomi. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
 Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Carica nell&#39;applicazione]** > **[!UICONTROL Sovrascrivi immagini]**.
-1. Facoltativo; disponibile solo se si è fatto clic su **[!UICONTROL TRAMITE FTP]** scheda. Nella parte inferiore della pagina Carica, seleziona **[!UICONTROL Decomprimi file Zip o Tar al caricamento]** se desideri estrarre automaticamente tutti i file dal file ZIP o TAR caricato. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
+1. Facoltativo; disponibile solo se è stata selezionata l&#39;opzione **[!UICONTROL TRAMITE FTP]** scheda. Nella parte inferiore della pagina Carica, seleziona **[!UICONTROL Decomprimi file Zip o Tar al caricamento]** se desideri estrarre automaticamente tutti i file dal file ZIP o TAR caricato. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
 1. Nell’angolo in basso a destra della pagina Carica, seleziona **[!UICONTROL Opzioni processo]**, quindi specifica le opzioni desiderate.
 
    Consultate [Opzioni di caricamento](uploading-files.md#upload_options).

@@ -12,10 +12,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ Un set 360 gradi simula la rotazione di un oggetto per esaminarlo. I set 360 gra
 
 ![Immagini per un set 360 gradi](/help/using/assets/spin_set.png)
 
-I set 360 gradi accettano le mappe immagine. Una mappa immagine è un’area dell’immagine nel set 360 gradi dalla quale può essere visualizzato un pannello rollover con del testo. Quando l’utente fa clic su una mappa immagine, viene attivata un’azione. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Per evidenziare una mappa immagine in un set 360 gradi, viene visualizzato un contorno attorno alla mappa stessa quando l&#39;utente sposta il puntatore del mouse su di essa.
+I set 360 gradi accettano le mappe immagine. Una mappa immagine è un’area dell’immagine nel set 360 gradi dalla quale può essere visualizzato un pannello rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Per evidenziare una mappa immagine in un set 360 gradi, viene visualizzato un contorno attorno alla mappa stessa quando l&#39;utente sposta il puntatore del mouse su di essa.
 
 Consulta [Creare mappe immagine](creating-image-maps.md).
 
