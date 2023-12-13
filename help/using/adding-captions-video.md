@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '719'
+ht-degree: 31%
 
 ---
 
@@ -40,13 +40,13 @@ Adobe Dynamic Media Classic può convertire i file di didascalia in formato JSON
 
 Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) nel *Guida API di Image Server di Adobe* per ulteriori informazioni sull’utilizzo della funzione JSON in un URL.
 
-**Per aggiungere sottotitoli a un video:**
+**Per aggiungere sottotitoli al video:**
 
 1. Utilizzando un’applicazione di terze parti esterna a Adobe Dynamic Media Classic, crea il file di sottotitoli video in base al tipo di visualizzatore in uso.
 
    | Tipo visualizzatore | File di sottotitoli |
    |--- |--- |
-   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file di sottotitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Vedi WebVTT](https://w3c.github.io/webvtt/): formato dei brani di testo per video web. <br><br>Esistono strumenti e servizi gratuiti e a pagamento che puoi utilizzare per creare file di didascalia al di fuori di Adobe Dynamic Media Classic. Ad esempio, per creare un file di sottotitoli video semplice senza stile, potete utilizzare il seguente strumento di creazione e modifica di sottotitoli online gratuito: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Per ottenere risultati ottimali, utilizza lo strumento in Internet Explorer 9 o versioni successive, Google Chrome o Safari. <br><br>Nello strumento, nella sezione <b>Inserisci l’URL del file video</b> , incollare l&#39;URL del file video e quindi selezionare <b>Carica</b>. <br><br>Ad esempio, se per il file video utilizzi un URL Adobe Dynamic Media Classic, fai doppio clic su una singola risorsa video (non un set video adattivo o un video principale) per aprirla in Vista dettagli. Nel pannello a destra della vista Dettagli, espandete URL e codice da incorporare. Quindi, nel gruppo Mobile, a destra di Mobile (Progressive), seleziona <b>Copia URL</b>. Questo processo ti fornisce l’URL del file video stesso che puoi incollare nel <b>Inserisci l’URL del file video</b> campo. Internet Explorer, Chrome o Safari possono quindi riprodurre il video in modo nativo. Seguite ora le istruzioni visualizzate dal sito per creare e salvare il file WebVTT. Al termine, copiate il contenuto del file di didascalia e incollatelo in un editor di testo normale e salvatelo con un&#39;estensione VTT. <br><br><b>Nota:</b> Per il supporto globale dei sottotitoli video in lingue diverse dall&#39;inglese, lo standard WebVTT richiede la creazione di file .vtt e chiamate separati per ogni lingua che si desidera supportare. <br><br>In genere, è consigliabile assegnare al file VTT dei sottotitoli lo stesso nome del file video, aggiungendo il suffisso captions. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web. |
+   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione dei file di sottotitoli è .vtt. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Vedi WebVTT](https://w3c.github.io/webvtt/): formato dei brani di testo per video web. <br><br>Molti siti Web offrono strumenti e servizi gratuiti e a pagamento che è possibile utilizzare per creare file di sottotitoli WebVTT al di fuori di Adobe Dynamic Media Classic. <br><br>Seguire le istruzioni visualizzate da un sito per creare e salvare il file WebVTT. Al termine, copiate il contenuto del file di didascalia e incollatelo in un editor di testo normale e salvatelo con un&#39;estensione VTT. <br><br><b>Nota:</b> Per il supporto globale dei sottotitoli video in lingue diverse dall&#39;inglese, lo standard WebVTT richiede la creazione di file .vtt e chiamate separati per ogni lingua che si desidera supportare. <br><br>In genere, si desidera assegnare al file VTT della didascalia lo stesso nome del file video e aggiungerlo ai sottotitoli. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web. |
 
 1. In Adobe Dynamic Media Classic, carica il file di didascalia XML WebVTT, DFXP o SMPTE.
 

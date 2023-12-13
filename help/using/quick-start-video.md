@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 26%
+source-wordcount: '1439'
+ht-degree: 33%
 
 ---
 
@@ -62,13 +62,13 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
   Scopri il supporto più recente in [Guida di riferimento per i visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-  Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264. I dispositivi BlackBerry® che supportano questo formato video sono disponibili sul seguente sito Web:
+  Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
-  Consulta [Formati video supportati su BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  <!-- See [Supported video formats on BlackBerry&reg;](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482). -->
 
   I dispositivi Windows® che supportano questo formato video sono disponibili nei seguenti percorsi:
 
-  Consulta [Formati video supportati su Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
+  [Formati video supportati su Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * Riproduci il video utilizzando i predefiniti visualizzatore Adobe Dynamic Media Classic, inclusi i seguenti elementi:
 
