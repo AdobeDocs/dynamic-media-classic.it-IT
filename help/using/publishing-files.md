@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 37%
+source-wordcount: '1726'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
 Le risorse vengono pubblicate sui server immagini Dynamic Medie. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione.
 
-Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
@@ -42,7 +42,7 @@ Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblica
 | Set di immagini | Immagini nel set. |
 | Set di campioni | Campioni nel set. |
 | Set 360 gradi | Immagini nel set. |
-| Modelli | File, pagine e immagini di modello. |
+| Modelli | File modello, pagine e immagini. |
 
 Quando le immagini principali sono contrassegnate per la pubblicazione, vengono contrassegnate automaticamente anche le immagini derivate. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Puoi vedere queste immagini derivate nella sezione Visualizzazione dettagli in Generato e derivati.
 
@@ -118,7 +118,7 @@ Potete pubblicare manualmente singole risorse anziché creare un processo di pub
 
 Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona rotonda grigia con una barra (&quot;stato non pubblicato&quot;) a sinistra del nome della risorsa. Dopo la pubblicazione, l’icona della risorsa diventa verde e presenta un segno di spunta bianco al centro (stato Pubblicato).
 
-**Per pubblicare le risorse manualmente:**
+**Per pubblicare manualmente le risorse:**
 
 1. Effettuate una delle seguenti operazioni:
 
@@ -134,7 +134,7 @@ Potete annullare la pubblicazione di singole risorse manualmente. Quando annulli
 
 Le risorse pubblicate sono indicate nell’interfaccia utente da un’icona rotonda, verde, con un segno di spunta bianco al centro (stato di pubblicazione), a sinistra del nome della risorsa. Dopo aver annullato la pubblicazione di una risorsa, l’icona diventa grigia con una barra (&quot;stato non pubblicato&quot;);
 
-**Per esportare manualmente le risorse non pubblicate:**
+**Per annullare manualmente la pubblicazione delle risorse:**
 
 1. Effettuate una delle seguenti operazioni:
 

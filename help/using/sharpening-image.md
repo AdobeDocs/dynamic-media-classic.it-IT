@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2198'
 ht-degree: 38%
 
 ---
@@ -45,7 +45,7 @@ Consulta [Best practice per la nitidezza delle immagini in Adobe Dynamic Media C
 
 Vedi anche [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) video di formazione.
 
-**Per rendere più nitida un’immagine:**
+**Per rendere più nitida un&#39;immagine:**
 
 Per rendere più nitida un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Nitidezza]**, o aprirlo nel pannello Sfoglia in Visualizzazione dettagli, quindi selezionare **[!UICONTROL Nitidezza]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegliere i comandi, quindi selezionare **[!UICONTROL Salva]**.
 
@@ -59,8 +59,8 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 
 | Nome | Protocollo URL | Valori | Esempio |
 | --- | --- | --- | --- |
-| Nitidezza semplice | `op_sharpen` | `0` Oppure `1` | `op_sharpen=1` |
-| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona l&#39;interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bi-cubica. Richiede maggiori risorse CPU rispetto a `bilin`, ma produce immagini più nitide e con meno artefatti di alias.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato.<br><br>`trilin`: interpolazione trilineare modificata, che utilizza risoluzioni più elevate e più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
+| Nitidezza semplice | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
+| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona l&#39;interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bi-cubica. Maggiore utilizzo della CPU rispetto a `bilin`, ma produce immagini più nitide con artefatti di aliasing meno evidenti.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia le risoluzioni più alte che quelle più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
 | Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di intensità del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello soglia filtro (int 0...255)<br><br>`monochrome`: impostato su `0` per applicare una maschera di contrasto a ogni componente di colore separatamente, impostate `1` per mascherare la luminosità dell&#39;immagine (intensità) | `op_usm=1,1,10,0` |
 
 Seleziona la **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
@@ -120,7 +120,7 @@ Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
 * **Qualità JPG** - Selezionare questa opzione per controllare i livelli di compressione e il downsampling della crominanza.
 
-* **Cursore** - Determina il livello di compressione JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPG è 1-100.
+* **Cursore** - Determina il livello di compressione JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità JPG va da 1 a 100.
 
 * **Abilita downsampling crominanza JPG** - Poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni in luminanza e componenti di colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
@@ -128,7 +128,7 @@ Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
 Se non usate un predefinito per immagini o non passate specifici protocolli di nitidezza per il server immagine tramite la stringa URL, l’immagine ricampionata non verrà resa più nitida. Tuttavia, se si verifica questa mancanza di nitidezza, potete impostare i valori di nitidezza predefiniti, in modo che qualsiasi immagine abbia sempre una certa nitidezza.
 
-Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se impostate la modalità di ricampionamento predefinita su **[!UICONTROL `Sharp2`]**, aumenta sempre la nitidezza dell&#39;immagine durante il downsampling.
+Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se impostate la modalità di ricampionamento predefinita su **`Sharp2`**, aumenta sempre la nitidezza dell&#39;immagine durante il downsampling.
 
 **Aggiungi nitidezza ai predefiniti visualizzatore**
 
@@ -140,7 +140,7 @@ Consulta [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/Vi
 
 L’opzione Modificatori si trova nella sezione Impostazioni principali di tutti i predefiniti per visualizzatori eCatalog, 360 gradi e Zoom personalizzati. Aggiungendo i comandi URL di nitidezza alla casella Modificatori, potete applicare la nitidezza ogni volta che il visualizzatore viene richiamato con quel predefinito per visualizzatori.
 
-Per chiamare il predefinito visualizzatore, usa `config=` nell&#39;URL del visualizzatore. Esempio di chiamata di set di immagini (Shoes) con un predefinito per visualizzatori (`FantasticoZoom2022`):
+Per chiamare il predefinito visualizzatore, usa `config=` nell&#39;URL del visualizzatore. Esempio di chiamata di un set di immagini (scarpe) con un predefinito per visualizzatori (`FantasticoZoom2022`):
 
 `https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=S7train/FantasticoZoom2022`
 

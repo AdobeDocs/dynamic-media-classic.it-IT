@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 65%
+source-wordcount: '1008'
+ht-degree: 55%
 
 ---
 
@@ -46,7 +46,7 @@ Il token di caricamento è una stringa alfanumerica disponibile solo per un peri
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-Per impostazione predefinita, il token di caricamento scade cinque minuti (300 secondi) dopo averlo ottenuto. Per richiedere più tempo, includete nell’URL il parametro `expires` e il tempo desiderato, in secondi. Ad esempio, con il seguente URL immagine di esempio si ottiene un token di caricamento che sarà valido per 1800 secondi:
+Per impostazione predefinita, il token di caricamento scade cinque minuti (300 secondi) dopo averlo ottenuto. Per richiedere più tempo, includi `expires` nell’URL e il tempo necessario in secondi. Ad esempio, con il seguente URL immagine di esempio si ottiene un token di caricamento che sarà valido per 1800 secondi:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -80,8 +80,8 @@ Per ottenere un token di caricamento, potete usare i seguenti campi nella string
 | Parametro URL | Richiesto o facoltativo | Valore |
 | --- | --- | --- |
 | op | Obbligatorio | get_uploadtoken |
-| shared_secret | Obbligatorio | Chiave segreta condivisa della società che esegue il caricamento. |
-| expires | Facoltativo | Validità del token di caricamento, in secondi. Se non viene specificato, viene applicato il valore predefinito di 300 secondi. |
+| shared_secret | Obbligatorio | Chiave segreto condiviso per l’azienda che sta effettuando il caricamento. |
+| scade | Facoltativo | Validità del token di caricamento, in secondi. Se non viene specificato, viene applicato il valore predefinito di 300 secondi. |
 
 **URL immagine raster di esempio:**
 
@@ -118,7 +118,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Il `file_limit` parametro specifica il limite di dimensione file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+Il `file_limit` parametro specifica il limite di dimensione file in byte. Il `file_exts` Il parametro specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -129,10 +129,10 @@ Nell’applicazione è possibile impostare un limite globale per la dimensione d
 
 Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo richiede l’inserimento delle informazioni di seguito:
 
-* Nome società.
-* Token di caricamento.
-* Limite dimensione file.
-* Elenco di estensione di nomi file.
+* Nome dell&#39;azienda.
+* Un token di caricamento.
+* Un limite di dimensione file.
+* Un elenco di estensioni del nome file.
 * Specifica se mantenere il profilo colore e il nome file associati alla risorsa.
 * Se utilizzare Knockout Background. Se attivate Sfondo foratura (Knockout Background), impostate i metodi Angolo (Corner), Tolleranza (Tolerance) e Riempimento (Fill).
 Consulta Foratura sfondo in [Opzioni di ottimizzazione immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
@@ -170,7 +170,7 @@ Segue un esempio di risposta a seguito di un caricamento riuscito:
 >
 >la risorsa caricata (JPG, GIF è così via) viene convertita in formato PTIFF e la risposta invia un collegamento diretto a tale risorsa PTIFF.
 
-La risorsa è come qualsiasi altra risorsa Image Server ed è possibile applicarvi delle query di elaborazione. Ad esempio, con l’URL seguente viene richiesto di ingrandire la risorsa in base alla larghezza e all’altezza specificate.
+La risorsa è come qualsiasi altra risorsa Image Server ed è possibile applicarvi delle query di elaborazione. Ad esempio, l’URL seguente richiede una risorsa che sia estesa alla larghezza e all’altezza specificate.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -180,13 +180,13 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 
 | Parametro URL | Obbligatorio o facoltativo | Valore |
 | --- | --- | --- |
-| `op` | Obbligatorio | upload |
+| `op` | Obbligatorio | caricare |
 | `upload_token` | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
 | `company_name` | Obbligatorio | Nome della società che esegue il caricamento. |
 | `file_limit` | Facoltativo | Limite dimensione file in byte per la risorsa. |
 | `file_exts` | Facoltativo | Elenco di estensioni consentite per il file della risorsa immagine. |
-| `preserve_colorprofile` | Facoltativo | Mantiene eventuale profilo colore incorporato durante la conversione in formato PTIFF del file caricato. I valori consentiti sono true o false. Il valore predefinito è false.. |
-| `preserve_filename` | Facoltativo | Mantiene il nome file della risorsa caricata. I valori consentiti sono true o false. Il valore predefinito è false.. |
+| `preserve_colorprofile` | Facoltativo | Mantiene eventuale profilo colore incorporato durante la conversione in formato PTIFF del file caricato. I valori consentiti sono true o false. Il valore predefinito è false. |
+| `preserve_filename` | Facoltativo | Mantiene il nome file della risorsa caricata. I valori consentiti sono true o false. Il valore predefinito è false. |
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ POST
 
 ### Ottieni metadati risorsa per immagini {#getting-asset-metadata-for-images}
 
-Per ottenere i metadati di una risorsa caricata, potete usare `image_info`, come illustrato nell’esempio di seguito:
+È possibile utilizzare `image_info` per recuperare i metadati di una risorsa caricata, come illustrato nell’esempio seguente:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -237,7 +237,7 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 | Parametro URL | Richiesto o facoltativo | Valore |
 | --- | --- | --- |
 | `op` | Obbligatorio | image_info |
-| `shared_secret` | Obbligatorio | Chiave segreta condivisa della società. |
+| `shared_secret` | Obbligatorio | Chiave condivisa-segreta per la società. |
 | `image_name` | Obbligatorio | Nome dell’immagine. |
 
 **URL campione:**

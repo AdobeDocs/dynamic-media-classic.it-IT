@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '223'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è pi
 
   Per ulteriori informazioni sui requisiti e la configurazione dei contenuti multimediali in streaming, consulta [Misurare i contenuti multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
-* Per informazioni sulle variabili personalizzate e di soluzione consulta [Abilitazione di rapporti sui contenuti multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
+* Per informazioni sulle variabili personalizzate e di soluzione, consulta [Abilitazione di rapporti sui contenuti multimediali](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 
 >[!NOTE]
 >

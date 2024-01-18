@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Sì, [!DNL Dynamic Media] utilizza la robusta rete di distribuzione Adobe di liv
 
 * Il miglior fornitore di rich media per Internet Retail 1000, nove anni di fila.
 * Supporto 24/7/265, 99,95% SLA.
-* Infrastruttura collaudata che serve oltre 800 clienti in tutto il mondo, traffico di 3,5 PB al mese e oltre 500 milioni di asset di gestione, crescita del 60% del traffico anno dopo anno.
+* Infrastruttura collaudata che serve più di 800 client in tutto il mondo, 3,5 petabyte di traffico al mese e oltre 500 milioni di asset di gestione, crescita del 60% del traffico anno dopo anno.
 
 +++
 
@@ -97,23 +97,23 @@ Per informazioni dettagliate sui prezzi, rivolgiti al rappresentante del team de
 +++
 
 +++**Il processo di aggiornamento comporta tempi di inattività?**
-Non può contenere. [!DNL Dynamic Media Classic] continua a funzionare senza interruzioni durante il processo di aggiornamento. Una volta completato l’aggiornamento e convalidato il contenuto, tutti gli utenti lavoreranno esclusivamente all’interno del [!DNL Dynamic Media] componente di [!DNL Experience Manager] Risorse.
+No. [!DNL Dynamic Media Classic] continua a funzionare senza interruzioni durante il processo di aggiornamento. Una volta completato l’aggiornamento e convalidato il contenuto, tutti gli utenti lavoreranno esclusivamente all’interno del [!DNL Dynamic Media] componente di [!DNL Experience Manager] Risorse.
 
 +++
 
 +++**Sono necessari tutti i passaggi dell’elenco di controllo per la preparazione all’aggiornamento?**
-Non può contenere. Il [elenco di controllo preparazione](/help/using/upgrade-readiness.md) contiene i passaggi della best practice obbligatori e facoltativi.
+No. Il [elenco di controllo preparazione](/help/using/upgrade-readiness.md) contiene i passaggi della best practice obbligatori e facoltativi.
 
 +++
 
 +++**È necessario eseguire l&#39;aggiornamento?**
-Non può contenere. Adobe continua a supportare e mantenere pienamente [!DNL Dynamic Media Classic] (correzioni di bug, correzioni di sicurezza, scalabilità della piattaforma e affidabilità richieste dal cliente) attuali e future.
+No. Adobe continua a supportare e mantenere pienamente [!DNL Dynamic Media Classic] (correzioni di bug, correzioni di sicurezza, scalabilità della piattaforma e affidabilità richieste dal cliente) attuali e future.
 
 È possibile eseguire l&#39;aggiornamento quando si è pronti a sfruttare le nuove funzionalità offerte da [!DNL Dynamic Media].
 
 +++
 
-+++**Posso continuare a utilizzare [!DNL Dynamic Media Classic] (precedentemente Adobe Scene7) dopo l’aggiornamento a [!DNL Dynamic Media]?**
++++**Posso ancora utilizzare [!DNL Dynamic Media Classic] (precedentemente Adobe Scene7) dopo l’aggiornamento a [!DNL Dynamic Media]?**
 Dopo aver effettuato l’aggiornamento a [!DNL Dynamic Media], è consigliabile utilizzare Dynamic Medie solo per immagini e video. Puoi continuare a utilizzare [!DNL Dynamic Media Classic] solo per funzioni non ancora disponibili in [!DNL Dynamic Media] compresi i seguenti:
 
 * Configuratore visivo (autore immagine, rendering immagine).
@@ -133,17 +133,17 @@ Sì. Puoi continuare a utilizzare il [!DNL Dynamic Media Classic] (in precedenza
 +++
 
 +++**Devo aggiornare i miei URL di produzione?**
-Non può contenere. L&#39;Adobe continua a utilizzare [!DNL Dynamic Media Classic] l&#39;infrastruttura di pubblicazione e distribuzione così come è nel [!DNL Dynamic Media] soluzione. Il vantaggio di questo approccio è che non è necessario modificare gli URL di produzione sulle pagine web, riducendo al minimo il rischio e lo sforzo di migrazione a [!DNL Dynamic Media].
+No. L&#39;Adobe continua a utilizzare [!DNL Dynamic Media Classic] l&#39;infrastruttura di pubblicazione e distribuzione così come è nel [!DNL Dynamic Media] soluzione. Il vantaggio di questo approccio è che non è necessario modificare gli URL di produzione sulle pagine web, riducendo al minimo il rischio e lo sforzo di migrazione a [!DNL Dynamic Media].
 
 +++
 
 +++**Dovrò riscrivere le integrazioni API e altri script di automazione?**
-Non può contenere. L&#39;Adobe continua a utilizzare [!DNL Dynamic Media Classic] l&#39;infrastruttura di pubblicazione e distribuzione così come è nel [!DNL Dynamic Media] soluzione. Inoltre, tutte le risorse vengono replicate su [!DNL Dynamic Media Classic]. Il vantaggio di questo approccio è che non è necessario riscrivere integrazioni basate su API o script di automazione, riducendo al minimo il rischio e lo sforzo di migrazione a [!DNL Dynamic Media].
+No. L&#39;Adobe continua a utilizzare [!DNL Dynamic Media Classic] l&#39;infrastruttura di pubblicazione e distribuzione così come è nel [!DNL Dynamic Media] soluzione. Inoltre, tutte le risorse vengono replicate su [!DNL Dynamic Media Classic]. Il vantaggio di questo approccio è che non è necessario riscrivere integrazioni basate su API o script di automazione, riducendo al minimo il rischio e lo sforzo di migrazione a [!DNL Dynamic Media].
 
 +++
 
 +++**Dovrò apportare modifiche o risviluppare i miei visualizzatori personalizzati?**
-Non può contenere. L&#39;Adobe continua a utilizzare [!DNL Dynamic Media Classic] l&#39;infrastruttura di pubblicazione e distribuzione così come è nel [!DNL Dynamic Media] soluzione. Il vantaggio di questo approccio è che puoi continuare a utilizzare i visualizzatori personalizzati, riducendo al minimo il rischio e l&#39;impegno di migrazione a [!DNL Dynamic Media].
+No. L&#39;Adobe continua a utilizzare [!DNL Dynamic Media Classic] l&#39;infrastruttura di pubblicazione e distribuzione così come è nel [!DNL Dynamic Media] soluzione. Il vantaggio di questo approccio è che puoi continuare a utilizzare i visualizzatori personalizzati, riducendo al minimo il rischio e l&#39;impegno di migrazione a [!DNL Dynamic Media].
 +++
 
 +++**Come posso eseguire la migrazione delle mie impostazioni (come predefiniti immagine, codifiche video) in [!DNL Dynamic Media]?**
@@ -230,7 +230,7 @@ Consulta anche [Caratteristiche a confronto](/help/using/upgrade-feature-compari
 ## Servizi di consulenza
 
 +++**Posso completare da solo il processo di aggiornamento?**
-Non può contenere. Collabora con il tuo rappresentante di Adobe e con l’AGS per definire l’ambito dell’aggiornamento.
+No. Collabora con il tuo rappresentante di Adobe e con l’AGS per definire l’ambito dell’aggiornamento.
 
 +++
 

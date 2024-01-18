@@ -12,10 +12,10 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 50%
+source-wordcount: '958'
+ht-degree: 44%
 
 ---
 
@@ -31,7 +31,7 @@ Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le 
 
 In generale, più immagini si hanno in un set 360 gradi, migliore è l&#39;effetto di rotazione dell&#39;immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Adobe Dynamic Media Classic consiglia di seguire queste linee guida per la ripresa di immagini da utilizzare nei set 360 gradi:
 
-* Utilizzare almeno 8-12 immagini in un set 360 gradi monodimensionale e 16-24 immagini in un set 360 gradi bidimensionale.
+* Utilizzate almeno da 8 a 12 scatti per un set 360 gradi monodimensionale e da 16 a 24 scatti per un set 360 gradi bidimensionale.
 * Utilizzate un formato senza perdita di dati; si consigliano TIFF e PNG.
 * Mascherate tutte le immagini in modo che gli elementi appaiano su uno sfondo bianco puro o su un altro sfondo a elevato contrasto. Se necessario, aggiungete ombre.
 * Assicuratevi che i dettagli del prodotto siano ben illuminati e messi a fuoco.
@@ -39,7 +39,7 @@ In generale, più immagini si hanno in un set 360 gradi, migliore è l&#39;effet
 
 ## Creare un set 360 gradi {#create}
 
-L’ordine in cui il set 360 gradi viene creato o creato in Adobe Dynamic Media Classic è importante. A seconda di come ordinate le risorse quando rilasciate le immagini nella griglia della pagina Set 360 gradi, la rotazione avviene in una determinata direzione. Pertanto, l’ordine in cui viene visualizzata visivamente nel generatore di è il modo in cui la risorsa viene ruotata quando un utente sposta il puntatore del mouse o il dito, da sinistra a destra.
+L’ordine in cui il set 360 gradi viene creato o creato in Adobe Dynamic Media Classic è importante. A seconda di come ordini le risorse quando trascini e rilasci le immagini nella griglia della pagina Set 360 gradi, il set 360 gradi viene ruotato in una determinata direzione. Pertanto, l’ordine in cui viene visualizzata visivamente nel generatore di è il modo in cui la risorsa viene ruotata quando un utente sposta il puntatore del mouse o il dito, da sinistra a destra.
 
 Quando create un set, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** incide su set e relativi membri nei seguenti modi:
 
@@ -56,7 +56,7 @@ Quando crei un set 360 gradi, Adobe consiglia la procedura consigliata seguente 
 | --- | --- | --- |
 | Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 
-Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
 Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di generazione del set 360 gradi per vederne l’effetto nel visualizzatore predefinito.
 
@@ -83,7 +83,7 @@ Sia che si modifichi un set pubblicato o un set non pubblicato, il **[!UICONTROL
 | Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -98,7 +98,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    * **Aggiunta di immagini** : trascina l’immagine in una cella.
 
-   * **Riordinamento delle righe (set 360 gradi bidimensionali)** - Selezionare una casella di selezione delle righe (a sinistra della riga), quindi selezionare **[!UICONTROL Sposta riga in basso]** o **[!UICONTROL Sposta riga in alto]**.
+   * **Riordinamento delle righe (set 360 gradi bidimensionali)** - Selezionare una casella di selezione riga (a sinistra della riga) e quindi selezionare **[!UICONTROL Sposta riga in basso]** o **[!UICONTROL Sposta riga in alto]**.
 
    * **Aggiunta di righe e celle** - Immettere un numero nelle caselle Righe e Celle per determinare il numero di righe e il numero di celle in ogni riga.
 
@@ -107,7 +107,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un set 360 gradi {#deleting-a-spin-set}
 
-Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually-publishing-assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually-unpublishing-assets).
 

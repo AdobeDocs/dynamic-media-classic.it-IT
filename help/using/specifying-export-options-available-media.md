@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ Vedi anche [Esportare risorse da Adobe Dynamic Media Classic](exporting-assets-f
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagine]**.
 1. Nella finestra Predefiniti immagine, selezionate una delle seguenti opzioni:
 
-   * **Abilita conversione definita dall&#39;utente** - Se selezionata, questa opzione consente agli utenti di scegliere tra **[!UICONTROL Dimensione]** nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un’unità di misura quali pixel o centimetri e specificare la larghezza e l’altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
+   * **Abilita conversione definita dall&#39;utente** - Se selezionata, questa opzione consente agli utenti di scegliere tra **[!UICONTROL Dimensione]** nella finestra Esporta risorse selezionate. Gli utenti possono quindi scegliere un&#39;unità di misura, ad esempio pixel o centimetri, e quindi specificare la larghezza e l&#39;altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
 
      Quando **[!UICONTROL pixel]** sono scelti tra **[!UICONTROL Dimensione]** , la larghezza × l&#39;altezza dell&#39;immagine non possono superare i 100 milioni di pixel. Questa dimensione equivale a 10.000 × 10.000 pixel per un&#39;immagine quadrata o a circa 8.000 × 12.000 pixel per un&#39;immagine con proporzioni 2x3. Questo limite di dimensione non si applica se si esportano immagini primarie originali.
 
@@ -45,4 +45,4 @@ Vedi anche [Esportare risorse da Adobe Dynamic Media Classic](exporting-assets-f
 >[!MORELIKETHIS]
 >
 >* [Predefiniti immagine](application-setup.md#image_presets)
->* [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Scegli le autorizzazioni di accesso al predefinito immagine per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

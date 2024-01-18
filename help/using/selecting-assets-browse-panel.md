@@ -12,7 +12,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%
@@ -25,7 +25,7 @@ Seleziona una risorsa nel pannello Sfoglia per utilizzarla. Per selezionare le r
 
 * **Una singola risorsa** - Selezionare la risorsa (facendo doppio clic si apre la risorsa in Vista dettagli).
 
-* **Diverse risorse** - Ctrl+clic (Windows®) o Comando+clic (Macintosh) sulle risorse per selezionare le risorse in posizioni diverse nel pannello Sfoglia. Per selezionare risorse adiacenti, tenete premuto il tasto Maiusc e fate clic (fate clic sulla prima risorsa, quindi tenete premuto il tasto Maiusc e fate clic sull’ultima).
+* **Diverse risorse** - Ctrl+clic (Windows®) o Comando+clic (Mac) sulle risorse per selezionarle in posizioni diverse nel pannello Sfoglia. Per selezionare risorse adiacenti, tenete premuto il tasto Maiusc e fate clic (fate clic sulla prima risorsa, quindi tenete premuto il tasto Maiusc e fate clic sull’ultima).
 
 * **Tutte le risorse nel pannello Sfoglia** - Vai a **[!UICONTROL Seleziona]** > **[!UICONTROL Tutti]**.
 

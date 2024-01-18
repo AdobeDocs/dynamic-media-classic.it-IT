@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '11288'
-ht-degree: 38%
+source-wordcount: '10991'
+ht-degree: 37%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#
 
 Se in precedenza avete caricato le immagini e quindi modificato i file originali (o li avete sostituiti), l&#39;opzione di sovrascrittura selezionata specifica in che modo Adobe Dynamic Media Classic sostituisce le immagini. I dati relativi all’immagine non vengono modificati, ma la nuova immagine sostituisce la precedente. Se la cartella contiene anche immagini che non sono già presenti in Adobe Dynamic Media Classic, queste immagini vengono aggiunte.
 
-Utilizza questa opzione se le immagini caricate sono cambiate in qualche modo (l’immagine è stata modificata) ma il riferimento all’immagine rimane lo stesso. L’opzione Sovrascrivi è utile anche quando si caricano e si estraggono dati da file Adobe® PDF. Per ottimizzare il modo in cui Adobe Dynamic Media Classic *strappi* nell&#39;immagine, regolate le opzioni del profilo colore ICC nella finestra di dialogo Carica (Upload) e ricaricate utilizzando la funzione Sovrascrivi (Overwrite).
+Utilizza questa opzione se le immagini caricate sono cambiate in qualche modo (l’immagine è stata modificata) ma il riferimento all’immagine rimane lo stesso. La sovrascrittura è utile anche per il caricamento e la copia di PDF Adobe®. Per ottimizzare il modo in cui Adobe Dynamic Media Classic *strappi* nell&#39;immagine, regolate le opzioni del profilo colore ICC nella finestra di dialogo Carica (Upload) e ricaricate utilizzando la funzione Sovrascrivi (Overwrite).
 
 Gli ID Adobe Dynamic Media Classic utilizzati per accedere alle immagini dai server di produzione derivano dai nomi dei file immagine. L’utilizzo di caratteri maiuscoli e minuscoli nel nome del file è importante, sia per la sostituzione dei file esistenti che per gli ID Adobe Dynamic Media Classic utilizzati per accedere all’immagine. Assicurati che l’uso di caratteri maiuscoli e minuscoli nei nomi dei file sia corretto prima di caricarli in Adobe Dynamic Media Classic per evitare ID Adobe Dynamic Media Classic che differiscono solo per la stessa immagine.
 
@@ -161,7 +161,7 @@ Gli amministratori possono creare predefiniti per l’esportazione delle risorse
 
 Per aprire la schermata Predefinito immagine, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagine]**.
 
-Consulta [Imaging avanzato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Consulta [Imaging avanzato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### Creare e modificare i predefiniti immagine {#creating-and-editing-image-presets}
 
@@ -193,17 +193,17 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
    * Opzioni Quantizzazione colore GIF
 
-      * **[!UICONTROL Tipo]** - Selezionare Adattivo (impostazione predefinita), Web o Macintosh. Se si seleziona **[!UICONTROL GIF con Alpha]**, l&#39;opzione Macintosh non è disponibile.
+      * **[!UICONTROL Tipo]** - Seleziona Adattivo (impostazione predefinita), Web o Mac. Se si seleziona **[!UICONTROL GIF con Alpha]**, l’opzione Mac non è disponibile.
 
       * **[!UICONTROL Retinatura]** - Selezionare Diffondi o Disattivato.
 
       * **[!UICONTROL Numero di colori]** - Trascinate il cursore per immettere 2-255.
 
-      * **[!UICONTROL Elenco colori]** - Inserisci un elenco separato da virgole. Ad esempio, per bianco, grigio e nero inserite `000000,888888,ffffff`.
+      * **[!UICONTROL Elenco colori]** - Inserisci un elenco separato da virgole. Ad esempio, per bianco, grigio e nero, immetti `000000,888888,ffffff`.
 
    * Opzioni JPEG
 
-      * **[!UICONTROL Qualità]** - Controlla il livello di compressione JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPEG è 1-100.
+      * **[!UICONTROL Qualità]** - Controlla il livello di compressione JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità dei file JPEG va da 1 a 100.
 
       * **[!UICONTROL Abilita downsampling crominanza JPG]** - Poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni in luminanza e componenti di colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
@@ -223,7 +223,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Bicubico]** - Aumenta l&#39;utilizzo della CPU sul server immagini, ma produce immagini più nitide con artefatti di aliasing meno evidenti.
 
-* **[!UICONTROL `Sharp 2`]** - Produce risultati con un grado di nitidezza leggermente superiore rispetto all’opzione Bicubico ma con un utilizzo maggiore di CPU sul server immagini.
+* **[!UICONTROL `Sharp 2`]** : può produrre risultati leggermente più nitidi rispetto all&#39;opzione Bicubico, ma a un costo della CPU ancora più elevato sul server immagini.
 
 * **[!UICONTROL Trilineare]** : utilizza risoluzioni più alte e più basse, se disponibili; consigliato solo quando l’aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
@@ -272,7 +272,7 @@ Consulta [Caricare e codificare i video](uploading-encoding-videos.md#uploading_
 
 Vedi anche [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) video di formazione.
 
-**Per attivare o disattivare i predefiniti video adattivi:**
+**Per attivare o disattivare i predefiniti per video adattivi:**
 
 1. Nell&#39;angolo superiore destro di Adobe Dynamic Media Classic, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Predefiniti per video]** > **[!UICONTROL Predefiniti video adattivo]**.
 1. Nella pagina Predefiniti video adattati, deselezionate la casella di controllo accanto al nome di un predefinito per eliminarlo dall’elenco Opzioni eVideo nella finestra di dialogo Opzioni processo di caricamento.
@@ -350,7 +350,7 @@ Di seguito sono elencati i predefiniti di codifica disponibili per video adattiv
 
 Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni dei predefiniti di codifica](application-setup.md#about_encoding_preset_options).
 
-**Predefiniti per codifica video adattiva (16:9 o 4:3)**
+**Predefiniti di codifica video adattiva (16:9 o 4:3)**
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -371,7 +371,7 @@ Predefiniti di codifica video per MP4 e OGV su computer desktop.
 
 Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni dei predefiniti di codifica](application-setup.md#about_encoding_preset_options).
 
-**H264 Main 3.2 - Audio AAC - Estensione MP4**
+**H264 Main 3.2 - Audio AAC, estensione file MP4**
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -384,7 +384,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 | 7 | 4:3, 640x480 (1200 Kbps) | 1,5 Mbps | _640x480_1200K | 1200 | 640x480 | Come sorgente | 96 | Risoluzione medio-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 | 1280x960 | Come sorgente | 128 | Alta definizione |
 
-**OGG Vorbis Theora - Estensione OGV**
+**OGG Theora Vorbis - Estensione del file OGV**
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -403,7 +403,7 @@ Come fps sorgente. Predefiniti di codifica video per dispositivi mobili iPhone, 
 
 Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni dei predefiniti di codifica](application-setup.md#about_encoding_preset_options).
 
-**H264 Baseline 2.1 - Audio AAC - Estensione MP4**
+**Linea di base H264 2.1 - Audio AAC, estensione file MP4**
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Bitrate video (Kbps) | Larghezza/Altezza in pixel | Fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -426,7 +426,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 Un *predefinito per visualizzatori* è un gruppo di impostazioni con cui viene definito in che modo le risorse multimediali verranno visualizzate sullo schermo del computer e sui dispositivi mobili dell’utente. In qualità di amministratore, potete creare dei predefiniti per visualizzatori. Sono disponibili impostazioni per un’ampia gamma di opzioni di configurazione dei visualizzatori. Ad esempio, è possibile modificare le dimensioni dello schermo del visualizzatore, il comportamento dello zoom, gli schemi di colori, i bordi e i font.
 
-Come best practice, utilizza i visualizzatori video di Adobe Dynamic Media Classic HTML5. I predefiniti utilizzati nei visualizzatori Video HTML5 sono lettori video affidabili.
+Come best practice, utilizza i visualizzatori video di Adobe Dynamic Media Classic HTML5. I predefiniti utilizzati nei visualizzatori video di HTML5 sono lettori video affidabili.
 
 Combinando in un singolo lettore quanto segue:
 
@@ -499,14 +499,14 @@ Consulta [Note sulla versione di riferimento per visualizzatori Adobi](https://e
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visualizzatori per set di immagini |  |  |  |  |  |  |
+| Visualizzatori set immagini |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-|  Visualizzatori per set di campioni |  |  |  |  |  |  |
+| Visualizzatori set campioni |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
@@ -519,7 +519,7 @@ Consulta [Note sulla versione di riferimento per visualizzatori Adobi](https://e
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visualizzatori per set 360 gradi |  |  |  |  |  |  |
+| Visualizzatori 360 gradi |  |  |  |  |  |  |
 | Universal_HTML5_SpinSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SpinSet_light | HTML5 | X | X | X | X | X |
 
@@ -532,12 +532,12 @@ Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mo
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video(Include il supporto per i sottotitoli.) Consultate [Procedura consigliata: utilizzo del visualizzatore universale per video HTML5.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(Include il supporto per i sottotitoli.) Consulta [Best practice: utilizzo del visualizzatore video di Universal HTML5.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(Include il supporto per sottotitoli e social media.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Set di file multimediali diversi |  |  |  |  |  |  |
+| Visualizzatori set di file multimediali diversi |  |  |  |  |  |  |
 | Universal_HTML5_MixedMedia_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_MixedMedia_light | HTML5 | X | X | X | X | X |
 
@@ -547,7 +547,7 @@ La tabella seguente identifica i movimenti del visualizzatore mobile supportati 
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visualizzatori per set di immagini |  |  |  |  |  |  |
+| Visualizzatori set immagini |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -595,7 +595,7 @@ Consulta [Esportare un predefinito per visualizzatore HTML5](application-setup.m
 
 Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) video di formazione.
 
-**Per aggiungere o modificare dei predefiniti per visualizzatori:**
+**Per aggiungere e modificare i predefiniti visualizzatore:**
 
 1. Nell&#39;angolo superiore destro di Adobe Dynamic Media Classic, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 
@@ -676,7 +676,7 @@ Per creare un URL per la visualizzazione delle risorse, gli utenti aprono l&#39;
 
 Se i predefiniti per visualizzatori non vengono disattivati nella schermata Predefiniti per visualizzatore, nell’elenco a discesa Predefiniti nella finestra di dialogo Anteprima potrebbero accumularsi troppi predefiniti. 
 
-**Per attivare o disattivare i predefiniti per visualizzatori:**
+**Per attivare o disattivare i predefiniti visualizzatore:**
 
 1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Nella pagina Predefiniti visualizzatore, seleziona o deseleziona **[!UICONTROL Attivo]** opzioni per attivare o disattivare i predefiniti visualizzatore.
@@ -687,7 +687,7 @@ Una volta pubblicata una risorsa, potete copiare un URL per visualizzare la riso
 
 L’URL viene copiato negli Appunti. Potete utilizzarlo come desiderate nel codice HTML di una pagina Web, in un dispositivo mobile o in un’applicazione.
 
-**Per copiare l’URL di un predefinito per visualizzatori:**
+**Per copiare l’URL di un predefinito visualizzatore:**
 
 1. Selezionate la risorsa nel pannello Sfoglia.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
@@ -711,7 +711,7 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 
 La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice da incorporare di un predefinito per visualizzatori:**
+**Per copiare il codice di incorporamento di un predefinito visualizzatore:**
 
 1. Selezionate la risorsa nel pannello delle risorse.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
@@ -973,9 +973,9 @@ Con queste informazioni, la composizione del tipo di set di batch può essere cr
 
 ![Immagine della ricetta per set di batch](assets/se_batch_set_recipe.png)
 
-Il raggruppamento per la parte del nome della risorsa condivisa del set 360 gradi viene aggiunto al campo Match (Corrispondenza) (come evidenziato). La porzione variabile del nome delle risorse contenente la riga e la colonna viene aggiunta rispettivamente ai campi Riga e Colonna.
+Il raggruppamento per la parte del nome della risorsa condivisa del set 360 gradi viene aggiunto al campo Match (Corrispondenza) (come evidenziato). La parte variabile del nome della risorsa contenente la riga e la colonna viene aggiunta rispettivamente ai campi Riga e Colonna.
 
-Quando il set 360 gradi viene caricato e pubblicato, potete attivare il nome della descrizione set 360 gradi 2D elencato in **[!UICONTROL Predefiniti per set di batch]** nella finestra di dialogo Opzioni processo di caricamento.
+Quando il set 360 gradi viene caricato e pubblicato, puoi attivare il nome della definizione del set 360 gradi 2D che è elencata in **[!UICONTROL Predefiniti set di batch]** nella finestra di dialogo Opzioni processo di caricamento.
 
 **Per creare un predefinito per set di batch per la generazione automatica di un set 360 gradi 2D:**
 

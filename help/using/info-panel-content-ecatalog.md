@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '869'
+ht-degree: 55%
 
 ---
 
@@ -24,8 +24,8 @@ Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, pote
 Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Adobe Dynamic Media Classic:
 
 * Il pannello Impostazioni pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita in caso di errori e il numero di ore in cui le informazioni restano nella cache. Inoltre, potete specificare se pubblicare automaticamente gli eCatalog.
-* Il pannello InfoPanel Datafeed consente di specificare un file CSV contenente il testo che si desidera visualizzare nel testo di rollover del pannello Info e di programmare gli orari per l&#39;aggiornamento delle informazioni.
-* La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed di dati con l’opzione file CSV per il testo di rollover.
+* Il pannello Feed dati di InfoPanel consente di specificare un file CSV contenente il testo che si desidera visualizzare nel testo di rollover di InfoPanel e di programmare gli orari per l&#39;aggiornamento delle informazioni.
+* La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Con l’opzione file CSV puoi utilizzare questa opzione TXT o il pannello Feed dati per il testo di rollover.
 * La visualizzazione Mappe pagine fornisce un’opzione di anteprima del file xml visualizzato per mappe immagine specifiche.
 
 ## Impostare un modello di risposta per gli eCatalog {#set-up-a-response-template-for-ecatalogs}

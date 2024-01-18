@@ -1,7 +1,6 @@
 ---
 title: Accedere ad Adobe Analytics
 description: Scopri come accedere ad Adobe Analytics da Adobe Dynamic Media Classic.
-uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -12,16 +11,16 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 1%
+source-wordcount: '845'
+ht-degree: 0%
 
 ---
 
 # Accedere ad Adobe Analytics{#log-in-to-adobe-analytics}
 
-Prima di effettuare l’accesso per configurare i rapporti di Adobe Analytics e associare le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic, verifica di essere membro del gruppo Accesso al servizio Web in Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate tramite l’API dei servizi web dell’Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
+Prima di effettuare l’accesso per configurare i rapporti di Adobe Analytics e associare le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic, verifica di essere membro del gruppo Accesso al servizio Web in Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate tramite l’API dei servizi web di Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
 
 Quando effettui l’accesso, puoi inserire l’ID organizzazione Experience Cloud per utilizzare l’implementazione di analisi video più recente. Se scegli di non inserire l&#39;ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione corretta dei dati con altri dati per quel client dall’esterno di Adobe Dynamic Media Classic.
 

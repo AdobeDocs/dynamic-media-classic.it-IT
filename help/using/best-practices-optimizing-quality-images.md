@@ -10,26 +10,26 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 52%
+source-wordcount: '1601'
+ht-degree: 45%
 
 ---
 
 # Procedure ottimali per ottimizzare la qualità delle immagini{#best-practices-for-optimizing-the-quality-of-your-images}
 
-L’ottimizzazione della qualità delle immagini può richiedere del tempo, poiché molti fattori incidono sui risultati. Inoltre il risultato ottenuto è in parte soggettivo in quanto persone diverse percepiscono in modo differente la qualità dell’immagine. È indispensabile procedere mediante sperimentazione strutturata.
+L&#39;ottimizzazione della qualità delle immagini può richiedere molto tempo. Molti fattori contribuiscono a rendere accettabili i risultati. Inoltre il risultato ottenuto è in parte soggettivo in quanto persone diverse percepiscono in modo differente la qualità dell’immagine. È indispensabile procedere mediante sperimentazione strutturata.
 
 Adobe Dynamic Media Classic include più di 100 comandi per la gestione delle immagini che consentono di ottimizzare e ottimizzare le immagini e i risultati del rendering. Le seguenti indicazioni vi possono aiutare a semplificare il processo e ottenere rapidamente buoni risultati utilizzando alcuni comandi e procedure ottimali essenziali.
 
-Vedi anche [Imaging avanzato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Vedi anche [Imaging avanzato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 >[!TIP]
 >
->Provate e scoprite i vantaggi dei modificatori di immagini Dynamic Media e dell&#39;imaging avanzato con Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
+>Provate e scoprite i vantaggi dei modificatori di immagini Dynamic Medie e dell&#39;imaging avanzato con Dynamic Medie [_Snapshot_](https://snapshot.scene7.com/).
 >
-> Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Media per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Media per osservare visivamente l’output di vari modificatori di immagini Dynamic Media e ottimizzazioni Smart Imaging per i seguenti elementi:
+> Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Medie per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Medie per osservare visivamente l’output di vari modificatori di immagini Dynamic Medie e ottimizzazioni Smart Imaging per i seguenti elementi:
 >* Dimensione del file (con consegna WebP e AVIF)
 >* Larghezza di banda di rete
 >* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
@@ -40,7 +40,7 @@ Vedi anche [Imaging avanzato](https://experienceleague.adobe.com/docs/experience
 ## Procedure ottimali per il formato delle immagini (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * I formati JPG e PNG rappresentano la scelta migliore per la distribuzione di immagini di buona qualità e di dimensioni gestibili.
-* Se nell’URL non viene fornito alcun comando di formato, Dynamic Media Image Server utilizza per impostazione predefinita JPG per la consegna.
+* Se nell’URL non viene fornito alcun comando di formato, Dynamic Medie Image Server utilizza per impostazione predefinita JPG per la consegna.
 * Con il formato JPG si ottiene un rapporto di compressione di 10:1 e si ottengono in genere file di dimensioni ridotte. Il PNG viene compresso con un rapporto di circa 2:1, tranne che a volte quando le immagini contengono uno sfondo vuoto. In genere, tuttavia, i file PNG sono di dimensioni maggiori rispetto ai file JPG.
 * Il formato JPG utilizza la compressione con perdita di dati, ossia durante la compressione vengono omessi degli elementi grafici (pixel). Il formato PNG utilizza invece la compressione senza perdita di dati.
 * Il formato JPG spesso comprime le immagini fotografiche con fedeltà migliore rispetto alle immagini sintetiche contenenti bordi netti e contrasto ben definito.
@@ -50,7 +50,7 @@ Come best practice per il formato immagine, inizia con l’impostazione più com
 
 ## Procedure ottimali per le dimensioni delle immagini {#best-practices-for-image-size}
 
-La riduzione dinamica delle dimensioni delle immagini è una delle attività più comuni eseguite da Dynamic Media Image Server. Occorre specificare le dimensioni e, facoltativamente, la modalità di downsampling da usare per la riduzione dell’immagine.
+La riduzione dinamica delle dimensioni delle immagini è una delle attività più comuni eseguite da Dynamic Medie Image Server. Occorre specificare le dimensioni e, facoltativamente, la modalità di downsampling da usare per la riduzione dell’immagine.
 
 * Per il dimensionamento delle immagini, l&#39;approccio migliore e più semplice consiste nell&#39;utilizzare `&wid=<value>` e `&hei=<value>` o semplicemente `&hei=<value>`. Questi parametri impostano automaticamente la larghezza dell’immagine in base alle proporzioni.
 * `&resMode=<value>` controlla l&#39;algoritmo utilizzato per il downsampling. Inizia con `&resMode=sharp2`. Questo valore offre la qualità immagine migliore. Durante l’utilizzo del valore di downsampling `=bilin` è più veloce, spesso determina l’aliasing degli artefatti.
@@ -74,10 +74,10 @@ Esistono due metodi per la nitidezza delle immagini:
 
    * `&op_sharpen=amount,radius,threshold`
 
-      * `amount` (0-5, quantità o intensità dell’effetto)
-      * `radius` (0-250, raggio o larghezza in pixel delle “linee di nitidezza” tracciate attorno all’oggetto).
+      * `amount` (0-5, intensità dell&#39;effetto).
+      * `radius` (0-250, larghezza delle &quot;linee di nitidezza&quot; disegnate attorno all&#39;oggetto nitidezza, misurata in pixel).
 
-        Tenete presente che i parametri `radius` e `amount` funzionano in contrapposizione l’uno con l’altro. Riduzione `radius` può essere compensato aumentando `amount`. Il parametro `Radius` consente di agire con precisione: con un valore ridotto si agisce infatti solo sui pixel del bordo, mentre con un valore più elevato si agisce su una fascia più ampia di pixel.
+        I parametri `radius` e `amount` lavorare l&#39;uno contro l&#39;altro. Riduzione `radius` può essere compensato aumentando `amount`. `Radius` consente un controllo più preciso, poiché un valore inferiore agisce solo sui pixel del bordo, mentre un valore più elevato agisce su una banda di pixel più ampia.
 
       * `threshold` (0-255, sensibilità dell&#39;effetto).
 
@@ -85,7 +85,7 @@ Esistono due metodi per la nitidezza delle immagini:
 
         Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, consulta [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Adobe Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore mediante il valore `0` oppure alla luminosità/intensità dell’immagine mediante il valore `1`.
+      * Adobe Dynamic Media Classic consente inoltre di controllare un quarto parametro: monocromatico ( `0,1`). Questo parametro determina se la maschera di contrasto viene applicata separatamente a ciascun componente di colore utilizzando il valore `0` o alla luminosità/intensità dell&#39;immagine utilizzando il valore `1`.
 
 Come procedura ottimale, iniziate con il parametro di maschera di contrasto “radius”. Potete iniziare con le seguenti impostazioni del raggio:
 
@@ -107,9 +107,9 @@ Lasciate il parametro “monochrome” su 0.
 * Utilizzo del flag chroma in `qlt=`
 
    * Il `qlt=` Il parametro dispone di una seconda impostazione che consente di attivare il downsampling della cromaticità RGB utilizzando il valore normale `,0` (impostazione predefinita) o disattivala utilizzando il valore `,1`.
-   * Per semplificare le cose, iniziate con il downsampling della cromaticità RGB disattivato ( `,1`). Questa impostazione offre in genere una migliore qualità immagine, in particolare per le immagini sintetiche con bordi netti e forte contrasto.
+   * Per semplificare la procedura, iniziare con il downsampling della cromaticità RGB disattivato ( `,1`). Questa impostazione offre in genere una migliore qualità immagine, in particolare per le immagini sintetiche con bordi netti e forte contrasto.
 
-Come procedura ottimale, per la compressione JPG si consiglia di utilizzare `&qlt=85,0`.
+Come best practice per la compressione JPG `&qlt=85,0`.
 
 ## Procedure ottimali per il ridimensionamento JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
@@ -135,5 +135,5 @@ Se i risultati non sono ancora soddisfacenti, aumentate il raggio per incrementi
 Durante la sperimentazione, i seguenti suggerimenti generali sono utili per ottimizzare il flusso di lavoro:
 
 * Prova e testa diversi parametri in tempo reale, direttamente su un URL o utilizzando la funzionalità di regolazione delle immagini di Adobe Dynamic Media Classic. Quest&#39;ultimo fornisce anteprime in tempo reale per le operazioni di regolazione.
-* Come best practice, ricorda che puoi raggruppare i comandi di Dynamic Media Image Server in un predefinito per immagini. Un predefinito immagine è fondamentalmente una macro di comando URL con nomi predefiniti personalizzati, ad esempio `$thumb_low$` e `&product_high$`. Il nome del predefinito personalizzato in un percorso URL chiama questi predefiniti. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
+* Come best practice, ricorda che puoi raggruppare i comandi di Dynamic Medie Image Server in un predefinito per immagini. Un predefinito immagine è fondamentalmente una macro di comando URL con nomi predefiniti personalizzati, ad esempio `$thumb_low$` e `&product_high$`. Il nome del predefinito personalizzato in un percorso URL chiama questi predefiniti. Tale funzionalità facilita la gestione dei comandi e delle impostazioni di qualità per vari pattern di utilizzo delle immagini nel sito Web e genera URL più brevi.
 * Adobe Dynamic Media Classic offre inoltre metodi più avanzati per regolare la qualità delle immagini, ad esempio applica la nitidezza delle immagini al momento dell’acquisizione. Per casi d’uso avanzati in cui è possibile ottimizzare ulteriormente i risultati riprodotti, Adobe Professional Services può aiutarti con informazioni approfondite e best practice personalizzate.

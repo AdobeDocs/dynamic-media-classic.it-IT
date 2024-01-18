@@ -12,7 +12,7 @@ role: User
 exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 25%
@@ -22,5 +22,5 @@ ht-degree: 25%
 # Stampa risorse{#printing-assets}
 
 1. Nel pannello Sfoglia, selezionate una o più risorse da stampare.
-1. Vai a **[!UICONTROL File]** > **[!UICONTROL Stampa]** o premere `Ctrl+P` (Windows®) o `Command+P` (Macintosh)
+1. Vai a **[!UICONTROL File]** > **[!UICONTROL Stampa]** o premere `Ctrl+P` (Windows®) o `Command+P` (Mac)
 1. Nella finestra di dialogo Stampa scegliere il numero di copie da stampare e quindi fare clic su **[!UICONTROL Stampa]**.

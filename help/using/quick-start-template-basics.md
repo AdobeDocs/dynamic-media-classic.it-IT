@@ -1,5 +1,5 @@
 ---
-title: "Avvio rapido: funzioni di base dei modelli"
+title: "Guida introduttiva: nozioni di base sui modelli"
 description: Introduzione e Guida rapida alle nozioni di base sui modelli per aiutarti a iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 20%
+source-wordcount: '804'
+ht-degree: 21%
 
 ---
 
@@ -43,7 +43,7 @@ Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per carica
 
 ## 2. Creare un modello
 
-Per creare un modello da un file PSD, seleziona **[!UICONTROL Crea modello]** quando carichi il file. Per creare un modello dalle immagini, nella barra di navigazione globale vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**, immettere una misura di larghezza e altezza per l&#39;area di lavoro. Fai clic su nell’angolo superiore destro della pagina **[!UICONTROL Designer]** o **[!UICONTROL Sviluppatore]** e trascinare le immagini nella pagina Modello. È inoltre possibile selezionare le immagini *prima di* vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**. La pagina Modello offre strumenti per:
+Per creare un modello da un file PSD, seleziona **[!UICONTROL Crea modello]** quando carichi il file. Per creare un modello dalle immagini, nella barra di navigazione globale vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**, immettere una larghezza e un valore di altezza per l&#39;area di lavoro. Fai clic su nell’angolo superiore destro della pagina **[!UICONTROL Designer]** o **[!UICONTROL Sviluppatore]** e trascinare le immagini nella pagina Modello. È inoltre possibile selezionare le immagini *prima di* vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**. La pagina Modello offre strumenti per:
 
 * Aggiungere dei livelli di immagine. Per aggiungere un livello, trascinate un&#39;immagine nella pagina Modello.
 * Aggiungere dei livelli di testo. Seleziona la **[!UICONTROL Strumento Testo]** icona. Trascinare il puntatore per creare una casella per il livello di testo, quindi formattare il testo con gli strumenti nella pagina Testo.

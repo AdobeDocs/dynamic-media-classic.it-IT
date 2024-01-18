@@ -1,20 +1,18 @@
 ---
 title: Gestire il contenuto del pannello informazioni nei set di immagini
 description: Scopri come gestire il contenuto del pannello informazioni nei set di immagini in Adobe Dynamic Media Classic.
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 51%
 
 ---
@@ -26,7 +24,7 @@ Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, p
 Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Adobe Dynamic Media Classic:
 
 * Il pannello Impostazioni pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita in caso di errori e il numero di ore in cui le informazioni restano nella cache. Inoltre, potete specificare se pubblicare automaticamente il set di immagini.
-* Il pannello InfoPanel Datafeed consente di specificare un file CSV contenente il testo che si desidera visualizzare nel testo di rollover del pannello informazioni e di pianificare gli orari per l&#39;aggiornamento delle informazioni.
+* Il pannello Feed dati di InfoPanel consente di specificare un file CSV contenente il testo che si desidera visualizzare nel testo di rollover del pannello informazioni e di programmare gli orari per l&#39;aggiornamento delle informazioni.
 * La finestra di dialogo Importa metadati consente di importare un file TXT delimitato da tabulazioni contenente le informazioni per il testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed dati di InfoPanel con l&#39;opzione File CSV per il testo di rollover.
 
 ## Impostare un modello di risposta per i set di immagini {#set-up-a-response-template-for-image-sets}

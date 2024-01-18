@@ -12,10 +12,10 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 21%
+source-wordcount: '618'
+ht-degree: 20%
 
 ---
 
@@ -46,7 +46,7 @@ Per esaminare attentamente, visualizzare in anteprima o lavorare su una risorsa,
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Selezionate la risorsa. Nell&#39;angolo superiore destro del Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona .
+   * Seleziona la risorsa. Nell&#39;angolo superiore destro del Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona .
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
@@ -80,8 +80,8 @@ In questa tabella sono illustrate le altre opzioni disponibili per i diversi tip
 
 | Tipo di risorsa | Modifica/regolazione | Anteprima |
 | --- | --- | --- |
-| Immagini | Aggiunta di mappe immagine<br>Aggiungi destinazioni di zoom<br>Ritaglio<br>Nitidezza<br>Creare viste regolate | Sì; Zoom e Predefiniti immagine |
-| Immagini per armadi e finestre | No | Miniatura |
+| Immagini | Aggiungi mappe immagine<br>Aggiungi destinazioni di zoom<br>Ritaglio<br>Nitidezza<br>Creare viste regolate | Sì; Zoom e Predefiniti immagine |
+| Immagini di rifinitura finestre e scaffali | No | Miniatura |
 | eCatalog | Modifica | Sì<br>È disponibile anche il pannello Info |
 | Font | Modifica delle informazioni sui font | No |
 | File FXG | Modifica | Sì |

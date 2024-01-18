@@ -12,10 +12,10 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3468'
-ht-degree: 44%
+source-wordcount: '3420'
+ht-degree: 41%
 
 ---
 
@@ -50,7 +50,7 @@ Se necessario, potete creare un modello partendo da uno già esistente. Apri il 
 
    * **Inizia dalla schermata Modello** - Vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**. Selezionate Designer o Sviluppatore.
 
-1. Nella finestra di dialogo Inserisci dimensioni quadro, immettete i valori di larghezza e altezza per il modello.
+1. Nella finestra di dialogo Immetti dimensioni area di lavoro immettere le dimensioni di larghezza e altezza per il modello.
 1. Selezionate una cartella nella Libreria risorse e trascinate i file PSD o le immagini per il modello nella schermata Modello.
 1. Al termine dell’operazione, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
@@ -65,7 +65,7 @@ Se si modifica un set pubblicato o un set di modelli non pubblicato, **[!UICONTR
 | Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -80,7 +80,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un modello {#deleting-a-template}
 
-Quando eliminate un set di modelli, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Quando eliminate un set di modelli, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
@@ -103,7 +103,7 @@ Utilizza questi strumenti nella schermata Modello per creare modelli:
 
 * **[!UICONTROL Riepilogo parametri]** Apre la schermata Riepilogo parametri. Potete visualizzare il nome di ciascun livello in un modello e per ciascun livello i nomi dei parametri che sono stati attivati.
 
-* **[!UICONTROL Editor di testo v. 4.3 e editor di testo v. 4.2]** : puoi scegliere di utilizzare l’editor di testo più recente e più completo, Editor di testo v4.3 o l’editor di testo precedente, Editor di testo v4.2. Per impostazione predefinita, durante la creazione di modelli, è selezionato Editor di testo v. 4.3. Per la modifica di modelli meno recenti, per impostazione predefinita viene selezionato Editor di testo v4.2. Editor di testo v4.3 attualmente non supporta il ritorno a capo automatico, quindi per modificare i modelli meno recenti con la funzione di ritorno a capo automatico, usate Editor di testo v4.2. Se il modello meno recente non utilizza il ritorno a capo automatico, è possibile scegliere Editor di testo v. 4.3 per sfruttare le numerose nuove funzionalità offerte. Ad esempio, aumentare i margini, diminuire i margini, impostare il testo in maiuscolo e copiare il testo adattato.
+* **[!UICONTROL Editor di testo v. 4.3 e editor di testo v. 4.2]** : puoi scegliere di utilizzare l’editor di testo più recente e più completo, Editor di testo v4.3 o l’editor di testo precedente, Editor di testo v4.2. Per impostazione predefinita, durante la creazione di modelli, è selezionato Editor di testo v. 4.3. Per la modifica di modelli meno recenti, per impostazione predefinita viene selezionato Editor di testo v4.2. L’editor di testo v. 4.3 non supporta attualmente il ritorno a capo automatico, pertanto quando si modificano modelli meno recenti che utilizzano il ritorno a capo automatico, utilizza l’editor di testo v. 4.2 per mantenere completamente intatta la fedeltà del modello. Se il modello meno recente non utilizza il ritorno a capo automatico, è possibile scegliere Editor di testo v. 4.3 per sfruttare le numerose nuove funzionalità offerte. Ad esempio, aumentare i margini, diminuire i margini, impostare il testo in maiuscolo e copiare il testo adattato.
 
   >[!NOTE]
   >
@@ -146,7 +146,7 @@ Per formattare il testo in un livello di testo, effettuate le seguenti operazion
 1. Nella casella di testo dell&#39;Editor di testo selezionare il testo che si desidera formattare. È possibile selezionare tutto il testo, parti di testo o singoli caratteri.
 1. Specificare una delle opzioni di formattazione seguenti, quindi selezionare **[!UICONTROL Applica]**.
 
-   * **[!UICONTROL Font]** - Scegliere un tipo di carattere dal menu Carattere. Se il tipo di carattere desiderato non viene visualizzato nel menu, è possibile caricarlo in Adobe Dynamic Media Classic. Consultate Font.
+   * **[!UICONTROL Font]** - Scegliere un tipo di carattere dal menu Carattere. Se il tipo di carattere desiderato non viene visualizzato nel menu, è possibile caricarlo in Adobe Dynamic Media Classic. Consulta Tipi di carattere.
 
    * **[!UICONTROL Dimensione font]** - Scegli una dimensione font dal menu, digita una dimensione specifica nella casella o seleziona la **[!UICONTROL Su]** o **[!UICONTROL Giù]** frecce per aumentare o diminuire la dimensione di due punti.
 
@@ -164,7 +164,7 @@ Per formattare il testo in un livello di testo, effettuate le seguenti operazion
 
    * **[!UICONTROL Interlinea]** - Digitare o selezionare un valore numerico in base al quale regolare la quantità di spazio tra le righe.
 
-   * **[!UICONTROL Spostamento linea di base]** - Digita o seleziona un valore numerico in base al quale spostare un carattere selezionato verso l&#39;alto o verso il basso rispetto alla linea di base del testo circostante. Questa opzione è utile per impostare manualmente le frazioni o per posizionare gli elementi grafici agganciati al testo.
+   * **[!UICONTROL Spostamento linea di base]** - Digita o seleziona un valore numerico in base al quale spostare un carattere selezionato verso l&#39;alto o verso il basso rispetto alla linea di base del testo circostante. Questa opzione è particolarmente utile quando impostate a mano le frazioni o regolate la posizione della grafica inline.
 
 >[!NOTE]
 >
@@ -248,7 +248,7 @@ I livelli devono essere di dimensioni tali da rientrare nel quadro. Potete modif
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic consiglia di creare un predefinito immagine delle dimensioni esatte del modello. Quando le dimensioni del predefinito per immagini corrispondono a quelle del modello, si otterranno impostazioni corrette per le dimensioni di output finali e le opzioni di nitidezza per il modello. Dopo aver creato il predefinito per immagini, potete sceglierlo dal menu Applica predefinito sulla schermata Anteprima modello. Nella schermata viene visualizzato l’aspetto dell’immagine che verrà trasmessa dal server. Consulta [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic consiglia di creare un predefinito immagine delle dimensioni esatte del modello. Quando le dimensioni del predefinito per immagini corrispondono a quelle del modello, si otterranno impostazioni corrette per le dimensioni di output finali e le opzioni di nitidezza per il modello. Dopo aver creato questo predefinito immagine, potete sceglierlo dal menu Applica predefinito nella schermata Anteprima modello. Nella schermata viene visualizzato l’aspetto dell’immagine che verrà trasmessa dal server. Consulta [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets).
 
 * **Modifica delle dimensioni di un livello** - Per modificare le dimensioni di un livello o dell&#39;area di lavoro, selezionare il livello o l&#39;area di lavoro nell&#39;elenco Livelli e utilizzare una delle seguenti tecniche:
 

@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -37,11 +37,11 @@ Questa sezione è stata progettata per aiutarvi a usare in breve tempo Adobe Ana
 
 >[!NOTE]
 >
->Prima di poter configurare i rapporti di Adobe Analytics e associare le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic, verifica di essere stato aggiunto come membro del gruppo Accesso al servizio Web in Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate tramite l’API dei servizi web dell’Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
+>Prima di poter configurare i rapporti di Adobe Analytics e associare le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic, verifica di essere stato aggiunto come membro del gruppo Accesso al servizio Web in Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate tramite l’API dei servizi web di Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
 
 Dopo aver verificato di essere membro del gruppo Accesso al servizio Web, in Adobe Dynamic Media Classic passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Adobe Analytics]**. Nella pagina Configurazione di Adobe Analytics, seleziona **[!UICONTROL Accesso ad Adobe Analytics]**.
 
-Consultate [Accedere ad Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
+Consulta [Accedere ad Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
 Nella finestra di dialogo Accesso di Adobe Analytics, digita l’ID organizzazione Experience Cloud (facoltativo) e le credenziali complete, quindi seleziona **[!UICONTROL Login]**. Dall’elenco a discesa Report Suite (Suite rapporti), selezionate il nome della suite di rapporti che intendete usare.
 

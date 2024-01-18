@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1970'
 ht-degree: 33%
 
 ---
@@ -50,7 +50,7 @@ Dopo aver aggiunto un utente, Adobe Dynamic Media Classic invia all&#39;utente u
 
    >[!NOTE]
    >
-   >Carattere apostrofo (`‘`) non è consentito negli indirizzi e-mail.
+   >Carattere apostrofo (`'`) non è consentito negli indirizzi e-mail.
 
 1. Per assegnare un ruolo all&#39;utente, scegliere un&#39;opzione Ruolo.
 
@@ -94,7 +94,7 @@ Le informazioni utente che potete modificare dipendono dal vostro ruolo di ammin
 1. Seleziona un utente dall’elenco, quindi seleziona **[!UICONTROL Modifica]**.
 1. Seleziona la voce nella tabella che mostra l’azienda per la quale stai tentando di modificare le autorizzazioni o l’accesso, quindi seleziona **[!UICONTROL Gestisci Azienda]**.
 1. Selezionate il ruolo utente.
-1. Se desideri modificare l’iscrizione al gruppo dell’utente (se stai modificando o aggiungendo un utente o un collaboratore di Media Portal), seleziona **[!UICONTROL Successivo]** e modificare l&#39;appartenenza al gruppo.
+1. Se si desidera modificare l&#39;appartenenza al gruppo dell&#39;utente (se si sta modificando o aggiungendo un utente o un collaboratore di Media Portal), selezionare **[!UICONTROL Successivo]** e modificare l&#39;appartenenza al gruppo.
 1. Seleziona **[!UICONTROL Salva]**.
 
 ### Filtrare e ordinare l’elenco di utenti {#filtering-and-sorting-the-user-list}
@@ -140,14 +140,14 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
 ## Larghezza di banda e spazio di archiviazione {#bandwidth-storage}
 
 Gli amministratori di Adobe Dynamic Media Classic possono generare rapporti sulla larghezza di banda, sullo spazio di archiviazione e su altri tipi di rapporti per le aziende che amministrano. Questi rapporti sono disponibili nella pagina Larghezza di banda e spazio di archiviazione.
 
-Per aprire questa pagina, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**. Espandi **[!UICONTROL Configurazione amministrazione]**, quindi selezionare **[!UICONTROL Larghezza di banda e spazio di archiviazione]**.
+Per aprire questa pagina, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**. Espandi **[!UICONTROL Configurazione amministrazione]** e quindi selezionare **[!UICONTROL Larghezza di banda e spazio di archiviazione]**.
 
 ### Tipi di rapporti {#types-of-reports}
 

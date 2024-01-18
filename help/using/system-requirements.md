@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 26%
+source-wordcount: '120'
+ht-degree: 10%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 26%
 
 Per una migliore esperienza nell’utilizzo dell’app desktop Adobe Dynamic Media Classic, assicurati che il sistema soddisfi i seguenti requisiti e suggerimenti di sistema:
 
-* È richiesto un processore Microsoft® Windows® 7 o più recente o macOS X 10.10 o più recente Macintosh Intel®.
+* È richiesto un processore Microsoft® Windows® 7 o più recente o macOS X 10.10 o più recente Mac Intel®.
 * 3 GB di RAM o superiore (4 GB o superiore consigliato).
 * Monitor a colori.
-* Scheda video che supporti milioni di colori con risoluzione da almeno 1280x1024.
-* Browser abilitato per JAVA.
+* Scheda video che supporta True Color con risoluzione 1280x1024 o superiore.
+* Browser abilitato per Java.
 * Browser supportati da Windows: Internet Explorer 9.0 o versioni successive; Firefox 23 o versioni successive.
-* Browser supportati da Macintosh: Safari 6.0 o versioni successive; Firefox™ 23 o versioni successive.
+* Browser supportati da Mac: Safari 6.0 o versione successiva, Firefox™ 23 o versione successiva.
 
 >[!MORELIKETHIS]
 >
->* [Limitazioni di Dynamic Media](/help/using/limitations.md)
+>* [Limitazioni di Dynamic Medie](/help/using/limitations.md)
 

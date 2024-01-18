@@ -12,10 +12,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 48%
 
 ---
 
@@ -67,7 +67,7 @@ Non è possibile esportare i seguenti tipi di risorsa. Tutti gli altri generano 
 * Set multibitrate
 * eCatalog
 
-Inoltre, non è possibile esportare i modelli come “file originale”.
+Inoltre, i modelli non possono essere esportati come &quot;file originale&quot;.
 
 Mediante la conversione è possibile esportare i seguenti tipi di risorsa:
 

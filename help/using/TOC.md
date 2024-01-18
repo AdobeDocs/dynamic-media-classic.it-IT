@@ -6,10 +6,10 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 26%
+source-wordcount: '795'
+ht-degree: 20%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 26%
    + [Servizi di formazione Adobe](training-services.md)
    + [Risorse di apprendimento più utilizzate](popular-resources.md)
    + [Video di formazione](training-videos.md)
-+ Guida introduttiva {#getting-started}
++ Introduzione {#getting-started}
    + [Panoramica del programma Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Accedi e esci](signing-out.md)
@@ -59,7 +59,7 @@ ht-degree: 26%
    + [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md)
    + [Creare e abilitare i predefiniti immagine](creating-enabling-image-presets.md)
    + [Utilizzo più efficiente dei metadati](making-efficient-metadata.md)
-   + [Personalizzare la schermata di Media Portal](customizing-media-portal-screen.md)
+   + [Personalizzare la schermata Media Portal](customizing-media-portal-screen.md)
 + Caricare e pubblicare le risorse {#upload-publish}
    + [Informazioni sul caricamento e la pubblicazione di risorse](about-asset-upload-publish.md)
    + [Caricare i file](uploading-files.md)
@@ -82,7 +82,7 @@ ht-degree: 26%
    + [Stampa risorse](printing-assets.md)
    + [Gestire la cartella Cestino](trash-folder.md)
    + [Organizzare il lavoro con i progetti](organizing-projects.md)
-+ Ridimensionamento delle immagini {#image-sizing}
++ Ridimensionamento immagine {#image-sizing}
    + [Avvio rapido: ridimensionamento delle immagini](quick-start-image-sizing.md)
    + [Carica immagini primarie](uploading-master-images.md)
    + [Pubblicare immagini primarie](publishing-master-images.md)
@@ -115,7 +115,7 @@ ht-degree: 26%
    + [Visualizza set di immagini](viewing-image-sets.md)
    + [Generazione automatica set di immagini](automated-image-set-generation.md)
    + [Collegare un set di immagini a una pagina web](linking-image-set-web-page.md)
-+ Set di campioni {#swatch-sets}
++ Set campioni {#swatch-sets}
    + [Avvio rapido: set di campioni](quick-start-swatch-sets.md)
    + [Includere destinazioni di zoom e mappe immagine nei set di campioni](including-zoom-targets-image-maps-swatch-sets.md)
    + [Prepara risorse set di campioni per il caricamento](preparing-swatch-set-assets-upload.md)
@@ -158,7 +158,7 @@ ht-degree: 26%
    + [Configurare i rapporti di Adobe Analytics](configuring-analytics-reports.md)
    + [Personalizzazione di un visualizzatore con Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Disattiva tracciamento Adobe Analytics](disabling-analytics-tracking.md)
-   + [Verificare l’integrazione visualizzando un rapporto di ](testing-integration-viewing-analytics-report.md)
+   + [Testare l’integrazione visualizzando un rapporto di Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Abilita rapporti video di Adobe Analytics](enabling-analytics-video-reports.md)
    + [Pubblicare informazioni sulla configurazione di Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integrazione con Adobe Target Standard/Premium {#target-classic}
@@ -166,7 +166,7 @@ ht-degree: 26%
    + [Integrare Adobe Dynamic Media Classic con Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creare un set di offerte](creating-offer-set.md)
    + [Invia set di offerte ad Adobe Target Standard/Premium](pushing-offer-sets-target.md)
-+ Contenuti generati dall’utente {#user-generated-content}
++ Contenuti generati dall&#39;utente {#user-generated-content}
    + [Informazioni sui contenuti generati dagli utenti](about-ugc.md)
    + [Eliminare una risorsa caricata](deleting-uploaded-asset.md)
    + [Ottieni informazioni sull&#39;utilizzo del disco](getting-disk-usage-information.md)

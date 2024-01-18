@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda o
 
 >[!NOTE]
 >
->Dopo il ritaglio, puoi selezionare **[!UICONTROL Salva con nome]** e salvare una versione ritagliata dell&#39;immagine con un nome diverso. Nella finestra Salva con nome, seleziona **[!UICONTROL Salva come nuovo elemento principale]** per salvare una seconda copia dell&#39;immagine. Seleziona **[!UICONTROL Salva come vista aggiuntiva dell&#39;elemento principale]** in modo da poter salvare l’originale e la relativa versione ritagliata con un nome diverso. Seleziona **[!UICONTROL Sostituisci originale]** per eliminare il file originale da cui è stata ritagliata l&#39;immagine. Quindi immetti un nome per l’immagine e seleziona **[!UICONTROL Invia]**.
+>Dopo il ritaglio, puoi selezionare **[!UICONTROL Salva con nome]** e salvare una versione ritagliata dell&#39;immagine con un nome diverso. Nella finestra Salva con nome, seleziona **[!UICONTROL Salva come nuovo primario]** per salvare una seconda copia dell&#39;immagine. Seleziona **[!UICONTROL Salva come vista aggiuntiva del primario]** in modo da poter salvare l’originale e la relativa versione ritagliata con un nome diverso. Seleziona **[!UICONTROL Sostituisci originale]** per eliminare il file originale da cui è stata ritagliata l&#39;immagine. Quindi immetti un nome per l’immagine e seleziona **[!UICONTROL Invia]**.
 
 ## Ritagliare per rimuovere lo spazio bianco intorno a un’immagine {#crop-to-remove-white-space-around-an-image}
 

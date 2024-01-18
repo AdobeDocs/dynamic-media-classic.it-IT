@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -67,9 +67,9 @@ La notifica di aggiornamento all&#39;interno dell&#39;applicazione desktop Adobe
 ## Correzioni nella versione 20.21.2 di {#minor-release}
 
 * Limitazione nota in 20.21.1: **[!UICONTROL Server]** L&#39;elenco a discesa nella schermata di accesso era vuoto.
-* In entrata **[!UICONTROL Opzioni processo di caricamento]**, Valore predefinito per la denominazione dei livelli in **[!UICONTROL Opzioni Photoshop]**, è ora **[!UICONTROL Photoshop e nome livello]**. I livelli del file PSD vengono caricati come immagini a sé stanti.
+* In entrata **[!UICONTROL Opzioni processo di caricamento]**, Valore predefinito per la denominazione dei livelli in **[!UICONTROL Opzioni Photoshop]**, è ora **[!UICONTROL Photoshop e nome livello]**. I livelli nel file PSD vengono caricati come immagini separate.
    * Il valore predefinito precedente di **[!UICONTROL Nome livello]**, denominate le immagini in base al nome o al numero del livello nel file PSD. Il numero di livello veniva utilizzato se i nomi dei livelli nel file PSD erano nomi di livello predefiniti di Photoshop.
-   * Il nuovo valore predefinito di **[!UICONTROL Photoshop e nome livello]**, assegna alle immagini un nome dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop.
+   * Il nuovo valore predefinito di **[!UICONTROL Photoshop e nome livello]**, assegna alle immagini un nome dopo il file PSD seguito dal nome o dal numero del livello. Il numero di livello viene utilizzato se i nomi di livello nel file PSD sono nomi di livello predefiniti di Photoshop.
    * Dato che ora le immagini dei livelli in Adobe Dynamic Media Classic hanno nomi univoci, non si verificherà alcun aggiornamento ai PSD o ai modelli esistenti (quali nomi dei livelli condivisi nei file PSD originali).
 * Miniature di risorse interrotte.
 
@@ -88,7 +88,7 @@ La notifica di aggiornamento all&#39;interno dell&#39;applicazione desktop Adobe
 
 ## Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su macOS o Windows® {#installation-dmc-app}
 
-Consultate anche:
+Vedi anche:
 
 * [Scarica e installa in modalità silenziosa l’app desktop Adobe Dynamic Media Classic più recente su Mac](#install-silent-mac-dmc-app)
 * [Scarica e installa in modalità silenziosa la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Consultate anche:
 
 ## Scarica e *silenzioso* installa l’app desktop Adobe Dynamic Media Classic più recente su macOS {#install-silent-mac-dmc-app}
 
-Consultate anche:
+Vedi anche:
 
 * [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows](#installation-dmc-app)
 * [Scarica e installa in modalità silenziosa la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Per scaricare e *silenzioso* installa la versione più recente dell’app deskto
 
 Il comando utilizzato è per un&#39;installazione invisibile all&#39;utente di base di MSI. Tuttavia, il programma di installazione dell’app desktop Adobe Dynamic Media Classic è un programma di installazione MSI InstallScript creato utilizzando InstallShield. Quando si esegue il programma di installazione in modalità record, qualsiasi interazione dell&#39;utente viene registrata in un file di risposta. Questo file di risposta viene quindi utilizzato per un’installazione invisibile all’utente come descritto in [Esecuzione delle installazioni in modalità silenziosa](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-Consultate anche:
+Vedi anche:
 
 * [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows](#installation-dmc-app)
 
@@ -273,7 +273,7 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 **_Non riesco a visualizzare il pannello Media Cart sulla pagina di destinazione di Adobe Dynamic Media Classic._**<br>In Adobe Dynamic Media Classic, tocca**[!UICONTROL Configurazione > Impostazione personale ]**. Nella sezione Browser, assicurati che**[!UICONTROL Mostra funzioni Media Portal ]**è selezionato (selezionato). Tocca**[!UICONTROL Salva > Chiudi ]**.
 
-**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene visualizzato correttamente._**<br>Nell’interfaccia utente del browser, era necessario accedere nuovamente all’interfaccia utente per visualizzare lo stato di pubblicazione corretto delle risorse. Nell’app desktop, Adobe ha introdotto una**[!UICONTROL Aggiorna ]**nella barra degli strumenti, a destra del**[!UICONTROL Seleziona nessuno ]**pulsante. Tocca il**[!UICONTROL Aggiorna ]**per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare nuovamente l’accesso come nell’interfaccia utente del browser.
+**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene visualizzato correttamente._**<br>Nell’interfaccia utente del browser, era necessario accedere nuovamente all’interfaccia utente per visualizzare lo stato di pubblicazione corretto delle risorse. Nell’app desktop, Adobe ha introdotto una**[!UICONTROL Aggiorna ]**nella barra degli strumenti, a destra del**[!UICONTROL Seleziona nessuno ]**pulsante. Tocca il**[!UICONTROL Aggiorna ]**per visualizzare lo stato più recente di tutte le risorse sulla pagina specificata. Non è necessario effettuare un nuovo accesso come nell’interfaccia utente del browser.
 
 ![Icona Aggiorna](/help/using/assets/refresh-icon1.png)
 *Icona Aggiorna*

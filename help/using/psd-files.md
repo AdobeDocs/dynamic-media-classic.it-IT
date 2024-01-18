@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 25%
+source-wordcount: '1015'
+ht-degree: 23%
 
 ---
 
@@ -53,7 +53,7 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
 * **Opzioni Photoshop**
 
-   * **[!UICONTROL Mantieni livelli]** - Ripete i livelli nel PSD, se presenti, in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in Vista dettagli (Detail View) e selezionate il pannello dei livelli. Consultate Visualizzazione e modifica dei livelli in un file PSD.
+   * **[!UICONTROL Mantieni livelli]** - Ripete i livelli nel PSD, se presenti, in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in Vista dettagli (Detail View) e selezionate il pannello dei livelli. Consultate Visualizzare e modificare i livelli in un file PSD.
 
    * **[!UICONTROL Crea modello]** - Crea un modello dai livelli nel file PSD.
 

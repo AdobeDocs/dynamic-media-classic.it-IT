@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '721'
+ht-degree: 56%
 
 ---
 
@@ -61,7 +61,7 @@ Consulta [Gestire gli account FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
->solo gli amministratori di Media Portal possono amministrare gli account FTP. Inoltre, solo gli utenti con il ruolo di Collaboratore/Utente di Media Portal o Collaboratore di Media Portal possono caricare i file.
+>Solo gli amministratori di Media Portal possono amministrare questi account FTP. Inoltre, solo gli utenti con il ruolo di Collaboratore/Utente di Media Portal o Collaboratore di Media Portal possono caricare i file.
 
 Consultate [Ruoli utenti di Media Portal](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -73,7 +73,7 @@ Consulta [Specificare le opzioni di esportazione disponibili per gli utenti di M
 
 ## 6. Creare i predefiniti per immagini
 
-Un predefinito per immagini è una raccolta di impostazioni preconfigurate che agiscono sulla dimensione, la qualità immagine, il formato, la risoluzione e altri aspetti di un’immagine quando questa viene esportata. Potete creare i predefiniti per immagini per controllare in che modo le immagini vengono riformattate quando vengono esportate dagli utenti. 
+Un predefinito immagine è una raccolta di impostazioni predefinite che modificano le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata. Potete creare i predefiniti per immagini per controllare in che modo le immagini vengono riformattate quando vengono esportate dagli utenti. 
 
 Consulta [Creare e abilitare i predefiniti immagine](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 

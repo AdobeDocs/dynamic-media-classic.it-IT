@@ -12,10 +12,10 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 28%
+source-wordcount: '1620'
+ht-degree: 24%
 
 ---
 
@@ -43,7 +43,7 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 * **[!UICONTROL Totale]** - Numero di file trasferiti.
 
-* **[!UICONTROL W (avvisi)]** - Numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio: `.DS_store` I file (Macintosh) e i file Thumbs.db (Windows®) contengono informazioni su come visualizzare i file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
+* **[!UICONTROL W (avvisi)]** - Numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio: `.DS_store` I file (Mac) e i file Thumbs.db (Windows®) contengono informazioni su come visualizzare i file di immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
 
 * **[!UICONTROL E (errori)]** : elenca il numero di errori nel processo (se presenti). Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
 
@@ -123,7 +123,7 @@ In questa tabella vengono visualizzati gli incrementi temporali, i relativi valo
 | Minuti | 0-59 |  | `, - * /` |
 | Ore | 0-23 | Notare l’uso dell’orologio costituito da 24 ore. | `, - * /` |
 | Giorno del mese | 1-31 | Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C` |
-| Mese | 1-12 o gen, feb, mar, apr, mag, giu, lug, ago, set, set, ott, nov, dic | I valori fanno distinzione tra maiuscole e minuscole. | `, - * /` |
+| Mese | 1-12 o Gen, Feb, Mar, Apr, Mag, Giu, Lug, Ago, Set, Ott, Nov, Dic | I valori fanno distinzione tra maiuscole e minuscole. | `, - * /` |
 | Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori fanno distinzione tra maiuscole e minuscole. Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C #` |
 | Anno (facoltativo) | Vuoto o 1970-2099 |  | `, - * /` |
 
@@ -143,16 +143,16 @@ Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casell
 
 Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli intervalli temporali nella casella Regola:
 
-* `0 0 12 * * ?` : tutti i giorni a mezzogiorno
-* `0 15 10 ? * *` : 10:15 di ogni giorno
-* `0 0/5 14 * * ?`: ogni 5 minuti tra le 14:00 e le 14:55 di ogni giorno
-* `0 0/5 14,18 * * ?` : ogni 5 minuti tra le 14:00 e le 14:55 di ogni giorno e ogni 5 minuti tra le 18:00 e le 18:55 di ogni giorno
-* `0 10,44 14 ? 3` : Wed alle 14:10 e alle 14:44 ogni mercoledì di marzo
+* `0 0 12 * * ?` : mezzogiorno ogni giorno
+* `0 15 10 ? * *` : 10:15 ogni giorno
+* `0 0/5 14 * * ?`: ogni 5 minuti tra le 14:00 e le 14:55 ogni giorno
+* `0 0/5 14,18 * * ?` : ogni 5 minuti tra le 14:00 e le 14:55 e ogni 5 minuti tra le 18:00 e le 18:55 ogni giorno
+* `0 10,44 14 ? 3` : mercoledì alle 14:10 e alle 14:44 ogni mercoledì di marzo
 * `0 15 10 ? *` : lunedì alle 10:15 tutti i giorni feriali
-* `0 15 10 20 * ?` : alle 10:15 il 20 di ogni mese
-* `0 15 10 L * ?` : alle 10:15 l’ultimo giorno di ogni mese
-* `0 15 10 ? * 6L` : alle 10:15 l’ultimo venerdì di ogni mese
-* `0 15 10 * * 6#3` : alle 10:15 il terzo venerdì di ogni mese
+* `0 15 10 20 * ?` : alle 10:15 del 20 di ogni mese
+* `0 15 10 L * ?` : alle 10:15 dell’ultimo giorno di ogni mese
+* `0 15 10 ? * 6L` : alle 10:15 dell’ultimo venerdì di ogni mese
+* `0 15 10 * * 6#3` : alle 10:15 del terzo venerdì di ogni mese
 
 ## Utilizzare un processo di caricamento o pubblicazione come attivatore {#using-an-upload-or-publish-job-as-a-trigger}
 
