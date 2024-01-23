@@ -1,6 +1,6 @@
 ---
-title: Limitazioni di Dynamic Media
-description: "Scopri le best practice e i limiti applicati quando crei un set di immagini o un set 360 gradi o carichi un PDF. Scopri anche le combinazioni di browser web e sistemi operativi non supportate per Dynamic Media."
+title: Limitazioni di Dynamic Medie
+description: "Scopri le best practice e i limiti applicati quando crei un set di immagini o un set 360 gradi o carichi un PDF. Scopri anche le combinazioni di browser web e sistemi operativi non supportate per Dynamic Medie."
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,23 +10,23 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
-# Limitazioni di Dynamic Media
+# Limitazioni di Dynamic Medie
 
-Le sezioni seguenti descrivono le limitazioni di Dynamic Media.
+Le sezioni seguenti descrivono le limitazioni di Dynamic Medie.
 
 Questo argomento include le sezioni seguenti:
 
-* [Best practice e limiti applicati da Dynamic Media ai tipi di risorse](#best-practice-enforced-limits)
-* [Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Media](#unsupported-browser-os)
+* [Best practice e limiti applicati da Dynamic Medie ai tipi di risorse](#best-practice-enforced-limits)
+* [Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Medie](#unsupported-browser-os)
 
-## Best practice e limiti applicati da Dynamic Media ai tipi di risorse {#best-practice-enforced-limits}
+## Best practice e limiti applicati da Dynamic Medie ai tipi di risorse {#best-practice-enforced-limits}
 
 Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazione di pagine, l’Adobe consiglia le seguenti best practice e applica i seguenti limiti:
 
@@ -40,11 +40,11 @@ Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazio
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
-## Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Media {#unsupported-browser-os}
+## Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Medie {#unsupported-browser-os}
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media non supporta le seguenti combinazioni di browser web e sistemi operativi.
+Adobe Dynamic Medie non supporta le seguenti combinazioni di browser web e sistemi operativi.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -56,27 +56,29 @@ Adobe Dynamic Media non supporta le seguenti combinazioni di browser web e siste
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-<!-- ## End of support for Transport Layer Security 1.0 and 1.1 {#tls}
+## Fine del supporto per Secure Socket Layer 2.0 e 3.0 e Transport Layer Security 1.0 e 1.1 {#tls}
 
-CQDOC-19433 (original ticket)
-and CQDOC-19792 (removed as per this ticket December 5, 2022)
+<!-- CQDOC-19433 (original ticket)
+and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-Effective September 30, 2022, Adobe Dynamic Media will end support for the following:
+A decorrere dal 30 aprile 2024, Adobe Dynamic Medie cesserà il supporto per i seguenti elementi:
 
-* TLS (Transport Layer Security) 1.0 and 1.1
-* The following weak ciphers in TLS 1.2:
-  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
-  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
-  * `TLS_RSA_WITH_AES_256_GCM_SHA384`
-  * `TLS_RSA_WITH_AES_256_CBC_SHA256`
-  * `TLS_RSA_WITH_AES_256_CBC_SHA`
-  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
-  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
-  * `TLS_RSA_WITH_AES_128_GCM_SHA256`
-  * `TLS_RSA_WITH_AES_128_CBC_SHA256`
-  * `TLS_RSA_WITH_AES_128_CBC_SHA`
-  * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
-  * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
-  * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
-  * `TLS_RSA_WITH_SDES_EDE_CBC_SHA` -->
+* SSL (Secure Socket Layer) 2.0
+* SSL 3.0
+* TLS (Transport Layer Security) 1.0 e 1.1
+* Le seguenti crittografie deboli in TLS 1.2:
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
+   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
 
