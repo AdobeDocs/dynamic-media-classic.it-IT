@@ -12,7 +12,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 24%
@@ -131,7 +131,7 @@ In questa tabella vengono visualizzati gli incrementi temporali, i relativi valo
 Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casella Regola e come usarli:
 
 | Carattere jolly | Nome | Descrizione |
-|--- |--- |--- |
+| --- | --- | --- |
 | `*` | Asterisco | Tutti i valori (ad esempio, &quot;ogni minuto&quot;). |
 | `?` | Punto interrogativo | Nessun valore specifico, ad esempio &quot;qualsiasi minuto entro l’ora specificata&quot;. |
 | `,` | Virgola | Altri valori (ad esempio, &quot;Lunedì e mercoledì&quot;). |
@@ -139,7 +139,7 @@ Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casell
 | `/` | Barra | Incrementi (ad esempio, &quot;ogni 15 minuti&quot;). |
 | `L` | L maiuscola | Ultimo &quot;giorno del mese&quot; o &quot;giorno della settimana&quot; (disponibile solo per questi campi). Ad esempio, se il mese è gennaio, un valore L per il campo &quot;giorno del mese&quot; pianifica il processo per il 31 gennaio. Per il campo &quot;giorno della settimana&quot;, è possibile immettere questo carattere solo per pianificare il lavoro il sabato. Puoi utilizzarlo con un numero (ad esempio, `6L`) per specificare l&#39;ultimo venerdì del mese. Non specificare `L` con i caratteri jolly virgola o trattino. |
 | `#` | Segno di numero | &quot;Nth&quot; weekend day of the month (disponibile solo per il campo &quot;day of the week&quot;). Ad esempio: `6#3` nel campo &quot;giorno della settimana&quot; è specificato il terzo venerdì del mese. Il `6` indica &quot;Friday&quot; (il sesto giorno della settimana) e il `3` indica la terza occorrenza del mese. |
-| `C` | # C maiuscolo | Primo calendario &quot;giorno del mese&quot; o &quot;giorno della settimana&quot; (disponibile solo per questi campi). Ad esempio, specificando un valore di `1C` per &quot;giorno del mese&quot; pianifica il primo giorno del calendario che si verifica il o dopo il quinto. Per il campo &quot;giorno della settimana&quot;, specificare `1C` pianifica il primo giorno del calendario che si verifica domenica o dopo domenica |
+| `C` | # C maiuscolo | Primo calendario &quot;giorno del mese&quot; o &quot;giorno della settimana&quot; (disponibile solo per questi campi). Ad esempio, specificando un valore di `1C` per &quot;giorno del mese&quot; pianifica il primo giorno del calendario che si verifica il o dopo il quinto. Per il campo &quot;giorno della settimana&quot;, specificare `1C` pianifica il primo giorno del calendario che si verifica la domenica o dopo la domenica. |
 
 Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli intervalli temporali nella casella Regola:
 

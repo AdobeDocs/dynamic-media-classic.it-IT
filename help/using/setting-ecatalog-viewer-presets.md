@@ -11,10 +11,10 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 34%
+source-wordcount: '488'
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ I predefiniti per il visualizzatore di eCatalog determinano lo stile, il comport
 
 Per creare un predefinito, puoi iniziare da zero o iniziare con un predefinito per visualizzatori eCatalog fornito da Adobe Dynamic Media Classic e salvarlo con un nuovo nome. Potete creare predefiniti per visualizzatore di eCatalog personalizzati per presentare ad esempio il materiale stampato con i colori della vostra azienda.
 
-I predefiniti per visualizzatore di eCatalog offrono diverse impostazioni per passare da una pagina all’altra, effettuare zoom e ricerche e scegliere le interfacce. L&#39;aspetto di questi controlli e la modalità di visualizzazione del visualizzatore dipendono dalla scelta dei predefiniti del visualizzatore eCatalog.
+I predefiniti per visualizzatori eCatalog offrono molte impostazioni per passare da una pagina all&#39;altra, ingrandire, cercare e scegliere gli skin. L&#39;aspetto di questi controlli e la modalità di visualizzazione del visualizzatore dipendono dalla scelta dei predefiniti del visualizzatore eCatalog.
 
 Segui questi passaggi per creare un predefinito per visualizzatori eCatalog (devi essere un amministratore):
 
@@ -35,8 +35,8 @@ Segui questi passaggi per creare un predefinito per visualizzatori eCatalog (dev
 
    * **Modificare un predefinito per visualizzatori eCatalog** - Selezionate un predefinito per visualizzatori eCatalog, quindi selezionate **[!UICONTROL Modifica]**. Seleziona **[!UICONTROL Salva con nome]** dopo aver completato la creazione del predefinito.
 
-1. Nella schermata Configura visualizzatore, inserite un nome per il predefinito del visualizzatore eCatalog.
-1. Nella schermata Configura visualizzatore, impostate le opzioni desiderate.
+1. Nella pagina Configura visualizzatore, immetti un nome per il predefinito visualizzatore eCatalog.
+1. Nella pagina Configura visualizzatore impostare le opzioni desiderate.
 
    seleziona la **[!UICONTROL Suggerimento]** accanto all’opzione se desideri leggerne la descrizione.
 

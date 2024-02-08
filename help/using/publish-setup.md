@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 41%
+source-wordcount: '2389'
+ht-degree: 34%
 
 ---
 
@@ -89,11 +89,11 @@ Alcuni dei vantaggi dell’utilizzo di `locale=` e `attribute::DefaultLocale` in
 * Quando si implementa RFC IS-63, viene aggiunto il supporto per contenuti statici come video e interfacce.
 * La lingua predefinita è configurabile.
 
-#### Esempi applicativi
+#### Scenari di applicazione
 
 | Applicazione | Scenario |
 | --- | --- |
-| Localizzazione visualizzatore | Dopo l’implementazione di cataloghi di contenuti statici, la localizzazione è controllata completamente dal parametro locale= che viene associato a tutte le richieste inviate a IS. I record di configurazione, le interface, le schermate iniziali e così via possono disporre o meno di varianti in base alla lingua. Il contenuto corretto viene fornito da IS e non è necessario che l’utente sappia quali contenuti sono localizzati e i relativi ID. |
+| Localizzazione visualizzatore | Dopo aver implementato i cataloghi di contenuto statico, la localizzazione viene controllata interamente con il parametro locale=, aggiunto a tutte le richieste effettuate a IS. I record di configurazione, le interface, le schermate iniziali e così via possono disporre o meno di varianti in base alla lingua. Il contenuto corretto viene fornito da IS e non è necessario che l’utente sappia quali contenuti sono localizzati e i relativi ID. |
 | Immagini e video | Le multinazionali utilizzano spesso una combinazione di contenuti generici e specifici per lingua. Un riferimento a un’immagine o un video può quindi essere generico e, se disponibile, IS ne fornisce la versione localizzata. |
 | Set di immagini e set di file multimediali | L’intero set di immagini può essere diverso per alcune impostazioni internazionali, ad esempio quando un eCatalog è diverso, con la traduzione da un set di immagini generico a uno specifico per le impostazioni internazionali gestito dal visualizzatore. Più comunemente, i singoli ID in un set generico possono fare riferimento a contenuti localizzati. Ad esempio, la maggior parte delle foto di un accessorio può essere la stessa in tutte le lingue, ad eccezione della foto del Pannello di controllo Campaign. IS traduce automaticamente gli ID e non è quindi necessario generare set di immagini specifici per le diverse lingue. |
 
@@ -125,13 +125,13 @@ L’applicazione del valore di suffisso o di sostituzione dipende dall’imposta
 
 | URL | ID di Mappa lingua | Risultato |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE che viene ricercata in Image Server e, se trovata, viene restituita. In caso contrario, viene utilizzato il secondo valore &quot;&quot; come suffisso, causando la restituzione dell’immagine stessa. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE e si tenta di trovarla sul server immagini. se trovata, viene restituita. In caso contrario, viene utilizzato il secondo valore &quot;&quot; come suffisso, causando la restituzione dell’immagine stessa. |
 
 **Esempio di sostituzione:**
 
 | URL | `GlobalLocale` e `localeMap` ID | Risultato |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | In questo esempio di sostituzione, il parametro della lingua globale GlobalLocale è impostato su main. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. La sottostringa GlobalLocale viene trovata e sostituita con il primo valore corrispondente `de` nel `localeMap`: `image-de-01`. Se questo viene trovato in Image Server, viene restituito. In caso contrario, viene sostituito il secondo valore e si ottiene `image-main-01`. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Nell&#39;esempio di sostituzione precedente, GlobalLocale è impostato su main. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. La sottostringa GlobalLocale viene trovata e sostituita con il primo valore corrispondente `de` nel `localeMap`: `image-de-01`. Se questo viene trovato in Image Server, viene restituito. In caso contrario, viene sostituito il secondo valore, con conseguente `image-main-01`. |
 
 Se nell’URL non viene specificata alcuna lingua, Image Server applica all’URL la lingua predefinita, se questa è definita.
 
@@ -141,15 +141,15 @@ Se con viene fornito un parametro locale vuoto o sconosciuto `locale=`, quindi `
 
 Image Server prova in successione le opzioni per la lingua richiesta. Se non viene trovata alcuna corrispondenza, le opzioni internazionali vengono applicate a defaultImage e viene restituita la versione corrispondente. Di conseguenza, ogni lingua deve includere un&#39;opzione per l&#39;immagine senza localizzazione oppure le versioni localizzate predefinite dell&#39;immagine sono disponibili in Adobe Dynamic Media Classic.
 
-#### Scenari per l’individuazione della Mappa lingua
+#### Scenari per trovare la mappa delle impostazioni locali
 
 Supponiamo che si intendano supportare le seguenti lingue:
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-È possibile mappare queste impostazioni internazionali ai suffissi `_E`, `_G`, e `_F`, rispettivamente per inglese, tedesco e francese. Per tutti gli esempi, l’ID di immagine di input generico è `myImg`.
+È possibile mappare queste impostazioni internazionali ai suffissi `_E`, `_G`, e `_F`, rispettivamente per inglese, tedesco e francese. Per tutti gli esempi, l’ID immagine di input generico è `myImg`.
 
-##### Comportamento standard per l’individuazione della Mappa lingua
+##### Comportamento standard per la ricerca di localmap
 
 Gli ID delle lingue vengono mappati sui suffissi corrispondenti. Se nel catalogo non viene trovato alcun ID per una lingua, viene provato l’ID generico. Osservate come i valori locSuffix vuoti vengono associati all’ID generico.
 
@@ -157,12 +157,12 @@ Gli ID delle lingue vengono mappati sui suffissi corrispondenti. Se nel catalogo
 
 | locale= | ID di output per la ricerca |
 | --- | --- |
-| en,en_us, en_uk | myImg_E, myImg |
-| de,de_de,de_at | myImg_D, myImg |
+| en, en_us, en_uk | myImg_E, myImg |
+| de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
 | Tutti gli altri | - |
 
-##### Individuazione della Mappa lingua quando la lingua è sconosciuta
+##### Ricerca di localeMap quando la lingua è sconosciuta
 
 Potete associare le lingue sconosciute a ID specifici o generici. Ad esempio, puoi mappare le lingue sconosciute agli ID inglesi, o se non esistono, agli ID generici.
 
@@ -170,7 +170,7 @@ Potete associare le lingue sconosciute a ID specifici o generici. Ad esempio, pu
 
 | locale= | ID di output per la ricerca |
 | --- | --- |
-| de,de_de,de_at | myImg_D, myImg |
+| de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
 | Tutti gli altri | myImg_E, myImg |
 
@@ -212,7 +212,7 @@ Utilizzando il primo esempio come base, le immagini per tutte le lingue potrebbe
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Tutti gli altri | myImg_1, myImg_2, myImg_3 |
 
-##### Considerazioni importanti per l’implementazione del supporto per la localizzazione
+##### Considerazioni importanti durante l’implementazione del supporto per la localizzazione
 
 * La localizzazione è limitata alle chiamate per risorse basate su ID e non può essere utilizzata per le chiamate per risorse basate su percorso. Di conseguenza, quando si chiama un video con una specifica lingua, questo deve essere chiamato perché come società/ID risorsa e non come percorso completo del video. Non è possibile utilizzare rtmp con la localizzazione perché questo metodo è destinato esclusivamente alle videochiamate basate su percorsi.
 * Quando l’opzione Mappa lingua è attiva, non è possibile utilizzare un set di file multimediali diversi contenente un singolo video, poiché tale chiamata avrebbe esito negativo. Per risolvere questo problema, puoi aggiungere un singolo video a un set di video adattivi. Quindi, aggiungete il set di video adattivi al set di file multimediali diversi.

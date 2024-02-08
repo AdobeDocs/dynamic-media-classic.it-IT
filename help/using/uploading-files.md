@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3877'
 ht-degree: 27%
 
 ---
@@ -123,7 +123,7 @@ Assicurati che tutti gli utenti della tua azienda comprendano queste regole per 
 * Come procedura consigliata assicuratevi che gli ID delle risorse non contengano spazi vuoti, ad esempio evitate di usare nomi come giacca nera.tif o giacca blu.jpg. Quando si utilizzano nomi di risorse per creare stringhe URL, Adobe Dynamic Media Classic ASCII codifica spazi vuoti nei nomi delle risorse. Poiché questi codici ASCII sono difficili da leggere, la lettura degli URL può risultare più complicata.
 * I nomi file possono contenere caratteri specifici per particolari lingue. Tuttavia, non possono contenere i seguenti caratteri:
 
-  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
 
   Se il nome del file contiene uno o più di questi caratteri, questi vengono eliminati dal nome del file al momento del caricamento.
 

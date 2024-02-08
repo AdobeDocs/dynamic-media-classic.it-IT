@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 25%
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
    * Per modificare un predefinito esistente per visualizzatore set di campioni, selezionate il predefinito, quindi selezionate **[!UICONTROL Modifica]**.
 
 1. Nella pagina Configura visualizzatore, digitate un nome per il predefinito visualizzatore set di campioni nel campo di testo Nome predefinito.
-1. Scegliete le opzioni desiderate nella schermata Configura visualizzatore.
+1. Selezionare le opzioni nella pagina Configura visualizzatore.
 
    Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** a destra dell’opzione.
 
@@ -56,7 +56,7 @@ Puoi utilizzare Anteprima per visualizzare come una risorsa viene visualizzata i
    * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista griglia]** icona. Nella finestra Risorsa, in una finestra delle miniature della risorsa, seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
    * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona. Sulla stessa barra degli strumenti, seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
 
-1. (Facoltativo) Dall’elenco a discesa nella parte inferiore della finestra Anteprima, selezionate la codifica URL da applicare all’URL della risorsa quando questo viene copiato.
+1. (Facoltativo) Nella finestra Anteprima, seleziona dall’elenco a discesa in basso la codifica URL da applicare all’URL della risorsa quando viene copiata.
 1. Per visualizzare in anteprima la risorsa nel visualizzatore selezionato, seleziona un collegamento a tale visualizzatore.
 
    Quando selezioni un determinato collegamento visualizzatore, il relativo URL associato viene automaticamente copiato negli Appunti.

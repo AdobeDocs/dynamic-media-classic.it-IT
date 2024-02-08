@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '10991'
 ht-degree: 37%
@@ -613,7 +613,7 @@ Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/
      
    * **Modifica** - Selezionate un predefinito visualizzatore esistente, quindi selezionate **[!UICONTROL Modifica]**.
 
-1. Nella schermata Configura visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
+1. Nella pagina Configura visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
 
    >[!NOTE]

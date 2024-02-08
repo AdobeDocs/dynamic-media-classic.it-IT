@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 51%
+source-wordcount: '975'
+ht-degree: 44%
 
 ---
 
@@ -72,7 +72,7 @@ Sia che si modifichi un set pubblicato o un set non pubblicato, il **[!UICONTROL
 | Il set è già pubblicato | Opzione &quot;Pubblica dopo il salvataggio&quot; selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -100,7 +100,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 Adobe Dynamic Media Classic fornisce i numeri di pagina predefiniti nell&#39;eCatalog nella scheda Pagine ordine della schermata eCatalog. Per i nomi di pagina personalizzati, potete modificare le etichette di pagina contenute nel sommario. Si consiglia di rinominare la copertina anteriore e quella posteriore. Ad esempio, il frontespizio può contenere il testo &quot;Copertina&quot; e non &quot;Pagina 0-1&quot;.
 
-Potete creare un sommario personalizzato per l’eCatalog manualmente oppure importando i nomi di pagina da un file CSV (solo Mac) o XML.
+È possibile creare un sommario personalizzato per l&#39;eCatalog manualmente o importando i nomi delle pagine da un file CSV (solo Mac) o XML.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Per importare il campo Dati utente in un file delimitato da tabulazioni, include
 | --- | --- |
 | `<image_IPS_ID>` | `tocEN=<EN_page_label>??tocFR=<FR_page_label>` |
 
-Per importare il campo Dati utente in un file XML, includete l’attributo `vc_userdata`:
+Per importare il campo Dati utente in un file XML, includere l&#39;attributo `vc_userdata`:
 
 ```as3
 <ips> 
