@@ -1,21 +1,19 @@
 ---
 title: Creare un set di immagini
 description: Scopri come creare un set di immagini in Adobe Dynamic Media Classic.
-uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 46%
 
 ---
 
@@ -38,10 +36,12 @@ Quando crei un set di immagini, Adobe consiglia le seguenti best practice e appl
 
 | Tipo di limite | Best practice | Limite imposto |
 | --- | --- | --- |
-| Numero di risorse duplicate per set | Nessun duplicato | 20 |
+| Numero di risorse duplicate per set | Nessun duplicato | 20‡ |
 | Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
 
-Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
+‡ best practice prevede di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
+
+Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
 **Per creare un set di immagini:**
 
@@ -63,7 +63,7 @@ Sia che si modifichi un set pubblicato o non pubblicato, il **[!UICONTROL Pubbli
 | Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -74,7 +74,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Nella visualizzazione griglia, passare a un set di immagini, quindi selezionare sotto l&#39;immagine **[!UICONTROL Modifica]**.
 1. Effettuate una delle seguenti operazioni:
 
-   * Per aggiungere un’immagine (pubblicata o non pubblicata), trascinatela da una cartella di Aggiungi risorse nella pagina **[!UICONTROL Visualizzazioni]** del set di immagini.
+   * Per aggiungere un’immagine (pubblicata o non pubblicata), trascinala da una cartella in Aggiungi risorse al set di immagini **[!UICONTROL Visualizzazioni]** pagina.
    * Per rimuovere un&#39;immagine, selezionarla e quindi selezionare **[!UICONTROL Elimina]** sulla barra degli strumenti.
    * Per riordinare le immagini, trascinate un’immagine fino alla posizione desiderata.
 
@@ -83,7 +83,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un set di immagini {#deleting-an-image-set}
 
-Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 

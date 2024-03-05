@@ -10,10 +10,10 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -33,10 +33,12 @@ Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazio
 | Risorsa - Tipo di limite | Best practice | Limite imposto |
 | --- | --- | --- |
 | **Immagine** - Numero di ritagli avanzati per immagine | 5 | 100 |
-| **Tutti i set** - Numero di risorse duplicate per set | Nessun duplicato | 20 |
+| **Tutti i set** - Numero di risorse duplicate per set | Nessun duplicato | 20‡ |
 | **Tutti i set** - Numero massimo di risorse per set | 5-10 immagini per set | 1000 |
 | **Set 360 gradi** - Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 | **PDF** - Numero massimo di pagine per un PDF da considerare per l’estrazione |  | 100 (per tutti i PDF) |
+
+‡ best practice prevede di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

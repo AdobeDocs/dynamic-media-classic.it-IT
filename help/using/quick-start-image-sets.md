@@ -1,21 +1,19 @@
 ---
-title: "Avvio rapido: set di immagini"
+title: "Guida introduttiva: set di immagini"
 description: Introduzione e Guida rapida ai set di immagini per aiutarti a iniziare rapidamente a utilizzare le tecniche per i set di immagini in Adobe Dynamic Media Classic.
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 18%
+source-wordcount: '666'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +29,10 @@ Quando crei un set di immagini, Adobe consiglia le seguenti best practice e appl
 
 | Tipo di limite | Best practice | Limite imposto |
 | --- | --- | --- |
-| Numero di risorse duplicate per set | Nessun duplicato | 20 |
+| Numero di risorse duplicate per set | Nessun duplicato | 20‡ |
 | Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
+
+‡ best practice prevede di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
 
 Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
@@ -76,7 +76,7 @@ Quando si pubblica un set di immagini, questo viene posizionato sui server Adobe
 
 >[!NOTE]
 >
->Questo passaggio è facoltativo se avete selezionato **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) al momento della creazione e del salvataggio del set di immagini.
+>Questo passaggio non è necessario se hai selezionato **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) quando hai creato e salvato il set di immagini.
 
 Seleziona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome nel pannello Sfoglia. Quindi, seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblica, seleziona **[!UICONTROL Invia pubblicazione]**.
 
