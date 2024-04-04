@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ La notifica di aggiornamento all&#39;interno dell&#39;applicazione desktop Adobe
 
 ## Correzioni nell’ultima versione (20.22.1) {#release-jan2022}
 
-* Editing immagini **[!UICONTROL Salva]** i pulsanti non funzionavano.
+* Durante la modifica di un&#39;immagine, il **[!UICONTROL Salva]** i pulsanti non funzionavano.
 * Negli editor di set, il **[!UICONTROL Chiudi]**, **[!UICONTROL Salva]**, e **[!UICONTROL Salva con nome]** diventano disattivati dopo lo scorrimento delle risorse in **[!UICONTROL Aggiungi risorse]** pannello.
 * **[!UICONTROL Play]** nella visualizzazione Dettagli video non funzionava.
 * Impossibile immettere `d` e `e` in **[!UICONTROL Nome utente]** e **[!UICONTROL Password]** quando si esegue macOS Monterey.
@@ -233,7 +233,7 @@ Per scaricare e *silenzioso* installa la versione più recente dell’app deskto
 
 ## Video introduttivo sull’utilizzo dell’app desktop Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Osserva un [video introduttivo sull’utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Durata: 2 minuti e 36 secondi).
+Osserva un [video introduttivo sull’utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Durata: 2 minuti e 36 secondi).
 
 ## Cancellazione della cache delle immagini e delle risorse dal computer tramite l’app desktop {#clear-cache}
 
@@ -252,7 +252,7 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Limitazione nota in Adobe Dynamic Media Classic 20.21.1
+## Limitazioni note in Adobe Dynamic Media Classic 20.21.1
 
 * Il **[!UICONTROL Server]** L’elenco a discesa è vuoto dopo l’aggiornamento all’app desktop Adobe Dynamic Media Classic 20.21.1 - Scenario: installi e accedi a Adobe Dynamic Media Classic 20.20.1 o 20.20.2, quindi chiudi l’applicazione. Quindi esegui l’aggiornamento a Adobe Dynamic Media Classic 20.21.1. Quando tenti di accedere, il **[!UICONTROL Server]** elenco a discesa nella **[!UICONTROL Accedi al tuo account]** la finestra di dialogo è vuota. Per risolvere il problema, è necessario [cancella manualmente la cache](#clear-cache) (vedere i passaggi precedenti).
 

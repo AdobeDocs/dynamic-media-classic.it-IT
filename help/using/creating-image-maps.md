@@ -1,27 +1,25 @@
 ---
 title: Creare mappe immagine
 description: Scopri come creare mappe immagine in Adobe Dynamic Media Classic.
-uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 49%
+source-wordcount: '2434'
+ht-degree: 41%
 
 ---
 
 # Creare mappe immagine {#creating-image-maps}
 
-Una mappa immagine è un’area su un’immagine, una pagina di eCatalog o un’immagine di un set 360 gradi, che visualizza un pannello di rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Quando l&#39;utente sposta il puntatore su una mappa immagine, viene visualizzata una struttura.
+Una mappa immagine è un’area su un’immagine, una pagina eCatalog o un’immagine in un set 360 gradi che visualizza un pannello di rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Quando l&#39;utente sposta il puntatore su una mappa immagine, viene visualizzata una struttura.
 
 Oltre alla possibilità di creare mappe immagine in Adobe Dynamic Media Classic, puoi anche creare mappe immagine durante la progettazione di un catalogo in Adobe Acrobat o Adobe InDesign.
 
@@ -58,7 +56,7 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 
 1. Se si desidera che gli utenti aprano una nuova pagina Web quando selezionano Mappa immagine, immettere l&#39;URL nell&#39;elenco Mappa immagine.
 
-   Consultate [ per inserire JavaScript e URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Consulta [per immettere JavaScript e URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. Per visualizzare un testo di rollover quando gli utenti passano il puntatore su una mappa immagine, immettete il testo nell’elenco Mappa immagine. Nell&#39;elenco Mappa immagine selezionare **[!UICONTROL Spettacolo]** menu e seleziona **[!UICONTROL Testo di rollover]**. Immettere quindi il testo che si desidera visualizzare sullo schermo. Potete scrivere il testo in un elaboratore testi e copiarlo nel campo di testo Rollover.
 
@@ -76,7 +74,7 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 
 ### Regolare la posizione, la forma e le dimensioni delle mappe immagine {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Per cambiare posizione, forma e dimensione alla mappa immagine, fate clic sul pulsante Mappa immagine . Quindi, seleziona la **[!UICONTROL Panoramica]** e seguire queste istruzioni:
+Per modificare la posizione, la forma e le dimensioni di una mappa immagine, selezionare il pulsante Mappa immagine. Quindi, seleziona la **[!UICONTROL Panoramica]** e seguire queste istruzioni:
 
 * **Cambia posizione** : sposta il puntatore vicino al bordo della mappa immagine, ma non oltre. Quando viene visualizzata l’icona con la freccia a quattro punte, trascinate la mappa nella nuova posizione.
 
@@ -98,12 +96,12 @@ Se l’immagine o la pagina di eCatalog include più mappe immagine che si sovra
 
 Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potete importare i dati per l’immagine, il set 360 gradi o l’eCatalog nella schermata Riepilogo mappe. Potete importare i dati delle mappe immagine come un file delimitato da tabulazioni o un file XML DTD. I campi presenti nel file devono essere nell’ordine visualizzato nella schermata Riepilogo mappe: Nome, Etichette di sommario, Mappe, URL, Testo di rollover, Altre azioni e Stringhe di ricerca. Importando i dati delle mappe immagine si evita di dover inserire i dati nell’elenco delle mappe immagine durante la creazione di ciascuna mappa immagine.
 
-**Per importare i dati per le mappe immagine:**
+**Per importare i dati della mappa immagine:**
 
 1. Passate alla pagina Editor mappa immagine (per le immagini o le immagini in set 360 gradi) o alla scheda Mappe pagine della schermata di modifica di un eCatalog.
 1. Seleziona **[!UICONTROL Importa metadati]**.
 1. Nella finestra di dialogo Carica metadati, seleziona Immagine o Mappa immagine per caricare i metadati dal tipo di proprietà della risorsa desiderata.
-1. Dall’elenco a discesa Genera file, selezionate il tipo di file da creare.
+1. In `Generate File` selezionare il tipo di file che si desidera creare.
 1. (Facoltativo) Seleziona **[!UICONTROL Genera]** per visualizzare in anteprima i dati risultanti in base al tipo di file da creare. Seleziona **[!UICONTROL Chiudi]** per tornare alla finestra di dialogo Carica metadati.
 1. Individuate il file da caricare. Nel campo di testo Nome file, specificate il nome del file generato.
 1. (Facoltativo) Nel campo Nome processo, specificate un nome per il processo di caricamento dei metadati.
@@ -136,32 +134,32 @@ Potete definire un modello URL (detto anche modello Href) per facilitare e migli
 
 ### I modelli URL {#about-url-templates}
 
-In un modello URL il contenuto della colonna URL nell’elenco Mappa immagine è sostituito da un doppio simbolo di dollaro (‘$$’):
+Il modello URL funziona sostituendo il contenuto della colonna URL nell’elenco Mappa immagine con i segni di dollaro doppi ($$) nel modello:
 
 ```as3
-Javascript:loadProduct(‘$$’);void(0);
+Javascript:loadProduct('$$');void(0);
 ```
 
 Inserisci tutti i valori che non cambiano tra le mappe immagine nel modello URL. Nella colonna URL dell’elenco Mappa immagine vanno invece aggiunti solo i valori che variano da mappa immagine a mappa immagine. Ad esempio:
 
-* Modello URL - `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* Modello URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * Valore URL - `product.htm`
-* URL effettivo generato - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* URL effettivo generato - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL include un gestore JavaScript proprietario denominato `loadProduct` che apre una nuova finestra con la destinazione URL. Tuttavia, puoi utilizzare qualsiasi codice JavaScript per sostituire questo gestore JavaScript o uno dei seguenti gestori Adobe Dynamic Media Classic:
 
-* `loadProductCW` - visualizza la destinazione URL specificata nella colonna URL nella finestra corrente. Questo handler è indicato soprattutto per gli eCatalog integrati in una pagina di un sito Web.
+* `loadProductCW` : visualizza la destinazione URL specificata nella colonna URL della finestra corrente. Questo handler è indicato soprattutto per gli eCatalog integrati in una pagina di un sito Web.
 
-* `loadProductPW` - visualizza la destinazione URL specificata nella colonna URL nella finestra principale (la pagina che ha aperto quella corrente). La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
+* `loadProductPW` : visualizza la destinazione URL specificata nella colonna URL della finestra padre, ovvero la pagina che ha aperto quella corrente. La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
 
   >[!NOTE]
   >
-  >L’handler `loadProductPW` non supporta i visualizzatori DHTML e HTML5.
+  >Gestore `loadProductPW` non supporta i visualizzatori DHTML e HTML5.
 
 ### Creare un modello URL {#creating-a-url-template}
 
 1. Nella schermata Editor mappa (per le immagini e i set 360 gradi) o nella scheda Mappe pagine della schermata eCatalog (per gli eCatalog), selezionate Modifica accanto all’opzione Modello URL. Viene visualizzata la finestra di dialogo Modifica modello mappa.
-1. Immettete il codice JavaScript e l’URL completo (con la porzione variabile sostituita dai segni di dollaro [$$]). Puoi incollare il codice facendo clic con il pulsante destro del mouse e scegliendo **[!UICONTROL Incolla]**.
+1. Inserisci il codice JavaScript e l’URL completo (con la parte variabile sostituita dai segni del dollaro). [$$]). Puoi incollare il codice facendo clic con il pulsante destro del mouse e scegliendo **[!UICONTROL Incolla]**.
 1. Seleziona **[!UICONTROL Salva]**.
 
 ### Gestire i modelli URL {#handling-url-templates}
@@ -176,11 +174,11 @@ La pagina Editor mappa (per le immagini e i set 360 gradi) e la scheda Mappe pag
 
 È possibile selezionare **[!UICONTROL Spettacolo]** e scegliere **[!UICONTROL Altre azioni]** per attivare azioni diverse dal rollover di testo e dagli avvii di pagine web. Potete fare sì che un’azione venga avviata quando l’utente passa il puntatore su una mappa immagine. Queste azioni sono attributi definiti per le mappe immagine sul lato client dalle specifiche HTML del World Wide Web Consortium. Includono:
 
-* **`accesskey`** - Attiva un’azione quando l’utente preme un determinato tasto della tastiera.
+* **`accesskey`** - Attiva un&#39;azione quando l&#39;utente preme un tasto designato sulla tastiera.
 
 * **`onfocus`** - Attiva un evento quando la mappa immagine viene attivata dal cursore, dalla tabulazione o premendo un tasto di accesso. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine viene resa attiva e chiuderla quando la mappa è resa inattiva.
 
-* **`onblur`** - Attiva un evento quando la mappa immagine viene resa inattiva tramite cursore o tasto di tabulazione.
+* **`onblur`** - Attiva un evento quando la Mappa immagine perde lo stato attivo, a causa del cursore o della tabulazione.
 
 **Per definire altre azioni per le mappe immagine:**
 
@@ -219,7 +217,7 @@ Per ulteriori informazioni, consulta la Guida di Adobe InDesign o Adobe Acrobat.
 ### Per creare mappe immagine in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
 1. In Adobe Acrobat, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Modifica avanzata]** > **[!UICONTROL Strumento Collega]**.
-1. Trascinate per creare la mappa immagine.
+1. Trascinare per creare la mappa immagine.
 1. Nella casella Crea collegamento, seleziona **[!UICONTROL Collegamento personalizzato]**, e seleziona **[!UICONTROL Successivo]**.
 
 >[!NOTE]

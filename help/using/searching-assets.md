@@ -1,21 +1,19 @@
 ---
 title: Cercare risorse Dynamic Media Classic
 description: Scopri come cercare le risorse in Adobe Dynamic Media Classic.
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -29,7 +27,7 @@ Per individuare le risorse file in Adobe Dynamic Media Classic, puoi visualizzar
 
 ## Visualizzare le risorse per tipo {#viewing-assets-by-type}
 
-Per visualizzare solo i file di un certo tipo mentre sfogliate, nella sezione Libreria risorse a sinistra della **[!UICONTROL Spettacolo]** scegliere un tipo di file. Nella Libreria risorse vengono visualizzate solo le risorse del tipo che hai scelto di mostrare.
+Per visualizzare solo i file di un certo tipo mentre sfogliate, nella sezione Libreria risorse a sinistra della **[!UICONTROL Spettacolo]** scegliere un tipo di file. Solo le risorse del tipo che hai scelto di mostrare vengono visualizzate nella Libreria risorse.
 
 >[!NOTE]
 >
@@ -79,9 +77,9 @@ Specifica uno dei seguenti criteri nella ricerca avanzata:
    1. Seleziona la **[!UICONTROL Aggiungi un campo]** e scegliere un nome di campo.
    1. Scegli un **[!UICONTROL Contiene]** opzione: **[!UICONTROL Contiene]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Inizia con]**, **[!UICONTROL Termina con]**, o **[!UICONTROL Uguale a]**.
    1. Per i campi numerici, scegliete un valore o immettete in intervallo di date personalizzato.
-   1. (Facoltativo) Ripeti i passaggi 1-4 per creare altri campi di ricerca.
+   1. (Facoltativo) Ripetete i passaggi da 1 a 4 per creare ulteriori campi di ricerca.
 
-Seleziona la **[!UICONTROL Rimuovi campo di ricerca]** (racchiudi il cerchio con &quot;X&quot; all’interno) in modo da eliminare il campo di ricerca.
+Seleziona la **[!UICONTROL Rimuovere un campo di ricerca]** (racchiudi il cerchio con &quot;X&quot; all’interno) in modo da eliminare il campo di ricerca.
 
 Nell’angolo inferiore destro del pannello Ricerca avanzata, seleziona **[!UICONTROL Ricerca]** per iniziare la ricerca. I risultati della ricerca vengono visualizzati nel pannello Sfoglia a destra. Puoi modificare qualsiasi condizione di ricerca e selezionare **[!UICONTROL Ricerca]** per eseguire di nuovo la ricerca.
 
@@ -89,7 +87,7 @@ Seleziona **[!UICONTROL Cancella]** per cancellare i criteri di ricerca e avviar
 
 ## Filtrare le risorse tramite metadati {#filter-assets-using-metadata}
 
-Potete filtrare le risorse mediante la scheda Filtri della Libreria risorse. Per filtrare le risorse vengono usati come criteri i valori dei metadati. Dopo aver scelto un campo di metadati su cui si desidera filtrare, la scheda Filtri elenca tutti i valori di metadati immessi nel campo scelto. Inoltre, elenca il numero di risorse a cui è stato assegnato ciascun valore. Ad esempio, in un’operazione filtro su **[!UICONTROL Creatore]** campo di metadati, il **[!UICONTROL Filtri]** elenca tutti i nomi immessi nel **[!UICONTROL Creatore]** campo di metadati per risorse diverse. Inoltre, elenca per ogni nome il numero di risorse a cui è assegnato il nome. Quindi seleziona un valore di metadati per visualizzare tutte le risorse a cui è stato assegnato tale valore. Nell’esempio, seleziona la `Prairie Cat` il valore dei metadati per visualizzare tutte le risorse in cui il nome `Prairie Cat` è stato immesso nel **[!UICONTROL Creatore]** campo metadati. È possibile filtrare la ricerca utilizzando più campi metadati come criteri di ricerca.
+Potete filtrare le risorse mediante la scheda Filtri della Libreria risorse. Per filtrare le risorse vengono usati come criteri i valori dei metadati. Dopo aver scelto un campo di metadati su cui filtrare, la scheda Filtri elenca tutti i valori di metadati immessi nel campo scelto. Inoltre, elenca il numero di risorse a cui è stato assegnato ciascun valore. Ad esempio, in un’operazione filtro su **[!UICONTROL Creatore]** campo di metadati, il **[!UICONTROL Filtri]** elenca tutti i nomi immessi nel **[!UICONTROL Creatore]** campo di metadati per risorse diverse. Inoltre, elenca per ogni nome il numero di risorse a cui è assegnato il nome. Quindi seleziona un valore di metadati per visualizzare tutte le risorse a cui è stato assegnato tale valore. Nell’esempio, seleziona la `Prairie Cat` il valore dei metadati per visualizzare tutte le risorse in cui il nome `Prairie Cat` è stato immesso nel **[!UICONTROL Creatore]** campo metadati. È possibile filtrare la ricerca utilizzando più campi metadati come criteri di ricerca.
 
 Puoi salvare le operazioni filtro per eseguirle più volte.
 

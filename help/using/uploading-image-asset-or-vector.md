@@ -1,6 +1,6 @@
 ---
 title: Carica una risorsa immagine raster
-description: Scopri come caricare un’immagine raster in Adobe Dynamic Media Classic
+description: Scopri come caricare un’immagine raster in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 55%
+source-wordcount: '1010'
+ht-degree: 53%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Il `file_limit` parametro specifica il limite di dimensione file in byte. Il `file_exts` Il parametro specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
-Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se l’elemento inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
+Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se quello che hai inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
 | Limite globale  | Valore |
 | --- | --- |
@@ -237,7 +237,7 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 | Parametro URL | Richiesto o facoltativo | Valore |
 | --- | --- | --- |
 | `op` | Obbligatorio | image_info |
-| `shared_secret` | Obbligatorio | Chiave condivisa-segreta per la società. |
+| `shared_secret` | Obbligatorio | Chiave condivisa-segreta per l&#39;azienda. |
 | `image_name` | Obbligatorio | Nome dell’immagine. |
 
 **URL campione:**

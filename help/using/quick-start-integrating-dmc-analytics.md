@@ -1,6 +1,6 @@
 ---
 title: "Guida introduttiva: Integrare Adobe Dynamic Media Classic e Adobe Analytics"
-description: Introduzione e Guida rapida all’integrazione di Adobe Dynamic Media Classic e Adobe Analytics per aiutarti a iniziare subito a utilizzare il prodotto.
+description: Introduzione e Guida rapida all’integrazione di Adobe Dynamic Media Classic e Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 26%
+source-wordcount: '682'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Dopo aver integrato Adobe Analytics con Adobe Dynamic Media Classic, puoi ottene
 
 Utilizzando i rapporti di Adobe Analytics, potete ricavare un’immagine chiara delle attività dei clienti sul vostro sito Web. Puoi determinare quali presentazioni di prodotti portano alla conversione e quali non attirano l’interesse dei clienti.
 
-Vedi anche [Misurare i video in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Vedi anche [Misurare i video in Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Consulta [Configurare i rapporti di Adobe Analytics](configuring-analytics-repor
 
 ## 3. Pubblicare i visualizzatori Adobe Dynamic Media Classic
 
-Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che vengano caricati sui server Adobe Dynamic Media Classic (con il codice per il tracciamento delle attività degli utenti nei rapporti di Adobe Analytics). In seguito alla pubblicazione, queste informazioni vengono incluse nei visualizzatori e possono essere utilizzate per le analisi Adobe Analytics.
+Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che vengano caricati sui server Adobe Dynamic Media Classic (con il codice per il tracciamento delle attività degli utenti nei rapporti di Adobe Analytics). Dopo la pubblicazione, queste informazioni vengono incluse nei visualizzatori e possono essere utilizzate per l’analisi da parte di Adobe Analytics.
 
 Consulta [Pubblica informazioni di configurazione](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

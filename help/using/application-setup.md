@@ -1,6 +1,6 @@
 ---
 title: Impostazione applicazione
-description: Scopri come impostare e configurare l’area Applicazione di Adobe Dynamic Media Classic. L’area Applicazione consente di immettere impostazioni generali, creare predefiniti per immagini, visualizzatori e codifiche video, definire visualizzatori e metadati predefiniti, impostazioni di pubblicazione e impostazioni Video SEO (Search Engine Optimization). È inoltre possibile utilizzare l'area per impostare predefiniti per set di batch per automatizzare la generazione di set 360 gradi 2D.
+description: Scopri come impostare e configurare l’area Applicazione di Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10991'
-ht-degree: 37%
+source-wordcount: '10947'
+ht-degree: 36%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#
 
 Se in precedenza avete caricato le immagini e quindi modificato i file originali (o li avete sostituiti), l&#39;opzione di sovrascrittura selezionata specifica in che modo Adobe Dynamic Media Classic sostituisce le immagini. I dati relativi all’immagine non vengono modificati, ma la nuova immagine sostituisce la precedente. Se la cartella contiene anche immagini che non sono già presenti in Adobe Dynamic Media Classic, queste immagini vengono aggiunte.
 
-Utilizza questa opzione se le immagini caricate sono cambiate in qualche modo (l’immagine è stata modificata) ma il riferimento all’immagine rimane lo stesso. La sovrascrittura è utile anche per il caricamento e la copia di PDF Adobe®. Per ottimizzare il modo in cui Adobe Dynamic Media Classic *strappi* nell&#39;immagine, regolate le opzioni del profilo colore ICC nella finestra di dialogo Carica (Upload) e ricaricate utilizzando la funzione Sovrascrivi (Overwrite).
+Utilizza questa opzione se le immagini caricate sono cambiate in qualche modo (l’immagine è stata modificata) ma il riferimento all’immagine rimane lo stesso. La sovrascrittura è utile anche per il caricamento e la copia di PDF Adobe®. Per ottimizzare il modo in cui Adobe Dynamic Media Classic *strappi* nell&#39;immagine, regolate le opzioni del profilo colore ICC nella finestra di dialogo Carica (Upload) e ricaricate utilizzando la funzione di sovrascrittura.
 
 Gli ID Adobe Dynamic Media Classic utilizzati per accedere alle immagini dai server di produzione derivano dai nomi dei file immagine. L’utilizzo di caratteri maiuscoli e minuscoli nel nome del file è importante, sia per la sostituzione dei file esistenti che per gli ID Adobe Dynamic Media Classic utilizzati per accedere all’immagine. Assicurati che l’uso di caratteri maiuscoli e minuscoli nei nomi dei file sia corretto prima di caricarli in Adobe Dynamic Media Classic per evitare ID Adobe Dynamic Media Classic che differiscono solo per la stessa immagine.
 
@@ -161,7 +161,7 @@ Gli amministratori possono creare predefiniti per l’esportazione delle risorse
 
 Per aprire la schermata Predefinito immagine, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagine]**.
 
-Consulta [Imaging avanzato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+Consulta [Imaging avanzato](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Creare e modificare i predefiniti immagine {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Combinando in un singolo lettore quanto segue:
 
 È possibile estendere la portata dei contenuti rich media agli utenti desktop, tablet e mobili e garantire un&#39;esperienza video semplificata.
 
-Consulta [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori di Adobi.
+Consulta [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori di Adobi.
 
 Consulta [Matrice di compatibilità del predefinito per visualizzatori Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Vedi anche [Esempi della libreria di riferimento per visualizzatori di Adobi](ht
 
 Diversi tipi di pagine Web hanno esigenze differenti. Talvolta potresti desiderare una pagina web che fornisca un collegamento per aprire il Visualizzatore di HTML5 in una finestra del browser separata. In altri casi, è necessario incorporare il visualizzatore HTML5 direttamente nella pagina di hosting. In quest’ultimo caso, è probabile che la pagina web abbia un layout statico. Oppure è &quot;reattivo&quot; e viene visualizzato in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, i visualizzatori HTML5 forniti con Adobe Dynamic Media Classic supportano sia pagine web statiche che pagine web progettate per rispondere.
 
-Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine web, consulta [Informazioni sulla libreria Immagine reattiva](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Usa libreria di immagini reattiva](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api), e [Riferimento comando - Attributi comando](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine web, consulta [Informazioni sulla libreria Immagine reattiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usa libreria di immagini reattiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api), e [Riferimento comando - Attributi comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipi di predefiniti per visualizzatori {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Vedi anche [Esempi della libreria di riferimento per visualizzatori di Adobi](ht
 
 Per informazioni sui browser Web e sulle versioni del sistema operativo supportati per i visualizzatori, consultate le relative Note sulla versione.
 
-Consulta [Note sulla versione di riferimento per visualizzatori Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+Consulta [Note sulla versione di riferimento per visualizzatori Adobi](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -613,7 +613,7 @@ Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/
      
    * **Modifica** - Selezionate un predefinito visualizzatore esistente, quindi selezionate **[!UICONTROL Modifica]**.
 
-1. Nella pagina Configura visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
+1. Nella pagina Configurazione del visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
 
    >[!NOTE]
@@ -732,7 +732,7 @@ La modifica del codice non è consentita nella finestra di dialogo Codice da inc
 1. Nella finestra di dialogo Incorpora codice, seleziona **[!UICONTROL Copia negli Appunti]**.
 1. Seleziona **[!UICONTROL Chiudi]**.
 
-## Configurare i visualizzatori predefiniti {#configuring-default-viewers}
+## Configurare i visualizzatori predefiniti {#configure-default-viewers}
 
 Puoi utilizzare i visualizzatori predefiniti per configurare il visualizzatore predefinito associato a una risorsa quando utilizzi Anteprima in Adobe Dynamic Media Classic. Potete impostare l’esperienza di anteprima predefinita per i seguenti tipi di risorse:
 
@@ -812,7 +812,7 @@ Crea un predefinito di metadati per ogni set di valori di metadati che desideri 
 
 I campi metadati definiti dall’utente possono essere creati solo da un amministratore di Media Portal o un amministratore società. I campi personalizzati consentono di organizzare le risorse in Adobe Dynamic Media Classic. Se necessario, puoi contrassegnare i campi come Attivi. Quando questa opzione è attivata, i nomi di questi campi di metadati personalizzati vengono visualizzati nel pannello Metadati in Vista dettagli. Nei campi di metadati definiti dall’utente gli utenti possono immettere informazioni per descrivere le risorse. Gli utenti possono inoltre utilizzare tali campi di metadati come criteri di ricerca.
 
-I campi metadati definiti dall’utente sono utili ad esempio per ritardare il momento di attivazione di una risorsa per un lancio o una promozione. Definisci un campo &quot;attivazione&quot; in base al tipo *Data*. Quindi, utilizzando **[!UICONTROL Metadati]** pannello in Vista dettaglio o **[!UICONTROL File]** > **[!UICONTROL Modifica informazioni]**, puoi specificare quando attivare la risorsa. Adobe Dynamic Media Classic controlla lo stato di pubblicazione di una risorsa e la cronologia di pubblicazione. Se non rientra nel tempo di attivazione, lo stato di pubblicazione sarà &quot;Non pubblicato&quot;.
+I campi metadati definiti dall’utente sono utili ad esempio per ritardare il momento di attivazione di una risorsa per un lancio o una promozione. Definisci un campo &quot;attivazione&quot; in base al tipo *Data*. Quindi, utilizzando **[!UICONTROL Metadati]** pannello in Vista dettaglio o **[!UICONTROL File]** > **[!UICONTROL Modifica informazioni]**, puoi specificare quando attivare la risorsa. Adobe Dynamic Media Classic controlla lo stato di pubblicazione di una risorsa e la cronologia delle pubblicazioni. Se non rientra nel tempo di attivazione, lo stato di pubblicazione sarà &quot;Non pubblicato&quot;.
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ Per utilizzare la funzionalità di predefinito per set di batch non è necessari
 
 In alternativa, potete usare l’opzione Visualizza codice, senza campi del modulo. In questa vista puoi creare le definizioni delle convenzioni di denominazione interamente utilizzando espressioni regolari.
 
-Per la definizione sono disponibili due elementi, Corrispondenza e Nome base. Questi campi consentono di definire tutti gli elementi di una convenzione di denominazione e identificare la porzione della convenzione usata per denominare il set in cui sono contenuti. La convenzione di denominazione individuale di un’azienda può utilizzare una o più righe di definizione per ciascuno di questi elementi. Potete usare tutte le righe necessarie a creare una definizione univoca e raggrupparle in elementi distinti, ad esempio per l’immagine principale, l’elemento colore, l’elemento visualizzazione alternativa e l’elemento campione.
+Per la definizione sono disponibili due elementi, Corrispondenza e Nome base. Questi campi sono tutti gli elementi definiti per una convenzione di denominazione e identificano la parte della convenzione utilizzata per denominare il set in cui sono contenuti. La convenzione di denominazione individuale di un’azienda può utilizzare una o più righe di definizione per ciascuno di questi elementi. Potete usare tutte le righe necessarie a creare una definizione univoca e raggrupparle in elementi distinti, ad esempio per l’immagine principale, l’elemento colore, l’elemento visualizzazione alternativa e l’elemento campione.
 
 ### Creare un predefinito per set di batch {#creating-a-batch-set-preset}
 

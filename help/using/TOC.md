@@ -6,9 +6,9 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
 index: y
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '796'
 ht-degree: 20%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 20%
    + [Confronto tra elenchi di funzioni](upgrade-feature-comparison.md)
    + [Elenco di controllo preparazione all’aggiornamento](upgrade-readiness.md)
 + [Guida di Adobe Dynamic Media Classic](home.md)
-+ [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [È ora disponibile il NUOVO accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
++ [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [È ora disponibile il nuovo accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
 + [Adobe Dynamic Medie newsletter archivio per Experience League](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro}
    + [App Adobe Dynamic Media Classic Desktop - Ora disponibile](dynamic-media-classic-desktop-app.md)
@@ -182,7 +182,7 @@ ht-degree: 20%
    + [Utilizzare i PDF](pdfs.md)
    + [Utilizzare i file PSD](psd-files.md)
    + [Utilizzare i file PostScript e Illustrator](postscript-illustrator-files.md)
-   + [Utilizzare vignettatura, copertina di finestre e file CAB](vignette-window-covering-cabinet-files.md)
+   + [Utilizzare vignettature, copertine di finestre e file CAB](vignette-window-covering-cabinet-files.md)
 + File di supporto {#support-files}
    + [Font](fonts.md)
    + [File XML](xml-files.md)

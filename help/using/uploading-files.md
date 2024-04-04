@@ -1,19 +1,17 @@
 ---
 title: Caricare i file
 description: Scopri come caricare i file in Adobe Dynamic Media Classic.
-uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3869'
 ht-degree: 27%
 
 ---
@@ -166,8 +164,8 @@ L&#39;applicazione Adobe Dynamic Media Classic Desktop consente di caricare file
 1. Nell&#39;applicazione Adobe Dynamic Media Classic Desktop, nella barra di navigazione globale, selezionare **[!UICONTROL Carica]**.
 1. Nella pagina Carica, seleziona la **[!UICONTROL Da desktop]** scheda.
 1. Sul lato sinistro della pagina Carica, nella **[!UICONTROL Seleziona i file da caricare]** area, seleziona **[!UICONTROL Sfoglia]** per selezionare i file o le cartelle da caricare, quindi seleziona **[!UICONTROL Apri]**.
-1. Sul lato destro della pagina Carica, nella **Scegliete la destinazione della cartella** , passare a una cartella di destinazione in cui si desidera aggiungere i file o le cartelle caricati.
-1. (Facoltativo) Nella parte inferiore della pagina Carica, immetti il nuovo nome del processo di caricamento nel campo di testo Nome processo. In alternativa, è possibile utilizzare semplicemente il nome predefinito generato dal sistema fornito da Adobe Dynamic Media Classic. Il processo e gli altri processi di caricamento e pubblicazione vengono registrati nella pagina Processi, in cui è possibile controllare lo stato dei processi. Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_files).
+1. Sul lato destro della pagina Carica, nella **Destinazione cartella** , passare a una cartella di destinazione in cui si desidera aggiungere i file o le cartelle caricati.
+1. (Facoltativo) Nella parte inferiore della pagina Carica, inserisci il nuovo nome del processo di caricamento nel campo di testo Nome processo. In alternativa, è possibile utilizzare semplicemente il nome predefinito generato dal sistema fornito da Adobe Dynamic Media Classic. I processi di caricamento e pubblicazione vengono registrati nella pagina Processi, in cui è possibile controllare lo stato dei processi. Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_files).
 1. (Facoltativo) Nella parte inferiore della pagina Carica, seleziona **[!UICONTROL Pubblica dopo il caricamento]** per pubblicare automaticamente le risorse caricate.
 Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
 1. (Facoltativo) Nella parte inferiore della pagina Carica, seleziona **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]** se si desidera che i file caricati sostituiscano i file esistenti con gli stessi nomi. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
@@ -186,8 +184,8 @@ Per visualizzare l’avanzamento del caricamento, seleziona **[!UICONTROL Proces
 1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, seleziona **[!UICONTROL Carica]**.
 1. Nella pagina Carica, seleziona la **[!UICONTROL TRAMITE FTP]** scheda.
 1. Sul lato sinistro della pagina Carica, nella **[!UICONTROL Scegliete la cartella FTP da caricare]** scegliere una cartella FTP dalla quale caricare i file.
-1. Sul lato destro della pagina Carica, nella **[!UICONTROL Scegli la destinazione della cartella Dynamic Medie di Adobe]** selezionare una cartella di destinazione in Adobe Dynamic Media Classic.
-1. (Facoltativo) Nella parte inferiore della pagina Carica, immetti il nuovo nome del processo di caricamento nel campo di testo Nome processo. In alternativa, è possibile utilizzare semplicemente il nome predefinito generato dal sistema fornito da Adobe Dynamic Media Classic. Il processo e gli altri processi di caricamento e pubblicazione vengono registrati nella pagina Processi, in cui è possibile controllare lo stato dei processi.
+1. Sul lato destro della pagina Carica, nella **[!UICONTROL Destinazione cartella Dynamic Medie Adobe]** selezionare una cartella di destinazione in Adobe Dynamic Media Classic.
+1. (Facoltativo) Nella parte inferiore della pagina Carica, inserisci il nuovo nome del processo di caricamento nel campo di testo Nome processo. In alternativa, è possibile utilizzare semplicemente il nome predefinito generato dal sistema fornito da Adobe Dynamic Media Classic. I processi di caricamento e pubblicazione vengono registrati nella pagina Processi, in cui è possibile controllare lo stato dei processi.
 Consultate [Verifica dei file di processo](checking-job-files.md#checking_job_files).
 1. (Facoltativo) Nella parte inferiore della pagina Carica, seleziona **[!UICONTROL Pubblica dopo il caricamento]** per pubblicare automaticamente le risorse caricate.
 Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
@@ -248,7 +246,7 @@ Rifilatura in base alla trasparenza: specificate 0 per ritagliare i pixel solo s
 * **Opzioni profilo colore** : scegli una conversione colore quando crei file ottimizzati utilizzati per la distribuzione dinamica di Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Mantenimento colore predefinito]** - Mantiene i colori dell&#39;immagine di origine ogni volta che le immagini contengono informazioni sullo spazio colore; non vi è alcuna conversione colore. In quasi tutte le immagini è incorporato il relativo profilo colore. Tuttavia, se un’immagine sorgente CMYK non contiene un profilo colore incorporato, i colori vengono convertiti nello spazio colore sRGB. sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
-   * **[!UICONTROL Mantieni spazio colore originale]** - Mantiene i colori originali senza alcuna conversione di colore nel punto di inserimento in Adobe Dynamic Media Classic. Per le immagini senza un profilo colore incorporato, l’eventuale conversione colore necessaria per elaborare le richieste per l’immagine viene eseguita utilizzando i profili colore predefiniti configurati nelle impostazioni di pubblicazione. Questi profili colore non sono sempre allineati con il colore nei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
+   * **[!UICONTROL Mantieni spazio colore originale]** - Mantiene i colori originali senza alcuna conversione di colore nel punto di inserimento in Adobe Dynamic Media Classic. Per le immagini senza un profilo colore incorporato, l’eventuale conversione colore necessaria per elaborare le richieste per l’immagine viene eseguita utilizzando i profili colore predefiniti configurati nelle impostazioni di pubblicazione. Questi profili colore non sono sempre allineati con i colori dei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
    * **[!UICONTROL Personalizza da]** > **[!UICONTROL A]** - Apre i menu in modo da poter scegliere **[!UICONTROL Converti da]** e **[!UICONTROL Converti in]** spazio colore. Questa opzione avanzata ha priorità rispetto a eventuali informazioni di colore incorporate nel file sorgente. Seleziona questa opzione solo se tutte le immagini che stai inviando contengono dati di profilo colore errati o mancanti.
 
 * **Opzioni di modifica immagine** - È possibile mantenere le maschere di ritaglio &lt;> nelle immagini e scegliere un profilo colore.
@@ -269,8 +267,9 @@ Consulta [Utilizzare i file PostScript e Illustrator](postscript-illustrator-fil
 * **Opzioni EVIDEO** - È possibile trascodificare un file video scegliendo un predefinito per video.
 Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Metadati aggiuntivi** : inserisci le parole chiave che descrivono i file che intendi caricare. Separate le parole chiave con una virgola. Le parole chiave facilitano la ricerca delle risorse.
-Consulta [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search). Vedi anche [Carica parole chiave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) video di formazione.
+* **Altri metadati** : inserisci le parole chiave che descrivono i file che intendi caricare. Separate le parole chiave con una virgola. Le parole chiave facilitano la ricerca delle risorse.
+Consulta [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
+Vedi anche [Carica parole chiave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) video di formazione.
 
 * **Predefiniti set di batch** : se desideri creare un set di immagini, un set 360 gradi o un set di campioni dai file caricati, seleziona la **[!UICONTROL Attivo]** per il predefinito che desideri utilizzare. Potete selezionare più di un predefinito. I predefiniti vengono creati nella pagina Impostazione applicazione/Predefiniti set di batch.
 Consultate [Predefiniti per set di batch](application-setup.md#batch_set_presets).
@@ -279,7 +278,7 @@ Consultate [Predefiniti per set di batch](application-setup.md#batch_set_presets
 
 ## Avviare un altro processo al termine di un caricamento {#follow-an-upload-with-another-job}
 
-Quando carichi gli elementi utilizzando l’FTP, puoi pianificare l’inizio di un processo successivo una volta completato il caricamento. Se è stato pianificato l&#39;inizio di altri processi, il processo pianificato in questa posizione viene inserito nella coda dopo di essi.
+Quando carichi gli elementi utilizzando l’FTP, puoi pianificare l’inizio di un processo successivo una volta completato il caricamento. Se è stato programmato l&#39;inizio di altri processi, i processi pianificati in questa posizione vengono messi in coda dopo di essi.
 
 Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in tale posizione possa essere attivato. Questo processo di pubblicazione sequenziale usa lo stesso nome del processo di caricamento, con l’aggiunta del testo *Pub_* all’inizio.
 
@@ -308,4 +307,4 @@ Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che i
 >
 >* [Utilizzare le cartelle di risorse](asset-folders.md#working_with_asset_folders)
 >* [Gestire i processi di caricamento e pubblicazione ricorrenti](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Utilizzare un processo di caricamento o pubblicazione come attivatore](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [Utilizzare un processo di caricamento o pubblicazione come trigger](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)

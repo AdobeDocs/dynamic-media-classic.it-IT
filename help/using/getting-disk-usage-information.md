@@ -1,26 +1,24 @@
 ---
 title: Ottieni informazioni sull'utilizzo del disco
 description: Scopri come ottenere informazioni sull’utilizzo del disco in Adobe Dynamic Media Classic.
-uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 77%
+source-wordcount: '91'
+ht-degree: 42%
 
 ---
 
-# Ottieni informazioni sull&#39;utilizzo del disco {#getting-disk-usage-information}
+# Ottieni informazioni sull&#39;utilizzo del disco {#get-disk-usage-information}
 
-Per ottenere informazioni sull’utilizzo dello spazio su disco da parte di una società, potete usare il parametro `disk_info`, come segue:
+È possibile utilizzare `disk_info` per recuperare informazioni sull&#39;utilizzo dello spazio su disco di un&#39;azienda, come illustrato nell&#39;esempio seguente:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -49,7 +47,7 @@ Nella stringa query URL potete usare i seguenti campi per ottenere informazioni 
 | Parametro URL | Obbligatorio/facoltativo | Valore |
 | --- | --- | --- |
 | op | Obbligatorio | disk_info |
-| shared_secret | Obbligatorio | Chiave segreta condivisa della società |
+| shared_secret | Obbligatorio | La chiave che è un segreto condiviso per la società |
 
 L’esempio seguente illustra il codice necessario per ottenere informazioni sull’utilizzo dello spazio su disco per la società 000Company:
 

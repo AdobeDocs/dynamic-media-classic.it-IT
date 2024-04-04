@@ -1,21 +1,19 @@
 ---
 title: Creare un set di offerte
 description: Scopri come creare un set di offerte in Adobe Dynamic Media Classic.
-uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
-discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 35%
+source-wordcount: '1227'
+ht-degree: 33%
 
 ---
 
@@ -27,7 +25,7 @@ Potete creare i seguenti tipi di set di offerte:
 * Modello con parametri
 * Immagine
 
-Per i modelli, seleziona **[!UICONTROL Aggiungi e visualizza anteprima]**, quindi impostare i parametri selezionati. Gli altri tipi di set di offerte non includono parametri, ma puoi comunque personalizzarli selezionando **[!UICONTROL Anteprima]** e la modifica dei predefiniti disponibili.
+Per i modelli, seleziona **[!UICONTROL Aggiungi e visualizza anteprima]**, quindi impostare i parametri selezionati. Altri tipi di set di offerte non includono parametri, ma puoi comunque personalizzarli selezionando **[!UICONTROL Anteprima]** e la modifica dei predefiniti disponibili.
 
 Adobe Dynamic Media Classic offre strumenti per la modifica e la creazione di set di offerte.
 
@@ -118,7 +116,7 @@ Sia che si modifichi un set pubblicato o un set non pubblicato, il **[!UICONTROL
 | Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -141,9 +139,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine della modifica, vicino all’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.
 
-## Eliminare un set di offerte {#deleting-an-offer-set}
+## Eliminare un set di offerte {#delet-an-offer-set}
 
-Quando eliminate un set di offerte, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Quando eliminate un set di offerte, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
@@ -154,4 +152,4 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 >[!MORELIKETHIS]
 >
->* [Creazione di parametri per i modelli](creating-template-parameters.md#creating_template_parameters)
+>* [Creazione di parametri di modello](creating-template-parameters.md#creating_template_parameters)

@@ -1,6 +1,6 @@
 ---
 title: App Adobe Dynamic Media Classic Desktop
-description: Gli utenti di Adobe Dynamic Media Classic ora possono provare un aggiornamento completo dell’interfaccia utente. L’esperienza offre un accesso aggiornato con collegamenti a risorse preziose; inoltre, questo aggiornamento non si basa più sulla tecnologia Adobe Flash nel browser.
+description: Gli utenti di Adobe Dynamic Media Classic ora possono provare un aggiornamento completo dell’interfaccia utente.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Consulta [app desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-cla
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Come funziona la nuova app desktop?_**
-Dopo aver scaricato, installato e avviato l’app desktop, ti verrà presentato un accesso aggiornato. Immettendo il nome utente e la password esistenti e selezionando il server appropriato in base alla regione, è possibile accedere a Adobe Dynamic Media Classic. L’esperienza complessiva è la stessa della versione del browser web che si è abituati a utilizzare. Dall’app desktop, puoi accedere agli ambienti di produzione e staging di Adobe Dynamic Media Classic. Puoi accedere a Media Portal anche se disponi della credenziale per questa funzionalità.
+Dopo aver scaricato, installato e avviato l’app desktop, ti viene presentato un accesso aggiornato. Immettendo il nome utente e la password esistenti e selezionando il server appropriato in base alla regione, è possibile accedere a Adobe Dynamic Media Classic. L’esperienza complessiva è la stessa della versione del browser web che si è abituati a utilizzare. Dall’app desktop, puoi accedere agli ambienti di produzione e staging di Adobe Dynamic Media Classic. Puoi accedere a Media Portal anche se disponi della credenziale per questa funzionalità.
 
 >[!IMPORTANT]
 >
@@ -94,9 +94,9 @@ Contatta l’Assistenza Adobe per eventuali problemi riscontrati durante l’uti
 +++**_Voglio assicurarmi di ottimizzare la mia strategia per i rich media. Come posso saperne di più su Adobe Dynamic Media Classic?_**
 Adobe Dynamic Media Classic è una soluzione potente e ricca di funzioni progettata per migliorare le strategie multimediali. Per trarre vantaggio da tutte le funzionalità, è necessario esplorare le risorse pratiche seguenti:
 
-* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Post di blog di Adobi](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Archivi newsletter Adobe Dynamic Medie](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Archivi newsletter Adobe Dynamic Medie](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

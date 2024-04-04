@@ -1,20 +1,18 @@
 ---
 title: Verifica file di processo
 description: Scopri come controllare i file di processo in Adobe Dynamic Media Classic.
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1619'
 ht-degree: 24%
 
 ---
@@ -89,7 +87,7 @@ Selezionare il pulsante Processi sulla barra di navigazione globale e nella pagi
 
 >[!NOTE]
 >
->Puoi filtrare l’elenco dei processi in base a **[!UICONTROL Pianificato]** scheda con **[!UICONTROL Tipo di processo]** e **[!UICONTROL Spettacolo]** menu. Selezionare un tipo di processo in modo da restringere l&#39;elenco in modo da pubblicare processi di un tipo specifico. Seleziona un **[!UICONTROL Spettacolo]** opzione se si desidera visualizzare i processi creati o quelli creati da tutti gli utenti della società.
+>Puoi filtrare l’elenco dei processi in base a **[!UICONTROL Pianificato]** scheda con **[!UICONTROL Tipo di processo]** e **[!UICONTROL Spettacolo]** menu. Selezionare un tipo di processo in modo da restringere l&#39;elenco in modo da pubblicare processi di un tipo specifico. Seleziona un **[!UICONTROL Spettacolo]** opzione che consente di visualizzare i processi creati o quelli creati da tutti gli utenti della società.
 
 ### Modifica, elimina, sospendi e riprendi processi ricorrenti {#editing-deleting-pausing-and-resuming-recurring-jobs}
 

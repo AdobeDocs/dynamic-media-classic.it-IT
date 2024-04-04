@@ -1,6 +1,6 @@
 ---
 title: Pubblicare i file
-description: "Scopri come pubblicare le risorse sui server immagini Dynamic Medie. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione."
+description: Scopri come pubblicare le risorse sui server immagini Dynamic Medie.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 36%
+source-wordcount: '1672'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Le risorse vengono pubblicate sui server immagini Dynamic Medie. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione.
 
-Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata viene quindi distribuita tramite il protocollo HTTP/2. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione dei contenuti HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
@@ -29,13 +29,13 @@ Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, tutt
 
 Per ulteriori informazioni, vedere [Instant Publish Notice PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-Per contrassegnare le risorse per la pubblicazione, eseguite i seguenti metodi:
+Per contrassegnare le risorse per la pubblicazione, utilizzare le tecniche riportate di seguito.
 
 * **[!UICONTROL Pubblica dopo il caricamento]** - Nella pagina Carica, in basso, seleziona **[!UICONTROL Pubblica dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
 
 * **[!UICONTROL Pubblica dopo il caricamento]** - Nella finestra di dialogo Opzioni job, selezionare **[!UICONTROL Pubblica dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
 
-Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblicazione quando lo sono anche le relative risorse principali. Nella seguente tabella sono illustrate le risorse secondarie contrassegnate automaticamente per la pubblicazione.
+Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblicazione quando lo sono anche le relative risorse principali. In questa tabella sono elencate le risorse figlie contrassegnate automaticamente per la pubblicazione.
 
 | Elemento principale (gruppo) | Elementi secondari (membro) |
 | --- | --- |
@@ -44,16 +44,16 @@ Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblica
 | Set 360 gradi | Immagini nel set. |
 | Modelli | File modello, pagine e immagini. |
 
-Quando le immagini principali sono contrassegnate per la pubblicazione, vengono contrassegnate automaticamente anche le immagini derivate. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Puoi vedere queste immagini derivate nella sezione Visualizzazione dettagli in Generato e derivati.
+Le immagini derivate vengono inoltre contrassegnate automaticamente per la pubblicazione quando vengono pubblicate le immagini padre. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Puoi vedere queste immagini derivate nella sezione Visualizzazione dettagli in Generato e derivati.
 
 ## Creare un processo di pubblicazione {#creating-a-publish-job}
 
-Crea un processo di pubblicazione per pubblicare le risorse caricate sui server Adobe Dynamic Media Classic ma non desideri ancora pubblicarle automaticamente. Puoi eseguire un processo di pubblicazione una tantum o pianificare i processi in modo che ricorrano regolarmente. Adobe Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
+Crea un processo di pubblicazione per pubblicare le risorse caricate sui server Adobe Dynamic Media Classic ma non desideri ancora pubblicarle automaticamente. È possibile eseguire un job di pubblicazione una tantum o pianificare job da riutilizzare regolarmente. Adobe Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
 
 **Per creare un processo di pubblicazione:**
 
 1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
-1. Nella finestra di dialogo per la pubblicazione, scegliete se effettuare un processo di pubblicazione una tantum o periodico.
+1. Nella finestra di dialogo Pubblicazione scegliere se si desidera eseguire un processo di pubblicazione una tantum o ricorrente.
 
    Consulta [Creare un processo di pubblicazione una tantum](publishing-files.md#creating_a_one_time_publish_job) e [Creare un processo di pubblicazione ricorrente](publishing-files.md#creating_a_recurring_publish_job).
 
@@ -68,19 +68,19 @@ Adobe Dynamic Media Classic tiene traccia dei processi di pubblicazione nella pa
 
 >[!NOTE]
 >
->Le risorse che ripubblichi (che hai già pubblicato) non vengono visualizzate immediatamente sul sito web a causa del meccanismo di web-caching sulla rete CDN (Content Delivery Network). Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
+>Le risorse ripubblicate (pubblicate in precedenza) non vengono visualizzate immediatamente sul sito web a causa del meccanismo di memorizzazione nella cache Web della rete per la distribuzione dei contenuti (CDN). Consultate [Risorse ripubblicate e ritardi CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Creare un processo di pubblicazione una tantum {#creating-a-one-time-publish-job}
 
-Creare un processo di pubblicazione una tantum selezionando la **[!UICONTROL Una tantum]** nella pagina Pubblica.
+Creare un processo di pubblicazione occasionale selezionando **[!UICONTROL Una tantum]** nella pagina Pubblicazione.
 
-Se desideri che il processo di pubblicazione avvenga in un secondo momento, nella pagina Pubblica seleziona **[!UICONTROL Una tantum]**, quindi seleziona **[!UICONTROL Pianifica per un momento successivo]** dall’elenco a discesa. Utilizza il Calendario e il cursore Ora per selezionare un giorno e un’ora per eseguire il processo di pubblicazione.
+Se desideri che il processo di pubblicazione avvenga in un secondo momento, nella pagina Pubblicazione seleziona **[!UICONTROL Una tantum]**. Dall’elenco a discesa, seleziona **[!UICONTROL Pianifica per un momento successivo]**. Utilizza il Calendario e il cursore Ora per selezionare un giorno e un’ora per eseguire il processo di pubblicazione.
 
 ### Creare un processo di pubblicazione ricorrente {#creating-a-recurring-publish-job}
 
-Creare un processo di pubblicazione ricorrente selezionando **[!UICONTROL Ricorrente]** nella pagina Pubblica.
+Creare un processo di pubblicazione ricorrente selezionando **[!UICONTROL Ricorrente]** nella pagina Pubblicazione.
 
-Quindi scegliete un&#39;opzione Ripeti di **[!UICONTROL Giornaliero]**, **[!UICONTROL Ogni settimana]**, **[!UICONTROL Mensile]**, o **[!UICONTROL Personalizzato]**, quindi specifica quando desideri che il processo di pubblicazione ricorra. Adobe Dynamic Media Classic presenta gli strumenti del calendario per pianificare il processo di pubblicazione ricorrente. Puoi selezionare **[!UICONTROL Personalizzato]** e immettere una regola nel campo di testo Regola per descrivere un intervallo di processo personalizzato.
+Quindi scegliete un&#39;opzione Ripeti di **[!UICONTROL Giornaliero]**, **[!UICONTROL Ogni settimana]**, **[!UICONTROL Mensile]**, o **[!UICONTROL Personalizzato]**, quindi specifica quando desideri che il processo di pubblicazione ricorra. Adobe Dynamic Media Classic presenta gli strumenti del calendario per la pianificazione del processo di pubblicazione ricorrente. Puoi selezionare **[!UICONTROL Personalizzato]** e immettere una regola nel campo di testo Regola per descrivere un intervallo di processo personalizzato.
 
 Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -90,13 +90,13 @@ Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazi
 
 ### Opzioni avanzate di pubblicazione {#advanced-publish-options}
 
-Potete visualizzare le Opzioni avanzate nella pagina Pubblica e sceglierle per gestire un processo di pubblicazione:
+Puoi visualizzare le opzioni Avanzate nella pagina Pubblicazione e scegliere le seguenti opzioni per la gestione di un processo di pubblicazione:
 
 * **[!UICONTROL Pubblica in]** : per pubblicare le risorse solo su un server specifico, scegli un tipo di server.
 
 * **[!UICONTROL Pubblica]** - Per impostazione predefinita, Adobe Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate (opzione Nuova dall’ultima pubblicazione). Tuttavia, puoi selezionare **[!UICONTROL Pubblicazione completa]** per pubblicare anche le risorse aggiornate o modificate dall&#39;ultima pubblicazione. Seleziona **[!UICONTROL Completa con dati di ricerca]** se si pubblica un eCatalog e si desidera che i lettori possano eseguire ricerche per parola chiave.
 
-* **[!UICONTROL Esegui processo come]** - Scegliere un nome utente dall&#39;elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, verrà associato un processo di pubblicazione a un utente.
+* **[!UICONTROL Esegui processo come]** - Scegliere un nome utente dall&#39;elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, si associa un processo di pubblicazione a un utente.
 
 **[!UICONTROL Notifica HTTP]** - Immetti un URL per attivare i processi di pubblicazione successivi.
 
@@ -110,7 +110,7 @@ Per annullare un processo di pubblicazione, vai alla pagina Processi e seleziona
 
 >[!NOTE]
 >
->Dopo aver annullato un processo di pubblicazione, il relativo stato diventa &quot;arresto&quot; finché il processo non raggiunge un punto in cui può essere interrotto in modo sicuro. Se il processo di pubblicazione viene interrotto durante il recupero dei dati dal database, l’interruzione può richiedere alcuni minuti.
+>Dopo aver annullato un processo di pubblicazione, il relativo stato diventa &quot;arresto&quot; finché il processo non raggiunge un punto in cui può essere interrotto in modo sicuro. L&#39;arresto di un processo di pubblicazione può richiedere del tempo se il processo è in fase di recupero dei dati dal database.
 
 ## Pubblicare manualmente le risorse {#manually-publishing-assets}
 

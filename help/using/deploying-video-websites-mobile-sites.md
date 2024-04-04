@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 33%
+source-wordcount: '1702'
+ht-degree: 30%
 
 ---
 
@@ -33,11 +33,11 @@ Esistono due metodi diversi per pubblicare il video:
 
 * **Pubblica i video automaticamente e immediatamente al caricamento** - Come parte del processo di caricamento dei video, Adobe Dynamic Media Classic può pubblicare automaticamente i video caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
 
-* **Pubblicare i video manualmente dopo il caricamento** - Se non desiderate pubblicare subito i video, potete pubblicarli manualmente in qualsiasi momento.
+* **Pubblica video manualmente dopo il caricamento** - Se non desideri pubblicare subito i video, puoi pubblicarli manualmente in qualsiasi momento.
 
 Dopo la pubblicazione dei video, Adobe Dynamic Media Classic attiva le stringhe URL per la pagina HTML o il codice dell’applicazione.
 
-**Per pubblicare i video:**
+**Per pubblicare un video:**
 
 1. Effettuate una delle seguenti operazioni:
 
@@ -52,7 +52,7 @@ Quando un cliente seleziona il collegamento, il dispositivo, la larghezza di ban
 
 Vedi anche [Incorporare il visualizzatore video in una pagina web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
-**Per collegare l’URL di un video a un sito mobile o a un sito Web:**
+**Per collegare un URL video a un sito mobile o a un sito web:**
 
 1. Nel pannello Sfoglia risorse, nella **[!UICONTROL Spettacolo]** elenco a discesa, seleziona **[!UICONTROL Video]**, o **[!UICONTROL Set video adattivo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set di video adattivi che desiderate collegare.
@@ -79,7 +79,7 @@ Per riprodurre il video incorporato nella pagina Web, utilizzate la funzione Inc
 
 Vedi anche [Collegare l’URL di un video a un sito mobile o a un sito web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**Per incorporare il visualizzatore video in una pagina Web:**
+**Per incorporare il visualizzatore video in una pagina web:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Video]**, o **[!UICONTROL Set video adattivo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set video adattivo di cui desiderate copiare il codice da incorporare.
@@ -133,7 +133,7 @@ Se non utilizzi il lettore video Adobe Dynamic Media Classic HTML5, ma desideri 
 
 Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic, ottieni l’URL del video diretto che funziona per lo streaming video con bitrate multiplo HLS o il download progressivo.
 
-**Per implementare video mediante un lettore video di terze parti:**
+**Per distribuire un video utilizzando un lettore video di terze parti:**
 
 1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]**.
 1. A seconda del tipo di URL che desiderate usare, effettuate una delle seguenti operazioni:
@@ -187,7 +187,7 @@ Potete applicare al fotogramma poster i modificatori di immagini. Ad esempio, po
 
 Consulta [Aggiungere o modificare un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulta [Guida a Image Server](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
+Consulta [Guida a Image Server](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Potete inoltre modificare le miniature video aggiungendo dei modificatori ai relativi URL.
 

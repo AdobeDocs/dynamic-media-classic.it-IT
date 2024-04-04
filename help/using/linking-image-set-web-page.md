@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 35%
+source-wordcount: '675'
+ht-degree: 33%
 
 ---
 
@@ -46,15 +46,15 @@ Dopo aver pubblicato un set di immagini, puoi copiarne l’URL associato o il co
 
 ## Aggiunta di URL di set di immagini alla pagina Web {#adding-image-set-urls-to-your-web-page}
 
-Il modo più comune per distribuire i set di immagini consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
+Il modo più comune per distribuire i set di immagini consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento di zoom apre una finestra pop-up contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, vedi [Incorporare il visualizzatore zoom di HTML5 nella guida di riferimento dei visualizzatori Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedi [Incorporare il visualizzatore zoom di HTML5 nella guida di riferimento dei visualizzatori Adobi](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiare il codice di incorporamento di un visualizzatore di set di immagini {#copying-the-embed-code-of-an-image-set-viewer}
 
 La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di immagini selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice da incorporare di un visualizzatore di set di immagini:**
+**Per copiare il codice di incorporamento di un visualizzatore di set di immagini:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set immagini]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di immagini di cui desiderate copiare il codice incorporato.

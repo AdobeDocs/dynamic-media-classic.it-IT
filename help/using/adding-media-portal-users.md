@@ -1,21 +1,19 @@
 ---
 title: Aggiungere e gestire gli utenti di Media Portal
 description: Scopri come aggiungere e gestire utenti Media Portal in Adobe Dynamic Media Classic.
-uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 58%
+source-wordcount: '1010'
+ht-degree: 54%
 
 ---
 
@@ -43,7 +41,7 @@ Quando vengono registrati per l’accesso, gli utenti, i collaboratori e i colla
 
 1. Accedi a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Configurazione amministrazione]** > **[!UICONTROL Amministrazione utente]**.
 1. Nella pagina User Administration (Amministrazione utenti), seleziona **Aggiungi**.
-1. Nella finestra di dialogo Aggiungi utente, nel pannello Informazioni utente, immetti il Nome, il Cognome e l’indirizzo e-mail dell’utente, quindi seleziona **[!UICONTROL Successivo]**.
+1. In **[!UICONTROL `Add User`]** nel pannello Informazioni utente, immettete Nome, Cognome e Indirizzo e-mail dell&#39;utente, quindi selezionate **[!UICONTROL Successivo]**.
 1. Nel pannello Società/Ruolo, nell’elenco a discesa Società, selezionate una o più società per l’utente.
 1. Nell&#39;elenco Ruolo selezionare un ruolo Media Portal e quindi selezionare **[!UICONTROL Successivo]**.
 
@@ -67,7 +65,7 @@ Se dovete aggiungere numerosi utenti, potete caricare un elenco di utenti. Gli u
 
 Create l’elenco di utenti in un file in formato CSV (con valori separati da virgole) contenente le informazioni sugli utenti. Una volta caricato il file, gli utenti inclusi nell’elenco vengono automaticamente aggiunti all’account e assegnati ai gruppi specificati. A ogni nuovo utente viene inviato un messaggio e-mail di benvenuto contenente un collegamento a Media Portal e una password temporanea.
 
-### Creare il file CSV {#creating-the-csv-file}
+### Creare il file CSV {#create-the-csv-file}
 
 Create un file CSV (nomefile.csv) rispettando il formato e i campi indicati di seguito. La prima riga del file deve contenere le intestazioni di colonna riportate in questa tabella; potete ordinare le colonne in base alle vostre esigenze. Tutte le colonne sono obbligatorie.
 
@@ -84,7 +82,7 @@ Il seguente foglio di calcolo di esempio illustra come deve essere preparato il 
 
 | Nome | Cognome | E-mail | Password | Ruolo utente | Gruppi |
 |--- |--- |--- |--- |--- |--- |
-| Prato | Kat | `prairiek@company.com` | benvenuto | MediaPortalAdmin | PortalCo/IT,PortalCo/Admin |
+| Prato | Kat | `prairiek@company.com` | benvenuto | MediaPortalAdmin | PortalCo/IT, PortalCo/Admin |
 | Rick | Rugosità | `rickb@myco.com` | benvenuto | MediaPortalUser | PortalCo/MktgGroup,PortalCo/test |
 
 ### Caricare il file CSV {#uploading-the-csv-file}
@@ -93,11 +91,11 @@ Il seguente foglio di calcolo di esempio illustra come deve essere preparato il 
 1. Seleziona **[!UICONTROL Carica elenco utenti]**.
 1. Nella finestra di dialogo Seleziona file da caricare, seleziona il file CSV, quindi fai clic su **[!UICONTROL Apri]**.
 
-Ogni utente dell’elenco viene automaticamente aggiunto al gruppo specificato. Inoltre, a ognuno viene inviato un messaggio e-mail di benvenuto.
+Ogni utente dell&#39;elenco viene aggiunto automaticamente ai gruppi specificati. Inoltre, a ognuno viene inviato un messaggio e-mail di benvenuto.
 
 >[!NOTE]
 >
->se il file CSV non è stato formattato correttamente, viene visualizzato il seguente messaggio di errore: “Si è verificato un errore durante l’elaborazione del file CSV caricato. Verificate che il file contenga dati validi.” Inoltre, se il file CSV contiene un utente IP o IPS esistente, quest’ultimo non viene aggiunto all’elenco di utenti.
+>Se il file CSV non è stato formattato correttamente, viene visualizzato il seguente messaggio di errore: &quot;Si è verificato un errore durante l’elaborazione del file CSV caricato. Verificare che il contenuto del file contenga dati validi.&quot; Inoltre, se il file CSV contiene un utente IP o IPS esistente, quest’ultimo non viene aggiunto all’elenco di utenti.
 
 ## Generare un elenco selezionabile di utenti Media Portal {#generating-a-selectable-list-of-media-portal-users}
 
@@ -115,7 +113,7 @@ Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Po
 1. Nella schermata User Administration Setup (Impostazione amministrazione utente), seleziona **[!UICONTROL Impostazioni e-mail]**.
 1. Nella finestra di dialogo Impostazioni e-mail, specificate una delle seguenti impostazioni:
 
-   * **[!UICONTROL Invia e-mail]** - Deselezionare questa opzione se non si desidera informare tramite posta elettronica i nuovi utenti che sono stati registrati.
+   * **[!UICONTROL Invia e-mail]** - Deselezionare questa opzione per informare tramite posta elettronica i nuovi utenti che sono stati registrati.
 
    * **[!UICONTROL Password predefinita]** - Immettere una password temporanea per i nuovi utenti o lasciare vuoto il campo per fare in modo che Adobe Dynamic Media Classic generi password casuali. Gli utenti devono cambiare la password al primo accesso.
 

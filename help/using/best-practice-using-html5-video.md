@@ -1,21 +1,19 @@
 ---
 title: Procedure consigliate per l’utilizzo del visualizzatore video di HTML5
 description: Scopri le best practice per l’utilizzo del visualizzatore video di HTML5.
-uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 9%
+source-wordcount: '432'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 9%
 
 I predefiniti visualizzatore video di Adobe Dynamic Media Classic HTML5 sono lettori video affidabili. Dal lato della progettazione del lettore, puoi creare l’intera funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
 
-Dal punto di vista della riproduzione, il visualizzatore rileva automaticamente le capacità video del browser in uso. Distribuisce quindi il video utilizzando HLS (HTTP Live Streaming), noto anche come streaming video adattivo. Oppure, se tale metodo di consegna non è presente, allora viene utilizzato HTML5 progressive.
+Sul lato di riproduzione del visualizzatore, rileva automaticamente la funzionalità video del browser. Distribuisce quindi il video utilizzando HLS (HTTP Live Streaming), noto anche come streaming video adattivo. Oppure, se tale metodo di consegna non è presente, allora viene utilizzato HTML5 progressive.
 
 Combinando in un singolo giocatore le seguenti abilità:
 
@@ -33,7 +31,7 @@ Combinando in un singolo giocatore le seguenti abilità:
 
 È possibile estendere la portata dei contenuti rich media agli utenti desktop e mobili. Puoi anche garantire un’esperienza video semplificata.
 
-Vedi anche [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori di Adobi.
+Vedi anche [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori di Adobi.
 
 Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) video di formazione.
 

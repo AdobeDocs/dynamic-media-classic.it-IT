@@ -1,21 +1,19 @@
 ---
 title: Opzioni di ottimizzazione immagine al caricamento
 description: Scopri le opzioni di ottimizzazione delle immagini disponibili al momento del caricamento in Adobe Dynamic Media Classic.
-uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 52%
+source-wordcount: '1194'
+ht-degree: 32%
 
 ---
 
@@ -48,11 +46,11 @@ Per ritagliare automaticamente i pixel dello spazio vuoto da un&#39;immagine, ne
 
    * **Rifilatura basata sulla trasparenza** - Specificate 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
 
-## Ritagliare manualmente dai lati delle immagini
+## Ritaglio manuale dai lati delle immagini
 
 Per ritagliare manualmente dai lati di un’immagine, scegliete Manuale dal menu Ritaglio. Immettete quindi il numero di pixel da ritagliare da ogni lato o da uno dei lati dell’immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Ad esempio, se l&#39;immagine visualizza 150 ppi e si immette 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra, 0,5 pollici. viene ritagliato da ogni lato.
 
-## Scegliere un profilo colore
+## Scegli un profilo colore
 
 Per selezionare uno spazio colore per l&#39;immagine, scegliete un&#39;opzione Profilo colore:
 
@@ -78,10 +76,10 @@ In Maschera di contrasto, impostate le opzioni desiderate come descritto nella s
 
 | Opzioni di Maschera di contrasto | Descrizione |
 | --- | --- |
-| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Corrisponde all’intensità dell’effetto. La differenza principale tra i valori di quantità di Maschera di contrasto in Adobe Dynamic Media Classic e i valori di quantità in Adobe Photoshop è che Photoshop ha un intervallo di quantità compreso tra 1% e 500%. In Adobe Dynamic Media Classic, invece, l’intervallo di valori è compreso tra 0,0 e 5,0. Un valore di 5,0 in Adobe Dynamic Media Classic è l’equivalente approssimativo del 500% in Photoshop; un valore di 0,9 è l’equivalente del 90% e così via. |
-| Raggio | Controlla il raggio dell’effetto. <br><br>I valori consentiti sono compresi tra 0 e 250. L’effetto viene eseguito su tutti i pixel dell’immagine e si irradia da tutti i pixel in tutte le direzioni. Il raggio è espresso in pixel. Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 × 2000 pixel e per un&#39;immagine da 500 × 500 pixel, è necessario impostare un raggio di due pixel sull&#39;immagine da 2000 × 2000 pixel. Quindi impostate un valore di raggio di un pixel sull&#39;immagine da 500 × 500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel.  |
-| Soglia | Specifica l’intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. Questo effetto è importante in modo che non venga introdotto alcun &quot;disturbo&quot; in un&#39;immagine quando si utilizza questo filtro. Il valore di soglia deve essere compreso tra 0 e 255 e corrisponde al numero di incrementi di luminosità di un’immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. <br><br>Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e palpebre.<br><br>Ad esempio, se avete una foto del volto di qualcuno, la Maschera definizione dettagli influisce sulle parti in contrasto dell&#39;immagine. Ad esempio, dove ciglia e pelle si incontrano per creare un’area di contrasto evidente e la pelle liscia stessa. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentua le lievi differenze di tonalità nelle aree di pelle. Questo genera un effetto sgradevole mentre il maggior contrasto delle ciglia migliora la nitidezza dell’immagine.<br><br>Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso dell’incarnato uniforme. <br><br>Nella precedente grafica delle zip, osservate la texture accanto alle zip. Si verifica del disturbo perché i valori di soglia sono troppo bassi per evitarlo. |
-| Monocromatico | Seleziona la luminosità dell’immagine con maschera di contrasto (intensità).<br><br>Deselezionate questa opzione per applicare la maschera di contrasto separatamente a ciascun componente di colore. |
+| Fattore | Controlla il fattore di contrasto applicato ai pixel lungo i bordi.<br><br>Pensatela come intensità dell&#39;effetto. La differenza principale tra i valori di quantità di Maschera di contrasto in Adobe Dynamic Media Classic e i valori di quantità in Adobe Photoshop è che Photoshop ha un intervallo di quantità compreso tra 1% e 500%. In Adobe Dynamic Media Classic, invece, l’intervallo di valori è compreso tra 0,0 e 5,0. Un valore di 5,0 in Adobe Dynamic Media Classic è l’equivalente approssimativo del 500% in Photoshop; un valore di 0,9 è l’equivalente del 90% e così via. |
+| Raggio | Controlla il raggio dell’effetto. <br><br>L’intervallo di valori è compreso tra 0 e 250. L’effetto viene eseguito su tutti i pixel dell’immagine e si irradia da tutti i pixel in tutte le direzioni. Il raggio è espresso in pixel. Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 × 2000 pixel e per un&#39;immagine da 500 × 500 pixel, è necessario impostare un raggio di due pixel sull&#39;immagine da 2000 × 2000 pixel. Quindi impostate un valore di raggio di un pixel sull&#39;immagine da 500 × 500 pixel. In altre parole, sceglierete un valore maggiore per l’immagine con più pixel.  |
+| Soglia | Specifica l’intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. Questo effetto è importante in modo che non venga introdotto alcun &quot;disturbo&quot; in un&#39;immagine quando si utilizza questo filtro. Il valore di soglia deve essere compreso tra 0 e 255 e corrisponde al numero di incrementi di luminosità di un’immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. <br><br>Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi come la luminosità della tonalità della pelle per evitare di aggiungere rumore, ma viene comunque aggiunto un contrasto lungo i bordi alle aree in cui le ciglia si incontrano con la pelle.<br><br>Ad esempio, se avete una foto del volto di qualcuno, la Maschera definizione dettagli influisce sulle parti in contrasto dell&#39;immagine. Ad esempio, dove ciglia e pelle si incontrano per creare un’area di contrasto evidente e la pelle liscia stessa. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentua le lievi differenze di tonalità nelle aree di pelle. Questo genera un effetto sgradevole mentre il maggior contrasto delle ciglia migliora la nitidezza dell’immagine.<br><br>Per evitare questo problema, viene introdotto un valore di soglia che indica al filtro di ignorare i pixel che non cambiano drasticamente, come la tonalità della pelle. <br><br>Nell&#39;immagine della cerniera illustrata in precedenza, notate la texture accanto alle cerniere. Viene visualizzato disturbo dell&#39;immagine perché i valori di soglia sono troppo bassi per sopprimere il disturbo. |
+| Monocromatico | Seleziona la luminosità dell’immagine con maschera di contrasto (intensità).<br><br>Deselezionate questa opzione per applicare una maschera di contrasto a ogni componente di colore separatamente. |
 
 Vedi anche [Nitidezza di un&#39;immagine](sharpening-image.md#sharpening_an_image).
 
@@ -94,9 +92,9 @@ Potete utilizzare Foratura sfondo per rimuovere automaticamente lo sfondo di un�
 | Opzioni di Foratura sfondo | Descrizione |
 | --- | --- |
 | Foratura sfondo | Selezionare per attivare o &quot;attivare&quot; la funzione e le opzioni di Foratura sfondo. |
-| Angolo | Obbligatorio.<br>Angolo dell’immagine utilizzato per definire il colore di sfondo da forare.<br>Potete scegliere tra <b>In alto a sinistra, In basso a sinistra, In alto a destra o In basso a destra</b>. |
-| Metodo di riempimento | Obbligatorio. <br>Controlla la trasparenza dei pixel dalla posizione Angolo impostata.<br>È possibile scegliere uno dei seguenti metodi di riempimento:<br>· <b>Riempimento Flood</b> - rende trasparenti tutti i pixel che corrispondono all&#39;angolo specificato e ad esso sono collegati.<br>• <b>Corrispondenza pixel</b>: rende trasparenti tutti i pixel corrispondenti, ovunque si trovino nell’immagine. |
-| Tolleranza | Facoltativo.<br>Controlla la quantità ammessa di variazione nella corrispondenza del colore dei pixel in base alla posizione Angolo impostata.<br>Con un valore pari a 0.0 verranno presi in considerazione solo i pixel di colore identico, mentre un valore pari a 1.0 consente la massima variazione. |
+| Angolo | Obbligatorio.<br>Angolo dell&#39;immagine utilizzato per definire il colore di sfondo da ritagliare.<br>È possibile scegliere tra <b>In alto a sinistra, in basso a sinistra, in alto a destra o in basso a destra</b>. |
+| Metodo di riempimento | Obbligatorio. <br>Controlla la trasparenza dei pixel dalla posizione dell&#39;angolo impostata.<br>È possibile scegliere uno dei seguenti metodi di riempimento:<br>· <b>Riempimento Flood</b> - rende trasparenti tutti i pixel che corrispondono all&#39;angolo specificato e ad esso sono collegati.<br>· <b>Corrispondenza pixel</b> - rende trasparenti tutti i pixel corrispondenti, indipendentemente dalla loro posizione sull&#39;immagine. |
+| Tolleranza | Facoltativo.<br>Controlla la quantità di variazione consentita nella corrispondenza dei colori dei pixel in base alla posizione dell&#39;angolo impostata.<br>Utilizza il valore 0,0 per far corrispondere esattamente i colori dei pixel o, utilizza il valore 1,0 per consentire la variazione più grande. |
 
 >[!MORELIKETHIS]
 >

@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ L’applicazione del valore di suffisso o di sostituzione dipende dall’imposta
 
 **Esempio di suffisso:**
 
-| URL | ID di Mappa lingua | Risultato |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE e si tenta di trovarla sul server immagini. se trovata, viene restituita. In caso contrario, viene utilizzato il secondo valore &quot;&quot; come suffisso, causando la restituzione dell’immagine stessa. |
+| URL | ID di Mappa lingua | Risultato | Note |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | Osservate che non è definita alcuna lingua globale. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. Il primo valore corrispondente _DE viene aggiunto come suffisso alla risorsa image_DE e si tenta di trovarla sul server immagini. Se trovato sul server, viene restituito. In caso contrario, viene utilizzato il secondo valore &quot;&quot; come suffisso, causando la restituzione dell’immagine stessa. |
 
 **Esempio di sostituzione:**
 
-| URL | `GlobalLocale` e `localeMap` ID | Risultato |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Nell&#39;esempio di sostituzione precedente, GlobalLocale è impostato su main. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. La sottostringa GlobalLocale viene trovata e sostituita con il primo valore corrispondente `de` nel `localeMap`: `image-de-01`. Se questo viene trovato in Image Server, viene restituito. In caso contrario, viene sostituito il secondo valore, con conseguente `image-main-01`. |
+| URL | `GlobalLocale` e `localeMap` ID | Risultato | Note |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | Nell&#39;esempio di sostituzione precedente, GlobalLocale è impostato su main. Il parametro locale de_DE viene confrontato con la prima voce della `localeMap`. La sottostringa GlobalLocale viene trovata e sostituita con il primo valore corrispondente `de` nel `localeMap`: `image-de-01`. Se trovato sul server immagini, viene restituito. In caso contrario, viene sostituito il secondo valore, con conseguente `image-main-01`. |
 
 Se nell’URL non viene specificata alcuna lingua, Image Server applica all’URL la lingua predefinita, se questa è definita.
 

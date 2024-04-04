@@ -10,16 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 34%
 
 ---
 
 # Collegare i visualizzatori Zoom alle pagine Web{#linking-zoom-viewers-to-your-web-pages}
 
-I siti Web e le applicazioni accedono al contenuto del server immagini di Dynamic Media, incluse le immagini primarie e le destinazioni di zoom associate, e ai predefiniti visualizzatore zoom, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiale da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto del server immagini di Dynamic Medie, incluse le immagini primarie e le destinazioni di zoom associate, e ai predefiniti visualizzatore zoom, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiale da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -47,13 +47,13 @@ I siti Web e le applicazioni accedono al contenuto del server immagini di Dynami
 
 In genere, i visitatori ingrandiscono le immagini su un sito web selezionando prima un’icona Zoom (spesso l’icona mostra l’immagine di una lente di ingrandimento). Selezionando questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l’immagine in una finestra a comparsa. La finestra a comparsa rappresenta il punto in cui i visitatori applicano effettivamente lo zoom all’immagine.
 
-Per ulteriori dettagli ed esempi di codice, vedi [Incorporare il visualizzatore zoom di base di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedi [Incorporare il visualizzatore zoom di base di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiare la copia incorporata di un visualizzatore Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
 La funzione Incorpora codice permette di analizzare il codice visualizzatore del visualizzatore zoom selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice da incorporare di un visualizzatore zoom:**
+**Per copiare il codice di incorporamento di un visualizzatore Zoom:**
 
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il visualizzatore zoom di cui desiderate copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:

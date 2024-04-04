@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 31%
+source-wordcount: '716'
+ht-degree: 27%
 
 ---
 
-# Aggiungi didascalie al video {#adding-captions-to-video}
+# Aggiungi didascalie al video {#add-captions-to-video}
 
 Per ampliare il pubblico potenziale dei vostri video nel mercato globale, potete aggiungere sottotitoli a singoli video o a set di video adattivi. Aggiungendo i sottotitoli, potete evitare di dover doppiare l’audio in ogni lingua diversa. Il video viene riprodotto nella lingua in cui è stato registrato e in sovraimpressione compaiono i sottotitoli in lingua straniera, che permettono alle persone di altri paesi di comprendere comunque la porzione audio.
 
@@ -38,7 +38,7 @@ Vedi anche [Aggiungere e modificare i predefiniti per visualizzatori](applicatio
 
 Adobe Dynamic Media Classic può convertire i file di didascalia in formato JSON (JavaScript Object Notation). Questa conversione significa che è possibile includere testo JSON in una pagina Web come trascrizione nascosta ma completa del video. I motori di ricerca possono quindi eseguire la ricerca per indicizzazione e indicizzare il contenuto per rendere i video più facilmente individuabili e fornire ai clienti maggiori dettagli sul contenuto video.
 
-Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) nel *Guida API di Image Server di Adobe* per ulteriori informazioni sull’utilizzo della funzione JSON in un URL.
+Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) nel *Guida API di Image Server di Adobe* per ulteriori informazioni sull’utilizzo della funzione JSON in un URL.
 
 **Per aggiungere sottotitoli al video:**
 
@@ -52,7 +52,7 @@ Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleagu
 
    Consulta [Carica file](uploading-files.md#uploading_files).
 
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video da associare al file di sottotitoli che avete caricato.
+1. Nel pannello Libreria risorse, a sinistra, individua la cartella di risorse contenente il file video da associare al file di didascalia caricato.
 1. Nel pannello Sfoglia risorse, seleziona una singola risorsa video, quindi sotto l’immagine di miniatura della risorsa seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 1. Nella tabella Elenco visualizzatori, individua il visualizzatore HTML5 denominato **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, o **Universal_HTML5_MixedMedia_light**, quindi eseguire una delle operazioni seguenti:
 

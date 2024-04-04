@@ -9,10 +9,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3987'
-ht-degree: 46%
+source-wordcount: '3986'
+ht-degree: 45%
 
 ---
 
@@ -55,7 +55,7 @@ Effettuare una delle seguenti operazioni.
 1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]**.
 1. Nella pagina Carica, seleziona **[!UICONTROL Da desktop]** scheda.
 1. Nella pagina Carica, in **[!UICONTROL Seleziona i file da caricare]** pannello, seleziona **[!UICONTROL Sfoglia]**, passare a un file video MP4, quindi selezionare **[!UICONTROL Apri]**.
-1. In **[!UICONTROL Scegliete la destinazione della cartella]** selezionare una cartella per il file caricato.
+1. Nella scelta **[!UICONTROL Destinazione cartella]** selezionare una cartella per il file caricato.
 1. Nella pagina Carica, assicurati che **[!UICONTROL Pubblica dopo il caricamento]** è selezionato.
 1. Seleziona **[!UICONTROL Invia caricamento]**.
 
@@ -64,7 +64,7 @@ Effettuare una delle seguenti operazioni.
 1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]**.
 1. Nella pagina Carica, seleziona **[!UICONTROL Da desktop]** scheda.
 1. In **[!UICONTROL Seleziona i file da caricare]** pannello, seleziona **[!UICONTROL Sfoglia]**, passare a un file video di origine principale, quindi selezionare **[!UICONTROL Apri]**.
-1. In **[!UICONTROL Scegliete la destinazione della cartella]** selezionare una cartella per il file caricato.
+1. Nella scelta **[!UICONTROL Destinazione cartella]** selezionare una cartella per il file caricato.
 1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Opzioni processo]**,
 1. Nella finestra di dialogo Opzioni processo di caricamento, espandi **[!UICONTROL Opzioni eVideo]**, quindi eseguire una delle operazioni seguenti:
 
@@ -78,7 +78,7 @@ Consultate [Predefiniti di codifica video per computer desktop](application-setu
 *Se desideri codificare nuovamente un file video caricato in precedenza*
 
 1. In Adobe Dynamic Media Classic, nel pannello Sfoglia, individua il video e selezionalo.
-1. Vai a **[!UICONTROL File]** > **[!UICONTROL Rielabora]**.
+1. Vai a **[!UICONTROL File]** > **[!UICONTROL Rielabora]**.&quot;
 1. Nella finestra di dialogo Rielabora risorse espandere **[!UICONTROL Opzioni eVideo]**, quindi eseguire una delle operazioni seguenti:
    * Si consiglia di utilizzare il metodo seguente. Seleziona **Video adattivo**.
 Consultate [Video adattivo (predefinito)](application-setup.md#adaptive-video-default).
@@ -96,7 +96,7 @@ La seguente tabella indica i tipi di file video (con i codec video consentiti) c
 
 * **Formati di file video** - Analogamente a un file ZIP, un formato di file video determina il modo in cui i file sono contenuti nel file video. Generalmente, un file video contiene più tracce (una traccia video senza audio e una o più tracce audio senza video) che vengono associate e sincronizzate. Il formato file del video determina come le diverse tracce di dati e metadati vengono organizzate.
 
-* **Codec video** - Un codec video descrive l&#39;algoritmo di codifica di un video. Un lettore video decodifica il video in base al relativo codec, quindi visualizza una serie di immagini o fotogrammi sullo schermo. I codec riducono la quantità di informazioni richieste dai file video per memorizzare e riprodurre il video. Invece delle informazioni su ciascun fotogramma, vengono memorizzate solo le informazioni relative alle differenze tra l’uno e l’altro. Poiché la maggior parte dei video cambia poco da un fotogramma all&#39;altro, i codec consentono tassi di compressione elevati, che si traducono in dimensioni di file più piccole.
+* **Codec video** - Un codec video descrive l&#39;algoritmo di codifica di un video. Un lettore video decodifica il video in base al relativo codec, quindi visualizza una serie di immagini o fotogrammi sullo schermo. I codec riducono la quantità di informazioni richieste dai file video per memorizzare e riprodurre il video. Anziché informazioni sui singoli frame, vengono memorizzate solo le informazioni sulle differenze tra un frame e quello successivo. Poiché la maggior parte dei video cambia poco da un fotogramma all&#39;altro, i codec consentono tassi di compressione elevati, che si traducono in dimensioni di file più piccole.
 
   | Formato file video | Codec video |
   | --- | --- |
@@ -363,7 +363,7 @@ Adobe Dynamic Media Classic ha impostato i limiti massimi per la velocità dati 
    * Seleziona **[!UICONTROL Salva]** se hai aggiunto o modificato un predefinito video.
    * Seleziona **[!UICONTROL Salva con nome]** se hai aggiunto un predefinito video partendo da un predefinito esistente.
 
-### Eliminare un predefinito di codifica video {#deleting-a-video-encoding-preset}
+### Eliminare un predefinito di codifica video {#delete-a-video-encoding-preset}
 
 Gli amministratori possono eliminare i predefiniti per video personalizzati. Non è possibile eliminare i predefiniti video forniti con Adobe Dynamic Media Classic.
 
