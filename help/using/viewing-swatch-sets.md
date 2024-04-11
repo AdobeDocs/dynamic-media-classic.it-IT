@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 17%
+source-wordcount: '454'
+ht-degree: 18%
 
 ---
 
@@ -35,8 +35,8 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
    * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona l’opzione **[!UICONTROL Visualizzatore set campioni]**, quindi seleziona **[!UICONTROL Aggiungi]**.
    * Per modificare un predefinito esistente per visualizzatore set di campioni, selezionate il predefinito, quindi selezionate **[!UICONTROL Modifica]**.
 
-1. Nella pagina Configura visualizzatore, digitate un nome per il predefinito visualizzatore set di campioni nel campo di testo Nome predefinito.
-1. Selezionare le opzioni nella pagina Configura visualizzatore.
+1. Il giorno `Configure Viewer` pagina, nel campo di testo Nome predefinito, digita un nome per il predefinito visualizzatore set di campioni.
+1. Seleziona le opzioni nella `Configure Viewer` pagina.
 
    Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** a destra dell’opzione.
 

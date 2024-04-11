@@ -1,20 +1,18 @@
 ---
 title: Visualizzazione dettagli Work in Detail
 description: Scopri come lavorare nella Vista dettagli in Adobe Dynamic Media Classic.
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 20%
 
 ---
@@ -56,15 +54,15 @@ Per esaminare attentamente, visualizzare in anteprima o lavorare su una risorsa,
 
 ## Ottieni informazioni nella vista Dettaglio {#getting-information-in-detail-view}
 
-La Vista dettagli fornisce informazioni su una risorsa o un file. Mostra queste informazioni su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l’elemento è stato caricato in Adobe Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa nella Vista dettagli.
+La Vista dettagli fornisce informazioni su una risorsa o un file. Vengono visualizzate queste informazioni su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l&#39;elemento è stato caricato in Adobe Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa nella Vista dettagli.
 
-Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sarà attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettaglio fornisce anche un elenco di build e delle risorse e dei metadati derivati, come le destinazioni di zoom e i set di immagini.
+Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sarà attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettagli fornisce anche un elenco di risorse e metadati generati o derivati, come destinazioni di zoom e Set di immagini.
 
 ## Utilizzare le risorse nella vista Dettaglio {#working-with-assets-in-detail-view}
 
 La Vista dettagli offre strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma la Vista dettagli offre sempre queste funzioni:
 
-* **elementi per la pubblicazione** - Selezionare la **[!UICONTROL Pubblica]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
+* **elementi per la pubblicazione** - Selezionare la **[!UICONTROL `Publish`]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
 * **Rinomina la risorsa** - Selezionare il nome e immettere un nuovo nome.
 

@@ -1,21 +1,19 @@
 ---
 title: Pubblicare un set di file multimediali diversi
 description: Scopri come pubblicare un set di file multimediali diversi da Adobe Dynamic Media Classic.
-uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 31%
+source-wordcount: '261'
+ht-degree: 17%
 
 ---
 
@@ -25,7 +23,7 @@ Crea un processo di pubblicazione per pubblicare un set di file multimediali div
 
 >[!NOTE]
 >
->i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Sul **server video** vengono pubblicati i video effettivi contrassegnati per la pubblicazione, E, si utilizza **Server immagini** per pubblicare le risorse correlate, come le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivi.
+>i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Utilizzare **Server video** per pubblicare i video effettivi contrassegnati per la pubblicazione. E, si utilizza **Server immagini** per pubblicare le risorse correlate, come le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivi.
 
 Adobe Dynamic Media Classic tiene traccia dei processi di pubblicazione nella schermata Processi.
 
@@ -50,13 +48,13 @@ Last Modified Date:
 
 1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
 1. Impostare le opzioni di programmazione desiderate.
-1. (Facoltativo) Nel campo **[!UICONTROL Nome processo]**, specificate un nome per il processo di caricamento dei metadati.
+1. (Facoltativo) In **[!UICONTROL Nome processo]** , digitare un nome per il processo di pubblicazione.
 1. Nell’elenco a discesa **[!UICONTROL Pubblica su]** nella sezione delle opzioni **[!UICONTROL Avanzate]**, selezionate **[!UICONTROL Server video]**.
 
    Consulta [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options) per altre opzioni che puoi impostare.
 
 1. Seleziona **[!UICONTROL Invia pubblicazione]**.
-1. Ripetete i passaggi da 2 a 4.
+1. Ripetere i passaggi da 2 a 4 precedenti.
 1. Nell’elenco a discesa **[!UICONTROL Pubblica su]** nella sezione **[!UICONTROL Avanzate]**, selezionate **[!UICONTROL Server immagini]**.
 
    Consulta [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options) per altre opzioni che puoi impostare.

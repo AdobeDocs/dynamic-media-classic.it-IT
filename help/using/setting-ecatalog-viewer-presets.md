@@ -1,19 +1,17 @@
 ---
 title: Impostazione dei predefiniti per il visualizzatore eCatalog
 description: Scopri come impostare i predefiniti per visualizzatori eCatalog in Adobe Dynamic Media Classic.
-uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 25%
 
 ---
@@ -35,8 +33,8 @@ Segui questi passaggi per creare un predefinito per visualizzatori eCatalog (dev
 
    * **Modificare un predefinito per visualizzatori eCatalog** - Selezionate un predefinito per visualizzatori eCatalog, quindi selezionate **[!UICONTROL Modifica]**. Seleziona **[!UICONTROL Salva con nome]** dopo aver completato la creazione del predefinito.
 
-1. Nella pagina Configura visualizzatore, immetti un nome per il predefinito visualizzatore eCatalog.
-1. Nella pagina Configura visualizzatore impostare le opzioni desiderate.
+1. Il giorno `Configure Viewer` , immetti un nome per il predefinito visualizzatore eCatalog.
+1. Il giorno `Configure Viewer` , impostare le opzioni desiderate.
 
    seleziona la **[!UICONTROL Suggerimento]** accanto all’opzione se desideri leggerne la descrizione.
 
@@ -57,7 +55,7 @@ Segui questi passaggi per creare un predefinito per visualizzatori eCatalog (dev
 >Per utilizzare questo modello di risposta invece del modello definito nell&#39;eCatalog stesso, aggiungere `fmt=1` alla fine dell’URL del server informazioni. Ad esempio: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Seleziona **[!UICONTROL Salva]**.
-1. Seleziona **[!UICONTROL Predefinito]** se desideri che il predefinito per visualizzatori eCatalog creato sia quello utilizzato per visualizzare gli eCatalog nella pagina web.
+1. Seleziona **[!UICONTROL Predefinito]** in modo che il predefinito visualizzatore eCatalog creato sia quello utilizzato per visualizzare gli eCatalog nella pagina Web.
 
 Per eliminare un predefinito visualizzatore eCatalog, selezionatelo nella schermata Predefiniti visualizzatore e selezionate **[!UICONTROL Elimina]**.
 

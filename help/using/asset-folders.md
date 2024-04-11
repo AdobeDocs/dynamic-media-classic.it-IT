@@ -1,20 +1,18 @@
 ---
 title: Utilizzare le cartelle di risorse
 description: Scopri come utilizzare le cartelle di risorse in Adobe Dynamic Media Classic.
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '449'
 ht-degree: 39%
 
 ---
@@ -41,10 +39,10 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 >
 >Puoi nascondere o visualizzare la libreria delle risorse selezionando **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.
 
-## Creare cartelle {#creating-folders}
+## Creare cartelle
 
 1. Nella Libreria risorse, selezionate la cartella in cui desiderate creare la cartella.
-1. Seleziona la **[!UICONTROL Aggiungi cartella]** pulsante. Questa icona si trova nella parte superiore dell’elenco delle cartelle.
+1. Seleziona la **[!UICONTROL `Add Folder`]** pulsante. Questa icona si trova nella parte superiore dell’elenco delle cartelle.
 1. Per immettere un nome descrittivo per la nuova cartella o sottocartella, digitatelo nel campo accanto all’icona della cartella.
 
    >[!NOTE]
@@ -55,7 +53,7 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti operazioni:
 
-* **Elimina** - Selezionare la **[!UICONTROL Rimuovi cartella]** pulsante. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
+* **Elimina** - Selezionare la **[!UICONTROL `Remove Folder`]** pulsante. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
 
 * **Rinomina** - Fare doppio clic sul nome e immettere un nuovo nome.
 

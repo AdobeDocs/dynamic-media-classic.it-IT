@@ -10,16 +10,16 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
 # Gestire il contenuto del pannello informazioni nei set di immagini{#managing-info-panel-content-in-image-sets}
 
-Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Potete anche gestire il pannello Info usando la cache a tempo e pianificando gli aggiornamenti dei contenuti.
+Oltre a usare il testo delle mappe immagine per i rollover in set di immagini, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. È inoltre possibile gestire il pannello Info utilizzando il caching temporale e pianificando gli aggiornamenti dei contenuti.
 
 Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Adobe Dynamic Media Classic:
 
@@ -46,7 +46,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
    * Con un valore più elevato i dati sono relativamente stabili e non richiedono un aggiornamento frequente durante il giorno. Il valore predefinito è dieci ore.
 
-1. Seleziona **[!UICONTROL Carica]** per caricare il contenuto del pannello informazioni, in base ai valori rollover_key, in s7info.
+1. Seleziona **[!UICONTROL Carica]** per caricare in s7info il contenuto del pannello informazioni in base al valore rollover_key.
 1. Nella finestra di dialogo Caricamento S7Info individuare il file che si desidera utilizzare e quindi selezionare **[!UICONTROL Carica]**.
 
    I formati di file supportati sono file delimitati da tabulazioni con codifica UTF-16 e file CSV con codifica ASCII. Per i file CSV, i caratteri non ASCII devono essere codificati in HTML.
@@ -55,7 +55,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 
 ## Importare il contenuto sorgente del pannello Info nei set di immagini {#import-source-content-for-the-info-panel-in-image-sets}
 
-Per il testo sorgente per il pannello Info di un set di immagini, potete usare un file CSV (separato da virgole) con codifica ASCII (i caratteri non ASCII devono essere codificati in HTML) o un file delimitato da tabulazioni. Per i file delimitati da tabulazioni è richiesta la codifica UTF-16 (Unicode). Potete importare tipi di file diversi utilizzando metodi diversi.
+È possibile utilizzare un file CSV (Comma-Separated Value) con codifica ASCII (i caratteri non ASCII devono essere codificati da HTML) o un file delimitato da tabulazioni per il testo sorgente di un pannello di informazioni per un set di immagini. Per i file delimitati da tabulazioni è richiesta la codifica UTF-16 (Unicode). Potete importare tipi di file diversi utilizzando metodi diversi.
 
 Durante la formattazione del contenuto sorgente, tenete presente i seguenti accorgimenti:
 
@@ -68,7 +68,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 1. Fate doppio clic sul set di immagini per aprirlo nella vista dei dettagli.
 1. Seleziona **[!UICONTROL Feed dati InfoPanel]**.
 1. Nel campo Posizione file CSV esterno (HTTP), immettete l’URL del file CSV.
-1. (Facoltativo) Nei campi Pianifica aggiornamento, specifica l’ora in cui aggiornare il contenuto, quindi seleziona **[!UICONTROL Aggiungi]**.
+1. (Facoltativo) Nel campo Pianifica aggiornamento, specifica l’ora in cui aggiornare il contenuto, quindi seleziona **[!UICONTROL Aggiungi]**.
 
    Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario pianificato, selezionarlo e quindi selezionare **[!UICONTROL Elimina]**.
 

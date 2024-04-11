@@ -1,21 +1,19 @@
 ---
 title: Spostare, rinominare ed eliminare le risorse
 description: Scopri come spostare, rinominare ed eliminare le risorse in Adobe Dynamic Media Classic.
-uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 31%
+source-wordcount: '619'
+ht-degree: 28%
 
 ---
 
@@ -45,7 +43,7 @@ Potete spostare le risorse in altre cartelle del pannello Sfoglia.
 
 Puoi eliminare le risorse selezionate nel pannello Sfoglia ed eliminare intere cartelle. Le risorse e le cartelle eliminate vengono spostate nella cartella Cestino, dove restano per sette giorni prima di essere eliminate definitivamente. 
 
-Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. Ad esempio, se eliminate un’immagine per la quale avete creato delle destinazioni di zoom, anche queste ultime vengono eliminate.
+Quando elimini una risorsa, vengono eliminate anche tutte le risorse da essa derivate. Ad esempio, se eliminate un’immagine per la quale avete creato delle destinazioni di zoom, anche queste ultime vengono eliminate.
 
 le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengono eliminati definitivamente quando rimuovete le risorse da cui derivano. Poiché non vengono spostate nel Cestino insieme alla risorsa, non possono essere ripristinate dal Cestino.
 
@@ -73,7 +71,7 @@ Crea l&#39;elenco degli ID Adobe Dynamic Media Classic e salvalo come file di te
 Una volta creato l’elenco, effettuate le operazioni seguenti:
 
 1. Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina elenco risorse]**.
-1. Nella finestra di dialogo Elimina elenco risorse, sfoglia o digita il percorso del file di testo con l’elenco delle risorse da eliminare.
+1. In **[!UICONTROL Elenco risorse eliminate]** , sfoglia o digita il percorso del file di testo con l’elenco delle risorse da eliminare.
 1. Seleziona **[!UICONTROL Elimina]**.
 
 Quando elimini le risorse con un file di testo, se nell’elenco non è presente alcun ID Adobe Dynamic Media Classic, viene visualizzato il messaggio &quot;Impossibile convalidare queste voci nell’elenco:&quot;. Viene inoltre visualizzato l&#39;elenco delle voci. Tuttavia, Adobe Dynamic Media Classic non genera un errore nella pagina Job (Processo).

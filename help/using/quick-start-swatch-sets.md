@@ -1,21 +1,19 @@
 ---
-title: "Avvio rapido: set di campioni"
+title: "Guida rapida: set di campioni"
 description: Introduzione e Guida rapida al set di campioni per aiutarti a iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
-uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 18%
+source-wordcount: '404'
+ht-degree: 17%
 
 ---
 
@@ -51,7 +49,7 @@ Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#preview
 
 Quando si pubblica un set di campioni, questo viene inserito nei server Adobe Dynamic Media Classic e viene attivata la stringa dell&#39;URL.
 
-Seleziona la **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome nel pannello Sfoglia. Quindi, seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblica, seleziona **[!UICONTROL Invia pubblicazione]**.
+Seleziona la **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome nel pannello Sfoglia. Quindi seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
 
 Consulta [Pubblicare i file](publishing-files.md#publishing-files).
 

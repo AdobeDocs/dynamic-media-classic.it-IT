@@ -1,27 +1,25 @@
 ---
 title: Testare le risorse prima di renderle pubbliche
 description: Scopri come testare le risorse in Adobe Dynamic Media Classic prima di renderle pubbliche.
-uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 31%
+source-wordcount: '1060'
+ht-degree: 23%
 
 ---
 
 # Testare le risorse prima di renderle pubbliche {#testing-assets-before-making-them-public}
 
-Secure Testing consente di definire un ambiente di test sicuro e di creare una soluzione B2B solida, basata su un set configurabile di intervalli e indirizzi IP. Questa funzionalità consente di abbinare le implementazioni di Adobe Dynamic Media Classic all&#39;architettura del sistema di gestione dei contenuti e del sistema aziendale.
+Secure Testing consente di definire un ambiente di test sicuro e di creare una soluzione B2B solida, basata su un set configurabile di indirizzi IP e intervalli. Questa funzionalità consente di abbinare le implementazioni di Adobe Dynamic Media Classic all&#39;architettura del sistema di gestione dei contenuti e del sistema aziendale.
 
 La verifica protetta consente di visualizzare in anteprima una versione per uso interno del sito Web, con contenuti non ancora pubblicati.
 
@@ -41,9 +39,9 @@ Per la maggior parte delle società le connessioni Internet avvengono mediante u
 
 Dalla tua rete aziendale, puoi individuare il tuo indirizzo IP pubblico utilizzando siti web come [https://www.whatismyip.com](https://www.whatismyip.com/) o richiedere queste informazioni all&#39;organizzazione IT aziendale.
 
-Con il Secure Testing, Adobe Dynamic Media Classic crea un server immagini dedicato per ambienti di staging o applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta non proviene dall’elenco di indirizzi IP approvato, viene restituita una risposta di operazione non riuscita. L’amministratore aziendale di Adobe Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test protetto della propria azienda.
+Con il Secure Testing, Adobe Dynamic Media Classic crea un server immagini dedicato per ambienti di staging o applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta in ingresso non si trova nell’elenco approvato di indirizzi IP, viene restituita una risposta di errore. L’amministratore aziendale di Adobe Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test protetto della propria azienda.
 
-Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio di test protetto non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico del server immagini di Dynamic Media. Le richieste al servizio di test sicuro hanno una latenza leggermente superiore rispetto ai server immagini Dynamic Media pubblici.
+Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio di test protetto non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico del server immagini di Dynamic Medie. Le richieste al servizio di test sicuro hanno una latenza leggermente superiore rispetto ai server immagini Dynamic Medie pubblici.
 
 Le risorse non pubblicate sono immediatamente disponibili dai servizi di verifica protetta, senza dover essere pubblicati. In questo modo, puoi eseguire un’anteprima prima che le risorse vengano pubblicate sul loro server immagini rivolto al pubblico.
 
@@ -59,7 +57,7 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>Added videos to list below 9/11/2012. Moved “Render Server requests” from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
+<p>Added videos to list below 9/11/2012. Moved "Render Server requests" from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
 
  -->
 
@@ -100,13 +98,13 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>RB: Rewrote entire steps under “Prepare your account” 9/10/2012</p>
+<p>RB: Rewrote entire steps under "Prepare your account" 9/10/2012</p>
 
  -->
 
 1. Contatta l’Assistenza clienti Adobe e richiedi l’abilitazione di Secure Testing sul tuo account.
 1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**.
-1. Nella pagina Pubblicazione su Image Server, in **[!UICONTROL Contesto di pubblicazione]** elenco a discesa, seleziona **[!UICONTROL Image Server di prova]**.
+1. Nella pagina Pubblicazione su Image Server, in **[!UICONTROL `Publish Context`]** elenco a discesa, seleziona **[!UICONTROL Image Server di prova]**.
 1. Per il filtro degli indirizzi client, selezionare **[!UICONTROL Aggiungi]**.
 1. Selezionare la casella di controllo in modo che l&#39;indirizzo sia attivato, quindi digitare un indirizzo IP e una maschera di rete nei rispettivi campi di testo.
 
@@ -122,7 +120,7 @@ Last Modified Date:
 
    Consulta [Carica file](uploading-files.md#uploading_files).
 
-1. Accertatevi che alcune delle immagini siano contrassegnate per la pubblicazione e altre non lo siano, quindi inviate il processo di pubblicazione.
+1. Assicurarsi che alcune immagini siano contrassegnate per la pubblicazione e altre non siano contrassegnate, quindi inviare il processo di pubblicazione.
 
    Consulta [Pubblicare i file](publishing-files.md#publishing_files).
 
@@ -148,8 +146,8 @@ Eseguite le seguenti verifiche:
 
    Verifica che la versione pubblica del sito mostri le risorse pubblicate come precedentemente fatto con Adobe Dynamic Media Classic.
 
-1. Dall’esterno della rete aziendale, verificate che non sia possibile a terzi accedere alle risorse non pubblicate (cioè quelle non contrassegnate per la pubblicazione).
+1. All’esterno della rete aziendale, verifica che le risorse non pubblicate (ossia, non contrassegnate per la pubblicazione) siano protette dall’accesso di terze parti.
 
-   Accedete alla rete dall’esterno (ad esempio, dal vostro computer di casa o da una connessione 3G), quindi verificate che la versione pubblica del sito contenga tutte le risorse pubblicate ma nessuno dei contenuti non pubblicati.
+   Accedi alla rete dall’esterno (ad esempio dal computer di casa o tramite una connessione 3G), quindi verifica che nella versione pubblica del sito siano visualizzate tutte le risorse pubblicate ma nessun contenuto non pubblicato.
 
    Confermate che la versione di verifica non contenga alcuna risorsa, poiché state tentando di accedere al servizio di verifica protetta da un indirizzo IP non autorizzato.

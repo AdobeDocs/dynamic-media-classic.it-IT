@@ -1,21 +1,19 @@
 ---
 title: Modificare le immagini
 description: Scopri come modificare le immagini in Adobe Dynamic Media Classic.
-uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 15%
+source-wordcount: '318'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti rich media. Questi strumenti sono disponibili selezionando il rollover **[!UICONTROL Modifica]** e nel pannello Sfoglia in Visualizzazione dettagli. In Adobe Dynamic Media Classic è possibile eseguire le seguenti attività di modifica delle immagini:
 
-* **Creare mappe immagine** - Per creare una mappa immagine, seleziona il comando Immagine oppure **[!UICONTROL Mappa immagine]** pulsante. Una mappa immagine è un punto sensibile su un’immagine, una pagina eCatalog o un’immagine in un set 360 gradi, che consente di visualizzare un pannello con testo di rollover. Gli utenti possono selezionare una mappa immagine, ad esempio, per avviare una nuova pagina web. Consulta [Creare mappe immagine](/help/using/creating-image-maps.md).
+* **Creare mappe immagine** - Per creare una mappa immagine, seleziona il comando Immagine oppure **[!UICONTROL Mappa immagine]** pulsante. Una mappa immagine è un punto attivo su un’immagine, o una pagina eCatalog, o un’immagine in un set 360 gradi che visualizza un pannello con testo di rollover. Gli utenti possono selezionare una mappa immagine, ad esempio, per avviare una nuova pagina web. Consulta [Creare mappe immagine](/help/using/creating-image-maps.md).
 
 * **Creare destinazioni di zoom** - Per creare destinazioni di miniature, selezionate il comando Destinazioni di zoom o **[!UICONTROL Destinazioni di zoom]** pulsante. Gli utenti possono selezionare una destinazione di miniatura nel Visualizzatore zoom per effettuare lo zoom direttamente su una parte specifica dell&#39;immagine. Consulta [Creare destinazioni di zoom per lo zoom guidato](/help/using/creating-zoom-targets-guided-zoom.md).
 
@@ -31,7 +29,7 @@ Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti ri
 
 * **Nitidezza di un&#39;immagine** - Per rendere più nitida un&#39;immagine e meno sfocata e più distinta la sua struttura, selezionate il comando Nitidezza o **[!UICONTROL Nitidezza]** pulsante. Consulta [Nitidezza di un&#39;immagine](/help/using/sharpening-image.md).
 
-* **Regolare un’immagine** - Selezionare il comando Regola o **[!UICONTROL Regola]** per capovolgere, ruotare, sfocare, colorare o modificare il bilanciamento del colore di un&#39;immagine. Consulta [Regolare un’immagine](/help/using/adjusting-image.md).
+* **Regolare un’immagine** - Selezionare la `Adjust` comando o **[!UICONTROL Regola]** per capovolgere, ruotare, sfocare, colorare o modificare il bilanciamento del colore di un&#39;immagine. Consulta [Regolare un’immagine](/help/using/adjusting-image.md).
 
 * **Modifica livelli** - Per visualizzare singoli livelli modificabili in un file PSD, selezionate **[!UICONTROL Livelli]** scheda. Quando caricate un file PSD, tutti i livelli vengono caricati singolarmente come file separati, in modo da poterli modificare all&#39;interno di Adobe Dynamic Media Classic.
 

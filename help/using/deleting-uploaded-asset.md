@@ -1,26 +1,24 @@
 ---
 title: Eliminare una risorsa immagine raster caricata
 description: Scopri come eliminare una risorsa caricata in Adobe Dynamic Media Classic.
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 52%
+source-wordcount: '136'
+ht-degree: 32%
 
 ---
 
 # Eliminare una risorsa caricata{#deleting-an-uploaded-asset}
 
-Per eliminare una risorsa potete usare il parametro `delete`, come segue:
+È possibile utilizzare `delete` parametro in questo formato per eliminare una risorsa:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -48,15 +46,15 @@ Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 
 | Parametro URL | Obbligatorio/facoltativo | Valore |
 | --- | --- | --- |
-| `op` | Obbligatorio | delete |
-| `shared_secret` | Obbligatorio | Chiave segreta condivisa della società. |
+| `op` | Obbligatorio | eliminare |
+| `shared_secret` | Obbligatorio | La chiave che è un segreto condiviso per l’azienda. |
 | `image_name` | Obbligatorio | Nome della risorsa da eliminare. |
 
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Medie saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
 
 >[!NOTE]
 >
