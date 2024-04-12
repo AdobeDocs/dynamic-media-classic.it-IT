@@ -1,21 +1,19 @@
 ---
 title: Anteprima dei cataloghi elettronici nel visualizzatore eCatalog
 description: Scopri come visualizzare in anteprima gli eCatalog nel visualizzatore eCatalog in Adobe Dynamic Media Classic.
-uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +25,7 @@ Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configu
 
 Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#previewing_an_asset).
 
-**Per visualizzare un’anteprima degli eCatalog nel visualizzatore per eCatalog:**
+**Per visualizzare in anteprima i cataloghi elettronici nel visualizzatore eCatalog:**
 
 1. Nel pannello Libreria risorse a sinistra, selezionate nell’elenco a discesa Mostra un tipo di risorsa basata su video, come ad esempio Video o Set di video.
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle Asset contenenti i video da visualizzare in anteprima con un visualizzatore eCatalog.

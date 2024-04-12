@@ -1,18 +1,16 @@
 ---
 title: Integrare Adobe Dynamic Media Classic con Adobe Target Standard/Premium
 description: Scopri come integrare Adobe Dynamic Media Classic con Adobe Target Standard/Premium.
-uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
-discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -24,7 +22,7 @@ ht-degree: 0%
 Prima di integrare [!DNL Adobe Dynamic Media Classic] con [!DNL Target Standard/Premium], è necessario immettere l’URL di Target nel [!DNL Adobe Dynamic Media Classic] Schermata Impostazioni generali applicazione. Per ottenere l&#39;URL di Target e immetterlo nella pagina Impostazioni generali applicazione, eseguire le operazioni seguenti:
 
 1. In entrata [!DNL Adobe Experience Cloud], accedere al [!DNL Target Standard/Premium] account.
-1. Dopo l’accesso, nella barra degli indirizzi del browser, copia l’URL fino a e incluso `.com`.
+1. Dopo aver effettuato l’accesso, nella barra degli indirizzi del browser, copia l’URL fino a e incluso `.com`.
 
    Ad esempio, se *fittizio* URL (i percorsi URL contengono sempre barre in avanti, non barre rovesciate come in questo esempio) nella barra degli indirizzi è `https:\\www.myfictionalsite.com/categories/admin/home.do`, copia solo questa parte del *fittizio* URL: `https:\\www.myfictionalsite.com`.
 

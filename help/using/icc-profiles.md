@@ -1,21 +1,19 @@
 ---
 title: Profili ICC (International Color Consortium)
 description: Scopri i profili ICC in Adobe Dynamic Media Classic.
-uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
-discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 54%
 
 Un profilo ICC (International Color Consortium) è un file che descrive come convertire correttamente i file di immagini da uno spazio colore a un altro. I profili ICC consentono di ottenere i colori corretti per le immagini. Ad esempio, per visualizzare correttamente immagini destinate alla stampa sul monitor di un computer, potete scegliere un profilo ICC. Questo profilo consente di convertire l’immagine in un diverso spazio colore e garantisce che i colori vengano visualizzati correttamente online.
 
-In Adobe Dynamic Media Classic, potete scegliere un profilo ICC per convertire le immagini in uno spazio colore diverso quando caricate le immagini. Tutti i profili ICC standard di Photoshop sono disponibili per impostazione predefinita su Adobe Dynamic Media Classic. Per visualizzare i nomi dei profili colore nella schermata Carica, selezionate il menu Profilo colore. Quindi scegliete Personale Da > A e scegliete il nome di un profilo ICC nei menu Personale Da e Personale A.
+In Adobe Dynamic Media Classic, potete scegliere un profilo ICC per convertire le immagini in uno spazio colore diverso quando caricate le immagini. Tutti i profili ICC standard di Photoshop sono disponibili per impostazione predefinita su Adobe Dynamic Media Classic. Per visualizzare i nomi dei profili colore nella schermata Carica, selezionate il menu Profilo colore. Quindi scegliete Personalizza da > A e scegliete un nome di profilo ICC nei menu Convertito da e Convertito in.
 
 Consulta [Opzioni di modifica immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 

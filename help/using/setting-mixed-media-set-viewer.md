@@ -1,27 +1,25 @@
 ---
 title: Impostare un predefinito visualizzatore set di file multimediali diversi
 description: Scopri come impostare un predefinito visualizzatore set di file multimediali diversi in Adobe Dynamic Media Classic.
-uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 40%
+source-wordcount: '614'
+ht-degree: 36%
 
 ---
 
 # Impostare un predefinito visualizzatore set di file multimediali diversi{#setting-up-a-mixed-media-set-viewer-preset}
 
-I predefiniti per visualizzatori di set di file multimediali diversi determinano lo stile, il comportamento e l’aspetto del visualizzatore principale. Quando configurate un predefinito, specificate quali altri visualizzatori devono apparire nel visualizzatore di set di file multimediali diversi. Ad esempio, se nel set di file multimediali diversi avete incluso un set di immagini, specificate anche un predefinito per visualizzatori di set di immagini.
+I predefiniti per visualizzatori di set di file multimediali diversi determinano lo stile, il comportamento e l’aspetto del visualizzatore principale. Quando configurate un predefinito, specificate quali altri visualizzatori devono apparire nel visualizzatore di set di file multimediali diversi. Ad esempio, se hai incluso un set di immagini nel set di file multimediali diversi, specifica un predefinito visualizzatore set di immagini per il visualizzatore set di file multimediali diversi.
 
 Potete scegliere di includere nel visualizzatore di set di file multimediali diversi tutte le funzioni per le community Internet o solo alcune di esse. La funzione Incorpora aggiunge al visualizzatore un collegamento che permette agli utenti di copiare il codice richiesto per aprire il visualizzatore in una pagina esterna (ad esempio un blog, un sito Web o un sito di social networking). La funzione Collegamento fornisce l’URL del visualizzatore, in modo che gli utenti possano usare un collegamento al visualizzatore. La funzione Visita fornisce un collegamento al sito Web specificato.
 
