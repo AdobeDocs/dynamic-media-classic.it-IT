@@ -1,21 +1,19 @@
 ---
 title: Creare i parametri per i modelli
 description: Scopri come creare parametri di modello in Adobe Dynamic Media Classic.
-uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 54%
+source-wordcount: '792'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +33,7 @@ Vedi anche [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5
 
 Per ciascun livello nel modello, attenetevi a questa procedura per creare parametri del modello:
 
-1. Nell’elenco Modelli, fate clic sul pulsante Parametri  accanto al nome del livello per il quale desiderate creare dei parametri. Si apre la schermata Parametri. In essa sono elencati i nomi di ciascun parametro applicato al livello, il suo valore e il suo tipo.
+1. Nell&#39;elenco Livelli (Layers), selezionate il pulsante Parametri (Parameters) accanto al nome del livello per il quale desiderate creare i parametri. Si apre la schermata Parametri. Elenca il nome di ciascun parametro sul livello, il relativo valore e il relativo tipo.
 1. Selezionare l&#39;opzione Attivato accanto al nome di ogni parametro che si desidera includere nell&#39;immagine modello.
 1. Seleziona **[!UICONTROL Chiudi]** per uscire dalla schermata Parametri.
 
@@ -43,13 +41,13 @@ Per ciascun livello nel modello, attenetevi a questa procedura per creare parame
 >
 >Potete rinominare i parametri nella schermata Parametri, in mod che sia più facile individuarlo nelle stringhe URL e più semplice usarlo come valore del database. Per rinominare un parametro, selezionatene uno **[!UICONTROL On]** , selezionarne il nome e immettere un nuovo nome nel campo Nome.
 
-Per visualizzare un elenco dei parametri creati per il modello, selezionare il pulsante Riepilogo parametri nella schermata Modello. Viene visualizzata la schermata Riepilogo parametri. In essa sono elencati i nomi dei vari livelli nonché i nomi e i valori di eventuali parametri.
+Per visualizzare un elenco dei parametri creati per il modello, selezionare il pulsante Riepilogo parametri nella schermata Modello. Nella schermata Riepilogo parametri, viene elencato il nome di ciascun livello e, se avete creato i parametri per un livello, i nomi e i valori dei parametri.
 
 ## Creare parametri di testo dinamici {#creating-dynamic-text-parameters}
 
-Per i livelli di testo, è inoltre possibile rendere la stringa di testo un campo dinamico collegato a un valore di database. Effettuate le seguenti operazioni:
+Per i livelli di testo, potete anche rendere la stringa di testo un campo dinamico collegato a un valore di database. Effettuate le seguenti operazioni:
 
-1. Nella schermata Modello, fate clic sul pulsante Parametri  accanto al nome del livello di testo per il quale desiderate creare dei parametri di testo dinamici. Viene visualizzata la pagina Parametri.
+1. Nella schermata Modello, selezionate il pulsante Parametri accanto al nome del livello di testo per il quale desiderate creare parametri di testo dinamici. Viene visualizzata la pagina Parametri.
 1. Seleziona la **[!UICONTROL On]** accanto al nome dell&#39;attributo di testo (textAttr).
 1. Seleziona la **[!UICONTROL Testo]** nella schermata Parameters.
 1. Seleziona **[!UICONTROL Aggiungi parametro]**. Viene visualizzato un nome parametro predefinito, che potete sostituire selezionandolo e digitando su di esso. La stringa di testo corrente diventa il nuovo nome del parametro.

@@ -1,21 +1,19 @@
 ---
 title: Utilizzare i PDF
 description: Scopri come utilizzare i PDF in Adobe Dynamic Media Classic.
-uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 36%
+source-wordcount: '723'
+ht-degree: 28%
 
 ---
 
@@ -29,11 +27,11 @@ Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente
 | --- | --- | --- |
 | Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 (per tutti i PDF) |
 
-Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
 ## Opzioni di caricamento PDF {#pdf-upload-options}
 
-Quando caricate un file PDF potete formattarlo in vari modi. Potete ritagliare pagine, estrarre parole di ricerca, immettere un valore di risoluzione in ppi e scegliere uno spazio colore. I file PDF contengono spesso un margine di rifilo, indicatori di taglio, crocini di registro e altri indicatori di stampa. Durante il caricamento di un file PDF potete ritagliare tali indicatori dai lati delle pagine.
+Quando caricate un file PDF potete formattarlo in vari modi. Potete ritagliare pagine, estrarre parole di ricerca, immettere un valore di risoluzione in ppi e scegliere uno spazio colore. I file PDF spesso contengono un margine di ritaglio, indicatori di ritaglio, indicatori di registrazione e altri indicatori della stampante. Durante il caricamento di un file PDF potete ritagliare tali indicatori dai lati delle pagine.
 
 Le opzioni per il caricamento dei file di PDF si trovano nella sezione Opzioni di PDF della pagina Carica.
 
@@ -51,7 +49,7 @@ Le opzioni per il caricamento dei file di PDF si trovano nella sezione Opzioni d
 
 Specifica l’impostazione della risoluzione. Questa impostazione determina la quantità di pixel visualizzati per pollice nel file PDF. Il valore predefinito è 150.
 
-### Spazio colore di nitidezza
+### Opzioni spazio colore
 
 Dal menu Spazio colore scegliete uno spazio colore per il file PDF. La maggior parte dei file PDF contiene immagini a colori sia in RGB che in CMYK. Per la visualizzazione online è preferibile lo spazio colore RGB.
 
@@ -65,7 +63,7 @@ Dal menu Spazio colore scegliete uno spazio colore per il file PDF. La maggior p
 
 ### Opzioni profilo colore
 
-* **[!UICONTROL Converti in sRGB]** - Converte in sRGB (rosso standard, verde, blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
+* **[!UICONTROL Converti in sRGB]** - Converte in sRGB (rosso standard, verde, blu). sRGB è lo spazio colore consigliato per la visualizzazione di immagini in una pagina Web.
 
 * **[!UICONTROL Mantieni spazio colore originale]** - Mantiene lo spazio colore originale.
 
@@ -92,7 +90,7 @@ Consultate anche [Profili ICC](/help/using/icc-profiles.md#icc_profiles).
 
 ## Ritaglia dai lati delle pagine PDF {#cropping-from-the-sides-of-pdf-pages}
 
-Potete rimuovere manualmente gli indicatori di stampa dai lati delle pagine di un file PDF mentre lo caricate.
+È possibile rimuovere manualmente i contrassegni della stampante dai lati delle pagine di un file PDF durante il caricamento.
 
 1. Dal menu Ritaglia, seleziona **[!UICONTROL Manuale]**.
 1. Immettete le impostazioni per i pixel nelle caselle di testo In alto, A destra, In basso e A sinistra per ritagliare dal corrispondente bordo delle pagine.

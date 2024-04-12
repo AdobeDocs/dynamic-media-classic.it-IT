@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1470'
 ht-degree: 33%
 
 ---
 
 # Guida introduttiva: eCatalog{#quick-start-ecatalogs}
 
-Un eCatalog è la versione digitale per il Web di un materiale originariamente destinato alla stampa, come ad esempio un catalogo, una brochure, un volantino, un manuale di un prodotto o un annuncio pubblicitario. Un eCatalog può essere visualizzato in un sito Web mediante un visualizzatore per eCatalog. Tale visualizzatore simula l’esperienza della lettura di una copia stampata.
+Un eCatalog è la versione digitale per il Web di un materiale originariamente destinato alla stampa, come ad esempio un catalogo, una brochure, un volantino, un manuale di un prodotto o un annuncio pubblicitario. Un eCatalog può essere visualizzato in un sito Web mediante un visualizzatore per eCatalog. Questo visualizzatore simula l&#39;esperienza di lettura del materiale stampato.
 
 Consulta anche i seguenti video di formazione:
 
@@ -64,7 +64,7 @@ I file Adobe PDF sono di solito usati come file sorgente per un eCatalog. Poich�
 
 Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per iniziare a caricare file o immagini PDF per l&#39;eCatalog. Puoi caricare i file dal desktop o tramite FTP; l’FTP è consigliato se carichi molti file o file di dimensioni superiori a 100 MB.
 
-Le Opzioni PDF nella schermata Carica riguardano il caricamento dei file PDF nella risoluzione e nello spazio colore corretti. Si consiglia di usare una risoluzione di 150 pixel per pollice. Con l’opzione Genera automaticamente eCatalog potete creare un eCatalog durante il caricamento di un file PDF. 
+Le Opzioni PDF nella schermata Carica riguardano il caricamento dei file PDF nella risoluzione e nello spazio colore corretti. Si consiglia di usare una risoluzione di 150 pixel per pollice. Puoi selezionare l’opzione **[!UICONTROL Genera automaticamente eCatalog]** per creare un eCatalog quando si carica un file PDF.
 
 Consulta [Carica i file PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -84,7 +84,7 @@ Consulta [Creare un eCatalog](creating-ecatalog.md).
 
 Le mappe immagine aggiungono un altro aspetto alle pagine eCatalog. Una mappa immagine è l’area di una pagina che fornisce ulteriori informazioni su un elemento. Quando un utenti passa il puntatore su una mappa immagine, viene visualizzata una descrizione dell’elemento. Facendo clic su una mappa immagine si attiva un riferimento esterno per l’apertura di una nuova pagina Web con ulteriori informazioni sull’elemento corrispondente.
 
-Per creare una mappa immagine, aprite la schermata eCatalog. Quindi vai al **[!UICONTROL Mappa pagine]** della schermata eCatalog e inquadrare la mappa con lo strumento Mappa rettangolare immagine o Mappa immagine poligonale. Potete regolare la posizione e la dimensione delle mappe immagine trascinando i bordi delle mappe con lo strumento scorrimento .
+Per creare una mappa immagine, aprite la schermata eCatalog. Quindi vai al **[!UICONTROL Mappa pagine]** della schermata eCatalog e inquadrare la mappa con lo strumento Mappa rettangolare immagine o Mappa immagine poligonale. È possibile regolare la posizione e le dimensioni delle mappe immagine trascinando i bordi delle mappe con lo strumento Panning.
 
 Dopo aver inquadrato la mappa immagine, immettere l&#39;indirizzo URL a cui si desidera passare quando si seleziona la mappa immagine. Potete anche inserire il testo di rollover visualizzato quando si passa il puntatore sulla mappa immagine. 
 
@@ -118,7 +118,7 @@ Consulta [Anteprima dei cataloghi elettronici nel visualizzatore eCatalog](previ
 
 La pubblicazione dell’eCatalog e dei PDF associati lo inserisce nei server immagini Dynamic Medie in modo che possa essere consegnato al sito web e all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzare questo URL per chiamare l&#39;eCatalog dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
 
-Dopo aver contrassegnato l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, seleziona il pulsante Pubblica sulla barra di navigazione globale per avviare una pubblicazione. Nella schermata Pubblica, seleziona **[!UICONTROL Invia pubblicazione]**.
+Dopo aver contrassegnato l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, seleziona il pulsante Pubblica sulla barra di navigazione globale per avviare una pubblicazione. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
 
 Consulta [Pubblicare eCatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

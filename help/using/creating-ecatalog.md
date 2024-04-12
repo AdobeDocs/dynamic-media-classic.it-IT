@@ -1,20 +1,18 @@
 ---
 title: Creare un eCatalog
 description: Scopri come creare un eCatalog in Adobe Dynamic Media Classic.
-uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '976'
 ht-degree: 44%
 
 ---
@@ -56,7 +54,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    * **Pulsante Sposta in** - Seleziona una pagina o un set di pagine affiancate, seleziona **[!UICONTROL Sposta in]** e scegli la pagina nel menu che vuoi far apparire prima della pagina.
 
-   * **N. sequenza** - Nella Vista a elenco, immettere i numeri di pagina nei campi N. sequenza.
+   * **N. sequenza** - In Vista a elenco, immettere i numeri di pagina nei campi #. sequenza
 
 1. Al termine dell’operazione, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
@@ -85,7 +83,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.
 
-## Eliminare un eCatalog {#deleting-an-ecatalog}
+## Eliminare un eCatalog
 
 Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 

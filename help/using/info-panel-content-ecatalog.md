@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 55%
+source-wordcount: '871'
+ht-degree: 53%
 
 ---
 
 # Gestire il contenuto del pannello informazioni nei cataloghi elettronici{#managing-info-panel-content-in-ecatalogs}
 
-Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Potete anche gestire il pannello Info usando la cache a tempo e pianificando gli aggiornamenti dei contenuti.
+Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, potete usare un pannello Info per aggiungere quantità maggiori di testo di rollover, inclusi i collegamenti. Puoi anche gestire il pannello Info utilizzando il caching temporizzato e pianificando gli aggiornamenti dei contenuti.
 
 Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Adobe Dynamic Media Classic:
 
@@ -68,7 +68,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 1. Fare doppio clic sull&#39;eCatalog per aprirlo in Vista dettagli.
 1. Seleziona la **[!UICONTROL Feed dati InfoPanel]** pannello.
 1. Inserite l’URL per il file CSV nel campo Posizione file CSV esterno (HTTP). Potete incollare l’URL in questo campo o digitarlo direttamente.
-1. (Facoltativo) Specifica un orario per aggiornare il contenuto utilizzando i menu Pianifica aggiornamento e seleziona **[!UICONTROL Aggiungi]**. Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario, selezionalo e seleziona **[!UICONTROL Elimina]**.)
+1. (Facoltativo) Specifica un orario per aggiornare il contenuto utilizzando il menu Pianifica aggiornamento e seleziona **[!UICONTROL Aggiungi]**. Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario, selezionalo e seleziona **[!UICONTROL Elimina]**.)
 1. (Facoltativo) Seleziona **[!UICONTROL Esegui aggiornamento ora]** per aggiornare immediatamente il contenuto.
 
 ### Importare un file CSV o delimitato da tabulazioni {#import-a-tab-delimited-or-csv-file}

@@ -1,21 +1,19 @@
 ---
 title: Creare destinazioni di zoom per lo zoom guidato
 description: Scopri come creare destinazioni di zoom per lo zoom guidato in Adobe Dynamic Media Classic.
-uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 41%
+source-wordcount: '730'
+ht-degree: 42%
 
 ---
 
@@ -82,9 +80,9 @@ Per modificare le destinazioni di zoom, utilizzare le tecniche riportate di segu
 
 * **Ridimensiona** - Con il pulsante Seleziona destinazione (la freccia), selezionare la destinazione. Per ingrandire o ridurre la destinazione, spostare il puntatore su un angolo della destinazione di zoom e trascinare.
 
-* **Elimina** - Selezionare l&#39;immagine miniatura del target sul lato destro dello schermo. Quindi seleziona **[!UICONTROL Elimina destinazione]**.
+* **Elimina** - Selezionare la miniatura di destinazione sul lato destro dello schermo. Quindi seleziona **[!UICONTROL Elimina destinazione]**.
 
-* **Ridenominazione** - Selezionare l&#39;immagine miniatura del target sul lato destro dello schermo. Quindi inserisci un nome in **[!UICONTROL Nome]** campo di testo e selezione **[!UICONTROL Salva]**.
+* **Ridenominazione** - Selezionare la miniatura di destinazione sul lato destro dello schermo. Quindi inserisci un nome in **[!UICONTROL Nome]** campo di testo e selezione **[!UICONTROL Salva]**.
 
 ### Copia destinazioni di zoom {#copying-zoom-targets}
 

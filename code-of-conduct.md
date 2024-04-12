@@ -1,7 +1,7 @@
 ---
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Non allineato al presente Codice di condotta. Oppure, per vietare, temporaneamen
 
 ## Ambito
 
-Il presente Codice di condotta si applica sia all’interno degli spazi del progetto che negli spazi pubblici quando un utente rappresenta il progetto o la sua community. Esempi di rappresentazione di un progetto o di una community includono l’utilizzo di un indirizzo e-mail ufficiale del progetto, la pubblicazione tramite un account di social media ufficiale o la funzione di rappresentante designato a un evento online o offline. La rappresentazione di un progetto può essere ulteriormente definita e chiarita dai responsabili del progetto.
+Il presente Codice di condotta si applica sia all’interno degli spazi del progetto che negli spazi pubblici quando un utente rappresenta il progetto o la sua community. Esempi di rappresentazione di un progetto o di una community includono l’utilizzo di un indirizzo e-mail ufficiale del progetto o la pubblicazione tramite un account di social media ufficiale. Comprende anche la funzione di rappresentante designato a un evento online o offline. La rappresentazione di un progetto può essere ulteriormente definita e chiarita dai responsabili del progetto.
 
 ## Applicazione
 

@@ -1,21 +1,19 @@
 ---
 title: SEO (Search Engine Optimization) per i video
 description: Scopri come configurare le impostazioni Video SEO (Search Engine Optimization) in Adobe Dynamic Media Classic.
-uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 35%
+source-wordcount: '1019'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +31,7 @@ Utilizzando Adobe Dynamic Media Classic Video SEO, puoi applicare metadati video
 >
 >Google supporta sia Video Sitemap che il protocollo di feed mRSS per la trasmissione di informazioni ai motori di ricerca.
 
-Adobe Dynamic Media Classic può generare Video Sitemap e feed mRSS dai metadati memorizzati con ogni video. Quando create dei Video Sitemap e feed mRSS, potete scegliere quali campi di metadati includere tra quelli presenti nei file video. Questo vi permette di descrivere i video per i motori di ricerca, che saranno quindi in grado di proporre con più precisione, tra i risultati di ricerca, i video presenti nel vostro sito Web..
+Adobe Dynamic Media Classic può generare Video Sitemap e feed mRSS dai metadati memorizzati con ogni video. Quando create dei Video Sitemap e feed mRSS, potete scegliere quali campi di metadati includere tra quelli presenti nei file video. In questo modo, descrivi i video ai motori di ricerca in modo che i motori di ricerca possano indirizzare più accuratamente il traffico ai video sul sito web.
 
 >[!NOTE]
 >
@@ -43,9 +41,9 @@ Dopo la generazione, Adobe Dynamic Media Classic crea rapporti sulle mappe del s
 
 >[!NOTE]
 >
->Per le mappe del sito video e i feed mRSS, Adobe Dynamic Media Classic acquisisce i metadati solo dai video contrassegnati per la pubblicazione. Contrassegnate i video per la pubblicazione per includerne i metadati nei Video Sitemap e nei feed mRSS.
+>Per le mappe del sito video e i feed mRSS, Adobe Dynamic Media Classic acquisisce i metadati solo dai video contrassegnati per la pubblicazione. Contrassegna i video per la pubblicazione per includerne i metadati in Video Sitemap e feed mRSS.
 
-## Scegli impostazioni Video SEO (Search Engine Optimization) {#choosing-video-seo-settings}
+## Scegli impostazioni Video SEO (Search Engine Optimization)
 
 Selezionare le impostazioni Video SEO per Video Sitemap e feed mRSS sul **[!UICONTROL Impostazioni di ottimizzazione motore di ricerca video]** pagina. Per aprire questa pagina, nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Impostazioni]**.
 
@@ -83,7 +81,7 @@ Il giorno **[!UICONTROL Modalità automatica/manuale]** dall&#39;elenco a disces
 
 Nell&#39;area Impostazioni di generazione sono elencati i campi di input per Video Sitemap, o feed mRSS, o entrambi, e nel pannello Metadati sono elencati i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo, l&#39;utente indica a Adobe Dynamic Media Classic dove ottenere i metadati per Video Sitemap e/o il feed mRSS.
 
-1. Nel menu Visualizzazioni metadati, scegliete una visualizzazione per i metadati. I nomi dei campi di metadati compaiono quindi nel pannello Metadati.
+1. Nel menu Visualizzazioni metadati, scegliete una visualizzazione per i metadati. Dopo aver scelto una vista, i nomi dei campi di metadati vengono visualizzati nel pannello Metadati.
 Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 1. Trascinate i nomi dei campi di metadati dal pannello Metadati ai campi di input Pagina di arrivo, Titolo, Descrizione, Tag e Categoria. I campi Pagina di arrivo, Titolo e Descrizione sono obbligatori.
 

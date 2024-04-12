@@ -1,21 +1,19 @@
 ---
 title: Creare e gestire gruppi Media Portal
 description: Scopri come creare e gestire i gruppi Media Portal in Adobe Dynamic Media Classic.
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
@@ -27,7 +25,7 @@ I *gruppi* facilitano l’amministrazione degli utenti di Media Portal. Per acce
 
 La creazione di gruppi consente di assegnare diversi livelli di autorizzazione di accesso. Per ogni gruppo, potete assegnare le autorizzazioni di lettura, scrittura ed eliminazione per diverse cartelle e risorse nelle cartelle. Potete inoltre decidere quali predefiniti per immagini rendere disponibili per il gruppo. Successivamente, potete assegnare utenti ai relativi gruppi. Un utente può appartenere a più di un gruppo. Grazie all’uso dei gruppi potete limitare il diritto di accesso a soli alcuni set di risorse.
 
-Se non concedi specificamente un’autorizzazione di gruppo a una risorsa o cartella, questa eredita le autorizzazioni assegnate alla relativa cartella principale, ovvero la cartella al di sopra di essa nella gerarchia delle cartelle. Assegnando le autorizzazioni a una cartella principale potrete avere la certezza che tutte le relative sottocartelle ereditino le stesse autorizzazioni.
+Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o cartella, questa eredita le autorizzazioni assegnate alla relativa cartella principale, ovvero la cartella al di sopra di essa nella gerarchia delle cartelle. Assegnando le autorizzazioni a una cartella principale potrete avere la certezza che tutte le relative sottocartelle ereditino le stesse autorizzazioni.
 
 >[!NOTE]
 >
@@ -75,9 +73,9 @@ Se non concedi specificamente un’autorizzazione di gruppo a una risorsa o cart
 
 >[!NOTE]
 >
->le autorizzazioni di accesso entrano in vigore non appena selezionate una casella. Quando assegnate le autorizzazioni a una cartella, queste vengono applicate anche alle relative sottocartelle e a tutti i file al loro interno. Tuttavia, potete specificare autorizzazioni diverse per singole sottocartelle e file di risorse.
+>le autorizzazioni di accesso entrano in vigore non appena selezionate una casella. Quando hai assegnato i diritti a una cartella, alle sue sottocartelle e a tutti i file al suo interno vengono assegnati gli stessi diritti della cartella principale. Tuttavia, potete specificare autorizzazioni diverse per singole sottocartelle e file di risorse.
 
-## Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo {#choosing-image-preset-access-permissions-for-a-group}
+## Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo
 
 Le autorizzazioni di accesso ai predefiniti per immagini per un gruppo vi permettono di specificare quali predefiniti per immagini sono disponibili per gli utenti del gruppo al momento dell’esportazione di risorse in Media Portal.
 

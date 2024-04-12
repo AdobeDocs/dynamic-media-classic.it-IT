@@ -10,10 +10,10 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ La pubblicazione colloca l’eCatalog e PDF sui server immagini Dynamic Medie in
 
    Se impostate l’eCatalog in modo da consentire agli utenti di eseguire ricerche per parole chiave, accertatevi che i dati relativi ai termini di ricerca siano pubblicati. Nella finestra di dialogo Pubblicazione, seleziona **[!UICONTROL Avanzate]**. Dalla sezione **[!UICONTROL Pubblica]** menu a discesa, seleziona **[!UICONTROL Completa con dati di ricerca]**. Questa opzione è attiva per impostazione predefinita.
 
-1. Fate clic su **[!UICONTROL Invia pubblicazione]**.
+1. Seleziona **[!UICONTROL Invia pubblicazione]**.
 
 >[!MORELIKETHIS]
 >

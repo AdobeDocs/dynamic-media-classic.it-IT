@@ -1,21 +1,19 @@
 ---
 title: Collegare gli URL all’applicazione web
 description: Scopri come collegare gli URL all’applicazione web da Adobe Dynamic Media Classic.
-uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 37%
+source-wordcount: '843'
+ht-degree: 27%
 
 ---
 
@@ -35,20 +33,20 @@ Potete ottenere una stringa URL generata da un predefinito per immagini dalla sc
 
 ### Ottieni un URL per predefinito immagine da Anteprima {#obtaining-an-image-preset-url-from-preview}
 
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
+1. Nel pannello Libreria risorse, a sinistra, passa alla cartella Risorse che contiene la risorsa immagine da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
 
    * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista griglia]**. Nella finestra Risorsa, seleziona una singola risorsa di immagine, quindi vai a sotto dell’immagine di miniatura **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
    * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista a elenco]**. Nella finestra Risorsa, seleziona una singola risorsa di immagine, quindi a destra dell’immagine di miniatura vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
    * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
 
-1. (Facoltativo) Nell’elenco a discesa Codifica URL per copia generazione URL, seleziona la codifica URL da applicare all’URL della risorsa immagine quando viene copiata.
+1. (Facoltativo) Nell’elenco Predefiniti immagine, seleziona l’URL encoding for the image asset (Codifica URL per copia generazione URL) da applicare all’URL della risorsa immagine quando viene copiata.
 1. Nella finestra Elenco predefiniti immagine, in alto a destra nel riquadro di anteprima, seleziona **[!UICONTROL Copia URL]** per il tipo di predefinito selezionato.
 1. Nell&#39;angolo inferiore destro della finestra Elenco predefiniti immagine, seleziona **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
 
 ### Ottenere un URL per un predefinito immagine dal pannello Sfoglia {#obtaining-an-image-preset-url-from-the-browse-panel}
 
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella contenente la risorsa immagine da visualizzare in anteprima.
+1. Nel pannello Libreria risorse, a sinistra, passa alla cartella Risorse contenente la risorsa immagine da visualizzare in anteprima.
 1. Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista griglia]**. Nella finestra Risorse, selezionate una singola risorsa di immagine.
 1. Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista dettagli]**.
 1. Seleziona **[!UICONTROL URL]** sul pannello a destra dello schermo, in modo da poter visualizzare l’elenco dei predefiniti immagine.
@@ -60,7 +58,7 @@ Una chiamata URL per Image Sizing to Dynamic Medie Image Server ha la seguente s
 
 *percorso*/*nome del server immagini*/*nome dell’account*/*nome dell’immagine*?*modificatore1*&amp;*modificatore2*&amp;...
 
-In un URL di Dynamic Medie Image Server, le istruzioni per la visualizzazione dell&#39;immagine al server vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa richiesta URL fornisce un’immagine denominata “backpack” con una larghezza di 250 pixel:
+In un URL di Dynamic Medie Image Server, le istruzioni per la visualizzazione dell&#39;immagine al server vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa chiamata URL fornisce un’immagine denominata &quot;zaino&quot; con una larghezza di 250 pixel:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -93,7 +91,7 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 Ora utilizzi il `<IMG>`per sostituire il riferimento a un’immagine statica con una chiamata di predefinito immagine alla piattaforma Adobe Dynamic Media Classic. Esempio di richiesta:
 
 ```as3
-img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
+img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-In questo esempio, un server immagini di Dynamic Medie &quot;cerca&quot; la definizione di `$thumbnail$` e genera dinamicamente l&#39;immagine appropriata con le specifiche di dimensionamento e formattazione definite dal `thumbnail`Predefinito immagine. In una stringa URL, tutti gli elementi eccetto il nome del file immagine del prodotto (in questo esempio, `backpack_trns`) vengono generalmente collegati per modello di pagina. L’unico elemento che viene inserito automaticamente nel modello di pagina dal vostro server commerciale è l’ID IPS o il nome dell’immagine.
+In questo esempio, un server immagini di Dynamic Medie &quot;cerca&quot; la definizione di `$thumbnail$` e genera dinamicamente l&#39;immagine appropriata con le specifiche di dimensionamento e formattazione definite dal `thumbnail`Predefinito immagine. In una stringa URL, tutti gli elementi eccetto il nome del file dell’immagine del prodotto ( `backpack_trns` in questo caso) sono tipicamente cablate per il modello di pagina. L’unico elemento che viene inserito automaticamente nel modello di pagina dal vostro server commerciale è l’ID IPS o il nome dell’immagine.

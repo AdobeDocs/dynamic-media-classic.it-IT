@@ -5,15 +5,14 @@ contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -48,9 +47,9 @@ Inizia integrando Dynamic Media Classic con Adobe Analytics OAuth. L’integrazi
 
    ![Aggiungere un’API](assets/analytics-oauth2.png)
 
-1. Il giorno **[!UICONTROL Configurare API]** pagina, seleziona **[!UICONTROL AUTENTICAZIONE UTENTE OAuth]**.
+1. Il giorno **[!UICONTROL `Configure API`]** pagina, seleziona **[!UICONTROL AUTENTICAZIONE UTENTE OAuth]**.
 1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Successivo]**.
-1. Il giorno **[!UICONTROL Configurare API]** pagina, seleziona **[!UICONTROL Web OAUTH 2.0]**.
+1. Il giorno **[!UICONTROL `Configure API`]** pagina, seleziona **[!UICONTROL Web OAUTH 2.0]**.
 1. In **[!UICONTROL URI di reindirizzamento predefinito]** immetti il seguente percorso esattamente come mostrato:
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
@@ -69,7 +68,7 @@ Inizia integrando Dynamic Media Classic con Adobe Analytics OAuth. L’integrazi
 
 >[!NOTE]
 >
->Dopo la configurazione iniziale di Adobe Analytics in Dynamic Media Classic, l’unico caso in cui devi ripetere la configurazione è nei seguenti casi:
+>Dopo la configurazione iniziale di Adobe Analytics in Dynamic Media Classic, l’unica volta che devi ripetere la configurazione è nei seguenti casi:
 >
 >* In Analytics viene aggiunto un nuovo rapporto e l’utente desidera iniziare a inviare dati a quel nuovo rapporto.
 >* Il server di tracciamento viene aggiornato in Adobe Analytics.

@@ -1,21 +1,19 @@
 ---
 title: Generazione automatica di set di immagini
 description: Scopri come automatizzare la generazione di set di immagini in Adobe Dynamic Media Classic.
-uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 66%
+ht-degree: 61%
 
 ---
 
@@ -33,7 +31,7 @@ Last Modified Date:
 
 Potete automatizzare la generazione dei set come processo indipendente dal caricamento.
 
-**Per automatizzare la generazione di set di immagini:**
+**Per automatizzare la generazione del set di immagini:**
 
 1. Vai a **[!UICONTROL File]** > **[!UICONTROL Genera set]**.
 1. Nella finestra di dialogo risultante, specificate un nome per il processo.

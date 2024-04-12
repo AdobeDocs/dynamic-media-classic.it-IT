@@ -1,21 +1,19 @@
 ---
 title: Configurare i predefiniti per il visualizzatore del set 360 gradi
 description: Scopri come impostare i predefiniti del visualizzatore del set 360 gradi in Adobe Dynamic Media Classic.
-uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 23%
+source-wordcount: '237'
+ht-degree: 24%
 
 ---
 
@@ -31,7 +29,7 @@ I predefiniti per visualizzatori di set 360 gradi determinano lo stile, il compo
    * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**, quindi nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma e seleziona **[!UICONTROL Visualizzatore set 360 gradi]**.
    * Per modificare un predefinito esistente per visualizzatore set 360 gradi, selezionalo e fai clic su **[!UICONTROL Modifica]**.
 
-1. Nella pagina Configura visualizzatore digitare un nome nella casella Nome predefinito per il predefinito visualizzatore set 360 gradi.
+1. Il giorno `Configure Viewer` , digitare un nome nella casella Nome predefinito per il predefinito visualizzatore set 360 gradi.
 1. Specificate le altre opzioni desiderate. Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** accanto all’opzione.
 
    Nella pagina Anteprima viene visualizzato il visualizzatore durante l&#39;aggiornamento e la modifica delle impostazioni.

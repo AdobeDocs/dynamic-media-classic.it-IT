@@ -1,20 +1,18 @@
 ---
 title: Carica i file PDF
 description: Scopri come caricare i file PDF associati a un eCatalog in Adobe Dynamic Media Classic.
-uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 36%
+source-wordcount: '841'
+ht-degree: 34%
 
 ---
 
@@ -28,16 +26,16 @@ Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente
 | --- | --- | --- |
 | Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 (per tutti i PDF) |
 
-Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
-## Preparare i file PDF {#preparing-your-pdf-files}
+## Preparare i file PDF
 
 Prepara i file PDF prima di caricarli in Adobe Dynamic Media Classic:
 
 * Per semplificare il caricamento dei file, inserire tutti i file nella stessa cartella sul computer o in rete.
 * Denominate i file in ordine alfanumerico per pagina in modo da facilitare il posizionamento delle pagine nell’ordine corretto dopo che i file sono stati caricati.
 * Esaminare le pagine per verificare se le pagine PDF contengono indicatori di ritaglio, destinazioni di registrazione o barre dei colori. Questi indicatori determinano come tagliare la carta quando i documenti vengono stampati e devono essere rimossi prima di pubblicare l’eCatalog in rete. In Adobe Dynamic Media Classic sono disponibili opzioni per i segni di ritaglio durante il caricamento di file PDF.
-* Per consentire agli utenti di effettuare ricerche nell’eCatalog mediante parole chiave, verificate che i file PDF non siano “appiattiti” (convertiti in immagini). Non è possibile estrarre parole di ricerca da file PDF appiattiti. Per verificare se un PDF è stato appiattito, provate a selezionare il testo al suo interno. Se non è possibile selezionare il testo, il PDF viene appiattito e gli utenti non possono eseguire ricerche per parola chiave nell&#39;eCatalog.
+* Se desideri che i visualizzatori effettuino ricerche nell’eCatalog per parola chiave, verifica se i file PDF sono &quot;appiattiti&quot;. Non è possibile estrarre parole di ricerca da file PDF appiattiti. Per verificare se un PDF è stato appiattito, provate a selezionare il testo al suo interno. Se non è possibile selezionare il testo, il PDF viene appiattito e gli utenti non possono eseguire ricerche per parola chiave nell&#39;eCatalog.
 * Poiché sono destinati alla stampa, i file PDF contengono generalmente immagini CMYK. Per impostazione predefinita, Adobe Dynamic Media Classic è in grado di rilevare in modo intelligente queste immagini CMYK e convertirle utilizzando un profilo colore CMYK interno. Se necessario potete anche utilizzare un profilo colore personalizzato per convertire le immagini CMYK. 
 
   Consulta [Profili ICC (International Color Consortium)](icc-profiles.md#icc_profiles).

@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 33%
+source-wordcount: '1437'
+ht-degree: 30%
 
 ---
 
@@ -60,7 +60,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
   Lo streaming video adattivo è supportato su varie piattaforme iOS.
 
-  Scopri il supporto più recente in [Guida di riferimento per i visualizzatori di Adobi](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Scopri il supporto più recente in [Guida di riferimento per i visualizzatori di Adobi](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -98,11 +98,11 @@ Potete caricare e generare i set di video adattivi utilizzando uno dei due scena
 * **Caricare video precodificati** - Se i tuoi video erano già stati codificati all’esterno di Adobe Dynamic Media Classic, nella barra di navigazione globale, seleziona **[!UICONTROL Carica]** per sfogliare e caricare i file video MP4 direttamente su Adobe Dynamic Media Classic. Quindi, vai a **[!UICONTROL Genera]** > **[!UICONTROL Set video adattivi]**. Individuate i file video. Trascinate i file video desiderati nella tabella Set video adattivo, quindi salvate il set.
 * **Carica video sorgente principale** - Se i video non sono codificati, nella barra di navigazione globale seleziona **[!UICONTROL Carica]** per caricare i file sorgente video primari (non MP4). Adobe Dynamic Media Classic li codifica automaticamente in file MP4. In **[!UICONTROL Opzioni processo di caricamento]** finestra di dialogo, sotto **[!UICONTROL Opzioni eVideo]**, seleziona **[!UICONTROL Video adattivo]**.
 
-  Questa opzione preferita consente di creare un set di video adattivi che applica automaticamente al video il predefinito di codifica corretto, da 16:9 o 4:3, in base alle dimensioni del video caricato. Quando invii il processo di caricamento, viene automaticamente creato un set di video adattivi che include tre impostazioni di codifica video nelle proporzioni corrette.
+  Con questa opzione preferita, puoi creare set di video adattivi che applicano automaticamente il predefinito di codifica corretto al video, sia esso 16:9 o 4:3, in modo che corrisponda alle dimensioni del video caricato. Quando invii il processo di caricamento, viene automaticamente creato un set di video adattivi che include tre impostazioni di codifica video nelle proporzioni corrette.
 
   Oppure, nello stesso **[!UICONTROL Opzioni processo]** finestra di dialogo, sotto **[!UICONTROL Opzioni eVideo]**, espandi **[!UICONTROL Predefiniti codifica singola]**. Selezionate i singoli predefiniti di codifica video desiderati **Desktop**, **Mobile (iPhone, iPad, Android™)**, e **Tablet (iPad, Android™)** in modo da creare i file MP4.
 
-* In alternativa, è possibile rielaborare un video principale utilizzando **[!UICONTROL Rielabora]** funzionalità. I video appena codificati vengono aggiunti al set video adattivo esistente.
+* In alternativa, è possibile rielaborare un video principale utilizzando **[!UICONTROL Rielaborazione]** funzionalità. I video appena codificati vengono aggiunti al set video adattivo esistente.
 
 Consulta [Caricare e codificare i video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 

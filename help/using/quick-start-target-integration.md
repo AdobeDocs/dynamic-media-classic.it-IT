@@ -1,21 +1,19 @@
 ---
 title: "Guida introduttiva: Integrazione di Adobe Target Standard/Premium"
 description: Introduzione e Guida rapida ad Adobe Target Standard/Premium per aiutarti a iniziare rapidamente a utilizzare le tecniche di integrazione di Adobe Target Standard/Premium in Adobe Dynamic Media Classic.
-uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
-discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 7%
+source-wordcount: '511'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +23,7 @@ Adobe Target Standard/Premium consente agli addetti al marketing di eseguire in 
 
 Adobe Dynamic Media Classic consente di creare offerte e set di offerte per le campagne Adobe Target Standard/Premium. Ad esempio, puoi creare un set di offerte con tre varianti della stessa risorsa rich media. Quindi puoi chiedere ad Adobe Target Standard/Premium di determinare quale risorsa fornisce un incremento di conversione migliore. Potete creare offerte e set di offerte da un modello base o da immagini singole. Dopo che il set di offerte è stato inviato o salvato in Adobe Target Standard/Premium, dove le offerte sono associate a mbox ed esperienze, Adobe Target Standard/Premium può eseguire campagne. Queste campagne determinano la variante di un sito web che probabilmente offre le prestazioni migliori per i click-through e la conversione.
 
-Per una maggiore personalizzazione dei contenuti Adobe Dynamic Media Classic dinamici, utilizza le offerte Adobe Target Standard/Premium HTML. Consulta la [Documentazione di Adobe Target Standard/Premium](https://experienceleague.adobe.com/docs/target.html) per ulteriori informazioni.
+Per una maggiore personalizzazione dei contenuti Adobe Dynamic Media Classic dinamici, utilizza le offerte Adobe Target Standard/Premium HTML. Consulta la [Documentazione di Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target) per ulteriori informazioni.
 
 >[!NOTE]
 >

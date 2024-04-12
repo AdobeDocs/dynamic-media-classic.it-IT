@@ -1,20 +1,18 @@
 ---
 title: Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal
 description: Scopri come specificare le opzioni di esportazione disponibili per gli utenti di Media Portal in Adobe Dynamic Media Classic.
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 41%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -38,7 +36,7 @@ Vedi anche [Esportare risorse da Adobe Dynamic Media Classic](exporting-assets-f
 
      Quando **[!UICONTROL pixel]** sono scelti tra **[!UICONTROL Dimensione]** , la larghezza × l&#39;altezza dell&#39;immagine non possono superare i 100 milioni di pixel. Questa dimensione equivale a 10.000 × 10.000 pixel per un&#39;immagine quadrata o a circa 8.000 × 12.000 pixel per un&#39;immagine con proporzioni 2x3. Questo limite di dimensione non si applica se si esportano immagini primarie originali.
 
-     Deselezionate questa opzione se desiderate che gli utenti possano solo scaricare i file senza modificarne il formato in fase di scaricamento.
+     Deselezionare questa opzione per consentire agli utenti di scaricare i file senza riformattarli durante il download.
 
    * **Abilita esportazione originale** - Consente di esportare le immagini primarie originali. In **[!UICONTROL Esporta risorse selezionate]** , gli utenti possono aprire **[!UICONTROL Conversione]** menu a discesa e scegliere **[!UICONTROL Esporta originale]** per esportare i file originali. Deseleziona questa opzione se vuoi obbligare gli utenti a scegliere un predefinito immagine o a scegliere le opzioni di conversione quando esportano le immagini.
 

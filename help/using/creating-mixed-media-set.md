@@ -1,20 +1,18 @@
 ---
 title: Creare un set di file multimediali diversi
 description: Scopri come creare un set di file multimediali diversi in Adobe Dynamic Media Classic.
-uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 76%
+ht-degree: 68%
 
 ---
 
@@ -28,7 +26,7 @@ Potete creare un set di file multimediali diversi per combinare più tipi di vis
 
 Quando create un set, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
 
-| Opzione “Pubblica dopo il salvataggio” selezionata prima del salvataggio | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Opzione &quot;Pubblica dopo il salvataggio&quot; selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -66,7 +64,7 @@ Sia che si modifichi un set pubblicato o non pubblicato, il **[!UICONTROL Pubbli
 | Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- |--- |--- |--- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -83,9 +81,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica del set, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome]**.
 
-## Eliminare un set di file multimediali diversi {#deleting-a-mixed-media-set}
+## Eliminare un set di file multimediali diversi
 
-Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (“elementi secondari”) all’interno del set non vengono modificati e mantengono il loro attuale stato di pubblicazione.
+Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 

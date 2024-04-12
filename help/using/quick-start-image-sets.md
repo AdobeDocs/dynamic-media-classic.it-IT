@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 14%
@@ -78,7 +78,7 @@ Quando si pubblica un set di immagini, questo viene posizionato sui server Adobe
 >
 >Questo passaggio non è necessario se hai selezionato **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) quando hai creato e salvato il set di immagini.
 
-Seleziona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome nel pannello Sfoglia. Quindi, seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblica, seleziona **[!UICONTROL Invia pubblicazione]**.
+Seleziona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome nel pannello Sfoglia. Quindi seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
 
 Consulta [Pubblicare i file](publishing-files.md#publishing-files).
 

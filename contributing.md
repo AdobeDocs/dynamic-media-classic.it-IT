@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ La segnalazione di un problema consente di descrivere facilmente la tua proposta
 
 Se noti un problema e sai esattamente come correggerlo, puoi creare una richiesta. Le richieste pull ti consentono di apportare alla documentazione le modifiche desiderate, che saranno poi esaminate da un membro del team addetto alla documentazione. Per apportare le modifiche suggerite e creare la richiesta di pull, seleziona **[!UICONTROL Modifica questa pagina]** in alto a destra nel pannello di navigazione su qualsiasi pagina.
 
-Tutte le richieste devono essere accompagnate da una firma [Contratto di licenza da collaboratore o CLA](https://opensource.adobe.com/cla.html). Questo flusso di lavoro concede all’Adobe l’autorizzazione a ridistribuire i contributi come parte del progetto. È possibile inviare un CLA di Adobe una sola volta, quindi se ne è già stato inviato uno in precedenza, l&#39;impostazione viene impostata.
+Tutte le richieste devono essere accompagnate da una firma [Contratto di licenza da collaboratore o CLA](https://opensource.adobe.com/cla.html). Questo flusso di lavoro concede all’Adobe l’autorizzazione a ridistribuire i contributi come parte del progetto. È possibile inviare un CLA di Adobe una sola volta, quindi se ne è stato inviato uno in precedenza, l&#39;impostazione viene impostata.
 
 ### Video introduttivo
 
@@ -58,4 +58,4 @@ L&#39;Adobe accoglie con favore qualsiasi contributo. I contributi vengono esami
 
 ## Ulteriori informazioni
 
-Consulta la [Guida per i collaboratori Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) per ulteriori dettagli su come utilizzare la piattaforma di authoring GitHub.
+Consulta la [Guida per i collaboratori Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) per ulteriori dettagli su come utilizzare la piattaforma di authoring GitHub.

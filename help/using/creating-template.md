@@ -1,25 +1,23 @@
 ---
 title: Creare un modello
 description: Scopri come creare un modello in Adobe Dynamic Media Classic.
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3420'
+source-wordcount: '3418'
 ht-degree: 41%
 
 ---
 
-# Creare un modello {#creating-a-template}
+# Creare un modello
 
 Per creare un modello, vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sui modelli]**. Selezionate Designer o Sviluppatore. In questa pagina potete aggiungere livelli di immagine e testo. Potete anche riordinare livelli, modificarne le dimensioni e la posizione e applicare effetti di ombra e bagliore alle immagini e al testo.
 
@@ -78,7 +76,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine dell’operazione di modifica, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.
 
-## Eliminare un modello {#deleting-a-template}
+## Eliminare un modello
 
 Quando eliminate un set di modelli, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
@@ -278,7 +276,7 @@ Potete nascondere un livello o un effetto livello selezionando l&#39;icona dell&
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### Determinare il colore di sfondo, l&#39;opacità e il metodo di fusione {#determining-the-background-color-opacity-and-blend-mode}
+### Determinare il colore di sfondo, l&#39;opacità e il metodo di fusione
 
 Per scegliere un colore di sfondo, opacità e metodo di fusione per un livello o per il quadro, selezionate il livello o il quadro ed effettuate le seguenti operazioni:
 
@@ -299,7 +297,7 @@ Dopo aver applicato un effetto ombra o bagliore, potete regolarne le dimensioni,
 ### Applicare un effetto ombra o bagliore a un livello {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Selezionate un livello nel pannello Livelli.
-1. Selezionate il menu Aggiungi effetto e scegliete un’opzione:
+1. Seleziona la **[!UICONTROL `Add Effect`]** e scegliere un&#39;opzione:
 
    * **[!UICONTROL Ombra esterna]** - Applica un&#39;ombreggiatura sul lato inferiore e destro del livello.
 

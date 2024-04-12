@@ -1,21 +1,19 @@
 ---
 title: Migliorare la nitidezza di un’immagine
 description: Scopri come rendere più nitida un’immagine in Adobe Dynamic Media Classic.
-uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 38%
+source-wordcount: '2199'
+ht-degree: 35%
 
 ---
 
@@ -99,7 +97,7 @@ Seleziona la **[!UICONTROL Ricampionamento]** e scegliere un&#39;opzione. Queste
 
 * **[!UICONTROL Bicubica]** - Aumenta l&#39;utilizzo della CPU sul server immagini, ma produce immagini più nitide con artefatti di aliasing meno evidenti.
 
-* **[!UICONTROL `Sharpen2`]** - Produce risultati leggermente più nitidi rispetto a **[!UICONTROL Bicubica]**, ma a un costo della CPU ancora più elevato sul server immagini.
+* **[!UICONTROL `Sharpen 2`]** - Produce risultati leggermente più nitidi rispetto a **[!UICONTROL Bicubica]**, ma a un costo della CPU ancora più elevato sul server immagini.
 
 * **[!UICONTROL Trilineare]** : utilizza risoluzioni più alte e più basse se disponibili; consigliato solo quando l’aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
@@ -126,13 +124,13 @@ Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
 **Imposta opzioni di nitidezza a livello aziendale**
 
-Se non usate un predefinito per immagini o non passate specifici protocolli di nitidezza per il server immagine tramite la stringa URL, l’immagine ricampionata non verrà resa più nitida. Tuttavia, se si verifica questa mancanza di nitidezza, potete impostare i valori di nitidezza predefiniti, in modo che qualsiasi immagine abbia sempre una certa nitidezza.
+Se non hai utilizzato un predefinito immagine o non hai passato protocolli di nitidezza specifici per Image Server lungo la stringa URL, allora l&#39;immagine non viene nitida quando viene ricampionata verso il basso. Tuttavia, se si verifica questa mancanza di nitidezza, potete impostare i valori di nitidezza predefiniti in modo che qualsiasi immagine abbia sempre una certa nitidezza.
 
 Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se impostate la modalità di ricampionamento predefinita su **`Sharp2`**, aumenta sempre la nitidezza dell&#39;immagine durante il downsampling.
 
 **Aggiungi nitidezza ai predefiniti visualizzatore**
 
-Se non aggiungete al predefinito i modificatori immagine per la nitidezza, la piccola immagine di caricamento iniziale può apparire sfocata: questo accade perché viene ricampionata per rientrare nella finestra del visualizzatore, ma non viene applicata alcuna regolazione a livello di nitidezza.
+A meno che non abbiate aggiunto modificatori di immagini nitide al predefinito, la piccola immagine iniziale caricata può avere un aspetto morbido perché viene ricampionata verso il basso per adattarsi alla finestra del visualizzatore senza essere nitida.
 
 I predefiniti visualizzatore (come i predefiniti immagine) consentono di centralizzare molte opzioni in un&#39;unica posizione, inclusa la scelta dell&#39;interfaccia e delle opzioni visualizzatore (ad esempio l&#39;inclusione di un pulsante Stampa o il controllo della velocità dell&#39;animazione di zoom). I predefiniti per visualizzatori si trovano nella stessa sezione dei predefiniti immagine, in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 

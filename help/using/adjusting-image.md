@@ -1,18 +1,16 @@
 ---
 title: Regolare un’immagine
 description: Scopri come regolare un’immagine in Adobe Dynamic Media Classic.
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 43%
@@ -59,13 +57,13 @@ Seleziona **[!UICONTROL Salva]**.
 
 ## Creare un alias per un&#39;immagine {#creating-an-alias-for-an-image}
 
-Dopo aver regolato un&#39;immagine, è possibile salvarla come un&#39;altra visualizzazione dell&#39;immagine principale. A questo scopo, puoi creare un alias per l’immagine utilizzando **[!UICONTROL Salva come visualizzazione aggiuntiva dell’elemento primario]** funzionalità.
+Dopo aver regolato un&#39;immagine, è possibile salvarla come un&#39;altra visualizzazione dell&#39;immagine principale. A questo scopo, puoi creare un alias per l’immagine utilizzando **[!UICONTROL Salva come altra visualizzazione primaria]** funzionalità.
 
 **Per creare un alias per un&#39;immagine:**
 
 1. Nella visualizzazione griglia o nella visualizzazione elenco, nella **[!UICONTROL Modifica]** accanto a un&#39;immagine per la quale si desidera creare un alias, selezionare **[!UICONTROL Regola]**.
 1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Salva con nome]**.
-1. Dall’elenco a discesa nella sezione **[!UICONTROL Salva con nome]** finestra di dialogo, seleziona **[!UICONTROL Salva come visualizzazione aggiuntiva dell’elemento primario]**.
+1. Dall’elenco a discesa nella sezione **[!UICONTROL Salva con nome]** finestra di dialogo, seleziona **[!UICONTROL Salva come altra visualizzazione primaria]**.
 1. Nella finestra di dialogo **[!UICONTROL Nome cartella]**, selezionate la cartella in cui desiderate salvare l’immagine alias.
 1. Nel campo **[!UICONTROL Nome file]**, digitate il nome da assegnare all’alias.
 1. Seleziona **[!UICONTROL Salva]**.

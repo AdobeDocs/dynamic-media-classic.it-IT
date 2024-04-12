@@ -1,21 +1,19 @@
 ---
 title: Configurazione personale
 description: Tutti gli utenti possono modificare le impostazioni nella schermata Personal Setup (Impostazione personale) di Adobe Dynamic Media Classic.
-uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 25%
+source-wordcount: '827'
+ht-degree: 23%
 
 ---
 
@@ -35,8 +33,8 @@ Identifica il vostro nome e nome dell’account, il nome utente (indirizzo e-mai
 
 ## Desktop
 
-* **Cancella cache immagini** - Rimuove dal computer tutti i file immagine Dynamic Media memorizzati nella cache di Adobe.
-* **Cancella cache risorse** - Rimuove dal computer tutti i file di risorse Adobe Dynamic Media memorizzati nella cache.
+* **Cancella cache immagini** - Rimuove dal computer tutti i file immagine Dynamic Medie memorizzati nella cache di Adobe.
+* **Cancella cache risorse** - Rimuove dal computer tutti i file di risorse Adobe Dynamic Medie memorizzati nella cache.
 
 Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app desktop, puoi cancellare manualmente la cache direttamente dal file system. In base al sistema operativo in uso, accedi a:
 
@@ -45,7 +43,7 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 ## Creative Suite Extension
 
-**Per installare Adobe Dynamic Media Creative Suite Extension:**
+**Per installare Adobe Dynamic Medie Creative Suite Extension:**
 
 1. In Adobe Dynamic Media Classic, nella barra degli strumenti, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**, in Estensione Creative Suite, seleziona **[!UICONTROL Scarica ora]** per scaricare `s7csxs.zxp` file.
 1. Seleziona la **[!UICONTROL Installazione]** e **[!UICONTROL Requisiti di sistema]** collegamenti per ulteriori informazioni sull’estensione.
@@ -66,9 +64,9 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 |If you are running|Do this|
 |--- |--- |
-|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, select CC-2014 > mac64.</li><li>Select libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator’s package contents folder, right-select on the Adobe illustrator CC 2014 icon and select Show Package Contents from context menu).</li><li>Return to the same libraries folder, select `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
-|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
-|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, select CC-2014 > mac64.</li><li>Select libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator's package contents folder, right-select on the Adobe illustrator CC 2014 icon and select Show Package Contents from context menu).</li><li>Return to the same libraries folder, select `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
 The plug-in is now available for you to use in Adobe Illustrator. -->
 
@@ -115,4 +113,4 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
    * Contenere almeno un numero.
    * Contengono almeno uno dei seguenti caratteri speciali: `# $ & - _ : { }`
 * **[!UICONTROL Ridigitate la password]** - Immettere nuovamente la nuova password per confermare che la si sta immettendo correttamente.
-* **[!UICONTROL Scadenza password]** - Determina se la password scade dopo 72 giorni come misura di sicurezza. Se scegliete Sì, trascorsi i 72 giorni verrà chiesto di creare una nuova password.
+* **[!UICONTROL Scadenza password]** - Determina se la password scade dopo 72 giorni come misura di sicurezza. Se si seleziona Sì, viene richiesto di creare una password dopo 72 giorni.

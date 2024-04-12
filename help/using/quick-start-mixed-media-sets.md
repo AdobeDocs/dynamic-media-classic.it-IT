@@ -1,27 +1,25 @@
 ---
 title: "Guida rapida: set di file multimediali diversi"
 description: Introduzione e Guida rapida ai set di file multimediali diversi per aiutarti a iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
-uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 34%
+source-wordcount: '656'
+ht-degree: 33%
 
 ---
 
 # Avvio rapido: set di file multimediali diversi{#quick-start-mixed-media-sets}
 
-I set di file multimediali diversi di offrono agli utenti un’esperienza visiva integrata. I set di file multimediali diversi possono includere immagini, set di immagini, set di campioni, set 360 gradi e video. Gli utenti possono selezionare diverse schede all’interno del visualizzatore di file multimediali diversi per visualizzare gli elementi nei diversi visualizzatori. Se non è specificata alcuna scheda, tutte le risorse sono visualizzate insieme nella riga dei campioni.
+I set di file multimediali diversi offrono agli utenti un’esperienza di visualizzazione integrata. I set di file multimediali diversi possono includere immagini, set di immagini, set di campioni, set 360 gradi e video. Gli utenti possono selezionare diverse schede all’interno del visualizzatore di file multimediali diversi per visualizzare gli elementi nei diversi visualizzatori. Se non è specificata alcuna scheda, tutte le risorse sono visualizzate insieme nella riga dei campioni.
 
 I predefiniti per visualizzatori di set di file multimediali diversi includono opzioni per le community Internet che permettono agli utenti finali di incorporare il codice, copiare l’URL e collegarsi al sito Web principale. Gli utenti possono usare queste opzioni per scambiarsi informazioni sui prodotti sui propri siti Web o sui siti di social networking.
 
@@ -31,7 +29,7 @@ Questo servizio Quick Start per set di file multimediali diversi è stato proget
 
 Per iniziare, caricate le immagini, i file di campioni e i video che desiderate inserire nei set di file multimediali diversi. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di file multimediali diversi, assicurati di tenere presente questa funzione quando scegli le immagini. Assicurati che le dimensioni delle immagini siano di almeno 2000 pixel.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare file dal computer in una cartella su Adobe Dynamic Media Classic.
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare file dal computer in una cartella in Adobe Dynamic Media Classic.
 
 Consulta [Caricare i file](uploading-files.md#uploading-your-files).
 
@@ -67,7 +65,7 @@ Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#preview
 
 La pubblicazione di un set di file multimediali diversi lo inserisce sui server Adobe Dynamic Media Classic e attiva la stringa URL.
 
-i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Sul **server video** vengono pubblicati i video effettivi contrassegnati per la pubblicazione, E, si utilizza **Server immagini** per pubblicare le risorse correlate, come le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivi.
+i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Utilizzare **Server video** per pubblicare i video effettivi contrassegnati per la pubblicazione. E, si utilizza **Server immagini** per pubblicare le risorse correlate, come le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivi.
 
 Consulta [Pubblicare un set di file multimediali diversi](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 

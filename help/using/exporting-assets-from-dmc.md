@@ -1,18 +1,16 @@
 ---
 title: Esportare risorse da Adobe Dynamic Media Classic
 description: Scopri come esportare le risorse da Adobe Dynamic Media Classic.
-uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 48%
@@ -25,7 +23,7 @@ ht-degree: 48%
 
 Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione. Inoltre, è consentito un massimo di 500 risorse totali per processo di esportazione.
 
-Adobe Dynamic Media Classic tiene traccia dei processi di esportazione nella schermata Processi.
+Adobe Dynamic Media Classic mantiene un record dei processi di esportazione nella schermata Processi.
 
 **Per esportare risorse da Adobe Dynamic Media Classic:**
 

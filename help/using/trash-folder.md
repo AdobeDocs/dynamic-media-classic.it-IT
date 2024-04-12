@@ -1,27 +1,25 @@
 ---
 title: Gestire la cartella Cestino
 description: Scopri come gestire la cartella Cestino.
-uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # Gestire la cartella Cestino{#managing-the-trash-folder}
 
-Gli elementi eliminati da Adobe Dynamic Media Classic vengono spostati nella cartella Cestino. Gli eliminati rimangono in questa cartella per sette giorni finché non vengono ripristinati o eliminati definitivamente. Puoi esaminare gli elementi eliminati selezionando la **[!UICONTROL Cestino]** nella parte inferiore della libreria delle risorse e visualizzazione degli elementi nella pagina Cartella cestino.
+Gli elementi eliminati da Adobe Dynamic Media Classic vengono spostati nella cartella Cestino. Gli elementi eliminati rimangono nella cartella per sette giorni finché non vengono ripristinati o eliminati definitivamente. Puoi esaminare gli elementi eliminati selezionando la **[!UICONTROL Cestino]** nella parte inferiore della libreria delle risorse e visualizzazione degli elementi nella pagina Cartella cestino.
 
 Tutti gli utenti possono ripristinare gli elementi della cartella Cestino alle cartelle da cui sono stati eliminati. Possono inoltre svuotare la cartella Cestino di tutto il suo contenuto.
 
@@ -35,7 +33,7 @@ L&#39;eliminazione di elementi dalla cartella Cestino comporta l&#39;eliminazion
 
 Se eliminate un elemento di una cartella, questo viene inserito nella cartella Cestino e si verifica quanto segue:
 
-* Anche se l’elemento è stato rimosso dalle cartelle di Adobe Dynamic Media Classic, il relativo ID non può essere assegnato a un’altra risorsa mentre rimane nella cartella Cestino. Se tenti di caricare una risorsa con lo stesso nome di un file nella cartella Cestino, Adobe Dynamic Media Classic aggiunge un numero al nome della risorsa.
+* Anche se l’elemento viene rimosso dalla cartella Adobe Dynamic Media Classic, il relativo ID non può essere assegnato a un’altra risorsa finché rimane nella cartella Cestino. Se tenti di caricare una risorsa con lo stesso nome di un file nella cartella Cestino, Adobe Dynamic Media Classic aggiunge un numero al nome della risorsa.
 * L’elemento non può essere pubblicato. Anche se l’elemento era contrassegnato per la pubblicazione al momento in cui è stato eliminato, non verrà pubblicato.
 * L&#39;elemento rimane nella cartella Cestino finché non viene ripristinato, non trascorrono sette giorni o l&#39;utente sceglie **[!UICONTROL Svuotare il cestino]** comando. Trascorsi sette giorni, l’elemento viene eliminato automaticamente da un’operazione di pulizia automatica.
 
@@ -61,4 +59,4 @@ Per eliminare definitivamente le risorse dalla cartella Cestino, seleziona la **
 
 >[!MORELIKETHIS]
 >
->* [Eliminare le risorse](moving-renaming-deleting-assets.md#delete_assets)
+>* [Eliminare risorse](moving-renaming-deleting-assets.md#delete_assets)

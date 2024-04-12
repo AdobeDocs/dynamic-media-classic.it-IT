@@ -1,21 +1,19 @@
 ---
-title: "Avvio rapido: zoom"
+title: "Guida introduttiva: Zoom"
 description: Introduzione e Guida rapida allo zoom per aiutarti a iniziare subito a usare lo zoom.
-uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 25%
+source-wordcount: '844'
+ht-degree: 28%
 
 ---
 
@@ -47,7 +45,7 @@ Per creare una destinazione di zoom, selezionare **[!UICONTROL Modifica]** e sce
 
 I predefiniti per visualizzatori zoom determinano lo stile e il comportamento dei visualizzatori zoom usati. Se si è un amministratore, è possibile impostare i predefiniti visualizzatore zoom; Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore zoom basati su best practice.
 
-Per creare un predefinito visualizzatore zoom, sulla barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**. Nella pagina Predefiniti visualizzatore, seleziona **[!UICONTROL Aggiungi]**, scegliere una piattaforma e un Visualizzatore zoom, quindi selezionare **[!UICONTROL Aggiungi]**. Scegliere quindi le opzioni nella pagina Configura visualizzatore.
+Per creare un predefinito visualizzatore zoom, sulla barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**. Nella pagina Predefiniti visualizzatore, seleziona **[!UICONTROL Aggiungi]**, scegliere una piattaforma e un Visualizzatore zoom, quindi selezionare **[!UICONTROL Aggiungi]**. Quindi scegli le opzioni sul `Configure Viewer` pagina.
 
 Offerte Adobe Dynamic Media Classic **[!UICONTROL Predefinito visualizzatore zoom]** opzioni che consentono di selezionare lo stile del pulsante e l&#39;aspetto generale del visualizzatore. Potete inoltre personalizzare le impostazioni di zoom del sito Web. Consulta [Impostare i predefiniti per visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
@@ -55,16 +53,16 @@ Offerte Adobe Dynamic Media Classic **[!UICONTROL Predefinito visualizzatore zoo
 
 Potete visualizzare in anteprima le immagini in un visualizzatore zoom per verificare l’esperienza di zoom quando questo viene applicato alle immagini.
 
-Per esplorare diversi predefiniti visualizzatore zoom e come presentano l’esperienza di zoom, seleziona un’immagine nel pannello Sfoglia e seleziona **[!UICONTROL Anteprima]**. Vai a **[!UICONTROL Predefiniti]** > **[!UICONTROL Zoom]**, quindi selezionare un predefinito con i menu Zoom.
+Per esplorare diversi predefiniti visualizzatore zoom e come presentano l’esperienza di zoom, seleziona un’immagine nel pannello Sfoglia e seleziona **[!UICONTROL Anteprima]**. Vai a **[!UICONTROL Predefiniti]** > **[!UICONTROL Zoom]**, quindi selezionare un predefinito con il menu Zoom.
 
 Vengono visualizzati i pulsanti Zoom. Potete visualizzare l’aspetto delle immagini di zoom sul sito Web. Selezionare i pulsanti Zoom (e le destinazioni di zoom) per verificare le impostazioni del predefinito visualizzatore zoom scelto. Consulta [Anteprima di immagini con diversi visualizzatori zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Pubblicare immagini di zoom
 
-Quando si pubblicano le immagini di zoom, queste vengono posizionate sui server immagini Dynamic Media in modo che possano essere inviate al sito Web e all&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. Queste stringhe URL richiamano le immagini di zoom dai server immagini Dynamic Media al sito Web o all&#39;applicazione.
+Quando si pubblicano le immagini di zoom, queste vengono posizionate sui server immagini Dynamic Medie in modo che possano essere inviate al sito Web e all&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. Queste stringhe URL richiamano le immagini di zoom dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Nella finestra di dialogo Pubblica, seleziona **[!UICONTROL Invia pubblicazione]**. Consultate [Pubblicazione delle immagini di zoom](publishing-zoom-images.md#publishing_zoom_images).
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Nella finestra di dialogo Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**. Consultate [Pubblicazione delle immagini di zoom](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Collegare i visualizzatori Zoom alla pagina Web
 
-Adobe Dynamic Media Classic crea le stringhe di callout URL necessarie per ingrandire le immagini e le attiva quando si pubblicano le immagini nei server immagini Dynamic Media. Puoi copiare queste stringhe URL da **[!UICONTROL Anteprima]** pagina. Dopo essere state copiate, le stringhe URL sono disponibili sui siti Web e le applicazioni. Consulta [Collegare i visualizzatori Zoom alla pagina Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic crea le stringhe di callout URL necessarie per ingrandire le immagini e le attiva quando si pubblicano le immagini su Dynamic Medie Image Server. Puoi copiare queste stringhe URL da **[!UICONTROL Anteprima]** pagina. Dopo essere state copiate, le stringhe URL sono disponibili sui siti Web e le applicazioni. Consulta [Collegare i visualizzatori Zoom alla pagina Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

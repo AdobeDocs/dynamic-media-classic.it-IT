@@ -1,20 +1,18 @@
 ---
 title: Panoramica del programma Adobe Dynamic Media Classic
 description: Panoramica del programma Adobe Dynamic Media Classic e dell'intero processo di workflow.
-uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '474'
 ht-degree: 17%
 
 ---
@@ -29,7 +27,7 @@ Vedi anche [Panoramica della piattaforma](https://s7d5.scene7.com/s7viewers/html
 
 I passaggi chiave del flusso di lavoro di Adobe Dynamic Media Classic sono i seguenti:
 
-* **Caricare e gestire le risorse** - Carica le risorse multimediali in Adobe Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, nonché applicarvi metadati.
+* **Caricare e gestire le risorse** - Carica le risorse multimediali in Adobe Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, Puoi anche applicare i metadati alle risorse.
 
 * **Creare rich media** : crea diverse configurazioni delle risorse, ad esempio eCatalog, Set di immagini, Set 360 gradi, Set di campioni, Set di file multimediali diversi, Modelli di base e Modelli FXG.
 

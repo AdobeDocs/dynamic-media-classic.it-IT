@@ -1,21 +1,19 @@
 ---
 title: Impostare i predefiniti per visualizzatore zoom
 description: Scopri come impostare i predefiniti per visualizzatore zoom in Adobe Dynamic Media Classic.
-uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 47%
+source-wordcount: '629'
+ht-degree: 48%
 
 ---
 
@@ -61,7 +59,7 @@ Adobe Dynamic Media Classic consiglia i seguenti parametri per i predefiniti vis
    Nella pagina Anteprima viene visualizzato il visualizzatore durante l&#39;aggiornamento e la modifica delle impostazioni.
 
 1. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome]**.
-1. Nella pagina Predefiniti visualizzatore esaminare il predefinito visualizzatore zoom o il predefinito visualizzatore zoom guidato creato. Se è necessario apportare modifiche, selezionare **[!UICONTROL Modifica]**, modificare le impostazioni nella pagina Configura visualizzatore e quindi selezionare **[!UICONTROL Salva]**.
+1. Nella pagina Predefiniti visualizzatore esaminare il predefinito visualizzatore zoom o il predefinito visualizzatore zoom guidato creato. Se è necessario apportare modifiche, selezionare **[!UICONTROL Modifica]**, modificare le impostazioni in `Configure Viewer` e quindi selezionare **[!UICONTROL Salva]**.
 
 Per informazioni sulla gestione dei predefiniti per visualizzatore nella schermata Predefiniti visualizzatore, consultate [Predefiniti per visualizzatore](application-setup.md#viewer_presets).
 

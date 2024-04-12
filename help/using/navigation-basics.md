@@ -1,20 +1,18 @@
 ---
 title: Nozioni di base sulla navigazione
 description: Scopri come navigare nell’interfaccia utente di Adobe Dynamic Media Classic.
-uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '656'
 ht-degree: 16%
 
 ---
@@ -33,11 +31,11 @@ Nella barra di navigazione globale, situata nella parte superiore della schermat
 
 * **[!UICONTROL Seleziona società]** - Scegli la società a cui desideri accedere dal menu. Questo pulsante non è disponibile se si lavora con una società.
 
-* **[!UICONTROL Carica]** - Apre la schermata Carica in modo da poter caricare i file dal computer o dalla rete in Adobe Dynamic Media Classic. I file possono essere caricati dal desktop o mediante FTP. Consulta [Carica file](/help/using/uploading-files.md).
+* **[!UICONTROL Carica]** - Apre la schermata Carica in modo da poter caricare i file dal computer o dalla rete in Adobe Dynamic Media Classic. Puoi caricare i file dal desktop o tramite FTP. Consulta [Carica file](/help/using/uploading-files.md).
 
 * **[!UICONTROL Genera]** : scegli un’attività Genera dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
 
-* **[!UICONTROL Pubblica]** : apre la schermata Pubblica in modo da poter pubblicare risorse rich media su Adobe Dynamic Medie Image Server e sul resto dell’infrastruttura Adobe Dynamic Media Classic SAAS.
+* **[!UICONTROL Pubblica]** : apre la schermata Pubblicazione in modo da poter pubblicare risorse rich media su Adobe Dynamic Medie Image Server e sul resto dell’infrastruttura Adobe Dynamic Media Classic SAAS.
 
 * **[!UICONTROL Processi]** - Apre la schermata Processi in modo da poter esaminare i record dei processi di caricamento e pubblicazione.
 
@@ -59,7 +57,7 @@ Nella barra di navigazione globale, situata nella parte superiore della schermat
 
 La Libreria risorse consente di organizzare le risorse che state usando. Potete creare cartelle e sottocartelle per ordinare le risorse nella Libreria risorse.
 
-La parte superiore del pannello Libreria risorse contiene i comandi per individuare le risorse. Potete cercare le risorse e applicare dei filtri per individuare le risorse. Seleziona la **[!UICONTROL Cestino]** nella parte inferiore della Libreria risorse per esaminare le risorse eliminate.
+La parte superiore del pannello Libreria risorse contiene i comandi per individuare le risorse. Potete cercare le risorse e applicare dei filtri per individuare le risorse. Per esaminare le risorse eliminate, seleziona la **[!UICONTROL Cestino]** nella parte inferiore della libreria delle risorse.
 
 >[!NOTE]
 >
