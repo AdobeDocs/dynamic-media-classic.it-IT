@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
 # Abilita rapporti video di Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
-Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è più necessario abilitare i quattro eventi visualizzatore video (Riproduci, Pausa, Interrompi, Milestone) quando si configura Adobe Analytics in Adobe Dynamic Media Classic. Video Heartbeat funziona con visualizzatori Adobe Dynamic Media Classic HTML5 Video e Multimediali misti pronti all’uso. Il lettore video genera dati di tracciamento per la visualizzazione in Adobe Analytics Video Reports.
+Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è più necessario abilitare i quattro eventi visualizzatore video (Riproduci, Pausa, Interrompi, Milestone) quando si configura Adobe Analytics in Adobe Dynamic Media Classic. Video Heartbeat funziona con visualizzatori Adobe Dynamic Media Classic HTML5 Video e Multimediali misti pronti all’uso. Il lettore video genera i dati di tracciamento per la visualizzazione nei rapporti video di Adobe Analytics.
 
 * Per un’introduzione allo streaming multimediale e alla &quot;misurazione heartbeat&quot;, consulta [Informazioni su 适用于流媒体的 Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
@@ -35,4 +35,4 @@ Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è pi
 
 >[!NOTE]
 >
->Se la soluzione con licenza di Adobe Analytics non include Video Heartbeat, devi continuare a utilizzare i passaggi descritti in questo capitolo per assegnare variabili Adobe Analytics a eventi e variabili visualizzatore Adobe Dynamic Media Classic.
+>Se la soluzione con licenza di Adobe Analytics non include Video Heartbeat, continua a utilizzare i passaggi descritti in questo capitolo per assegnare le variabili di Adobe Analytics agli eventi e alle variabili del visualizzatore Adobe Dynamic Media Classic.

@@ -1,13 +1,13 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 # Documentazione di Adobe Dynamic Media Classic
 
-Questo è l’archivio della documentazione di Adobe Dynamic Media Classic.
+Archivio della documentazione di Adobe Dynamic Media Classic.
 
 I tuoi contributi alla documentazione di sono i benvenuti. Consulta le risorse seguenti:
 

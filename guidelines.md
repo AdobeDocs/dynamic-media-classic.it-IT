@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 Adobe sa che gli utenti di Adobe Dynamic Media Classic lavorano in ambienti altamente competitivi per creare esperienze digitali che li distinguano dalla concorrenza. Pertanto, è fondamentale che, quando Adobe offre nuovi strumenti avanzati, questi siano integrati da una documentazione accurata e chiara. In questo modo il cliente può utilizzare immediatamente il proprio investimento Adobe Dynamic Media Classic e massimizzare il ROI.
 
-L’obiettivo della documentazione è renderla disponibile agli utenti il prima possibile. Adobe dà quindi priorità a una documentazione accurata e fruibile e si impegna ad aggiornarla e migliorarla continuamente.
+L’obiettivo della documentazione è renderla disponibile agli utenti il prima possibile. Adobe assegna quindi priorità a una documentazione accurata e fruibile, che viene continuamente aggiornata e migliorata.
 
 ## Contributi alla documentazione
 
@@ -19,21 +19,21 @@ Al fine di migliorare continuamente la documentazione, apprezziamo il contributo
 
 ## Standard della documentazione
 
-Adobe accoglie con favore i contributi alla sua documentazione, ma qualsiasi contributo, sotto forma di richiesta o segnalazione di un problema, deve essere conforme agli standard in merito ai contributi e alla documentazione di Adobe.
+Adobe accoglie con favore i contributi alla sua documentazione, ma qualsiasi contributo alla documentazione in una richiesta o in un problema deve essere conforme agli standard in merito ai contributi e alla documentazione di Adobe.
 
 I contributi che non soddisfano tali standard possono essere rifiutati.
 
-### Adobe documenta i casi d’uso standard.
+### I casi d’uso standard sono documenti di Adobe
 
 La documentazione riguarda i casi di utilizzo standard. I casi di utilizzo che esulano dall’ambito di installazione e utilizzo standard del prodotto non rientrano nella documentazione.
 
-### In genere, l’Adobe non documenta i bug o le relative soluzioni.
+### L’Adobe generalmente non documenta i bug o le loro soluzioni
 
 La documentazione riguarda i casi di utilizzo standard. Per questo motivo, i bug, gli effetti causati dai bug e le soluzioni alternative per i bug non sono documentati.
 
 Fanno eccezione le note sulla versione, in cui possono essere elencati i problemi noti con possibili soluzioni approvate dal team di gestione del prodotto.
 
-### I contributi alla documentazione non devono essere usati per rispondere a domande tecniche.
+### I contributi alla documentazione non devono essere usati per rispondere a domande tecniche
 
 È gradita come contributo qualsiasi idea che punti al miglioramento della documentazione. Tuttavia, commenti, problemi e richieste sono intesi per *contributi* solo. L’obiettivo non è di rispondere a domande sull’utilizzo di Adobe Dynamic Media Classic, su come implementare un progetto o risolvere problemi tecnici.
 
@@ -41,11 +41,11 @@ Eventuali domande sull’utilizzo di Adobe Dynamic Media Classic o su errori tec
 
 ***I contributi alla documentazione non sostituiscono, ad Adobe, l’Assistenza clienti*** e tutti i contributi che richiedono risposte a domande correlate al supporto sono respinti.
 
-### I contributi devono fare riferimento in modo chiaro alle pagine della documentazione interessate.
+### I contributi devono fare riferimento in modo chiaro alle pagine della documentazione interessate
 
 Se apri una segnalazione problema per suggerire miglioramenti alla documentazione, devi includere i collegamenti alle pagine interessate. Se si crea un problema utilizzando **Modifica questa pagina** su una pagina della documentazione, il problema viene creato automaticamente con un collegamento alla pagina.
 
-Ciò non si applica alle richieste pull, che fanno riferimento alle pagine interessate.
+Questo flusso di lavoro non si applica alle richieste pull, che fanno riferimento alle pagine interessate.
 
 ## Linee guida per la documentazione
 
@@ -83,4 +83,4 @@ Nelle schermate non devono essere utilizzati marcatori o altre annotazioni (come
 
 ### Riferimenti a specifiche versioni
 
-Se possibile, cerca di evitare riferimenti diretti a una versione specifica in tutto il contenuto della documentazione. Questo rende la documentazione più flessibile ed estensibile per le versioni future.
+Se possibile, cerca di evitare riferimenti diretti a una versione specifica in tutto il contenuto della documentazione. In questo modo la documentazione sarà più flessibile ed estensibile per le versioni future.

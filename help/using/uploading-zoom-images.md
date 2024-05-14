@@ -10,10 +10,10 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 18%
+source-wordcount: '224'
+ht-degree: 16%
 
 ---
 
@@ -29,11 +29,11 @@ Per istruzioni dettagliate sul caricamento delle immagini, consulta [Carica file
 
 Per sfruttare al meglio le funzioni Zoom di Adobe Dynamic Media Classic, prepara i file immagine di zoom prima di caricarli:
 
-* **Dimensioni immagine** - Adobe Dynamic Media Classic consiglia di utilizzare file di immagine di dimensioni minime pari a 2000 pixel. per consentire agli utenti di visualizzarle chiaramente quando applicano lo zoom.
+* **Dimensioni immagine**: Adobe Dynamic Media Classic consiglia di utilizzare file di immagine con dimensioni minime di 2000 pixel. per consentire agli utenti di visualizzarle chiaramente quando applicano lo zoom.
 
-* **Formati di file** : Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard, tra cui TIFF, BMP, JPEG, PSD, GIF e EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
+* **Formati di file**: Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard. I formati includono TIFF, BMP, JPEG, PSD, GIF e EPS. Si consigliano formati di immagine senza perdita di dati, come TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
 
-* **Spazio colore** - RGB è lo spazio colore per le presentazioni di immagini Web; le immagini CMYK vengono automaticamente convertite in RGB al momento del caricamento. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Vedi anche Profili ICC.
+* **Spazio colore**: RGB è lo spazio colore per le presentazioni di immagini web; le immagini CMYK vengono convertite automaticamente in RGB quando vengono caricate. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Vedi anche Profili ICC.
 
 >[!MORELIKETHIS]
 >

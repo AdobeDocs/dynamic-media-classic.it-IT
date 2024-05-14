@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 40%
+source-wordcount: '2225'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 È possibile memorizzare informazioni specifiche dei file utilizzati in Adobe Dynamic Media Classic; tali informazioni sono denominate *metadati*. Puoi utilizzare i metadati in Adobe Dynamic Media Classic per organizzare, cercare, filtrare e ordinare le risorse.
 
-I metadati vengono visualizzati in visualizzazione dettagli insieme alle informazioni generate da Adobe Dynamic Media Classic, ad esempio la data di creazione del file, la data di pubblicazione e le parole chiave. Per visualizzare i metadati, apri la risorsa in Vista dettagli, quindi seleziona il pannello Metadati. Potete immettere e modificare i metadati nella vista Dettaglio.
+I metadati vengono visualizzati nella vista Dettaglio. Viene visualizzato insieme alle informazioni generate da Adobe Dynamic Media Classic. Ad esempio, data di creazione del file, data di pubblicazione e parole chiave. Per visualizzare i metadati, apri la risorsa in Vista dettagli, quindi seleziona il pannello Metadati. Potete immettere e modificare i metadati nella vista Dettaglio.
 
 Alcuni metadati sono incorporati direttamente in un file. Se un file contiene questi metadati, Adobe Dynamic Media Classic li carica automaticamente con il file. Puoi incorporare i metadati nelle risorse sorgente in Adobe Photoshop, InDesign, Illustrator e altre applicazioni; Adobe Dynamic Media Classic riconosce tali metadati. Potete anche aggiungere metadati a singoli file nel pannello Metadati in Vista dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
 
@@ -97,15 +97,15 @@ Per ulteriori informazioni sulle proprietà standardizzate, consulta [Centro per
 
 Tenete sempre presente quanto segue per identificare i diversi tipi di metadati da importare:
 
-* I campi definiti dall&#39;utente sono identificati dal relativo nome creato in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Campi definiti dall&#39;utente]**. Utilizza il `Generate file` per ottenere un elenco di tutte le FDU definite nel formato di importazione corretto.
+* I nomi dei campi definiti dall&#39;utente sono identificati come creati in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Campi definiti dall&#39;utente]**. Utilizza il `Generate file` per ottenere un elenco di tutte le FDU definite nel formato di importazione corretto.
 * Il nome delle proprietà di metadati XMP deve essere preceduto dal relativo prefisso XMP. Il prefisso e il nome sono separati dal segno due punti (:). Il prefisso XMP si trova in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Schema metadati]** editor. I nomi tecnici si trovano nella documentazione del relativo schema XMP. I nomi delle proprietà dell’XMP non vengono visualizzati nel `Generate file` funzionalità.
-* Il nome delle proprietà Schema metadati deve essere preceduto dal relativo prefisso. Il prefisso e il nome sono separati dal segno due punti (:). Il prefisso e i nomi delle proprietà sono definiti nell’editor Schema metadati. I nomi delle proprietà dello schema metadati non vengono visualizzati nel `Generate file` funzionalità.
+* Il nome delle proprietà Schema metadati deve essere preceduto dal relativo prefisso. Il prefisso e il nome sono separati dal segno due punti (:). Il prefisso e i nomi delle proprietà sono definiti nell’Editor schema metadati. I nomi delle proprietà dello schema metadati non vengono visualizzati nel `Generate file` funzionalità.
 
 Ad esempio: la proprietà XMP per le parole chiave è lo schema XMP &quot;Dublin Core&quot; con il prefisso `dc` e `subject` è il nome tecnico dell’XMP. Il prefisso e il nome tecnico dell’XMP sono combinati nel `dc:subject` nome completo della proprietà. Nel formato di importazione dei metadati XML, `dc.subject` deve essere il nome della proprietà. Nel formato di importazione delimitato da tabulazioni, deve essere l’intestazione della colonna.
 
 ### Importare parole chiave
 
-Le parole chiave possono essere importate come elenco separato da virgole. Se una virgola appare in uno qualsiasi dei singoli valori, deve essere preceduta da una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\).
+Le parole chiave possono essere importate come elenco separato da virgole. Se una virgola appare in uno qualsiasi dei singoli valori, esegui l’escape utilizzando una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\).
 
 Ad esempio, un file di importazione dei metadati contenente il valore `Hello\, World!,back\\slash,foo` per `dc:subject` imposta tre parole chiave XMP sulla risorsa: `Hello, World!,` `back\slash,` e `foo`.
 
@@ -127,11 +127,11 @@ Il prefisso deve essere aggiunto alla relativa intestazione di colonna del campo
 
 ## Importare metadati (tramite FTP) {#import-metadata-via-ftp}
 
-È possibile importare metadati per più file immettendo i metadati in un file XML o delimitato da tabulazioni e selezionando **[!UICONTROL Elabora file di metadati]** nella pagina Carica opzioni processo (tramite la scheda FTP).
+È possibile importare metadati per più file. I metadati vengono immessi in un file XML o delimitato da tabulazioni. Quindi, seleziona **[!UICONTROL Elabora file di metadati]** nella pagina Carica opzioni processo (tramite la scheda FTP).
 
 Accertatevi che i dati presenti nel file XML o delimitato da tabulazioni siano nel formato corretto. Nella prima riga, immettete il campo ID seguito dai nomi dei campi di metadati da modificare. In ogni riga successiva, immettete il nome dell’ID della risorsa seguito dai valori di metadati. I campi non inclusi nel file XML o delimitato da tabulazioni non vengono modificati.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]**. Per importare i metadati, nella pagina Carica seleziona la **[!UICONTROL Tramite FTP]** , quindi seleziona **[!UICONTROL Opzioni processo]**. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Processo]**, quindi seleziona **[!UICONTROL Elabora file di metadati]** casella di controllo.
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]**. Per importare i metadati, nella pagina Carica seleziona la **[!UICONTROL Tramite FTP]** , quindi seleziona **[!UICONTROL Opzioni processo]**. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Processo]**, quindi seleziona la **[!UICONTROL Elabora file di metadati]** casella di controllo.
 
 ## Rinominare gli ID in batch tramite metadati {#batch-rename-ids-using-metadata}
 
@@ -177,21 +177,21 @@ Potete utilizzare l’Editor schema metadati per effettuare le operazioni seguen
 | Sposta su/Sposta giù | L’ordine impostato nello schema viene rispecchiato nell’interfaccia utente. Per modificare l’ordine, selezionate una proprietà o un valore di scelta e utilizzate questi pulsanti. Il trascinamento della selezione non è attualmente supportato. |
 | Elimina | Elimina dallo schema una proprietà o un valore di scelta. Non elimina i valori dal blocco XMP o dal database. La proprietà non è più disponibile per le visualizzazioni metadati e viene rimossa dalla visualizzazione Dettagli risorsa. Se la proprietà è stata pubblicata sul server metadati, esegui una pubblicazione forzata per rimuovere i dati dal server metadati rivolto al pubblico. |
 
-Il sistema genera automaticamente uno schema personalizzato per i campi definiti dall&#39;utente con il prefisso `s7udf`. Lo schema è costituito da campi definiti dall&#39;utente esistenti che vengono modificati nella propria sezione Setup.
+Il sistema genera automaticamente uno schema personalizzato per i campi definiti dall&#39;utente con il prefisso `s7udf`. Lo schema è costituito da campi esistenti definiti dall’utente che vengono modificati nella propria sezione Configurazione.
 
 >[!NOTE]
 >
 >le modifiche apportate allo schema non modificano mai i metadati stessi delle risorse. Tuttavia, non sono visibili per tutte le funzionalità di Adobe Dynamic Media Classic e del server di metadati e non sono accessibili dopo la modifica. Allo stesso modo, se esistono metadati per una risorsa, la creazione dello schema corrispondente rende i metadati utilizzabili in Adobe Dynamic Media Classic e nel server di metadati.
 
-L’Editor schema metadati offre una modalità grafica per aggiungere o modificare uno schema aziendale personalizzato all’interno di Adobe Dynamic Media Classic. Uno schema è definito da un prefisso, uno spazio nomi e un elenco di proprietà.
+L’Editor schema metadati offre una modalità grafica per aggiungere o modificare uno schema aziendale personalizzato all’interno di Adobe Dynamic Media Classic. Un prefisso, uno spazio dei nomi e un elenco di proprietà definiscono uno schema.
 
 * **[!UICONTROL Nome]** - Nome interfaccia utente per lo schema. Utilizzato per identificare le proprietà in nelle visualizzazioni metadati e in Ricerca avanzata. Simile alle sezioni XMP come ad esempio Base, IPTC, PDF.
 
-* **[!UICONTROL Prefisso]** - Identificatore univoco tecnico dello schema. Limitato alle lettere a-z e A-Z. Il prefisso non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato quando i metadati di una risorsa vengono memorizzati nel blocco XMP e nel database. Il prefisso viene utilizzato per identificare in modo univoco i campi di metadati nelle query di ricerca di metadati sul server metadati o durante l’importazione.
+* **[!UICONTROL Prefisso]** - Identificatore univoco tecnico dello schema. Limitato alle lettere a-z e A-Z. Il prefisso non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato quando i metadati di una risorsa vengono memorizzati nel blocco XMP e nel database. Il prefisso identifica in modo univoco i campi di metadati nelle query di ricerca dei metadati sul server di metadati o durante l’importazione.
 
 * **[!UICONTROL Namespace]** - Identificatore univoco tecnico per lo schema, in genere un URL nel modulo `https://your.company.com/name/version/`. Per degli esempi, consultate l’elenco degli schemi standard. Lo spazio dei nomi non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato per memorizzare i metadati nel blocco XMP.
 
-* **[!UICONTROL Descrizione]** - Descrizione in forma libera dello schema.
+* **[!UICONTROL Descrizione]** - Descrizione in formato libero dello schema.
 
 >[!NOTE]
 >
@@ -203,10 +203,10 @@ Le proprietà descrivono i metadati che possono essere memorizzati con questo sc
 | --- | --- |
 | ID | Identificatore tecnico della proprietà. L’ID non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato quando i metadati di una risorsa vengono memorizzati nel blocco XMP e nel database. L’ID viene utilizzato per creare query di ricerca sul server metadati. L’ID ha alcune restrizioni, ad esempio: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Una volta creato, l’ID non può essere modificato. |
 | Etichetta | Nome della proprietà per l’interfaccia utente. |
-| Struttura | Determina il tipo di proprietà e il tipo di dati. La struttura può essere:<ul><li>Tipo semplice: valore singolo di tipo di dati</li><li>Sequenza: elenco di valori dello stesso tipo di dati</li><li>Scelta aperta: selezionate una voce da un elenco di valori predefiniti, oppure immettete del testo a scelta. Può essere solo di tipo Stringa o Intero</li><li>Scelta chiusa: selezionate una voce da un elenco di valori predefiniti (casella a comparsa o elenco di scelta)</li></ul> |
+| Struttura | Determina il tipo di proprietà e il tipo di dati. La struttura può essere:<ul><li>Tipo semplice: valore singolo di tipo di dati</li><li>Sequenza: elenco di valori dello stesso tipo di dati</li><li>Scelta aperta: selezionare un elemento da un elenco di valori predefiniti oppure immettere testo. Può essere solo di tipo String o Integer</li><li>Scelta chiusa: selezionate una voce da un elenco di valori predefiniti (casella a comparsa o elenco di scelta)</li></ul> |
 | Tipo di dati | Selezionate tra i seguenti tipi disponibili: <ul><li>Stringa</li><li>Intero</li><li>Virgola mobile</li><li>Sì/No (booleano)</li><li>Data</li></ul> |
 
-Quando la struttura della proprietà è Scelta aperta o Scelta chiusa, immettete almeno un valore di scelta. Un valore di Scelta aperta può essere modificato. Un valore di Scelta chiusa non può essere modificato. Tutti i valori di scelta hanno lo stesso tipo di dati della proprietà.
+Quando la proprietà ha la struttura Scelta aperta o Scelta chiusa, è necessario fornire almeno un valore di scelta. Un valore di Scelta aperta può essere modificato. Un valore di Scelta chiusa non può essere modificato. Tutti i valori di scelta hanno il Tipo di dati della proprietà.
 
 | Proprietà | Descrizione |
 | --- | --- |

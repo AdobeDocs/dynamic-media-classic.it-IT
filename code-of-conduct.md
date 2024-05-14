@@ -1,5 +1,5 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Allo scopo di promuovere un ambiente aperto e accogliente, i collaboratori e i m
 
 Di seguito sono riportati alcuni esempi di comportamenti che contribuiscono alla creazione di un ambiente positivo:
 
-* Utilizzare un linguaggio amichevole e inclusivo
+* Utilizzare un linguaggio accogliente e inclusivo
 * Rispettare esperienze e punti di vista diversi
 * Accettare con gratitudine le critiche costruttive
 * Concentrarsi su ciò che è meglio per la community
@@ -54,7 +54,8 @@ Non allineato al presente Codice di condotta. Oppure, per vietare, temporaneamen
 
 ## Ambito
 
-Il presente Codice di condotta si applica sia all’interno degli spazi del progetto che negli spazi pubblici quando un utente rappresenta il progetto o la sua community. Esempi di rappresentazione di un progetto o di una community includono l’utilizzo di un indirizzo e-mail ufficiale del progetto o la pubblicazione tramite un account di social media ufficiale. Comprende anche la funzione di rappresentante designato a un evento online o offline. La rappresentazione di un progetto può essere ulteriormente definita e chiarita dai responsabili del progetto.
+Il presente Codice di condotta si applica sia all’interno degli spazi del progetto che negli spazi pubblici quando un utente rappresenta il progetto o la sua community.
+Esempi di rappresentazione di un progetto o di una community includono l’utilizzo di un indirizzo e-mail ufficiale del progetto o la pubblicazione tramite un account di social media ufficiale. Comprende anche la funzione di rappresentante designato a un evento online o offline. I responsabili del progetto possono definire e chiarire ulteriormente la rappresentazione di un progetto.
 
 ## Applicazione
 

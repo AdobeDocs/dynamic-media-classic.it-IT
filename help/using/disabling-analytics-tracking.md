@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: fa5b3971-1c7d-4371-8d69-c399cec0390d
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 3%
@@ -24,4 +24,4 @@ ht-degree: 3%
 1. Disattiva tutti gli eventi nella pagina Configurazione di Adobe Analytics in Adobe Dynamic Media Classic.
 1. Salvate ed effettuate la pubblicazione.
 
-Questi passaggi disattivano il supporto tramite Adobe Dynamic Media Classic e tramite gli URL ottenuti da **[!UICONTROL CopyURL]** funzionalità. Se implementi il tracciamento personalizzato, disabilita il tracciamento di Adobe Analytics come configurato nella pagina Configurazione per evitare conflitti con l’implementazione personalizzata.
+Questi passaggi disattivano il supporto per Adobe Dynamic Media Classic e per gli URL ottenuti da **[!UICONTROL CopyURL]** funzionalità. Se implementi il tracciamento personalizzato, disabilita il tracciamento di Adobe Analytics come configurato nella pagina Configurazione per evitare conflitti con l’implementazione personalizzata.

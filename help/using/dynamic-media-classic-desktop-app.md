@@ -10,14 +10,14 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
 
-# Ora disponibile: app desktop Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
+# Disponibile ora: app desktop Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
 Gli utenti di Adobe Dynamic Media Classic ora hanno accesso a una nuova esperienza di app desktop che non si basa più sulla tecnologia del Flash Adobe nel browser.
 
@@ -48,26 +48,26 @@ La notifica di aggiornamento all&#39;interno dell&#39;applicazione desktop Adobe
 
 * Durante la modifica di un&#39;immagine, il **[!UICONTROL Salva]** i pulsanti non funzionavano.
 * Negli editor di set, il **[!UICONTROL Chiudi]**, **[!UICONTROL Salva]**, e **[!UICONTROL Salva con nome]** diventano disattivati dopo lo scorrimento delle risorse in **[!UICONTROL Aggiungi risorse]** pannello.
-* **[!UICONTROL Play]** nella visualizzazione Dettagli video non funzionava.
+* Il **[!UICONTROL Play]** nella visualizzazione Dettagli video non funzionava.
 * Impossibile immettere `d` e `e` in **[!UICONTROL Nome utente]** e **[!UICONTROL Password]** quando si esegue macOS Monterey.
 * Le rimanenti API di analisi sono state spostate alla versione 2.0.
 
 ## Correzioni nella versione 20.21.3 {#release-sept2021}
 
 * Miniature non funzionanti per le risorse visualizzate dopo un periodo di inattività sull’app desktop.
-* L’app desktop non risponde più, in genere dopo le operazioni Set.
+* L’app Desktop non risponde, in genere dopo le operazioni Set.
 * Modalità di offuscamento e blocco delle richieste abilitata automaticamente in **[!UICONTROL Image Server di prova]**.
 
-  Consulta [Test del servizio di test protetto](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  Consulta [Servizio di testing protetto](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
-* È stato aggiornato il meccanismo di autenticazione con Adobe Analytics. Rilevante per le nuove integrazioni o se alcune variabili Analytics devono essere aggiornate dall’app desktop Dynamic Media Classic.
+* È stato aggiornato il meccanismo di autenticazione con Adobe Analytics. Rilevante per le nuove integrazioni o se alcune variabili Analytics devono essere aggiornate dall’interno dell’app desktop Dynamic Media Classic.
 
   Consulta [Accedere ad Adobe Analytics](/help/using/log-analytics.md) per i passaggi aggiornati.
 
 ## Correzioni nella versione 20.21.2 di {#minor-release}
 
 * Limitazione nota in 20.21.1: **[!UICONTROL Server]** L&#39;elenco a discesa nella schermata di accesso era vuoto.
-* In entrata **[!UICONTROL Opzioni processo di caricamento]**, Valore predefinito per la denominazione dei livelli in **[!UICONTROL Opzioni Photoshop]**, è ora **[!UICONTROL Photoshop e nome livello]**. I livelli nel file PSD vengono caricati come immagini separate.
+* In entrata **[!UICONTROL Opzioni processo di caricamento]**, il valore predefinito del nome del livello in **[!UICONTROL Opzioni Photoshop]**, è ora **[!UICONTROL Photoshop e nome livello]**. I livelli nel file PSD vengono caricati come immagini separate.
    * Il valore predefinito precedente di **[!UICONTROL Nome livello]**, denominate le immagini in base al nome o al numero del livello nel file PSD. Il numero di livello veniva utilizzato se i nomi dei livelli nel file PSD erano nomi di livello predefiniti di Photoshop.
    * Il nuovo valore predefinito di **[!UICONTROL Photoshop e nome livello]**, assegna alle immagini un nome dopo il file PSD seguito dal nome o dal numero del livello. Il numero di livello viene utilizzato se i nomi di livello nel file PSD sono nomi di livello predefiniti di Photoshop.
    * Dato che ora le immagini dei livelli in Adobe Dynamic Media Classic hanno nomi univoci, non si verificherà alcun aggiornamento ai PSD o ai modelli esistenti (quali nomi dei livelli condivisi nei file PSD originali).
@@ -90,8 +90,8 @@ La notifica di aggiornamento all&#39;interno dell&#39;applicazione desktop Adobe
 
 Vedi anche:
 
-* [Scarica e installa in modalità silenziosa l’app desktop Adobe Dynamic Media Classic più recente su Mac](#install-silent-mac-dmc-app)
-* [Scarica e installa in modalità silenziosa la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
+* [Scarica e installa silenziosamente l’app desktop Adobe Dynamic Media Classic più recente su Mac](#install-silent-mac-dmc-app)
+* [Scarica e installa silenziosamente la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
 
 1. Disinstalla le versioni precedenti dell’app desktop Adobe Dynamic Media Classic sul sistema.
 
@@ -145,14 +145,14 @@ Vedi anche:
 
 1. Dopo l’accesso, osserva la familiare esperienza di interfaccia utente del browser. Puoi continuare la tua attività giornaliera di Adobe Dynamic Media Classic come di consueto sull’app desktop.
 
-## Scarica e *silenzioso* installa l’app desktop Adobe Dynamic Media Classic più recente su macOS {#install-silent-mac-dmc-app}
+## Scarica e *silenziosamente* installa l’app desktop Adobe Dynamic Media Classic più recente su macOS {#install-silent-mac-dmc-app}
 
 Vedi anche:
 
 * [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows](#installation-dmc-app)
-* [Scarica e installa in modalità silenziosa la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
+* [Scarica e installa silenziosamente la più recente app desktop Adobe Dynamic Media Classic su Windows](#install-silent-windows-dmc-app)
 
-Per scaricare e *silenzioso* installa la versione più recente dell’app desktop Adobe Dynamic Media Classic su macOS:
+Per scaricare e *silenziosamente* installa la versione più recente dell’app desktop Adobe Dynamic Media Classic su macOS:
 
 1. Disinstalla le versioni precedenti dell’app desktop Adobe Dynamic Media Classic sul sistema.
 
@@ -185,7 +185,7 @@ Per scaricare e *silenzioso* installa la versione più recente dell’app deskto
    | Produzione EMEA (Europa, Medio Oriente e Africa) | https://s7sps3.scene7.com/ |
    | Produzione APAC (Asia-Pacifico) | https://s7sps5.scene7.com/ |
 
-## Scarica e *silenzioso* installa la più recente app desktop Adobe Dynamic Media Classic su Windows® {#install-silent-windows-dmc-app}
+## Scarica e *silenziosamente* installa la più recente app desktop Adobe Dynamic Media Classic su Windows® {#install-silent-windows-dmc-app}
 
 Il comando utilizzato è per un&#39;installazione invisibile all&#39;utente di base di MSI. Tuttavia, il programma di installazione dell’app desktop Adobe Dynamic Media Classic è un programma di installazione MSI InstallScript creato utilizzando InstallShield. Quando si esegue il programma di installazione in modalità record, qualsiasi interazione dell&#39;utente viene registrata in un file di risposta. Questo file di risposta viene quindi utilizzato per un’installazione invisibile all’utente come descritto in [Esecuzione delle installazioni in modalità silenziosa](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -193,9 +193,9 @@ Vedi anche:
 
 * [Scarica e installa l’app desktop Adobe Dynamic Media Classic più recente su Mac o Windows](#installation-dmc-app)
 
-* [Scarica e installa in modalità silenziosa l’app desktop Adobe Dynamic Media Classic più recente su macOS](#install-silent-mac-dmc-app)
+* [Scarica e installa silenziosamente l’app desktop Adobe Dynamic Media Classic più recente su macOS](#install-silent-mac-dmc-app)
 
-Per scaricare e *silenzioso* installa la versione più recente dell’app desktop Adobe Dynamic Media Classic su Windows®:
+Per scaricare e *silenziosamente* installa la versione più recente dell’app desktop Adobe Dynamic Media Classic su Windows®:
 
 1. Disinstalla le versioni precedenti dell’app desktop Adobe Dynamic Media Classic sul sistema.
 
@@ -258,7 +258,7 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 ## Limitazioni note in Adobe Dynamic Media Classic 20.20.1 (risolte in 20.20.2)
 
-**_Applicabile solo a Windows®: esiste un limite al numero di file che è possibile caricare tramite l’interfaccia utente dell’app desktop?_**<br>Sì, è possibile caricare un massimo di 150 file alla volta tramite l’interfaccia dell’app desktop.
+**_Applicabile solo a Windows®: esiste un limite al numero di file che è possibile caricare tramite l’interfaccia utente dell’app desktop?_**<br>Sì, è possibile caricare un massimo di 150 file alla volta utilizzando l’interfaccia utente dell’app desktop.
 
 **_Applicabile a Windows® e macOS: come passare da un’azienda all’altra?_**<br>Per passare da un’azienda all’altra, effettua le seguenti operazioni:
 

@@ -10,18 +10,18 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
 # Accedere ad Adobe Analytics{#log-in-to-adobe-analytics}
 
-Prima di effettuare l’accesso per configurare i rapporti di Adobe Analytics e associare le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic, verifica di essere membro del gruppo Accesso al servizio Web in Adobe Analytics. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate tramite l’API dei servizi web di Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
+Verifica di essere membro del gruppo con accesso ai servizi Web in Adobe Analytics. Esegui questa operazione prima di accedere per configurare i rapporti di Adobe Analytics e far corrispondere le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate. Utilizza l’API dei servizi web di Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
 
-Quando effettui l’accesso, puoi inserire l’ID organizzazione Experience Cloud per utilizzare l’implementazione di analisi video più recente. Se scegli di non inserire l&#39;ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione corretta dei dati con altri dati per quel client dall’esterno di Adobe Dynamic Media Classic.
+Quando effettui l’accesso, puoi inserire l’ID organizzazione Experience Cloud per utilizzare l’implementazione di analisi video più recente. Se scegli di non inserire l&#39;ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione dei dati con altri dati per quel client dall’esterno di Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -38,8 +38,8 @@ Inizia integrando Dynamic Media Classic con Adobe Analytics OAuth. L’integrazi
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Nella parte superiore della pagina, dalla sezione **[!UICONTROL Home]** , seleziona **[!UICONTROL Crea nuovo progetto]**.
-   * Nella parte superiore della pagina, dalla sezione **[!UICONTROL Progetti]** scheda. Nell’angolo destro della pagina, seleziona **[!UICONTROL Crea nuovo progetto]**.
+   * Nella parte superiore della pagina, dalla sezione **[!UICONTROL Home]** , seleziona **[!UICONTROL Crea un nuovo progetto]**.
+   * Nella parte superiore della pagina, dalla sezione **[!UICONTROL Progetti]** scheda. Nell’angolo destro della pagina, seleziona **[!UICONTROL Crea un nuovo progetto]**.
 
 1. Nella pagina del progetto, seleziona **[!UICONTROL Aggiungi API]**.
 1. Il giorno **[!UICONTROL Aggiungere un’API]** pagina, seleziona **[!UICONTROL Adobe Analytics]**.
@@ -62,7 +62,7 @@ Inizia integrando Dynamic Media Classic con Adobe Analytics OAuth. L’integrazi
 1. Nel pannello di navigazione, sul lato sinistro della pagina Adobe Analytics, in **[!UICONTROL Credenziali]**, seleziona **[!UICONTROL Web OAuth]**.
 1. Sotto **[!UICONTROL Dettagli delle credenziali]**, eseguire le operazioni seguenti:
    * Sotto **[!UICONTROL ID client]**, seleziona **[!UICONTROL Copia]** per copiare il valore. È necessario questo valore per la successiva configurazione di Analytics nell’applicazione desktop Dynamic Media Classic che deve seguire.
-   * Sotto **[!UICONTROL Segreto client]**, seleziona **[!UICONTROL Recupera segreto client]** per visualizzare il valore associato. Seleziona **[!UICONTROL Copia]** per copiare il valore. È necessario questo valore per la successiva configurazione di Adobe Analytics nell’applicazione desktop Dynamic Media Classic che deve seguire.
+   * Sotto **[!UICONTROL Segreto client]**, seleziona **[!UICONTROL Recupera segreto client]** per visualizzare il valore associato. Seleziona **[!UICONTROL Copia]** per copiare il valore. Questo valore è necessario per la successiva configurazione di Adobe Analytics nell’applicazione desktop Dynamic Media Classic che deve seguire.
 
 ## Configurare Adobe Analytics in Adobe Dynamic Media Classic {#configure-analytics-in-dmc}
 

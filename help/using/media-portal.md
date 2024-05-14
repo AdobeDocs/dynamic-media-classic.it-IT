@@ -10,18 +10,18 @@ role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 13%
+source-wordcount: '112'
+ht-degree: 14%
 
 ---
 
 # Media Portal{#media-portal}
 
-Adobe Medium Portal consente alle aziende di acquisire, controllare e distribuire facilmente le risorse approvate a partner e canali esterni, nonché a utenti interni. L&#39;ambiente &quot;self-service&quot; basato su browser offre agli utenti del portale &quot;viste&quot; controllate dall&#39;amministratore nelle risorse Adobe Dynamic Media Classic, che consentono di accedere facilmente a risorse da caricare, sfogliare, cercare, visualizzare in anteprima ed esportare in formati approvati dall&#39;azienda.
+Utilizzando Adobe Medium Portal le aziende possono acquisire, controllare e distribuire le risorse approvate a partner esterni, canali e utenti interni. L&#39;ambiente &quot;self-service&quot; basato su browser offre agli utenti del portale &quot;viste&quot; controllate dall&#39;amministratore nelle risorse Adobe Dynamic Media Classic, che consentono di accedere facilmente a risorse da caricare, sfogliare, cercare, visualizzare in anteprima ed esportare in formati approvati dall&#39;azienda.
 
-Per ulteriori informazioni su Media Portal, inclusi i requisiti di sistema, consulta [Utilizza Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
+Per ulteriori informazioni su Media Portal, inclusi i requisiti di sistema, consulta [Utilizza Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
 
 Per informazioni relative alla gestione di Media Portal, consultate [Avvio rapido: amministrazione di Media Portal](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Quando crei un set di immagini, Adobe consiglia le seguenti best practice e appl
 | Numero di risorse duplicate per set | Nessun duplicato | 20‡ |
 | Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
 
-‡ best practice prevede di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
+‡ Si consiglia di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
 
 Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Vedi anche [Includi destinazioni di zoom e mappe immagine nei set di immagini](/
 
 Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore per ogni tipo di file rich media. Utilizzare il Visualizzatore zoom: **[!UICONTROL Personalizzato]** > **[!UICONTROL Immagini]** o **[!UICONTROL Set di immagini]**/**[!UICONTROL Visualizzazioni multiple]** predefiniti per visualizzare i set di immagini.
 
-Potete aggiungere o modificare i predefiniti per visualizzatori dalla schermata Impostazione applicazione.
+È possibile aggiungere o modificare i predefiniti visualizzatore dalla schermata Impostazione applicazione.
 
 Consulta [Creare e modificare i predefiniti per visualizzatori](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Consulta [Pubblicare i file](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crea chiamate URL per i set di immagini e li attiva dopo la pubblicazione. Potete copiare tali URL dalla schermata Anteprima.
 
-Selezionare il set di immagini, quindi selezionare **[!UICONTROL Anteprima]**. Selezionate un predefinito visualizzatore set di immagini, quindi selezionate **[!UICONTROL Copia URL]**.
+Selezionare il set di immagini, quindi selezionare **[!UICONTROL Anteprima]**. Selezionare un predefinito visualizzatore set di immagini, quindi fare clic sul pulsante **[!UICONTROL Copia URL]** pulsante.
 
-Consulta [Collegare un set di immagini a una pagina web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Consulta [Collegare il set di immagini a una pagina Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 53%
+source-wordcount: '877'
+ht-degree: 40%
 
 ---
 
@@ -23,14 +23,14 @@ Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, pote
 
 Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Adobe Dynamic Media Classic:
 
-* Il pannello Impostazioni pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita in caso di errori e il numero di ore in cui le informazioni restano nella cache. Inoltre, potete specificare se pubblicare automaticamente gli eCatalog.
+* Il pannello Impostazione InfoPanel consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita per gli errori e il numero di ore in cui le informazioni vengono memorizzate nella cache. Inoltre, potete specificare se pubblicare automaticamente gli eCatalog.
 * Il pannello Feed dati di InfoPanel consente di specificare un file CSV contenente il testo che si desidera visualizzare nel testo di rollover di InfoPanel e di programmare gli orari per l&#39;aggiornamento delle informazioni.
-* La finestra di dialogo Importa metadati (a cui si accede dalla visualizzazione Mappe pagine) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni del testo di rollover. Con l’opzione file CSV puoi utilizzare questa opzione TXT o il pannello Feed dati per il testo di rollover.
-* La visualizzazione Mappe pagine fornisce un’opzione di anteprima del file xml visualizzato per mappe immagine specifiche.
+* La finestra di dialogo Importa metadati (accessibile dalla vista Pagine mappa ) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni di testo di rollover. Con l’opzione file CSV puoi utilizzare questa opzione TXT o il pannello Feed dati per il testo di rollover.
+* La vista Pagine mappa fornisce un’opzione per visualizzare in anteprima il codice xml visualizzato per mappe immagine specifiche.
 
 ## Impostare un modello di risposta per gli eCatalog {#set-up-a-response-template-for-ecatalogs}
 
-Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizzazione del testo in un pannello Info. I modelli di risposta predefiniti determinano come le informazioni vengono presentate nel pannello Info: il numero di colonne e righe, la dimensione dei caratteri, il font e così via. Potete selezionare un modello di risposta predefinito o crearne uno personalizzato.
+Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizzazione del testo in un pannello Info. I modelli di risposta predefiniti determinano come le informazioni vengono presentate nel pannello Info: il numero di colonne e righe, la dimensione dei caratteri, il font e così via. È possibile selezionare un modello di risposta predefinito o crearne uno personalizzato.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Selezionate un predefinito dal menu Modello risposta. Il codice XML per la creazione dei modelli viene visualizzato nella casella Modello utente.
    * Per creare un modello di risposta personalizzato, seleziona **[!UICONTROL Personalizzato]**. Digitate la definizione XML del modello nella casella Modello utente. Potete usare i modelli predefiniti come base per creare dei modelli personalizzati.
 
-1. (Facoltativo) Nella casella Risposta predefinita digitare il testo che si desidera visualizzare se Adobe Dynamic Media Classic rileva un errore nel recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
+1. (Facoltativo) Nella casella Risposta predefinita digitare il testo che si desidera visualizzare se in Adobe Dynamic Media Classic si verifica un errore durante il recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un eCatalog, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
 1. Nella casella TTL di risposta viene visualizzato il numero di ore di attesa prima che i dati vengano memorizzati nella cache:
 
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
@@ -55,12 +55,12 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 
 ## Importare contenuto sorgente per il pannello Info in eCatalog {#import-source-content-for-the-info-panel-in-ecatalogs}
 
-Potete usare un file con valori separati da virgole (CSV) o delimitati da tabulazioni (TXT) per il testo sorgente per il pannello Info di un eCatalog. Per i file delimitati da tabulazioni è richiesta la codifica UTF16 (Unicode). Potete importare tipi di file diversi utilizzando metodi diversi.
+Potete usare un file con valori separati da virgole (CSV) o delimitati da tabulazioni (TXT) per il testo sorgente per il pannello Info di un eCatalog. Per i file delimitati da tabulazioni è richiesta la codifica UTF16 (Unicode). È possibile importare diversi tipi di file utilizzando metodi diversi.
 
 Durante la formattazione del contenuto sorgente, tenete presente i seguenti accorgimenti:
 
 * Verificate che i dati delimitati da tabulazioni e virgole contengano il numero di colonne desiderato per il modello di rollover.
-* Verificate che il primo elemento o la prima colonna di dati sia un identificatore di rollover (associato al valore rollover_key degli URL della mappa immagine).
+* Assicurati che il primo elemento o colonna di dati sia l’identificatore di rollover (associato al valore rollover_key dagli URL della mappa immagine).
 * Assicurati che ogni elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento da sostituire nel modello di risposta. Pertanto, la prima colonna viene sostituita da $1$, la seconda da $2$ e così via.
 
 ### Importare contenuti CSV in eCatalog da una posizione ospitata esternamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
@@ -69,7 +69,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 1. Seleziona la **[!UICONTROL Feed dati InfoPanel]** pannello.
 1. Inserite l’URL per il file CSV nel campo Posizione file CSV esterno (HTTP). Potete incollare l’URL in questo campo o digitarlo direttamente.
 1. (Facoltativo) Specifica un orario per aggiornare il contenuto utilizzando il menu Pianifica aggiornamento e seleziona **[!UICONTROL Aggiungi]**. Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario, selezionalo e seleziona **[!UICONTROL Elimina]**.)
-1. (Facoltativo) Seleziona **[!UICONTROL Esegui aggiornamento ora]** per aggiornare immediatamente il contenuto.
+1. (Facoltativo) Seleziona **[!UICONTROL Esegui aggiornamento ora]** in modo da poter aggiornare immediatamente il contenuto.
 
 ### Importare un file CSV o delimitato da tabulazioni {#import-a-tab-delimited-or-csv-file}
 
@@ -97,6 +97,6 @@ Dalla schermata Mappe pagine potete visualizzare facilmente il testo del pannell
 
 1. Seleziona il rollover del catalogo **[!UICONTROL Modifica]** pulsante.
 1. Seleziona **[!UICONTROL Mappa pagine]**.
-1. Nella parte superiore della tabella sul lato destro dello schermo, scegli **[!UICONTROL Pannello Info]** dal menu Mostra.
+1. Nella parte superiore della tabella, sul lato destro dello schermo, scegliere **[!UICONTROL Pannello Info]** dal menu Mostra.
 
    Il testo chiave di rollover viene visualizzato accanto a ogni mappa immagine che contiene il testo del pannello Info.

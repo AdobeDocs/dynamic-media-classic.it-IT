@@ -10,9 +10,9 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 20%
 
 ---
@@ -40,17 +40,17 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## Aprire una risorsa nella vista Dettaglio {#open-an-asset-in-detail-view}
 
-Per esaminare attentamente, visualizzare in anteprima o lavorare su una risorsa, potete visualizzarla in Vista dettagli.
+È possibile visualizzare una risorsa in Vista dettagli per esaminarla, visualizzarla in anteprima o lavorarci su.
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Seleziona la risorsa. Nell&#39;angolo superiore destro del Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona .
+   * Seleziona la risorsa. Nell&#39;angolo superiore destro del Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona.
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
 >[!NOTE]
 >
->Puoi passare da una risorsa all’altra nella stessa cartella in Vista dettagli selezionando **[!UICONTROL Risorsa precedente]** o **[!UICONTROL Risorsa successiva]**. Questi pulsanti si trovano nell&#39;angolo superiore destro in Vista dettagli.
+>Puoi passare da una risorsa all’altra nella stessa cartella in Vista dettagli. Fai clic su **[!UICONTROL Risorsa precedente]** o **[!UICONTROL Risorsa successiva]**. Questi pulsanti si trovano nell&#39;angolo superiore destro in Vista dettagli.
 
 ## Ottieni informazioni nella vista Dettaglio {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sa
 
 La Vista dettagli offre strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma la Vista dettagli offre sempre queste funzioni:
 
-* **elementi per la pubblicazione** - Selezionare la **[!UICONTROL `Publish`]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
+* **elementi per la pubblicazione**: seleziona la **[!UICONTROL `Publish`]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
-* **Rinomina la risorsa** - Selezionare il nome e immettere un nuovo nome.
+* **Rinomina la risorsa**: seleziona il nome e immetti un nuovo nome.
 
-* **Modificare e aggiungere metadati** - Selezionate il pannello Metadati e modificate come desiderate. Consulta [Visualizzare, aggiungere ed esportare metadati](/help/using/viewing-adding-exporting-metadata.md).
+* **Modificare e aggiungere metadati**: seleziona il pannello Metadati e cambia come desiderato. Consulta [Visualizzare, aggiungere ed esportare metadati](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Modificare e aggiungere parole chiave** - Selezionare Parole chiave e aggiungerle o rimuoverle come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/using/viewing-adding-exporting-metadata.md).
+* **Modificare e aggiungere parole chiave**: seleziona Parole chiave e aggiungili o rimuovili come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Elimina la risorsa** - Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
+* **Elimina la risorsa**: vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
 
 Per i file discreti, ad esempio immagini, set di immagini e font, è possibile visualizzare la cronologia di pubblicazione e modifica e controllare i dettagli dell&#39;OdL in Vista dettagli.
 
@@ -93,7 +93,7 @@ In questa tabella sono illustrate le altre opzioni disponibili per i diversi tip
 | File SVG | No | No |
 | Modelli | Modifica | Sì |
 | Video | No | Sì |
-| Vignettature e vignettature di rendering | No | Immagine visualizzata<br>È possibile visualizzare il contenuto e la struttura degli elementi renderizzabili della vignettatura in formato XML |
+| Vignettature e vignettature di rendering | No | Viene visualizzata l’immagine<br>È possibile visualizzare il contenuto e la struttura degli elementi renderizzabili della vignettatura in formato XML |
 | File XML | No | I contenuti sono visualizzati |
 | File ZIP | No | Il contenuto non viene visualizzato |
 
