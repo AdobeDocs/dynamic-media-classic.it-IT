@@ -10,10 +10,10 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 41%
+source-wordcount: '2444'
+ht-degree: 33%
 
 ---
 
@@ -31,7 +31,7 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 * Copiare le mappe immagine in altre immagini, pagine di eCatalog o set 360 gradi.
 * Esportare le mappe immagine in CSV o XML.
 * Importa i metadati dell&#39;immagine da un file delimitato da tabulazioni o da un file XML.
-* Definire altre azioni secondo quanto stabilito dal World Wide Web Consortium.
+* Definisci altre azioni in base a quanto determinato dal World Wide Web Consortium.
 * Visualizzare l’anteprima delle mappe immagine.
 
 ## Disegnare e regolare una mappa immagine {#drawing-and-adjusting-an-image-map}
@@ -42,13 +42,13 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
    * Se utilizzate un set 360 gradi nella vista griglia o nella vista elenco, selezionate **[!UICONTROL Modifica]**. In alternativa, aprirlo in Vista dettagli, quindi selezionare **[!UICONTROL Modifica]**. Seleziona una risorsa di immagine, quindi fai clic su **[!UICONTROL Mappa immagine]**.
    * Se si utilizza un eCatalog, nella visualizzazione griglia, nella visualizzazione elenco, nella visualizzazione dettagli selezionare **[!UICONTROL Modifica]**. Seleziona la **[!UICONTROL Mappa pagine]** scheda.
 
-   ![Immagine mappa immagine](assets/ma_image_map.png)
+   ![Illustrazione della mappa immagine](assets/ma_image_map.png)
 
 1. Disegnate una mappa immagine rettangolare o poligonale:
 
-   * **Mappa rettangolare** - Selezionare lo strumento Mappa immagine rettangolo e trascinare sulla pagina per creare il rettangolo. Per aggiungere un punto a una mappa rettangolare (trasformandola in una mappa poligonale), premete Ctrl, quindi posizionate lo strumento di inserimento nella posizione desiderata e selezionate.
+   * **Mappa rettangolare**: seleziona lo strumento Mappa immagine rettangolo e trascina sulla pagina per creare il rettangolo. Per aggiungere un punto a una mappa rettangolare (trasformandola in una mappa poligonale), premete Ctrl, quindi posizionate lo strumento di inserimento nella posizione desiderata e selezionate.
 
-   * **Mappa poligonale** - Selezionate lo strumento mappa immagine poligonale (Polygon Image Map) e selezionate i punti sul perimetro dell&#39;area dell&#39;immagine da racchiudere. Usate il cursore di densità del poligono per variare la densità dei punti nel poligono. La densità originale viene ricordata se selezionate altre mappe. Se un punto del poligono viene aggiunto, eliminato o spostato, la densità originale viene perduta e il cursore viene reimpostato sul valore massimo.
+   * **Mappa poligonale**: seleziona lo strumento Mappa immagine poligonale e seleziona i punti sul perimetro dell’area dell’immagine che desideri racchiudere. Usate il cursore di densità del poligono per variare la densità dei punti nel poligono. La densità originale viene ricordata se selezionate altre mappe. Se un punto viene aggiunto, eliminato o spostato nel poligono, la densità originale viene persa. Il dispositivo di scorrimento viene reimpostato sul valore massimo.
 
 1. Se lo desiderate, potete immettere un nome per la mappa immagine nell’elenco Mappa immagine. Dopo aver disegnato una mappa immagine, Adobe Dynamic Media Classic le assegna un nome.
 
@@ -68,7 +68,12 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 
    * Per visualizzare in anteprima le mappe immagine, seleziona **[!UICONTROL Anteprima]**.
    * Per eliminare una mappa immagine o un vertice di poligono, selezionare una forma nell&#39;immagine, quindi selezionare **[!UICONTROL Elimina]**. In alternativa, per un eCatalog, nella scheda Ordina pagine, selezionare **[!UICONTROL Cancella mappe]** per rimuovere le mappe immagine da tutte le pagine.
-   * Per rimuovere temporaneamente una mappa immagine da un’immagine, una pagina di eCatalog o un’immagine di un set 360 gradi senza eliminarla, deselezionate la relativa opzione Attivato nell’elenco Mappa immagine.
+   * Per rimuovere un elemento:
+      * Mappa immagine da un’immagine
+      * un&#39;immagine in un set 360 gradi
+      * o, una pagina eCatalog
+
+     temporaneamente, senza eliminarla, deselezionare l&#39;opzione On appropriata nell&#39;elenco Mappa immagine.
 
 1. Seleziona **[!UICONTROL Salva]**.
 
@@ -76,25 +81,25 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 
 Per modificare la posizione, la forma e le dimensioni di una mappa immagine, selezionare il pulsante Mappa immagine. Quindi, seleziona la **[!UICONTROL Panoramica]** e seguire queste istruzioni:
 
-* **Cambia posizione** : sposta il puntatore vicino al bordo della mappa immagine, ma non oltre. Quando viene visualizzata l’icona con la freccia a quattro punte, trascinate la mappa nella nuova posizione.
+* **Cambia posizione**: sposta il puntatore vicino al bordo della mappa immagine, ma non oltre. Quando viene visualizzata l’icona con la freccia a quattro punte, trascinate la mappa nella nuova posizione.
 
-* **Modificare dimensioni e forma** - La modalità di modifica della forma e delle dimensioni di una mappa immagine dipende dal fatto che si utilizzi una mappa immagine rettangolare o poligonale:
+* **Modificare dimensioni e forma**: la modalità di modifica della forma e delle dimensioni di una mappa immagine dipende dal fatto che si utilizzi una mappa immagine rettangolare o poligonale:
 
 >[!TIP]
 >
 >Potete trascinare il cursore Dimensione in fondo alla schermata per cambiare le visualizzazioni e avere una visione migliore della mappa immagine.
 
-* **Mappa immagine rettangolare** - Spostare il puntatore su un lato o un angolo della mappa immagine. Quando viene visualizzata l’icona con la freccia a due punte, iniziate a trascinare. Tenete premuto il tasto Maiusc mentre trascinate per cambiare le dimensioni ma mantenere le stesse proporzioni (forma).
+* **Mappa immagine rettangolare**: consente di spostare il puntatore su un lato o un angolo della mappa immagine. Quando viene visualizzata l’icona con la freccia a due punte, iniziate a trascinare. Tenere premuto il tasto Maiusc mentre si trascina per modificare le dimensioni, mantenendo però le proporzioni (la forma).
 
-* **Mappa immagine poligonale** - Trascinare un punto di manipolazione di selezione quadrato. Per creare un punto di manipolazione di selezione, seleziona il bordo della mappa immagine e inizia a trascinare.
+* **Mappa immagine poligonale**: trascina un punto di manipolazione di selezione quadrato. Per creare un punto di manipolazione di selezione, seleziona il bordo della mappa immagine e inizia a trascinare.
 
 ### Gestire le mappe immagine sovrapposte {#handling-overlapping-image-maps}
 
-Se l’immagine o la pagina di eCatalog include più mappe immagine che si sovrappongono, potete gestirne la sovrapposizione cambiando l’ordine delle mappe nell’elenco Mappa immagine. Trascinate i nomi delle mappe verso l’alto o il basso nell’elenco. Le mappe immagine si sovrappongono l’una sull’altra in base all’ordine dei relativi nomi in questo elenco, dall’alto al basso.
+Se la pagina dell&#39;immagine o dell&#39;eCatalog include più mappe immagine e le mappe si sovrappongono, è possibile determinare la sovrapposizione delle mappe. cambiando l’ordine delle mappe nell’elenco Mappa immagine. Trascinate i nomi delle mappe verso l’alto o il basso nell’elenco. Le mappe immagine si sovrappongono l’una sull’altra in base all’ordine dei relativi nomi in questo elenco, dall’alto al basso.
 
 ### Importare i dati per le mappe immagine {#importing-image-map-data}
 
-Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potete importare i dati per l’immagine, il set 360 gradi o l’eCatalog nella schermata Riepilogo mappe. Potete importare i dati delle mappe immagine come un file delimitato da tabulazioni o un file XML DTD. I campi presenti nel file devono essere nell’ordine visualizzato nella schermata Riepilogo mappe: Nome, Etichette di sommario, Mappe, URL, Testo di rollover, Altre azioni e Stringhe di ricerca. Importando i dati delle mappe immagine si evita di dover inserire i dati nell’elenco delle mappe immagine durante la creazione di ciascuna mappa immagine.
+Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potete importare i dati per l’immagine, il set 360 gradi o l’eCatalog nella schermata Riepilogo mappe. Potete importare i dati delle mappe immagine come un file delimitato da tabulazioni o un file XML DTD. I campi presenti nel file devono essere nell’ordine visualizzato nella schermata Riepilogo mappe: Nome, Etichette di sommario, Mappe, URL, Testo di rollover, Altre azioni e Stringhe di ricerca. L&#39;importazione dei dati di Mappa immagine consente di evitare i problemi di immissione dei dati nell&#39;elenco Mappa immagine durante la creazione di ogni Mappa immagine.
 
 **Per importare i dati della mappa immagine:**
 
@@ -111,7 +116,7 @@ Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potet
 
 Potete copiare le mappe immagine da un’immagine o una pagina di eCatalog all’altra, Utilizzare **[!UICONTROL Copia mappa immagine]** per iniziare subito a crearli. È inoltre possibile copiare mappe immagine per ricrearle in immagini o pagine che condividono layout o strutture di mappatura.
 
-Ad esempio, può essere utile copiare tutte le mappe immagine di un eCatalog per le versioni nelle diverse lingue dello stesso eCatalog. Per risultati ottimali, si consiglia di copiare tra diversi eCatalog con lo stesso numero di pagine e le stesse immagini. Se l&#39;eCatalog in cui si effettua la copia contiene già mappe immagine, queste ultime vengono eliminate al momento della copia.
+Ad esempio, copiare le mappe immagine in un eCatalog è un modo pratico per copiare tutte le mappe immagine tra versioni in lingue straniere dello stesso eCatalog. Per ottenere risultati ottimali, la copia risulta più efficace se si esegue la copia tra eCatalog con lo stesso numero di pagine e le stesse immagini. Se l&#39;eCatalog in cui si effettua la copia contiene già mappe immagine, queste ultime vengono eliminate al momento della copia.
 
 **Per copiare le mappe immagine:**
 
@@ -126,7 +131,7 @@ Ad esempio, può essere utile copiare tutte le mappe immagine di un eCatalog per
 
 ## Utilizza un modello per immettere JavaScript e URL {#using-a-template-to-enter-javascript-and-urls}
 
-Potete definire un modello URL (detto anche modello Href) per facilitare e migliorare l’immissione degli URL delle mappe immagine. La definizione di un modello URL risulta utile se la maggior parte degli URL della mappa immagine hanno uno stesso formato fisso. Immettendo la parte fissa dell’URL come modello URL non sarà necessario reimmetterla ogni volta che create una mappa immagine. Il modello URL può contenere anche parametri, nomi di percorso e comandi JavaScript. Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL contiene un gestore JavaScript proprietario denominato `loadProduct` che apre l&#39;immagine in una nuova finestra.
+Potete definire un modello URL (detto anche modello Href) per facilitare e migliorare l’immissione degli URL delle mappe immagine. La definizione di un modello URL risulta utile se la maggior parte degli URL della mappa immagine hanno uno stesso formato fisso. Immettendo la parte fissa dell’URL come modello URL non sarà necessario reimmetterla ogni volta che create una mappa immagine. Il modello URL può contenere anche comandi JavaScript, nomi di percorso e parametri. Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL contiene un gestore JavaScript proprietario denominato `loadProduct` che apre l&#39;immagine in una nuova finestra.
 
 >[!NOTE]
 >
@@ -134,7 +139,7 @@ Potete definire un modello URL (detto anche modello Href) per facilitare e migli
 
 ### I modelli URL {#about-url-templates}
 
-Il modello URL funziona sostituendo il contenuto della colonna URL nell’elenco Mappa immagine con i segni di dollaro doppi ($$) nel modello:
+Il modello URL funziona sostituendo il contenuto della colonna URL nell’elenco Mappa immagine. Nel modello, sostituisce il simbolo con il simbolo del doppio dollaro ($$):
 
 ```as3
 Javascript:loadProduct('$$');void(0);
@@ -148,9 +153,9 @@ Inserisci tutti i valori che non cambiano tra le mappe immagine nel modello URL.
 
 Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL include un gestore JavaScript proprietario denominato `loadProduct` che apre una nuova finestra con la destinazione URL. Tuttavia, puoi utilizzare qualsiasi codice JavaScript per sostituire questo gestore JavaScript o uno dei seguenti gestori Adobe Dynamic Media Classic:
 
-* `loadProductCW` : visualizza la destinazione URL specificata nella colonna URL della finestra corrente. Questo handler è indicato soprattutto per gli eCatalog integrati in una pagina di un sito Web.
+* `loadProductCW`: visualizza la destinazione URL specificata nella colonna URL della finestra corrente. Questo handler è indicato soprattutto per gli eCatalog integrati in una pagina di un sito Web.
 
-* `loadProductPW` : visualizza la destinazione URL specificata nella colonna URL della finestra padre, ovvero la pagina che ha aperto quella corrente. La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
+* `loadProductPW`: visualizza la destinazione URL specificata nella colonna URL della finestra padre, ovvero la pagina che ha aperto quella corrente. La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
 
   >[!NOTE]
   >
@@ -158,7 +163,7 @@ Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL include
 
 ### Creare un modello URL {#creating-a-url-template}
 
-1. Nella schermata Editor mappa (per le immagini e i set 360 gradi) o nella scheda Mappe pagine della schermata eCatalog (per gli eCatalog), selezionate Modifica accanto all’opzione Modello URL. Viene visualizzata la finestra di dialogo Modifica modello mappa.
+1. Nella schermata Editor mappe (immagini o Set 360 gradi) o nella scheda Pagine mappa della schermata eCatalog (eCatalog), seleziona Modifica accanto all’opzione Modello URL. Viene visualizzata la finestra di dialogo Modifica modello mappa.
 1. Inserisci il codice JavaScript e l’URL completo (con la parte variabile sostituita dai segni del dollaro). [$$]). Puoi incollare il codice facendo clic con il pulsante destro del mouse e scegliendo **[!UICONTROL Incolla]**.
 1. Seleziona **[!UICONTROL Salva]**.
 
@@ -166,23 +171,23 @@ Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL include
 
 La pagina Editor mappa (per le immagini e i set 360 gradi) e la scheda Mappe pagine della schermata eCatalog (per gli eCatalog) offrono i seguenti comandi per gestire i modelli URL:
 
-* **Opzione modello URL** : seleziona l’opzione Modello URL per applicare il modello URL a tutte le mappe immagine su un’immagine o una pagina eCatalog.
+* **Opzione modello URL**: seleziona l’opzione Modello URL per applicare il modello URL a tutte le mappe immagine su un’immagine o una pagina eCatalog.
 
-* **Opzione modello** : deseleziona un’opzione Modello nell’elenco URL Image Map (Mappa immagine URL) se non desideri che una singola mappa immagine utilizzi il modello URL.
+* **Opzione modello**: deseleziona un’opzione Modello nell’elenco URL Image Map (Mappa immagine URL) se non desideri che una singola mappa immagine utilizzi il modello URL.
 
 ## Definire altre azioni per le mappe immagine {#defining-other-actions-for-image-maps}
 
 È possibile selezionare **[!UICONTROL Spettacolo]** e scegliere **[!UICONTROL Altre azioni]** per attivare azioni diverse dal rollover di testo e dagli avvii di pagine web. Potete fare sì che un’azione venga avviata quando l’utente passa il puntatore su una mappa immagine. Queste azioni sono attributi definiti per le mappe immagine sul lato client dalle specifiche HTML del World Wide Web Consortium. Includono:
 
-* **`accesskey`** - Attiva un&#39;azione quando l&#39;utente preme un tasto designato sulla tastiera.
+* **`accesskey`**: attiva un’azione quando l’utente preme un tasto specifico sulla tastiera.
 
-* **`onfocus`** - Attiva un evento quando la mappa immagine viene attivata dal cursore, dalla tabulazione o premendo un tasto di accesso. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine viene resa attiva e chiuderla quando la mappa è resa inattiva.
+* **`onfocus`**: attiva un evento quando la Mappa immagine viene attivata dal cursore, da una scheda o premendo un tasto di accesso. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine viene resa attiva e chiuderla quando la mappa è resa inattiva.
 
-* **`onblur`** - Attiva un evento quando la Mappa immagine perde lo stato attivo, a causa del cursore o della tabulazione.
+* **`onblur`**: attiva un evento quando la Mappa immagine perde lo stato attivo, a causa del cursore o della tabulazione.
 
 **Per definire altre azioni per le mappe immagine:**
 
-1. Nella schermata Map Editor (immagini e set 360 gradi) o Map Pages (Mappa pagine) della schermata eCatalog (eCatalog), seleziona la **[!UICONTROL Spettacolo]** menu e seleziona **[!UICONTROL Altre azioni]**.
+1. Nella schermata Editor mappe (immagini e set 360 gradi) o nella scheda Pagine mappa della schermata eCatalog (eCatalog), seleziona la **[!UICONTROL Spettacolo]** menu e seleziona **[!UICONTROL Altre azioni]**.
 1. Usando la sintassi indicata dalle specifiche HTML del World Wide Web Consortium, aggiungete gli attributi supportati nella colonna Altre azioni dell’elenco Mappa immagine.
 1. Seleziona **[!UICONTROL Salva]**.
 
@@ -201,7 +206,7 @@ Per ulteriori informazioni, consulta la Guida di Adobe InDesign o Adobe Acrobat.
 1. In Adobe InDesign, vai a **[!UICONTROL Windows®]** > **[!UICONTROL Interattiva]** > **[!UICONTROL Collegamenti ipertestuali]**.
 1. Nel pannello Collegamenti ipertestuali, selezionate il testo, la cornice o l&#39;elemento grafico da trasformare in una mappa immagine.
 1. Seleziona **[!UICONTROL Nuovo collegamento ipertestuale]** dal menu del pannello.
-1. Nella finestra di dialogo Nuovo collegamento ipertestuale, da **[!UICONTROL Collega a]** menu, scegliere **[!UICONTROL URL]**.
+1. Nella finestra di dialogo Nuovo collegamento ipertestuale, da **[!UICONTROL Collega a]** scegliere il menu **[!UICONTROL URL]**.
 1. Digita o incolla l’ID prodotto nella casella URL.
 1. Seleziona **[!UICONTROL OK]**. (Adobe Dynamic Media Classic completa l’URL utilizzando il modello URL della mappa immagine).
 

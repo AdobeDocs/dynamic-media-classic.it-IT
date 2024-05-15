@@ -9,16 +9,16 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
 # App Adobe Dynamic Media Classic Desktop - Ora disponibile {#new-ui-2020}
 
-Consulta [app desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) per verificare i requisiti di sistema, scarica e installa la nuova app, quindi accedi.
+Consulta la [app desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) per verificare i requisiti di sistema, scarica e installa la nuova app, quindi accedi.
 
 ## _Ultima revisione: 30 giugno 2020_
 
@@ -33,13 +33,13 @@ Il Flash Player di Adobe era un plug-in per browser web che consentiva ai browse
 +++**_Come posso accedere alla nuova app desktop?_**
 La nuova app desktop è disponibile come `.dmg` programma di installazione per macOS o come `.exe` programma di installazione per Windows®.
 
-Consulta [app desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) per rivedere i requisiti di sistema, scarica e installa la nuova app, quindi accedi.
+Consulta la [app desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) per rivedere i requisiti di sistema, scarica e installa la nuova app, quindi accedi.
 +++
 
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Come funziona la nuova app desktop?_**
-Dopo aver scaricato, installato e avviato l’app desktop, ti viene presentato un accesso aggiornato. Immettendo il nome utente e la password esistenti e selezionando il server appropriato in base alla regione, è possibile accedere a Adobe Dynamic Media Classic. L’esperienza complessiva è la stessa della versione del browser web che si è abituati a utilizzare. Dall’app desktop, puoi accedere agli ambienti di produzione e staging di Adobe Dynamic Media Classic. Puoi accedere a Media Portal anche se disponi della credenziale per questa funzionalità.
+Dopo aver scaricato, installato e avviato l’app desktop, ti viene presentato un accesso aggiornato. Immettendo il nome utente e la password esistenti e selezionando il server appropriato in base alla regione, è possibile accedere a Adobe Dynamic Media Classic. L’esperienza complessiva è la stessa della versione del browser Web che si è abituati a utilizzare. Dall’app desktop, puoi accedere agli ambienti di produzione e staging di Adobe Dynamic Media Classic. Puoi accedere a Media Portal anche se disponi della credenziale per questa funzionalità.
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ No a entrambe le domande. Per utilizzare la nuova app desktop Adobe Dynamic Medi
 +++
 
 +++**_Come sono abilitati gli aggiornamenti all’app desktop Adobe Dynamic Media Classic?_**
-A seguito del rilascio dell’app desktop Adobe Dynamic Media Classic il 30 giugno 2020, se Adobe rilascia una nuova versione, i clienti devono scaricare la nuova versione e installarla come di consueto (sostituisci l’app esistente in **[!UICONTROL Applicazioni]**). Ricevi una notifica della nuova versione tramite l’Adobe Account Team e un meccanismo di notifica dell’aggiornamento in-app che avvisa gli utenti di un aggiornamento.
+A seguito del rilascio dell’app desktop Adobe Dynamic Media Classic il 30 giugno 2020, se Adobe rilascia una nuova versione, i clienti devono scaricare e installare la nuova versione (sostituisci l’app esistente in **[!UICONTROL Applicazioni]**). Ricevi una notifica della nuova versione tramite l’Adobe Account Team e un meccanismo di notifica dell’aggiornamento in-app che avvisa gli utenti di un aggiornamento.
 +++
 
 +++**_Come posso ottenere aiuto per qualsiasi problema riscontrato con l’app desktop Adobe Dynamic Media Classic?_**
@@ -107,7 +107,7 @@ Per ulteriori informazioni sui vantaggi dell&#39;aggiornamento alla nuova genera
 
 >[!MORELIKETHIS]
 >
->* [Accesso e disconnessione dall&#39;applicazione desktop Adobe Dynamic Media Classic](/help/using/signing-out.md)
+>* [Accedere e uscire dall&#39;applicazione desktop Adobe Dynamic Media Classic](/help/using/signing-out.md)
 >* [Scaricare e installare l&#39;applicazione desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md)
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

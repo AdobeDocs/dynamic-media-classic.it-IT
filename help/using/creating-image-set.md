@@ -10,9 +10,9 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '672'
 ht-degree: 46%
 
 ---
@@ -25,7 +25,7 @@ Per creare un set di immagini a visualizzazione multipla, sono necessarie immagi
 
 Quando create un set, l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** incide su set e relativi membri nei seguenti modi:
 
-| **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| **[!UICONTROL `Publish after save`]** opzione selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -39,7 +39,7 @@ Quando crei un set di immagini, Adobe consiglia le seguenti best practice e appl
 | Numero di risorse duplicate per set | Nessun duplicato | 20‡ |
 | Numero massimo di immagini per set | 5-10 immagini per set | 1000 |
 
-‡ best practice prevede di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
+‡ Si consiglia di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se, all’interno del set, aggiungi un altro duplicato per tale risorsa, la richiesta restituisce un errore o ignora il duplicato.
 
 Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
 Sia che si modifichi un set pubblicato o non pubblicato, il **[!UICONTROL Pubblica dopo il salvataggio]** influisce sui membri set e set nei modi seguenti:
 
-| Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL `Publish after save`]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |

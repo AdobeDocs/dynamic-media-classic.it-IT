@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 19%
+source-wordcount: '1008'
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi utilizzare Anteprima per vedere come appare una risorsa digitale quando vie
 
 Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
 
-Se visualizzi l’anteprima di una risorsa modello con livelli di parametri, puoi modificare i parametri o il predefinito dell’immagine. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
+Se visualizzi l’anteprima di una risorsa modello con livelli di parametri, puoi modificare i parametri o il predefinito immagine. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
 
 Vedi anche [Esempi della libreria di riferimento per visualizzatori di Adobi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -43,7 +43,7 @@ Vedi anche [Esempi della libreria di riferimento per visualizzatori di Adobi](ht
 
 ## Visualizzare in anteprima una risorsa in base al tipo di piattaforma del visualizzatore {#previewing-an-asset-based-on-viewer-platform-type}
 
-Potete usare Elenco visualizzatori per ottenere l’anteprima di una risorsa in base a un particolare tipo di piattaforma per visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
+È possibile utilizzare Elenco visualizzatori per visualizzare in anteprima come una risorsa viene visualizzata in un particolare tipo di piattaforma visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
 È inoltre possibile utilizzare Elenco visualizzatori per copiare l&#39;URL di un visualizzatore o visualizzare e copiare il codice del visualizzatore da incorporare nelle pagine Web.
 
@@ -63,7 +63,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
    Chiudete l&#39;anteprima visualizzata.
 
-1. (Facoltativo) Nella finestra Elenco visualizzatori, seleziona dall’elenco a discesa Codifica URL per copia generazione URL, in basso, la codifica URL da applicare all’URL della risorsa quando viene copiata.
+1. (Facoltativo) Nella finestra Elenco visualizzatori, seleziona Codifica URL per Copia generazione URL in basso, quindi fai clic su Codifica URL. Questa codifica viene applicata all’URL della risorsa quando viene copiata.
 1. (Facoltativo) Effettuate una o più delle operazioni seguenti:
 
    * Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Copia URL]** per un visualizzatore e un tipo di piattaforma selezionati.
@@ -82,7 +82,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
 Potete visualizzare in anteprima una risorsa immagine basata sul suo predefinito per immagini per verificarne l’aspetto quando questa viene trasmessa in modo dinamico al sito Web o all’applicazione in dimensioni diverse.
 
-Un predefinito immagine è una raccolta di impostazioni predefinite che modificano le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata.
+Un predefinito immagine è una raccolta di impostazioni predefinite. Queste impostazioni modificano le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata.
 
 Consulta [Configurazione predefiniti immagine](setting-image-presets.md#setting_up_image_presets).
 
@@ -98,7 +98,8 @@ Consulta [Creare e abilitare i predefiniti immagine](creating-enabling-image-pre
    * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
 
 1. Nella finestra Elenco predefiniti immagine, selezionate nella tabella il nome del tipo di predefinito di cui desiderate visualizzare l’anteprima in linea nel riquadro di destra.
-1. (Facoltativo) Nella finestra Elenco predefiniti immagine, nella **[!UICONTROL Codifica URL per Copia generazione URL]** dall’elenco a discesa in basso, seleziona la codifica URL da applicare all’URL della risorsa immagine quando viene copiata.
+1. (Facoltativo) Nella finestra Elenco predefiniti immagine, nella **[!UICONTROL Codifica URL per Copia generazione URL]** in basso.
+1. Seleziona la Codifica URL da applicare all’URL della risorsa immagine quando viene copiata.
 1. (Facoltativo) Nella finestra Elenco predefiniti immagine, in alto a destra nel riquadro di anteprima, seleziona **[!UICONTROL Copia URL]** per il tipo di predefinito selezionato.
 
    Quando selezioni **[!UICONTROL Copia URL]**, l’URL associato viene copiato automaticamente negli Appunti.

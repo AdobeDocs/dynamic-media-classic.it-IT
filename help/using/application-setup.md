@@ -10,16 +10,16 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '10947'
-ht-degree: 36%
+source-wordcount: '10944'
+ht-degree: 30%
 
 ---
 
 # Impostazione applicazione{#application-setup}
 
-È possibile utilizzare le pagine Impostazione applicazione per immettere le impostazioni generali, creare predefiniti immagine, predefiniti codifica video, predefiniti visualizzatore o definire visualizzatori predefiniti e metadati. Puoi impostare i predefiniti per set di batch per automatizzare anche la generazione di set 360 gradi 2D (ad esempio), le impostazioni di pubblicazione e le impostazioni Video SEO (Search Engine Optimization).
+È possibile utilizzare le pagine Impostazione applicazione per immettere Impostazioni generali, creare predefiniti immagine, predefiniti codifica video, predefiniti visualizzatore o definire visualizzatori predefiniti e metadati. Puoi impostare i predefiniti per set di batch in modo che automatizzino la generazione di set 360 gradi 2D (ad esempio), le impostazioni di pubblicazione e le impostazioni Video SEO (Search Engine Optimization).
 
 >[!NOTE]
 >
@@ -35,19 +35,19 @@ Al momento della creazione dell’account, Adobe Dynamic Media Classic fornisce 
 
 Vedi anche [Test del servizio di test protetto](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL Nome server pubblicato]** : questo server è il server Live CDN (Content Delivery Network) utilizzato in tutte le chiamate URL generate dal sistema e specifiche per il tuo account. Non modificare il nome del server a meno che non sia stato richiesto da un tecnico del supporto tecnico Adobe Dynamic Media Classic.
+* **[!UICONTROL Nome server pubblicato]** : questo server è il server Live CDN (Content Delivery Network) utilizzato in tutte le chiamate URL generate dal sistema e specifiche per il tuo account. Modificare il nome del server solo se un tecnico del supporto tecnico Adobe Dynamic Media Classic ti ha richiesto di farlo.
 
-* **[!UICONTROL Nome server di origine]** - Questo server viene utilizzato solo per test di controllo qualità. Non modificare il nome del server a meno che non sia stato richiesto da un tecnico del supporto tecnico Adobe Dynamic Media Classic.
+* **[!UICONTROL Nome server di origine]** - Questo server viene utilizzato solo per test di controllo qualità. Modificare il nome del server solo se un tecnico del supporto tecnico Adobe Dynamic Media Classic ti ha richiesto di farlo.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
-* **[!UICONTROL Nome server Test&amp;Target]** : URL di Test&amp;Target, fino a .com incluso. Per istruzioni su come ottenere questo URL, consulta Integrazione [!DNL Adobe Dynamic Media Classic] con [!DNL Adobe Target Standard/Premium].
+* **[!UICONTROL Nome server Test&amp;Target]** - L&#39;URL di Test&amp;Target, che include `.com`. Per istruzioni su come ottenere questo URL, consulta Integrazione [!DNL Adobe Dynamic Media Classic] con [!DNL Adobe Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
-* **[!UICONTROL Nome server di streaming iOS]** : l’URL del tuo [!DNL Adobe Dynamic Media Classic] Server di streaming iOS. Questo server distribuisce i video in streaming ai dispositivi basati su iOS utilizzando il protocollo HTTP.
+* **[!UICONTROL Nome server di streaming iOS]** : l’URL del tuo [!DNL Adobe Dynamic Media Classic] Server di streaming iOS. Questo server distribuisce video in streaming a dispositivi basati su iOS utilizzando il protocollo HTTP.
 
-* **[!UICONTROL Nome server video progressivo]** : l’URL del tuo [!DNL Adobe Dynamic Media Classic] server video progressivo. Questo server distribuisce i video progressivi mediante il protocollo HTTP.
+* **[!UICONTROL Nome server video progressivo]** : l’URL del tuo [!DNL Adobe Dynamic Media Classic] server video progressivo. Questo server distribuisce video progressivi utilizzando il protocollo HTTP.
 
 * **[!UICONTROL Mostra URL per risorse non pubblicate]** - Selezionare questa opzione se si desidera [!DNL Adobe Dynamic Media Classic] per visualizzare un URL durante l’anteprima di una risorsa, pubblicata o meno. Se la risorsa non è pubblicata, l’URL non funziona. Tuttavia, potete utilizzare l’URL a scopo di progettazione o organizzazione.
 
@@ -71,7 +71,7 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
   Dopo aver selezionato il modello di annullamento validità CDN e aver effettuato una richiesta di annullamento validità CDN, nell’interfaccia utente viene visualizzato un indicatore. Fornisce una stima del tempo necessario per cancellare la cache.
 
-  Analogamente, se in Adobe Dynamic Media Classic sono selezionate più immagini quando si passa a **[!UICONTROL File]** > **[!UICONTROL Annulla validità CDN]**, nell’URL del modello salvato viene fatto riferimento a ogni immagine. Pertanto, puoi definire un Modello di annullamento validità CDN facendo riferimento a ciascun URL a cui viene fatto riferimento nel sito web (ad esempio i dettagli del prodotto e i risultati della ricerca). Quindi, quando selezionate una o più immagini di cui annullare la validità della cache, gli URL vengono automaticamente inseriti nell’interfaccia.
+  Quando fai clic su **[!UICONTROL File]** > **[!UICONTROL Annulla validità CDN]**, se in Dynamic Media Classic sono selezionate più immagini, nell’URL del modello salvato viene fatto riferimento a ciascuna immagine. Pertanto, puoi definire un Modello di annullamento validità CDN facendo riferimento a ciascun URL a cui viene fatto riferimento nel sito web (ad esempio i dettagli del prodotto e i risultati della ricerca). Quindi, quando selezioni una o più immagini per l’annullamento della validità dalla cache, gli URL compilano automaticamente l’interfaccia.
 
   Consultate [Memorizzazione dei contenuti nella cache](dmc-platform-overview.md#content_caching).
 
@@ -83,11 +83,11 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 * **[!UICONTROL Mostra contenuto eVideo di esempio]** : attiva o disattiva la visualizzazione dei contenuti di esempio eVideo.
 
-* **[!UICONTROL Mostra contenuto generato]** - Nelle cartelle, mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, in Adobe Dynamic Media Classic viene creata un&#39;immagine per ogni pagina del file PDF originale. Se l’opzione Mostra contenuto generato è selezionata, ogni immagine generata durante il caricamento del PDF originale viene visualizzata insieme al PDF nella cartella in cui questo è stato caricato.
+* **[!UICONTROL Mostra contenuto generato]** - Nelle cartelle, mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, in Adobe Dynamic Media Classic viene creata un&#39;immagine per ogni pagina del file PDF originale. Se è selezionata l&#39;opzione Mostra contenuto generato, viene visualizzata ogni immagine generata al caricamento del PDF originale. Viene visualizzato insieme al PDF nella cartella in cui è stato caricato il PDF.
 
 * **[!UICONTROL Mostra video codificati]** - Deselezionato (disattivato) per impostazione predefinita.
 
-  Per cercare e sfogliare rapidamente i video in Adobe Dynamic Media Classic senza dover navigare attraverso numerosi derivati codificati dello stesso video, lascia deselezionata questa opzione (impostazione predefinita). Vengono visualizzate solo la miniatura del video principale (il video sorgente caricato e utilizzato per creare i derivati) e la miniatura del set video adattivo &quot;padre&quot; (che contiene i derivati &quot;figlio&quot; del set video codificato).
+  Puoi cercare e sfogliare rapidamente i video in Adobe Dynamic Media Classic senza dover navigare attraverso numerosi derivati codificati dello stesso video. Lascia deselezionata questa opzione (impostazione predefinita). Vengono visualizzate solo la miniatura del video principale (il video sorgente caricato e utilizzato per creare i derivati) e la miniatura del set video adattivo &quot;principale&quot; (che contiene i derivati &quot;secondari&quot; del set video codificato).
 
   È comunque possibile accedere ai singoli video codificati dal video principale o dal set di video adattivi. A questo scopo, fate doppio clic sulla miniatura del video per aprire la visualizzazione Dettagli. Quindi seleziona **[!UICONTROL Video codificati]** nel pannello a destra per accedere a tutti i video &quot;secondari&quot;.
 
@@ -113,7 +113,7 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 ### Carica nell’applicazione
 
-Vedi anche [Opzioni processo di caricamento predefinito](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) video di formazione.
+Vedi anche [Opzioni per i processi di caricamento](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) video di formazione.
 
 * **[!UICONTROL Sovrascrivi immagini]** - Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#39;ID Adobe Dynamic Media Classic di ogni elemento (il nome immagine meno l&#39;estensione del nome file) deve essere univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con un &quot;-1&quot; (ad esempio, chair.tif viene rinominato chair-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consulta [Utilizzare l’opzione Sovrascrivi immagini](#using-the-overwrite-images-option).
 
@@ -125,7 +125,7 @@ Vedi anche [Opzioni processo di caricamento predefinito](https://s7d5.scene7.com
 
    * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]** - Questa opzione rappresenta la regola di sostituzione più completa. L’immagine sostitutiva può essere caricata in una cartella diversa da quella dell’originale, con una diversa estensione file, e sostituire il file originale. Se il file originale si trova in un’altra cartella, l’immagine sostitutiva sarà contenuta nella nuova cartella nella quale è stata caricata.
 
-* **[!UICONTROL Mantieni pubblicazione]** - Specifica se un&#39;immagine sostitutiva caricata in Adobe Dynamic Media Classic mantiene l&#39;impostazione Pronto per la pubblicazione dell&#39;immagine da sostituire oppure se l&#39;impostazione viene specificata al momento del caricamento.
+* **[!UICONTROL Mantieni pubblicazione]** - Specifica se un&#39;immagine sostitutiva caricata in Adobe Dynamic Media Classic mantiene l&#39;impostazione Ready to Publish (Pronto per la pubblicazione) dell&#39;immagine da sostituire. Oppure, l’impostazione viene specificata al momento del caricamento.
 
 * **[!UICONTROL Profili colore predefiniti]** - Specifica i profili colore applicati come parte delle opzioni di profilo colore predefinite quando si aggiungono immagini CMYK.
 
@@ -135,11 +135,11 @@ Vedi anche [Opzioni processo di caricamento predefinito](https://s7d5.scene7.com
 
 * **[!UICONTROL HREF mappatura immagine predefinito]** - Definisce l&#39;URL predefinito utilizzato per la colonna HREF nella mappatura immagine. Questo URL è l&#39;URL predefinito visualizzato quando crei mappe immagine.
 
-* **[!UICONTROL Modello mappatura immagine predefinito]** - Definisce il JavaScript predefinito per il modello HREF nella mappatura immagine. Puoi impostare il codice personalizzato qui da eseguire ogni volta che selezioni una mappa immagine.
+* **[!UICONTROL Modello mappatura immagine predefinito]** - Definisce il JavaScript predefinito per il modello HREF nella mappatura immagine. Puoi impostare un codice personalizzato da eseguire ogni volta che selezioni una mappa immagine.
 
 ### Altre impostazioni (su applicazione)
 
-* **[!UICONTROL Avvertenze per la pulizia del cestino]** - Le risorse nel cestino vengono rimosse automaticamente entro sette giorni. Seleziona &quot;Invia e-mail prima dell’eliminazione automatica degli elementi dal cestino&quot; se desideri che vengano inviate notifiche agli amministratori della società quando le risorse presenti nel cestino sono a quattro giorni dall’eliminazione definitiva. Consulta [Gestire la cartella Cestino](/help/using/trash-folder.md).
+* **[!UICONTROL Avvertenze per la pulizia del cestino]** - Le risorse nel cestino vengono rimosse automaticamente entro sette giorni. Seleziona &quot;Invia e-mail prima dell’eliminazione automatica degli elementi dal cestino&quot; per inviare notifiche agli amministratori della società quando le risorse presenti nel cestino sono a quattro giorni dall’eliminazione definitiva. Consulta [Gestire la cartella Cestino](/help/using/trash-folder.md).
 
 ## Utilizzare l’opzione Sovrascrivi immagini {#using-the-overwrite-images-option}
 
@@ -147,15 +147,15 @@ Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#
 
 Se in precedenza avete caricato le immagini e quindi modificato i file originali (o li avete sostituiti), l&#39;opzione di sovrascrittura selezionata specifica in che modo Adobe Dynamic Media Classic sostituisce le immagini. I dati relativi all’immagine non vengono modificati, ma la nuova immagine sostituisce la precedente. Se la cartella contiene anche immagini che non sono già presenti in Adobe Dynamic Media Classic, queste immagini vengono aggiunte.
 
-Utilizza questa opzione se le immagini caricate sono cambiate in qualche modo (l’immagine è stata modificata) ma il riferimento all’immagine rimane lo stesso. La sovrascrittura è utile anche per il caricamento e la copia di PDF Adobe®. Per ottimizzare il modo in cui Adobe Dynamic Media Classic *strappi* nell&#39;immagine, regolate le opzioni del profilo colore ICC nella finestra di dialogo Carica (Upload) e ricaricate utilizzando la funzione di sovrascrittura.
+Utilizza questa opzione se le immagini caricate sono cambiate in qualche modo (l’immagine è stata modificata) ma il riferimento all’immagine rimane lo stesso. La sovrascrittura è utile anche per il caricamento e la copia di PDF Adobe®. Puoi ottimizzare il modo in cui Adobe Dynamic Media Classic *strappi* l&#39;immagine. Potete anche regolare le opzioni del profilo colore ICC nella finestra di dialogo Carica (Upload) e ricaricarle utilizzando la funzione di sovrascrittura.
 
-Gli ID Adobe Dynamic Media Classic utilizzati per accedere alle immagini dai server di produzione derivano dai nomi dei file immagine. L’utilizzo di caratteri maiuscoli e minuscoli nel nome del file è importante, sia per la sostituzione dei file esistenti che per gli ID Adobe Dynamic Media Classic utilizzati per accedere all’immagine. Assicurati che l’uso di caratteri maiuscoli e minuscoli nei nomi dei file sia corretto prima di caricarli in Adobe Dynamic Media Classic per evitare ID Adobe Dynamic Media Classic che differiscono solo per la stessa immagine.
+Gli ID Adobe Dynamic Media Classic utilizzati per accedere alle immagini dai server di produzione derivano dai nomi dei file immagine. L’utilizzo di caratteri maiuscoli e minuscoli nel nome del file è importante, sia per la sostituzione dei file esistenti che per gli ID Adobe Dynamic Media Classic utilizzati per accedere all’immagine. L’utilizzo di nomi di file con caratteri maiuscoli e minuscoli è corretto prima del caricamento in Adobe Dynamic Media Classic per evitare Adobe Dynamic Media Classic ID che differiscono solo per la stessa immagine.
 
 Se deselezionate questa opzione, tutte le immagini con lo stesso nome file delle immagini esistenti vengono considerate copie e non vengono aggiunte.
 
 ## Predefiniti immagine {#image-presets}
 
-Nella schermata Predefiniti immagine è possibile creare e modificare i predefiniti per le immagini. I predefiniti per immagini consentono a Adobe Dynamic Media Classic di distribuire immagini in modo dinamico a dimensioni diverse dalla stessa immagine principale. Ogni predefinito immagine rappresenta una raccolta predefinita di comandi di ridimensionamento e formattazione per la visualizzazione delle immagini. Quando crei un predefinito immagine, selezioni una dimensione per la consegna delle immagini. È inoltre possibile selezionare i comandi di formattazione in modo che l&#39;aspetto dell&#39;immagine venga ottimizzato quando l&#39;immagine viene distribuita per la visualizzazione.
+Nella schermata Predefiniti immagine è possibile creare e modificare i predefiniti per le immagini. I predefiniti per immagini consentono a Adobe Dynamic Media Classic di distribuire immagini in modo dinamico a dimensioni diverse dalla stessa immagine principale. Ogni predefinito immagine rappresenta una raccolta predefinita di comandi di ridimensionamento e formattazione per la visualizzazione delle immagini. Quando crei un predefinito immagine, selezioni una dimensione per la consegna delle immagini. È inoltre possibile selezionare i comandi di formattazione per ottimizzare l&#39;aspetto dell&#39;immagine quando questa viene distribuita per la visualizzazione.
 
 Gli amministratori possono creare predefiniti per l’esportazione delle risorse. Gli utenti possono scegliere un predefinito al momento dell&#39;esportazione delle immagini, che consente anche di riformattarle in base alle specifiche specificate dall&#39;amministratore.
 
@@ -233,7 +233,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Raggio]** - Determina il numero di pixel attorno al bordo che influiscono sulla nitidezza. Per immagini ad alta risoluzione, inserite un valore da 1 a 2. Con un valore basso si agisce solo sui pixel del bordo; con un valore più elevato si agisce su una fascia più ampia di pixel. Il valore più adatto dipende dalle dimensioni dell’immagine.
 
-* **[!UICONTROL Soglia]** - Determina l&#39;intervallo di contrasto da ignorare quando si applica il filtro Maschera di contrasto. In altre parole, questa opzione specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Per evitare la comparsa di disturbi, provate con valori compresi tra 0,02 e 0,2. Con il valore predefinito 6 la nitidezza viene applicata a tutti i pixel nell’immagine.
+* **[!UICONTROL Soglia]** - Determina l&#39;intervallo di contrasto da ignorare quando si applica il filtro Maschera di contrasto. In altre parole, può aiutare a stabilire quanto devono differire i pixel resi più nitidi dall’area circostante prima che vengano considerati pixel del bordo e più nitidi. Per evitare di introdurre disturbi, prova con valori compresi tra `.02` e `0.2`. Il valore predefinito 6 applica la nitidezza a tutti i pixel dell&#39;immagine.
 
 * **[!UICONTROL Spazio colore]** - Determina se l&#39;immagine utilizza lo spazio in cui è stata creata, in genere RGB (Originale) o uno spazio di luminanza (Intensità).
 
@@ -243,7 +243,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
   Consultate anche [Profili ICC](icc-profiles.md#icc_profiles).
 
-* **[!UICONTROL Intento di rendering]** - Selezionare un&#39;opzione se si desidera ignorare l&#39;intento di rendering predefinito del profilo colore. Utilizzare questa opzione quando uno dei profili ICC predefiniti è lo spazio colore di destinazione di una conversione colore. In alternativa, una periferica di output (stampante o monitor) è caratterizzata da questo profilo e l&#39;intento di rendering specificato è valido per questo profilo.
+* **[!UICONTROL Intento di rendering]** - Selezionare un&#39;opzione se si desidera ignorare l&#39;intento di rendering predefinito del profilo colore. Utilizzare questa opzione quando uno dei profili ICC predefiniti è lo spazio colore di destinazione di una conversione colore. In alternativa, questo profilo caratterizza la periferica di output (stampante o monitor) e l&#39;intento di rendering specificato è valido per questo profilo.
 
 * **[!UICONTROL Incorpora profilo]** - Seleziona questa opzione affinché, se apri questa immagine in Adobe® Photoshop®, utilizzi questo profilo.
 
@@ -264,7 +264,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 ## Attivare o disattivare i predefiniti per video adattivi {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic offre predefiniti di codifica per video adattivo. Si tratta di un elenco principale di predefiniti che combina in un unico gruppo sia predefiniti per video adattivo 16:9 che predefiniti per video adattivo 4:3. Tali predefiniti riflettono le impostazioni di codifica più comuni e sono ottimizzati per la riproduzione su dispositivi mobili, tablet e computer desktop.
+Adobe Dynamic Media Classic offre predefiniti di codifica video adattiva. Si tratta di un elenco principale di predefiniti che combina in un unico gruppo sia predefiniti per video adattivo 16:9 che predefiniti per video adattivo 4:3. Tali predefiniti riflettono le impostazioni di codifica più comuni e sono ottimizzati per la riproduzione su dispositivi mobili, tablet e computer desktop.
 
 Per impostazione predefinita, sono attivati solo i predefiniti di codifica &quot;Video adattivo&quot; (abilitati o &quot;attivati&quot;). Se necessario, potete disattivarli. I predefiniti per video adattivi non attivati non vengono visualizzati come opzione selezionabile nella sezione eVideo della finestra di dialogo Opzioni processo di caricamento.
 
@@ -284,9 +284,9 @@ Per selezionare un predefinito di codifica, nell’angolo inferiore destro della
 
 >[!NOTE]
 >
->Ad eccezione di &quot;Video adattivo&quot;, che è abilitato per impostazione predefinita, non è possibile visualizzare tutti gli altri predefiniti per video adattivo o codifica video singola nella finestra di dialogo Opzioni processo di caricamento. Gli amministratori di Adobe Dynamic Media Classic determinano quali predefiniti di codifica video sono visibili nella finestra di dialogo Opzioni processo di caricamento.
+>Ad eccezione di &quot;Video adattivo&quot;, che è abilitato per impostazione predefinita, non è possibile visualizzare tutti gli altri predefiniti di codifica video adattivo o video singolo nella finestra di dialogo Opzioni processo di caricamento. Gli amministratori di Adobe Dynamic Media Classic determinano quali predefiniti di codifica video sono visibili nella finestra di dialogo Opzioni processo di caricamento.
 
-* Scegli una delle seguenti impostazioni di codifica video adattiva o a codifica singola:
+* Seleziona uno dei seguenti predefiniti di codifica video adattiva o a codifica singola:
 
    * **[!UICONTROL Video adattivo 16:9]** - Creazione di video in formato 16:9 da distribuire a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™), ottimizzati con la risoluzione e la velocità bit che meglio corrispondono alla velocità di connessione del visualizzatore.
 
@@ -326,7 +326,7 @@ I parametri delle opzioni dei predefiniti di codifica sono i seguenti:
 
 * **[!UICONTROL Larghezza/altezza pixel]** - La dimensione della larghezza dell&#39;immagine sullo schermo, in pixel; la dimensione dell&#39;altezza dell&#39;immagine sullo schermo (in pixel).
 
-* **[!UICONTROL Frame al secondo (fps)]** - Numero di fotogrammi, o immagini fisse, per ogni secondo del video. Negli Stati Uniti e in Giappone, i video sono solitamente ripresi a 29,97 fps; in Europa e in Asia (escluso il Giappone), sono invece ripresi a 25 fps. I film sono ripresi a 24 fps.
+* **[!UICONTROL Frame al secondo (fps)]** - Numero di fotogrammi, o immagini fisse, per ogni secondo del video. Negli Stati Uniti e in Giappone, i video sono solitamente ripresi a 29,97 fps; in Europa e in Asia (escluso il Giappone), sono invece ripresi a 25 fps. Il film viene girato a 24 fps.
 
 * **[!UICONTROL Velocità in bit audio]** - La quantità di dati codificata per costituire un singolo secondo di riproduzione audio, in kilobit al secondo.
 
@@ -334,25 +334,25 @@ Le tabelle di seguito indicano le procedure ottimali per la scelta dei predefini
 
 ### Video adattivo (predefinito) {#adaptive-video-default}
 
-Per creare video da distribuire a dispositivi mobili, tablet e computer desktop; predefinito di codifica che funziona con qualsiasi proporzione. I video sorgente caricati che vengono codificati utilizzando questo predefinito (l’impostazione predefinita e una best practice) sono impostati su un’altezza fissa, mentre la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video.
+Per creare video da distribuire a dispositivi mobili, tablet e computer desktop; predefinito di codifica che funziona con qualsiasi proporzione. I video sorgente caricati codificati con questo predefinito (impostazione predefinita e best practice) vengono impostati su un’altezza fissa, mentre la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video.
 
 **Video adattivo (predefinito)**
 
-|  | Nome predefinito di codifica/Descrizione | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
+|  | Nome predefinito di codifica/Descrizione | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto × 360, 800 Kbps | _Mobile_Auto×360p_800K | 800 | Auto×360 | Come sorgente | 64 | Per dispositivi mobili (iPhone, iPad, Android™) |
 | 2 | Auto × 480, 1400 Kbps | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | Come sorgente | 96 | Per tablet (iPad, Android™) |
 | 3 | Auto × 720, 2600 Kbps | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Come sorgente | 128 | Per desktop |
 
-### Predefiniti per codifica video adattiva (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
+### Predefiniti di codifica video adattiva (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
 
-Di seguito sono elencati i predefiniti di codifica disponibili per video adattivi; combinano una serie di singoli predefiniti di codifica selezionati automaticamente in base alle proporzioni del video caricato. Ad esempio, se caricate un video 4:3, questo viene codificato automaticamente utilizzando tutti e cinque i predefiniti 4:3 presenti nell&#39;elenco dei predefiniti principali nella **Codifica video adattiva (16:9 o 4:3)** opzione.
+Questi predefiniti di codifica video adattiva combinano una serie di singoli predefiniti di codifica selezionati automaticamente in base alle proporzioni del video caricato. Ad esempio, se caricate un video 4:3, questo viene codificato automaticamente utilizzando tutti e cinque i predefiniti 4:3 presenti nell&#39;elenco dei predefiniti principali nella **Codifica video adattiva (16:9 o 4:3)** opzione.
 
 Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni dei predefiniti di codifica](application-setup.md#about_encoding_preset_options).
 
 **Predefiniti di codifica video adattiva (16:9 o 4:3)**
 
-|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
+|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
@@ -373,7 +373,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 **H264 Main 3.2 - Audio AAC, estensione file MP4**
 
-|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
+|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Come sorgente | 64 | Widescreen a bassa risoluzione |
 | 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | Come sorgente | 80 | Widescreen a risoluzione media |
@@ -386,7 +386,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 **OGG Theora Vorbis - Estensione del file OGV**
 
-|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Fps | Bitrate audio (Kbps) | Consigli |
+|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Come sorgente | 64 | Widescreen a bassa risoluzione |
 | 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Come sorgente | 80 | Widescreen a risoluzione media |
@@ -405,7 +405,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 **Linea di base H264 2.1 - Audio AAC, estensione file MP4**
 
-|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Bitrate video (Kbps) | Larghezza/Altezza in pixel | Fps | Bitrate audio (Kbps) | Consigli |
+|  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Bitrate video (Kbps) | Larghezza/Altezza in pixel | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512x288, Mobile (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Come sorgente | 64 | Bassa risoluzione, 3G |
 | 2 | 16:9, 512x288, Mobile (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Come sorgente | 64 | Risoluzione media, 3G |
@@ -456,15 +456,23 @@ Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle p
 
 Gli amministratori possono creare e personalizzare i seguenti tipi di predefiniti per visualizzatori.
 
-* **[!UICONTROL Visualizzatore eCatalog]** - Simula la lettura di un catalogo stampato. È possibile spostarsi da una pagina all&#39;altra, ingrandire e ridurre gli elementi di una pagina, utilizzare le mappe immagine per visualizzare ulteriori informazioni sugli elementi della pagina o eseguire ricerche nel catalogo. Potete inoltre includere un pannello Info con le informazioni dettagliate su un articolo collegato a una mappa, se all’area della mappa è assegnato un attributo rollover_key valido. Per includere un pannello Info, specificate l’URL di un server informazioni nel riquadro Impostazioni pannello Info, nella finestra Predefinito visualizzatore eCatalog.
+* **[!UICONTROL Visualizzatore eCatalog]** - Simula la lettura di un catalogo stampato. È possibile spostarsi da una pagina all&#39;altra, ingrandire e ridurre gli elementi di una pagina, utilizzare le mappe immagine per visualizzare ulteriori informazioni sugli elementi della pagina o eseguire ricerche nel catalogo. Potete inoltre includere un pannello Info per visualizzare informazioni dettagliate e un elemento mappato da un&#39;immagine se l&#39;area della mappa ha un attributo rollover_key valido. Per includere un pannello Info, specificate un URL di Information Server nel pannello Impostazioni del pannello Info della finestra Predefinito visualizzatore eCatalog.
 
 * **[!UICONTROL Visualizzatore set campioni]** - Visualizza un&#39;immagine con un colore, un materiale, una trama, una finitura o un tessuto diversi. Gli utenti selezionano una miniatura per visualizzare le varianti nell’immagine.
 
-* **[!UICONTROL Visualizzatore set di file multimediali diversi]** - Visualizza diversi tipi di file multimediali in un solo visualizzatore. Potete includere set di campioni, set 360 gradi, immagini e video. Potete configurare schede per diversi tipi di contenuto, ad esempio una scheda per i set di immagini e una scheda per i video. Per la riproduzione dei video da un set di file multimediali diversi viene usato un visualizzatore standard con un indicatore temporale e controlli per interrompere, mettere in pausa, riavvolgere e riprodurre il video. Quando configurate il predefinito per visualizzatori di un set di file multimediali diversi, specificate i visualizzatori da usare per i diversi tipi di risorse del set. Per visualizzare un set di file multimediali diversi potete anche usare il visualizzatore Griglia o Carosello.
+* **[!UICONTROL Visualizzatore set di file multimediali diversi]** - Visualizza diversi tipi di file multimediali in un solo visualizzatore. Potete includere set di campioni, set 360 gradi, immagini e video. È possibile impostare le schede in modo che contengano diversi tipi di contenuto, ad esempio una scheda per i set di immagini e una scheda per i video. I video riprodotti da un set di file multimediali diversi utilizzano un visualizzatore video standard con una timeline e controlli video quali Stop, Pause, Rewind e Play. Quando imposti un predefinito visualizzatore set di file multimediali diversi, specifica quali visualizzatori desideri utilizzare per i diversi tipi di risorse nel set di file multimediali diversi. Per visualizzare un set di file multimediali diversi potete anche usare il visualizzatore Griglia o Carosello.
 
 * **[!UICONTROL Visualizzatore set 360 gradi]** - Fornisce più viste di un&#39;immagine in modo che gli utenti possano ruotare l&#39;oggetto per esaminare i diversi lati e angoli.
 
-* **Visualizzatore video** - Visualizza i video utilizzando le dimensioni di risoluzione del file di origine o una dimensione personalizzata. In Adobe Dynamic Media Classic sono disponibili molti predefiniti visualizzatore predefiniti per la riproduzione di video e, se sei un amministratore, puoi creare predefiniti visualizzatore video personalizzati. Sono disponibili più di 12 impostazioni diverse per la configurazione del Visualizzatore video. Potete configurare la relativa dimensione, il colore di primo piano e di sfondo, i controlli audio e video, la barra di avanzamento, l’interfaccia utente, le funzioni per social networking e l’Aiuto.
+* **Visualizzatore video** - Visualizza i video utilizzando le dimensioni di risoluzione del file di origine o una dimensione personalizzata. In Adobe Dynamic Media Classic sono disponibili molti predefiniti visualizzatore predefiniti per la riproduzione di video e, se sei un amministratore, puoi creare predefiniti visualizzatore video personalizzati. Sono disponibili più di 12 impostazioni diverse per la configurazione del Visualizzatore video. Puoi configurare i relativi:
+
+   * dimensione
+   * colore di primo piano e di sfondo
+   * controlli video e audio
+   * barra di avanzamento
+   * interfaccia utente - interfaccia utente
+   * funzioni social
+   * e Aiuto
 
 * **[!UICONTROL Visualizzatori zoom]** - Possibilità di scegliere tra tre tipi di visualizzatori di zoom:
 
@@ -560,15 +568,15 @@ La schermata Predefiniti visualizzatore offre strumenti che consentono di esegui
 
 * **Aggiungi un predefinito** - Seleziona **[!UICONTROL Aggiungi]** e effettuare le scelte desiderate nella finestra di dialogo Aggiungi predefinito visualizzatore.
 
-      Consultate [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_preets).
+      Consultate [Aggiungere e modificare predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
   
 * **Modificare un predefinito** - Selezionare un predefinito, quindi selezionare **[!UICONTROL Modifica]**.
 
-      Consultate [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_preets).
+      Consultate [Aggiungere e modificare predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
   
 * **Eliminare un predefinito** - Selezionare un predefinito, quindi selezionare **[!UICONTROL Elimina]**.
 
-* **Esportare un predefinito** - Seleziona un predefinito visualizzatore HTML5, quindi seleziona **[!UICONTROL Esporta]** per scaricare l’interfaccia del visualizzatore in modo da poterla utilizzare come base per creare e aggiungere un altro predefinito visualizzatore.
+* **Esportare un predefinito** - Selezionare un predefinito visualizzatore HTML5. Quindi fai clic su **[!UICONTROL Esporta]** per scaricare l’interfaccia del visualizzatore in modo da poterla utilizzare come base per creare e aggiungere un altro predefinito visualizzatore.
 
       Consultate [Esportare un predefinito visualizzatore HTML5](application-setup.md#export_an_html5_viewer_preset).
   
@@ -581,17 +589,17 @@ La schermata Predefiniti visualizzatore offre strumenti che consentono di esegui
 
 * **Attivare e disattivare i predefiniti** - Selezionare un predefinito, quindi selezionare l&#39;opzione Attivo corrispondente in modo da poterlo attivare o disattivare.
 
-      Consultate [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_preets).
+      Consultate [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_presets).
   
 >[!NOTE]
 >
 >Seleziona **[!UICONTROL Anteprima]** sul lato destro della pagina Predefiniti visualizzatore, in modo da poter vedere come si presenta una risorsa nel Predefinito visualizzatore selezionato. Per visualizzare una risorsa diversa, seleziona **[!UICONTROL Sfoglia]** nella pagina Predefiniti visualizzatore e seleziona un’altra risorsa nella finestra di dialogo Seleziona anteprima risorsa.
 
-### Aggiungere e modificare i predefiniti visualizzatore {#adding-and-editing-viewer-presets}
+### Aggiungere e modificare i predefiniti per visualizzatori {#adding-and-editing-viewer-presets}
 
 Oltre ad aggiungere predefiniti visualizzatore utilizzando **[!UICONTROL Aggiungi]** nell’interfaccia utente di, puoi anche utilizzare **[!UICONTROL Esporta]** per aggiungere un predefinito visualizzatore. È sufficiente esportare un predefinito visualizzatore HTML5 esistente e utilizzarlo come base per il nuovo predefinito.
 
-Consulta [Esportare un predefinito per visualizzatore HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+Consulta [Esportazione predefinito visualizzatore HTML5](application-setup.md#exporting_an_html5_viewer_preset).
 
 Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) video di formazione.
 
@@ -607,7 +615,7 @@ Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/
 
          Seleziona **[!UICONTROL Salva con nome]** al termine della creazione del predefinito visualizzatore.
      
-   * **Aggiungi partendo da un predefinito per visualizzatori esistente** - Nella tabella, seleziona un predefinito per visualizzatore video, quindi fai clic su **[!UICONTROL Modifica]** sulla barra degli strumenti.
+   * **Aggiungi partendo da un predefinito visualizzatore esistente** - Nella tabella, seleziona un predefinito per visualizzatore video, quindi fai clic su **[!UICONTROL Modifica]** sulla barra degli strumenti.
 
          Dopo aver riconfigurato il Visualizzatore video, seleziona **[!UICONTROL Salva con nome]** salvare il predefinito utilizzando un nome diverso nel campo di testo Nome predefinito.
      
@@ -618,20 +626,20 @@ Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/
 
    >[!NOTE]
    >
-   >Seleziona **[!UICONTROL Uguale all&#39;origine]** per ridimensionare automaticamente il Visualizzatore video in base alle dimensioni di risoluzione del video codificato. Se si seleziona questa opzione, non è possibile immettere le opzioni Larghezza stage e Altezza stage. e tali valori verranno invece determinati dal video stesso. Se si seleziona **[!UICONTROL Uguale all&#39;origine]**, impostate l&#39;opzione Dimensione margine per riflettere le dimensioni dello skin al di fuori dell&#39;area di riproduzione del video. Le dimensioni del margine corrispondono all’altezza e alla larghezza in pixel dei controlli video. Per determinare le dimensioni dei margini desiderate, è possibile utilizzare l&#39;immagine seguente.*
+   >Seleziona **[!UICONTROL Uguale all&#39;origine]** in modo da poter ridimensionare automaticamente il Visualizzatore video in base alle dimensioni di risoluzione del video codificato. Se si seleziona questa opzione, non è possibile immettere le opzioni Larghezza stage e Altezza stage. e tali valori verranno invece determinati dal video stesso. Se si seleziona **[!UICONTROL Uguale all&#39;origine]**, impostate l&#39;opzione Dimensione margine per riflettere le dimensioni dello skin al di fuori dell&#39;area di riproduzione del video. Le dimensioni del margine corrispondono all’altezza e alla larghezza in pixel dei controlli video. Per determinare le dimensioni dei margini desiderate, è possibile utilizzare l&#39;immagine seguente.*
 
    ![Configurazione del margine del visualizzatore video](assets/vs_video_viewer_configure_margin.png)
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Seleziona **[!UICONTROL Salva con nome]** se avete aggiunto un predefinito visualizzatore partendo da un predefinito esistente.
-   * Seleziona **[!UICONTROL Salva]** se hai aggiunto o modificato un predefinito per visualizzatori.
+   * Seleziona **[!UICONTROL Salva con nome]** se hai aggiunto un predefinito visualizzatore partendo da un predefinito esistente.
+   * Seleziona **[!UICONTROL Salva]** se hai aggiunto o modificato un predefinito visualizzatore.
 
 ### Esportare un predefinito visualizzatore HTML5 {#exporting-an-html-viewer-preset}
 
 È possibile esportare un predefinito visualizzatore HTML5 esistente da utilizzare come base per la creazione di un predefinito visualizzatore HTML5. In questo modo si evita di dover creare un visualizzatore da zero. Se esportate un predefinito con aspetto e comportamento simili a quelli desiderati, potrete usarlo come base di partenza per apportare le regolazioni necessarie.
 
-Tutti i file CSS predefiniti per visualizzatori in Adobe Dynamic Media Classic utilizzano percorsi relativi di gestione delle immagini che puntano alle risorse in `Scene7SharedAssets`. Ad esempio, il percorso relativo di una risorsa immagine in un file CSS predefinito per visualizzatori in
+Tutti i file CSS predefiniti di Predefinito visualizzatore in Adobe Dynamic Media Classic utilizzano percorsi di gestione delle immagini relativi che puntano alle risorse in `Scene7SharedAssets`. Ad esempio, il percorso relativo di una risorsa immagine in un file CSS del predefinito per visualizzatori in
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
@@ -666,13 +674,13 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consulta [Pubblicare i file](publishing-files.md#publishing_files).
 
-1. Aggiungete il nuovo predefinito per visualizzatori seguendo la procedura standard. Seleziona il file CSS del visualizzatore caricato.
+1. Aggiungi normalmente il nuovo predefinito visualizzatore. Seleziona il file CSS del visualizzatore caricato.
 
    Consulta [Aggiungere e modificare i predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
 ### Attivare o disattivare i predefiniti visualizzatore {#activating-or-deactivating-viewer-presets}
 
-Per creare un URL per la visualizzazione delle risorse, gli utenti aprono l&#39;elenco a discesa Predefiniti nella finestra di dialogo Anteprima, selezionano un predefinito visualizzatore, quindi selezionano **[!UICONTROL Copia URL]** (vedere [Copiare l’URL di un predefinito per visualizzatori](application-setup.md#copying_the_url_of_a_viewer_preset)). Questo elenco di predefiniti offre i predefiniti per visualizzatori aggiunti e gestiti dagli amministratori nella schermata Predefiniti per visualizzatore. Ad esempio, tutti i predefiniti per visualizzatori eCatalog attivi vengono visualizzati nell’elenco a discesa Predefiniti nella finestra di dialogo Anteprima quando un utente esegue l’anteprima di un eCatalog.
+Per creare un URL per la visualizzazione delle risorse, gli utenti aprono l&#39;elenco a discesa Predefiniti nella finestra di dialogo Anteprima, selezionano un predefinito visualizzatore, quindi selezionano **[!UICONTROL Copia URL]** (vedere [Copiare l’URL di un predefinito per visualizzatori](application-setup.md#copying_the_url_of_a_viewer_preset)). Questo elenco di predefiniti offre i predefiniti per visualizzatori aggiunti e gestiti dagli amministratori nella schermata Predefiniti per visualizzatore. Ad esempio, tutti i predefiniti visualizzatore eCatalog attivi vengono visualizzati nell&#39;elenco a discesa Predefiniti nella finestra di dialogo Anteprima quando un utente visualizza l&#39;anteprima di un eCatalog.
 
 Se i predefiniti per visualizzatori non vengono disattivati nella schermata Predefiniti per visualizzatore, nell’elenco a discesa Predefiniti nella finestra di dialogo Anteprima potrebbero accumularsi troppi predefiniti. 
 
@@ -689,7 +697,7 @@ L’URL viene copiato negli Appunti. Potete utilizzarlo come desiderate nel codi
 
 **Per copiare l’URL di un predefinito visualizzatore:**
 
-1. Selezionate la risorsa nel pannello Sfoglia.
+1. Seleziona la risorsa nel pannello Sfoglia.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
@@ -713,7 +721,7 @@ La modifica del codice non è consentita nella finestra di dialogo Codice da inc
 
 **Per copiare il codice di incorporamento di un predefinito visualizzatore:**
 
-1. Selezionate la risorsa nel pannello delle risorse.
+1. Seleziona la risorsa nel pannello Sfoglia risorse.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL a destra, seleziona **[!UICONTROL Codice di incorporamento]**.
@@ -783,7 +791,7 @@ In Adobe Dynamic Media Classic sono disponibili visualizzazioni metadati predefi
 
 ## Predefiniti per metadati {#metadata-presets}
 
-I predefiniti per metadati consentono agli amministratori di controllare e modificare i metadati assegnati alle risorse. Nella Vista dettagli, un utente può immettere i metadati di una risorsa nei campi forniti a tale scopo. Ad esempio, un utente può inserire un nome proprietario, una descrizione del copyright e un indirizzo. Per fare in modo che gli utenti immettano queste informazioni in modo accurato e completo, puoi creare predefiniti di metadati. Quando si sceglie un predefinito di metadati nella vista Dettaglio, i campi di metadati vengono compilati con valori predefiniti. Ad esempio, il nome proprietario, la descrizione del copyright e l’indirizzo vengono inseriti automaticamente.
+I predefiniti di metadati consentono agli amministratori di controllare e regolare i metadati assegnati alle risorse. Nella Vista dettagli, un utente può immettere i metadati di una risorsa nei campi forniti a tale scopo. Ad esempio, un utente può inserire un nome proprietario, una descrizione del copyright e un indirizzo. Per fare in modo che gli utenti immettano queste informazioni in modo accurato e completo, puoi creare predefiniti di metadati. Quando si sceglie un predefinito di metadati nella vista Dettaglio, i campi di metadati vengono compilati con valori predefiniti. Ad esempio, il nome proprietario, la descrizione del copyright e l’indirizzo vengono inseriti automaticamente.
 
 Crea un predefinito di metadati per ogni set di valori di metadati che desideri che gli utenti possano immettere automaticamente nella Vista dettagli per descrivere una risorsa.
 
@@ -850,9 +858,9 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
    * **[!UICONTROL Non tipizzato]** - Compatibilità con le versioni precedenti. Non selezionate questa opzione.
 
-   * **[!UICONTROL Valore predefinito]** - È possibile inserire il valore che gli utenti immetteranno con maggiore probabilità nel campo. Il valore immesso diventa il valore predefinito per il nuovo campo creato.
+   * **[!UICONTROL Valore predefinito]** - Facoltativo. Immetti il valore che gli utenti immetteranno con maggiore probabilità nel campo. Il valore immesso diventa il valore predefinito per il nuovo campo creato.
 
-   * **[!UICONTROL Si applica a]** - È possibile selezionare un tipo di risorsa se si desidera che il campo dei metadati venga applicato solo a un tipo specifico di risorsa.
+   * **[!UICONTROL Si applica a]** - Facoltativo. Seleziona un tipo di risorsa se desideri che il campo metadati sia applicabile solo a un tipo specifico di risorsa.
 
      >[!NOTE]
      >
@@ -891,22 +899,22 @@ Utilizza i predefiniti per set di batch per creare automaticamente set di immagi
 
 Gli amministratori aziendali definiscono innanzitutto le convenzioni di denominazione per le risorse che desiderano raggruppare in un set. È quindi possibile creare un predefinito per set di batch per fare riferimento a queste immagini. Ogni predefinito ha un nome univoco ed è un set autonomo di istruzioni che definisce come comporre il set con le immagini in base alle convenzioni di denominazione specificate con le opzioni del predefinito.
 
-Tutti i predefiniti per set di batch attivi di una società sono riportati nella finestra di dialogo Opzioni processo di caricamento e potete quindi specificare il predefinito da applicare per ogni sessione di caricamento. Per gli amministratori di società vengono visualizzati tutti i predefiniti per set di batch, attivi e inattivi. Quando caricate i file, Adobe Dynamic Media Classic crea automaticamente un set con tutti i file che corrispondono alla convenzione di denominazione definita nei predefiniti attivi.
+Tutti i predefiniti per set di batch attivi per una società sono elencati nella finestra di dialogo Opzioni processo di caricamento, che consente di specificare il predefinito da applicare durante ogni sessione di caricamento. Gli amministratori della società visualizzano tutti i predefiniti per set di batch attivi e inattivi. Quando caricate i file, Adobe Dynamic Media Classic crea automaticamente un set con tutti i file che corrispondono alla convenzione di denominazione definita nei predefiniti attivi.
 
 ### Denominazione predefinita {#default-naming}
 
-L’amministratore della società può creare una convenzione di denominazione predefinita, da usare in qualsiasi predefinito per set di batch. La convenzione di denominazione predefinita selezionata nella definizione del predefinito per set di batch può essere tutto ciò che serve alla società per generare set in batch per tutti i siti web. Per usare la convenzione di denominazione predefinita, è necessario creare un predefinito per set di batch. Per gestire eventuali eccezioni alla denominazione predefinita stabilita per la società, potete creare altri predefiniti per set di batch con convenzioni di denominazione personalizzate, da applicare a particolari set di contenuti.
+L’amministratore della società crea una convenzione di denominazione predefinita che viene utilizzata in qualsiasi composizione di predefiniti per set di batch. La convenzione di denominazione predefinita selezionata nella definizione del predefinito per set di batch può essere tutto ciò che la società deve generare in batch set per tutti i siti web. Un predefinito per set di batch viene creato per utilizzare la convenzione di denominazione predefinita definita. È possibile creare un numero illimitato di predefiniti per set di batch con convenzioni di denominazione alternative e personalizzate necessarie per un particolare set di contenuti nei casi in cui vi sia un’eccezione alla denominazione predefinita definita dall’azienda.
 
-Per utilizzare la funzionalità di predefinito per set di batch non è necessario impostare una convenzione di denominazione predefinita. Tuttavia, è consigliabile utilizzare una convenzione di denominazione predefinita per definire tutti gli elementi della convenzione di denominazione che si desidera raggruppare in un Adobe. In questo modo è possibile semplificare la creazione di set di batch.
+Per utilizzare la funzionalità Predefinito per set di batch non è necessario impostare una convenzione di denominazione predefinita. Tuttavia, è consigliabile utilizzare una convenzione di denominazione predefinita per definire tutti gli elementi della convenzione di denominazione che si desidera raggruppare in un Adobe. In questo modo è possibile semplificare la creazione di set di batch.
 
 1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Predefiniti set di batch]** > **[!UICONTROL Denominazione predefinita]**.
 1. Selezionate **[!UICONTROL Visualizza modulo]** o **[!UICONTROL Visualizza codice]** per specificare la modalità di visualizzazione e di inserimento delle informazioni relative a ciascun elemento.
 
-   È possibile selezionare **[!UICONTROL Visualizza codice]** per visualizzare la creazione del valore delle espressioni regolari insieme alle selezioni del modulo. Qualora la visualizzazione modulo presenti delle limitazioni, potete inserire o modificare tali valori per definire meglio gli elementi di denominazione. Se non è possibile analizzare i valori nella visualizzazione del modulo, i campi del modulo diventano inattivi.
+   È possibile selezionare **[!UICONTROL Visualizza codice]** per visualizzare la creazione del valore delle espressioni regolari insieme alle selezioni del modulo. È possibile immettere o modificare questi valori per definire gli elementi della convenzione di denominazione, se per qualsiasi motivo la visualizzazione Maschera vi limita. Se non è possibile analizzare i valori nella visualizzazione Maschera, i campi del modulo diventano inattivi.
 
    >[!NOTE]
    >
-   >i campi del modulo disattivati non indicano che l’espressione regolare non è valida. Non è disponibile una funzione di convalida delle espressioni regolari generate. I risultati dell’espressione regolare generata verranno visualizzati per ogni elemento dopo la riga Risultato. L’espressione regolare completa è riportata nella parte inferiore della pagina.
+   >i campi del modulo disattivati non indicano che l’espressione regolare non è valida. Non è disponibile una funzione di convalida delle espressioni regolari generate. Vedrai i risultati dell’espressione regolare che stai creando per ogni elemento dopo la riga Risultato. L’espressione regolare completa è riportata nella parte inferiore della pagina.
 
 1. Espandete ciascun elemento come opportuno e inserite le convenzioni di denominazione da usare.
 1. Se necessario, seleziona **[!UICONTROL Aggiungi]** per aggiungere un&#39;altra convenzione di denominazione per un elemento. Oppure, seleziona **[!UICONTROL Rimuovi]** per eliminare una convenzione di denominazione per un elemento.
@@ -914,15 +922,15 @@ Per utilizzare la funzionalità di predefinito per set di batch non è necessari
 
 In alternativa, potete usare l’opzione Visualizza codice, senza campi del modulo. In questa vista puoi creare le definizioni delle convenzioni di denominazione interamente utilizzando espressioni regolari.
 
-Per la definizione sono disponibili due elementi, Corrispondenza e Nome base. Questi campi sono tutti gli elementi definiti per una convenzione di denominazione e identificano la parte della convenzione utilizzata per denominare il set in cui sono contenuti. La convenzione di denominazione individuale di un’azienda può utilizzare una o più righe di definizione per ciascuno di questi elementi. Potete usare tutte le righe necessarie a creare una definizione univoca e raggrupparle in elementi distinti, ad esempio per l’immagine principale, l’elemento colore, l’elemento visualizzazione alternativa e l’elemento campione.
+Per la definizione sono disponibili due elementi, Corrispondenza e Nome base. Questi campi sono tutti gli elementi definiti per una convenzione di denominazione. Possono aiutare a identificare la parte della convenzione utilizzata per denominare l’insieme in cui sono contenuti. La convenzione di denominazione individuale di un’azienda può utilizzare una o più righe di definizione per ciascuno di questi elementi. È possibile utilizzare tutte le righe per la definizione univoca e raggrupparle in elementi distinti, ad esempio per l&#39;immagine principale, l&#39;elemento Colore, l&#39;elemento Visualizzazione alternativa e l&#39;elemento Campione.
 
 ### Creare un predefinito per set di batch {#creating-a-batch-set-preset}
 
-Adobe Dynamic Media Classic utilizza i predefiniti per set di batch per organizzare le risorse che condividono alcune informazioni o contenuti comuni in set di immagini da visualizzare nei visualizzatori. Le ricette predefinite per set di batch vengono eseguite automaticamente insieme ai processi di importazione risorse pianificati in Adobe Dynamic Media Classic.
+Adobe Dynamic Media Classic utilizza i predefiniti per set di batch per organizzare le risorse che condividono alcune informazioni o contenuti comuni in set di immagini da visualizzare nei visualizzatori. Le composizioni del predefinito per set di batch vengono eseguite automaticamente insieme ai processi di importazione risorse pianificati in Adobe Dynamic Media Classic.
 
-Usate la schermata Predefinito set di batch per creare, modificare e gestire i predefiniti per set di batch. Puoi creare tutti i predefiniti necessari per coprire tutti i processi di acquisizione risorse necessari. Esistono due forme di definizioni predefinite per set di batch: una per una convenzione di denominazione predefinita che hai impostato e una per le convenzioni di denominazione personalizzate che crei al volo.
+Utilizzare Predefinito set di batch per creare, modificare e gestire i predefiniti set di batch. Puoi creare tutti i predefiniti necessari per coprire tutti i processi di acquisizione risorse necessari. Esistono due forme di definizioni dei predefiniti per set di batch: una per una convenzione di denominazione predefinita che hai impostato e una per le convenzioni di denominazione personalizzate che crei al volo.
 
-È possibile utilizzare il metodo campo modulo per definire un predefinito per set di batch oppure il metodo codice, che consente di utilizzare espressioni regolari. Come in **[!UICONTROL Denominazione predefinita]**, puoi selezionare **[!UICONTROL Vista Codice]** allo stesso tempo si definiscono nella Vista modulo e si utilizzano espressioni regolari per creare le definizioni. In alternativa, potete deselezionare una delle due visualizzazioni e usare solo l’altra.
+È possibile utilizzare il metodo campo modulo per definire un predefinito per set di batch o il metodo di codice, che consente di utilizzare espressioni regolari. Come in **[!UICONTROL Denominazione predefinita]**, puoi selezionare **[!UICONTROL Vista Codice]** allo stesso tempo si definiscono nella Vista modulo e si utilizzano espressioni regolari per creare le definizioni. In alternativa, potete deselezionare una delle due visualizzazioni e usare solo l’altra.
 
 Vedi anche [Creare un predefinito per set di batch per la generazione automatica di un set 360 gradi 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
@@ -943,9 +951,9 @@ Vedi anche [Set 360 gradi 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewe
    * Per definire una convenzione di denominazione durante la configurazione del predefinito, espandete **[!UICONTROL Convenzioni di denominazione delle risorse]** e quindi nell&#39;elenco a discesa Denominazione file selezionare **[!UICONTROL Personalizzato]**.
 
 1. Per Ordine sequenza, definisci l’ordine delle immagini dopo che il set è stato raggruppato in Adobe Dynamic Media Classic. Per impostazione predefinita le risorse sono elencate in ordine alfabetico. Tuttavia, potete definirne l’ordine utilizzando un elenco separato da virgole delle espressioni regolari.
-1. Per Imposta convenzione di denominazione e creazione, specificate il suffisso o il prefisso da aggiungere al nome di base definito nella convenzione di denominazione della risorsa. Definisci anche dove viene creato il set di immagini nella struttura di cartelle di Adobe Dynamic Media Classic.
+1. Per Imposta convenzione di denominazione e creazione, specificate il suffisso o il prefisso del nome base definito nella convenzione di denominazione delle risorse. Definisci anche dove viene creato il set di immagini nella struttura di cartelle di Adobe Dynamic Media Classic.
 
-   Se definisci un numero elevato di set di immagini, mantieni questi set separati dalle cartelle che contengono le risorse stesse. Molti clienti creano una cartella con i set di immagini e reindirizzano l’applicazione in modo che memorizzi in tale cartella i set di batch generati.
+   Se definisci un numero elevato di Set di immagini, mantieni questi set separati dalle cartelle che contengono le risorse stesse. Molti clienti creano una cartella Set di immagini e reindirizzano l’applicazione per inserire qui i set generati da set di batch.
 
 1. Seleziona **[!UICONTROL Salva]** nel pannello Dettagli.
 
@@ -957,7 +965,7 @@ Vedi anche [Creare un predefinito per set di batch](application-setup.md#creatin
 
 In un set 360 gradi multiasse non è necessario disporre di un numero minimo o massimo di righe o colonne.
 
-Ad esempio, supponiamo di voler creare un set 360 gradi multiasse denominato *spin-2dspin*. Disponete di una serie di immagini per set 360 gradi che contengono tre righe con 12 immagini per riga. Le immagini sono denominate come segue:
+Ad esempio, supponiamo di voler creare un set 360 gradi multiasse denominato *spin-2dspin*. Hai un set di immagini Set 360 gradi che contengono tre righe, con 12 immagini per riga. Le immagini sono denominate come segue:
 
 ```as3
 spin-01-01
@@ -1015,14 +1023,14 @@ Quando il set 360 gradi viene caricato e pubblicato, puoi attivare il nome della
 
    >[!NOTE]
    >
-   >Se la combinazione di espressioni regolari in righe e colonne non è in grado di determinare la posizione della risorsa all’interno della matrice del set 360 gradi multidimensionale, tale risorsa non viene aggiunta al set e viene registrato un errore.
+   >Se la combinazione di espressioni regolari in righe e colonne non è in grado di determinare la posizione della risorsa all’interno della matrice del set 360 gradi multidimensionale, tale risorsa non viene aggiunta al set. Errore registrato.
 
-1. Per Imposta convenzione di denominazione e creazione, specificate il suffisso o il prefisso da aggiungere al nome di base definito nella convenzione di denominazione della risorsa. Definisci anche dove viene creato il set di immagini nella struttura di cartelle di Adobe Dynamic Media Classic.
+1. Per Imposta convenzione di denominazione e creazione, specificate il suffisso o il prefisso del nome base definito nella convenzione di denominazione delle risorse. Definisci anche dove viene creato il set di immagini nella struttura di cartelle di Adobe Dynamic Media Classic.
 
-   Se definisci un numero elevato di set di immagini, mantieni questi set separati dalle cartelle che contengono le risorse stesse. Molti clienti creano una cartella con i set di immagini e reindirizzano l’applicazione in modo che memorizzi in tale cartella i set di batch generati.
+   Se definisci un numero elevato di Set di immagini, mantieni questi set separati dalle cartelle che contengono le risorse stesse. Molti clienti creano una cartella Set di immagini e reindirizzano l’applicazione per inserire qui i set generati da set di batch.
 
 1. Seleziona **[!UICONTROL Salva]** nel pannello Dettagli.
-1. Caricate e pubblicate normalmente il set 360 gradi, assicurandovi di attivare il nome del set 360 gradi 2D nella finestra di dialogo Opzioni processo di caricamento, nella sezione Predefiniti per set di batch.
+1. Carica e pubblica il set 360 gradi come di consueto, assicurandoti di attivare il nome del set 360 gradi 2D nella finestra di dialogo Opzioni caricamento processo, in Predefiniti set di batch.
 
 >[!MORELIKETHIS]
 >

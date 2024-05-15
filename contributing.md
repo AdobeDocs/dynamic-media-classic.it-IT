@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ La segnalazione di un problema consente di descrivere facilmente la tua proposta
 
 ### Creare una richiesta di pull {#create-a-pull-request}
 
-Se noti un problema e sai esattamente come correggerlo, puoi creare una richiesta. Le richieste pull ti consentono di apportare alla documentazione le modifiche desiderate, che saranno poi esaminate da un membro del team addetto alla documentazione. Per apportare le modifiche suggerite e creare la richiesta di pull, seleziona **[!UICONTROL Modifica questa pagina]** in alto a destra nel pannello di navigazione su qualsiasi pagina.
+Se noti un problema e sai esattamente come correggerlo, puoi creare una richiesta. Le richieste pull ti consentono di apportare alla documentazione le modifiche desiderate, che verranno esaminate da un membro del team addetto alla documentazione per essere incluse. Per apportare le modifiche suggerite e creare la richiesta di pull, seleziona **[!UICONTROL Modifica questa pagina]** in alto a destra nel pannello di navigazione su qualsiasi pagina.
 
-Tutte le richieste devono essere accompagnate da una firma [Contratto di licenza da collaboratore o CLA](https://opensource.adobe.com/cla.html). Questo flusso di lavoro concede all’Adobe l’autorizzazione a ridistribuire i contributi come parte del progetto. È possibile inviare un CLA di Adobe una sola volta, quindi se ne è stato inviato uno in precedenza, l&#39;impostazione viene impostata.
+Una firma [Contratto di licenza da collaboratore o CLA](https://opensource.adobe.com/cla.html) deve accompagnare tutte le richieste pull. Questo flusso di lavoro concede all’Adobe l’autorizzazione a ridistribuire i contributi come parte del progetto. È possibile inviare un CLA di Adobe una sola volta, quindi se ne è stato inviato uno in precedenza, viene impostato.
 
 ### Video introduttivo
 

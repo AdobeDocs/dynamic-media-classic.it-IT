@@ -10,9 +10,9 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 17%
 
 ---
@@ -57,4 +57,4 @@ Consulta [Pubblicare i file](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crea chiamate URL per i set di campioni e li attiva dopo la pubblicazione. Puoi copiare questi URL dalla pagina di anteprima.
 
-Selezionate il set di campioni, quindi fate clic sul pulsante Anteprima. Viene visualizzata la pagina Anteprima. Selezionate un predefinito per visualizzatori di set di campioni, quindi fate clic sul pulsante Copia URL. Consulta [Collegare un set di campioni a una pagina web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Selezionate il set di campioni, quindi fate clic sul pulsante Anteprima. Viene visualizzata la pagina Anteprima. Selezionate un predefinito per visualizzatori di set di campioni, quindi fate clic sul pulsante Copia URL. Consulta [Collega set di campioni a pagine Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

@@ -10,9 +10,9 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '482'
 ht-degree: 22%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 I progetti offrono un metodo secondario facoltativo con cui organizzare le risorse indipendentemente dalle cartelle in cui vengono memorizzate. Una risorsa può essere inserita in una sola cartella, ma può essere copiata in più cartelle Progetto per motivi organizzativi.
 
-Dopo aver creato una cartella Progetto, è possibile inserirvi delle risorse. Tuttavia, le risorse di un progetto sono in realtà puntatori alla cartella Libreria risorse in cui sono memorizzate. Potete inserire una risorsa in più progetti. Ad esempio, è possibile inserire un&#39;immagine di una camicetta nelle cartelle di progetto &quot;Blouses&quot; e &quot;Fall Collection&quot;.
+Dopo aver creato una cartella Progetto, è possibile inserirvi delle risorse. Le risorse di un progetto sono in realtà puntatori della cartella Libreria risorse in cui sono memorizzate. Potete inserire una risorsa in più progetti. Ad esempio, è possibile inserire un&#39;immagine di una camicetta nelle cartelle di progetto &quot;Blouses&quot; e &quot;Fall Collection&quot;.
 
 Potete creare un progetto quando caricate dei file oppure li potete creare nel pannello Libreria risorse.
 

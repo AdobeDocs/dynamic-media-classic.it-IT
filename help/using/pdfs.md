@@ -10,10 +10,10 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 28%
+source-wordcount: '726'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ Le opzioni per il caricamento dei file di PDF si trovano nella sezione Opzioni d
 
 **[!UICONTROL Rasterizza]** - (Impostazione predefinita) Ripete le pagine nel file PDF e converte gli elementi grafici vettoriali in immagini bitmap. Per creare un eCatalog, scegliere questa opzione.
 
-**[!UICONTROL Estrai parole di ricerca]** - Estrae parole dal file PDF in modo che sia possibile eseguire ricerche per parola chiave in un visualizzatore eCatalog.
+**[!UICONTROL Estrai parole di ricerca]** - Estrae le parole dal file PDF in modo che le parole chiave nel file possano essere cercate in un visualizzatore eCatalog.
 
 **[!UICONTROL Estrai collegamenti]** : estrae collegamenti dai file PDF e li converte in mappe immagini utilizzate in un visualizzatore eCatalog.
 
@@ -73,7 +73,9 @@ Consultate anche [Profili ICC](/help/using/icc-profiles.md#icc_profiles).
 
 ## Ritaglia spazio vuoto da un file PDF {#cropping-white-space-from-a-pdf-file}
 
-1. Per ritagliare automaticamente i pixel dello spazio bianco da un file PDF mentre lo caricate, selezionate il menu Ritaglio e scegliete Rifila.
+Puoi ritagliare automaticamente i pixel dello spazio vuoto da un file PDF durante il caricamento.
+
+1. Selezionate il menu Ritaglia (Crop) e scegliete Rifila (Trim).
 1. Specificate le seguenti opzioni:
 
    * **[!UICONTROL Rifila in base a]** - Scegliere se ritagliare in base al colore o alla trasparenza:

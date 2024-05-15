@@ -10,9 +10,9 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ Quando si pubblicano i file immagine, questi vengono pubblicati sui server immag
 
 ## Contrassegna immagini primarie per la pubblicazione {#marking-master-images-for-publish}
 
-Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Medie. Puoi contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia selezionando **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
+Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Medie. È possibile contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia selezionando **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
 
 ## Pubblicare le immagini principali {#publishing-your-master-images}
 

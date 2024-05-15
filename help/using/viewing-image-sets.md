@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # Visualizza set di immagini{#viewing-image-sets}
 
-Potete visualizzare i set di immagini nella finestra Anteprima tramite i predefiniti disponibili. Potete usare un predefinito Visualizzatore zoom: Personalizzato per i set di immagini.
+Potete visualizzare i set di immagini nella finestra Anteprima tramite i predefiniti disponibili. È possibile utilizzare un Visualizzatore zoom: Predefinito visualizzatore personalizzato per set di immagini.
 
 Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore predefiniti. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
 
@@ -45,7 +45,7 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 
 ## Anteprima delle risorse per set di immagini in un visualizzatore {#previewing-image-set-assets-in-a-viewer}
 
-Puoi utilizzare Anteprima per visualizzare come una risorsa viene visualizzata in un particolare tipo di visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Anteprima dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
+È possibile utilizzare Anteprima per visualizzare come appare una risorsa in un particolare tipo di visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Anteprima dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
 1. Nel pannello Libreria risorse a sinistra, nella sezione **[!UICONTROL Spettacolo]** elenco a discesa, scegliere **[!UICONTROL Set immagini]**.
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle delle risorse per selezionare il set di immagini che vi interessa.

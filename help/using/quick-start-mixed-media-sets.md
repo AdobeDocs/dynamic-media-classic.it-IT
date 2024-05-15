@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 33%
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,7 @@ Consulta [Caricare i file](uploading-files.md#uploading-your-files).
 
 ## 2. Creare set di file multimediali da utilizzare nel set di file multimediali diversi
 
-A un set di file multimediali diversi potete aggiungere immagini, set di immagini, set di campioni e set 360 gradi. Preparate i set di file multimediali prima di aggiungerli al set di file multimediali diversi.
+Puoi aggiungere immagini, set di immagini, set di campioni, set 360 gradi e video al set di file multimediali diversi. Prepara i Media Set prima di aggiungerli al set di file multimediali diversi.
 
 Consulta [Creare un set di immagini](creating-image-set.md#creating-an-image-set), [Creare un set di campioni](creating-swatch-set.md#creating-a-swatch-set), e [Creare un set 360 gradi](creating-spin-set.md#creating-a-spin-set).
 
@@ -45,11 +45,11 @@ Sulla barra di navigazione globale, vai a **[!UICONTROL Genera]** > **[!UICONTRO
 
 Consulta [Creare un set di file multimediali diversi](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## 4. Impostare i predefiniti visualizzatore di file multimediali diversi
+## 4. Impostare i predefiniti per i visualizzatori di file multimediali diversi
 
-Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore per set di file multimediali diversi. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di file multimediali diversi.
+Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore per set di file multimediali diversi. Gli amministratori possono creare o modificare i predefiniti visualizzatore di set di file multimediali diversi.
 
-Quando imposti un predefinito visualizzatore per set di file multimediali diversi, aggiungi i predefiniti visualizzatore per tutte le altre risorse del set. Ad esempio, se nel set di file multimediali diversi sono presenti dei video, al predefinito per visualizzatori di set di file multimediali diversi dovete aggiungere anche un predefinito per visualizzatori di video. Potete aggiungere al visualizzatore anche una colonna sonora. La colonna sonora viene riprodotta quando il visualizzatore viene aperto, ma non durante la riproduzione di un video.
+Quando imposti un predefinito visualizzatore set di file multimediali diversi, aggiungi i predefiniti visualizzatore per tutte le altre risorse del set. Ad esempio, se il set di file multimediali diversi include video, aggiungi un predefinito visualizzatore video al predefinito visualizzatore set di file multimediali diversi. Potete aggiungere al visualizzatore anche una colonna sonora. La colonna sonora viene riprodotta quando il visualizzatore viene aperto, ma non durante la riproduzione di un video.
 
 Consulta [Impostare un predefinito visualizzatore set di file multimediali diversi](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) e [Creare e modificare i predefiniti per visualizzatori](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -73,4 +73,4 @@ Consulta [Pubblicare un set di file multimediali diversi](publishing-mixed-media
 
 Adobe Dynamic Media Classic attiva le chiamate URL per i set di file multimediali diversi dopo che sono stati pubblicati. Puoi copiare questi URL dalla pagina di anteprima.
 
-Seleziona il set di file multimediali diversi, quindi seleziona **[!UICONTROL Anteprima]**. Nella pagina Anteprima, seleziona un predefinito visualizzatore set di file multimediali diversi, quindi seleziona **[!UICONTROL Copia URL]**. Consultate [Collegamento di un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Seleziona il set di file multimediali diversi, quindi seleziona **[!UICONTROL Anteprima]**. Nella pagina Anteprima, seleziona un predefinito visualizzatore set di file multimediali diversi, quindi fai clic su **[!UICONTROL Copia URL]**. Consulta [Collegare set di file multimediali diversi a pagine Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

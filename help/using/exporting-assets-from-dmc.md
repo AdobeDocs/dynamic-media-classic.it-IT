@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 48%
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic mantiene un record dei processi di esportazione nell
 
    * **[!UICONTROL Nome processo]** - È possibile assegnare un nome di processo all&#39;esportazione.
 
-   * **[!UICONTROL Invia e-mail a]** - Se si desidera inviare le risorse per posta elettronica, è possibile inserire un indirizzo di posta elettronica. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
+   * **[!UICONTROL Invia e-mail a]** - Facoltativo. Se si desidera inviare le risorse tramite posta elettronica, immettere un indirizzo di posta elettronica. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
 
 1. Seleziona **[!UICONTROL Esporta]**.
 
@@ -78,4 +78,4 @@ Mediante la conversione è possibile esportare i seguenti tipi di risorsa:
 Se si selezionano numerosi elementi da esportare e di tipi di risorse diversi, si possono verificare i seguenti comportamenti:
 
 * Tutti i tipi di risorse che non possono essere esportati vengono rimossi dall’elenco prima dell’invio del processo
-* Se viene richiesta una conversione, vengono elaborati tutti i tipi che possono essere convertiti; gli altri vengono invece esportati come file originali
+* Se viene richiesta una conversione, tutti i tipi che possono essere convertiti sono e tutti gli altri vengono esportati come originali

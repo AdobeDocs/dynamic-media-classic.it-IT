@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 56%
+source-wordcount: '725'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ La Guida introduttiva riportata di seguito è stata progettata per consentirti d
 
 ## 1. Comprendere i ruoli utente di Media Portal
 
-Agli utenti di Media Portal è possibile assegnare uno dei tre seguenti ruoli: utente, collaboratore e collaboratore-utente. A ciascun ruolo è associato uno specifico set di operazioni consentite. Ad esempio, un collaboratore può rinominare ed eliminare file e cartelle, mentre questo non è consentito a un utente. È importante comprendere i diversi ruoli: quando si aggiungono nuovi utenti sarà possibile assegnare a ciascuno le responsabilità adeguate. 
+Gli utenti di Media Portal hanno tre ruoli: utente, collaboratore e utente-collaboratore. A ciascun ruolo è associato uno specifico set di operazioni consentite. Ad esempio, un collaboratore può rinominare ed eliminare file e cartelle, mentre questo non è consentito a un utente. È importante comprendere i diversi ruoli: quando si aggiungono nuovi utenti sarà possibile assegnare a ciascuno le responsabilità adeguate. 
 
 Consultate [Ruoli utenti di Media Portal](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -47,13 +47,13 @@ Consulta [Creare e gestire gruppi Media Portal](creating-media-portal-groups.md#
 
 ## 3. Aggiungere gli utenti
 
-Quando aggiungete un utente, gli assegnate il suo specifico ruolo (utente, collaboratore o collaboratore-utente). Potete inoltre assegnare l’utente a uno o più gruppi. Per aggiungere numerosi utenti in modo più rapido, potete caricare un elenco di utenti sotto forma di file CSV. I nuovi utenti ricevono un messaggio e-mail di benvenuto e istruzioni per effettuare l’accesso a Media Portal. 
+Quando aggiungete un utente, gli assegnate il suo specifico ruolo (utente, collaboratore o collaboratore-utente). Puoi anche assegnare l’utente a uno o più gruppi. Per aggiungere numerosi utenti in modo più rapido, potete caricare un elenco di utenti sotto forma di file CSV. I nuovi utenti ricevono un messaggio e-mail di benvenuto e istruzioni per effettuare l’accesso a Media Portal. 
 
 Consulta [Aggiungere e gestire gli utenti di Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Gestire gli account FTP
 
-Puoi avere account FTP separati associati a Media Portal e mappati a una cartella specifica nel tuo account Adobe Dynamic Media Classic. Questo consente agli utenti di caricare le risorse digitali nel vostro account utilizzando account FTP diversi.
+È possibile avere account FTP separati associati a Media Portal. Possono essere mappati a una cartella specifica nell’account Adobe Dynamic Media Classic. Questo consente agli utenti di caricare le risorse digitali nel vostro account utilizzando account FTP diversi.
 
 Consulta [Gestire gli account FTP](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Consulta [Specificare le opzioni di esportazione disponibili per gli utenti di M
 
 ## 6. Creare i predefiniti per immagini
 
-Un predefinito immagine è una raccolta di impostazioni predefinite che modificano le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata. Potete creare i predefiniti per immagini per controllare in che modo le immagini vengono riformattate quando vengono esportate dagli utenti. 
+Un predefinito immagine è una raccolta di impostazioni predefinite. Queste impostazioni possono modificare le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata. Potete creare i predefiniti per immagini per controllare in che modo le immagini vengono riformattate quando vengono esportate dagli utenti. 
 
 Consulta [Creare e abilitare i predefiniti immagine](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Creare predefiniti per metadati e campi di metadati definiti dall’utente
 
-I metadati descrivono e identificano un file; vengono utilizzati per effettuare ricerche e organizzare le risorse. Per essere certi che i metadati vengano immessi correttamente e che vengano compilati tutti i campi di metadati richiesti, potete creare dei predefiniti per metadati. Un predefinito per metadati è un set preimpostato di voci di metadati. Potete inoltre creare dei campi per metadati che descrivano in modo univoco i file con cui lavorate. 
+I metadati descrivono e identificano un file. Viene utilizzato per cercare e organizzare le risorse. Puoi creare predefiniti per metadati per assicurarti di immettere correttamente i metadati e che vengano compilati tutti i campi di metadati che richiedono dati. Un predefinito per metadati è un set preimpostato di voci di metadati. Potete inoltre creare dei campi per metadati che descrivano in modo univoco i file con cui lavorate. 
 
 Consultate [Utilizzo efficiente dei metadati](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
