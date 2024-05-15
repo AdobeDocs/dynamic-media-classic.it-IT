@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 20%
+source-wordcount: '306'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 È possibile utilizzare Adobe Analytics Instrumentation Kit per integrare un visualizzatore HTML5 con Adobe Analytics.
 
-Se utilizzi uno dei predefiniti visualizzatore di Adobe Dynamic Media Classic HTML5, questo contiene già tutto il codice di implementazione per inviare dati ad Adobe Analytics; non sono necessarie ulteriori strumentazioni.
+Se utilizzi uno dei predefiniti visualizzatore di Adobe Dynamic Media Classic HTML5, questo contiene già tutto il codice di implementazione per inviare dati ad Adobe Analytics. Non è necessario aggiungere altri strumenti.
 
 ## Configurare il tracciamento di Adobe Analytics da Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -31,7 +31,7 @@ Per tutti i visualizzatori HTML5, aggiungi il seguente JavaScript al contenitore
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Dove `Adobe Dynamic Media Classic Company ID` è impostato sul nome dell’azienda di Adobe Dynamic Media Classic. E `&preset` è facoltativo, a meno che il nome del predefinito dell’azienda non sia `companypreset`. In tali casi, potrebbe essere `companypreset-1, companypreset-2`e così via. Le istanze più recenti del predefinito hanno un numero maggiore. Per determinare il nome corretto del valore predefinito della società, selezionare **[!UICONTROL Copia URL]**, quindi esaminare `preset=`per trovare il nome del predefinito della società.
+Dove `Adobe Dynamic Media Classic Company ID` è impostato sul nome dell’azienda di Adobe Dynamic Media Classic. E `&preset` è facoltativo. Se il nome del predefinito della società non è `companypreset`, quindi non è facoltativo. In tali casi, potrebbe essere `companypreset-1, companypreset-2`e così via. Le istanze più recenti del predefinito hanno un numero maggiore. Per determinare il nome corretto del valore predefinito della società, selezionare **[!UICONTROL Copia URL]**, quindi esaminare `preset=`per trovare il nome del predefinito della società.
 
 Continuando, ora aggiungi una funzione che trasmette l’evento visualizzatore al codice di tracciamento di Adobe Analytics.
 
@@ -41,7 +41,7 @@ Aggiungi il `s7ComponentEvent()` funzione al HTML contenitore (o JSP, o ASPX o a
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-Il nome della funzione distingue tra maiuscole e minuscole. L’unico parametro trasmesso a `s7componentEvent`quello richiesto è l&#39;ultimo: `eventData`. Dove `s7track()` è definito in s_code.jsp incluso sopra. E `s7track` gestisce tutto il tracciamento per ogni evento. Per personalizzare ulteriormente i dati trasmessi ad Adobe Analytics, occorre farlo qui.
+Il nome della funzione distingue tra maiuscole e minuscole. L’unico parametro trasmesso a `s7componentEvent`quello richiesto è l&#39;ultimo: `eventData`. Dove `s7track()` è definito in s_code.jsp incluso sopra. E `s7track` gestisce tutto il tracciamento per ogni evento. In quest’area puoi personalizzare ulteriormente i dati trasmessi ad Adobe Analytics.
 
 ## Attiva eventi HREF ed ITEM {#enabling-href-and-item-events}
 

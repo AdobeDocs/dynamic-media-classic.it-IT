@@ -10,10 +10,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 23%
+source-wordcount: '1022'
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ Le opzioni per il caricamento di file PSD si trovano in Opzioni Photoshop nella 
 
 Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
-* **Opzioni di ritaglio** - Situato sotto **[!UICONTROL Opzioni di ritaglio]**. Seleziona **[!UICONTROL Rifila]** per ritagliare automaticamente lo spazio vuoto dai bordi di un file PSD; selezionate **[!UICONTROL Manuale]** per ritagliare i lati del file PSD:
+* **Opzioni di ritaglio** - Situato sotto **[!UICONTROL Opzioni di ritaglio]**. Seleziona **[!UICONTROL Rifila]** in modo da poter ritagliare automaticamente lo spazio vuoto dai bordi di un file PSD. Seleziona **[!UICONTROL Manuale]** per ritagliare i lati del file PSD:
 
    * **[!UICONTROL Rifila]** - Selezionare la **[!UICONTROL Rifila in base a]** e scegliere **[!UICONTROL Colore]** o **[!UICONTROL Trasparenza]**.
 
@@ -39,7 +39,7 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
   Trascinate il cursore per specificare una tolleranza da 0 a 1. Per rifilare in base al colore, l’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo del file PSD. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Per tagliare in base alla trasparenza, specificate 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
 
-   * **[!UICONTROL Manuale]** - Immetti il numero di pixel da ritagliare da un lato o da ciascun lato dell&#39;immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Ad esempio, se l&#39;immagine visualizza 150 ppi e si immette 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra, 0,5 pollici. viene ritagliato da ciascun lato dell&#39;immagine.
+   * **[!UICONTROL Manuale]** - Immetti il numero di pixel da ritagliare da un lato o da ciascun lato dell&#39;immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Si supponga, ad esempio, che l&#39;immagine visualizzi 150 ppi. Immettere 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra. Ogni lato dell&#39;immagine viene ritagliato, 0,5 pollici.
 
 * **Opzioni profilo colore** - Situato sotto **[!UICONTROL Opzioni profilo colore]**.
 
@@ -67,7 +67,7 @@ Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
       * **[!UICONTROL Photoshop e nome livello]** - Assegna alle immagini un nome dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop. Ad esempio, un livello denominato `Price Tag` in un file PSD denominato `SpringAd` è denominato `Spring Ad_Price Tag`. Un livello con il nome di default Livello 2 è chiamato `Spring Ad_2`.
 
-   * **[!UICONTROL Ancoraggio]** : specifica in che modo le immagini vengono ancorate nei modelli generati dalla composizione a livelli prodotta dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. L’ancoraggio centrale permette alle immagini sostitutive di riempire in modo ottimale lo spazio, indipendentemente dalle loro proporzioni. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
+   * **[!UICONTROL Ancoraggio]** : specifica in che modo le immagini vengono ancorate nei modelli generati dalla composizione a livelli prodotta dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. Un ancoraggio centrale consente di utilizzare immagini sostitutive in grado di riempire lo stesso spazio, indipendentemente dalle proporzioni dell&#39;immagine sostitutiva. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
 
 ## Visualizzare e modificare i livelli in un file PSD {#viewing-and-editing-layers-in-a-psd-file}
 

@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '281'
 ht-degree: 26%
 
 ---
 
 # Condividere in tempo reale le modifiche apportate alle risorse con altri utenti{#sharing-asset-changes-with-peers-in-real-time}
 
-Con più copie di Adobe Dynamic Media Classic in esecuzione su più computer della stessa società, le azioni seguenti di qualsiasi client Adobe Dynamic Media Classic vengono aggiornate in tempo reale con tutti i client peer:
+Si supponga di disporre di più copie di Adobe Dynamic Media Classic in esecuzione su computer della stessa società. In questo scenario, le seguenti azioni di qualsiasi client Dynamic Media Classic vengono aggiornate in tempo reale con tutti i client peer:
 
 * Modificare una risorsa (generatore, editor di immagini e così via)
 * Rinominare una risorsa

@@ -10,10 +10,10 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 45%
+source-wordcount: '1604'
+ht-degree: 40%
 
 ---
 
@@ -30,6 +30,7 @@ Vedi anche [Imaging avanzato](https://experienceleague.adobe.com/en/docs/experie
 >Provate e scoprite i vantaggi dei modificatori di immagini Dynamic Medie e dell&#39;imaging avanzato con Dynamic Medie [_Snapshot_](https://snapshot.scene7.com/).
 >
 > Snapshot è uno strumento di dimostrazione visiva, progettato per illustrare la potenza di Dynamic Medie per la distribuzione di immagini ottimizzate e dinamiche. Sperimenta immagini di test o URL Dynamic Medie per osservare visivamente l’output di vari modificatori di immagini Dynamic Medie e ottimizzazioni Smart Imaging per i seguenti elementi:
+>
 >* Dimensione del file (con consegna WebP e AVIF)
 >* Larghezza di banda di rete
 >* DPR (Device Pixel Ratio, rapporto pixel dispositivo)
@@ -69,7 +70,7 @@ Con Adobe Dynamic Media Classic, puoi rendere più nitide le immagini al momento
 
 Esistono due metodi per la nitidezza delle immagini:
 
-* Nitidezza semplice ( `&op_sharpen`) - Simile al filtro di nitidezza utilizzato in Photoshop, la nitidezza semplice applica la nitidezza di base alla visualizzazione finale dell&#39;immagine dopo il ridimensionamento dinamico. Tuttavia, questo metodo non può essere configurato dall’utente. La best practice prevede di non utilizzare `&op_sharpen` a meno che non sia richiesto.
+* Nitidezza semplice ( `&op_sharpen`) - Simile al filtro di nitidezza utilizzato in Photoshop, la nitidezza semplice applica la nitidezza di base alla visualizzazione finale dell&#39;immagine dopo il ridimensionamento dinamico. Tuttavia, questo metodo non può essere configurato dall’utente. La best practice consiste nell’evitare l’utilizzo di `&op_sharpen` a meno che non sia richiesto.
 * Maschera di contrasto ( `&op_USM`) - Maschera di contrasto è un filtro standard di settore per la nitidezza. Come procedura ottimale si consiglia di rendere le immagini più nitide con la maschera di contrasto in base alle linee guida riportate di seguito. La mascheratura di contrasto consente di controllare tre parametri:
 
    * `&op_sharpen=amount,radius,threshold`
@@ -81,7 +82,7 @@ Esistono due metodi per la nitidezza delle immagini:
 
       * `threshold` (0-255, sensibilità dell&#39;effetto).
 
-        Questo parametro specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell’incarnato, in modo da non introdurre disturbo, mentre viene aumentato il contrasto lungo i bordi delle aree con maggior contrasto, ad esempio tra ciglia e pelle.
+        Questo parametro specifica quale deve essere il grado di differenza dei pixel da rendere più nitidi rispetto all’area circostante, affinché vengano considerati pixel di un bordo e quindi resi più nitidi. Con questo valore di soglia è possibile evitare che venga applicata eccessiva nitidezza alle aree con colori simili, ad esempio nelle aree di incarnato. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell&#39;incarnato per evitare di aggiungere &quot;disturbo&quot;, mentre viene aumentato il contrasto lungo i bordi delle aree dove è più presente, ad esempio tra ciglia e pelle.
 
         Per ulteriori informazioni su come impostare questi tre parametri, incluse le best practice da utilizzare con il filtro, consulta [Nitidezza delle immagini in Adobe Dynamic Media Classic e su Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
@@ -98,10 +99,10 @@ Potete aumentare quindi gradualmente il valore di intensità “amount” da 1.7
 
 Lasciate il parametro “monochrome” su 0.
 
-## Procedure ottimali per la compressione JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## Best practice per la compressione JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Questo parametro controlla la qualità della codifica JPG. A un valore più elevato corrisponde un’immagine di qualità migliore ma anche un file di dimensioni maggiori, e viceversa. I valori ammessi per questo parametro sono 0-100.
-* Per ottimizzare la qualità, non impostate il valore del parametro su 100. La differenza tra un’impostazione di 90 o 95 e 100 è quasi impercettibile, ma con un valore pari a 100 le dimensioni del file immagini aumentano inutilmente. Pertanto, per ottimizzare la qualità, ma evitare che i file di immagine diventino troppo grandi, impostare `qlt=` a 90 o 95.
+* Per ottimizzare la qualità, non impostate il valore del parametro su 100. La differenza tra un&#39;impostazione di 90 o 95 e 100 è quasi impercettibile. Tuttavia, 100 aumenta inutilmente la dimensione del file di immagine. Pertanto, per ottimizzare la qualità, ma evitare che i file di immagine diventino troppo grandi, impostare `qlt=` a 90 o 95.
 * Per ottimizzare un file immagine di dimensioni ridotte mantenendo la qualità a un livello accettabile, impostare `qlt=` a 80. Con valori inferiori a 70-75 si verifica invece un notevole degrado della qualità dell’immagine.
 * Come best practice, per rimanere al centro, imposta il `qlt=` valore 85 per rimanere al centro.
 * Utilizzo del flag chroma in `qlt=`
@@ -116,17 +117,17 @@ Come best practice per la compressione JPG `&qlt=85,0`.
 Il parametro `jpegSize` è utile se si desidera garantire che un&#39;immagine non superi una determinata dimensione per la distribuzione a dispositivi con memoria limitata.
 
 * Questo parametro è impostato in kilobyte ( `jpegSize=<size_in_kilobytes>`). Definisce la dimensione file massima consentita per la distribuzione dell’immagine.
-* `&jpegSize=` interagisce direttamente con il parametro di compressione JPG `&qlt=`. Se la risposta del JPG con il parametro di compressione JPG specificato ( `&qlt=`) non supera il valore `jpegSize` , l’immagine viene restituita con `&qlt=` come definito. Altrimenti, `&qlt=` viene gradualmente ridotto fino a quando l&#39;immagine non rientra nelle dimensioni massime consentite o fino a quando il sistema non determina che non può rientrare e restituisce un errore.
+* `&jpegSize=` interagisce direttamente con il parametro di compressione JPG `&qlt=`. Se la risposta del JPG con il parametro di compressione JPG specificato ( `&qlt=`) non supera il valore `jpegSize` , l’immagine viene restituita con `&qlt=` come definito. Altrimenti, `&qlt=` viene gradualmente ridotta fino a quando l’immagine non rientra nelle dimensioni massime consentite. Oppure, finché il sistema non determina che non può rientrare e restituisce un errore.
 
 Come best practice, imposta `&jpegSize=` e aggiungi il parametro `&qlt=` se si consegnano immagini JPG a dispositivi con memoria limitata.
 
 ## Riepilogo delle procedure ottimali {#best-practices-summary}
 
-Per ottenere immagini di alta qualità e file di dimensioni ridotte, utilizzate la seguente combinazione di parametri:
+Come best practice, per ottenere una qualità immagine elevata e dimensioni file ridotte, inizia con la seguente combinazione di parametri:
 
 `fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0`
 
-Questa combinazione di impostazioni consente di ottenere risultati ottimali nella maggior parte dei casi.
+Nella maggior parte dei casi, questa combinazione di impostazioni produce risultati eccellenti.
 
 Se l’immagine richiede ulteriore ottimizzazione, regolate gradualmente i parametri di nitidezza (maschera di contrasto): iniziate a regolare il raggio su 0.2 o 0.3, quindi aumentate il valore di intensità “amount” da 1.75 fino a un massimo di 4 (equivalente a 400% in Photoshop). Verificate il risultato ottenuto.
 

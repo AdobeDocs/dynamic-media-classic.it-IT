@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 28%
 
 ---
@@ -51,17 +51,17 @@ Cost-efficient access to rapidly evolving technology.
 
 Nell’esempio precedente, `Chapter 1` è l’identificatore del cue ed è facoltativo. Il tempo di cue di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e di fine del capitolo, in 00:00:formato 000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L&#39;identificatore del cue, l&#39;ora di inizio del cue e il titolo del capitolo vengono visualizzati in un pop-up nel lettore video quando il puntatore viene posizionato su un punto di cue visivo nella timeline del video.
 
-Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L&#39;estensione del nome file del capitolo è .VTT. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
+Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L’estensione del nome file del capitolo è `.VTT`. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
 Consulta [WebVTT: formato per tracce di testo video Web](https://w3c.github.io/webvtt/).
 
-**Per aggiungere marcatori capitolo al video:**
+**Per aggiungere marcatori capitolo a un video:**
 
 1. Utilizzando un semplice editor di testo esterno a Adobe Dynamic Media Classic, create il file del capitolo video.
 
    >[!NOTE]
    >
-   >Per il supporto globale dei capitoli video in lingue diverse dall’inglese, lo standard WebVTT richiede la creazione di file .vtt e chiamate separati per ogni lingua che si desidera supportare.
+   >Per il supporto globale dei capitoli video in lingue diverse dall’inglese, lo standard WebVTT richiede la creazione di `.VTT` file e chiamate per ogni lingua da supportare.
 
 1. Salvare il file VTT con codifica UTF8 in modo da evitare problemi con la rappresentazione dei caratteri nel testo del titolo del capitolo.
 

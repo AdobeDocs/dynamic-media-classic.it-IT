@@ -10,10 +10,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 18%
+source-wordcount: '1513'
+ht-degree: 17%
 
 ---
 
@@ -31,11 +31,11 @@ Per visualizzare solo i file di un certo tipo mentre sfogliate, nella sezione Li
 
 >[!NOTE]
 >
->Se il pannello Libreria risorse non viene visualizzato sul lato sinistro, seleziona la freccia triangolare destra sul lato sinistro, a metà della finestra di Adobe Dynamic Media Classic, per aprire la Libreria risorse.
+>Se il pannello Libreria risorse non viene visualizzato sul lato sinistro, fai clic sulla freccia del triangolo destro sul lato sinistro, a metà della finestra di Dynamic Media Classic, per aprire Libreria risorse.
 
 ## Ordinare i file nel pannello Sfoglia {#sorting-files-in-the-browse-panel}
 
-Per ordinare il contenuto di una cartella o i risultati della ricerca visualizzati nel pannello Sfoglia a destra, nella barra di spostamento globale selezionare **[!UICONTROL Ordina]** e quindi scegliere un&#39;opzione. Le opzioni sono **[!UICONTROL Nome]**, **[!UICONTROL Dimensione (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Data di creazione]**, e **[!UICONTROL Ultima modifica]**.
+È possibile ordinare il contenuto di una cartella o i risultati della ricerca visualizzati nel pannello Sfoglia sul lato destro. Sulla barra di navigazione globale, seleziona **[!UICONTROL Ordina]** e quindi scegliere un&#39;opzione. Le opzioni sono **[!UICONTROL Nome]**, **[!UICONTROL Dimensione (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Data di creazione]**, e **[!UICONTROL Ultima modifica]**.
 
 Puoi anche scegliere **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]** per ordinare le risorse in ordine crescente o decrescente in base ai criteri scelti.
 
@@ -63,7 +63,7 @@ Nella Libreria risorse, sotto il campo Ricerca, seleziona **[!UICONTROL Ricerca 
 
 Specifica uno dei seguenti criteri nella ricerca avanzata:
 
-* **Filtra per tipo di risorsa** : restringi la ricerca a un solo tipo di risorsa scegliendo un tipo di risorsa dal menu.
+* **Filtra per tipo di risorsa** - Limitare la ricerca a un solo tipo di risorsa. Scegli un tipo di risorsa dal menu.
 
 * **File e cartelle** - Scegliere la posizione in cui eseguire la ricerca: **[!UICONTROL In tutti i file e le cartelle]**, **[!UICONTROL Nella cartella selezionata]**, o **[!UICONTROL Nella cartella selezionata e nelle sottocartelle]**.
 
@@ -73,7 +73,7 @@ Specifica uno dei seguenti criteri nella ricerca avanzata:
 
 * **Criteri di ricerca** : crea uno o più campi di ricerca per i metadati. Per creare i campi di ricerca, effettuate le seguenti operazioni:
 
-   1. In Ricerca avanzata, sotto **[!UICONTROL Criteri di ricerca]** e a sinistra della sezione **[!UICONTROL Aggiungi un campo]** menu), selezionare l&#39;icona freccia triangolo giù per aprire l&#39;elenco a discesa. Scegli una vista Metadati. Puoi scegliere **[!UICONTROL Tutte le proprietà con valori]**, **[!UICONTROL Vista compatta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campi di pubblicazione server metadati]**, o **[!UICONTROL XMP]**.
+   1. In Ricerca avanzata, sotto **[!UICONTROL Criteri di ricerca]** e a sinistra della sezione **[!UICONTROL Aggiungi un campo]** menu), selezionare l&#39;icona freccia triangolo giù per aprire l&#39;elenco a discesa. Scegli una vista metadati. Puoi scegliere **[!UICONTROL Tutte le proprietà con valori]**, **[!UICONTROL Vista compatta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campi di pubblicazione server metadati]**, o **[!UICONTROL XMP]**.
    1. Seleziona la **[!UICONTROL Aggiungi un campo]** e scegliere un nome di campo.
    1. Scegli un **[!UICONTROL Contiene]** opzione: **[!UICONTROL Contiene]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Inizia con]**, **[!UICONTROL Termina con]**, o **[!UICONTROL Uguale a]**.
    1. Per i campi numerici, scegliete un valore o immettete in intervallo di date personalizzato.
@@ -87,7 +87,7 @@ Seleziona **[!UICONTROL Cancella]** per cancellare i criteri di ricerca e avviar
 
 ## Filtrare le risorse tramite metadati {#filter-assets-using-metadata}
 
-Potete filtrare le risorse mediante la scheda Filtri della Libreria risorse. Per filtrare le risorse vengono usati come criteri i valori dei metadati. Dopo aver scelto un campo di metadati su cui filtrare, la scheda Filtri elenca tutti i valori di metadati immessi nel campo scelto. Inoltre, elenca il numero di risorse a cui è stato assegnato ciascun valore. Ad esempio, in un’operazione filtro su **[!UICONTROL Creatore]** campo di metadati, il **[!UICONTROL Filtri]** elenca tutti i nomi immessi nel **[!UICONTROL Creatore]** campo di metadati per risorse diverse. Inoltre, elenca per ogni nome il numero di risorse a cui è assegnato il nome. Quindi seleziona un valore di metadati per visualizzare tutte le risorse a cui è stato assegnato tale valore. Nell’esempio, seleziona la `Prairie Cat` il valore dei metadati per visualizzare tutte le risorse in cui il nome `Prairie Cat` è stato immesso nel **[!UICONTROL Creatore]** campo metadati. È possibile filtrare la ricerca utilizzando più campi metadati come criteri di ricerca.
+Potete filtrare le risorse mediante la scheda Filtri della Libreria risorse. Per filtrare le risorse vengono usati come criteri i valori dei metadati. Dopo aver scelto un campo di metadati su cui filtrare, la scheda Filtri elenca tutti i valori di metadati immessi nel campo scelto. Inoltre, elenca il numero di risorse a cui è stato assegnato ciascun valore. Ad esempio, in un’operazione filtro su **[!UICONTROL Creatore]** campo di metadati, il **[!UICONTROL Filtri]** elenca tutti i nomi immessi nel **[!UICONTROL Creatore]** campo di metadati per risorse diverse. Inoltre, elenca per ogni nome il numero di risorse assegnate al nome. Quindi seleziona un valore di metadati per visualizzare tutte le risorse a cui è stato assegnato tale valore. Nell’esempio, seleziona la `Prairie Cat` il valore dei metadati per visualizzare tutte le risorse in cui il nome `Prairie Cat` è stato immesso nel **[!UICONTROL Creatore]** campo metadati. È possibile filtrare la ricerca utilizzando più campi metadati come criteri di ricerca.
 
 Puoi salvare le operazioni filtro per eseguirle più volte.
 
@@ -109,7 +109,7 @@ Segui questi passaggi per individuare le risorse filtrandole con i relativi valo
 
    Consulta [Salvare, ripetere ed eliminare operazioni filtro](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
-1. Seleziona **[!UICONTROL Campo]** in un pannello, segui queste istruzioni per visualizzare il menu dei filtri e creare l’operazione filtro:
+1. Clic **[!UICONTROL Campo]** in un pannello, segui queste istruzioni per visualizzare il menu dei filtri e creare l’operazione filtro:
 
    * **Scegli un campo di metadati** - Selezionare il nome del campo nel menu di filtro.
 
@@ -125,7 +125,7 @@ Segui questi passaggi per individuare le risorse filtrandole con i relativi valo
 
    Quando scegli un campo di metadati, nel relativo pannello sono elencati gli elementi seguenti:
 
-   * Tutti i valori di metadati immessi per tale campo.
+   * Tutti i valori dei metadati vengono immessi nel campo.
    * Per ciascun valore di metadati, il numero di risorse a cui è stato assegnato tale valore.
 
 1. Ripete il passo 2 fino a elencare tutti i campi di metadati per l’operazione filtro nei pannelli.
@@ -135,7 +135,7 @@ Segui questi passaggi per individuare le risorse filtrandole con i relativi valo
 
    >[!NOTE]
    >
-   >Per rimuovere temporaneamente un campo dall’operazione di filtro, seleziona **[!UICONTROL Deseleziona tutto]**. Questa opzione si trova nella parte superiore di ogni pannello, sopra i valori dei metadati.
+   >Rimuovere temporaneamente un campo dall’operazione di filtro facendo clic su **[!UICONTROL Deseleziona tutto]**. Questa opzione si trova nella parte superiore di ogni pannello, sopra i valori dei metadati.
 
 1. (Facoltativo) Per salvare l’operazione filtro e poterla eseguire in un secondo momento, seleziona **[!UICONTROL Seleziona predefinito]** > **[!UICONTROL Salva corrente come nuovo predefinito]** e quindi immettere un nome nella **[!UICONTROL Salva]** .
 

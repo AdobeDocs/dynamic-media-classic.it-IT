@@ -10,9 +10,9 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 7%
 
 ---
@@ -23,11 +23,11 @@ Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti ri
 
 * **Creare mappe immagine** - Per creare una mappa immagine, seleziona il comando Immagine oppure **[!UICONTROL Mappa immagine]** pulsante. Una mappa immagine è un punto attivo su un’immagine, o una pagina eCatalog, o un’immagine in un set 360 gradi che visualizza un pannello con testo di rollover. Gli utenti possono selezionare una mappa immagine, ad esempio, per avviare una nuova pagina web. Consulta [Creare mappe immagine](/help/using/creating-image-maps.md).
 
-* **Creare destinazioni di zoom** - Per creare destinazioni di miniature, selezionate il comando Destinazioni di zoom o **[!UICONTROL Destinazioni di zoom]** pulsante. Gli utenti possono selezionare una destinazione di miniatura nel Visualizzatore zoom per effettuare lo zoom direttamente su una parte specifica dell&#39;immagine. Consulta [Creare destinazioni di zoom per lo zoom guidato](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Creare destinazioni di zoom** - Per creare destinazioni di miniature è possibile selezionare il comando Destinazioni di zoom o **[!UICONTROL Destinazioni di zoom]** pulsante. Gli utenti possono selezionare una destinazione di miniatura nel Visualizzatore zoom per effettuare lo zoom direttamente su una parte specifica dell&#39;immagine. Consulta [Creare destinazioni di zoom per lo zoom guidato](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Ritagliare un’immagine** - Per ritagliare un&#39;immagine, selezionare il comando Ritaglia o **[!UICONTROL Ritaglio]** pulsante. Consulta [Ritagliare un’immagine](/help/using/cropping-image.md).
 
-* **Nitidezza di un&#39;immagine** - Per rendere più nitida un&#39;immagine e meno sfocata e più distinta la sua struttura, selezionate il comando Nitidezza o **[!UICONTROL Nitidezza]** pulsante. Consulta [Nitidezza di un&#39;immagine](/help/using/sharpening-image.md).
+* **Nitidezza di un&#39;immagine** - Rendere meno sfocati i contorni di un&#39;immagine selezionando il comando Nitidezza o **[!UICONTROL Nitidezza]** pulsante. Consulta [Nitidezza di un&#39;immagine](/help/using/sharpening-image.md).
 
 * **Regolare un’immagine** - Selezionare la `Adjust` comando o **[!UICONTROL Regola]** per capovolgere, ruotare, sfocare, colorare o modificare il bilanciamento del colore di un&#39;immagine. Consulta [Regolare un’immagine](/help/using/adjusting-image.md).
 

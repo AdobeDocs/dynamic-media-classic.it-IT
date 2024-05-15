@@ -10,16 +10,16 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '667'
 ht-degree: 37%
 
 ---
 
 # Configurazione predefiniti immagine{#setting-up-image-presets}
 
-Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Per capire come funzionano i predefiniti immagine, supponiamo che il sito web richieda che ogni immagine del prodotto sia visualizzata in due dimensioni diverse: 500 × 500 pixel e 150 × 150 pixel. Si creano due predefiniti per le immagini, uno denominato &quot;Ingrandisci&quot; per visualizzare le immagini a 500x500 pixel e uno denominato &quot;Miniatura&quot; per visualizzare le immagini a 150 × 150 pixel. Per distribuire immagini con le dimensioni &quot;Ingrandisci&quot; e &quot;Miniatura&quot;, un server immagini Dynamic Medie cerca la definizione di &quot;Predefinito immagine ingrandita&quot; e &quot;Predefinito immagine miniatura&quot;. Quindi il server genera in modo dinamico un’immagine secondo le specifiche di ridimensionamento e formattazione di ciascun predefinito per immagini.
+Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Per capire come funzionano i predefiniti immagine, supponiamo che il sito web richieda che ogni immagine del prodotto sia visualizzata in due dimensioni diverse: 500 × 500 pixel e 150 × 150 pixel. Si creano due predefiniti per le immagini, uno denominato &quot;Ingrandisci&quot; per visualizzare le immagini a 500x500 pixel e uno denominato &quot;Miniatura&quot; per visualizzare le immagini a 150 × 150 pixel. Per distribuire immagini con dimensioni &quot;Ingrandisci&quot; e &quot;Miniatura&quot;, un server immagini Dynamic Medie cerca la definizione di &quot;Predefinito immagine ingrandita&quot; e &quot;Predefinito immagine miniatura&quot;. Quindi il server genera in modo dinamico un’immagine secondo le specifiche di ridimensionamento e formattazione di ciascun predefinito per immagini.
 
 Adobe Dynamic Media Classic viene fornito con diversi predefiniti immagine &quot;best practice&quot; già configurati per l’utilizzo. Gli amministratori possono anche creare predefiniti per immagini. Per creare un predefinito per immagini, potete partire da zero o iniziare da uno esistente e salvarlo con un nuovo nome.
 
@@ -65,11 +65,11 @@ Se siete l’amministratore della società, potete creare dei predefiniti per im
 
 Le opzioni consigliate di Adobe Dynamic Media Classic per la creazione di predefiniti immagine qui elencate sono generali. La nitidezza è altamente soggettiva. Queste impostazioni di &quot;best practice&quot; si basavano su un&#39;immagine primaria da 2000 × 2000; le impostazioni per i file primari più grandi o più piccoli possono essere diverse. Se si desidera regolare le impostazioni Maschera di contrasto, Adobe Dynamic Media Classic consiglia i seguenti intervalli:
 
-* **[!UICONTROL Quantità]** - Tra 0,8 e 1,5.
+* **[!UICONTROL Quantità]** - Tra `.8` e `1.5`.
 
-* **[!UICONTROL Raggio]** - Tra 0,6 e 2.
+* **[!UICONTROL Raggio]** - Tra `.6` e `2`.
 
-* **[!UICONTROL Soglia]** - Da 1 a 6.
+* **[!UICONTROL Soglia]** - Da `1` da a `6`.
 
 Per eliminare un predefinito immagine, selezionatelo nella schermata Predefiniti immagine, quindi selezionate **[!UICONTROL Elimina]**.
 
