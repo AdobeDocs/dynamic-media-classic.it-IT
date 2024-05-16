@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 31%
+ht-degree: 24%
 
 ---
 
 # Collegare un set di campioni a una pagina web{#linking-a-swatch-set-to-a-web-page}
 
-Dopo aver pubblicato un set di campioni, puoi utilizzarne l’URL associato o il codice da incorporare nel sito web o nell’applicazione. Potete quindi implementare l’URL o il codice da incorporare come desiderate, in modo che gli utenti possano visualizzare il set di campioni sul vostro sito Web o nella vostra applicazione.
+Dopo aver pubblicato un set di campioni, è possibile utilizzarne l&#39;URL associato o il codice di incorporamento nel sito Web o nell&#39;applicazione. Quindi puoi distribuire l’URL o il codice da incorporare in base alle esigenze, in modo che gli utenti possano visualizzare il set di campioni sul sito web o sull’applicazione.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Per ulteriori dettagli ed esempi di codice, vedi [Incorporazione del visualizzat
 
 ## Copiare il codice di incorporamento di un visualizzatore di set di campioni {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di campioni selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di campioni selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 **Per copiare il codice di incorporamento di un visualizzatore di set di campioni:**
 

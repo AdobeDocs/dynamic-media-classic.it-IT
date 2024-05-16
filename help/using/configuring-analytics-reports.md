@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 18%
@@ -105,8 +105,8 @@ La tabella seguente descrive le variabili di Adobe Dynamic Media Classic:
 
 Nella schermata Configurazione Adobe Analytics, potete attivare, modificare e quindi eliminare gli eventi dei visualizzatori:
 
-* **Attiva** - Seleziona **[!UICONTROL Abilita]** per attivare o **[!UICONTROL Disattiva]** per disattivare un evento visualizzatore selezionato.
+* **Attiva**: Seleziona **[!UICONTROL Abilita]** per attivare o **[!UICONTROL Disattiva]** per disattivare un evento visualizzatore selezionato.
 
-* **Modifica** - Seleziona un evento visualizzatore e fai clic su **[!UICONTROL Visualizza/Modifica]** Pulsante Variabili grigio. Negli elenchi a discesa Variabile di Adobe Dynamic Media Classic e Variabile di Adobe Analytics, scegli una variabile diversa da ciascun elenco. Per ulteriori informazioni, consulta [Assegnazione di variabili Adobe Analytics a eventi e variabili del visualizzatore Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Modifica**: seleziona un evento visualizzatore e fai clic su **[!UICONTROL Visualizza/Modifica]** Pulsante Variabili grigio. Negli elenchi a discesa Variabile di Adobe Dynamic Media Classic e Variabile di Adobe Analytics, scegli una variabile diversa da ciascun elenco. Per ulteriori informazioni, consulta [Assegnazione di variabili Adobe Analytics a eventi e variabili del visualizzatore Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Elimina** - Seleziona un evento visualizzatore e fai clic su **[!UICONTROL Visualizza/Modifica]** Pulsante Variabili grigio. Seleziona **[!UICONTROL Elimina]**.
+* **Elimina**: seleziona un evento visualizzatore, quindi fai clic su **[!UICONTROL Visualizza/Modifica]** Pulsante Variabili grigio. Seleziona **[!UICONTROL Elimina]**.

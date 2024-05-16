@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 23%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 I set di file multimediali diversi offrono agli utenti un’esperienza di visualizzazione integrata. I set di file multimediali diversi possono includere immagini, set di immagini, set di campioni, set 360 gradi e video. Gli utenti possono selezionare diverse schede all’interno del visualizzatore di file multimediali diversi per visualizzare gli elementi nei diversi visualizzatori. Se non è specificata alcuna scheda, tutte le risorse sono visualizzate insieme nella riga dei campioni.
 
-I predefiniti per visualizzatori di set di file multimediali diversi includono opzioni per le community Internet che permettono agli utenti finali di incorporare il codice, copiare l’URL e collegarsi al sito Web principale. Gli utenti possono usare queste opzioni per scambiarsi informazioni sui prodotti sui propri siti Web o sui siti di social networking.
+I predefiniti visualizzatore set di file multimediali diversi includono opzioni della community che consentono agli utenti finali di incorporare codice, copiare URL e creare collegamenti al sito Web principale. Gli utenti possono utilizzare queste opzioni per condividere informazioni sui prodotti sui propri siti Web personali o sui siti di social networking.
 
 Questo servizio Quick Start per set di file multimediali diversi è stato progettato per aiutarti a iniziare rapidamente a utilizzare le tecniche di set di file multimediali diversi in Adobe Dynamic Media Classic.
 

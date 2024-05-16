@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 19%
@@ -30,9 +30,9 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Creare o modificare un predefinito visualizzatore nella pagina Predefiniti visualizzatore effettuando una delle seguenti operazioni:
 
-   * **Crea** - Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona l’opzione **[!UICONTROL Visualizzatore zoom]** e quindi selezionare **[!UICONTROL Aggiungi]**. Potete anche creare un predefinito Visualizzatore zoom partendo da uno esistente. Visualizzate il nome del predefinito, selezionatelo, quindi selezionate **[!UICONTROL Modifica]**. Il giorno `Configure Viewer` , immetti un nuovo nome per il predefinito.
+   * **Crea**: Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona l’opzione **[!UICONTROL Visualizzatore zoom]** e quindi selezionare **[!UICONTROL Aggiungi]**. Potete anche creare un predefinito Visualizzatore zoom partendo da uno esistente. Visualizzate il nome del predefinito, selezionatelo, quindi selezionate **[!UICONTROL Modifica]**. Il giorno `Configure Viewer` , immetti un nuovo nome per il predefinito.
 
-   * **Modifica** - Visualizzare il nome di un predefinito, selezionarlo, quindi selezionare **[!UICONTROL Modifica]**.
+   * **Modifica**: visualizza il nome di un predefinito, selezionalo, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Il giorno `Configure Viewer` pagina, nel campo di testo Nome predefinito, digita un nome per il predefinito visualizzatore set di campioni.
 1. Scegli le opzioni nella `Configure Viewer` pagina.

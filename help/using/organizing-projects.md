@@ -10,7 +10,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 22%
@@ -37,9 +37,9 @@ Potete creare un progetto quando caricate dei file oppure li potete creare nel p
 
 Puoi creare una cartella di progetto a partire da Libreria risorse o quando carichi i file in Adobe Dynamic Media Classic:
 
-* **Nella libreria delle risorse** : scorri fino alla parte inferiore della libreria delle risorse, alla sezione Progetti, quindi seleziona **[!UICONTROL Aggiungi progetto]**. Immettere un nome per il progetto.
+* **Nella libreria delle risorse**: scorri fino alla parte inferiore della libreria delle risorse, alla sezione Progetti, quindi seleziona **[!UICONTROL Aggiungi progetto]**. Immettere un nome per il progetto.
 
-* **Durante il caricamento di file** - Nella schermata di caricamento, vai a **[!UICONTROL Aggiungi al progetto]** > **[!UICONTROL Crea progetto]**. Immettere un nome per il progetto.
+* **Durante il caricamento di file**: nella schermata di caricamento, vai a **[!UICONTROL Aggiungi al progetto]** > **[!UICONTROL Crea progetto]**. Immettere un nome per il progetto.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Puoi creare una cartella di progetto a partire da Libreria risorse o quando cari
 
 Per visualizzare, eliminare e rinominare una cartella di progetto, eseguire una delle operazioni seguenti:
 
-* **Esplorazione dei contenuti** - Seleziona il nome della cartella nella Libreria risorse. Le relative risorse vengono visualizzate nel pannello Sfoglia.
+* **Esplorazione dei contenuti**: seleziona il nome della cartella nella Libreria risorse. Le relative risorse vengono visualizzate nel pannello Sfoglia.
 
-* **Eliminazione delle cartelle di progetto** - Seleziona la cartella Progetto, quindi fai clic su **[!UICONTROL Rimuovi progetto]**. L’eliminazione di risorse da una cartella di progetto non ne comporta l’eliminazione da Adobe Dynamic Media Classic; le risorse rimangono nelle cartelle originali in cui sono memorizzate.
+* **Eliminazione delle cartelle di progetto**: seleziona la cartella Progetto, quindi fai clic su **[!UICONTROL Rimuovi progetto]**. L’eliminazione di risorse da una cartella di progetto non ne comporta l’eliminazione da Adobe Dynamic Media Classic; le risorse rimangono nelle cartelle originali in cui sono memorizzate.
 
-* **Ridenominazione delle cartelle di progetto** - Fare doppio clic sul nome della cartella nel pannello Risorse, quindi immettere un nuovo nome.
+* **Ridenominazione delle cartelle di progetto**: fai doppio clic sul nome della cartella nel pannello Risorse, quindi immetti un nuovo nome.
 
 ## Aggiungere risorse a una cartella di progetto {#adding-assets-to-a-project-folder}
 
@@ -61,4 +61,4 @@ Puoi aggiungere immagini a una cartella di progetto a partire dal pannello Sfogl
 
 * **Dal pannello Sfoglia**, seleziona le risorse e trascinale in una cartella di progetto. Puoi anche passare a **[!UICONTROL File]** > **[!UICONTROL Aggiungi al progetto]**. Selezionare il nome di una cartella di progetto nella finestra di dialogo Seleziona progetto, quindi selezionare **[!UICONTROL Invia]**.
 
-* **Durante il caricamento di file** - Nella pagina di caricamento, seleziona **[!UICONTROL Opzioni processo]**. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Progetti]**, quindi seleziona un nome per il progetto.
+* **Durante il caricamento di file**: nella pagina Carica, seleziona **[!UICONTROL Opzioni processo]**. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Progetti]**, quindi seleziona un nome per il progetto.

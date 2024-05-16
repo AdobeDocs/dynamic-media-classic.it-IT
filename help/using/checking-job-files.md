@@ -10,7 +10,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 24%
@@ -33,25 +33,25 @@ Seleziona **[!UICONTROL Processi]** sulla barra di navigazione globale, in modo 
 
 I processi vengono elencati in queste categorie nella scheda Cronologia della pagina Processi:
 
-* **[!UICONTROL Tipo di processo]** - Un’icona indica il tipo di processo: Carica e Pubblica sono i tipi di processo più comuni.
+* **[!UICONTROL Tipo di processo]**: un’icona indica il tipo di processo: Carica e Pubblica sono i tipi di processo più comuni.
 
-* **[!UICONTROL Nome processo]** - Nome del processo. Il nome include la parte del nome immessa dall&#39;utente e la data e l&#39;ora.
+* **[!UICONTROL Nome processo]**: nome del processo. Il nome include la parte del nome immessa dall&#39;utente e la data e l&#39;ora.
 
-* **[!UICONTROL Avviato]** - Quando il processo è iniziato.
+* **[!UICONTROL Avviato]**: all’avvio del processo.
 
-* **[!UICONTROL Totale]** - Numero di file trasferiti.
+* **[!UICONTROL Totale]**: numero di file trasferiti.
 
-* **[!UICONTROL W (avvisi)]** - Numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio: `.DS_store` I file (Mac) e i file Thumbs.db (Windows®) contengono informazioni su come visualizzare i file di immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
+* **[!UICONTROL W (avvisi)]**: numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio: `.DS_store` I file (Mac) e i file Thumbs.db (Windows®) contengono informazioni su come visualizzare i file di immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
 
-* **[!UICONTROL E (errori)]** : elenca il numero di errori nel processo (se presenti). Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
+* **[!UICONTROL E (errori)]**: elenca il numero di errori nel processo (se presenti). Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
 
-* **[!UICONTROL Durata]** - Il tempo necessario per completare il processo.
+* **[!UICONTROL Durata]**: tempo necessario per completare il processo.
 
-* **[!UICONTROL Stato]** - Mostra lo stato del processo.
+* **[!UICONTROL Stato]**: mostra lo stato del processo.
 
-* **[!UICONTROL Destinazione]** : per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non si applica ai processi per la pubblicazione.
+* **[!UICONTROL Destinazione]**: per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non si applica ai processi per la pubblicazione.
 
-* **[!UICONTROL Inviato da]** : elenca chi ha caricato le risorse.
+* **[!UICONTROL Inviato da]**: elenca chi ha caricato le risorse.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 Per ordinare i processi o modificare la visualizzazione della scheda Cronologia nella pagina Processi, effettuate le seguenti procedure:
 
-* **[!UICONTROL Ordinamento]** - Selezionare un nome di colonna per ordinare l&#39;elenco in base a una colonna specifica. Potete selezionare l’interruttore accanto al nome della colonna per impostare l’ordinamento ascendente o discendente.
+* **[!UICONTROL Ordinamento]**: seleziona il nome di una colonna per ordinare l’elenco in base a una determinata colonna. Potete selezionare l’interruttore accanto al nome della colonna per impostare l’ordinamento ascendente o discendente.
 
-* **[!UICONTROL Intervallo date]** - Selezionare la **[!UICONTROL Intervallo date]** e scegliere un&#39;opzione per limitare l&#39;elenco dei job alla data corrente, alla settimana precedente o al mese precedente. Seleziona **[!UICONTROL Intervallo date personalizzato]**, quindi inserisci un intervallo di date specifico.
+* **[!UICONTROL Intervallo date]**: seleziona la **[!UICONTROL Intervallo date]** e scegliere un&#39;opzione per limitare l&#39;elenco dei job alla data corrente, alla settimana precedente o al mese precedente. Seleziona **[!UICONTROL Intervallo date personalizzato]**, quindi inserisci un intervallo di date specifico.
 
-* **[!UICONTROL Tipo di processo]** - Selezionare la **[!UICONTROL Tipo di processo]** e scegliere **[!UICONTROL Pubblica]** o **[!UICONTROL Carica]** restringere l&#39;elenco per la pubblicazione dei processi o il caricamento dei processi. Seleziona **[!UICONTROL Tutti]** per visualizzare entrambi i tipi di job.
+* **[!UICONTROL Tipo di processo]**: seleziona la **[!UICONTROL Tipo di processo]** e scegliere **[!UICONTROL Pubblica]** o **[!UICONTROL Carica]** restringere l&#39;elenco per la pubblicazione dei processi o il caricamento dei processi. Seleziona **[!UICONTROL Tutti]** per visualizzare entrambi i tipi di job.
 
-* **[!UICONTROL Spettacolo]** - Vai a **[!UICONTROL Spettacolo]** > **[!UICONTROL Processi personali]** o **[!UICONTROL Spettacolo]** > **[!UICONTROL Tutti i processi]** per restringere l&#39;elenco ai processi ordinati dall&#39;utente o ai processi ordinati dagli utenti della società.
+* **[!UICONTROL Spettacolo]**: vai a **[!UICONTROL Spettacolo]** > **[!UICONTROL Processi personali]** o **[!UICONTROL Spettacolo]** > **[!UICONTROL Tutti i processi]** per restringere l&#39;elenco ai processi ordinati dall&#39;utente o ai processi ordinati dagli utenti della società.
 
 ## Visualizzare, copiare o stampare un rapporto Dettagli lavoro {#viewing-copying-or-printing-a-job-details-report}
 
@@ -93,13 +93,13 @@ Selezionare il pulsante Processi sulla barra di navigazione globale e nella pagi
 
 Selezionare un job ricorrente nella pagina Job e seguire queste istruzioni se si desidera modificarlo o eliminarlo:
 
-* **Modificare un processo ricorrente** - Selezionare la **[!UICONTROL Modifica]** e immettere le informazioni sulla programmazione nella finestra di dialogo Modifica OdL programmato. Se si desidera che il processo ricorra a un intervallo desiderato, passare a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**.
+* **Modificare un processo ricorrente**: seleziona la **[!UICONTROL Modifica]** e immettere le informazioni sulla programmazione nella finestra di dialogo Modifica OdL programmato. Se si desidera che il processo ricorra a un intervallo desiderato, passare a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**.
 
 Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-* **Eliminazione di un processo ricorrente** - Selezionare la **[!UICONTROL Elimina]** pulsante.
+* **Eliminazione di un processo ricorrente**: seleziona la **[!UICONTROL Elimina]** pulsante.
 
-* **Sospensione (e ripresa) di un processo ricorrente** - Nella colonna Attivo deselezionare una casella di controllo per mettere in pausa un job e selezionare una casella di controllo per riprendere un job sospeso.
+* **Sospensione (e ripresa) di un processo ricorrente**: nella colonna Attivo deselezionare una casella di controllo per sospendere un processo; selezionare una casella di controllo per riprendere un processo sospeso.
 
 ### Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -117,13 +117,13 @@ In questa tabella vengono visualizzati gli incrementi temporali, i relativi valo
 
 | Incrementi temporali  | Valori consentiti | Commenti | Caratteri jolly supportati |
 |--- |--- |--- |--- |
-| Secondi | 0-59 |  | `, - * /` |
-| Minuti | 0-59 |  | `, - * /` |
-| Ore | 0-23 | Notare l’uso dell’orologio costituito da 24 ore. | `, - * /` |
-| Giorno del mese | 1-31 | Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C` |
-| Mese | 1-12 o Gen, Feb, Mar, Apr, Mag, Giu, Lug, Ago, Set, Ott, Nov, Dic | I valori fanno distinzione tra maiuscole e minuscole. | `, - * /` |
-| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori fanno distinzione tra maiuscole e minuscole. Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `, - * / ? L C #` |
-| Anno (facoltativo) | Vuoto o 1970-2099 |  | `, - * /` |
+| Secondi | 0-59 |  | `,: * /` |
+| Minuti | 0-59 |  | `,: * /` |
+| Ore | 0-23 | Notare l’uso dell’orologio costituito da 24 ore. | `,: * /` |
+| Giorno del mese | 1-31 | Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `,: * / ? L C` |
+| Mese | 1-12 o Gen, Feb, Mar, Apr, Mag, Giu, Lug, Ago, Set, Ott, Nov, Dic | I valori fanno distinzione tra maiuscole e minuscole. | `,: * /` |
+| Giorno della settimana | Lun, Mar, Mer, Gio, Ven, Sab, Dom | I valori fanno distinzione tra maiuscole e minuscole. Non è possibile specificare un valore numerico per &quot;giorno del mese&quot; e &quot;giorno della settimana&quot;. Uno di questi campi deve utilizzare un `?` carattere jolly. | `,: * / ? L C #` |
+| Anno (facoltativo) | Vuoto o 1970-2099 |  | `,: * /` |
 
 
 Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casella Regola e come usarli:

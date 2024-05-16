@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
-# App Adobe Dynamic Media Classic Desktop - Ora disponibile {#new-ui-2020}
+# App Adobe Dynamic Media Classic Desktop: ora disponibile {#new-ui-2020}
 
 Consulta la [app desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) per verificare i requisiti di sistema, scarica e installa la nuova app, quindi accedi.
 
@@ -27,7 +27,7 @@ Gli utenti di Adobe Dynamic Media Classic ora hanno accesso a un nuovo accesso c
 ## Domande frequenti
 
 +++**_Quando i browser cesseranno di supportare il Flash Adobe il 31 dicembre 2020, vi sarà un impatto su Adobe Dynamic Media Classic (precedentemente Scene7)?_**
-Il Flash Player di Adobe era un plug-in per browser web che consentiva ai browser di utilizzare contenuti sviluppati su Adobe Flash Platform. Interfaccia utente Web di Adobe Dynamic Media Classic (attualmente etichettata [!DNL Scene7 Publishing System] o [!DNL SPS] nel prodotto) richiedeva il Flash Player di Adobe. Quando Adobe Flash diventerà obsoleto il 31 dicembre 2020, i clienti Adobe Dynamic Media Classic non potranno più accedere all’interfaccia utente web. A causa di questa modifica, Adobe ha fornito ai clienti un’app desktop che sostituisce l’esperienza del browser.
+Il Flash Player di Adobe era un plug-in per browser web che consentiva ai browser di utilizzare contenuti sviluppati su Adobe Flash Platform. Interfaccia utente Web di Adobe Dynamic Media Classic (attualmente etichettata [!DNL Scene7 Publishing System] o [!DNL SPS] nel prodotto) richiedeva il Flash Player di Adobe. Quando Adobe Flash diventerà obsoleto il 31 dicembre 2020, i clienti di Adobe Dynamic Media Classic non potranno più accedere all’interfaccia utente web. A causa di questa modifica, Adobe ha fornito ai clienti un’app desktop che sostituisce l’esperienza del browser.
 +++
 
 +++**_Come posso accedere alla nuova app desktop?_**
@@ -110,4 +110,4 @@ Per ulteriori informazioni sui vantaggi dell&#39;aggiornamento alla nuova genera
 >* [Accedere e uscire dall&#39;applicazione desktop Adobe Dynamic Media Classic](/help/using/signing-out.md)
 >* [Scaricare e installare l&#39;applicazione desktop Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

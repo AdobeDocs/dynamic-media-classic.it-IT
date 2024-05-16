@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 27%
+ht-degree: 21%
 
 ---
 
@@ -94,7 +94,7 @@ Puoi visualizzare le opzioni Avanzate nella pagina Pubblicazione e scegliere le 
 
 * **[!UICONTROL Pubblica in]**: per pubblicare le risorse solo su un server specifico, scegli un tipo di server.
 
-* **[!UICONTROL Pubblica]** - Per impostazione predefinita, Adobe Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate (opzione Nuova dall’ultima pubblicazione). Tuttavia, puoi selezionare **[!UICONTROL Pubblicazione completa]** puoi quindi pubblicare anche le risorse aggiornate o modificate dall’ultima pubblicazione. Seleziona **[!UICONTROL Completa con dati di ricerca]** se si pubblica un eCatalog e si desidera che i lettori possano eseguire ricerche per parola chiave.
+* **[!UICONTROL Pubblica]**: per impostazione predefinita, Adobe Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate (opzione Nuova dall’ultima pubblicazione). Tuttavia, puoi selezionare **[!UICONTROL Pubblicazione completa]** puoi quindi pubblicare anche le risorse aggiornate o modificate dall’ultima pubblicazione. Seleziona **[!UICONTROL Completa con dati di ricerca]** se si pubblica un eCatalog e si desidera che i lettori possano eseguire ricerche per parola chiave.
 
 * **[!UICONTROL Esegui processo come]**: scegli un nome utente dall’elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, si associa un processo di pubblicazione a un utente.
 
@@ -150,13 +150,13 @@ La data dell’ultima pubblicazione di una risorsa viene visualizzata in Vista d
 
 ## Risorse pubblicate e ritardi CDN {#republished-assets-and-cdn-delays}
 
-Le risorse Adobe Dynamic Media Classic vengono distribuite sulla rete CDN (Content Delivery Network). Una rete CDN è un sistema di computer server collegati tra di loro per collaborare in maniera trasparente alla distribuzione di contenuti, specialmente contenuti multimediali di grandi dimensioni, agli utenti finali. Nel sistema CDN il contenuto Web viene archiviato nelle cache Web di Internet (chiamata rete di edge caching). I contenuti web vengono consegnati dalle cache web agli utenti finali per velocizzare le consegne.
+Le risorse Adobe Dynamic Media Classic vengono distribuite sulla rete CDN (Content Delivery Network). Una rete CDN è un sistema di computer server collegati tra di loro per collaborare in maniera trasparente alla distribuzione di contenuti, specialmente contenuti multimediali di grandi dimensioni, agli utenti finali. Nel sistema CDN, il contenuto Web viene memorizzato nelle cache Web in Internet (rete di cache Edge). I contenuti web vengono consegnati dalle cache web agli utenti finali per velocizzare le consegne.
 
-La prima volta che un utente scarica una pagina Web, le risorse vengono distribuite su un server cache Web CDN. Questo server le memorizza in modo che, la prossima volta che qualcuno nella stessa area accede alla pagina web, gli stessi contenuti memorizzati nella cache vengano distribuiti più rapidamente. Il contenuto viene distribuito più velocemente perché si trova più vicino all’utente finale. La rete CDN assicura visualizzazioni di pagine Web più veloci. Una rete CDN diminuisce le esigenze di larghezza di banda sul server centrale perché il contenuto viene distribuito dalla rete di edge caching e non da un server centrale in ogni istanza.
+La prima volta che un utente scarica una pagina web, le risorse vengono inviate a un server di cache web CDN. Questo server le memorizza in modo che, al successivo accesso alla pagina Web da parte di un utente nella stessa area, lo stesso contenuto memorizzato nella cache venga distribuito più rapidamente. Il contenuto viene distribuito più velocemente perché si trova più vicino all’utente finale. La rete CDN consente una visualizzazione più rapida delle pagine web. Una rete CDN diminuisce le esigenze di larghezza di banda sul server centrale perché il contenuto viene distribuito dalla rete di edge caching e non da un server centrale in ogni istanza.
 
-Il contenuto Adobe Dynamic Media Classic appena pubblicato è immediatamente disponibile per l’utente finale e popola rapidamente la rete della cache edge. Tuttavia, i contenuti ripubblicati, ovvero le immagini con gli stessi nomi di quelle pubblicate in precedenza su un server immagini, non vengono aggiornati sulla rete CDN per un massimo di dieci ore. Gli utenti finali invece visualizzano il contenuto di una cache Web sulla rete CDN. Per questo motivo, le risorse Adobe Dynamic Media Classic ripubblicate non vengono visualizzate agli utenti finali per dieci ore.
+Il contenuto Adobe Dynamic Media Classic appena pubblicato è immediatamente disponibile per l’utente finale e popola rapidamente la rete della cache edge. Tuttavia, i contenuti ripubblicati, ovvero le immagini con gli stessi nomi di quelle pubblicate in precedenza su un server immagini, non vengono aggiornati sulla rete CDN per un massimo di dieci ore. Al contrario, gli utenti finali visualizzano ciò che si trova in una cache web sulla rete CDN. Per questo motivo, le risorse Adobe Dynamic Media Classic ripubblicate non vengono visualizzate agli utenti finali per dieci ore.
 
-Per rendere disponibili le risorse appena ripubblicate prima che sia trascorso questo intervallo di dieci ore, potete cancellare le cache Web sulla rete CDN. La cancellazione delle cache Web rimuove i vecchi contenuti dalle cache Web della rete CDN e li sostituisce con le risorse pubblicate più di recente.
+Se desideri che le nuove risorse immagine ripubblicate siano disponibili prima del ritardo di dieci ore, puoi eseguire il flushing delle cache web su CDN. Il flushing di queste cache web rimuove il contenuto obsoleto dalle cache web CDN e lo sostituisce con le risorse pubblicate più di recente.
 
 Per svuotare la cache, nella barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Annulla validità CDN]**. Tutti i file selezionati vengono rimossi dalla cache. Se non vi sono risorse pubblicate, o se non siete un amministratore di società, l’opzione Rimuovi da CDN non è disponibile.
 

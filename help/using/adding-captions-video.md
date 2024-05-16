@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 23%
+ht-degree: 17%
 
 ---
 
@@ -32,11 +32,11 @@ Per configurare l&#39;effetto Didascalia e modificare il menu Didascalia stesso,
 * `Universal_HTML5_MixedMedia_dark` visualizzatore
 * `Universal_HTML5_MixedMedia_light` visualizzatore
 
-Consulta [Aggiungere o modificare un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Consulta [Aggiungere o modificare un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Vedi anche [Aggiungere e modificare i predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
-Adobe Dynamic Media Classic può convertire i file di didascalia in formato JSON (JavaScript Object Notation). Questa conversione significa che è possibile includere testo JSON in una pagina Web come trascrizione nascosta ma completa del video. I motori di ricerca possono quindi eseguire la ricerca per indicizzazione e indicizzare il contenuto per rendere i video più facilmente individuabili e fornire ai clienti maggiori dettagli sul contenuto video.
+Adobe Dynamic Media Classic può convertire i file di didascalia in formato JSON (JavaScript Object Notation). Questa conversione ti consente di incorporare il testo JSON in una pagina web come trascrizione nascosta ma completa del video. I motori di ricerca possono quindi eseguire la ricerca per indicizzazione e indicizzare il contenuto per rendere i video più facilmente individuabili e fornire ai clienti maggiori dettagli sul contenuto video.
 
 Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) in per ulteriori informazioni sull’utilizzo della funzione JSON in un URL.
 
@@ -46,7 +46,7 @@ Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleagu
 
    | Tipo visualizzatore | File di sottotitoli |
    |--- |--- |
-   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione del nome file dei sottotitoli è `.VTT`. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Vedi WebVTT](https://w3c.github.io/webvtt/): formato dei brani di testo per video web. <br><br>Esistono molti siti Web che offrono strumenti e servizi gratuiti e a pagamento che è possibile utilizzare per creare file di sottotitoli WebVTT. <br><br>Seguire le istruzioni visualizzate da un sito per creare e salvare il file WebVTT. Al termine, copiate il contenuto del file di didascalia e incollatelo in un editor di testo normale e salvatelo con un&#39;estensione VTT. <br><br><b>Nota:</b> Per il supporto globale dei sottotitoli video in lingue diverse dall’inglese, lo standard WebVTT richiede la creazione di `.VTT` file e chiamate per ogni lingua da supportare. <br><br>In genere, si desidera assegnare al file VTT della didascalia lo stesso nome del file video e aggiungerlo ai sottotitoli. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web. |
+   | HTML5 | Se usate un visualizzatore video HTML5, assicuratevi che il file dei sottotitoli che create segua lo standard WebVTT (Web Video Text Tracks). L’estensione del nome file dei sottotitoli è `.VTT`. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:<br><br>[Vedi WebVTT](https://w3c.github.io/webvtt/): formato dei brani di testo per video web. <br><br>Esistono molti siti Web che offrono strumenti e servizi gratuiti e a pagamento che è possibile utilizzare per creare file di sottotitoli WebVTT. <br><br>Seguire le istruzioni visualizzate da un sito per creare e salvare il file WebVTT. Al termine, copiate il contenuto del file di didascalia e incollatelo in un editor di testo normale e salvatelo con un&#39;estensione VTT. <br><br><b>Nota:</b> Per il supporto globale dei sottotitoli video in lingue diverse dall’inglese, lo standard WebVTT richiede la creazione di `.VTT` file e chiamate per ogni lingua da supportare. <br><br>In genere, si desidera assegnare al file VTT della didascalia lo stesso nome del file video e aggiungerlo ai sottotitoli. In questo modo, è possibile automatizzare la generazione degli URL video utilizzando il sistema di gestione dei contenuti web esistente. |
 
 1. In Adobe Dynamic Media Classic, carica il file di didascalia XML WebVTT, DFXP o SMPTE.
 

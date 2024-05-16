@@ -10,7 +10,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 30%
@@ -23,15 +23,15 @@ L’ottimizzazione SEO (Search Engine Optimization, ottimizzazione per i motori 
 
 Utilizzando Adobe Dynamic Media Classic Video SEO, puoi applicare metadati video per fornire ai motori di ricerca le descrizioni dei tuoi video. Adobe Dynamic Media Classic consente di creare Video Sitemap e feed mRSS. Questi file XML standard vengono utilizzati per inviare informazioni video ai motori di ricerca:
 
-* **Video Sitemap** : indica a Google esattamente dove e cosa si trova il contenuto video su un sito. I video sono completamente ricercabili su Google. In un Video Sitemap è possibile specificare ad esempio la durata e le categorie dei video. Per informazioni sulle mappe del sito video, consulta [Video sitemap e video sitemap alternative](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Video Sitemap**: indica a Google esattamente dove e quale contenuto video si trova su un sito. I video sono completamente ricercabili su Google. In un Video Sitemap è possibile specificare ad esempio la durata e le categorie dei video. Per informazioni sulle mappe del sito video, consulta [Video sitemap e video sitemap alternative](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **Feed mRSS (Media Really Simple Syndication)** : utilizzato dagli editori di contenuti per inserire file multimediali in Yahoo. Video Search. Per informazioni sui feed mRSS, vedere [Video sitemap e video sitemap alternative](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Feed mRSS (Media Really Simple Syndication)**: utilizzato dagli editori di contenuti per inserire file multimediali in Yahoo! Video Search. Per informazioni sui feed mRSS, vedere [Video sitemap e video sitemap alternative](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
 >Google supporta sia Video Sitemap che il protocollo di feed mRSS per la trasmissione di informazioni ai motori di ricerca.
 
-Adobe Dynamic Media Classic può generare Video Sitemap e feed mRSS dai metadati memorizzati con ogni video. Quando create dei Video Sitemap e feed mRSS, potete scegliere quali campi di metadati includere tra quelli presenti nei file video. In questo modo, descrivi i video ai motori di ricerca in modo che i motori di ricerca possano indirizzare più accuratamente il traffico ai video sul sito web.
+Adobe Dynamic Media Classic può generare Video Sitemap e feed mRSS dai metadati memorizzati con ogni video. Quando create dei Video Sitemap e feed mRSS, potete scegliere quali campi di metadati includere tra quelli presenti nei file video. In questo modo, descrivi i tuoi video ai motori di ricerca in modo che possano indirizzare più accuratamente il traffico ai video sul tuo sito Web.
 
 >[!NOTE]
 >
@@ -55,27 +55,27 @@ Dopo aver scelto le impostazioni, seleziona **[!UICONTROL Salva]** (o **[!UICONT
 
 Il giorno **[!UICONTROL Modalità di generazione]** dall&#39;elenco a discesa, scegli una modalità di rapporto:
 
-* **Video Sitemap** : crea una Video Sitemap.
+* **Video Sitemap**: crea una Video Sitemap.
 
-* **Feed mRSS** : crea un feed Media RSS (mRSS).
+* **Feed mRSS**: crea un feed Media RSS (mRSS).
 
-* **Entrambi** : consente di creare entrambi i tipi di file XML.
+* **Entrambi**: crea entrambi i tipi di file XML.
 
-* **Disattivato** - Scegliere questa opzione per interrompere la generazione di Video Sitemap e feed Media RSS (mRSS).
+* **Disattivato**: scegli questa opzione per interrompere la generazione di Video Sitemap e feed Media RSS (mRSS).
 
 Il giorno **[!UICONTROL Modalità automatica/manuale]** dall&#39;elenco a discesa, scegliere se generare automaticamente o manualmente:
 
-* **Modalità automatica** - Adobe Dynamic Media Classic genera automaticamente una Video Sitemap, un feed Media RSS (mRSS), o entrambi, ogni giorno. Seleziona la **[!UICONTROL Contrassegna per pubblicazione]** opzione per contrassegnare automaticamente per la pubblicazione il file XML generato da Adobe Dynamic Media Classic.
+* **Modalità automatica**: Adobe Dynamic Media Classic genera automaticamente una Video Sitemap, un feed Media RSS (mRSS) o entrambi, ogni giorno. Seleziona la **[!UICONTROL Contrassegna per pubblicazione]** opzione per contrassegnare automaticamente per la pubblicazione il file XML generato da Adobe Dynamic Media Classic.
 
    * **Contrassegna per pubblicazione** Contrassegna per la pubblicazione del file XML generato.
 
-* **Modalità manuale** - Adobe Dynamic Media Classic genera Video Sitemap, Media RSS (mRSS) feed, o entrambi, quando si seleziona **[!UICONTROL Genera]** o **[!UICONTROL Salva e genera]** nella schermata Impostazioni ottimizzazione ricerca video. Selezionate inoltre le seguenti opzioni:
+* **Modalità manuale**: Adobe Dynamic Media Classic genera la Video Sitemap, il feed Media RSS (mRSS) o entrambi, quando selezioni **[!UICONTROL Genera]** o **[!UICONTROL Salva e genera]** nella schermata Impostazioni ottimizzazione ricerca video. Selezionate inoltre le seguenti opzioni:
 
-   * **Nessuna ulteriore impostazione** - Non contrassegna per la pubblicazione il file XML generato.
+   * **Nessuna ulteriore impostazione**: non contrassegna per la pubblicazione il file XML generato.
 
-   * **Contrassegna per pubblicazione** : contrassegna per la pubblicazione del file XML generato.
+   * **Contrassegna per pubblicazione**: contrassegna per la pubblicazione del file XML generato.
 
-   * **Consenti generazione parziale** - I motori di ricerca possono rifiutare un file XML se non contiene informazioni complete sui metadati per tutti i video. Questa opzione genera il file XML anche se i metadati non sono disponibili per alcuni video. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
+   * **Consenti generazione parziale**: i motori di ricerca possono rifiutare un file XML se non contiene informazioni complete sui metadati per tutti i video. Questa opzione genera il file XML anche se i metadati non sono disponibili per alcuni video. Nella schermata Rapporto compare un’avvertenza. Selezionate questa opzione se intendete esportare il file XML ed elaborare manualmente le informazioni mancanti.
 
 ### Scelta delle impostazioni di generazione {#choosing-generation-settings}
 

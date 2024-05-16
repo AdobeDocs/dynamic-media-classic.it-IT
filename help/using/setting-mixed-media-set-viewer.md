@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 36%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 I predefiniti per visualizzatori di set di file multimediali diversi determinano lo stile, il comportamento e l’aspetto del visualizzatore principale. Quando configurate un predefinito, specificate quali altri visualizzatori devono apparire nel visualizzatore di set di file multimediali diversi. Ad esempio, se hai incluso un set di immagini nel set di file multimediali diversi, specifica un predefinito visualizzatore set di immagini per il visualizzatore set di file multimediali diversi.
 
-Potete scegliere di includere nel visualizzatore di set di file multimediali diversi tutte le funzioni per le community Internet o solo alcune di esse. La funzione Incorpora aggiunge al visualizzatore un collegamento che permette agli utenti di copiare il codice richiesto per aprire il visualizzatore in una pagina esterna (ad esempio un blog, un sito Web o un sito di social networking). La funzione Collegamento fornisce l’URL del visualizzatore, in modo che gli utenti possano usare un collegamento al visualizzatore. La funzione Visita fornisce un collegamento al sito Web specificato.
+Potete scegliere di includere nel visualizzatore di set di file multimediali diversi tutte le funzioni per le community Internet o solo alcune di esse. La funzione Incorpora aggiunge al visualizzatore un collegamento che consente agli utenti di copiare il codice necessario per visualizzare il visualizzatore in una pagina esterna, ad esempio un blog, un sito Web o un sito di social networking. La funzione Collegamento fornisce l’URL del visualizzatore, in modo che gli utenti possano usare un collegamento al visualizzatore. La funzionalità Visita fornisce un collegamento al sito Web specificato.
 
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Nella pagina Predefiniti visualizzatore effettuare una delle seguenti operazioni:
@@ -44,7 +44,7 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
    Il nuovo predefinito per visualizzatori viene riportato nell’elenco.
 
-1. Ripetete i passaggi da 6 a 9 per tutti i predefiniti da aggiungere.
+1. Ripeti i passaggi 6: 9 per tutti i predefiniti visualizzatore che desideri aggiungere.
 1. Per modificare l’elenco dei predefiniti, effettuate una delle seguenti operazioni:
 
    * Per eliminare un predefinito dall&#39;elenco, selezionatelo, quindi selezionate **[!UICONTROL Elimina]**.
@@ -52,13 +52,13 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
 1. Per aggiungere al visualizzatore funzioni per la community Internet (Incorpora, Collegamento, Visita), specificate le opzioni per una delle seguenti operazioni:
 
-   * **E-mail** - Seleziona **[!UICONTROL On]** per attivare un pulsante E-mail nel visualizzatore. Quando gli utenti selezionano il pulsante E-mail durante la visualizzazione del set, viene visualizzato un messaggio e-mail contenente il collegamento al set.
+   * **E-mail**: Seleziona **[!UICONTROL On]** per attivare un pulsante E-mail nel visualizzatore. Quando gli utenti selezionano il pulsante E-mail durante la visualizzazione del set, viene visualizzato un messaggio e-mail contenente il collegamento al set.
 
-   * **Incorpora** - Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare uno skin personalizzato per il pulsante.
+   * **Incorpora**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare uno skin personalizzato per il pulsante.
 
-   * **Collegamento** - Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante collegamento digitare il nome che si desidera visualizzare nel visualizzatore per il pulsante Collegamento. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare uno skin personalizzato per il pulsante.
+   * **Collegamento**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante collegamento digitare il nome che si desidera visualizzare nel visualizzatore per il pulsante Collegamento. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare uno skin personalizzato per il pulsante.
 
-   * **Visita** - Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante visita digitare il nome che si desidera visualizzare nel visualizzatore del pulsante Visita. Nella casella URL visita digitare l&#39;URL del sito Web che si desidera aprire quando si seleziona il collegamento.
+   * **Visita**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante visita digitare il nome che si desidera visualizzare nel visualizzatore del pulsante Visita. Nella casella URL visita digitare l&#39;URL del sito Web che si desidera aprire quando si seleziona il collegamento.
 
 1. Specificate le altre opzioni desiderate. Per visualizzare una descrizione di un&#39;opzione, selezionare l&#39;icona Suggerimento informazioni accanto all&#39;opzione.
 

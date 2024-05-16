@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Per semplificare la visualizzazione e la navigazione dei video lunghi, aggiungi 
 >
 >il lettore video utilizzato deve supportare l’uso di marcatori capitolo.
 
-Consulta [Aggiungere o modificare un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per `Universal_HTML5_Video` visualizzatore (HTML5).
+Consulta [Aggiungere o modificare un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per `Universal_HTML5_Video` visualizzatore (HTML5).
 
 Vedi anche [Aggiungere e modificare i predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -65,7 +65,7 @@ Consulta [WebVTT: formato per tracce di testo video Web](https://w3c.github.io/w
 
 1. Salvare il file VTT con codifica UTF8 in modo da evitare problemi con la rappresentazione dei caratteri nel testo del titolo del capitolo.
 
-   In genere, si desidera assegnare al file VTT del capitolo lo stesso nome del file video e aggiungerlo con `chapters`. In questo modo risulta più semplice automatizzare la generazione degli URL video utilizzando un sistema di gestione dei contenuti Web.
+   In genere, si desidera assegnare al file VTT del capitolo lo stesso nome del file video e aggiungerlo con `chapters`. In questo modo, è possibile automatizzare la generazione degli URL video utilizzando il sistema di gestione dei contenuti web esistente.
 
 1. In Adobe Dynamic Media Classic, carica il file del capitolo WebVTT.
 

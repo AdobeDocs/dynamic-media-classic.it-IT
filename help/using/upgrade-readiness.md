@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -28,5 +28,5 @@ Utilizza il seguente elenco di controllo per comprendere e preparare un aggiorna
 | **Fase 5: configurazione amministrativa** | Configurare utenti e autorizzazioni | Creare utenti e concedere le autorizzazioni appropriate. |
 |   | Configurare i profili di codifica video | Creare profili di codifica video. |
 |   | Imposta i predefiniti visualizzatore | Creare predefiniti visualizzatore. |
-|   | Impostare i predefiniti immagine | Imposta i predefiniti immagine. |
+|   | Imposta predefiniti immagine | Imposta predefiniti immagine. |
 | **Fase 6: Convalida** | Convalida | Verifica casi d’uso, risorse, collegamenti e API. |

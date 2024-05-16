@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic offre strumenti per la modifica e la creazione di se
 
 Potete creare un set di offerte dai seguenti tipi di set di offerte:
 
-* **Immagini** - È possibile assemblare immagini per un set di offerte. Ogni immagine include un’offerta diversa nel set.
+* **Immagini**: puoi assemblare immagini per un set di offerte. Ogni immagine include un’offerta diversa nel set.
 
-* **Modello immagine** - È possibile parametrizzare i modelli di immagine in Adobe Dynamic Media Classic con **[!UICONTROL Genera]** > Comando di base del modello. Attraverso i parametri, potete scambiare e personalizzare i componenti del modello, come il testo all’interno di cornici di testo e le varie immagini. Per un set di offerte potete utilizzare i parametri dei modelli per creare, ad esempio, varianti di una stessa immagine nel set di offerte. Per informazioni sulla creazione e la parametrizzazione dei modelli di immagine, consultate [Creare i parametri del modello](creating-template-parameters.md#creating_template_parameters).
+* **Modello immagine**: puoi parametrizzare i modelli di immagine in Adobe Dynamic Media Classic con il **[!UICONTROL Genera]** > Comando di base del modello. Attraverso i parametri, potete scambiare e personalizzare i componenti del modello, come il testo all’interno di cornici di testo e le varie immagini. Per un set di offerte potete utilizzare i parametri dei modelli per creare, ad esempio, varianti di una stessa immagine nel set di offerte. Per informazioni sulla creazione e la parametrizzazione dei modelli di immagine, consultate [Creare i parametri del modello](creating-template-parameters.md#creating_template_parameters).
 
 Vedi anche [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) video di formazione.
 
-* **Video** - È possibile assemblare video per un set di offerte. Ciascun video rappresenta una diversa offerta nel set.
+* **Video**: puoi assemblare un video per un set di offerte. Ciascun video rappresenta una diversa offerta nel set.
 
 ## Creare un set di offerte con un modello con parametri {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -67,7 +67,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    Il lato sinistro di questa pagina riporta i parametri presenti nel modello con i rispettivi valori.
 
-1. Per creare l’offerta, modificate i valori dei parametri. Inserite, ad esempio, un testo diverso in un campo di testo, modificate la dimensione di un livello, inserite un’immagine al posto di un’altra oppure scegliete un predefinito per visualizzatori.
+1. Per creare l’offerta, modificate i valori dei parametri. Ad esempio, immettete un testo diverso in un campo di testo, modificate le dimensioni di un livello, scambiate un&#39;immagine per un&#39;altra oppure scegliete un predefinito visualizzatore diverso.
 1. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome**]** per salvare l’offerta come parte del set di offerte.
 
    Nella pagina Set di offerte Test&amp;Target sono elencate le offerte create.
@@ -93,9 +93,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Assembla immagini o video per il set di offerte. Iniziare nella schermata Set offerte Test&amp;Target o nella Vista griglia o Vista elenco e utilizzare uno dei metodi seguenti:
 
-   * **Schermata Set offerte Test&amp;Target** - Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di offerte Test&amp;Target]**. Trascinate le immagini o i video sulla schermata. Per creare video o immagini di diverse misure, trascinate più copie delle immagini o dei video e impostatene le dimensioni singolarmente.
+   * **Schermata Set offerte Test&amp;Target**: vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di offerte Test&amp;Target]**. Trascinate le immagini o i video sulla schermata. Per creare video o immagini di diverse misure, trascinate più copie delle immagini o dei video e impostatene le dimensioni singolarmente.
 
-   * **Visualizzazione griglia o visualizzazione elenco** - Selezionare le immagini o i video, quindi passare a **[!UICONTROL Genera]** > **[!UICONTROL Set di offerte Test&amp;Target]**.
+   * **Visualizzazione griglia o visualizzazione elenco**: seleziona le immagini o i video, quindi vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di offerte Test&amp;Target]**.
 
 1. Se necessario, seleziona un’immagine o un video e fai clic su **[!UICONTROL Anteprima]**. Nella pagina Anteprima offerte è possibile modificare le dimensioni e l&#39;aspetto dell&#39;immagine o del video selezionato. In alternativa, puoi modificare tutte le immagini o i video nel set di offerte.
 
@@ -127,10 +127,10 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Per modificare un set di offerte, visualizzalo in Vista griglia o Vista elenco, quindi selezionane una **[!UICONTROL Modifica]** pulsante di rollover.
 1. Nella pagina Set di offerte Test&amp;Target eseguire una delle operazioni seguenti:
 
-   * **Rimozione di un’offerta** - Seleziona l’offerta, quindi fai clic su **[!UICONTROL Elimina]** per rimuovere un’offerta dal set.
-   * **Aggiunta di un’offerta** - La modalità di aggiunta di un’offerta dipende dal tipo di set di offerte su cui stai lavorando:
-      * **Modelli** - Seleziona **[!UICONTROL Aggiungi e visualizza anteprima]**, e nella pagina Aggiungi e visualizza anteprima offerte, crea un’altra offerta.
-      * **Immagini e video** : trascina un’immagine o un video nella pagina Set di offerte Test&amp;Target.
+   * **Rimozione di un’offerta**: seleziona l’offerta, quindi seleziona **[!UICONTROL Elimina]** per rimuovere un’offerta dal set.
+   * **Aggiunta di un’offerta**: la modalità di aggiunta di un’offerta dipende dal tipo di set di offerte con cui stai lavorando:
+      * **Modelli**: Seleziona **[!UICONTROL Aggiungi e visualizza anteprima]**, e nella pagina Aggiungi e visualizza anteprima offerte, crea un’altra offerta.
+      * **Immagini e video**: trascina un’immagine o un video nella pagina Set di offerte Test&amp;Target.
 
    >[!NOTE]
    >

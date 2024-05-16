@@ -9,7 +9,7 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '3869'
 ht-degree: 27%
@@ -141,13 +141,13 @@ Organizza e struttura cartelle e sottocartelle per i contenuti in Adobe Dynamic 
 
 L’approccio e la struttura di denominazione delle cartelle scelti per memorizzare il contenuto sul Adobe Dynamic Media Classic dipende dalle esigenze della tua organizzazione. Di seguito sono riportati alcune strutture di cartelle di esempio:
 
-**Basato su SKU** - Le cartelle vengono denominate in base agli SKU o ai numeri di elemento. Vengono ad esempio create cartelle separate per tutte le serie di numeri 0-, 20-, 30.
+**Basato su SKU**: le cartelle vengono denominate in base agli SKU o ai numeri degli elementi. Vengono ad esempio create cartelle separate per tutte le serie di numeri 0-, 20-, 30.
 
-**Basato su marchio** - Per i produttori con più linee di marchi e i rivenditori che commercializzano altri marchi di altre società, separare i file in cartelle di prodotti denominate per marchi diversi.
+**Basato su marchio**: per i produttori con più linee di marchi e i rivenditori che commercializzano altri marchi di altre aziende, separa i file in cartelle di prodotti denominate per marchi diversi.
 
-**Basato su progetto** - Le cartelle sono organizzate in base alla data di rollout/rilascio o al nome del progetto. Questa procedura è preferita dai clienti che si occupano principalmente della produzione di eCatalog. 
+**Basato su progetto**: le cartelle sono organizzate in base alla data di rollout/rilascio o al nome del progetto. Questa procedura è preferita dai clienti che si occupano principalmente della produzione di eCatalog. 
 
-**Mirror della gerarchia di cartelle del sito Web** : questa struttura di cartelle rispecchia la struttura di cartelle del sito web, con le cartelle denominate, ad esempio, per le categorie di prodotti.
+**Mirror della gerarchia di cartelle del sito Web**: questa struttura di cartelle rispecchia la struttura di cartelle del sito web, con le cartelle denominate, ad esempio, per le categorie di prodotti.
 
 ## Informazioni sul caricamento di file {#uploading-your-files}
 
@@ -207,74 +207,74 @@ Per annullare un processo di caricamento in corso, fate clic sul pulsante **[!UI
 
 Durante il caricamento dei file, nella finestra di dialogo Opzioni processo di caricamento è possibile scegliere una delle opzioni seguenti:
 
-* **PROCESSO** - Seleziona **[!UICONTROL PROCESSO]** per scegliere le opzioni che influiscono sull’intero processo di caricamento.
+* **PROCESSO**: Seleziona **[!UICONTROL PROCESSO]** per scegliere le opzioni che influiscono sull’intero processo di caricamento.
 
   Puoi anche scegliere *predefinito* opzioni per il caricamento di processi utilizzando **[!UICONTROL Opzioni di caricamento predefinite]** in Impostazioni generali. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Opzioni di caricamento predefinite]**, quindi impostare le opzioni predefinite desiderate.
 
-   * **[!UICONTROL Quando]** - Questa opzione è disponibile solo se è stato selezionato il **[!UICONTROL TRAMITE FTP]** scheda.
-      * **[!UICONTROL Una tantum]** : specifica un processo di caricamento che viene eseguito una volta. Le opzioni includono:
-         * **[!UICONTROL Ora]** - Esegue il processo di caricamento subito dopo aver selezionato **[!UICONTROL Salva]** nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Invia caricamento]** nella pagina Carica.
-         * **[!UICONTROL Pianifica per un momento successivo]** : seleziona l’anno, il mese, il giorno e l’ora (con incrementi di 15 minuti) in cui desideri eseguire il processo di caricamento.
-      * **[!UICONTROL Ricorrente]** : specifica un processo di caricamento che viene eseguito ogni giorno, ogni settimana o ogni mese. In alternativa, è possibile personalizzare il processo di caricamento in base alle proprie specifiche.
-         * **[!UICONTROL Giornaliero]** - Impostare l&#39;ora di esecuzione giornaliera del job. Se si desidera eseguire il processo solo dal lunedì al venerdì, selezionare **[!UICONTROL Solo giorni feriali]**.
-         * **[!UICONTROL Ogni settimana]** - Scegliere un giorno della settimana e un&#39;ora specifici per l&#39;esecuzione del job.
-         * **[!UICONTROL Mensile]** - Scegliere un giorno specifico del mese o della settimana, inclusa l&#39;ora di inizio, in cui si desidera eseguire il job.
-         * **[!UICONTROL Personalizzato]** : personalizza l’intervallo di tempo di un processo di caricamento o pubblicazione in base alle tue specifiche. Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+   * **[!UICONTROL Quando]**: questa opzione è disponibile solo se è stata selezionata l’ **[!UICONTROL TRAMITE FTP]** scheda.
+      * **[!UICONTROL Una tantum]**: specifica un processo di caricamento che viene eseguito una volta. Le opzioni includono:
+         * **[!UICONTROL Ora]**: esegue il processo di caricamento subito dopo aver selezionato **[!UICONTROL Salva]** nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Invia caricamento]** nella pagina Carica.
+         * **[!UICONTROL Pianifica per un momento successivo]**: seleziona l’anno, il mese, il giorno e l’ora (con incrementi di 15 minuti) per l’esecuzione del processo di caricamento.
+      * **[!UICONTROL Ricorrente]**: specifica un processo di caricamento che viene eseguito ogni giorno, ogni settimana o ogni mese. In alternativa, è possibile personalizzare il processo di caricamento in base alle proprie specifiche.
+         * **[!UICONTROL Giornaliero]**: imposta l&#39;ora in cui desideri che il processo venga eseguito ogni giorno. Se si desidera eseguire il processo solo dal lunedì al venerdì, selezionare **[!UICONTROL Solo giorni feriali]**.
+         * **[!UICONTROL Ogni settimana]**: scegliere un giorno della settimana e un&#39;ora specifici per l&#39;esecuzione del job.
+         * **[!UICONTROL Mensile]**: scegliere un giorno specifico del mese o della settimana, inclusa l&#39;ora di inizio, in cui si desidera eseguire il job.
+         * **[!UICONTROL Personalizzato]**: personalizza l’intervallo di tempo di un processo di caricamento o pubblicazione in base alle tue specifiche. Consulta [Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL Pubblica dopo il caricamento]** - Disponibile se è stata selezionata l&#39;opzione **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda. Selezionate questa opzione per pubblicare automaticamente le risorse caricate. Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. Questa opzione è disponibile anche nella pagina di caricamento.
+   * **[!UICONTROL Pubblica dopo il caricamento]**: disponibile se è stato selezionato **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda. Selezionate questa opzione per pubblicare automaticamente le risorse caricate. Quando pubblicate dei file, questi vengono inviati ai server dinamici. Gli URL di questi file possono essere utilizzati nei siti Web e nelle applicazioni esterni. Questa opzione è disponibile anche nella pagina di caricamento.
 
-   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]** - Disponibile se è stata selezionata l&#39;opzione **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda. Selezionate questa opzione per sostituire i file esistenti con quelli caricati mantenendo gli stessi nomi. Questa opzione è disponibile anche nella pagina di caricamento. Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Carica nell&#39;applicazione]** > **[!UICONTROL Sovrascrivi immagini]**.
+   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]**: disponibile se è stato selezionato **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda. Selezionate questa opzione per sostituire i file esistenti con quelli caricati mantenendo gli stessi nomi. Questa opzione è disponibile anche nella pagina di caricamento. Il nome di questa opzione potrebbe essere diverso, a seconda delle impostazioni in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Carica nell&#39;applicazione]** > **[!UICONTROL Sovrascrivi immagini]**.
 
-   * **[!UICONTROL Decomprimi file Zip o Tar al caricamento]** - Disponibile se è stata selezionata l&#39;opzione **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda.
+   * **[!UICONTROL Decomprimi file Zip o Tar al caricamento]**: disponibile se è stato selezionato **[!UICONTROL DAL DESKTOP]** scheda o **[!UICONTROL TRAMITE FTP]** scheda.
 Seleziona questa opzione se desideri estrarre automaticamente tutti i file dal file ZIP o TAR caricato. La stessa opzione è disponibile anche nella finestra di dialogo Opzioni processo.
 
-   * **[!UICONTROL Includi sottocartelle]** - Disponibile solo se è stata selezionata la **[!UICONTROL TRAMITE FTP]** scheda.
+   * **[!UICONTROL Includi sottocartelle]**: disponibile solo se è stato selezionato il **[!UICONTROL TRAMITE FTP]** scheda.
 Selezionate questa opzione per caricare le sottocartelle della cartella che intendete caricare. I nomi della cartella e delle relative sottocartelle caricate vengono immessi automaticamente in Adobe Dynamic Media Classic.
 
-   * **[!UICONTROL Elabora file di metadati]** - Disponibile solo se è stata selezionata l&#39;opzione **[!UICONTROL TRAMITE FTP]** scheda. Seleziona questa opzione se desideri caricare un file XML o delimitato da tabulazioni per aggiungere metadati a più risorse.
+   * **[!UICONTROL Elabora file di metadati]**: disponibile solo se è stato selezionato **[!UICONTROL TRAMITE FTP]** scheda. Seleziona questa opzione se desideri caricare un file XML o delimitato da tabulazioni per aggiungere metadati a più risorse.
 Consultate [Importare metadati (tramite FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
-* **Opzioni di ritaglio** - Per ritagliare automaticamente i pixel dello spazio bianco da un&#39;immagine, aprire **[!UICONTROL Ritaglio]** menu, seleziona **[!UICONTROL Manuale]**, e immettere le misure in pixel nei campi di testo In alto, A destra, In basso e A sinistra per ritagliare i dati dai lati. Puoi anche selezionare **[!UICONTROL Rifila]** scegliere le opzioni seguenti dal menu Ritaglia:
+* **Opzioni di ritaglio**: per ritagliare automaticamente i pixel dello spazio vuoto da un’immagine, apri la **[!UICONTROL Ritaglio]** menu, seleziona **[!UICONTROL Manuale]**, e immettere le misure in pixel nei campi di testo In alto, A destra, In basso e A sinistra per ritagliare i dati dai lati. Puoi anche selezionare **[!UICONTROL Rifila]** scegliere le opzioni seguenti dal menu Ritaglia:
 
-   * **[!UICONTROL Rifila in base a]** - Scegliere se ritagliare in base al colore o alla trasparenza:
-      * **[!UICONTROL Colore]** - Scegliere l&#39;opzione Colore. Selezionate quindi il menu Angolo (Corner) e scegliete l&#39;angolo dell&#39;immagine con il colore che meglio rappresenta lo spazio bianco da ritagliare.
+   * **[!UICONTROL Rifila in base a]**: scegli se ritagliare in base al colore o alla trasparenza:
+      * **[!UICONTROL Colore]**: scegli l’opzione Colore. Selezionate quindi il menu Angolo (Corner) e scegliete l&#39;angolo dell&#39;immagine con il colore che meglio rappresenta lo spazio bianco da ritagliare.
 Rifilatura in base al colore: specifica 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
-      * **[!UICONTROL Trasparenza]** - Scegli la **[!UICONTROL Trasparenza]** opzione.
+      * **[!UICONTROL Trasparenza]**: scegli il **[!UICONTROL Trasparenza]** opzione.
 Rifilatura in base alla trasparenza: specificate 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
-      * **[!UICONTROL Tolleranza]** - Trascinate il cursore per specificare una tolleranza da 0 a 1.
+      * **[!UICONTROL Tolleranza]**: trascina il cursore per specificare una tolleranza da 0 a 1.
 
-* **Opzioni profilo colore** : scegli una conversione colore quando crei file ottimizzati utilizzati per la distribuzione dinamica di Adobe Dynamic Media Classic:
+* **Opzioni profilo colore**: scegli una conversione colore quando crei file ottimizzati utilizzati per la distribuzione dinamica di Adobe Dynamic Media Classic:
 
-   * **[!UICONTROL Mantenimento colore predefinito]** - Mantiene i colori dell&#39;immagine di origine ogni volta che le immagini contengono informazioni sullo spazio colore; non vi è alcuna conversione colore. In quasi tutte le immagini è incorporato il relativo profilo colore. Tuttavia, se un’immagine sorgente CMYK non contiene un profilo colore incorporato, i colori vengono convertiti nello spazio colore sRGB. sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
-   * **[!UICONTROL Mantieni spazio colore originale]** - Mantiene i colori originali senza alcuna conversione di colore nel punto di inserimento in Adobe Dynamic Media Classic. Per le immagini senza un profilo colore incorporato, l’eventuale conversione colore necessaria per elaborare le richieste per l’immagine viene eseguita utilizzando i profili colore predefiniti configurati nelle impostazioni di pubblicazione. Questi profili colore non sono sempre allineati con i colori dei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
-   * **[!UICONTROL Personalizza da]** > **[!UICONTROL A]** - Apre i menu in modo da poter scegliere **[!UICONTROL Converti da]** e **[!UICONTROL Converti in]** spazio colore. Questa opzione avanzata ha priorità rispetto a eventuali informazioni di colore incorporate nel file sorgente. Seleziona questa opzione solo se tutte le immagini che stai inviando contengono dati di profilo colore errati o mancanti.
+   * **[!UICONTROL Mantenimento colore predefinito]**: mantiene i colori dell&#39;immagine di origine ogni volta che le immagini contengono informazioni sullo spazio colore; non vi è alcuna conversione colore. In quasi tutte le immagini è incorporato il relativo profilo colore. Tuttavia, se un’immagine sorgente CMYK non contiene un profilo colore incorporato, i colori vengono convertiti nello spazio colore sRGB. sRGB è lo spazio colore consigliato per la visualizzazione delle immagini nelle pagine Web.
+   * **[!UICONTROL Mantieni spazio colore originale]**: mantiene i colori originali senza alcuna conversione di colore nel punto di acquisizione in Adobe Dynamic Media Classic. Per le immagini senza un profilo colore incorporato, l’eventuale conversione colore necessaria per elaborare le richieste per l’immagine viene eseguita utilizzando i profili colore predefiniti configurati nelle impostazioni di pubblicazione. Questi profili colore non sono sempre allineati con i colori dei file creati con questa opzione. Si consiglia quindi di utilizzare l’opzione Mantenimento colore predefinito.
+   * **[!UICONTROL Personalizza da]** > **[!UICONTROL A]**: apre i menu per scegliere una **[!UICONTROL Converti da]** e **[!UICONTROL Converti in]** spazio colore. Questa opzione avanzata ha priorità rispetto a eventuali informazioni di colore incorporate nel file sorgente. Seleziona questa opzione solo se tutte le immagini che stai inviando contengono dati di profilo colore errati o mancanti.
 
-* **Opzioni di modifica immagine** - È possibile mantenere le maschere di ritaglio &lt;> nelle immagini e scegliere un profilo colore.
+* **Opzioni di modifica immagine**: nelle immagini è possibile mantenere le maschere di ritaglio &lt;> e scegliere un profilo colore.
 Consulta [Opzioni di ottimizzazione immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **Opzioni PostScript®** - È possibile rasterizzare i file di PostScript®, ritagliare i file, mantenere sfondi trasparenti, scegliere una risoluzione e scegliere uno spazio colore.
+* **Opzioni PostScript®**: puoi rasterizzare i file di PostScript®, ritagliare i file, mantenere sfondi trasparenti, scegliere una risoluzione e scegliere uno spazio colore.
 Consulta [Utilizzare i file PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Opzioni Photoshop** - Potete creare modelli da file Adobe® Photoshop®, gestire i livelli, specificare il nome dei livelli, estrarre il testo e specificare come le immagini vengono ancorate ai modelli.
+* **Opzioni Photoshop**: puoi creare modelli da file Adobe® Photoshop®, gestire i livelli, specificare il modo in cui i livelli vengono denominati, estrarre il testo e specificare come le immagini vengono ancorate nei modelli.
 Consultate [Opzioni di caricamento PSD](psd-files.md#psd_upload_options).
 
-* **Opzioni PDF** - È possibile rasterizzare i file, estrarre parole di ricerca e collegamenti, generare automaticamente un eCatalog, impostare la risoluzione e scegliere uno spazio colore.
+* **Opzioni PDF**: puoi rasterizzare i file, estrarre parole di ricerca e collegamenti, generare automaticamente un eCatalog, impostare la risoluzione e scegliere uno spazio colore.
 Consultate [Opzioni di caricamento PDF](pdfs.md#pdf_upload_options).
 
-* **Opzioni Illustrator** - Potete rasterizzare i file Adobe Illustrator®, mantenere sfondi trasparenti, scegliere una risoluzione e scegliere uno spazio colore.
+* **Opzioni Illustrator**: puoi rasterizzare i file Adobe Illustrator®, mantenere sfondi trasparenti, scegliere una risoluzione e scegliere uno spazio colore.
 Consulta [Utilizzare i file PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Opzioni EVIDEO** - È possibile trascodificare un file video scegliendo un predefinito per video.
+* **Opzioni EVIDEO**: puoi trascodificare un file video scegliendo un predefinito per video.
 Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Altri metadati** : inserisci le parole chiave che descrivono i file che intendi caricare. Separate le parole chiave con una virgola. Le parole chiave facilitano la ricerca delle risorse.
+* **Altri metadati**: immetti le parole chiave che descrivono i file che intendi caricare. Separate le parole chiave con una virgola. Le parole chiave facilitano la ricerca delle risorse.
 Consulta [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
 Vedi anche [Carica parole chiave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) video di formazione.
 
-* **Predefiniti set di batch** : se desideri creare un set di immagini, un set 360 gradi o un set di campioni dai file caricati, seleziona la **[!UICONTROL Attivo]** per il predefinito che desideri utilizzare. Potete selezionare più di un predefinito. I predefiniti vengono creati nella pagina Impostazione applicazione/Predefiniti set di batch.
+* **Predefiniti set di batch**: se desideri creare un set di immagini, un set 360 gradi o un set di campioni dai file caricati, seleziona la **[!UICONTROL Attivo]** per il predefinito che desideri utilizzare. Potete selezionare più di un predefinito. I predefiniti vengono creati nella pagina Impostazione applicazione/Predefiniti set di batch.
 Consultate [Predefiniti per set di batch](application-setup.md#batch_set_presets).
 
-* **Avanzate** - Consulta [Segui un caricamento con un altro processo](uploading-files.md#follow-an-upload-with-another-job).
+* **Avanzate**: vedi [Segui un caricamento con un altro processo](uploading-files.md#follow-an-upload-with-another-job).
 
 ## Avviare un altro processo al termine di un caricamento {#follow-an-upload-with-another-job}
 

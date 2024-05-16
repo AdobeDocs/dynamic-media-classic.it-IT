@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 58%
@@ -38,9 +38,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Seleziona prima le immagini** - Nel pannello Sfoglia, selezionare le immagini, quindi passare a **[!UICONTROL Genera]** > **[!UICONTROL Set campioni]**.
+   * **Seleziona prima le immagini**: nel pannello Sfoglia, seleziona le immagini, quindi vai a **[!UICONTROL Genera]** > **[!UICONTROL Set campioni]**.
 
-   * **Inizia dalla schermata Set campioni** - Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set campioni]**. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
+   * **Inizia dalla schermata Set campioni**: vai a **[!UICONTROL Genera]** > **[!UICONTROL Set campioni]**. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di campioni nella pagina Set campioni.
 
 1. Trascinate i colori, i motivi o le finiture campione nella casella segnaposto Campioni nella pagina Set campioni.
 

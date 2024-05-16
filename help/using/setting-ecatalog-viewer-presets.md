@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ Segui questi passaggi per creare un predefinito per visualizzatori eCatalog (dev
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Nella schermata Predefiniti visualizzatori, create un predefinito per visualizzatore di eCatalog iniziando da zero o da un predefinito esistente:
 
-   * **Creare un predefinito per visualizzatori eCatalog** - Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli Visualizzatore eCatalog, quindi seleziona **[!UICONTROL Aggiungi]**.
+   * **Creare un predefinito per visualizzatori eCatalog**: Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli Visualizzatore eCatalog, quindi seleziona **[!UICONTROL Aggiungi]**.
 
-   * **Modificare un predefinito per visualizzatori eCatalog** - Selezionate un predefinito per visualizzatori eCatalog, quindi selezionate **[!UICONTROL Modifica]**. Seleziona **[!UICONTROL Salva con nome]** dopo aver completato la creazione del predefinito.
+   * **Modificare un predefinito per visualizzatori eCatalog**: seleziona un predefinito per visualizzatori eCatalog, quindi fai clic su **[!UICONTROL Modifica]**. Seleziona **[!UICONTROL Salva con nome]** dopo aver completato la creazione del predefinito.
 
 1. Il giorno `Configure Viewer` , immetti un nome per il predefinito visualizzatore eCatalog.
 1. Il giorno `Configure Viewer` , impostare le opzioni desiderate.

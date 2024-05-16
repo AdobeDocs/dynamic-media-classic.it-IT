@@ -10,16 +10,16 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 31%
+ht-degree: 28%
 
 ---
 
 # Crea mappe immagine eCatalog{#creating-ecatalog-image-maps}
 
-Una mappa immagine è un&#39;area di una pagina eCatalog che è possibile spostare con il mouse o selezionare per attivare azioni di vario tipo. Quando si sposta il puntatore su una mappa immagine, ad esempio, viene visualizzata una descrizione di testo di rollover di un elemento. Quando selezioni una mappa immagine, viene avviata un’altra azione. Ad esempio, potete aprire una pagina Web per consentire agli utenti di visualizzare ulteriori informazioni su un elemento o per acquistarlo, oppure per avviare un video che ne illustra l’uso.
+Una mappa immagine è un&#39;area di una pagina eCatalog che è possibile spostare con il mouse o selezionare per attivare azioni di vario tipo. Quando si sposta il puntatore su una mappa immagine, ad esempio, viene visualizzata una descrizione di testo di rollover di un elemento. Quando selezioni una mappa immagine, viene avviata un’altra azione. Ad esempio, è possibile aprire una pagina Web in modo che gli utenti possano saperne di più su un elemento o acquistarlo oppure è possibile avviare un video per visualizzare un elemento in uso.
 
 ## Disegna mappe immagine eCatalog {#drawing-ecatalog-image-maps}
 
@@ -30,14 +30,14 @@ Per gli eCatalog, potete disegnare le mappe immagine nella scheda Mappe pagine d
 1. A sinistra della schermata Mappe pagine, selezionate la pagina che ci interessa.
 1. Nell’area Mappa immagine, disegnate una mappa immagine rettangolare o poligonale:
 
-   * **Mappa rettangolare** - Selezionare lo strumento Mappa immagine rettangolo e trascinare sulla pagina per creare il rettangolo.
+   * **Mappa rettangolare**: seleziona lo strumento Mappa immagine rettangolo e trascina sulla pagina per creare il rettangolo.
 
-   * **Mappa poligonale** - Selezionare lo strumento Mappa immagine poligonale, quindi selezionare il numero di volte necessario intorno al perimetro dell&#39;immagine. Quando si seleziona, Adobe Dynamic Media Classic disegna i bordi della mappa immagine.
+   * **Mappa poligonale**: seleziona lo strumento Mappa immagine poligonale, quindi seleziona il numero di volte necessario intorno al perimetro dell’immagine. Quando si seleziona, Adobe Dynamic Media Classic disegna i bordi della mappa immagine.
 
      Dopo aver disegnato una mappa immagine, Adobe Dynamic Media Classic le assegna un nome nell&#39;elenco Mappa immagine. Per formare il nome, Adobe Dynamic Media Classic aggiunge un numero sequenziale al nome della pagina eCatalog in cui si sta lavorando.
 
 1. (Facoltativo) Dall’elenco Mappa immagine, nella sezione [!UICONTROL Nome] è possibile immettere un nuovo nome per la mappa immagine. Non includete spazi nel nome inserito.
-1. I visualizzatori possono aprire una nuova pagina web quando selezionano la mappa immagine. Nell’elenco delle mappe immagini, inserite l’URL della pagina Web nella colonna URL.
+1. Quando si seleziona Mappa immagine, è possibile che i visualizzatori aprano una nuova pagina Web. Nel pannello elenco Mappa immagine, immettete l&#39;URL della pagina Web nella colonna URL.
 
    Per semplificare l’immissione degli URL (modelli Href), seleziona **[!UICONTROL Modifica]** e inserisci un modello.
 
@@ -75,23 +75,23 @@ Facoltativamente, puoi anche visualizzare il testo della descrizione quando i cl
 
 Nella scheda Mappe pagine della schermata eCatalog, utilizzate le tecniche seguenti per modificare le mappe immagine per l’eCatalog:
 
-* **Regolare la posizione** - Selezionare lo strumento scorrimento e spostare il puntatore vicino ma non oltre il bordo della mappa. Quando il puntatore mostra una freccia a quattro punte, trascinare l&#39;intera mappa immagine in una nuova posizione.
+* **Regolare la posizione**: selezionare lo strumento scorrimento e spostare il puntatore vicino al bordo della mappa, ma non al di sopra di esso. Quando il puntatore mostra una freccia a quattro punte, trascinare l&#39;intera mappa immagine in una nuova posizione.
 
   Consulta [Regolare la posizione, la forma e le dimensioni delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Modificare la forma e le dimensioni** - Per ridimensionare una mappa immagine rettangolare, selezionate lo strumento Panning. Portate il puntatore su un lato o un angolo e quando compare l’icona della freccia a due punte, trascinate. Per ridimensionare una mappa immagine poligonale, trascinate una maniglia di selezione quadrata. Per creare un punto di manipolazione di selezione, seleziona il bordo della mappa immagine e trascina.
+* **Modificare la forma e le dimensioni**: per ridimensionare una mappa immagine rettangolare, selezionate lo strumento Panning. Portate il puntatore su un lato o un angolo e quando compare l’icona della freccia a due punte, trascinate. Per ridimensionare una mappa immagine poligonale, trascinate una maniglia di selezione quadrata. Per creare un punto di manipolazione di selezione, seleziona il bordo della mappa immagine e trascina.
 
   Consulta [Regolare la posizione, la forma e le dimensioni delle mappe immagine](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Eliminazione di mappe immagine** - Selezionare lo strumento Panning, selezionare la mappa immagine per selezionarla, quindi selezionare **[!UICONTROL Elimina]**.
+* **Eliminazione di mappe immagine**: seleziona lo strumento panoramica, fai clic sulla mappa immagine per selezionarla, quindi fai clic su **[!UICONTROL Elimina]**.
 
   Per rimuovere tutte le mappe immagine da un eCatalog, seleziona la **[!UICONTROL Ordina pagine]** , quindi selezionare **[!UICONTROL Cancella mappe]**.
 
-* **Gestione delle mappe immagine sovrapposte** - Trascinare per modificare l&#39;ordine delle mappe immagine nell&#39;elenco Mappa immagine.
+* **Gestione delle mappe immagine sovrapposte**: trascinate per modificare l&#39;ordine delle mappe immagine nell&#39;elenco Mappa immagine.
 
   Consulta [Gestire le mappe immagine sovrapposte](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Copia di mappe immagine in altre pagine** - Seleziona **[!UICONTROL Copia mappe in]** (accertati di essere nella scheda Mappa pagine ). Nella schermata Seleziona immagini, seleziona le pagine in cui desideri copiare le mappe immagine e fai clic su **[!UICONTROL Seleziona]**.
+* **Copia di mappe immagine in altre pagine**: Seleziona **[!UICONTROL Copia mappe in]** (accertati di essere nella scheda Mappa pagine ). Nella schermata Seleziona immagini, seleziona le pagine in cui desideri copiare le mappe immagine e fai clic su **[!UICONTROL Seleziona]**.
 
   Consulta [Copia mappe immagine in altre immagini](creating-image-maps.md#copying_image_maps).
 

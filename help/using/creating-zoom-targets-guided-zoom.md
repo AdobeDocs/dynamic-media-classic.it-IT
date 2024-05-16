@@ -10,10 +10,10 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 32%
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ La percentuale di zoom massima di Target di Zoom è 100%. La percentuale di zoom
 | Grande | Più piccolo | Più piccolo minimo |
 | Piccolo | Più grande | Più grande minimo |
 
-Potete modificare le dimensioni del visualizzatore zoom in modo che corrispondano a quelle usate sulla pagina Web. È possibile modificare in modo permanente questa impostazione modificando le dimensioni del visualizzatore nella schermata Configurazione (se si è un amministratore). Consulta [Impostare i predefiniti per visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+È possibile modificare le dimensioni del Visualizzatore zoom in modo che corrispondano a quelle utilizzate nella pagina Web. È possibile modificare in modo permanente questa impostazione modificando le dimensioni del visualizzatore nella schermata Configurazione (se si è un amministratore). Consulta [Impostare i predefiniti per visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Creare e modificare le destinazioni di zoom {#creating-and-editing-zoom-targets}
 
@@ -53,9 +53,9 @@ Per creare una destinazione di zoom, aprire la pagina Editor destinazione di zoo
 
 1. Scegli **[!UICONTROL Seleziona destinazione]** (freccia), quindi selezionare la destinazione di zoom creata e regolare la dimensione e la posizione della destinazione.
 
-   * **Ridimensiona** - Spostate il puntatore su un angolo della destinazione di zoom e trascinate per ingrandire o ridurre la destinazione.
+   * **Ridimensiona**: spostare il puntatore su un angolo della destinazione di zoom e trascinare per ingrandire o ridurre la destinazione.
 
-   * **Posizione** - Spostare il puntatore sulla destinazione di zoom e trascinarlo in una posizione diversa.
+   * **Posizione**: spostare il puntatore sulla destinazione di zoom e trascinarlo in una posizione diversa.
 
 1. Digitate un nome per la destinazione di zoom nella casella Nome.
 
@@ -63,7 +63,7 @@ Per creare una destinazione di zoom, aprire la pagina Editor destinazione di zoo
    >
    >quanto inserite nella casella Nome è più di un nome: quando gli utenti passano il cursore sulla destinazione di zoom, viene visualizzato quello che avete inserito nella casella Nome. Potete quindi inserire una breve descrizione della destinazione di zoom nella casella Nome che possa essere utile agli utenti.
 
-1. Facoltativamente, potete immettere dei dati utente nel campo Dati utente. Questo campo è destinato ai Web designer che possono aggiungere informazioni sulla destinazione di zoom.
+1. Facoltativamente, potete immettere dei dati utente nel campo Dati utente. Questo campo consente ai progettisti di siti Web di aggiungere informazioni alla destinazione di zoom.
 1. Seleziona **[!UICONTROL Salva]**.
 
    Le coordinate e il livello di zoom della destinazione di zoom vengono salvate. Nella parte destra della schermata viene visualizzata una miniatura della destinazione di zoom accompagnata dal testo inserito nella casella Nome.
@@ -76,13 +76,13 @@ Per creare una destinazione di zoom, aprire la pagina Editor destinazione di zoo
 
 Per modificare le destinazioni di zoom, utilizzare le tecniche riportate di seguito nella pagina Editor destinazioni di zoom.
 
-* **Riposiziona** - Con il pulsante Seleziona destinazione (la freccia), selezionare la destinazione. Trascinate quindi la destinazione in un’altra posizione.
+* **Riposiziona**: con il pulsante Seleziona destinazione (la freccia), seleziona la destinazione. Trascinate quindi la destinazione in un’altra posizione.
 
-* **Ridimensiona** - Con il pulsante Seleziona destinazione (la freccia), selezionare la destinazione. Per ingrandire o ridurre la destinazione, spostare il puntatore su un angolo della destinazione di zoom e trascinare.
+* **Ridimensiona**: con il pulsante Seleziona destinazione (la freccia), seleziona la destinazione. Per ingrandire o ridurre la destinazione, spostare il puntatore su un angolo della destinazione di zoom e trascinare.
 
-* **Elimina** - Selezionare la miniatura di destinazione sul lato destro dello schermo. Quindi seleziona **[!UICONTROL Elimina destinazione]**.
+* **Elimina**: seleziona l’immagine miniatura della destinazione sul lato destro dello schermo. Quindi seleziona **[!UICONTROL Elimina destinazione]**.
 
-* **Ridenominazione** - Selezionare la miniatura di destinazione sul lato destro dello schermo. Quindi inserisci un nome in **[!UICONTROL Nome]** campo di testo e selezione **[!UICONTROL Salva]**.
+* **Ridenominazione**: seleziona l’immagine miniatura della destinazione sul lato destro dello schermo. Quindi inserisci un nome in **[!UICONTROL Nome]** campo di testo e selezione **[!UICONTROL Salva]**.
 
 ### Copia destinazioni di zoom {#copying-zoom-targets}
 

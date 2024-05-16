@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '10944'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -31,33 +31,33 @@ Per aprire la pagina Impostazioni generali applicazione, nella barra di navigazi
 
 ### Server
 
-Al momento della creazione dell’account, Adobe Dynamic Media Classic fornisce automaticamente i server assegnati alla tua azienda. I server vengono utilizzati per generare stringhe URL per il proprio sito Web e le applicazioni. Tali chiamate URL sono specifiche dell’account utente.
+Al momento della creazione dell’account, Adobe Dynamic Media Classic fornisce automaticamente i server assegnati alla tua azienda. Questi server vengono utilizzati per creare stringhe URL per il sito Web e le applicazioni. Tali chiamate URL sono specifiche dell’account utente.
 
 Vedi anche [Test del servizio di test protetto](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL Nome server pubblicato]** : questo server è il server Live CDN (Content Delivery Network) utilizzato in tutte le chiamate URL generate dal sistema e specifiche per il tuo account. Modificare il nome del server solo se un tecnico del supporto tecnico Adobe Dynamic Media Classic ti ha richiesto di farlo.
+* **[!UICONTROL Nome server pubblicato]**: questo server è il server Live CDN (Content Deliver Network) utilizzato in tutte le chiamate URL generate dal sistema e specifiche per il tuo account. Modificare il nome del server solo se un tecnico del supporto tecnico Adobe Dynamic Media Classic ti ha richiesto di farlo.
 
-* **[!UICONTROL Nome server di origine]** - Questo server viene utilizzato solo per test di controllo qualità. Modificare il nome del server solo se un tecnico del supporto tecnico Adobe Dynamic Media Classic ti ha richiesto di farlo.
+* **[!UICONTROL Nome server di origine]**: questo server viene utilizzato solo per il test del controllo qualità. Modificare il nome del server solo se un tecnico del supporto tecnico Adobe Dynamic Media Classic ti ha richiesto di farlo.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
-* **[!UICONTROL Nome server Test&amp;Target]** - L&#39;URL di Test&amp;Target, che include `.com`. Per istruzioni su come ottenere questo URL, consulta Integrazione [!DNL Adobe Dynamic Media Classic] con [!DNL Adobe Target Standard/Premium].
+* **[!UICONTROL Nome server Test&amp;Target]**: URL di Test&amp;Target, incluso `.com`. Per istruzioni su come ottenere questo URL, consulta Integrazione [!DNL Adobe Dynamic Media Classic] con [!DNL Adobe Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
-* **[!UICONTROL Nome server di streaming iOS]** : l’URL del tuo [!DNL Adobe Dynamic Media Classic] Server di streaming iOS. Questo server distribuisce video in streaming a dispositivi basati su iOS utilizzando il protocollo HTTP.
+* **[!UICONTROL Nome server di streaming iOS]**: URL del file [!DNL Adobe Dynamic Media Classic] Server di streaming iOS. Questo server distribuisce video in streaming a dispositivi basati su iOS utilizzando il protocollo HTTP.
 
-* **[!UICONTROL Nome server video progressivo]** : l’URL del tuo [!DNL Adobe Dynamic Media Classic] server video progressivo. Questo server distribuisce video progressivi utilizzando il protocollo HTTP.
+* **[!UICONTROL Nome server video progressivo]**: URL del file [!DNL Adobe Dynamic Media Classic] server video progressivo. Questo server distribuisce video progressivi utilizzando il protocollo HTTP.
 
-* **[!UICONTROL Mostra URL per risorse non pubblicate]** - Selezionare questa opzione se si desidera [!DNL Adobe Dynamic Media Classic] per visualizzare un URL durante l’anteprima di una risorsa, pubblicata o meno. Se la risorsa non è pubblicata, l’URL non funziona. Tuttavia, potete utilizzare l’URL a scopo di progettazione o organizzazione.
+* **[!UICONTROL Mostra URL per risorse non pubblicate]**: seleziona questa opzione se desideri [!DNL Adobe Dynamic Media Classic] per visualizzare un URL durante l’anteprima di una risorsa, pubblicata o meno. Se la risorsa non è pubblicata, l’URL non funziona. Tuttavia, potete utilizzare l’URL a scopo di progettazione o organizzazione.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Adobe Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Adobe Dynamic Media Classic AIR. Adobe Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
+<!-- AIR users must manually uninstall their existing app and reinstall from the Web version of Adobe Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Adobe Dynamic Media Classic AIR. Adobe Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-* **[!UICONTROL Modello di annullamento validità CDN]** - Specifica il modello utilizzato per annullare la validità della cache CDN (Content Delivery Network).
+* **[!UICONTROL Modello di annullamento validità CDN]**: specifica il modello utilizzato per annullare la validità della cache CDN (Content Delivery Network).
 
-  Ad esempio, supponiamo di immettere un URL immagine (inclusi predefiniti immagine o modificatori) che faccia riferimento a `<ID>`, invece di un ID immagine specifico come nell’esempio seguente:
+  Ad esempio, supponiamo di immettere un URL immagine (inclusi predefiniti o modificatori immagine) che faccia riferimento a `<ID>`, invece di un ID immagine specifico come nell’esempio seguente:
 
   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
@@ -79,13 +79,13 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 ### Sfoglia
 
-* **[!UICONTROL Mostra progetti]** - Determina se i progetti sono disponibili come mezzo per organizzare le risorse Adobe Dynamic Media Classic. Consulta [Organizzare il lavoro con i progetti](/help/using/organizing-projects.md).
+* **[!UICONTROL Mostra progetti]**: determina se i progetti sono disponibili per organizzare le risorse Adobe Dynamic Media Classic. Consulta [Organizzare il lavoro con i progetti](/help/using/organizing-projects.md).
 
-* **[!UICONTROL Mostra contenuto eVideo di esempio]** : attiva o disattiva la visualizzazione dei contenuti di esempio eVideo.
+* **[!UICONTROL Mostra contenuto eVideo di esempio]**: attiva o disattiva la visualizzazione del contenuto di esempio eVideo.
 
-* **[!UICONTROL Mostra contenuto generato]** - Nelle cartelle, mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, in Adobe Dynamic Media Classic viene creata un&#39;immagine per ogni pagina del file PDF originale. Se è selezionata l&#39;opzione Mostra contenuto generato, viene visualizzata ogni immagine generata al caricamento del PDF originale. Viene visualizzato insieme al PDF nella cartella in cui è stato caricato il PDF.
+* **[!UICONTROL Mostra contenuto generato]**: nelle cartelle, mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, in Adobe Dynamic Media Classic viene creata un&#39;immagine per ogni pagina del file PDF originale. Se è selezionata l&#39;opzione Mostra contenuto generato, viene visualizzata ogni immagine generata al caricamento del PDF originale. Viene visualizzato insieme al PDF nella cartella in cui è stato caricato il PDF.
 
-* **[!UICONTROL Mostra video codificati]** - Deselezionato (disattivato) per impostazione predefinita.
+* **[!UICONTROL Mostra video codificati]**: deselezionato (disattivato) per impostazione predefinita.
 
   Puoi cercare e sfogliare rapidamente i video in Adobe Dynamic Media Classic senza dover navigare attraverso numerosi derivati codificati dello stesso video. Lascia deselezionata questa opzione (impostazione predefinita). Vengono visualizzate solo la miniatura del video principale (il video sorgente caricato e utilizzato per creare i derivati) e la miniatura del set video adattivo &quot;principale&quot; (che contiene i derivati &quot;secondari&quot; del set video codificato).
 
@@ -103,43 +103,43 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
   >
   >Se non hai utilizzato Adobe Dynamic Media Classic per caricare e codificare le risorse video, Adobe Dynamic Media Classic mostra tutti i singoli video codificati, anche se questa opzione è deselezionata.
 
-* **[!UICONTROL Mostra pulsante Aggiorna sottocartelle]** - Attiva o disattiva la visualizzazione del pulsante Aggiorna delle sottocartelle.
+* **[!UICONTROL Mostra pulsante Aggiorna sottocartelle]**: attiva o disattiva la visualizzazione del pulsante Aggiorna delle sottocartelle.
 
 ### Account FTP Adobe Dynamic Media Classic
 
-* **[!UICONTROL Server]** : elenca il server dell&#39;account FTP.
+* **[!UICONTROL Server]**: elenca il server dell’account FTP.
 
-* **[!UICONTROL Nome utente]** : elenca il nome utente dell&#39;account FTP.
+* **[!UICONTROL Nome utente]**: elenca il nome utente dell’account FTP.
 
 ### Carica nell’applicazione
 
 Vedi anche [Opzioni per i processi di caricamento](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) video di formazione.
 
-* **[!UICONTROL Sovrascrivi immagini]** - Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#39;ID Adobe Dynamic Media Classic di ogni elemento (il nome immagine meno l&#39;estensione del nome file) deve essere univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con un &quot;-1&quot; (ad esempio, chair.tif viene rinominato chair-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consulta [Utilizzare l’opzione Sovrascrivi immagini](#using-the-overwrite-images-option).
+* **[!UICONTROL Sovrascrivi immagini]**: Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#39;ID Adobe Dynamic Media Classic di ogni elemento (il nome immagine meno l&#39;estensione del nome file) deve essere univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con un &quot;-1&quot; (ad esempio, chair.tif viene rinominato chair-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consulta [Utilizzare l’opzione Sovrascrivi immagini](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Sovrascrivi in cartella corrente, nome/estensione immagine di base uguale]** - Questa opzione rappresenta la regola più rigorosa per la sostituzione. Richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’immagine originale e che abbia la stessa estensione del nome file dell’originale. Se entrambi i requisiti non vengono soddisfatti, viene creata una copia dell’immagine.
+   * **[!UICONTROL Sovrascrivi in cartella corrente, nome/estensione immagine di base uguale]**: questa opzione è la regola più rigorosa per la sostituzione. Richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’immagine originale e che abbia la stessa estensione del nome file dell’originale. Se entrambi i requisiti non vengono soddisfatti, viene creata una copia dell’immagine.
 
-   * **[!UICONTROL Sovrascrivi in cartella corrente, nome come risorsa base, ignora estensione]** - Richiede di caricare l&#39;immagine sostitutiva nella stessa cartella dell&#39;originale, tuttavia l&#39;estensione del nome file può essere diversa dall&#39;originale. Ad esempio, sedia.tif sostituisce sedia.jpg.
+   * **[!UICONTROL Sovrascrivi in cartella corrente, nome come risorsa base, ignora estensione]**: richiede che l’immagine sostitutiva venga caricata nella stessa cartella dell’originale, tuttavia l’estensione del nome file può essere diversa da quella originale. Ad esempio, sedia.tif sostituisce sedia.jpg.
 
-   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome/estensione come risorsa base]** - Richiede che l&#39;immagine sostitutiva abbia la stessa estensione del nome file dell&#39;immagine originale (ad esempio, chair.jpg deve sostituire chair.jpg, non chair.tif). Tuttavia, è possibile caricare l’immagine sostitutiva in una cartella diversa da quella dell’originale. L’immagine aggiornata sarà contenuta nella nuova cartella e il file verrà rimosso dal percorso originale.
+   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome/estensione come risorsa base]**: richiede che l’immagine sostitutiva abbia la stessa estensione del nome file dell’immagine originale (ad esempio, chair.jpg deve sostituire chair.jpg, non chair.tif). Tuttavia, è possibile caricare l’immagine sostitutiva in una cartella diversa da quella dell’originale. L’immagine aggiornata sarà contenuta nella nuova cartella e il file verrà rimosso dal percorso originale.
 
-   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]** - Questa opzione rappresenta la regola di sostituzione più completa. L’immagine sostitutiva può essere caricata in una cartella diversa da quella dell’originale, con una diversa estensione file, e sostituire il file originale. Se il file originale si trova in un’altra cartella, l’immagine sostitutiva sarà contenuta nella nuova cartella nella quale è stata caricata.
+   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]**: questa opzione è la regola di sostituzione più inclusiva. L’immagine sostitutiva può essere caricata in una cartella diversa da quella dell’originale, con una diversa estensione file, e sostituire il file originale. Se il file originale si trova in un’altra cartella, l’immagine sostitutiva sarà contenuta nella nuova cartella nella quale è stata caricata.
 
-* **[!UICONTROL Mantieni pubblicazione]** - Specifica se un&#39;immagine sostitutiva caricata in Adobe Dynamic Media Classic mantiene l&#39;impostazione Ready to Publish (Pronto per la pubblicazione) dell&#39;immagine da sostituire. Oppure, l’impostazione viene specificata al momento del caricamento.
+* **[!UICONTROL Mantieni pubblicazione]**: specifica se un&#39;immagine sostitutiva caricata in Adobe Dynamic Media Classic mantiene l&#39;impostazione Ready to Publish (Pronto per la pubblicazione) dell&#39;immagine che sostituisce. Oppure, l’impostazione viene specificata al momento del caricamento.
 
-* **[!UICONTROL Profili colore predefiniti]** - Specifica i profili colore applicati come parte delle opzioni di profilo colore predefinite quando si aggiungono immagini CMYK.
+* **[!UICONTROL Profili colore predefiniti]**: specifica i profili colore applicati come parte delle opzioni predefinite dei profili colore quando si aggiungono immagini CMYK.
 
-* **[!UICONTROL Opzioni di caricamento predefinite]** - Apre la finestra di dialogo Opzioni processo di caricamento, in cui è possibile specificare le opzioni di caricamento predefinite. Per informazioni su queste opzioni, consultate [Opzioni di caricamento](/help/using/uploading-files.md#upload_options).
+* **[!UICONTROL Opzioni di caricamento predefinite]**: apre la finestra di dialogo Opzioni processo di caricamento, in cui è possibile specificare le opzioni di caricamento predefinite. Per informazioni su queste opzioni, consultate [Opzioni di caricamento](/help/using/uploading-files.md#upload_options).
 
 ### Editor mappa immagine (su applicazione)
 
-* **[!UICONTROL HREF mappatura immagine predefinito]** - Definisce l&#39;URL predefinito utilizzato per la colonna HREF nella mappatura immagine. Questo URL è l&#39;URL predefinito visualizzato quando crei mappe immagine.
+* **[!UICONTROL HREF mappatura immagine predefinito]**: definisce l&#39;URL predefinito utilizzato per la colonna HREF nella mappatura immagine. Questo URL è l&#39;URL predefinito visualizzato quando crei mappe immagine.
 
-* **[!UICONTROL Modello mappatura immagine predefinito]** - Definisce il JavaScript predefinito per il modello HREF nella mappatura immagine. Puoi impostare un codice personalizzato da eseguire ogni volta che selezioni una mappa immagine.
+* **[!UICONTROL Modello mappatura immagine predefinito]**: definisce il JavaScript predefinito per il modello HREF nella mappatura immagine. Puoi impostare un codice personalizzato da eseguire ogni volta che selezioni una mappa immagine.
 
 ### Altre impostazioni (su applicazione)
 
-* **[!UICONTROL Avvertenze per la pulizia del cestino]** - Le risorse nel cestino vengono rimosse automaticamente entro sette giorni. Seleziona &quot;Invia e-mail prima dell’eliminazione automatica degli elementi dal cestino&quot; per inviare notifiche agli amministratori della società quando le risorse presenti nel cestino sono a quattro giorni dall’eliminazione definitiva. Consulta [Gestire la cartella Cestino](/help/using/trash-folder.md).
+* **[!UICONTROL Avvertenze per la pulizia del cestino]**: le risorse nel Cestino vengono rimosse automaticamente entro sette giorni. Seleziona &quot;Invia e-mail prima dell’eliminazione automatica degli elementi dal cestino&quot; per inviare notifiche agli amministratori della società quando le risorse presenti nel cestino sono a quattro giorni dall’eliminazione definitiva. Consulta [Gestire la cartella Cestino](/help/using/trash-folder.md).
 
 ## Utilizzare l’opzione Sovrascrivi immagini {#using-the-overwrite-images-option}
 
@@ -168,8 +168,8 @@ Consulta [Imaging avanzato](https://experienceleague.adobe.com/en/docs/experienc
 1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagine]**.
 1. Crea un predefinito o inizia da uno esistente:
 
-   * **Creare un predefinito immagine** - Seleziona **[!UICONTROL Aggiungi]**.
-   * **Creare un predefinito immagine da un predefinito esistente** - Seleziona il predefinito immagine più simile a quello che desideri creare, quindi seleziona **[!UICONTROL Modifica]**.
+   * **Creare un predefinito immagine**: Seleziona **[!UICONTROL Aggiungi]**.
+   * **Creare un predefinito immagine da un predefinito esistente**: seleziona il predefinito immagine più simile a quello che desideri creare, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Nella pagina Aggiungi (o Modifica) predefinito, inserisci un nome per il predefinito.
 1. Impostate le opzioni desiderate. 
@@ -185,73 +185,73 @@ Per modificare un predefinito immagine, selezionane il nome nella schermata Pred
 
 Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le seguenti opzioni per creare e modificare i predefiniti immagine:
 
-* **[!UICONTROL Nome del predefinito]** - Inserisci un nome descrittivo senza spazi vuoti. Per aiutare gli utenti a identificare questo predefinito immagine, includi nel nome la specifica della dimensione dell’immagine.
+* **[!UICONTROL Nome del predefinito]**: immetti un nome descrittivo senza spazi vuoti. Per aiutare gli utenti a identificare questo predefinito immagine, includi nel nome la specifica della dimensione dell’immagine.
 
-* **[!UICONTROL Larghezza e altezza]** - Immettete la dimensione in pixel dell&#39;immagine trasmessa.
+* **[!UICONTROL Larghezza e altezza]**: immetti la dimensione in pixel dell’immagine trasmessa.
 
-* **[!UICONTROL Formato]** - Selezionare un formato dal menu. Per scegliere il formato GIF, JPEG, PDF o TIFF vengono visualizzate più opzioni:
+* **[!UICONTROL Formato]**: seleziona un formato dal menu. Per scegliere il formato GIF, JPEG, PDF o TIFF vengono visualizzate più opzioni:
 
    * Opzioni Quantizzazione colore GIF
 
-      * **[!UICONTROL Tipo]** - Seleziona Adattivo (impostazione predefinita), Web o Mac. Se si seleziona **[!UICONTROL GIF con Alpha]**, l’opzione Mac non è disponibile.
+      * **[!UICONTROL Tipo]**: seleziona Adattivo (impostazione predefinita), Web o Mac. Se si seleziona **[!UICONTROL GIF con Alpha]**, l’opzione Mac non è disponibile.
 
-      * **[!UICONTROL Retinatura]** - Selezionare Diffondi o Disattivato.
+      * **[!UICONTROL Retinatura]**: seleziona Diffondi o Disattivato.
 
-      * **[!UICONTROL Numero di colori]** - Trascinate il cursore per immettere 2-255.
+      * **[!UICONTROL Numero di colori]**: trascina il cursore per inserire 2-255.
 
-      * **[!UICONTROL Elenco colori]** - Inserisci un elenco separato da virgole. Ad esempio, per bianco, grigio e nero, immetti `000000,888888,ffffff`.
+      * **[!UICONTROL Elenco colori]**: inserisci un elenco separato da virgole. Ad esempio, per bianco, grigio e nero, immetti `000000,888888,ffffff`.
 
    * Opzioni JPEG
 
-      * **[!UICONTROL Qualità]** - Controlla il livello di compressione JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità dei file JPEG va da 1 a 100.
+      * **[!UICONTROL Qualità]**: controlla il livello di compressione JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità dei file JPEG va da 1 a 100.
 
-      * **[!UICONTROL Abilita downsampling crominanza JPG]** - Poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni in luminanza e componenti di colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
+      * **[!UICONTROL Abilita downsampling crominanza JPG]**: poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni dell&#39;immagine in componenti di luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
    * Opzioni PDF e TIFF
 
-      * **[!UICONTROL Compressione]** - Selezionare un algoritmo di compressione.
+      * **[!UICONTROL Compressione]**: seleziona un algoritmo di compressione.
 
-* **[!UICONTROL Spazio colore]** - Selezionare uno spazio colore.
+* **[!UICONTROL Spazio colore]**: seleziona uno spazio colore.
 
-* **[!UICONTROL Nitidezza]** - Selezionare l&#39;opzione Attiva nitidezza semplice per applicare un filtro di nitidezza di base all&#39;immagine dopo il ridimensionamento. La nitidezza contribuisce a compensare la sfocatura che può prodursi quando si visualizza un’immagine in dimensioni diverse.
+* **[!UICONTROL Nitidezza]**: seleziona l’opzione Abilita nitidezza semplice per applicare un filtro di nitidezza di base all’immagine dopo tutte le operazioni di ridimensionamento. La nitidezza contribuisce a compensare la sfocatura che può prodursi quando si visualizza un’immagine in dimensioni diverse.
 
   Per ulteriori informazioni sulla nitidezza, sulle modalità di ricampionamento e sulla maschera di contrasto, consultate [Nitidezza di un&#39;immagine](sharpening-image.md#sharpening_an_image). Vedi anche [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) video di formazione.
 
-* **[!UICONTROL Modalità di ricampionamento]** - Selezionate un&#39;opzione per la modalità Ricampionamento. Queste opzioni aumentano la nitidezza quando si esegue il downsampling dell’immagine:
+* **[!UICONTROL Modalità di ricampionamento]**: seleziona un’opzione per la modalità Ricampionamento. Queste opzioni aumentano la nitidezza quando si esegue il downsampling dell’immagine:
 
-* **[!UICONTROL B-Lineare]** - Il metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono evidenti.
+* **[!UICONTROL B-Lineare]**: il metodo di ricampionamento più veloce; sono visibili alcuni artefatti di aliasing.
 
-* **[!UICONTROL Bicubico]** - Aumenta l&#39;utilizzo della CPU sul server immagini, ma produce immagini più nitide con artefatti di aliasing meno evidenti.
+* **[!UICONTROL Bicubico]**: aumenta l’utilizzo della CPU sul server immagini, ma produce immagini più nitide con artefatti di aliasing meno evidenti.
 
-* **[!UICONTROL `Sharp 2`]** : può produrre risultati leggermente più nitidi rispetto all&#39;opzione Bicubico, ma a un costo della CPU ancora più elevato sul server immagini.
+* **[!UICONTROL `Sharp 2`]**: può produrre risultati leggermente più nitidi rispetto all’opzione Bicubico, ma a un costo della CPU ancora più elevato sul server immagini.
 
-* **[!UICONTROL Trilineare]** : utilizza risoluzioni più alte e più basse, se disponibili; consigliato solo quando l’aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
+* **[!UICONTROL Trilineare]**: utilizza risoluzioni più alte e più basse, se disponibili; consigliato solo quando l’aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
-* **[!UICONTROL Maschera di contrasto]** - Scegliere le seguenti opzioni per ottimizzare la nitidezza:
+* **[!UICONTROL Maschera di contrasto]**: scegli queste opzioni per ottimizzare la nitidezza:
 
-* **[!UICONTROL Quantità]** - Controlla il contrasto applicato ai pixel del bordo. Il valore predefinito è 1,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro.
+* **[!UICONTROL Quantità]**: controlla il contrasto applicato ai pixel del bordo. Il valore predefinito è 1,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro.
 
-* **[!UICONTROL Raggio]** - Determina il numero di pixel attorno al bordo che influiscono sulla nitidezza. Per immagini ad alta risoluzione, inserite un valore da 1 a 2. Con un valore basso si agisce solo sui pixel del bordo; con un valore più elevato si agisce su una fascia più ampia di pixel. Il valore più adatto dipende dalle dimensioni dell’immagine.
+* **[!UICONTROL Raggio]**: determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. Per immagini ad alta risoluzione, inserite un valore da 1 a 2. Con un valore basso si agisce solo sui pixel del bordo; con un valore più elevato si agisce su una fascia più ampia di pixel. Il valore più adatto dipende dalle dimensioni dell’immagine.
 
-* **[!UICONTROL Soglia]** - Determina l&#39;intervallo di contrasto da ignorare quando si applica il filtro Maschera di contrasto. In altre parole, può aiutare a stabilire quanto devono differire i pixel resi più nitidi dall’area circostante prima che vengano considerati pixel del bordo e più nitidi. Per evitare di introdurre disturbi, prova con valori compresi tra `.02` e `0.2`. Il valore predefinito 6 applica la nitidezza a tutti i pixel dell&#39;immagine.
+* **[!UICONTROL Soglia]**: determina l’intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. In altre parole, può aiutare a stabilire quanto devono differire i pixel resi più nitidi dall’area circostante prima che vengano considerati pixel del bordo e più nitidi. Per evitare di introdurre disturbi, prova con valori compresi tra `.02` e `0.2`. Il valore predefinito 6 applica la nitidezza a tutti i pixel dell&#39;immagine.
 
-* **[!UICONTROL Spazio colore]** - Determina se l&#39;immagine utilizza lo spazio in cui è stata creata, in genere RGB (Originale) o uno spazio di luminanza (Intensità).
+* **[!UICONTROL Spazio colore]**: determina se l’immagine utilizza lo spazio in cui è stata creata, in genere RGB (Originale) o uno spazio di luminanza (Intensità).
 
 * **[!UICONTROL Colore]** Scegliere le opzioni seguenti:
 
-* **[!UICONTROL Profilo colore di output]** - Seleziona **[!UICONTROL Usa predefinito]** o uno dei profili colore ICC disponibili sul Adobe Dynamic Media Classic.
+* **[!UICONTROL Profilo colore di output]**: Seleziona **[!UICONTROL Usa predefinito]** o uno dei profili colore ICC disponibili sul Adobe Dynamic Media Classic.
 
   Consultate anche [Profili ICC](icc-profiles.md#icc_profiles).
 
-* **[!UICONTROL Intento di rendering]** - Selezionare un&#39;opzione se si desidera ignorare l&#39;intento di rendering predefinito del profilo colore. Utilizzare questa opzione quando uno dei profili ICC predefiniti è lo spazio colore di destinazione di una conversione colore. In alternativa, questo profilo caratterizza la periferica di output (stampante o monitor) e l&#39;intento di rendering specificato è valido per questo profilo.
+* **[!UICONTROL Intento di rendering]**: seleziona un’opzione se desideri ignorare l’intento di rendering predefinito del profilo colore. Utilizzare questa opzione quando uno dei profili ICC predefiniti è lo spazio colore di destinazione di una conversione colore. In alternativa, questo profilo caratterizza la periferica di output (stampante o monitor) e l&#39;intento di rendering specificato è valido per questo profilo.
 
-* **[!UICONTROL Incorpora profilo]** - Seleziona questa opzione affinché, se apri questa immagine in Adobe® Photoshop®, utilizzi questo profilo.
+* **[!UICONTROL Incorpora profilo]**: seleziona questa opzione affinché, se apri questa immagine in Adobe® Photoshop®, utilizzi questo profilo.
 
-* **[!UICONTROL Risoluzione di stampa]** - Selezionare una risoluzione per la stampa dell&#39;immagine. Il valore predefinito è 72 pixel.
+* **[!UICONTROL Risoluzione di stampa]**: selezionare una risoluzione per la stampa dell&#39;immagine. Il valore predefinito è 72 pixel.
 
-* **[!UICONTROL Modificatori URL]** - Se preferisci specificare i modificatori URL che definiscono il predefinito immagine anziché le impostazioni, inseriscili qui.
+* **[!UICONTROL Modificatori URL]**: se preferisci specificare i modificatori URL che definiscono il predefinito immagine, anziché le impostazioni, immetti qui i modificatori.
 
-* **[!UICONTROL URL immagine di esempio]** : elenca la stringa URL &quot;raw&quot; utilizzata dal server immagini Dynamic Medie per distribuire le immagini con il predefinito immagine che si sta aggiungendo o modificando. Questa stringa URL codifica tutte le impostazioni di formato selezionate nella schermata Aggiungi predefinito o Modifica predefinito.
+* **[!UICONTROL URL immagine di esempio]**: elenca la stringa URL &quot;raw&quot; utilizzata dal server immagini Dynamic Medie per distribuire le immagini con il predefinito immagine che si sta aggiungendo o modificando. Questa stringa URL codifica tutte le impostazioni di formato selezionate nella schermata Aggiungi predefinito o Modifica predefinito.
 
 ### Modificare, rimuovere o disattivare un predefinito immagine {#editing-removing-or-deactivating-an-image-preset}
 
@@ -288,17 +288,17 @@ Per selezionare un predefinito di codifica, nell’angolo inferiore destro della
 
 * Seleziona uno dei seguenti predefiniti di codifica video adattiva o a codifica singola:
 
-   * **[!UICONTROL Video adattivo 16:9]** - Creazione di video in formato 16:9 da distribuire a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™), ottimizzati con la risoluzione e la velocità bit che meglio corrispondono alla velocità di connessione del visualizzatore.
+   * **[!UICONTROL Video adattivo 16:9]**: creazione di video in formato 16:9 da distribuire a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™), ottimizzati con la risoluzione e la velocità bit che meglio corrispondono alla velocità di connessione del visualizzatore.
 
-   * **[!UICONTROL Video adattivo 4:3]** - Creazione di video in formato 4:3 da distribuire a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™), ottimizzati con la risoluzione e la velocità bit che meglio corrispondono alla velocità di connessione del visualizzatore.
+   * **[!UICONTROL Video adattivo 4:3]**: creazione di video in formato 4:3 da distribuire a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™), ottimizzati con la risoluzione e la velocità bit che meglio corrispondono alla velocità di connessione del visualizzatore.
 
-   * **[!UICONTROL Video adattivo]** : predefinito a codifica singola che funziona con qualsiasi proporzione per creare video per la distribuzione su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video.
+   * **[!UICONTROL Video adattivo]**: predefinito a codifica singola che funziona con qualsiasi proporzione per creare video da distribuire su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video.
 
      Questa flessibilità di scalabilità automatica è disponibile anche per impostazione predefinita quando crei un predefinito di codifica video personalizzato.
 
      Consulta [Aggiungere o modificare un predefinito di codifica video](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   * **[!UICONTROL Codifica video adattiva (16:9 o 4:3)]** : crea video con proporzioni 16:9 e 4:3 da distribuire su desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™). Il tutto ottimizzato con la risoluzione e il bit rate che più si adattano alla velocità di connessione dell&#39;utente.
+   * **[!UICONTROL Codifica video adattiva (16:9 o 4:3)]**: crea video con proporzioni 16:9 e 4:3 per la distribuzione a desktop, dispositivi mobili (iPhone, iPad, Android™) e tablet (iPad, Android™). Il tutto ottimizzato con la risoluzione e il bit rate che più si adattano alla velocità di connessione dell&#39;utente.
 
      Consultate [Predefiniti per codifica video adattiva (16:9 o 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
@@ -318,17 +318,17 @@ Dopo aver selezionato **[!UICONTROL Avvia caricamento]**, il file video principa
 
 I parametri delle opzioni dei predefiniti di codifica sono i seguenti:
 
-* **[!UICONTROL Velocità di connessione target]** - la velocità di connessione a Internet dell&#39;utente finale.
+* **[!UICONTROL Velocità di connessione target]**: velocità di connessione a Internet dell’utente finale target.
 
-* **[!UICONTROL Suffisso file codificato]** - Il suffisso allegato al file video codificato a scopo di identificazione.
+* **[!UICONTROL Suffisso file codificato]**: suffisso allegato al file video codificato a scopo di identificazione.
 
-* **[!UICONTROL Bitrate video (velocità dati)]** - Quantità di dati codificata per costituire un singolo secondo di riproduzione video (in kilobit al secondo).
+* **[!UICONTROL Bitrate video (velocità dati)]**: quantità di dati codificati per creare un singolo secondo di riproduzione video (in kilobit al secondo).
 
-* **[!UICONTROL Larghezza/altezza pixel]** - La dimensione della larghezza dell&#39;immagine sullo schermo, in pixel; la dimensione dell&#39;altezza dell&#39;immagine sullo schermo (in pixel).
+* **[!UICONTROL Larghezza/altezza pixel]**: dimensione della larghezza dell’immagine sullo schermo, in pixel; dimensione dell’altezza dell’immagine sullo schermo (in pixel).
 
-* **[!UICONTROL Frame al secondo (fps)]** - Numero di fotogrammi, o immagini fisse, per ogni secondo del video. Negli Stati Uniti e in Giappone, i video sono solitamente ripresi a 29,97 fps; in Europa e in Asia (escluso il Giappone), sono invece ripresi a 25 fps. Il film viene girato a 24 fps.
+* **[!UICONTROL Frame al secondo (fps)]**: numero di fotogrammi, o immagini fisse, per ogni secondo del video. Negli Stati Uniti e in Giappone, i video sono solitamente ripresi a 29,97 fps; in Europa e in Asia (escluso il Giappone), sono invece ripresi a 25 fps. Il film viene girato a 24 fps.
 
-* **[!UICONTROL Velocità in bit audio]** - La quantità di dati codificata per costituire un singolo secondo di riproduzione audio, in kilobit al secondo.
+* **[!UICONTROL Velocità in bit audio]**: quantità di dati codificata per costituire un singolo secondo di riproduzione audio, in kilobit al secondo.
 
 Le tabelle di seguito indicano le procedure ottimali per la scelta dei predefiniti per video e le convenzioni di denominazione utilizzate per designare i file codificati.
 
@@ -371,7 +371,7 @@ Predefiniti di codifica video per MP4 e OGV su computer desktop.
 
 Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni dei predefiniti di codifica](application-setup.md#about_encoding_preset_options).
 
-**H264 Main 3.2 - Audio AAC, estensione file MP4**
+**H264 Main 3.2: Audio AAC, estensione file MP4**
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -384,7 +384,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 | 7 | 4:3, 640x480 (1200 Kbps) | 1,5 Mbps | _640x480_1200K | 1200 | 640x480 | Come sorgente | 96 | Risoluzione medio-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 | 1280x960 | Come sorgente | 128 | Alta definizione |
 
-**OGG Theora Vorbis - Estensione del file OGV**
+**OGG Theora Vorbis: estensione del file OGV**
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Velocità dati video (Kbps) | Larghezza/Altezza (Pixel) | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -403,7 +403,7 @@ Come fps sorgente. Predefiniti di codifica video per dispositivi mobili iPhone, 
 
 Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni dei predefiniti di codifica](application-setup.md#about_encoding_preset_options).
 
-**Linea di base H264 2.1 - Audio AAC, estensione file MP4**
+**Linea di base H264 2.1: Audio AAC, estensione file MP4**
 
 |  | Nome predefinito di codifica/Descrizione | Velocità di connessione di destinazione (Kbps) | Suffisso del file codificato | Bitrate video (Kbps) | Larghezza/Altezza in pixel | Valore fps | Bitrate audio (Kbps) | Consigli |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -422,7 +422,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 >[!NOTE]
 >
->**Avviso sulla fine del ciclo di vita dei visualizzatori di Flash** - A partire dal 31 gennaio 2017, Adobe Dynamic Media Classic ha ufficialmente terminato il supporto per la piattaforma di visualizzazione dei Flash.
+>**Avviso sulla fine del ciclo di vita dei visualizzatori di Flash**: a partire dal 31 gennaio 2017, Adobe Dynamic Media Classic ha ufficialmente terminato il supporto per la piattaforma di visualizzazione del Flash.
 
 Un *predefinito per visualizzatori* è un gruppo di impostazioni con cui viene definito in che modo le risorse multimediali verranno visualizzate sullo schermo del computer e sui dispositivi mobili dell’utente. In qualità di amministratore, potete creare dei predefiniti per visualizzatori. Sono disponibili impostazioni per un’ampia gamma di opzioni di configurazione dei visualizzatori. Ad esempio, è possibile modificare le dimensioni dello schermo del visualizzatore, il comportamento dello zoom, gli schemi di colori, i bordi e i font.
 
@@ -446,25 +446,25 @@ In base al visualizzatore, potete aggiungere delle funzioni per community. e com
 
 Vedi anche [Esempi della libreria di riferimento per visualizzatori di Adobi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-### Supporto del visualizzatore per le pagine web progettate per rispondere {#viewer-support-for-responsive-designed-web-pages}
+### Supporto del visualizzatore per pagine Web dinamiche {#viewer-support-for-responsive-designed-web-pages}
 
-Diversi tipi di pagine Web hanno esigenze differenti. Talvolta potresti desiderare una pagina web che fornisca un collegamento per aprire il Visualizzatore di HTML5 in una finestra del browser separata. In altri casi, è necessario incorporare il visualizzatore HTML5 direttamente nella pagina di hosting. In quest’ultimo caso, è probabile che la pagina web abbia un layout statico. Oppure è &quot;reattivo&quot; e viene visualizzato in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, i visualizzatori HTML5 forniti con Adobe Dynamic Media Classic supportano sia pagine web statiche che pagine web progettate per rispondere.
+Pagine Web diverse hanno esigenze diverse. Talvolta è necessario creare una pagina Web contenente un collegamento che consenta di aprire il visualizzatore di HTML5 in una finestra del browser separata. In altri casi, è necessario incorporare il visualizzatore HTML5 direttamente nella pagina di hosting. In quest&#39;ultimo caso, è probabile che la pagina Web abbia un layout statico. Oppure è &quot;reattivo&quot; e viene visualizzato in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, i visualizzatori HTML5 forniti con Adobe Dynamic Media Classic supportano sia pagine Web statiche che pagine Web dinamiche.
 
-Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine web, consulta [Informazioni sulla libreria Immagine reattiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usa libreria di immagini reattiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api), e [Riferimento comando - Attributi comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine Web, consulta [Informazioni sulla libreria Immagine reattiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usa libreria di immagini reattiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api), e [Riferimento comando: Attributi comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipi di predefiniti per visualizzatori {#viewer-preset-types}
 
 Gli amministratori possono creare e personalizzare i seguenti tipi di predefiniti per visualizzatori.
 
-* **[!UICONTROL Visualizzatore eCatalog]** - Simula la lettura di un catalogo stampato. È possibile spostarsi da una pagina all&#39;altra, ingrandire e ridurre gli elementi di una pagina, utilizzare le mappe immagine per visualizzare ulteriori informazioni sugli elementi della pagina o eseguire ricerche nel catalogo. Potete inoltre includere un pannello Info per visualizzare informazioni dettagliate e un elemento mappato da un&#39;immagine se l&#39;area della mappa ha un attributo rollover_key valido. Per includere un pannello Info, specificate un URL di Information Server nel pannello Impostazioni del pannello Info della finestra Predefinito visualizzatore eCatalog.
+* **[!UICONTROL Visualizzatore eCatalog]**: simula la lettura di un catalogo stampato. È possibile spostarsi da una pagina all&#39;altra, ingrandire e ridurre gli elementi di una pagina, utilizzare le mappe immagine per visualizzare ulteriori informazioni sugli elementi della pagina o eseguire ricerche nel catalogo. Potete inoltre includere un pannello Info per visualizzare informazioni dettagliate e un elemento mappato da un&#39;immagine se l&#39;area della mappa ha un attributo rollover_key valido. Per includere un pannello Info, specificate un URL di Information Server nel pannello Impostazioni del pannello Info della finestra Predefinito visualizzatore eCatalog.
 
-* **[!UICONTROL Visualizzatore set campioni]** - Visualizza un&#39;immagine con un colore, un materiale, una trama, una finitura o un tessuto diversi. Gli utenti selezionano una miniatura per visualizzare le varianti nell’immagine.
+* **[!UICONTROL Visualizzatore set campioni]**: visualizza un&#39;immagine con un colore, un materiale, una trama, una finitura o un tessuto diversi. Gli utenti selezionano una miniatura per visualizzare le varianti nell’immagine.
 
-* **[!UICONTROL Visualizzatore set di file multimediali diversi]** - Visualizza diversi tipi di file multimediali in un solo visualizzatore. Potete includere set di campioni, set 360 gradi, immagini e video. È possibile impostare le schede in modo che contengano diversi tipi di contenuto, ad esempio una scheda per i set di immagini e una scheda per i video. I video riprodotti da un set di file multimediali diversi utilizzano un visualizzatore video standard con una timeline e controlli video quali Stop, Pause, Rewind e Play. Quando imposti un predefinito visualizzatore set di file multimediali diversi, specifica quali visualizzatori desideri utilizzare per i diversi tipi di risorse nel set di file multimediali diversi. Per visualizzare un set di file multimediali diversi potete anche usare il visualizzatore Griglia o Carosello.
+* **[!UICONTROL Visualizzatore set di file multimediali diversi]**: visualizza diversi tipi di file multimediali in un solo visualizzatore. Potete includere set di campioni, set 360 gradi, immagini e video. È possibile impostare le schede in modo che contengano diversi tipi di contenuto, ad esempio una scheda per i set di immagini e una scheda per i video. I video riprodotti da un set di file multimediali diversi utilizzano un visualizzatore video standard con una timeline e controlli video quali Stop, Pause, Rewind e Play. Quando imposti un predefinito visualizzatore set di file multimediali diversi, specifica quali visualizzatori desideri utilizzare per i diversi tipi di risorse nel set di file multimediali diversi. Per visualizzare un set di file multimediali diversi potete anche usare il visualizzatore Griglia o Carosello.
 
-* **[!UICONTROL Visualizzatore set 360 gradi]** - Fornisce più viste di un&#39;immagine in modo che gli utenti possano ruotare l&#39;oggetto per esaminare i diversi lati e angoli.
+* **[!UICONTROL Visualizzatore set 360 gradi]**: fornisce più viste di un’immagine in modo che gli utenti possano ruotare l’oggetto per esaminare i diversi lati e angoli.
 
-* **Visualizzatore video** - Visualizza i video utilizzando le dimensioni di risoluzione del file di origine o una dimensione personalizzata. In Adobe Dynamic Media Classic sono disponibili molti predefiniti visualizzatore predefiniti per la riproduzione di video e, se sei un amministratore, puoi creare predefiniti visualizzatore video personalizzati. Sono disponibili più di 12 impostazioni diverse per la configurazione del Visualizzatore video. Puoi configurare i relativi:
+* **Visualizzatore video**: visualizza i video utilizzando le dimensioni di risoluzione del file di origine o una dimensione personalizzata. In Adobe Dynamic Media Classic sono disponibili molti predefiniti visualizzatore predefiniti per la riproduzione di video e, se sei un amministratore, puoi creare predefiniti visualizzatore video personalizzati. Sono disponibili più di 12 impostazioni diverse per la configurazione del Visualizzatore video. Puoi configurare i relativi:
 
    * dimensione
    * colore di primo piano e di sfondo
@@ -474,11 +474,11 @@ Gli amministratori possono creare e personalizzare i seguenti tipi di predefinit
    * funzioni social
    * e Aiuto
 
-* **[!UICONTROL Visualizzatori zoom]** - Possibilità di scegliere tra tre tipi di visualizzatori di zoom:
+* **[!UICONTROL Visualizzatori zoom]**: offre una scelta tra tre tipi di visualizzatore zoom:
 
-* **[!UICONTROL Visualizzatore zoom]** - Permette agli utenti di ingrandire l&#39;area selezionandola. È possibile selezionare i controlli per ingrandire, ridurre e ripristinare le dimensioni predefinite dell&#39;immagine.
+* **[!UICONTROL Visualizzatore zoom]**: consente agli utenti di ingrandire l’area selezionandola. È possibile selezionare i controlli per ingrandire, ridurre e ripristinare le dimensioni predefinite dell&#39;immagine.
 
-* **[!UICONTROL Visualizzatore zoom: a comparsa]** - Visualizza una seconda immagine dell&#39;area ingrandita accanto all&#39;immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
+* **[!UICONTROL Visualizzatore zoom: a comparsa]**: visualizza una seconda immagine dell’area ingrandita accanto all’immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
 
 Quando calcolate l’utilizzo di larghezza di banda totale per questo visualizzatore, tenete presente che nel visualizzatore vengono caricate sia l’immagine principale che l’immagine a comparsa. Le dimensioni dell’immagine principale (Larghezza e Altezza area visualizzazione) e il fattore di zoom determinano le dimensioni dell’immagine a comparsa. Per impedire che le dimensioni del file dell’immagine a comparsa diventino eccessive, bilanciate questi due valori: se le dimensioni dell’immagine principale sono grandi, riducete il fattore di zoom. I valori Larghezza a comparsa e Altezza comparsa determinano le dimensioni della finestra a comparsa ma non dell’immagine a comparsa caricata nel visualizzatore.
 
@@ -492,7 +492,7 @@ La tabella seguente identifica i predefiniti visualizzatore Adobe Dynamic Media 
 
 Vedi anche [Esempi della libreria di riferimento per visualizzatori di Adobi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-Per informazioni sui browser Web e sulle versioni del sistema operativo supportati per i visualizzatori, consultate le relative Note sulla versione.
+Per informazioni sulle versioni supportate del browser Web e del sistema operativo per i visualizzatori, consulta le Note sulla versione dei visualizzatori.
 
 Consulta [Note sulla versione di riferimento per visualizzatori Adobi](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
@@ -566,28 +566,28 @@ Potete creare e gestire i predefiniti per visualizzatori nella schermata Predefi
 
 La schermata Predefiniti visualizzatore offre strumenti che consentono di eseguire le seguenti attività:
 
-* **Aggiungi un predefinito** - Seleziona **[!UICONTROL Aggiungi]** e effettuare le scelte desiderate nella finestra di dialogo Aggiungi predefinito visualizzatore.
+* **Aggiungi un predefinito**: Seleziona **[!UICONTROL Aggiungi]** e effettuare le scelte desiderate nella finestra di dialogo Aggiungi predefinito visualizzatore.
 
       Consultate [Aggiungere e modificare predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
   
-* **Modificare un predefinito** - Selezionare un predefinito, quindi selezionare **[!UICONTROL Modifica]**.
+* **Modificare un predefinito**: seleziona un predefinito, quindi seleziona **[!UICONTROL Modifica]**.
 
       Consultate [Aggiungere e modificare predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
   
-* **Eliminare un predefinito** - Selezionare un predefinito, quindi selezionare **[!UICONTROL Elimina]**.
+* **Eliminare un predefinito**: seleziona un predefinito, quindi seleziona **[!UICONTROL Elimina]**.
 
-* **Esportare un predefinito** - Selezionare un predefinito visualizzatore HTML5. Quindi fai clic su **[!UICONTROL Esporta]** per scaricare l’interfaccia del visualizzatore in modo da poterla utilizzare come base per creare e aggiungere un altro predefinito visualizzatore.
+* **Esportare un predefinito**: seleziona un predefinito visualizzatore HTML5. Quindi fai clic su **[!UICONTROL Esporta]** per scaricare l’interfaccia del visualizzatore in modo da poterla utilizzare come base per creare e aggiungere un altro predefinito visualizzatore.
 
       Consultate [Esportare un predefinito visualizzatore HTML5](application-setup.md#export_an_html5_viewer_preset).
   
-* **Filtrare l’elenco dei predefiniti per visualizzatori** : utilizza questi strumenti per filtrare l’elenco:
+* **Filtrare l’elenco dei predefiniti per visualizzatori**: utilizza questi strumenti per filtrare l’elenco:
 
       * Apri l’elenco a discesa **Attivo/Inattivo** e seleziona un’opzione per visualizzare i predefiniti attivi, quelli inattivi o tutti i predefiniti.
       * Apri l’elenco a discesa **Viewer** (Visualizzatore) e seleziona un’opzione per visualizzare solo i visualizzatori di un determinato tipo. Seleziona **[!UICONTROL Tutti i visualizzatori]** visualizzare tutti i visualizzatori.
   
-* **Ordinare i predefiniti** - Selezionare un&#39;intestazione di colonna (**[!UICONTROL Attivo]**, **[!UICONTROL Tipo]**, **[!UICONTROL Predefinito]**, o **[!UICONTROL Piattaforma]**) per ordinare l&#39;elenco in base a una colonna. Selezionare un&#39;intestazione di colonna una seconda volta per ordinare l&#39;elenco in ordine decrescente o crescente.
+* **Ordinare i predefiniti**: seleziona un’intestazione di colonna (**[!UICONTROL Attivo]**, **[!UICONTROL Tipo]**, **[!UICONTROL Predefinito]**, o **[!UICONTROL Piattaforma]**) per ordinare l&#39;elenco in base a una colonna. Selezionare un&#39;intestazione di colonna una seconda volta per ordinare l&#39;elenco in ordine decrescente o crescente.
 
-* **Attivare e disattivare i predefiniti** - Selezionare un predefinito, quindi selezionare l&#39;opzione Attivo corrispondente in modo da poterlo attivare o disattivare.
+* **Attivare e disattivare i predefiniti**: seleziona un predefinito, quindi seleziona l’opzione Attivo in modo da poterlo attivare o disattivare.
 
       Consultate [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_presets).
   
@@ -611,15 +611,15 @@ Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/
 
 1. Nella pagina Predefiniti visualizzatore, aggiungi o modifica il Predefinito visualizzatore nella schermata Predefiniti visualizzatore.
 
-   * **Aggiungi** - Sulla barra degli strumenti, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona una piattaforma e fai clic su un tipo di risorsa multimediale avanzato.
+   * **Aggiungi**: sulla barra degli strumenti, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona una piattaforma e fai clic su un tipo di risorsa multimediale avanzato.
 
          Seleziona **[!UICONTROL Salva con nome]** al termine della creazione del predefinito visualizzatore.
      
-   * **Aggiungi partendo da un predefinito visualizzatore esistente** - Nella tabella, seleziona un predefinito per visualizzatore video, quindi fai clic su **[!UICONTROL Modifica]** sulla barra degli strumenti.
+   * **Aggiungi partendo da un predefinito visualizzatore esistente**: nella tabella, seleziona un predefinito per visualizzatore video, quindi fai clic su **[!UICONTROL Modifica]** sulla barra degli strumenti.
 
          Dopo aver riconfigurato il Visualizzatore video, seleziona **[!UICONTROL Salva con nome]** salvare il predefinito utilizzando un nome diverso nel campo di testo Nome predefinito.
      
-   * **Modifica** - Selezionate un predefinito visualizzatore esistente, quindi selezionate **[!UICONTROL Modifica]**.
+   * **Modifica**: seleziona un predefinito visualizzatore esistente, quindi fai clic su **[!UICONTROL Modifica]**.
 
 1. Nella pagina Configurazione del visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
 1. Impostate le opzioni rimanenti in base alle vostre esigenze.
@@ -693,7 +693,7 @@ Se i predefiniti per visualizzatori non vengono disattivati nella schermata Pred
 
 Una volta pubblicata una risorsa, potete copiare un URL per visualizzare la risorsa con le impostazioni di un predefinito per visualizzatore.
 
-L’URL viene copiato negli Appunti. Potete utilizzarlo come desiderate nel codice HTML di una pagina Web, in un dispositivo mobile o in un’applicazione.
+L’URL viene copiato negli Appunti. È possibile utilizzarlo in base alle esigenze nel codice HTML della pagina Web, del dispositivo mobile o dell&#39;applicazione.
 
 **Per copiare l’URL di un predefinito visualizzatore:**
 
@@ -715,7 +715,7 @@ L’URL viene copiato negli Appunti. Potete utilizzarlo come desiderate nel codi
 
 ### Copiare il codice di incorporamento di un predefinito per visualizzatori {#copying-the-embed-code-of-a-viewer-preset}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del predefinito per visualizzatori selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. 
+La funzione Incorpora codice permette di analizzare il codice visualizzatore del predefinito per visualizzatori selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore.
 
 La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
@@ -836,31 +836,31 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 1. Seleziona **[!UICONTROL Aggiungi]**
 1. Nella finestra di dialogo Campo personalizzato, impostate le opzioni desiderate.
 
-   * **[!UICONTROL Nome]** - Immettere un nome per il campo metadati.
+   * **[!UICONTROL Nome]**: immetti un nome per il campo metadati.
 
-   * **[!UICONTROL Tipo]** - Selezionare un&#39;opzione che definisce il tipo di informazioni che gli utenti possono immettere nel campo metadati:
+   * **[!UICONTROL Tipo]**: seleziona un’opzione che definisce il tipo di informazioni che gli utenti possono immettere nel campo metadati:
 
-   * **[!UICONTROL Stringa]** - Stringa di testo.
+   * **[!UICONTROL Stringa]**: stringa di testo.
 
-   * **[!UICONTROL Intero]** - Un numero intero.
+   * **[!UICONTROL Intero]**: numero intero.
 
-   * **[!UICONTROL Mobile]** - Un numero a virgola mobile.
+   * **[!UICONTROL Mobile]**: numero a virgola mobile.
 
-   * **[!UICONTROL Sì/No]** - Un valore booleano sì/no.
+   * **[!UICONTROL Sì/No]**: valore booleano yes/no.
 
-   * **[!UICONTROL Data]** - Una data. Il formato consentito è GG/MM/AAAA.
+   * **[!UICONTROL Data]**: una data. Il formato consentito è GG/MM/AAAA.
 
-   * **[!UICONTROL Nome file]** : nome di un file.
+   * **[!UICONTROL Nome file]**: nome di un file.
 
-   * **[!UICONTROL Colore]** - Il nome di un colore.
+   * **[!UICONTROL Colore]**: nome di un colore.
 
-   * **[!UICONTROL Dimension]** - Larghezza e altezza della risorsa.
+   * **[!UICONTROL Dimension]**: larghezza e altezza della risorsa.
 
-   * **[!UICONTROL Non tipizzato]** - Compatibilità con le versioni precedenti. Non selezionate questa opzione.
+   * **[!UICONTROL Non tipizzato]**: per compatibilità con le versioni precedenti. Non selezionate questa opzione.
 
-   * **[!UICONTROL Valore predefinito]** - Facoltativo. Immetti il valore che gli utenti immetteranno con maggiore probabilità nel campo. Il valore immesso diventa il valore predefinito per il nuovo campo creato.
+   * **[!UICONTROL Valore predefinito]**: facoltativo. Immetti il valore che gli utenti immetteranno con maggiore probabilità nel campo. Il valore immesso diventa il valore predefinito per il nuovo campo creato.
 
-   * **[!UICONTROL Si applica a]** - Facoltativo. Seleziona un tipo di risorsa se desideri che il campo metadati sia applicabile solo a un tipo specifico di risorsa.
+   * **[!UICONTROL Si applica a]**: facoltativo. Seleziona un tipo di risorsa se desideri che il campo metadati sia applicabile solo a un tipo specifico di risorsa.
 
      >[!NOTE]
      >
@@ -876,11 +876,11 @@ I campi definiti dall’utente possono essere gestiti solo da un amministratore 
 
 Per aprire questa schermata, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Campi definiti dall&#39;utente]**.
 
-* **Modificare un campo** - Selezionare il campo, quindi selezionare **[!UICONTROL Modifica]**.
+* **Modificare un campo**: seleziona il campo, quindi seleziona **[!UICONTROL Modifica]**.
 
-* **Eliminare un campo** - Selezionare il campo, quindi selezionare **[!UICONTROL Elimina]**.
+* **Eliminare un campo**: seleziona il campo, quindi seleziona **[!UICONTROL Elimina]**.
 
-* **Attiva campo** - Selezionare o deselezionare la **[!UICONTROL Attivo]** accanto al nome di un campo. Se hai il ruolo di amministrazione aziendale, questa opzione non viene visualizzata. Poiché questa opzione è correlata a Media Portal, è necessario selezionare (attivare) Mostra funzionalità Media Portal in Impostazione personale per visualizzare i campi attivati.
+* **Attiva campo**: seleziona o deseleziona la **[!UICONTROL Attivo]** accanto al nome di un campo. Se hai il ruolo di amministrazione aziendale, questa opzione non viene visualizzata. Poiché questa opzione è correlata a Media Portal, è necessario selezionare (attivare) Mostra funzionalità Media Portal in Impostazione personale per visualizzare i campi attivati.
 
 ## Ottimizzare i file {#optimize-files}
 

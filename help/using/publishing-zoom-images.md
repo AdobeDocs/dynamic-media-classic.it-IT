@@ -10,16 +10,16 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
 # Pubblicare immagini di zoom{#publishing-zoom-images}
 
-Quando si pubblicano le immagini zoom su server immagini Dynamic Medie, è possibile renderle disponibili per il sito Web e l&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. Potete inserire queste stringhe URL nel codice HTML del sito Web.
+Quando si pubblicano le immagini zoom su server immagini Dynamic Medie, è possibile renderle disponibili per il sito Web e l&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. È possibile inserire queste stringhe URL nel codice HTML del sito Web.
 
 ## Contrassegna immagini per la pubblicazione {#marking-images-for-publish}
 

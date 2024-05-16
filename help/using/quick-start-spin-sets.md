@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ Un set 360 gradi simula la rotazione di un oggetto per esaminarlo. I set 360 gra
 
 ![Immagini per un set 360 gradi.](/help/using/assets/spin_set.png)
 
-I set 360 gradi accettano le mappe immagine. Una mappa immagine è un’area dell’immagine nel set 360 gradi dalla quale può essere visualizzato un pannello rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Per evidenziare una mappa immagine in un set 360 gradi, viene visualizzato un contorno attorno alla mappa stessa quando l&#39;utente sposta il puntatore del mouse su di essa.
+I set 360 gradi accettano le mappe immagine. Una mappa immagine è un’area dell’immagine nel set 360 gradi dalla quale può essere visualizzato un pannello rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, viene avviata una pagina Web per consentire all&#39;utente di ottenere ulteriori informazioni su un prodotto. Per evidenziare una mappa immagine in un set 360 gradi, viene visualizzato un contorno attorno alla mappa stessa quando l&#39;utente sposta il puntatore del mouse su di essa.
 
 Consulta [Creare mappe immagine](creating-image-maps.md).
 
@@ -75,7 +75,7 @@ Consulta [Anteprima di un set 360 gradi](previewing-spin-set.md#previewing-a-spi
 
 ## 6. Pubblicare un set 360 gradi
 
-La pubblicazione di un set 360 gradi lo inserisce sui server Adobe Dynamic Media Classic e può quindi essere distribuito in modo dinamico al sito web o all’applicazione. Attiva anche la stringa URL che chiama il set 360 gradi dai server immagini Dynamic Medie al sito web o all’applicazione.
+Quando si pubblica un set 360 gradi, questo viene posizionato sui server Adobe Dynamic Media Classic e può essere distribuito in modo dinamico al sito Web o all&#39;applicazione. Attiva inoltre la stringa URL che chiama il set 360 gradi dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
 
 Per pubblicare un set 360 gradi, contrassegnalo per la pubblicazione selezionando la **[!UICONTROL Contrassegna per pubblicazione]** accanto al nome nel pannello Sfoglia. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]** per avviare una pubblicazione. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
 

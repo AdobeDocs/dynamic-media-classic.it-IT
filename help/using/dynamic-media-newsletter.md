@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 La newsletter Dynamic Medie di Experience League è stata progettata per aiutarti a imparare a usare Dynamic Medie e Adobe Dynamic Media Classic in modo da poter iniziare a realizzare valore fin da subito.
 
-In questa newsletter archiviata, puoi trovare preziose risorse per la creazione di conoscenze, come video dimostrativi e panoramiche delle soluzioni. Sono inoltre disponibili presentazioni di funzioni e funzionalità chiave come predefiniti per immagini, predefiniti per visualizzatori e profili video.
+In questa newsletter archiviata, puoi trovare preziose risorse per la creazione di conoscenze, come video dimostrativi e panoramiche delle soluzioni. Sono state inoltre introdotte funzioni e funzionalità chiave come i predefiniti per immagini, i predefiniti per visualizzatori e i profili video.
 
 <!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
@@ -107,7 +107,7 @@ In questa newsletter archiviata, puoi trovare preziose risorse per la creazione 
 
    * Completa la tua esperienza con il cliente eliminando queste 9 &quot;gotchas&quot;.
    * Scopri in che modo il team Dynamic Medie può aiutarti a prepararti per una giornata con un traffico di visitatori superiore alla norma.
-   * Una seconda occasione per catturare due recenti webinar Skill Builder.
+   * Una seconda possibilità per catturare due recenti webinar Skill Builder.
    * Guarda il webinar on-demand sulla protezione delle risorse digitali dalla pirateria.
    * Incontro `Bridget Roman`, Senior Product Marketing Manager di Experience Manager Assets.
    * Scopri come utilizzare Dynamic Medie e Adobe Dynamic Media Classic in Experience League.
@@ -126,10 +126,10 @@ In questa newsletter archiviata, puoi trovare preziose risorse per la creazione 
 
   In questo numero:
 
-   * Risorse e informazioni che consentono di gestire correttamente le risorse di alto valore per offrire esperienze che mantengano il ritorno dei visitatori.
+   * Risorse e informazioni che ti consentono di gestire correttamente le risorse di alto valore in modo da poter fornire esperienze che mantengano il ritorno dei visitatori.
    * Scopri un prossimo webinar sulla protezione delle risorse digitali.
    * Prossima fermata dell&#39;Adobe informativo Insider Tour.
-   * Funzionalità interessanti disponibili quando si dispone di Dynamic Medie in Experience Manager Assets (Experience Manager Assets).
+   * Funzionalità interessanti sono disponibili quando si dispone di Dynamic Medie all&#39;interno di Experience Manager Assets (Experience Manager Assets).
    * È possibile aggiungere video a 360 gradi e miniature video personalizzate al sito web.
    * Incontro `Andrew Hathaway`, Principal Solutions Consultant per Dynamic Medie in Experience Manager Assets.
 
@@ -142,7 +142,7 @@ In questa newsletter archiviata, puoi trovare preziose risorse per la creazione 
    * Ulteriori informazioni sul prossimo tour di Adobe Insider.
    * Scopri come proteggere le risorse digitali da pirateria.
    * Scopri lo Smart Crop basato sull’intelligenza artificiale per le immagini.
-   * Incontro `Alex Thiers`, una delle forze trainanti di molte delle grandi funzionalità e innovazioni di Dynamic Medie e Adobe Dynamic Media Classic.
+   * Incontro `Alex Thiers`, forza trainante di molte delle grandi funzionalità e innovazioni di Dynamic Medie su AEM e Adobe Dynamic Media Classic.
 
 * **[Maggio 2019, numero 05](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 

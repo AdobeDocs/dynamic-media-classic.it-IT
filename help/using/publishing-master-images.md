@@ -10,7 +10,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 # Pubblicare immagini primarie{#publishing-master-images}
 
-Quando si pubblicano i file immagine, questi vengono pubblicati sui server immagini Dynamic Medie, dove sono disponibili per il sito Web e l&#39;applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito web e l’applicazione.
+Quando si pubblicano i file immagine, questi vengono pubblicati nei server immagini Dynamic Medie, dove sono disponibili per il sito Web e l&#39;applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito Web e l&#39;applicazione.
 
 ## Contrassegna immagini primarie per la pubblicazione {#marking-master-images-for-publish}
 

@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,12 +26,12 @@ La verifica protetta consente di visualizzare in anteprima una versione per uso 
 Se lo desideri, crea un ambiente di staging anziché rendere le risorse disponibili al pubblico per i seguenti motivi:
 
 * Anteprima di siti Web prima del lancio effettivo (pubblicazione protetta a scopo di verifica).
-* Trasmissione di risorse per accesso limitato, ad esempio eCatalog che mostrano i prezzi in un’applicazione Web B2B.
-* Utilizzo di risorse all’interno di un firewall come parte di un sistema di gestione delle informazioni sui prodotti, di un’applicazione per il servizio di assistenza clienti, di un sito di formazione e così via.
+* Distribuisci le risorse che richiedono un accesso limitato, ad esempio i cataloghi elettronici che mostrano i prezzi in un’applicazione web B2B.
+* Utilizza le risorse dietro un firewall come parte di un sistema di gestione delle informazioni sui prodotti, di un&#39;applicazione di assistenza clienti, di un sito di formazione e così via.
 
 >[!NOTE]
 >
->Il test protetto non influisce sull’accesso a Adobe Dynamic Media Classic. La sicurezza di Adobe Dynamic Media Classic rimane coerente e richiede le credenziali abituali per l’accesso a Adobe Dynamic Media Classic e ai servizi web correlati.
+>Il test protetto non influisce sull’accesso a Adobe Dynamic Media Classic. La sicurezza di Adobe Dynamic Media Classic rimane coerente e richiede le credenziali abituali per accedere a Adobe Dynamic Media Classic e ai servizi Web correlati.
 
 ## Funzionamento della verifica protetta {#how-secure-testing-works}
 
@@ -47,7 +47,7 @@ Le risorse non pubblicate sono immediatamente disponibili dai servizi di verific
 
 >[!NOTE]
 >
->I servizi di test sicuri utilizzano il server di catalogo configurato con un contesto di pubblicazione interno. Pertanto, se l’azienda è configurata per la pubblicazione su Secure Testing, tutte le risorse caricate in Adobe Dynamic Media Classic diventano immediatamente disponibili sui servizi di Secure Testing. Questa funzionalità è true indipendentemente dal fatto che le risorse siano contrassegnate per la pubblicazione al caricamento.
+>I servizi di test sicuri utilizzano il server di catalogo configurato con un contesto di pubblicazione interno. Pertanto, se l’azienda è configurata per la pubblicazione su Secure Testing, tutte le risorse caricate in Adobe Dynamic Media Classic sono immediatamente disponibili su Secure Testing Services. Questa funzionalità è true indipendentemente dal fatto che le risorse siano contrassegnate per la pubblicazione al caricamento.
 
 I servizi di test sicuro supportano attualmente i seguenti tipi di risorse e funzionalità:
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * Immagini.
 * Vignettature (richieste per il server di rendering).
-* Richieste di rendering del server (supportate, ma che devono essere richieste esplicitamente dal cliente).
+* Richieste di rendering del server (supportate, ma il cliente deve richiederle esplicitamente)
 * Set, compresi i set di immagini, eCatalog, set di rendering e set di file multimediali.
 * Visualizzatori rich media Adobe Dynamic Media Classic standard.
 * Pagine JSP di Adobe Dynamic Media Classic OnDemand.
@@ -88,7 +88,7 @@ Esegui il test del servizio di test protetto in modo da assicurarti che funzioni
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### Preparare l’account
 
@@ -133,8 +133,8 @@ Contatta l’Assistenza Adobe se il nome del server non è presente o se gli URL
 
 È necessario disporre di due varianti di un sito Web, con collegamenti alle risorse pubblicate e a quelle non pubblicate:
 
-* Versione pubblica - Collega le risorse utilizzando la sintassi URL tradizionale di Adobe Dynamic Media Classic.
-* Versione di staging - Collega le risorse utilizzando la stessa sintassi ma con il nome del sito di test protetto.
+* Versione pubblica: collega le risorse utilizzando la sintassi URL tradizionale di Adobe Dynamic Media Classic.
+* Versione di staging: collega le risorse utilizzando la stessa sintassi ma con il nome del sito di test protetto.
 
 ### Eseguire le verifiche
 

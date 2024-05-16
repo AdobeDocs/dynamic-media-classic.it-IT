@@ -10,16 +10,16 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 38%
+ht-degree: 30%
 
 ---
 
 # Collegare un eCatalog a una pagina Web{#linking-an-ecatalog-to-a-web-page}
 
-I siti Web e le applicazioni consentono di accedere ai contenuti di Dynamic Medie Image Server, inclusi gli eCatalog, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l’eCatalog nelle pagine web e nelle applicazioni, è necessario copiarlo da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto del server immagini di Dynamic Medie, inclusi gli eCatalog, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l&#39;eCatalog nelle pagine Web e nelle applicazioni, è necessario copiarlo da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -44,15 +44,15 @@ I siti Web e le applicazioni consentono di accedere ai contenuti di Dynamic Medi
 
      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **Copia URL**.
 
-## Aggiungere gli URL dell’eCatalog alla pagina web {#adding-ecatalog-urls-to-your-web-page}
+## Aggiungere URL di eCatalog alla pagina Web {#adding-ecatalog-urls-to-your-web-page}
 
-Il modo più comune di pubblicare un eCatalog consiste nell’inserire nella pagina Web un collegamento sotto forma di miniatura della copertina dell’eCatalog. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
+Il modo più comune per distribuire un eCatalog consiste nell&#39;inserire un collegamento sotto forma di una pagina di copertina con miniature di eCatalog nella pagina Web. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
 Per ulteriori dettagli ed esempi di codice, vedi [Incorpora visualizzatore eCatalog di HTML5 nella Guida di riferimento dei visualizzatori di Adobi](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiare il codice di incorporamento di un visualizzatore eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore dell’eCatalog selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La funzione Incorpora codice permette di analizzare il codice visualizzatore dell’eCatalog selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 **Per copiare il codice di incorporamento di un visualizzatore eCatalog:**
 

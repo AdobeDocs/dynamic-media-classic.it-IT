@@ -10,7 +10,7 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 32%
@@ -23,7 +23,7 @@ Carica i file necessari per il modello in Adobe Dynamic Media Classic prima di i
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic consiglia di utilizzare nei modelli immagini trasparenti di TIFF o PSD per le dimensioni esatte che si desidera visualizzare sul sito Web. Quando pubblicate il modello, richiamate l’immagine mediante un predefinito per immagini che abbia anch’esso le stesse dimensioni. È importante prestare attenzione alle dimensioni per evitare che il modello venga ridimensionato (ricampionato) in dimensioni maggiore o inferiori rispetto alle dimensioni originali.
+>Adobe Dynamic Media Classic consiglia di utilizzare immagini TIFF o PSD trasparenti nei modelli nelle dimensioni esatte che si desidera visualizzare nel sito Web. Quando pubblicate il modello, richiamate l’immagine mediante un predefinito per immagini che abbia anch’esso le stesse dimensioni. È importante prestare attenzione alle dimensioni per evitare che il modello venga ridimensionato (ricampionato) in dimensioni maggiore o inferiori rispetto alle dimensioni originali.
 
 È possibile creare modelli da file PSD di Adobe Photoshop o file immagine.
 

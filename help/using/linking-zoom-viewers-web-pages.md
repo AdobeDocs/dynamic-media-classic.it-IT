@@ -10,10 +10,10 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -45,13 +45,13 @@ I siti Web e le applicazioni accedono al contenuto del server immagini di Dynami
 
 ## Aggiungere gli URL del visualizzatore Zoom alla pagina Web {#adding-zoom-viewer-urls-to-your-web-page}
 
-In genere, i visitatori ingrandiscono le immagini su un sito web selezionando prima un’icona Zoom (spesso l’icona mostra l’immagine di una lente di ingrandimento). Selezionando questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l’immagine in una finestra a comparsa. La finestra a comparsa rappresenta il punto in cui i visitatori applicano effettivamente lo zoom all’immagine.
+In genere, i visitatori ingrandiscono le immagini su un sito web selezionando prima un’icona Zoom (spesso l’icona mostra l’immagine di una lente di ingrandimento). Se si seleziona questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l&#39;immagine in una finestra popup. La finestra a comparsa rappresenta il punto in cui i visitatori applicano effettivamente lo zoom all’immagine.
 
 Per ulteriori dettagli ed esempi di codice, vedi [Incorporare il visualizzatore zoom di base di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiare la copia incorporata di un visualizzatore Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del visualizzatore zoom selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La funzione Incorpora codice permette di analizzare il codice visualizzatore del visualizzatore zoom selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 **Per copiare il codice di incorporamento di un visualizzatore Zoom:**
 

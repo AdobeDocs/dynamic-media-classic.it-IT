@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -28,9 +28,9 @@ Le impostazioni disponibili in questa pagina dipendono dallo stato dell&#39;uten
 
 Gli amministratori possono anche impostare i predefiniti per immagini e i predefiniti per visualizzatori in **[!UICONTROL Configurazione]** pagina:
 
-* **Predefiniti immagine** - I predefiniti per le immagini sono formati salvati per la visualizzazione di immagini primarie in formati e dimensioni diversi.
+* **Predefiniti immagine**: i predefiniti per immagini sono formati salvati per la visualizzazione di immagini primarie in formati e dimensioni diversi.
 
-* **Predefiniti visualizzatore** - I predefiniti visualizzatore determinano la modalità di visualizzazione dei contenuti multimediali quando vengono visualizzati in un visualizzatore.
+* **Predefiniti visualizzatore**: i predefiniti del visualizzatore determinano il modo in cui i contenuti multimediali avanzati vengono visualizzati nel visualizzatore.
 
 >[!MORELIKETHIS]
 >

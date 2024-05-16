@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ Potete creare un set di modelli per gestire le varianti di un modello e controll
 
 Gli URL universali vengono utilizzati per visualizzare la variante di modello visualizzata nella pagina, in base all’ordine in cui sono elencati nel set. Il primo modello nell’elenco del set di modelli viene sempre pubblicato.
 
-Potete utilizzare qualsiasi URL di predefinito per immagini presente nell’elenco. Gli URL di predefiniti per immagini sono simili agli URL universali. Possono essere presenti più URL di predefiniti per immagini.
+Puoi utilizzare qualsiasi URL di predefinito immagine dall’elenco. Gli URL dei predefiniti immagine sono simili agli URL universali. Può essere presente più di un URL predefinito immagine.
 
 1. Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di modelli]**.
 1. Nel generatore, seleziona un modello, quindi seleziona **[!UICONTROL Aggiungi/Anteprima]**.

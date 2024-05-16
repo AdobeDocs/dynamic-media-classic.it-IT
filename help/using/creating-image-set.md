@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 46%
@@ -47,9 +47,9 @@ Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Seleziona prima le immagini** - Nel pannello Sfoglia, selezionare le immagini desiderate per il set di immagini, andare a **[!UICONTROL Genera]** > **[!UICONTROL Set di immagini]**.
+   * **Seleziona prima le immagini**: nel pannello Sfoglia, seleziona le immagini da inserire nel set di immagini e passa a **[!UICONTROL Genera]** > **[!UICONTROL Set di immagini]**.
 
-   * **Inizia dalla schermata Set di immagini** - Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di immagini]**. Viene visualizzata la schermata Set immagini. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di immagini nella schermata Set immagini.
+   * **Inizia dalla schermata Set di immagini**: vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di immagini]**. Viene visualizzata la schermata Set immagini. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di immagini nella schermata Set immagini.
 
 1. Per modificare l’ordine delle immagini, trascinate queste ultime in nuove posizioni.
 1. Verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) nell’angolo inferiore destro della pagina sia selezionata.

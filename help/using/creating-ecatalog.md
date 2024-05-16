@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 44%
@@ -38,9 +38,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Iniziate a creare l’eCatalog mediante una di queste tecniche:
 
-   * **Seleziona prima i file** - Nel pannello Sfoglia, selezionare i file, quindi passare a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**.
+   * **Seleziona prima i file**: nel pannello Sfoglia, seleziona i file e passa a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**.
 
-   * **Inizia dalla schermata eCatalog** - Vai a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
+   * **Inizia dalla schermata eCatalog**: vai a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Se necessario, modificare il layout di singole pagine o pagine affiancate selezionandole e quindi scegliendo **[!UICONTROL 1 immagine]**, **[!UICONTROL 2 Su]**, o **[!UICONTROL Personalizzato]** pulsante. In **[!UICONTROL Modifica layout eCatalog]** , selezionare la **[!UICONTROL Pagine affiancate selezionate]** opzioni e seleziona **[!UICONTROL OK]**.
 1. Riordinate le pagine in base alle necessità utilizzando una delle seguenti tecniche:
 
-   * **Trascinamento** - Trascinare una pagina o una pagina affiancata in una nuova posizione. Una barra verticale indica la posizione in cui la pagina viene spostata.
+   * **Trascinamento**: trascina una pagina o pagine affiancate in una nuova posizione. Una barra verticale indica la posizione in cui la pagina viene spostata.
 
-   * **Pulsante Sposta in** - Seleziona una pagina o un set di pagine affiancate, seleziona **[!UICONTROL Sposta in]** e scegli la pagina nel menu che vuoi far apparire prima della pagina.
+   * **Pulsante Sposta in**: seleziona una pagina o un set di pagine affiancate, seleziona **[!UICONTROL Sposta in]** e scegli la pagina nel menu che vuoi far apparire prima della pagina.
 
-   * **N. sequenza** - In Vista a elenco, immettere i numeri di pagina nei campi #. sequenza
+   * **N. sequenza**: in Vista a elenco, immettere i numeri di pagina nei campi #. sequenza
 
 1. Al termine dell’operazione, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.

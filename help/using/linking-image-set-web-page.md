@@ -1,5 +1,5 @@
 ---
-title: Collegare un set di immagini a una pagina web
+title: Collegare un set di immagini a una pagina Web
 description: Scopri come collegare un set di immagini a una pagina web in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 33%
+ht-degree: 24%
 
 ---
 
-# Collegare un set di immagini a una pagina web{#linking-an-image-set-to-a-web-page}
+# Collegare un set di immagini a una pagina Web{#linking-an-image-set-to-a-web-page}
 
-Dopo aver pubblicato un set di immagini, puoi copiarne l’URL associato o il codice da incorporare da utilizzare nel sito web o nell’applicazione. Potete quindi implementare l’URL o incollare il codice da incorporare come desiderate, in modo che gli utenti possano visualizzare il set di immagini sul vostro sito Web o nella vostra applicazione.
+Dopo aver pubblicato un set di immagini, è possibile copiarne l&#39;URL associato o il codice di incorporamento da utilizzare nel sito Web o nell&#39;applicazione. Puoi quindi distribuire l’URL o incollare il codice da incorporare in base alle esigenze, in modo che gli utenti possano visualizzare il set di immagini sul sito web o sull’applicazione.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Dopo aver pubblicato un set di immagini, puoi copiarne l’URL associato o il co
 
      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
-## Aggiunta di URL di set di immagini alla pagina Web {#adding-image-set-urls-to-your-web-page}
+## Aggiunta degli URL del set di immagini alla pagina Web {#adding-image-set-urls-to-your-web-page}
 
 Il modo più comune per distribuire i set di immagini consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento di zoom apre una finestra pop-up contenente la funzione di zoom effettiva.
 
@@ -52,7 +52,7 @@ Per ulteriori dettagli ed esempi di codice, vedi [Incorporare il visualizzatore 
 
 ## Copiare il codice di incorporamento di un visualizzatore di set di immagini {#copying-the-embed-code-of-an-image-set-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di immagini selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di immagini selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 **Per copiare il codice di incorporamento di un visualizzatore di set di immagini:**
 

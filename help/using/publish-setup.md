@@ -1,6 +1,6 @@
 ---
 title: Configurazione pubblicazione
-description: Le impostazioni di Impostazione pubblicazione consentono di determinare il modo in cui le risorse vengono consegnate per impostazione predefinita dai server Adobe Dynamic Media Classic ai siti web o alle applicazioni.
+description: Le impostazioni di Impostazione pubblicazione consentono di determinare il modo in cui le risorse vengono consegnate per impostazione predefinita dai server Adobe Dynamic Media Classic ai siti Web o alle applicazioni.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 30%
@@ -26,15 +26,15 @@ Per aprire le pagine di Impostazione pubblicazione, vai a **[!UICONTROL Configur
 
 >[!NOTE]
 >
->Le pagine Publish Setup (Impostazione pubblicazione) sono destinate agli sviluppatori di siti web e ai programmatori esperti. Adobe Dynamic Media Classic presuppone che gli utenti che modificano le impostazioni su queste pagine abbiano familiarità con Adobe Dynamic Media Classic, gli standard e le convenzioni del protocollo HTTP e la tecnologia di imaging di base.
+>Le pagine di Impostazione pubblicazione sono destinate all&#39;utilizzo da parte di sviluppatori e programmatori esperti di siti Web. Adobe Dynamic Media Classic presuppone che gli utenti che modificano le impostazioni su queste pagine abbiano familiarità con Adobe Dynamic Media Classic, gli standard e le convenzioni del protocollo HTTP e la tecnologia di imaging di base.
 
 ## Image Server {#image-server}
 
-La pagina Server immagini stabilisce le impostazioni predefinite per la consegna delle immagini dai server immagini. Le impostazioni sono disponibili in queste cinque categorie (per una descrizione dettagliata delle impostazioni, consultate la pagina Image Server).
+La pagina Image Server stabilisce le impostazioni predefinite per la consegna di immagini dai server immagini. Le impostazioni sono disponibili in queste cinque categorie (per una descrizione dettagliata delle impostazioni, consultate la pagina Image Server).
 
 Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del supporto Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Gestione catalogo]**: queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server web, le chiamate URL del server immagini di Dynamic Medie vanno a un file manifesto o catalogo anziché a un file immagine propriamente detto. Il file catalogo (da non confondere con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini. Contiene anche il percorso di ogni immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
+* **[!UICONTROL Gestione catalogo]**: queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server Web, le chiamate URL del server immagini di Dynamic Medie vanno a un file manifesto o catalogo anziché a un file immagine propriamente detto. Il file catalogo (da non confondere con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini. Contiene anche il percorso di ogni immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
 
 * **[!UICONTROL Attributi della richiesta]**: queste impostazioni impongono limiti alle immagini che possono essere consegnate dal server. Ad esempio, il *massimo* **[!UICONTROL Limite dimensioni immagine di risposta]** è **[!UICONTROL Larghezza]** 5000 e **[!UICONTROL Altezza]** 5000.
 
@@ -160,7 +160,7 @@ Gli ID delle lingue vengono mappati sui suffissi corrispondenti. Se nel catalogo
 | en, en_us, en_uk | myImg_E, myImg |
 | de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
-| Tutti gli altri | - |
+| Tutti gli altri | : |
 
 ##### Ricerca di localeMap quando la lingua è sconosciuta
 
@@ -222,15 +222,15 @@ Utilizzando il primo esempio come base, le immagini per tutte le lingue potrebbe
 
 La pagina Image Renderer stabilisce le impostazioni predefinite per la distribuzione di set di immagini dai server di rendering delle immagini. Le impostazioni sono disponibili in queste cinque categorie (consulta la pagina Image Server per una descrizione dettagliata delle impostazioni):
 
-* **[!UICONTROL Gestione catalogo]** - Queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il file di catalogo interagiscono. Le chiamate URL del server di rendering di Adobe Dynamic Media Classic vengono effettuate al catalogo, che a sua volta chiama per inviare immagini dal server. Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del supporto Adobe Dynamic Media Classic.
+* **[!UICONTROL Gestione catalogo]**: queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il file di catalogo interagiscono. Le chiamate URL del server di rendering di Adobe Dynamic Media Classic vengono effettuate al catalogo, che a sua volta chiama per inviare immagini dal server. Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del supporto Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Attributi sessione]** : queste impostazioni stabiliscono i parametri di errore, l’URL per gli URL immagine relativi e se è consentita la sovrapposizione di oggetti.
+* **[!UICONTROL Attributi sessione]**: queste impostazioni stabiliscono i parametri di errore, l’URL per gli URL immagine relativi e se è consentita la sovrapposizione di oggetti.
 
-* **[!UICONTROL Attributi materiale predefiniti]** - Queste impostazioni consentono di impostare la risoluzione e la nitidezza predefinite per le immagini.
+* **[!UICONTROL Attributi materiale predefiniti]**: queste impostazioni stabiliscono le impostazioni predefinite di risoluzione e nitidezza per le immagini.
 
-* **[!UICONTROL Attributi immagine di risposta]** - Queste impostazioni si riferiscono all&#39;aspetto predefinito delle immagini.
+* **[!UICONTROL Attributi immagine di risposta]**: queste impostazioni si riferiscono all’aspetto predefinito delle immagini.
 
-* **[!UICONTROL Attributi gestione colore]** - Queste impostazioni si riferiscono alle impostazioni di colore predefinite delle immagini.
+* **[!UICONTROL Attributi gestione colore]**: queste impostazioni si riferiscono alle impostazioni di colore predefinite delle immagini.
 
 ## Vignettatura {#vignette}
 

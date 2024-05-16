@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 7%
@@ -23,9 +23,9 @@ ht-degree: 7%
 
 Prima di utilizzare l&#39;applicazione desktop Adobe Dynamic Media Classic, verificare che siano presenti le condizioni seguenti:
 
-* **Nome utente** - Utilizza il tuo indirizzo e-mail come nome di accesso.
+* **Nome utente**: utilizza il tuo indirizzo e-mail come nome di accesso.
 
-* **Password** - È possibile ottenere la password temporanea in un messaggio di posta elettronica di benvenuto da Adobe Dynamic Media Classic o dall&#39;amministratore di Adobe Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
+* **Password**: ottieni la tua password temporanea in un messaggio e-mail di benvenuto da Adobe Dynamic Media Classic o dal tuo amministratore Adobe Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
 
 1. Aprire l&#39;applicazione desktop Adobe Dynamic Media Classic.
 

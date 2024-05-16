@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 30%
@@ -53,9 +53,9 @@ Quando eliminate le risorse nella cartella Cestino, queste vengono eliminate def
 
 Per eliminare definitivamente le risorse dalla cartella Cestino, seleziona la **[!UICONTROL Cestino]** icona. Nella pagina Cartella cestino eseguire una delle operazioni seguenti:
 
-* **Eliminazione di singole risorse** - Seleziona le risorse da eliminare definitivamente, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Svuota dal cestino]**.
+* **Eliminazione di singole risorse**: seleziona le risorse da eliminare definitivamente, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Svuota dal cestino]**.
 
-* **Eliminazione di tutte le risorse** - Vai a **[!UICONTROL File]** > **[!UICONTROL Svuota cestino]**.
+* **Eliminazione di tutte le risorse**: vai a **[!UICONTROL File]** > **[!UICONTROL Svuota cestino]**.
 
 >[!MORELIKETHIS]
 >

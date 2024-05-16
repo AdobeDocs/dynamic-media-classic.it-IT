@@ -10,7 +10,7 @@ role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 11%
@@ -19,7 +19,7 @@ ht-degree: 11%
 
 # Pubblicare i modelli{#publishing-templates}
 
-Quando si pubblica un modello, questo viene collocato nei server immagini Dynamic Medie, dove è disponibile per il sito Web e l&#39;applicazione. Durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva gli URL necessari per il sito web e l’applicazione.
+Quando si pubblica un modello, questo viene posizionato nei server immagini Dynamic Medie, dove è disponibile per il sito Web e l&#39;applicazione. Durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva gli URL necessari per il sito Web e l&#39;applicazione.
 
 >[!NOTE]
 >

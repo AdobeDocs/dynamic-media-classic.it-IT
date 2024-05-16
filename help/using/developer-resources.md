@@ -9,7 +9,7 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 20%
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 # Risorse per sviluppatori {#developer-resources}
 
-Le guide di riferimento per visualizzatori, Image Server e Image Rendering e Image Production System descrivono i protocolli http per questi moduli server. Queste guide possono essere utilizzate dagli sviluppatori di siti Web che desiderano personalizzare ulteriormente e utilizzare rich media di Adobe Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata. Si presume che l’utente abbia familiarità con l’app desktop Dynamic Media Classic, gli standard e le convenzioni generali del protocollo http e la terminologia di base per le immagini.
+Le guide di riferimento per visualizzatori, Image Server e Image Rendering e Image Production System descrivono i protocolli http per questi moduli server. Queste guide possono essere utilizzate dagli sviluppatori di siti Web che desiderano personalizzare ulteriormente e utilizzare i rich media di Adobe Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata. Si presume che l’utente abbia familiarità con l’app desktop Dynamic Media Classic, gli standard e le convenzioni generali del protocollo http e la terminologia di base per le immagini.
 
 Vedi anche [Risorse per sviluppatori Dynamic Medie](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 

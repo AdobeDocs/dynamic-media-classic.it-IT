@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1971'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -101,15 +101,15 @@ Potete filtrare e ordinare l’elenco degli utenti per individuare un utente. Tu
 
 Puoi utilizzare le seguenti tecniche di filtro degli elenchi utente:
 
-* **Filtra per gruppo** - Selezionare la **[!UICONTROL Per gruppo]** e scegliere un&#39;opzione per limitare l&#39;elenco agli utenti di un gruppo.
+* **Filtra per gruppo**: seleziona la **[!UICONTROL Per gruppo]** e scegliere un&#39;opzione per limitare l&#39;elenco agli utenti di un gruppo.
 
-* **Filtra per ruolo utente** - Selezionare la **[!UICONTROL Per ruolo utente]** e scegli un’opzione per limitare l’elenco a utenti o amministratori di tipi diversi.
+* **Filtra per ruolo utente**: seleziona la **[!UICONTROL Per ruolo utente]** e scegli un’opzione per limitare l’elenco a utenti o amministratori di tipi diversi.
 
-* **Filtra per nome campo** - Seleziona **[!UICONTROL Abilita filtro per campo]**. Quindi seleziona la **[!UICONTROL Per nome campo]** scegliere una colonna per filtrare l&#39;elenco, quindi selezionare il menu Filtra carattere e scegliere una lettera. L’elenco viene filtrato su una delle colonne in base alla lettera scelta. Per visualizzare l’elenco completo, deseleziona la **[!UICONTROL Abilita filtro per campo]** opzione.
+* **Filtra per nome campo**: Seleziona **[!UICONTROL Abilita filtro per campo]**. Quindi seleziona la **[!UICONTROL Per nome campo]** scegliere una colonna per filtrare l&#39;elenco, quindi selezionare il menu Filtra carattere e scegliere una lettera. L’elenco viene filtrato su una delle colonne in base alla lettera scelta. Per visualizzare l’elenco completo, deseleziona la **[!UICONTROL Abilita filtro per campo]** opzione.
 
-* **Escludi utenti non validi** - Deseleziona **[!UICONTROL Includi non valido]**. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono stati eliminati dal sistema e dagli account amministrati.
+* **Escludi utenti non validi**: Deseleziona **[!UICONTROL Includi non valido]**. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono stati eliminati dal sistema e dagli account amministrati.
 
-* **Ordina per intestazione di colonna** - Seleziona un’intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail, per ruolo utente o per stato valido/non valido.
+* **Ordina per intestazione di colonna**: seleziona un’intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail, per ruolo utente o per stato valido/non valido.
 
 Se nel sistema è presente un numero elevato di utenti, potete limitare le dimensioni dell’elenco specificando un numero nel menu Dimensione massima elenco.
 
@@ -162,17 +162,17 @@ Nella tabella seguente sono descritti i rapporti che è possibile generare dalla
 
 Il rapporto Contenuti immagine offre informazioni sulle richieste per i seguenti tipi di immagini:
 
-* **Richiesta immagine** - Richieste di immagini.
+* **Richiesta immagine**: richieste di immagini.
 
-* **Richiesta miniature** - Richieste di immagini campione o alternative nei visualizzatori.
+* **Richiesta miniature**: richiede l’inserimento di campioni o immagini alternative nei visualizzatori.
 
-* **Richiesta maschera** - Richiesta di immagini che restituiscono maschere in scala di grigio.
+* **Richiesta maschera**: richiede alle immagini di restituire maschere in scala di grigio.
 
-* **Richiesta riquadro visualizzatore** - Richieste di immagini caricate da un visualizzatore.
+* **Richiesta riquadro visualizzatore**: richieste di immagini caricate da un visualizzatore.
 
-* **Richiesta Oggetto Vnt** - Richieste di rendering di immagini che restituiscono un’immagine con gli oggetti specificati nelle vignettature richieste.
+* **Richiesta Oggetto Vnt**: richieste di rendering di immagini che restituiscono un’immagine con gli oggetti specificati nelle vignettature richieste.
 
-* **Richiesta info Vnt** - Richieste di rendering di immagini che restituiscono informazioni relative alle vignettature richieste.
+* **Richiesta info Vnt**: richieste di rendering di immagini che restituiscono informazioni sulle vignettature richieste.
 
 >[!NOTE]
 >
@@ -192,27 +192,27 @@ Per generare un rapporto sulla larghezza di banda, l’archiviazione, i contenut
 
 Dopo la generazione di un rapporto dalla pagina Larghezza di banda e spazio di archiviazione, potete scegliere diverse opzioni per la visualizzazione delle informazioni. Potete scegliere come presentare le informazioni, se visualizzarle sotto forma di grafico o griglia, nonché specificare un periodo di tempo per i dati da acquisire. In visualizzazione Dati, potete inoltre ordinare le informazioni e riordinare le colonne.
 
-* **Visualizzare i dati in un grafico o in una griglia dati** - Seleziona **[!UICONTROL Vista grafico]** per visualizzare i dati in un grafico; selezionare **[!UICONTROL Visualizzazione dati]** per visualizzare i dati in una griglia dati.
+* **Visualizzare i dati in un grafico o in una griglia dati**: Seleziona **[!UICONTROL Vista grafico]** per visualizzare i dati in un grafico; selezionare **[!UICONTROL Visualizzazione dati]** per visualizzare i dati in una griglia dati.
 
-* **Scegliere un tipo di presentazione per il rapporto** - Nel menu Tipo di rapporto, seleziona **[!UICONTROL Riepilogo]**, **[!UICONTROL Giornaliero]**, o **[!UICONTROL Mensile]** per organizzare i dati in forma di riepilogo, per giorno o per mese. Questa opzione non è disponibile per tutti i rapporti.
+* **Scegliere un tipo di presentazione per il rapporto**: nel menu Tipo di rapporto, seleziona **[!UICONTROL Riepilogo]**, **[!UICONTROL Giornaliero]**, o **[!UICONTROL Mensile]** per organizzare i dati in forma di riepilogo, per giorno o per mese. Questa opzione non è disponibile per tutti i rapporti.
 
-* **Specifica un periodo di tempo** - Scegliere le opzioni per definire un periodo di tempo per il rapporto, quindi selezionare **[!UICONTROL Aggiorna]** dopo aver definito un periodo di tempo:
+* **Specifica un periodo di tempo**: scegliere le opzioni per definire un periodo di tempo per il rapporto, quindi selezionare **[!UICONTROL Aggiorna]** dopo aver definito un periodo di tempo:
 
-* **Periodo di tempo predefinito** - Scegliere un&#39;opzione dal menu Report predefinito. Ad esempio, scegliete Ultimo mese per acquisire i dati a partire dall’ultimo mese.
+* **Periodo di tempo predefinito**: scegli un’opzione dal menu Rapporto predefinito. Ad esempio, scegliete Ultimo mese per acquisire i dati a partire dall’ultimo mese.
 
-* **Periodo di tempo personalizzato** - Nel menu Report predefinito, selezionare **[!UICONTROL Personalizzato]**. Quindi scegli una data nella **[!UICONTROL Mese di inizio]** (o **[!UICONTROL Data di inizio]**) e una data nel menu # di mesi (o # o giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
+* **Periodo di tempo personalizzato**: nel menu Report predefinito, seleziona **[!UICONTROL Personalizzato]**. Quindi scegli una data nella **[!UICONTROL Mese di inizio]** (o **[!UICONTROL Data di inizio]**) e una data nel menu # di mesi (o # o giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
 
-* **Ordinare i dati (solo visualizzazione dati)** - Per ordinare le informazioni su una colonna, selezionare l&#39;intestazione della colonna. Seleziona nuovamente per ordinare in ordine decrescente.
+* **Ordinare i dati (solo visualizzazione dati)**: per ordinare le informazioni su una colonna, seleziona l’intestazione della colonna. Seleziona nuovamente per ordinare in ordine decrescente.
 
-* **Ridisponi colonne (solo visualizzazione dati)** - Per spostare una colonna in una posizione diversa nella griglia dati, trascinarne l&#39;intestazione.
+* **Ridisponi colonne (solo visualizzazione dati)**: per spostare una colonna in una posizione diversa nella griglia dati, trascinarne l&#39;intestazione.
 
 ### Esportare e stampare i rapporti {#exporting-and-printing-reports}
 
 I rapporti generati possono essere esportati in modo da consentire l’utilizzo dei dati in fogli di calcolo e altre applicazioni. I rapporti possono inoltre essere stampati.
 
-* **Esportare i dati del rapporto** : nella visualizzazione dati, ordina e disponi i dati secondo necessità. Quindi apri la **[!UICONTROL Esporta]** e scegliere un formato: **[!UICONTROL Delimitato da tabulazione]**, **[!UICONTROL Separato da virgole]**, o **[!UICONTROL HTML formattato]**. I dati vengono copiati negli Appunti nel formato scelto. e li potete quindi incollare in un foglio di calcolo o in un’altra applicazione.
+* **Esportare i dati del rapporto**: in Visualizzazione dati, ordina e disponi i dati come necessario. Quindi apri la **[!UICONTROL Esporta]** e scegliere un formato: **[!UICONTROL Delimitato da tabulazione]**, **[!UICONTROL Separato da virgole]**, o **[!UICONTROL HTML formattato]**. I dati vengono copiati negli Appunti nel formato scelto. e li potete quindi incollare in un foglio di calcolo o in un’altra applicazione.
 
-* **Stampare un rapporto** - Seleziona **[!UICONTROL Stampa]**, scegliere le opzioni desiderate nella finestra di dialogo Stampa e quindi selezionare **[!UICONTROL OK]**.
+* **Stampare un rapporto**: Seleziona **[!UICONTROL Stampa]**, scegliere le opzioni desiderate nella finestra di dialogo Stampa e quindi selezionare **[!UICONTROL OK]**.
 
 ## Errori immagini {#image-errors}
 
@@ -224,22 +224,22 @@ Gli amministratori di Adobe Dynamic Media Classic possono generare rapporti di e
 
    * Per ordinare gli errori in base alle informazioni sull&#39;intestazione, selezionare un&#39;intestazione. Per impostazione predefinita, gli errori vengono ordinati per numero di occorrenze, dalla più alta alla più bassa.
    * Portate il cursore sul campo Risposta di un errore per visualizzare il messaggio di errore specifico.
-   * Per visualizzare il collegamento all’immagine o alla pagina web del referente, sposta il cursore sul campo URL o sul campo Referrer.
+   * Per visualizzare il collegamento all&#39;immagine o alla pagina Web del referente, spostare il cursore sul campo URL o sul campo Referrer.
    * Per copiare il collegamento all&#39;immagine effettiva, selezionare **[!UICONTROL URL copia URL]**. Potete quindi incollare il collegamento nel campo indirizzo della finestra di un browser per passare all’immagine ed esaminare l’errore.
-   * Per copiare il collegamento alla pagina Web del referente, seleziona **[!UICONTROL URL copia referrer]**.
+   * Per copiare il collegamento alla pagina Web del referente, selezionare **[!UICONTROL URL copia referrer]**.
 
 Gli errori visualizzati si riferiscono alla società a cui hai effettuato l’accesso. Ciascun errore include le seguenti informazioni:
 
-* **ID immagine** - ID dell&#39;immagine che ha causato l&#39;infrazione.
+* **ID immagine**: ID dell’immagine che ha causato l’infrazione.
 
-* **Ora** - L’intervallo di tempo tra la prima volta che l’errore è stato segnalato e l’ultima volta che l’errore è stato segnalato, nelle ultime 24 ore.
+* **Ora**: l’intervallo di tempo tra la prima volta che l’errore è stato segnalato e l’ultima volta che l’errore è stato segnalato, nelle ultime 24 ore.
 
-* **Conteggio** - Numero di errori segnalati nell&#39;immagine.
+* **Conteggio**: numero di errori segnalati sull’immagine.
 
-* **Risposta** : messaggio di errore specifico. Gli errori possono essere di tipo 4xx o 5xx.
+* **Risposta**: messaggio di errore specifico. Gli errori possono essere di tipo 4xx o 5xx.
 
-* **URL** : elenca l’URL dell’immagine su Adobe Dynamic Media Classic.
+* **URL**: elenca l’URL dell’immagine su Adobe Dynamic Media Classic.
 
-* **Referrer** - Specifica l&#39;URL del sito Web da cui proviene la richiesta iniziale. Il referente può essere qualsiasi sito Web contenente un collegamento all’immagine.
+* **Referrer**: specifica l&#39;URL del sito Web da cui proviene la richiesta iniziale. Il referente può essere qualsiasi sito Web con un collegamento all&#39;immagine.
 
 Alle colonne URL e Referente è stata associata la relativa funzione Copia URL per facilitare la verifica.

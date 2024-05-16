@@ -10,7 +10,7 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 17%
@@ -21,11 +21,11 @@ ht-degree: 17%
 
 Per cambiare il tipo di visualizzazione delle risorse nel pannello Sfoglia, fate clic su uno dei pulsanti Visualizza:
 
-* **Vista griglia** - Selezionare il pulsante di opzione nell&#39;angolo superiore destro dello schermo del Adobe Dynamic Media Classic **[!UICONTROL Vista griglia]** per visualizzare le risorse sotto forma di miniature in una griglia. In Visualizzazione griglia è possibile trascinare il dispositivo di scorrimento Miniature per modificare le dimensioni delle miniature.
+* **Vista griglia**: vicino all’angolo superiore destro della schermata Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista griglia]** per visualizzare le risorse sotto forma di miniature in una griglia. In Visualizzazione griglia è possibile trascinare il dispositivo di scorrimento Miniature per modificare le dimensioni delle miniature.
 
-* **Vista a elenco** - Selezionare il pulsante di opzione nell&#39;angolo superiore destro dello schermo del Adobe Dynamic Media Classic **[!UICONTROL Vista a elenco]** per visualizzare le risorse in un elenco. Per ciascuna risorsa viene riportato il nome, il tipo, la data di creazione e la data dell’ultima modifica. A seconda del tipo di risorsa con cui stai lavorando, puoi ottenere anche altre informazioni. Ad esempio, potete visualizzare le dimensioni di un’immagine e del relativo file.
+* **Vista a elenco**: vicino all’angolo superiore destro della schermata Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista a elenco]** per visualizzare le risorse in un elenco. Per ciascuna risorsa viene riportato il nome, il tipo, la data di creazione e la data dell’ultima modifica. A seconda del tipo di risorsa con cui stai lavorando, puoi ottenere anche altre informazioni. Ad esempio, potete visualizzare le dimensioni di un’immagine e del relativo file.
 
-* **Vista dettagli** - Seleziona una risorsa. Nell&#39;angolo superiore destro della schermata Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** per esaminare la risorsa nella Vista dettagli. Puoi anche fare doppio clic su una risorsa o selezionarla e passare a **[!UICONTROL File]** > **[!UICONTROL Dettagli]** per visualizzarlo nella vista Dettaglio. Se l&#39;amministratore ha specificato la preferenza Mostra URL, vengono visualizzati gli URL per tutte le risorse in Visualizzazione dettagli; tuttavia, gli URL sono attivi solo dopo la pubblicazione della risorsa.
+* **Vista dettagli**: seleziona una risorsa. Nell&#39;angolo superiore destro della schermata Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** per esaminare la risorsa nella Vista dettagli. Puoi anche fare doppio clic su una risorsa o selezionarla e passare a **[!UICONTROL File]** > **[!UICONTROL Dettagli]** per visualizzarlo nella vista Dettaglio. Se l&#39;amministratore ha specificato la preferenza Mostra URL, vengono visualizzati gli URL per tutte le risorse in Visualizzazione dettagli; tuttavia, gli URL sono attivi solo dopo la pubblicazione della risorsa.
 
 >[!TIP]
 >

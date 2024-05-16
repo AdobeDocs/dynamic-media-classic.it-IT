@@ -9,18 +9,18 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '3986'
-ht-degree: 45%
+source-wordcount: '3989'
+ht-degree: 40%
 
 ---
 
 # Caricare e codificare i video{#uploading-and-encoding-videos}
 
-Per creare un singolo video o set di video adattivi da distribuire sul web o sui dispositivi mobili, carica innanzitutto i file video principali su Adobe Dynamic Media Classic. Adobe Dynamic Media Classic codifica i video in formato MP4 e pubblica i video nei seguenti formati:
+Per creare un singolo video o set di video adattivi da distribuire sul Web o sui dispositivi mobili, carica innanzitutto i file video principali in Adobe Dynamic Media Classic. Adobe Dynamic Media Classic codifica i video in formato MP4 e pubblica i video nei seguenti formati:
 
-* **MP4** - Adobe Dynamic Media Classic consiglia MP4 come formato di file video preferito. Utilizzate i file MP4 per le seguenti operazioni:
+* **MP4**: Adobe Dynamic Media Classic consiglia MP4 come formato di file video preferito. Utilizzate i file MP4 per le seguenti operazioni:
 
    * Streaming dinamico HTTP su desktop.
    * HTTP Live Streaming (protocollo di streaming di Apple).
@@ -28,9 +28,9 @@ Per creare un singolo video o set di video adattivi da distribuire sul web o sui
 
   Adobe Dynamic Media Classic offre due flussi di lavoro per il caricamento di file video:
 
-* **Video precodificati** - Caricate i file MP4 direttamente su Adobe Dynamic Media Classic. Con questo flusso di lavoro, i file non vengono codificati durante il caricamento. I file vengono precodificati durante la preparazione per la visualizzazione sul desktop e sui dispositivi mobili.
+* **Video precodificati**: carica i file MP4 direttamente in Adobe Dynamic Media Classic. Con questo flusso di lavoro, i file non vengono codificati durante il caricamento. I file vengono precodificati durante la preparazione per la visualizzazione sul desktop e sui dispositivi mobili.
 
-* **Video sorgente principale** : carica i file video sorgente primari e, al momento del caricamento, li codifica in file MP4. I video codificati sono etichettati &quot;Video&quot; nel pannello Sfoglia. Adobe Dynamic Media Classic supporta la codifica di file video in molti formati.
+* **Video sorgente principale**: carica i file video sorgente primari e, al momento del caricamento, codifica tali file in file MP4. I video codificati sono etichettati &quot;Video&quot; nel pannello Sfoglia. Adobe Dynamic Media Classic supporta la codifica di file video in molti formati.
 
    * Assicurati che i file video sorgente principali che desideri codificare siano supportati.
 
@@ -53,7 +53,7 @@ Effettuare una delle seguenti operazioni.
 *Se i video sono già codificati*
 
 1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]**.
-1. Nella pagina Carica, seleziona **[!UICONTROL Da desktop]** scheda.
+1. Nella pagina Carica, seleziona la **[!UICONTROL Da desktop]** scheda.
 1. Nella pagina Carica, in **[!UICONTROL Seleziona i file da caricare]** pannello, seleziona **[!UICONTROL Sfoglia]**, passare a un file video MP4, quindi selezionare **[!UICONTROL Apri]**.
 1. Nella scelta **[!UICONTROL Destinazione cartella]** selezionare una cartella per il file caricato.
 1. Nella pagina Carica, assicurati che **[!UICONTROL Pubblica dopo il caricamento]** è selezionato.
@@ -62,13 +62,13 @@ Effettuare una delle seguenti operazioni.
 *Se desideri codificare i video utilizzando Adobe Dynamic Media Classic*
 
 1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]**.
-1. Nella pagina Carica, seleziona **[!UICONTROL Da desktop]** scheda.
+1. Nella pagina Carica, seleziona la **[!UICONTROL Da desktop]** scheda.
 1. In **[!UICONTROL Seleziona i file da caricare]** pannello, seleziona **[!UICONTROL Sfoglia]**, passare a un file video di origine principale, quindi selezionare **[!UICONTROL Apri]**.
 1. Nella scelta **[!UICONTROL Destinazione cartella]** selezionare una cartella per il file caricato.
 1. Nell’angolo inferiore destro della pagina, seleziona **[!UICONTROL Opzioni processo]**,
 1. Nella finestra di dialogo Opzioni processo di caricamento, espandi **[!UICONTROL Opzioni eVideo]**, quindi eseguire una delle operazioni seguenti:
 
-   * Si consiglia di selezionare **[!UICONTROL Codifica video adattiva]**. Consultate [Video adattivo (predefinito)](application-setup.md#adaptive-video-default).
+   * La best practice prevede di selezionare **[!UICONTROL Codifica video adattiva]**. Consultate [Video adattivo (predefinito)](application-setup.md#adaptive-video-default).
    * Facoltativo. Per utilizzare le singole impostazioni di codifica, espandere **[!UICONTROL Predefiniti codifica singola]**, quindi selezionare le opzioni di codifica desiderate per Desktop, Mobile e Tablet.
 Consultate [Predefiniti di codifica video per computer desktop](application-setup.md#desktop-video-encoding-presets), [Predefiniti di codifica per video per dispositivi mobili](application-setup.md#mobile-video-encoding-presets), [Predefiniti di codifica per video per tablet](application-setup.md#tablet-video-encoding-presets).
 1. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Salva]**.
@@ -78,7 +78,7 @@ Consultate [Predefiniti di codifica video per computer desktop](application-setu
 *Se desideri codificare nuovamente un file video caricato in precedenza*
 
 1. In Adobe Dynamic Media Classic, nel pannello Sfoglia, individua il video e selezionalo.
-1. Vai a **[!UICONTROL File]** > **[!UICONTROL Rielabora]**.&quot;
+1. Vai a **[!UICONTROL File]** > **[!UICONTROL Rielabora]**.
 1. Nella finestra di dialogo Rielabora risorse espandere **[!UICONTROL Opzioni eVideo]**, quindi eseguire una delle operazioni seguenti:
    * Si consiglia di utilizzare il metodo seguente. Seleziona **Video adattivo**.
 Consultate [Video adattivo (predefinito)](application-setup.md#adaptive-video-default).
@@ -94,9 +94,9 @@ Quando generate un set di video adattivi automaticamente o manualmente vengono c
 
 La seguente tabella indica i tipi di file video (con i codec video consentiti) che potete codificare in formato MP4 o OGV quando caricate i file. La tabella elenca i formati file e i codec:
 
-* **Formati di file video** - Analogamente a un file ZIP, un formato di file video determina il modo in cui i file sono contenuti nel file video. Generalmente, un file video contiene più tracce (una traccia video senza audio e una o più tracce audio senza video) che vengono associate e sincronizzate. Il formato file del video determina come le diverse tracce di dati e metadati vengono organizzate.
+* **Formati di file video**: simile al file ZIP, il formato del file video determina il modo in cui i file sono contenuti nel file video. Generalmente, un file video contiene più tracce (una traccia video senza audio e una o più tracce audio senza video) che vengono associate e sincronizzate. Il formato file del video determina come le diverse tracce di dati e metadati vengono organizzate.
 
-* **Codec video** - Un codec video descrive l&#39;algoritmo di codifica di un video. Un lettore video decodifica il video in base al relativo codec, quindi visualizza una serie di immagini o fotogrammi sullo schermo. I codec riducono la quantità di informazioni richieste dai file video per memorizzare e riprodurre il video. Anziché informazioni sui singoli frame, vengono memorizzate solo le informazioni sulle differenze tra un frame e quello successivo. Poiché la maggior parte dei video cambia poco da un fotogramma all&#39;altro, i codec consentono tassi di compressione elevati, che si traducono in dimensioni di file più piccole.
+* **Codec video**: un codec video descrive l’algoritmo con cui un video viene codificato. Un lettore video decodifica il video in base al relativo codec, quindi visualizza una serie di immagini o fotogrammi sullo schermo. I codec riducono la quantità di informazioni richieste dai file video per memorizzare e riprodurre il video. Anziché informazioni sui singoli frame, vengono memorizzate solo le informazioni sulle differenze tra un frame e quello successivo. Poiché la maggior parte dei video cambia poco da un fotogramma all&#39;altro, i codec consentono tassi di compressione elevati, che si traducono in dimensioni di file più piccole.
 
   | Formato file video | Codec video |
   | --- | --- |
@@ -108,7 +108,7 @@ La seguente tabella indica i tipi di file video (con i codec video consentiti) c
   | M2V | MPEG-2 ES |
   | M4V | H.264 |
   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-  | MP4 | H.264 / MPEG-4 AVC |
+  | MP4 | `H.264/MPEG-4` AVC |
   | MPEG | MPEG-2 SS |
   | MPG | MPEG-2 SS |
   | MTS | MPEG-2 |
@@ -140,8 +140,8 @@ Nella tabella seguente vengono descritte le dimensioni, le proporzioni e la velo
 | Dimensioni | Proporzioni | Bitrate minimo |
 | --- | --- | --- |
 | 1024x768 | 4:3 | 4500 Kbps per la maggior parte dei video. |
-| 1280x720 | 16:9 | 3000 - 6000 Kbps, a seconda della quantità di movimento presente del video. |
-| 1920x1080 | 16:9 | 6000 - 8000 Kbps, a seconda della quantità di movimento presente del video. |
+| 1280x720 | 16:9 | 3000: 6000 kbps, in base alla quantità di movimento nel video. |
+| 1920x1080 | 16:9 | 6000: 8000 kbps, in base alla quantità di movimento nel video. |
 
 ### Ottenere i metadati di un file {#obtaining-a-file-s-metadata}
 
@@ -157,7 +157,7 @@ Quando scegliete o create un predefinito di codifica video per il file video pri
 
 Per determinare le proporzioni di un file video, ottenere i metadati del file e annotare la larghezza e l&#39;altezza del file (vedere [Ottenere i metadati di un file](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Quindi applicate questa formula per determinare le proporzioni:
 
-larghezza/altezza = proporzioni
+Larghezza/Altezza = Proporzioni
 
 Nella tabella che segue, i risultati della formula vengono correlati alle relative scelte di proporzioni più comuni:
 
@@ -222,11 +222,11 @@ Quando scegli (o crei) un predefinito di codifica video per il file video princi
 | 720p | 720 | Schermo grande |
 | 1080p | 1080 | Schermo grande ad alta definizione |
 
-### Fps (fotogrammi al secondo) {#fps-frames-per-second}
+### FPS (fotogrammi al secondo) {#fps-frames-per-second}
 
-Negli Stati Uniti e in Giappone, i video sono in genere ripresi a 29,97 fotogrammi al secondo (fps); in Europa sono invece ripresi a 25 fps. I film sono ripresi a 24 fps.
+Negli Stati Uniti e in Giappone, la maggior parte dei video viene girata a 29,97 fotogrammi al secondo (FPS); in Europa, la maggior parte dei video viene girata a 25 FPS. Il film viene girato a 24 FPS.
 
-Scegli un predefinito di codifica video che corrisponda alla velocità fps del file video principale. Ad esempio, se il video principale è a 25 fps, scegliete un predefinito di codifica con 25 fps. Per impostazione predefinita, tutte le codifiche personalizzate utilizzano il fps del file video principale. Quando create un predefinito di codifica video non è pertanto necessario specificare l’impostazione fps.
+Scegli un predefinito di codifica video che corrisponda alla velocità FPS del file video principale. Ad esempio, se il video principale è 25 FPS, scegliete un predefinito di codifica con 25 FPS. Per impostazione predefinita, tutte le codifiche personalizzate utilizzano l’FPS del file video principale. Per questo motivo non è necessario specificare l&#39;impostazione FPS quando si crea un predefinito di codifica video.
 
 ### Dimensioni di codifica video {#video-encoding-dimensions}
 
@@ -251,7 +251,7 @@ Adobe Dynamic Media Classic consiglia di utilizzare i predefiniti di codifica vi
 
 ## Utilizzare i predefiniti di codifica video {#working-with-video-encoding-presets}
 
-I file video primari creati con apparecchiature di produzione video e software di editing video sono spesso troppo grandi e non sono nel formato corretto per la consegna a destinazioni online. Per convertire i video digitali nel formato e nelle specifiche corretti per la riproduzione su diversi schermi, potete *transcodificare* i file video (un processo noto anche come *codifica*). Durante il processo di codifica, il video viene compresso per ridurne le dimensioni e ottimizzarlo per la riproduzione sul Web e dispositivi mobili.
+I file video primari creati con apparecchiature di produzione video e software di editing video sono spesso troppo grandi e non sono nel formato corretto per la consegna a destinazioni online. Per convertire i video digitali nel formato e nelle specifiche corretti per la riproduzione su diversi schermi, potete *transcodificare* i file video (un processo noto anche come *codifica*). Durante il processo di codifica, il video viene compresso in modo da ottenere una dimensione file più piccola ed efficiente. Lo fa per una distribuzione ottimale al web e ai dispositivi mobili.
 
 Consulta [Caricare e codificare i video](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
@@ -262,7 +262,7 @@ Nella schermata Predefiniti video, gli amministratori possono impostare e gestir
 * Attivare e disattivare i predefiniti di codifica video
 * Creare un predefinito di codifica video
 * Modificare i predefiniti di codifica video.
-* Eliminare i predefiniti per video
+* Elimina predefiniti video.
 
 Qualsiasi video caricato su Adobe Dynamic Media Classic o che codifichi in Adobe Dynamic Media Classic viene considerato come &quot;video&quot;. In altre parole potete trasmettere i video da riprodurre su computer desktop, dispositivi mobili o entrambi. Ad esempio, puoi visualizzare in anteprima questi tipi di video in Adobe Dynamic Media Classic. Potete inoltre generare URL (mediante la funzione Copia URL) e codice da incorporare (mediante la funzione Incorpora codice) da usare per lettori video, siti Web e così via.
 
@@ -284,7 +284,7 @@ Qualsiasi altro formato video e codec viene considerato come un &quot;Video prim
 
 ### Filtrare l’elenco dei predefiniti di codifica video {#filtering-the-list-of-video-encoding-presets}
 
-Le pagine Predefiniti video e Predefiniti video adattivi sono costituite da una tabella che elenca lo stato attivo, il nome del predefinito, il dispositivo di riproduzione desiderato, le dimensioni del video e la velocità dati di ciascun predefinito video.
+Le pagine Predefiniti video e Predefiniti video adattivi sono costituite da una tabella che elenca lo stato attivo, il nome del predefinito, la periferica di riproduzione prevista, le dimensioni del video e la velocità dati di ciascun predefinito video.
 
 Per regolare l’elenco potete scegliere Entrambi, Attivo o Inattivo per visualizzare tutti i predefiniti per video o limitare l’elenco ai soli predefiniti attivi o inattivi.
 
@@ -294,7 +294,7 @@ Potete anche scegliere un’opzione per il dispositivo di riproduzione e limitar
 
 1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Predefiniti per video]** > **[!UICONTROL Predefiniti video adattivo]** o **[!UICONTROL Predefiniti codifica singola]**.
 
-   Le pagine dei predefiniti per video adattivo e dei predefiniti a codifica singola includono una tabella che elenca lo stato attivo, il nome del predefinito, il dispositivo di riproduzione desiderato, le dimensioni video e la velocità dati di ciascun predefinito video.
+   Le pagine dei predefiniti per video adattivo e dei predefiniti per codifica singola includono una tabella che elenca lo stato attivo, il nome del predefinito, il dispositivo di riproduzione desiderato, le dimensioni video e la velocità dati di ciascun predefinito per video.
 
 1. Nella pagina Predefiniti codifica singola denominata Predefiniti video, nella barra degli strumenti Predefiniti video, utilizzate i due elenchi a discesa per definire l’elenco dei predefiniti riportato nella tabella in base allo stato Attivo e al dispositivo di riproduzione.
 
@@ -313,8 +313,8 @@ I predefiniti per video attivati vengono visualizzati nella finestra di dialogo 
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Per attivare un predefinito per video, nella pagina dei predefiniti, selezionate la casella accanto al nome di un predefinito nella colonna Attivo.
-   * Per disattivare un predefinito per video, deselezionate la casella accanto al predefinito per video che desiderate disattivare.
+   * Per attivare un predefinito video, nella pagina dei predefiniti, seleziona la casella accanto al nome di un predefinito nella colonna Attivo.
+   * Per disattivare un predefinito video, deseleziona la casella accanto al predefinito video che vuoi disattivare.
 
      >[!NOTE]
      >
@@ -326,7 +326,7 @@ I predefiniti per video attivati vengono visualizzati nella finestra di dialogo 
 
 Potete creare predefiniti video personalizzati a codifica singola e aggiungerli alla tabella Predefiniti video. È inoltre possibile modificare i predefiniti per video a codifica singola predefiniti forniti con Adobe Dynamic Media Classic, a condizione di salvare il predefinito modificato con un nuovo nome.
 
-Adobe Dynamic Media Classic ha impostato i limiti massimi per la velocità dati di destinazione, l’altezza della risoluzione e la larghezza della risoluzione per garantire un’esperienza di riproduzione corretta. Se superate questi limiti, vengono visualizzati alcuni messaggi di avvertenza:
+Adobe Dynamic Media Classic ha impostato i limiti massimi per la velocità dati di destinazione, l’altezza della risoluzione e la larghezza della risoluzione per garantire un’esperienza di riproduzione corretta. Se superi questi limiti, vengono visualizzati messaggi di avviso, i quali sono i seguenti:
 
 * Per la riproduzione da computer, i limiti sono: (Larghezza/16) &#42; (Altezza/16) &lt; 8192.
 * Per la riproduzione mobile, i limiti sono: (Larghezza/16) &#42; (Altezza/16) &lt; 660; velocità dati target &lt; 4000.
@@ -350,10 +350,10 @@ Adobe Dynamic Media Classic ha impostato i limiti massimi per la velocità dati 
    | Opzione Predefinito per video | Descrizione |
    | --- | --- |
    | Nome predefinito | Inserite un nome descrittivo per il predefinito per video. Il nome inserito verrà visualizzato nella finestra di dialogo Opzioni processo di caricamento, nella quale gli utenti scelgono le opzioni di transcodifica. |
-   | Descrizione | Descrivete il predefinito per video. Il testo immesso viene visualizzato come descrizione quando si posiziona il puntatore sul nome del predefinito nella finestra di dialogo Opzioni processo di caricamento, in cui gli utenti scelgono le opzioni di trascodifica. |
+   | Descrizione | Descrivete il predefinito per video. Il testo immesso viene visualizzato come descrizione comando. Quando gli utenti scelgono le opzioni di trascodifica, la descrizione comando viene visualizzata quando spostano il puntatore sul nome del predefinito nella finestra di dialogo Opzioni processo di caricamento. |
    | Dispositivo di riproduzione | Scegliete il dispositivo su cui riprodurre il video. Le opzioni sono Computer (desktop), Mobile (iPhone, iPad, Android™) o Tablet (solo iPad). Questa impostazione determina automaticamente il codec video e audio appropriato utilizzato durante la codifica. |
-   | Velocità dati di destinazione | Inserite una velocità di connessione Internet media (in kilobit al secondo) dell’utente finale di destinazione. Potete inserire il valore desiderato oppure trascinare il cursore per impostarlo. La gamma di velocità di connessione utente indica le velocità tipiche per connessioni banda larga, DSL, mobile e mediante modem. Questa impostazione determina automaticamente la velocità di dati audio e video combinata, ossia la quantità di dati codificati necessaria per creare un secondo di riproduzione video. Più alta è la velocità dati, migliore sarà la qualità del video. Tuttavia, valori di velocità dati elevati aumentano le dimensioni dei file a scapito dell’esperienza di visualizzazione degli utenti che dispongono di una larghezza di banda ridotta. Si consiglia quindi di trovare un compromesso tra valori di velocità dati elevati e ridotti. Mirate a creare un’esperienza di riproduzione con qualità adeguata, senza limitare gli utenti con larghezze di banda ridotte. |
-   | Proporzioni | Le proporzioni sono il rapporto tra la larghezza e l’altezza del video. Le prime due proporzioni elencate di seguito sono comunemente utilizzate per visualizzare video in orizzontale:<ul><li> 4:3 - Usata per quasi tutti i contenuti di trasmissione TV con definizione standard.</li><li>16:9 - Utilizzato per quasi tutti i contenuti e i film in formato widescreen su televisori ad alta definizione (HDTV).</li><li>Scalabilità automatica: (impostazione predefinita) predefinito a codifica singola che funziona con qualsiasi proporzione per creare video per la distribuzione su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video (rapporto larghezza per altezza).</li><li>Personale - Usata quando si desidera definire una dimensione video non standard.</li><li>Le proporzioni selezionate determinano le impostazioni di larghezza e altezza per Dimensione risoluzione. I valori di larghezza e altezza vengono automaticamente adattati alle proporzioni appropriate.</li></ul> |
+   | Velocità dati di destinazione | Inserite una velocità di connessione Internet media (in kilobit al secondo) dell’utente finale di destinazione. Potete inserire il valore desiderato oppure trascinare il cursore per impostarlo. La gamma di velocità di connessione utente indica le velocità tipiche per connessioni banda larga, DSL, mobile e mediante modem. Questa impostazione determina automaticamente la velocità di dati audio e video combinata, ossia la quantità di dati codificati necessaria per creare un secondo di riproduzione video. Più alta è la velocità dati, migliore sarà la qualità del video. Tuttavia, valori di velocità dati elevati aumentano le dimensioni dei file a scapito dell’esperienza di visualizzazione degli utenti che dispongono di una larghezza di banda ridotta. Si consiglia quindi di trovare un compromesso tra valori di velocità dati elevati e ridotti. Prova a creare un’esperienza di riproduzione di qualità adeguata senza alienare gli utenti che dispongono di larghezze di banda ridotte. |
+   | Proporzioni | Le proporzioni corrispondono al rapporto tra la larghezza e l&#39;altezza del video. Le prime due proporzioni elencate di seguito sono comunemente utilizzate per visualizzare video in orizzontale:<ul><li> 4:3: Utilizzato per quasi tutti i contenuti televisivi in Definizione Standard.</li><li>16:9: Utilizzato per quasi tutti i contenuti e i film in formato wide-screen della televisione ad alta definizione (HDTV).</li><li>Scalabilità automatica: (impostazione predefinita) predefinito a codifica singola che funziona con qualsiasi proporzione per creare video per la distribuzione su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video (rapporto larghezza per altezza).</li><li>Personalizzato: utilizzato quando si desidera definire una dimensione video non standard.</li><li>Le proporzioni selezionate determinano le impostazioni di larghezza e altezza per Dimensione risoluzione. I valori di larghezza e altezza vengono automaticamente adattati alle proporzioni appropriate.</li></ul> |
    | Dimensione risoluzione | La dimensione della risoluzione, espressa dal numero di pixel di larghezza per il numero di pixel di altezza, determina la dimensione. Immettete un valore di larghezza e altezza in pixel oppure trascinate il cursore per immettere questi valori. La gamma di risoluzioni elenca le dimensioni di risoluzioni tipiche. Il valore di larghezza e il valore di altezza si adattano automaticamente alle proporzioni selezionate. Ad esempio, se selezionate 4:3 come proporzioni e immettete 400 per la larghezza, viene immesso automaticamente 300 per l&#39;altezza. Se è stata selezionata l&#39;opzione Scala automatica per l&#39;impostazione Proporzioni, il valore Larghezza per Dimensione risoluzione viene automaticamente impostato su Automatico. Seleziona **[!UICONTROL Anteprima]** in modo da poter aprire una finestra del browser e visualizzare le scelte di risoluzione. |
    | Suffisso file codifica | Inserite un suffisso. Questo suffisso viene aggiunto al file video codificato. Potete inserire un trattino o un trattino basso nel nome; gli spazi bianchi e i caratteri speciali non sono consentiti. |
    | Altre impostazioni | Adobe Dynamic Media Classic determina automaticamente tutte le altre impostazioni di codifica in base alle linee guida per la codifica consigliate. |

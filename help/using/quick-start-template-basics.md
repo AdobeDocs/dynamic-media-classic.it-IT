@@ -10,10 +10,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ Le nozioni di base sui modelli sono file immagine a livelli dinamici e indirizza
 
 Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. Potete convertire un file statico contenente livelli, ad esempio un file di PSD con livelli, in un modello e creare modelli in Adobe Dynamic Media Classic. Potete creare livelli di testo nei modelli utilizzando i font caricati in Adobe Dynamic Media Classic. Dopo aver aggiunto il testo a un modello, è possibile formattarlo modificandone la giustificazione, il tipo di carattere, la dimensione e il colore.
 
-La pagina Parametri consente di convertire qualsiasi aspetto di un modello in un parametro indirizzabile. In questo modo, puoi modificare l’immagine a livelli da utilizzare o il valore di testo da utilizzare nel modello. I parametri vengono trasmessi con la stringa URL e possono essere modificati per personalizzare in modo dinamico l’immagine di risposta generata dal server immagini.
+La pagina Parametri consente di convertire qualsiasi aspetto di un modello in un parametro indirizzabile. In questo modo, puoi modificare l’immagine a livelli da utilizzare o il valore di testo da utilizzare nel modello. I parametri vengono passati con la stringa URL, consentendo di modificare qualsiasi parametro per personalizzare dinamicamente l’immagine di risposta generata dal server immagini.
 
 Vedi anche [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) video di formazione.
 
@@ -59,7 +59,7 @@ Per parametrizzare un livello, aprite il modello nella pagina Modello, quindi se
 
 ## 4. Pubblicare i modelli
 
-Quando si pubblica un modello, questo viene posizionato su Dynamic Medie Image Server in modo che possa essere consegnato in modo dinamico al sito Web o all&#39;applicazione. La pubblicazione attiva anche l’URL per chiamare il modello dai server immagini di Dynamic Medie al sito web o all’applicazione.
+Quando si pubblica un modello, questo viene posizionato su server immagini Dynamic Medie in modo che possa essere distribuito dinamicamente al sito Web o all&#39;applicazione. La pubblicazione attiva inoltre l&#39;URL per chiamare il modello dai server immagini di Dynamic Medie al sito Web o all&#39;applicazione.
 
 Assicuratevi di pubblicare tutte le immagini associate al modello.
 
@@ -69,4 +69,4 @@ Per pubblicare un modello, contrassegnalo per la pubblicazione e sulla barra di 
 
 Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblichi i modelli sui server immagini Dynamic Medie. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
 
-Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito immagine per la distribuzione del modello, quindi seleziona **[!UICONTROL Copia URL]**. Dopo aver copiato l’URL dalla pagina Anteprima, puoi utilizzarlo nel sito web o nell’applicazione. Consultate [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito immagine per la distribuzione del modello, quindi seleziona **[!UICONTROL Copia URL]**. Dopo aver copiato l&#39;URL dalla pagina Anteprima, è possibile utilizzarlo nel sito Web o nell&#39;applicazione. Consulta [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

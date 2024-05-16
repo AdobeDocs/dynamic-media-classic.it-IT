@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 12%
@@ -27,13 +27,13 @@ Vedi anche [Panoramica della piattaforma](https://s7d5.scene7.com/s7viewers/html
 
 I passaggi chiave del flusso di lavoro di Adobe Dynamic Media Classic sono i seguenti:
 
-* **Caricare e gestire le risorse** - Carica le risorse multimediali in Adobe Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, Puoi anche applicare i metadati alle risorse.
+* **Caricare e gestire le risorse**: carica le risorse multimediali in Adobe Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, Puoi anche applicare i metadati alle risorse.
 
-* **Creare rich media** : crea diverse configurazioni delle risorse, ad esempio eCatalog, Set di immagini, Set 360 gradi, Set di campioni, Set di file multimediali diversi, Modelli di base e Modelli FXG.
+* **Creare rich media**: crea diverse configurazioni delle risorse, ad esempio eCatalog, Set di immagini, Set 360 gradi, Set di campioni, Set di file multimediali diversi, Modelli di base e Modelli FXG.
 
-* **Pubblicare e amministrare** - Pubblicare risorse sulla rete SaaS di Adobe Dynamic Media Classic. Monitora lo stato delle risorse quando vengono pubblicate. Amministra i diritti utente e mantieni la sicurezza.
+* **Pubblicare e amministrare**: pubblica le risorse sulla rete SaaS di Adobe Dynamic Media Classic. Monitora lo stato delle risorse quando vengono pubblicate. Amministra i diritti utente e mantieni la sicurezza.
 
-* **Serve** - Distribuisci contenuti multimediali dalla rete Adobe Dynamic Media Classic SaaS a pagine web, applicazioni e dispositivi mobili; i contenuti multimediali sono ottimizzati in termini di prestazioni e vengono forniti con caching CDN. Adobe Dynamic Media Classic fornisce un URL per ogni risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
+* **Serve**: distribuzione di contenuti multimediali dalla rete Adobe Dynamic Media Classic SaaS a pagine web, applicazioni e dispositivi mobili; i contenuti multimediali sono ottimizzati in termini di prestazioni e vengono forniti con caching CDN. Adobe Dynamic Media Classic fornisce un URL per ogni risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
 
 ![Il processo del flusso di lavoro di Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
 

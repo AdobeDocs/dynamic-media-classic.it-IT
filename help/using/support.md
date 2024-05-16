@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 23%
+source-wordcount: '183'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle 
 | Forum della community | [Forum della community Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA (Service Level Agreement, accordi sui livelli di servizio) | [Servizi di supporto / Termini e condizioni](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Utenti supportati | Fino a dieci utenti per organizzazione possono essere designati come Utenti supportati, che possono aprire un caso con l’Assistenza clienti. |
-| Video di formazione e istruzioni Web in tempo reale | Incluse. |
+| Video di formazione e istruzioni Web in tempo reale | Incluso. |
 | Supporto telefonico | <ul><li>USA e Canada: 1-800-497-0335 </li><li>[Numeri di telefono per altre aree geografiche](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
@@ -37,8 +37,8 @@ Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle 
 Quando riferite i problemi all’assistenza tecnica, fornite anche le seguenti informazioni:
 
 * Nome dell’azienda Adobe Dynamic Media Classic.
-* Il vostro nome, numero di telefono e indirizzo e-mail.
+* Nome, numero di telefono e indirizzo di posta elettronica.
 * Applicazione, piattaforma e versione di Adobe Dynamic Media Classic.
-* La descrizione del problema e i passi necessari per riprodurlo.
+* Descrizione del problema e passaggi necessari per riprodurlo.
 * Messaggio di errore, se presente.
 * Tipo e versione del browser, se applicabile.

@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 23%
@@ -33,8 +33,8 @@ Identifica il vostro nome e nome dell’account, il nome utente (indirizzo e-mai
 
 ## Desktop
 
-* **Cancella cache immagini** - Rimuove dal computer tutti i file immagine Dynamic Medie memorizzati nella cache di Adobe.
-* **Cancella cache risorse** - Rimuove dal computer tutti i file di risorse Adobe Dynamic Medie memorizzati nella cache.
+* **Cancella cache immagini**: rimuove dal computer tutti i file immagine Dynamic Medie memorizzati nella cache di Adobe.
+* **Cancella cache risorse**: rimuove dal computer tutti i file di risorse di Adobe Dynamic Medie memorizzati nella cache.
 
 Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app desktop, puoi cancellare manualmente la cache direttamente dal file system. In base al sistema operativo in uso, accedi a:
 
@@ -72,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Browser
 
-* **[!UICONTROL Dimensione miniatura]** - Determina le dimensioni predefinite delle miniature in Visualizzazione griglia nel pannello Sfoglia.
-* **[!UICONTROL Visualizzazione predefinita libreria risorse]** - Determina se le risorse nella Libreria risorse per i set di build vengono visualizzate come miniature o per nome. Se dovete gestire grandi quantità di risorse nella libreria, è consigliabile visualizzarle per nome. Ad esempio, se state creando un eCatalog di grandi dimensioni contenente numerosi file PDF, potete visualizzare le risorse per nome per ridurre la lunghezza dell’elenco.
-* **[!UICONTROL Ordine di navigazione predefinito]** - Determina l’ordine in cui le risorse vengono visualizzate per impostazione predefinita nel pannello Sfoglia. Scegliete un criterio di ordinamento nel menu e specificate se l’ordine deve essere crescente o decrescente.
-* **[!UICONTROL Percorso predefinito per la navigazione]** : consente di impostare il percorso di navigazione sul valore predefinito, sull’ultima cartella visualizzata o su un percorso specifico da individuare e identificare. Potete inoltre impostare il percorso Sfoglia per ordinare file e cartelle in ordine ascendente o discendente.
-* **[!UICONTROL Visualizzazione Sfoglia predefinita]** - Determina se la vista griglia o la vista a elenco è quella predefinita visualizzata la prima volta che si apre il pannello Sfoglia.
-* **[!UICONTROL Visualizzazione schermata introduttiva]** - Determina se sono presenti schermate introduttive, inclusa la schermata introduttiva.
-* **[!UICONTROL Mostra descrizioni]** - Determina se le descrizioni comandi vengono visualizzate quando si sposta il puntatore su pulsanti, menu e collegamenti di spostamento. Le descrizioni descrivono gli elementi dell’interfaccia utente su schermo.
-* **[!UICONTROL Sfondo a scacchi]** - Visualizza un livello a scacchiera dietro le immagini, consentendo di vedere facilmente le aree trasparenti di un&#39;immagine con un canale alfa.
-* **[!UICONTROL Mostra dimensione file]** : visualizza la dimensione del file di una risorsa durante la navigazione.
-* **[!UICONTROL Includi FDU nella ricerca]** : deselezionata (impostazione predefinita) per migliorare le prestazioni del sistema per la maggior parte delle ricerche di metadati eseguite.
+* **[!UICONTROL Dimensione miniatura]**: determina le dimensioni predefinite delle miniature in Visualizzazione griglia nel pannello Sfoglia.
+* **[!UICONTROL Visualizzazione predefinita libreria risorse]**: determina se le risorse nella libreria delle risorse per i set di build vengono visualizzate come miniature o per nome. Se dovete gestire grandi quantità di risorse nella libreria, è consigliabile visualizzarle per nome. Ad esempio, se state creando un eCatalog di grandi dimensioni contenente numerosi file PDF, potete visualizzare le risorse per nome per ridurre la lunghezza dell’elenco.
+* **[!UICONTROL Ordine di navigazione predefinito]**: determina l’ordine in cui le risorse vengono visualizzate per impostazione predefinita nel pannello Sfoglia. Scegliete un criterio di ordinamento nel menu e specificate se l’ordine deve essere crescente o decrescente.
+* **[!UICONTROL Percorso predefinito per la navigazione]**: consente di impostare il percorso di navigazione sul valore predefinito, sull’ultima cartella visualizzata o su un percorso specifico da individuare e identificare. Potete inoltre impostare il percorso Sfoglia per ordinare file e cartelle in ordine ascendente o discendente.
+* **[!UICONTROL Visualizzazione Sfoglia predefinita]**: determina se Visualizzazione griglia o Visualizzazione elenco è la visualizzazione predefinita visualizzata la prima volta che si apre il pannello Sfoglia.
+* **[!UICONTROL Visualizzazione schermata introduttiva]**: determina se sono presenti schermate introduttive, inclusa la schermata introduttiva.
+* **[!UICONTROL Mostra descrizioni]**: determina se le descrizioni comandi vengono visualizzate quando si sposta il puntatore su pulsanti, menu e collegamenti di spostamento. Le descrizioni descrivono gli elementi dell’interfaccia utente su schermo.
+* **[!UICONTROL Sfondo a scacchi]**: visualizza un livello a scacchiera dietro le immagini, consentendo di vedere facilmente le aree trasparenti di un’immagine con un canale alfa.
+* **[!UICONTROL Mostra dimensione file]**: visualizza la dimensione del file di una risorsa durante la navigazione.
+* **[!UICONTROL Includi FDU nella ricerca]**: per migliorare le prestazioni del sistema per la maggior parte delle ricerche di metadati eseguite, deselezionata (impostazione predefinita).
 
   Se invece la maggior parte delle ricerche di metadati richiedono l’inclusione dei campi definiti dall’utente, potete selezionare e attivare questa opzione. In alternativa, invece di includere i campi definiti dall’utente, potete usare la Ricerca avanzata per consentire una ricerca più mirata e rapida.
 
@@ -89,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
   Consultate [Campi definiti dall’utente](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Tipo di ricerca di base]** - È possibile scegliere tra due opzioni: **[!UICONTROL Contiene]** cerca nella stringa completa il valore specificato; **[!UICONTROL Inizia con]** esegue la ricerca dall&#39;inizio della stringa e restituisce i risultati più rapidamente di **[!UICONTROL Contiene]**. Entrambe le opzioni sostituiscono il valore predefinito impostato in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali applicazione]** dall&#39;amministratore.
-* **[!UICONTROL Mostra feedback comando]** - Selezionare per attivare la visualizzazione delle richieste di comandi al server; deselezionare per disattivarla.
-* **[!UICONTROL Mostra finestra di dialogo durante esportazione]** - Selezionare per visualizzare una finestra di dialogo a comparsa durante un&#39;esportazione. Se deselezioni (disattivi) questa opzione, puoi comunque passare alla pagina Processi per recuperare i risultati dell’esportazione.
+* **[!UICONTROL Tipo di ricerca di base]**: puoi scegliere tra due opzioni: **[!UICONTROL Contiene]** cerca nella stringa completa il valore specificato; **[!UICONTROL Inizia con]** esegue la ricerca dall&#39;inizio della stringa e restituisce i risultati più rapidamente di **[!UICONTROL Contiene]**. Entrambe le opzioni sostituiscono il valore predefinito impostato in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali applicazione]** dall&#39;amministratore.
+* **[!UICONTROL Mostra feedback comando]**: seleziona per attivare la visualizzazione delle richieste di comandi al server; deseleziona per disattivarla.
+* **[!UICONTROL Mostra finestra di dialogo durante esportazione]**: consente di visualizzare una finestra di dialogo a comparsa durante un’esportazione. Se deselezioni (disattivi) questa opzione, puoi comunque passare alla pagina Processi per recuperare i risultati dell’esportazione.
 
 ## E-mail
 
-* **[!UICONTROL Opzioni e-mail]** : scegli come desideri che Adobe Dynamic Media Classic ti informi tramite e-mail quando i processi di caricamento e pubblicazione sono completati. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
-* **[!UICONTROL Ambito e-mail]** - Determina se si ricevono tutti i messaggi di posta elettronica per la società o solo quelli relativi ai processi di caricamento e pubblicazione avviati.
-* **[!UICONTROL Tipi di e-mail]** - Determina se sei informato quando vengono completati i processi di caricamento e pubblicazione.
+* **[!UICONTROL Opzioni e-mail]**: scegli come desideri che Adobe Dynamic Media Classic ti informi tramite e-mail quando i processi di caricamento e pubblicazione sono completati. Potete ricevere notifiche relative al completamento dei processi solo in caso di avvertenze o errori.
+* **[!UICONTROL Ambito e-mail]**: determina se si ricevono tutti i messaggi di posta elettronica per la società o solo quelli relativi ai processi di caricamento e pubblicazione avviati.
+* **[!UICONTROL Tipi di e-mail]**: determina se sei informato quando vengono completati i processi di caricamento e pubblicazione.
 
 ## Lingua
 
-* **[!UICONTROL Lingua preferita]** - Determina la lingua che si desidera utilizzare per l&#39;interfaccia.
+* **[!UICONTROL Lingua preferita]**: determina la lingua che desideri utilizzare per l’interfaccia.
 
 ## Password
 
-* **[!UICONTROL Password corrente]** - Immettere la password attuale.
-* **[!UICONTROL Nuova password]** - Immettere una nuova password valida. La password deve soddisfare i seguenti requisiti:
+* **[!UICONTROL Password corrente]**: immetti la password attuale.
+* **[!UICONTROL Nuova password]**: immetti una nuova password valida. La password deve soddisfare i seguenti requisiti:
    * Deve contenere tra 8 e 25 caratteri.
    * Contenere almeno una lettera minuscola.
    * Contenere almeno una lettera maiuscola.
    * Contenere almeno un numero.
-   * Contengono almeno uno dei seguenti caratteri speciali: `# $ & - _ : { }`
-* **[!UICONTROL Ridigitate la password]** - Immettere nuovamente la nuova password per confermare che la si sta immettendo correttamente.
-* **[!UICONTROL Scadenza password]** - Determina se la password scade dopo 72 giorni come misura di sicurezza. Se si seleziona Sì, viene richiesto di creare una password dopo 72 giorni.
+   * Contengono almeno uno dei seguenti caratteri speciali: `# $ &: _ : { }`
+* **[!UICONTROL Ridigitate la password]**: immetti nuovamente la nuova password per verificare che sia stata immessa correttamente.
+* **[!UICONTROL Scadenza password]**: determina se la password scade dopo 72 giorni come misura di sicurezza. Se si seleziona Sì, viene richiesto di creare una password dopo 72 giorni.

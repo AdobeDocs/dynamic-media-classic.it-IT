@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -92,13 +92,13 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Seleziona il rollover del set 360 gradi **[!UICONTROL Modifica]** pulsante.
 1. Effettuate una delle seguenti operazioni:
 
-   * **Rimozione di immagini** - Selezionare l&#39;immagine, quindi selezionare **[!UICONTROL Elimina]**.
+   * **Rimozione di immagini**: seleziona l’immagine, quindi fai clic su **[!UICONTROL Elimina]**.
 
-   * **Aggiunta di immagini** : trascina l’immagine in una cella.
+   * **Aggiunta di immagini**: trascina l’immagine in una cella.
 
-   * **Riordinamento delle righe (set 360 gradi bidimensionali)** - Selezionare una casella di selezione riga (a sinistra della riga) e quindi selezionare **[!UICONTROL Sposta riga in basso]** o **[!UICONTROL Sposta riga in alto]**.
+   * **Riordinamento delle righe (set 360 gradi bidimensionali)**: seleziona una casella di selezione della riga (a sinistra della riga), quindi seleziona **[!UICONTROL Sposta riga in basso]** o **[!UICONTROL Sposta riga in alto]**.
 
-   * **Aggiunta di righe e celle** - Immettere un numero nelle caselle Righe e Celle per determinare il numero di righe e il numero di celle in ogni riga.
+   * **Aggiunta di righe e celle**: immettere un numero nelle caselle Righe e Celle per determinare il numero di righe e il numero di celle in ogni riga.
 
 1. Al termine dell’operazione di modifica, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.

@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 30%
 
 ---
 
@@ -56,7 +56,7 @@ In questo esempio di sintassi URL (il collegamento non è attivo), noterai un nu
 
 ## Copiare il codice di incorporamento di un visualizzatore di set 360 gradi {#copying-the-embed-code-of-a-spin-set-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del set 360 gradi selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La funzione Incorpora codice permette di analizzare il codice visualizzatore del set 360 gradi selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 **Per copiare il codice di incorporamento di un visualizzatore di set 360 gradi:**
 

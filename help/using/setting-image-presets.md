@@ -10,20 +10,20 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 37%
+ht-degree: 34%
 
 ---
 
 # Configurazione predefiniti immagine{#setting-up-image-presets}
 
-Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Per capire come funzionano i predefiniti immagine, supponiamo che il sito web richieda che ogni immagine del prodotto sia visualizzata in due dimensioni diverse: 500 × 500 pixel e 150 × 150 pixel. Si creano due predefiniti per le immagini, uno denominato &quot;Ingrandisci&quot; per visualizzare le immagini a 500x500 pixel e uno denominato &quot;Miniatura&quot; per visualizzare le immagini a 150 × 150 pixel. Per distribuire immagini con dimensioni &quot;Ingrandisci&quot; e &quot;Miniatura&quot;, un server immagini Dynamic Medie cerca la definizione di &quot;Predefinito immagine ingrandita&quot; e &quot;Predefinito immagine miniatura&quot;. Quindi il server genera in modo dinamico un’immagine secondo le specifiche di ridimensionamento e formattazione di ciascun predefinito per immagini.
+Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Per comprendere il funzionamento dei predefiniti immagine, supponiamo che il sito Web richieda che ogni immagine del prodotto sia visualizzata in due dimensioni diverse: 500 × 500 pixel e 150 × 150 pixel. Si creano due predefiniti per le immagini, uno denominato &quot;Ingrandisci&quot; per visualizzare le immagini a 500x500 pixel e uno denominato &quot;Miniatura&quot; per visualizzare le immagini a 150 × 150 pixel. Per distribuire immagini con dimensioni &quot;Ingrandisci&quot; e &quot;Miniatura&quot;, un server immagini Dynamic Medie cerca la definizione di &quot;Predefinito immagine ingrandita&quot; e &quot;Predefinito immagine miniatura&quot;. Quindi il server genera in modo dinamico un’immagine secondo le specifiche di ridimensionamento e formattazione di ciascun predefinito per immagini.
 
 Adobe Dynamic Media Classic viene fornito con diversi predefiniti immagine &quot;best practice&quot; già configurati per l’utilizzo. Gli amministratori possono anche creare predefiniti per immagini. Per creare un predefinito per immagini, potete partire da zero o iniziare da uno esistente e salvarlo con un nuovo nome.
 
-Le immagini la cui dimensione viene ridotta quando vengono trasmesse da un server in modo dinamico possono perdere nitidezza e dettaglio. Per questa ragione, ciascun predefinito per immagini contiene controlli di formattazione per ottimizzare l’immagine quando questa viene trasmessa in una determinata dimensione. Grazie a tali controlli, le immagini trasmesse al sito Web o all’applicazione restano nitide e chiare.
+Le immagini la cui dimensione viene ridotta quando vengono trasmesse da un server in modo dinamico possono perdere nitidezza e dettaglio. Per questa ragione, ciascun predefinito per immagini contiene controlli di formattazione per ottimizzare l’immagine quando questa viene trasmessa in una determinata dimensione. Questi controlli garantiscono che le immagini siano chiare e nitide quando vengono inviate al sito Web o all&#39;applicazione.
 
 ## Creare un predefinito immagine {#creating-an-image-preset}
 
@@ -37,8 +37,8 @@ Se siete l’amministratore della società, potete creare dei predefiniti per im
 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Creare un predefinito immagine** - Seleziona **[!UICONTROL Aggiungi]**.
-   * **Modificare un predefinito immagine** : individua il predefinito immagine più simile a quello che desideri creare, quindi seleziona **[!UICONTROL Modifica]**.
+   * **Creare un predefinito immagine**: Seleziona **[!UICONTROL Aggiungi]**.
+   * **Modificare un predefinito immagine**: individua il predefinito immagine più simile a quello che desideri creare, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Immettete un nome per il predefinito per immagini.
 1. Immettete i valori Larghezza e Altezza in pixel. Tali valori determinano la dimensione in cui verranno trasmesse le immagini.
@@ -46,13 +46,13 @@ Se siete l’amministratore della società, potete creare dei predefiniti per im
 
    Adobe Dynamic Media Classic consiglia di avviare le seguenti opzioni di &quot;best practice&quot;:
 
-   * **[!UICONTROL Formato]** - Scegli JPEG o un altro formato che soddisfi le tue esigenze. Tutti i browser web supportano il formato immagine JPEG, che offre un buon equilibrio tra dimensioni ridotte dei file e qualità delle immagini. Tuttavia, le immagini JPEG utilizzano uno schema di compressione con perdita di dati che può introdurre artefatti di immagine indesiderati se l’impostazione di compressione è troppo bassa. Per questo motivo, Adobe Dynamic Media Classic consiglia di impostare la qualità di compressione (sul dispositivo di scorrimento) su 75. Questa impostazione offre il giusto compromesso tra qualità delle immagini e dimensione ridotta dei file.
+   * **[!UICONTROL Formato]**: scegli JPEG o un altro formato che soddisfi le tue esigenze. Tutti i browser supportano il formato immagine JPEG, che offre un buon compromesso tra dimensioni ridotte dei file e qualità delle immagini. Tuttavia, le immagini JPEG utilizzano uno schema di compressione con perdita di dati che può introdurre artefatti di immagine indesiderati se l’impostazione di compressione è troppo bassa. Per questo motivo, Adobe Dynamic Media Classic consiglia di impostare la qualità di compressione (sul dispositivo di scorrimento) su 75. Questa impostazione offre il giusto compromesso tra qualità delle immagini e dimensione ridotta dei file.
 
-   * **[!UICONTROL Nitidezza]** - Non selezionare Nitidezza (questo filtro di nitidezza offre un controllo inferiore rispetto a **[!UICONTROL Maschera di contrasto]** ).
+   * **[!UICONTROL Nitidezza]**: non selezionare Nitidezza (questo filtro di nitidezza offre un controllo inferiore rispetto a **[!UICONTROL Maschera di contrasto]** ).
 
-   * **[!UICONTROL Modalità di ricampionamento]** - Scegli **[!UICONTROL Bicubico]**.
+   * **[!UICONTROL Modalità di ricampionamento]**: Scegli **[!UICONTROL Bicubico]**.
 
-   * **[!UICONTROL Maschera di contrasto]** (USM) - Immettere le impostazioni seguenti:
+   * **[!UICONTROL Maschera di contrasto]** (USM): immettere le impostazioni seguenti:
 
    | Tipo predefinito | Dimensione | USM: Fattore | USM: Raggio | USM: Soglia |
    | --- | --- | --- | --- | --- |
@@ -65,11 +65,11 @@ Se siete l’amministratore della società, potete creare dei predefiniti per im
 
 Le opzioni consigliate di Adobe Dynamic Media Classic per la creazione di predefiniti immagine qui elencate sono generali. La nitidezza è altamente soggettiva. Queste impostazioni di &quot;best practice&quot; si basavano su un&#39;immagine primaria da 2000 × 2000; le impostazioni per i file primari più grandi o più piccoli possono essere diverse. Se si desidera regolare le impostazioni Maschera di contrasto, Adobe Dynamic Media Classic consiglia i seguenti intervalli:
 
-* **[!UICONTROL Quantità]** - Tra `.8` e `1.5`.
+* **[!UICONTROL Quantità]**: tra `.8` e `1.5`.
 
-* **[!UICONTROL Raggio]** - Tra `.6` e `2`.
+* **[!UICONTROL Raggio]**: tra `.6` e `2`.
 
-* **[!UICONTROL Soglia]** - Da `1` da a `6`.
+* **[!UICONTROL Soglia]**: Da `1` da a `6`.
 
 Per eliminare un predefinito immagine, selezionatelo nella schermata Predefiniti immagine, quindi selezionate **[!UICONTROL Elimina]**.
 

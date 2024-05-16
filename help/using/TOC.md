@@ -6,10 +6,10 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 20%
 + [È ora disponibile il nuovo accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
 + [Adobe Dynamic Medie newsletter archivio per Experience League](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro}
-   + [App Adobe Dynamic Media Classic Desktop - Ora disponibile](dynamic-media-classic-desktop-app.md)
+   + [App Adobe Dynamic Media Classic Desktop: ora disponibile](dynamic-media-classic-desktop-app.md)
    + [Informazioni su Adobe Dynamic Media Classic](introduction.md)
    + [Risorse per sviluppatori](developer-resources.md)
    + [Novità](whats-new.md)
@@ -114,7 +114,7 @@ ht-degree: 20%
    + [Gestire il contenuto del pannello informazioni nei set di immagini](info-panel-content-image-sets.md)
    + [Visualizza set di immagini](viewing-image-sets.md)
    + [Generazione automatica set di immagini](automated-image-set-generation.md)
-   + [Collegare un set di immagini a una pagina web](linking-image-set-web-page.md)
+   + [Collegare un set di immagini a una pagina Web](linking-image-set-web-page.md)
 + Set campioni {#swatch-sets}
    + [Avvio rapido: set di campioni](quick-start-swatch-sets.md)
    + [Includere destinazioni di zoom e mappe immagine nei set di campioni](including-zoom-targets-image-maps-swatch-sets.md)
@@ -151,7 +151,7 @@ ht-degree: 20%
    + [Impostare un predefinito visualizzatore set di file multimediali diversi](setting-mixed-media-set-viewer.md)
    + [Creare un set di file multimediali diversi](creating-mixed-media-set.md)
    + [Pubblicare un set di file multimediali diversi](publishing-mixed-media-set.md)
-   + [Collegare un set di file multimediali diversi a una pagina Web](linking-mixed-media-set-web.md)
+   + [Collegare un set di file multimediali diversi a una pagina web](linking-mixed-media-set-web.md)
 + Kit di strumentazione Adobe Analytics {#analytics-kit}
    + [Guida introduttiva: Integrazione di Adobe Dynamic Media Classic con Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Accedere ad Adobe Analytics](log-analytics.md)

@@ -6,10 +6,10 @@ role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
@@ -42,14 +42,14 @@ Una tabella di confronto delle funzioni tra [!DNL Dynamic Media] in [!DNL Adobe 
 | Integrazione dei visualizzatori con Analytics | ✓ | ✓ |
 | Modelli 1:1 | ✓<br>*Pacchetto multimediale personalizzato* | ✓ |
 | Configuratore visivo<br>(personalizzazione prodotto) | ✓<br>*Pacchetto multimediale personalizzato* | ✓ |
-| 3D - Experience Manager Sites<br>Componente WCM | ✓ | - |
-| 3D - Visualizzatore esperienza interattivo | ✓ | - |
-| 3D - Pubblicazione di file AR/VR e 3D di base | ✓ | - |
-| Caroselli | ✓ | - |
-| Contenuti multimediali interattivi/acquistabili - Immagini | ✓ | - |
-| Contenuti multimediali acquistabili/interattivi - Video | ✓ | - |
-| Ritaglio avanzato - Immagini | ✓ | - |
-| Ritaglio avanzato - Video | ✓ | - |
-| Selezione miniature video | ✓ | - |
-| Designer visualizzatore | ✓ | - |
-| Pubblicazione YouTube | ✓ | - |
+| 3D: Experience Manager Sites<br>Componente WCM | ✓ | : |
+| 3D: Visualizzatore esperienza interattivo | ✓ | : |
+| 3D: pubblicazione di file AR/VR e 3D di base | ✓ | : |
+| Caroselli | ✓ | : |
+| Supporti commerciali/interattivi: immagini | ✓ | : |
+| Contenuti multimediali acquistabili/interattivi: video | ✓ | : |
+| Ritaglio avanzato: immagini | ✓ | : |
+| Ritaglio avanzato: video | ✓ | : |
+| Selezione miniature video | ✓ | : |
+| Designer visualizzatore | ✓ | : |
+| Pubblicazione YouTube | ✓ | : |

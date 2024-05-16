@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 33%
+ht-degree: 27%
 
 ---
 
 # Guida introduttiva: eCatalog{#quick-start-ecatalogs}
 
-Un eCatalog è la versione digitale per il Web di un materiale originariamente destinato alla stampa, come ad esempio un catalogo, una brochure, un volantino, un manuale di un prodotto o un annuncio pubblicitario. Un eCatalog può essere visualizzato in un sito Web mediante un visualizzatore per eCatalog. Questo visualizzatore simula l&#39;esperienza di lettura del materiale stampato.
+Un eCatalog è una versione Web digitale del materiale stampato, ad esempio un catalogo, una brochure, un volantino, un manuale del prodotto o una circolare pubblicitaria. Un eCatalog viene visualizzato in un visualizzatore eCatalog in un sito Web. Questo visualizzatore simula l&#39;esperienza di lettura del materiale stampato.
 
 Consulta anche i seguenti video di formazione:
 
@@ -34,7 +34,7 @@ A seconda delle impostazioni selezionate per l&#39;eCatalog, il visualizzatore c
 * Spostarsi nel catalogo utilizzando il sommario o la visualizzazione griglia della pagina; spostarsi avanti o indietro selezionando il bordo centrale di una pagina.
 * Ingrandire, ridurre e scorrere per esaminare i vari elementi presenti in una pagina
 * Spostare il puntatore su un&#39;area della pagina, denominata Mappa immagine, in modo da visualizzare una finestra popup con informazioni su un elemento.
-* Selezionare un&#39;area di pagina per aprire una nuova pagina Web con ulteriori informazioni su un elemento.
+* Selezionare un&#39;area di pagina per aprire una nuova pagina Web contenente ulteriori informazioni su un elemento.
 * Scrivere una nota e allegarla a una pagina eCatalog
 * Tocca le icone della mappa immagine per avviare le pagine web correlate o i pannelli informazioni contestuali.
 * Usare gesti quali avvicinare le dita per ingrandire o passare il dito per voltare pagina
@@ -48,7 +48,7 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 
 >[!NOTE]
 >
->Se sei un utente in modalità Dynamic Medie - Scene7 e desideri utilizzare gli eCatalog, modifica il `pdfbrochure` valore in CRXDE Liti. Per farlo, in Adobe Experience Manager, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Generale]** > **[!UICONTROL CRXDE Liti]**. Nella struttura di navigazione del pannello sinistro, passa a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Se sei un utente Dynamic Medie: in modalità Scene7 e desideri utilizzare gli eCatalog, modifica il `pdfbrochure` valore in CRXDE Liti. Per farlo, in Adobe Experience Manager, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Generale]** > **[!UICONTROL CRXDE Liti]**. Nella struttura di navigazione del pannello sinistro, passa a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >Nel riquadro in basso a destra, nella **[!UICONTROL Proprietà]** , seleziona la scheda `jobParam` riga. Imposta il valore per `pdfbrochure` da `false` a `true`. Come in `pdfbrochure=true`
 >
@@ -82,7 +82,7 @@ Consulta [Creare un eCatalog](creating-ecatalog.md).
 
 ## 3. Creare mappe immagine
 
-Le mappe immagine aggiungono un altro aspetto alle pagine eCatalog. Una mappa immagine è l’area di una pagina che fornisce ulteriori informazioni su un elemento. Quando un utenti passa il puntatore su una mappa immagine, viene visualizzata una descrizione dell’elemento. Facendo clic su una mappa immagine si attiva un riferimento esterno per l’apertura di una nuova pagina Web con ulteriori informazioni sull’elemento corrispondente.
+Le mappe immagine aggiungono un altro aspetto alle pagine eCatalog. Una mappa immagine è l’area di una pagina che fornisce ulteriori informazioni su un elemento. Quando un utenti passa il puntatore su una mappa immagine, viene visualizzata una descrizione dell’elemento. Facendo clic su una mappa immagine viene attivato un riferimento esterno che apre una nuova pagina Web in cui è possibile ottenere ulteriori informazioni su un elemento.
 
 Per creare una mappa immagine, aprite la schermata eCatalog. Quindi vai al **[!UICONTROL Mappa pagine]** della schermata eCatalog e inquadrare la mappa con lo strumento Mappa rettangolare immagine o Mappa immagine poligonale. È possibile regolare la posizione e le dimensioni delle mappe immagine trascinando i bordi delle mappe con lo strumento Panning.
 
@@ -116,16 +116,16 @@ Consulta [Anteprima dei cataloghi elettronici nel visualizzatore eCatalog](previ
 
 ## 6. Pubblicare eCatalog e PDF associati
 
-La pubblicazione dell’eCatalog e dei PDF associati lo inserisce nei server immagini Dynamic Medie in modo che possa essere consegnato al sito web e all’applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzare questo URL per chiamare l&#39;eCatalog dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
+La pubblicazione dell&#39;eCatalog e dei PDF associati lo colloca nei server immagini Dynamic Medie in modo che possa essere consegnato al sito Web e all&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzare questo URL per chiamare l&#39;eCatalog dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
 
 Dopo aver contrassegnato l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, seleziona il pulsante Pubblica sulla barra di navigazione globale per avviare una pubblicazione. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
 
 Consulta [Pubblicare eCatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-## 7. Collegare un eCatalog a una pagina web
+## 7. Collegare un eCatalog a una pagina Web
 
-Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Medie Image Server. Puoi copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in Visualizzazione dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, la potete inserire nei vostri siti Web e nelle vostre applicazioni.
+Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Medie Image Server. Puoi copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in Visualizzazione dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, questa sarà disponibile per i siti Web e le applicazioni.
 
-Consultate il personale IT per inserire il collegamento all’eCatalog nella posizione appropriata sulla pagina Web. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore eCatalog e gli utenti possono sfogliare l&#39;eCatalog.
+Collabora con il tuo team IT per inserire il collegamento all’eCatalog nella posizione appropriata all’interno della pagina Web. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore eCatalog e gli utenti possono sfogliare l&#39;eCatalog.
 
 Consulta [Collegare un eCatalog a una pagina Web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).

@@ -10,7 +10,7 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 21%
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 # Utilizzare i file PSD{#working-with-psd-files}
 
-<!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
+<!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)**: Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on Web pages. -->
 
 I PSD (Photoshop Document Files) vengono spesso utilizzati in Adobe Dynamic Media Classic per la creazione di modelli. Quando carichi un file di PSD, puoi creare automaticamente un modello di Adobe Dynamic Media Classic dal file (seleziona l’opzione Crea modello nella schermata Carica ).
 
@@ -31,43 +31,43 @@ Le opzioni per il caricamento di file PSD si trovano in Opzioni Photoshop nella 
 
 Quando si carica un file PSD sono disponibili le seguenti opzioni:
 
-* **Opzioni di ritaglio** - Situato sotto **[!UICONTROL Opzioni di ritaglio]**. Seleziona **[!UICONTROL Rifila]** in modo da poter ritagliare automaticamente lo spazio vuoto dai bordi di un file PSD. Seleziona **[!UICONTROL Manuale]** per ritagliare i lati del file PSD:
+* **Opzioni di ritaglio**: situato sotto **[!UICONTROL Opzioni di ritaglio]**. Seleziona **[!UICONTROL Rifila]** in modo da poter ritagliare automaticamente lo spazio vuoto dai bordi di un file PSD. Seleziona **[!UICONTROL Manuale]** per ritagliare i lati del file PSD:
 
-   * **[!UICONTROL Rifila]** - Selezionare la **[!UICONTROL Rifila in base a]** e scegliere **[!UICONTROL Colore]** o **[!UICONTROL Trasparenza]**.
+   * **[!UICONTROL Rifila]**: seleziona la **[!UICONTROL Rifila in base a]** e scegliere **[!UICONTROL Colore]** o **[!UICONTROL Trasparenza]**.
 
   Se si sceglie **[!UICONTROL Colore]** , selezionare il menu Angolo e scegliere l&#39;angolo del PSD con il colore che meglio rappresenta lo spazio bianco che si desidera ritagliare.
 
   Trascinate il cursore per specificare una tolleranza da 0 a 1. Per rifilare in base al colore, l’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo del file PSD. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Per tagliare in base alla trasparenza, specificate 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
 
-   * **[!UICONTROL Manuale]** - Immetti il numero di pixel da ritagliare da un lato o da ciascun lato dell&#39;immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Si supponga, ad esempio, che l&#39;immagine visualizzi 150 ppi. Immettere 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra. Ogni lato dell&#39;immagine viene ritagliato, 0,5 pollici.
+   * **[!UICONTROL Manuale]**: immetti il numero di pixel da ritagliare da un lato o da ciascun lato dell’immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Si supponga, ad esempio, che l&#39;immagine visualizzi 150 ppi. Immettere 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra. Ogni lato dell&#39;immagine viene ritagliato, 0,5 pollici.
 
-* **Opzioni profilo colore** - Situato sotto **[!UICONTROL Opzioni profilo colore]**.
+* **Opzioni profilo colore**: situato sotto **[!UICONTROL Opzioni profilo colore]**.
 
    * **[!UICONTROL Mantenimento colore predefinito]**
 
-   * **[!UICONTROL Mantieni spazio colore originale]** - Mantiene lo spazio colore originale dell&#39;immagine.
+   * **[!UICONTROL Mantieni spazio colore originale]**: mantiene lo spazio colore originale dell’immagine.
 
-   * **[!UICONTROL Personalizza da]** > **[!UICONTROL A]** - Apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic. Consultate [Profili ICC](/help/using/icc-profiles.md).
+   * **[!UICONTROL Personalizza da]** > **[!UICONTROL A]**: apre i menu per scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic. Consultate [Profili ICC](/help/using/icc-profiles.md).
 
 * **Opzioni Photoshop**
 
-   * **[!UICONTROL Mantieni livelli]** - Ripete i livelli nel PSD, se presenti, in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in Vista dettagli (Detail View) e selezionate il pannello dei livelli. Consultate Visualizzare e modificare i livelli in un file PSD.
+   * **[!UICONTROL Mantieni livelli]**: copia i livelli nel PSD, se presenti, in singole risorse. I livelli delle risorse restano associati al file PSD. Per visualizzarli, aprite il file PSD in Vista dettagli (Detail View) e selezionate il pannello dei livelli. Consultate Visualizzare e modificare i livelli in un file PSD.
 
-   * **[!UICONTROL Crea modello]** - Crea un modello dai livelli nel file PSD.
+   * **[!UICONTROL Crea modello]**: crea un modello dai livelli nel file PSD.
 
-   * **[!UICONTROL Estrai testo]** - Estrae il testo in modo che gli utenti possano cercare il testo in un visualizzatore.
+   * **[!UICONTROL Estrai testo]**: estrae il testo in modo che gli utenti possano cercare il testo in un visualizzatore.
 
-   * **[!UICONTROL Estendi livelli a dimensioni sfondo]** - Estende le dimensioni dei livelli immagine strappati alle dimensioni del livello di sfondo.
+   * **[!UICONTROL Estendi livelli a dimensioni sfondo]**: estende le dimensioni dei livelli immagine strappati alle dimensioni del livello di sfondo.
 
-   * **[!UICONTROL Denominazione livelli]** - I livelli nel file PSD vengono caricati come immagini separate. Per denominare queste immagini in Adobe Dynamic Media Classic, scegliere una delle opzioni seguenti:
+   * **[!UICONTROL Denominazione livelli]**: i livelli nel file PSD vengono caricati come immagini separate. Per denominare queste immagini in Adobe Dynamic Media Classic, scegliere una delle opzioni seguenti:
 
-      * **[!UICONTROL Nome livello]** - Assegna alle immagini i nomi dei livelli nel file PSD. Ad esempio, un livello denominato Price Tag nel file PSD originale diventa un’immagine denominata Price Tag. Tuttavia, se i nomi dei livelli nel file PSD sono nomi di livello predefiniti di Photoshop (Sfondo, Livello 1, Livello 2 e così via), le immagini vengono denominate in base ai numeri dei livelli nel file PSD. <!-- not their default layer names -->
+      * **[!UICONTROL Nome livello]**: assegna alle immagini il nome del livello nel file PSD. Ad esempio, un livello denominato Price Tag nel file PSD originale diventa un’immagine denominata Price Tag. Tuttavia, se i nomi dei livelli nel file PSD sono nomi di livello predefiniti di Photoshop (Sfondo, Livello 1, Livello 2 e così via), le immagini vengono denominate in base ai numeri dei livelli nel file PSD. <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop e numero livello]** - Assegna alle immagini un nome dopo il numero del livello nel file PSD, ignorando i nomi dei livelli originali. Le immagini vengono denominate con il nome file di Photoshop a cui viene aggiunto un numero di livello. Ad esempio, il secondo livello di un file denominato `Spring Ad.psd` è denominato `Spring Ad_2` anche se aveva un nome non predefinito in Photoshop.
+      * **[!UICONTROL Photoshop e numero livello]**: assegna alle immagini un nome dopo il numero del livello nel file PSD, ignorando i nomi dei livelli originali. Le immagini vengono denominate con il nome file di Photoshop a cui viene aggiunto un numero di livello. Ad esempio, il secondo livello di un file denominato `Spring Ad.psd` è denominato `Spring Ad_2` anche se aveva un nome non predefinito in Photoshop.
 
-      * **[!UICONTROL Photoshop e nome livello]** - Assegna alle immagini un nome dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop. Ad esempio, un livello denominato `Price Tag` in un file PSD denominato `SpringAd` è denominato `Spring Ad_Price Tag`. Un livello con il nome di default Livello 2 è chiamato `Spring Ad_2`.
+      * **[!UICONTROL Photoshop e nome livello]**: assegna un nome alle immagini dopo il file PSD seguito dal nome o dal numero del livello. Il numero del livello viene usato se il livello nel file PSD ha un nome predefinito di Photoshop. Ad esempio, un livello denominato `Price Tag` in un file PSD denominato `SpringAd` è denominato `Spring Ad_Price Tag`. Un livello con il nome di default Livello 2 è chiamato `Spring Ad_2`.
 
-   * **[!UICONTROL Ancoraggio]** : specifica in che modo le immagini vengono ancorate nei modelli generati dalla composizione a livelli prodotta dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. Un ancoraggio centrale consente di utilizzare immagini sostitutive in grado di riempire lo stesso spazio, indipendentemente dalle proporzioni dell&#39;immagine sostitutiva. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
+   * **[!UICONTROL Ancoraggio]**: specifica in che modo le immagini vengono ancorate nei modelli generati dalla composizione a livelli prodotta dal file PSD. Per impostazione predefinita, la posizione di ancoraggio è al centro. Un ancoraggio centrale consente di utilizzare immagini sostitutive in grado di riempire lo stesso spazio, indipendentemente dalle proporzioni dell&#39;immagine sostitutiva. In questo modo, facendo riferimento al modello e utilizzano la sostituzione mediante parametri, le immagini sostitutive con proporzioni diverse occupano lo stesso spazio in modo efficace. Usate un’impostazione diversa se la vostra applicazione richiede che le immagini sostitutive riempiano lo spazio allocato nel modello.
 
 ## Visualizzare e modificare i livelli in un file PSD {#viewing-and-editing-layers-in-a-psd-file}
 

@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 52%
@@ -98,6 +98,6 @@ Vedi anche [Specificare le opzioni di esportazione disponibili per gli utenti di
 1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione Media Portal]** > **[!UICONTROL Gruppi]**.
 1. Nella pagina dell’elenco Gruppi, selezionate un gruppo e modificatelo o eliminatelo.
 
-   **Modificare un gruppo** - Seleziona **[!UICONTROL Modifica]** e quindi scegliere le opzioni nella finestra di dialogo Modifica gruppo.
+   **Modificare un gruppo**: Seleziona **[!UICONTROL Modifica]** e quindi scegliere le opzioni nella finestra di dialogo Modifica gruppo.
 
-   **Eliminare un gruppo** - Seleziona **[!UICONTROL Elimina]**.
+   **Eliminare un gruppo**: Seleziona **[!UICONTROL Elimina]**.

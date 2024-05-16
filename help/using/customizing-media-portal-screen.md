@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 16%
@@ -23,21 +23,21 @@ Le impostazioni di stile di Media Portal consentono di personalizzare la scherma
 
 Per accedere alle impostazioni di stile, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione Media Portal]** > **[!UICONTROL Impostazioni stile]**. Accertati di selezionare **[!UICONTROL Salva]** per salvare le impostazioni dopo averle create. Puoi selezionare **[!UICONTROL Ripristina]** per ripristinare le impostazioni predefinite. Mentre effettuate le scelte, il pannello Anteprima mostra come appaiono.
 
-* **[!UICONTROL Logo]** - Seleziona **[!UICONTROL Sfoglia]** e quindi scegliere un elemento grafico nella finestra Seleziona immagine logo.
+* **[!UICONTROL Logo]**: Seleziona **[!UICONTROL Sfoglia]** e quindi scegliere un elemento grafico nella finestra Seleziona immagine logo.
 
-* **[!UICONTROL Applicazione]** - Creare una fusione di colori sfumati effettuando le scelte sui menu dei colori sfumatura di sfondo.
+* **[!UICONTROL Applicazione]**: consente di creare una fusione di colori sfumati effettuando scelte nei menu dei colori sfumatura di sfondo.
 
-* **[!UICONTROL Albero]** - Scegliere un colore di rollover (il colore visualizzato quando si sposta il puntatore su un elemento) e un colore di selezione (il colore visualizzato quando si seleziona un elemento).
+* **[!UICONTROL Albero]**: scegliere un colore di rollover (il colore visualizzato quando si sposta il puntatore su un elemento) e un colore di selezione (il colore visualizzato quando si seleziona un elemento).
 
-* **[!UICONTROL Accordion]** - Scegliere i colori di sfondo, lo stile del bordo, il rollover e i colori selezionati per il pannello a soffietto visualizzato sul lato destro dello schermo nella visualizzazione Dettagli.
+* **[!UICONTROL Accordion]**: scegli i colori di sfondo, lo stile del bordo e il rollover e i colori selezionati per il pannello a soffietto visualizzato sul lato destro dello schermo nella vista Dettagli.
 
-* **[!UICONTROL Intestazione Accordion]** - Scegli se rendere il testo nel grassetto dell’intestazione del Pannello a soffietto.
+* **[!UICONTROL Intestazione Accordion]**: scegli se creare il testo nel grassetto dell’intestazione del Pannello a soffietto.
 
-* **[!UICONTROL Datagrid]** - Scegliere i colori per la riga di intestazione nelle griglie dati.
+* **[!UICONTROL Datagrid]**: scegli i colori per la riga di intestazione nelle griglie dati.
 
-* **[!UICONTROL Avviso]** - Scegliere un colore di sfondo per le finestre di messaggio di avviso.
+* **[!UICONTROL Avviso]**: consente di scegliere un colore di sfondo per le finestre dei messaggi di avviso.
 
-* **[!UICONTROL Barra di avanzamento]** : scegli un colore per la barra che indica l’avanzamento dei caricamenti e dei download.
+* **[!UICONTROL Barra di avanzamento]**: scegli un colore per la barra che indica l’avanzamento dei caricamenti e dei download.
 
 Affinché gli utenti di Media Portal possano visualizzare le impostazioni di stile scelte, devono accodare `?company=(company name)` all’URL con cui accedono a Media Portal. Ad esempio, per visualizzare le impostazioni di stile, gli utenti di Media Portal che accedono alla società PortalCo visitano il sito:
 

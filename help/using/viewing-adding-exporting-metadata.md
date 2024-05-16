@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 36%
@@ -31,11 +31,11 @@ Per ulteriori informazioni sui metadati incorporati, consulta [Piattaforma metad
 
 Per visualizzare i metadati di una risorsa, apri la risorsa in Vista dettagli e tocca il pannello Metadati. Per selezionare un set di campi di metadati, scegliere un&#39;opzione dal menu Visualizzazione metadati. Adobe Dynamic Media Classic offre le seguenti visualizzazioni metadati:
 
-* **Vista compatta** - Un elenco di base di valori.
+* **Vista compatta**: elenco di base di valori.
 
-* **IPTC** - Valori definiti dal Consiglio internazionale delle telecomunicazioni di stampa.
+* **IPTC**: valori definiti dal Consiglio internazionale delle telecomunicazioni della stampa.
 
-* **XMP** - Valori definiti dal programma di metadati estensibili.
+* **XMP**: valori definiti dal programma di metadati estensibili.
 
 Gli amministratori possono creare ulteriori visualizzazioni di metadati, Queste visualizzazioni vengono visualizzate anche nel menu Visualizzazioni metadati.
 
@@ -185,13 +185,13 @@ Il sistema genera automaticamente uno schema personalizzato per i campi definiti
 
 L’Editor schema metadati offre una modalità grafica per aggiungere o modificare uno schema aziendale personalizzato all’interno di Adobe Dynamic Media Classic. Un prefisso, uno spazio dei nomi e un elenco di proprietà definiscono uno schema.
 
-* **[!UICONTROL Nome]** - Nome interfaccia utente per lo schema. Utilizzato per identificare le proprietà in nelle visualizzazioni metadati e in Ricerca avanzata. Simile alle sezioni XMP come ad esempio Base, IPTC, PDF.
+* **[!UICONTROL Nome]**: nome dell’interfaccia utente dello schema. Utilizzato per identificare le proprietà in nelle visualizzazioni metadati e in Ricerca avanzata. Simile alle sezioni XMP come ad esempio Base, IPTC, PDF.
 
-* **[!UICONTROL Prefisso]** - Identificatore univoco tecnico dello schema. Limitato alle lettere a-z e A-Z. Il prefisso non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato quando i metadati di una risorsa vengono memorizzati nel blocco XMP e nel database. Il prefisso identifica in modo univoco i campi di metadati nelle query di ricerca dei metadati sul server di metadati o durante l’importazione.
+* **[!UICONTROL Prefisso]**: identificatore univoco tecnico dello schema. Limitato alle lettere a-z e A-Z. Il prefisso non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato quando i metadati di una risorsa vengono memorizzati nel blocco XMP e nel database. Il prefisso identifica in modo univoco i campi di metadati nelle query di ricerca dei metadati sul server di metadati o durante l’importazione.
 
-* **[!UICONTROL Namespace]** - Identificatore univoco tecnico per lo schema, in genere un URL nel modulo `https://your.company.com/name/version/`. Per degli esempi, consultate l’elenco degli schemi standard. Lo spazio dei nomi non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato per memorizzare i metadati nel blocco XMP.
+* **[!UICONTROL Namespace]**: identificatore univoco tecnico per lo schema, in genere un URL nel modulo `https://your.company.com/name/version/`. Per degli esempi, consultate l’elenco degli schemi standard. Lo spazio dei nomi non è visibile nell’interfaccia utente di Adobe Dynamic Media Classic, ma viene utilizzato per memorizzare i metadati nel blocco XMP.
 
-* **[!UICONTROL Descrizione]** - Descrizione in formato libero dello schema.
+* **[!UICONTROL Descrizione]**: descrizione in formato libero dello schema.
 
 >[!NOTE]
 >

@@ -10,7 +10,7 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 48%
@@ -27,9 +27,9 @@ Tutti i visualizzatori zoom includono pulsanti per applicare lo zoom in avanti, 
 
 Adobe Dynamic Media Classic offre i seguenti predefiniti visualizzatore zoom:
 
-* **Visualizzatore zoom: di base** - Fornisce uno zoom di base sull&#39;immagine originale.
+* **Visualizzatore zoom: di base**: fornisce uno zoom di base sull’immagine originale.
 
-* **Visualizzatore zoom: a comparsa** - Visualizza una seconda immagine dell&#39;area ingrandita accanto all&#39;immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
+* **Visualizzatore zoom: a comparsa**: visualizza una seconda immagine dell’area ingrandita accanto all’immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
 
 Quando calcolate l’utilizzo di larghezza di banda totale per questo visualizzatore, tenete presente che nel visualizzatore vengono caricate sia l’immagine principale che l’immagine a comparsa. Le dimensioni dell’immagine a comparsa dipendono da quelle dell’immagine principale (larghezza e altezza dell’area di visualizzazione) e dal fattore di zoom. Per impedire che le dimensioni del file dell’immagine a comparsa diventino eccessive, bilanciate questi due valori: se le dimensioni dell’immagine principale sono grandi, riducete il fattore di zoom. I valori Larghezza a comparsa e Altezza comparsa determinano le dimensioni della finestra a comparsa ma non dell’immagine a comparsa caricata nel visualizzatore.
 
@@ -37,20 +37,20 @@ Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel,
 
 Adobe Dynamic Media Classic consiglia i seguenti parametri per i predefiniti visualizzatore zoom a comparsa:
 
-* **Dimensioni immagine ingrandite** - circa 1500 x 1500 pixel, senza superare i 2000 x 2000 pixel.
+* **Dimensioni immagine ingrandite**: circa 1500 x 1500 pixel, senza superare i 2000 x 2000 pixel.
 
-* **Dimensioni immagine** - 100 KB o meno, non superare i 150 KB (comprimere il file per mantenerlo sotto i 150 KB).
+* **Dimensioni immagine**: 100 KB o meno, non superare i 150 KB (comprimere il file per mantenerlo sotto i 150 KB).
 
-* **Visualizzatore zoom: personalizzato** - Zoom guidato o non guidato con immagini, set di immagini con più viste o set di campioni colore.
+* **Visualizzatore zoom: personalizzato**: fornisce uno zoom guidato o non guidato con immagini, set di immagini con più viste o set di campioni colore.
 
 ## Creare e modificare i predefiniti visualizzatore zoom {#creating-and-editing-zoom-viewer-presets}
 
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Effettuate una delle seguenti operazioni:
 
-   * **Creare un predefinito** - Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli un Visualizzatore zoom, quindi seleziona **[!UICONTROL Aggiungi]**. Immettete un nome per il predefinito nella casella Nome predefinito.
+   * **Creare un predefinito**: Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli un Visualizzatore zoom, quindi seleziona **[!UICONTROL Aggiungi]**. Immettete un nome per il predefinito nella casella Nome predefinito.
 
-   * **Modificare un predefinito** - Selezionate un predefinito visualizzatore zoom, quindi selezionate **[!UICONTROL Modifica]**.
+   * **Modificare un predefinito**: seleziona un predefinito per visualizzatore zoom, quindi fai clic su **[!UICONTROL Modifica]**.
 
 1. Specificate le impostazioni desiderate.
 

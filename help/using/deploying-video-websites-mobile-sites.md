@@ -10,16 +10,16 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
 # Implementare i video nei siti Web e siti mobili{#deploying-video-to-your-websites-and-mobile-sites}
 
-I siti Web, i siti mobili e le applicazioni desktop accedono ai contenuti del server Adobe Dynamic Media Classic, incluso il video, utilizzando stringhe URL o codice incorporato. Adobe Dynamic Media Classic attiva queste stringhe URL durante il processo di pubblicazione. Per inserire la stringa URL o il codice da incorporare per il video nelle pagine web, nelle pagine mobili e nelle applicazioni desktop, copialo da Adobe Dynamic Media Classic.
+I siti Web, i siti mobili e le applicazioni desktop accedono ai contenuti del server Adobe Dynamic Media Classic, incluso il video, utilizzando stringhe URL o codice incorporato. Adobe Dynamic Media Classic attiva queste stringhe URL durante il processo di pubblicazione. Per inserire la stringa URL o il codice da incorporare per il video nelle pagine Web, nelle pagine mobili e nelle applicazioni desktop, copialo da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -31,9 +31,9 @@ La pubblicazione di un video consente ai server Adobe Dynamic Media Classic di d
 
 Esistono due metodi diversi per pubblicare il video:
 
-* **Pubblica i video automaticamente e immediatamente al caricamento** - Come parte del processo di caricamento dei video, Adobe Dynamic Media Classic può pubblicare automaticamente i video caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
+* **Pubblica i video automaticamente e immediatamente al caricamento**: come parte del processo di caricamento dei video, Adobe Dynamic Media Classic può pubblicare automaticamente i video quando vengono caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
 
-* **Pubblica video manualmente dopo il caricamento** - Se non desideri pubblicare subito i video, puoi pubblicarli manualmente in qualsiasi momento.
+* **Pubblica video manualmente dopo il caricamento**: se non desideri pubblicare subito i video, puoi pubblicarli manualmente in qualsiasi momento.
 
 Dopo la pubblicazione dei video, Adobe Dynamic Media Classic attiva le stringhe URL per la pagina HTML o il codice dell’applicazione.
 
@@ -46,7 +46,7 @@ Dopo la pubblicazione dei video, Adobe Dynamic Media Classic attiva le stringhe 
 
 ## Collegare l’URL di un video a un sito mobile o a un sito web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Quando pubblichi un video, puoi ottenere l’URL associato da utilizzare nel sito web, nel sito mobile o nell’applicazione desktop. Usate l’URL del video per visualizzare il video in una finestra a comparsa o modale sopra alla pagina Web.
+Quando pubblichi un video, puoi ottenere l’URL associato da utilizzare nel sito web, nel sito mobile o nell’applicazione desktop. Utilizzare l&#39;URL del video quando si desidera visualizzare il video in una finestra popup o modale nella parte superiore della pagina Web.
 
 Quando un cliente seleziona il collegamento, il dispositivo, la larghezza di banda e le dimensioni dello schermo vengono rilevati automaticamente. Viene visualizzato il video corretto da riprodurre con un visualizzatore predefinito per desktop o sul lettore nativo del dispositivo smartphone e tablet.
 
@@ -75,11 +75,11 @@ Vedi anche [Incorporare il visualizzatore video in una pagina web](deploying-vid
 
 ## Incorporare il visualizzatore video in una pagina web {#embedding-the-video-viewer-on-a-web-page}
 
-Per riprodurre il video incorporato nella pagina Web, utilizzate la funzione Incorpora codice. Potete copiare il codice da incorporare negli Appunti per poi incollarlo nelle pagine Web. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+Utilizzare la funzione Incorpora codice per riprodurre il video incorporato nella pagina Web. Il codice da incorporare viene copiato negli Appunti in modo da poterlo incollare nelle pagine Web. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 Vedi anche [Collegare l’URL di un video a un sito mobile o a un sito web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**Per incorporare il visualizzatore video in una pagina web:**
+**Per incorporare il visualizzatore video in una pagina Web:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Video]**, o **[!UICONTROL Set video adattivo]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set video adattivo di cui desiderate copiare il codice da incorporare.
@@ -103,7 +103,7 @@ Vedi anche [Collegare l’URL di un video a un sito mobile o a un sito web](depl
    La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 1. seleziona **[!UICONTROL Chiudi]**.
-1. Incollate il codice da incorporare nelle pagine Web.
+1. Incolla il codice da incorporare nelle pagine Web.
 
 ### Implementare il codice di incorporamento per utilizzare video HTML5 con risorse video MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -185,7 +185,7 @@ Il *fotogramma poster* è il fotogramma iniziale che viene visualizzato nei visu
 
 Potete applicare al fotogramma poster i modificatori di immagini. Ad esempio, potete ritagliare il fotogramma poster o renderlo trasparente. Per modificare il fotogramma poster, aprite la schermata di configurazione del visualizzatore per video e inserite i modificatori nella sezione Modificatori immagini poster. 
 
-Consulta [Aggiungere o modificare un predefinito visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Consulta [Aggiungere o modificare un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consulta [Guida a Image Server](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 

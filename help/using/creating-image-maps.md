@@ -10,23 +10,23 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
 # Creare mappe immagine {#creating-image-maps}
 
-Una mappa immagine è un’area su un’immagine, una pagina eCatalog o un’immagine in un set 360 gradi che visualizza un pannello di rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, può essere avviata una pagina Web contenente ulteriori informazioni su un prodotto. Quando l&#39;utente sposta il puntatore su una mappa immagine, viene visualizzata una struttura.
+Una mappa immagine è un’area su un’immagine, una pagina eCatalog o un’immagine in un set 360 gradi che visualizza un pannello di rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, viene avviata una pagina Web per consentire all&#39;utente di ottenere ulteriori informazioni su un prodotto. Quando l&#39;utente sposta il puntatore su una mappa immagine, viene visualizzata una struttura.
 
 Oltre alla possibilità di creare mappe immagine in Adobe Dynamic Media Classic, puoi anche creare mappe immagine durante la progettazione di un catalogo in Adobe Acrobat o Adobe InDesign.
 
 Quando create le mappe immagine, potete effettuare una delle seguenti operazioni:
 
 * Immettere testo di rollover.
-* Immettere JavaScript e URL per avviare pagine Web.
+* Immettere JavaScript e URL per l&#39;avvio di pagine Web.
 * Creare modelli URL per le mappe immagine.
 * Copiare le mappe immagine in altre immagini, pagine di eCatalog o set 360 gradi.
 * Esportare le mappe immagine in CSV o XML.
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 Inserisci tutti i valori che non cambiano tra le mappe immagine nel modello URL. Nella colonna URL dell’elenco Mappa immagine vanno invece aggiunti solo i valori che variano da mappa immagine a mappa immagine. Ad esempio:
 
-* Modello URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* Valore URL - `product.htm`
-* URL effettivo generato - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* Modello URL: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* Valore URL: `product.htm`
+* URL effettivo generato: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Adobe Dynamic Media Classic Per impostazione predefinita, il modello URL include un gestore JavaScript proprietario denominato `loadProduct` che apre una nuova finestra con la destinazione URL. Tuttavia, puoi utilizzare qualsiasi codice JavaScript per sostituire questo gestore JavaScript o uno dei seguenti gestori Adobe Dynamic Media Classic:
 
@@ -177,11 +177,11 @@ La pagina Editor mappa (per le immagini e i set 360 gradi) e la scheda Mappe pag
 
 ## Definire altre azioni per le mappe immagine {#defining-other-actions-for-image-maps}
 
-È possibile selezionare **[!UICONTROL Spettacolo]** e scegliere **[!UICONTROL Altre azioni]** per attivare azioni diverse dal rollover di testo e dagli avvii di pagine web. Potete fare sì che un’azione venga avviata quando l’utente passa il puntatore su una mappa immagine. Queste azioni sono attributi definiti per le mappe immagine sul lato client dalle specifiche HTML del World Wide Web Consortium. Includono:
+È possibile selezionare **[!UICONTROL Spettacolo]** e scegliere **[!UICONTROL Altre azioni]** per attivare azioni diverse dal rollover di testo e dagli avvii di pagine Web. Potete fare sì che un’azione venga avviata quando l’utente passa il puntatore su una mappa immagine. Queste azioni sono attributi definiti per le mappe immagine sul lato client dalle specifiche HTML del World Wide Web Consortium. Includono:
 
 * **`accesskey`**: attiva un’azione quando l’utente preme un tasto specifico sulla tastiera.
 
-* **`onfocus`**: attiva un evento quando la Mappa immagine viene attivata dal cursore, da una scheda o premendo un tasto di accesso. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine viene resa attiva e chiuderla quando la mappa è resa inattiva.
+* **`onfocus`**: attiva un evento quando la Mappa immagine viene attivata dal cursore, da una scheda o premendo un tasto di accesso. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine diventa attiva e chiuderla quando la mappa immagine perde lo stato attivo.
 
 * **`onblur`**: attiva un evento quando la Mappa immagine perde lo stato attivo, a causa del cursore o della tabulazione.
 

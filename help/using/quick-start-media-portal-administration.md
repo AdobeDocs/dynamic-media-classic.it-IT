@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 Media Portal consente alle aziende di acquisire, controllare e distribuire facilmente le risorse approvate ai partner e ai canali esterni e agli utenti interni di un’azienda. Questo ambiente &quot;self-service&quot; basato su browser offre agli utenti di Media Portal &quot;viste&quot; controllate dall’amministratore nelle risorse Adobe Dynamic Media Classic per accedere facilmente a, sfogliare, cercare, visualizzare in anteprima ed esportare le risorse in formati approvati dall’azienda.
 
-In qualità di amministratore, potete definire il modo in cui gli utenti possono visualizzare, accedere e usare le risorse in Media Portal. Inoltre, potete personalizzare l’interfaccia di Media Portal in conformità con il sito Web e il marchio dell’azienda. È possibile specificare il carattere, il colore e la dimensione del carattere e incorporare elementi di branding, ad esempio logo, nell&#39;interfaccia Media Portal.
+In qualità di amministratore, potete definire il modo in cui gli utenti possono visualizzare, accedere e usare le risorse in Media Portal. Inoltre, puoi personalizzare l’interfaccia Media Portal in base al tuo sito web e marchio. È possibile specificare il carattere, il colore e la dimensione del carattere e incorporare elementi di branding, ad esempio logo, nell&#39;interfaccia Media Portal.
 
 Guarda i seguenti video di formazione:
 
@@ -35,7 +35,7 @@ La Guida introduttiva riportata di seguito è stata progettata per consentirti d
 
 ## 1. Comprendere i ruoli utente di Media Portal
 
-Gli utenti di Media Portal hanno tre ruoli: utente, collaboratore e utente-collaboratore. A ciascun ruolo è associato uno specifico set di operazioni consentite. Ad esempio, un collaboratore può rinominare ed eliminare file e cartelle, mentre questo non è consentito a un utente. È importante comprendere i diversi ruoli: quando si aggiungono nuovi utenti sarà possibile assegnare a ciascuno le responsabilità adeguate. 
+Gli utenti di Media Portal possono avere tre ruoli: utente, collaboratore e utente-collaboratore. A ciascun ruolo è associato uno specifico set di operazioni consentite. Ad esempio, un collaboratore può rinominare ed eliminare file e cartelle, mentre questo non è consentito a un utente. È importante comprendere i diversi ruoli: quando si aggiungono nuovi utenti sarà possibile assegnare a ciascuno le responsabilità adeguate. 
 
 Consultate [Ruoli utenti di Media Portal](media-portal-user-roles.md#media_portal_user_roles).
 

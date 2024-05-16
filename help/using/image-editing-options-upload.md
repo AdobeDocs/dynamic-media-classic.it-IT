@@ -10,10 +10,10 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -34,17 +34,17 @@ Queste opzioni si trovano nella pagina Carica di **[!UICONTROL Opzioni di modifi
 
 È possibile ritagliare automaticamente i pixel dello spazio vuoto da un&#39;immagine. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni di ritaglio]**. In **[!UICONTROL Ritaglio]** elenco a discesa, scegliere **[!UICONTROL Rifila]**. A questo punto, scegliete le seguenti opzioni:
 
-* **[!UICONTROL Rifila in base a]** - Da questo elenco a discesa, scegliere se ritagliare in base al colore o alla trasparenza:
+* **[!UICONTROL Rifila in base a]**: da questo elenco a discesa, scegli se ritagliare in base al colore o alla trasparenza:
 
-   * **[!UICONTROL Colore]** - Scegli la **[!UICONTROL Colore]** opzione. Quindi, dalla sezione **[!UICONTROL Angolo]** dall&#39;elenco a discesa, selezionare l&#39;angolo dell&#39;immagine con il colore che meglio rappresenta lo spazio bianco che si desidera ritagliare.
+   * **[!UICONTROL Colore]**: scegli il **[!UICONTROL Colore]** opzione. Quindi, dalla sezione **[!UICONTROL Angolo]** dall&#39;elenco a discesa, selezionare l&#39;angolo dell&#39;immagine con il colore che meglio rappresenta lo spazio bianco che si desidera ritagliare.
 
-   * **[!UICONTROL Trasparenza]** - Scegliere l&#39;opzione Trasparenza.
+   * **[!UICONTROL Trasparenza]**: scegli l’opzione Trasparenza.
 
-* **[!UICONTROL Tolleranza]** - Trascinate il dispositivo di scorrimento per specificare una tolleranza da 0 a 1:
+* **[!UICONTROL Tolleranza]**: trascina il cursore per specificare una tolleranza da 0 a 1:
 
-   * **Rifilatura in base al colore** - Specificate 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo dell&#39;immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+   * **Rifilatura in base al colore**: specifica 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
 
-   * **Rifilatura basata sulla trasparenza** - Specificate 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
+   * **Rifilatura basata sulla trasparenza**: specifica 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
 
 ## Ritaglio manuale dai lati delle immagini
 
@@ -54,11 +54,11 @@ Per ritagliare manualmente dai lati di un’immagine, scegliete Manuale dal menu
 
 Per selezionare uno spazio colore per l&#39;immagine, scegliete un&#39;opzione Profilo colore:
 
-* **[!UICONTROL Converti in sRGB]** - Converte in sRGB (rosso standard, verde, blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini sulle pagine Web.
+* **[!UICONTROL Converti in sRGB]**: viene convertito in sRGB (rosso standard, verde, blu). sRGB è lo spazio colore consigliato per la visualizzazione delle immagini nelle pagine Web.
 
-* **[!UICONTROL Mantieni spazio colore originale]** - Mantiene lo spazio colore originale.
+* **[!UICONTROL Mantieni spazio colore originale]**: mantiene lo spazio colore originale.
 
-* **[!UICONTROL Personalizza da]** > **[!UICONTROL A]** - Apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizza da]** > **[!UICONTROL A]**: apre i menu per scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
@@ -93,7 +93,7 @@ Utilizza Foratura sfondo per rimuovere automaticamente lo sfondo di un&#39;immag
 | --- | --- |
 | Foratura sfondo | Selezionare per attivare o &quot;attivare&quot; la funzione e le opzioni di Foratura sfondo. |
 | Angolo | Obbligatorio.<br>Angolo dell&#39;immagine utilizzato per definire il colore di sfondo da ritagliare.<br>È possibile scegliere tra <b>In alto a sinistra, in basso a sinistra, in alto a destra o in basso a destra</b>. |
-| Metodo di riempimento | Obbligatorio. <br>Controlla la trasparenza dei pixel dalla posizione dell&#39;angolo impostata.<br>È possibile scegliere uno dei seguenti metodi di riempimento:<br>· <b>Riempimento Flood</b> - rende trasparenti tutti i pixel che corrispondono all&#39;angolo specificato e ad esso sono collegati.<br>· <b>Corrispondenza pixel</b> - rende trasparenti tutti i pixel corrispondenti, indipendentemente dalla loro posizione sull&#39;immagine. |
+| Metodo di riempimento | Obbligatorio. <br>Controlla la trasparenza dei pixel dalla posizione dell&#39;angolo impostata.<br>È possibile scegliere uno dei seguenti metodi di riempimento:<br>· <b>Riempimento Flood</b>: rende trasparenti tutti i pixel che corrispondono all’angolo specificato e a esso sono collegati.<br>· <b>Corrispondenza pixel</b>: rende trasparenti tutti i pixel corrispondenti, indipendentemente dalla loro posizione sull’immagine. |
 | Tolleranza | Facoltativo.<br>Controlla la quantità di variazione consentita nella corrispondenza dei colori dei pixel in base alla posizione dell&#39;angolo impostata.<br>Utilizzate un valore pari a 0,0 per far corrispondere esattamente i colori dei pixel. In alternativa, utilizza il valore 1.0 per consentire la variazione più grande. |
 
 >[!MORELIKETHIS]

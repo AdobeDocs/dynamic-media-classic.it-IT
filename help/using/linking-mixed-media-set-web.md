@@ -1,5 +1,5 @@
 ---
-title: Collegare un set di file multimediali diversi a una pagina Web
+title: Collegare un set di file multimediali diversi a una pagina web
 description: Scopri come collegare un set di file multimediali diversi a una pagina web in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,16 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 43%
+ht-degree: 30%
 
 ---
 
-# Collegare un set di file multimediali diversi a una pagina Web{#linking-a-mixed-media-set-to-a-web-page}
+# Collegare un set di file multimediali diversi a una pagina web{#linking-a-mixed-media-set-to-a-web-page}
 
-Dopo aver pubblicato un set di file multimediali diversi, puoi ottenere l’URL associato da utilizzare nel sito web o nell’applicazione. Potete quindi implementare l’URL come desiderate, in modo che gli utenti possano visualizzare il set di file multimediali diversi sul vostro sito Web o nella vostra applicazione.
+Dopo aver pubblicato un set di file multimediali diversi, puoi ottenere l’URL associato da utilizzare nel sito web o nell’applicazione. Quindi puoi distribuire l’URL in base alle esigenze, in modo che gli utenti possano visualizzare il set di file multimediali diversi sul sito web o sull’applicazione.
 
 ## Ottenere l’URL di un set di file multimediali diversi {#obtain-a-mixed-media-set-url}
 
@@ -40,15 +40,15 @@ Dopo aver pubblicato un set di file multimediali diversi, puoi ottenere l’URL 
 
      Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
-## Aggiungere URL di set di file multimediali diversi a una pagina Web {#add-mixed-media-set-urls-to-your-web-page}
+## Aggiungere URL di set di file multimediali diversi alla pagina Web {#add-mixed-media-set-urls-to-your-web-page}
 
 Il modo più comune per distribuire un set di file multimediali diversi consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di file multimediali diversi in Visualizzatore set di file multimediali diversi.
 
 ## Copiare il codice di incorporamento di un visualizzatore di set di file multimediali diversi {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di file multimediali diversi selezionato. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web su cui verrà distribuito il visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di file multimediali diversi selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice da incorporare di un visualizzatore set di file multimediali diversi:**
+**Per copiare il codice di incorporamento di un visualizzatore di set di file multimediali diversi:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set di file multimediali diversi]**.
 1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di file multimediali diversi di cui desiderate copiare il codice da incorporare.

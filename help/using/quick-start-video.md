@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 28%
@@ -144,11 +144,11 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
   >
   >gli URL diventano attivi solo dopo la pubblicazione del video o del set di video adattivi.
 
-* Visualizza il video incorporato nella pagina web, nel qual caso utilizza **[!UICONTROL Codice di incorporamento]** funzionalità.
+* Visualizza il video incorporato nella pagina Web, nel qual caso utilizza il **[!UICONTROL Codice di incorporamento]** funzionalità.
 
   Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
-  Seleziona **[!UICONTROL Chiudi]** e incolla il codice da incorporare in una o più pagine web.
+  Seleziona **[!UICONTROL Chiudi]** e incollare il codice da incorporare in una o più pagine Web.
 
   >[!NOTE]
   >

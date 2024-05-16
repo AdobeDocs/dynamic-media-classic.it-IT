@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -27,23 +27,23 @@ Prima di caricare i file, assicurati di stabilire una struttura di cartelle e un
 
 Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle. Quando selezionate una cartella nella Libreria risorse, il relativo contenuto viene visualizzato nel pannello Sfoglia. Per individuare le cartelle nella struttura, effettuate le seguenti operazioni:
 
-* **Visualizzare le sottocartelle** - Selezionare la **[!UICONTROL Espandi cartella]** per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Visualizzare le sottocartelle**: seleziona la **[!UICONTROL Espandi cartella]** per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Spostare una cartella** - È possibile spostare una cartella trascinandola e rilasciandola nella nuova posizione oppure selezionando **[!UICONTROL File]** > **[!UICONTROL Sposta cartella]**.
+* **Spostare una cartella**: per spostare una cartella, trascinala e rilasciala nella nuova posizione oppure seleziona **[!UICONTROL File]** > **[!UICONTROL Sposta cartella]**.
 
-* **Nascondi cartelle** - Selezionare la **[!UICONTROL Comprimi cartella]** se si desidera comprimere le sottocartelle per nasconderle dalla visualizzazione. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Nascondi cartelle**: seleziona la **[!UICONTROL Comprimi cartella]** se si desidera comprimere le sottocartelle per nasconderle dalla visualizzazione. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Aprire una cartella** - Selezionare una cartella se si desidera visualizzarne il contenuto nel pannello Sfoglia.
+* **Aprire una cartella**: seleziona una cartella per visualizzarne il contenuto nel pannello Sfoglia.
 
 >[!TIP]
 >
->Puoi nascondere o visualizzare la libreria delle risorse selezionando **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.
+>Puoi nascondere o visualizzare la Libreria risorse selezionando la **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.
 
 ## Creare cartelle
 
 1. Nella Libreria risorse, selezionate la cartella in cui desiderate creare la cartella.
 1. Seleziona la **[!UICONTROL `Add Folder`]** pulsante. Questa icona si trova nella parte superiore dell’elenco delle cartelle.
-1. Per immettere un nome descrittivo per la nuova cartella o sottocartella, digitatelo nel campo accanto all’icona della cartella.
+1. Immettere un nome descrittivo per la nuova cartella o sottocartella. Digitalo nel campo accanto all’icona della cartella.
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti operazioni:
 
-* **Elimina** - Selezionare la **[!UICONTROL `Remove Folder`]** pulsante. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
+* **Elimina**: seleziona la **[!UICONTROL `Remove Folder`]** pulsante. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
 
-* **Rinomina** - Fare doppio clic sul nome e immettere un nuovo nome.
+* **Rinomina**: fai doppio clic sul nome e immetti un nuovo nome.
 
 >[!NOTE]
 >

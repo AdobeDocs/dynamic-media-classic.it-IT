@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -188,9 +188,9 @@ Dynamic Medie viene fornito con 60 GB di storage. È possibile acquistare storag
 +++
 
 +++**Quale metrica viene utilizzata per misurare [!DNL Dynamic Media] utilizzo?**
-Visualizzazioni pagina al mese (PVM). Visualizzazione pagina indica una singola visualizzazione di un’e-mail o di una pagina web di un sito Internet. Include inoltre le visualizzazioni a schermo dell’applicazione, gli stati a schermo dell’applicazione, le pagine web per dispositivi mobili e le pagine di social network. Le visualizzazioni di pagina si verificano:
+Visualizzazioni pagina al mese (PVM). Visualizzazione pagina indica una singola visualizzazione di un messaggio e-mail o di una pagina web di un sito Internet. Include inoltre le visualizzazioni a schermo dell’applicazione, gli stati a schermo dell’applicazione, le pagine Web per dispositivi mobili e le pagine di social network. Le visualizzazioni di pagina si verificano:
 
-* Ogni volta che si verifica il caricamento o l’aggiornamento di una pagina web
+* Ogni volta che si verifica il caricamento o l&#39;aggiornamento di una pagina Web
 * Quando viene caricata un’applicazione
 * Quando viene eseguito il rendering del contenuto
 * Mostrato tramite un messaggio e-mail aperto o visualizzato

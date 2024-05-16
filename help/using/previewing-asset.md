@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 17%
+ht-degree: 12%
 
 ---
 
@@ -72,7 +72,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
    * Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
 
-     Quando selezioni **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Incorpora codice, in cui è possibile esaminare il codice del visualizzatore. In questa finestra non è possibile modificare il codice. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web.
+     Quando selezioni **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Incorpora codice, in cui è possibile esaminare il codice del visualizzatore. In questa finestra non è possibile modificare il codice. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web.
 
      Chiudete l&#39;anteprima visualizzata.
 
@@ -80,7 +80,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
 ## Visualizzare in anteprima una risorsa immagine in base al suo predefinito immagine {#previewing-an-image-asset-based-on-its-image-preset}
 
-Potete visualizzare in anteprima una risorsa immagine basata sul suo predefinito per immagini per verificarne l’aspetto quando questa viene trasmessa in modo dinamico al sito Web o all’applicazione in dimensioni diverse.
+Puoi visualizzare in anteprima una risorsa immagine in base al suo predefinito per immagini, per verificare l’aspetto dell’immagine quando viene distribuita dinamicamente al sito web o all’applicazione in diverse dimensioni.
 
 Un predefinito immagine è una raccolta di impostazioni predefinite. Queste impostazioni modificano le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -45,24 +45,24 @@ Caricate i file di font con le stesse tecniche usate per caricare altri file. È
 
 Nel pannello Sfoglia, selezionate il file di font da modificare in Vista dettagli e scegliete File > Modifica informazioni. Viene visualizzata la schermata Modifica info. Scegli le seguenti opzioni, quindi seleziona **[!UICONTROL Invia]**.
 
-* **[!UICONTROL Nome font]** - Questo nome identifica il carattere quando viene pubblicato.
+* **[!UICONTROL Nome font]**: questo nome identifica il tipo di carattere quando viene pubblicato.
 
-* **[!UICONTROL Nome PostScript]** - Questo nome rappresenta il nome PostScript completo del tipo di carattere. Generalmente indica ne lo spessore o stile.
+* **[!UICONTROL Nome PostScript]**: nome PostScript completo per il tipo di carattere. Generalmente indica ne lo spessore o stile.
 
-* **[!UICONTROL Nome RTF]** - Questo nome viene visualizzato in un menu a comparsa nell&#39;editor RTF in cui vengono creati i livelli di testo del modello.
+* **[!UICONTROL Nome RTF]**: questo nome viene visualizzato in un menu a comparsa nell’editor RTF in cui vengono creati i livelli di testo del modello.
 
-* **[!UICONTROL Nome famiglia font]** - Questo nome elenca il nome del carattere senza l&#39;indicatore di stile, spessore o tipo di carattere.
+* **[!UICONTROL Nome famiglia font]**: questo nome elenca il nome del tipo di carattere senza l&#39;indicatore di stile, spessore o tipo di carattere.
 
-* **[!UICONTROL Stile font]** - Le opzioni sono Plain, Bold, Italic e Bold-Italic.
+* **[!UICONTROL Stile font]**: le opzioni sono Plain, Bold, Italic e Bold-Italic.
 
-* **[!UICONTROL Tipo font]** - Le opzioni sono TrueType e Adobi Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
+* **[!UICONTROL Tipo font]**: le opzioni sono TrueType e Adobi Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
 
-* **[!UICONTROL Abbreviazione tipo font]** - Le opzioni sono le seguenti:
+* **[!UICONTROL Abbreviazione tipo font]**: le opzioni sono le seguenti:
 
-   * **[!UICONTROL TTF]** : file di font TrueType utilizzati per il rendering PDF/PostScript e per la gestione delle immagini.
+   * **[!UICONTROL TTF]**: file di font TrueType utilizzati per il rendering PDF/PostScript e per la gestione delle immagini.
 
-   * **[!UICONTROL AFM]** : file di font di Adobe PostScript contenenti informazioni sulle metriche dei font di Adobe e utilizzati per la riproduzione delle immagini.
+   * **[!UICONTROL AFM]**: file di font di Adobe PostScript che contengono informazioni sulle metriche dei font di Adobe e che vengono utilizzati per la trasmissione delle immagini.
 
-   * **[!UICONTROL PFM]** : file di font Adobe PostScript contenenti informazioni binarie sulle metriche dei font.
+   * **[!UICONTROL PFM]**: file di font Adobe PostScript contenenti informazioni binarie sulle metriche dei font.
 
-   * **[!UICONTROL PFB]** : file di font Adobe PostScript che contengono informazioni binarie sulla struttura del font e che vengono utilizzati per il rendering PDF/PostScript e per la gestione delle immagini.
+   * **[!UICONTROL PFB]**: file di font Adobe PostScript che contengono informazioni binarie sulla struttura del font e che vengono utilizzati per il rendering PDF/PostScript e per il server delle immagini.
