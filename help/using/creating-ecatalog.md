@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # Creazione di un eCatalog {#creating-an-ecatalog}
 
-Quando si crea un eCatalog occorre ordinare le pagine, scegliere il layout delle pagine e collegare le pagine tracciando delle mappe immagine e inserendo i dati necessari per rollover e collegamenti ipertestuali. Se desiderato, potete personalizzare il sommario in modo da presentare agli utenti i nomi delle pagine anziché i numeri di pagina nel visualizzatore dell’eCatalog.
+La creazione di un eCatalog comporta l&#39;ordinamento delle pagine, la scelta del layout di pagina e il collegamento delle pagine mediante il disegno di mappe immagine. Inoltre, richiede l’immissione di dati di rollover e di collegamenti ipertestuali. Se desiderato, potete personalizzare il sommario in modo da presentare agli utenti i nomi delle pagine anziché i numeri di pagina nel visualizzatore dell’eCatalog.
 
 ## Creare un eCatalog {#create}
 
@@ -40,7 +40,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    * **Seleziona prima i file**: nel pannello Sfoglia, seleziona i file e passa a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**.
 
-   * **Inizia dalla schermata eCatalog**: vai a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**. Selezionate una cartella nella Libreria risorse e trascinate i file da tale cartella alla scheda Ordina pagine della pagina eCatalog.
+   * **Inizia dalla schermata eCatalog**: vai a **[!UICONTROL Genera]** > **[!UICONTROL eCatalog]**. Seleziona una cartella nella Libreria risorse. Trascinare i file dalla cartella nella scheda Pagine ordine della pagina eCatalog.
 
      >[!NOTE]
      >
@@ -58,7 +58,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Al termine, vicino all’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
-1. Nella finestra di dialogo Salva, selezionate una cartella in cui memorizzare l’eCatalog. Nel campo Nome file, digitate il nome del set.
+1. Nella finestra di dialogo Salva, selezionate una cartella in cui memorizzare l’eCatalog. Nel campo Nome file immettere il nome del set 360 gradi.
 1. Seleziona **[!UICONTROL Salva]**.
 
    Puoi visualizzare in anteprima l’eCatalog dopo averlo salvato selezionando **[!UICONTROL Anteprima]**.
@@ -98,7 +98,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 Adobe Dynamic Media Classic fornisce i numeri di pagina predefiniti nell&#39;eCatalog nella scheda Pagine ordine della schermata eCatalog. Per i nomi di pagina personalizzati, potete modificare le etichette di pagina contenute nel sommario. Si consiglia di rinominare la copertina anteriore e quella posteriore. Ad esempio, il frontespizio può contenere il testo &quot;Copertina&quot; e non &quot;Pagina 0-1&quot;.
 
-È possibile creare un sommario personalizzato per l&#39;eCatalog manualmente o importando i nomi delle pagine da un file CSV (solo Mac) o XML.
+È possibile creare manualmente un sommario personalizzato per l&#39;eCatalog. In alternativa, è possibile importare i nomi delle pagine da un file CSV (solo Mac) o XML.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Adobe Dynamic Media Classic fornisce i numeri di pagina predefiniti nell&#39;eCa
 
 ### Inserimento manuale dei nomi delle pagine {#manually-entering-page-names}
 
-Per inserire manualmente i nomi delle pagine uno alla volta, aprite la scheda Ordina pagine della schermata eCatalog. Nel campo del numero di pagina immettere un nome per ogni pagina che si desidera denominare.
+Immettere manualmente i nomi di pagina uno alla volta nella scheda Ordina pagine della schermata eCatalog. Nel campo del numero di pagina immettere un nome per ogni pagina che si desidera denominare.
 
 ### Importa nomi di pagina {#importing-page-names}
 

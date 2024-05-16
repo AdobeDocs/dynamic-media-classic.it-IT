@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 38%
@@ -47,7 +47,7 @@ Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Seleziona prima le immagini**: nel pannello Sfoglia, seleziona le immagini da inserire nel set di immagini e passa a **[!UICONTROL Genera]** > **[!UICONTROL Set di immagini]**.
+   * **Seleziona prima le immagini**: nel pannello Sfoglia, seleziona le immagini da visualizzare nel set di immagini e passa a **[!UICONTROL Genera]** > **[!UICONTROL Set di immagini]**.
 
    * **Inizia dalla schermata Set di immagini**: vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di immagini]**. Viene visualizzata la schermata Set immagini. Selezionate una cartella nella Libreria risorse e trascinate le immagini per il set di immagini nella schermata Set immagini.
 

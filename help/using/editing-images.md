@@ -10,7 +10,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Modificare le immagini{#editing-images}
 
-Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti rich media. Questi strumenti sono disponibili selezionando il rollover **[!UICONTROL Modifica]** e nel pannello Sfoglia in Visualizzazione dettagli. In Adobe Dynamic Media Classic è possibile eseguire le seguenti attività di modifica delle immagini:
+Adobe Dynamic Media Classic offre molti strumenti per la creazione di effetti rich media. Questi strumenti sono disponibili selezionando il rollover **[!UICONTROL Modifica]** e nel pannello Sfoglia in Vista dettagli. In Adobe Dynamic Media Classic è possibile eseguire le seguenti attività di modifica delle immagini:
 
 * **Creare mappe immagine**: per creare una mappa immagine, seleziona il comando Immagine oppure **[!UICONTROL Mappa immagine]** pulsante. Una mappa immagine è un punto attivo su un’immagine, o una pagina eCatalog, o un’immagine in un set 360 gradi che visualizza un pannello con testo di rollover. Gli utenti possono selezionare una mappa immagine, ad esempio, per avviare una nuova pagina Web. Consulta [Creare mappe immagine](/help/using/creating-image-maps.md).
 

@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ Dopo aver creato le variabili necessarie in Adobe Analytics, averle collegate ag
 
    Ad esempio, per accedere a **[!UICONTROL LoadAsset]** prop nell’account di esempio, la scelta di menu corretta è **[!UICONTROL Traffico personalizzato]** > **[!UICONTROL Traffico personalizzato 1-10]** > **[!UICONTROL LoadAsset]**. Se disponi di più di dieci proprietà personalizzate, puoi visualizzare anche altre opzioni di menu.
 
-1. Visualizzate il grafico generato da Adobe Analytics. In genere, questo grafico contiene solo i dati di una singola metrica. Se desideri anche sapere a quale risorsa sono associati questi dati, ottieni i dati della risorsa di questo evento. Ad esempio, è spesso utile sapere quale video viene guardato solo al 50% o quale immagine in un set è popolare.
+1. Visualizzate il grafico generato da Adobe Analytics. In genere, questo grafico contiene solo i dati di una singola metrica. Se desideri anche sapere a quale risorsa sono associati questi dati, ottieni i dati della risorsa di questo evento. Ad esempio, spesso è utile sapere quale video viene guardato solo al 50% o quale immagine in un set è più popolare.
 
 >[!NOTE]
 >

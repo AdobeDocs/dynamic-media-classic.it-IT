@@ -10,7 +10,7 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 31%
@@ -31,7 +31,7 @@ Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda o
 
 Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine ritagliandoli.
 
-1. Per ritagliare un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e quindi selezionare **[!UICONTROL Ritaglio]** o visualizzarlo nel pannello Sfoglia in Visualizzazione dettagli e selezionare **[!UICONTROL Ritaglio]** pulsante.
+1. Per ritagliare un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e quindi selezionare **[!UICONTROL Ritaglio]** o visualizzarlo nel pannello Sfoglia in Vista dettagli e selezionare **[!UICONTROL Ritaglio]** pulsante.
 1. Nella pagina Editor ritaglio eseguire una delle operazioni seguenti:
 
    * Per tagliare i pixel di colore, vai a **[!UICONTROL Rifila]** > **[!UICONTROL Colore]**. In **[!UICONTROL Ritaglio automatico per colore]** , selezionare la **[!UICONTROL Angolo]** e scegliete un angolo con il colore di sfondo da ritagliare. Quindi inserisci un **[!UICONTROL Tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Seleziona **[!UICONTROL Ritaglio]**.
@@ -45,7 +45,7 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 
 ## Selezionare un’area da ritagliare {#select-an-area-to-crop}
 
-1. Per ritagliare un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglio]** o visualizzarlo nel pannello Sfoglia in Visualizzazione dettagli e selezionare **[!UICONTROL Ritaglio]**.
+1. Per ritagliare un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglio]** o visualizzarlo nel pannello Sfoglia in Vista dettagli e selezionare **[!UICONTROL Ritaglio]**.
 
 1. Nella finestra Editor ritaglio, posizionate la parte dell&#39;immagine che non desiderate ritagliare nella casella di ritaglio. Qualsiasi cosa venga visualizzata all&#39;interno della casella è ciò che rimarrà dopo aver selezionato **[!UICONTROL Salva]** e ritagliare l&#39;immagine.
 1. Per regolare l’area di ritaglio, effettuate una delle seguenti operazioni:

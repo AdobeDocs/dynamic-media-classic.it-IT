@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 52%
+source-wordcount: '841'
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,7 @@ Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o ca
 
    Consultate [Definire le autorizzazioni di accesso alle risorse per un gruppo](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Per scegliere i predefiniti immagine disponibili per il gruppo, selezionate **[!UICONTROL Autorizzazioni di accesso al predefinito immagine]** e selezionare Predefiniti immagine utilizzabili dal gruppo.
+1. Potete scegliere quali predefiniti immagine sono disponibili per il gruppo. Fai clic sul pulsante **[!UICONTROL Autorizzazioni di accesso al predefinito immagine]** e selezionare Predefiniti immagine utilizzabili dal gruppo.
 
    Consultate [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -56,7 +56,7 @@ Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o ca
    * Per modificare le autorizzazioni di un gruppo, selezionarlo e quindi selezionare **[!UICONTROL Modifica]**.
 
 1. Nella finestra di dialogo Aggiungi gruppo o Modifica gruppo, selezionare **[!UICONTROL Autorizzazioni di accesso alle risorse]** scheda. Nella parte destra della scheda sono disponibili le caselle per specificare le autorizzazioni di lettura, scrittura ed eliminazione per cartelle e risorse. Potete espandere e comprimere cartelle e sottocartelle nel riquadro a sinistra.
-1. Per assegnare le autorizzazioni necessarie a cartelle o singole risorse, selezionate la cartella nel riquadro a sinistra. Il contenuto della cartella viene visualizzato nel riquadro a destra. Per assegnare le autorizzazioni al gruppo, selezionate le caselle per i corrispondenti file e cartelle nel riquadro a destra.
+1. Per assegnare le autorizzazioni necessarie a cartelle o singole risorse, selezionate la cartella nel riquadro a sinistra. Il contenuto della cartella viene visualizzato nel riquadro a destra. Quindi assegnare i diritti per il gruppo selezionando le caselle per i file corrispondenti. Oppure, selezionando le cartelle nel riquadro di destra.
 
    La tabella di seguito presenta le associazioni tra diverse attività e le autorizzazioni di lettura, scrittura ed eliminazione.
 

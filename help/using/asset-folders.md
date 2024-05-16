@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Prima di caricare i file, assicurati di stabilire una struttura di cartelle e un
 
 ## Visualizzare, spostare, nascondere e aprire le cartelle {#displaying-moving-hiding-and-opening-folders}
 
-Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle. Quando selezionate una cartella nella Libreria risorse, il relativo contenuto viene visualizzato nel pannello Sfoglia. Per individuare le cartelle nella struttura, effettuate le seguenti operazioni:
+Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle. Quando selezionate una cartella nella libreria delle risorse, il suo contenuto viene visualizzato nel pannello Sfoglia. Per individuare le cartelle nella struttura, effettuate le seguenti operazioni:
 
 * **Visualizzare le sottocartelle**: seleziona la **[!UICONTROL Espandi cartella]** per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
@@ -37,7 +37,7 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 >[!TIP]
 >
->Puoi nascondere o visualizzare la Libreria risorse selezionando la **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Potete comprimete il pannello Libreria risorse quando avete bisogno di maggiore spazio per il pannello Sfoglia.
+>Puoi nascondere o visualizzare la Libreria risorse selezionando la **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Comprimi il pannello Libreria risorse quando hai bisogno di più spazio per lavorare nel pannello Sfoglia.
 
 ## Creare cartelle
 

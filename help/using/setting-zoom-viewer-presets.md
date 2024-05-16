@@ -10,10 +10,10 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 43%
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 
 I predefiniti visualizzatore zoom determinano lo stile, il comportamento e l&#39;aspetto dei visualizzatori zoom. Adobe Dynamic Media Classic offre molte opzioni per personalizzare e affiancare i visualizzatori. Adobe Dynamic Media Classic viene fornito con predefiniti di base (veloci), fly-out e predefiniti personalizzati per visualizzatori zoom. Se siete amministratori, potete creare predefiniti visualizzatore zoom per la società o modificare un predefinito predefinito predefinito e salvarlo con un nuovo nome.
 
-Tutti i visualizzatori zoom includono pulsanti per applicare lo zoom in avanti, indietro, la panoramica e per ripristinare le stato originale dell’immagine dopo lo zoom. L&#39;aspetto di questi pulsanti e la modalità di visualizzazione della finestra dipendono dall&#39;impostazione dei predefiniti per visualizzatore zoom. Potete configurare un predefinito per visualizzatori zoom con diverse impostazioni di colori, bordi, font e immagine. Quando configurate un visualizzatore zoom guidato, potete anche scegliere il percorso di salvataggio delle destinazioni di zoom. Le destinazioni di zoom sono miniature che gli utenti possono selezionare per applicare lo zoom alle aree specificate.
+Tutti i visualizzatori zoom includono pulsanti per applicare lo zoom in avanti, indietro, la panoramica e per ripristinare le stato originale dell’immagine dopo lo zoom. L&#39;aspetto di questi pulsanti e la modalità di visualizzazione della finestra dipendono dall&#39;impostazione dei predefiniti per visualizzatore zoom. Potete configurare un predefinito per visualizzatori zoom con diverse impostazioni di colori, bordi, font e immagine. Durante la configurazione di un Visualizzatore zoom guidato, potete anche scegliere dove posizionare le destinazioni di zoom. Le destinazioni di zoom sono miniature che gli utenti possono selezionare per applicare lo zoom alle aree specificate.
 
 ## I predefiniti per visualizzatori zoom {#about-zoom-viewer-presets}
 

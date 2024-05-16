@@ -1,6 +1,6 @@
 ---
-title: Inserimento di destinazioni di zoom e mappe immagine nei set di immagini
-description: Scopri come includere destinazioni di zoom e mappe immagine nei Set di immagini in Adobe Dynamic Media Classic.
+title: Inclusione di destinazioni di zoom e mappe immagine nei set di immagini
+description: Scopri come includere destinazioni di zoom e mappe immagine nei set di immagini in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,18 +10,18 @@ role: User
 exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 36%
+ht-degree: 0%
 
 ---
 
 # Includi destinazioni di zoom e mappe immagine nei set di immagini{#including-zoom-targets-and-image-maps-in-image-sets}
 
-Eventuali destinazioni di zoom e mappe immagine specificate per le immagini del set di immagini vengono visualizzate nel visualizzatore di set di immagini. Gli utenti, ad esempio, possono selezionare una mappa immagine nel Visualizzatore set di immagini e aprire una nuova pagina del sito Web con informazioni su un elemento. Gli utenti possono selezionare una miniatura di destinazione nel Visualizzatore set di immagini e ingrandire automaticamente una parte dell&#39;immagine.
+Se si definiscono destinazioni di zoom e mappe immagine per le immagini nel set di immagini, tali destinazioni e mappe vengono visualizzate nel Visualizzatore set di immagini. Gli utenti, ad esempio, possono selezionare una mappa immagine nel Visualizzatore set di immagini e aprire una nuova pagina del sito Web con informazioni su un elemento. Gli utenti possono selezionare una miniatura di destinazione nel Visualizzatore set di immagini e ingrandire automaticamente una parte dell&#39;immagine.
 
-Per rendere disponibili agli utenti le funzioni di destinazioni di zoom e mappe immagine, create questi elementi per le immagini del set di immagini Potete farlo con gli strumenti Mappe immagine o Destinazioni zoom nella schermata Set immagini o nel pannello Sfoglia (in Vista dettagli).
+Per rendere disponibili agli utenti le destinazioni di zoom e le mappe immagine, create destinazioni di zoom e mappe immagine per le immagini nel set di immagini. Per farlo, potete utilizzare gli strumenti Mappe immagine o Destinazioni zoom nella schermata Set immagini o nel pannello Sfoglia (in Vista dettagli).
 
 >[!MORELIKETHIS]
 >

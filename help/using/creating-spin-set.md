@@ -10,10 +10,10 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 38%
+source-wordcount: '963'
+ht-degree: 32%
 
 ---
 
@@ -23,17 +23,17 @@ Per creare un set 360 gradi efficace, assicuratevi di scattare correttamente le 
 
 >[!NOTE]
 >
->Le versioni precedenti di Adobe Dynamic Media Classic non offrivano set 360 gradi bidimensionali. Se hai creato un set 360 gradi in una versione precedente di Adobe Dynamic Media Classic, non puoi salvare il set 360 gradi monodimensionale senza prima salvarlo con un nome diverso. Seleziona **[!UICONTROL Salva con nome]** nella schermata Set 360 gradi e immetti un nuovo nome che potrai modificare in Adobe Dynamic Media Classic.
+>Le versioni precedenti di Adobe Dynamic Media Classic non offrivano set 360 gradi bidimensionali. Se hai creato un set 360 gradi in una versione precedente di Adobe Dynamic Media Classic, salvalo con un nome diverso, potrai salvare il set 360 gradi monodimensionale. Seleziona **[!UICONTROL Salva con nome]** nella schermata Set 360 gradi e immetti un nuovo nome che potrai modificare in Adobe Dynamic Media Classic.
 
 ## Linee guida per lo scatto di immagini per set 360 gradi {#guidelines-for-shooting-spin-set-images}
 
 In generale, più immagini si hanno in un set 360 gradi, migliore è l&#39;effetto di rotazione dell&#39;immagine. Tuttavia, se si includono molte immagini nel set si aumenta anche il tempo necessario per il caricamento delle immagini. Adobe Dynamic Media Classic consiglia di seguire queste linee guida per la ripresa di immagini da utilizzare nei set 360 gradi:
 
-* Utilizzate almeno da 8 a 12 scatti per un set 360 gradi monodimensionale e da 16 a 24 scatti per un set 360 gradi bidimensionale.
+* Utilizzare almeno 8-12 immagini in un set 360 gradi monodimensionale e 16-24 immagini in un set 360 gradi bidimensionale.
 * Utilizzate un formato senza perdita di dati; si consigliano TIFF e PNG.
 * Mascherate tutte le immagini in modo che gli elementi appaiano su uno sfondo bianco puro o su un altro sfondo a elevato contrasto. Se necessario, aggiungete ombre.
 * Assicuratevi che i dettagli del prodotto siano ben illuminati e messi a fuoco.
-* Per le immagini per un set 360 gradi di capi di abbigliamento, utilizzate un manichino o un indossatore. Spesso il manichino è mascherato (usando un manichino di vetro) o un manichino stilizzato/dressform è mostrato nell&#39;immagine. Potete creare un set 360 gradi su modello definendo il numero di angoli. Contrassegna ogni angolo con del nastro sul pavimento in modo da guidare il modello a passo e guardare nella direzione di ogni ripresa.
+* Per le immagini per un set 360 gradi di capi di abbigliamento, utilizzate un manichino o un indossatore. Spesso il manichino è mascherato (usando un manichino di vetro) o un manichino stilizzato/dressform è mostrato nell&#39;immagine. Potete creare un set 360 gradi sul modello definendo il numero di angoli. Contrassegna ogni angolo con del nastro sul pavimento in modo da guidare il modello a passo e guardare nella direzione di ogni ripresa.
 
 ## Creare un set 360 gradi {#create}
 
@@ -63,7 +63,7 @@ Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di gener
 1. Il giorno **[!UICONTROL Genera]** menu a discesa, seleziona **[!UICONTROL Set 360 gradi]**.
 1. Nella finestra di dialogo Dimensione set 360 gradi, impostate il numero di righe e celle desiderato.
 
-   Per un set monodimensionale, specificate una sola riga.
+   Per creare un set 360 gradi monodimensionale, selezionate una sola riga.
 
    Per un set bidimensionale, specificate due o più righe.
 
@@ -71,7 +71,7 @@ Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di gener
 1. Trascinate quindi le immagini nella griglia della schermata Set 360 gradi.
 1. Al termine, vicino all’angolo inferiore destro della pagina, assicurati che **Pubblica dopo un salvataggio** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
-1. Nella finestra di dialogo Salva, selezionate una cartella in cui salvare il set 360 gradi. Nel campo Nome file, digitate il nome del set.
+1. Nella finestra di dialogo Salva, seleziona una cartella per la memorizzazione del set 360 gradi. Nel campo Nome file immettere il nome del set 360 gradi.
 1. Seleziona **[!UICONTROL Salva]**.
 
 ## Modificare un set 360 gradi {#editing-a-spin-set}

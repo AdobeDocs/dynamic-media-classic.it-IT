@@ -10,10 +10,10 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: '657'
+ht-degree: 15%
 
 ---
 
@@ -63,11 +63,11 @@ La parte superiore del pannello Libreria risorse contiene i comandi per individu
 >
 >Puoi selezionare **[!UICONTROL Libreria risorse]** controlli per aprire o chiudere la Libreria risorse e aumentare lo spazio disponibile. Seleziona la **[!UICONTROL Espandi]**/**[!UICONTROL Comprimi]** per espandere o chiudere il pannello. Questi controlli si trovano sul lato sinistro del pannello.
 
-## Pannello Sfoglia/Genera {#browse-panel-build-panel}
+## Sfoglia pannello/Genera pannello {#browse-panel-build-panel}
 
 Nel pannello Sfoglia/Genera viene effettuata la maggior parte delle attività. Le funzioni disponibili in questo pannello dipendono dalla modalità Sfoglia o Genera.
 
-* **[!UICONTROL Modalità Sfoglia]**: per visualizzare e utilizzare il contenuto di una cartella nel pannello Sfoglia, seleziona una cartella nella libreria delle risorse. Questo pannello offre **[!UICONTROL File]**, **[!UICONTROL Anteprima]**, **[!UICONTROL Seleziona tutto]**, **[!UICONTROL Seleziona nessuno]**, e **[!UICONTROL Ordina]** menu per l’utilizzo delle risorse. È inoltre possibile visualizzare le risorse in modi diversi spostando il cursore o selezionando **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]**, o **[!UICONTROL Vista dettagli]**. Selezione **[!UICONTROL Vista dettagli]** oppure facendo doppio clic su una risorsa, questa viene aperta in Vista dettagli, dove è possibile eseguire operazioni sui file dipendenti dalla risorsa.
+* **[!UICONTROL Modalità Sfoglia]**: puoi visualizzare e lavorare con il contenuto di una cartella nel pannello Sfoglia. Seleziona una cartella nella Libreria risorse. Questo pannello offre **[!UICONTROL File]**, **[!UICONTROL Anteprima]**, **[!UICONTROL Seleziona tutto]**, **[!UICONTROL Seleziona nessuno]**, e **[!UICONTROL Ordina]** menu per l’utilizzo delle risorse. È inoltre possibile visualizzare le risorse in modi diversi spostando il cursore o selezionando **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]**, o **[!UICONTROL Vista dettagli]**. Selezione **[!UICONTROL Vista dettagli]** oppure facendo doppio clic su una risorsa, questa viene aperta in Vista dettagli, dove è possibile eseguire operazioni sui file dipendenti dalla risorsa.
 
 * **[!UICONTROL Modalità di compilazione]**: Seleziona **[!UICONTROL Genera]**, quindi scegli un’opzione che ti consenta di iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno dei vari altri elementi disponibili nel menu Genera. Viene visualizzata la pagina Build. Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
 

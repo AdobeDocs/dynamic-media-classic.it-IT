@@ -10,7 +10,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 41%
@@ -25,7 +25,7 @@ Vedi anche [Creare un alias per un&#39;immagine](adjusting-image.md#creating_an_
 
 **Per regolare un&#39;immagine:**
 
-1. Selezionate il pulsante Modifica rollover dell&#39;immagine e scegliete Regola, oppure nel pannello Sfoglia fate doppio clic sull&#39;immagine per aprirla in Vista dettagli.
+1. Selezionate il pulsante Modifica rollover dell&#39;immagine e scegliete Regola, oppure fate doppio clic sull&#39;immagine nel pannello Sfoglia per aprirla in Vista dettagli.
 1. Selezionate un formato e un predefinito immagine (nelle parte inferiore della finestra).
 1. Utilizzare i comandi sul lato destro del `Adjust Editor` in modo da poter regolare l&#39;immagine:
 

@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
    * Per modificare un predefinito visualizzatore set di file multimediali diversi, selezionalo, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Nella pagina Visualizzatore configurazione, digita un nome nella casella Nome predefinito per il predefinito visualizzatore set di file multimediali diversi.
-1. Specifica **[!UICONTROL Schede]** o **[!UICONTROL Nessuna scheda]**. Le schede separano gli elementi in base al tipo, ad esempio set di video, di campioni o set 360 gradi. Se non specificate alcuna scheda, tutti gli elementi vengono visualizzati in una riga sotto la finestra Anteprima.
+1. Specifica **[!UICONTROL Schede]** o **[!UICONTROL Nessuna scheda]**. Le schede separano gli elementi per tipo, ad esempio video, campioni e set 360 gradi. Se non specificate alcuna scheda, tutti gli elementi vengono visualizzati in una riga sotto la finestra Anteprima.
 1. In **[!UICONTROL Nome]** digitare un nome per il visualizzatore da aggiungere.
 
    Ad esempio, se stai aggiungendo un set di campioni al set di file multimediali diversi, digita `Swatch Set A`.

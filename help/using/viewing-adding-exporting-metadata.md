@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -86,7 +86,7 @@ Invece di immettere manualmente i metadati per una risorsa alla volta, potete im
 
 Per ulteriori informazioni sulle proprietà standardizzate, consulta [Centro per sviluppatori XMP Adobe](https://www.adobe.com/devnet/xmp.html).
 
-1. Nel pannello Sfoglia, selezionate le immagini a cui desiderate aggiungere dei metadati da un file XML o delimitato da tabulazioni.
+1. Nel pannello Sfoglia, selezionate le immagini a cui desiderate aggiungere i metadati dal file XML o delimitato da tabulazioni.
 1. Vai a **[!UICONTROL File]** > **[!UICONTROL Importa metadati]**.
 1. In **[!UICONTROL Carica metadati]** finestra di dialogo, seleziona **[!UICONTROL Sfoglia]**.
 1. Nella finestra di dialogo **[!UICONTROL Seleziona file da caricare]**, selezionate un file XML o delimitato da tabulazioni.

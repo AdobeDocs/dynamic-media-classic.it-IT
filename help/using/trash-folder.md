@@ -10,10 +10,10 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 30%
+source-wordcount: '560'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ L&#39;eliminazione di elementi dalla cartella Cestino comporta l&#39;eliminazion
 
 >[!NOTE]
 >
->Le risorse che sono state spostate nella cartella Cestino sono ancora registrate in Adobe Dynamic Media Classic. Se tenti di caricare un file con lo stesso nome di un file eliminato nella cartella Cestino, Adobe Dynamic Media Classic considera la risorsa da caricare come una risorsa duplicata. e aggiunge un numero al nome.
+>Le risorse che sono state spostate nella cartella Cestino sono ancora registrate in Adobe Dynamic Media Classic. Si supponga, ad esempio, di provare a caricare un file con lo stesso nome di un file eliminato nella cartella Cestino. Adobe Dynamic Media Classic tratta la risorsa da caricare come risorsa duplicata. In tal caso, al suo nome viene aggiunto un numero.
 
 ## La cartella Cestino {#about-the-trash-folder}
 
@@ -51,9 +51,9 @@ Per ripristinare le risorse dalla cartella Cestino alle cartelle da cui sono sta
 
 Quando eliminate le risorse nella cartella Cestino, queste vengono eliminate definitivamente. Le risorse vengono eliminate automaticamente dalla cartella Cestino dopo sette giorni.
 
-Per eliminare definitivamente le risorse dalla cartella Cestino, seleziona la **[!UICONTROL Cestino]** icona. Nella pagina Cartella cestino eseguire una delle operazioni seguenti:
+Puoi eliminare definitivamente le risorse dalla cartella Cestino selezionando la **[!UICONTROL Cestino]** icona. Nella pagina Cartella cestino eseguire una delle operazioni seguenti:
 
-* **Eliminazione di singole risorse**: seleziona le risorse da eliminare definitivamente, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Svuota dal cestino]**.
+* **Eliminazione di singole risorse**: puoi eliminare definitivamente le risorse. Seleziona le risorse desiderate, quindi fai clic su **[!UICONTROL File]** > **[!UICONTROL Svuota dal cestino]**.
 
 * **Eliminazione di tutte le risorse**: vai a **[!UICONTROL File]** > **[!UICONTROL Svuota cestino]**.
 

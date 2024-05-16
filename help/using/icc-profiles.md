@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 41%
@@ -35,7 +35,7 @@ Consulta [Caricare i file](uploading-files.md#uploading_your_files).
 
 ## Esamina un profilo ICC {#examining-an-icc-profile}
 
-Per esaminare un profilo ICC, selezionarlo nel pannello Sfoglia e visualizzarlo in Vista dettagli. La Vista dettagli fornisce queste informazioni sui profili ICC:
+Per esaminare un profilo ICC, selezionatelo nel pannello Sfoglia e visualizzatelo in Vista dettagli. La Vista dettagli fornisce queste informazioni sui profili ICC:
 
 * **[!UICONTROL Classe profilo]**: l&#39;ICC (International Color Consortium) definisce ogni classe in modo da coprire un tipo di applicazione. Ad esempio, i profili di Input si applicano a dispositivi quali fotocamere digitali e scanner e i profili di Output si applicano alle stampanti.
 

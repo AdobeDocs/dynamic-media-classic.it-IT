@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 23%
+source-wordcount: '830'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Le impostazioni della schermata Configurazione personale possono essere modifica
 >
 >Nella schermata Impostazione personale viene visualizzato il ruolo utente in Adobe Dynamic Media Classic: Amministratore società, Amministratore o Utente.
 
-Le impostazioni della schermata Configurazione personale controllano il comportamento predefinito del pannello Sfoglia, il modo in cui ricevete i messaggi e-mail e le impostazioni della password. Ricorda di selezionare **[!UICONTROL Salva]** dopo aver modificato queste impostazioni.
+Le impostazioni Impostazioni personali controllano il comportamento predefinito del pannello Sfoglia, la modalità di ricezione della posta elettronica e le impostazioni della password. Ricorda di selezionare **[!UICONTROL Salva]** dopo aver modificato queste impostazioni.
 
 ## Informazioni sul mio account
 
@@ -83,7 +83,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Mostra dimensione file]**: visualizza la dimensione del file di una risorsa durante la navigazione.
 * **[!UICONTROL Includi FDU nella ricerca]**: per migliorare le prestazioni del sistema per la maggior parte delle ricerche di metadati eseguite, deselezionata (impostazione predefinita).
 
-  Se invece la maggior parte delle ricerche di metadati richiedono l’inclusione dei campi definiti dall’utente, potete selezionare e attivare questa opzione. In alternativa, invece di includere i campi definiti dall’utente, potete usare la Ricerca avanzata per consentire una ricerca più mirata e rapida.
+  Se invece la maggior parte delle ricerche di metadati richiedono l’inclusione dei campi definiti dall’utente, potete selezionare e attivare questa opzione. In alternativa, utilizza la ricerca avanzata per offrire un’esperienza di ricerca più diretta e veloce rispetto all’inclusione di campi definiti dall’utente.
 
   Consultate [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
 

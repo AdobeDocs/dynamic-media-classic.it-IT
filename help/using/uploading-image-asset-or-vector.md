@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 53%
+source-wordcount: '1014'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 ## Richiedi una chiave con segreto condiviso {#requesting-a-shared-secret-key}
 
-Richiedi *chiave shared-secret* da [utilizzo dell’Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi una chiave con segreto condiviso.
+Richiedi *chiave shared-secret* da [utilizzo dell’Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedi una chiave condivisa-segreta.
 
 Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvarla localmente per utilizzarla in futuro.
 
@@ -81,7 +81,7 @@ Per ottenere un token di caricamento, potete usare i seguenti campi nella string
 | --- | --- | --- |
 | op | Obbligatorio | get_uploadtoken |
 | shared_secret | Obbligatorio | Chiave segreto condiviso per l’azienda che sta effettuando il caricamento. |
-| scade | Facoltativo | Validità del token di caricamento, in secondi. Se non viene specificato, viene applicato il valore predefinito di 300 secondi. |
+| scade | Facoltativo | Validità del token di caricamento, in secondi. Se non specificato, il valore predefinito è 300 secondi. |
 
 **URL immagine raster di esempio:**
 
@@ -134,7 +134,7 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Un limite di dimensione file.
 * Un elenco di estensioni del nome file.
 * Specifica se mantenere il profilo colore e il nome file associati alla risorsa.
-* Se utilizzare Knockout Background. Se attivate Sfondo foratura (Knockout Background), impostate i metodi Angolo (Corner), Tolleranza (Tolerance) e Riempimento (Fill).
+* Specifica se utilizzare uno sfondo di foratura. Se attivate Sfondo foratura (Knockout Background), impostate i metodi Angolo (Corner), Tolleranza (Tolerance) e Riempimento (Fill).
 Consulta Foratura sfondo in [Opzioni di ottimizzazione immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare.
 
@@ -181,7 +181,7 @@ Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori
 | Parametro URL | Obbligatorio o facoltativo | Valore |
 | --- | --- | --- |
 | `op` | Obbligatorio | caricare |
-| `upload_token` | Obbligatorio | Token di caricamento per la chiave segreta condivisa associata alla società. |
+| `upload_token` | Obbligatorio | Carica un token per la chiave segreta condivisa associata alla società. |
 | `company_name` | Obbligatorio | Nome della società che esegue il caricamento. |
 | `file_limit` | Facoltativo | Limite dimensione file in byte per la risorsa. |
 | `file_exts` | Facoltativo | Elenco di estensioni consentite per il file della risorsa immagine. |

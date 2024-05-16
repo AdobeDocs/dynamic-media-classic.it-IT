@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ La pubblicazione di un video consente ai server Adobe Dynamic Media Classic di d
 
 Esistono due metodi diversi per pubblicare il video:
 
-* **Pubblica i video automaticamente e immediatamente al caricamento**: come parte del processo di caricamento dei video, Adobe Dynamic Media Classic può pubblicare automaticamente i video quando vengono caricati e codificati. Grazie a questa possibilità di pubblicazione immediata, non è necessario pubblicare separatamente i video in un secondo tempo.
+* **Pubblica i video automaticamente e immediatamente al caricamento**: come parte del processo di caricamento dei video, Adobe Dynamic Media Classic può pubblicare automaticamente i video quando vengono caricati e codificati. Questa capacità di pubblicazione istantanea significa che non c&#39;è bisogno di pubblicare video separatamente dopo il fatto.
 
 * **Pubblica video manualmente dopo il caricamento**: se non desideri pubblicare subito i video, puoi pubblicarli manualmente in qualsiasi momento.
 
@@ -107,7 +107,7 @@ Vedi anche [Collegare l’URL di un video a un sito mobile o a un sito web](depl
 
 ### Implementare il codice di incorporamento per utilizzare video HTML5 con risorse video MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Se non utilizzi il lettore video Adobe Dynamic Media Classic HTML5, ma desideri invece utilizzare il HTML nativo `<video>` con le risorse video MP4, puoi utilizzare il seguente codice di incorporamento:
+Potrebbe non essere necessario utilizzare il lettore video Adobe Dynamic Media Classic HTML5. Se invece desideri utilizzare il HTML nativo5 `<video>` con le risorse video MP4, puoi utilizzare il seguente codice di incorporamento:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ Se non utilizzi il lettore video Adobe Dynamic Media Classic HTML5, ma desideri 
 
 ## Distribuire video utilizzando un lettore video di terze parti {#deploying-video-using-a-third-party-video-player}
 
-Se utilizzi un lettore video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic, ottieni l’URL del video diretto che funziona per lo streaming video con bitrate multiplo HLS o il download progressivo.
+Se utilizzi lettori video di terze parti o un lettore video personalizzato invece di un visualizzatore video Dynamic Media Classic, ottieni l’URL del video diretto che funziona per lo streaming video con bitrate multiplo HLS o il download progressivo.
 
 **Per distribuire un video utilizzando un lettore video di terze parti:**
 

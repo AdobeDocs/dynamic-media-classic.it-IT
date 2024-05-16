@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -55,7 +55,7 @@ Per eliminare una mappa immagine, selezionarne il nome nell&#39;elenco Mappa imm
 
 ## Incorporare rich media in un eCatalog {#embedding-rich-media-in-an-ecatalog}
 
-È possibile utilizzare l’opzione Rich Media dell’eCatalog per aggiungere video in formato MP4 o set 360 gradi alle mappe immagine aggiunte a un eCatalog. Quando un utente seleziona l’area Mappa immagine nell’eCatalog, viene visualizzato il set 360 gradi o il video associato. Questa funzione è particolarmente utile quando si desidera illustrare ai clienti l’utilizzo di un oggetto oppure per mostrare l’oggetto da angolazioni e prospettive diverse.
+Puoi utilizzare l’opzione Rich Media dell’eCatalog per aggiungere video in formato MP4 o set 360 gradi alle mappe immagine aggiunte a un eCatalog. Quando un utente seleziona l’area Mappa immagine nell’eCatalog, viene visualizzato il set 360 gradi o il video associato. Questa funzione è particolarmente utile quando si desidera illustrare ai clienti l’utilizzo di un oggetto oppure per mostrare l’oggetto da angolazioni e prospettive diverse.
 
 Facoltativamente, puoi anche visualizzare il testo della descrizione quando i clienti spostano i puntatori sulla mappa immagine in modo che sappiano cosa stanno selezionando.
 
@@ -66,7 +66,7 @@ Facoltativamente, puoi anche visualizzare il testo della descrizione quando i cl
    Consulta [Disegna mappe immagine eCatalog](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Nell’elenco a discesa Mostra, seleziona **[!UICONTROL Contenuti multimediali avanzati]**.
-1. Nel pannello Aggiungi risorse sulla sinistra, individuate la cartella che contiene il set 360 gradi o il video (formato MP4) da incorporare.
+1. Nel pannello Aggiungi risorse a sinistra, passa a una cartella contenente la risorsa set 360 gradi o video (formato MP4) che desideri incorporare.
 1. Trascinate la risorsa sulla mappa immagine.
 1. (Facoltativo) Nel pannello dell&#39;elenco Mappa immagine, sotto **[!UICONTROL Descrizione comando]** nell&#39;intestazione di colonna, immettere il testo che si desidera visualizzare sullo schermo quando si sposta il puntatore sulla mappa immagine.
 1. Seleziona **[!UICONTROL Salva]**.

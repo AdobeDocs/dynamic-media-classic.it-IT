@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 25%
@@ -70,7 +70,7 @@ Consulta [Carica i file PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. Creare un eCatalog
 
-Per creare l&#39;eCatalog, selezionare PDF o file immagine nel pannello Sfoglia. Seleziona **[!UICONTROL Genera]**, quindi scegli **[!UICONTROL eCatalog]**.
+Crea l’eCatalog selezionando i file di PDF o immagine nel pannello Sfoglia. Seleziona **[!UICONTROL Genera]**, quindi scegli **[!UICONTROL eCatalog]**.
 
 Nella pagina eCatalog, nella **[!UICONTROL Ordina pagine]** , selezionare un&#39;opzione Layout: **[!UICONTROL 1 immagine]**, **[!UICONTROL 2 Su]**, o **[!UICONTROL Personalizzato]**. Potete riordinare le pagine o pagine affiancate trascinandole oppure, negli eCatalog di grandi dimensioni, scegliendo un nome di pagina nel menu Sposta a.
 
@@ -108,7 +108,7 @@ Consulta [Impostazione dei predefiniti per il visualizzatore eCatalog](setting-e
 
 I predefiniti per visualizzatori di eCatalog determinano lo stile e il comportamento di tali visualizzatori.
 
-Per informazioni sulla modalità di visualizzazione dell&#39;eCatalog tramite i predefiniti visualizzatore eCatalog, selezionare l&#39;eCatalog nel pannello Sfoglia, quindi selezionare **[!UICONTROL Anteprima]**. La schermata Anteprima si apre nel visualizzatore predefinito.
+Per informazioni sulla modalità di visualizzazione dell&#39;eCatalog con i predefiniti visualizzatore eCatalog, selezionare l&#39;eCatalog nel pannello Sfoglia, quindi selezionare **[!UICONTROL Anteprima]**. La schermata Anteprima si apre nel visualizzatore predefinito.
 
 Notate l’orientamento, lo schema colori, l’aspetto dei controlli per passare alle diverse pagine e come si presentano le pagine voltate. 
 
@@ -124,7 +124,7 @@ Consulta [Pubblicare eCatalog e PDF associati](publishing-ecatalogs-associated-p
 
 ## 7. Collegare un eCatalog a una pagina Web
 
-Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Medie Image Server. Puoi copiare questa stringa URL dalla schermata Anteprima e dal pannello Sfoglia (in Visualizzazione dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, questa sarà disponibile per i siti Web e le applicazioni.
+Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Medie Image Server. Puoi copiare questa stringa di URL dalla schermata Anteprima e dal pannello Sfoglia (in Vista dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, questa sarà disponibile per i siti Web e le applicazioni.
 
 Collabora con il tuo team IT per inserire il collegamento all’eCatalog nella posizione appropriata all’interno della pagina Web. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore eCatalog e gli utenti possono sfogliare l&#39;eCatalog.
 

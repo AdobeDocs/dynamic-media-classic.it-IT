@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -35,7 +35,7 @@ Per visualizzare solo i file di un certo tipo mentre sfogliate, nella sezione Li
 
 ## Ordinare i file nel pannello Sfoglia {#sorting-files-in-the-browse-panel}
 
-È possibile ordinare il contenuto di una cartella o i risultati della ricerca visualizzati nel pannello Sfoglia sul lato destro. Sulla barra di navigazione globale, seleziona **[!UICONTROL Ordina]** e quindi scegliere un&#39;opzione. Le opzioni sono **[!UICONTROL Nome]**, **[!UICONTROL Dimensione (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Data di creazione]**, e **[!UICONTROL Ultima modifica]**.
+Potete ordinare il contenuto di una cartella o i risultati della ricerca visualizzati nel pannello Sfoglia sul lato destro. Sulla barra di navigazione globale, seleziona **[!UICONTROL Ordina]** e quindi scegliere un&#39;opzione. Le opzioni sono **[!UICONTROL Nome]**, **[!UICONTROL Dimensione (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Data di creazione]**, e **[!UICONTROL Ultima modifica]**.
 
 Puoi anche scegliere **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]** per ordinare le risorse in ordine crescente o decrescente in base ai criteri scelti.
 

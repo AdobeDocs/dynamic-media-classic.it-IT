@@ -10,16 +10,16 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
 # Visualizzare le risorse nel pannello Sfoglia{#viewing-assets-in-the-browse-panel}
 
-Per cambiare il tipo di visualizzazione delle risorse nel pannello Sfoglia, fate clic su uno dei pulsanti Visualizza:
+Per modificare la visualizzazione delle risorse nel pannello Sfoglia, seleziona un pulsante Visualizza:
 
 * **Vista griglia**: vicino all’angolo superiore destro della schermata Adobe Dynamic Media Classic, seleziona la **[!UICONTROL Vista griglia]** per visualizzare le risorse sotto forma di miniature in una griglia. In Visualizzazione griglia è possibile trascinare il dispositivo di scorrimento Miniature per modificare le dimensioni delle miniature.
 

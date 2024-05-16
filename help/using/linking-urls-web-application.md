@@ -10,9 +10,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 26%
 
 ---
@@ -40,7 +40,7 @@ Potete ottenere una stringa URL generata da un predefinito per immagini dalla sc
    * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista a elenco]**. Nella finestra Risorsa, seleziona una singola risorsa di immagine, quindi a destra dell’immagine di miniatura vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
    * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
 
-1. (Facoltativo) Nell’elenco Predefiniti immagine, seleziona l’URL encoding for the image asset (Codifica URL per copia generazione URL) da applicare all’URL della risorsa immagine quando viene copiata.
+1. (Facoltativo) Nell’elenco Predefiniti immagine, seleziona l’URL Encoding da applicare all’URL della risorsa immagine copiata nell’elenco a discesa Codifica URL per Copia generazione URL.
 1. Nella finestra Elenco predefiniti immagine, in alto a destra nel riquadro di anteprima, seleziona **[!UICONTROL Copia URL]** per il tipo di predefinito selezionato.
 1. Nell&#39;angolo inferiore destro della finestra Elenco predefiniti immagine, seleziona **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
 
@@ -80,7 +80,7 @@ I nomi dei predefiniti per immagini negli URL sono racchiusi tra simboli di doll
 
 ## Aggiungere immagini dinamiche alla pagina Web {#adding-dynamic-images-to-your-web-page}
 
-Per aggiungere immagini dinamiche alla pagina Web, `<IMG>` Il tag nel codice della pagina Web HTML viene in genere modificato utilizzando la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Medie. La stringa produce l’immagine secondo le specifiche di formattazione e ridimensionamento definite dal predefinito per immagini.
+Quando si aggiungono immagini dinamiche alla pagina Web, il `<IMG>` Il tag nel codice della pagina HTML in genere viene modificato utilizzando la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Medie. La stringa produce l’immagine secondo le specifiche di formattazione e ridimensionamento definite dal predefinito per immagini.
 
 Ad esempio, al posto della tipica richiesta di apertura di un’immagine statica, ovvero
 

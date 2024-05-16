@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 21%
 
 ---
@@ -77,7 +77,7 @@ Se hai selezionato l’opzione **[!UICONTROL Mantieni livelli]** quando hai cari
 >
 >Adobe Dynamic Media Classic supporta fino a cinque livelli in un gruppo di livelli nidificato.
 
-1. Fare doppio clic sul file di PSD completo nel pannello Sfoglia. Il file viene aperto in Vista dettagli (Detail View).
+1. Fate doppio clic sul file di PSD completo nel pannello Sfoglia. Il file viene aperto in Vista dettagli (Detail View).
 
    >[!NOTE]
    >

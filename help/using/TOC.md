@@ -6,7 +6,7 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic
 index: y
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 18%
@@ -117,7 +117,7 @@ ht-degree: 18%
    + [Collegare un set di immagini a una pagina Web](linking-image-set-web-page.md)
 + Set campioni {#swatch-sets}
    + [Avvio rapido: set di campioni](quick-start-swatch-sets.md)
-   + [Includere destinazioni di zoom e mappe immagine nei set di campioni](including-zoom-targets-image-maps-swatch-sets.md)
+   + [Includi destinazioni di zoom e mappe immagine nei set di campioni](including-zoom-targets-image-maps-swatch-sets.md)
    + [Prepara risorse set di campioni per il caricamento](preparing-swatch-set-assets-upload.md)
    + [Creazione di un set di campioni](creating-swatch-set.md)
    + [Visualizza set di campioni](viewing-swatch-sets.md)

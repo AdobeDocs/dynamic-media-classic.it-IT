@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Consulta [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti al 7 maggio 20
    * API Image Server/Image Rendering
    * API Image Production System
    * e Note sulla versione di Adobe Dynamic Media Classic
-* [Esempi di librerie di visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html): include esempi di visualizzatori per video, supporti acquistabili, file multimediali diversi, set 360 gradi, zoom in linea, set di immagini e campioni e menu a comparsa.
+* [Esempi di librerie di visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html): include esempi di visualizzatori per video, contenuti multimediali acquistabili, file multimediali diversi, set 360 gradi, zoom in linea, set di immagini e campioni e menu a comparsa.
 
 ## Risorse utente di Adobe Dynamic Media Classic
 
@@ -40,7 +40,7 @@ Consulta [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti al 7 maggio 20
 * [Guida: best practice per migliorare la nitidezza delle immagini](/help/using/assets/s7_sharpening_images.pdf)
 * [Guida: come Adobe Dynamic Media Classic supporta SEO](/help/using/assets/s7_seo.pdf): i motori di ricerca oggi abilitano la ricerca di siti web e immagini. Adobe Dynamic Media Classic supporta gli sforzi per rendere le immagini compatibili con i motori di ricerca in modo che venga indirizzato più traffico al sito web dell’utente Adobe Dynamic Media Classic. Questa guida in PDF offre informazioni di base e consigli sull’implementazione da seguire.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [Webinar: Best practice per offrire esperienze interattive con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): scopri come inserire e rimuovere contenuti in Adobe Dynamic Media Classic e configurare predefiniti immagine per prestazioni ed esperienze ottimali. Scopri anche i predefiniti per visualizzatori e le configurazioni di memorizzazione in cache.
+* [Webinar: Procedure consigliate per fornire esperienze interattive con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): scopri come inserire e rimuovere contenuti in Adobe Dynamic Media Classic e configurare predefiniti immagine per prestazioni ed esperienze ottimali. Scopri anche i predefiniti per visualizzatori e le configurazioni di memorizzazione in cache.
 * [Webinar: Massimizzare il ROI delle risorse](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): scopri le best practice di settore per distribuire rich media tra siti e app mobili. In questo webinar, un Adobe fornisce esempi e dimostrazioni che mostrano come distribuire video in modo efficiente tra i dispositivi. Scopri come offrire creatività dinamica nelle campagne di marketing. Oppure, aumenta la conversione rendendo qualsiasi immagine, guida di stile o lookbook acquistabile.
 * [Webinar: Accelerare il ciclo di distribuzione dei contenuti](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): introduzione e dimostrazione di Adobe Experience Manager Assets: on demand, la piattaforma di nuova generazione per la gestione e la distribuzione di contenuti rich media. Scopri come collaborare e condividere le risorse tra i team creativi e di marketing per semplificare i processi di revisione delle risorse. Scopri le best practice per gestire in modo efficiente i metadati delle risorse. In questo modo le risorse possono essere facilmente trovate, utilizzate, riutilizzate e condivise. Scopri anche come offrire esperienze multimediali avanzate interattive cross-channel.
 * [Webinar: Progettazione per l’ottimizzazione mobile](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): con Adobe Dynamic Media Classic è possibile distribuire in modo efficiente rich media mirati a tutti i dispositivi. Scopri come progettare e fornire esperienze di visualizzazione di immagini e video efficaci per le app mobili e i siti reattivi.

@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -37,7 +37,7 @@ Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per carica
 
 ## 2. Creare destinazioni di zoom per lo zoom guidato
 
-Le destinazioni di zoom consentono di evidenziare porzioni specifiche di un’immagine. Potete ad esempio indirizzare l’attenzione alle parti di un’immagine che la rendono univoca o particolare. Nella finestra Visualizzatore zoom, le destinazioni di zoom vengono visualizzate come miniature a fianco dell’immagine. Se selezionate una di queste miniature di destinazione di zoom, viene applicato automaticamente lo zoom a una porzione specifica dell’immagine.
+Le destinazioni di zoom consentono di evidenziare porzioni specifiche di un’immagine. Potete ad esempio indirizzare l’attenzione alle parti di un’immagine che la rendono univoca o particolare. Nella finestra Visualizzatore zoom, le destinazioni di zoom vengono visualizzate sotto forma di miniature sul lato dell&#39;immagine. Se selezionate una di queste miniature di destinazione di zoom, viene applicato automaticamente lo zoom a una porzione specifica dell’immagine.
 
 Per creare una destinazione di zoom, selezionare **[!UICONTROL Modifica]** e scegliere Destinazioni zoom, oppure aprire un&#39;immagine nel pannello Sfoglia in Vista dettagli e selezionare **[!UICONTROL Destinazioni di zoom]**. Quindi utilizzate gli strumenti Zoom nella pagina Editor destinazioni di zoom per isolare parte dell&#39;immagine come destinazione. Consulta [Creare destinazioni di zoom per lo zoom guidato](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
@@ -53,9 +53,9 @@ Offerte Adobe Dynamic Media Classic **[!UICONTROL Predefinito visualizzatore zoo
 
 Potete visualizzare in anteprima le immagini in un visualizzatore zoom per verificare l’esperienza di zoom quando questo viene applicato alle immagini.
 
-Per esplorare diversi predefiniti visualizzatore zoom e come presentano l’esperienza di zoom, seleziona un’immagine nel pannello Sfoglia e seleziona **[!UICONTROL Anteprima]**. Vai a **[!UICONTROL Predefiniti]** > **[!UICONTROL Zoom]**, quindi selezionare un predefinito con il menu Zoom.
+Per esplorare diversi predefiniti visualizzatore zoom e come presentano l&#39;esperienza di zoom, selezionate un&#39;immagine nel pannello Sfoglia e selezionate **[!UICONTROL Anteprima]**. Vai a **[!UICONTROL Predefiniti]** > **[!UICONTROL Zoom]**, quindi selezionare un predefinito con il menu Zoom.
 
-Vengono visualizzati i pulsanti Zoom. È possibile visualizzare l&#39;aspetto delle immagini di zoom sul sito Web. Selezionare i pulsanti Zoom (e le destinazioni di zoom) per verificare le impostazioni del predefinito visualizzatore zoom scelto. Consulta [Anteprima di immagini con diversi visualizzatori zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Vengono visualizzati i pulsanti Zoom. È possibile visualizzare l&#39;aspetto delle immagini di zoom sul sito Web. Selezionare i pulsanti Zoom (e Destinazioni zoom) per verificare le impostazioni del predefinito visualizzatore zoom scelto. Consulta [Anteprima di immagini con diversi visualizzatori zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Pubblicare immagini di zoom
 

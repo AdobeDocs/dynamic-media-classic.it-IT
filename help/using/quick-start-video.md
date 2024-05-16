@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -116,7 +116,7 @@ Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.
 
 ## 2. Visualizzare l’anteprima dei video in un visualizzatore video
 
-Per vedere come viene riprodotto un video per gli utenti finali su un desktop, sul sito Web o su un dispositivo mobile, seleziona il video nel pannello Sfoglia. Quindi seleziona **[!UICONTROL Anteprima]**.
+Per vedere come viene riprodotto un video per gli utenti finali su un desktop, sul sito Web o su un dispositivo mobile, selezionate il video nel pannello Sfoglia. Quindi seleziona **[!UICONTROL Anteprima]**.
 
 Consulta [Anteprima di video in un visualizzatore video](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -136,7 +136,7 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
 * Visualizzare il video nella propria finestra a comparsa o modale, nel qual caso utilizzare il **[!UICONTROL Copia URL]** funzionalità.
 
-  Per ottenere l’URL per un video, nella vista Griglia o Elenco selezionatelo nel pannello Sfoglia. Seleziona **[!UICONTROL Anteprima]** e quindi selezionare **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
+  Per ottenere l&#39;URL per un video, selezionalo nel pannello Sfoglia nella Vista griglia o Vista elenco. Seleziona **[!UICONTROL Anteprima]** e quindi selezionare **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
 
   Quando selezioni **[!UICONTROL Copia URL]**, l’URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
 
@@ -146,7 +146,7 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
 * Visualizza il video incorporato nella pagina Web, nel qual caso utilizza il **[!UICONTROL Codice di incorporamento]** funzionalità.
 
-  Per ottenere il codice da incorporare per un video, nella visualizzazione griglia o nella visualizzazione elenco selezionare il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
+  Per ottenere il codice da incorporare per un video, nella visualizzazione griglia o nella visualizzazione elenco, selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
   Seleziona **[!UICONTROL Chiudi]** e incollare il codice da incorporare in una o più pagine Web.
 

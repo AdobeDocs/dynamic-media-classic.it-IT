@@ -10,40 +10,40 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 28%
+source-wordcount: '617'
+ht-degree: 17%
 
 ---
 
 # Spostare, rinominare ed eliminare le risorse{#moving-renaming-and-deleting-assets}
 
-Dal pannello Sfoglia potete spostare, rinominare ed eliminare le risorse. Inoltre, potete eliminare più risorse contemporaneamente con un file di testo.
+Puoi spostare, rinominare ed eliminare le risorse dal pannello Sfoglia. Inoltre, potete eliminare più risorse contemporaneamente con un file di testo.
 
 ## Spostare le risorse {#move-assets}
 
-Potete spostare le risorse in altre cartelle del pannello Sfoglia.
+Puoi spostare le risorse in cartelle diverse nel pannello Sfoglia.
 
 **Per spostare le risorse:**
 
-1. Selezionate la risorsa o le risorse nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
+1. Seleziona la risorsa o le risorse nel pannello Sfoglia ed effettua una delle seguenti operazioni:
 
    * Visualizza la cartella in cui desideri spostare le risorse nella Libreria risorse e trascina le risorse nella cartella.
    * Vai a **[!UICONTROL File]** > **[!UICONTROL Sposta]**, seleziona una cartella nella finestra Sposta risorse e seleziona **[!UICONTROL Sposta]**.
 
 ## Rinominare le risorse {#rename-assets}
 
-1. Selezionate la risorsa nel pannello Sfoglia, quindi effettuate una delle seguenti operazioni:
+1. Seleziona la risorsa nel pannello Sfoglia ed effettua una delle seguenti operazioni:
 
    * Selezionare il nome, digitare un nuovo nome e premere **[!UICONTROL Invio]** oppure selezionala lontano dal nome.
    * Vai a **[!UICONTROL File]** > **[!UICONTROL Rinomina]**. Il nome della risorsa viene evidenziato. Inserisci un nuovo nome e premi **[!UICONTROL Invio]**. Assicurati di non inserire il nome di una risorsa Adobe Dynamic Media Classic esistente.
 
 ## Eliminare le risorse {#delete-assets}
 
-Puoi eliminare le risorse selezionate nel pannello Sfoglia ed eliminare intere cartelle. Le risorse e le cartelle eliminate vengono spostate nella cartella Cestino, dove restano per sette giorni prima di essere eliminate definitivamente. 
+Potete eliminare le risorse selezionate nel pannello Sfoglia ed eliminare intere cartelle. Le risorse e le cartelle eliminate vengono spostate nella cartella Cestino, dove restano per sette giorni prima di essere eliminate definitivamente. 
 
-Quando elimini una risorsa, vengono eliminate anche tutte le risorse da essa derivate. Ad esempio, se eliminate un’immagine per la quale avete creato delle destinazioni di zoom, anche queste ultime vengono eliminate.
+Quando elimini una risorsa, vengono eliminate anche tutte le risorse da essa derivate. Ad esempio, se si elimina un&#39;immagine per la quale sono stati creati oggetti di zoom, vengono eliminati anche gli oggetti di zoom insieme all&#39;immagine.
 
 le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengono eliminati definitivamente quando rimuovete le risorse da cui derivano. Poiché non vengono spostate nel Cestino insieme alla risorsa, non possono essere ripristinate dal Cestino.
 
@@ -71,7 +71,7 @@ Crea l&#39;elenco degli ID Adobe Dynamic Media Classic e salvalo come file di te
 Una volta creato l’elenco, effettuate le operazioni seguenti:
 
 1. Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina elenco risorse]**.
-1. In **[!UICONTROL Elenco risorse eliminate]** , sfoglia o digita il percorso del file di testo con l’elenco delle risorse da eliminare.
+1. In **[!UICONTROL Elenco risorse eliminate]** digitare il percorso del file di testo con l&#39;elenco delle risorse da eliminare.
 1. Seleziona **[!UICONTROL Elimina]**.
 
 Quando elimini le risorse con un file di testo, se nell’elenco non è presente alcun ID Adobe Dynamic Media Classic, viene visualizzato il messaggio &quot;Impossibile convalidare queste voci nell’elenco:&quot;. Viene inoltre visualizzato l&#39;elenco delle voci. Tuttavia, Adobe Dynamic Media Classic non genera un errore nella pagina Job (Processo).

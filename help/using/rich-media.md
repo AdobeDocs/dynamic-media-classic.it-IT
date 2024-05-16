@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -27,13 +27,13 @@ Consultate [Avvio rapido: eCatalog](/help/using/quick-start-ecatalog.md).
 * **eVideo**: distribuzione di esperienze video di alta qualità a più schermi, tra cui desktop, dispositivi mobili e tablet. Utilizza predefiniti di codifica Adobe Dynamic Media Classic predefiniti o personalizza la codifica per controllare la qualità e le dimensioni del video. Organizza, sfoglia e cerca video con supporto completo per i metadati, per una gestione efficiente delle risorse video.
 Consulta [Guida introduttiva: Video in Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
 
-* **Mappe immagine**: distribuisce dinamicamente le immagini a qualsiasi dimensione e formato in tutto il sito Web. Invece di creare manualmente più immagini a dimensioni diverse, puoi utilizzare una sola immagine principale. Adobe Dynamic Media Classic offre l&#39;immagine richiesta e la ottimizza per ottenere risultati di altissima qualità in termini di dimensioni, formato, peso, qualità e nitidezza.
+* **Mappe immagine**: distribuisce dinamicamente le immagini a qualsiasi dimensione e formato in tutto il sito Web. Invece di creare manualmente più immagini a dimensioni diverse, è sufficiente utilizzare una sola immagine principale. Adobe Dynamic Media Classic offre l&#39;immagine richiesta e la ottimizza per ottenere risultati di altissima qualità in termini di dimensioni, formato, peso, qualità e nitidezza.
 Consultate [Avvio rapido: ridimensionamento delle immagini](/help/using/quick-start-image-sizing.md)
 
 * **Set di immagini**: fornisci un’esperienza di acquisto interattiva in cui gli utenti possono visualizzare i prodotti in più viste. Per un’esperienza di visualizzazione integrata, è possibile combinare zoom, visualizzazioni multiple e campioni di colore.
 Consultate [Avvio rapido: set di immagini](/help/using/quick-start-image-sets.md).
 
-* **Set di file multimediali diversi**: una combinazione di set di immagini, set 360 gradi, set di campioni, destinazioni di zoom, video e audio in una presentazione. Potete impostare i set di file multimediali con schede in modo da separare i video dalle immagini. È inoltre possibile specificare dove e come visualizzare campioni e destinazioni di zoom e fornire agli utenti una visualizzazione multimediale completa dei prodotti o dei servizi.
+* **Set di file multimediali diversi**: fornisce una combinazione di set di immagini, set 360 gradi, set di campioni, destinazioni zoom, video e audio in una presentazione. Potete impostare i set di file multimediali con schede in modo da separare i video dalle immagini. È inoltre possibile specificare dove e come visualizzare campioni e destinazioni di zoom e fornire agli utenti una visualizzazione multimediale completa dei prodotti o servizi.
 Consultate [Avvio rapido: set di file multimediali diversi](/help/using/quick-start-mixed-media-sets.md).
 
 * **Set 360 gradi**: sequenza di immagini per ruotarle orizzontalmente. I set 360 gradi consentono ai visitatori del sito web di ruotare i prodotti e visualizzarli da lati diversi. Potete creare set 360 gradi monodimensionali e bidimensionali.

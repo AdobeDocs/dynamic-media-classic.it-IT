@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 20%
@@ -56,7 +56,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 La Vista dettagli fornisce informazioni su una risorsa o un file. Vengono visualizzate queste informazioni su un elemento: la cartella in cui è memorizzato, il nome del file, la data in cui l&#39;elemento è stato caricato in Adobe Dynamic Media Classic e la cronologia di pubblicazione. Puoi anche visualizzare e modificare i metadati e aggiungere parole chiave per una risorsa nella Vista dettagli.
 
-Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sarà attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettagli fornisce anche un elenco di risorse e metadati generati o derivati, come destinazioni di zoom e Set di immagini.
+Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sarà attivo finché non pubblichi la risorsa. Per le immagini, la Vista dettagli fornisce anche un elenco di risorse e metadati generati o derivati, come Destinazioni di zoom e Set di immagini.
 
 ## Utilizzare le risorse nella vista Dettaglio {#working-with-assets-in-detail-view}
 

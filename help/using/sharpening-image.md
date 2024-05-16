@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -45,7 +45,7 @@ Vedi anche [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?
 
 **Per rendere più nitida un&#39;immagine:**
 
-Per rendere più nitida un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Nitidezza]**, o aprirlo nel pannello Sfoglia in Visualizzazione dettagli, quindi selezionare **[!UICONTROL Nitidezza]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegliere i comandi desiderati, quindi fare clic su **[!UICONTROL Salva]**.
+Per rendere più nitida un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Nitidezza]**, oppure aprirlo nel pannello Sfoglia in Visualizzazione dettagli, quindi selezionare **[!UICONTROL Nitidezza]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegliere i comandi desiderati, quindi fare clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >

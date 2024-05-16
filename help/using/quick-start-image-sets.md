@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 I set di immagini Adobe Dynamic Media Classic offrono agli utenti un&#39;esperienza di visualizzazione integrata. In Visualizzatore set di immagini dinamico, gli utenti possono visualizzare diverse visualizzazioni di un elemento selezionando una miniatura. I set di immagini consentono di presentare visualizzazioni alternative ad alta risoluzione di un elemento.
 
-Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desiderate, potete includere nel set di immagini anche destinazioni di zoom e mappe immagine. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
+Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desideri, puoi rendere le destinazioni di zoom guidate e le mappe immagine parte del set di immagini. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
 
 Consulta [Set immagini e 360 gradi: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) video di formazione.
 
@@ -66,7 +66,7 @@ Consulta [Creare e modificare i predefiniti per visualizzatori](application-setu
 
 ## 4. Anteprima di un set di immagini
 
-Selezionare il set di immagini nel pannello Sfoglia, quindi selezionare **[!UICONTROL Anteprima]**. Nella pagina Anteprima, seleziona le icone delle miniature per esaminare il set di immagini nel visualizzatore selezionato. Nel menu Predefiniti, potete scegliere diversi visualizzatori.
+Selezionate il set di immagini nel pannello Sfoglia, quindi selezionate **[!UICONTROL Anteprima]**. Nella pagina Anteprima, seleziona le icone delle miniature per esaminare il set di immagini nel visualizzatore selezionato. Nel menu Predefiniti, potete scegliere diversi visualizzatori.
 
 Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 

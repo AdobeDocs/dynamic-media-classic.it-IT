@@ -10,7 +10,7 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 12%
@@ -43,7 +43,7 @@ Last Modified Date:
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Nel pannello Sfoglia, seleziona **[!UICONTROL Contrassegna per pubblicazione]** accanto a ogni nome file che si desidera pubblicare.
+   * Nel pannello Sfoglia, selezionate **[!UICONTROL Contrassegna per pubblicazione]** accanto a ogni nome file che si desidera pubblicare.
    * Nella schermata Carica, seleziona **[!UICONTROL Contrassegna per pubblicazione]** accanto a ogni nome file che si desidera pubblicare.
 
 1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
