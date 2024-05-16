@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Questo argomento include le sezioni seguenti:
 
 ## Best practice e limiti applicati da Dynamic Medie ai tipi di risorse {#best-practice-enforced-limits}
 
-Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazione di pagine, l’Adobe consiglia le seguenti best practice e applica i seguenti limiti:
+Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazione di una pagina, l’Adobe consiglia le seguenti best practice. Adobe applica inoltre i seguenti limiti:
 
 | Risorsa: tipo di limite | Best practice | Limite imposto |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazio
 | **Set 360 gradi**: numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 | **PDF**: numero massimo di pagine per un PDF da considerare per l’estrazione |  | 100 (per tutti i PDF) |
 
-‡ best practice prevede di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
+‡ Si consiglia di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

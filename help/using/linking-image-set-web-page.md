@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 24%
+source-wordcount: '676'
+ht-degree: 17%
 
 ---
 
 # Collegare un set di immagini a una pagina Web{#linking-an-image-set-to-a-web-page}
 
-Dopo aver pubblicato un set di immagini, è possibile copiarne l&#39;URL associato o il codice di incorporamento da utilizzare nel sito Web o nell&#39;applicazione. Puoi quindi distribuire l’URL o incollare il codice da incorporare in base alle esigenze, in modo che gli utenti possano visualizzare il set di immagini sul sito web o sull’applicazione.
+Dopo aver pubblicato un set di immagini, è possibile copiarne l&#39;URL associato o il relativo codice di incorporamento da utilizzare nel sito Web o nell&#39;applicazione. Puoi quindi distribuire l’URL o incollare il codice da incorporare in base alle esigenze, in modo che gli utenti possano visualizzare il set di immagini sul sito web o sull’applicazione.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Dopo aver pubblicato un set di immagini, è possibile copiarne l&#39;URL associa
 ## Copiare un URL per set di immagini {#copying-an-image-set-url}
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set immagini]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di immagini di cui desiderate copiare il codice incorporato.
+1. nel pannello Libreria risorse a sinistra, passa alla cartella delle risorse contenente il set di immagini di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
@@ -57,7 +57,7 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 **Per copiare il codice di incorporamento di un visualizzatore di set di immagini:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set immagini]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di immagini di cui desiderate copiare il codice incorporato.
+1. nel pannello Libreria risorse a sinistra, passa alla cartella delle risorse contenente il set di immagini di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL a destra, seleziona **[!UICONTROL Codice di incorporamento]**.

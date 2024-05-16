@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -76,7 +76,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
    * Visualizzatori per contenuti multimediali misti che combinano video e immagini.
 
 * Configurare i lettori video per soddisfare le esigenze di branding.
-* Integrare video nel sito Web oppure nel sito o nell’applicazione mobile con un semplice URL video o codice incorporato.
+* Integra il video nel tuo sito web, sito mobile o app mobile con un semplice URL o codice da incorporare.
 
 Guarda i seguenti video di formazione:
 * [Panoramica video MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -146,7 +146,7 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
 * Visualizza il video incorporato nella pagina Web, nel qual caso utilizza il **[!UICONTROL Codice di incorporamento]** funzionalità.
 
-  Per ottenere il codice da incorporare per un video, nella vista Griglia o Elenco selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
+  Per ottenere il codice da incorporare per un video, nella visualizzazione griglia o nella visualizzazione elenco selezionare il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, seleziona **[!UICONTROL Codice di incorporamento]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
   Seleziona **[!UICONTROL Chiudi]** e incollare il codice da incorporare in una o più pagine Web.
 

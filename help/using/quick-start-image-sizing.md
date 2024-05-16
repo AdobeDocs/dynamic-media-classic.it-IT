@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 8%
+source-wordcount: '873'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 Il dimensionamento dell&#39;immagine si riferisce alla capacità di Adobe Dynamic Media Classic di creare più immagini derivate basate su un&#39;unica immagine ad alta risoluzione. Anziché creare manualmente più immagini, ad esempio una miniatura e un&#39;immagine ingrandita, per il sito Web o l&#39;applicazione in uso, è possibile fornire un&#39;unica immagine principale. Adobe Dynamic Media Classic genera tutte le immagini modificate come richiesto dall&#39;utente. La possibilità di distribuire le immagini in modo dinamico da una singola immagine primaria presenta molti vantaggi:
 
-* Non è necessario creare manualmente più copie dell’immagine in diversi formati. Fornite un&#39;immagine principale a Adobe Dynamic Media Classic, e Adobe Dynamic Media Classic genera derivati di dimensioni diverse dall&#39;immagine principale.
+* Non è necessario creare manualmente diverse copie dell’immagine a dimensioni diverse. Fornite un&#39;immagine principale a Adobe Dynamic Media Classic, e Adobe Dynamic Media Classic genera derivati di dimensioni diverse dall&#39;immagine principale.
 * È possibile modificare rapidamente le dimensioni di un tipo di immagine in tutto il sito Web o l&#39;applicazione. Ad esempio, per modificare tutte le miniature, puoi modificare il predefinito immagine &quot;miniatura&quot;. Un predefinito immagine, simile a una macro, è una raccolta di attributi di dimensione e formattazione. È possibile modificare il predefinito immagine &quot;miniatura&quot; per modificare le dimensioni di tutte le miniature presenti nel sito Web o nell&#39;applicazione.
 * Non è necessario gestire i file primari e tutti i vari derivati in nessuno dei sistemi di gestione dei contenuti o delle risorse, né internamente né esternamente.
 
@@ -39,7 +39,7 @@ Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per carica
 
 ## 2. Impostare i predefiniti per le immagini
 
-Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Un predefinito per immagini definisce le dimensioni e la formattazione delle immagini distribuite dai server immagini Dynamic Medie. Se hai lo stato di Amministratore della società, puoi impostare autonomamente i predefiniti immagine. Adobe Dynamic Media Classic viene inoltre fornito con predefiniti immagine predefiniti che è possibile utilizzare per distribuire le immagini in modo dinamico.
+Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Un predefinito per immagini definisce le dimensioni e la formattazione delle immagini distribuite dai server immagini Dynamic Medie. Se hai lo stato di Amministratore della società, puoi impostare autonomamente i predefiniti immagine. Puoi distribuire le immagini in modo dinamico utilizzando i predefiniti immagine già disponibili in Adobe Dynamic Media Classic.
 
 Per creare un predefinito immagine (se sei un amministratore), nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Predefiniti immagine]**. Quindi seleziona **[!UICONTROL Aggiungi]** per creare un predefinito immagine, oppure seleziona **[!UICONTROL Modifica]** per modificare un predefinito immagine esistente.
 
@@ -66,6 +66,6 @@ Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]** per avvi
 
 ## 5. Collegare gli URL all’applicazione web
 
-Adobe Dynamic Media Classic crea stringhe di callout URL per le immagini. Quando si pubblicano immagini su Dynamic Medie Image Server, gli URL diventano attivi. Puoi copiare queste stringhe URL dal pannello Sfoglia (in Vista dettagli) o dalla schermata Anteprima. Dopo aver copiato le stringhe URL, è possibile utilizzarle nel sito Web e nelle applicazioni. L’URL per il ridimensionamento delle immagini sostituisce il riferimento a un nome di immagine statico nel codice della pagina web. L’URL fa riferimento a un nome di immagine principale, che viene sostituito dal database per ogni nuova immagine da visualizzare.
+Adobe Dynamic Media Classic crea stringhe di callout URL per le immagini. Quando si pubblicano immagini su Dynamic Medie Image Server, gli URL diventano attivi. Puoi copiare queste stringhe URL dal pannello Sfoglia (in Vista dettagli) o dalla schermata Anteprima. Dopo aver copiato le stringhe URL, è possibile utilizzarle nel sito Web e nelle applicazioni. L’URL per Image Sizing sostituisce il riferimento a un nome di immagine statico nel codice della pagina web. L’URL fa riferimento a un nome di immagine principale che il database sostituisce per ogni nuova immagine da visualizzare.
 
 Le stringhe URL generate tramite Predefiniti immagine contengono il nome di un predefinito per immagini. Questo nome è racchiuso tra simboli del dollaro (`$`). Ad esempio: `$thumbnail$` può essere il predefinito per immagini progettato per mostrare le immagini primarie alle dimensioni delle miniature. Consulta [Collegare gli URL all’applicazione web](linking-urls-web-application.md#linking_urls_to_your_web_application).

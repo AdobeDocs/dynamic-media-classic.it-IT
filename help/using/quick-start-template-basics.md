@@ -10,9 +10,9 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ Le nozioni di base sui modelli sono file immagine a livelli dinamici e indirizza
 
 Un modello può contenere un qualsiasi numero di livelli di immagine e di testo. Potete convertire un file statico contenente livelli, ad esempio un file di PSD con livelli, in un modello e creare modelli in Adobe Dynamic Media Classic. Potete creare livelli di testo nei modelli utilizzando i font caricati in Adobe Dynamic Media Classic. Dopo aver aggiunto il testo a un modello, è possibile formattarlo modificandone la giustificazione, il tipo di carattere, la dimensione e il colore.
 
-La pagina Parametri consente di convertire qualsiasi aspetto di un modello in un parametro indirizzabile. In questo modo, puoi modificare l’immagine a livelli da utilizzare o il valore di testo da utilizzare nel modello. I parametri vengono passati con la stringa URL, consentendo di modificare qualsiasi parametro per personalizzare dinamicamente l’immagine di risposta generata dal server immagini.
+La pagina Parametri consente di convertire qualsiasi aspetto di un modello in un parametro indirizzabile. In questo modo, puoi modificare l’immagine a livelli da utilizzare o il valore di testo da utilizzare nel modello. I parametri vengono passati con la stringa URL, consentendo di modificare qualsiasi parametro in modo da personalizzare dinamicamente l’immagine di risposta generata dal server immagini.
 
 Vedi anche [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) video di formazione.
 
@@ -33,7 +33,7 @@ Questa Guida introduttiva è stata progettata per consentirti di iniziare subito
 
 Per iniziare, caricate il file PSD o il file immagine per il modello. Adobe Dynamic Media Classic supporta molti formati di file immagine oltre a PSD, ma per i modelli sono consigliate immagini TIFF e PNG senza perdita di dati, in quanto consentono la trasparenza.
 
-Se utilizzi un file PSD per generare il modello, seleziona **[!UICONTROL Crea modello]** il **[!UICONTROL Opzioni processo di caricamento]** quando si carica il file PSD. Scegli anche un **[!UICONTROL Denominazione livelli]** in modo che Adobe Dynamic Media Classic sappia come denominare i livelli PSD quando vengono caricati in Adobe Dynamic Media Classic.
+Se utilizzi un file PSD per generare il modello, seleziona **[!UICONTROL Crea modello]** nel **[!UICONTROL Opzioni processo di caricamento]** quando si carica il file PSD. Scegli anche un **[!UICONTROL Denominazione livelli]** in modo che Adobe Dynamic Media Classic sappia come denominare i livelli PSD quando vengono caricati in Adobe Dynamic Media Classic.
 
 Se si utilizzano file di immagine, è possibile ritagliare le immagini e creare una maschera dai tracciati di ritaglio nelle immagini durante il caricamento.
 
@@ -69,4 +69,4 @@ Per pubblicare un modello, contrassegnalo per la pubblicazione e sulla barra di 
 
 Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblichi i modelli sui server immagini Dynamic Medie. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
 
-Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito immagine per la distribuzione del modello, quindi seleziona **[!UICONTROL Copia URL]**. Dopo aver copiato l&#39;URL dalla pagina Anteprima, è possibile utilizzarlo nel sito Web o nell&#39;applicazione. Consulta [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito immagine per la distribuzione del modello, quindi fai clic su **[!UICONTROL Copia URL]** pulsante. Dopo aver copiato l&#39;URL dalla pagina Anteprima, è possibile utilizzarlo nel sito Web o nell&#39;applicazione. Consulta [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

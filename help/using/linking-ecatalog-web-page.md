@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ I siti Web e le applicazioni accedono al contenuto del server immagini di Dynami
 ## Copiare un URL di eCatalog {#copying-an-ecatalog-url}
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Catalogo]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene l’eCatalog di cui desiderate copiare il codice incorporato.
+1. nel pannello Libreria risorse a sinistra, passa alla cartella delle risorse contenente l’eCatalog di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
@@ -57,7 +57,7 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 **Per copiare il codice di incorporamento di un visualizzatore eCatalog:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Catalogo]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene l’eCatalog di cui desiderate copiare il codice incorporato.
+1. nel pannello Libreria risorse a sinistra, passa alla cartella delle risorse contenente l’eCatalog di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL a destra, seleziona **[!UICONTROL Codice di incorporamento]**.

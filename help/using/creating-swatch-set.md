@@ -10,10 +10,10 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 58%
+source-wordcount: '715'
+ht-degree: 49%
 
 ---
 
@@ -25,9 +25,9 @@ Ad esempio, per presentare immagini di berretti con visiere di diversi colori ne
 
 ## Creazione di un set di campioni {#create}
 
-Quando create un set, l’opzione **Pubblica dopo il salvataggio** incide su set e relativi membri nei seguenti modi:
+Quando si crea un set, **Pubblica dopo un salvataggio** influisce sui membri set e set nei modi seguenti:
 
-| **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| **[!UICONTROL Pubblica dopo un salvataggio]** opzione selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -47,15 +47,15 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
    Verificate che il campione di colore, motivo o finitura trascinato in ciascun segnaposto rappresenti il colore, il motivo o la finitura dell’immagine adiacente.
 
 1. Per modificare l’ordine delle immagini nel set di campioni, trascinate queste ultime in nuove posizioni.
-1. Verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita) nell’angolo inferiore destro della pagina sia selezionata.
+1. Nell’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionate una cartella per la memorizzazione del set di campioni colore, immettete un nome per il set e selezionate **[!UICONTROL Invia]**.
 1. Per visualizzare il set di campioni nel visualizzatore del set di campioni, seleziona **[!UICONTROL Anteprima]** nella schermata Set campioni. Potete selezionare le miniature dei campioni nel Visualizzatore set di campioni per vedere come si comportano.
 
 ## Modifica di un set di campioni {#editing-a-swatch-set}
 
-Sia che si modifichi un set pubblicato o non pubblicato, il **[!UICONTROL Pubblica dopo il salvataggio]** influisce sui membri set e set nei modi seguenti:
+Sia che si modifichi un set pubblicato o non pubblicato, il **[!UICONTROL Pubblica dopo un salvataggio]** influisce sui membri set e set nei modi seguenti:
 
-| Il set è già pubblicato | **[!UICONTROL Pubblica dopo]** salvare l’opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL Pubblica dopo un salvataggio]** salvare l’opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 |--- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato. |
 | Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -73,7 +73,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
    * Per rimuovere un&#39;immagine, selezionarla e quindi selezionare **[!UICONTROL Elimina]** sulla barra degli strumenti.
    * Per riordinare le immagini, trascinate un’immagine fino alla posizione desiderata.
 
-1. Al termine dell’operazione di modifica del set, verificate che l’opzione **[!UICONTROL Pubblica dopo il salvataggio]** nell’angolo in basso a destra della pagina sia selezionata (impostazione predefinita).
+1. Al termine della modifica del set, vicino all’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.
 
 ## Eliminare un set di campioni

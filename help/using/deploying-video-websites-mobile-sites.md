@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ I siti Web, i siti mobili e le applicazioni desktop accedono ai contenuti del se
 
 >[!NOTE]
 >
->l’URL o il codice da incorporare diventa attivo solo dopo che la risorsa è stata pubblicata.
+>L’URL o il codice di incorporamento non è attivo finché non pubblichi la risorsa.
 
 ## Pubblicare i video {#publishing-video}
 
@@ -82,7 +82,7 @@ Vedi anche [Collegare l’URL di un video a un sito mobile o a un sito web](depl
 **Per incorporare il visualizzatore video in una pagina Web:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Video]**, o **[!UICONTROL Set video adattivo]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il video o set video adattivo di cui desiderate copiare il codice da incorporare.
+1. nel pannello Libreria risorse, a sinistra, passa alla cartella risorse contenente il video o il set di video adattivi di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]** o **[!UICONTROL Vista a elenco]**. Nella finestra delle risorse, fate doppio clic sulla miniatura video di una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, in Streaming HTTP, seleziona **[!UICONTROL Codice di incorporamento]** a destra del visualizzatore desiderato. Come best practice, seleziona **[!UICONTROL Codice di incorporamento]** associato al `Universal_HTML5_Video` visualizzatore.
@@ -107,7 +107,7 @@ Vedi anche [Collegare l’URL di un video a un sito mobile o a un sito web](depl
 
 ### Implementare il codice di incorporamento per utilizzare video HTML5 con risorse video MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Se non utilizzi il lettore video Adobe Dynamic Media Classic HTML5, ma desideri invece utilizzare il HTML nativo `<video>` con i tag delle risorse video MP4, puoi utilizzare il seguente codice di incorporamento di esempio:
+Se non utilizzi il lettore video Adobe Dynamic Media Classic HTML5, ma desideri invece utilizzare il HTML nativo `<video>` con le risorse video MP4, puoi utilizzare il seguente codice di incorporamento:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 

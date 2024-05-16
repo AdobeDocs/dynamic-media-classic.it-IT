@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 22%
 
 ---
 
@@ -24,7 +24,7 @@ Dopo aver pubblicato un set di file multimediali diversi, puoi ottenere l’URL 
 ## Ottenere l’URL di un set di file multimediali diversi {#obtain-a-mixed-media-set-url}
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Media Set]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di file multimediali di cui desiderate copiare il codice da incorporare.
+1. nel pannello Libreria risorse, a sinistra, passa alla cartella delle risorse contenente il set di file multimediali di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Fate clic su **[!UICONTROL Visualizzazione griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
@@ -51,7 +51,7 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 **Per copiare il codice di incorporamento di un visualizzatore di set di file multimediali diversi:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set di file multimediali diversi]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di file multimediali diversi di cui desiderate copiare il codice da incorporare.
+1. nel pannello Libreria risorse, a sinistra, passa alla cartella delle risorse contenente il set di file multimediali diversi di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Fate clic su **[!UICONTROL Visualizzazione griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Codice di incorporamento]** a destra del visualizzatore desiderato.

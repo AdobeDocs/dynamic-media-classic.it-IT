@@ -10,9 +10,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '3427'
+source-wordcount: '3433'
 ht-degree: 36%
 
 ---
@@ -29,9 +29,9 @@ Vedi anche [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5
 
 ## Creare il modello iniziale {#creating-the-initial-template}
 
-Quando si crea un set di modelli, **[!UICONTROL Pubblica dopo il salvataggio]** influisce sui membri set e set nei modi seguenti:
+Quando si crea un set di modelli, **[!UICONTROL Pubblica dopo un salvataggio]** influisce sui membri set e set nei modi seguenti:
 
-| **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| **[!UICONTROL Pubblica dopo un salvataggio]** opzione selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -50,7 +50,7 @@ Se necessario, potete creare un modello partendo da uno già esistente. Apri il 
 
 1. Nella finestra di dialogo Immetti dimensioni area di lavoro immettere le dimensioni di larghezza e altezza per il modello.
 1. Selezionate una cartella nella Libreria risorse e trascinate i file PSD o le immagini per il modello nella schermata Modello.
-1. Al termine, vicino all’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita).
+1. Al termine, vicino all’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
 1. Seleziona una cartella per l’archiviazione del modello, immetti un nome per il modello e seleziona **[!UICONTROL Invia]**.
 
@@ -58,9 +58,9 @@ Se necessario, potete creare un modello partendo da uno già esistente. Apri il 
 
 ## Modificare un set di modelli {#editing-a-template-set}
 
-Se si modifica un set pubblicato o un set di modelli non pubblicato, **[!UICONTROL Pubblica dopo il salvataggio]** influisce sui membri set e set nei modi seguenti:
+Se si modifica un set pubblicato o un set di modelli non pubblicato, **[!UICONTROL Pubblica dopo un salvataggio]** influisce sui membri set e set nei modi seguenti:
 
-| Il set è già pubblicato | **[!UICONTROL Pubblica dopo il salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL Pubblica dopo un salvataggio]** opzione selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -73,7 +73,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Nella Vista griglia, individuate un set di modelli e, sotto l&#39;immagine, selezionate **[!UICONTROL Modifica]**.
 1. Modifica il modello in base alle esigenze.
-1. Al termine della modifica, vicino all’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo il salvataggio]** (impostazione predefinita).
+1. Al termine della modifica, vicino all’angolo inferiore destro della pagina, assicurati che **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, selezionare una cartella di archiviazione, immettere un nome per il set e quindi selezionare **[!UICONTROL Salva]**.
 
 ## Eliminare un modello

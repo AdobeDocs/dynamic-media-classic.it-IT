@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 21%
@@ -45,7 +45,7 @@ Consulta [Aggiungere e modificare i predefiniti per visualizzatori](application-
 
 ## Utilizzare i predefiniti per visualizzatori video {#working-with-video-viewer-presets}
 
-Gli utenti visualizzano i video nel visualizzatore video. Il comportamento del visualizzatore video, il relativo aspetto e il funzionamento dei controlli di riproduzione dipendono dal predefinito per visualizzatori scelto per la riproduzione del video. Potete scegliere un predefinito per visualizzatori nella schermata Anteprima. Dopo aver scelto un predefinito, puoi ottenere l’URL, o il codice da incorporare, per riprodurre il video utilizzando il predefinito per visualizzatori scelto.
+Gli utenti visualizzano i video nel visualizzatore video. Il comportamento del visualizzatore video, il relativo aspetto e il funzionamento dei controlli di riproduzione dipendono dal predefinito per visualizzatori scelto per la riproduzione del video. Potete scegliere un predefinito per visualizzatori nella schermata Anteprima. Dopo aver scelto un predefinito, puoi ottenere l’URL, o il Codice di incorporamento, per riprodurre il video utilizzando il predefinito per visualizzatori scelto.
 
 In Adobe Dynamic Media Classic sono disponibili molti predefiniti visualizzatore per la riproduzione di video e, se sei un amministratore, puoi creare predefiniti visualizzatore personalizzati. Sono disponibili più di 12 impostazioni diverse per la configurazione del Visualizzatore video. Potete configurare la relativa dimensione, il colore, i controlli audio e video, la barra di avanzamento, l’interfaccia utente e le funzioni per social network.
 

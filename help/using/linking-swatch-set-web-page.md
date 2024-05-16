@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 24%
+ht-degree: 16%
 
 ---
 
 # Collegare un set di campioni a una pagina web{#linking-a-swatch-set-to-a-web-page}
 
-Dopo aver pubblicato un set di campioni, è possibile utilizzarne l&#39;URL associato o il codice di incorporamento nel sito Web o nell&#39;applicazione. Quindi puoi distribuire l’URL o il codice da incorporare in base alle esigenze, in modo che gli utenti possano visualizzare il set di campioni sul sito web o sull’applicazione.
+Dopo aver pubblicato un set di campioni, potete utilizzare l&#39;URL o il codice di incorporamento associato nel sito Web o nell&#39;applicazione. A questo punto puoi distribuire l’URL o il codice da incorporare in base alle esigenze, in modo che gli utenti possano visualizzare il set di campioni sul sito web o sull’applicazione.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Dopo aver pubblicato un set di campioni, è possibile utilizzarne l&#39;URL asso
 ## Copiare un URL per set di campioni {#copying-a-swatch-set-url}
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set campioni]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di campioni di cui desiderate copiare il codice da incorporare.
+1. nel pannello Libreria risorse, a sinistra, passa alla cartella delle risorse contenente il set di campioni di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
@@ -57,7 +57,7 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 **Per copiare il codice di incorporamento di un visualizzatore di set di campioni:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set campioni]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set di campioni di cui desiderate copiare il codice da incorporare.
+1. nel pannello Libreria risorse, a sinistra, passa alla cartella delle risorse contenente il set di campioni di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Codice di incorporamento]** a destra del visualizzatore desiderato.

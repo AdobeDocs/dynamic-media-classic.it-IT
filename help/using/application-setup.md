@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '10945'
 ht-degree: 29%
@@ -713,7 +713,7 @@ L’URL viene copiato negli Appunti. È possibile utilizzarlo in base alle esige
 
    Nella pagina Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Copia URL]**.
 
-### Copiare il codice di incorporamento di un predefinito per visualizzatori {#copying-the-embed-code-of-a-viewer-preset}
+### Copiare il codice di incorporamento di un predefinito visualizzatore {#copying-the-embed-code-of-a-viewer-preset}
 
 La funzione Incorpora codice permette di analizzare il codice visualizzatore del predefinito per visualizzatori selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore.
 

@@ -10,16 +10,16 @@ role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 36%
+source-wordcount: '256'
+ht-degree: 28%
 
 ---
 
 # Anteprima di un set 360 gradi{#previewing-a-spin-set}
 
-Potete usare Elenco visualizzatori per ottenere l’anteprima di una risorsa in base a un particolare tipo di piattaforma per visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
+È possibile utilizzare Elenco visualizzatori per visualizzare in anteprima come una risorsa viene visualizzata in una particolare piattaforma di tipo visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
 Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
 

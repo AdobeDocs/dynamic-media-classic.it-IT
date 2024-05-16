@@ -9,7 +9,7 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 17%
@@ -68,7 +68,7 @@ Consulta [Distribuisci contenuti statici (non immagine)](https://experienceleagu
 
      Nella finestra di dialogo Incorpora codice, seleziona **[!UICONTROL Copia negli Appunti]**.
 
-     Per il HTML 5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, o `Universal_HTML5_MixedMedia_light` visualizzatori, aggiungi il codice da incorporare copiato con quanto segue:
+     Per il HTML 5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, o `Universal_HTML5_MixedMedia_light` , aggiungi il codice da incorporare copiato con quanto segue:
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 

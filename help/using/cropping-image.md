@@ -10,10 +10,10 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 35%
+ht-degree: 31%
 
 ---
 
@@ -50,7 +50,7 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 1. Nella finestra Editor ritaglio, posizionate la parte dell&#39;immagine che non desiderate ritagliare nella casella di ritaglio. Qualsiasi cosa venga visualizzata all&#39;interno della casella è ciò che rimarrà dopo aver selezionato **[!UICONTROL Salva]** e ritagliare l&#39;immagine.
 1. Per regolare l’area di ritaglio, effettuate una delle seguenti operazioni:
 
-   * Trascinate un lato o un angolo della casella. Tenete premuto il tasto Maiusc mentre trascinate per cambiare le dimensioni ma mantenere le stesse proporzioni (forma) del rettangolo di ritaglio.
+   * Trascinate un lato o un angolo della casella. Tenere premuto il tasto Maiusc mentre si trascina per modificare le dimensioni ma mantenere le proporzioni (la forma) della casella di ritaglio.
    * Immettete le misure in pixel nelle caselle Dimensione.
    * Trascinate per spostare la casella di ritaglio. Spostate il puntatore all’interno della casella. Quando viene visualizzata la freccia a quattro punte, trascinate la casella sull’immagine in una nuova posizione.
 

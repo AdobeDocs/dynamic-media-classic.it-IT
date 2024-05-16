@@ -10,16 +10,16 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
 # Collegare un set 360 gradi a una pagina web{#linking-a-spin-set-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server, inclusi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa dell’URL o il codice da incorporare per il set 360 gradi nelle pagine web e nelle applicazioni, copialo da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server, inclusi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine web e nelle applicazioni, copialo da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server
 ## Copiare un URL del set 360 gradi {#copying-a-spin-set-url}
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set 360 gradi]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set 360 gradi di cui desiderate copiare il codice incorporato.
+1. nel pannello Libreria risorse, a sinistra, accedi alla cartella delle risorse contenente il set 360 gradi di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Copia URL]** a destra del visualizzatore desiderato.
@@ -61,7 +61,7 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 **Per copiare il codice di incorporamento di un visualizzatore di set 360 gradi:**
 
 1. Nel pannello Sfoglia risorse, nell’elenco a discesa Mostra, seleziona **[!UICONTROL Set 360 gradi]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il set 360 gradi di cui desiderate copiare il codice incorporato.
+1. nel pannello Libreria risorse, a sinistra, accedi alla cartella delle risorse contenente il set 360 gradi di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Codice di incorporamento]** a destra del visualizzatore desiderato.
