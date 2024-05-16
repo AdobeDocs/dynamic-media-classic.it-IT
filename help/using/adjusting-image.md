@@ -10,16 +10,16 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '571'
+ht-degree: 41%
 
 ---
 
 # Regolare un’immagine{#adjusting-an-image}
 
-Adobe Dynamic Media Classic offre diversi comandi per regolare l&#39;aspetto di un&#39;immagine. Potete riflettere, ruotare, sfocare e colorare un’immagine e cambiarne il bilanciamento colore. Sperimentando con questi comandi potete vederne gli effetti sull’immagine con cui state lavorando.
+Adobe Dynamic Media Classic offre diversi comandi per regolare l&#39;aspetto di un&#39;immagine. Potete capovolgere, ruotare, sfocare, modificare il bilanciamento colore e colorare un&#39;immagine. Sperimentando con questi comandi potete vederne gli effetti sull’immagine con cui state lavorando.
 
 Vedi anche [Creare un alias per un&#39;immagine](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -57,7 +57,7 @@ Seleziona **[!UICONTROL Salva]**.
 
 ## Creare un alias per un&#39;immagine {#creating-an-alias-for-an-image}
 
-Dopo aver regolato un&#39;immagine, è possibile salvarla come un&#39;altra visualizzazione dell&#39;immagine principale. A questo scopo, puoi creare un alias per l’immagine utilizzando **[!UICONTROL Salva come altra visualizzazione primaria]** funzionalità.
+Dopo aver regolato un&#39;immagine, è possibile salvarla come un&#39;altra visualizzazione dell&#39;immagine principale. A questo scopo, puoi creare un alias per l’immagine utilizzando **[!UICONTROL Salva come altra vista del primario]** funzionalità.
 
 **Per creare un alias per un&#39;immagine:**
 

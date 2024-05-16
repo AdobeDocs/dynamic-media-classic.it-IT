@@ -10,7 +10,7 @@ role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Best practice per l’utilizzo del visualizzatore video di HTML5{#best-practice-using-the-html-video-viewer}
 
-I predefiniti visualizzatore video di Adobe Dynamic Media Classic HTML5 sono lettori video affidabili. Dal lato della progettazione del lettore, puoi creare l’intera funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
+I predefiniti per visualizzatore video di Adobe Dynamic Media Classic HTML5 sono lettori video affidabili. Dal lato della progettazione del lettore, puoi creare l’intera funzionalità del lettore video utilizzando gli strumenti di sviluppo web standard. Ad esempio, potete offrire ai vostri clienti un’esperienza personalizzata creando pulsanti, controlli e sfondo personalizzato con immagine poster tramite HTML5 e CSS.
 
 Sul lato di riproduzione del visualizzatore, rileva automaticamente la funzionalità video del browser. Distribuisce quindi il video utilizzando HLS (HTTP Live Streaming), noto anche come streaming video adattivo. Oppure, se tale metodo di consegna non è presente, allora viene utilizzato HTML5 progressive.
 

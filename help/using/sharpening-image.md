@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -128,7 +128,7 @@ Se non hai utilizzato un predefinito immagine o non hai passato protocolli di ni
 
 Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se impostate la modalità di ricampionamento predefinita su **`Sharp2`**, aumenta sempre la nitidezza dell&#39;immagine durante il downsampling.
 
-**Aggiungi nitidezza ai predefiniti visualizzatore**
+**Aggiungere nitidezza ai predefiniti visualizzatore**
 
 A meno che non abbiate aggiunto modificatori di immagini nitide al predefinito, la piccola immagine iniziale caricata può avere un aspetto morbido perché viene ricampionata verso il basso per adattarsi alla finestra del visualizzatore senza essere nitida.
 

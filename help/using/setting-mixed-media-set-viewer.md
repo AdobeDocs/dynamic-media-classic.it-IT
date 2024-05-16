@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 27%
+source-wordcount: '613'
+ht-degree: 22%
 
 ---
 
@@ -26,19 +26,19 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Nella pagina Predefiniti visualizzatore effettuare una delle seguenti operazioni:
 
-   * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli **[!UICONTROL Visualizzatore set di file multimediali diversi]**, quindi seleziona **[!UICONTROL Aggiungi]**.
-   * Per modificare un predefinito per visualizzatore set di file multimediali diversi, selezionalo, quindi seleziona **[!UICONTROL Modifica]**.
+   * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma. Quindi fai clic su **[!UICONTROL Visualizzatore set di file multimediali diversi]** > **[!UICONTROL Aggiungi]**.
+   * Per modificare un predefinito visualizzatore set di file multimediali diversi, selezionalo, quindi seleziona **[!UICONTROL Modifica]**.
 
-1. Nella pagina Visualizzatore configurazione, digita un nome nella casella Nome predefinito per il predefinito Visualizzatore set di file multimediali diversi.
+1. Nella pagina Visualizzatore configurazione, digita un nome nella casella Nome predefinito per il predefinito visualizzatore set di file multimediali diversi.
 1. Specifica **[!UICONTROL Schede]** o **[!UICONTROL Nessuna scheda]**. Le schede separano gli elementi in base al tipo, ad esempio set di video, di campioni o set 360 gradi. Se non specificate alcuna scheda, tutti gli elementi vengono visualizzati in una riga sotto la finestra Anteprima.
 1. In **[!UICONTROL Nome]** digitare un nome per il visualizzatore da aggiungere.
 
    Ad esempio, se stai aggiungendo un set di campioni al set di file multimediali diversi, digita `Swatch Set A`.
 
-1. Nel menu Visualizzatore, scegliete il tipo di risorsa da visualizzare, ad esempio Set campioni.
-1. Nel menu Predefinito, scegliete un predefinito per il tipo di risorsa scelta.
+1. Dal menu Visualizzatore, seleziona il tipo di risorsa da visualizzare, ad esempio Set di campioni.
+1. Dal menu Predefinito, seleziona un predefinito per il tipo di risorsa scelto.
 
-   Ad esempio, se state aggiungendo un set di campioni, scegliete **[!UICONTROL ColoriSetCampioni1]**.
+   Ad esempio, se state aggiungendo un set di campioni, selezionate **[!UICONTROL ColoriSetCampioni1]**.
 
 1. Seleziona **[!UICONTROL Aggiungi]**.
 
@@ -48,7 +48,7 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 1. Per modificare l’elenco dei predefiniti, effettuate una delle seguenti operazioni:
 
    * Per eliminare un predefinito dall&#39;elenco, selezionatelo, quindi selezionate **[!UICONTROL Elimina]**.
-   * Per riordinare i predefiniti nell’elenco, seleziona un predefinito, quindi seleziona il **[!UICONTROL Su]** o **[!UICONTROL Giù]** freccia.
+   * Per riordinare i predefiniti nell&#39;elenco, selezionate un predefinito, quindi selezionate il blu **[!UICONTROL Su]** o **[!UICONTROL Giù]** freccia.
 
 1. Per aggiungere al visualizzatore funzioni per la community Internet (Incorpora, Collegamento, Visita), specificate le opzioni per una delle seguenti operazioni:
 

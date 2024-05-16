@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per carica
 
 ## 2. Impostare i predefiniti per le immagini
 
-Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Un predefinito per immagini definisce le dimensioni e la formattazione delle immagini distribuite dai server immagini Dynamic Medie. Se siete amministratori della società, potete configurare i predefiniti per immagini voi stessi. Adobe Dynamic Media Classic viene inoltre fornito con predefiniti immagine predefiniti che è possibile utilizzare per distribuire le immagini in modo dinamico.
+Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Un predefinito per immagini definisce le dimensioni e la formattazione delle immagini distribuite dai server immagini Dynamic Medie. Se hai lo stato di Amministratore della società, puoi impostare autonomamente i predefiniti immagine. Adobe Dynamic Media Classic viene inoltre fornito con predefiniti immagine predefiniti che è possibile utilizzare per distribuire le immagini in modo dinamico.
 
 Per creare un predefinito immagine (se sei un amministratore), nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Predefiniti immagine]**. Quindi seleziona **[!UICONTROL Aggiungi]** per creare un predefinito immagine, oppure seleziona **[!UICONTROL Modifica]** per modificare un predefinito immagine esistente.
 

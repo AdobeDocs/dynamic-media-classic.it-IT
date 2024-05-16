@@ -10,7 +10,7 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 16%
@@ -47,7 +47,7 @@ Consulta [Creare un set di file multimediali diversi](creating-mixed-media-set.m
 
 ## 4. Impostare i predefiniti per i visualizzatori di file multimediali diversi
 
-Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore per set di file multimediali diversi. Gli amministratori possono creare o modificare i predefiniti visualizzatore di set di file multimediali diversi.
+Adobe Dynamic Media Classic viene fornito con i predefiniti per visualizzatori per set di file multimediali diversi. Gli amministratori possono creare o modificare i predefiniti visualizzatore di set di file multimediali diversi.
 
 Quando imposti un predefinito visualizzatore set di file multimediali diversi, aggiungi i predefiniti visualizzatore per tutte le altre risorse del set. Ad esempio, se il set di file multimediali diversi include video, aggiungi un predefinito visualizzatore video al predefinito visualizzatore set di file multimediali diversi. Potete aggiungere al visualizzatore anche una colonna sonora. La colonna sonora viene riprodotta quando il visualizzatore viene aperto, ma non durante la riproduzione di un video.
 

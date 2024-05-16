@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '10944'
+source-wordcount: '10945'
 ht-degree: 29%
 
 ---
@@ -49,7 +49,7 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 * **[!UICONTROL Nome server video progressivo]**: URL del file [!DNL Adobe Dynamic Media Classic] server video progressivo. Questo server distribuisce video progressivi utilizzando il protocollo HTTP.
 
-* **[!UICONTROL Mostra URL per risorse non pubblicate]**: seleziona questa opzione se desideri [!DNL Adobe Dynamic Media Classic] per visualizzare un URL durante l’anteprima di una risorsa, pubblicata o meno. Se la risorsa non è pubblicata, l’URL non funziona. Tuttavia, potete utilizzare l’URL a scopo di progettazione o organizzazione.
+* **[!UICONTROL Mostra URL per risorse non pubblicate]**: seleziona questa opzione se desideri [!DNL Adobe Dynamic Media Classic] per visualizzare un URL quando visualizzi l’anteprima di una risorsa, pubblicata o meno. Se la risorsa non è pubblicata, l’URL non funziona. Tuttavia, potete utilizzare l’URL a scopo di progettazione o organizzazione.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -83,7 +83,7 @@ Vedi anche [Test del servizio di test protetto](testing-assets-making-them-publi
 
 * **[!UICONTROL Mostra contenuto eVideo di esempio]**: attiva o disattiva la visualizzazione del contenuto di esempio eVideo.
 
-* **[!UICONTROL Mostra contenuto generato]**: nelle cartelle, mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, in Adobe Dynamic Media Classic viene creata un&#39;immagine per ogni pagina del file PDF originale. Se è selezionata l&#39;opzione Mostra contenuto generato, viene visualizzata ogni immagine generata al caricamento del PDF originale. Viene visualizzato insieme al PDF nella cartella in cui è stato caricato il PDF.
+* **[!UICONTROL Mostra contenuto generato]**: nelle cartelle mostra il contenuto generato da una risorsa. Ad esempio, quando un file PDF viene rasterizzato durante il caricamento, in Adobe Dynamic Media Classic viene creata un&#39;immagine per ogni pagina del file PDF originale. Se è selezionata l&#39;opzione Mostra contenuto generato, viene visualizzata ogni immagine generata al caricamento del PDF originale. Viene visualizzato insieme al PDF nella cartella in cui è stato caricato il PDF.
 
 * **[!UICONTROL Mostra video codificati]**: deselezionato (disattivato) per impostazione predefinita.
 
@@ -117,11 +117,11 @@ Vedi anche [Opzioni per i processi di caricamento](https://s7d5.scene7.com/s7vie
 
 * **[!UICONTROL Sovrascrivi immagini]**: Adobe Dynamic Media Classic non consente a due file di avere lo stesso nome. L&#39;ID Adobe Dynamic Media Classic di ogni elemento (il nome immagine meno l&#39;estensione del nome file) deve essere univoco. In virtù di questa regola, nella finestra di dialogo Carica è disponibile l’opzione Sovrascrivi. Il risultato effettivo di questa opzione dipende dal valore impostato per l’opzione Sovrascrivi immagini. È possibile specificare come caricare le immagini sostitutive, ossia se devono sostituire le immagini originali o diventare duplicati di tali immagini. Le immagini duplicate vengono rinominate con un &quot;-1&quot; (ad esempio, chair.tif viene rinominato chair-1.tif). Queste opzioni interessano le immagini caricate in una cartella diversa da quella degli originali o le immagini con una diversa estensione file (ad esempio, JPG, TIF o PNG). Consulta [Utilizzare l’opzione Sovrascrivi immagini](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Sovrascrivi in cartella corrente, nome/estensione immagine di base uguale]**: questa opzione è la regola più rigorosa per la sostituzione. Richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’immagine originale e che abbia la stessa estensione del nome file dell’originale. Se entrambi i requisiti non vengono soddisfatti, viene creata una copia dell’immagine.
+   * **[!UICONTROL Sovrascrivi in cartella corrente, nome immagine di base o estensione uguali]**: questa opzione è la regola più rigorosa per la sostituzione. Richiede che l’immagine sostitutiva sia caricata nella stessa cartella dell’immagine originale e che abbia la stessa estensione del nome file dell’originale. Se entrambi i requisiti non vengono soddisfatti, viene creata una copia dell’immagine.
 
    * **[!UICONTROL Sovrascrivi in cartella corrente, nome come risorsa base, ignora estensione]**: richiede che l’immagine sostitutiva venga caricata nella stessa cartella dell’originale, tuttavia l’estensione del nome file può essere diversa da quella originale. Ad esempio, sedia.tif sostituisce sedia.jpg.
 
-   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome/estensione come risorsa base]**: richiede che l’immagine sostitutiva abbia la stessa estensione del nome file dell’immagine originale (ad esempio, chair.jpg deve sostituire chair.jpg, non chair.tif). Tuttavia, è possibile caricare l’immagine sostitutiva in una cartella diversa da quella dell’originale. L’immagine aggiornata sarà contenuta nella nuova cartella e il file verrà rimosso dal percorso originale.
+   * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base o estensione]**: richiede che l’immagine sostitutiva abbia la stessa estensione del nome file dell’immagine originale. Ad esempio, chair.jpg deve sostituire chair.jpg, non chair.tif). Tuttavia, è possibile caricare l’immagine sostitutiva in una cartella diversa da quella dell’originale. L’immagine aggiornata sarà contenuta nella nuova cartella e il file verrà rimosso dal percorso originale.
 
    * **[!UICONTROL Sovrascrivi in qualsiasi cartella, nome come risorsa base, ignora estensione]**: questa opzione è la regola di sostituzione più inclusiva. L’immagine sostitutiva può essere caricata in una cartella diversa da quella dell’originale, con una diversa estensione file, e sostituire il file originale. Se il file originale si trova in un’altra cartella, l’immagine sostitutiva sarà contenuta nella nuova cartella nella quale è stata caricata.
 

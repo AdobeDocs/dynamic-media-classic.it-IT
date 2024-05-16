@@ -10,16 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 30%
+source-wordcount: '1022'
+ht-degree: 27%
 
 ---
 
 # SEO (Search Engine Optimization) per i video{#video-seo-search-engine-optimization}
 
-L’ottimizzazione SEO (Search Engine Optimization, ottimizzazione per i motori di ricerca) consente di migliorare il volume di traffico verso un sito Web generato dai motori di ricerca. I motori di ricerca possono raccogliere informazioni sui contenuti testuali, ma non dai video a meno che le informazioni necessarie per le ricerche non siano appositamente specificate.
+L’ottimizzazione SEO (Search Engine Optimization, ottimizzazione per i motori di ricerca) consente di migliorare il volume di traffico verso un sito Web generato dai motori di ricerca. Anche se i motori di ricerca sono eccellenti nel raccogliere informazioni sui contenuti basati su testo, non possono acquisire in modo adeguato informazioni sui video. Tali informazioni devono essere loro fornite.
 
 Utilizzando Adobe Dynamic Media Classic Video SEO, puoi applicare metadati video per fornire ai motori di ricerca le descrizioni dei tuoi video. Adobe Dynamic Media Classic consente di creare Video Sitemap e feed mRSS. Questi file XML standard vengono utilizzati per inviare informazioni video ai motori di ricerca:
 
@@ -45,7 +45,7 @@ Dopo la generazione, Adobe Dynamic Media Classic crea rapporti sulle mappe del s
 
 ## Scegli impostazioni Video SEO (Search Engine Optimization)
 
-Selezionare le impostazioni Video SEO per Video Sitemap e feed mRSS sul **[!UICONTROL Impostazioni di ottimizzazione motore di ricerca video]** pagina. Per aprire questa pagina, nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Impostazioni]**.
+Seleziona le impostazioni Video SEO (Search Engine Optimization) per Video Sitemap e feed mRSS su **[!UICONTROL Impostazioni di ottimizzazione motore di ricerca video]** pagina. Per aprire questa pagina, nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Impostazioni]**.
 
 In **[!UICONTROL Impostazione generale]** , scegliere se generare Video Sitemap, feed mRSS o entrambi. In **[!UICONTROL Impostazioni di generazione]** area, mappa i campi di metadati con i campi di input.
 
@@ -65,7 +65,7 @@ Il giorno **[!UICONTROL Modalità di generazione]** dall&#39;elenco a discesa, s
 
 Il giorno **[!UICONTROL Modalità automatica/manuale]** dall&#39;elenco a discesa, scegliere se generare automaticamente o manualmente:
 
-* **Modalità automatica**: Adobe Dynamic Media Classic genera automaticamente una Video Sitemap, un feed Media RSS (mRSS) o entrambi, ogni giorno. Seleziona la **[!UICONTROL Contrassegna per pubblicazione]** opzione per contrassegnare automaticamente per la pubblicazione il file XML generato da Adobe Dynamic Media Classic.
+* **Modalità automatica**: Adobe Dynamic Media Classic genera automaticamente una Video Sitemap, un feed Media RSS (mRSS) o entrambi, ogni giorno. Seleziona la **[!UICONTROL Contrassegna per pubblicazione]** in modo da poter contrassegnare automaticamente per la pubblicazione il file XML generato da Adobe Dynamic Media Classic.
 
    * **Contrassegna per pubblicazione** Contrassegna per la pubblicazione del file XML generato.
 
@@ -79,7 +79,7 @@ Il giorno **[!UICONTROL Modalità automatica/manuale]** dall&#39;elenco a disces
 
 ### Scelta delle impostazioni di generazione {#choosing-generation-settings}
 
-Nell&#39;area Impostazioni di generazione sono elencati i campi di input per Video Sitemap, o feed mRSS, o entrambi, e nel pannello Metadati sono elencati i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo, l&#39;utente indica a Adobe Dynamic Media Classic dove ottenere i metadati per Video Sitemap e/o il feed mRSS.
+Nell&#39;area Impostazioni generazione sono elencati i campi di input per Video Sitemap, mRSS feed o entrambi. Nel pannello Metadati vengono elencati i nomi dei campi di metadati. Servitevi dell’area Impostazioni generazione per associare i campi di input ai relativi campi di metadati. In questo modo, l&#39;utente indica a Adobe Dynamic Media Classic dove ottenere i metadati per Video Sitemap e/o il feed mRSS.
 
 1. Nel menu Visualizzazioni metadati, scegliete una visualizzazione per i metadati. Dopo aver scelto una vista, i nomi dei campi di metadati vengono visualizzati nel pannello Metadati.
 Consultate [Visualizzazione metadati](application-setup.md#metadata_views).

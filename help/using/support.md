@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 14%
 
 ---
@@ -39,6 +39,6 @@ Quando riferite i problemi all’assistenza tecnica, fornite anche le seguenti i
 * Nome dell’azienda Adobe Dynamic Media Classic.
 * Nome, numero di telefono e indirizzo di posta elettronica.
 * Applicazione, piattaforma e versione di Adobe Dynamic Media Classic.
-* Descrizione del problema e passaggi necessari per riprodurlo.
+* Descrizione del problema e dei passaggi necessari per riprodurlo.
 * Messaggio di errore, se presente.
 * Tipo e versione del browser, se applicabile.

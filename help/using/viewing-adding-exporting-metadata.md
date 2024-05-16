@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
@@ -161,11 +161,11 @@ Adobe Dynamic Media Classic offre un comando per la creazione di un modello per 
 
 ## Operazioni con gli schemi di metadati {#working-with-metadata-schemas}
 
-Un amministratore di società può visualizzare un elenco di tutti gli schemi disponibili. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Schema metadati]**.
+Un amministratore della società può visualizzare un elenco di tutti gli schemi disponibili. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Schema metadati]**.
 
 Inizialmente, l&#39;elenco degli schemi standard globali come l&#39;XMP è nascosto. Per visualizzarli, usate la casella di selezione in fondo all’elenco.
 
-L’amministratore della società può creare uno schema personalizzato o modificarne uno esistente.
+L’amministratore dell’azienda può creare uno schema personalizzato o modificarne uno esistente.
 
 Potete utilizzare l’Editor schema metadati per effettuare le operazioni seguenti:
 

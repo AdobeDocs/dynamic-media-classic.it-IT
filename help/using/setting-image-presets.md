@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Le immagini la cui dimensione viene ridotta quando vengono trasmesse da un serve
 
 ## Creare un predefinito immagine {#creating-an-image-preset}
 
-Se siete l’amministratore della società, potete creare dei predefiniti per immagini in base alle vostre specifiche esigenze. Potete creare predefiniti immagine o iniziare con un predefinito immagine predefinito fornito da Adobe Dynamic Media Classic, modificarlo e salvarlo con un nuovo nome.
+Se sei un amministratore della società, puoi creare predefiniti immagine personalizzati. Potete creare predefiniti immagine o iniziare con un predefinito immagine predefinito fornito da Adobe Dynamic Media Classic, modificarlo e salvarlo con un nuovo nome.
 
 **Per creare un predefinito immagine:**
 

@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Utilizza il seguente elenco di controllo per comprendere e preparare un aggiorna
 | **Fase 4: Aggiornamento** | Replicare le risorse | Durante il processo di aggiornamento, [!DNL Dynamic Media Classic] le risorse vengono replicate su Dynamic Medie. |
 | **Fase 5: configurazione amministrativa** | Configurare utenti e autorizzazioni | Creare utenti e concedere le autorizzazioni appropriate. |
 |   | Configurare i profili di codifica video | Creare profili di codifica video. |
-|   | Imposta i predefiniti visualizzatore | Creare predefiniti visualizzatore. |
+|   | Impostazioni predefinite visualizzatore | Creare predefiniti visualizzatore. |
 |   | Imposta predefiniti immagine | Imposta predefiniti immagine. |
 | **Fase 6: Convalida** | Convalida | Verifica casi d’uso, risorse, collegamenti e API. |

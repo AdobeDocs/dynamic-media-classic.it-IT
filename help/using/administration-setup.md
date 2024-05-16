@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1974'
 ht-degree: 32%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 # Impostazione amministrazione{#administration-setup}
 
-Le schermate di configurazione dell’amministrazione sono per l’amministrazione degli utenti di Adobe Dynamic Media Classic. Utilizzare queste schermate per consentire agli utenti di lavorare in Adobe Dynamic Media Classic e comunicare tramite posta elettronica con gli utenti.
+Le schermate di configurazione dell’amministrazione sono per l’amministrazione degli utenti di Adobe Dynamic Media Classic. Utilizzare queste schermate per consentire agli utenti di lavorare in Adobe Dynamic Media Classic e comunicare tramite posta elettronica con altri utenti.
 
 1. Per accedere alle opzioni di configurazione dell&#39;amministrazione, vai a **Configurazione** > **Configurazione personale** > **Configurazione amministrazione**.
 
@@ -28,7 +28,7 @@ Le schermate di configurazione dell’amministrazione sono per l’amministrazio
 
 A tutti gli utenti di Adobe Dynamic Media Classic viene assegnato un ruolo che determina i loro privilegi e i diritti di accesso alle funzioni di Adobe Dynamic Media Classic. Gli amministratori specificano i diversi ruoli e responsabilità per le società a cui sono assegnati.
 
-In genere, Adobe Dynamic Media Classic configura il primo gruppo di società e assegna un amministratore di società. L’amministratore aziendale imposta e amministra quindi gli utenti di Adobe Dynamic Media Classic.
+In genere, Adobe Dynamic Media Classic configura il primo gruppo di società e assegna un amministratore della società. L’amministratore aziendale imposta e amministra quindi gli utenti di Adobe Dynamic Media Classic.
 
 Adobe Dynamic Media Classic supporta diversi ruoli utente. Questi ruoli possono accedere alle aziende configurate per Adobe Dynamic Media Classic:
 
@@ -109,7 +109,7 @@ Puoi utilizzare le seguenti tecniche di filtro degli elenchi utente:
 
 * **Escludi utenti non validi**: Deseleziona **[!UICONTROL Includi non valido]**. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono stati eliminati dal sistema e dagli account amministrati.
 
-* **Ordina per intestazione di colonna**: seleziona un’intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail, per ruolo utente o per stato valido/non valido.
+* **Ordina per intestazione di colonna**: seleziona un’intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico per nome, cognome o e-mail. Oppure, ordinare in base al ruolo utente o in base a uno stato valido/non valido.
 
 Se nel sistema è presente un numero elevato di utenti, potete limitare le dimensioni dell’elenco specificando un numero nel menu Dimensione massima elenco.
 
@@ -154,7 +154,7 @@ Nella tabella seguente sono descritti i rapporti che è possibile generare dalla
 | Rapporto | Informazioni | Utilizzo |
 |:--- |:--- |:--- |
 | Larghezza di banda | Larghezza di banda usata dalla società | Consente di tenere traccia dell’utilizzo di larghezza di banda da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
-| Archiviazione | Utilizzo dello spazio di archiviazione | Consente di tenere traccia della quantità di dati caricati dalla società. |
+| Archiviazione | Utilizzo dello spazio di archiviazione | Monitora la quantità di dati caricati dall’azienda. |
 | Contenuti immagine | Quantità di richieste immagini per tipo | Consente di tenere traccia della quantità di richieste e volume per i diversi tipi di immagini. |
 | Dominio | Quantità di richieste URL per dominio | Consente di tenere traccia dell’utilizzo di immagini in base al dominio delle richieste di immagini per una specifica società. (Adobe Dynamic Media Classic può fornire più domini per account. Per ulteriori informazioni, rivolgetevi al supporto tecnico. |
 | Streaming video | Utilizzo della larghezza di banda per lo streaming video | Consente di tenere traccia dell’utilizzo di streaming video da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
@@ -170,9 +170,9 @@ Il rapporto Contenuti immagine offre informazioni sulle richieste per i seguenti
 
 * **Richiesta riquadro visualizzatore**: richieste di immagini caricate da un visualizzatore.
 
-* **Richiesta Oggetto Vnt**: richieste di rendering di immagini che restituiscono un’immagine con gli oggetti specificati nelle vignettature richieste.
+* **Richiesta oggetto VNT**: richieste di rendering di immagini che restituiscono un’immagine con gli oggetti specificati nelle vignettature richieste.
 
-* **Richiesta info Vnt**: richieste di rendering di immagini che restituiscono informazioni sulle vignettature richieste.
+* **Richiesta informazioni VNT**: richieste di rendering di immagini che restituiscono informazioni sulle vignettature richieste.
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Dopo la generazione di un rapporto dalla pagina Larghezza di banda e spazio di a
 
 * **Periodo di tempo personalizzato**: nel menu Report predefinito, seleziona **[!UICONTROL Personalizzato]**. Quindi scegli una data nella **[!UICONTROL Mese di inizio]** (o **[!UICONTROL Data di inizio]**) e una data nel menu # di mesi (o # o giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
 
-* **Ordinare i dati (solo visualizzazione dati)**: per ordinare le informazioni su una colonna, seleziona l’intestazione della colonna. Seleziona nuovamente per ordinare in ordine decrescente.
+* **Ordinare i dati (solo visualizzazione dati)**: ordina le informazioni in una colonna. Seleziona l’intestazione della colonna. Seleziona nuovamente per ordinare in ordine decrescente.
 
 * **Ridisponi colonne (solo visualizzazione dati)**: per spostare una colonna in una posizione diversa nella griglia dati, trascinarne l&#39;intestazione.
 

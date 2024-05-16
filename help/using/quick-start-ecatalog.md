@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -36,7 +36,7 @@ A seconda delle impostazioni selezionate per l&#39;eCatalog, il visualizzatore c
 * Spostare il puntatore su un&#39;area della pagina, denominata Mappa immagine, in modo da visualizzare una finestra popup con informazioni su un elemento.
 * Selezionare un&#39;area di pagina per aprire una nuova pagina Web contenente ulteriori informazioni su un elemento.
 * Scrivere una nota e allegarla a una pagina eCatalog
-* Tocca le icone della mappa immagine per avviare le pagine web correlate o i pannelli informazioni contestuali.
+* Tocca le icone Mappa immagine se desideri avviare le pagine web o i pannelli di informazioni contestuali correlati.
 * Usare gesti quali avvicinare le dita per ingrandire o passare il dito per voltare pagina
 * Effettuare ricerche di elementi mediante parole chiave
 
@@ -92,7 +92,7 @@ Consulta [Crea mappe immagine eCatalog](creating-ecatalog-image-maps.md#creating
 
 Consulta [Utilizzare le mappe immagine per incorporare rich media in un eCatalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-Potete impostare e gestire il testo della mappa immagine mediante le impostazioni del pannello Informazioni nella schermata eCatalog. 
+Potete impostare e gestire il testo della mappa immagine utilizzando le impostazioni del pannello Info nella schermata eCatalog.
 
 Consulta [Gestire il contenuto del pannello informazioni nei cataloghi elettronici](/help/using/info-panel-content-ecatalog.md).
 

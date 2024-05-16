@@ -10,16 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 27%
+source-wordcount: '671'
+ht-degree: 23%
 
 ---
 
 # Collegare i visualizzatori Zoom alle pagine Web{#linking-zoom-viewers-to-your-web-pages}
 
-I siti Web e le applicazioni accedono al contenuto del server immagini di Dynamic Medie, incluse le immagini primarie e le destinazioni di zoom associate, e ai predefiniti visualizzatore zoom, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiale da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server tramite stringhe URL o codice incorporato. Tale accesso include le immagini primarie e le destinazioni di zoom associate. Sono inclusi anche i predefiniti visualizzatore zoom. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiale da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 
 **Per copiare il codice di incorporamento di un visualizzatore Zoom:**
 
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse che contiene il visualizzatore zoom di cui desiderate copiare il codice da incorporare.
+1. nel pannello Libreria risorse, a sinistra, accedi alla cartella risorse contenente il visualizzatore Zoom di cui desideri copiare il codice da incorporare.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
 
    * Seleziona **[!UICONTROL Vista griglia]**. Nel pannello delle risorse, fate doppio clic su una singola risorsa per aprirla in visualizzazione Dettagli. Nel pannello URL e Codice di incorporamento a destra, seleziona **[!UICONTROL Codice di incorporamento]** a destra del visualizzatore desiderato.
