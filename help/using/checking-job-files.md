@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # Verifica file di processo{#checking-job-files}
 
-Per monitorare i caricamenti di file in Adobe Dynamic Media Classic e i file pubblicati sui server Adobe Dynamic Media Classic, Adobe Dynamic Media Classic offre la pagina Processi. Nella pagina Processi potete visualizzare i processi di caricamento e pubblicazione, controllarne lo stato e annullare i processi di pubblicazione. Potete anche pianificare i processi di caricamento e pubblicazione.
+Per monitorare i caricamenti di file in Adobe Dynamic Media Classic e i file pubblicati sui server Adobe Dynamic Media Classic, Adobe Dynamic Media Classic offre la pagina Processi. Nella pagina Processi è possibile rivedere, caricare e pubblicare i processi, controllare lo stato dei processi e annullare la pubblicazione dei processi. Potete anche pianificare i processi di caricamento e pubblicazione.
 
 Quando caricate delle risorse, viene visualizzata un’icona rotante accanto al menu Processi a indicare che è in corso un processo; viene inoltre visualizzato il numero di file inclusi in tale processo. Puoi selezionare l’icona per visualizzare ulteriori informazioni sul processo attivo.
 
@@ -49,7 +49,7 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 * **[!UICONTROL Stato]**: mostra lo stato del processo.
 
-* **[!UICONTROL Destinazione]**: per i processi di caricamento, il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non si applica ai processi per la pubblicazione.
+* **[!UICONTROL Destinazione]**: per i processi di caricamento, la destinazione è il nome della società e la cartella in cui sono stati caricati i file. Questa categoria non si applica ai processi per la pubblicazione.
 
 * **[!UICONTROL Inviato da]**: elenca chi ha caricato le risorse.
 

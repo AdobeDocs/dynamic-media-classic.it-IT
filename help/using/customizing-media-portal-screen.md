@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 16%
+source-wordcount: '327'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ Per accedere alle impostazioni di stile, vai a **[!UICONTROL Configurazione]** >
 
 * **[!UICONTROL Applicazione]**: consente di creare una fusione di colori sfumati effettuando scelte nei menu dei colori sfumatura di sfondo.
 
-* **[!UICONTROL Albero]**: scegliere un colore di rollover (il colore visualizzato quando si sposta il puntatore su un elemento) e un colore di selezione (il colore visualizzato quando si seleziona un elemento).
+* **[!UICONTROL Albero]**: scegli un colore di rollover e un colore di selezione.
 
 * **[!UICONTROL Accordion]**: scegli i colori di sfondo, lo stile del bordo e il rollover e i colori selezionati per il pannello a soffietto visualizzato sul lato destro dello schermo nella vista Dettagli.
 

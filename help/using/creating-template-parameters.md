@@ -10,16 +10,16 @@ role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 47%
+source-wordcount: '791'
+ht-degree: 45%
 
 ---
 
 # Creare i parametri per i modelli{#creating-template-parameters}
 
-I parametri consentono di usare modelli con la massima flessibilità e di personalizzare in modo dinamico un’immagine modello. Potete decidere quali livelli di testo e immagine includere nel modello e, in ciascun livello, quali parametri visualizzare. Ad esempio, per attirare l&#39;attenzione su un prodotto in vendita, è possibile creare un livello di testo In vendita. Successivamente, per rimuovere questo livello ma mantenere il resto dell’immagine modello sarà sufficiente rimuovere il parametro Offerta speciale.
+I parametri consentono di utilizzare i modelli con la massima flessibilità; consentono di personalizzare dinamicamente un’immagine modello. Potete decidere quali livelli di testo e immagine includere nel modello e, in ciascun livello, quali parametri visualizzare. Ad esempio, per attirare l&#39;attenzione su un prodotto in vendita, è possibile creare un livello di testo In vendita. Successivamente, per rimuovere questo livello ma mantenere il resto dell’immagine modello sarà sufficiente rimuovere il parametro Offerta speciale.
 
 Quando create dei parametri per i modelli, dichiarate quali parti del modello richiamare in una stringa URL. Un URL costruito con parametri consente di esporre tali elementi nella stringa URL. Con i parametri esposti, potete creare risultati personalizzati dal modo in cui l’immagine modello viene costruita in modo dinamico dal server immagini. In questo modo, è possibile modificare un modello in modo dinamico poiché potete richiamare alcuni o tutti i suoi parametri in un URL.
 
@@ -59,4 +59,4 @@ Per assegnare al nome del parametro un valore del database, aggiungete la seguen
 ?$_2(parameter name)=(database value)
 ```
 
-Il nome del parametro viene sostituito dai nomi in un campo del database o da un codice Java™ che indica, ad esempio, il prezzo corrente di un articolo o il nome di un cliente.
+I nomi in un campo di database o in un codice Java™ sostituiscono i nomi dei parametri. Tale funzionalità indica, ad esempio, il prezzo corrente di un articolo o il nome di un cliente.

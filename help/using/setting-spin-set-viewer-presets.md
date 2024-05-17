@@ -10,7 +10,7 @@ role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 24%
@@ -27,7 +27,7 @@ I predefiniti per visualizzatori di set 360 gradi determinano lo stile, il compo
 1. Effettuate una delle seguenti operazioni:
 
    * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**, quindi nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma e seleziona **[!UICONTROL Visualizzatore set 360 gradi]**.
-   * Per modificare un predefinito esistente per visualizzatore set 360 gradi, selezionalo e fai clic su **[!UICONTROL Modifica]**.
+   * Per modificare un predefinito visualizzatore set 360 gradi esistente, selezionalo e fai clic su **[!UICONTROL Modifica]**.
 
 1. Il giorno `Configure Viewer` , digitare un nome nella casella Nome predefinito per il predefinito visualizzatore set 360 gradi.
 1. Specificate le altre opzioni desiderate. Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** accanto all’opzione.

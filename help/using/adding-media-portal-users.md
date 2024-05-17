@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1008'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ In qualità di amministratore, potete aggiungere e gestire gli utenti, scegliere
 
 >[!NOTE]
 >
->prima di aggiungere degli utenti, impostate i gruppi con cui potrete amministrarli. In Media Portal non è possibile aggiungere un utente senza assegnarlo ad almeno un gruppo. Per ulteriori informazioni, consulta [Creare e gestire gruppi Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>prima di aggiungere degli utenti, impostate i gruppi con cui potrete amministrarli. Media Portal consente di aggiungere un utente assegnandolo a uno o più gruppi. Per ulteriori informazioni, consulta [Creare e gestire gruppi Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## Amministrazione delle password di Media Portal {#handling-media-portal-passwords}
 
@@ -41,7 +41,7 @@ Quando vengono registrati per l’accesso, gli utenti, i collaboratori e i colla
 
 1. Accedi a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Configurazione amministrazione]** > **[!UICONTROL Amministrazione utente]**.
 1. Nella pagina User Administration (Amministrazione utenti), seleziona **Aggiungi**.
-1. In **[!UICONTROL `Add User`]** nel pannello Informazioni utente, immettete Nome, Cognome e Indirizzo e-mail dell&#39;utente, quindi selezionate **[!UICONTROL Successivo]**.
+1. In **[!UICONTROL `Add User`]** nel pannello Info utente, immettete nome, cognome e indirizzo di posta elettronica dell&#39;utente, quindi selezionate **[!UICONTROL Successivo]**.
 1. Nel pannello Società/Ruolo, nell’elenco a discesa Società, selezionate una o più società per l’utente.
 1. Nell&#39;elenco Ruolo selezionare un ruolo Media Portal e quindi selezionare **[!UICONTROL Successivo]**.
 
@@ -95,7 +95,7 @@ Ogni utente dell&#39;elenco viene aggiunto automaticamente ai gruppi specificati
 
 >[!NOTE]
 >
->Se il file CSV non è stato formattato correttamente, viene visualizzato il seguente messaggio di errore: &quot;Si è verificato un errore durante l’elaborazione del file CSV caricato. Verificare che il contenuto del file contenga dati validi.&quot; Inoltre, se il file CSV contiene un utente IP o IPS esistente, quest’ultimo non viene aggiunto all’elenco di utenti.
+>Se il file CSV non è stato formattato correttamente, viene visualizzato il seguente messaggio di errore: &quot;Si è verificato un errore durante l’elaborazione del file CSV caricato. Verificare che il contenuto del file contenga dati validi.&quot; Inoltre, se il file CSV contiene un utente IP o IPS esistente, l’utente non viene aggiunto all’elenco degli utenti.
 
 ## Generare un elenco selezionabile di utenti Media Portal {#generating-a-selectable-list-of-media-portal-users}
 
