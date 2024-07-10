@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -125,7 +125,6 @@ I sottotitoli aggiunti sono supportati nei formati WebVTT e VTT di Adobe. Inoltr
 1. Passa alla risorsa video caricata a cui desideri aggiungere più didascalie e tracce audio.
 1. In modalità di selezione delle risorse, dalla Vista a elenco o dalla Vista a schede, seleziona la risorsa video.
 1. Sulla barra degli strumenti, seleziona l’icona Proprietà (un cerchio con una &quot;i&quot; all’interno).
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. Nella pagina Proprietà del video, seleziona la **[!UICONTROL Sottotitoli e tracce audio]** scheda.
 
    >[!TIP]
@@ -135,8 +134,6 @@ I sottotitoli aggiunti sono supportati nei formati WebVTT e VTT di Adobe. Inoltr
    >* In alternativa, il video deve essere rielaborato da Dynamic Medie. In questo caso, vedi [Rielaborare le risorse Dynamic Medie in una cartella].
    >
    >Dopo aver completato una delle attività di cui sopra, torna a questi passaggi.
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. Per aggiungere una o più tracce audio a un video, effettuate le seguenti operazioni:
    1. Seleziona **[!UICONTROL Carica tracce audio]**.
@@ -165,7 +162,6 @@ I sottotitoli aggiunti sono supportati nei formati WebVTT e VTT di Adobe. Inoltr
    | **Opzione 2** | Desidero che AI generi i miei file di didascalia in più lingue.<br>Consulta **Opzione 2** al punto 8. |
    | **Opzione 3** | Il testo di un file di didascalia (.vtt) deve essere corretto, ricaricato per sostituire il vecchio file .vtt, quindi chiedi a AI di tradurre il file corretto.<br>Consulta **Opzione 3** al punto 8. |
 
-
 +++**Opzione 1:** *Ho i miei file di didascalia preesistenti nelle lingue che voglio usare.*
 
    1. Fai clic su in alto a destra nella pagina **[!UICONTROL Crea didascalia]** > **[!UICONTROL Carica file]**.
@@ -189,7 +185,6 @@ I sottotitoli aggiunti sono supportati nei formati WebVTT e VTT di Adobe. Inoltr
 
    1. Se hai selezionato **[!UICONTROL Salva e chiudi]** nel passaggio precedente, invece di selezionare **[!UICONTROL Salva]**, è comunque possibile visualizzare lo stato di elaborazione dei file caricati. Consulta [Visualizzare lo stato del ciclo di vita dei file di didascalia e traccia audio caricati].
    1. Continuare con il passaggio 9.
-
 +++
 
 +++**Opzione 2:** *Desidero che AI generi i miei file di didascalia in più lingue.*
@@ -218,7 +213,6 @@ I sottotitoli aggiunti sono supportati nei formati WebVTT e VTT di Adobe. Inoltr
 
       Se necessario, puoi modificare alcuni metadati di didascalia in un secondo momento. Quando il video viene pubblicato, i dettagli dei metadati si riflettono sugli URL pubblici nei video pubblicati.
    1. Continuare con il passaggio 9.
-
 +++
 
 +++**Opzione 3:** *Il testo di un file di didascalia (.vtt) deve essere corretto, ricaricato per sostituire il vecchio file .vtt, quindi chiedi a AI di tradurre il file corretto.*
@@ -248,7 +242,6 @@ I sottotitoli aggiunti sono supportati nei formati WebVTT e VTT di Adobe. Inoltr
       Se necessario, puoi modificare alcuni metadati di didascalia in un secondo momento. Quando il video viene pubblicato, i dettagli dei metadati si riflettono sugli URL pubblici nei video pubblicati.
 
    1. Continuare con il passaggio 9.
-
 +++
 
 1. (Facoltativo) Visualizza l&#39;anteprima del video prima della pubblicazione per assicurarti che i sottotitoli e l&#39;audio funzionino come previsto. Consulta [Visualizzare in anteprima un video con più sottotitoli e tracce audio].
