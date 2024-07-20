@@ -21,21 +21,21 @@ ht-degree: 12%
 
 Adobe Dynamic Media Classic è un ambiente integrato di gestione, pubblicazione e distribuzione di contenuti rich media. I rich media possono essere distribuiti a tutti i canali di marketing e vendita. Questi canali includono il web, il materiale per la stampa, le campagne e-mail, i portali web, i desktop e i dispositivi.
 
-Vedi anche [Panoramica della piattaforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) video di formazione.
+Vedi anche il video di formazione [Panoramica piattaforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS).
 
 ## Processo del flusso di lavoro {#workflow-process}
 
 I passaggi chiave del flusso di lavoro di Adobe Dynamic Media Classic sono i seguenti:
 
-* **Caricare e gestire le risorse**: carica le risorse multimediali in Adobe Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, Puoi anche applicare i metadati alle risorse.
+* **Carica e gestisci le risorse**: carica le risorse multimediali in Adobe Dynamic Media Classic. Potete organizzare, sfogliare ed effettuare ricerche di risorse nel sistema, Puoi anche applicare i metadati alle risorse.
 
-* **Creare rich media**: crea diverse configurazioni delle risorse, ad esempio eCatalog, Set di immagini, Set 360 gradi, Set di campioni, Set di file multimediali diversi, Modelli di base e Modelli FXG.
+* **Crea rich media**: crea diverse configurazioni delle risorse, ad esempio eCatalog, set di immagini, set 360 gradi, set di campioni, set di file multimediali diversi, modelli di base e modelli FXG.
 
-* **Pubblicare e amministrare**: pubblica le risorse sulla rete SaaS di Adobe Dynamic Media Classic. Monitora lo stato delle risorse quando vengono pubblicate. Amministra i diritti utente e mantieni la sicurezza.
+* **Publish e amministrazione**: risorse Publish alla rete Adobe Dynamic Media Classic SaaS. Monitora lo stato delle risorse quando vengono pubblicate. Amministra i diritti utente e mantieni la sicurezza.
 
-* **Serve**: distribuzione di contenuti multimediali dalla rete Adobe Dynamic Media Classic SaaS a pagine web, applicazioni e dispositivi mobili; i contenuti multimediali sono ottimizzati in termini di prestazioni e vengono forniti con caching CDN. Adobe Dynamic Media Classic fornisce un URL per ogni risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
+* **Server**: consegna di contenuti multimediali dalla rete Adobe Dynamic Media Classic SaaS a pagine Web, applicazioni e dispositivi mobili; i contenuti multimediali sono ottimizzati in termini di prestazioni e vengono forniti con il caching CDN. Adobe Dynamic Media Classic fornisce un URL per ogni risorsa. Una volta pubblicata la risorsa, l’URL diviene attivo.
 
-![Il processo del flusso di lavoro di Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
+![Processo del flusso di lavoro di Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
 
 ## Immagini primarie singole e chiamate URL singole {#single-master-images-and-single-url-calls}
 
@@ -43,8 +43,8 @@ Adobe Dynamic Media Classic è fondamentalmente diverso da altri sistemi perché
 
 Le stringhe URL generate con Adobe Dynamic Media Classic includono istruzioni che indicano al server come visualizzare la risorsa quando viene distribuita. Ad esempio, la stessa immagine primaria può essere distribuita in diverse visualizzazioni di dimensioni, formati, pesi, colori e zoom. Come parte della creazione e pubblicazione di risorse multimediali con Adobe Dynamic Media Classic, puoi configurare visivamente gli effetti. In questo modo, puoi creare le chiamate URL che indicano correttamente al server come presentare la risorsa principale alle applicazioni.
 
-![Adobe Dynamic Media Classic è in grado di fornire la stessa immagine primaria a supporti diversi in formati e dimensioni diversi.](/help/using/assets/gs_dynamic_publishing.png)
-*Adobe Dynamic Media Classic garantisce che esperienze coerenti e di qualità vengano trasmesse a qualsiasi schermo, indipendentemente dalle dimensioni o dalla larghezza di banda.*
+![Adobe Dynamic Media Classic è in grado di fornire la stessa immagine principale a supporti diversi in formati e dimensioni diversi.](/help/using/assets/gs_dynamic_publishing.png)
+*Adobe Dynamic Media Classic garantisce che esperienze coerenti e di qualità vengano distribuite a qualsiasi schermo, indipendentemente dalle dimensioni o dalla larghezza di banda.*
 
 ## Memorizzazione dei contenuti nella cache {#content-caching}
 

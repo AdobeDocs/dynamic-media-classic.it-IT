@@ -25,17 +25,17 @@ Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda o
 
 >[!NOTE]
 >
->Dopo il ritaglio, puoi selezionare **[!UICONTROL Salva con nome]** e salvare una versione ritagliata dell&#39;immagine con un nome diverso. Nella finestra Salva con nome, seleziona **[!UICONTROL Salva come nuovo primario]** per salvare una seconda copia dell&#39;immagine. Seleziona **[!UICONTROL Salva come vista aggiuntiva del primario]** in modo da poter salvare l’originale e la relativa versione ritagliata con un nome diverso. Seleziona **[!UICONTROL Sostituisci originale]** per eliminare il file originale da cui è stata ritagliata l&#39;immagine. Quindi immetti un nome per l’immagine e seleziona **[!UICONTROL Invia]**.
+>Dopo il ritaglio, è possibile selezionare **[!UICONTROL Salva con nome]** e salvare una versione ritagliata dell&#39;immagine con un nome diverso. Nella finestra Salva con nome selezionare **[!UICONTROL Salva come nuovo elemento principale]** per salvare una seconda copia dell&#39;immagine. Selezionare **[!UICONTROL Salva come vista di aggiunta principale]** per salvare l&#39;originale e la versione ritagliata con un nome diverso. Seleziona **[!UICONTROL Sostituisci originale]** per eliminare il file originale da cui hai ritagliato l&#39;immagine. Immettere quindi un nome per l&#39;immagine e selezionare **[!UICONTROL Invia]**.
 
 ## Ritagliare per rimuovere lo spazio bianco intorno a un’immagine {#crop-to-remove-white-space-around-an-image}
 
 Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine ritagliandoli.
 
-1. Per ritagliare un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e quindi selezionare **[!UICONTROL Ritaglio]** o visualizzarlo nel pannello Sfoglia in Vista dettagli e selezionare **[!UICONTROL Ritaglio]** pulsante.
+1. Per ritagliare un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e quindi selezionare **[!UICONTROL Ritaglia]**, oppure visualizzarla nel pannello Sfoglia in Visualizzazione dettagli e selezionare il pulsante **[!UICONTROL Ritaglia]**.
 1. Nella pagina Editor ritaglio eseguire una delle operazioni seguenti:
 
-   * Per tagliare i pixel di colore, vai a **[!UICONTROL Rifila]** > **[!UICONTROL Colore]**. In **[!UICONTROL Ritaglio automatico per colore]** , selezionare la **[!UICONTROL Angolo]** e scegliete un angolo con il colore di sfondo da ritagliare. Quindi inserisci un **[!UICONTROL Tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Seleziona **[!UICONTROL Ritaglio]**.
-   * Per tagliare i pixel trasparenti, vai a **[!UICONTROL Rifila]** > **[!UICONTROL Trasparente]**. In **[!UICONTROL Ritaglio automatico in base a trasparenza]** immettete un&#39;impostazione di tolleranza da 0 a 1. L’impostazione 0 ritaglia i pixel solo se sono trasparenti. Con valori più vicini a 1 viene invece tollerata una minore trasparenza. Seleziona **[!UICONTROL Ritaglio]**.
+   * Per tagliare i pixel di colore, passa a **[!UICONTROL Taglia]** > **[!UICONTROL Colore]**. Nella finestra di dialogo **[!UICONTROL Ritaglio automatico per colore]**, selezionare il menu **[!UICONTROL Angolo]** e scegliere un angolo con il colore di sfondo che si desidera ritagliare. Quindi immettere un&#39;impostazione di **[!UICONTROL tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Seleziona **[!UICONTROL Ritaglia]**.
+   * Per tagliare i pixel trasparenti, vai a **[!UICONTROL Taglia]** > **[!UICONTROL Trasparente]**. Nella finestra di dialogo **[!UICONTROL Ritaglio automatico per trasparenza]** immettere un&#39;impostazione di tolleranza da 0 a 1. L’impostazione 0 ritaglia i pixel solo se sono trasparenti. Con valori più vicini a 1 viene invece tollerata una minore trasparenza. Seleziona **[!UICONTROL Ritaglia]**.
 
 1. Seleziona **[!UICONTROL Salva]**.
 
@@ -45,9 +45,9 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 
 ## Selezionare un’area da ritagliare {#select-an-area-to-crop}
 
-1. Per ritagliare un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglio]** o visualizzarlo nel pannello Sfoglia in Vista dettagli e selezionare **[!UICONTROL Ritaglio]**.
+1. Per ritagliare un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglia]** oppure visualizzarla nel pannello Sfoglia in Visualizzazione dettagli e selezionare **[!UICONTROL Ritaglia]**.
 
-1. Nella finestra Editor ritaglio, posizionate la parte dell&#39;immagine che non desiderate ritagliare nella casella di ritaglio. Qualsiasi cosa venga visualizzata all&#39;interno della casella è ciò che rimarrà dopo aver selezionato **[!UICONTROL Salva]** e ritagliare l&#39;immagine.
+1. Nella finestra Editor ritaglio, posizionate la parte dell&#39;immagine che non desiderate ritagliare nella casella di ritaglio. Qualsiasi cosa venga visualizzata all&#39;interno della casella è ciò che rimarrà dopo aver selezionato **[!UICONTROL Salva]** e ritagliato l&#39;immagine.
 1. Per regolare l’area di ritaglio, effettuate una delle seguenti operazioni:
 
    * Trascinate un lato o un angolo della casella. Tenere premuto il tasto Maiusc mentre si trascina per modificare le dimensioni ma mantenere le proporzioni (la forma) della casella di ritaglio.

@@ -25,24 +25,24 @@ Se utilizzi uno dei predefiniti visualizzatore di Adobe Dynamic Media Classic HT
 
 ## Configurare il tracciamento di Adobe Analytics da Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-Per tutti i visualizzatori HTML5, aggiungi il seguente JavaScript al contenitore HTML, in genere nel &lt;head> elemento:
+Per tutti i visualizzatori HTML5, aggiungi il seguente JavaScript al contenitore HTML, in genere nell’elemento &lt;head>:
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Dove `Adobe Dynamic Media Classic Company ID` è impostato sul nome dell’azienda di Adobe Dynamic Media Classic. E `&preset` è facoltativo. Se il nome del predefinito della società non è `companypreset`, quindi non è facoltativo. In tali casi, potrebbe essere `companypreset-1, companypreset-2`e così via. Le istanze più recenti del predefinito hanno un numero maggiore. Per determinare il nome corretto del valore predefinito della società, selezionare **[!UICONTROL Copia URL]**, quindi esaminare `preset=`per trovare il nome del predefinito della società.
+Dove `Adobe Dynamic Media Classic Company ID` è impostato sul nome della società Adobe Dynamic Media Classic. E `&preset` è facoltativo. Se il nome del predefinito della società non è `companypreset`, non è facoltativo. In questi casi, potrebbe essere `companypreset-1, companypreset-2` e così via. Le istanze più recenti del predefinito hanno un numero maggiore. Per determinare il nome del valore predefinito della società corretto, selezionare **[!UICONTROL Copia URL]**, quindi controllare il parametro `preset=`per trovare il nome del predefinito della società.
 
 Continuando, ora aggiungi una funzione che trasmette l’evento visualizzatore al codice di tracciamento di Adobe Analytics.
 
-Aggiungi il `s7ComponentEvent()` funzione al HTML contenitore (o JSP, o ASPX o altro):
+Aggiungi la funzione `s7ComponentEvent()` al HTML contenitore (o JSP, o ASPX o altro):
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-Il nome della funzione distingue tra maiuscole e minuscole. L’unico parametro trasmesso a `s7componentEvent`quello richiesto è l&#39;ultimo: `eventData`. Dove `s7track()` è definito in s_code.jsp incluso sopra. E `s7track` gestisce tutto il tracciamento per ogni evento. In quest’area puoi personalizzare ulteriormente i dati trasmessi ad Adobe Analytics.
+Il nome della funzione distingue tra maiuscole e minuscole. L&#39;unico parametro obbligatorio passato a `s7componentEvent` è l&#39;ultimo: `eventData`. Dove `s7track()` è definito in s_code.jsp incluso in precedenza. E `s7track` gestisce tutto il tracciamento per ogni evento. In quest’area puoi personalizzare ulteriormente i dati trasmessi ad Adobe Analytics.
 
 ## Attiva eventi HREF ed ITEM {#enabling-href-and-item-events}
 
-È possibile attivare gli eventi HREF (rollover) e ITEM (clic del mouse/tocco) nei visualizzatori attraverso la modifica delle mappe immagini. Definite gli identificatori per HREF e ITEM nella mappa immagine associata al contenuto del visualizzatore. Aggiungi un `&rolloverKey=` al valore HREF nella mappa immagine.
+È possibile attivare gli eventi HREF (rollover) e ITEM (clic del mouse/tocco) nei visualizzatori attraverso la modifica delle mappe immagini. Definite gli identificatori per HREF e ITEM nella mappa immagine associata al contenuto del visualizzatore. Aggiungi un parametro `&rolloverKey=` al valore HREF nella mappa immagine.

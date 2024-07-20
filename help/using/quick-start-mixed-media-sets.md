@@ -29,7 +29,7 @@ Questo servizio Quick Start per set di file multimediali diversi è stato proget
 
 Per iniziare, caricate le immagini, i file di campioni e i video che desiderate inserire nei set di file multimediali diversi. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di file multimediali diversi, assicurati di tenere presente questa funzione quando scegli le immagini. Assicurati che le dimensioni delle immagini siano di almeno 2000 pixel.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare file dal computer in una cartella in Adobe Dynamic Media Classic.
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella su Adobe Dynamic Media Classic.
 
 Consulta [Caricare i file](uploading-files.md#uploading-your-files).
 
@@ -37,11 +37,11 @@ Consulta [Caricare i file](uploading-files.md#uploading-your-files).
 
 Puoi aggiungere immagini, set di immagini, set di campioni, set 360 gradi e video al set di file multimediali diversi. Prepara i Media Set prima di aggiungerli al set di file multimediali diversi.
 
-Consulta [Creare un set di immagini](creating-image-set.md#creating-an-image-set), [Creare un set di campioni](creating-swatch-set.md#creating-a-swatch-set), e [Creare un set 360 gradi](creating-spin-set.md#creating-a-spin-set).
+Consulta [Creare un set di immagini](creating-image-set.md#creating-an-image-set), [Creare un set di campioni](creating-swatch-set.md#creating-a-swatch-set) e [Creare un set 360 gradi](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Creare un set di file multimediali diversi
 
-Sulla barra di navigazione globale, vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di file multimediali diversi]**. Trascina le immagini, i set di campioni, i set di immagini e i video nella pagina Set di file multimediali diversi. Per aggiungere una colonna sonora, trascinate un file audio nella casella Colonna sonora.
+Sulla barra di navigazione globale, vai a **[!UICONTROL Build]** > **[!UICONTROL Set di file multimediali diversi]**. Trascina le immagini, i set di campioni, i set di immagini e i video nella pagina Set di file multimediali diversi. Per aggiungere una colonna sonora, trascinate un file audio nella casella Colonna sonora.
 
 Consulta [Creare un set di file multimediali diversi](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
@@ -51,26 +51,26 @@ Adobe Dynamic Media Classic viene fornito con i predefiniti per visualizzatori p
 
 Quando imposti un predefinito visualizzatore set di file multimediali diversi, aggiungi i predefiniti visualizzatore per tutte le altre risorse del set. Ad esempio, se il set di file multimediali diversi include video, aggiungi un predefinito visualizzatore video al predefinito visualizzatore set di file multimediali diversi. Potete aggiungere al visualizzatore anche una colonna sonora. La colonna sonora viene riprodotta quando il visualizzatore viene aperto, ma non durante la riproduzione di un video.
 
-Consulta [Impostare un predefinito visualizzatore set di file multimediali diversi](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) e [Creare e modificare i predefiniti per visualizzatori](application-setup.md#adding-and-editing-viewer-presets).
+Consulta [Configurare un predefinito visualizzatore set di file multimediali diversi](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) e [Creare e modificare i predefiniti visualizzatore](application-setup.md#adding-and-editing-viewer-presets).
 
-Vedi anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) video di formazione.
+Vedere anche [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) video di formazione.
 
 ## 5. Anteprima di un set di file multimediali diversi
 
-Seleziona il set di file multimediali diversi **[!UICONTROL Anteprima]** pulsante. Puoi selezionare le icone delle miniature e dei campioni per esaminare il set di file multimediali diversi nel Visualizzatore set di file multimediali diversi. Nel menu Predefiniti, potete scegliere diversi visualizzatori.
+Seleziona il pulsante **[!UICONTROL Anteprima]** del set di file multimediali diversi. Puoi selezionare le icone delle miniature e dei campioni per esaminare il set di file multimediali diversi nel Visualizzatore set di file multimediali diversi. Nel menu Predefiniti, potete scegliere diversi visualizzatori.
 
-Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
+Vedi [Visualizzare l&#39;anteprima di una risorsa](previewing-asset.md#previewing-an-asset).
 
-## 6. Pubblicare un set di file multimediali diversi
+## 6. Publish un set di file multimediali diversi
 
 La pubblicazione di un set di file multimediali diversi lo inserisce sui server Adobe Dynamic Media Classic e attiva la stringa URL.
 
-i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Utilizzare **Server video** per pubblicare i video effettivi contrassegnati per la pubblicazione. E, si utilizza **Server immagini** per pubblicare le risorse correlate, come le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivi.
+i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Utilizza **Server video** per pubblicare i video effettivi contrassegnati per la pubblicazione. È inoltre possibile utilizzare **Image Server** per pubblicare le risorse correlate, ad esempio le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivo.
 
-Consulta [Pubblicare un set di file multimediali diversi](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+Vedi [Publish come set di file multimediali diversi](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
 ## 7. Collegare un set di file multimediali diversi a una pagina web
 
 Adobe Dynamic Media Classic attiva le chiamate URL per i set di file multimediali diversi dopo che sono stati pubblicati. Puoi copiare questi URL dalla pagina di anteprima.
 
-Seleziona il set di file multimediali diversi, quindi seleziona **[!UICONTROL Anteprima]**. Nella pagina Anteprima, seleziona un predefinito visualizzatore set di file multimediali diversi, quindi fai clic su **[!UICONTROL Copia URL]**. Consulta [Collegare set di file multimediali diversi a pagine Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Selezionare il set di file multimediali diversi, quindi selezionare **[!UICONTROL Anteprima]**. Nella pagina Anteprima selezionare un predefinito visualizzatore set di file multimediali diversi, quindi selezionare **[!UICONTROL Copia URL]**. Consulta [Collegare set di file multimediali diversi a pagine Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

@@ -21,7 +21,7 @@ ht-degree: 27%
 
 Le destinazioni di zoom guidano gli utenti su determinate parti di un’immagine. Oltre allo zoom in formato libero, gli utenti possono selezionare una miniatura di destinazione di zoom e ingrandire la parte dell&#39;immagine su cui si desidera mettere a fuoco. Le destinazioni di zoom consentono di evidenziare le parti accattivanti o interessanti di un’immagine.
 
-![Creare destinazioni di zoom per lo zoom guidato](/help/using/assets/zo_guided_zoom.png)
+![Crea destinazioni zoom per zoom guidato](/help/using/assets/zo_guided_zoom.png)
 
 ## Destinazioni zoom {#about-zoom-targets}
 
@@ -32,30 +32,30 @@ La percentuale di zoom massima di Target di Zoom è 100%. La percentuale di zoom
 | Grande | Più piccolo | Più piccolo minimo |
 | Piccolo | Più grande | Più grande minimo |
 
-È possibile modificare le dimensioni del Visualizzatore zoom in modo che corrispondano a quelle utilizzate nella pagina Web. È possibile modificare in modo permanente questa impostazione modificando le dimensioni del visualizzatore nella schermata Configurazione (se si è un amministratore). Consulta [Impostare i predefiniti per visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+È possibile modificare le dimensioni del Visualizzatore zoom in modo che corrispondano a quelle utilizzate nella pagina Web. È possibile modificare in modo permanente questa impostazione modificando le dimensioni del visualizzatore nella schermata Configurazione (se si è un amministratore). Consulta [Configurare i predefiniti visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Creare e modificare le destinazioni di zoom {#creating-and-editing-zoom-targets}
 
 Creare e modificare Destinazioni di zoom nella schermata Editor destinazioni di zoom. Per aprire questa schermata, selezionate un’immagine ed effettuate una delle seguenti operazioni:
 
-* Seleziona il rollover **[!UICONTROL Modifica]** e scegliere Destinazioni zoom.
-* Nel pannello Sfoglia, visualizzare l&#39;immagine in **[!UICONTROL Vista dettagli]**, quindi seleziona **[!UICONTROL Destinazioni di zoom]**.
+* Selezionare il pulsante di rollover **[!UICONTROL Modifica]** e scegliere Destinazioni zoom.
+* Nel pannello Sfoglia, visualizza l&#39;immagine in **[!UICONTROL Visualizzazione dettagli]**, quindi seleziona **[!UICONTROL Destinazioni zoom]**.
 
-Nella schermata Zoom Target Editor, selezionare **[!UICONTROL Seleziona destinazione]** (freccia) per selezionare una destinazione prima di modificarne le dimensioni o la posizione. Per creare una destinazione di zoom sull&#39;immagine, selezionare **[!UICONTROL Aggiungi destinazioni]** (rettangolo). La pagina Editor destinazioni di zoom offre inoltre strumenti per l&#39;eliminazione, la copia e la denominazione delle destinazioni di zoom.
+Nella schermata Editor destinazioni di zoom, selezionare il pulsante **[!UICONTROL Seleziona destinazione]** (freccia) per selezionare una destinazione prima di modificarne le dimensioni o la posizione. Per creare una destinazione di zoom sull&#39;immagine, selezionare **[!UICONTROL Aggiungi destinazioni]** (rettangolo). La pagina Editor destinazioni di zoom offre inoltre strumenti per l&#39;eliminazione, la copia e la denominazione delle destinazioni di zoom.
 
 ### Creare una destinazione di zoom {#creating-a-zoom-target}
 
 Per creare una destinazione di zoom, aprire la pagina Editor destinazione di zoom ed effettuare le seguenti operazioni:
 
-1. Seleziona **[!UICONTROL Aggiungi destinazioni]** (rettangolo), spostate il puntatore sull&#39;immagine e selezionate la posizione in cui desiderate posizionare la destinazione di zoom.
+1. Seleziona **[!UICONTROL Aggiungi destinazioni]** (rettangolo), sposta il puntatore sull&#39;immagine e seleziona la destinazione di zoom.
 
    Nel pannello a destra della schermata viene visualizzata una miniatura della destinazione di zoom.
 
-1. Scegli **[!UICONTROL Seleziona destinazione]** (freccia), quindi selezionare la destinazione di zoom creata e regolare la dimensione e la posizione della destinazione.
+1. Selezionare **[!UICONTROL Seleziona destinazione]** (freccia), quindi selezionare la destinazione di zoom creata e regolare la dimensione e la posizione della destinazione.
 
-   * **Ridimensiona**: spostare il puntatore su un angolo della destinazione di zoom e trascinare per ingrandire o ridurre la destinazione.
+   * **Ridimensiona**: sposta il puntatore su un angolo della destinazione di zoom e trascina per ingrandire o ridurre la destinazione.
 
-   * **Posizione**: spostare il puntatore sulla destinazione di zoom e trascinarlo in una posizione diversa.
+   * **Posizione**: spostare il puntatore sulla destinazione di zoom e trascinarlo in un&#39;altra posizione.
 
 1. Digitate un nome per la destinazione di zoom nella casella Nome.
 
@@ -70,7 +70,7 @@ Per creare una destinazione di zoom, aprire la pagina Editor destinazione di zoo
 
 >[!NOTE]
 >
->Per visualizzare l&#39;aspetto delle destinazioni di zoom in un Visualizzatore zoom, selezionare **[!UICONTROL Anteprima]** nella schermata Zoom Target Editor. Scegliere quindi un Visualizzatore zoom nella schermata Anteprima. Per ulteriori informazioni su questa schermata, vedi [Anteprima di immagini con diversi visualizzatori zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>Per visualizzare l&#39;aspetto delle destinazioni di zoom in un Visualizzatore zoom, selezionare il pulsante **[!UICONTROL Anteprima]** nella schermata Editor destinazioni zoom. Scegliere quindi un Visualizzatore zoom nella schermata Anteprima. Per ulteriori informazioni su questa schermata, vedere [Anteprima di immagini con diversi visualizzatori di zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### Modifica destinazioni di zoom {#editing-zoom-targets}
 
@@ -80,14 +80,14 @@ Per modificare le destinazioni di zoom, utilizzare le tecniche riportate di segu
 
 * **Ridimensiona**: con il pulsante Seleziona destinazione (la freccia), seleziona la destinazione. Per ingrandire o ridurre la destinazione, spostare il puntatore su un angolo della destinazione di zoom e trascinare.
 
-* **Elimina**: seleziona l’immagine miniatura della destinazione sul lato destro dello schermo. Quindi seleziona **[!UICONTROL Elimina destinazione]**.
+* **Elimina**: seleziona l&#39;immagine miniatura di destinazione sul lato destro dello schermo. Quindi selezionare **[!UICONTROL Elimina destinazione]**.
 
-* **Ridenominazione**: seleziona l’immagine miniatura della destinazione sul lato destro dello schermo. Quindi inserisci un nome in **[!UICONTROL Nome]** campo di testo e selezione **[!UICONTROL Salva]**.
+* **Ridenominazione**: seleziona l&#39;immagine miniatura di destinazione sul lato destro dello schermo. Immetti un nome nel campo di testo **[!UICONTROL Nome]** e seleziona **[!UICONTROL Salva]**.
 
 ### Copia destinazioni di zoom {#copying-zoom-targets}
 
 Potete copiare le destinazioni di zoom da un&#39;immagine a un&#39;altra. Copiare le destinazioni quando due immagini presentano contenuti simili e le relative destinazioni di zoom appartengono alle stesse posizioni. Per copiare le destinazioni di zoom in un&#39;altra immagine, effettuare le seguenti operazioni:
 
 1. Aprite l&#39;immagine con le destinazioni di zoom da copiare nella schermata Editor destinazioni di zoom.
-1. Seleziona **[!UICONTROL Copia destinazioni in]**.
-1. Nella finestra di dialogo Seleziona immagini, selezionate un&#39;immagine e fate clic su **[!UICONTROL Seleziona]**.
+1. Seleziona **[!UICONTROL Copia Destinazioni In]**.
+1. Nella finestra di dialogo Seleziona immagini selezionare un&#39;immagine e scegliere **[!UICONTROL Seleziona]**.

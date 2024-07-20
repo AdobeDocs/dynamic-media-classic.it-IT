@@ -41,15 +41,15 @@ L&#39;eccessiva nitidezza di un&#39;immagine crea un effetto alone o striatura d
 
 Consulta [Best practice per la nitidezza delle immagini in Adobe Dynamic Media Classic e su Dynamic Medie Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-Vedi anche [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) video di formazione.
+Vedi anche il video di formazione [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 **Per rendere più nitida un&#39;immagine:**
 
-Per rendere più nitida un’immagine, selezionane il rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Nitidezza]**, oppure aprirlo nel pannello Sfoglia in Visualizzazione dettagli, quindi selezionare **[!UICONTROL Nitidezza]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegliere i comandi desiderati, quindi fare clic su **[!UICONTROL Salva]**.
+Per rendere più nitida un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Contrasta]**, oppure aprirlo nel pannello Sfoglia in Visualizzazione dettagli, quindi selezionare **[!UICONTROL Contrasta]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegliere i comandi desiderati, quindi fare clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
->Prima di rendere più nitida un’immagine potete selezionare il menu Applica predefinito e scegliere un predefinito per immagini per vederne l’effetto a livello di nitidezza. Gli effetti di nitidezza di un predefinito immagine sono adatti all&#39;immagine in uso. Il **[!UICONTROL Applica predefinito]** nella parte inferiore della pagina Editor nitidezza.
+>Prima di rendere più nitida un’immagine potete selezionare il menu Applica predefinito e scegliere un predefinito per immagini per vederne l’effetto a livello di nitidezza. Gli effetti di nitidezza di un predefinito immagine sono adatti all&#39;immagine in uso. Il menu **[!UICONTROL Applica predefinito]** si trova nella parte inferiore della pagina Editor nitidezza.
 
 **Opzioni di nitidezza**
 
@@ -58,20 +58,20 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 | Nome | Protocollo URL | Valori | Esempio |
 | --- | --- | --- | --- |
 | Nitidezza semplice | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
-| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona l&#39;interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bi-cubica. Maggiore utilizzo della CPU rispetto a `bilin`, ma produce immagini più nitide con artefatti di aliasing meno evidenti.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia le risoluzioni più alte che quelle più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
-| Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di intensità del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello soglia filtro (int 0...255)<br><br>`monochrome`: impostato su `0` per applicare una maschera di contrasto a ogni componente di colore separatamente, impostate `1` per mascherare la luminosità dell&#39;immagine (intensità) | `op_usm=1,1,10,0` |
+| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bicubica. Utilizzo intensivo della CPU superiore a `bilin`, ma con immagini più nitide e meno artefatti di aliasing.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia risoluzioni superiori che inferiori, se disponibile. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
+| Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di forza del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello soglia del filtro (int 0...255)<br><br>`monochrome`: impostato su `0` per rimuovere la maschera di contrasto separatamente per ogni componente di colore, impostato su `1` per rimuovere la maschera di contrasto della luminosità (intensità) dell&#39;immagine | `op_usm=1,1,10,0` |
 
-Seleziona la **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
+Selezionare il menu **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
 
-* **Nessuno**: disattiva la nitidezza.
+* **Nessuno**: disabilita la nitidezza.
 
-* **Nitidezza**: esegue una semplice operazione di nitidezza sul file dopo averlo ridimensionato. È simile al filtro &quot;Nitidezza&quot; in Adobe Photoshop e supporta qualsiasi parametro utente. Normalmente, si utilizza questo filtro oppure **[!UICONTROL Maschera definizione dettagli]**, ma non entrambi. Questo metodo non è consigliato come procedura abituale, ma può servire per compensare un’eventuale sfocatura delle immagini. (URL: `op_sharpen`)
+* **Contrasta**: esegue un semplice passaggio di nitidezza sul file dopo il ridimensionamento. È simile al filtro &quot;Nitidezza&quot; in Adobe Photoshop e supporta qualsiasi parametro utente. Normalmente si utilizza questo filtro o **[!UICONTROL Maschera definizione dettagli]**, ma non entrambi. Questo metodo non è consigliato come procedura abituale, ma può servire per compensare un’eventuale sfocatura delle immagini. URL: `op_sharpen`
 
-* **Maschera definizione dettagli**: consente di regolare con precisione un effetto filtro di nitidezza sull’immagine ricampionata verso il basso finale. È possibile controllare l&#39;intensità dell&#39;effetto, il raggio in pixel e una soglia di contrasto ignorata. Questo effetto utilizza le stesse opzioni del filtro &quot;Maschera definizione dettagli&quot; di Photoshop. (URL: `op_usm`)
+* **Maschera di contrasto**: consente di regolare con precisione un effetto filtro di nitidezza sull&#39;immagine ricampionata verso il basso finale. È possibile controllare l&#39;intensità dell&#39;effetto, il raggio in pixel e una soglia di contrasto ignorata. Questo effetto utilizza le stesse opzioni del filtro &quot;Maschera definizione dettagli&quot; di Photoshop. URL: `op_usm`
 
 Scegliete queste opzioni per ottimizzare la nitidezza con Maschera definizione dettagli:
 
-* **Quantità**: controlla il contrasto applicato ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. Il **[!UICONTROL Quantità]** in Adobe Dynamic Media Classic è diversa dall’impostazione Importo in Adobe Photoshop. Adobe Photoshop utilizza una quantità compresa tra l’1% e il 500%, mentre Adobe Dynamic Media Classic viene scalato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
+* **Importo**: controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L&#39;impostazione **[!UICONTROL Amount]** in Adobe Dynamic Media Classic non è uguale all&#39;impostazione Amount in Adobe Photoshop. Adobe Photoshop utilizza una quantità compresa tra l’1% e il 500%, mentre Adobe Dynamic Media Classic viene scalato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
 
 * **Raggio**: determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni. 
 
@@ -79,27 +79,27 @@ Il valore di raggio più adatto dipende dalle dimensioni dell’immagine. Un val
 
 Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 × 2000 pixel e per un&#39;immagine da 500 × 500 pixel, è possibile impostare un valore di raggio di due pixel sull&#39;immagine da 2000 × 2000 pixel. Quindi, impostate un valore di raggio di un pixel sull&#39;immagine da 500 × 500 pixel (un valore maggiore per un&#39;immagine con più pixel).
 
-* **Soglia**: determina l’intervallo di contrasto da ignorare quando si applica il filtro Maschera di contrasto. Questa opzione determina quanto devono differire i pixel resi più nitidi dall&#39;area circostante prima che i pixel del bordo vengano resi più nitidi.
+* **Soglia**: determina l&#39;intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. Questa opzione determina quanto devono differire i pixel resi più nitidi dall&#39;area circostante prima che i pixel del bordo vengano resi più nitidi.
 
 La soglia utilizza un valore compreso tra 0 e 255, che rappresenta il numero di livelli di luminosità in un&#39;immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi come la luminosità della tonalità della pelle. In questo modo, non aggiunge disturbo, ma allo stesso tempo aggiunge contrasto ai bordi delle aree, ad esempio quelle in cui le ciglia si incontrano con la pelle.
 
-Ad esempio, supponiamo di avere una foto del volto di qualcuno. Maschera di contrasto agisce sulle parti dell’immagine con maggior contrasto, ma anche sulle aree di incarnato uniforme. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentuerebbe tali lievi variazioni nei pixel dell’incarnato rendendolo meno uniforme (creando un effetto indesiderato), mentre aumenterebbe il contrasto per le ciglia rendendole più nitide (creando un effetto gradevole). Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso della pelle. Per evitare l&#39;introduzione di rumore o di immagini di posterizzazione con toni di carne, ad esempio provare a sperimentare con **[!UICONTROL Soglia]** da due a 20. Il valore predefinito **[!UICONTROL Soglia]** il valore 0 applica la nitidezza a tutti i pixel dell&#39;immagine.
+Ad esempio, supponiamo di avere una foto del volto di qualcuno. Maschera di contrasto agisce sulle parti dell’immagine con maggior contrasto, ma anche sulle aree di incarnato uniforme. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentuerebbe tali lievi variazioni nei pixel dell’incarnato rendendolo meno uniforme (creando un effetto indesiderato), mentre aumenterebbe il contrasto per le ciglia rendendole più nitide (creando un effetto gradevole). Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso della pelle. Per evitare di introdurre disturbi o immagini di posterizzazione con toni di carne, ad esempio prova a sperimentare con valori di **[!UICONTROL soglia]** compresi tra due e 20. Il valore predefinito **[!UICONTROL Threshold]** pari a 0 applica la nitidezza a tutti i pixel nell&#39;immagine.
 
-* **Applica a**: Scegli **[!UICONTROL Ogni colore]** se desiderate applicare la nitidezza separatamente a ciascun componente di colore, scegliete **[!UICONTROL Luminosità]** se desiderate applicare la nitidezza alle aree di luminosità dell&#39;immagine.
+* **Applica a**: scegli **[!UICONTROL Ogni colore]** se vuoi applicare la nitidezza separatamente a ogni componente di colore; scegli **[!UICONTROL Luminosità]** se vuoi applicare la nitidezza alle aree di luminosità dell&#39;immagine.
 
 **Ricampionamento**
 
-Seleziona la **[!UICONTROL Ricampionamento]** e scegliere un&#39;opzione. Queste opzioni aumentano la nitidezza quando si esegue il downsampling dell’immagine:
+Selezionare il menu **[!UICONTROL Ricampionamento]** e scegliere un&#39;opzione. Queste opzioni aumentano la nitidezza quando si esegue il downsampling dell’immagine:
 
 * **[!UICONTROL Nessuno]**: disattiva il ricampionamento.
 
-* **[!UICONTROL Bilineare]**: il metodo di ricampionamento più veloce; sono visibili alcuni artefatti di aliasing.
+* **[!UICONTROL Bilineare]**: il metodo di ricampionamento più veloce. Alcuni artefatti di aliasing sono visibili.
 
-* **[!UICONTROL Bicubica]**: aumenta l’utilizzo della CPU sul server immagini, ma produce immagini più nitide con artefatti di aliasing meno evidenti.
+* **[!UICONTROL Bicubico]**: aumenta l&#39;utilizzo della CPU nel server immagini, ma genera immagini più nitide con artefatti di aliasing meno evidenti.
 
-* **[!UICONTROL `Sharpen 2`]**: produce risultati leggermente più nitidi di **[!UICONTROL Bicubica]**, ma a un costo della CPU ancora più elevato sul server immagini.
+* **[!UICONTROL `Sharpen 2`]**: produce risultati leggermente più nitidi rispetto a **[!UICONTROL Bicubic]**, ma a un costo della CPU ancora più elevato sul server immagini.
 
-* **[!UICONTROL Trilineare]**: utilizza risoluzioni più alte e più basse se disponibili; consigliato solo quando l’aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
+* **[!UICONTROL Trilineare]**: usa risoluzioni più alte e più basse se disponibili; consigliato solo quando l&#39;aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
 **Predefiniti immagine e nitidezza**
 
@@ -110,42 +110,42 @@ Potete incorporare tutti e tre gli effetti di nitidezza per ottenere il risultat
 
 I predefiniti per immagini possono essere modificati e aggiornati in qualsiasi momento. Dopo la pubblicazione e la cancellazione della cache per l’URL, vengono visualizzati i risultati di una modifica a un predefinito immagine.
 
-Se utilizzi un predefinito per ogni immagine in una categoria di dimensioni, qualsiasi amministratore aziendale può aggiornare la definizione di tale predefinito immagine. Possono quindi ripubblicare e influenzare ogni immagine che utilizza quel formato. Il tutto senza modificare alcun codice web. Si consiglia di utilizzare un predefinito per immagini per ciascuna dimensione di immagini utilizzata nel sito. Per aggiungere un predefinito immagine, nella barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti immagine]**. Quindi seleziona **[!UICONTROL Aggiungi]** o seleziona **[!UICONTROL Modifica]** per modificare un predefinito esistente. L’unico campo obbligatorio è il nome del predefinito. Tuttavia, è meglio includere un certo livello di nitidezza in ogni predefinito.
+Se utilizzi un predefinito per ogni immagine in una categoria di dimensioni, qualsiasi amministratore aziendale può aggiornare la definizione di tale predefinito immagine. Possono quindi ripubblicare e influenzare ogni immagine che utilizza quel formato. Il tutto senza modificare alcun codice web. Si consiglia di utilizzare un predefinito per immagini per ciascuna dimensione di immagini utilizzata nel sito. Per aggiungere un predefinito immagine, sulla barra di navigazione globale vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti immagine]**. Quindi seleziona **[!UICONTROL Aggiungi]** o **[!UICONTROL Modifica]** per modificare un predefinito esistente. L’unico campo obbligatorio è il nome del predefinito. Tuttavia, è meglio includere un certo livello di nitidezza in ogni predefinito.
 
 **Qualità JPG**
 
 Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
-* **Qualità JPG**: seleziona questa opzione se desideri controllare i livelli di compressione e il downsampling della crominanza.
+* **Qualità JPG**: selezionare questa opzione per controllare i livelli di compressione e il downsampling della crominanza.
 
-* **Cursore**: determina il livello di compressione JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità JPG va da 1 a 100.
+* **Cursore**: determina il livello di compressione di JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità JPG va da 1 a 100.
 
-* **Abilita downsampling crominanza JPG**: poiché l&#39;occhio è meno sensibile alle informazioni cromatiche ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni dell&#39;immagine in componenti di luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
+* **Abilita downsampling crominanza JPG**: poiché l&#39;occhio è meno sensibile alle informazioni di colore ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni dell&#39;immagine in componenti di luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
-**Imposta opzioni di nitidezza a livello aziendale**
+**Imposta le opzioni di nitidezza a livello aziendale**
 
 Se non hai utilizzato un predefinito immagine o non hai passato protocolli di nitidezza specifici per Image Server lungo la stringa URL, non si verifica alcuna nitidezza dell’immagine quando viene effettuato il downsampling. Tuttavia, se si verifica questa mancanza di nitidezza, potete impostare i valori di nitidezza predefiniti in modo che qualsiasi immagine abbia sempre una certa nitidezza.
 
-Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se impostate la modalità di ricampionamento predefinita su **`Sharp2`**, aumenta sempre la nitidezza dell&#39;immagine durante il downsampling.
+Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Configurazione Publish]** > **[!UICONTROL Server immagini]**. Se si imposta la modalità ricampionamento predefinita su **`Sharp2`**, l&#39;immagine viene sempre nitida durante il ricampionamento.
 
-**Aggiungere nitidezza ai predefiniti visualizzatore**
+**Aggiungi nitidezza ai predefiniti visualizzatore**
 
 A meno che non abbiate aggiunto modificatori di immagini nitide al predefinito, la piccola immagine iniziale caricata può avere un aspetto morbido perché viene ricampionata verso il basso per adattarsi alla finestra del visualizzatore senza essere nitida.
 
-I predefiniti visualizzatore (come i predefiniti immagine) consentono di centralizzare molte opzioni in un&#39;unica posizione, inclusa la scelta dell&#39;interfaccia e delle opzioni visualizzatore (ad esempio l&#39;inclusione di un pulsante Stampa o il controllo della velocità dell&#39;animazione di zoom). I predefiniti per visualizzatori si trovano nella stessa sezione dei predefiniti immagine, in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
+I predefiniti visualizzatore (come i predefiniti immagine) consentono di centralizzare molte opzioni in un&#39;unica posizione, inclusa la scelta dell&#39;interfaccia e delle opzioni visualizzatore (ad esempio l&#39;inclusione di un pulsante Stampa o il controllo della velocità dell&#39;animazione di zoom). I predefiniti visualizzatore si trovano nella stessa sezione dei predefiniti immagine, in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 
-Consulta [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) video di formazione.
+Guarda il video di formazione su [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 L’opzione Modificatori si trova nella sezione Impostazioni principali di tutti i predefiniti per visualizzatori eCatalog, 360 gradi e Zoom personalizzati. Aggiungendo i comandi di nitidezza URL alla casella Modificatori, si aggiunge nitidezza ogni volta che il visualizzatore viene chiamato con quel predefinito visualizzatore.
 
-Per chiamare il predefinito visualizzatore, usa `config=` nell&#39;URL del visualizzatore. Esempio di chiamata di un set di immagini (scarpe) con un predefinito per visualizzatori (`FantasticoZoom2022`):
+Per chiamare il predefinito visualizzatore, usa il comando `config=` sull&#39;URL del visualizzatore. Esempio di chiamata di un set di immagini (scarpe) con un predefinito visualizzatore (`FantasticoZoom2022`):
 
 `https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=S7train/FantasticoZoom2022`
 
 In questo caso il predefinito applica la nitidezza e cambia l’interfaccia predefinita del visualizzatore.
 
-**Creare sostituzioni specifiche per l’immagine**
+**Creare sostituzioni specifiche per l&#39;immagine**
 
 L’ultimo metodo per l’applicazione della nitidezza, e il meno consigliato, consiste nel creare impostazioni locali di nitidezza a livello delle singole immagini. Questo metodo sostituisce la nitidezza in un predefinito immagine con valori specifici. Tuttavia, questo metodo ignora anche tutti gli altri metodi di nitidezza di qualsiasi dimensione. Questo metodo può risultare utile, ad esempio, se alcune delle immagini non sono ad alta risoluzione e i valori nei predefiniti per immagini sono quindi troppo elevati. In questo caso, potrebbe essere necessario un po’ di nitidezza per immagine.
 
-In Adobe Dynamic Media Classic, selezionare un&#39;immagine, passare alla visualizzazione dei dettagli facendo doppio clic o premendo il tasto **[!UICONTROL Vista dettagli]** ) e selezionare **[!UICONTROL Nitidezza]**. Modifica un parametro, quindi seleziona **[!UICONTROL Salva]**. Questo processo indica al server immagini di utilizzare questi parametri di nitidezza anziché qualsiasi comando chiamato nell’URL, ad esempio un modificatore di nitidezza o un predefinito immagine. Assicurati di pubblicare per vedere che le modifiche diventano effettive.
+In Adobe Dynamic Media Classic, selezionare un&#39;immagine, passare alla visualizzazione dettagli facendo doppio clic o premendo il pulsante **[!UICONTROL Visualizzazione dettagli]** e selezionare **[!UICONTROL Contrasta]**. Modifica un parametro, quindi seleziona **[!UICONTROL Salva]**. Questo processo indica al server immagini di utilizzare questi parametri di nitidezza anziché qualsiasi comando chiamato nell’URL, ad esempio un modificatore di nitidezza o un predefinito immagine. Assicurati di pubblicare per vedere che le modifiche diventano effettive.

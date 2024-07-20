@@ -31,8 +31,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Vista dettagli](/help/using/assets/image_0.img.png)
-*Vista dettagli con il pannello Libreria risorse nascosto dalla vista sul lato sinistro.*
+![Visualizzazione dettagli](/help/using/assets/image_0.img.png)
+*Visualizzazione dettagli con il pannello Libreria risorse nascosto nella parte sinistra.*
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Seleziona la risorsa. Nell&#39;angolo superiore destro del Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona.
+   * Seleziona la risorsa. Nell&#39;angolo superiore destro di Adobe Dynamic Media Classic, selezionare l&#39;icona **[!UICONTROL Visualizzazione dettagli]**.
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
@@ -62,13 +62,13 @@ Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sa
 
 La Vista dettagli offre strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma la Vista dettagli offre sempre queste funzioni:
 
-* **elementi per la pubblicazione**: seleziona la **[!UICONTROL `Publish`]** a sinistra del nome, oppure vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
+* **elementi per la pubblicazione**: selezionare l&#39;icona **[!UICONTROL `Publish`]** a sinistra del nome oppure passare a **[!UICONTROL File]** > **[!UICONTROL Publish]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
 * **Rinomina la risorsa**: seleziona il nome e immetti un nuovo nome.
 
-* **Modificare e aggiungere metadati**: seleziona il pannello Metadati e cambia come desiderato. Consulta [Visualizzare, aggiungere ed esportare metadati](/help/using/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiungi metadati**: seleziona il pannello Metadati e cambia come desiderato. Consulta [Visualizzare, aggiungere ed esportare i metadati](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Modificare e aggiungere parole chiave**: seleziona Parole chiave e aggiungili o rimuovili come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/using/viewing-adding-exporting-metadata.md).
+* **Modifica e aggiungi parole chiave**: seleziona le parole chiave e aggiungili o rimuovili come desiderato. Consultate [Aggiunta o modifica di parole chiave](/help/using/viewing-adding-exporting-metadata.md).
 
 * **Elimina la risorsa**: vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
 
@@ -78,7 +78,7 @@ In questa tabella sono illustrate le altre opzioni disponibili per i diversi tip
 
 | Tipo di risorsa | Modifica/regolazione | Anteprima |
 | --- | --- | --- |
-| Immagini | Aggiungi mappe immagine<br>Aggiungi destinazioni di zoom<br>Ritaglio<br>Nitidezza<br>Creare viste regolate | Sì; Zoom e Predefiniti immagine |
+| Immagini | Aggiungi mappe immagine<br>Aggiungi destinazioni zoom<br>Ritaglia<br>Contrasta<br>Crea visualizzazioni regolate | Sì; Zoom e Predefiniti immagine |
 | Immagini di rifinitura finestre e scaffali | No | Miniatura |
 | eCatalog | Modifica | Sì<br>È disponibile anche il pannello Info |
 | Font | Modifica delle informazioni sui font | No |
@@ -93,10 +93,10 @@ In questa tabella sono illustrate le altre opzioni disponibili per i diversi tip
 | File SVG | No | No |
 | Modelli | Modifica | Sì |
 | Video | No | Sì |
-| Vignettature e vignettature di rendering | No | Viene visualizzata l’immagine<br>È possibile visualizzare il contenuto e la struttura degli elementi renderizzabili della vignettatura in formato XML |
+| Vignettature e vignettature di rendering | No | L&#39;immagine viene visualizzata<br>È possibile visualizzare il contenuto e la struttura degli elementi renderizzabili della vignettatura in formato XML |
 | File XML | No | I contenuti sono visualizzati |
 | File ZIP | No | Il contenuto non viene visualizzato |
 
 >[!MORELIKETHIS]
 >
->* [Visualizzare, aggiungere ed esportare metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Visualizzare, aggiungere ed esportare i metadati](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

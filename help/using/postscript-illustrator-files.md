@@ -23,13 +23,13 @@ Puoi utilizzare i file Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) in 
 
 Quando caricate i file immagine PostScript (EPS) o Illustrator (AI) potete formattarli in vari modi. Potete rasterizzare i file, convertirli in formato FXG per Pubblicazione modelli, conservare lo sfondo trasparente, scegliere una risoluzione e scegliere uno spazio colore. Le opzioni per formattare i file PostScript e Illustrator sono disponibili nelle sezioni Opzioni PostScript e Opzioni Illustrator della schermata Opzioni processo di caricamento.
 
-* **[!UICONTROL Elaborazione]**: Scegli **[!UICONTROL Rasterizza]** per convertire gli elementi grafici vettoriali nel file nel formato bitmap.
+* **[!UICONTROL Elaborazione]**: scegliere **[!UICONTROL Rasterizza]** per convertire gli elementi grafici vettoriali nel file nel formato bitmap.
 
 * **[!UICONTROL Mantieni sfondo trasparente nell&#39;immagine di rendering]**: mantiene la trasparenza di sfondo del file.
 
-* **[!UICONTROL Risoluzione]**: determina l’impostazione della risoluzione. Questa impostazione determina la quantità di pixel visualizzati per pollice nel file.
+* **[!UICONTROL Risoluzione]**: determina l&#39;impostazione di risoluzione. Questa impostazione determina la quantità di pixel visualizzati per pollice nel file.
 
-* **[!UICONTROL Spazio colore]**: seleziona la **[!UICONTROL Spazio colore]** e scegliere uno spazio colore:
+* **[!UICONTROL Spazio colore]**: selezionare il menu **[!UICONTROL Spazio colore]** e scegliere uno spazio colore:
 
    * **[!UICONTROL Rileva automaticamente]**: mantiene lo spazio colore del file.
 
@@ -37,4 +37,4 @@ Quando caricate i file immagine PostScript (EPS) o Illustrator (AI) potete forma
 
    * **[!UICONTROL Forza come CMYK]**: viene convertito nello spazio colore CMYK.
 
-   * **[!UICONTROL Forza come gradazioni di grigio]**: converte lo spazio colore della scala di grigi.
+   * **[!UICONTROL Forza come scala di grigio]**: converte lo spazio colore della scala di grigio.

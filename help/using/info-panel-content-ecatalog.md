@@ -34,12 +34,12 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 
 >[!NOTE]
 >
->potete anche impostare il modello di risposta nel predefinito del visualizzatore. Per utilizzare il modello di risposta nel predefinito visualizzatore, aggiungi `fmt=1` alla fine dell’URL del server informazioni nel predefinito visualizzatore.
+>potete anche impostare il modello di risposta nel predefinito del visualizzatore. Per utilizzare il modello di risposta nel predefinito visualizzatore, aggiungi `fmt=1` alla fine dell&#39;URL del server informazioni nel predefinito visualizzatore.
 >
->Consulta [Impostazione dei predefiniti per il visualizzatore eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
+>Vedere [Configurare i predefiniti visualizzatore eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Fai doppio clic sull’eCatalog per aprirlo nella Vista dettagli.
-1. Seleziona la **[!UICONTROL Impostazione InfoPanel]** pannello.
+1. Selezionare il pannello **[!UICONTROL Configurazione InfoPanel]**.
 1. Selezionate un modello di risposta:
 
    * Selezionate un predefinito dal menu Modello risposta. Il codice XML per la creazione dei modelli viene visualizzato nella casella Modello utente.
@@ -51,7 +51,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
    * Impostare un numero più alto se i dati sono relativamente stabili e non richiedono aggiornamenti frequenti nel corso della giornata. Il valore predefinito è dieci ore.
 
-1. Seleziona **[!UICONTROL Pubblica]**.
+1. Seleziona **[!UICONTROL Publish]**.
 
 ## Importare contenuto sorgente per il pannello Info in eCatalog {#import-source-content-for-the-info-panel-in-ecatalogs}
 
@@ -66,10 +66,10 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 ### Importare contenuti CSV in eCatalog da una posizione ospitata esternamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Fare doppio clic sull&#39;eCatalog per aprirlo in Vista dettagli.
-1. Seleziona la **[!UICONTROL Feed dati InfoPanel]** pannello.
+1. Selezionare il pannello **[!UICONTROL Feed dati InfoPanel]**.
 1. Inserite l’URL per il file CSV nel campo Posizione file CSV esterno (HTTP). Potete incollare l’URL in questo campo o digitarlo direttamente.
-1. (Facoltativo) Specifica un orario per aggiornare il contenuto utilizzando il menu Pianifica aggiornamento e seleziona **[!UICONTROL Aggiungi]**. Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un orario, selezionalo e seleziona **[!UICONTROL Elimina]**.)
-1. (Facoltativo) Seleziona **[!UICONTROL Esegui aggiornamento ora]** in modo da poter aggiornare immediatamente il contenuto.
+1. (Facoltativo) Specifica un orario per aggiornare il contenuto utilizzando il menu Pianifica aggiornamento e seleziona **[!UICONTROL Aggiungi]**. Potete selezionare più momenti temporali per l’aggiornamento. Ciascuno di essi viene visualizzato nella casella Orari aggiornamenti. Per rimuovere un&#39;ora, selezionarla e selezionare **[!UICONTROL Elimina]**.
+1. (Facoltativo) Seleziona **[!UICONTROL Esegui aggiornamento ora]** per poter aggiornare immediatamente il contenuto.
 
 ### Importare un file CSV o delimitato da tabulazioni {#import-a-tab-delimited-or-csv-file}
 
@@ -84,8 +84,8 @@ Last Modified Date:
  -->
 
 1. Fare doppio clic sull&#39;eCatalog per aprirlo in Vista dettagli.
-1. Seleziona la **[!UICONTROL Impostazione InfoPanel]** pannello.
-1. Seleziona **[!UICONTROL Carica contenuto S7Info]**.
+1. Selezionare il pannello **[!UICONTROL Configurazione InfoPanel]**.
+1. Selezionare **[!UICONTROL Carica contenuto S7Info]**.
 1. Seleziona **[!UICONTROL Sfoglia]**, seleziona il file TXT, CSV o SSV delimitato da tabulazioni che desideri utilizzare e seleziona **[!UICONTROL Apri]**.
 1. Seleziona **[!UICONTROL Carica]**.
 
@@ -95,7 +95,7 @@ Adobe Dynamic Media Classic ti invia un messaggio di posta elettronica che ti in
 
 Dalla schermata Mappe pagine potete visualizzare facilmente il testo del pannello Info per le mappe immagine in una pagina specifica dell’eCatalog.
 
-1. Seleziona il rollover del catalogo **[!UICONTROL Modifica]** pulsante.
+1. Seleziona il pulsante di rollover **[!UICONTROL Modifica]** del catalogo.
 1. Seleziona **[!UICONTROL Mappa pagine]**.
 1. Nella parte superiore della tabella, sul lato destro dello schermo, scegliere **[!UICONTROL Pannello Info]** dal menu Mostra.
 

@@ -1,6 +1,6 @@
 ---
 title: Confronto delle funzioni
-description: Tabella di confronto delle funzioni tra [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets e [!DNL Adobe Dynamic Media Classic] applicazione desktop.
+description: Tabella di confronto delle funzionalità tra [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets e [!DNL Adobe Dynamic Media Classic] applicazione desktop.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # Confronto delle funzioni
 
-Una tabella di confronto delle funzioni tra [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets e [!DNL Adobe Dynamic Media Classic] applicazione desktop. ✓ Un &quot;&quot; indica che la funzione è disponibile nel o con il software; un &quot;-&quot; indica che non lo è.
+Tabella di confronto delle funzionalità tra [!DNL Dynamic Media] nell&#39;applicazione desktop [!DNL Adobe Experience Manager] Assets e [!DNL Adobe Dynamic Media Classic]. ✓ Un &quot;&quot; indica che la funzione è disponibile nel o con il software; un &quot;-&quot; indica che non lo è.
 
-| Funzionalità | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Classic] |
+| Funzionalità | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Classico] |
 | :--- | :---: | :---: |
 | Video a 360° | ✓ | ✓ |
 | Elaborazione avanzata delle immagini | ✓ | ✓ |
@@ -40,16 +40,16 @@ Una tabella di confronto delle funzioni tra [!DNL Dynamic Media] in [!DNL Adobe 
 | Codifica video | ✓ | ✓ |
 | Accessibilità visualizzatore | ✓ | ✓ |
 | Integrazione dei visualizzatori con Analytics | ✓ | ✓ |
-| Modelli 1:1 | ✓<br>*Pacchetto multimediale personalizzato* | ✓ |
-| Configuratore visivo<br>(personalizzazione prodotto) | ✓<br>*Pacchetto multimediale personalizzato* | ✓ |
-| 3D: Experience Manager Sites<br>Componente WCM | ✓ | : |
+| Modelli 1:1 | ✓<br>*Bundle multimediale personalizzato* | ✓ |
+| Visual Configurator<br>(personalizzazione prodotto) | ✓<br>*Bundle multimediale personalizzato* | ✓ |
+| 3D: componente Experience Manager Sites<br>WCM | ✓ | : |
 | 3D: Visualizzatore esperienza interattivo | ✓ | : |
-| 3D: pubblicazione di file AR/VR e 3D di base | ✓ | : |
+| 3D: Publish AR/VR e file 3D di base | ✓ | : |
 | Caroselli | ✓ | : |
 | Supporti commerciali/interattivi: immagini | ✓ | : |
 | Contenuti multimediali acquistabili/interattivi: video | ✓ | : |
 | Ritaglio avanzato: immagini | ✓ | : |
 | Ritaglio avanzato: video | ✓ | : |
 | Selezione miniature video | ✓ | : |
-| Designer visualizzatore | ✓ | : |
-| Pubblicazione YouTube | ✓ | : |
+| Visualizzatore Designer | ✓ | : |
+| YouTube Publish | ✓ | : |

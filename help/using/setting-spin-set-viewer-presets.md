@@ -26,21 +26,21 @@ I predefiniti per visualizzatori di set 360 gradi determinano lo stile, il compo
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Effettuate una delle seguenti operazioni:
 
-   * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**, quindi nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma e seleziona **[!UICONTROL Visualizzatore set 360 gradi]**.
-   * Per modificare un predefinito visualizzatore set 360 gradi esistente, selezionalo e fai clic su **[!UICONTROL Modifica]**.
+   * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**, quindi nella finestra di dialogo Aggiungi predefinito visualizzatore scegli una piattaforma e seleziona **[!UICONTROL Visualizzatore set 360 gradi]**.
+   * Per modificare un predefinito visualizzatore set 360 gradi esistente, selezionare il predefinito, quindi selezionare **[!UICONTROL Modifica]**.
 
-1. Il giorno `Configure Viewer` , digitare un nome nella casella Nome predefinito per il predefinito visualizzatore set 360 gradi.
-1. Specificate le altre opzioni desiderate. Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** accanto all’opzione.
+1. Nella pagina `Configure Viewer` digitare un nome nella casella Nome predefinito per il predefinito visualizzatore set 360 gradi.
+1. Specificate le altre opzioni desiderate. Per visualizzare una descrizione di un&#39;opzione, seleziona l&#39;icona **[!UICONTROL Suggerimento informazioni]** accanto all&#39;opzione.
 
    Nella pagina Anteprima viene visualizzato il visualizzatore durante l&#39;aggiornamento e la modifica delle impostazioni.
 
 1. Seleziona **[!UICONTROL Salva]**.
 
-Seleziona **[!UICONTROL Predefinito]** per impostare come predefinito visualizzatore set 360 gradi il predefinito società creato per la visualizzazione dei set 360 gradi.
+Selezionare **[!UICONTROL Rendi predefinito]** per impostare il predefinito visualizzatore set 360 gradi come predefinito della società per la visualizzazione dei set 360 gradi.
 
-Consulta [Configura visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
+Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
 
-Per eliminare un predefinito visualizzatore per set 360 gradi, selezionatelo nella pagina Predefiniti visualizzatore, quindi selezionate **[!UICONTROL Elimina]**.
+Per eliminare un predefinito visualizzatore per set 360 gradi, selezionarlo nella pagina Predefiniti visualizzatore, quindi selezionare **[!UICONTROL Elimina]**.
 
 >[!MORELIKETHIS]
 >

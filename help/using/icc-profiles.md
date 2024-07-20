@@ -37,10 +37,10 @@ Consulta [Caricare i file](uploading-files.md#uploading_your_files).
 
 Per esaminare un profilo ICC, selezionatelo nel pannello Sfoglia e visualizzatelo in Vista dettagli. La Vista dettagli fornisce queste informazioni sui profili ICC:
 
-* **[!UICONTROL Classe profilo]**: l&#39;ICC (International Color Consortium) definisce ogni classe in modo da coprire un tipo di applicazione. Ad esempio, i profili di Input si applicano a dispositivi quali fotocamere digitali e scanner e i profili di Output si applicano alle stampanti.
+* **[!UICONTROL Classe profilo]**: l&#39;ICC (International Color Consortium) definisce ogni classe per coprire un tipo di applicazione. Ad esempio, i profili di Input si applicano a dispositivi quali fotocamere digitali e scanner e i profili di Output si applicano alle stampanti.
 
-* **[!UICONTROL Tipo di spazio colore]**: questo numero è lo spazio colore &quot;input&quot; del profilo, come definito dall’ICC. Il tipo di spazio colore consente di definire il numero di componenti dello spazio colore e l’interpretazione di tali componenti. Ad esempio, RGB è uno spazio colore con tre componenti: rosso, verde e blu. Il tipo di spazio colore non definisce le particolari caratteristiche di colore dello spazio (ad esempio, le cromaticità dei primari).
+* **[!UICONTROL Tipo di spazio colore]**: questo numero è lo spazio colore &quot;di input&quot; del profilo, come definito dall&#39;ICC. Il tipo di spazio colore consente di definire il numero di componenti dello spazio colore e l’interpretazione di tali componenti. Ad esempio, RGB è uno spazio colore con tre componenti: rosso, verde e blu. Il tipo di spazio colore non definisce le particolari caratteristiche di colore dello spazio (ad esempio, le cromaticità dei primari).
 
-* **[!UICONTROL Tipo PCS]**: questo tipo di PCS è lo spazio colore &quot;output&quot; del profilo, ovvero lo spazio di connessione del profilo. Ad esempio, un profilo colore può convertire RGB in PCS, quindi effettua la conversione da PCS a CMYK.
+* **[!UICONTROL Tipo PCS]**: questo tipo PCS è lo spazio colore &quot;output&quot; del profilo, ovvero lo spazio di connessione del profilo. Ad esempio, un profilo colore può convertire RGB in PCS, quindi effettua la conversione da PCS a CMYK.
 
 Per un profilo di input, visualizzazione o output utile per assegnare tag a colori o immagini, il tipo PCS è XYZ o Lab. Interpretate questo profilo come lo spazio colore specifico corrispondente definito nella specifica ICC.

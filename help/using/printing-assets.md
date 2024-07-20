@@ -20,5 +20,5 @@ ht-degree: 0%
 # Stampa risorse{#printing-assets}
 
 1. Nel pannello Sfoglia, seleziona la risorsa o le risorse da stampare.
-1. Vai a **[!UICONTROL File]** > **[!UICONTROL Stampa]** o premere `Ctrl+P` (Windows®) o `Command+P` (Mac)
+1. Vai a **[!UICONTROL File]** > **[!UICONTROL Stampa]** oppure premi `Ctrl+P` (Windows®) o `Command+P` (Mac).
 1. Nella finestra di dialogo Stampa scegliere il numero di copie da stampare e quindi fare clic su **[!UICONTROL Stampa]**.

@@ -25,9 +25,9 @@ Per semplificare la visualizzazione e la navigazione dei video lunghi, aggiungi 
 >
 >il lettore video utilizzato deve supportare l’uso di marcatori capitolo.
 
-Consulta [Aggiungere o modificare un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per `Universal_HTML5_Video` visualizzatore (HTML5).
+Consulta [Aggiungere o modificare un predefinito per visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per il visualizzatore `Universal_HTML5_Video` (HTML5).
 
-Vedi anche [Aggiungere e modificare i predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets).
+Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
 
 Gli elenchi di capitoli si creano in modo analogo alle didascalie, Quindi creando un file WebVTT. Tuttavia, non è possibile utilizzare lo stesso file WebVTT anche per i sottotitoli; non è possibile impostare didascalie e capitoli in un unico file WebVTT.
 
@@ -49,11 +49,11 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Nell’esempio precedente, `Chapter 1` è l’identificatore del cue ed è facoltativo. Il tempo di cue di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e di fine del capitolo, in 00:00:formato 000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L&#39;identificatore del cue, l&#39;ora di inizio del cue e il titolo del capitolo vengono visualizzati in un pop-up nel lettore video quando il puntatore viene posizionato su un punto di cue visivo nella timeline del video.
+Nell&#39;esempio precedente, `Chapter 1` è l&#39;identificatore del cue ed è facoltativo. Il cue time di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e l&#39;ora di fine del capitolo, nel formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L&#39;identificatore del cue, l&#39;ora di inizio del cue e il titolo del capitolo vengono visualizzati in un pop-up nel lettore video quando il puntatore viene posizionato su un punto di cue visivo nella timeline del video.
 
-Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L’estensione del nome file del capitolo è `.VTT`. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
+Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L&#39;estensione del nome file del capitolo è `.VTT`. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
-Consulta [WebVTT: formato per tracce di testo video Web](https://w3c.github.io/webvtt/).
+Vedere [WebVTT: formato dei brani di testo per video Web](https://w3c.github.io/webvtt/).
 
 **Per aggiungere marcatori capitolo a un video:**
 
@@ -61,7 +61,7 @@ Consulta [WebVTT: formato per tracce di testo video Web](https://w3c.github.io/w
 
    >[!NOTE]
    >
-   >Per il supporto globale dei capitoli video in lingue diverse dall’inglese, lo standard WebVTT richiede la creazione di `.VTT` file e chiamate per ogni lingua da supportare.
+   >Per il supporto globale dei capitoli video in lingue diverse dall&#39;inglese, lo standard WebVTT richiede la creazione di `.VTT` file e chiamate separati per ogni lingua che si desidera supportare.
 
 1. Salvare il file VTT con codifica UTF8 in modo da evitare problemi con la rappresentazione dei caratteri nel testo del titolo del capitolo.
 
@@ -69,22 +69,22 @@ Consulta [WebVTT: formato per tracce di testo video Web](https://w3c.github.io/w
 
 1. In Adobe Dynamic Media Classic, carica il file del capitolo WebVTT.
 
-   Consulta [Carica file](uploading-files.md#uploading_files).
+   Vedi [Carica file](uploading-files.md#uploading_files).
 
 1. Nel pannello Libreria risorse, a sinistra, individua la cartella delle risorse contenente il file video da associare al file del capitolo caricato.
-1. Nel pannello Sfoglia risorse, seleziona una singola risorsa video, quindi sotto l’immagine di miniatura della risorsa seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+1. Nel pannello Sfoglia risorse, seleziona una singola risorsa video, quindi seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]** sotto l&#39;immagine di anteprima della risorsa.
 1. Nella tabella Elenco visualizzatori, individuate il visualizzatore HTML5 denominato **Univeral_HTML5_Video** ed effettuate una delle seguenti operazioni:
 
-   * Per visualizzare un video a comparsa, seleziona **[!UICONTROL Copia URL]** all&#39;estrema destra del nome.
+   * Per visualizzare un video popup, seleziona **[!UICONTROL Copia URL]** all&#39;estrema destra del nome.
 
      Aggiungi l’URL copiato del video con la seguente sintassi, in modo da poterlo associare all’URL copiato nel file di didascalia:
 
      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Per un’esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Codice di incorporamento]** all&#39;estrema destra del nome.
+   * Per un&#39;esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Incorpora codice]** all&#39;estrema destra del nome.
 
      Nella finestra di dialogo Incorpora codice, seleziona **[!UICONTROL Copia negli Appunti]**.
 
-     Per il HTML 5 `Universal_HTML5_Video` , aggiungi al codice da incorporare copiato quanto segue:
+     Per il visualizzatore HTML5 `Universal_HTML5_Video`, aggiungi il codice di incorporamento copiato con quanto segue:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

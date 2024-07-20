@@ -31,13 +31,13 @@ Per inserire stringhe URL nelle pagine Web e nelle applicazioni, copiarle da Ado
 
 Potete ottenere una stringa URL per il modello, generata da un predefinito immagine dalla schermata Anteprima modello. Una volta copiato, l’URL viene inserito negli Appunti ed è pronto per essere incollato. Per ottenere una stringa dell&#39;URL del modello generata con un predefinito immagine dalla pagina Anteprima modello, effettuate le seguenti operazioni:
 
-1. Seleziona il rollover del modello **[!UICONTROL Anteprima]** o vai a **[!UICONTROL File]** > **[!UICONTROL Anteprima]**.
+1. Seleziona il pulsante di rollover **[!UICONTROL Anteprima]** del modello o passa a **[!UICONTROL File]** > **[!UICONTROL Anteprima]**.
 1. Utilizzando i menu del predefinito, scegliete il predefinito immagine con cui desiderate distribuire l&#39;immagine modello. La pagina Anteprima mostra l’aspetto del modello quando viene distribuito dal server.
-1. Seleziona **[!UICONTROL Copia URL]** in modo da poter copiare l’URL negli Appunti.
+1. Selezionare **[!UICONTROL Copia URL]** per copiare l&#39;URL negli Appunti.
 
 ## Aggiungere URL modello alla pagina Web {#adding-template-urls-to-your-web-page}
 
-Per aggiungere un modello alla pagina Web, consultare il team di sviluppo della pagina Web per modificare `<IMG>` nel codice della pagina Web HTML. Utilizza la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Medie. Il codice del motore di e-commerce o della pagina Web dinamica inserisce l&#39;immagine modello nelle dimensioni e con le specifiche di formattazione definite dal predefinito immagine scelto per il modello.
+Per aggiungere un modello alla pagina Web, consultare il team di sviluppo della pagina Web per modificare il tag `<IMG>` nel codice della pagina Web HTML. Utilizza la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Medie. Il codice del motore di e-commerce o della pagina Web dinamica inserisce l&#39;immagine modello nelle dimensioni e con le specifiche di formattazione definite dal predefinito immagine scelto per il modello.
 
 >[!MORELIKETHIS]
 >

@@ -27,13 +27,13 @@ Quando si pubblica un modello, questo viene posizionato nei server immagini Dyna
 
 ## Contrassegnare i modelli per la pubblicazione {#marking-templates-for-publish}
 
-I modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione affinché possano essere posizionati sui server immagini Dynamic Medie. È possibile contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia selezionando **[!UICONTROL Contrassegna per pubblicazione]** icona.
+I modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione affinché possano essere posizionati sui server immagini Dynamic Medie. È possibile contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per Publish]**.
 
-## Pubblicare il modello {#publishing-your-template}
+## Publish il modello {#publishing-your-template}
 
-Per pubblicare i modelli nei server immagini Dynamic Medie, nella barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**, quindi seleziona un **[!UICONTROL Quando]** opzione. Facoltativamente, è possibile immettere un nome per il processo di pubblicazione. Seleziona **[!UICONTROL Invia pubblicazione]**.
+Per pubblicare i modelli su Dynamic Medie Image Server, sulla barra di navigazione globale, seleziona **[!UICONTROL Publish]**, quindi seleziona un&#39;opzione **[!UICONTROL When]**. Facoltativamente, è possibile immettere un nome per il processo di pubblicazione. Selezionare **[!UICONTROL Invia Publish]**.
 
 >[!MORELIKETHIS]
 >
->* [Contrassegnare le risorse per la pubblicazione](publishing-files.md#publish_after_uploading)
->* [Creare un processo di pubblicazione](publishing-files.md#creating_a_publish_job)
+>* [Contrassegna risorse per la pubblicazione](publishing-files.md#publish_after_uploading)
+>* [Crea un processo di pubblicazione](publishing-files.md#creating_a_publish_job)

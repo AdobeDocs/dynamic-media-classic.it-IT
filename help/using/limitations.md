@@ -36,7 +36,7 @@ Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazio
 | **Tutti i set**: numero di risorse duplicate per set | Nessun duplicato | 20‡ |
 | **Tutti i set**: numero massimo di risorse per set | 5-10 immagini per set | 1000 |
 | **Set 360 gradi**: numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
-| **PDF**: numero massimo di pagine per un PDF da considerare per l’estrazione |  | 100 (per tutti i PDF) |
+| **PDF**: numero massimo di pagine per un PDF da considerare per l&#39;estrazione |  | 100 (per tutti i PDF) |
 
 ‡ Si consiglia di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
 

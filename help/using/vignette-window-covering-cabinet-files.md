@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Utilizzare vignettatura, copertina di finestre e file CAB{#working-with-vignette-window-covering-and-cabinet-files}
 
-Gli utenti dello strumento Adobe Dynamic Media Classic Image Authoring possono *utilizzare* vignettature (file VNT), coperture per finestre (file VNW) e archivi (file VNC). Questi file non possono essere creati o modificati in Adobe Dynamic Media Classic.
+Gli utenti dello strumento di creazione immagini di Adobe Dynamic Media Classic possono *utilizzare* vignettature (file VNT), copertine per finestre (file VNW) e archivi (file VNC). Questi file non possono essere creati o modificati in Adobe Dynamic Media Classic.
 
 Le vignette, le copertine per finestre e gli armadi sono immagini create. Utilizzando un diverso programma di Adobe Dynamic Media Classic, denominato Image Authoring, potete mascherare gli oggetti di un&#39;immagine in modo che gli utenti possano vedere la stessa immagine in diverse texture o colori. Ad esempio, gli utenti vedono un divano imbottito con vari tessuti, una finestra decorata con vari trattamenti per finestre o un armadio rifinito con diversi tipi di legno.
 

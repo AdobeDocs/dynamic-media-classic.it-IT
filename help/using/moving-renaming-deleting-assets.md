@@ -30,14 +30,14 @@ Puoi spostare le risorse in cartelle diverse nel pannello Sfoglia.
 1. Seleziona la risorsa o le risorse nel pannello Sfoglia ed effettua una delle seguenti operazioni:
 
    * Visualizza la cartella in cui desideri spostare le risorse nella Libreria risorse e trascina le risorse nella cartella.
-   * Vai a **[!UICONTROL File]** > **[!UICONTROL Sposta]**, seleziona una cartella nella finestra Sposta risorse e seleziona **[!UICONTROL Sposta]**.
+   * Vai a **[!UICONTROL File]** > **[!UICONTROL Sposta]**, seleziona una cartella nella finestra Sposta Assets e seleziona **[!UICONTROL Sposta]**.
 
 ## Rinominare le risorse {#rename-assets}
 
 1. Seleziona la risorsa nel pannello Sfoglia ed effettua una delle seguenti operazioni:
 
-   * Selezionare il nome, digitare un nuovo nome e premere **[!UICONTROL Invio]** oppure selezionala lontano dal nome.
-   * Vai a **[!UICONTROL File]** > **[!UICONTROL Rinomina]**. Il nome della risorsa viene evidenziato. Inserisci un nuovo nome e premi **[!UICONTROL Invio]**. Assicurati di non inserire il nome di una risorsa Adobe Dynamic Media Classic esistente.
+   * Seleziona il nome, digita un nuovo nome e premi **[!UICONTROL Invio]** o seleziona un nome diverso.
+   * Vai a **[!UICONTROL File]** > **[!UICONTROL Rinomina]**. Il nome della risorsa viene evidenziato. Immettere un nuovo nome e premere **[!UICONTROL Invio]**. Assicurati di non inserire il nome di una risorsa Adobe Dynamic Media Classic esistente.
 
 ## Eliminare le risorse {#delete-assets}
 
@@ -55,8 +55,8 @@ le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengo
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Per eliminare una o più risorse, selezionale nel pannello Sfoglia e premi **[!UICONTROL Elimina]** o vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
-   * Per eliminare una cartella, selezionala nella Libreria risorse, quindi fai clic su **[!UICONTROL Rimuovi cartella]**.
+   * Per eliminare una o più risorse, seleziona le risorse nel pannello Sfoglia e premi **[!UICONTROL Elimina]** o vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
+   * Per eliminare una cartella, selezionala nella Libreria risorse, quindi seleziona **[!UICONTROL Rimuovi cartella]**.
 
      Quando si elimina una cartella, vengono eliminati anche la cartella, tutte le risorse presenti nella cartella e tutte le risorse presenti nelle relative sottocartelle.
 
@@ -71,13 +71,13 @@ Crea l&#39;elenco degli ID Adobe Dynamic Media Classic e salvalo come file di te
 Una volta creato l’elenco, effettuate le operazioni seguenti:
 
 1. Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina elenco risorse]**.
-1. In **[!UICONTROL Elenco risorse eliminate]** digitare il percorso del file di testo con l&#39;elenco delle risorse da eliminare.
-1. Seleziona **[!UICONTROL Elimina]**.
+1. Nella finestra di dialogo **[!UICONTROL Elenco risorse eliminate]** digitare il percorso del file di testo con l&#39;elenco delle risorse da eliminare.
+1. Selezionare **[!UICONTROL Elimina]**.
 
 Quando elimini le risorse con un file di testo, se nell’elenco non è presente alcun ID Adobe Dynamic Media Classic, viene visualizzato il messaggio &quot;Impossibile convalidare queste voci nell’elenco:&quot;. Viene inoltre visualizzato l&#39;elenco delle voci. Tuttavia, Adobe Dynamic Media Classic non genera un errore nella pagina Job (Processo).
 
 >[!MORELIKETHIS]
 >
 >* [Selezionare le risorse nel pannello Sfoglia](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Preparare risorse e cartelle per il caricamento](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [Ripristinare le risorse dalla cartella Cestino](trash-folder.md#restoring_assets_from_the_trash_folder)
+>* [Prepara risorse e cartelle per il caricamento](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [Ripristina risorse dalla cartella Cestino](trash-folder.md#restoring_assets_from_the_trash_folder)

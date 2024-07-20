@@ -23,7 +23,7 @@ Adobe Target Standard/Premium lascia il controllo direttamente nelle mani degli 
 
 Adobe Dynamic Media Classic consente di creare offerte e set di offerte per le campagne Adobe Target Standard/Premium. Ad esempio, puoi creare un set di offerte con tre varianti della stessa risorsa rich media. Quindi puoi avere Adobe Target Standard o Premium per determinare quale risorsa fornisce un incremento di conversione migliore. Puoi creare offerte e set di offerte da un modello base o da singole immagini. Dopo che il set di offerte è stato inviato o salvato in Adobe Target Standard/Premium, dove le offerte sono associate a mbox ed esperienze, Adobe Target Standard/Premium può eseguire campagne. Queste campagne determinano la variante di un sito web che probabilmente offre le prestazioni migliori per i click-through e la conversione.
 
-Per una maggiore personalizzazione dei contenuti Adobe Dynamic Media Classic dinamici, utilizza le offerte Adobe Target Standard/Premium HTML. Consulta la [Documentazione di Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target) per ulteriori informazioni.
+Per una maggiore personalizzazione dei contenuti Adobe Dynamic Media Classic dinamici, utilizza le offerte Adobe Target Standard/Premium HTML. Per ulteriori informazioni, consulta la [documentazione di Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target).
 
 >[!NOTE]
 >
@@ -33,20 +33,20 @@ Questa Guida introduttiva è stata progettata per aiutarti a iniziare rapidament
 
 ## 1. Immetti l&#39;URL di Adobe Target Standard/Premium nella pagina Impostazioni generali applicazione
 
-Adobe Dynamic Media Classic ha bisogno del tuo URL di Adobe Target Standard/Premium per integrarsi con Adobe Target Standard/Premium. Copia la porzione dell’URL di Adobe Target Standard/Premium fino a e incluso `.com`e immetterlo in Adobe Dynamic Media Classic **[!UICONTROL Impostazioni generali applicazione]** pagina, nella **[!UICONTROL Server]** gruppo, **[!UICONTROL Nome server Test&amp;Target]** campo di testo. Consulta [Integrare Adobe Dynamic Media Classic con Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Adobe Dynamic Media Classic ha bisogno del tuo URL di Adobe Target Standard/Premium per integrarsi con Adobe Target Standard/Premium. Copiare la parte dell&#39;URL di Adobe Target Standard/Premium fino a `.com` incluso e immetterla nella pagina **[!UICONTROL Impostazioni generali applicazione]** di Adobe Dynamic Media Classic, nel campo di testo **[!UICONTROL Nome server Test&amp;Target]** del gruppo **[!UICONTROL Server]**. Consulta [Integrare Adobe Dynamic Media Classic con Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
 ## 2. Creare la serie di offerte
 
-Utilizza un modello con parametri o immagini per creare un set di offerte. Puoi creare set di offerte HTML nella pagina Set di offerte Test&amp;Target. Per aprire questa pagina, seleziona il modello o le immagini, quindi sulla barra di navigazione globale vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di offerte Test&amp;Target]**.
+Utilizza un modello con parametri o immagini per creare un set di offerte. Puoi creare set di offerte HTML nella pagina Set di offerte Test&amp;Target. Per aprire questa pagina, seleziona il modello o le immagini, quindi sulla barra di navigazione globale vai a **[!UICONTROL Build]** > **[!UICONTROL Set di offerte Test&amp;Target]**.
 
-Per creare un’offerta con un modello, seleziona **[!UICONTROL Aggiungi e visualizza anteprima]**. Nella pagina Aggiungi e visualizza anteprima, modifica i valori dei parametri.
+Per creare un&#39;offerta con un modello, selezionare **[!UICONTROL Aggiungi e visualizza anteprima]**. Nella pagina Aggiungi e visualizza anteprima, modifica i valori dei parametri.
 
-Per creare un&#39;offerta con immagini, trascina le immagini nella pagina Set di offerte Test&amp;Target. Seleziona **[!UICONTROL Anteprima]** e scegli un predefinito immagine per un’immagine o tutte le immagini del set di offerte.
+Per creare un&#39;offerta con immagini, trascina le immagini nella pagina Set di offerte Test&amp;Target. Seleziona **[!UICONTROL Anteprima]** e scegli un predefinito immagine per un&#39;immagine o tutte le immagini nel set di offerte.
 
 Salva il set di offerte dopo averlo creato.
 
-Consulta [Creare un set di offerte](creating-offer-set.md#creating_an_offer_set).
+Vedi [Creare un set di offerte](creating-offer-set.md#creating_an_offer_set).
 
 ## 3. Invia il set di offerte ad Adobe Target Standard/Premium
 
-Nella pagina Set di offerte Test&amp;Target, seleziona **[!UICONTROL Invia offerte]** e immettere le credenziali di accesso nella finestra di dialogo Accesso Test&amp;Target. Consulta [Invia set di offerte ad Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Nella pagina Set di offerte Test&amp;Target, seleziona **[!UICONTROL Offerte push]** e immetti le credenziali di accesso nella finestra di dialogo Accesso Test&amp;Target. Consulta [Invia set di offerte ad Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).

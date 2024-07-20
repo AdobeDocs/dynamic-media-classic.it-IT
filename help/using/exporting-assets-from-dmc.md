@@ -27,26 +27,26 @@ Adobe Dynamic Media Classic mantiene un record dei processi di esportazione nell
 
 **Per esportare risorse da Adobe Dynamic Media Classic:**
 
-1. Seleziona le risorse da esportare, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
+1. Selezionare le risorse da esportare, quindi passare a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
 1. Nella finestra Esporta risorse selezionate, fate clic su **[!UICONTROL Opzioni immagini]** e specificate una delle seguenti opzioni (gli amministratori stabiliscono quali opzioni rendere disponibili agli utenti):
 
-   * **[!UICONTROL Predefiniti]**: se necessario, scegli un predefinito immagine per formattare la risorsa al momento dell’esportazione. Se scegliete un predefinito per immagini, le altre opzioni di formattazione non sono disponibili, poiché vengono adottati i formati specificati dal predefinito.
+   * **[!UICONTROL Predefiniti]**: è possibile scegliere un predefinito immagine per formattare la risorsa al momento dell&#39;esportazione. Se scegliete un predefinito per immagini, le altre opzioni di formattazione non sono disponibili, poiché vengono adottati i formati specificati dal predefinito.
 
-   * **[!UICONTROL Conversione]**: converte il file della risorsa o l’immagine originale.
+   * **[!UICONTROL Conversione]**: converti il file della risorsa o l&#39;immagine originale.
 
-   * **[!UICONTROL Dimensione]**: puoi selezionare una dimensione standard. In alternativa, puoi selezionare **[!UICONTROL Altro]** dal **[!UICONTROL Dimensione]** scegliere l&#39;unità di misura desiderata e quindi specificare la larghezza e l&#39;altezza.
+   * **[!UICONTROL Dimensione]**: è possibile selezionare una dimensione standard. In alternativa, è possibile selezionare **[!UICONTROL Altro]** dall&#39;elenco a discesa **[!UICONTROL Dimensione]**, scegliere l&#39;unità di misura desiderata e quindi specificare la larghezza e l&#39;altezza.
 
-     Vedi anche [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     Vedere anche [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
    * **[!UICONTROL Formato]**: scegli un formato immagine.
 
-   * **[!UICONTROL Colore]**: scegli RGB, CMYK o Grigio.
+   * **[!UICONTROL Colore]**: scegliere RGB, CMYK o Grigio.
 
-   * **[!UICONTROL Risoluzione]**: Scegliere 72 ppi, 150 ppi o 300 ppi.
+   * **[!UICONTROL Risoluzione]**: scegliere 72 ppi, 150 ppi o 300 ppi.
 
-   * **[!UICONTROL Nome processo]**: puoi assegnare un nome di processo all’esportazione.
+   * **[!UICONTROL Nome processo]**: è possibile assegnare un nome processo all&#39;esportazione.
 
-   * **[!UICONTROL Invia e-mail a]**: facoltativo. Se si desidera inviare le risorse tramite posta elettronica, immettere un indirizzo di posta elettronica. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
+   * **[!UICONTROL Invia Email A]**: Facoltativo. Se si desidera inviare le risorse tramite posta elettronica, immettere un indirizzo di posta elettronica. Nel messaggio e-mail viene riportato l’URL mediante il quale il destinatario può scaricare le risorse.
 
 1. Seleziona **[!UICONTROL Esporta]**.
 

@@ -37,8 +37,8 @@ Se sei un amministratore della società, puoi creare predefiniti immagine person
 
 1. Effettuate una delle seguenti operazioni:
 
-   * **Creare un predefinito immagine**: Seleziona **[!UICONTROL Aggiungi]**.
-   * **Modificare un predefinito immagine**: individua il predefinito immagine più simile a quello che desideri creare, quindi seleziona **[!UICONTROL Modifica]**.
+   * **Crea un predefinito immagine**: seleziona **[!UICONTROL Aggiungi]**.
+   * **Modifica un predefinito immagine**: passa al predefinito immagine più simile a quello che desideri creare, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Immettete un nome per il predefinito per immagini.
 1. Immettete i valori Larghezza e Altezza in pixel. Tali valori determinano la dimensione in cui verranno trasmesse le immagini.
@@ -46,11 +46,11 @@ Se sei un amministratore della società, puoi creare predefiniti immagine person
 
    Adobe Dynamic Media Classic consiglia di avviare le seguenti opzioni di &quot;best practice&quot;:
 
-   * **[!UICONTROL Formato]**: scegli JPEG o un altro formato che soddisfi le tue esigenze. Tutti i browser supportano il formato immagine JPEG, che offre un buon compromesso tra dimensioni ridotte dei file e qualità delle immagini. Tuttavia, le immagini JPEG utilizzano uno schema di compressione con perdita di dati che può introdurre artefatti di immagine indesiderati se l’impostazione di compressione è troppo bassa. Per questo motivo, Adobe Dynamic Media Classic consiglia di impostare la qualità di compressione (sul dispositivo di scorrimento) su 75. Questa impostazione offre il giusto compromesso tra qualità delle immagini e dimensione ridotta dei file.
+   * **[!UICONTROL Formato]**: scegli JPEG o un altro formato che soddisfi i tuoi requisiti. Tutti i browser supportano il formato immagine JPEG, che offre un buon compromesso tra dimensioni ridotte dei file e qualità delle immagini. Tuttavia, le immagini JPEG utilizzano uno schema di compressione con perdita di dati che può introdurre artefatti di immagine indesiderati se l’impostazione di compressione è troppo bassa. Per questo motivo, Adobe Dynamic Media Classic consiglia di impostare la qualità di compressione (sul dispositivo di scorrimento) su 75. Questa impostazione offre il giusto compromesso tra qualità delle immagini e dimensione ridotta dei file.
 
-   * **[!UICONTROL Nitidezza]**: non selezionare Nitidezza (questo filtro di nitidezza offre un controllo inferiore rispetto a **[!UICONTROL Maschera di contrasto]** ).
+   * **[!UICONTROL Nitidezza]**: non selezionare Nitidezza (questo filtro di nitidezza offre un controllo inferiore rispetto alle **[!UICONTROL impostazioni Maschera definizione dettagli]**).
 
-   * **[!UICONTROL Modalità di ricampionamento]**: Scegli **[!UICONTROL Bicubico]**.
+   * **[!UICONTROL Modalità Ricampionamento]**: Scegliere **[!UICONTROL Bicubico]**.
 
    * **[!UICONTROL Maschera di contrasto]** (USM): immettere le impostazioni seguenti:
 
@@ -65,16 +65,16 @@ Se sei un amministratore della società, puoi creare predefiniti immagine person
 
 Le opzioni consigliate di Adobe Dynamic Media Classic per la creazione di predefiniti immagine qui elencate sono generali. La nitidezza è altamente soggettiva. Queste impostazioni di &quot;best practice&quot; si basavano su un&#39;immagine primaria da 2000 × 2000; le impostazioni per i file primari più grandi o più piccoli possono essere diverse. Se si desidera regolare le impostazioni Maschera di contrasto, Adobe Dynamic Media Classic consiglia i seguenti intervalli:
 
-* **[!UICONTROL Quantità]**: tra `.8` e `1.5`.
+* **[!UICONTROL Importo]**: compreso tra `.8` e `1.5`.
 
-* **[!UICONTROL Raggio]**: tra `.6` e `2`.
+* **[!UICONTROL Raggio]**: compreso tra `.6` e `2`.
 
-* **[!UICONTROL Soglia]**: Da `1` da a `6`.
+* **[!UICONTROL Soglia]**: Da `1` a `6`.
 
-Per eliminare un predefinito immagine, selezionatelo nella schermata Predefiniti immagine, quindi selezionate **[!UICONTROL Elimina]**.
+Per eliminare un predefinito immagine, selezionarlo nella schermata Predefiniti immagine, quindi selezionare **[!UICONTROL Elimina]**.
 
 >[!MORELIKETHIS]
 >
->* [Creare e modificare i predefiniti immagine](application-setup.md#creating_and_editing_image_presets)
+>* [Crea e modifica predefiniti immagine](application-setup.md#creating_and_editing_image_presets)
 >* [Opzioni predefinito immagine](application-setup.md#image_preset_options)
->* [Visualizzare in anteprima una risorsa immagine in base al suo predefinito immagine](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+>* [Anteprima di una risorsa immagine in base al relativo predefinito immagine](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)

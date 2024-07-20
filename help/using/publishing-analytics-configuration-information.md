@@ -1,5 +1,5 @@
 ---
-title: Pubblicare informazioni sulla configurazione di Adobe Analytics
+title: Informazioni sulla configurazione di Publish Adobe Analytics
 description: Scopri come pubblicare le informazioni di configurazione di Adobe Analytics da Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 ---
 
-# Pubblicare informazioni sulla configurazione di Adobe Analytics{#publishing-adobe-analytics-configuration-information}
+# Informazioni sulla configurazione di Publish Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che le informazioni sulla configurazione dei rapporti di Adobe Analytics vengano inviate ai server Adobe Dynamic Media Classic. Queste informazioni vengono incorporate nei visualizzatori. La pubblicazione è necessaria in modo che le informazioni contenute nei visualizzatori siano disponibili sui server di Adobe Dynamic Media Classic. da dove possono essere trasmesse ad Adobe Analytics non appena gli utenti eseguono specifiche attività nei visualizzatori. 
+Publish i visualizzatori Adobe Dynamic Media Classic in modo che le informazioni sulla configurazione dei rapporti di Adobe Analytics vengano inviate ai server Adobe Dynamic Media Classic. Queste informazioni vengono incorporate nei visualizzatori. La pubblicazione è necessaria in modo che le informazioni contenute nei visualizzatori siano disponibili sui server di Adobe Dynamic Media Classic. da dove possono essere trasmesse ad Adobe Analytics non appena gli utenti eseguono specifiche attività nei visualizzatori. 
 
 >[!NOTE]
 >
@@ -31,5 +31,5 @@ Consulta [Configurare i rapporti di Adobe Analytics](configuring-analytics-repor
 
 **Per pubblicare le informazioni di configurazione:**
 
-1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
-1. In **[!UICONTROL `Publish`]** finestra di dialogo, seleziona **[!UICONTROL Invia pubblicazione]**.
+1. Sulla barra di spostamento globale, selezionare **[!UICONTROL Publish]**.
+1. Nella finestra di dialogo **[!UICONTROL `Publish`]**, seleziona **[!UICONTROL Invia Publish]**.

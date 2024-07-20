@@ -24,7 +24,7 @@ Il tuo lavoro in Adobe Dynamic Media Classic si basa su tre aree fondamentali:
 * Gestione dei file in modo da poterli usare per creare risorse multimediali avanzate.
 * Pubblicazione dei file di risorse su un server Dynamic Media Classic in modo che siano disponibili per la distribuzione al sito web e all’applicazione.
 
-Quando carichi i file di risorse in Adobe Dynamic Media Classic e pubblichi i file di risorse sui server Adobe Dynamic Media Classic, il sistema registra tali trasferimenti di file su **[!UICONTROL Processi]** pagina. in cui potete tenere traccia e monitorare le attività di caricamento e pubblicazione. 
+Quando carichi i file di risorse in Adobe Dynamic Media Classic e pubblichi i file di risorse nei server Adobe Dynamic Media Classic, il sistema registra questi trasferimenti di file nella pagina **[!UICONTROL Processi]**. in cui potete tenere traccia e monitorare le attività di caricamento e pubblicazione. 
 
 >[!NOTE]
 >

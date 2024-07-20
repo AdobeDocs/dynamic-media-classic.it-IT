@@ -1,5 +1,5 @@
 ---
-title: Pubblicare immagini primarie
+title: Immagini primarie Publish
 description: Scopri come pubblicare immagini primarie da Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,19 +17,19 @@ ht-degree: 6%
 
 ---
 
-# Pubblicare immagini primarie{#publishing-master-images}
+# Immagini primarie Publish{#publishing-master-images}
 
 Quando si pubblicano i file immagine, questi vengono pubblicati nei server immagini Dynamic Medie, dove sono disponibili per il sito Web e l&#39;applicazione. Inoltre, durante il processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL necessarie per il sito Web e l&#39;applicazione.
 
 ## Contrassegna immagini primarie per la pubblicazione {#marking-master-images-for-publish}
 
-Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Medie. È possibile contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia selezionando **[!UICONTROL Contrassegna per pubblicazione]** icona. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
+Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Medie. Puoi contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per Publish]**. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
 
-## Pubblicare le immagini principali {#publishing-your-master-images}
+## Publish le immagini principali {#publishing-your-master-images}
 
-1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Nella finestra di dialogo Pubblicazione selezionare un&#39;opzione Quando (**[!UICONTROL Una tantum]** o **[!UICONTROL Ricorrente]**), quindi immettere facoltativamente un nome per il processo di pubblicazione
+1. Sulla barra di spostamento globale, selezionare **[!UICONTROL Publish]**. Nella finestra di dialogo Pubblicazione, seleziona un&#39;opzione When (**[!UICONTROL One-Time]** o **[!UICONTROL Recurring]**), quindi facoltativamente inserisci un nome per il processo di pubblicazione
 
-1. Seleziona **[!UICONTROL Invia pubblicazione]**.
+1. Selezionare **[!UICONTROL Invia Publish]**.
 
 >[!NOTE]
 >
@@ -37,4 +37,4 @@ Le immagini primarie devono essere contrassegnate per la pubblicazione per esser
 
 >[!MORELIKETHIS]
 >
->* [Pubblicare i file](publishing-files.md#publishing_files)
+>* [File Publish](publishing-files.md#publishing_files)

@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # Esportare video sorgente e codificati{#exporting-source-and-encoded-videos}
 
-Nel pannello Sfoglia, i video sorgente sono etichettati *Video principale*. I video codificati sono etichettati *Video*. Puoi esportare video e video principali. Per esportare i file video, selezionateli nel pannello Sfoglia e passate a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
+Nel pannello Sfoglia, i video sorgente sono etichettati *Video primario*. I video codificati sono etichettati *Video*. Puoi esportare video e video principali. Per esportare i file video, selezionali nel pannello Sfoglia e passa a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
 
-Consulta [Esportare risorse da Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+Vedi [Esporta risorse da Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
->* [Caricare e codificare i video](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [Carica e codifica video](uploading-encoding-videos.md#uploading_and_encoding_videos)

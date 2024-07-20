@@ -18,7 +18,7 @@ ht-degree: 30%
 
 # Carica i file PDF{#uploading-the-pdf-files}
 
-In genere, i file Adobe PDF sono l’origine di un eCatalog. Questi file contengono tutte le informazioni sull&#39;immagine, i font e gli elementi grafici vettoriali. Potete anche creare un eCatalog a partire da immagini. Dopo aver preparato i file PDF per il caricamento, nella barra di navigazione globale seleziona **[!UICONTROL Carica]** per iniziare a caricare i PDF.
+In genere, i file Adobe PDF sono l’origine di un eCatalog. Questi file contengono tutte le informazioni sull&#39;immagine, i font e gli elementi grafici vettoriali. Potete anche creare un eCatalog a partire da immagini. Dopo aver preparato i file PDF per il caricamento, sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per iniziare a caricare i PDF.
 
 Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente limite:
 
@@ -44,27 +44,27 @@ Prepara i file PDF prima di caricarli in Adobe Dynamic Media Classic:
 
 Per informazioni dettagliate sui diversi metodi di caricamento, consultate [Caricamento dei file](uploading-files.md#uploading_your_files).
 
-Seleziona i file da caricare, quindi fai clic su *best practice* Opzioni PDF:
+Seleziona i file da caricare, quindi seleziona le *opzioni consigliate* PDF:
 
-* **Opzioni di ritaglio**: nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni di ritaglio]**. Se le pagine PDF contengono segni di ritaglio, segni di registrazione o altri segni, nel **[!UICONTROL Ritaglio]** elenco a discesa, scegliere **[!UICONTROL Manuale]**. Immetti il numero di pixel da ritagliare dai lati superiore, destro, inferiore e sinistro delle pagine. Gli indicatori di ritaglio vengono spesso impostati su un margine di mezzo pollice. Supponiamo di scegliere **[!UICONTROL 150]** (consigliato) come risoluzione pixel per pollice. Immettere 75, 75, 75, 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra. In questo caso, ritaglia mezzo pollice dai margini (a 150 ppi, metà di 1 equivale a 75 pixel).
+* **Opzioni ritaglio**: nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni ritaglio]**. Se le pagine PDF contengono indicatori di ritaglio, indicatori di registrazione o altri indicatori, nell&#39;elenco a discesa **[!UICONTROL Ritaglio]** scegliere **[!UICONTROL Manuale]**. Immetti il numero di pixel da ritagliare dai lati superiore, destro, inferiore e sinistro delle pagine. Gli indicatori di ritaglio vengono spesso impostati su un margine di mezzo pollice. Si supponga di scegliere **[!UICONTROL 150]** (scelta consigliata) come risoluzione pixel per pollice. Immettere 75, 75, 75, 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra. In questo caso, ritaglia mezzo pollice dai margini (a 150 ppi, metà di 1 equivale a 75 pixel).
 
-* **Elaborazione**: nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni PDF]**. In **[!UICONTROL Elaborazione]** elenco a discesa, scegliere **[!UICONTROL Rasterizza]**. Il file PDF deve essere rasterizzato affinché tutte le pagine e le immagini possano essere visualizzate nell’eCatalog.
+* **Elaborazione**: nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni PDF]**. Nell&#39;elenco a discesa **[!UICONTROL Elaborazione]**, scegliere **[!UICONTROL Rasterizza]**. Il file PDF deve essere rasterizzato affinché tutte le pagine e le immagini possano essere visualizzate nell’eCatalog.
 
-* **Estrai parole di ricerca (facoltativo)**: nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni PDF]**. Nell&#39;elenco a discesa Estrai, scegliere **[!UICONTROL Parole di ricerca]** se desideri che gli utenti possano effettuare ricerche per parola chiave nell’eCatalog.
+* **Estrai parole da cercare (facoltativo)**: nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni PDF]**. Nell&#39;elenco a discesa Estrai, scegli **[!UICONTROL Cerca parole]** se vuoi che i tuoi visualizzatori siano in grado di effettuare ricerche per parola chiave nell&#39;eCatalog.
 
-* **Genera automaticamente eCatalog da più pagine PDF (facoltativo)**: nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni PDF]**. Clic **[!UICONTROL Genera automaticamente eCatalog da più PDF di pagine]** in modo da poter creare automaticamente un eCatalog al momento del caricamento. Potete accedere direttamente alla schermata eCatalog e iniziare a lavorarci senza dover prima selezionare i file PDF e il comando Genera. L’eCatalog viene denominato in base al file PDF.
+* **Generazione automatica eCatalog da più PDF di pagine (facoltativo)**: nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni PDF]**. Fai clic su **[!UICONTROL Genera automaticamente eCatalog da più PDF di pagine]** per creare automaticamente un eCatalog al momento del caricamento. Potete accedere direttamente alla schermata eCatalog e iniziare a lavorarci senza dover prima selezionare i file PDF e il comando Genera. L’eCatalog viene denominato in base al file PDF.
 
-* **Risoluzione**: nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni PDF]**. In **[!UICONTROL Risoluzione]** immetti un valore. Adobe Dynamic Media Classic consiglia 150 pixel per pollice.
+* **Risoluzione**: nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni PDF]**. Nel campo di testo **[!UICONTROL Risoluzione]** immettere un valore. Adobe Dynamic Media Classic consiglia 150 pixel per pollice.
 
-* **Spazio colore**: nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni PDF]**. Nell&#39;elenco a discesa Spazio colore, selezionate **[!UICONTROL Rileva automaticamente]**. Generalmente, i PDF creati per la stampa sono in CMYK; i PDF per la visualizzazione online sono in RGB. Se un PDF utilizza entrambi gli spazi colore, potete selezionarne uno specifico scegliendo Forza come RGB oppure Forza come CMYK. Nei PDF possono essere utilizzati entrambi gli spazi colore se, ad esempio, la grafica utilizza uno spazio colore CMYK mentre le immagini utilizzano RGB. Se avete caricato un profilo ICC, il relativo nome viene visualizzato nel menu Spazio colore e lo potete scegliere. 
+* **Spazio colore**: nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni PDF]**. Nell&#39;elenco a discesa Spazio colore scegliere **[!UICONTROL Rileva automaticamente]**. Generalmente, i PDF creati per la stampa sono in CMYK; i PDF per la visualizzazione online sono in RGB. Se un PDF utilizza entrambi gli spazi colore, potete selezionarne uno specifico scegliendo Forza come RGB oppure Forza come CMYK. Nei PDF possono essere utilizzati entrambi gli spazi colore se, ad esempio, la grafica utilizza uno spazio colore CMYK mentre le immagini utilizzano RGB. Se avete caricato un profilo ICC, il relativo nome viene visualizzato nel menu Spazio colore e lo potete scegliere. 
 
   Consulta [Profili ICC (International Color Consortium)](/help/using/icc-profiles.md).
 
-* **Opzioni profilo colore**: nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni profilo colore]**, quindi scegliere un&#39;opzione Profilo colore:
+* **Opzioni profilo colore**: nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni profilo colore]**, quindi scegliere un&#39;opzione Profilo colore:
 
    * **Mantieni spazio colore originale**: mantiene lo spazio colore originale.
 
-   * **Personalizza Da > A**: apre i sottomenu che consentono di scegliere un **[!UICONTROL Converti da]** e **[!UICONTROL Converti in]** spazio colore. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic.
+   * **Personalizza da > A**: apre i sottomenu per scegliere uno spazio colore **[!UICONTROL Converti da]** e **[!UICONTROL Converti in]**. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic.
 
 <!-- * **Convert To SRGB**: Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on Web pages. -->
 

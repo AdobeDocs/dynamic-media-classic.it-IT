@@ -37,13 +37,13 @@ Le opzioni per il caricamento dei file di PDF si trovano nella sezione Opzioni d
 
 ### Opzioni di elaborazione
 
-**[!UICONTROL Rasterizza]**: (impostazione predefinita) Ripete le pagine nel file PDF e converte gli elementi grafici vettoriali in immagini bitmap. Per creare un eCatalog, scegliere questa opzione.
+**[!UICONTROL Rasterizza]**: (impostazione predefinita) esegue il riping delle pagine nel file PDF e converte gli elementi grafici vettoriali in immagini bitmap. Per creare un eCatalog, scegliere questa opzione.
 
 **[!UICONTROL Estrai parole di ricerca]**: estrae parole dal file PDF in modo che le parole chiave nel file possano essere cercate in un visualizzatore eCatalog.
 
-**[!UICONTROL Estrai collegamenti]**: estrae collegamenti dai file PDF e li converte in mappe immagini utilizzate in un visualizzatore eCatalog.
+**[!UICONTROL Estrai collegamenti]**: estrae i collegamenti dai file PDF e li converte in mappe immagine utilizzate in un visualizzatore eCatalog.
 
-**[!UICONTROL Genera automaticamente eCatalog con PDF multipagina]**: crea automaticamente un eCatalog dal file PDF. All’eCatalog viene assegnato un nome in base al file PDF caricato. Questa opzione è disponibile solo se il file PDF viene rasterizzato al momento del caricamento.
+**[!UICONTROL Generazione automatica eCatalog con PDF multipagina]**: creazione automatica di un eCatalog dal file PDF. All’eCatalog viene assegnato un nome in base al file PDF caricato. Questa opzione è disponibile solo se il file PDF viene rasterizzato al momento del caricamento.
 
 ### Risoluzione
 
@@ -59,15 +59,15 @@ Dal menu Spazio colore scegliete uno spazio colore per il file PDF. La maggior p
 
 * **[!UICONTROL Forza come CMYK]**: viene convertito nello spazio colore CMYK.
 
-* **[!UICONTROL Forza come gradazioni di grigio]**: converte lo spazio colore della scala di grigi.
+* **[!UICONTROL Forza come scala di grigio]**: converte lo spazio colore della scala di grigio.
 
 ### Opzioni profilo colore
 
-* **[!UICONTROL Converti in sRGB]**: viene convertito in sRGB (rosso standard, verde, blu). sRGB è lo spazio colore consigliato per la visualizzazione di immagini in una pagina Web.
+* **[!UICONTROL Converti in sRGB]**: viene convertito in sRGB (blu rosso verde standard). sRGB è lo spazio colore consigliato per la visualizzazione di immagini in una pagina Web.
 
 * **[!UICONTROL Mantieni spazio colore originale]**: mantiene lo spazio colore originale.
 
-* **[!UICONTROL Personalizza da]** > **[!UICONTROL A]**: apre i menu per scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizza da]** > **[!UICONTROL A]**: apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic.
 
 Consultate anche [Profili ICC](/help/using/icc-profiles.md#icc_profiles).
 
@@ -80,21 +80,21 @@ Puoi ritagliare automaticamente i pixel dello spazio vuoto da un file PDF durant
 
    * **[!UICONTROL Rifila in base a]**: scegli se ritagliare in base al colore o alla trasparenza:
 
-      * **[!UICONTROL Colore]**: scegli l’opzione Colore. Quindi seleziona la **[!UICONTROL Angolo]** e scegliete l&#39;angolo del PDF con il colore che meglio rappresenta lo spazio bianco da ritagliare.
+      * **[!UICONTROL Colore]**: scegliere l&#39;opzione Colore. Quindi seleziona il menu **[!UICONTROL Angolo]** e scegli l&#39;angolo del PDF con il colore che meglio rappresenta il colore dello spazio bianco da ritagliare.
 
-      * **[!UICONTROL Trasparenza]**: scegli l’opzione Trasparenza.
+      * **[!UICONTROL Trasparenza]**: scegliere l&#39;opzione Trasparenza.
 
-   * **[!UICONTROL Tolleranza]**: trascina il cursore per specificare una tolleranza da 0 a 1.
+   * **[!UICONTROL Tolleranza]**: trascinare il dispositivo di scorrimento per specificare una tolleranza da 0 a 1.
 
-   * **[!UICONTROL Rifilatura in base al colore]**: specifica 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo del PDF. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+   * **[!UICONTROL Rifilatura in base al colore]**: specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo del PDF. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
 
-   * **[!UICONTROL Rifilatura basata sulla trasparenza]**: specifica 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
+   * **[!UICONTROL Taglio basato sulla trasparenza]**: specificare 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
 
 ## Ritaglia dai lati delle pagine PDF {#cropping-from-the-sides-of-pdf-pages}
 
 È possibile rimuovere manualmente i contrassegni della stampante dai lati delle pagine di un file PDF durante il caricamento.
 
-1. Dal menu Ritaglia, seleziona **[!UICONTROL Manuale]**.
+1. Dal menu Ritaglio, selezionare **[!UICONTROL Manuale]**.
 1. Immettete le impostazioni per i pixel nelle caselle di testo In alto, A destra, In basso e A sinistra per ritagliare dal corrispondente bordo delle pagine.
 
 La quantità di pagina che viene ritagliata dipende dall’impostazione della risoluzione in pixel per pollice immessa per il file PDF. Ad esempio, supponiamo di immettere 150 (valore predefinito) come impostazione Risoluzione PX/Pollici. Quindi ritagliate 75 pixel dai lati delle pagine. In tal caso, 0,5 pollici. è ritagliato. A 150 pixel per pollice, 75 pixel equivalgono a mezzo pollice.

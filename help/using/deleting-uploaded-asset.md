@@ -18,7 +18,7 @@ ht-degree: 32%
 
 # Eliminare una risorsa caricata{#deleting-an-uploaded-asset}
 
-È possibile utilizzare `delete` parametro in questo formato per eliminare una risorsa:
+È possibile utilizzare il parametro `delete` in questo formato per eliminare una risorsa:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

@@ -27,9 +27,9 @@ Tutti i visualizzatori zoom includono pulsanti per applicare lo zoom in avanti, 
 
 Adobe Dynamic Media Classic offre i seguenti predefiniti visualizzatore zoom:
 
-* **Visualizzatore zoom: di base**: fornisce uno zoom di base sull’immagine originale.
+* **Visualizzatore zoom: base**: fornisce uno zoom di base sull&#39;immagine originale.
 
-* **Visualizzatore zoom: a comparsa**: visualizza una seconda immagine dell’area ingrandita accanto all’immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
+* **Visualizzatore zoom: a comparsa**: visualizza una seconda immagine dell&#39;area ingrandita accanto all&#39;immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
 
 Quando calcolate l’utilizzo di larghezza di banda totale per questo visualizzatore, tenete presente che nel visualizzatore vengono caricate sia l’immagine principale che l’immagine a comparsa. La dimensione dell&#39;immagine a comparsa viene determinata utilizzando le dimensioni dell&#39;immagine principale (larghezza e altezza dello stage) e il fattore di zoom. Per impedire che le dimensioni del file dell’immagine a comparsa diventino eccessive, bilanciate questi due valori: se le dimensioni dell’immagine principale sono grandi, riducete il fattore di zoom. I valori Larghezza a comparsa e Altezza comparsa determinano le dimensioni della finestra a comparsa ma non dell’immagine a comparsa caricata nel visualizzatore.
 
@@ -41,28 +41,28 @@ Adobe Dynamic Media Classic consiglia i seguenti parametri per i predefiniti vis
 
 * **Dimensioni immagine**: 100 KB o meno, non superare i 150 KB (comprimere il file per mantenerlo sotto i 150 KB).
 
-* **Visualizzatore zoom: personalizzato**: fornisce uno zoom guidato o non guidato con immagini, set di immagini con più viste o set di campioni colore.
+* **Visualizzatore zoom: personalizzato**: fornisce zoom guidato o non guidato con immagini, set di immagini con più visualizzazioni o set di campioni colore.
 
 ## Creare e modificare i predefiniti visualizzatore zoom {#creating-and-editing-zoom-viewer-presets}
 
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Effettuate una delle seguenti operazioni:
 
-   * **Creare un predefinito**: Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli un Visualizzatore zoom, quindi seleziona **[!UICONTROL Aggiungi]**. Immettete un nome per il predefinito nella casella Nome predefinito.
+   * **Crea un predefinito**: Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma, scegli un Visualizzatore zoom, quindi seleziona **[!UICONTROL Aggiungi]**. Immettete un nome per il predefinito nella casella Nome predefinito.
 
-   * **Modificare un predefinito**: seleziona un predefinito per visualizzatore zoom, quindi fai clic su **[!UICONTROL Modifica]**.
+   * **Modifica predefinito**: seleziona un predefinito visualizzatore zoom, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Specificate le impostazioni desiderate.
 
-   Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** accanto all’opzione.
+   Per visualizzare una descrizione di un&#39;opzione, seleziona l&#39;icona **[!UICONTROL Suggerimento informazioni]** accanto all&#39;opzione.
 
    Nella pagina Anteprima viene visualizzato il visualizzatore durante l&#39;aggiornamento e la modifica delle impostazioni.
 
-1. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome]**.
-1. Nella pagina Predefiniti visualizzatore esaminare il predefinito visualizzatore zoom o il predefinito visualizzatore zoom guidato creato. Se è necessario apportare modifiche, selezionare **[!UICONTROL Modifica]**, modificare le impostazioni in `Configure Viewer` e quindi selezionare **[!UICONTROL Salva]**.
+1. Selezionare **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome]**.
+1. Nella pagina Predefiniti visualizzatore esaminare il predefinito visualizzatore zoom o il predefinito visualizzatore zoom guidato creato. Se è necessario apportare modifiche, selezionare **[!UICONTROL Modifica]**, modificare le impostazioni nella pagina `Configure Viewer`, quindi selezionare **[!UICONTROL Salva]**.
 
 Per informazioni sulla gestione dei predefiniti per visualizzatore nella schermata Predefiniti visualizzatore, consultate [Predefiniti per visualizzatore](application-setup.md#viewer_presets).
 
 >[!MORELIKETHIS]
 >
->* [Creare e modificare i predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets)
+>* [Crea e modifica predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets)

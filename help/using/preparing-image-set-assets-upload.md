@@ -25,9 +25,9 @@ Per creare un set di immagini a visualizzazione multipla, sono necessarie immagi
 
 Poiché gli utenti possono eseguire lo zoom delle immagini in set di immagini, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG e EPS senza perdita di dati.
 
-Per istruzioni dettagliate sul caricamento delle risorse, consulta [Carica file](uploading-files.md#uploading_files).
+Per istruzioni dettagliate sul caricamento delle risorse, vedi [Carica file](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Caricare i file](uploading-files.md#uploading_your_files)
+>* [Carica i file](uploading-files.md#uploading_your_files)
 >* [Utilizzare vignettature, copertine di finestre e file CAB](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

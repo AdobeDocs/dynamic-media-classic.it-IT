@@ -27,35 +27,35 @@ Prima di caricare i file, assicurati di stabilire una struttura di cartelle e un
 
 Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle. Quando selezionate una cartella nella libreria delle risorse, il suo contenuto viene visualizzato nel pannello Sfoglia. Per individuare le cartelle nella struttura, effettuate le seguenti operazioni:
 
-* **Visualizzare le sottocartelle**: seleziona la **[!UICONTROL Espandi cartella]** per visualizzare le sottocartelle di una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Visualizza sottocartelle**: selezionare l&#39;icona **[!UICONTROL Espandi cartella]** per visualizzare le sottocartelle in una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Spostare una cartella**: per spostare una cartella, trascinala e rilasciala nella nuova posizione oppure seleziona **[!UICONTROL File]** > **[!UICONTROL Sposta cartella]**.
+* **Spostare una cartella**: è possibile spostare una cartella trascinandola e rilasciandola nella nuova posizione oppure selezionando **[!UICONTROL File]** > **[!UICONTROL Sposta cartella]**.
 
-* **Nascondi cartelle**: seleziona la **[!UICONTROL Comprimi cartella]** se si desidera comprimere le sottocartelle per nasconderle dalla visualizzazione. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Nascondi cartelle**: selezionare l&#39;icona **[!UICONTROL Comprimi cartella]** se si desidera comprimere le sottocartelle per nasconderle dalla visualizzazione. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Aprire una cartella**: seleziona una cartella per visualizzarne il contenuto nel pannello Sfoglia.
+* **Apri una cartella**: seleziona una cartella per visualizzarne il contenuto nel pannello Sfoglia.
 
 >[!TIP]
 >
->Puoi nascondere o visualizzare la Libreria risorse selezionando la **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Comprimi il pannello Libreria risorse quando hai bisogno di più spazio per lavorare nel pannello Sfoglia.
+>È possibile nascondere o visualizzare la libreria di risorse selezionando il controllo **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Comprimi il pannello Libreria risorse quando hai bisogno di più spazio per lavorare nel pannello Sfoglia.
 
 ## Creare cartelle
 
 1. Nella Libreria risorse, selezionate la cartella in cui desiderate creare la cartella.
-1. Seleziona la **[!UICONTROL `Add Folder`]** pulsante. Questa icona si trova nella parte superiore dell’elenco delle cartelle.
+1. Selezionare il pulsante **[!UICONTROL `Add Folder`]**. Questa icona si trova nella parte superiore dell’elenco delle cartelle.
 1. Immettere un nome descrittivo per la nuova cartella o sottocartella. Digitalo nel campo accanto all’icona della cartella.
 
    >[!NOTE]
    >
-   >Puoi anche creare cartelle in Adobe Dynamic Media Classic quando carichi i file tramite FTP. Selezione del **[!UICONTROL Includi sottocartelle]** quando si esegue il caricamento tramite FTP, replica la struttura di cartelle nel computer nel sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
+   >Puoi anche creare cartelle in Adobe Dynamic Media Classic quando carichi i file tramite FTP. Se si seleziona l&#39;opzione **[!UICONTROL Includi sottocartelle]** durante il caricamento tramite FTP, viene replicata la struttura di cartelle nel computer nel sistema. I file e le sottocartelle del computer o della rete vengono replicate nella Libreria risorse e le risorse caricate vengono inserite in queste cartelle.
 
 ## Eliminare e rinominare le cartelle {#deleting-and-renaming-folders}
 
 Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti operazioni:
 
-* **Elimina**: seleziona la **[!UICONTROL `Remove Folder`]** pulsante. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
+* **Elimina**: selezionare il pulsante **[!UICONTROL `Remove Folder`]**. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
 
-* **Rinomina**: fai doppio clic sul nome e immetti un nuovo nome.
+* **Rinomina**: fare doppio clic sul nome e immettere un nuovo nome.
 
 >[!NOTE]
 >

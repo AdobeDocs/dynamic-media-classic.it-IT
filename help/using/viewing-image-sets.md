@@ -30,30 +30,30 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Creare o modificare un predefinito visualizzatore nella pagina Predefiniti visualizzatore effettuando una delle seguenti operazioni:
 
-   * **Crea**: Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona l’opzione **[!UICONTROL Visualizzatore zoom]** e quindi selezionare **[!UICONTROL Aggiungi]**. Potete anche creare un predefinito Visualizzatore zoom partendo da uno esistente. Visualizzate il nome del predefinito, selezionatelo, quindi selezionate **[!UICONTROL Modifica]**. Il giorno `Configure Viewer` , immetti un nuovo nome per il predefinito.
+   * **Crea**: Seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona **[!UICONTROL Visualizzatore zoom]** nell&#39;elenco a discesa Visualizzatore, quindi seleziona **[!UICONTROL Aggiungi]**. Potete anche creare un predefinito Visualizzatore zoom partendo da uno esistente. Visualizzare il nome del predefinito, selezionarlo, quindi selezionare **[!UICONTROL Modifica]**. Nella pagina `Configure Viewer`, immetti un nuovo nome per il predefinito.
 
    * **Modifica**: visualizza il nome di un predefinito, selezionalo, quindi seleziona **[!UICONTROL Modifica]**.
 
-1. Il giorno `Configure Viewer` pagina, nel campo di testo Nome predefinito, digita un nome per il predefinito visualizzatore set di campioni.
-1. Scegli le opzioni nella `Configure Viewer` pagina.
+1. Nella pagina `Configure Viewer`, digitare un nome per il predefinito visualizzatore set di campioni nel campo di testo Nome predefinito.
+1. Scegliere le opzioni nella pagina `Configure Viewer`.
 
-   Per visualizzare una descrizione di un&#39;opzione, selezionare **[!UICONTROL Suggerimento]** a destra dell’opzione.
+   Per visualizzare una descrizione di un&#39;opzione, seleziona l&#39;icona **[!UICONTROL Suggerimento informazioni]** a destra dell&#39;opzione.
 
    Nella pagina Anteprima viene visualizzato il visualizzatore durante l&#39;aggiornamento e la modifica delle impostazioni.
 
 1. Fate clic su **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome]**.
 
-## Anteprima delle risorse per set di immagini in un visualizzatore {#previewing-image-set-assets-in-a-viewer}
+## Anteprima set di immagini Assets in un visualizzatore {#previewing-image-set-assets-in-a-viewer}
 
 È possibile utilizzare Anteprima per visualizzare come appare una risorsa in un particolare tipo di visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Anteprima dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
-1. Nel pannello Libreria risorse a sinistra, nella sezione **[!UICONTROL Spettacolo]** elenco a discesa, scegliere **[!UICONTROL Set immagini]**.
+1. Nel pannello Libreria risorse sul lato sinistro, nell&#39;elenco a discesa **[!UICONTROL Mostra]**, scegli **[!UICONTROL Set di immagini]**.
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle delle risorse per selezionare il set di immagini che vi interessa.
 1. Effettuate una delle seguenti operazioni:
 
-   * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista a elenco]** icona. Nella finestra Risorsa, passa il mouse su una risorsa, quindi seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
-   * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista griglia]** icona. Nella finestra Risorsa, in una finestra delle miniature della risorsa, seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
-   * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic, selezionare **[!UICONTROL Vista dettagli]** icona. Sulla stessa barra degli strumenti, seleziona **[!UICONTROL Anteprima]** (non l’elenco a discesa Anteprima ).
+   * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic selezionare l&#39;icona **[!UICONTROL Vista elenco]**. Nella finestra della risorsa, passa il puntatore del mouse su una risorsa, quindi seleziona **[!UICONTROL Anteprima]** (non nell&#39;elenco a discesa Anteprima).
+   * Selezionare l&#39;icona **[!UICONTROL Visualizzazione griglia]** nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic. Nella finestra Risorsa, in una finestra delle miniature della risorsa, seleziona **[!UICONTROL Anteprima]** (non l&#39;elenco a discesa Anteprima).
+   * Selezionare l&#39;icona **[!UICONTROL Visualizzazione dettagli]** nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic. Sulla stessa barra degli strumenti, selezionare **[!UICONTROL Anteprima]** (non l&#39;elenco a discesa Anteprima).
 
 1. (Facoltativo) Nella finestra Anteprima, seleziona dall’elenco a discesa in basso la codifica URL da applicare all’URL della risorsa quando viene copiata.
 1. Per visualizzare in anteprima la risorsa nel visualizzatore selezionato, seleziona un collegamento a tale visualizzatore.
@@ -61,7 +61,7 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
    Quando selezioni un determinato collegamento visualizzatore, il relativo URL associato viene automaticamente copiato negli Appunti.
 
 1. Per tornare alla pagina Anteprima, chiudere il visualizzatore visualizzato.
-1. Clic **[!UICONTROL Chiudi]** per tornare alla pagina Risorse.
+1. Fai clic su **[!UICONTROL Chiudi]** per tornare alla pagina Assets.
 
 >[!MORELIKETHIS]
 >

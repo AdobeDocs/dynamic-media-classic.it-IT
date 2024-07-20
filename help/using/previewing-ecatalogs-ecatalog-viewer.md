@@ -23,7 +23,7 @@ Potete usare Anteprima per visualizzare l’eCatalog con un predefinito per visu
 
 Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
 
-Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#previewing_an_asset).
+Vedi [Visualizzare l&#39;anteprima di una risorsa](previewing-asset.md#previewing_an_asset).
 
 **Per visualizzare in anteprima i cataloghi elettronici nel visualizzatore eCatalog:**
 
@@ -31,14 +31,14 @@ Consulta [Visualizzare l’anteprima di una risorsa](previewing-asset.md#preview
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle Asset contenenti i video da visualizzare in anteprima con un visualizzatore eCatalog.
 1. Effettuate una delle seguenti operazioni:
 
-   * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista griglia]**. Nella finestra Risorsa, sotto l&#39;immagine di miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
-   * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista a elenco]**. Nella finestra Risorsa, seleziona una risorsa e quindi, a destra dell’immagine di miniatura, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
-   * Sopra la finestra Risorse, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, selezionare **[!UICONTROL Vista griglia]**. Nella finestra della risorsa, sotto l&#39;immagine di anteprima, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista a elenco]**. Nella finestra della risorsa, seleziona una risorsa, quindi a destra dell&#39;immagine miniatura passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
+   * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, selezionare **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
 1. Nella tabella della finestra Elenco visualizzatori, seleziona un collegamento visualizzatore per visualizzare in anteprima la risorsa nel visualizzatore selezionato.
 1. Chiudi il visualizzatore visualizzato.
-1. Nell&#39;angolo inferiore destro della finestra Elenco visualizzatori, selezionare **[!UICONTROL Chiudi]** per tornare alla schermata Risorse.
+1. Nell&#39;angolo inferiore destro della finestra Elenco visualizzatori, selezionare **[!UICONTROL Chiudi]** per tornare alla schermata Assets.
 
 >[!MORELIKETHIS]
 >
->* [Impostazione dei predefiniti per il visualizzatore eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)
+>* [Configura predefiniti visualizzatore eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)

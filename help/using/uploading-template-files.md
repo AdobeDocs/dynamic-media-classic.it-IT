@@ -27,14 +27,14 @@ Carica i file necessari per il modello in Adobe Dynamic Media Classic prima di i
 
 È possibile creare modelli da file PSD di Adobe Photoshop o file immagine.
 
-Per istruzioni dettagliate sul caricamento dei file, consulta [Carica file](uploading-files.md#uploading_files). Tenete in mente quanto segue per il caricamento dei file modello:
+Per istruzioni dettagliate sul caricamento dei file, vedere [Carica file](uploading-files.md#uploading_files). Tenete in mente quanto segue per il caricamento dei file modello:
 
-* Se carichi un file PSD, puoi crearne uno nuovo. Adobe Dynamic Media Classic crea un&#39;immagine separata per ogni livello del PSD. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Opzioni Photoshop]**, e seleziona **[!UICONTROL Mantieni livelli]** e **[!UICONTROL Crea modello]**. Quindi scegli un’opzione dalla **[!UICONTROL Denominazione livelli]** elenco a discesa per denominare le immagini create da Adobe Dynamic Media Classic dai livelli in PSD.
+* Se carichi un file PSD, puoi crearne uno nuovo. Adobe Dynamic Media Classic crea un&#39;immagine separata per ogni livello del PSD. Nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni Photoshop]**, quindi selezionare **[!UICONTROL Gestisci livelli]** e **[!UICONTROL Crea modello]**. Quindi scegli un&#39;opzione dall&#39;elenco a discesa **[!UICONTROL Denominazione livelli]** per denominare le immagini create da Adobe Dynamic Media Classic dai livelli in PSD.
 Consultate [Opzioni di caricamento PSD](psd-files.md#psd_upload_options).
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
->* [Caricare i file](uploading-files.md#uploading_your_files)
+>* [Carica i file](uploading-files.md#uploading_your_files)
 >* [Utilizzare i file PSD](psd-files.md#working_with_psd_files)

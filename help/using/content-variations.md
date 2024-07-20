@@ -27,10 +27,10 @@ Gli URL universali vengono utilizzati per visualizzare la variante di modello vi
 
 Puoi utilizzare qualsiasi URL di predefinito immagine dall’elenco. Gli URL dei predefiniti immagine sono simili agli URL universali. Può essere presente più di un URL predefinito immagine.
 
-1. Vai a **[!UICONTROL Genera]** > **[!UICONTROL Set di modelli]**.
+1. Vai a **[!UICONTROL Build]** > **[!UICONTROL Set di modelli]**.
 1. Nel generatore, seleziona un modello, quindi seleziona **[!UICONTROL Aggiungi/Anteprima]**.
-1. Modifica le proprietà del modello e seleziona **[!UICONTROL Salva con nome]** per creare un&#39;altra versione.
-1. Digita un nome, quindi seleziona **[!UICONTROL Salva]**.
+1. Modificare le proprietà del modello e selezionare **[!UICONTROL Salva con nome]** per creare un&#39;altra versione.
+1. Digitare un nome, quindi selezionare **[!UICONTROL Salva]**.
 
    Sia la risorsa che il modello devono essere pubblicati.
 

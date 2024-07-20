@@ -19,22 +19,22 @@ ht-degree: 16%
 
 # Nozioni di base sulla configurazione{#setup-basics}
 
-Utilizzare la pagina Configurazione di Adobe Dynamic Media Classic per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina di configurazione, nella barra di navigazione globale, seleziona **[!UICONTROL Configurazione]**.
+Utilizzare la pagina Configurazione di Adobe Dynamic Media Classic per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina del programma di installazione, sulla barra di spostamento globale selezionare **[!UICONTROL Configurazione]**.
 
 Le impostazioni disponibili in questa pagina dipendono dallo stato dell&#39;utente o dell&#39;amministratore:
 
-* Gli utenti possono accedere solo **[!UICONTROL Configurazione personale]** e i conti delle società di cui sono membri; essi non possono svolgere alcuna funzione amministrativa.
-* Gli amministratori possono accedere **[!UICONTROL Configurazione personale]** e visualizzare e amministrare i propri account aziendali. Possono inoltre eseguire tutte le funzioni di configurazione delle applicazioni e di amministrazione, inclusa l’aggiunta di amministratori e utenti.
+* Gli utenti possono accedere solo a **[!UICONTROL Configurazione personale]** e agli account delle società di cui sono membri. Non possono eseguire attività amministrative.
+* Gli amministratori possono accedere a **[!UICONTROL Configurazione personale]** e visualizzare e amministrare i propri account aziendali. Possono inoltre eseguire tutte le funzioni di configurazione delle applicazioni e di amministrazione, inclusa l’aggiunta di amministratori e utenti.
 
-Gli amministratori possono anche impostare i predefiniti per immagini e i predefiniti per visualizzatori in **[!UICONTROL Configurazione]** pagina:
+Gli amministratori possono inoltre impostare predefiniti immagine e predefiniti visualizzatore nella pagina **[!UICONTROL Configurazione]**:
 
-* **Predefiniti immagine**: i predefiniti per immagini sono formati salvati per la visualizzazione di immagini primarie in formati e dimensioni diversi.
+* **Predefiniti immagine**: i predefiniti immagine sono formati salvati per la visualizzazione di immagini primarie in formati e dimensioni diversi.
 
-* **Predefiniti visualizzatore**: i predefiniti del visualizzatore determinano il modo in cui i contenuti multimediali avanzati vengono visualizzati nel visualizzatore.
+* **Predefiniti visualizzatore**: i predefiniti visualizzatore determinano il modo in cui i contenuti multimediali vengono visualizzati in un visualizzatore.
 
 >[!MORELIKETHIS]
 >
->* [Video di formazione sulla configurazione di base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Video di formazione sull&#39;installazione di base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Ruoli utente e privilegi di Adobe Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Predefiniti immagine](application-setup.md#image_presets)
 >* [Predefiniti visualizzatore](application-setup.md#viewer_presets)

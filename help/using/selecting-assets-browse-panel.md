@@ -21,10 +21,10 @@ ht-degree: 18%
 
 Seleziona una risorsa nel pannello Sfoglia per utilizzarla. Per selezionare le risorse, effettuate le seguenti operazioni:
 
-* **Una singola risorsa**: seleziona la risorsa (facendo doppio clic la risorsa viene aperta in Vista dettagli).
+* **Una singola risorsa**: seleziona la risorsa (facendo doppio clic la risorsa viene aperta in Visualizzazione dettagli).
 
-* **Diverse risorse**: per selezionare le risorse in posizioni diverse nel pannello Sfoglia, premi Ctrl+clic (Windows®) o Comando+clic (Mac). Per selezionare risorse adiacenti, tenete premuto il tasto Maiusc e fate clic (fate clic sulla prima risorsa, quindi tenete premuto il tasto Maiusc e fate clic sull’ultima).
+* **Diverse risorse**: Ctrl+clic (Windows®) o Comando+clic (Mac) per selezionare le risorse in posizioni diverse nel pannello Sfoglia. Per selezionare risorse adiacenti, tenete premuto il tasto Maiusc e fate clic (fate clic sulla prima risorsa, quindi tenete premuto il tasto Maiusc e fate clic sull’ultima).
 
-* **Tutte le risorse nel pannello Sfoglia**: vai a **[!UICONTROL Seleziona]** > **[!UICONTROL Tutti]**.
+* **Tutte le risorse nel pannello Sfoglia**: vai a **[!UICONTROL Seleziona]** > **[!UICONTROL Tutte]**.
 
-* **Nessuna risorsa**: vai a **[!UICONTROL Seleziona]** > **[!UICONTROL Nessuno]**.
+* **Nessuna risorsa**: vai a **[!UICONTROL Seleziona]** > **[!UICONTROL Nessuna]**.

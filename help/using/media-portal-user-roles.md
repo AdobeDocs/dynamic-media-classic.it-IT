@@ -25,7 +25,7 @@ In Media Portal sono disponibili i seguenti ruoli, ognuno con diritti di accesso
 
 * **[!UICONTROL Utente Media Portal]**: ha accesso a cartelle e file. Un utente può solo cercare, visualizzare le anteprime e scaricare i file. Questo ruolo è adatto per i partner di canale o di servizi che devono poter accedere alle risorse approvate dall’azienda.
 
-* **[!UICONTROL Collaboratore Media Portal]**: può caricare, visualizzare in anteprima e sfogliare file e metadati in aree per cui un amministratore ha concesso le autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
+* **[!UICONTROL Collaboratore Media Portal]**: può caricare, visualizzare in anteprima e sfogliare file e metadati in aree per le quali un amministratore ha concesso autorizzazioni. Un collaboratore non può scaricare i file. I collaboratori possono modificare i metadati e i nome dei file, spostare file in altre cartelle ed eliminare file.
 
 * **[!UICONTROL Collaboratore/utente Media Portal]**: ha accesso a cartelle e file. L&#39;utente collaboratore può sfogliare, visualizzare in anteprima, scaricare e caricare immagini e metadati. Gli utenti collaboratori possono modificare i nomi dei file, spostare i file in cartelle diverse ed eliminare i file.
 

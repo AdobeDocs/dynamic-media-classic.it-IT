@@ -26,19 +26,19 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Nella pagina Predefiniti visualizzatore effettuare una delle seguenti operazioni:
 
-   * Per creare un predefinito, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma. Quindi fai clic su **[!UICONTROL Visualizzatore set di file multimediali diversi]** > **[!UICONTROL Aggiungi]**.
+   * Per creare un predefinito, selezionare **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, scegli una piattaforma. Quindi fare clic su **[!UICONTROL Visualizzatore set di file multimediali diversi]** > **[!UICONTROL Aggiungi]**.
    * Per modificare un predefinito visualizzatore set di file multimediali diversi, selezionalo, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Nella pagina Visualizzatore configurazione, digita un nome nella casella Nome predefinito per il predefinito visualizzatore set di file multimediali diversi.
-1. Specifica **[!UICONTROL Schede]** o **[!UICONTROL Nessuna scheda]**. Le schede separano gli elementi per tipo, ad esempio video, campioni e set 360 gradi. Se non specificate alcuna scheda, tutti gli elementi vengono visualizzati in una riga sotto la finestra Anteprima.
-1. In **[!UICONTROL Nome]** digitare un nome per il visualizzatore da aggiungere.
+1. Specificare **[!UICONTROL Linguette]** o **[!UICONTROL Nessuna Linguetta]**. Le schede separano gli elementi per tipo, ad esempio video, campioni e set 360 gradi. Se non specificate alcuna scheda, tutti gli elementi vengono visualizzati in una riga sotto la finestra Anteprima.
+1. Nella casella **[!UICONTROL Nome]** digitare un nome per il visualizzatore che si desidera aggiungere.
 
-   Ad esempio, se stai aggiungendo un set di campioni al set di file multimediali diversi, digita `Swatch Set A`.
+   Se ad esempio si aggiunge un set di campioni al set di file multimediali diversi, digitare `Swatch Set A`.
 
 1. Dal menu Visualizzatore, seleziona il tipo di risorsa da visualizzare, ad esempio Set di campioni.
 1. Dal menu Predefinito, seleziona un predefinito per il tipo di risorsa scelto.
 
-   Ad esempio, se state aggiungendo un set di campioni, selezionate **[!UICONTROL ColoriSetCampioni1]**.
+   Ad esempio, se stai aggiungendo un set di campioni, seleziona **[!UICONTROL SwatchSet1-Colors]**.
 
 1. Seleziona **[!UICONTROL Aggiungi]**.
 
@@ -47,16 +47,16 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 1. Ripeti i passaggi 6: 9 per tutti i predefiniti visualizzatore che desideri aggiungere.
 1. Per modificare l’elenco dei predefiniti, effettuate una delle seguenti operazioni:
 
-   * Per eliminare un predefinito dall&#39;elenco, selezionatelo, quindi selezionate **[!UICONTROL Elimina]**.
-   * Per riordinare i predefiniti nell&#39;elenco, selezionate un predefinito, quindi selezionate il blu **[!UICONTROL Su]** o **[!UICONTROL Giù]** freccia.
+   * Per eliminare un predefinito dall&#39;elenco, selezionarlo, quindi selezionare **[!UICONTROL Elimina]**.
+   * Per riordinare i predefiniti nell&#39;elenco, selezionare un predefinito, quindi selezionare la freccia blu **[!UICONTROL Su]** o **[!UICONTROL Giù]**.
 
 1. Per aggiungere al visualizzatore funzioni per la community Internet (Incorpora, Collegamento, Visita), specificate le opzioni per una delle seguenti operazioni:
 
-   * **E-mail**: Seleziona **[!UICONTROL On]** per attivare un pulsante E-mail nel visualizzatore. Quando gli utenti selezionano il pulsante E-mail durante la visualizzazione del set, viene visualizzato un messaggio e-mail contenente il collegamento al set.
+   * **E-mail**: seleziona **[!UICONTROL Il]** per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti selezionano il pulsante E-mail durante la visualizzazione del set, viene visualizzato un messaggio e-mail contenente il collegamento al set.
 
-   * **Incorpora**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare uno skin personalizzato per il pulsante.
+   * **Incorpora**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante incorpora, digitate il nome che sarà visibile nel visualizzatore per il pulsante Incorpora. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare un&#39;interfaccia personalizzata per il pulsante.
 
-   * **Collegamento**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante collegamento digitare il nome che si desidera visualizzare nel visualizzatore per il pulsante Collegamento. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare uno skin personalizzato per il pulsante.
+   * **Collegamento**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante collegamento digitare il nome che si desidera visualizzare nel visualizzatore per il pulsante Collegamento. Se lo desideri, seleziona **[!UICONTROL Sfoglia]** per individuare e selezionare un&#39;interfaccia personalizzata per il pulsante.
 
    * **Visita**: Seleziona **[!UICONTROL Live]**. Nella casella Etichetta pulsante visita digitare il nome che si desidera visualizzare nel visualizzatore del pulsante Visita. Nella casella URL visita digitare l&#39;URL del sito Web che si desidera aprire quando si seleziona il collegamento.
 
@@ -68,4 +68,4 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
 
 >[!MORELIKETHIS]
 >
->* [Creare e modificare i predefiniti per visualizzatori](application-setup.md#adding_and_editing_viewer_presets)
+>* [Crea e modifica predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets)

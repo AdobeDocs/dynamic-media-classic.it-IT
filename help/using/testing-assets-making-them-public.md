@@ -37,7 +37,7 @@ Se lo desideri, crea un ambiente di staging anziché rendere le risorse disponib
 
 Per la maggior parte delle società le connessioni Internet avvengono mediante un firewall. L’accesso a Internet è possibile tramite alcuni indirizzamenti e in genere con una serie limitata di indirizzi IP pubblici.
 
-Dalla tua rete aziendale, puoi individuare il tuo indirizzo IP pubblico utilizzando siti web come [https://www.whatismyip.com](https://www.whatismyip.com/) o richiedere queste informazioni all&#39;organizzazione IT aziendale.
+Dalla rete aziendale è possibile individuare l&#39;indirizzo IP pubblico utilizzando siti Web come [https://www.whatismyip.com](https://www.whatismyip.com/) o richiedere queste informazioni all&#39;organizzazione IT aziendale.
 
 Con il Secure Testing, Adobe Dynamic Media Classic crea un server immagini dedicato per ambienti di staging o applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta in ingresso non si trova nell’elenco approvato di indirizzi IP, viene restituita una risposta di errore. L’amministratore aziendale di Adobe Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test protetto della propria azienda.
 
@@ -103,28 +103,28 @@ Last Modified Date:
  -->
 
 1. Contatta l’Assistenza clienti Adobe e richiedi l’abilitazione di Secure Testing sul tuo account.
-1. In Adobe Dynamic Media Classic, nella barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**.
-1. Nella pagina Pubblicazione su Image Server, in **[!UICONTROL `Publish Context`]** elenco a discesa, seleziona **[!UICONTROL Image Server di prova]**.
-1. Per il filtro degli indirizzi client, selezionare **[!UICONTROL Aggiungi]**.
+1. In Adobe Dynamic Media Classic, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Installazione di Publish]** > **[!UICONTROL Server immagini]**.
+1. Nella pagina Publish di Image Server selezionare **[!UICONTROL Test Image Server]** dall&#39;elenco a discesa **[!UICONTROL `Publish Context`]**.
+1. Per Filtro indirizzi client, selezionare **[!UICONTROL Aggiungi]**.
 1. Selezionare la casella di controllo in modo che l&#39;indirizzo sia attivato, quindi digitare un indirizzo IP e una maschera di rete nei rispettivi campi di testo.
 
    >[!NOTE]
    >
-   >Se aggiungi un singolo indirizzo IP e una maschera di rete, tale indirizzo può effettuare chiamate alle risorse. Tuttavia, gli altri indirizzi IP e le maschere di rete aggiunti non possono effettuare chiamate alle risorse. È pertanto consigliabile disattivare (disattivare) la casella di controllo del passaggio precedente per disattivare la possibilità di specificare un indirizzo IP e una maschera di rete. In questo modo è possibile *tutto* Gli indirizzi IP per effettuare chiamate alle risorse vengono visualizzati tutti.
+   >Se aggiungi un singolo indirizzo IP e una maschera di rete, tale indirizzo può effettuare chiamate alle risorse. Tuttavia, gli altri indirizzi IP e le maschere di rete aggiunti non possono effettuare chiamate alle risorse. È pertanto consigliabile disattivare (disattivare) la casella di controllo del passaggio precedente per disattivare la possibilità di specificare un indirizzo IP e una maschera di rete. In questo modo, *tutti* gli indirizzi IP possono effettuare chiamate alle risorse e vengono visualizzati tutti.
 
 1. Effettuate una delle seguenti operazioni:
    * Se devi aggiungere altri indirizzi IP, ripeti i due passaggi precedenti.
    * Procedi al passaggio successivo.
-1. Nella parte inferiore sinistra della pagina Pubblicazione server immagini, seleziona **[!UICONTROL Salva]**
+1. Nella parte inferiore sinistra della pagina Image Server Publish, seleziona **[!UICONTROL Salva]**
 1. Carica le immagini desiderate sul tuo account Adobe Dynamic Media Classic.
 
-   Consulta [Carica file](uploading-files.md#uploading_files).
+   Vedi [Carica file](uploading-files.md#uploading_files).
 
 1. Assicurarsi che alcune immagini siano contrassegnate per la pubblicazione e altre non siano contrassegnate, quindi inviare il processo di pubblicazione.
 
-   Consulta [Pubblicare i file](publishing-files.md#publishing_files).
+   Vedi [file Publish](publishing-files.md#publishing_files).
 
-1. Per determinare il nome del servizio di test protetto, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione applicazione]** > **[!UICONTROL Impostazioni generali]**.
+1. Determinare il nome del servizio di test protetto scegliendo **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazioni generali]**.
 1. Nella pagina Impostazioni generali applicazione, nella sezione Server, individuate il nome a destra di **[!UICONTROL Nome server contesto pubblicazione di prova]**.
 
 Contatta l’Assistenza Adobe se il nome del server non è presente o se gli URL del server non funzionano.

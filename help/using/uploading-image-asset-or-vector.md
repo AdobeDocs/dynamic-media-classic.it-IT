@@ -30,7 +30,7 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 ## Richiedi una chiave con segreto condiviso {#requesting-a-shared-secret-key}
 
-Richiedi *chiave shared-secret* da [utilizzo dell’Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedi una chiave condivisa-segreta.
+Richiedi una *chiave con segreto condiviso* da [utilizzando l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedere una chiave con segreto condiviso.
 
 Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvarla localmente per utilizzarla in futuro.
 
@@ -41,12 +41,12 @@ L’utilizzo di un *token di caricamento* fa sì che nessuno debba usare la chia
 Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Utilizza i seguenti URL, sostituendo la chiave con segreto condiviso, in modo da poter recuperare il token di caricamento.
 
 * Immagine raster
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave shared-secret è `fece4b21-87ee-47fc-9b99-2e29b78b602`
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave con segreto condiviso è `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-Per impostazione predefinita, il token di caricamento scade cinque minuti (300 secondi) dopo averlo ottenuto. Per richiedere più tempo, includi `expires` nell’URL e il tempo necessario in secondi. Ad esempio, con il seguente URL immagine di esempio si ottiene un token di caricamento che sarà valido per 1800 secondi:
+Per impostazione predefinita, il token di caricamento scade cinque minuti (300 secondi) dopo averlo ottenuto. Per richiedere più tempo, includi `expires` nell&#39;URL e il tempo necessario in secondi. Ad esempio, con il seguente URL immagine di esempio si ottiene un token di caricamento che sarà valido per 1800 secondi:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -106,11 +106,11 @@ Dopo aver recuperato un token di caricamento valido per un periodo di tempo spec
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Il `upload_token` e `company_name` sono obbligatori.
+I campi `upload_token` e `company_name` sono obbligatori.
 
 Consulta [Recuperare il token di caricamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulta [Recuperare una chiave con segreto condiviso](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Vedi [Recuperare una chiave con segreto condiviso](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, come nell’esempio di seguito:
 
@@ -118,7 +118,7 @@ Potete anche inviare altri valori facoltativi come stringhe di richiesta URL, co
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Il `file_limit` parametro specifica il limite di dimensione file in byte. Il `file_exts` Il parametro specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
+Il parametro `file_limit` specifica il limite di dimensione file in byte. Il parametro `file_exts` specifica le estensioni del nome file consentite per il caricamento. Entrambi questi valori sono facoltativi.
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se quello che hai inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
@@ -135,14 +135,14 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Un elenco di estensioni del nome file.
 * Specifica se mantenere il profilo colore e il nome file associati alla risorsa.
 * Specifica se utilizzare uno sfondo di foratura. Se attivate Sfondo foratura (Knockout Background), impostate i metodi Angolo (Corner), Tolleranza (Tolerance) e Riempimento (Fill).
-Consulta Foratura sfondo in [Opzioni di ottimizzazione immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulta Sfondo foratura in [Opzioni di ottimizzazione immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare.
 
 Puoi visualizzare il codice sorgente HTML associato al modulo precedente selezionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-In Firefox, fai clic con il pulsante destro del mouse nella finestra del browser, quindi seleziona **[!UICONTROL Visualizza origine pagina]**. Il codice mostra la stringa di query URL corrispondente e il metodo POST eseguito quando l’utente seleziona **[!UICONTROL Invia]**.
+In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi selezionare **[!UICONTROL Visualizza pagina Source]**. Il codice mostra la stringa di query URL corrispondente e il metodo POST eseguito quando l&#39;utente seleziona **[!UICONTROL Invia]**.
 
-Per visualizzare la risposta XML in Internet Explorer, vai a **[!UICONTROL Visualizza]** > **[!UICONTROL Sorgente]**. Per visualizzare la risposta XML in Firefox, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti per sviluppatori Web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in Internet Explorer, passa a **[!UICONTROL Visualizza]** > **[!UICONTROL Source]**. Per visualizzare la risposta XML in Firefox, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti sviluppatore Web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -202,7 +202,7 @@ POST
 
 ### Ottieni metadati risorsa per immagini {#getting-asset-metadata-for-images}
 
-È possibile utilizzare `image_info` per recuperare i metadati di una risorsa caricata, come illustrato nell’esempio seguente:
+È possibile utilizzare `image_info` per recuperare i metadati di una risorsa caricata, come illustrato nell&#39;esempio seguente:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

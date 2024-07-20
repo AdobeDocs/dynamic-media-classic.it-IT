@@ -22,7 +22,7 @@ ht-degree: 15%
 La schermata Adobe Dynamic Media Classic include tre aree principali: barra di navigazione globale, libreria di risorse, scheda Filtri risorse, pannello Sfoglia/Genera e Media Cart (solo Media Portal).
 
 ![Nozioni di base sulla navigazione](/help/using/assets/gs_navigation_basics_popup_popup.png)
-*Principali aree Adobe Dynamic Media Classic*
+*Principali aree di Adobe Dynamic Media Classic*
 *A) Barra di navigazione globale B) Pannello Libreria risorse C) Scheda Filtri risorse D) Pannello navigazione E) Carrello supporti (solo Media Portal)*
 
 ## Barra di navigazione globale {#global-navigation-bar}
@@ -31,51 +31,51 @@ Nella barra di navigazione globale, situata nella parte superiore della schermat
 
 * **[!UICONTROL Seleziona società]**: scegli la società a cui desideri accedere dal menu. Questo pulsante non è disponibile se si lavora con una società.
 
-* **[!UICONTROL Carica]**: apre la schermata Carica che consente di caricare i file dal computer o dalla rete in Adobe Dynamic Media Classic. Puoi caricare i file dal desktop o tramite FTP. Consulta [Carica file](/help/using/uploading-files.md).
+* **[!UICONTROL Carica]**: apre la schermata di caricamento in modo da poter caricare i file dal computer o dalla rete in Adobe Dynamic Media Classic. Puoi caricare i file dal desktop o tramite FTP. Vedi [Carica file](/help/using/uploading-files.md).
 
-* **[!UICONTROL Genera]**: scegli un’attività Genera dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
+* **[!UICONTROL Build]**: scegli un&#39;attività Build dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
 
-* **[!UICONTROL Pubblica]**: apre la schermata Pubblicazione in modo da poter pubblicare risorse rich media su Adobe Dynamic Medie Image Server e sul resto dell’infrastruttura Adobe Dynamic Media Classic SAAS.
+* **[!UICONTROL Publish]**: apre la schermata Pubblicazione in modo da poter pubblicare risorse rich media in Adobe Dynamic Medie Image Server e nel resto dell&#39;infrastruttura Adobe Dynamic Media Classic SAAS.
 
 * **[!UICONTROL Processi]**: apre la schermata Processi in modo da poter esaminare i record dei processi di caricamento e pubblicazione.
 
-* **[!UICONTROL Recente]**: apre la schermata Attività recente in cui puoi visualizzare i nomi delle risorse modificate di recente e i processi di caricamento e pubblicazione recenti.
+* **[!UICONTROL Recente]**: apre la schermata Attività recente in modo da poter visualizzare i nomi delle risorse modificate di recente e i processi di caricamento e pubblicazione recenti.
 
-* **[!UICONTROL Configurazione]**: apre la schermata Configurazione, in cui è possibile scegliere le opzioni di configurazione o amministrazione per ottimizzare l’utilizzo di Adobe Dynamic Media Classic. Consultate [Configurazione](/help/using/setup-basics.md).
+* **[!UICONTROL Configurazione]**: apre la schermata Configurazione in modo da poter scegliere le opzioni di installazione o amministrazione per ottimizzare l&#39;utilizzo di Adobe Dynamic Media Classic. Consultate [Configurazione](/help/using/setup-basics.md).
 
-* **[!UICONTROL Aiuto]** Scegliere un&#39;opzione della Guida:
+* **[!UICONTROL Guida]** Scegliere un&#39;opzione della Guida:
 
-   * **[!UICONTROL Guida Sull&#39;Argomento]**: apre la Guida in linea in una pagina contenente informazioni sull&#39;operazione in corso.
-   * **[!UICONTROL Tutorial video]**: consente di accedere ai video su argomenti specifici che mostrano come iniziare con ogni flusso di lavoro di pubblicazione rich media.
+   * **[!UICONTROL Guida in linea]**: apre la Guida in linea in una pagina contenente informazioni sull&#39;attività in corso.
+   * **[!UICONTROL Esercitazione video]**: consente di accedere a video su argomenti specifici che mostrano come iniziare con ogni flusso di lavoro di pubblicazione rich media.
    * **[!UICONTROL Sommario]**: apre la Guida in linea alla pagina Introduzione. È possibile selezionare tramite il sommario per trovare e visualizzare argomenti diversi.
    * **[!UICONTROL Informazioni su]**: indica la versione di Adobe Dynamic Media Classic in esecuzione.
-   * **[!UICONTROL Supporto]**: spiega come ottenere supporto tecnico da Adobe Dynamic Media Classic.
+   * **[!UICONTROL Supporto]**: indica come ottenere supporto tecnico da Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Esci]**: Chiude Adobe Dynamic Media Classic.
+* **[!UICONTROL Disconnetti]**: esce da Adobe Dynamic Media Classic.
 
 ## Libreria risorse {#asset-library}
 
 La Libreria risorse consente di organizzare le risorse che state usando. Potete creare cartelle e sottocartelle per ordinare le risorse nella Libreria risorse.
 
-La parte superiore del pannello Libreria risorse contiene i comandi per individuare le risorse. Potete cercare le risorse e applicare dei filtri per individuare le risorse. Per esaminare le risorse eliminate, seleziona la **[!UICONTROL Cestino]** nella parte inferiore della libreria delle risorse.
+La parte superiore del pannello Libreria risorse contiene i comandi per individuare le risorse. Potete cercare le risorse e applicare dei filtri per individuare le risorse. Per esaminare le risorse eliminate, seleziona l&#39;icona **[!UICONTROL Elimina]** nella parte inferiore della libreria risorse.
 
 >[!NOTE]
 >
->Puoi selezionare **[!UICONTROL Libreria risorse]** controlli per aprire o chiudere la Libreria risorse e aumentare lo spazio disponibile. Seleziona la **[!UICONTROL Espandi]**/**[!UICONTROL Comprimi]** per espandere o chiudere il pannello. Questi controlli si trovano sul lato sinistro del pannello.
+>È possibile selezionare **[!UICONTROL i controlli Libreria risorse]** per aprire o chiudere la Libreria risorse e ottenere più spazio per lavorare sullo schermo. Selezionare il controllo **[!UICONTROL Espandi]**/**[!UICONTROL Comprimi]** per espandere o chiudere il pannello. Questi controlli si trovano sul lato sinistro del pannello.
 
 ## Sfoglia pannello/Genera pannello {#browse-panel-build-panel}
 
 Nel pannello Sfoglia/Genera viene effettuata la maggior parte delle attività. Le funzioni disponibili in questo pannello dipendono dalla modalità Sfoglia o Genera.
 
-* **[!UICONTROL Modalità Sfoglia]**: puoi visualizzare e lavorare con il contenuto di una cartella nel pannello Sfoglia. Seleziona una cartella nella Libreria risorse. Questo pannello offre **[!UICONTROL File]**, **[!UICONTROL Anteprima]**, **[!UICONTROL Seleziona tutto]**, **[!UICONTROL Seleziona nessuno]**, e **[!UICONTROL Ordina]** menu per l’utilizzo delle risorse. È inoltre possibile visualizzare le risorse in modi diversi spostando il cursore o selezionando **[!UICONTROL Vista griglia]**, **[!UICONTROL Vista a elenco]**, o **[!UICONTROL Vista dettagli]**. Selezione **[!UICONTROL Vista dettagli]** oppure facendo doppio clic su una risorsa, questa viene aperta in Vista dettagli, dove è possibile eseguire operazioni sui file dipendenti dalla risorsa.
+* **[!UICONTROL Modalità Sfoglia]**: è possibile visualizzare e utilizzare il contenuto di una cartella nel pannello Sfoglia. Seleziona una cartella nella Libreria risorse. Questo pannello offre i menu **[!UICONTROL File]**, **[!UICONTROL Anteprima]**, **[!UICONTROL Seleziona tutto]**, **[!UICONTROL Seleziona nessuno]** e **[!UICONTROL Ordina]** per l&#39;utilizzo delle risorse. È inoltre possibile visualizzare le risorse in modi diversi spostando il cursore o selezionando **[!UICONTROL Visualizzazione griglia]**, **[!UICONTROL Visualizzazione elenco]** o **[!UICONTROL Visualizzazione dettagli]**. Selezionando **[!UICONTROL Vista dettagli]** o facendo doppio clic su una risorsa, la risorsa viene aperta in Vista dettagli, dove è possibile eseguire operazioni sui file dipendenti dalla risorsa.
 
-* **[!UICONTROL Modalità di compilazione]**: Seleziona **[!UICONTROL Genera]**, quindi scegli un’opzione che ti consenta di iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno dei vari altri elementi disponibili nel menu Genera. Viene visualizzata la pagina Build. Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
+* **[!UICONTROL Modalità di compilazione]**: selezionare **[!UICONTROL Genera]**, quindi scegliere un&#39;opzione per iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno degli altri elementi disponibili nel menu Genera. Viene visualizzata la pagina Build. Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
 
-Vedi anche [Nozioni di base sulla navigazione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) video di formazione.
+Vedi anche il video di formazione sulle [nozioni di base sulla navigazione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >
 >* [Gestione risorse](about-managing-assets.md)
->* [Visualizzare le risorse nel pannello Sfoglia](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
+>* [Visualizza risorse nel pannello Sfoglia](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
 >* [Selezionare le risorse nel pannello Sfoglia](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Cercare risorse](searching-assets.md#searching_assets)
+>* [Cerca risorse](searching-assets.md#searching_assets)

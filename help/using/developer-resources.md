@@ -20,7 +20,7 @@ ht-degree: 20%
 
 Le guide di riferimento per visualizzatori, Image Server e Image Rendering e Image Production System descrivono i protocolli http per questi moduli server. Queste guide possono essere utilizzate dagli sviluppatori di siti Web che desiderano personalizzare ulteriormente e utilizzare i rich media di Adobe Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata. Si presume che l’utente abbia familiarità con l’app desktop Dynamic Media Classic, gli standard e le convenzioni generali del protocollo http e la terminologia di base per le immagini.
 
-Vedi anche [Risorse per sviluppatori Dynamic Medie](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Consulta anche [Risorse per sviluppatori Dynamic Medie](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Visualizzatori {#viewers-guide}
 

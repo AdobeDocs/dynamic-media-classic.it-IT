@@ -23,17 +23,17 @@ ht-degree: 7%
 
 Prima di utilizzare l&#39;applicazione desktop Adobe Dynamic Media Classic, verificare che siano presenti le condizioni seguenti:
 
-* **Nome utente**: utilizza il tuo indirizzo e-mail come nome di accesso.
+* **Nome utente**: utilizzare l&#39;indirizzo di posta elettronica come nome di accesso.
 
-* **Password**: ottieni la tua password temporanea in un messaggio e-mail di benvenuto da Adobe Dynamic Media Classic o dal tuo amministratore Adobe Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
+* **Password**: ottieni la tua password temporanea in un messaggio di posta elettronica di benvenuto da Adobe Dynamic Media Classic o dal tuo amministratore Adobe Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
 
 1. Aprire l&#39;applicazione desktop Adobe Dynamic Media Classic.
 
    ![Accesso a Adobe Dynamic Media Classic](/help/using/assets/dmclassic-login1.png)
 
-1. In **[!UICONTROL Nome utente]** , immettere l&#39;indirizzo di posta elettronica.
-1. In **[!UICONTROL Password]** , digitare la password.
-1. In **[!UICONTROL Server]** selezionare un server.
+1. Nel campo **[!UICONTROL Nome utente]** immettere l&#39;indirizzo di posta elettronica.
+1. Digitare la password nel campo **[!UICONTROL Password]**.
+1. Selezionare un server nell&#39;elenco a discesa **[!UICONTROL Server]**.
 Utilizza la mappatura seguente per selezionare l’ambiente di produzione che desideri utilizzare.
 
    | URL browser | Nome server app desktop |
@@ -46,7 +46,7 @@ Utilizza la mappatura seguente per selezionare l’ambiente di produzione che de
 
 ## Esci da Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Nell&#39;angolo superiore destro dell&#39;applicazione desktop Adobe Dynamic Media Classic, selezionare **[!UICONTROL Esci]** e quindi selezionare **[!UICONTROL Esci]** di nuovo.
+1. Nell&#39;angolo superiore destro dell&#39;applicazione desktop Adobe Dynamic Media Classic, selezionare **[!UICONTROL Disconnetti]**, quindi selezionare di nuovo **[!UICONTROL Disconnetti]**.
 
 >[!MORELIKETHIS]
 >

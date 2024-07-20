@@ -32,6 +32,6 @@ Dopo aver apportato una modifica nel client di origine, tutti i client peer conn
 
 Quando hai effettuato l’accesso, ti è stato chiesto di consentire o negare gli aggiornamenti peer. È possibile ricordare la scelta ed evitare così che tale notifica venga successivamente riproposta. Per annullare la scelta, eliminate il sito appropriato dal pannello Connettività peer-to-peer in Impostazioni globali.
 
-Se stavi modificando una risorsa modificata da un peer, ti viene richiesto di inserire la modifica nel generatore o nell’editor. Se si sceglie **[!UICONTROL Sì]** Quindi il generatore o l’editor elimina eventuali modifiche apportate alla risorsa e importa la risorsa aggiornata. Se si sceglie **[!UICONTROL No]**, la risorsa rimane invariata nel generatore o nell’editor e tutte le modifiche apportate persistono in quella sessione.
+Se stavi modificando una risorsa modificata da un peer, ti viene richiesto di inserire la modifica nel generatore o nell’editor. Se si sceglie **[!UICONTROL Sì]**, il generatore o l&#39;editor ignora eventuali modifiche apportate alla risorsa e importa la risorsa aggiornata. Se si sceglie **[!UICONTROL No]**, la risorsa rimane invariata nel generatore o nell&#39;editor e le modifiche apportate persistono nella sessione.
 
 Quando hai salvato la risorsa, ti è stato notificato che esiste una versione più recente e ti è stato chiesto se desideri sovrascrivere la risorsa con le modifiche apportate.
