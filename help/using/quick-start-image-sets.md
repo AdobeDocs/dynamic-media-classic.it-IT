@@ -1,5 +1,5 @@
 ---
-title: "Guida introduttiva: set di immagini"
+title: 'Avvio rapido: set di immagini'
 description: Introduzione e Guida rapida ai set di immagini per aiutarti a iniziare rapidamente a utilizzare le tecniche per i set di immagini in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -34,7 +34,7 @@ Quando crei un set di immagini, Adobe consiglia le seguenti best practice e appl
 
 ‡ Si consiglia di non avere risorse duplicate in un set. Il limite è di 20 duplicati per una singola risorsa. Se aggiungi un altro duplicato per quella risorsa, all’interno di quel set, la richiesta restituisce un errore o ignora il duplicato.
 
-Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
 
 La Guida introduttiva per set di immagini riportata di seguito è stata progettata per consentirti di iniziare rapidamente a lavorare con le tecniche per set di immagini in Adobe Dynamic Media Classic.
 

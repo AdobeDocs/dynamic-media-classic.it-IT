@@ -1,5 +1,5 @@
 ---
-title: "Guida introduttiva: Integrazione di Adobe Target Standard/Premium"
+title: 'Guida introduttiva: Integrazione con Adobe Target Standard/Premium'
 description: Introduzione e Guida rapida ad Adobe Target Standard/Premium per aiutarti a iniziare rapidamente a utilizzare le tecniche di integrazione di Adobe Target Standard/Premium in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

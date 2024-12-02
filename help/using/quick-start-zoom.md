@@ -1,5 +1,5 @@
 ---
-title: "Guida introduttiva: Zoom"
+title: 'Avvio rapido: zoom'
 description: Introduzione e Guida rapida allo zoom per aiutarti a iniziare subito a usare lo zoom.
 contentOwner: Rick Brough
 content-type: reference
@@ -59,10 +59,10 @@ Vengono visualizzati i pulsanti Zoom. È possibile visualizzare l&#39;aspetto de
 
 ## 5. Publish zoom images
 
-Quando si pubblicano le immagini di zoom, queste vengono posizionate sui server immagini Dynamic Medie in modo che possano essere inviate al sito Web e all&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. Queste stringhe URL richiamano le immagini di zoom dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
+Quando si pubblicano le immagini di zoom, queste vengono posizionate sui server immagini Dynamic Media in modo che possano essere inviate al sito Web e all&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva le stringhe URL. Queste stringhe URL richiamano le immagini di zoom dai server immagini Dynamic Media al sito Web o all&#39;applicazione.
 
 Sulla barra di spostamento globale, selezionare **[!UICONTROL Publish]**. Nella finestra di dialogo Pubblicazione selezionare **[!UICONTROL Invia Publish]**. Consultate [Pubblicazione delle immagini di zoom](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Collegare i visualizzatori zoom alla pagina Web
 
-Adobe Dynamic Media Classic crea le stringhe di callout URL necessarie per ingrandire le immagini e le attiva quando si pubblicano le immagini su Dynamic Medie Image Server. È possibile copiare queste stringhe URL dalla pagina **[!UICONTROL Anteprima]**. Dopo aver copiato le stringhe URL, queste sono disponibili per i siti Web e le applicazioni. Consulta [Collegare i visualizzatori zoom alla pagina Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic crea le stringhe di callout URL necessarie per ingrandire le immagini e le attiva quando si pubblicano le immagini su Dynamic Media Image Server. È possibile copiare queste stringhe URL dalla pagina **[!UICONTROL Anteprima]**. Dopo aver copiato le stringhe URL, queste sono disponibili per i siti Web e le applicazioni. Consulta [Collegare i visualizzatori zoom alla pagina Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

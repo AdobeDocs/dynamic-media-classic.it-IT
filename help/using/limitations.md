@@ -1,6 +1,6 @@
 ---
-title: Limitazioni di Dynamic Medie
-description: "Scopri le best practice e i limiti applicati quando crei un set di immagini o un set 360 gradi o carichi un PDF. Scopri anche le combinazioni di browser Web e sistemi operativi non supportate per Dynamic Medie."
+title: Limitazioni di Dynamic Media
+description: Scopri le best practice e i limiti applicati quando crei un set di immagini o un set 360 gradi o carichi un PDF. Scopri anche le combinazioni di browser Web e sistemi operativi non supportate per Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,18 +17,18 @@ ht-degree: 1%
 
 ---
 
-# Limitazioni di Dynamic Medie
+# Limitazioni di Dynamic Media
 
-Le sezioni seguenti descrivono le limitazioni di Dynamic Medie.
+Le sezioni seguenti descrivono le limitazioni di Dynamic Media.
 
 Questo argomento include le sezioni seguenti:
 
-* [Best practice e limiti applicati da Dynamic Medie ai tipi di risorse](#best-practice-enforced-limits)
-* [Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Medie](#unsupported-browser-os)
+* [Best practice e limiti applicati da Dynamic Media ai tipi di risorse](#best-practice-enforced-limits)
+* [Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Media](#unsupported-browser-os)
 
-## Best practice e limiti applicati da Dynamic Medie ai tipi di risorse {#best-practice-enforced-limits}
+## Best practice e limiti applicati da Dynamic Media ai tipi di risorse {#best-practice-enforced-limits}
 
-Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazione di una pagina, l’Adobe consiglia le seguenti best practice. Adobe applica inoltre i seguenti limiti:
+Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazione di una pagina, Adobe consiglia le seguenti best practice. Adobe applica inoltre i seguenti limiti:
 
 | Risorsa: tipo di limite | Best practice | Limite imposto |
 | --- | --- | --- |
@@ -42,11 +42,11 @@ Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazio
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
-## Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Medie {#unsupported-browser-os}
+## Combinazioni di browser Web e sistemi operativi non supportate per Dynamic Media {#unsupported-browser-os}
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Medie non supporta le seguenti combinazioni di browser e sistemi operativi.
+Adobe Dynamic Media non supporta le seguenti combinazioni di browser Web e sistemi operativi.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -63,7 +63,7 @@ Adobe Dynamic Medie non supporta le seguenti combinazioni di browser e sistemi o
 <!-- CQDOC-19433 (original ticket)
 and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-A decorrere dal 30 aprile 2024, Adobe Dynamic Medie cesserà il supporto per i seguenti elementi:
+A decorrere dal 30 aprile 2024, Adobe Dynamic Media cesserà il supporto per i seguenti elementi:
 
 * SSL (Secure Socket Layer) 2.0
 * SSL 3.0

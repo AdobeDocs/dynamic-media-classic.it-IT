@@ -1,5 +1,5 @@
 ---
-title: "Guida introduttiva: Integrare Adobe Dynamic Media Classic e Adobe Analytics"
+title: 'Guida introduttiva: Integrare Adobe Dynamic Media Classic e Adobe Analytics'
 description: Introduzione e Guida rapida all’integrazione di Adobe Dynamic Media Classic e Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference

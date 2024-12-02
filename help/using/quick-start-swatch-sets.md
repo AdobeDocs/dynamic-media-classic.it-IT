@@ -1,5 +1,5 @@
 ---
-title: "Guida rapida: set di campioni"
+title: 'Avvio rapido: set di campioni'
 description: Introduzione e Guida rapida al set di campioni per aiutarti a iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 

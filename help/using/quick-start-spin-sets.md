@@ -1,5 +1,5 @@
 ---
-title: "Guida rapida: set 360 gradi"
+title: 'Avvio rapido: set 360 gradi'
 description: Introduzione e Guida rapida al set 360 gradi per iniziare subito a utilizzare Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -35,7 +35,7 @@ Quando crei un set 360 gradi, Adobe consiglia le best practice seguenti e applic
 | --- | --- | --- |
 | Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 
-Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
 
 Questo avvio rapido per set 360 gradi è progettato per aiutarti a iniziare rapidamente a utilizzare le tecniche del set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Alla fine di ogni passaggio, puoi selezionare un collegamento ad argomento per ulteriori informazioni.
 
@@ -75,7 +75,7 @@ Vedere [Anteprima di un set 360 gradi](previewing-spin-set.md#previewing-a-spin-
 
 ## 6. Publish un set 360 gradi
 
-Quando si pubblica un set 360 gradi, questo viene posizionato sui server Adobe Dynamic Media Classic e può essere distribuito in modo dinamico al sito Web o all&#39;applicazione. Attiva inoltre la stringa URL che chiama il set 360 gradi dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
+Quando si pubblica un set 360 gradi, questo viene posizionato sui server Adobe Dynamic Media Classic e può essere distribuito in modo dinamico al sito Web o all&#39;applicazione. Attiva inoltre la stringa URL che chiama il set 360 gradi dai server immagini Dynamic Media al sito Web o all&#39;applicazione.
 
 Per pubblicare un set 360 gradi, contrassegnalo per la pubblicazione selezionando l&#39;icona **[!UICONTROL Contrassegna per Publish]** accanto al nome nel pannello Sfoglia. Sulla barra di spostamento globale, selezionare **[!UICONTROL Publish]** per avviare una pubblicazione. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia Publish]**.
 

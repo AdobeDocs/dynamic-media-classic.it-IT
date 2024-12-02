@@ -1,5 +1,5 @@
 ---
-title: "Guida introduttiva: Media Portal"
+title: 'Guida introduttiva: Media Portal'
 description: Introduzione e Guida rapida a Media Portal per aiutarti a iniziare rapidamente a utilizzare le tecniche e l’amministrazione di Media Portal in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

@@ -1,5 +1,5 @@
 ---
-title: "Guida introduttiva: nozioni di base sui modelli"
+title: 'Avvio rapido: funzioni di base dei modelli'
 description: Introduzione e Guida rapida alle nozioni di base sui modelli per aiutarti a iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -59,7 +59,7 @@ Per parametrizzare un livello, aprire il modello nella pagina Modello, quindi se
 
 ## 4. Modelli Publish
 
-Quando si pubblica un modello, questo viene posizionato su server immagini Dynamic Medie in modo che possa essere distribuito dinamicamente al sito Web o all&#39;applicazione. La pubblicazione attiva inoltre l&#39;URL per chiamare il modello dai server immagini di Dynamic Medie al sito Web o all&#39;applicazione.
+Quando si pubblica un modello, questo viene posizionato su server immagini Dynamic Media in modo che possa essere distribuito dinamicamente al sito Web o all&#39;applicazione. La pubblicazione attiva inoltre l&#39;URL per chiamare il modello dai server immagini di Dynamic Media al sito Web o all&#39;applicazione.
 
 Assicuratevi di pubblicare tutte le immagini associate al modello.
 
@@ -67,6 +67,6 @@ Per pubblicare un modello, contrassegnalo per la pubblicazione e sulla barra di 
 
 ## 5. Collegare un modello a una pagina web
 
-Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblichi i modelli sui server immagini Dynamic Medie. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
+Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblichi i modelli sui server immagini Dynamic Media. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
 
 Seleziona il modello nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]** per aprire la pagina Anteprima modello. Scegli un predefinito immagine per la distribuzione del modello, quindi fai clic sul pulsante **[!UICONTROL Copia URL]**. Dopo aver copiato l&#39;URL dalla pagina Anteprima, è possibile utilizzarlo nel sito Web o nell&#39;applicazione. Vedere [Collegare un modello a una pagina Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

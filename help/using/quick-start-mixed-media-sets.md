@@ -1,5 +1,5 @@
 ---
-title: "Guida rapida: set di file multimediali diversi"
+title: 'Guida introduttiva: Set di file multimediali diversi'
 description: Introduzione e Guida rapida ai set di file multimediali diversi per aiutarti a iniziare rapidamente a utilizzare Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

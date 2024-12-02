@@ -1,5 +1,5 @@
 ---
-title: "Guida introduttiva: eCatalog"
+title: 'Guida introduttiva: eCatalog'
 description: Introduzione e Guida rapida agli eCatalog per aiutarti a iniziare rapidamente a utilizzare le tecniche di eCatalog in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -48,7 +48,7 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 
 >[!NOTE]
 >
->Se sei un utente in modalità Dynamic Medie: Scene7 e desideri utilizzare gli eCatalog, modifica il valore `pdfbrochure` in CRXDE Lite. Per farlo, in Adobe Experience Manager, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Generale]** > **[!UICONTROL CRXDE Liti]**. Nella struttura di navigazione del pannello sinistro, passa a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Se sei un utente in modalità Dynamic Media: Scene7 e desideri utilizzare gli eCatalog, modifica il valore `pdfbrochure` in CRXDE Lite. Per farlo, in Adobe Experience Manager, vai a **[!UICONTROL Strumenti]** > **[!UICONTROL Generale]** > **[!UICONTROL CRXDE Lite]**. Nella struttura di navigazione del pannello sinistro, passa a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >Nel riquadro in basso a destra, nella scheda **[!UICONTROL Proprietà]**, selezionare la riga `jobParam`. Impostare il valore per `pdfbrochure` da `false` a `true`. Come in `pdfbrochure=true`
 >
@@ -116,7 +116,7 @@ Vedi [Anteprima eCatalog nel visualizzatore eCatalog](previewing-ecatalogs-ecata
 
 ## 6. Publish eCatalog e PDF associati
 
-La pubblicazione dell&#39;eCatalog e dei PDF associati lo colloca nei server immagini Dynamic Medie in modo che possa essere consegnato al sito Web e all&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzare questo URL per chiamare l&#39;eCatalog dai server immagini Dynamic Medie al sito Web o all&#39;applicazione.
+La pubblicazione dell&#39;eCatalog e dei PDF associati lo colloca nei server immagini Dynamic Media in modo che possa essere consegnato al sito Web e all&#39;applicazione. Come parte del processo di pubblicazione, Adobe Dynamic Media Classic attiva la stringa URL per l’eCatalog. Utilizzare questo URL per chiamare l&#39;eCatalog dai server immagini Dynamic Media al sito Web o all&#39;applicazione.
 
 Dopo aver contrassegnato l’eCatalog e il PDF per la pubblicazione nel pannello Sfoglia, seleziona il pulsante Publish nella barra di navigazione globale per avviare una pubblicazione. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia Publish]**.
 
@@ -124,7 +124,7 @@ Vedi [eCatalog Publish e PDF associati](publishing-ecatalogs-associated-pdfs.md#
 
 ## 7. Collegare un eCatalog a una pagina Web
 
-Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Medie Image Server. Puoi copiare questa stringa di URL dalla schermata Anteprima e dal pannello Sfoglia (in Vista dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, questa sarà disponibile per i siti Web e le applicazioni.
+Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l&#39;eCatalog quando viene pubblicato su Dynamic Media Image Server. Puoi copiare questa stringa di URL dalla schermata Anteprima e dal pannello Sfoglia (in Vista dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, questa sarà disponibile per i siti Web e le applicazioni.
 
 Collabora con il tuo team IT per inserire il collegamento all’eCatalog nella posizione appropriata all’interno della pagina Web. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore eCatalog e gli utenti possono sfogliare l&#39;eCatalog.
 
