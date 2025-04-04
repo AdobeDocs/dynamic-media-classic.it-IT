@@ -1,5 +1,5 @@
 ---
-title: Configurazione dell’amministrazione
+title: Impostazione amministrazione
 description: Scopri come impostare l’area di amministrazione di Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5482f442b067fd4911a05351e88c5be130c0b76d
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 32%
@@ -18,13 +18,13 @@ ht-degree: 32%
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
-# Impostazione amministrazione{#administration-setup}
+# Configurazione dell’amministrazione{#administration-setup}
 
 Le schermate di configurazione dell’amministrazione sono per l’amministrazione degli utenti di Adobe Dynamic Media Classic. Utilizzare queste schermate per consentire agli utenti di lavorare in Adobe Dynamic Media Classic e comunicare tramite posta elettronica con altri utenti.
 
 1. Per accedere alle opzioni di installazione dell&#39;amministrazione, passare a **Configurazione** > **Configurazione personale** > **Configurazione dell&#39;amministrazione**.
 
-## Amministrazione utente {#user-administration}
+## Amministrazione utenti {#user-administration}
 
 A tutti gli utenti di Adobe Dynamic Media Classic viene assegnato un ruolo che determina i loro privilegi e i diritti di accesso alle funzioni di Adobe Dynamic Media Classic. Gli amministratori specificano i diversi ruoli e responsabilità per le società a cui sono assegnati.
 
