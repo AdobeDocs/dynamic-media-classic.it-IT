@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: 5482f442b067fd4911a05351e88c5be130c0b76d
+source-git-commit: fc2138cc9fd08cb4ce7466724af03f0901edebf3
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 32%
+source-wordcount: '1995'
+ht-degree: 29%
 
 ---
 
@@ -152,10 +152,10 @@ Per aprire questa pagina, passare a **[!UICONTROL Configurazione]** > **[!UICONT
 Nella tabella seguente sono descritti i rapporti che è possibile generare dalla pagina Larghezza di banda e spazio di archiviazione:
 
 | Rapporto | Informazioni | Utilizzo |
-|:--- |:--- |:--- |
-| Larghezza di banda | Larghezza di banda usata dalla società | Consente di tenere traccia dell’utilizzo di larghezza di banda da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
+| --- | --- | --- |
+| Larghezza di banda | | <!-- CQDOC-22504 --> **IMPORTANTE**: la scheda Larghezza di banda non è più supportata. Anche se viene ancora visualizzato nell&#39;interfaccia utente, i dati della larghezza di banda non sono disponibili e tutti i valori vengono visualizzati come `0`. |
 | Archiviazione | Utilizzo dello spazio di archiviazione | Monitora la quantità di dati caricati dall’azienda. |
-| Contenuti immagine | Quantità di richieste immagini per tipo | Consente di tenere traccia della quantità di richieste e volume per i diversi tipi di immagini. |
+| Contenuti immagine | Visualizza il totale degli hit e del volume di consegna delle immagini suddivisi per tipo di richiesta e sottotipo. | Monitora il numero di richieste e il volume per diversi tipi di immagini, comprese le metriche provenienti da risorse non video. <!-- CQDOC-22504 --> |
 | Dominio | Quantità di richieste URL per dominio | Consente di tenere traccia dell’utilizzo di immagini in base al dominio delle richieste di immagini per una specifica società. (Adobe Dynamic Media Classic può fornire più domini per account. Per ulteriori informazioni, rivolgetevi al supporto tecnico. |
 | Streaming video | Utilizzo della larghezza di banda per lo streaming video | Consente di tenere traccia dell’utilizzo di streaming video da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
 | Contenuti video | Tempo di riproduzione di diversi video | Consente di individuare i video più visualizzati e quelli meno visualizzati. |
