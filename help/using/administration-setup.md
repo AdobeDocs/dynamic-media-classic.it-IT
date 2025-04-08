@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: fc2138cc9fd08cb4ce7466724af03f0901edebf3
+source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 29%
@@ -153,9 +153,9 @@ Nella tabella seguente sono descritti i rapporti che è possibile generare dalla
 
 | Rapporto | Informazioni | Utilizzo |
 | --- | --- | --- |
-| Larghezza di banda | | <!-- CQDOC-22504 --> **IMPORTANTE**: la scheda Larghezza di banda non è più supportata. Anche se viene ancora visualizzato nell&#39;interfaccia utente, i dati della larghezza di banda non sono disponibili e tutti i valori vengono visualizzati come `0`. |
+| Larghezza di banda | | **IMPORTANTE**: la scheda Larghezza di banda non è più supportata. Anche se viene ancora visualizzato nell&#39;interfaccia utente, i dati della larghezza di banda non sono disponibili e tutti i valori vengono visualizzati come `0`. |
 | Archiviazione | Utilizzo dello spazio di archiviazione | Monitora la quantità di dati caricati dall’azienda. |
-| Contenuti immagine | Visualizza il totale degli hit e del volume di consegna delle immagini suddivisi per tipo di richiesta e sottotipo. | Monitora il numero di richieste e il volume per diversi tipi di immagini, comprese le metriche provenienti da risorse non video. <!-- CQDOC-22504 --> |
+| Contenuti immagine | Visualizza il totale degli hit e del volume di consegna delle immagini suddivisi per tipo di richiesta e sottotipo. | Monitora il numero di richieste e il volume per diversi tipi di immagini, comprese le metriche provenienti da risorse non video. |
 | Dominio | Quantità di richieste URL per dominio | Consente di tenere traccia dell’utilizzo di immagini in base al dominio delle richieste di immagini per una specifica società. (Adobe Dynamic Media Classic può fornire più domini per account. Per ulteriori informazioni, rivolgetevi al supporto tecnico. |
 | Streaming video | Utilizzo della larghezza di banda per lo streaming video | Consente di tenere traccia dell’utilizzo di streaming video da parte della società per specifici intervalli di date, al fine di determinare i pattern di traffico. |
 | Contenuti video | Tempo di riproduzione di diversi video | Consente di individuare i video più visualizzati e quelli meno visualizzati. |
