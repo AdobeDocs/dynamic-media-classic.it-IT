@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 4601442c2d51d50a2712eee7fd8e5110b43fb2a0
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -18,18 +18,18 @@ ht-degree: 0%
 ## Informazioni generali
 
 +++**Che cos&#39;è [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets?**
-[!DNL Dynamic Media] è l&#39;evoluzione di nuova generazione delle funzionalità di [!DNL Adobe Dynamic Media Classic] (precedentemente Scene7) all&#39;interno di [!DNL Experience Manager] Assets. La soluzione combina la potenza della gestione delle risorse con la distribuzione di rich media. Le funzionalità includono:
+[!DNL Dynamic Media] è l&#39;evoluzione di nuova generazione delle funzionalità di [!DNL Adobe Dynamic Media Classic] (precedentemente Scene7) in [!DNL Experience Manager] Assets. La soluzione combina la potenza della gestione delle risorse con la distribuzione di rich media. Le funzionalità includono:
 
 * Interfaccia utente e piattaforma uniche per la gestione di immagini e video.
 * Funzioni di merchandising innovative.
-* piattaforma di distribuzione Adobe solida e collaudata.
+* Piattaforma di distribuzione affidabile e collaudata di Adobe.
 * Unificazione perfetta con [!DNL Experience Manager] Assets.
 
 +++
 
-+++**Quali sono i vantaggi principali dell&#39;aggiornamento a [!DNL Dynamic Media]?**
++++**Quali sono i principali vantaggi dell&#39;aggiornamento a [!DNL Dynamic Media]?**
 
-* Sincronizzazione di Collaboration e file condivisi con [!DNL Adobe Creative Cloud] applicazioni.
+* Collaborazione e condivisione di file Sincronizzazione con [!DNL Adobe Creative Cloud] le applicazioni.
 * Gestione delle risorse digitali a livello aziendale con:
    * supporto affidabile per i metadati
    * ricerca avanzata
@@ -40,14 +40,14 @@ ht-degree: 0%
 * Semplicità di adozione e utilizzo con la nuova interfaccia.
 * Crea esperienze multimediali acquistabili/interattive utilizzando immagini e video che guidano la conversione e arricchiscono il coinvolgimento e la soddisfazione degli utenti.
 * Combina le risorse della campagna con le informazioni sul prodotto per semplificare il clic sul carrello.
-* Crea, regola, personalizza e implementa facilmente i visualizzatori interattivi utilizzando il Designer del visualizzatore WYSIWYG.
+* Facile creazione, adattamento, personalizzazione e installazione di visualizzatori interattivi mediante WYSIWYG Viewer Designer.
 * Distribuisci rich media ottimizzati alle soluzioni [!DNL Experience Cloud].
 * Integrazione con [!DNL Experience Cloud] per analisi avanzate delle risorse, targeting e riutilizzo delle risorse tra i punti di contatto di marketing. Tali punti di contatto includono [!DNL Adobe Campaign] per la posta elettronica, [!DNL Adobe Social] per i canali social e [!DNL Experience Manager] siti per le app Web e mobili reattive.
 
 +++
 
 +++**[!DNL Dynamic Media] utilizza la rete CDN (Content Delivery Network) Adobe esistente?**
-Sì, [!DNL Dynamic Media] utilizza la robusta rete di consegna Adobe di livello superiore.
+Sì, [!DNL Dynamic Media] utilizza la robusta rete di consegna di livello superiore di Adobe.
 
 * Il miglior fornitore di rich media per Internet Retail 1000, nove anni di fila.
 * Supporto 24/7/265, 99,95% SLA.
@@ -55,15 +55,13 @@ Sì, [!DNL Dynamic Media] utilizza la robusta rete di consegna Adobe di livello 
 
 +++
 
-+++**Cos&#39;è [!DNL Dynamic Media Classic]? Adobe sta cambiando il nome di Adobe Scene7?**
-L&#39;Adobe ha cambiato il nome di Adobe Scene7 in [!DNL Dynamic Media Classic].
++++**Cos&#39;è [!DNL Dynamic Media Classic]? Adobe Systems sta cambiando il nome di Adobe Scene7?** Adobe Systems cambiato il nome di Adobe Scene7 in [!DNL Dynamic Media Classic].
 
 +++
 
-## Processo di aggiornamento e strumenti
+## Processo e strumenti di aggiornamento
 
-+++**Chi è idoneo per il programma di aggiornamento?**
-Clienti che al momento hanno [!DNL Dynamic Media Classic] (precedentemente Scene7) e anche [!DNL Experience Manager].
++++**Chi è idoneo per il programma di aggiornamento?** I clienti che attualmente hanno [!DNL Dynamic Media Classic] (in precedenza Scene7) e hanno [!DNL Experience Manager]anche .
 
 +++
 
@@ -92,13 +90,11 @@ Il tempo necessario per il processo di aggiornamento varia in base a diversi fat
 
 +++
 
-+++**Sono necessarie modifiche al contratto per eseguire l&#39;aggiornamento a [!DNL Dynamic Media]?**
-Il tempo necessario per il processo di aggiornamento varia in base a diversi fattori, tra cui: numero di risorse e dimensioni delle risorse. AGS o Partner gestisce la tempistica del progetto.
++++**Sono necessarie modifiche al contratto per effettuare l&#39;aggiornamento a [!DNL Dynamic Media]?** Il tempo di processo di aggiornamento varia in base a diversi fattori, inclusi ma non limitati a: il numero di risorse e le dimensioni del risorse. AGS o Partner gestisce la timeline del progetto.
 
 +++
 
-+++**I costi delle licenze sono diversi?**
-Per informazioni dettagliate sui prezzi, rivolgiti al rappresentante del team dell’account di Adobe.
++++**C&#39;è una differenza nel costo delle licenze?** Consultate il rappresentante del team Adobe Systems per i dettagli sui prezzi.
 
 +++
 
@@ -119,8 +115,8 @@ No. Adobe supporta e gestisce completamente [!DNL Dynamic Media Classic] (correz
 
 +++
 
-+++**Posso continuare a utilizzare [!DNL Dynamic Media Classic] (già Adobe Scene7) dopo l&#39;aggiornamento a [!DNL Dynamic Media]?**
-Dopo aver eseguito l&#39;aggiornamento a [!DNL Dynamic Media], è consigliabile utilizzare Dynamic Medie solo per immagini e video. È possibile continuare a utilizzare [!DNL Dynamic Media Classic] solo per le funzionalità non ancora disponibili in [!DNL Dynamic Media], tra cui:
++++**Posso ancora utilizzare [!DNL Dynamic Media Classic] (già Adobe Scene7) dopo l&#39;aggiornamento a [!DNL Dynamic Media]?**
+Dopo aver eseguito l&#39;aggiornamento a [!DNL Dynamic Media], utilizzare solo Dynamic Media per immagini e video. È possibile continuare a utilizzare [!DNL Dynamic Media Classic] solo per le funzionalità non ancora disponibili in [!DNL Dynamic Media], tra cui:
 
 * Configuratore visivo (autore immagine, rendering immagine).
 * Modelli di immagine.
@@ -128,13 +124,13 @@ Dopo aver eseguito l&#39;aggiornamento a [!DNL Dynamic Media], è consigliabile 
 
 +++
 
-+++**Quali strumenti vengono forniti da Adobe per automatizzare il processo di aggiornamento?**
++++**Quali strumenti fornisce Adobe per automatizzare il processo di aggiornamento?**
 Per l&#39;avvio iniziale del programma di aggiornamento, Adobe fornisce gli strumenti che consentono di spostare automaticamente le risorse da [!DNL Dynamic Media Classic] a [!DNL Dynamic Media] nell&#39;Assets [!DNL Experience Manager].
 
 +++
 
 +++**Gli URL, le integrazioni API e i visualizzatori di [!DNL Dynamic Media Classic] esistenti continuano a funzionare durante e dopo l&#39;aggiornamento?**
-Sì. È possibile continuare a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] (precedentemente Adobe Scene7) così com&#39;è nella soluzione [!DNL Dynamic Media].
+Sì. È possibile continuare a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] (già Adobe Scene7) così com&#39;è nella soluzione [!DNL Dynamic Media].
 
 +++
 
@@ -143,17 +139,16 @@ No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna
 
 +++
 
-+++**Dovrò riscrivere le integrazioni API e altri script di automazione?**
-No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Inoltre, tutte le risorse vengono replicate in [!DNL Dynamic Media Classic]. Il vantaggio di questo approccio è che non è necessario riscrivere integrazioni basate su API o script di automazione, riducendo quindi al minimo il rischio e lo sforzo di migrazione a [!DNL Dynamic Media].
++++**Dovrò riscrivere le integrazioni API e altri script di automazione?** No. Adobe Systems continua a utilizzare l&#39;infrastruttura di pubblicazione e distribuzione [!DNL Dynamic Media Classic] così com&#39;è nella [!DNL Dynamic Media] soluzione. Inoltre, tutti i risorse vengono replicati su [!DNL Dynamic Media Classic]. Il vantaggio di questo approccio è che non è necessario riscrivere alcuna integrazione o script di automazione basati su API, riducendo così al minimo il rischio e lo sforzo di migrazione a [!DNL Dynamic Media].
 
 +++
 
-+++**Dovrò apportare modifiche o risviluppare i miei visualizzatori personalizzati?**
++++**Dovrò apportare modifiche o sviluppare nuovamente i miei visualizzatori personalizzati?**
 No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Il vantaggio di questo approccio è che puoi continuare a utilizzare i visualizzatori personalizzati, riducendo al minimo il rischio e l&#39;impegno di migrazione a [!DNL Dynamic Media].
 +++
 
 +++**Come posso eseguire la migrazione delle mie impostazioni (come predefiniti immagine, codifiche video) a [!DNL Dynamic Media]?**
-I predefiniti e le altre impostazioni devono essere ricreati entro [!DNL Dynamic Media]. Come parte del progetto di servizio, Adobe Global Services o Partner possono fornire assistenza.
+I predefiniti e le altre impostazioni devono essere ricreati entro [!DNL Dynamic Media]. Come parte del progetto di assistenza, Adobe Global Services o il partner possono fornire assistenza.
 
 +++
 
@@ -173,7 +168,7 @@ La formazione è disponibile tramite ADLS (Adobe Digital Learning Services). Le 
 +++
 
 +++**[!DNL Dynamic Media] è disponibile per tutte le aree geografiche?**
-Sì. Adobe ha centri dati in Nord America, Europa e Asia-Pacifico.
+Sì. Adobe dispone di centri dati in Nord America, Europa e Asia-Pacifico.
 
 +++
 
@@ -183,12 +178,12 @@ Adobe supporta e gestisce completamente [!DNL Dynamic Media Classic] (correzioni
 +++
 
 +++**Quanto spazio di archiviazione viene fornito con [!DNL Dynamic Media]?**
-Dynamic Medie viene fornito con 60 GB di storage. È possibile acquistare storage aggiuntivo in blocchi da 250 GB. Controlla i dettagli del tuo contratto in modo da poter ottenere la tua attuale assegnazione di storage.
+Dynamic Media viene fornito con 60 GB di storage. È possibile acquistare storage aggiuntivo in blocchi da 250 GB. Controlla i dettagli del tuo contratto in modo da poter ottenere la tua attuale assegnazione di storage.
 
 +++
 
 +++**Quale metrica viene utilizzata per misurare l&#39;utilizzo di [!DNL Dynamic Media]?**
-Visualizzazioni pagina al mese (PVM). Visualizzazione pagina indica una singola visualizzazione di un messaggio e-mail o di una pagina web di un sito Internet. Include inoltre le visualizzazioni a schermo dell’applicazione, gli stati a schermo dell’applicazione, le pagine Web per dispositivi mobili e le pagine di social network. Le visualizzazioni di pagina si verificano:
+Visualizzazioni pagina al mese (PVM). Pagina Visualizza indica una singola visualizzazione di un&#39;e-mail o di una pagina Web di un sito Internet. Include inoltre applicazione visualizzazioni dello schermo, applicazione stati dello schermo, pagine Web per dispositivi mobili e pagine di social network. Pagina vengono visualizzate le seguenti viste:
 
 * Ogni volta che si verifica il caricamento o l&#39;aggiornamento di una pagina Web
 * Quando viene caricata un’applicazione
@@ -198,7 +193,7 @@ Visualizzazioni pagina al mese (PVM). Visualizzazione pagina indica una singola 
 +++
 
 +++**Quando sarà disponibile il supporto personalizzato con [!DNL Dynamic Media]?**
-L&#39;Adobe sta lavorando intensamente per aggiungere funzionalità di contenuti multimediali personalizzati a [!DNL Dynamic Media]. Ulteriori informazioni sui tempi di rilascio sono disponibili a breve.
+Adobe sta lavorando intensamente per aggiungere funzioni per contenuti multimediali personalizzati a [!DNL Dynamic Media]. Ulteriori informazioni sui tempi di rilascio sono disponibili a breve.
 
 +++
 
@@ -207,7 +202,7 @@ Adobe esegue una convalida automatica su tutte le risorse spostate in [!DNL Dyna
 
 +++
 
-+++**Esiste un contratto di servizio per [!DNL Dynamic Media]?**
++++**Esiste un SLA per [!DNL Dynamic Media]?**
 Sì. Per ulteriori informazioni, contatta il rappresentante del team dell’account di Adobe.
 
 +++
@@ -222,11 +217,10 @@ Per ulteriori informazioni, consulta la pagina [Confronto delle funzionalità](/
 
 +++
 
-+++**Quali funzionalità sono ancora disponibili solo in [!DNL Dynamic Media Classic]? Posso effettuare l&#39;aggiornamento?**
-I clienti che richiedono i seguenti elementi possono continuare ad avere accesso alle funzionalità basate su [!DNL Dynamic Media Classic]:
++++**Quali funzionalità sono ancora disponibili solo in [!DNL Dynamic Media Classic]? Posso ancora effettuare l&#39;aggiornamento?** I clienti che richiedono quanto segue possono continuare ad avere accesso alle funzionalità avanzate [!DNL Dynamic Media Classic] :
 
 * Configuratore visivo (autore immagine, rendering immagine).
-* Modelli di immagine.
+* Immagine modelli.
 * eCatalog.
 
 Visita anche la pagina [Confronto delle funzionalità](/help/using/upgrade-feature-comparison.md) dove puoi saperne di più.
@@ -241,7 +235,7 @@ Visita anche la pagina [Confronto delle funzionalità](/help/using/upgrade-featu
 ## Servizi di consulenza
 
 +++**Posso completare da solo il processo di aggiornamento?**
-No. Collabora con il tuo rappresentante di Adobe e con l’AGS per definire l’ambito dell’aggiornamento.
+No. Collabora con il tuo rappresentante Adobe e con l’AGS per definire l’ambito dell’aggiornamento.
 
 +++
 
@@ -264,14 +258,13 @@ Telefono: 1-800-898-9743 (US) | +44 (0)20 35641782 (Regno Unito) | +81-3-6743-96
 +++**Dove posso trovare ulteriori informazioni sulle opzioni di formazione a pagamento?**
 Consulta [Adobe Digital Learning Services](https://learning.adobe.com).
 
-Per corsi di formazione personalizzati o individuali, contatta il rappresentante del team dell’account di Adobe.
+Per corsi di formazione personalizzati o individuali, contatta il rappresentante del team dell’account Adobe.
 
 +++
 
 ## Risorse aggiuntive
 
-+++**Dove
-Posso saperne di più su [!DNL Dynamic Media] e le sue funzionalità?**
++++**Dove è possibile saperne di più su [!DNL Dynamic Media] e sulle sue caratteristiche?**
 Per ulteriori informazioni su [!DNL Dynamic Media], consulta il [[!DNL Dynamic Media] microsito](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html).
 
 +++
