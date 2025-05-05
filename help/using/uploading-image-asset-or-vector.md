@@ -30,7 +30,7 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 ## Richiedi una chiave con segreto condiviso {#requesting-a-shared-secret-key}
 
-Richiedi una *chiave con segreto condiviso* da [utilizzando l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedere una chiave con segreto condiviso.
+Richiedi una *chiave con segreto condiviso* da [utilizzando l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedere una chiave con segreto condiviso.
 
 Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvarla localmente per utilizzarla in futuro.
 

@@ -60,7 +60,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
   Lo streaming video adattivo è supportato su varie piattaforme iOS.
 
-  Consulta il supporto più recente nella [Guida di riferimento visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+  Consulta il supporto più recente nella [Guida di riferimento visualizzatori di Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 

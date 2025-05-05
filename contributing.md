@@ -58,4 +58,4 @@ L&#39;Adobe accoglie con favore qualsiasi contributo. I contributi vengono esami
 
 ## Ulteriori informazioni
 
-Consulta la [Guida per i collaboratori Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) per ulteriori dettagli su come utilizzare la piattaforma di authoring GitHub.
+Consulta la [Guida per i collaboratori Adobe Docs](https://experienceleague.adobe.com/it/docs/contributor/contributor-guide/introduction) per ulteriori dettagli su come utilizzare la piattaforma di authoring GitHub.

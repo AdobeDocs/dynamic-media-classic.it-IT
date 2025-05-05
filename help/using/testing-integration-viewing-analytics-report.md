@@ -37,4 +37,4 @@ Dopo aver creato le variabili necessarie in Adobe Analytics, averle collegate ag
 >
 >Tutti i dati dei visualizzatori Adobe Dynamic Media Classic vengono visualizzati e segnalati nei rapporti Traffico personalizzato o Conversione personalizzata di Adobe Analytics.
 
-Per ulteriori informazioni, vedere [Tutorials di Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+Per ulteriori informazioni, vedere [Tutorials di Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview).
