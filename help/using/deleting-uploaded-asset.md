@@ -54,7 +54,7 @@ Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse UGC in Dynamic Medie saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
 
 >[!NOTE]
 >

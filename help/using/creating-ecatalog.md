@@ -23,11 +23,11 @@ La creazione di un eCatalog comporta l&#39;ordinamento delle pagine, la scelta d
 
 ## Creare un eCatalog {#create}
 
-È possibile includere file immagine e PDF nell&#39;eCatalog.
+È possibile includere file immagine e file PDF nell&#39;eCatalog.
 
-Quando si crea un eCatalog, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Quando si crea un eCatalog, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| Opzione &quot;Publish dopo un salvataggio&quot; selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Opzione &quot;Pubblica dopo un salvataggio&quot; selezionata prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -56,7 +56,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    * **Sequenza n.**: in Vista a elenco immettere i numeri di pagina nei campi #. sequenza
 
-1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Publish dopo un salvataggio]** (impostazione predefinita).
+1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
 1. Nella finestra di dialogo Salva, selezionate una cartella in cui memorizzare l’eCatalog. Nel campo Nome file immettere il nome del set 360 gradi.
 1. Seleziona **[!UICONTROL Salva]**.
@@ -65,9 +65,9 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Modificare un eCatalog {#editing-an-ecatalog}
 
-Se si modifica un set pubblicato o non pubblicato, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Sia che si modifichi un set pubblicato o non pubblicato, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| Il set è già pubblicato | Opzione &quot;Publish dopo un salvataggio&quot; selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | Opzione Pubblica dopo un salvataggio selezionata prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -80,7 +80,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Seleziona il pulsante di rollover **[!UICONTROL Modifica]** dell&#39;eCatalog.
 1. Apportate le modifiche necessarie.
-1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Publish dopo un salvataggio]** (impostazione predefinita).
+1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella di archiviazione, immetti un nome per il set, quindi seleziona **[!UICONTROL Salva]**.
 
 ## Eliminare un eCatalog

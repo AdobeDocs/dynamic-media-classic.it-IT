@@ -31,5 +31,5 @@ Per una migliore esperienza nell’utilizzo dell’app desktop Adobe Dynamic Med
 
 >[!MORELIKETHIS]
 >
->* [Limitazioni di Dynamic Medie](/help/using/limitations.md)
+>* [Limitazioni di Dynamic Media](/help/using/limitations.md)
 

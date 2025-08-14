@@ -19,7 +19,7 @@ ht-degree: 16%
 
 # Collegare un modello a una pagina Web{#linking-a-template-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server tramite stringhe URL. Dopo aver pubblicato un modello, Adobe Dynamic Media Classic attiva una stringa URL che fa riferimento al modello nei server immagini Dynamic Medie. Puoi incollare questo URL in un browser Web per la verifica.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite stringhe URL. Dopo aver pubblicato un modello, Adobe Dynamic Media Classic attiva una stringa URL che fa riferimento al modello nei server immagini Dynamic Media. Puoi incollare questo URL in un browser Web per la verifica.
 
 Per inserire stringhe URL nelle pagine Web e nelle applicazioni, copiarle da Adobe Dynamic Media Classic. Per ottenere una stringa dell’URL del modello generata con un predefinito immagine, passa alla schermata Anteprima o al pannello Sfoglia (in Vista dettagli). Quindi selezionate un predefinito immagine e fate clic sul pulsante Copia URL.
 
@@ -37,7 +37,7 @@ Potete ottenere una stringa URL per il modello, generata da un predefinito immag
 
 ## Aggiungere URL modello alla pagina Web {#adding-template-urls-to-your-web-page}
 
-Per aggiungere un modello alla pagina Web, consultare il team di sviluppo della pagina Web per modificare il tag `<IMG>` nel codice della pagina Web HTML. Utilizza la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Medie. Il codice del motore di e-commerce o della pagina Web dinamica inserisce l&#39;immagine modello nelle dimensioni e con le specifiche di formattazione definite dal predefinito immagine scelto per il modello.
+Per aggiungere un modello alla pagina Web, consultare il team di sviluppo della pagina Web per modificare il tag `<IMG>` nel codice della pagina Web HTML. Utilizza la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server di immagini Dynamic Media. Il codice del motore di e-commerce o della pagina Web dinamica inserisce l&#39;immagine modello nelle dimensioni e con le specifiche di formattazione definite dal predefinito immagine scelto per il modello.
 
 >[!MORELIKETHIS]
 >

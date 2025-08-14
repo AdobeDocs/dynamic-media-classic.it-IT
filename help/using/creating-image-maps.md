@@ -159,7 +159,7 @@ Per impostazione predefinita, il modello URL include un gestore Adobe Dynamic Me
 
   >[!NOTE]
   >
-  >Il gestore `loadProductPW` non supporta visualizzatori DHTML e HTML5.
+  >Il gestore `loadProductPW` non supporta i visualizzatori DHTML e HTML5.
 
 ### Creare un modello URL {#creating-a-url-template}
 
@@ -216,7 +216,7 @@ Per ulteriori informazioni, consulta la Guida di Adobe InDesign o Adobe Acrobat.
 
 1. Ripetete i passaggi da 2 a 6 per tutte le mappe immagine da creare.
 1. Esportate il file come PDF.
-1. Carica il PDF in Adobe Dynamic Media Classic.
+1. Carica PDF in Adobe Dynamic Media Classic.
 1. In **[!UICONTROL Opzioni PDF]**, selezionare **[!UICONTROL Estrai collegamenti]**.
 
 ### Per creare mappe immagine in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -234,4 +234,4 @@ Per ulteriori informazioni, consulta la Guida di Adobe InDesign o Adobe Acrobat.
 1. Digitare l&#39;ID prodotto per la mappa immagine nella casella Modifica URL e selezionare **[!UICONTROL OK]**. (Adobe Dynamic Media Classic completa l’URL utilizzando il modello URL della mappa immagine).
 1. Ripetete i passaggi da 1 a 7 per tutte le mappe immagine da creare.
 1. Salvate il file.
-1. Carica il PDF in Adobe Dynamic Media Classic e seleziona Estrai collegamenti dalle opzioni PDF.
+1. Carica PDF in Adobe Dynamic Media Classic e seleziona Estrai collegamenti dalle opzioni PDF.

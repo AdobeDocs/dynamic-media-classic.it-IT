@@ -39,9 +39,9 @@ In generale, più immagini si hanno in un set 360 gradi, migliore è l&#39;effet
 
 L’ordine in cui il set 360 gradi viene creato o creato in Adobe Dynamic Media Classic è importante. A seconda di come ordini le risorse quando trascini e rilasci le immagini nella griglia della pagina Set 360 gradi, il set 360 gradi viene ruotato in una determinata direzione. Pertanto, l’ordine in cui viene visualizzata visivamente nel generatore di è il modo in cui la risorsa viene ruotata quando un utente sposta il puntatore del mouse o il dito, da sinistra a destra.
 
-Quando si crea un set, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Quando si crea un set, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| **[!UICONTROL Publish dopo aver selezionato un&#39;opzione di salvataggio]** prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| **[!UICONTROL Pubblicare dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -54,7 +54,7 @@ Quando crei un set 360 gradi, Adobe consiglia la procedura consigliata seguente 
 | --- | --- | --- |
 | Numero massimo di righe/colonne per set 2D | 12-18 immagini per set | 1000 |
 
-Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
 
 Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di generazione del set 360 gradi per vederne l’effetto nel visualizzatore predefinito.
 
@@ -69,16 +69,16 @@ Dopo aver salvato un set 360 gradi, potete usare Anteprima nella pagina di gener
 
 1. Selezionare **[!UICONTROL OK]**.
 1. Trascinate quindi le immagini nella griglia della schermata Set 360 gradi.
-1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **Publish dopo un salvataggio** (impostazione predefinita).
+1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **Pubblica dopo un salvataggio** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
 1. Nella finestra di dialogo Salva, seleziona una cartella per la memorizzazione del set 360 gradi. Nel campo Nome file immettere il nome del set 360 gradi.
 1. Seleziona **[!UICONTROL Salva]**.
 
 ## Modificare un set 360 gradi {#editing-a-spin-set}
 
-Se si modifica un set pubblicato o non pubblicato, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Sia che si modifichi un set pubblicato o non pubblicato, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| Il set è già pubblicato | **[!UICONTROL Publish dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL Pubblicare dopo aver selezionato l&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -100,7 +100,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    * **Aggiunta di righe e celle**: immettere un numero nelle caselle Righe e Celle per determinare il numero di righe e il numero di celle in ogni riga.
 
-1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Publish dopo un salvataggio]** (impostazione predefinita).
+1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella di archiviazione, immetti un nome per il set, quindi seleziona **[!UICONTROL Salva]**.
 
 ## Eliminare un set 360 gradi

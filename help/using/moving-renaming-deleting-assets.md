@@ -49,7 +49,7 @@ le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengo
 
 >[!IMPORTANT]
 >
->L’eliminazione in blocco è un’operazione intensiva. Assicurati di eseguire le eliminazioni in blocco in sequenza anziché come operazioni di eliminazione simultanee e complesse. L’Adobe consiglia di limitare le operazioni di eliminazione a un massimo di 5000 eliminazioni di risorse all’ora. Un numero superiore a 5000 all&#39;ora può causare una limitazione della velocità.
+>L’eliminazione in blocco è un’operazione intensiva. Assicurati di eseguire le eliminazioni in blocco in sequenza anziché come operazioni di eliminazione simultanee e complesse. Adobe consiglia di limitare le operazioni di eliminazione a un massimo di 5000 eliminazioni di risorse all’ora. Un numero superiore a 5000 all&#39;ora può causare una limitazione della velocità.
 
 **Per eliminare le risorse:**
 

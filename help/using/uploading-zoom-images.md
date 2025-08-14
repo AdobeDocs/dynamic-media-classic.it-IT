@@ -31,9 +31,9 @@ Per sfruttare al meglio le funzioni Zoom di Adobe Dynamic Media Classic, prepara
 
 * **Dimensione immagine**: Adobe Dynamic Media Classic consiglia di utilizzare file di immagine di dimensioni almeno pari a 2000 pixel. per consentire agli utenti di visualizzarle chiaramente quando applicano lo zoom.
 
-* **Formati di file**: Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard. I formati includono TIFF, BMP, JPEG, PSD, GIF e EPS. Si consigliano formati di immagine senza perdita di dati, come TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
+* **Formati di file**: Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard. I formati includono TIFF, BMP, JPEG, PSD, GIF e EPS. Formati di immagini senza perdita di dati: si consigliano TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
 
-* **Spazio colore**: RGB è lo spazio colore per le presentazioni di immagini Web; le immagini CMYK vengono convertite automaticamente in RGB al momento del caricamento. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Vedi anche Profili ICC.
+* **Spazio colore**: RGB è lo spazio colore per le presentazioni di immagini Web; le immagini CMYK vengono convertite automaticamente in RGB quando vengono caricate. Per la conversione in RGB, si consiglia di caricare le immagini CMYK con un profilo colore ICC incorporato. Vedi anche Profili ICC.
 
 >[!MORELIKETHIS]
 >

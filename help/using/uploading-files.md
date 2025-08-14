@@ -26,7 +26,7 @@ Prima di caricare le risorse in Adobe Dynamic Media Classic, accertati che siano
 
 ### Formati di file di risorse supportati {#supported-asset-file-formats}
 
-In questa tabella sono elencati i formati di file di risorse supportati da Adobe Dynamic Media Classic. Per informazioni sui file Camera Raw supportati, vedere [https://helpx.adobe.com/it/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/it/camera-raw/using/supported-cameras.html).
+In questa tabella sono elencati i formati di file di risorse supportati da Adobe Dynamic Media Classic. Per informazioni sui file Camera Raw supportati, vedere [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formati di file di risorse | Descrizione |
 | --- | --- |
@@ -267,7 +267,7 @@ Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.
 
 * **Altri metadati**: immettere le parole chiave che descrivono i file che si intende caricare. Separate le parole chiave con una virgola. Le parole chiave facilitano la ricerca delle risorse.
 Consulta [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
-Vedi anche il video di formazione [Carica parole chiave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
+Vedi anche il video di formazione [Carica parole chiave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
 
 * **Predefiniti set di batch**: per creare un set di immagini, un set 360 gradi o un set di campioni dai file caricati, seleziona la colonna **[!UICONTROL Attivo]** per il predefinito che desideri utilizzare. Potete selezionare più di un predefinito. È possibile creare i predefiniti nella pagina Impostazione applicazione/Predefiniti set di batch.
 Consultate [Predefiniti per set di batch](application-setup.md#batch_set_presets).

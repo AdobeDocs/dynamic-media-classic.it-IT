@@ -19,7 +19,7 @@ ht-degree: 32%
 
 # Carica file modello{#uploading-template-files}
 
-Carica i file necessari per il modello in Adobe Dynamic Media Classic prima di iniziare a creare il modello. Puoi creare modelli da un Adobe ® Photoshop® PSD o da un file di immagine. Si consiglia di usare immagini TIFF e PNG poiché consentono la trasparenza.
+Carica i file necessari per il modello in Adobe Dynamic Media Classic prima di iniziare a creare il modello. Puoi creare modelli da un Adobe® Photoshop® PSD o da un file di immagine. Si consiglia di usare immagini TIFF e PNG poiché consentono la trasparenza.
 
 >[!NOTE]
 >

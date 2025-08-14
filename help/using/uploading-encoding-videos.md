@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3989'
+source-wordcount: '3981'
 ht-degree: 40%
 
 ---
@@ -56,7 +56,7 @@ Effettuare una delle seguenti operazioni.
 1. Nella pagina Carica, seleziona la scheda **[!UICONTROL Dal desktop]**.
 1. Nella pagina Carica, nel pannello **[!UICONTROL Seleziona file per il caricamento]**, seleziona **[!UICONTROL Sfoglia]**, individua un file video MP4, quindi seleziona **[!UICONTROL Apri]**.
 1. Nel pannello **[!UICONTROL Destinazione cartella]** scelto, seleziona una cartella per il file caricato.
-1. Nella pagina Carica, assicurati che sia selezionato **[!UICONTROL Publish dopo il caricamento]**.
+1. Nella pagina Carica, assicurati che sia selezionato **[!UICONTROL Pubblica dopo il caricamento]**.
 1. Seleziona **[!UICONTROL Invia caricamento]**.
 
 *Se desideri codificare i tuoi video utilizzando Adobe Dynamic Media Classic*
@@ -72,7 +72,7 @@ Effettuare una delle seguenti operazioni.
    * Facoltativo. Se si desidera utilizzare impostazioni di codifica singole, espandere **[!UICONTROL Predefiniti codifica singola]**, quindi selezionare le opzioni di codifica desiderate per Desktop, Mobile e Tablet.
 Consultate [Predefiniti di codifica video per computer desktop](application-setup.md#desktop-video-encoding-presets), [Predefiniti di codifica per video per dispositivi mobili](application-setup.md#mobile-video-encoding-presets), [Predefiniti di codifica per video per tablet](application-setup.md#tablet-video-encoding-presets).
 1. Nella finestra di dialogo Opzioni processo di caricamento, seleziona **[!UICONTROL Salva]**.
-1. Nella pagina Carica, assicurati che sia selezionato **[!UICONTROL Publish dopo il caricamento]**.
+1. Nella pagina Carica, assicurati che sia selezionato **[!UICONTROL Pubblica dopo il caricamento]**.
 1. Nella pagina Carica, nell&#39;angolo inferiore destro, seleziona **[!UICONTROL Invia caricamento]**.
 
 *Per codificare nuovamente un file video caricato in precedenza*
@@ -354,7 +354,7 @@ Adobe Dynamic Media Classic ha impostato i limiti massimi per la velocità dati 
    | Dispositivo di riproduzione | Scegliete il dispositivo su cui riprodurre il video. Le opzioni sono Computer (desktop), Mobile (iPhone, iPad, Android™) o Tablet (solo iPad). Questa impostazione determina automaticamente il codec video e audio appropriato utilizzato durante la codifica. |
    | Velocità dati di destinazione | Inserite una velocità di connessione Internet media (in kilobit al secondo) dell’utente finale di destinazione. Potete inserire il valore desiderato oppure trascinare il cursore per impostarlo. La gamma di velocità di connessione utente indica le velocità tipiche per connessioni banda larga, DSL, mobile e mediante modem. Questa impostazione determina automaticamente la velocità di dati audio e video combinata, ossia la quantità di dati codificati necessaria per creare un secondo di riproduzione video. Più alta è la velocità dati, migliore sarà la qualità del video. Tuttavia, valori di velocità dati elevati aumentano le dimensioni dei file a scapito dell’esperienza di visualizzazione degli utenti che dispongono di una larghezza di banda ridotta. Si consiglia quindi di trovare un compromesso tra valori di velocità dati elevati e ridotti. Prova a creare un’esperienza di riproduzione di qualità adeguata senza alienare gli utenti che dispongono di larghezze di banda ridotte. |
    | Proporzioni | Le proporzioni corrispondono al rapporto tra la larghezza e l&#39;altezza del video. Le prime due proporzioni elencate di seguito sono comunemente utilizzate per visualizzare video in orizzontale:<ul><li> 4:3: Utilizzato per quasi tutti i contenuti di trasmissione televisiva a definizione standard.</li><li>16:9: Utilizzato per quasi tutti i contenuti e i film in formato widescreen su televisori ad alta definizione (HDTV).</li><li>Scalabilità automatica: (impostazione predefinita) predefinito a codifica singola che funziona con qualsiasi proporzione per creare video per la distribuzione su dispositivi mobili, tablet e desktop. I video sorgente caricati e codificati con questo predefinito sono impostati su un’altezza specifica. Tuttavia, la larghezza viene ridimensionata automaticamente per mantenere le proporzioni del video (rapporto larghezza per altezza).</li><li>Personalizzato: utilizzato quando si desidera definire una dimensione video non standard.</li><li>Le proporzioni selezionate determinano le impostazioni di larghezza e altezza per Dimensione risoluzione. I valori di larghezza e altezza vengono automaticamente adattati alle proporzioni appropriate.</li></ul> |
-   | Dimensione risoluzione | La dimensione della risoluzione, espressa dal numero di pixel di larghezza per il numero di pixel di altezza, determina la dimensione. Immettete un valore di larghezza e altezza in pixel oppure trascinate il cursore per immettere questi valori. La gamma di risoluzioni elenca le dimensioni di risoluzioni tipiche. Il valore di larghezza e il valore di altezza si adattano automaticamente alle proporzioni selezionate. Ad esempio, se selezionate 4:3 come proporzioni e immettete 400 per la larghezza, viene immesso automaticamente 300 per l&#39;altezza. Se è stata selezionata l&#39;opzione Scala automatica per l&#39;impostazione Proporzioni, il valore Larghezza per Dimensione risoluzione viene automaticamente impostato su Automatico. Seleziona **[!UICONTROL Anteprima]** per aprire una finestra del browser e visualizzare le scelte di risoluzione. |
+   | Dimensione risoluzione | La dimensione della risoluzione, espressa dal numero di pixel di larghezza per il numero di pixel di altezza, determina la dimensione. Immettete un valore di larghezza e altezza in pixel oppure trascinate il cursore per immettere questi valori. La gamma di risoluzioni elenca le dimensioni di risoluzioni tipiche. Il valore di larghezza e il valore di altezza si adattano automaticamente alle proporzioni selezionate. Ad esempio, se si seleziona 4:3 come proporzioni e si immette 400 per la larghezza, viene immesso automaticamente 300 per l&#39;altezza. Se è stata selezionata l&#39;opzione Scala automatica per l&#39;impostazione Proporzioni, il valore Larghezza per Dimensione risoluzione viene automaticamente impostato su Automatico. Seleziona **[!UICONTROL Anteprima]** per aprire una finestra del browser e visualizzare le scelte di risoluzione. |
    | Suffisso file codifica | Inserite un suffisso. Questo suffisso viene aggiunto al file video codificato. Potete inserire un trattino o un trattino basso nel nome; gli spazi bianchi e i caratteri speciali non sono consentiti. |
    | Altre impostazioni | Adobe Dynamic Media Classic determina automaticamente tutte le altre impostazioni di codifica in base alle linee guida per la codifica consigliate. |
 
@@ -378,4 +378,4 @@ Gli amministratori possono eliminare i predefiniti per video personalizzati. Non
 >* [Guida rapida: video in Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
 >* [Carica e codifica video](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Usa predefiniti visualizzatore video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* Video di formazione su [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)
+>* Video di formazione su [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)

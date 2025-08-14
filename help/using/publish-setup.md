@@ -1,6 +1,6 @@
 ---
 title: Configurazione pubblicazione
-description: Le impostazioni di Installazione di Publish consentono di determinare il modo in cui le risorse vengono consegnate per impostazione predefinita dai server Adobe Dynamic Media Classic ai siti Web o alle applicazioni.
+description: Le impostazioni di Impostazione pubblicazione consentono di determinare il modo in cui le risorse vengono consegnate per impostazione predefinita dai server Adobe Dynamic Media Classic ai siti Web o alle applicazioni.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,15 +18,15 @@ ht-degree: 30%
 
 # Configurazione pubblicazione {#publish-setup}
 
-Le impostazioni della pagina Configurazione di Publish determinano il modo in cui le risorse vengono consegnate per impostazione predefinita dai server Adobe Dynamic Media Classic ai siti Web o alle applicazioni. Se non viene specificata alcuna impostazione, il server Adobe Dynamic Media Classic distribuisce una risorsa in base a un&#39;impostazione predefinita in una pagina di configurazione di Publish. Ad esempio, una richiesta di consegna di un&#39;immagine che non include un attributo di risoluzione restituisce un&#39;immagine con l&#39;impostazione Default Object Resolution (Risoluzione oggetto predefinita) nella pagina Image Server.
+Le impostazioni della pagina Impostazione pubblicazione determinano il modo in cui le risorse vengono consegnate per impostazione predefinita dai server Adobe Dynamic Media Classic ai siti Web o alle applicazioni. Se non viene specificata alcuna impostazione, il server Adobe Dynamic Media Classic distribuisce una risorsa in base a un’impostazione predefinita in una pagina Impostazione pubblicazione. Ad esempio, una richiesta di consegna di un&#39;immagine che non include un attributo di risoluzione restituisce un&#39;immagine con l&#39;impostazione Default Object Resolution (Risoluzione oggetto predefinita) nella pagina Image Server.
 
 Gli amministratori possono modificare le impostazioni predefinite nelle pagine Image Server, Image Renderer e Vignettatura per definire le impostazioni predefinite per la consegna delle risorse dai server.
 
-Per aprire le pagine di Installazione di Publish, passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Installazione di Publish]**.
+Per aprire le pagine di Impostazione pubblicazione, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]**.
 
 >[!NOTE]
 >
->Le pagine di Installazione di Publish sono destinate all&#39;utilizzo da parte di sviluppatori e programmatori esperti di siti Web. Adobe Dynamic Media Classic presuppone che gli utenti che modificano le impostazioni su queste pagine abbiano familiarità con Adobe Dynamic Media Classic, gli standard e le convenzioni del protocollo HTTP e la tecnologia di imaging di base.
+>Le pagine di Impostazione pubblicazione sono destinate all&#39;utilizzo da parte di sviluppatori e programmatori esperti di siti Web. Adobe Dynamic Media Classic presuppone che gli utenti che modificano le impostazioni su queste pagine abbiano familiarità con Adobe Dynamic Media Classic, gli standard e le convenzioni del protocollo HTTP e la tecnologia di imaging di base.
 
 ## Image Server {#image-server}
 
@@ -34,7 +34,7 @@ La pagina Image Server stabilisce le impostazioni predefinite per la consegna di
 
 Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del supporto Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Gestione catalogo]**: queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server Web, le chiamate URL del server immagini di Dynamic Medie vanno a un file manifesto o catalogo anziché a un file immagine propriamente detto. Il file catalogo (da non confondere con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini. Contiene anche il percorso di ogni immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
+* **[!UICONTROL Gestione catalogo]**: queste impostazioni determinano il modo in cui Adobe Dynamic Media Classic e il catalogo interagiscono. A differenza della maggior parte dei server Web, le chiamate URL del server immagini Dynamic Media vanno a un file manifesto o catalogo anziché a un file immagine propriamente detto. Il file catalogo (da non confondere con un eCatalog) contiene un elenco di tutti i contenuti pubblicati sul server immagini. Contiene anche il percorso di ogni immagine. Se disponete di un ID Digimarc, inserite i vostri dati nella sezione Informazioni utente Digimarc.
 
 * **[!UICONTROL Attributi richiesta]**: queste impostazioni impongono limiti alle immagini che possono essere consegnate dal server. Ad esempio, il *massimo* **[!UICONTROL limite dimensioni immagine di risposta]** è **[!UICONTROL larghezza]** 5000 e **[!UICONTROL altezza]** 5000.
 
@@ -53,7 +53,7 @@ Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del 
   Ad esempio, se fate parte di una società multinazionale che vende in diversi paesi, potete mettere a punto un visualizzatore localizzato specifico per ciascun paese. A questo scopo, dovete innanzi tutto specificare una stringa di mappa lingua. Quindi modifichi il testo della descrizione comando nel predefinito di un Visualizzatore. È sufficiente aggiungere le stringhe di testo tradotte per la lingua desiderata.
 
   >[!NOTE]
-  > Per impostare le opzioni di supporto per la localizzazione, [utilizzare l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
+  > Per impostare le opzioni di supporto per la localizzazione, [ utilizza Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
 
   Per ulteriori informazioni sull’impostazione del **[!UICONTROL supporto per la localizzazione]**, consultate [Considerazioni per l’impostazione della localizzazione delle risorse](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +61,7 @@ Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del 
 
 >[!NOTE]
 >
->Se si desidera impostare le opzioni di supporto per la localizzazione in Adobe Dynamic Media Classic, ad esempio il campo Mappa lingua, [utilizzare l&#39;Admin Console per creare un caso di supporto.](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
+>Se si desidera impostare le opzioni di supporto per la localizzazione in Adobe Dynamic Media Classic, ad esempio il campo Mappa lingua, [utilizzare Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
 
 Un modo comune per utilizzare Adobe Dynamic Media Classic è quello di gestire le immagini del prodotto sui siti web e-Commerce. Le aziende internazionali devono poter gestire risorse per prodotti simili ma diverse da paese a paese. Di solito le differenze sono per alcune parti del media generale. Affrontare queste differenze copiando tutte le risorse per ciascuno dei paesi e sovrascrivere solo le differenze è uno sforzo tremendo e contraddice la singola metafora della risorsa primaria. Le differenze nelle risorse possono spaziare da video specifici per i singoli paesi con tracce audio distinte, a cavi elettrici diversi da usare con un prodotto. Adobe Dynamic Media Classic utilizza un meccanismo di ricerca di base. Potete definire l’ordine di suffissi per risorse che il server immagini deve seguire per le ricerche, a partire dalla lingua richiesta.
 
@@ -109,7 +109,7 @@ Con la localizzazione, un URL del server immagini aggiunge il parametro `locale=
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Al ricevimento della chiamata http da parte del server immagini, il parametro `locale=` viene analizzato nel campo `localeMap` trovato nel gruppo **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Installazione di Publish]** > **[!UICONTROL Server immagini]** > **[!UICONTROL Supporto localizzazione]**.
+Al ricevimento della chiamata http da parte del server immagini, il parametro `locale=` viene analizzato attraverso il campo `localeMap` trovato nel gruppo **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**.
 
 Il campo Mappa lingua contiene un elenco di voci separate con il simbolo di barra verticale (|).
 

@@ -27,7 +27,7 @@ I set 360 gradi accettano le mappe immagine. Una mappa immagine è un’area del
 
 Consulta [Creare mappe immagine](creating-image-maps.md).
 
-Guarda il video di formazione su [Set di immagini e 360 gradi: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+Vedi [Set di immagini e 360 gradi: video di formazione su Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
 Quando crei un set 360 gradi, Adobe consiglia le best practice seguenti e applica i limiti seguenti:
 
@@ -39,7 +39,7 @@ Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
 
 Questo avvio rapido per set 360 gradi è progettato per aiutarti a iniziare rapidamente a utilizzare le tecniche del set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Alla fine di ogni passaggio, puoi selezionare un collegamento ad argomento per ulteriori informazioni.
 
-## 1. Creare e caricare le immagini
+## &#x200B;1. Creare e caricare le immagini
 
 Occorrono almeno da 8 a 12 scatti di uno stesso elemento per creare un set 360 gradi monodimensionale e da 16 a 24 scatti per un set 360 gradi bidimensionale. Gli scatti devono essere effettuati a intervalli regolari per dare l’impressione che l’elemento stia ruotando e si stia capovolgendo. Ad esempio, se un set 360/12) include 12 scatti, ruotate l&#39;elemento di 30° per ogni scatto.
 
@@ -47,19 +47,19 @@ Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per carica
 
 Consultate [Linee guida per lo scatto di immagini per set 360 gradi](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
-## 2. Creare un set 360 gradi
+## &#x200B;2. Creare un set 360 gradi
 
 Per creare un set 360 gradi, sulla barra di navigazione globale vai a **[!UICONTROL Build]** > **[!UICONTROL Set 360 gradi]**. Nella finestra di dialogo Dimensione set 360 gradi scegliere il numero di righe e celle desiderato e selezionare **[!UICONTROL OK]**. Trascinate quindi le immagini nella griglia della pagina Set 360 gradi.
 
 Vedere [Creare un set 360 gradi](creating-spin-set.md#creating-a-spin-set).
 
-## 3. Modificare un set 360 gradi
+## &#x200B;3. Modificare un set 360 gradi
 
 Per modificare un set 360 gradi, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**. Selezionare un set 360 gradi, quindi selezionare **[!UICONTROL Modifica]**. Aggiungete, rimuovete e modificate la posizione delle immagini. Potete modificare la posizione delle righe in set 360 gradi bidimensionali.
 
 Vedi [Modificare un set 360 gradi](creating-spin-set.md#editing-a-spin-set).
 
-## 4. Impostare i predefiniti visualizzatore per set 360 gradi
+## &#x200B;4. Impostare i predefiniti visualizzatore per set 360 gradi
 
 Gli amministratori possono creare predefiniti per visualizzatori di set 360 gradi che consentono di determinare l’aspetto del visualizzatore per set 360 gradi. Per impostare un nuovo predefinito visualizzatore per set 360 gradi, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]** nella barra di navigazione globale.
 
@@ -67,21 +67,21 @@ Nella pagina Predefiniti visualizzatore, selezionare **[!UICONTROL Aggiungi]**, 
 
 Consulta [Imposta predefiniti visualizzatore set 360 gradi](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
-## 5. Anteprima di un set 360 gradi
+## &#x200B;5. Anteprima di un set 360 gradi
 
 Seleziona il set 360 gradi nel pannello Sfoglia, quindi seleziona **[!UICONTROL Anteprima]**. Nella pagina Anteprima, tenere premuto il pulsante del mouse e trascinare il puntatore verso sinistra o verso destra per &quot;ruotare&quot; visivamente l&#39;elemento.
 
 Vedere [Anteprima di un set 360 gradi](previewing-spin-set.md#previewing-a-spin-set).
 
-## 6. Publish un set 360 gradi
+## &#x200B;6. Pubblicare un set 360 gradi
 
 Quando si pubblica un set 360 gradi, questo viene posizionato sui server Adobe Dynamic Media Classic e può essere distribuito in modo dinamico al sito Web o all&#39;applicazione. Attiva inoltre la stringa URL che chiama il set 360 gradi dai server immagini Dynamic Media al sito Web o all&#39;applicazione.
 
-Per pubblicare un set 360 gradi, contrassegnalo per la pubblicazione selezionando l&#39;icona **[!UICONTROL Contrassegna per Publish]** accanto al nome nel pannello Sfoglia. Sulla barra di spostamento globale, selezionare **[!UICONTROL Publish]** per avviare una pubblicazione. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia Publish]**.
+Per pubblicare un set 360 gradi, contrassegnalo per la pubblicazione selezionando l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** accanto al nome nel pannello Sfoglia. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]** per avviare una pubblicazione. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
 
-Vedi [Publish un set 360 gradi](publishing-spin-set.md#publishing-a-spin-set).
+Vedi [Pubblicare un set 360 gradi](publishing-spin-set.md#publishing-a-spin-set).
 
-## 7. Collegare un set 360 gradi a una pagina web
+## &#x200B;7. Collegare un set 360 gradi a una pagina web
 
 Adobe Dynamic Media Classic crea stringhe di callout URL per i set 360 gradi e le attiva dopo che sono stati pubblicati. Puoi copiare questi URL dalla pagina di anteprima.
 

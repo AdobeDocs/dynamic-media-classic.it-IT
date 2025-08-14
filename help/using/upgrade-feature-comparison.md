@@ -8,14 +8,14 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 3%
 
 ---
 
 # Confronto delle funzioni
 
-Tabella di confronto delle funzionalità tra [!DNL Dynamic Media] nell&#39;applicazione desktop [!DNL Adobe Experience Manager] Assets e [!DNL Adobe Dynamic Media Classic]. ✓ Un &quot;&quot; indica che la funzione è disponibile nel o con il software; un &quot;-&quot; indica che non lo è.
+Tabella di confronto delle funzionalità tra [!DNL Dynamic Media] nell&#39;applicazione desktop [!DNL Adobe Experience Manager] Assets e [!DNL Adobe Dynamic Media Classic]. Un &quot;✓&quot; indica che la funzionalità è disponibile in o con il software; un &quot;-&quot; indica che non lo è.
 
 | Funzionalità | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Classico] |
 | :--- | :---: | :---: |
@@ -44,7 +44,7 @@ Tabella di confronto delle funzionalità tra [!DNL Dynamic Media] nell&#39;appli
 | Visual Configurator<br>(personalizzazione prodotto) | ✓<br>*Bundle multimediale personalizzato* | ✓ |
 | 3D: componente Experience Manager Sites<br>WCM | ✓ | : |
 | 3D: Visualizzatore esperienza interattivo | ✓ | : |
-| 3D: Publish AR/VR e file 3D di base | ✓ | : |
+| 3D: pubblicazione di file AR/VR e 3D di base | ✓ | : |
 | Caroselli | ✓ | : |
 | Supporti commerciali/interattivi: immagini | ✓ | : |
 | Contenuti multimediali acquistabili/interattivi: video | ✓ | : |
@@ -52,4 +52,4 @@ Tabella di confronto delle funzionalità tra [!DNL Dynamic Media] nell&#39;appli
 | Ritaglio avanzato: video | ✓ | : |
 | Selezione miniature video | ✓ | : |
 | Visualizzatore Designer | ✓ | : |
-| YouTube Publish | ✓ | : |
+| Pubblicazione YouTube | ✓ | : |

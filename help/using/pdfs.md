@@ -19,7 +19,7 @@ ht-degree: 25%
 
 # Utilizzare i PDF{#working-with-pdfs}
 
-I file PDF (Portable Document Format) vengono utilizzati più spesso in Adobe Dynamic Media Classic per la creazione di eCatalog. Quando carichi un file di PDF, Adobe Dynamic Media Classic rasterizza o rimuove le pagine per impostazione predefinita, in modo che possano essere utilizzate per creare contenuti rich media.
+I file PDF (Portable Document Format) vengono spesso utilizzati in Adobe Dynamic Media Classic per la creazione di eCatalog. Quando carichi un file PDF, Adobe Dynamic Media Classic rasterizza o rimuove le pagine per impostazione predefinita, in modo che possano essere utilizzate per creare rich media.
 
 Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente limite:
 
@@ -27,13 +27,13 @@ Quando carichi un PDF per l’estrazione della pagina, Adobe applica il seguente
 | --- | --- | --- |
 | Numero massimo di pagine per un PDF da considerare per l’estrazione | 5000 (per nuovi caricamenti) | 100 (per tutti i PDF) |
 
-Vedi anche [Limitazioni di Dynamic Medie](/help/using/limitations.md).
+Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
 
 ## Opzioni di caricamento PDF {#pdf-upload-options}
 
 Quando caricate un file PDF potete formattarlo in vari modi. Potete ritagliare pagine, estrarre parole di ricerca, immettere un valore di risoluzione in ppi e scegliere uno spazio colore. I file PDF spesso contengono un margine di ritaglio, indicatori di ritaglio, indicatori di registrazione e altri indicatori della stampante. Durante il caricamento di un file PDF potete ritagliare tali indicatori dai lati delle pagine.
 
-Le opzioni per il caricamento dei file di PDF si trovano nella sezione Opzioni di PDF della pagina Carica.
+Le opzioni per il caricamento dei file PDF si trovano nella sezione Opzioni di PDF della pagina Carica.
 
 ### Opzioni di elaborazione
 
@@ -41,9 +41,9 @@ Le opzioni per il caricamento dei file di PDF si trovano nella sezione Opzioni d
 
 **[!UICONTROL Estrai parole di ricerca]**: estrae parole dal file PDF in modo che le parole chiave nel file possano essere cercate in un visualizzatore eCatalog.
 
-**[!UICONTROL Estrai collegamenti]**: estrae i collegamenti dai file PDF e li converte in mappe immagine utilizzate in un visualizzatore eCatalog.
+**[!UICONTROL Estrai collegamenti]**: estrae i collegamenti dai file di PDF e li converte in mappe immagine utilizzate in un visualizzatore eCatalog.
 
-**[!UICONTROL Generazione automatica eCatalog con PDF multipagina]**: creazione automatica di un eCatalog dal file PDF. All’eCatalog viene assegnato un nome in base al file PDF caricato. Questa opzione è disponibile solo se il file PDF viene rasterizzato al momento del caricamento.
+**[!UICONTROL Generazione automatica eCatalog con PDF a più pagine]**: crea automaticamente un eCatalog dal file PDF. All’eCatalog viene assegnato un nome in base al file PDF caricato. Questa opzione è disponibile solo se il file PDF viene rasterizzato al momento del caricamento.
 
 ### Risoluzione
 
@@ -55,7 +55,7 @@ Dal menu Spazio colore scegliete uno spazio colore per il file PDF. La maggior p
 
 * **[!UICONTROL Rileva automaticamente]**: mantiene lo spazio colore del file PDF.
 
-* **[!UICONTROL Forza come RGB]**: viene convertito nello spazio colore RGB.
+* **[!UICONTROL Forza come RGB]**: viene convertito nello spazio colore di RGB.
 
 * **[!UICONTROL Forza come CMYK]**: viene convertito nello spazio colore CMYK.
 
@@ -86,7 +86,7 @@ Puoi ritagliare automaticamente i pixel dello spazio vuoto da un file PDF durant
 
    * **[!UICONTROL Tolleranza]**: trascinare il dispositivo di scorrimento per specificare una tolleranza da 0 a 1.
 
-   * **[!UICONTROL Rifilatura in base al colore]**: specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo del PDF. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+   * **[!UICONTROL Rifilatura in base al colore]**: specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo di PDF. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
 
    * **[!UICONTROL Taglio basato sulla trasparenza]**: specificare 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
 

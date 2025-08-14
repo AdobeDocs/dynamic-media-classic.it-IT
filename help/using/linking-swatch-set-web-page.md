@@ -48,7 +48,7 @@ Dopo aver pubblicato un set di campioni, potete utilizzare l&#39;URL o il codice
 
 Il modo più comune per distribuire i set di campioni consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di campioni in una finestra di zoom popup. Il collegamento di zoom apre una finestra pop-up contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, vedere [Embedding HTML5 Zoom Viewer in the Adobe Viewers Reference Guide](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedere [Incorporazione del visualizzatore zoom di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiare il codice di incorporamento di un visualizzatore di set di campioni {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -81,4 +81,4 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Pubblica](publishing-files.md#publishing_files)

@@ -83,7 +83,7 @@ In Maschera di contrasto, impostate le opzioni desiderate come descritto nella s
 
 Vedi anche [Contrassegnare un&#39;immagine](sharpening-image.md#sharpening_an_image).
 
-Vedi anche [Immagini più nitide in Adobe Dynamic Medie e sul server immagini](/help/using/assets/s7_sharpening_images.pdf).
+Vedi anche [Immagini più nitide in Adobe Dynamic Media e sul server immagini](/help/using/assets/s7_sharpening_images.pdf).
 
 ## Foratura sfondo
 
@@ -93,7 +93,7 @@ Utilizza Foratura sfondo per rimuovere automaticamente lo sfondo di un&#39;immag
 | --- | --- |
 | Foratura sfondo | Selezionare per attivare o &quot;attivare&quot; la funzione e le opzioni di Foratura sfondo. |
 | Angolo | Obbligatorio.<br>Angolo dell&#39;immagine utilizzato per definire il colore di sfondo da ritagliare.<br>È possibile scegliere tra <b>Superiore sinistro, Inferiore sinistro, Superiore destro o Inferiore destro</b>. |
-| Metodo di riempimento | Obbligatorio. <br>Controlla la trasparenza dei pixel dalla posizione dell&#39;angolo impostata.<br>È possibile scegliere uno dei seguenti metodi di riempimento:<br>· <b>Riempimento Flood</b>: rende trasparenti tutti i pixel che corrispondono all&#39;angolo specificato e ad esso sono connessi.<br>· <b>Corrispondenza pixel</b>: rende trasparenti tutti i pixel corrispondenti, indipendentemente dalla loro posizione sull&#39;immagine. |
+| Metodo di riempimento | Obbligatorio. <br>Controlla la trasparenza dei pixel dalla posizione dell&#39;angolo impostata.<br>È possibile scegliere uno dei seguenti metodi di riempimento:<br>· <b>Riempimento completo</b>: rende trasparenti tutti i pixel che corrispondono all&#39;angolo specificato e a esso sono connessi.<br>· <b>Corrispondenza pixel</b>: rende trasparenti tutti i pixel corrispondenti, indipendentemente dalla loro posizione sull&#39;immagine. |
 | Tolleranza | Facoltativo.<br>Controlla la quantità di variazione consentita nella corrispondenza dei colori dei pixel in base alla posizione dell&#39;angolo impostata.<br>Utilizzare un valore di 0,0 per far corrispondere esattamente i colori dei pixel. In alternativa, utilizza il valore 1.0 per consentire la variazione più grande. |
 
 >[!MORELIKETHIS]

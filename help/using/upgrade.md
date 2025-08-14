@@ -1,5 +1,5 @@
 ---
-title: Aggiorna da Adobe [!DNL Dynamic Media Classic] a [!DNL Dynamic Media] su [!DNL Experience Manager] Assets
+title: Aggiornamento da Adobe [!DNL Dynamic Media Classic] a [!DNL Dynamic Media] su [!DNL Experience Manager] Assets
 description: 'Aggiorna da [!DNL Adobe Dynamic Media Classic] a [!DNL Dynamic Media] il [!DNL Adobe Experience Manager]. Scopri i vantaggi e le funzionalità chiave di  [!DNL Dynamic Media]. Consulta l’elenco delle funzioni: confronto, domande frequenti sull’aggiornamento e elenco di controllo della disponibilità.'
 feature: Dynamic Media Classic
 role: Admin,User
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Perché effettuare l&#39;aggiornamento a [!DNL Dynamic Media]?
 
-L&#39;Adobe ha creato [!DNL Dynamic Media] pensando a te.
+Adobe ha creato [!DNL Dynamic Media] pensando a te.
 
-Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle funzionalità che ci si aspetta da [!DNL Dynamic Media Classic] (in precedenza Scene7). Offre alla tua organizzazione strumenti nuovi e migliorati per creare esperienze migliori, più coinvolgenti.
+Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle funzionalità previste da [!DNL Dynamic Media Classic] (precedentemente Scene7). Offre alla tua organizzazione strumenti nuovi e migliorati per creare esperienze migliori, più coinvolgenti.
 
-[!DNL Dynamic Media] aggiorna l&#39;esperienza di creazione dei contenuti utilizzando generatori visivi in tempo reale. Posizionandosi in cima alla rete di distribuzione comprovata, affidabile e scalabile di Adobe e abbinato all&#39;intuitiva interfaccia utente [!DNL Adobe Experience Manager], [!DNL Dynamic Media] offre le funzionalità necessarie per creare, eseguire iterazioni e fornire esperienze coinvolgenti e di livello successivo.
+[!DNL Dynamic Media] aggiorna l&#39;esperienza di creazione dei contenuti utilizzando generatori visivi in tempo reale. Posizionato in cima alla rete di distribuzione comprovata, affidabile e scalabile di Adobe e abbinato all&#39;intuitiva interfaccia utente [!DNL Adobe Experience Manager], [!DNL Dynamic Media] offre le funzionalità necessarie per creare, eseguire iterazioni e fornire esperienze coinvolgenti e di livello successivo.
 
 | Informazioni su [!DNL Dynamic Media] | Descrizione |
 | --- | --- |
 | Approccio basato sul file principale | Carica una risorsa di dimensioni intere, quindi [!DNL Dynamic Media] crea automaticamente le dimensioni necessarie. |
 | Semplicità di authoring | Crea, personalizza e avvia rapidamente esperienze avanzate senza richiedere assistenza tecnica. |
-| Interfaccia intuitiva | Modifica i visualizzatori di immagini e i lettori video con un’interfaccia WYSIWYG (What You See It What You Get) di facile utilizzo. |
+| Interfaccia intuitiva | Modifica i visualizzatori di immagini e i lettori video con un&#39;interfaccia WYSIWYG (What You See It What You Get) di facile utilizzo. |
 | Contenuti multimediali acquistabili | Crea immagini, video e caroselli acquistabili con hotspot per immagini e collegamenti selezionabili. |
 | CDN scalabile | Accedi alla rete CDN (Content Delivery Network) all&#39;avanguardia con scalabilità e prestazioni comprovate per soddisfare qualsiasi esigenza. |
 | Dynamic Imaging | Utilizzando un file principale, genera e pubblica automaticamente versioni illimitate, modificando dimensioni, formato, risoluzione, ritaglio o effetto. |
@@ -39,7 +39,7 @@ Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle f
 
 * Esperienza e integrazione senza soluzione di continuità e unificate con [!DNL Adobe Experience Manager]: configurazione e distribuzione dinamica di contenuti avanzati da un unico archivio, da un&#39;unica origine
 * Nuova esperienza utente incentrata sul marketing per semplificare l&#39;authoring e la distribuzione di contenuti rich media
-* Gli editor WYSIWYG (What You See Is What You Get) e di comportamento per gli utenti che visualizzano immagini e i lettori video.
+* Editor del look and feel e del comportamento di WYSIWYG (What You See Is What You Get) per i visualizzatori di immagini e i lettori video.
 * Creazione e distribuzione più rapida di esperienze multimediali commerciali/interattive, inclusi hotspot di immagini e video acquistabili
 
 ### Funzionalità di [!DNL Dynamic Media] in [!DNL Experience Manager] Assets

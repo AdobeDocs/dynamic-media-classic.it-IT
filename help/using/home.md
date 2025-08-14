@@ -1,6 +1,6 @@
 ---
 title: Guida di Adobe Dynamic Media Classic
-description: Con i documenti sui Cloud Service AEM puoi trovare ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic per gestire i tuoi video, i menu a comparsa e altro ancora.
+description: Scopri come gestire i video con Adobe Dynamic Media Classic, i menu a comparsa e altro ancora con la documentazione di AEM Cloud Services.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
@@ -20,13 +20,13 @@ Ti diamo il benvenuto nella Guida di Adobe Dynamic Media Classic. Qui puoi acced
 
 ## Nuovo accesso a Adobe Dynamic Media Classic disponibile il 30 giugno 2020
 
-Il 30 giugno 2020, gli utenti di Dynamic Media Classic hanno ottenuto l’accesso a un nuovo accesso che non si basa più sulla tecnologia del Flash Adobe nel browser.
+Il 30 giugno 2020, gli utenti di Dynamic Media Classic hanno ottenuto l’accesso a un nuovo accesso che non si basa più sulla tecnologia Adobe Flash nel browser.
 
 Consulta [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti al 7 maggio 2020.
 
-## Risorse per sviluppatori Dynamic Medie
+## Risorse per sviluppatori Dynamic Media
 
-* [Pagina di destinazione Risorse per sviluppatori Dynamic Medie](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources): include:
+* [Pagina di destinazione delle risorse per sviluppatori Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): include:
    * Guida di riferimento visualizzatori
    * API Image Server/Image Rendering
    * API Image Production System
@@ -35,15 +35,15 @@ Consulta [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti al 7 maggio 20
 
 ## Risorse utente di Adobe Dynamic Media Classic
 
-* [Newsletter mensile Dynamic Medie](dynamic-media-newsletter.md)
-* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/it/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Newsletter mensile Dynamic Media](dynamic-media-newsletter.md)
+* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guida: best practice per migliorare la nitidezza delle immagini](/help/using/assets/s7_sharpening_images.pdf)
 * [Guida: come Adobe Dynamic Media Classic supporta SEO](/help/using/assets/s7_seo.pdf): i motori di ricerca oggi abilitano la ricerca di siti Web e immagini. Adobe Dynamic Media Classic supporta gli sforzi per rendere le immagini compatibili con i motori di ricerca in modo che venga indirizzato più traffico al sito web dell’utente Adobe Dynamic Media Classic. Questa guida in PDF offre informazioni di base e consigli sull’implementazione da seguire.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
 * [Webinar: Procedure consigliate per la distribuzione di esperienze interattive con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): scopri come inserire e rimuovere contenuti in Adobe Dynamic Media Classic e configurare predefiniti immagine per prestazioni ed esperienze ottimali. Scopri anche i predefiniti per visualizzatori e le configurazioni di memorizzazione in cache.
-* [Webinar: Massimizzare il ROI delle risorse](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): scopri le best practice del settore per distribuire rich media tra i siti e le app mobili. In questo webinar, un Adobe fornisce esempi e dimostrazioni che mostrano come distribuire video in modo efficiente tra i dispositivi. Scopri come offrire creatività dinamica nelle campagne di marketing. Oppure, aumenta la conversione rendendo qualsiasi immagine, guida di stile o lookbook acquistabile.
+* [Webinar: Massimizzare il ROI delle risorse](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): scopri le best practice del settore per distribuire rich media tra i siti e le app mobili. In questo webinar, Adobe offre esempi e dimostrazioni che mostrano come distribuire video in modo efficiente tra i dispositivi. Scopri come offrire creatività dinamica nelle campagne di marketing. Oppure, aumenta la conversione rendendo qualsiasi immagine, guida di stile o lookbook acquistabile.
 * [Webinar: Accelerare il ciclo di vita della distribuzione dei contenuti](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): introduzione e dimostrazione di Adobe Experience Manager Assets: On Demand, la piattaforma di nuova generazione per la gestione e la distribuzione di rich media. Scopri come collaborare e condividere le risorse tra i team creativi e di marketing per semplificare i processi di revisione delle risorse. Scopri le best practice per gestire in modo efficiente i metadati delle risorse. In questo modo le risorse possono essere facilmente trovate, utilizzate, riutilizzate e condivise. Scopri anche come offrire esperienze multimediali avanzate interattive cross-channel.
-* [Webinar: Progettazione per l&#39;ottimizzazione mobile](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): con Adobe Dynamic Media Classic puoi distribuire in modo efficiente rich media mirati a tutti i dispositivi. Scopri come progettare e fornire esperienze di visualizzazione di immagini e video efficaci per le app mobili e i siti reattivi.
+* [Webinar: Progettazione per l&#39;ottimizzazione mobile](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): con Adobe Dynamic Media Classic puoi distribuire in modo efficiente rich media mirati a tutti i dispositivi. Scopri come progettare e fornire esperienze di visualizzazione di immagini e video efficaci per le app mobili e i siti reattivi.
 * [Webinar: Utilizzo di Adobe Dynamic Media Classic per massimizzare la conversione delle feste](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): scopri come impostare flussi di lavoro automatizzati per ottenere contenuti dalle cartelle visualizzate e creare automaticamente set 360 gradi e video. Scopri anche come gestire rapidamente le modifiche e aggiornare le immagini.
 
 ## Formazione su Adobe Dynamic Media Classic

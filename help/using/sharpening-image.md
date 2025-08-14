@@ -29,7 +29,7 @@ Tuttavia, sia che si utilizzino i predefiniti per immagini e i predefiniti per v
 
 >[!NOTE]
 >
->il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini definisce le dimensioni e la formattazione delle immagini distribuite dai server immagini Dynamic Medie. Adobe Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti immagine per fornire tutte le immagini in modo che vengano distribuite con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
+>il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini governa le dimensioni e la formattazione con cui le immagini vengono distribuite dai server immagini Dynamic Media. Adobe Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti immagine per fornire tutte le immagini in modo che vengano distribuite con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
 
 È spesso necessario rendere le immagini più nitide. Adobe Dynamic Media Classic e Image Server offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
 
@@ -37,11 +37,11 @@ La nitidezza aumenta il contrasto tra i pixel dell’immagine in modo da accentu
 
 L&#39;eccessiva nitidezza di un&#39;immagine crea un effetto alone o striatura delle linee del bordo.
 
-È possibile seguire alcune best practice per ottimizzare la nitidezza delle immagini in Adobe Dynamic Media Classic e su Dynamic Medie Image Server.
+È possibile seguire alcune best practice per ottimizzare la nitidezza delle immagini in Adobe Dynamic Media Classic e su Dynamic Media Image Server.
 
-Consulta [Best practice per la nitidezza delle immagini in Adobe Dynamic Media Classic e su Dynamic Medie Image Server](/help/using/assets/s7_sharpening_images.pdf).
+Consulta [Best practice per la nitidezza delle immagini in Adobe Dynamic Media Classic e su Dynamic Media Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-Vedi anche il video di formazione [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
+Vedi anche il video di formazione [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 **Per rendere più nitida un&#39;immagine:**
 
@@ -58,7 +58,7 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 | Nome | Protocollo URL | Valori | Esempio |
 | --- | --- | --- | --- |
 | Nitidezza semplice | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
-| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bicubica. Utilizzo intensivo della CPU superiore a `bilin`, ma con immagini più nitide e meno artefatti di aliasing.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo di CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia risoluzioni superiori che inferiori, se disponibile. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
+| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bicubica. Maggiore intensità di CPU rispetto a `bilin`, ma produce immagini più nitide con meno artefatti di aliasing visibili.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia risoluzioni superiori che inferiori, se disponibile. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
 | Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di forza del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello soglia del filtro (int 0...255)<br><br>`monochrome`: impostato su `0` per rimuovere la maschera di contrasto separatamente per ogni componente di colore, impostato su `1` per rimuovere la maschera di contrasto della luminosità (intensità) dell&#39;immagine | `op_usm=1,1,10,0` |
 
 Selezionare il menu **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
@@ -95,15 +95,15 @@ Selezionare il menu **[!UICONTROL Ricampionamento]** e scegliere un&#39;opzione.
 
 * **[!UICONTROL Bilineare]**: il metodo di ricampionamento più veloce. Alcuni artefatti di aliasing sono visibili.
 
-* **[!UICONTROL Bicubico]**: aumenta l&#39;utilizzo della CPU nel server immagini, ma genera immagini più nitide con artefatti di aliasing meno evidenti.
+* **[!UICONTROL Bicubico]**: aumenta l&#39;utilizzo di CPU sul server immagini, ma genera immagini più nitide con artefatti di alias meno evidenti.
 
-* **[!UICONTROL `Sharpen 2`]**: produce risultati leggermente più nitidi rispetto a **[!UICONTROL Bicubic]**, ma a un costo della CPU ancora più elevato sul server immagini.
+* **[!UICONTROL `Sharpen 2`]**: produce risultati leggermente più nitidi rispetto a **[!UICONTROL Bicubic]**, ma a un costo CPU ancora più elevato sul server immagini.
 
 * **[!UICONTROL Trilineare]**: usa risoluzioni più alte e più basse se disponibili; consigliato solo quando l&#39;aliasing è un problema. Questo metodo riduce le dimensioni JPEG grazie a una minore quantità di dati ad alta frequenza.
 
 **Predefiniti immagine e nitidezza**
 
-Potete incorporare tutti e tre gli effetti di nitidezza per ottenere il risultato finale. Tuttavia, questo metodo non è consigliato. Adobe Dynamic Media Classic consiglia di salvare gli effetti di nitidezza come parte di un predefinito immagine. I predefiniti per immagini consentono di creare un pacchetto dei modificatori di immagini più utilizzati per creare un&#39;immagine ridimensionata dinamicamente in una piccola stringa di testo. Un predefinito immagine contiene valori per il formato file (in genere JPEG per il web), il conteggio dei pixel e la nitidezza delle immagini. Invece di aggiungere l’URL a ogni modificatore di immagine da utilizzare per creare un tipo specifico di dimensione dell’immagine, crea un predefinito immagine denominato, ad esempio &quot;miniatura&quot;. Quindi, configura il predefinito per immagini miniatura con le dimensioni, il formato di file e le opzioni di nitidezza appropriati. Chiama l’immagine utilizzando il nome del predefinito immagine. I predefiniti per immagini riducono la lunghezza dell’URL complessivo. Questi due URL producono la stessa immagine 350x350 JPEG con nitidezza:
+Potete incorporare tutti e tre gli effetti di nitidezza per ottenere il risultato finale. Tuttavia, questo metodo non è consigliato. Adobe Dynamic Media Classic consiglia di salvare gli effetti di nitidezza come parte di un predefinito immagine. I predefiniti per immagini consentono di creare un pacchetto dei modificatori di immagini più utilizzati per creare un&#39;immagine ridimensionata dinamicamente in una piccola stringa di testo. Un predefinito immagine contiene valori per il formato file (in genere JPEG per il web), il conteggio dei pixel e la nitidezza delle immagini. Invece di aggiungere l’URL a ogni modificatore di immagine da utilizzare per creare un tipo specifico di dimensione dell’immagine, crea un predefinito immagine denominato, ad esempio &quot;miniatura&quot;. Quindi, configura il predefinito per immagini miniatura con le dimensioni, il formato di file e le opzioni di nitidezza appropriati. Chiama l’immagine utilizzando il nome del predefinito immagine. I predefiniti per immagini riducono la lunghezza dell’URL complessivo. Questi due URL producono la stessa immagine JPEG 350x350 con nitidezza:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -116,17 +116,17 @@ Se utilizzi un predefinito per ogni immagine in una categoria di dimensioni, qua
 
 Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
-* **Qualità JPG**: selezionare questa opzione per controllare i livelli di compressione e il downsampling della crominanza.
+* **Qualità JPG**: selezionare questa opzione se si desidera controllare i livelli di compressione e il downsampling della crominanza.
 
-* **Cursore**: determina il livello di compressione di JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità JPG va da 1 a 100.
+* **Dispositivo di scorrimento**: determina il livello di compressione di JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità JPG va da 1 a 100.
 
-* **Abilita downsampling crominanza JPG**: poiché l&#39;occhio è meno sensibile alle informazioni di colore ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni dell&#39;immagine in componenti di luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
+* **Attiva downsampling crominanza JPG**: poiché l&#39;occhio è meno sensibile alle informazioni di colore ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni dell&#39;immagine in componenti di luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
 **Imposta le opzioni di nitidezza a livello aziendale**
 
 Se non hai utilizzato un predefinito immagine o non hai passato protocolli di nitidezza specifici per Image Server lungo la stringa URL, non si verifica alcuna nitidezza dell’immagine quando viene effettuato il downsampling. Tuttavia, se si verifica questa mancanza di nitidezza, potete impostare i valori di nitidezza predefiniti in modo che qualsiasi immagine abbia sempre una certa nitidezza.
 
-Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Configurazione Publish]** > **[!UICONTROL Server immagini]**. Se si imposta la modalità ricampionamento predefinita su **`Sharp2`**, l&#39;immagine viene sempre nitida durante il ricampionamento.
+Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se si imposta la modalità ricampionamento predefinita su **`Sharp2`**, l&#39;immagine viene sempre nitida durante il ricampionamento.
 
 **Aggiungi nitidezza ai predefiniti visualizzatore**
 
@@ -134,7 +134,7 @@ A meno che non abbiate aggiunto modificatori di immagini nitide al predefinito, 
 
 I predefiniti visualizzatore (come i predefiniti immagine) consentono di centralizzare molte opzioni in un&#39;unica posizione, inclusa la scelta dell&#39;interfaccia e delle opzioni visualizzatore (ad esempio l&#39;inclusione di un pulsante Stampa o il controllo della velocità dell&#39;animazione di zoom). I predefiniti visualizzatore si trovano nella stessa sezione dei predefiniti immagine, in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 
-Guarda il video di formazione su [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Guarda il video di formazione su [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 L’opzione Modificatori si trova nella sezione Impostazioni principali di tutti i predefiniti per visualizzatori eCatalog, 360 gradi e Zoom personalizzati. Aggiungendo i comandi di nitidezza URL alla casella Modificatori, si aggiunge nitidezza ogni volta che il visualizzatore viene chiamato con quel predefinito visualizzatore.
 

@@ -34,7 +34,7 @@ Gli amministratori possono inoltre impostare predefiniti immagine e predefiniti 
 
 >[!MORELIKETHIS]
 >
->* [Video di formazione sull&#39;installazione di base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Video di formazione sull&#39;installazione di base](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Ruoli utente e privilegi di Adobe Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Predefiniti immagine](application-setup.md#image_presets)
 >* [Predefiniti visualizzatore](application-setup.md#viewer_presets)

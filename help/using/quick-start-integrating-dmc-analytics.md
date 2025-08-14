@@ -25,7 +25,7 @@ Dopo aver integrato Adobe Analytics con Adobe Dynamic Media Classic, puoi ottene
 
 Utilizzando i rapporti di Adobe Analytics, potete ricavare un’immagine chiara delle attività dei clienti sul vostro sito Web. Puoi determinare quali presentazioni di prodotti portano alla conversione e quali non attirano l’interesse dei clienti.
 
-Vedi anche [Misura video in Adobe Analytics](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
+Vedi anche [Misura video in Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Vedi anche [Misura video in Adobe Analytics](https://experienceleague.adobe.com/
 
 Questa guida rapida è stata progettata per aiutarti a iniziare rapidamente a lavorare con Adobe Analytics Instrumentation Kit.
 
-## 1. Accedi ad Adobe Analytics tramite Adobe Dynamic Media Classic e scarica le variabili del rapporto di Adobe Analytics
+## &#x200B;1. Accedi ad Adobe Analytics tramite Adobe Dynamic Media Classic e scarica le variabili del rapporto di Adobe Analytics
 
 >[!NOTE]
 >
@@ -43,9 +43,9 @@ Dopo aver verificato di essere membro del gruppo di accesso al servizio Web, in 
 
 Vedere [Accesso ad Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Nella finestra di dialogo Accesso ad Adobe Analytics, digita il tuo ID organizzazione Experience Cloud (facoltativo) e le credenziali complete, quindi seleziona **[!UICONTROL Accesso]**. Dall’elenco a discesa Report Suite (Suite rapporti), selezionate il nome della suite di rapporti che intendete usare.
+Nella finestra di dialogo Accesso ad Adobe Analytics, digita il tuo ID organizzazione Experience Cloud (facoltativo) e le tue credenziali complete, quindi seleziona **[!UICONTROL Accesso]**. Dall’elenco a discesa Report Suite (Suite rapporti), selezionate il nome della suite di rapporti che intendete usare.
 
-## 2. Assegnare le variabili dei rapporti di Adobe Analytics agli eventi visualizzatore Adobe Dynamic Media Classic e alle variabili Adobe Dynamic Media Classic
+## &#x200B;2. Assegnare le variabili dei rapporti di Adobe Analytics agli eventi visualizzatore Adobe Dynamic Media Classic e alle variabili Adobe Dynamic Media Classic
 
 Nella pagina Configurazione Adobe Analytics, specificate le informazioni desiderate nei rapporti di Adobe Analytics. Per ogni evento visualizzatore Adobe Dynamic Media Classic di cui desideri ricevere informazioni, scegli una variabile Adobe Analytics (dalla suite di rapporti) e una variabile Adobe Dynamic Media Classic.
 
@@ -58,17 +58,17 @@ Dopo aver selezionato **[!UICONTROL Salva]** nella pagina Configurazione di Adob
 
 Consulta [Configurare i rapporti di Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-## 3. Publish i visualizzatori Adobe Dynamic Media Classic
+## &#x200B;3. Pubblicare i visualizzatori Adobe Dynamic Media Classic
 
-Publish i visualizzatori Adobe Dynamic Media Classic in modo che i visualizzatori (con il codice per il tracciamento dell’attività dell’utente nei rapporti di Adobe Analytics) vengano caricati sui server Adobe Dynamic Media Classic. Dopo la pubblicazione, queste informazioni vengono incluse nei visualizzatori. Utilizzala per l’analisi da parte di Adobe Analytics.
+Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che vengano caricati sui server Adobe Dynamic Media Classic (con il codice per il tracciamento delle attività degli utenti nei rapporti di Adobe Analytics). Dopo la pubblicazione, queste informazioni vengono incluse nei visualizzatori. Utilizzala per l’analisi da parte di Adobe Analytics.
 
-Consulta [Informazioni sulla configurazione di Publish](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Vedi [Informazioni sulla configurazione della pubblicazione](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## 4. Posizionare i visualizzatori Adobe Dynamic Media Classic sul sito Web
+## &#x200B;4. Posizionare i visualizzatori Adobe Dynamic Media Classic sul sito Web
 
 Inserisci i visualizzatori Adobe Dynamic Media Classic con il codice di tracciamento Adobe Analytics sul tuo sito web.
 
-## 5. Testare l’integrazione di Adobe Analytics visualizzando un rapporto di Adobe Analytics
+## &#x200B;5. Testare l’integrazione di Adobe Analytics visualizzando un rapporto di Adobe Analytics
 
 Per visualizzare i rapporti di Adobe Analytics, passate al sito Web di Adobe Analytics. La pagina Reporting (Rapporti) consente di visualizzare i dati e di creare grafici e tabelle per misurare l’attività degli utenti per diversi visualizzatori.
 

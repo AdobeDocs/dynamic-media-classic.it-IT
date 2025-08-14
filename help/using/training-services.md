@@ -25,7 +25,7 @@ Dynamic Media Classic offre corsi di formazione sotto forma di video training, w
 
 I servizi di formazione Adobe offrono una preparazione personalizzata e approfondita progettata per la vostra organizzazione. La formazione può essere svolta sotto forma di classi regionali in stile universitario, sessioni basate su Web o laboratori in loco personalizzati. Le classi regionali sono aperte a tutti i clienti e vengono tenute periodicamente in vari luoghi in Nord America, Europa, Medio oriente e Asia. Le sessioni personalizzate possono essere personalizzate per utenti esperti e inesperti, utenti finali, amministratori e personale IT.
 
-Consulta [Servizi di formazione Adobi](https://learning.adobe.com/)
+Consulta [Servizi di formazione Adobe](https://learning.adobe.com/)
 
 ## Dimostrazioni
 

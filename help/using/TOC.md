@@ -9,23 +9,23 @@ index: y
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
 
 # Guida di Adobe Dynamic Media Classic {#using}
 
-+ Aggiornamento da Dynamic Media Classic a Dynamic Medie {#upgrade}
-   + [Perché effettuare l&#39;aggiornamento a Dynamic Medie?](upgrade.md)
++ Aggiornamento da Dynamic Media Classic a Dynamic Media {#upgrade}
+   + [Perché effettuare l’aggiornamento a Dynamic Media?](upgrade.md)
    + [Domande frequenti sull&#39;aggiornamento](upgrade-faq.md)
    + [Confronto tra elenchi di funzioni](upgrade-feature-comparison.md)
    + [Elenco di controllo preparazione all’aggiornamento](upgrade-readiness.md)
 + [Guida di Adobe Dynamic Media Classic](home.md)
-+ [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/it/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [È ora disponibile il nuovo accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
-+ [Adobe Dynamic Medie newsletter archivio per Experience League](dynamic-media-newsletter.md)
-+ Introduzione a Adobe Dynamic Media Classic {#intro}
++ [Archivio newsletter Adobe Dynamic Media di Experience League](dynamic-media-newsletter.md)
++ Adobe Dynamic Media Classic {#intro}
    + [App Adobe Dynamic Media Classic Desktop: ora disponibile](dynamic-media-classic-desktop-app.md)
    + [Informazioni su Adobe Dynamic Media Classic](introduction.md)
    + [Risorse per sviluppatori](developer-resources.md)
@@ -36,14 +36,14 @@ ht-degree: 18%
    + [Servizi di formazione Adobe](training-services.md)
    + [Risorse di apprendimento più utilizzate](popular-resources.md)
    + [Video di formazione](training-videos.md)
-+ Introduzione a {#getting-started}
++ Guida introduttiva {#getting-started}
    + [Panoramica del programma Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Accedi e esci](signing-out.md)
    + [Nozioni di base sulla navigazione](navigation-basics.md)
    + [Nozioni di base sulla configurazione](setup-basics.md)
    + [Contenuti multimediali avanzati](rich-media.md)
-+ Configura {#setup}
++ Configurazione {#setup}
    + [Configurazione personale](personal-setup.md)
    + [Impostazione applicazione](application-setup.md)
    + [Configurazione pubblicazione](publish-setup.md)
@@ -60,11 +60,11 @@ ht-degree: 18%
    + [Creare e abilitare i predefiniti immagine](creating-enabling-image-presets.md)
    + [Utilizzo più efficiente dei metadati](making-efficient-metadata.md)
    + [Personalizzare la schermata Media Portal](customizing-media-portal-screen.md)
-+ Carica e pubblica risorse {#upload-publish}
++ Caricare e pubblicare le risorse {#upload-publish}
    + [Informazioni sul caricamento e la pubblicazione di risorse](about-asset-upload-publish.md)
    + [Caricare i file](uploading-files.md)
-   + [File Publish](publishing-files.md)
-   + [Limitazioni di Dynamic Medie](limitations.md)
+   + [Pubblicare i file](publishing-files.md)
+   + [Limitazioni di Dynamic Media](limitations.md)
    + [Testare le risorse prima di renderle pubbliche](testing-assets-making-them-public.md)
    + [Verifica file di processo](checking-job-files.md)
 + Gestione delle risorse {#managing-assets}
@@ -82,10 +82,10 @@ ht-degree: 18%
    + [Stampa risorse](printing-assets.md)
    + [Gestire la cartella Cestino](trash-folder.md)
    + [Organizzare il lavoro con i progetti](organizing-projects.md)
-+ Dimensioni immagine {#image-sizing}
++ Ridimensionamento delle immagini {#image-sizing}
    + [Avvio rapido: ridimensionamento delle immagini](quick-start-image-sizing.md)
    + [Carica immagini primarie](uploading-master-images.md)
-   + [Immagini primarie Publish](publishing-master-images.md)
+   + [Pubblicare immagini primarie](publishing-master-images.md)
    + [Configurazione predefiniti immagine](setting-image-presets.md)
    + [Collegare gli URL all’applicazione web](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -94,7 +94,7 @@ ht-degree: 18%
    + [Creare destinazioni di zoom per lo zoom guidato](creating-zoom-targets-guided-zoom.md)
    + [Impostare i predefiniti per visualizzatore zoom](setting-zoom-viewer-presets.md)
    + [Visualizzare in anteprima le risorse immagine con diversi visualizzatori Zoom](previewing-image-assets-different-zoom.md)
-   + [Publish zoom images](publishing-zoom-images.md)
+   + [Pubblicare immagini di zoom](publishing-zoom-images.md)
    + [Collegare i visualizzatori Zoom alle pagine Web](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
    + [Guida introduttiva: eCatalog](quick-start-ecatalog.md)
@@ -104,7 +104,7 @@ ht-degree: 18%
    + [Gestire il contenuto del pannello informazioni nei cataloghi elettronici](info-panel-content-ecatalog.md)
    + [Impostazione dei predefiniti per il visualizzatore eCatalog](setting-ecatalog-viewer-presets.md)
    + [Anteprima dei cataloghi elettronici nel visualizzatore eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
-   + [eCatalog Publish e PDF associati](publishing-ecatalogs-associated-pdfs.md)
+   + [Pubblicare eCatalog e PDF associati](publishing-ecatalogs-associated-pdfs.md)
    + [Collegare un eCatalog a una pagina Web](linking-ecatalog-web-page.md)
 + Set di immagini {#image-sets}
    + [Avvio rapido: set di immagini](quick-start-image-sets.md)
@@ -115,7 +115,7 @@ ht-degree: 18%
    + [Visualizza set di immagini](viewing-image-sets.md)
    + [Generazione automatica set di immagini](automated-image-set-generation.md)
    + [Collegare un set di immagini a una pagina Web](linking-image-set-web-page.md)
-+ Set campioni {#swatch-sets}
++ Set di campioni {#swatch-sets}
    + [Avvio rapido: set di campioni](quick-start-swatch-sets.md)
    + [Includi destinazioni di zoom e mappe immagine nei set di campioni](including-zoom-targets-image-maps-swatch-sets.md)
    + [Prepara risorse set di campioni per il caricamento](preparing-swatch-set-assets-upload.md)
@@ -126,7 +126,7 @@ ht-degree: 18%
    + [Avvio rapido: set 360 gradi](quick-start-spin-sets.md)
    + [Creare un set 360 gradi](creating-spin-set.md)
    + [Anteprima di un set 360 gradi](previewing-spin-set.md)
-   + [Publish un set 360 gradi](publishing-spin-set.md)
+   + [Pubblicare un set 360 gradi](publishing-spin-set.md)
    + [Configurare i predefiniti per il visualizzatore del set 360 gradi](setting-spin-set-viewer-presets.md)
    + [Collegare un set 360 gradi a una pagina web](linking-spin-set-web-page.md)
 + Nozioni di base sui modelli {#template-basics}
@@ -150,7 +150,7 @@ ht-degree: 18%
    + [Avvio rapido: set di file multimediali diversi](quick-start-mixed-media-sets.md)
    + [Impostare un predefinito visualizzatore set di file multimediali diversi](setting-mixed-media-set-viewer.md)
    + [Creare un set di file multimediali diversi](creating-mixed-media-set.md)
-   + [Publish un set di file multimediali diversi](publishing-mixed-media-set.md)
+   + [Pubblicare un set di file multimediali diversi](publishing-mixed-media-set.md)
    + [Collegare un set di file multimediali diversi a una pagina web](linking-mixed-media-set-web.md)
 + Kit di strumentazione Adobe Analytics {#analytics-kit}
    + [Guida introduttiva: Integrazione di Adobe Dynamic Media Classic con Adobe Analytics](quick-start-integrating-dmc-analytics.md)
@@ -160,13 +160,13 @@ ht-degree: 18%
    + [Disattiva tracciamento Adobe Analytics](disabling-analytics-tracking.md)
    + [Testare l’integrazione visualizzando un rapporto di Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Abilita rapporti video di Adobe Analytics](enabling-analytics-video-reports.md)
-   + [Informazioni sulla configurazione di Publish Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integrazione di Adobe Target Standard/Premium {#target-classic}
+   + [Pubblicare informazioni sulla configurazione di Adobe Analytics](publishing-analytics-configuration-information.md)
++ Integrazione con Adobe Target Standard/Premium {#target-classic}
    + [Guida introduttiva: Integrazione con Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integrare Adobe Dynamic Media Classic con Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creare un set di offerte](creating-offer-set.md)
    + [Invia set di offerte ad Adobe Target Standard/Premium](pushing-offer-sets-target.md)
-+ Contenuto generato dall&#39;utente {#user-generated-content}
++ Contenuti generati dall’utente {#user-generated-content}
    + [Informazioni sui contenuti generati dagli utenti](about-ugc.md)
    + [Eliminare una risorsa caricata](deleting-uploaded-asset.md)
    + [Ottieni informazioni sull&#39;utilizzo del disco](getting-disk-usage-information.md)

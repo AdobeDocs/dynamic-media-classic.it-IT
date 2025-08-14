@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Per creare un modello, vai a **[!UICONTROL Build]** > **[!UICONTROL Nozioni di base sui modelli]**. Selezionate Designer o Sviluppatore. In questa pagina potete aggiungere livelli di immagine e testo. Potete anche riordinare livelli, modificarne le dimensioni e la posizione e applicare effetti di ombra e bagliore alle immagini e al testo.
 
-Vedi anche il video di formazione [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Vedi anche il video di formazione [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Vedi anche il video di formazione [Nozioni di base sui modelli](https://s7d5.sce
 
 ## Creare il modello iniziale {#creating-the-initial-template}
 
-Quando si crea un set di modelli, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Quando si crea un set di modelli, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| **[!UICONTROL Publish dopo aver selezionato un&#39;opzione di salvataggio]** prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| **[!UICONTROL Pubblicare dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -44,13 +44,13 @@ Se necessario, potete creare un modello partendo da uno già esistente. Aprire i
 
 1. Per creare il modello iniziale, utilizzare uno dei metodi seguenti:
 
-   * **Seleziona prima il PSD o le immagini**: nel pannello Sfoglia, seleziona il file o le immagini PSD desiderate per il modello, passa a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sul modello]**.
+   * **Seleziona prima il PSD o le immagini**: nel pannello Sfoglia, seleziona il file PSD o le immagini che desideri per il modello, vai a **[!UICONTROL Genera]** > **[!UICONTROL Nozioni di base sul modello]**.
 
    * **Inizia dalla schermata Modello**: passa a **[!UICONTROL Build]** > **[!UICONTROL Nozioni di base modello]**. Selezionate Designer o Sviluppatore.
 
 1. Nella finestra di dialogo Immetti dimensioni area di lavoro immettere le dimensioni di larghezza e altezza per il modello.
 1. Selezionate una cartella nella Libreria risorse e trascinate i file PSD o le immagini per il modello nella schermata Modello.
-1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Publish dopo un salvataggio]** (impostazione predefinita).
+1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
 1. Seleziona una cartella per l&#39;archiviazione del modello, immetti un nome per il modello e seleziona **[!UICONTROL Invia]**.
 
@@ -58,9 +58,9 @@ Se necessario, potete creare un modello partendo da uno già esistente. Aprire i
 
 ## Modificare un set di modelli {#editing-a-template-set}
 
-Sia che si modifichi un set pubblicato o un set di modelli non pubblicato, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Sia che si modifichi un set pubblicato o un set di modelli non pubblicato, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| Il set è già pubblicato | **[!UICONTROL Publish dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL Pubblicare dopo aver selezionato l&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -73,7 +73,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Nella visualizzazione griglia, passare a un set di modelli e quindi selezionare **[!UICONTROL Modifica]** sotto l&#39;immagine.
 1. Modifica il modello in base alle esigenze.
-1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Publish dopo un salvataggio]** (impostazione predefinita).
+1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella di archiviazione, immetti un nome per il set, quindi seleziona **[!UICONTROL Salva]**.
 
 ## Eliminare un modello

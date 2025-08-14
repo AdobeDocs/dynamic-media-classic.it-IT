@@ -19,7 +19,7 @@ ht-degree: 26%
 
 # Collegare gli URL all’applicazione web{#linking-urls-to-your-web-application}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server tramite stringhe URL. Dopo aver pubblicato un’immagine, Adobe Dynamic Media Classic attiva una stringa URL che fa riferimento al predefinito immagine nei server immagini Dynamic Medie. Puoi incollare questi URL in un browser Web per la verifica.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite stringhe URL. Dopo aver pubblicato un’immagine, Adobe Dynamic Media Classic attiva una stringa URL che fa riferimento al predefinito immagine nei server immagini Dynamic Media. Puoi incollare questi URL in un browser Web per la verifica.
 
 Per inserire queste stringhe URL nelle pagine Web e nelle applicazioni, copiarle da Adobe Dynamic Media Classic. Per ottenere una stringa URL generata con un predefinito immagine, passa alla schermata Anteprima o al pannello Sfoglia (in Vista dettagli).
 
@@ -54,11 +54,11 @@ Potete ottenere una stringa URL generata da un predefinito per immagini dalla sc
 
 ## Stringhe URL di predefiniti per immagini {#about-image-preset-url-strings}
 
-Una chiamata URL per Image Sizing to Dynamic Medie Image Server ha la seguente sintassi di base:
+Una chiamata URL per Image Sizing to Dynamic Media Image Server ha la seguente sintassi di base:
 
 *percorso*/*nome del server immagini*/*nome dell’account*/*nome dell’immagine*?*modificatore1*&amp;*modificatore2*&amp;...
 
-In un URL di Dynamic Medie Image Server, le istruzioni per la visualizzazione dell&#39;immagine al server vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa chiamata URL fornisce un’immagine denominata &quot;zaino&quot; con una larghezza di 250 pixel:
+In un URL di Dynamic Media Image Server, le istruzioni per la visualizzazione dell&#39;immagine sul server vengono visualizzate dopo il punto interrogativo (?). Ad esempio, questa chiamata URL fornisce un’immagine denominata &quot;zaino&quot; con una larghezza di 250 pixel:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -76,11 +76,11 @@ In una stringa URL generata con un predefinito per immagini, invece, il nome di 
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-I nomi dei predefiniti per immagini negli URL sono racchiusi tra simboli di dollaro ($). Quando un server immagini Dynamic Medie rileva la porzione dell&#39;URL relativa al predefinito immagine (in questo caso `Large`), utilizzando le istruzioni di dimensione e formattazione definite dal predefinito immagine &quot;Large&quot; (grande).
+I nomi dei predefiniti per immagini negli URL sono racchiusi tra simboli di dollaro ($). Quando un server immagini Dynamic Media rileva la porzione dell&#39;URL relativa al predefinito immagine (in questo caso `Large`), utilizzando le istruzioni di dimensione e formattazione definite dal predefinito immagine &quot;Large&quot;.
 
 ## Aggiungere immagini dinamiche alla pagina Web {#adding-dynamic-images-to-your-web-page}
 
-Quando si aggiungono immagini dinamiche alla pagina Web, il tag `<IMG>` nel codice della pagina HTML viene in genere modificato utilizzando la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Medie. La stringa produce l’immagine secondo le specifiche di formattazione e ridimensionamento definite dal predefinito per immagini.
+Quando si aggiungono immagini dinamiche alla pagina Web, in genere il tag `<IMG>` nel codice della pagina HTML viene modificato utilizzando la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server immagini Dynamic Media. La stringa produce l’immagine secondo le specifiche di formattazione e ridimensionamento definite dal predefinito per immagini.
 
 Ad esempio, al posto della tipica richiesta di apertura di un’immagine statica, ovvero
 
@@ -94,4 +94,4 @@ Il tag `<IMG>` viene ora utilizzato per sostituire il riferimento a un&#39;immag
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-In questo esempio, un server immagini di Dynamic Medie &quot;cerca&quot; la definizione di `$thumbnail$` e genera dinamicamente l&#39;immagine appropriata con le specifiche di dimensionamento e formattazione definite dal predefinito immagine `thumbnail`. In una stringa URL, tutti gli elementi ad eccezione del nome file dell&#39;immagine del prodotto ( `backpack_trns` in questo caso) sono in genere collegati per il modello della pagina. L’unico elemento che viene inserito automaticamente nel modello di pagina dal vostro server commerciale è l’ID IPS o il nome dell’immagine.
+In questo esempio, un server immagini Dynamic Media &quot;cerca&quot; la definizione di `$thumbnail$` e genera dinamicamente l&#39;immagine appropriata con le specifiche di dimensionamento e formattazione definite dal predefinito immagine `thumbnail`. In una stringa URL, tutti gli elementi ad eccezione del nome file dell&#39;immagine del prodotto ( `backpack_trns` in questo caso) sono in genere collegati per il modello della pagina. L’unico elemento che viene inserito automaticamente nel modello di pagina dal vostro server commerciale è l’ID IPS o il nome dell’immagine.

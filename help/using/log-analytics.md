@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Accedere ad Adobe Analytics{#log-in-to-adobe-analytics}
 
-Verifica di essere membro del gruppo con accesso ai servizi Web in Adobe Analytics. Esegui questa operazione prima di accedere per configurare i rapporti di Adobe Analytics e far corrispondere le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate. Utilizza l’API dei servizi web di Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
+Verifica di essere membro del gruppo con accesso ai servizi Web in Adobe Analytics. Esegui questa operazione prima di accedere per configurare i rapporti di Adobe Analytics e far corrispondere le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate. Puoi farlo utilizzando l’API dei servizi web di Experience Cloud, indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
 
-Quando effettui l’accesso, puoi inserire l’ID organizzazione Experience Cloud per utilizzare l’implementazione di analisi video più recente. Se scegli di non inserire l&#39;ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione dei dati con altri dati per quel client dall’esterno di Adobe Dynamic Media Classic.
+Quando effettui l’accesso, puoi inserire l’ID organizzazione di Experience Cloud per utilizzare l’implementazione di analisi video più recente. Se scegli di non inserire l&#39;ID, la generazione di rapporti video continua a funzionare. Tuttavia, può causare la mancata integrazione dei dati con altri dati per quel client dall’esterno di Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

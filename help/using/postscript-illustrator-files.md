@@ -33,7 +33,7 @@ Quando caricate i file immagine PostScript (EPS) o Illustrator (AI) potete forma
 
    * **[!UICONTROL Rileva automaticamente]**: mantiene lo spazio colore del file.
 
-   * **[!UICONTROL Forza come RGB]**: viene convertito nello spazio colore RGB.
+   * **[!UICONTROL Forza come RGB]**: viene convertito nello spazio colore di RGB.
 
    * **[!UICONTROL Forza come CMYK]**: viene convertito nello spazio colore CMYK.
 

@@ -35,7 +35,7 @@ Nella barra di navigazione globale, situata nella parte superiore della schermat
 
 * **[!UICONTROL Build]**: scegli un&#39;attività Build dal menu. Viene visualizzato il pannello Genera che consente di creare un tipo di risorse.
 
-* **[!UICONTROL Publish]**: apre la schermata Pubblicazione in modo da poter pubblicare risorse rich media in Adobe Dynamic Medie Image Server e nel resto dell&#39;infrastruttura Adobe Dynamic Media Classic SAAS.
+* **[!UICONTROL Pubblica]**: apre la schermata Pubblicazione in modo da poter pubblicare risorse rich media sui server di immagini Dynamic Media di Adobe e sul resto dell&#39;infrastruttura SAAS di Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Processi]**: apre la schermata Processi in modo da poter esaminare i record dei processi di caricamento e pubblicazione.
 
@@ -71,7 +71,7 @@ Nel pannello Sfoglia/Genera viene effettuata la maggior parte delle attività. L
 
 * **[!UICONTROL Modalità di compilazione]**: selezionare **[!UICONTROL Genera]**, quindi scegliere un&#39;opzione per iniziare a creare un eCatalog, un set di immagini, un set 360 gradi o uno degli altri elementi disponibili nel menu Genera. Viene visualizzata la pagina Build. Potete selezionare le risorse con cui desiderate lavorare prima o dopo il passaggio alla modalità Genera.
 
-Vedi anche il video di formazione sulle [nozioni di base sulla navigazione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
+Vedi anche il video di formazione sulle [nozioni di base sulla navigazione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >

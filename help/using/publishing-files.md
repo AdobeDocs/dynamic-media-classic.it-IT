@@ -1,6 +1,6 @@
 ---
-title: File Publish
-description: Scopri come pubblicare le risorse sui server immagini Dynamic Medie.
+title: Pubblicare i file
+description: Scopri come pubblicare le risorse sui server di immagini Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# File Publish{#publishing-files}
+# Pubblicare i file{#publishing-files}
 
-Le risorse vengono pubblicate sui server immagini Dynamic Medie. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione.
+Pubblichi le risorse sui server di immagini Dynamic Media. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione.
 
-Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata utilizza il protocollo HTTP/2 per distribuirla. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata utilizza il protocollo HTTP/2 per distribuirla. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
 Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, tutte le risorse caricate in Adobe Dynamic Media Classic vengono automaticamente contrassegnate per la pubblicazione.
 
-Per ulteriori informazioni, vedere [Instant Publish Notice PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
+Per ulteriori informazioni, vedere l&#39;[Avviso di pubblicazione immediata PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
 Per contrassegnare le risorse per la pubblicazione, utilizzare le tecniche riportate di seguito.
 
-* **[!UICONTROL Publish dopo il caricamento]**: nella pagina Caricamento, in basso, selezionare **[!UICONTROL Publish dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
+* **[!UICONTROL Pubblica dopo il caricamento]**: nella pagina Carica, in basso, selezionare **[!UICONTROL Pubblica dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
 
-* **[!UICONTROL Publish dopo il caricamento]**: nella finestra di dialogo Opzioni processo selezionare **[!UICONTROL Publish dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
+* **[!UICONTROL Pubblica dopo il caricamento]**: nella finestra di dialogo Opzioni processo selezionare **[!UICONTROL Pubblica dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
 
 Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblicazione quando lo sono anche le relative risorse principali. In questa tabella sono elencate le risorse figlie contrassegnate automaticamente per la pubblicazione.
 
@@ -52,7 +52,7 @@ Crea un processo di pubblicazione per pubblicare le risorse caricate sui server 
 
 **Per creare un processo di pubblicazione:**
 
-1. Sulla barra di spostamento globale, selezionare **[!UICONTROL Publish]**.
+1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
 1. Nella finestra di dialogo Pubblicazione scegliere se si desidera eseguire un processo di pubblicazione una tantum o ricorrente.
 
    Consulta [Creare un processo di pubblicazione una tantum](publishing-files.md#creating_a_one_time_publish_job) e [Creare un processo di pubblicazione ricorrente](publishing-files.md#creating_a_recurring_publish_job).
@@ -62,7 +62,7 @@ Crea un processo di pubblicazione per pubblicare le risorse caricate sui server 
 
    Consultate [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options).
 
-1. Selezionare **[!UICONTROL Invia Publish]**.
+1. Seleziona **[!UICONTROL Invia pubblicazione]**.
 
 Adobe Dynamic Media Classic tiene traccia dei processi di pubblicazione nella pagina Processi. In questa pagina potete controllare i processi di pubblicazione.
 
@@ -92,9 +92,9 @@ Vedere [Intervallo di tempo caricamento o pubblicazione personalizzato](checking
 
 Puoi visualizzare le opzioni Avanzate nella pagina Pubblicazione e scegliere le seguenti opzioni per la gestione di un processo di pubblicazione:
 
-* **[!UICONTROL Publish in]**: per pubblicare le risorse solo in un server specifico, scegliere un tipo di server.
+* **[!UICONTROL Pubblica su]**: per pubblicare le risorse solo su un server specifico, scegliere un tipo di server.
 
-* **[!UICONTROL Publish]**: per impostazione predefinita, Adobe Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate (opzione Nuovo dall&#39;ultimo Publish). Tuttavia, è possibile selezionare **[!UICONTROL Full Publish]** in modo da poter pubblicare anche le risorse aggiornate o modificate dall&#39;ultima pubblicazione. Selezionare **[!UICONTROL Completo con dati di ricerca]** se si pubblica un eCatalog e si desidera che i lettori possano eseguire ricerche per parola chiave.
+* **[!UICONTROL Pubblicazione]**: per impostazione predefinita, Adobe Dynamic Media Classic pubblica solo le risorse nuove e non ancora pubblicate (opzione Nuova dall&#39;ultima pubblicazione). Tuttavia, puoi selezionare **[!UICONTROL Pubblicazione completa]** in modo da poter pubblicare anche le risorse aggiornate o modificate dall&#39;ultima pubblicazione. Selezionare **[!UICONTROL Completo con dati di ricerca]** se si pubblica un eCatalog e si desidera che i lettori possano eseguire ricerche per parola chiave.
 
 * **[!UICONTROL Esegui processo come]**: scegliere un nome utente dall&#39;elenco. Potete ordinare i processi in base al nome utente nella pagina Processi. Scegliendo un nome, si associa un processo di pubblicazione a un utente.
 
@@ -112,7 +112,7 @@ Per annullare un processo di pubblicazione, passare alla pagina Processi e selez
 >
 >Dopo aver annullato un processo di pubblicazione, il relativo stato diventa &quot;arresto&quot; finché il processo non raggiunge un punto in cui può essere interrotto in modo sicuro. L&#39;arresto di un processo di pubblicazione può richiedere del tempo se il processo è in fase di recupero dei dati dal database.
 
-## Risorse Publish manualmente {#manually-publishing-assets}
+## Pubblicare le risorse manualmente {#manually-publishing-assets}
 
 Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblichi dei set, ad esempio un set di immagini o un set di video adattivi, vengono pubblicati il set (o &quot;principale&quot;) e tutti i membri (o &quot;secondari&quot;) al suo interno.
 
@@ -124,7 +124,7 @@ Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona 
 
    * Nelle visualizzazioni Griglia, Elenco o Dettagli, usate i metodi di selezione file standard per selezionare uno o più video dal set.
 
-     Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Publish]**.
+     Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]**.
 
    * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia arrotondata con una barra che la attraversa, a sinistra del nome della risorsa.
 

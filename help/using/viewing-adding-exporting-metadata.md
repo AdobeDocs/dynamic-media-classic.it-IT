@@ -23,7 +23,7 @@ ht-degree: 34%
 
 I metadati vengono visualizzati nella vista Dettaglio. Viene visualizzato insieme alle informazioni generate da Adobe Dynamic Media Classic. Ad esempio, data di creazione del file, data di pubblicazione e parole chiave. Per visualizzare i metadati, apri la risorsa in Vista dettagli, quindi seleziona il pannello Metadati. Potete immettere e modificare i metadati nella vista Dettaglio.
 
-Alcuni metadati sono incorporati direttamente in un file. Se un file contiene questi metadati, Adobe Dynamic Media Classic li carica automaticamente con il file. Puoi incorporare i metadati nelle risorse sorgente in Adobe Photoshop, InDesign, Illustrator e altre applicazioni; Adobe Dynamic Media Classic riconosce tali metadati. Potete anche aggiungere metadati a singoli file nel pannello Metadati in Vista dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
+Alcuni metadati sono incorporati direttamente in un file. Se un file contiene questi metadati, Adobe Dynamic Media Classic li carica automaticamente con il file. Puoi incorporare i metadati nelle risorse sorgente in Adobe Photoshop, InDesign, Illustrator e altre applicazioni; Adobe Dynamic Media Classic li riconosce. Potete anche aggiungere metadati a singoli file nel pannello Metadati in Vista dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
 
 Per ulteriori informazioni sui metadati incorporati, vedere [Piattaforma metadati estensibili](https://www.adobe.com/products/xmp.html).
 
@@ -33,9 +33,9 @@ Per visualizzare i metadati di una risorsa, apri la risorsa in Vista dettagli e 
 
 * **Visualizzazione compatta**: un elenco di base di valori.
 
-* **IPTC**: valori definiti dal Consiglio internazionale delle telecomunicazioni della stampa.
+* **IPTC**: valori definiti dall&#39;International Press Telecommunications Council.
 
-* **XMP**: valori definiti dal programma di metadati estensibili.
+* **XMP**: valori definiti dal programma per metadati estensibili.
 
 Gli amministratori possono creare ulteriori visualizzazioni di metadati, Queste visualizzazioni vengono visualizzate anche nel menu Visualizzazioni metadati.
 
@@ -73,7 +73,7 @@ Le parole chiave aggiunte ad altri file durante questa sessione o rimosse dall&#
 >[!NOTE]
 >
 >È possibile aggiungere parole chiave ai file durante il caricamento in Adobe Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, scegli **[!UICONTROL Altri metadati]** e immetti le parole chiave.
->Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
+>>Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
 
 ## Importare i metadati {#import-metadata}
 
@@ -82,7 +82,7 @@ Invece di immettere manualmente i metadati per una risorsa alla volta, potete im
 >[!NOTE]
 >
 >Puoi creare un modello per l’immissione dei metadati, in modo che possano essere importati correttamente in Adobe Dynamic Media Classic. Dopo aver creato il modello, puoi utilizzarlo per immettere i metadati.
->Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>>Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Ulteriori informazioni sulle proprietà standardizzate sono disponibili nel [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
@@ -101,17 +101,17 @@ Tenete sempre presente quanto segue per identificare i diversi tipi di metadati 
 * Il nome delle proprietà di metadati XMP deve essere preceduto dal relativo prefisso XMP. Il prefisso e il nome sono separati dal segno due punti (:). Il prefisso XMP si trova in **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Editor schema metadati]**. I nomi tecnici si trovano nella documentazione del relativo schema XMP. I nomi delle proprietà XMP non vengono visualizzati nella funzionalità `Generate file`.
 * Il nome delle proprietà Schema metadati deve essere preceduto dal relativo prefisso. Il prefisso e il nome sono separati dal segno due punti (:). Il prefisso e i nomi delle proprietà sono definiti nell’Editor schema metadati. I nomi delle proprietà dello schema metadati non vengono visualizzati nella funzionalità `Generate file`.
 
-Ad esempio: la proprietà XMP per le parole chiave è lo schema XMP &quot;Dublin Core&quot; con il prefisso `dc` e `subject` è il nome tecnico dell&#39;XMP. Il prefisso e il nome tecnico dell&#39;XMP vengono combinati nel nome completo della proprietà `dc:subject`. Nel formato di importazione dei metadati XML, `dc.subject` deve essere il nome della proprietà. Nel formato di importazione delimitato da tabulazioni, deve essere l’intestazione della colonna.
+Ad esempio: la proprietà XMP per le parole chiave è lo schema XMP &quot;Dublin Core&quot; con il prefisso `dc` e `subject` è il nome tecnico di XMP. Il prefisso e il nome tecnico del XMP vengono combinati nel nome completo della proprietà `dc:subject`. Nel formato di importazione dei metadati XML, `dc.subject` deve essere il nome della proprietà. Nel formato di importazione delimitato da tabulazioni, deve essere l’intestazione della colonna.
 
 ### Importare parole chiave
 
 Le parole chiave possono essere importate come elenco separato da virgole. Se una virgola appare in uno qualsiasi dei singoli valori, esegui l’escape utilizzando una barra rovesciata (\). Un segno di barra rovesciata deve essere invece riportato come doppia barra rovesciata (\\).
 
-Ad esempio, un file di importazione dei metadati contenente il valore `Hello\, World!,back\\slash,foo` per `dc:subject` imposta tre parole chiave XMP sulla risorsa: `Hello, World!,` `back\slash,` e `foo`.
+Ad esempio, un file di importazione dei metadati contenente il valore `Hello\, World!,back\\slash,foo` per `dc:subject` imposta tre parole chiave di XMP sulla risorsa: `Hello, World!,` `back\slash,` e `foo`.
 
 ### Importare file XMP di metadati XMP e Schema metadati
 
-L’importazione XML accetta solo dati XML validi. Quando si importano campi XMP o schema metadati, viene aggiunto il prefisso dello spazio dei nomi e qui si comporta come uno spazio dei nomi XMP. Questo spazio dei nomi deve essere dichiarato. Ad esempio, nel tag di livello superiore.
+L’importazione XML accetta solo dati XML validi. Quando si importano campi XMP o Schema metadati, viene aggiunto il prefisso dello spazio dei nomi che si comporta come uno spazio dei nomi XMP. Questo spazio dei nomi deve essere dichiarato. Ad esempio, nel tag di livello superiore.
 
 Ad esempio:
 
@@ -163,7 +163,7 @@ Adobe Dynamic Media Classic offre un comando per la creazione di un modello per 
 
 Un amministratore della società può visualizzare un elenco di tutti gli schemi disponibili. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Metadati]** > **[!UICONTROL Schema metadati]**.
 
-Inizialmente, l&#39;elenco degli schemi standard globali come l&#39;XMP è nascosto. Per visualizzarli, usate la casella di selezione in fondo all’elenco.
+Inizialmente, l’elenco degli schemi standard globali come XMP è nascosto. Per visualizzarli, usate la casella di selezione in fondo all’elenco.
 
 L’amministratore dell’azienda può creare uno schema personalizzato o modificarne uno esistente.
 
@@ -175,7 +175,7 @@ Potete utilizzare l’Editor schema metadati per effettuare le operazioni seguen
 | Aggiungi valore di scelta | Aggiunge una nuova scelta selezionabile a una proprietà con struttura Scelta aperta o Scelta chiusa. Tutti i valori di scelta sono dello stesso tipo. Seleziona la proprietà stessa per abilitare il pulsante. |
 | Modifica | Modifica l’etichetta di una proprietà o di un valore di scelta. Potete modificare solo le informazioni di Etichetta e ID; Tipo non è modificabile. |
 | Sposta su/Sposta giù | L’ordine impostato nello schema viene rispecchiato nell’interfaccia utente. Per modificare l’ordine, selezionate una proprietà o un valore di scelta e utilizzate questi pulsanti. Il trascinamento della selezione non è attualmente supportato. |
-| Elimina | Elimina dallo schema una proprietà o un valore di scelta. Non elimina i valori dal blocco XMP o dal database. La proprietà non è più disponibile per le visualizzazioni metadati e viene rimossa dalla visualizzazione Dettagli risorsa. Se la proprietà è stata pubblicata sul server metadati, esegui una pubblicazione forzata per rimuovere i dati dal server metadati rivolto al pubblico. |
+| Elimina | Elimina dallo schema una proprietà o un valore di scelta. I valori non vengono eliminati dal blocco XMP o dal database. La proprietà non è più disponibile per le visualizzazioni metadati e viene rimossa dalla visualizzazione Dettagli risorsa. Se la proprietà è stata pubblicata sul server metadati, esegui una pubblicazione forzata per rimuovere i dati dal server metadati rivolto al pubblico. |
 
 Il sistema genera automaticamente uno schema personalizzato per i campi definiti dall&#39;utente con il prefisso `s7udf`. Lo schema è costituito da campi esistenti definiti dall’utente che vengono modificati nella propria sezione Configurazione.
 

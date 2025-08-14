@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Collegare un set 360 gradi a una pagina web{#linking-a-spin-set-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server, inclusi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine web e nelle applicazioni, copialo da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic Media, inclusi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine web e nelle applicazioni, copialo da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

@@ -24,7 +24,7 @@ A volte, Adobe Dynamic Media Classic richiede di caricare un file di font per im
 Adobe Dynamic Media Classic supporta i tipi di carattere seguenti:
 
 * Tutti i font TrueType
-* PostScript®
+* Font di PostScript®
 * Font OpenType/TrueType
 * Font OpenType/PostScript
 * PhotoFonts
@@ -61,8 +61,8 @@ Nel pannello Sfoglia, selezionate il file di font da modificare in Vista dettagl
 
    * **[!UICONTROL TTF]**: file di font TrueType utilizzati per il rendering PDF/PostScript e il server immagini.
 
-   * **[!UICONTROL AFM]**: file di font Adobe PostScript contenenti informazioni sulle metriche dei font Adobe e utilizzati per il server delle immagini.
+   * **[!UICONTROL AFM]**: file di font Adobe PostScript che contengono informazioni sulle metriche dei font di Adobe e sono utilizzati per il server delle immagini.
 
    * **[!UICONTROL PFM]**: file di font Adobe PostScript contenenti informazioni binarie sulle metriche dei font.
 
-   * **[!UICONTROL PFB]**: file di caratteri Adobe PostScript che contengono informazioni binarie sulla struttura dei caratteri e vengono utilizzati per il rendering PDF/PostScript e il server delle immagini.
+   * **[!UICONTROL PFB]**: file di caratteri Adobe PostScript che contengono informazioni binarie sulla struttura dei caratteri e vengono utilizzati per il rendering PDF/PostScript e il server immagini.

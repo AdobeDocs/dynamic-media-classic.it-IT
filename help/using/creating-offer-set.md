@@ -41,15 +41,15 @@ Creare una serie di offerte dai seguenti tipi di serie di offerte:
 
 * **Modello immagine**: è possibile parametrizzare i modelli immagine in Adobe Dynamic Media Classic con il comando **[!UICONTROL Genera]** > Nozioni di base modello. Attraverso parametri, componenti del modello, il testo nelle cornici di testo, le diverse immagini, possono essere scambiati e personalizzati. Per una serie di offerte, puoi utilizzare i parametri del modello per creare varianti sulla stessa immagine nella serie di offerte, ad esempio. Per informazioni sulla creazione e la parametrizzazione dei modelli immagine, vedere [Creare parametri modello](creating-template-parameters.md#creating_template_parameters).
 
-Vedi anche il video di formazione [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Vedi anche il video di formazione [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 * **Video**: è possibile assemblare un video per un set di offerte. Ciascun video rappresenta una diversa offerta nel set.
 
 ## Creare un set di offerte con un modello con parametri {#creating-an-offer-set-with-a-parameterized-template}
 
-Quando si crea un set di offerte, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Quando si crea un set di offerte, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| **[!UICONTROL Publish dopo aver selezionato un&#39;opzione di salvataggio]** prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| **[!UICONTROL Pubblicare dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -73,16 +73,16 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
    Nella pagina Set di offerte Test&amp;Target sono elencate le offerte create.
 
 1. Ripetete i punti da 3 a 5 per creare più offerte per il set.
-1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Publish dopo un salvataggio*]** (impostazione predefinita).
+1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio*]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Chiudi]**, immetti un nome per il set di offerte, quindi seleziona **[!UICONTROL Salva]**.
 
 Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Consulta [Invio di set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Creare un set di offerte con immagini o video {#creating-an-offer-set-with-images-or-videos}
 
-Quando si crea un set di offerte, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Quando si crea un set di offerte, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| **[!UICONTROL Publish dopo aver selezionato un&#39;opzione di salvataggio]** prima del salvataggio? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| **[!UICONTROL Pubblicare dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
 | Sì | Pubblicato | Pubblicato |
 | No | Non pubblicato | I membri del set conservano il proprio stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -104,16 +104,16 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    Seleziona **[!UICONTROL Salva]** per salvare le modifiche apportate all&#39;immagine o all&#39;offerta video. Quindi seleziona **[!UICONTROL Chiudi]** per tornare alla pagina Set di offerte Test&amp;Target.
 
-1. Dopo aver completato la creazione delle offerte per il set di offerte e aver scelto i predefiniti immagine per diverse immagini, accertati che sia selezionato **[!UICONTROL Publish dopo un salvataggio]** (impostazione predefinita).
+1. Dopo aver completato la creazione delle offerte per il set di offerte e aver scelto i predefiniti immagine per diverse immagini, accertati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]** e immetti un nome per il set di offerte, quindi seleziona **[!UICONTROL Salva]**.
 
 Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Consulta [Invio di set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modificare un set di offerte {#editing-an-offer-set}
 
-Se si modifica un set pubblicato o non pubblicato, l&#39;opzione **[!UICONTROL Publish dopo il salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Sia che si modifichi un set pubblicato o non pubblicato, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
 
-| Il set è già pubblicato | **[!UICONTROL Publish dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
+| Il set è già pubblicato | **[!UICONTROL Pubblicare dopo aver selezionato l&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
 | Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
@@ -136,7 +136,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
    >
    >Non puoi eliminare un set di offerte associato a una campagna. Per eliminare un set di offerte associato a una campagna, accedi ad Adobe Target Standard/Premium e rimuovi le associazioni alle campagne. Anche dopo l’annullamento dell’associazione a una campagna, la risorsa può essere eliminata solo da Adobe Dynamic Media Classic, richiedendo l’accesso a Adobe Target Standard/Premium e non da Adobe Target Standard/Premium.
 
-1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Publish dopo un salvataggio]** (impostazione predefinita).
+1. Al termine della modifica, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella di archiviazione, immetti un nome per il set, quindi seleziona **[!UICONTROL Salva]**.
 
 ## Eliminare un set di offerte {#delet-an-offer-set}

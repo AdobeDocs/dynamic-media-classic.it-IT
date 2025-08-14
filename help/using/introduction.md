@@ -18,7 +18,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic è il principale sistema di pubblicazione multimediale on-demand. Puoi caricare, gestire, migliorare e pubblicare contenuti avanzati dinamici su tutti i dispositivi e schermi. Le soluzioni Adobe Dynamic Media Classic includono:
 
-* Dynamic Imaging: modifica, formattazione e ridimensionamento in tempo reale, zoom e scorrimento interattivi; colore `swatching` e trama `swatching`; rotazione a 360 gradi; modelli di immagine; visualizzatori multimediali.
+* Dynamic Imaging: modifica, formattazione e ridimensionamento in tempo reale, zoom e panoramica interattivi; colore `swatching` e trama `swatching`; rotazione a 360 gradi; modelli di immagine; visualizzatori multimediali.
 * eCatalog: creazione, collegamento di punti attivi, ricerca abilitata, pubblicazione e distribuzione dinamica di cataloghi online serviti in visualizzatori configurabili.
 * Media Portal: ambiente self-service fornisce agli utenti del portale &quot;viste&quot; controllate dall’amministratore per le risorse Adobe Dynamic Media Classic e facilitare l’accesso a caricamento, ricerca, anteprima ed esportazione delle risorse.
 * eVideo: carica i video finali in qualsiasi formato, gestisci, modifica, crea hot spot e modelli video, pubblica e riproduci in visualizzatori video configurabili
@@ -27,9 +27,9 @@ Adobe Dynamic Media Classic è il principale sistema di pubblicazione multimedia
 
 Consulta anche i seguenti video di formazione:
 
-* [Introduzione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/570_Introduction_converted%20renamed_Getting%20Started-AVS)
-* [Cos&#39;è Adobe Dynamic Media Classic](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/577_What%20is%20Scene7_converted%20renamed_Getting%20Started-AVS)
-* [Panoramica della piattaforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)
+* [Introduzione](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/570_Introduction_converted%20renamed_Getting%20Started-AVS)
+* [Cos&#39;è Adobe Dynamic Media Classic](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/577_What%20is%20Scene7_converted%20renamed_Getting%20Started-AVS)
+* [Panoramica della piattaforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)
 
 ## Risorse chiave
 

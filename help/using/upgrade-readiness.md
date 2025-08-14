@@ -8,7 +8,7 @@ topic: Administration, Migration
 level: Intermediate
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ Utilizzare il seguente elenco di controllo per comprendere e preparare un aggior
 
 |  | Attività | Descrizione |
 | :--- | :--- | --- |
-| **Fase 1: gestione licenze** | Esegui contratto | In base al traffico e all&#39;archiviazione, il team dell&#39;account Adobe collabora con l&#39;utente per passare dalla licenza [!DNL Dynamic Media Classic] al rinnovo della licenza [!DNL Dynamic Media]. |
-| **Fase 2: Preparazione** | Convalidare l’utilizzo della funzione | Verificare che le funzionalità utilizzate in [!DNL Dynamic Media Classic] siano disponibili in [!DNL Dynamic Media]. Visita la pagina [Confronto delle funzionalità](/help/using/upgrade-feature-comparison.md). Le funzionalità chiave non ancora disponibili in [!DNL Dynamic Media] includono:<br>· Visual Configurator (Image Author, Image Render).<br>· Modelli immagine (modello 1:1).<br>· eCatalog.<br>Se vengono utilizzate le funzionalità precedenti, l&#39;aggiornamento può comunque verificarsi presupponendo che tali funzionalità siano accessibili tramite [!DNL Dynamic Media Classic]. |
+| **Fase 1: gestione licenze** | Esegui contratto | In base al traffico e all&#39;archiviazione, il team dell&#39;account Adobe collabora con te per passare dalla licenza [!DNL Dynamic Media Classic] al rinnovo della licenza [!DNL Dynamic Media]. |
+| **Fase 2: Preparazione** | Convalidare l’utilizzo della funzione | Verificare che le funzionalità utilizzate in [!DNL Dynamic Media Classic] siano disponibili in [!DNL Dynamic Media]. Visita la pagina [Confronto delle funzionalità](/help/using/upgrade-feature-comparison.md). Le funzionalità chiave non ancora disponibili in [!DNL Dynamic Media] includono:<br>· Visual Configurator (Image Author, Image Render).<br>· Modelli di immagine (modello 1:1).<br>· eCatalog.<br>Se vengono utilizzate le funzionalità precedenti, l&#39;aggiornamento può comunque verificarsi presupponendo che tali funzionalità siano accessibili tramite [!DNL Dynamic Media Classic]. |
 |   | Identificare le risorse | Trova e prepara le risorse e i predefiniti da utilizzare per l’aggiornamento. |
 | **Fase 3: ambiente** | Aggiorna [!DNL Adobe Experience Manager] | Tutte le istanze di [!DNL Adobe Experience Manager] devono essere aggiornate alla versione più recente. |
 |   | Configura [!DNL Dynamic Media] | Adobe Consulting o il partner configura [!DNL Dynamic Media] con le tue credenziali. |
-| **Fase 4: aggiornamento** | Replicare le risorse | Durante il processo di aggiornamento, [!DNL Dynamic Media Classic] risorse designate vengono replicate in Dynamic Medie. |
+| **Fase 4: aggiornamento** | Replicare le risorse | Durante il processo di aggiornamento, [!DNL Dynamic Media Classic] risorse designate vengono replicate in Dynamic Media. |
 | **Fase 5: installazione amministrativa** | Configurare utenti e autorizzazioni | Creare utenti e concedere le autorizzazioni appropriate. |
 |   | Configurare i profili di codifica video | Creare profili di codifica video. |
 |   | Impostazioni predefinite visualizzatore | Creare predefiniti visualizzatore. |

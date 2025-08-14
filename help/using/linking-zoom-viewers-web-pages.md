@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Collegare i visualizzatori Zoom alle pagine Web{#linking-zoom-viewers-to-your-web-pages}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server tramite stringhe URL o codice incorporato. Tale accesso include le immagini primarie e le destinazioni di zoom associate. Sono inclusi anche i predefiniti visualizzatore zoom. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiale da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite stringhe URL o codice incorporato. Tale accesso include le immagini primarie e le destinazioni di zoom associate. Sono inclusi anche i predefiniti visualizzatore zoom. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire queste stringhe URL o il codice incorporato nelle pagine Web e nelle applicazioni, copiale da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ I siti Web e le applicazioni accedono al contenuto di Dynamic Medie Image Server
 
 In genere, i visitatori ingrandiscono le immagini su un sito web selezionando prima un’icona Zoom (spesso l’icona mostra l’immagine di una lente di ingrandimento). Se si seleziona questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l&#39;immagine in una finestra popup. La finestra a comparsa rappresenta il punto in cui i visitatori applicano effettivamente lo zoom all’immagine.
 
-Per ulteriori dettagli ed esempi di codice, vedere [Incorporare il visualizzatore zoom di base di HTML5 nella Guida di riferimento dei visualizzatori di Adobi](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedere [Incorporare il visualizzatore zoom di base di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiare la copia incorporata di un visualizzatore Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 

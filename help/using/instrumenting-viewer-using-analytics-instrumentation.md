@@ -21,7 +21,7 @@ ht-degree: 15%
 
 È possibile utilizzare Adobe Analytics Instrumentation Kit per integrare un visualizzatore HTML5 con Adobe Analytics.
 
-Se utilizzi uno dei predefiniti visualizzatore di Adobe Dynamic Media Classic HTML5, questo contiene già tutto il codice di implementazione per inviare dati ad Adobe Analytics. Non è necessario aggiungere altri strumenti.
+Se utilizzi uno dei predefiniti visualizzatore Adobe Dynamic Media Classic HTML5, questo contiene già tutto il codice di implementazione per inviare dati ad Adobe Analytics. Non è necessario aggiungere altri strumenti.
 
 ## Configurare il tracciamento di Adobe Analytics da Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 

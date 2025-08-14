@@ -1,5 +1,5 @@
 ---
-title: Publish un set di file multimediali diversi
+title: Pubblicare un set di file multimediali diversi
 description: Scopri come pubblicare un set di file multimediali diversi da Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ---
 
-# Publish un set di file multimediali diversi{#publishing-a-mixed-media-set}
+# Pubblicare un set di file multimediali diversi{#publishing-a-mixed-media-set}
 
 Crea un processo di pubblicazione per pubblicare un set di file multimediali diversi contrassegnato per la pubblicazione su Adobe Dynamic Media Classic Video Server e Image Server. Adobe Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Nel pannello Sfoglia, seleziona **[!UICONTROL Contrassegna per Publish]** accanto a ogni nome file che desideri pubblicare.
-   * Nella schermata di caricamento, selezionare **[!UICONTROL Contrassegna per Publish]** accanto a ogni nome file che si desidera pubblicare.
+   * Nel pannello Sfoglia, seleziona **[!UICONTROL Contrassegna per pubblicazione]** accanto a ogni nome file da pubblicare.
+   * Nella schermata di caricamento, selezionare **[!UICONTROL Contrassegna per pubblicazione]** accanto a ogni nome file che si desidera pubblicare.
 
-1. Sulla barra di spostamento globale, selezionare **[!UICONTROL Publish]**.
+1. Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**.
 1. Impostare le opzioni di programmazione desiderate.
 1. (Facoltativo) Nel campo **[!UICONTROL Nome processo]** digitare un nome per il processo di pubblicazione.
-1. Nelle opzioni **[!UICONTROL Avanzate]**, nell&#39;elenco a discesa **[!UICONTROL Da Publish a]**, selezionare **[!UICONTROL Server video]**.
+1. Nell&#39;elenco a discesa **[!UICONTROL Pubblica su]** delle opzioni **[!UICONTROL Avanzate]** selezionare **[!UICONTROL Server video]**.
 
    Consulta [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options) per ulteriori opzioni che puoi impostare.
 
-1. Selezionare **[!UICONTROL Invia Publish]**.
+1. Seleziona **[!UICONTROL Invia pubblicazione]**.
 1. Ripetere i passaggi da 2 a 4 precedenti.
 1. Nell’elenco a discesa **[!UICONTROL Pubblica su]** nella sezione **[!UICONTROL Avanzate]**, selezionate **[!UICONTROL Server immagini]**.
 
    Consulta [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options) per ulteriori opzioni che puoi impostare.
 
-1. Selezionare **[!UICONTROL Invia Publish]**.
+1. Seleziona **[!UICONTROL Invia pubblicazione]**.

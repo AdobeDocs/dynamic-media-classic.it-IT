@@ -51,7 +51,7 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
    * Impostare un numero più alto se i dati sono relativamente stabili e non richiedono aggiornamenti frequenti nel corso della giornata. Il valore predefinito è dieci ore.
 
-1. Seleziona **[!UICONTROL Publish]**.
+1. Seleziona **[!UICONTROL Pubblica]**.
 
 ## Importare contenuto sorgente per il pannello Info in eCatalog {#import-source-content-for-the-info-panel-in-ecatalogs}
 

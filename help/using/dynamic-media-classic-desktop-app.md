@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Disponibile ora: app desktop Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Gli utenti di Adobe Dynamic Media Classic ora hanno accesso a una nuova esperienza di app desktop che non si basa più sulla tecnologia del Flash Adobe nel browser.
+Gli utenti di Adobe Dynamic Media Classic ora hanno accesso a una nuova esperienza di app desktop che non si basa più sulla tecnologia Adobe Flash nel browser.
 
 Questa nuova app è ora disponibile per Windows® e macOS.
 
 >[!IMPORTANT]
 >
->L’Adobe consiglia di installare la nuova app desktop Adobe Dynamic Media Classic entro il 1° ottobre 2020. Procedendo in questo modo potrai ottenere una transizione fluida prima che il Flash Player Adobe venga dichiarato obsoleto il 31 dicembre 2020. Dopo tale data, non è possibile accedere alla versione del browser dell’interfaccia utente di Adobe Dynamic Media Classic, etichettata come Adobe Dynamic Media Classic nel prodotto.
+>Adobe consiglia di installare la nuova app desktop Adobe Dynamic Media Classic entro il 1° ottobre 2020. In questo modo sarà possibile effettuare una transizione senza intoppi prima che Adobe Flash Player venga dichiarato obsoleto il 31 dicembre 2020. Dopo tale data, non è possibile accedere alla versione del browser dell’interfaccia utente di Adobe Dynamic Media Classic, etichettata come Adobe Dynamic Media Classic nel prodotto.
 
 Domande frequenti sull&#39;accesso a [New Adobe Dynamic Media Classic ora disponibile.](/help/using/new-ui-2020.md)
 
@@ -68,9 +68,9 @@ La notifica di aggiornamento all&#39;interno dell&#39;applicazione desktop Adobe
 
 * Limite noto in 20.21.1: l&#39;elenco a discesa **[!UICONTROL Server]** nella schermata di accesso era vuoto.
 * In **[!UICONTROL Opzioni processo di caricamento]**, il valore predefinito del nome del livello in **[!UICONTROL Opzioni Photoshop]** è ora **[!UICONTROL Photoshop e nome livello]**. I livelli nel file PSD vengono caricati come immagini separate.
-   * L&#39;impostazione predefinita precedente di **[!UICONTROL Nome livello]**, ha assegnato alle immagini il nome del livello o il numero di livello nel file PSD. Il numero di livello veniva utilizzato se i nomi dei livelli nel file PSD erano nomi di livello predefiniti di Photoshop.
-   * Il nuovo valore predefinito **[!UICONTROL Photoshop e Nome livello]** assegna alle immagini un nome dopo il file PSD seguito dal nome o dal numero del livello. Il numero di livello viene utilizzato se i nomi di livello nel file PSD sono nomi di livello predefiniti di Photoshop.
-   * Dato che ora le immagini dei livelli in Adobe Dynamic Media Classic hanno nomi univoci, non si verificherà alcun aggiornamento ai PSD o ai modelli esistenti (quali nomi dei livelli condivisi nei file PSD originali).
+   * L&#39;impostazione predefinita precedente di **[!UICONTROL Nome livello]**, ha assegnato alle immagini il nome o il numero del livello nel file PSD. Il numero di livello veniva utilizzato se i nomi dei livelli nel file PSD erano nomi di livello predefiniti di Photoshop.
+   * Il nuovo valore predefinito **[!UICONTROL Photoshop e Nome livello]** assegna alle immagini un nome dopo il file PSD seguito dal nome o dal numero del livello. Il numero di livello viene utilizzato se i nomi dei livelli nel file PSD sono nomi di livello predefiniti di Photoshop.
+   * Dato che ora le immagini dei livelli in Adobe Dynamic Media Classic hanno nomi univoci, non si verificherà alcun aggiornamento a PSD o ai modelli esistenti (che condividevano i nomi dei livelli nei file PSD originali).
 * Miniature di risorse interrotte.
 
 ## Correzioni nella versione 20.21.1 di {#latest-fixes-desktop-app}
@@ -233,14 +233,14 @@ Per scaricare e *installare silenziosamente* la versione più recente dell&#39;a
 
 ## Video introduttivo sull’utilizzo dell’app desktop Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Guarda un video di [introduzione sull&#39;utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durata: 2 minuti e 36 secondi).
+Guarda un video di [introduzione sull&#39;utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durata: 2 minuti e 36 secondi).
 
 ## Cancellazione della cache delle immagini e delle risorse dal computer tramite l’app desktop {#clear-cache}
 
 1. Nell&#39;app desktop Adobe Dynamic Media Classic, nell&#39;angolo superiore destro, toccare **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**.
 1. Nella pagina **[!UICONTROL Installazione personale]**, sotto l&#39;intestazione **[!UICONTROL Desktop]**, eseguire una delle operazioni seguenti:
-   * Per rimuovere dal computer tutti i file immagine Dynamic Medie memorizzati nella cache di Adobe, tocca **[!UICONTROL Cancella cache immagini]**, quindi tocca **[!UICONTROL OK]**.
-   * Per rimuovere dal computer tutti i file di risorse Adobe memorizzati nella cache di Dynamic Medie, tocca **[!UICONTROL Cancella cache risorse]**, quindi tocca **[!UICONTROL OK]**.
+   * Per rimuovere dal computer tutti i file di immagine memorizzati nella cache di Adobe Dynamic Media, tocca **[!UICONTROL Cancella cache immagini]**, quindi tocca **[!UICONTROL OK]**.
+   * Per rimuovere dal computer tutti i file di risorse Adobe Dynamic Media memorizzati nella cache, tocca **[!UICONTROL Cancella cache risorse]**, quindi tocca **[!UICONTROL OK]**.
 1. Nell&#39;angolo inferiore destro della pagina, toccare **[!UICONTROL Chiudi]**.
 
 ### Cancellazione manuale della cache delle immagini e delle risorse
@@ -271,11 +271,11 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 ## Suggerimenti
 
-**_Impossibile visualizzare il pannello Media Cart nella pagina di destinazione di Adobe Dynamic Media Classic._**<br>In Adobe Dynamic Media Classic, toccare&#x200B;**[!UICONTROL Configurazione > Configurazione personale &#x200B;]**. Nella sezione Browser, assicurarsi che sia selezionato&#x200B;**[!UICONTROL Mostra funzionalità MediaPortal &#x200B;]**(selezionato). Tocca&#x200B;**[!UICONTROL Salva > Chiudi &#x200B;]**.
+**_Impossibile visualizzare il pannello Media Cart nella pagina di destinazione di Adobe Dynamic Media Classic._**<br>In Adobe Dynamic Media Classic, toccare**[!UICONTROL Configurazione > Configurazione personale ]**. Nella sezione Browser, assicurarsi che sia selezionato**[!UICONTROL Mostra funzionalità MediaPortal ]**(selezionato). Tocca**[!UICONTROL Salva > Chiudi ]**.
 
-**_Lo stato Publish (indicatore verde) di una risorsa non viene visualizzato correttamente._**<br>Nell&#39;interfaccia utente del browser, era necessario accedere nuovamente all&#39;interfaccia utente per visualizzare lo stato di pubblicazione corretto delle risorse. Nell&#39;app desktop, Adobe ha introdotto un&#39;icona&#x200B;**[!UICONTROL Aggiorna &#x200B;]**&#x200B;nella barra degli strumenti, a destra del pulsante&#x200B;**[!UICONTROL Seleziona nessuno &#x200B;]**. Tocca l&#39;icona&#x200B;**[!UICONTROL Aggiorna &#x200B;]**&#x200B;per visualizzare lo stato più recente di tutte le risorse nella pagina specificata. Non è necessario effettuare un nuovo accesso come nell’interfaccia utente del browser.
+**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene visualizzato correttamente._**<br>Nell&#39;interfaccia utente del browser, era necessario accedere nuovamente all&#39;interfaccia utente per visualizzare lo stato di pubblicazione corretto delle risorse. Nell&#39;app desktop, Adobe ha introdotto un&#39;icona**[!UICONTROL Aggiorna ]**nella barra degli strumenti, a destra del pulsante**[!UICONTROL Seleziona nessuno ]**. Tocca l&#39;icona**[!UICONTROL Aggiorna ]**per visualizzare lo stato più recente di tutte le risorse nella pagina specificata. Non è necessario effettuare un nuovo accesso come nell’interfaccia utente del browser.
 
 ![Icona Aggiorna](/help/using/assets/refresh-icon1.png)
 *Icona Aggiorna*
 
-**_Nell&#39;app desktop non sono disponibili predefiniti per set di batch._**<br>Tocca&#x200B;**[!UICONTROL Carica > Opzioni processo > Predefiniti set di batch &#x200B;]**. Verificare che il&#x200B;**[!UICONTROL predefinito per set di batch &#x200B;]**&#x200B;sia abilitato. Fai clic su&#x200B;**[!UICONTROL Salva e invia caricamento &#x200B;]**.
+**_Nell&#39;app desktop non sono disponibili predefiniti per set di batch._**<br>Tocca**[!UICONTROL Carica > Opzioni processo > Predefiniti set di batch ]**. Verificare che il**[!UICONTROL predefinito per set di batch ]**sia abilitato. Fai clic su**[!UICONTROL Salva e invia caricamento ]**.

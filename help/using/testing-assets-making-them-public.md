@@ -41,7 +41,7 @@ Dalla rete aziendale è possibile individuare l&#39;indirizzo IP pubblico utiliz
 
 Con il Secure Testing, Adobe Dynamic Media Classic crea un server immagini dedicato per ambienti di staging o applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta in ingresso non si trova nell’elenco approvato di indirizzi IP, viene restituita una risposta di errore. L’amministratore aziendale di Adobe Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test protetto della propria azienda.
 
-Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio di test protetto non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico del server immagini di Dynamic Medie. Le richieste al servizio di test sicuro hanno una latenza leggermente superiore rispetto ai server immagini Dynamic Medie pubblici.
+Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio di test protetto non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico del server di immagini Dynamic Media. Le richieste al servizio di test sicuro hanno una latenza leggermente superiore rispetto ai server di immagine Dynamic Media pubblici.
 
 Le risorse non pubblicate sono immediatamente disponibili dai servizi di verifica protetta, senza dover essere pubblicati. In questo modo, puoi eseguire un’anteprima prima che le risorse vengano pubblicate sul loro server immagini rivolto al pubblico.
 
@@ -102,9 +102,9 @@ Last Modified Date:
 
  -->
 
-1. Contatta l’Assistenza clienti Adobe e richiedi l’abilitazione di Secure Testing sul tuo account.
-1. In Adobe Dynamic Media Classic, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Installazione di Publish]** > **[!UICONTROL Server immagini]**.
-1. Nella pagina Publish di Image Server selezionare **[!UICONTROL Test Image Server]** dall&#39;elenco a discesa **[!UICONTROL `Publish Context`]**.
+1. Contatta l’Assistenza clienti di Adobe e richiedi l’abilitazione di Secure Testing sul tuo account.
+1. In Adobe Dynamic Media Classic, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**.
+1. Nella pagina Pubblicazione server immagini, nell&#39;elenco a discesa **[!UICONTROL `Publish Context`]**, selezionare **[!UICONTROL Test Image Server]**.
 1. Per Filtro indirizzi client, selezionare **[!UICONTROL Aggiungi]**.
 1. Selezionare la casella di controllo in modo che l&#39;indirizzo sia attivato, quindi digitare un indirizzo IP e una maschera di rete nei rispettivi campi di testo.
 
@@ -115,19 +115,19 @@ Last Modified Date:
 1. Effettuate una delle seguenti operazioni:
    * Se devi aggiungere altri indirizzi IP, ripeti i due passaggi precedenti.
    * Procedi al passaggio successivo.
-1. Nella parte inferiore sinistra della pagina Image Server Publish, seleziona **[!UICONTROL Salva]**
+1. Nella parte inferiore sinistra della pagina Pubblica su Image Server, seleziona **[!UICONTROL Salva]**
 1. Carica le immagini desiderate sul tuo account Adobe Dynamic Media Classic.
 
    Vedi [Carica file](uploading-files.md#uploading_files).
 
 1. Assicurarsi che alcune immagini siano contrassegnate per la pubblicazione e altre non siano contrassegnate, quindi inviare il processo di pubblicazione.
 
-   Vedi [file Publish](publishing-files.md#publishing_files).
+   Vedi [File di pubblicazione](publishing-files.md#publishing_files).
 
 1. Determinare il nome del servizio di test protetto scegliendo **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazioni generali]**.
 1. Nella pagina Impostazioni generali applicazione, nella sezione Server, individuate il nome a destra di **[!UICONTROL Nome server contesto pubblicazione di prova]**.
 
-Contatta l’Assistenza Adobe se il nome del server non è presente o se gli URL del server non funzionano.
+Se manca il nome del server o gli URL del server non funzionano, contatta l’Assistenza Adobe.
 
 ### Preparare le varianti del sito Web
 

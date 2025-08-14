@@ -75,4 +75,4 @@ La funzione Incorpora codice permette di analizzare il codice visualizzatore del
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Pubblica](publishing-files.md#publishing_files)

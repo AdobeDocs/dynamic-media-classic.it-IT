@@ -12,7 +12,7 @@ topic: Administration, Content Management
 level: Intermediate
 source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 23%
 
 ---
@@ -33,7 +33,7 @@ Seleziona **[!UICONTROL Processi]** nella barra di navigazione globale per aprir
 
 I processi vengono elencati in queste categorie nella scheda Cronologia della pagina Processi:
 
-* **[!UICONTROL Tipo di processo]**: un&#39;icona indica il tipo di processo: Carica e Publish sono i tipi di processo più comuni.
+* **[!UICONTROL Tipo di processo]**: un&#39;icona indica il tipo di processo: i tipi di processo più comuni sono Carica e Pubblica.
 
 * **[!UICONTROL Nome processo]**: nome del processo. Il nome include la parte del nome immessa dall&#39;utente e la data e l&#39;ora.
 
@@ -65,7 +65,7 @@ Per ordinare i processi o modificare la visualizzazione della scheda Cronologia 
 
 * **[!UICONTROL Intervallo date]**: selezionare il menu **[!UICONTROL Intervallo date]** e scegliere un&#39;opzione per limitare l&#39;elenco dei processi alla data corrente, alla settimana precedente o al mese precedente. Seleziona **[!UICONTROL Intervallo date personalizzato]**, quindi inserisci un intervallo di date specifico.
 
-* **[!UICONTROL Tipo di processo]**: seleziona il menu **[!UICONTROL Tipo di processo]** e scegli **[!UICONTROL Publish]** o **[!UICONTROL Carica]** per restringere l&#39;elenco e pubblicare i processi o caricarli. Seleziona **[!UICONTROL Tutti]** per visualizzare entrambi i tipi di processi.
+* **[!UICONTROL Tipo di processo]**: seleziona il menu **[!UICONTROL Tipo di processo]** e scegli **[!UICONTROL Pubblica]** o **[!UICONTROL Carica]** per restringere l&#39;elenco e pubblicare i processi o caricarli. Seleziona **[!UICONTROL Tutti]** per visualizzare entrambi i tipi di processi.
 
 * **[!UICONTROL Mostra]**: vai a **[!UICONTROL Mostra]** > **[!UICONTROL Processi personali]** o **[!UICONTROL Mostra]** > **[!UICONTROL Tutti i processi]** per limitare l&#39;elenco ai processi ordinati o a quelli ordinati dagli utenti della società.
 
@@ -81,7 +81,7 @@ Potete copiare queste informazioni negli Appunti.
 
 ## Gestire i processi di caricamento e pubblicazione ricorrenti {#handling-recurring-upload-and-publish-jobs}
 
-I processi di caricamento e pubblicazione ricorrenti, creati nelle pagine Caricamento e Publish, sono elencati nella scheda Pianificato della pagina Processi. In questa schermata potete modificare ed eliminare i processi periodici.
+I processi di caricamento e pubblicazione ricorrenti, creati nelle pagine Carica e Pubblica, sono elencati nella scheda Pianificato della pagina Processi. In questa schermata potete modificare ed eliminare i processi periodici.
 
 Seleziona il pulsante Processi sulla barra di navigazione globale e, nella pagina Processi, seleziona la scheda **[!UICONTROL Pianificati]** per poter modificare ed eliminare i processi ricorrenti.
 
@@ -103,7 +103,7 @@ Vedere [Intervallo di tempo caricamento o pubblicazione personalizzato](checking
 
 ### Creare un intervallo di tempo del processo di caricamento o pubblicazione personalizzato {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Per creare un intervallo di tempo personalizzato per un caricamento (tramite FTP) o un processo di pubblicazione, nella pagina Caricamento o Publish vai a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**. Quindi immetti numeri e caratteri jolly nella casella Regola che descrive un intervallo di tempo per la ricorrenza dei processi di caricamento o pubblicazione.
+Per creare un intervallo di tempo personalizzato per un caricamento (tramite FTP) o un processo di pubblicazione, nella pagina Caricamento o Pubblicazione vai a **[!UICONTROL Ripeti]** > **[!UICONTROL Personalizzato]**. Quindi immetti numeri e caratteri jolly nella casella Regola che descrive un intervallo di tempo per la ricorrenza dei processi di caricamento o pubblicazione.
 
 La sintassi per la descrizione degli intervalli personalizzati di caricamento e pubblicazione nella casella Regola è la seguente:
 
@@ -142,10 +142,10 @@ Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casell
 Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli intervalli temporali nella casella Regola:
 
 * `0 0 12 * * ?` : mezzogiorno ogni giorno
-* `0 15 10 ? * *` : ogni giorno alle 10:15
-* `0 0/5 14 * * ?`: ogni 5 minuti tra le 14:00 e le 14:55 ogni giorno
-* `0 0/5 14,18 * * ?` : Ogni 5 minuti tra le 14:00 e le 14:55 e ogni 5 minuti tra le 18:00 e le 18:55 ogni giorno
-* `0 10,44 14 ? 3` : mercoledì alle 14:10 e alle 14:44 ogni mercoledì di marzo
+* `0 15 10 ? * *` : 10:15 ogni giorno
+* `0 0/5 14 * * ?`: Ogni 5 minuti tra le 2:00 e le 2:55 del pomeriggio ogni giorno
+* `0 0/5 14,18 * * ?` : Ogni 5 minuti tra le 2:00 e le 2:55 del giorno e ogni 5 minuti tra le 6:00 e le 6:55 del giorno
+* `0 10,44 14 ? 3` : mercoledì alle 14:00 e alle 14:00 ogni mercoledì di marzo:10:44
 * `0 15 10 ? *` : lunedì alle 10:15 ogni giorno feriale
 * `0 15 10 20 * ?` : alle 10:15 del 20 di ogni mese
 * `0 15 10 L * ?` : Alle 10:15 dell&#39;ultimo giorno di ogni mese
@@ -156,4 +156,4 @@ Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli interval
 
 Quando carichi le risorse tramite FTP o esegui un processo di pubblicazione, puoi pianificare l’inizio di un processo successivo al termine del caricamento. Se è stato pianificato l&#39;inizio di altri processi, il processo pianificato in questa posizione verrà messo in coda dietro di essi. Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in tale posizione possa essere attivato. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
 
-Per fare in modo che un processo di caricamento o pubblicazione attivi un altro processo, seleziona **[!UICONTROL Avanzate]** nella pagina Carica o Publish. Immettete quindi l’URL nel campo di testo Notifica HTTP.
+Per fare in modo che un processo di caricamento o pubblicazione attivi un altro processo, seleziona **[!UICONTROL Avanzate]** nella pagina Carica o Pubblica. Immettete quindi l’URL nel campo di testo Notifica HTTP.

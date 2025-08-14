@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Collegare un eCatalog a una pagina Web{#linking-an-ecatalog-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto del server immagini di Dynamic Medie, inclusi gli eCatalog, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l&#39;eCatalog nelle pagine Web e nelle applicazioni, è necessario copiarlo da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic Media, inclusi gli eCatalog, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice incorporato per l&#39;eCatalog nelle pagine Web e nelle applicazioni, è necessario copiarlo da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ I siti Web e le applicazioni accedono al contenuto del server immagini di Dynami
 
 Il modo più comune per distribuire un eCatalog consiste nell&#39;inserire un collegamento sotto forma di una pagina di copertina con miniature di eCatalog nella pagina Web. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli ed esempi di codice, vedere [Incorporare il visualizzatore eCatalog di HTML5 nella Guida di riferimento dei visualizzatori di Adobi](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedere [Incorporare il visualizzatore eCatalog di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiare il codice di incorporamento di un visualizzatore eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 

@@ -25,7 +25,7 @@ Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configu
 
 Se visualizzi l’anteprima di una risorsa modello con livelli di parametri, puoi modificare i parametri o il predefinito immagine. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
 
-Vedi anche [Esempi della libreria di riferimento visualizzatori Adobi](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Vedi anche [Esempi della libreria di riferimento visualizzatori Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Per visualizzare in anteprima una risorsa:**
 
@@ -43,7 +43,7 @@ Vedi anche [Esempi della libreria di riferimento visualizzatori Adobi](https://l
 
 ## Visualizzare in anteprima una risorsa in base al tipo di piattaforma del visualizzatore {#previewing-an-asset-based-on-viewer-platform-type}
 
-È possibile utilizzare Elenco visualizzatori per visualizzare in anteprima come una risorsa viene visualizzata in un particolare tipo di piattaforma visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
+È possibile utilizzare Elenco visualizzatori per visualizzare in anteprima come una risorsa viene visualizzata su un particolare tipo di piattaforma visualizzatore, ad esempio HTML5. Le piattaforme disponibili in Elenco visualizzatori dipendono dal tipo di risorsa e del relativo visualizzatore selezionato per l’anteprima.
 
 È inoltre possibile utilizzare Elenco visualizzatori per copiare l&#39;URL di un visualizzatore o visualizzare e copiare il codice del visualizzatore da incorporare nelle pagine Web.
 

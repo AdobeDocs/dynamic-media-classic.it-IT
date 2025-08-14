@@ -51,11 +51,11 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 
    I formati di file supportati sono file delimitati da tabulazioni con codifica UTF-16 e file CSV con codifica ASCII. Per i file CSV, i caratteri non ASCII devono essere codificati in HTML.
 
-1. Nel pannello InfoPanel Setup, selezionare **[!UICONTROL Publish]**.
+1. Nel pannello InfoPanel Setup, selezionare **[!UICONTROL Pubblica]**.
 
 ## Importare il contenuto sorgente del pannello Info nei set di immagini {#import-source-content-for-the-info-panel-in-image-sets}
 
-È possibile utilizzare un file CSV (Comma-Separated Value) con codifica ASCII (i caratteri non ASCII devono essere codificati da HTML) o un file delimitato da tabulazioni per il testo sorgente di un pannello Info per un set di immagini. Per i file delimitati da tabulazioni è richiesta la codifica UTF-16 (Unicode). È possibile importare diversi tipi di file utilizzando metodi diversi.
+È possibile utilizzare un file CSV (Comma-Separated Value) con codifica ASCII (i caratteri non ASCII devono essere codificati in HTML) o un file delimitato da tabulazioni per il testo sorgente di un pannello Info per un set di immagini. Per i file delimitati da tabulazioni è richiesta la codifica UTF-16 (Unicode). È possibile importare diversi tipi di file utilizzando metodi diversi.
 
 Durante la formattazione del contenuto sorgente, tenete presente i seguenti accorgimenti:
 

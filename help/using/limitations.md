@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ---
 
-# Limitazioni di Dynamic Media
+# Limitazioni per elementi multimediali dinamici
 
 Le sezioni seguenti descrivono le limitazioni di Dynamic Media.
 
@@ -46,7 +46,7 @@ Quando crei un set 360 gradi o un set di immagini o carichi PDF per l’estrazio
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media non supporta le seguenti combinazioni di browser Web e sistemi operativi.
+Adobe Dynamic Media non supporta le seguenti combinazioni di browser web e sistemi operativi.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1

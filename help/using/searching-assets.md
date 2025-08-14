@@ -73,7 +73,7 @@ Specifica uno dei seguenti criteri nella ricerca avanzata:
 
 * **Criteri di ricerca**: creare uno o più campi di ricerca per la ricerca dei metadati. Per creare i campi di ricerca, effettuate le seguenti operazioni:
 
-   1. In Ricerca avanzata, sotto l&#39;intestazione **[!UICONTROL Criteri di ricerca]** e a sinistra del menu **[!UICONTROL Aggiungi campo]**, selezionare l&#39;icona freccia triangolare giù per aprire l&#39;elenco a discesa. Scegli una vista metadati. È possibile scegliere **[!UICONTROL Tutte le proprietà con valori]**, **[!UICONTROL Visualizzazione compatta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campi Publish del server metadati]** o **[!UICONTROL XMP]**.
+   1. In Ricerca avanzata, sotto l&#39;intestazione **[!UICONTROL Criteri di ricerca]** e a sinistra del menu **[!UICONTROL Aggiungi campo]**, selezionare l&#39;icona freccia triangolare giù per aprire l&#39;elenco a discesa. Scegli una vista metadati. È possibile scegliere **[!UICONTROL Tutte le proprietà con valori]**, **[!UICONTROL Visualizzazione compatta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campi di pubblicazione server metadati]** o **[!UICONTROL XMP]**.
    1. Selezionare il menu a discesa **[!UICONTROL Aggiungi campo]** e scegliere un nome di campo.
    1. Scegli un&#39;opzione **[!UICONTROL Contiene]**: **[!UICONTROL Contiene]**, **[!UICONTROL Non contiene]**, **[!UICONTROL Inizia con]**, **[!UICONTROL Termina con]** o **[!UICONTROL È uguale a]**.
    1. Per i campi numerici, scegliete un valore o immettete in intervallo di date personalizzato.
@@ -153,19 +153,19 @@ Segui queste istruzioni nella scheda Filtri per salvare, ripetere ed eliminare l
 
 Il server di metadati è un’API pubblica che puoi utilizzare per cercare le risorse in base ai metadati tramite richieste http.
 
-Per configurare il server metadati, passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Configurazione Publish]** > **[!UICONTROL Server metadati]**.
+Per configurare il server metadati, passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server metadati]**.
 
-La pagina Publish del server metadati consente di impostare le opzioni seguenti:
+La pagina Pubblicazione del server di metadati consente di impostare le opzioni seguenti:
 
-* **[!UICONTROL Instant Publish]**: invia automaticamente tutte le modifiche ai metadati quando vengono apportate, incluse nuove risorse, modifiche alle parole chiave e così via.
+* **[!UICONTROL Pubblicazione immediata]**: invia automaticamente le modifiche ai metadati quando vengono apportate, incluse nuove risorse, modifiche alle parole chiave e così via.
 
-* **[!UICONTROL Pacchetto XMP]**: pubblica il pacchetto XMP. Questo pacchetto non viene utilizzato per la ricerca, ma fornisce l’XMP più aggiornato.
+* **[!UICONTROL Pacchetto XMP]**: pubblica il pacchetto XMP. Questo pacchetto non viene utilizzato per la ricerca, ma fornisce il XMP più aggiornato.
 
 * **[!UICONTROL Parole chiave]**: pubblica le parole chiave nel server metadati per l&#39;utilizzo nelle ricerche.
 
-* **[!UICONTROL Campi Publish del server metadati]**: selezionare i campi da includere nei metadati. Questa opzione consente di determinare quante informazioni sulle risorse sono disponibili al pubblico. Questi campi vengono anche visualizzati nelle visualizzazioni metadati, ma possono essere modificati solo nel server di metadati.
+* **[!UICONTROL Campi di pubblicazione server metadati]**: selezionare i campi da includere nei metadati. Questa opzione consente di determinare quante informazioni sulle risorse sono disponibili al pubblico. Questi campi vengono anche visualizzati nelle visualizzazioni metadati, ma possono essere modificati solo nel server di metadati.
 
-Seleziona **[!UICONTROL Publish Now]** per avviare il processo. Viene visualizzato un messaggio di conferma, che indica l’inizio del processo.
+Seleziona **[!UICONTROL Pubblica ora]** per avviare il processo. Viene visualizzato un messaggio di conferma, che indica l’inizio del processo.
 
 >[!MORELIKETHIS]
 >

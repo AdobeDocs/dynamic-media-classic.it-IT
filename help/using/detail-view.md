@@ -62,7 +62,7 @@ Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sa
 
 La Vista dettagli offre strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma la Vista dettagli offre sempre queste funzioni:
 
-* **elementi per la pubblicazione**: selezionare l&#39;icona **[!UICONTROL `Publish`]** a sinistra del nome oppure passare a **[!UICONTROL File]** > **[!UICONTROL Publish]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
+* **elementi per la pubblicazione**: selezionare l&#39;icona **[!UICONTROL `Publish`]** a sinistra del nome oppure passare a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
 * **Rinomina la risorsa**: seleziona il nome e immetti un nuovo nome.
 

@@ -33,8 +33,8 @@ Identifica il vostro nome e nome dell’account, il nome utente (indirizzo e-mai
 
 ## Desktop
 
-* **Cancella cache immagini**: rimuove dal computer tutti i file immagine Adobe Dynamic Medie memorizzati nella cache.
-* **Cancella cache risorse**: rimuove dal computer tutti i file di risorse Adobe Dynamic Medie memorizzati nella cache.
+* **Cancella cache immagini**: rimuove dal computer tutti i file di immagine memorizzati nella cache di Adobe Dynamic Media.
+* **Cancella cache risorse**: rimuove dal computer tutti i file di risorse memorizzati in Adobe Dynamic Media.
 
 Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app desktop, puoi cancellare manualmente la cache direttamente dal file system. In base al sistema operativo in uso, accedi a:
 
@@ -43,7 +43,7 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 ## Creative Suite Extension
 
-**Per installare Adobe Dynamic Medie Creative Suite Extension:**
+**Per installare l&#39;estensione Adobe Dynamic Media Creative Suite:**
 
 1. In Adobe Dynamic Media Classic, sulla barra degli strumenti, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione personale]**, in Estensione Creative Suite, seleziona **[!UICONTROL Scarica ora]** per scaricare il file `s7csxs.zxp`.
 1. Per ulteriori informazioni sull&#39;estensione, selezionare i collegamenti **[!UICONTROL Installazione]** e **[!UICONTROL Requisiti di sistema]**.
