@@ -73,7 +73,7 @@ Le parole chiave aggiunte ad altri file durante questa sessione o rimosse dall&#
 >[!NOTE]
 >
 >È possibile aggiungere parole chiave ai file durante il caricamento in Adobe Dynamic Media Classic. Nella finestra di dialogo Opzioni processo di caricamento, scegli **[!UICONTROL Altri metadati]** e immetti le parole chiave.
->>Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
+>&#x200B;>Consultate [Opzioni di caricamento](uploading-files.md#upload_options).
 
 ## Importare i metadati {#import-metadata}
 
@@ -82,7 +82,7 @@ Invece di immettere manualmente i metadati per una risorsa alla volta, potete im
 >[!NOTE]
 >
 >Puoi creare un modello per l’immissione dei metadati, in modo che possano essere importati correttamente in Adobe Dynamic Media Classic. Dopo aver creato il modello, puoi utilizzarlo per immettere i metadati.
->>Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>&#x200B;>Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Ulteriori informazioni sulle proprietà standardizzate sono disponibili nel [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
