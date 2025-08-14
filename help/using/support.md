@@ -25,14 +25,14 @@ Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle 
 | --- | --- |
 | Limiti di casi | Senza limiti. |
 | Verifica lo stato del sistema di Adobe | [Stato sistema Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
-| Non riesci a trovare una risposta? | [Per ottenere assistenza dal supporto, aprire un ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
+| Non riesci a trovare una risposta? | [Per ottenere assistenza dal supporto, aprire un ticket](https://experienceleague.adobe.com/it?support-solution=General#support). |
 | Forum della community | [Forum della community Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA (accordi sui livelli di servizio) | [Servizi di supporto / Termini e condizioni](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| SLA (accordi sui livelli di servizio) | [Servizi di supporto / Termini e condizioni](https://helpx.adobe.com/it/support/programs/support-policies-terms-conditions.html). |
 | Utenti supportati | Fino a dieci utenti per organizzazione possono essere designati come Utenti supportati, che possono aprire un caso con l’Assistenza clienti. |
 | Video di formazione e istruzioni Web in tempo reale | Incluso. |
-| Supporto telefonico | <ul><li>USA e Canada: 1-800-497-0335 </li><li>[Numeri di telefono per altre aree geografiche](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
+| Supporto telefonico | <ul><li>USA e Canada: 1-800-497-0335 </li><li>[Numeri di telefono per altre aree geografiche](https://experienceleague.adobe.com/it?support-tab=home#support). </li></ul> |
 
-<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
+<!-- |Create a support case| [https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 Quando riferite i problemi all’assistenza tecnica, fornite anche le seguenti informazioni:
 

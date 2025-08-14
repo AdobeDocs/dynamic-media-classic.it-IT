@@ -94,12 +94,12 @@ Contatta il supporto Adobe per eventuali problemi riscontrati durante l’utiliz
 +++**_Desidero essere sicuro di ottimizzare la mia strategia per i rich media. Come posso saperne di più su Adobe Dynamic Media Classic?_** 
 Adobe Dynamic Media Classic è una soluzione potente e ricca di funzioni progettata per migliorare le strategie multimediali. Per trarre vantaggio da tutte le funzionalità, è necessario esplorare le risorse pratiche seguenti:
 
-* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/it/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Post di blog di Adobe](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Archivi newsletter Adobe Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Archivi newsletter Adobe Dynamic Media](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=it), and the complementary audit program. -->
 
 +++**_Sono interessato a ulteriori informazioni sull&#39;aggiornamento ad Adobe Dynamic Media con Adobe Experience Manager Assets. Dove posso trovare ulteriori informazioni?_**
 Per ulteriori informazioni sui vantaggi dell&#39;aggiornamento alla nuova generazione di authoring, pubblicazione e distribuzione dinamica di contenuti rich media, visitare il [portale Adobe Dynamic Media per l&#39;aggiornamento](/help/using/upgrade.md).
