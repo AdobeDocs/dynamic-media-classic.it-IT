@@ -59,7 +59,7 @@ Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore
 
 In Predefiniti visualizzatore puoi attivare, filtrare, ordinare e visualizzare in anteprima i predefiniti visualizzatore.
 
-Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_presets).
+Consultate [Predefiniti per i visualizzatori &#x200B;](application-setup.md#viewer_presets).
 
 Guarda anche il video di formazione [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 

@@ -271,6 +271,6 @@ Per corsi di formazione personalizzati o individuali, contatta il rappresentante
 ## Risorse aggiuntive
 
 +++**Ulteriori informazioni su [!DNL Dynamic Media] e sulle sue caratteristiche**
-Per ulteriori informazioni su [[!DNL Dynamic Media] , consulta il ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)microsito[!DNL Dynamic Media].
+Per ulteriori informazioni su [[!DNL Dynamic Media] , consulta il &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)microsito[!DNL Dynamic Media].
 
 +++
