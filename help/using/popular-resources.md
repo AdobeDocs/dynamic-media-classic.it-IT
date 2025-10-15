@@ -7,10 +7,10 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: 2d1f60721cc522866ecfc45df145a0c301a3d487
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
@@ -18,30 +18,30 @@ ht-degree: 2%
 
 ## Documentazione tecnica di Adobe Dynamic Media Classic
 
-* [Note sulla versione](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [Note sulla versione](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [Guida utente](introduction.md)
 
 ## Risorse per sviluppatori Adobe Dynamic Media Classic
 
-* [Guida di riferimento per i visualizzatori di Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources)
+* [Guida di riferimento per i visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 * [Esempi di librerie visualizzatore](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [API Image Server e Image Rendering](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources)
+* [API Image Server e Image Rendering](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 
 ## Newsletter, tutorial e webinar su Adobe Dynamic Media Classic
 
 * [Archivio delle newsletter Adobe Dynamic Media Classic](/help/using/dynamic-media-newsletter.md)
 * [Procedure consigliate per la nitidezza delle immagini](/help/using/assets/s7_sharpening_images.pdf)
-* [Massimizza il ROI delle risorse](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): scopri le best practice del settore per la distribuzione di rich media tra siti e app mobili. In questo webinar, esempi e dimostrazioni mostrano come distribuire video in modo efficiente tra i dispositivi. Mostra come offrire creatività dinamica nelle campagne di marketing. Inoltre, aumenta la conversione rendendo qualsiasi immagine, guida di stile o lookbook shoppable.
-* [Accelerare il ciclo di vita della distribuzione dei contenuti](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): questo webinar offre un&#39;introduzione e una dimostrazione di Adobe Experience Manager Assets: on demand, il programma di nuova generazione per la gestione e la distribuzione di rich media. Scopri come collaborare e condividere le risorse tra i team creativi e di marketing per semplificare i processi di revisione delle risorse. Scopri le best practice per gestire in modo efficiente i metadati delle risorse in modo da semplificarne la ricerca, l’utilizzo, il riutilizzo e la condivisione. Scopri come distribuire esperienze multimediali avanzate interattive cross-channel.
-* [Progettazione per l&#39;ottimizzazione mobile](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): utilizzo di Adobe Dynamic Media Classic per una distribuzione efficiente di rich media mirati a tutti i dispositivi. In questo webinar, imparerai a progettare e distribuire esperienze di visualizzazione di immagini e video che siano efficaci nelle app mobili e nei siti reattivi.
+<!-- NOT FOUND * [Maximize your Asset ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Learn industry best practices for delivering rich media across your sites and mobile apps. In this webinar, examples and demonstrations show you how to deliver video efficiently across devices. It shows you how to deliver dynamic creative in your marketing campaigns. And, increase conversion by making any image, style guide, or lookbook shoppable. -->
+<!-- NOT FOUND * [Accelerate Your Content Delivery Lifecycle](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): This webinar gives you an introduction and demonstration of Adobe Experience Manager Assets: on demand, the next generation program for rich media management and delivery. Learn how to collaborate and share assets between creative and marketing teams to streamline asset review processes. Learn best practices for managing asset metadata efficiently to make assets easy to find, use, reuse, and share. Learn how to deliver interactive cross-channel rich media experiences. -->
+<!-- NOT FOUND * [Design for Mobile Optimization](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Using Adobe Dynamic Media Classic for efficient delivery of targeted rich media to all devices. In this webinar, you learn how to design and deliver imaging and video viewing experiences that are effective across mobile apps and responsive sites. -->
 * [Supporto di Adobe Dynamic Media Classic SEO](/help/using/assets/s7_seo.pdf): i motori di ricerca oggi abilitano la ricerca di siti Web e immagini. Adobe Dynamic Media Classic supporta gli sforzi per rendere le immagini più facili da usare nei motori di ricerca, in modo da aumentare il traffico verso il sito web dell’utente Adobe Dynamic Media Classic. Questo PDF offre informazioni generali e linee guida sull’implementazione per realizzare questo obiettivo.
-* [Utilizza Adobe Dynamic Media Classic per massimizzare la conversione delle festività](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): questo webinar illustra come impostare flussi di lavoro automatizzati per ottenere contenuti dalle cartelle visualizzate e creare automaticamente set 360 gradi e video. Scopri anche come gestire rapidamente le modifiche e aggiornare le immagini.
+<!-- NOT FOUND * [Use Adobe Dynamic Media Classic to maximize holiday conversion](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): This webinar teaches you how to set up automated workflows to get content from watched folders and automatically create Spin Sets and videos. You also learn how you can quickly manage changes and update images. -->
 * [Best practice per distribuire esperienze interattive con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): questo webinar illustra come inserire e rimuovere contenuti da Adobe Dynamic Media Classic. Scopri come impostare i predefiniti immagine per ottenere prestazioni ed esperienze ottimali. Scopri anche i predefiniti per visualizzatori e le configurazioni di memorizzazione in cache.
-* [Best practice per la progettazione reattiva](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): questo webinar illustra suggerimenti pratici su come migliorare la strategia mobile. Potrete vedere esempi reali di responsive design in azione, Crea una risorsa principale che funziona su più dispositivi. Aumenta le prestazioni mobili modificando dinamicamente la risoluzione delle immagini. Oppure, orientare le immagini per la visualizzazione in verticale o orizzontale. Scopri anche come ritagliare, ridimensionare o ridimensionare le immagini in modo dinamico.
+<!-- NOT FOUND ANYMORE* [Best practices for responsive design](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): This webinar teaches you practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices. Increase mobile performance by dynamically changing the resolution of images. Or, orient images for portrait or landscape displays. Also learn how to dynamically crop, scale, or resize images. -->
 
 ## Formazione su Adobe Dynamic Media Classic
 
 Vai [qui](https://training.adobe.com/training/courses.html#product=adobe-scene7) per visualizzare i corsi di formazione attualmente disponibili.
-[Video di formazione su Adobe Dynamic Media Classic](https://experienceleague.adobe.com/it/docs/dynamic-media-classic/using/intro/training-videos#intro).
+[Video di formazione su Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
 Visualizza tutte le risorse più comuni disponibili per [Adobe Dynamic Media Classic](home.md).
