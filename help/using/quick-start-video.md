@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 Adobe Dynamic Media Classic Video è una soluzione end-to-end che consente di pubblicare facilmente video adattivi di alta qualità per lo streaming su più schermi, tra cui dispositivi mobili desktop, iOS, Android™, BlackBerry® e Windows®. Un set video adattivo raggruppa versioni dello stesso video codificate con diversi bitrate e formati quali 400, 800 e 100 kbps. Il computer desktop o il dispositivo mobile rileva l’ampiezza di banda disponibile.
 
-Ad esempio, un dispositivo mobile iOS può rilevare un’ampiezza di banda 3G, 4G o Wi-Fi. Quindi seleziona automaticamente il video con la codifica corretta tra i vari bitrate presenti nel set video adattivo. Il video viene inviato in streaming a computer desktop, dispositivi mobili o tablet.
+Ad esempio, su un dispositivo mobile iOS rileva una larghezza di banda, come 3G, 4G o Wi-Fi. Quindi seleziona automaticamente il video con la codifica corretta tra i vari bitrate presenti nel set video adattivo. Il video viene inviato in streaming a computer desktop, dispositivi mobili o tablet.
 
 Inoltre, la qualità video viene modificata automaticamente e in modo dinamico in base alle condizioni della rete sul computer desktop o sul dispositivo mobile. Inoltre, se un cliente entra in modalità a tutto schermo su un desktop, il set video adattivo risponde con una risoluzione migliore, migliorando l’esperienza di visualizzazione del cliente. L’utilizzo di set video adattivi offre la migliore riproduzione possibile. È ideale per i clienti che riproducono video Adobe Dynamic Media Classic su più schermi e dispositivi.
 
@@ -60,7 +60,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
   Lo streaming video adattivo è supportato su varie piattaforme iOS.
 
-  Consulta il supporto più recente nella [Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources).
+  Consulta il supporto più recente nella [Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic supporta la riproduzione di video per dispositivi mobili per video MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -144,15 +144,15 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
   >
   >gli URL diventano attivi solo dopo la pubblicazione del video o del set di video adattivi.
 
-* Visualizza il video incorporato nella pagina Web, nel qual caso utilizza la funzionalità **[!UICONTROL Incorpora codice]**.
+* Visualizza il video incorporato nella pagina Web, nel qual caso utilizza la funzione di codice incorporato.
 
-  Per ottenere il codice da incorporare per un video, nella visualizzazione griglia o nella visualizzazione elenco, selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, selezionare **[!UICONTROL Incorpora codice]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
+  Per ottenere il codice incorporato per un video, in Vista griglia o Vista elenco, selezionate il video nel pannello Sfoglia. Vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**. Nella colonna Azioni della tabella, selezionare **[!UICONTROL Incorpora codice]** a destra di `Universal_HTML5_Video`. Non è possibile modificare il codice.
 
-  Seleziona **[!UICONTROL Chiudi]** e incolla il codice da incorporare in una o più pagine Web.
+  Seleziona **[!UICONTROL Chiudi]** e incolla il codice incorporato in una o più pagine Web.
 
   >[!NOTE]
   >
-  >Il codice di incorporamento viene attivato solo dopo la pubblicazione del video o del set di video adattivi.
+  >Il codice incorporato viene attivato solo dopo la pubblicazione del video o del set di video adattivi.
 
 Vedi [Distribuire video nei tuoi siti Web e mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 

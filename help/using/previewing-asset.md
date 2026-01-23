@@ -10,7 +10,7 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 12%
@@ -72,7 +72,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
    * Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
 
-     Quando si seleziona **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Codice di incorporamento in cui è possibile esaminare il codice del visualizzatore. In questa finestra non è possibile modificare il codice. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web.
+     Quando si seleziona **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Codice incorporato in cui è possibile esaminare il codice del visualizzatore. In questa finestra non è possibile modificare il codice. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web.
 
      Chiudete l&#39;anteprima visualizzata.
 

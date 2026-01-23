@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1232'
 ht-degree: 21%
 
 ---
@@ -100,7 +100,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Se necessario, selezionare un&#39;immagine o un video e selezionare **[!UICONTROL Anteprima]**. Nella pagina Anteprima offerte è possibile modificare le dimensioni e l&#39;aspetto dell&#39;immagine o del video selezionato. In alternativa, puoi modificare tutte le immagini o i video nel Set di offerte.
 
    * Scegliete un predefinito per cambiare l’aspetto e le dimensioni dell’immagine o del video.
-   * Per applicare il predefinito scelto a tutte le offerte del set di offerte, selezionare la casella di controllo **[!UICONTROL Seleziona predefiniti per tutti]**.
+   * Per applicare il predefinito scelto a tutte le offerte del set di offerte, selezionare la casella di controllo **`Select Presets to All`**.
 
    Seleziona **[!UICONTROL Salva]** per salvare le modifiche apportate all&#39;immagine o all&#39;offerta video. Quindi seleziona **[!UICONTROL Chiudi]** per tornare alla pagina Set di offerte Test&amp;Target.
 

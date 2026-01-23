@@ -10,10 +10,10 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 41%
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,7 @@ Vedi anche [Creare un alias per un&#39;immagine](adjusting-image.md#creating_an_
 1. Utilizzare i comandi sul lato destro della finestra `Adjust Editor` per regolare l&#39;immagine:
 
    * Usate le opzioni Rifletti per riflettere un’immagine in orizzontale o verticale.
-   * Usate il cursore Ruota per ruotare l’immagine. Per ruotare un’immagine potete immettere dei valori nel campo Ruota. I valori positivi la ruotano in senso orario, quelli negativi in senso antiorario.
+   * Utilizza il cursore **[!UICONTROL Rotator]** per ruotare l&#39;immagine. È possibile immettere valori nel campo **[!UICONTROL Rotatore]** per ruotare un&#39;immagine. I valori positivi la ruotano in senso orario, quelli negativi in senso antiorario.
    * Usate il cursore Sfocatura o la casella corrispondente per sfocare un’immagine. Più alto è il valore, più sfocata sarà l’immagine.
    * Usate le opzioni Contrasto, Luminosità, Saturazione, Tonalità e Bilanciamento colore per regolare colore e luminosità. Questi effetti sono cumulativi. Ad esempio, le modifiche delle impostazioni Magenta/Verde si sommano a quelle delle impostazioni Tonalità.
    * Utilizza le opzioni `Colorize` per colorare un&#39;immagine mantenendo ombre ed evidenziazioni. Anche le modifiche delle opzioni Colora sono cumulative. Dal menu Luminosità, scegliere **[!UICONTROL Nessuna compensazione]** per disattivare la compensazione automatica della luminosità. Impostate il valore di contrasto su 0 per conservare l’intervallo di contrasto dell’immagine originale o specificate un intervallo con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici sono compresi tra 30 e 70.

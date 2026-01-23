@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 22%
 
 ---
 
@@ -23,9 +23,9 @@ Per semplificare la visualizzazione e la navigazione dei video lunghi, aggiungi 
 
 >[!NOTE]
 >
->il lettore video utilizzato deve supportare l’uso di marcatori capitolo.
+>Il lettore video deve supportare l’uso dei contrassegni dei capitoli.
 
-Per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per il visualizzatore [&#x200B; (HTML5), consulta &#x200B;](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)Aggiungere o modificare un predefinito per visualizzatore video`Universal_HTML5_Video`.
+Per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per il visualizzatore [ (HTML5), consulta ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)Aggiungere o modificare un predefinito per visualizzatore video`Universal_HTML5_Video`.
 
 Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
 

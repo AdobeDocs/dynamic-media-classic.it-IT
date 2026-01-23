@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '10899'
-ht-degree: 29%
+source-wordcount: '10892'
+ht-degree: 28%
 
 ---
 
@@ -97,7 +97,7 @@ Vedere anche [Test del servizio di test protetto](testing-assets-making-them-pub
 
   Per poter accedere a tutte le versioni derivate codificate durante la ricerca e la navigazione, selezionate **[!UICONTROL Mostra video codificati]**.
 
-  Alcune azioni nel menu Genera funzionano solo o eventualmente con singoli video. Questa funzionalità rende necessaria la visualizzazione di tutte le versioni derivate di video codificati disponibili per la selezione, a prescindere dall’impostazione di **[!UICONTROL Mostra video codificati]**. Le azioni di compilazione che superano l&#39;impostazione **[!UICONTROL Mostra video codificati]** includono **[!UICONTROL set di video adattivi]** e **[!UICONTROL eCatalog]**.
+  Alcune azioni nel menu Genera funzionano solo o eventualmente con singoli video. Questa funzionalità rende necessaria la visualizzazione di tutte le versioni derivate di video codificati disponibili per la selezione, a prescindere dall’impostazione di **[!UICONTROL Mostra video codificati]**. Le azioni di compilazione che sostituiscono l&#39;impostazione **[!UICONTROL Mostra video codificati]** includono **[!UICONTROL set di video adattivi]** e **[!UICONTROL eCatalog]**.
 
   >[!NOTE]
   >
@@ -161,7 +161,7 @@ Gli amministratori possono creare predefiniti per l’esportazione delle risorse
 
 Per aprire la schermata Predefinito immagine, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagine]**.
 
-Consulta [Smart imaging](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulta [Smart imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Creare e modificare i predefiniti immagine {#creating-and-editing-image-presets}
 
@@ -213,7 +213,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Spazio colore]**: selezionare uno spazio colore.
 
-* **[!UICONTROL Nitidezza]**: selezionare l&#39;opzione Attiva nitidezza semplice per applicare un filtro di nitidezza di base all&#39;immagine dopo il ridimensionamento. La nitidezza contribuisce a compensare la sfocatura che può prodursi quando si visualizza un’immagine in dimensioni diverse.
+* **[!UICONTROL Nitidezza]**: selezionare l&#39;opzione **[!UICONTROL `Enable Simple Sharpening`]** per applicare un filtro di nitidezza di base all&#39;immagine dopo il ridimensionamento. La nitidezza contribuisce a compensare la sfocatura che può prodursi quando si visualizza un’immagine in dimensioni diverse.
 
   Per ulteriori informazioni sulla nitidezza, sulle modalità di ricampionamento e sulla maschera di contrasto, vedere [Contrassegnare un&#39;immagine](sharpening-image.md#sharpening_an_image). Vedi anche il video di formazione [Nitidezza](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
@@ -237,7 +237,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Spazio colore]**: determina se l&#39;immagine utilizza lo spazio in cui è stata creata, in genere RGB (Originale) o uno spazio di luminanza (Intensità).
 
-* **[!UICONTROL Colore]** Scegliere le opzioni seguenti:
+* **[!UICONTROL Colore]** Puoi scegliere le seguenti opzioni:
 
 * **[!UICONTROL Profilo colore di output]**: selezionare **[!UICONTROL Usa predefinito]** o uno dei profili colore ICC disponibili in Adobe Dynamic Media Classic.
 
@@ -436,7 +436,7 @@ Combinando in un singolo lettore quanto segue:
 
 È possibile estendere la portata dei contenuti rich media agli utenti desktop, tablet e mobili e garantire un&#39;esperienza video semplificata.
 
-Consulta [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori Adobe.
+Consulta [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori Adobe.
 
 Vedere [Matrice di compatibilità del predefinito visualizzatore Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Vedi anche [Esempi della libreria di riferimento visualizzatori Adobe](https://l
 
 Pagine Web diverse hanno esigenze diverse. Talvolta è necessario creare una pagina Web contenente un collegamento che consenta di aprire HTML5 Viewer in una finestra del browser separata. In altri casi, è necessario incorporare il visualizzatore HTML5 direttamente nella pagina di hosting. In quest&#39;ultimo caso, è probabile che la pagina Web abbia un layout statico. Oppure è &quot;reattivo&quot; e viene visualizzato in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, i visualizzatori HTML5 forniti con Adobe Dynamic Media Classic supportano sia pagine Web statiche che pagine Web dinamiche.
 
-Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine Web, vedere [Informazioni sulla libreria di immagini reattive](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utilizzare la libreria di immagini reattive](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Riferimento comando: Attributi comando](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine Web, vedere [Informazioni sulla libreria di immagini reattive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utilizzare la libreria di immagini reattive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Riferimento comando: Attributi comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipi di predefiniti per visualizzatori {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Vedi anche [Esempi della libreria di riferimento visualizzatori Adobe](https://l
 
 Per informazioni sulle versioni supportate del browser Web e del sistema operativo per i visualizzatori, consulta le Note sulla versione dei visualizzatori.
 
-Consulta le [Note sulla versione di riferimento per visualizzatori Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources).
+Consulta le [Note sulla versione di riferimento per visualizzatori Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -514,7 +514,7 @@ Consulta le [Note sulla versione di riferimento per visualizzatori Adobe](https:
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visualizzatori set campioni |  |  |  |  |  |  |
+| Visualizzatori set di campioni |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
@@ -713,13 +713,13 @@ L’URL viene copiato negli Appunti. È possibile utilizzarlo in base alle esige
 
    Nella pagina Elenco visualizzatori selezionare **[!UICONTROL Copia URL]** nella colonna Azioni della tabella.
 
-### Copiare il codice di incorporamento di un predefinito visualizzatore {#copying-the-embed-code-of-a-viewer-preset}
+### Copiare il codice incorporato di un predefinito visualizzatore {#copying-the-embed-code-of-a-viewer-preset}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del predefinito per visualizzatori selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore.
+L’utilizzo della funzione del codice incorporato consente di rivedere il codice visualizzatore per il predefinito visualizzatore selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore.
 
 La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice di incorporamento di un predefinito visualizzatore:**
+**Per copiare il codice incorporato di un predefinito visualizzatore:**
 
 1. Seleziona la risorsa nel pannello Sfoglia risorse.
 1. Sopra il pannello delle risorse, sul lato destro della barra degli strumenti, effettuate una delle seguenti operazioni:
@@ -824,7 +824,7 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
 >[!NOTE]
 >
->Per fare in modo che i campi definiti dall&#39;utente vengano visualizzati nel pannello Metadati in Visualizzazione dettagli, includete i campi definiti dall&#39;utente nelle Visualizzazioni metadati. Nella schermata Visualizzazioni metadati, selezionate l’opzione Includi UDF (User-Defined Fields, campi definiti dall’utente). Per ulteriori informazioni, consultate [Visualizzazione metadati](application-setup.md#metadata_views).
+>Per fare in modo che i campi definiti dall&#39;utente vengano visualizzati nel pannello Metadati in Visualizzazione dettagli, includete i campi definiti dall&#39;utente nelle Visualizzazioni metadati. Nella schermata Visualizzazioni metadati, selezionare l&#39;opzione **[!UICONTROL `Include UDF (user-defined fields)`]. Per ulteriori informazioni, consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
@@ -903,7 +903,7 @@ Tutti i predefiniti per set di batch attivi per una società sono elencati nella
 
 ### Denominazione predefinita {#default-naming}
 
-L’amministratore della società crea una convenzione di denominazione predefinita che viene utilizzata in qualsiasi composizione di predefiniti per set di batch. La convenzione di denominazione predefinita selezionata nella definizione del predefinito per set di batch può essere tutto ciò che la società deve generare in batch set per tutti i siti web. Un predefinito per set di batch viene creato per utilizzare la convenzione di denominazione predefinita definita. È possibile creare un numero illimitato di predefiniti per set di batch con convenzioni di denominazione alternative e personalizzate necessarie per un particolare set di contenuti nei casi in cui vi sia un’eccezione alla denominazione predefinita definita dall’azienda.
+L’amministratore della società crea una convenzione di denominazione predefinita che viene utilizzata in qualsiasi composizione di predefiniti per set di batch. Le convenzioni di denominazione predefinite selezionate nella definizione del predefinito per set di batch possono essere tutte quelle necessarie alla società per generare set in batch per tutti i siti web. Viene creato un `Batch Set Preset` per utilizzare la convenzione di denominazione predefinita definita. È possibile creare un numero illimitato di predefiniti per set di batch con convenzioni di denominazione alternative e personalizzate necessarie per un particolare set di contenuti nei casi in cui vi sia un’eccezione alla denominazione predefinita definita dall’azienda.
 
 Per utilizzare la funzionalità Predefinito per set di batch non è necessario impostare una convenzione di denominazione predefinita. Tuttavia, in base alle best practice di Adobe, è consigliabile utilizzare una convenzione di denominazione predefinita per definire tutti gli elementi della convenzione di denominazione che si desidera raggruppare in un set. In questo modo è possibile semplificare la creazione di set di batch.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 27%
@@ -27,11 +27,11 @@ Prima di caricare i file, assicurati di stabilire una struttura di cartelle e un
 
 Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle. Quando selezionate una cartella nella libreria delle risorse, il suo contenuto viene visualizzato nel pannello Sfoglia. Per individuare le cartelle nella struttura, effettuate le seguenti operazioni:
 
-* **Visualizza sottocartelle**: selezionare l&#39;icona **[!UICONTROL Espandi cartella]** per visualizzare le sottocartelle in una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Visualizza sottocartelle**: selezionare l&#39;icona **[!UICONTROL Cartella espansa]** per visualizzare le sottocartelle in una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
 * **Spostare una cartella**: è possibile spostare una cartella trascinandola e rilasciandola nella nuova posizione oppure selezionando **[!UICONTROL File]** > **[!UICONTROL Sposta cartella]**.
 
-* **Nascondi cartelle**: selezionare l&#39;icona **[!UICONTROL Comprimi cartella]** se si desidera comprimere le sottocartelle per nasconderle dalla visualizzazione. Questa icona si trova a sinistra dei nomi delle cartelle.
+* **Nascondi cartelle**: selezionare l&#39;icona **[!UICONTROL Cartella compressa]** se si desidera comprimere le sottocartelle per nasconderle dalla visualizzazione. Questa icona si trova a sinistra dei nomi delle cartelle.
 
 * **Apri una cartella**: seleziona una cartella per visualizzarne il contenuto nel pannello Sfoglia.
 

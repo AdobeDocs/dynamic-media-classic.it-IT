@@ -10,10 +10,10 @@ role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ Vedi [Visualizzare l&#39;anteprima di una risorsa](previewing-asset.md#previewin
 
 **Per visualizzare in anteprima i cataloghi elettronici nel visualizzatore eCatalog:**
 
-1. Nel pannello Libreria risorse a sinistra, selezionate nell’elenco a discesa Mostra un tipo di risorsa basata su video, come ad esempio Video o Set di video.
+1. Nel pannello Libreria risorse a sinistra, seleziona un tipo di risorsa basato su video dall’elenco a discesa Mostra, ad esempio Video o Set video.
 1. Nel pannello Libreria risorse a sinistra, individuate le cartelle Asset contenenti i video da visualizzare in anteprima con un visualizzatore eCatalog.
 1. Effettuate una delle seguenti operazioni:
 

@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Oltre a usare il testo delle mappe immagine per i rollover nell’eCatalog, pote
 
 Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Adobe Dynamic Media Classic:
 
-* Il pannello Impostazione InfoPanel consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita per gli errori e il numero di ore in cui le informazioni vengono memorizzate nella cache. Inoltre, potete specificare se pubblicare automaticamente gli eCatalog.
+* Il pannello Impostazione InfoPanel consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita per gli errori e il numero di ore in cui le informazioni vengono memorizzate nella cache. Inoltre, puoi specificare se gli eCatalog verranno pubblicati automaticamente.
 * Il pannello Feed dati di InfoPanel consente di specificare un file CSV contenente il testo che si desidera visualizzare nel testo di rollover di InfoPanel e di programmare gli orari per l&#39;aggiornamento delle informazioni.
 * La finestra di dialogo Importa metadati (accessibile dalla vista Pagine mappa ) consente di importare un file TXT delimitato da tabulazioni contenente le informazioni di testo di rollover. Con l’opzione file CSV puoi utilizzare questa opzione TXT o il pannello Feed dati per il testo di rollover.
 * La vista Pagine mappa fornisce un’opzione per visualizzare in anteprima il codice xml visualizzato per mappe immagine specifiche.

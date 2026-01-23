@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -59,7 +59,7 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 | --- | --- | --- | --- |
 | Nitidezza semplice | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
 | Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bicubica. Maggiore intensità di CPU rispetto a `bilin`, ma produce immagini più nitide con meno artefatti di aliasing visibili.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia risoluzioni superiori che inferiori, se disponibile. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
-| Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di forza del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello soglia del filtro (int 0...255)<br><br>`monochrome`: impostato su `0` per rimuovere la maschera di contrasto separatamente per ogni componente di colore, impostato su `1` per rimuovere la maschera di contrasto della luminosità (intensità) dell&#39;immagine | `op_usm=1,1,10,0` |
+| Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di intensità del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello di soglia del filtro (intero 0...255)<br><br>`monochrome`: impostato su `0` per applicare una maschera di contrasto a ogni componente di colore separatamente, impostato su `1` per applicare una maschera di contrasto alla luminosità (intensità) dell&#39;immagine | `op_usm=1,1,10,0` |
 
 Selezionare il menu **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
 

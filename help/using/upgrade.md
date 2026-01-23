@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle f
 
 * Esperienza e integrazione senza soluzione di continuità e unificate con [!DNL Adobe Experience Manager]: configurazione e distribuzione dinamica di contenuti avanzati da un unico archivio, da un&#39;unica origine
 * Nuova esperienza utente incentrata sul marketing per semplificare l&#39;authoring e la distribuzione di contenuti rich media
-* Editor del look and feel e del comportamento di WYSIWYG (What You See Is What You Get) per i visualizzatori di immagini e i lettori video.
+* WYSIWYG (What You See Is What You Get) per quanto riguarda gli editor generali di aspetto e comportamento per gli utenti che visualizzano immagini e i lettori video.
 * Creazione e distribuzione più rapida di esperienze multimediali commerciali/interattive, inclusi hotspot di immagini e video acquistabili
 
 ### Funzionalità di [!DNL Dynamic Media] in [!DNL Experience Manager] Assets

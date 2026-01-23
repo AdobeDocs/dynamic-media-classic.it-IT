@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1995'
-ht-degree: 29%
+source-wordcount: '1991'
+ht-degree: 30%
 
 ---
 
@@ -105,7 +105,7 @@ Puoi utilizzare le seguenti tecniche di filtro degli elenchi utente:
 
 * **Filtra per ruolo utente**: seleziona il menu **[!UICONTROL Per ruolo utente]** e scegli un&#39;opzione per limitare l&#39;elenco a utenti o amministratori di tipi diversi.
 
-* **Filtra per nome campo**: selezionare **[!UICONTROL Abilita filtro per campo]**. Selezionare quindi il menu **[!UICONTROL Per nome campo]**, scegliere una colonna per filtrare l&#39;elenco, quindi scegliere Filtra carattere e scegliere una lettera. L’elenco viene filtrato su una delle colonne in base alla lettera scelta. Per visualizzare l&#39;elenco completo, deselezionare l&#39;opzione **[!UICONTROL Abilita filtro per campo]**.
+* **Filtra per nome campo**: selezionare **[!UICONTROL Abilita filtro per campo]**. Selezionare quindi il menu **[!UICONTROL Per nome campo]**, scegliere una colonna per filtrare l&#39;elenco, quindi scegliere Filtra carattere e scegliere una lettera. L’elenco viene filtrato su una delle colonne in base alla lettera scelta. Per visualizzare l&#39;elenco completo, deselezionare l&#39;opzione **`Enable Filter By Field`**.
 
 * **Escludi utenti non validi**: deseleziona **[!UICONTROL Includi non validi]**. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono stati eliminati dal sistema e dagli account amministrati.
 

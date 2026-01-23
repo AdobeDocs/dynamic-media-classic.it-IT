@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ Puoi spostare le risorse in cartelle diverse nel pannello Sfoglia.
 1. Seleziona la risorsa o le risorse nel pannello Sfoglia ed effettua una delle seguenti operazioni:
 
    * Visualizza la cartella in cui desideri spostare le risorse nella Libreria risorse e trascina le risorse nella cartella.
-   * Vai a **[!UICONTROL File]** > **[!UICONTROL Sposta]**, seleziona una cartella nella finestra Sposta Assets e seleziona **[!UICONTROL Sposta]**.
+   * Vai a **[!UICONTROL File]** > **`Move`**, seleziona una cartella nella finestra `Move Assets` e seleziona **`Move`**.
 
 ## Rinominare le risorse {#rename-assets}
 

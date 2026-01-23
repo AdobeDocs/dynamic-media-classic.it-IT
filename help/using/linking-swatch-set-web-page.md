@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -48,13 +48,13 @@ Dopo aver pubblicato un set di campioni, potete utilizzare l&#39;URL o il codice
 
 Il modo più comune per distribuire i set di campioni consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di campioni in una finestra di zoom popup. Il collegamento di zoom apre una finestra pop-up contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, vedere [Incorporazione del visualizzatore zoom di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedere [Incorporazione del visualizzatore zoom di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copiare il codice di incorporamento di un visualizzatore di set di campioni {#copying-the-embed-code-of-a-swatch-set-viewer}
+## Copiare il codice incorporato di un visualizzatore di set di campioni {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di campioni selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+L&#39;utilizzo della funzione di codice incorporato consente di esaminare il codice visualizzatore per il set di campioni selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice di incorporamento di un visualizzatore di set di campioni:**
+**Per copiare il codice incorporato di un visualizzatore di set di campioni:**
 
 1. Nel pannello Sfoglia risorse, nell&#39;elenco a discesa Mostra, seleziona **[!UICONTROL Set campioni]**.
 1. nel pannello Libreria risorse, a sinistra, passa alla cartella delle risorse contenente il set di campioni di cui desideri copiare il codice da incorporare.

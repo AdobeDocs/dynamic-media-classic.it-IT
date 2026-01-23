@@ -10,10 +10,10 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 41%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ Consulta [Caricare i file](uploading-files.md#uploading_your_files).
 
 Per esaminare un profilo ICC, selezionatelo nel pannello Sfoglia e visualizzatelo in Vista dettagli. La Vista dettagli fornisce queste informazioni sui profili ICC:
 
-* **[!UICONTROL Classe profilo]**: l&#39;ICC (International Color Consortium) definisce ogni classe per coprire un tipo di applicazione. Ad esempio, i profili di Input si applicano a dispositivi quali fotocamere digitali e scanner e i profili di Output si applicano alle stampanti.
+* **[!UICONTROL Classe profilo]**: l&#39;ICC (International Color Consortium) definisce ogni classe per coprire un tipo di applicazione. Ad esempio, i profili di input si applicano ai dispositivi, quali fotocamere digitali e scanner, mentre i profili di output si applicano alle stampanti.
 
 * **[!UICONTROL Tipo di spazio colore]**: questo numero è lo spazio colore &quot;di input&quot; del profilo, come definito dall&#39;ICC. Il tipo di spazio colore consente di definire il numero di componenti dello spazio colore e l’interpretazione di tali componenti. Ad esempio, RGB è uno spazio colore con tre componenti: rosso, verde e blu. Il tipo di spazio colore non definisce le particolari caratteristiche di colore dello spazio (ad esempio, le cromaticità dei primari).
 

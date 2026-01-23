@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 23%
@@ -73,9 +73,9 @@ Vedi anche [Incorporare il visualizzatore video in una pagina Web](deploying-vid
 
 1. Inserite il collegamento URL per il video HTML5 nel sito Web e nel sito mobile.
 
-## Incorporare il visualizzatore video in una pagina web {#embedding-the-video-viewer-on-a-web-page}
+## Aggiungere il visualizzatore video a una pagina Web {#embedding-the-video-viewer-on-a-web-page}
 
-Utilizzare la funzione Incorpora codice per riprodurre il video incorporato nella pagina Web. Il codice da incorporare viene copiato negli Appunti in modo da poterlo incollare nelle pagine Web. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+Utilizzare la funzione del codice incorporato per riprodurre il video incorporato nella pagina Web. Il codice incorporato viene copiato negli Appunti in modo da poterlo incollare nelle pagine Web. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 Vedi anche [Collegare un URL video a un sito mobile o a un sito Web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -103,7 +103,7 @@ Vedi anche [Collegare un URL video a un sito mobile o a un sito Web](deploying-v
    La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
 1. selezionare **[!UICONTROL Chiudi]**.
-1. Incolla il codice da incorporare nelle pagine Web.
+1. Incollare il codice incorporato nelle pagine Web.
 
 ### Implementare il codice di incorporamento per utilizzare video HTML5 con risorse video MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -187,7 +187,7 @@ Potete applicare al fotogramma poster i modificatori di immagini. Ad esempio, po
 
 Consulta [Aggiungere o modificare un predefinito per visualizzatori video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulta la [Guida di Image Server](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulta la [Guida di Image Server](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Potete inoltre modificare le miniature video aggiungendo dei modificatori ai relativi URL.
 

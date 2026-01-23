@@ -9,10 +9,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '3981'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -264,7 +264,7 @@ Nella schermata Predefiniti video, gli amministratori possono impostare e gestir
 * Modificare i predefiniti di codifica video.
 * Elimina predefiniti video.
 
-Qualsiasi video caricato su Adobe Dynamic Media Classic o che codifichi in Adobe Dynamic Media Classic viene considerato come &quot;video&quot;. In altre parole potete trasmettere i video da riprodurre su computer desktop, dispositivi mobili o entrambi. Ad esempio, puoi visualizzare in anteprima questi tipi di video in Adobe Dynamic Media Classic. Potete inoltre generare URL (mediante la funzione Copia URL) e codice da incorporare (mediante la funzione Incorpora codice) da usare per lettori video, siti Web e così via.
+Qualsiasi video caricato su Adobe Dynamic Media Classic o che codifichi in Adobe Dynamic Media Classic viene considerato come &quot;video&quot;. In altre parole potete trasmettere i video da riprodurre su computer desktop, dispositivi mobili o entrambi. Ad esempio, puoi visualizzare in anteprima questi tipi di video in Adobe Dynamic Media Classic. Puoi anche generare URL (utilizzando la funzione Copia URL) e codice da incorporare (utilizzando la funzione Codice incorporato) per l’utilizzo con lettori video, su siti web e così via.
 
 Visualizza [Anteprima video in un visualizzatore video](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 

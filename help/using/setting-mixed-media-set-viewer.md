@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 20%
+source-wordcount: '614'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 I predefiniti per visualizzatori di set di file multimediali diversi determinano lo stile, il comportamento e l’aspetto del visualizzatore principale. Quando configurate un predefinito, specificate quali altri visualizzatori devono apparire nel visualizzatore di set di file multimediali diversi. Ad esempio, se hai incluso un set di immagini nel set di file multimediali diversi, specifica un predefinito visualizzatore set di immagini per il visualizzatore set di file multimediali diversi.
 
-Potete scegliere di includere nel visualizzatore di set di file multimediali diversi tutte le funzioni per le community Internet o solo alcune di esse. La funzione Incorpora aggiunge al visualizzatore un collegamento che consente agli utenti di copiare il codice necessario per visualizzare il visualizzatore in una pagina esterna, ad esempio un blog, un sito Web o un sito di social networking. La funzione Collegamento fornisce l’URL del visualizzatore, in modo che gli utenti possano usare un collegamento al visualizzatore. La funzionalità Visita fornisce un collegamento al sito Web specificato.
+Potete scegliere di includere nel visualizzatore di set di file multimediali diversi tutte le funzioni per le community Internet o solo alcune di esse. La funzione di incorporamento aggiunge al visualizzatore un collegamento che consente agli utenti di copiare il codice necessario per visualizzare il visualizzatore in una pagina esterna, ad esempio un blog, un sito Web o un sito di social networking. La funzione Collegamento fornisce l’URL del visualizzatore, in modo che gli utenti possano usare un collegamento al visualizzatore. La caratteristica Visitato fornisce un collegamento al sito Web specificato.
 
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Nella pagina Predefiniti visualizzatore effettuare una delle seguenti operazioni:
@@ -50,7 +50,7 @@ Potete scegliere di includere nel visualizzatore di set di file multimediali div
    * Per eliminare un predefinito dall&#39;elenco, selezionarlo, quindi selezionare **[!UICONTROL Elimina]**.
    * Per riordinare i predefiniti nell&#39;elenco, selezionare un predefinito, quindi selezionare la freccia blu **[!UICONTROL Su]** o **[!UICONTROL Giù]**.
 
-1. Per aggiungere al visualizzatore funzioni per la community Internet (Incorpora, Collegamento, Visita), specificate le opzioni per una delle seguenti operazioni:
+1. Per aggiungere al visualizzatore le funzioni di community (incorpora, collega, visitato), specifica le opzioni per uno dei seguenti elementi:
 
    * **E-mail**: seleziona **[!UICONTROL Il]** per abilitare un pulsante E-mail nel visualizzatore. Quando gli utenti selezionano il pulsante E-mail durante la visualizzazione del set, viene visualizzato un messaggio e-mail contenente il collegamento al set.
 

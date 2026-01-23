@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -155,7 +155,7 @@ Il server di metadati è un’API pubblica che puoi utilizzare per cercare le ri
 
 Per configurare il server metadati, passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server metadati]**.
 
-La pagina Pubblicazione del server di metadati consente di impostare le opzioni seguenti:
+La pagina Server di pubblicazione server metadati consente di impostare le opzioni seguenti:
 
 * **[!UICONTROL Pubblicazione immediata]**: invia automaticamente le modifiche ai metadati quando vengono apportate, incluse nuove risorse, modifiche alle parole chiave e così via.
 

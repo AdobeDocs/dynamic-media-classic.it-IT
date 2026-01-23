@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -54,11 +54,11 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 In questo esempio di sintassi URL (il collegamento non è attivo), noterai un numero SKU ( `sku=backpack_spin`). La stringa dopo `sku=` è il nome del set 360 gradi ( `backpack spin`).
 
-## Copiare il codice di incorporamento di un visualizzatore di set 360 gradi {#copying-the-embed-code-of-a-spin-set-viewer}
+## Copiare il codice incorporato di un visualizzatore di set 360 gradi {#copying-the-embed-code-of-a-spin-set-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del set 360 gradi selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+L’utilizzo della funzione del codice incorporato consente di rivedere il codice visualizzatore per il set 360 gradi selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice di incorporamento di un visualizzatore di set 360 gradi:**
+**Per copiare il codice incorporato di un visualizzatore di set 360 gradi:**
 
 1. Nel pannello Sfoglia risorse, nell&#39;elenco a discesa Mostra, selezionare **[!UICONTROL Set 360 gradi]**.
 1. nel pannello Libreria risorse, a sinistra, accedi alla cartella delle risorse contenente il set 360 gradi di cui desideri copiare il codice da incorporare.

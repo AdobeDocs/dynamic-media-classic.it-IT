@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 17%
+source-wordcount: '703'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +24,7 @@ I sottotitoli, in particolare i sottotitoli per non udenti, garantiscono inoltre
 
 >[!NOTE]
 >
->il lettore video utilizzato deve supportare la visualizzazione delle didascalie.
+>Il lettore video utilizzato deve supportare la visualizzazione dei sottotitoli.
 
 Per configurare l&#39;effetto Didascalia e modificare il menu Didascalia stesso, incluso il testo del menu per uno dei seguenti visualizzatori:
 
@@ -38,7 +38,7 @@ Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-se
 
 Adobe Dynamic Media Classic può convertire i file di didascalia in formato JSON (JavaScript Object Notation). Questa conversione ti consente di incorporare il testo JSON in una pagina web come trascrizione nascosta ma completa del video. I motori di ricerca possono quindi eseguire la ricerca per indicizzazione e indicizzare il contenuto per rendere i video più facilmente individuabili e fornire ai clienti maggiori dettagli sul contenuto video.
 
-Per ulteriori informazioni sull&#39;utilizzo della funzione JSON in un URL, vedere [Server static (non-image) contents](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) in.
+Per ulteriori informazioni sull&#39;utilizzo della funzione JSON in un URL, vedere [Server static (non-image) contents](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) in.
 
 **Per aggiungere didascalie a un video:**
 

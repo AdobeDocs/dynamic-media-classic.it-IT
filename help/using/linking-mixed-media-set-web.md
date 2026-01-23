@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -44,11 +44,11 @@ Dopo aver pubblicato un set di file multimediali diversi, puoi ottenere l’URL 
 
 Il modo più comune per distribuire un set di file multimediali diversi consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di file multimediali diversi in Visualizzatore set di file multimediali diversi.
 
-## Copiare il codice di incorporamento di un visualizzatore di set di file multimediali diversi {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copiare il codice incorporato di un visualizzatore di set di file multimediali diversi {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore del set di file multimediali diversi selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+L’utilizzo della funzione di codice incorporato consente di rivedere il codice visualizzatore per il set di file multimediali diversi selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice di incorporamento di un visualizzatore di set di file multimediali diversi:**
+**Per copiare il codice incorporato di un visualizzatore di set di file multimediali diversi:**
 
 1. Nel pannello Sfoglia risorse, nell&#39;elenco a discesa Mostra, selezionare **[!UICONTROL Set di file multimediali diversi]**.
 1. nel pannello Libreria risorse, a sinistra, passa alla cartella delle risorse contenente il set di file multimediali diversi di cui desideri copiare il codice da incorporare.

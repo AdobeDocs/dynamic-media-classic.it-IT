@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '3858'
+source-wordcount: '3856'
 ht-degree: 25%
 
 ---
@@ -26,7 +26,7 @@ Prima di caricare le risorse in Adobe Dynamic Media Classic, accertati che siano
 
 ### Formati di file di risorse supportati {#supported-asset-file-formats}
 
-In questa tabella sono elencati i formati di file di risorse supportati da Adobe Dynamic Media Classic. Per informazioni sui file Camera Raw supportati, vedere [https://helpx.adobe.com/it/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/it/camera-raw/using/supported-cameras.html).
+In questa tabella sono elencati i formati di file di risorse supportati da Adobe Dynamic Media Classic. Per informazioni sui file Camera Raw supportati, vedere [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formati di file di risorse | Descrizione |
 | --- | --- |
@@ -291,11 +291,11 @@ Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che i
    * Richiesta HTTP
    * Pubblicazione da Image Server
    * Pubblicazione da Image Rendering
-   * Pubblicazione video
+   * `Video Publish`
 
 1. Specificate l’indirizzo HTTP.
 1. Specifica se desideri eseguire solo se i file sono stati caricati.
-1. Specificate se la richiesta deve essere eseguita ogni volta che termina il processo oppure solo quando i file sono stati pubblicati. 
+1. Indicare se si desidera eseguire questa richiesta ogni volta che il processo viene completato o solo quando i file vengono pubblicati.
 
    >[!NOTE]
    >

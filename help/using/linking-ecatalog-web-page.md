@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 23%
+source-wordcount: '672'
+ht-degree: 21%
 
 ---
 
@@ -48,13 +48,13 @@ I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic M
 
 Il modo più comune per distribuire un eCatalog consiste nell&#39;inserire un collegamento sotto forma di una pagina di copertina con miniature di eCatalog nella pagina Web. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli ed esempi di codice, vedere [Incorporare il visualizzatore eCatalog di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Per ulteriori dettagli ed esempi di codice, vedere [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in Adobe Viewers Reference.
 
-## Copiare il codice di incorporamento di un visualizzatore eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
+## Copiare il codice incorporato di un visualizzatore eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-La funzione Incorpora codice permette di analizzare il codice visualizzatore dell’eCatalog selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
+L’utilizzo della funzione del codice incorporato consente di rivedere il codice visualizzatore per l’eCatalog selezionato. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web per la distribuzione del visualizzatore. La modifica del codice non è consentita nella finestra di dialogo Codice da incorporare.
 
-**Per copiare il codice di incorporamento di un visualizzatore eCatalog:**
+**Per copiare il codice incorporato di un visualizzatore eCatalog:**
 
 1. Nel pannello Sfoglia risorse, nell&#39;elenco a discesa Mostra, seleziona **[!UICONTROL Catalogo]**.
 1. nel pannello Libreria risorse a sinistra, passa alla cartella delle risorse contenente l’eCatalog di cui desideri copiare il codice da incorporare.

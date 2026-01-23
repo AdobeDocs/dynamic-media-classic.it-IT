@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 18%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 22%
 
 Un set 360 gradi simula la rotazione di un oggetto per esaminarlo. I set 360 gradi consentono di visualizzare elementi da qualsiasi angolo, ottenendo i dettagli visivi fondamentali da ogni angolazione. Un set 360 gradi simula un’esperienza visiva a 360 gradi. Adobe Dynamic Media Classic offre set 360 gradi unidimensionali in cui gli utenti possono ruotare un elemento e set 360 gradi bidimensionali in cui gli utenti possono ruotare e capovolgere l’elemento. Inoltre, gli utenti possono eseguire lo zoom e la panoramica delle visualizzazioni con pochi semplici clic del mouse. Questo consente agli utenti di esaminare un elemento con maggiore attenzione, da un particolare punto di vista.
 
-![Immagini per un set 360 gradi.](/help/using/assets/spin_set.png)
+![Immagini per un set 360 gradi](/help/using/assets/spin_set.png)
 
-I set 360 gradi accettano le mappe immagine. Una mappa immagine è un’area dell’immagine nel set 360 gradi dalla quale può essere visualizzato un pannello rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, viene avviata una pagina Web per consentire all&#39;utente di ottenere ulteriori informazioni su un prodotto. Per evidenziare una mappa immagine in un set 360 gradi, quando l&#39;utente sposta il puntatore del mouse su di essa, viene visualizzato un contorno intorno alla mappa immagine stessa.
+I set 360 gradi accettano anche le mappe immagine. Una mappa immagine è un’area su un’immagine all’interno del set che ruota e mostra un pannello di rollover con del testo. Quando l’utente seleziona una mappa immagine, viene attivata un’azione di qualche tipo. Ad esempio, viene avviata una pagina Web per consentire all&#39;utente di ottenere ulteriori informazioni su un prodotto. Per evidenziare una mappa immagine in un set 360 gradi, quando l&#39;utente sposta il puntatore del mouse su di essa, viene visualizzato un contorno intorno alla mappa immagine stessa.
 
 Consulta [Creare mappe immagine](creating-image-maps.md).
 
@@ -37,7 +37,7 @@ Quando crei un set 360 gradi, Adobe consiglia le best practice seguenti e applic
 
 Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
 
-Questo avvio rapido per set 360 gradi è progettato per aiutarti a iniziare rapidamente a utilizzare le tecniche del set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Alla fine di ogni passaggio, puoi selezionare un collegamento ad argomento per ulteriori informazioni.
+Questa guida rapida è stata progettata per aiutarti a iniziare rapidamente a lavorare con le tecniche del set 360 gradi in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 7. Alla fine di ogni passaggio, puoi selezionare un collegamento ad argomento per ulteriori informazioni.
 
 ## &#x200B;1. Creare e caricare le immagini
 
