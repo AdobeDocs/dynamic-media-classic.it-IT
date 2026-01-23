@@ -48,7 +48,7 @@ I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic M
 
 Il modo più comune per distribuire un eCatalog consiste nell&#39;inserire un collegamento sotto forma di una pagina di copertina con miniature di eCatalog nella pagina Web. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli ed esempi di codice, vedere [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in Adobe Viewers Reference.
+Per ulteriori dettagli ed esempi di codice, vedere [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in Adobe Viewers Reference.
 
 ## Copiare il codice incorporato di un visualizzatore eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 

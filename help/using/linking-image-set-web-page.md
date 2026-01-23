@@ -48,7 +48,7 @@ Dopo aver pubblicato un set di immagini, è possibile copiarne l&#39;URL associa
 
 Il modo più comune per distribuire i set di immagini consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento di zoom apre una finestra pop-up contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, vedere il [Visualizzatore zoom di HTML5 incorporato](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) nella Guida di riferimento dei visualizzatori di Adobe.
+Per ulteriori dettagli ed esempi di codice, vedere il [Visualizzatore zoom di HTML5 incorporato](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) nella Guida di riferimento dei visualizzatori di Adobe.
 
 ## Copiare il codice incorporato di un visualizzatore di set di immagini {#copying-the-embed-code-of-an-image-set-viewer}
 
