@@ -25,7 +25,7 @@ Per semplificare la visualizzazione e la navigazione dei video lunghi, aggiungi 
 >
 >Il lettore video deve supportare l’uso dei contrassegni dei capitoli.
 
-Per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per il visualizzatore [ (HTML5), consulta ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)Aggiungere o modificare un predefinito per visualizzatore video`Universal_HTML5_Video`.
+Per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per il visualizzatore [&#x200B; (HTML5), consulta &#x200B;](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)Aggiungere o modificare un predefinito per visualizzatore video`Universal_HTML5_Video`.
 
 Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
 
