@@ -10,9 +10,9 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 32%
 
 ---
@@ -31,8 +31,11 @@ Per istruzioni dettagliate sul caricamento dei file, vedere [Carica file](upload
 
 * Se carichi un file PSD, puoi crearne uno nuovo. Adobe Dynamic Media Classic crea un&#39;immagine separata per ogni livello del PSD. Nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni Photoshop]**, quindi selezionare **[!UICONTROL Gestisci livelli]** e **[!UICONTROL Crea modello]**. Quindi scegli un&#39;opzione dall&#39;elenco a discesa **[!UICONTROL Denominazione livelli]** per denominare le immagini create da Adobe Dynamic Media Classic dai livelli in PSD.
 Consultate [Opzioni di caricamento PSD](psd-files.md#psd_upload_options).
-<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
-See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
+
+<!--
+THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). 
+-->
 
 >[!MORELIKETHIS]
 >

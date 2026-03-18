@@ -9,10 +9,10 @@ role: User
 exl-id: 98b12031-f88b-47ea-a95b-31d71eaf22c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 24%
+source-wordcount: '150'
+ht-degree: 25%
 
 ---
 
@@ -24,12 +24,14 @@ Il tuo lavoro in Adobe Dynamic Media Classic si basa su tre aree fondamentali:
 * Gestione dei file in modo da poterli usare per creare risorse multimediali avanzate.
 * Pubblicazione dei file di risorse su un server Dynamic Media Classic in modo che siano disponibili per la distribuzione al sito web e all’applicazione.
 
-Quando carichi i file di risorse in Adobe Dynamic Media Classic e pubblichi i file di risorse nei server Adobe Dynamic Media Classic, il sistema registra questi trasferimenti di file nella pagina **[!UICONTROL Processi]**. in cui potete tenere traccia e monitorare le attività di caricamento e pubblicazione. 
+Quando carichi i file di risorse in Adobe Dynamic Media Classic e pubblichi i file di risorse nei server Adobe Dynamic Media Classic, il sistema registra questi trasferimenti di file nella pagina **[!UICONTROL Processi]**. in cui potete tenere traccia e monitorare le attività di caricamento e pubblicazione.
 
 >[!NOTE]
 >
 >Quando carichi un file, Adobe Dynamic Media Classic genera l’URL del file. che diventa attivo solo dopo che il file è stato pubblicato.
 
-<!-- >[!NOTE]
+<!-- 
+>[!NOTE]
 >
->A new Instant Publish feature was made available shortly after the release of Adobe Dynamic Media Classic 6.0. This feature, which publishes assets immediately with one step, is being rolled out gradually, replacing the **[!UICONTROL Mark for Publish]** functionality. Some users will continue to see the current interface and functionality for a while, until they are included in the rollout. In addition, some assets will continue to use the "Mark for Publish" process for a while after the rollout. -->
+>A new Instant Publish feature was made available shortly after the release of Adobe Dynamic Media Classic 6.0. This feature, which publishes assets immediately with one step, is being rolled out gradually, replacing the **[!UICONTROL Mark for Publish]** functionality. Some users will continue to see the current interface and functionality for a while, until they are included in the rollout. In addition, some assets will continue to use the "Mark for Publish" process for a while after the rollout. 
+-->

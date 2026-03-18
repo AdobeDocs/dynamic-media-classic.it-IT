@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
 workflow-type: tm+mt
-source-wordcount: '10892'
-ht-degree: 28%
+source-wordcount: '11377'
+ht-degree: 27%
 
 ---
 
@@ -161,7 +161,7 @@ Gli amministratori possono creare predefiniti per l’esportazione delle risorse
 
 Per aprire la schermata Predefinito immagine, sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagine]**.
 
-Consulta [Smart imaging](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulta [Smart imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Creare e modificare i predefiniti immagine {#creating-and-editing-image-presets}
 
@@ -172,7 +172,7 @@ Consulta [Smart imaging](https://experienceleague.adobe.com/it/docs/experience-m
    * **Crea un predefinito immagine da un predefinito esistente**: seleziona il predefinito immagine più simile a quello che desideri creare, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Nella pagina Aggiungi (o Modifica) predefinito, inserisci un nome per il predefinito.
-1. Impostate le opzioni desiderate. 
+1. Impostate le opzioni desiderate.
 
    Consultate [Opzioni dei predefiniti immagine](application-setup.md#image_preset_options).
 
@@ -203,7 +203,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
    * Opzioni JPEG
 
-      * **[!UICONTROL Qualità]**: controlla il livello di compressione di JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità dei file JPEG va da 1 a 100.
+      * **[!UICONTROL Qualità]**: controlla il livello di compressione di JPEG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPEG va da 1 a 100.
 
       * **[!UICONTROL Attiva downsampling crominanza JPG]**: poiché l&#39;occhio è meno sensibile alle informazioni di colore ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni dell&#39;immagine in componenti di luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 
@@ -229,7 +229,7 @@ Nelle schermate Aggiungi predefinito e Modifica predefinito sono disponibili le 
 
 * **[!UICONTROL Maschera di contrasto]**: scegli queste opzioni per ottimizzare la nitidezza:
 
-* **[!UICONTROL Importo]**: controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 1,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro.
+* **[!UICONTROL Importo]**: controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 1.0. Per le immagini ad alta risoluzione, è possibile aumentarlo fino a 5.0. Considera Importo come una misura dell’intensità del filtro.
 
 * **[!UICONTROL Raggio]**: determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. Per immagini ad alta risoluzione, inserite un valore da 1 a 2. Con un valore basso si agisce solo sui pixel del bordo; con un valore più elevato si agisce su una fascia più ampia di pixel. Il valore più adatto dipende dalle dimensioni dell’immagine.
 
@@ -426,7 +426,7 @@ Per informazioni sui parametri delle opzioni di codifica, consultate [Le opzioni
 
 Un *predefinito per visualizzatori* è un gruppo di impostazioni con cui viene definito in che modo le risorse multimediali verranno visualizzate sullo schermo del computer e sui dispositivi mobili dell’utente. In qualità di amministratore, potete creare dei predefiniti per visualizzatori. Sono disponibili impostazioni per un’ampia gamma di opzioni di configurazione dei visualizzatori. Ad esempio, è possibile modificare le dimensioni dello schermo del visualizzatore, il comportamento dello zoom, gli schemi di colori, i bordi e i font.
 
-Come best practice, utilizza i visualizzatori video Adobe Dynamic Media Classic HTML5. I predefiniti utilizzati nei visualizzatori video HTML5 sono lettori video affidabili.
+Come best practice, utilizza i visualizzatori video Adobe Dynamic Media Classic HTML5. I predefiniti utilizzati nei visualizzatori Video HTML5 sono lettori video affidabili.
 
 Combinando in un singolo lettore quanto segue:
 
@@ -436,7 +436,7 @@ Combinando in un singolo lettore quanto segue:
 
 È possibile estendere la portata dei contenuti rich media agli utenti desktop, tablet e mobili e garantire un&#39;esperienza video semplificata.
 
-Consulta [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori Adobe.
+Consulta [Informazioni sui visualizzatori HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) nella Guida di riferimento dei visualizzatori Adobe.
 
 Vedere [Matrice di compatibilità del predefinito visualizzatore Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Vedi anche [Esempi della libreria di riferimento visualizzatori Adobe](https://l
 
 Pagine Web diverse hanno esigenze diverse. Talvolta è necessario creare una pagina Web contenente un collegamento che consenta di aprire HTML5 Viewer in una finestra del browser separata. In altri casi, è necessario incorporare il visualizzatore HTML5 direttamente nella pagina di hosting. In quest&#39;ultimo caso, è probabile che la pagina Web abbia un layout statico. Oppure è &quot;reattivo&quot; e viene visualizzato in modo diverso su dispositivi diversi o per diverse dimensioni della finestra del browser. Per soddisfare queste esigenze, i visualizzatori HTML5 forniti con Adobe Dynamic Media Classic supportano sia pagine Web statiche che pagine Web dinamiche.
 
-Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine Web, vedere [Informazioni sulla libreria di immagini reattive](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utilizzare la libreria di immagini reattive](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Riferimento comando: Attributi comando](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Per ulteriori informazioni su come incorporare i visualizzatori reattivi nelle pagine Web, vedere [Informazioni sulla libreria di immagini reattive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Utilizzare la libreria di immagini reattive](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Riferimento comando: Attributi comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipi di predefiniti per visualizzatori {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Vedi anche [Esempi della libreria di riferimento visualizzatori Adobe](https://l
 
 Per informazioni sulle versioni supportate del browser Web e del sistema operativo per i visualizzatori, consulta le Note sulla versione dei visualizzatori.
 
-Consulta le [Note sulla versione di riferimento per visualizzatori Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources).
+Consulta le [Note sulla versione di riferimento per visualizzatori Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia del visualizzatore | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -568,29 +568,29 @@ La schermata Predefiniti visualizzatore offre strumenti che consentono di esegui
 
 * **Aggiungi un predefinito**: seleziona **[!UICONTROL Aggiungi]** e effettua le scelte desiderate nella finestra di dialogo Aggiungi predefinito visualizzatore.
 
-      Vedere [Aggiungi e modifica predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Consulta [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Modificare un predefinito**: selezionare un predefinito, quindi selezionare **[!UICONTROL Modifica]**.
 
-      Vedere [Aggiungi e modifica predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Consulta [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Eliminare un predefinito**: selezionare un predefinito, quindi selezionare **[!UICONTROL Elimina]**.
 
 * **Esportare un predefinito**: selezionare un predefinito visualizzatore HTML5. Quindi fai clic su **[!UICONTROL Esporta]** per scaricare l&#39;interfaccia del visualizzatore in modo da poterla utilizzare come base per la creazione e l&#39;aggiunta di un altro predefinito visualizzatore.
 
-      Vedere [Esportare un predefinito visualizzatore HTML5](application-setup.md#export_an_html5_viewer_preset).
-  
+  Vedere [Esportare un predefinito visualizzatore HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+
 * **Filtra l&#39;elenco dei predefiniti visualizzatore**: utilizzare questi strumenti per filtrare l&#39;elenco:
 
-      * Aprire l&#39;elenco a discesa **Attivo/Inattivo** e selezionare un&#39;opzione per visualizzare i predefiniti attivi, i predefiniti inattivi o tutti i predefiniti.
-     * Aprire l&#39;elenco a discesa **Viewer** e selezionare un&#39;opzione per visualizzare solo i visualizzatori di un determinato tipo. Seleziona **[!UICONTROL Tutti i visualizzatori]** per visualizzare tutti i visualizzatori.
-  
+   * Aprire l&#39;elenco a discesa **Attivo/Inattivo** e selezionare un&#39;opzione per visualizzare i predefiniti attivi, i predefiniti inattivi o tutti i predefiniti.
+   * Apri l&#39;elenco a discesa **Visualizzatore** e seleziona un&#39;opzione per visualizzare solo i visualizzatori di un determinato tipo. Seleziona **[!UICONTROL Tutti i visualizzatori]** per visualizzare tutti i visualizzatori.
+
 * **Predefiniti di ordinamento**: selezionare un&#39;intestazione di colonna (**[!UICONTROL Active]**, **[!UICONTROL Type]**, **[!UICONTROL Preset]** o **[!UICONTROL Platform]**) per ordinare l&#39;elenco in una colonna. Selezionare un&#39;intestazione di colonna una seconda volta per ordinare l&#39;elenco in ordine decrescente o crescente.
 
 * **Attiva e disattiva i predefiniti**: seleziona un predefinito, quindi seleziona l&#39;opzione Attivo per attivarlo o disattivarlo.
 
-      Vedere [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_presets).
-  
+  Consulta [Attivare o disattivare i predefiniti visualizzatore](application-setup.md#activating_or_deactivating_viewer_presets).
+
 >[!NOTE]
 >
 >Seleziona **[!UICONTROL Anteprima]** sul lato destro della pagina Predefiniti visualizzatore per visualizzare l&#39;aspetto di una risorsa nel predefinito visualizzatore selezionato. Per visualizzare una risorsa diversa, seleziona **[!UICONTROL Sfoglia]** nella pagina Predefiniti visualizzatore e seleziona un&#39;altra risorsa nella finestra di dialogo Seleziona anteprima risorsa.
@@ -613,12 +613,12 @@ Guarda anche il video di formazione [Predefiniti visualizzatore](https://s7d5.sc
 
    * **Aggiungi**: sulla barra degli strumenti, seleziona **[!UICONTROL Aggiungi]**. Nella finestra di dialogo Aggiungi predefinito visualizzatore, seleziona una piattaforma e fai clic su un tipo di risorsa multimediale avanzato.
 
-         Selezionare **[!UICONTROL Salva con nome]** al termine della creazione del predefinito visualizzatore.
-     
+     Al termine della creazione del predefinito visualizzatore, seleziona **[!UICONTROL Salva con nome]**.
+
    * **Aggiungi partendo da un predefinito visualizzatore esistente**: nella tabella, seleziona un predefinito visualizzatore video, quindi seleziona **[!UICONTROL Modifica]** sulla barra degli strumenti.
 
-         Dopo aver riconfigurato il Visualizzatore video, seleziona **[!UICONTROL Salva con nome]** per salvare il predefinito utilizzando un nome diverso nel campo di testo Nome predefinito.
-     
+     Dopo aver riconfigurato il Visualizzatore video, selezionare **[!UICONTROL Salva con nome]** per salvare il predefinito utilizzando un nome diverso nel campo di testo Nome predefinito.
+
    * **Modifica**: seleziona un predefinito visualizzatore esistente, quindi seleziona **[!UICONTROL Modifica]**.
 
 1. Nella pagina Configurazione del visualizzatore, immetti o modifica il nome del predefinito nel campo Nome predefinito.
@@ -682,7 +682,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 Per creare un URL per la visualizzazione delle risorse, gli utenti aprono l&#39;elenco a discesa Predefiniti nella finestra di dialogo Anteprima, selezionano un predefinito visualizzatore, quindi selezionano **[!UICONTROL Copia URL]** (vedi [Copia l&#39;URL di un predefinito visualizzatore](application-setup.md#copying_the_url_of_a_viewer_preset)). Questo elenco di predefiniti offre i predefiniti per visualizzatori aggiunti e gestiti dagli amministratori nella schermata Predefiniti per visualizzatore. Ad esempio, tutti i predefiniti visualizzatore eCatalog attivi vengono visualizzati nell&#39;elenco a discesa Predefiniti nella finestra di dialogo Anteprima quando un utente visualizza l&#39;anteprima di un eCatalog.
 
-Se i predefiniti per visualizzatori non vengono disattivati nella schermata Predefiniti per visualizzatore, nell’elenco a discesa Predefiniti nella finestra di dialogo Anteprima potrebbero accumularsi troppi predefiniti. 
+Se i predefiniti per visualizzatori non vengono disattivati nella schermata Predefiniti per visualizzatore, nell’elenco a discesa Predefiniti nella finestra di dialogo Anteprima potrebbero accumularsi troppi predefiniti.
 
 **Per attivare o disattivare i predefiniti visualizzatore:**
 
@@ -870,7 +870,7 @@ I campi metadati definiti dall’utente sono utili ad esempio per ritardare il m
 
 ### Gestire i campi definiti dall’utente {#manage-user-defined-fields}
 
-Nella schermata Campi definiti dall’utente sono disponibili i comandi necessari per gestire i campi di metadati personalizzati, definiti dall’utente. 
+Nella schermata Campi definiti dall’utente sono disponibili i comandi necessari per gestire i campi di metadati personalizzati, definiti dall’utente.
 
 I campi definiti dall’utente possono essere gestiti solo da un amministratore di Media Portal o un amministratore società.
 
@@ -938,7 +938,7 @@ Guarda anche il video di formazione [Set 360 gradi 2D](https://s7d5.scene7.com/s
 
 **Per creare un predefinito per set di batch:**
 
-1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Predefiniti set di batch]** > **[!UICONTROL Predefinito set di batch]**. La vista predefinita e **[!UICONTROL Visualizza modulo]**, come impostato nell’angolo in alto a destra della pagina Dettagli.
+1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Predefiniti set di batch]** > **[!UICONTROL Predefinito set di batch]**. **[!UICONTROL Visualizza modulo]**, come impostato nell&#39;angolo superiore destro della pagina Dettagli, è la visualizzazione predefinita.
 1. Nel pannello Elenco predefiniti, seleziona **[!UICONTROL Aggiungi]** per attivare i campi di definizione nel pannello Dettagli sul lato destro della pagina.
 1. Nel pannello Dettagli, digitate nel campo Nome predefinito il nome da assegnare al predefinito.
 1. Selezionate il tipo di predefinito dal menu Tipo set di batch.
@@ -987,7 +987,7 @@ Quando il set 360 gradi viene caricato e pubblicato, puoi attivare il nome della
 
 **Per creare un predefinito per set di batch per la generazione automatica di un set 360 gradi 2D:**
 
-1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Predefiniti set di batch]** > **[!UICONTROL Predefinito set di batch]**. La vista predefinita e **[!UICONTROL Visualizza modulo]**, come impostato nell’angolo in alto a destra della pagina Dettagli.
+1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Predefiniti set di batch]** > **[!UICONTROL Predefinito set di batch]**. **[!UICONTROL Visualizza modulo]**, come impostato nell&#39;angolo superiore destro della pagina Dettagli, è la visualizzazione predefinita.
 1. Nel pannello Elenco predefiniti, seleziona **[!UICONTROL Aggiungi]** per attivare i campi di definizione nel pannello Dettagli sul lato destro della pagina.
 1. Nel pannello Dettagli, digitate nel campo Nome predefinito il nome da assegnare al predefinito.
 1. Selezionate **[!UICONTROL Set risorse]** dal menu a discesa Tipo set di batch.

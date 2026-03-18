@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 51%
+source-wordcount: '1051'
+ht-degree: 50%
 
 ---
 
@@ -30,7 +30,7 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 ## Richiedi una chiave con segreto condiviso {#requesting-a-shared-secret-key}
 
-Richiedi una *chiave con segreto condiviso* da [tramite Admin Console per creare un caso di supporto.](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedere una chiave con segreto condiviso.
+Richiedi una *chiave con segreto condiviso* da [tramite Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedi una chiave condivisa-segreta.
 
 Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvarla localmente per utilizzarla in futuro.
 
@@ -43,8 +43,10 @@ Il token di caricamento è una stringa alfanumerica disponibile solo per un peri
 * Immagine raster
   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In questo esempio, la chiave con segreto condiviso è `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
-<!-- * Vector
-  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
+<!-- 
+* Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` 
+-->
 
 Per impostazione predefinita, il token di caricamento scade cinque minuti (300 secondi) dopo averlo ottenuto. Per richiedere più tempo, includi `expires` nell&#39;URL e il tempo necessario in secondi. Ad esempio, con il seguente URL immagine di esempio si ottiene un token di caricamento che sarà valido per 1800 secondi:
 
@@ -87,9 +89,11 @@ Per ottenere un token di caricamento, potete usare i seguenti campi nella string
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-<!-- **Sample vector URL:**
+<!-- 
+**Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` 
+-->
 
 **Metodi HTTP consentiti:**
 `GET` e `POST`
@@ -122,7 +126,7 @@ Il parametro `file_limit` specifica il limite di dimensione file in byte. Il par
 
 Nell’applicazione è possibile impostare un limite globale per la dimensione dei nomi file e le estensioni di file consentite. Se quello che hai inviato nella richiesta è un sottoinsieme dei limiti globali, viene rispettato. I limiti globali sono indicati di seguito:
 
-| Limite globale  | Valore |
+| Limite globale | Valore |
 | --- | --- |
 | Dimensione file per tutti i client | 20 MB |
 | Formati file immagine supportati per il caricamento | BMP, GIF, JPG, PNG, PSD, TIFF |
@@ -248,7 +252,8 @@ Nella stringa query URL potete usare i seguenti campi per richiedere informazion
 
 GET e POST
 
-<!-- ## Upload a vector asset {#uploading-a-vector-asset}
+<!--
+## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
@@ -383,4 +388,4 @@ Send the asset to upload as a multipart/form post while sending the rest of the 
 **Allowed HTTP method:**
 
 POST
- -->
+-->

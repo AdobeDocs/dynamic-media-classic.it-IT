@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 19%
+source-wordcount: '1070'
+ht-degree: 21%
 
 ---
 
@@ -39,7 +39,7 @@ Per la maggior parte delle società le connessioni Internet avvengono mediante u
 
 Dalla rete aziendale è possibile individuare l&#39;indirizzo IP pubblico utilizzando siti Web come [https://www.whatismyip.com](https://www.whatismyip.com/) o richiedere queste informazioni all&#39;organizzazione IT aziendale.
 
-Con il Secure Testing, Adobe Dynamic Media Classic crea un server immagini dedicato per ambienti di staging o applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta in ingresso non si trova nell’elenco approvato di indirizzi IP, viene restituita una risposta di errore. L’amministratore aziendale di Adobe Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test protetto della propria azienda.
+Con il Secure Testing, Adobe Dynamic Media Classic crea un server immagini dedicato per ambienti di staging o applicazioni interne. Per tutte le richieste inviate a questo server viene controllato l’indirizzo IP di origine. Se la richiesta non proviene dall’elenco di indirizzi IP approvato, viene restituita una risposta di operazione non riuscita. L’amministratore aziendale di Adobe Dynamic Media Classic configura l’elenco approvato di indirizzi IP per l’ambiente di test protetto della propria azienda.
 
 Poiché la posizione della richiesta originale deve essere confermata, il traffico del servizio di test protetto non viene instradato attraverso una rete di distribuzione del contenuto come il traffico pubblico del server di immagini Dynamic Media. Le richieste al servizio di test sicuro hanno una latenza leggermente superiore rispetto ai server di immagine Dynamic Media pubblici.
 
@@ -86,9 +86,11 @@ I seguenti tipi di risorse e funzionalità non sono attualmente supportati:
 
 Esegui il test del servizio di test protetto in modo da assicurarti che funzioni come previsto.
 
-<!-- >[!NOTE]
+<!-- 
+>[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. 
+-->
 
 ### Preparare l’account
 

@@ -9,10 +9,10 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 20%
+source-wordcount: '228'
+ht-degree: 12%
 
 ---
 
@@ -20,28 +20,29 @@ ht-degree: 20%
 
 Le guide di riferimento per visualizzatori, Image Server e Image Rendering e Image Production System descrivono i protocolli http per questi moduli server. Queste guide possono essere utilizzate dagli sviluppatori di siti Web che desiderano personalizzare ulteriormente e utilizzare i rich media di Adobe Dynamic Media Classic per un sito Web o un&#39;applicazione personalizzata. Si presume che l’utente abbia familiarità con l’app desktop Dynamic Media Classic, gli standard e le convenzioni generali del protocollo http e la terminologia di base per le immagini.
 
-Vedi anche [Risorse di Dynamic Media per gli sviluppatori](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources).
+Vedi anche [Risorse di Dynamic Media per gli sviluppatori](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Visualizzatori {#viewers-guide}
 
 | Documento | Indirizzo Web |
 | --- | --- |
-| Guida di riferimento dei visualizzatori e note sulla versione | [https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/homeviewers) |
+| Guida di riferimento dei visualizzatori e note sulla versione | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
 | Esempi della libreria di visualizzatori | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## API Image Server/Image Rendering (IS/IR) {#is-ir-api-guide}
 
 | Documento | Indirizzo Web |
 | --- | --- |
-| Guida di riferimento API | [https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| Guida di riferimento API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## API di Image Production System (IPS) {#ips-api-guide}
 
 | Documento | Indirizzo Web |
 | --- | --- |
-| Guida di riferimento API | [https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| Guida di riferimento API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
-<!-- ## Image Authoring {#ia}
+<!-- 
+## Image Authoring {#ia}
 
 | Document| Web address |
 | --- | --- |
@@ -53,7 +54,7 @@ Vedi anche [Risorse di Dynamic Media per gli sviluppatori](https://experiencelea
 | Document | Web address |
 | --- | --- |
 | API Reference Guide | Contact Adobe Dynamic Media Classic technical support for documentation. |
- -->
+-->
 
 
 

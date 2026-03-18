@@ -6,11 +6,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 19%
@@ -19,7 +19,7 @@ ht-degree: 19%
 
 # Pubblicare informazioni sulla configurazione di Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che le informazioni sulla configurazione dei rapporti di Adobe Analytics vengano inviate ai server Adobe Dynamic Media Classic. Queste informazioni vengono incorporate nei visualizzatori. La pubblicazione è necessaria in modo che le informazioni contenute nei visualizzatori siano disponibili sui server di Adobe Dynamic Media Classic. da dove possono essere trasmesse ad Adobe Analytics non appena gli utenti eseguono specifiche attività nei visualizzatori. 
+Pubblica i visualizzatori Adobe Dynamic Media Classic in modo che le informazioni sulla configurazione dei rapporti di Adobe Analytics vengano inviate ai server Adobe Dynamic Media Classic. Queste informazioni vengono incorporate nei visualizzatori. La pubblicazione è necessaria in modo che le informazioni contenute nei visualizzatori siano disponibili sui server di Adobe Dynamic Media Classic. da dove possono essere trasmesse ad Adobe Analytics non appena gli utenti eseguono specifiche attività nei visualizzatori.
 
 >[!NOTE]
 >

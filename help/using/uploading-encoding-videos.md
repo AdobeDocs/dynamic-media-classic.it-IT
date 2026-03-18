@@ -9,9 +9,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '3981'
+source-wordcount: '4074'
 ht-degree: 39%
 
 ---
@@ -80,7 +80,7 @@ Consultate [Predefiniti di codifica video per computer desktop](application-setu
 1. In Adobe Dynamic Media Classic, nel pannello Sfoglia, individua il video e selezionalo.
 1. Vai a **[!UICONTROL File]** > **[!UICONTROL Rielabora]**.
 1. Nella finestra di dialogo Rielabora Assets espandere **[!UICONTROL Opzioni EVideo]**, quindi eseguire una delle operazioni seguenti:
-   * Si consiglia di utilizzare il metodo seguente. Seleziona **Video adattivo**.
+   * Come procedura ottimale, si consiglia di utilizzare il metodo seguente. Selezionate **Video adattivo**.
 Consultate [Video adattivo (predefinito)](application-setup.md#adaptive-video-default).
    * Facoltativo. Se si desidera utilizzare impostazioni di codifica singole, espandere **[!UICONTROL Predefiniti codifica singola]**, quindi selezionare le opzioni di codifica desiderate per Desktop, Mobile e Tablet.
 Consultate [Predefiniti di codifica video per computer desktop](application-setup.md#desktop-video-encoding-presets), [Predefiniti di codifica per video per dispositivi mobili](application-setup.md#mobile-video-encoding-presets), [Predefiniti di codifica per video per tablet](application-setup.md#tablet-video-encoding-presets).
@@ -125,11 +125,13 @@ La seguente tabella indica i tipi di file video (con i codec video consentiti) c
 
 Di seguito sono riportati alcuni suggerimenti sulle best practice per la codifica di file video sorgente in Adobe Dynamic Media Classic.
 
-<!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
+<!--
+THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
 
 * Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). -->
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). 
+-->
 
 ### File video sorgente {#source-video-files}
 
@@ -153,7 +155,7 @@ Nella tabella seguente vengono descritte le dimensioni, le proporzioni e la velo
 
 ### Proporzioni {#aspect-ratio}
 
-Quando scegliete o create un predefinito di codifica video per il file video principale, accertatevi che il predefinito abbia le stesse proporzioni del file video principale. Le *proporzioni* sono il rapporto tra la larghezza e l’altezza del video. 
+Quando scegliete o create un predefinito di codifica video per il file video principale, accertatevi che il predefinito abbia le stesse proporzioni del file video principale. Le *proporzioni* sono il rapporto tra la larghezza e l’altezza del video.
 
 Per determinare le proporzioni di un file video, ottenere i metadati del file e annotare la larghezza e l&#39;altezza del file (vedere [Ottenere i metadati di un file](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Quindi applicate questa formula per determinare le proporzioni:
 
@@ -164,9 +166,9 @@ Nella tabella che segue, i risultati della formula vengono correlati alle relati
 | Risultato della formula | Proporzioni |
 | --- | --- |
 | 1,33 | 4:3 |
-| 0,75 | 3:4 |
-| 1,78 | 16:9 |
-| 0,56 | 9:16 |
+| 0.75 | 3:4 |
+| 1.78 | 16:9 |
+| 0.56 | 9:16 |
 
 Ad esempio, un video con larghezza 1440 × altezza 1080 ha proporzioni 1440/1080 o 1,33. In questo caso, scegliete un predefinito di codifica video con proporzioni 4:3 per codificare il file video.
 
@@ -182,12 +184,12 @@ Quando scegli un predefinito di codifica video, ricorda di tenere conto della ve
 
 La tabella di seguito riporta la velocità dati per velocità di connessioni tipiche.
 
-| Velocità (Kbps) | Tipo di connessione  |
+| Velocità (Kbps) | Tipo di connessione |
 | --- | --- |
 | 256 | Connessione via modem. |
 | 800 | Connessione mobile tipica. Per questa connessione, scegliete una velocità dati di circa 400, con un massimo di 800 per esperienze 3G. |
-| 2000 | Connessione desktop tipica a banda larga. Per questa connessione, scegliete una velocità dati di circa 800-2000 Kbps, per una media complessiva di 1200-1500 Kbps. |
-| 5000 | Connessione a banda larga elevata tipica. Non si consiglia di applicare la codifica per questo valore elevato, in quanto la maggior parte dei clienti non dispone di trasmissione video di tale velocità.  |
+| 2000 | Connessione desktop tipica a banda larga. Per questa connessione, eseguire il targeting di una velocità di dati nell&#39;intervallo 800-2000 Kbps, con la maggior parte delle destinazioni in media 1200-1500 Kbps. |
+| 5000 | Connessione a banda larga elevata tipica. Non si consiglia di applicare la codifica per questo valore elevato, in quanto la maggior parte dei clienti non dispone di trasmissione video di tale velocità. |
 
 ### Risoluzione {#resolution}
 
@@ -197,8 +199,8 @@ La risoluzione e la velocità dati sono due fattori strettamente correlati da cu
 
 | Risoluzione | Pixel per fotogramma |
 | --- | --- |
-| 320 × 240 | 76.800 |
-| 640 × 480 | 307.200 |
+| 320 × 240 | 76,800 |
+| 640 × 480 | 307,200 |
 
 Il file 640 × 480 ha un numero di pixel per fotogramma quattro volte superiore. Per ottenere la stessa velocità dati per queste due risoluzioni di esempio, applicate una compressione quattro volte superiore al file 640 × 480, riducendo in tal modo la qualità del video. Di conseguenza, una velocità di dati video di 250 Kbps produce una visualizzazione di alta qualità con una risoluzione di 320 × 240, ma non con una risoluzione di 640 × 480.
 

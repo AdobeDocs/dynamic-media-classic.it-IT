@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1521'
 ht-degree: 17%
 
 ---
@@ -53,9 +53,11 @@ Utilizza il campo Ricerca nella Libreria risorse per eseguire ricerche semplici.
 
    I risultati della ricerca vengono visualizzati nel pannello Sfoglia a destra.
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## Eseguire una ricerca avanzata {#conducting-an-advanced-search}
 
@@ -77,7 +79,7 @@ Specifica uno dei seguenti criteri nella ricerca avanzata:
    1. Selezionare il menu a discesa **[!UICONTROL Aggiungi campo]** e scegliere un nome di campo.
    1. Scegli un&#39;opzione **[!UICONTROL Contiene]**: **[!UICONTROL Contiene]**, **[!UICONTROL Non contiene]**, **[!UICONTROL Inizia con]**, **[!UICONTROL Termina con]** o **[!UICONTROL È uguale a]**.
    1. Per i campi numerici, scegliete un valore o immettete in intervallo di date personalizzato.
-   1. (Facoltativo) Ripetete i passaggi da 1 a 4 per creare ulteriori campi di ricerca.
+   1. (Facoltativo) Ripeti i passaggi 1-4 per creare altri campi di ricerca.
 
 Selezionare l&#39;icona **[!UICONTROL Rimuovi un campo di ricerca]** (cerchiare con &quot;X&quot; all&#39;interno) in modo che il campo di ricerca venga eliminato.
 
@@ -115,7 +117,7 @@ Segui questi passaggi per individuare le risorse filtrandole con i relativi valo
 
      >[!NOTE]
      >
-     >nel menu sono riportati solo i nomi dei campi metadati della visualizzazione metadati predefinita. 
+     >nel menu sono riportati solo i nomi dei campi metadati della visualizzazione metadati predefinita.
 
      Consultate [Visualizzazione metadati](application-setup.md#metadata_views).
 
