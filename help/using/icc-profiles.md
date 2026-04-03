@@ -10,10 +10,10 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 2893110e9629ef72a0e919b47abc94c916e132e9
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 36%
+source-wordcount: '528'
+ht-degree: 31%
 
 ---
 
@@ -21,11 +21,20 @@ ht-degree: 36%
 
 Un profilo ICC (International Color Consortium) è un file che descrive come convertire correttamente i file immagine da uno spazio colore all&#39;altro. I profili ICC consentono di ottenere i colori corretti per le immagini. Ad esempio, per visualizzare correttamente le immagini progettate per la stampa su un monitor, è possibile scegliere un profilo ICC. Questo profilo consente di convertire l’immagine in un diverso spazio colore e garantisce che i colori vengano visualizzati correttamente online.
 
-In Adobe Dynamic Media Classic, potete scegliere un profilo ICC per convertire le immagini in uno spazio colore diverso quando caricate le immagini. Tutti i profili ICC standard di Photoshop sono disponibili per impostazione predefinita su Adobe Dynamic Media Classic. Per visualizzare i nomi dei profili colore nella schermata Carica, selezionate il menu Profilo colore. Quindi scegliete Personalizza da > A e scegliete un nome di profilo ICC nei menu Convertito da e Convertito in.
+In Adobe Dynamic Media Classic, potete scegliere un profilo ICC per convertire le immagini in uno spazio colore diverso quando caricate le immagini. Tutti i profili ICC standard di Photoshop sono disponibili per impostazione predefinita su Adobe Dynamic Media Classic. Per visualizzare i nomi dei profili colore nella schermata Carica, selezionate il menu Profilo colore. Quindi scegliete Personale Da > A e scegliete il nome di un profilo ICC nei menu Personale Da e Personale A.
 
 Consulta [Opzioni di modifica immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 
-Oltre a utilizzare i profili ICC predefiniti, potete caricare altri profili ICC in Adobe Dynamic Media Classic e renderli disponibili per la conversione dello spazio colore. Passate alla Vista dettagli nel pannello Sfoglia per esaminare la classe di profilo, il tipo di spazio colore e il tipo PCS di un profilo ICC.
+Oltre a utilizzare i profili ICC predefiniti, potete caricare altri profili ICC in Adobe Dynamic Media Classic e renderli disponibili per la conversione dello spazio colore. Passate alla Vista dettagli nel pannello Sfoglia per esaminare la Classe profilo, il tipo di spazio colore e il Tipo PCS di un profilo ICC.
+
+In sintesi, i punti chiave per i profili ICC sono i seguenti:
+
+* I profili ICC consentono la conversione corretta dei colori tra spazi di colore diversi per i file di immagine.
+* Adobe Dynamic Media Classic incorpora tutti i profili Photoshop ICC standard per una conversione delle immagini affidabile.
+* I profili ICC personalizzati offrono maggiore flessibilità per le esigenze avanzate di conversione dello spazio colore.
+* La visualizzazione di dettagli quali la classe di profilo e il tipo di PCS nella vista dei dettagli consente di gestire le impostazioni ICC.
+* Il caricamento dei profili ICC è semplice e garantisce l’accesso tra le cartelle in Dynamic Media Classic.
+
 
 ## Carica profili ICC {#uploading-icc-profiles}
 
@@ -37,10 +46,10 @@ Consulta [Caricare i file](uploading-files.md#uploading_your_files).
 
 Per esaminare un profilo ICC, selezionatelo nel pannello Sfoglia e visualizzatelo in Vista dettagli. La Vista dettagli fornisce queste informazioni sui profili ICC:
 
-* **[!UICONTROL Classe profilo]**: l&#39;ICC (International Color Consortium) definisce ogni classe per coprire un tipo di applicazione. Ad esempio, i profili di input si applicano ai dispositivi, quali fotocamere digitali e scanner, mentre i profili di output si applicano alle stampanti.
+* **[!UICONTROL Classe profilo]**: l&#39;ICC definisce ogni classe per coprire un tipo di applicazione. Ad esempio, i profili di input si applicano ai dispositivi, come fotocamere digitali e scanner. I profili di output si applicano alle stampanti.
 
 * **[!UICONTROL Tipo di spazio colore]**: questo numero è lo spazio colore &quot;di input&quot; del profilo, come definito dall&#39;ICC. Il tipo di spazio colore consente di definire il numero di componenti dello spazio colore e l’interpretazione di tali componenti. Ad esempio, RGB è uno spazio colore con tre componenti: rosso, verde e blu. Il tipo di spazio colore non definisce le particolari caratteristiche di colore dello spazio (ad esempio, le cromaticità dei primari).
 
 * **[!UICONTROL Tipo PCS]**: questo tipo PCS è lo spazio colore &quot;output&quot; del profilo, ovvero lo spazio di connessione del profilo. Ad esempio, un profilo colore può convertire RGB in PCS, quindi effettua la conversione da PCS a CMYK.
 
-Per un profilo di input, visualizzazione o output utile per assegnare tag a colori o immagini, il tipo PCS è XYZ o Lab. Interpretate questo profilo come lo spazio colore specifico corrispondente definito nella specifica ICC.
+Per un profilo di ingresso, visualizzazione o uscita utile per l&#39;assegnazione di tag a colori o immagini, il tipo di PCS è XYZ o Lab. Interpretate questo profilo come lo spazio colore specifico corrispondente definito nella specifica ICC.
