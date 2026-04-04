@@ -24,7 +24,7 @@ Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle 
 | Assistenza | Iscrizione |
 | --- | --- |
 | Limiti di casi | Senza limiti. |
-| Verifica lo stato del sistema di Adobe | [Stato sistema Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Verifica lo stato del sistema di Adobe | [Stato sistema Adobe Dynamic Media Classic](https://status.adobe.com/it/products/1175). |
 | Non riesci a trovare una risposta? | [Per ottenere assistenza dal supporto, aprire un ticket](https://experienceleague.adobe.com/it?support-solution=General#support). |
 | Forum della community | [Forum della community Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=it). |
 | SLA (accordi sui livelli di servizio) | [Servizi di supporto / Termini e condizioni](https://helpx.adobe.com/it/support/programs/support-policies-terms-conditions.html). |
