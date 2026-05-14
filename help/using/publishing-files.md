@@ -10,9 +10,17 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:08:38.271Z'
+TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: 1696
 ht-degree: 21%
 
 ---
@@ -58,7 +66,7 @@ Crea un processo di pubblicazione per pubblicare le risorse caricate sui server 
    Consulta [Creare un processo di pubblicazione una tantum](publishing-files.md#creating_a_one_time_publish_job) e [Creare un processo di pubblicazione ricorrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Immettete un nome per il processo.
-1. Facoltativamente potete visualizzare le opzioni Avanzate e selezionarle. 
+1. Facoltativamente potete visualizzare le opzioni Avanzate e selezionarle.
 
    Consultate [Opzioni di pubblicazione avanzate](publishing-files.md#advanced_publish_options).
 

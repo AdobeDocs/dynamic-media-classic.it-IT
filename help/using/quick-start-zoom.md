@@ -10,10 +10,18 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:11:12.792Z'
+TQID: 'https://experienceleague.adobe.com/0ilSf9rbFcvh2-AVdVnifjNi7bOa5AjCqBFCUC95I5Q'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 19%
+source-wordcount: 934
+ht-degree: 18%
 
 ---
 
@@ -29,7 +37,7 @@ Vedi [Destinazione zoom: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html
 
 Il seguente Zoom Quick Start è progettato per aiutarti a iniziare rapidamente a usare le tecniche di Zoom in Adobe Dynamic Media Classic. Seguite i passaggi da 1 a 6. Dopo ogni passaggio, viene inserito un riferimento incrociato a un titolo di argomento in cui è possibile trovare ulteriori informazioni.
 
-## &#x200B;1. Caricare immagini di zoom
+## &#x200B;1. Carica immagini di zoom
 
 Per iniziare, carica le immagini di zoom su Adobe Dynamic Media Classic. Per uno zoom ottimale, Adobe Dynamic Media Classic consiglia che le immagini abbiano una lunghezza di almeno 2000 pixel.
 
@@ -41,7 +49,7 @@ Le destinazioni di zoom consentono di evidenziare porzioni specifiche di un’im
 
 Per creare una destinazione di zoom, selezionare **[!UICONTROL Modifica]** e scegliere Destinazioni di zoom oppure aprire un&#39;immagine nel pannello Sfoglia in Visualizzazione dettagli e selezionare **[!UICONTROL Destinazioni di zoom]**. Quindi utilizzate gli strumenti Zoom nella pagina Editor destinazioni di zoom per isolare parte dell&#39;immagine come destinazione. Consulta [Creare destinazioni di zoom per zoom guidato](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
-## &#x200B;3. Impostare i predefiniti visualizzatore zoom
+## &#x200B;3. Impostare i predefiniti per visualizzatore zoom
 
 I predefiniti per visualizzatori zoom determinano lo stile e il comportamento dei visualizzatori zoom usati. Se si è un amministratore, è possibile impostare i predefiniti visualizzatore zoom; Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore zoom basati su best practice.
 
@@ -63,6 +71,6 @@ Quando si pubblicano le immagini di zoom, queste vengono posizionate sui server 
 
 Sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Nella finestra di dialogo Pubblicazione selezionare **[!UICONTROL Invia pubblicazione]**. Consultate [Pubblicazione delle immagini di zoom](publishing-zoom-images.md#publishing_zoom_images).
 
-## &#x200B;6. Collegare i visualizzatori zoom alla pagina Web
+## &#x200B;6. Collegare i visualizzatori Zoom alla pagina Web
 
 Adobe Dynamic Media Classic crea le stringhe di callout URL necessarie per ingrandire le immagini e le attiva quando si pubblicano le immagini in Dynamic Media Image Server. È possibile copiare queste stringhe URL dalla pagina **[!UICONTROL Anteprima]**. Dopo aver copiato le stringhe URL, queste sono disponibili per i siti Web e le applicazioni. Consulta [Collegare i visualizzatori zoom alla pagina Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

@@ -10,9 +10,17 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:09:57.533Z'
+TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: 926
 ht-degree: 7%
 
 ---
@@ -31,13 +39,13 @@ Vedere [Dimensioni immagine: video di formazione di Dynamic Imaging](https://s7d
 
 La seguente Guida introduttiva al dimensionamento delle immagini è stata progettata per aiutarti a iniziare rapidamente a usare le tecniche di dimensionamento delle immagini in Adobe Dynamic Media Classic. Seguire i punti da 1 a 5. Dopo ogni passaggio, esiste un riferimento incrociato in cui è possibile trovare ulteriori informazioni, se necessario.
 
-## &#x200B;1. Caricare immagini primarie
+## &#x200B;1. Carica immagini primarie
 
 Per iniziare, carica le immagini principali su Adobe Dynamic Media Classic. Per quanto riguarda le dimensioni, Adobe Dynamic Media Classic consiglia di utilizzare immagini delle dimensioni massime previste per il sito Web o l&#39;applicazione. Ad esempio, se desideri che i visualizzatori ingrandiscano le immagini, carica quelle di dimensioni pari ad almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF e PNG senza perdita di dati.
 
 Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella su Adobe Dynamic Media Classic. Consulta [Caricare immagini primarie](uploading-master-images.md#uploading_master_images).
 
-## &#x200B;2. Impostare i predefiniti per le immagini
+## &#x200B;2. Configurazione predefiniti immagine
 
 Analogamente a una macro, un predefinito per immagini è una raccolta di comandi di ridimensionamento e formattazione predefiniti salvati con un nome. Un predefinito per immagini governa le dimensioni e la formattazione con cui le immagini vengono distribuite dai server immagini Dynamic Media. Se hai lo stato di Amministratore della società, puoi impostare autonomamente i predefiniti immagine. Puoi distribuire le immagini in modo dinamico utilizzando i predefiniti immagine già disponibili in Adobe Dynamic Media Classic.
 

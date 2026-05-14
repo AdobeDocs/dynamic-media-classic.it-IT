@@ -10,10 +10,18 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+autotag-review: '2026-05-13T20:10:24.352Z'
+TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: 698
+ht-degree: 17%
 
 ---
 
@@ -45,7 +53,7 @@ Sulla barra di navigazione globale, vai a **[!UICONTROL Build]** > **[!UICONTROL
 
 Consulta [Creare un set di file multimediali diversi](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## &#x200B;4. Impostare i predefiniti per i visualizzatori di file multimediali diversi
+## &#x200B;4. Configurare i predefiniti per i visualizzatori di file multimediali diversi
 
 Adobe Dynamic Media Classic viene fornito con i predefiniti per visualizzatori per set di file multimediali diversi. Gli amministratori possono creare o modificare i predefiniti visualizzatore di set di file multimediali diversi.
 

@@ -10,10 +10,22 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:39:42.316Z'
+TQID: 'https://experienceleague.adobe.com/kw-spdqv6ArVEWk8ID4mnQjYrS25RZntKOJ7-tESasY'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 39%
+source-wordcount: 1637
+ht-degree: 36%
 
 ---
 
@@ -129,7 +141,7 @@ Come best practice, per ottenere una qualità immagine elevata e dimensioni file
 
 Nella maggior parte dei casi, questa combinazione di impostazioni produce risultati eccellenti.
 
-Se l’immagine richiede ulteriore ottimizzazione, regolate gradualmente i parametri di nitidezza (maschera di contrasto): iniziate a regolare il raggio su 0.2 o 0.3, quindi aumentate il valore di intensità “amount” da 1.75 fino a un massimo di 4 (equivalente a 400% in Photoshop). Verificate il risultato ottenuto.
+Se l&#39;immagine richiede un&#39;ulteriore ottimizzazione, regolare gradualmente i parametri di nitidezza (maschera di contrasto) iniziando con un raggio impostato su 0.2 o 0.3. Quindi, aumentare gradualmente l&#39;importo da 1,75 a un massimo di 4 (equivalente al 400% in Photoshop). Verificate il risultato ottenuto.
 
 Se i risultati non sono ancora soddisfacenti, aumentate il raggio per incrementi decimali. Per ogni incremento decimale, impostate di nuovo il valore “amount” su 1.75 e aumentatelo gradualmente fino a 4. Ripetete questa procedura fino a ottenere l’effetto desiderato. I valori riportati qui sopra rappresentano un approccio convalidato dagli studi creativi. Tuttavia, potete anche iniziare con altri valori e seguire altre strategie. La qualità dei risultati ottenuti è soggettiva e si consiglia pertanto di procedere mediante un approccio di sperimentazione strutturata.
 

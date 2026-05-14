@@ -6,9 +6,24 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:25.016Z'
+TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -46,9 +61,9 @@ Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle f
 
 | Funzionalità | Descrizione |
 | --- | --- |
-| Creazione e distribuzione accelerate dei contenuti | · Collaboration e la sincronizzazione dei file condivisi con le applicazioni [!DNL Adobe Creative Cloud].<br>· Soddisfa tutti i criteri richiesti di Dynamic Asset Management: creazione, collaborazione, gestione e distribuzione in un&#39;unica applicazione, un&#39;unica interfaccia, una sola rete.<br>· Gestione delle risorse digitali a livello aziendale con supporto solido per metadati, ricerca intelligente, lightbox e raccolte, controllo della versione e condivisione sicura delle risorse per l&#39;utilizzo da parte di fornitori, partner e affiliati<br>· Flussi di lavoro di revisione e approvazione per le risorse WIP. |
-| Elementi dell’interfaccia utente per esperienze interattive semplici | · Creare esperienze in modo semplice con generatori non tecnici e in tempo reale.<br>· Supporti acquistabili/interattivi, combinare le risorse della campagna con le informazioni sul prodotto.<br>· Aumentare la soddisfazione del cliente e convertire le unità. |
-| Flusso di lavoro completo | · Fornire rich media ottimizzati a tutti i punti di contatto, incluse le soluzioni [!DNL Adobe Experience Cloud] complete.<br>· Integrazione con [!DNL Adobe Experience Cloud] per l&#39;analisi avanzata delle risorse, il targeting e il riutilizzo delle risorse tra i punti di contatto di marketing. Alcuni di questi punti di contatto includono [!DNL Adobe Campaign] per la posta elettronica, [!DNL Adobe Social] per i canali social e [!DNL Adobe Experience Manager] siti per le app Web e mobili reattive. |
+| Creazione e distribuzione accelerate dei contenuti | · Sincronizzazione di file Collaboration e condivisi con [!DNL Adobe Creative Cloud] applicazioni.<br>· Soddisfa tutti i criteri richiesti di Dynamic Asset Management: creazione, collaborazione, gestione e distribuzione in un&#39;unica applicazione, un&#39;unica interfaccia, una sola rete.<br>· Gestione delle risorse digitali a livello aziendale con supporto affidabile per i metadati, ricerca intelligente, lightbox e raccolte, controllo delle versioni e condivisione sicura delle risorse per l&#39;utilizzo da parte di fornitori, partner e affiliati<br>· Flussi di lavoro di revisione e approvazione per le risorse WIP. |
+| Elementi dell’interfaccia utente per esperienze interattive semplici | · Creare esperienze con facilità con generatori non tecnici in tempo reale.<br>· Supporti acquistabili/interattivi, combinare le risorse della campagna con le informazioni sul prodotto.<br>· Aumentare la soddisfazione dei clienti e favorire la conversione. |
+| Flusso di lavoro completo | · Distribuisci rich media ottimizzati a tutti i punti di contatto, incluse le soluzioni [!DNL Adobe Experience Cloud] complete.<br>· Integrazione con [!DNL Adobe Experience Cloud] per analisi avanzate delle risorse, targeting e riutilizzo delle risorse tra i punti di contatto di marketing. Alcuni di questi punti di contatto includono [!DNL Adobe Campaign] per la posta elettronica, [!DNL Adobe Social] per i canali social e [!DNL Adobe Experience Manager] siti per le app Web e mobili reattive. |
 
 ## Perché Adobe?
 

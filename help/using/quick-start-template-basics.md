@@ -10,10 +10,20 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:57.394Z'
+TQID: 'https://experienceleague.adobe.com/2DaWdJsCz9f5iXEkMi6N1L7s3eFdvpBc1ECrgbVAueo'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 17%
+source-wordcount: 853
+ht-degree: 18%
 
 ---
 
@@ -51,7 +61,7 @@ Per creare un modello da un file PSD, selezionare **[!UICONTROL Crea modello]** 
 
 Vedi [Creare un modello](creating-template.md#creating_a_template).
 
-## &#x200B;3. Creare i parametri del modello
+## &#x200B;3. Creare i parametri per i modelli
 
 La fase successiva comporta l’impostazione dei parametri per le proprietà dei livelli per determinare quali proprietà includere nella stringa URL. I parametri consentono di usare i modelli con la massima flessibilità. Dopo aver impostato un parametro per una proprietà del livello, potete modificarlo in modo dinamico.
 
@@ -65,7 +75,7 @@ Assicuratevi di pubblicare tutte le immagini associate al modello.
 
 Per pubblicare un modello, contrassegnalo per la pubblicazione e sulla barra di navigazione globale, seleziona **[!UICONTROL Pubblica]**. Quindi selezionare **[!UICONTROL Invia pubblicazione]**. Consulta [Modelli di pubblicazione](publishing-templates.md#publishing_templates).
 
-## &#x200B;5. Collegare un modello a una pagina web
+## &#x200B;5. Collegare un modello a una pagina Web
 
 Dynamic Media Classic crea gli URL per i modelli e li attiva quando pubblichi i modelli in Dynamic Media Image Server. Puoi copiare queste stringhe URL dalla pagina Anteprima modello.
 

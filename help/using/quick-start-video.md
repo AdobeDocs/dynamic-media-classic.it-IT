@@ -10,10 +10,20 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:11:06.721Z'
+TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 22%
+source-wordcount: 1748
+ht-degree: 19%
 
 ---
 
@@ -55,7 +65,7 @@ Quando viene generato un set video adattivo, questo include video MP4.
 
   Vedi [Aggiungere marcatori capitolo a un video](adding-chapter-markers-video.md).
 
-* Organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video. 
+* Potete organizzare, sfogliare e ricercare i video sfruttando appieno i metadati, per una gestione efficiente delle risorse video.
 * Distribuisci set video adattivi sul Web, sui desktop e sui dispositivi mobili, inclusi i telefoni iPhone, iPad, Android™, BlackBerry® e Windows®.
 
   Lo streaming video adattivo è supportato su varie piattaforme iOS.
@@ -114,7 +124,7 @@ Tuttavia, qualora sia richiesta ulteriore personalizzazione, gli amministratori 
 
 Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-## &#x200B;2. Visualizzare l’anteprima dei video in un visualizzatore video
+## &#x200B;2. Anteprima di video in un visualizzatore video
 
 Per vedere come viene riprodotto un video per gli utenti finali su un desktop, sul sito Web o su un dispositivo mobile, selezionate il video nel pannello Sfoglia. Quindi selezionare **[!UICONTROL Anteprima]**.
 
@@ -138,7 +148,7 @@ Per integrare i video nel sito Web, potete effettuare una delle seguenti operazi
 
   Per ottenere l&#39;URL per un video, selezionalo nel pannello Sfoglia nella Vista griglia o Vista elenco. Seleziona **[!UICONTROL Anteprima]**, quindi seleziona **[!UICONTROL Copia URL]** a destra di `Universal_HTML5_Viewer`.
 
-  Quando si seleziona **[!UICONTROL Copia URL]**, l&#39;URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione. 
+  Quando si seleziona **[!UICONTROL Copia URL]**, l&#39;URL viene copiato negli Appunti. Inserite questo codice nell’HTML del sito Web, del sito mobile o dell’applicazione.
 
   >[!NOTE]
   >

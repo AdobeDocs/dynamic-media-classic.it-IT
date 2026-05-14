@@ -10,10 +10,20 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:17:59.510Z'
+TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 34%
+source-wordcount: 2266
+ht-degree: 36%
 
 ---
 
@@ -21,7 +31,7 @@ ht-degree: 34%
 
 È possibile archiviare informazioni specifiche dei file utilizzati in Adobe Dynamic Media Classic; tali informazioni sono denominate *metadati*. Puoi utilizzare i metadati in Adobe Dynamic Media Classic per organizzare, cercare, filtrare e ordinare le risorse.
 
-I metadati vengono visualizzati nella vista Dettaglio. Viene visualizzato insieme alle informazioni generate da Adobe Dynamic Media Classic. Ad esempio, data di creazione del file, data di pubblicazione e parole chiave. Per visualizzare i metadati, apri la risorsa in Vista dettagli, quindi seleziona il pannello Metadati. Potete immettere e modificare i metadati nella vista Dettaglio.
+I metadati vengono visualizzati nella vista Dettaglio. Viene visualizzato insieme alle informazioni generate da Adobe Dynamic Media Classic. Ad esempio, data di creazione del file, data di pubblicazione e parole chiave. Per visualizzare i metadati, apri la risorsa in Vista dettagli, quindi seleziona il pannello Metadati. In visualizzazione Dettagli potete immettere e modificare i metadati.
 
 Alcuni metadati sono incorporati direttamente in un file. Se un file contiene questi metadati, Adobe Dynamic Media Classic li carica automaticamente con il file. Puoi incorporare i metadati nelle risorse sorgente in Adobe Photoshop, InDesign, Illustrator e altre applicazioni; Adobe Dynamic Media Classic li riconosce. Potete anche aggiungere metadati a singoli file nel pannello Metadati in Vista dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
 
@@ -37,7 +47,7 @@ Per visualizzare i metadati di una risorsa, apri la risorsa in Vista dettagli e 
 
 * **XMP**: valori definiti dal programma per metadati estensibili.
 
-Gli amministratori possono creare ulteriori visualizzazioni di metadati, Queste visualizzazioni vengono visualizzate anche nel menu Visualizzazioni metadati.
+Gli amministratori possono creare ulteriori visualizzazioni di metadati, che vengono aggiunte al menu Visualizzazioni metadati.
 
 Per informazioni sulla creazione di visualizzazioni metadati, vedere [Visualizzazioni metadati](application-setup.md#metadata_views).
 
@@ -81,7 +91,7 @@ Invece di immettere manualmente i metadati per una risorsa alla volta, potete im
 
 >[!NOTE]
 >
->Puoi creare un modello per l’immissione dei metadati, in modo che possano essere importati correttamente in Adobe Dynamic Media Classic. Dopo aver creato il modello, puoi utilizzarlo per immettere i metadati.
+>Puoi creare un modello per l’immissione dei metadati, in modo che possano essere importati correttamente in Adobe Dynamic Media Classic. Una volta creato il modello, utilizzatelo per immettere i metadati.
 >Consultate [Creare un modello per l’immissione di metadati da caricare](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Ulteriori informazioni sulle proprietà standardizzate sono disponibili nel [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).

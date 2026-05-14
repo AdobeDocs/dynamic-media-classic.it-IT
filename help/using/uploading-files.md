@@ -9,10 +9,22 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:48.480Z'
+TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '3856'
-ht-degree: 25%
+source-wordcount: 3956
+ht-degree: 26%
 
 ---
 
@@ -22,7 +34,7 @@ Prima di caricare i file di risorse in Adobe Dynamic Media Classic, accertati ch
 
 ## Preparare risorse e cartelle per il caricamento {#preparing-your-assets-and-folders-for-uploading}
 
-Prima di caricare le risorse in Adobe Dynamic Media Classic, accertati che siano nel formato e nelle dimensioni corretti. È inoltre necessario osservare le regole di Adobe Dynamic Media Classic per la denominazione delle risorse. È anche utile organizzare e disporre i file in una cartella per semplificarne l’individuazione e l’utilizzo. 
+Prima di caricare le risorse in Adobe Dynamic Media Classic, accertati che siano nel formato e nelle dimensioni corretti. È inoltre necessario osservare le regole di Adobe Dynamic Media Classic per la denominazione delle risorse. È anche utile organizzare e disporre i file in una cartella per semplificarne l’individuazione e l’utilizzo.
 
 ### Formati di file di risorse supportati {#supported-asset-file-formats}
 
@@ -72,17 +84,17 @@ Per ottenere risultati ottimali con il programma Adobe Dynamic Media Classic, as
 | Immagini (per Ridimensionamento immagini, Zoom, Set immagini, Set 360 gradi) | Le immagini devono essere di almeno 2000 pixel alle dimensioni più lunghe; le dimensioni tipiche variano da 1500 a 2500 pixel nelle dimensioni più lunghe. Si consiglia di usare formati immagine senza perdita di dati, come i formati TIFF e PNG. Per le immagini JPEG, usate le impostazioni di qualità massima. I file GIF di animazione vengono gestiti come altri contenuti statici. |
 | eCatalog | Utilizza i file PDF ad alta risoluzione creati in Adobe Acrobat o in un’applicazione Adobe Creative Suite salvata come &quot;pronta per la stampa&quot;. I PDF includono tutti i font, le immagini e le maschere necessari. Inoltre, includi tutti gli elementi grafici di riferimento necessari, come pagine singole, pagine doppie o in formato multipagina. Ordinate le pagine assegnando ai file nomi in ordine alfanumerico. Salvate tutti i file PDF dell’eCatalog in un’unica cartella per semplificarne il caricamento. Potete selezionare le opzioni di ritaglio al momento del caricamento per rimuovere l’area di ritaglio dai file PDF, inclusi gli indicatori di taglio, i crocini di registro o le barre colore. La maggior parte dei file PDF pronti per la usano lo spazio cromatico CMYK; è quindi importante ottenere il profilo colore ICC CMYK usato con i file PDF. |
 | Modelli | Un’immagine con livelli o un layout può includere testo, immagini e livelli. I livelli immagine, le stringhe di testo e gli attributi, quali il colore e le dimensioni, possono essere parametrizzati in modo da personalizzare i dati variabili. I requisiti delle immagini da usare nei modelli sono gli stessi delle altre immagini. Preparate gli elementi grafici in Photoshop o in un altro programma di modifica delle immagini. Salvate ogni elemento grafico come file trasparente a livello unico nel formato TIFF o PNG. Assicuratevi che la risoluzione delle immagini sia appropriata all’uso previsto. Le immagini da stampare sono 300 ppi. |
-| Video | Adobe Dynamic Media Classic supporta i file video salvati in formato OGV e MP4. Al momento del caricamento, è possibile trascodificare i file in formato MP4. Consultate [Formati di file di risorse supportati](#supported-static-file-formats). |
+| Video | Adobe Dynamic Media Classic supporta i file video salvati in formato OGV e MP4. Potete transcodificare i file in formato MP4 al momento del caricamento. Consultate [Formati di file di risorse supportati](#supported-static-file-formats). |
 | Font | Sono stati caricati TrueType, `Type1` (solo Windows®), OpenType® font e PhotoFonts. |
 | Immagini | Immagini e file immagine con più livelli. |
 | Set di immagini e set di campioni | Set di immagini correlate che possono essere visualizzate in un visualizzatore. |
 | Profili ICC | Un profilo colore che puoi utilizzare per convertire un’immagine caricata dal suo spazio colore sorgente in uno spazio colore diverso. |
 | Vignettature | Immagini create con il programma Image Authoring e file correlati. |
 | File contenuto | File di contenuto Adobe InDesign, Illustrator o Photoshop. |
-| File FXG | File di formato grafico indipendenti dalla risoluzione che potete usare per creare modelli personalizzabili per la stampa, il Web, l’e-mail, il desktop e i dispositivi.  |
-| File SVG | File di grafica vettoriale scalabile che possono essere sottoposti a rendering sui server Image Server.  |
-| File XML | File che definiscono le regole di pre-elaborazione usate per modificare il percorso e le porzioni di query delle richieste.  |
-| File Cascading Style Sheet. | Carica gli skin CSS per personalizzare i visualizzatori HTML5. |
+| File FXG | File di formato grafico indipendenti dalla risoluzione che potete usare per creare modelli personalizzabili per la stampa, il Web, l’e-mail, il desktop e i dispositivi. |
+| File SVG | File di grafica vettoriale scalabile che possono essere sottoposti a rendering sui server Image Server. |
+| File XML | File che definiscono le regole di pre-elaborazione usate per modificare il percorso e le porzioni di query delle richieste. |
+| File Cascading Style Sheet. | Potete caricare interfacce CSS per personalizzare i visualizzatori HTML5. |
 | File JavaScript | I file JavaScript vengono utilizzati per la strumentazione del visualizzatore per memorizzare le informazioni sull&#39;account. Adobe Security consiglia questo tipo di risorsa solo per gli account client che hanno un dominio separato in uso per la distribuzione (per evitare script tra siti). |
 
 >[!NOTE]
@@ -143,7 +155,7 @@ L’approccio e la struttura di denominazione delle cartelle scelti per memorizz
 
 **Basato su marchio**: per i produttori con più linee di marchio e i rivenditori che commercializzano altri marchi di altre aziende, separa i file in cartelle di prodotto denominate per marchi diversi.
 
-**Basato su progetto**: le cartelle sono organizzate in base alla data di rollout/rilascio o al nome del progetto. Questa procedura è preferita dai clienti che si occupano principalmente della produzione di eCatalog. 
+**Basato su progetto**: le cartelle sono organizzate in base alla data di rollout/rilascio o al nome del progetto. Questa procedura è preferita dai clienti che si occupano principalmente della produzione di eCatalog.
 
 **Mirror della gerarchia di cartelle del sito Web**: questa struttura di cartelle esegue il mirroring della struttura di cartelle del sito Web, con le cartelle denominate, ad esempio, per le categorie di prodotti.
 
@@ -229,14 +241,14 @@ Seleziona questa opzione per estrarre automaticamente tutti i file dal file ZIP 
    * **[!UICONTROL Includi sottocartelle]**: disponibile solo se è stata selezionata la scheda **[!UICONTROL VIA FTP]**.
 Selezionate questa opzione per caricare le sottocartelle della cartella che intendete caricare. I nomi della cartella e delle relative sottocartelle caricate vengono immessi automaticamente in Adobe Dynamic Media Classic.
 
-   * **[!UICONTROL Elabora file di metadati]**: disponibile solo se è stata selezionata la scheda **[!UICONTROL VIA FTP]**. Seleziona questa opzione se desideri caricare un file XML o delimitato da tabulazioni per aggiungere metadati a più risorse.
+   * **[!UICONTROL Elabora file di metadati]**: disponibile solo se è stata selezionata la scheda **[!UICONTROL VIA FTP]**. Selezionate questa opzione se desiderate caricare un file delimitato da tabulazioni o XML per aggiungere metadati a più risorse.
 Consultate [Importare metadati (tramite FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 * **Opzioni di ritaglio**: ritaglia automaticamente i pixel dello spazio vuoto da un&#39;immagine. Apri il menu **[!UICONTROL Ritaglia]**, seleziona **[!UICONTROL Manuale]** e immetti le misure in pixel nei campi di testo In alto, A destra, In basso e A sinistra per ritagliare i lati. Puoi anche selezionare **[!UICONTROL Rifila]** dal menu Ritaglia e scegliere le seguenti opzioni:
 
    * **[!UICONTROL Rifila in base a]**: scegli se ritagliare in base al colore o alla trasparenza:
-      * **[!UICONTROL Colore]**: scegliere l&#39;opzione Colore. Selezionate quindi il menu Angolo (Corner) e scegliete l&#39;angolo dell&#39;immagine con il colore che meglio rappresenta lo spazio bianco da ritagliare.
-Rifilatura in base al colore: specifica 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. 
+      * **[!UICONTROL Colore]**: scegliere l&#39;opzione Colore. Dal menu Angolo scegliete quindi l’angolo dell’immagine con il colore che rappresenta meglio quello dello spazio bianco da ritagliare.
+Rifilatura in base al colore: specifica 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore.
       * **[!UICONTROL Trasparenza]**: scegliere l&#39;opzione **[!UICONTROL Trasparenza]**.
 Rifilatura in base alla trasparenza: specificate 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
       * **[!UICONTROL Tolleranza]**: trascinare il dispositivo di scorrimento per specificare una tolleranza da 0 a 1.
@@ -265,7 +277,7 @@ Consulta [Utilizzare i file PostScript e Illustrator](postscript-illustrator-fil
 * **Opzioni EVIDEO**: è possibile trascodificare un file video scegliendo un predefinito per video.
 Consulta [Utilizzare i predefiniti di codifica video](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Altri metadati**: immettere le parole chiave che descrivono i file che si intende caricare. Separate le parole chiave con una virgola. Le parole chiave facilitano la ricerca delle risorse.
+* **Altri metadati**: immettere le parole chiave che descrivono i file che si intende caricare. Separate le parole chiave con una virgola. Le parole chiave consentono di effettuare ricerche di risorse in modo semplificato.
 Consulta [Eseguire una ricerca avanzata](searching-assets.md#conducting_an_advanced_search).
 Vedi anche il video di formazione [Carica parole chiave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
 

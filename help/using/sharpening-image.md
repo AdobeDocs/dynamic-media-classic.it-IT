@@ -10,10 +10,20 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:13:09.120Z'
+TQID: 'https://experienceleague.adobe.com/y5rcs4ohA-zMFKKm1EjsSxuUqgqbp-CVMzRcmTaRs6c'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 30%
+source-wordcount: 2315
+ht-degree: 27%
 
 ---
 
@@ -58,7 +68,7 @@ Nella tabella seguente sono elencate le opzioni di nitidezza del server di immag
 | Nome | Protocollo URL | Valori | Esempio |
 | --- | --- | --- | --- |
 | Nitidezza semplice | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
-| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bicubica. Maggiore intensità di CPU rispetto a `bilin`, ma produce immagini più nitide con meno artefatti di aliasing visibili.<br><br>`sharp2`: seleziona una funzione Windows® Lanczos modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia risoluzioni superiori che inferiori, se disponibile. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
+| Modalità di ricampionamento | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleziona interpolazione bilineare standard. Metodo di ricampionamento più veloce; alcuni artefatti di aliasing sono spesso visibili.<br>`bicub`: seleziona l&#39;interpolazione bicubica. Maggiore intensità di CPU rispetto a `bilin`, ma produce immagini più nitide con meno artefatti di aliasing visibili.<br><br>`sharp2`: seleziona una funzione Lanczos Windows® modificata come algoritmo di interpolazione. Può produrre risultati leggermente più nitidi rispetto al bi-cubico a un costo CPU più elevato.<br><br>`trilin`: seleziona un&#39;interpolazione trilineare modificata, che utilizza sia risoluzioni più alte che risoluzioni più basse, se disponibili. Consigliato solo in caso di problemi di alias. Riduce le dimensioni JPEG grazie alla riduzione dei dati ad alta frequenza. | `resMode=sharp2` |
 | Maschera di contrasto | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fattore di intensità del filtro (reale 0...5)<br><br>`radius`: raggio kernel del filtro in pixel (reale 0...250) <br><br>`threshold`: livello di soglia del filtro (intero 0...255)<br><br>`monochrome`: impostato su `0` per applicare una maschera di contrasto a ogni componente di colore separatamente, impostato su `1` per applicare una maschera di contrasto alla luminosità (intensità) dell&#39;immagine | `op_usm=1,1,10,0` |
 
 Selezionare il menu **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
@@ -71,11 +81,11 @@ Selezionare il menu **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
 
 Scegliete queste opzioni per ottimizzare la nitidezza con Maschera definizione dettagli:
 
-* **Importo**: controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentare questo valore fino a 5,0. Il fattore può essere interpretato come una misura dell’intensità del filtro. L&#39;impostazione **[!UICONTROL Amount]** in Adobe Dynamic Media Classic non è uguale all&#39;impostazione Amount in Adobe Photoshop. Adobe Photoshop utilizza una quantità compresa tra l’1% e il 500%, mentre Adobe Dynamic Media Classic viene scalato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
+* **Importo**: controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentarlo fino a 5.0. Considera Importo come una misura dell’intensità del filtro. L&#39;impostazione **[!UICONTROL Amount]** in Adobe Dynamic Media Classic non è uguale all&#39;impostazione Amount in Adobe Photoshop. Adobe Photoshop utilizza una quantità compresa tra l’1% e il 500%, mentre Adobe Dynamic Media Classic viene scalato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
 
-* **Raggio**: determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni. 
+* **Raggio**: determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni.
 
-Il valore di raggio più adatto dipende dalle dimensioni dell’immagine. Un valore basso rende più nitidi solo i pixel dei bordi. Un valore alto rende più nitida una banda più ampia di pixel. 
+Il valore di raggio più adatto dipende dalle dimensioni dell’immagine. Un valore basso rende più nitidi solo i pixel dei bordi. Un valore alto rende più nitida una banda più ampia di pixel.
 
 Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 × 2000 pixel e per un&#39;immagine da 500 × 500 pixel, è possibile impostare un valore di raggio di due pixel sull&#39;immagine da 2000 × 2000 pixel. Quindi, impostate un valore di raggio di un pixel sull&#39;immagine da 500 × 500 pixel (un valore maggiore per un&#39;immagine con più pixel).
 
@@ -118,7 +128,7 @@ Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
 * **Qualità JPG**: selezionare questa opzione se si desidera controllare i livelli di compressione e il downsampling della crominanza.
 
-* **Dispositivo di scorrimento**: determina il livello di compressione di JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala per la qualità JPG va da 1 a 100.
+* **Dispositivo di scorrimento**: determina il livello di compressione di JPG. Questa impostazione interessa sia le dimensioni del file che la qualità dell’immagine. La scala di qualità JPG va da 1 a 100.
 
 * **Attiva downsampling crominanza JPG**: poiché l&#39;occhio è meno sensibile alle informazioni di colore ad alta frequenza rispetto alla luminanza ad alta frequenza, le immagini JPEG dividono le informazioni dell&#39;immagine in componenti di luminanza e colore. Quando un’immagine JPEG viene compressa, il componente della luminanza viene lasciato alla massima risoluzione, mentre per i componenti colore viene eseguito il downsampling calcolando la media di gruppi di pixel. Il downsampling riduce il volume dei dati della metà o di un terzo senza alcun impatto sulla qualità percepita. Non è possibile eseguire il downsampling sulle immagini in scala di grigio. Questa tecnica riduce il fattore di compressione ed è utile per le immagini ad alto contrasto (ad esempio, immagini con testo sovrapposto).
 

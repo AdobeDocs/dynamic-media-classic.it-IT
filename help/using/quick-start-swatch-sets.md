@@ -10,10 +10,18 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:43.672Z'
+TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: 402
+ht-degree: 21%
 
 ---
 
@@ -29,7 +37,7 @@ Per iniziare, caricate le immagini e i file campione per il set di campioni.
 
 Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella su Adobe Dynamic Media Classic. Consulta [Preparare le risorse del set di campioni per il caricamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
 
-## &#x200B;2. Creare un set di campioni
+## &#x200B;2. Creazione di un set di campioni
 
 Per creare un set di campioni, vai a **[!UICONTROL Build]** > **[!UICONTROL Set di campioni]** nella barra di navigazione globale. Nella pagina Set di campioni, trascina le immagini e i campioni di colore sulla pagina. Vedere [Creare un set di campioni](creating-swatch-set.md#creating-a-swatch-set).
 

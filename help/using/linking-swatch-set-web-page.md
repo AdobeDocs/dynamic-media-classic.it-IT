@@ -10,10 +10,18 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:11.713Z'
+TQID: 'https://experienceleague.adobe.com/OhGE3-jniPFknPmpVykZWWSKo2jwdef2sA3Yqo5WpWw'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 14%
+source-wordcount: 710
+ht-degree: 16%
 
 ---
 
@@ -46,7 +54,7 @@ Dopo aver pubblicato un set di campioni, potete utilizzare l&#39;URL o il codice
 
 ## Aggiungere gli URL del set di campioni alla pagina web {#adding-swatch-set-urls-to-your-web-page}
 
-Il modo più comune per distribuire i set di campioni consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di campioni in una finestra di zoom popup. Il collegamento di zoom apre una finestra pop-up contenente la funzione di zoom effettiva.
+Il modo più comune per distribuire i set di campioni consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (ASP o JSP) che visualizza il set di campioni in una finestra di zoom popup. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
 Per ulteriori dettagli ed esempi di codice, vedere [Incorporazione del visualizzatore zoom di HTML5 nella Guida di riferimento dei visualizzatori di Adobe](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
