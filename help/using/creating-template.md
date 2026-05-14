@@ -10,9 +10,15 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T18:19:13.276Z'
+TQID: 'https://experienceleague.adobe.com/2bY6F28UOt--BmRcI4xv1GJnmSMzqbnkUnnPmfFHxmw'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '3433'
+source-wordcount: 3493
 ht-degree: 36%
 
 ---
@@ -63,7 +69,7 @@ Sia che si modifichi un set pubblicato o un set di modelli non pubblicato, l&#39
 | Il set è già pubblicato | **[!UICONTROL Pubblicare dopo aver selezionato l&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
 | Sì | Sì | Pubblicato | Pubblicato |
-| Sì | No | Pubblicato | I membri del set esistenti mantengono lo stato pubblicato. I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
+| Sì | No | Pubblicato | I membri del set esistenti conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). I nuovi membri del set aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 | No | Sì | Pubblicato | Pubblicato |
 | No | No | Non pubblicato | I membri del set esistenti e tutti i nuovi membri aggiunti durante la modifica conservano il loro stato di pubblicazione (Pubblicato o Non pubblicato). |
 
@@ -132,7 +138,7 @@ Utilizza questi strumenti nella schermata Modello per creare modelli:
 1. Nella schermata Testo visualizzata, aggiungi il testo effettuando una delle seguenti operazioni nella scheda Anteprima:
 
    * Digitate il testo desiderato nell’apposita casella. Scegliete Adatta testo per adattare il testo nella rispettiva casella.
-   * Incollate il testo dagli Appunti alla casella di testo. 
+   * Incollate il testo dagli Appunti alla casella di testo.
 
 1. Selezionare **[!UICONTROL Applica]**, quindi chiudere la schermata Testo.
 

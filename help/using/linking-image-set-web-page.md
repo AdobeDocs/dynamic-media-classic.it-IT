@@ -10,10 +10,15 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:02:41.296Z'
+TQID: 'https://experienceleague.adobe.com/d1hGtQAgf1wwjIAbeRJ-kQW4kfglXNu5VSIGxRTgxnc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 16%
+source-wordcount: 703
+ht-degree: 18%
 
 ---
 
@@ -46,9 +51,9 @@ Dopo aver pubblicato un set di immagini, è possibile copiarne l&#39;URL associa
 
 ## Aggiunta degli URL del set di immagini alla pagina Web {#adding-image-set-urls-to-your-web-page}
 
-Il modo più comune per distribuire i set di immagini consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento di zoom apre una finestra pop-up contenente la funzione di zoom effettiva.
+Il modo più comune per distribuire i set di immagini consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
-Per ulteriori dettagli ed esempi di codice, vedere il [Visualizzatore zoom di HTML5 incorporato](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) nella Guida di riferimento dei visualizzatori di Adobe.
+Per ulteriori dettagli ed esempi di codice, vedere il [Visualizzatore zoom di HTML5 incorporato](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) nella Guida di riferimento dei visualizzatori di Adobe.
 
 ## Copiare il codice incorporato di un visualizzatore di set di immagini {#copying-the-embed-code-of-an-image-set-viewer}
 

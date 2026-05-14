@@ -10,10 +10,16 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T20:10:17.674Z'
+TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 45%
+source-wordcount: 859
+ht-degree: 35%
 
 ---
 
@@ -35,19 +41,19 @@ La Guida introduttiva riportata di seguito è stata progettata per consentirti d
 
 ## &#x200B;1. Comprendere i ruoli utente di Media Portal
 
-Gli utenti di Media Portal possono avere tre ruoli: utente, collaboratore e utente-collaboratore. A ciascun ruolo è associato uno specifico set di operazioni consentite. Ad esempio, un collaboratore può rinominare ed eliminare file e cartelle, mentre questo non è consentito a un utente. È importante comprendere i diversi ruoli: quando si aggiungono nuovi utenti sarà possibile assegnare a ciascuno le responsabilità adeguate. 
+Gli utenti di Media Portal possono avere tre ruoli: utente, collaboratore e utente-collaboratore. A ciascun ruolo è associato uno specifico set di operazioni consentite. Ad esempio, un collaboratore può rinominare ed eliminare file e cartelle, mentre questo non è consentito a un utente. È importante comprendere i diversi ruoli: quando si aggiungono nuovi utenti sarà possibile assegnare a ciascuno le responsabilità adeguate.
 
 Consultate [Ruoli utenti di Media Portal](media-portal-user-roles.md#media_portal_user_roles).
 
 ## &#x200B;2. Creare gruppi per la gestione degli utenti
 
-I gruppi determinano le cartelle e i file a cui può accedere un utente, le operazioni che possono essere eseguite su tali cartelle e file e i predefiniti per immagini disponibili. In qualità di amministratore, il vostro primo compito consiste nel creare dei gruppi. Per ciascun gruppo potete definire le cartelle, i file e i predefiniti per immagini a cui potranno accedere i membri del gruppo. Inoltre, potete assegnare ai membri del gruppo le autorizzazioni di lettura, scrittura ed eliminazione. Tali autorizzazioni determinano se i membri del gruppo possono sfogliare, modificare, rinominare ed eliminare le cartelle e i file a cui hanno accesso. 
+I gruppi determinano le cartelle e i file a cui può accedere un utente, le operazioni che possono essere eseguite su tali cartelle e file e i predefiniti per immagini disponibili. In qualità di amministratore, il vostro primo compito consiste nel creare dei gruppi. Per ciascun gruppo potete definire le cartelle, i file e i predefiniti per immagini a cui potranno accedere i membri del gruppo. Inoltre, potete assegnare ai membri del gruppo le autorizzazioni di lettura, scrittura ed eliminazione. Tali autorizzazioni determinano se i membri del gruppo possono sfogliare, modificare, rinominare ed eliminare le cartelle e i file a cui hanno accesso.
 
 Consulta [Creare e gestire gruppi Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## &#x200B;3. Aggiungere gli utenti
+## &#x200B;3. Aggiungi utenti
 
-Quando aggiungete un utente, gli assegnate il suo specifico ruolo (utente, collaboratore o collaboratore-utente). Puoi anche assegnare l’utente a uno o più gruppi. Per aggiungere numerosi utenti in modo più rapido, potete caricare un elenco di utenti sotto forma di file CSV. I nuovi utenti ricevono un messaggio e-mail di benvenuto e istruzioni per effettuare l’accesso a Media Portal. 
+Quando aggiungete un utente, gli assegnate il suo specifico ruolo (utente, collaboratore o collaboratore-utente). Puoi anche assegnare l’utente a uno o più gruppi. Per aggiungere numerosi utenti in modo più rapido, potete caricare un elenco di utenti sotto forma di file CSV. I nuovi utenti ricevono un messaggio e-mail di benvenuto e istruzioni per effettuare l’accesso a Media Portal.
 
 Consulta [Aggiungere e gestire utenti Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
@@ -65,19 +71,19 @@ Consultate [Ruoli utenti di Media Portal](media-portal-user-roles.md#media_porta
 
 ## &#x200B;5. Specificare le opzioni di esportazione
 
-Gli utenti di Media Portal, quando esportano i file, possono riformattarli ed esportare i file primari originali, se si concede loro l&#39;autorizzazione per farlo. In qualità di amministratore potete definire in che modo gli utenti potranno esportare i file. 
+Gli utenti di Media Portal, quando esportano i file, possono riformattarli ed esportare i file primari originali, se si concede loro l&#39;autorizzazione per farlo. In qualità di amministratore potete definire in che modo gli utenti potranno esportare i file.
 
 Vedere [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-## &#x200B;6. Creare i predefiniti per immagini
+## &#x200B;6. Creare predefiniti immagine
 
-Un predefinito immagine è una raccolta di impostazioni predefinite. Queste impostazioni possono modificare le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata. Potete creare i predefiniti per immagini per controllare in che modo le immagini vengono riformattate quando vengono esportate dagli utenti. 
+Un predefinito immagine è una raccolta di impostazioni predefinite. Queste impostazioni possono modificare le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata. Potete creare i predefiniti per immagini per controllare in che modo le immagini vengono riformattate quando vengono esportate dagli utenti.
 
 Consulta [Creare e abilitare predefiniti immagine](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
-## &#x200B;7. Creare predefiniti per metadati e campi di metadati definiti dall’utente
+## &#x200B;7. Creare predefiniti di metadati e campi di metadati definiti dall’utente
 
-I metadati descrivono e identificano un file. Viene utilizzato per cercare e organizzare le risorse. Puoi creare predefiniti per metadati per assicurarti di immettere correttamente i metadati e che vengano compilati tutti i campi di metadati che richiedono dati. Un predefinito per metadati è un set preimpostato di voci di metadati. Potete inoltre creare dei campi per metadati che descrivano in modo univoco i file con cui lavorate. 
+I metadati descrivono e identificano un file. Viene utilizzato per cercare e organizzare le risorse. Puoi creare predefiniti per metadati per assicurarti di immettere correttamente i metadati e che vengano compilati tutti i campi di metadati che richiedono dati. Un predefinito per metadati è un set preimpostato di voci di metadati. Potete inoltre creare dei campi per metadati che descrivano in modo univoco i file con cui lavorate.
 
 Consultate [Utilizzo efficiente dei metadati](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 

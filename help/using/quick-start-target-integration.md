@@ -10,9 +10,15 @@ role: Developer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T19:56:29.690Z'
+TQID: 'https://experienceleague.adobe.com/urNoJw6SrzPpsfpoTtudKndZfJOmWsZKtBZ3Za4aE0I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: 534
 ht-degree: 1%
 
 ---
@@ -23,7 +29,7 @@ Adobe Target Standard/Premium lascia il controllo direttamente nelle mani degli 
 
 Adobe Dynamic Media Classic consente di creare offerte e set di offerte per le campagne Adobe Target Standard/Premium. Ad esempio, puoi creare un set di offerte con tre varianti della stessa risorsa rich media. Quindi puoi avere Adobe Target Standard o Premium per determinare quale risorsa fornisce un incremento di conversione migliore. Puoi creare offerte e set di offerte da un modello base o da singole immagini. Dopo che il set di offerte è stato inviato o salvato in Adobe Target Standard/Premium, dove le offerte sono associate a mbox ed esperienze, Adobe Target Standard/Premium può eseguire campagne. Queste campagne determinano la variante di un sito web che probabilmente offre le prestazioni migliori per i click-through e la conversione.
 
-Per una maggiore personalizzazione dei contenuti Adobe Dynamic Media Classic dinamici, utilizza le offerte HTML di Adobe Target Standard/Premium. Per ulteriori informazioni, consulta la [documentazione di Adobe Target Standard/Premium](https://experienceleague.adobe.com/it/docs/target).
+Per una maggiore personalizzazione dei contenuti Adobe Dynamic Media Classic dinamici, utilizza le offerte HTML di Adobe Target Standard/Premium. Per ulteriori informazioni, consulta la [documentazione di Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target).
 
 >[!NOTE]
 >

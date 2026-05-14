@@ -9,9 +9,15 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:08:29.260Z'
+TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: 2434
 ht-degree: 30%
 
 ---
@@ -53,7 +59,7 @@ Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del 
   Ad esempio, se fate parte di una società multinazionale che vende in diversi paesi, potete mettere a punto un visualizzatore localizzato specifico per ciascun paese. A questo scopo, dovete innanzi tutto specificare una stringa di mappa lingua. Quindi modifichi il testo della descrizione comando nel predefinito di un Visualizzatore. È sufficiente aggiungere le stringhe di testo tradotte per la lingua desiderata.
 
   >[!NOTE]
-  > Per impostare le opzioni di supporto per la localizzazione, [&#x200B; utilizza Admin Console per creare un caso di supporto.](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
+  > Per impostare le opzioni di supporto per la localizzazione, [utilizzare Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
 
   Per ulteriori informazioni sull’impostazione del **[!UICONTROL supporto per la localizzazione]**, consultate [Considerazioni per l’impostazione della localizzazione delle risorse](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +67,7 @@ Modificare queste impostazioni solo con l&#39;assistenza di un responsabile del 
 
 >[!NOTE]
 >
->Se si desidera impostare le opzioni di supporto per la localizzazione in Adobe Dynamic Media Classic, ad esempio il campo Mappa lingua, [utilizzare Admin Console per creare un caso di supporto.](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
+>Se si desidera impostare le opzioni di supporto per la localizzazione in Adobe Dynamic Media Classic, ad esempio il campo Mappa lingua, [utilizzare Admin Console per creare un caso di supporto.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Nel tuo caso di supporto, richiedi assistenza per la configurazione.
 
 Un modo comune per utilizzare Adobe Dynamic Media Classic è quello di gestire le immagini del prodotto sui siti web e-Commerce. Le aziende internazionali devono poter gestire risorse per prodotti simili ma diverse da paese a paese. Di solito le differenze sono per alcune parti del media generale. Affrontare queste differenze copiando tutte le risorse per ciascuno dei paesi e sovrascrivere solo le differenze è uno sforzo tremendo e contraddice la singola metafora della risorsa primaria. Le differenze nelle risorse possono spaziare da video specifici per i singoli paesi con tracce audio distinte, a cavi elettrici diversi da usare con un prodotto. Adobe Dynamic Media Classic utilizza un meccanismo di ricerca di base. Potete definire l’ordine di suffissi per risorse che il server immagini deve seguire per le ricerche, a partire dalla lingua richiesta.
 

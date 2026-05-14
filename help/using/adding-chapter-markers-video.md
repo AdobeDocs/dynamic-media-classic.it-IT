@@ -10,9 +10,14 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:37:15.687Z'
+TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 624
 ht-degree: 22%
 
 ---
@@ -25,7 +30,7 @@ Per semplificare la visualizzazione e la navigazione dei video lunghi, aggiungi 
 >
 >Il lettore video deve supportare l’uso dei contrassegni dei capitoli.
 
-Per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per il visualizzatore [&#x200B; (HTML5), consulta &#x200B;](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)Aggiungere o modificare un predefinito per visualizzatore video`Universal_HTML5_Video`.
+Per configurare i cue point di navigazione del capitolo e il testo a comparsa del titolo del capitolo per il visualizzatore `Universal_HTML5_Video` (HTML5), consulta [Aggiungere o modificare un predefinito per visualizzatore video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
 

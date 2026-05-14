@@ -10,10 +10,15 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:10:31.990Z'
+TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 18%
+source-wordcount: 856
+ht-degree: 16%
 
 ---
 
@@ -41,7 +46,7 @@ Questa guida rapida è stata progettata per aiutarti a iniziare rapidamente a la
 
 ## &#x200B;1. Creare e caricare le immagini
 
-Occorrono almeno da 8 a 12 scatti di uno stesso elemento per creare un set 360 gradi monodimensionale e da 16 a 24 scatti per un set 360 gradi bidimensionale. Gli scatti devono essere effettuati a intervalli regolari per dare l’impressione che l’elemento stia ruotando e si stia capovolgendo. Ad esempio, se un set 360/12) include 12 scatti, ruotate l&#39;elemento di 30° per ogni scatto.
+Sono necessari almeno 8-12 scatti di un elemento per un set 360 gradi monodimensionale e 16-24 per un set 360 gradi bidimensionale. Gli scatti devono essere effettuati a intervalli regolari per dare l’impressione che l’elemento stia ruotando e si stia capovolgendo. Ad esempio, se un set 360/12) include 12 scatti, ruotate l&#39;elemento di 30° per ogni scatto.
 
 Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare in Adobe Dynamic Media Classic le immagini di rotazione dal computer o dalla rete.
 
@@ -59,7 +64,7 @@ Per modificare un set 360 gradi, sulla barra di navigazione globale, vai a **[!U
 
 Vedi [Modificare un set 360 gradi](creating-spin-set.md#editing-a-spin-set).
 
-## &#x200B;4. Impostare i predefiniti visualizzatore per set 360 gradi
+## &#x200B;4. Configurare i predefiniti per il visualizzatore del set 360 gradi
 
 Gli amministratori possono creare predefiniti per visualizzatori di set 360 gradi che consentono di determinare l’aspetto del visualizzatore per set 360 gradi. Per impostare un nuovo predefinito visualizzatore per set 360 gradi, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]** nella barra di navigazione globale.
 

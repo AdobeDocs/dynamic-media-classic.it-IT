@@ -10,10 +10,15 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:52:09.030Z'
+TQID: 'https://experienceleague.adobe.com/cAIaFvlJ3jYoqu1LeLRILuuYsfvuYH6f-N8PqqkHkrk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 21%
+source-wordcount: 698
+ht-degree: 20%
 
 ---
 
@@ -48,7 +53,7 @@ I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic M
 
 Il modo più comune per distribuire un eCatalog consiste nell&#39;inserire un collegamento sotto forma di una pagina di copertina con miniature di eCatalog nella pagina Web. Consultate il personale IT per fare in modo che l’eCatalog venga avviato in una finestra a comparsa centrata e senza altri contenuti, senza la barra degli strumenti né la barra degli indirizzi nel browser.
 
-Per ulteriori dettagli ed esempi di codice, vedere [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in Adobe Viewers Reference.
+Per ulteriori dettagli ed esempi di codice, vedere [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in Adobe Viewers Reference.
 
 ## Copiare il codice incorporato di un visualizzatore eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 

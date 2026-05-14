@@ -6,9 +6,15 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 4601442c2d51d50a2712eee7fd8e5110b43fb2a0
+autotag-review: '2026-05-13T20:15:39.241Z'
+TQID: 'https://experienceleague.adobe.com/0ODwpm8UKHiOr7Ttv5MBKEnxu2HDfUw3yxZ6YhEfK4M'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: 1591
 ht-degree: 0%
 
 ---
@@ -255,7 +261,7 @@ I clienti sono i principali responsabili della gestione delle modifiche, inclusi
 ## Supporto e formazione
 
 +++**Come posso ottenere supporto?**
-È disponibile il supporto 24/7/365 per l’Assistenza clienti. [Contattare il supporto tecnico](https://experienceleague.adobe.com/it?support-solution=General#support).
+È disponibile il supporto 24/7/365 per l’Assistenza clienti. [Contattare il supporto tecnico](https://experienceleague.adobe.com/?support-solution=General#support).
 
 Telefono: 1-800-898-9743 (US) | +44 (0)20 35641782 (Regno Unito) | +81-3-6743-9632 (Giappone)
 
@@ -271,6 +277,6 @@ Per corsi di formazione personalizzati o individuali, contatta il rappresentante
 ## Risorse aggiuntive
 
 +++**Ulteriori informazioni su [!DNL Dynamic Media] e sulle sue caratteristiche**
-Per ulteriori informazioni su [[!DNL Dynamic Media] , consulta il &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)microsito[!DNL Dynamic Media].
+Per ulteriori informazioni su [!DNL Dynamic Media], consulta il [[!DNL Dynamic Media] microsito](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html).
 
 +++

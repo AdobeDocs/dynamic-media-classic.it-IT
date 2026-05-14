@@ -10,9 +10,15 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T19:46:24.807Z'
+TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: 2135
 ht-degree: 1%
 
 ---
@@ -239,7 +245,7 @@ Per scaricare e *installare silenziosamente* la versione più recente dell&#39;a
 
 ## Video introduttivo sull’utilizzo dell’app desktop Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Guarda un video di [introduzione sull&#39;utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durata: 2 minuti e 36 secondi).
+Guarda un video di [introduzione sull&#39;utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durata: 2 minuti e 36 secondi).
 
 ## Cancellazione della cache delle immagini e delle risorse dal computer tramite l’app desktop {#clear-cache}
 
@@ -277,11 +283,11 @@ Oltre a cancellare l’immagine e la cache delle risorse utilizzando l’app des
 
 ## Suggerimenti
 
-**_Impossibile visualizzare il pannello Media Cart nella pagina di destinazione di Adobe Dynamic Media Classic._**<br>In Adobe Dynamic Media Classic, toccare&#x200B;**[!UICONTROL Configurazione > Configurazione personale &#x200B;]**. Nella sezione Browser, assicurarsi che sia selezionato&#x200B;**[!UICONTROL Mostra funzionalità MediaPortal &#x200B;]**(selezionato). Tocca&#x200B;**[!UICONTROL Salva > Chiudi &#x200B;]**.
+**_Impossibile visualizzare il pannello Media Cart nella pagina di destinazione di Adobe Dynamic Media Classic._**<br>In Adobe Dynamic Media Classic, toccare**[!UICONTROL Configurazione > Configurazione personale ]**. Nella sezione Browser, assicurarsi che sia selezionato**[!UICONTROL Mostra funzionalità MediaPortal ]**(selezionato). Tocca**[!UICONTROL Salva > Chiudi ]**.
 
-**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene visualizzato correttamente._**<br>Nell&#39;interfaccia utente del browser, era necessario accedere nuovamente all&#39;interfaccia utente per visualizzare lo stato di pubblicazione corretto delle risorse. Nell&#39;app desktop, Adobe ha introdotto un&#39;icona&#x200B;**[!UICONTROL Aggiorna &#x200B;]**&#x200B;nella barra degli strumenti, a destra del pulsante&#x200B;**[!UICONTROL Seleziona nessuno &#x200B;]**. Tocca l&#39;icona&#x200B;**[!UICONTROL Aggiorna &#x200B;]**&#x200B;per visualizzare lo stato più recente di tutte le risorse nella pagina specificata. Non è necessario effettuare un nuovo accesso come nell’interfaccia utente del browser.
+**_Lo stato di pubblicazione (indicatore verde) di una risorsa non viene visualizzato correttamente._**<br>Nell&#39;interfaccia utente del browser, per visualizzare lo stato di pubblicazione corretto delle risorse era necessario accedere nuovamente all&#39;interfaccia utente. Nell&#39;app desktop, Adobe ha introdotto un&#39;icona**[!UICONTROL Aggiorna ]**nella barra degli strumenti, a destra del pulsante**[!UICONTROL Seleziona nessuno ]**. Tocca l&#39;icona**[!UICONTROL Aggiorna ]**per visualizzare lo stato più recente di tutte le risorse nella pagina specificata. Non è necessario effettuare un nuovo accesso come nell’interfaccia utente del browser.
 
 ![Icona Aggiorna](/help/using/assets/refresh-icon1.png)
 *Icona Aggiorna*
 
-**_Nell&#39;app desktop non sono disponibili predefiniti per set di batch._**<br>Tocca&#x200B;**[!UICONTROL Carica > Opzioni processo > Predefiniti set di batch &#x200B;]**. Verificare che il predefinito per i&#x200B;**[!UICONTROL set di batch &#x200B;]**&#x200B;sia abilitato. Fai clic su&#x200B;**[!UICONTROL Salva e invia caricamento &#x200B;]**.
+**_Nell&#39;app desktop non sono disponibili predefiniti per set di batch._**<br>Tocca**[!UICONTROL Carica > Opzioni processo > Predefiniti set di batch ]**. Verificare che il predefinito per i**[!UICONTROL set di batch ]**sia abilitato. Fai clic su**[!UICONTROL Salva e invia caricamento ]**.
