@@ -35,7 +35,7 @@ I metadati vengono visualizzati nella vista Dettaglio. Viene visualizzato insiem
 
 Alcuni metadati sono incorporati direttamente in un file. Se un file contiene questi metadati, Adobe Dynamic Media Classic li carica automaticamente con il file. Puoi incorporare i metadati nelle risorse sorgente in Adobe Photoshop, InDesign, Illustrator e altre applicazioni; Adobe Dynamic Media Classic li riconosce. Potete anche aggiungere metadati a singoli file nel pannello Metadati in Vista dettagli. Per assicurare coerenza tra le diverse risorse, gli amministratori della società possono creare dei modelli di metadati che forniscono i campi di metadati da compilare.
 
-Per ulteriori informazioni sui metadati incorporati, vedere [Piattaforma metadati estensibili](https://www.adobe.com/products/xmp.html).
+Per ulteriori informazioni sui metadati incorporati, vedere [Piattaforma metadati estensibili](https://www.adobe.com/it/products/xmp.html).
 
 ## Visualizzare i metadati {#view-metadata}
 
