@@ -40,7 +40,7 @@ Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è pi
 
 * L’integrazione dei rapporti video di Adobe Analytics con Adobe Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
 
-  Per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate, vedere [Parametri audio e video](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters).
+  Per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate, vedere [Parametri audio e video](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/variables/audio-video-parameters).
 
 * Sono supportati segmenti predefiniti di incrementi di un minuto. Tuttavia, non è supportato il reporting dei segmenti personalizzato, ad esempio i milestone definiti dal cliente in base a incrementi di tempo, milestone di percentuale o milestone di offset.
 
