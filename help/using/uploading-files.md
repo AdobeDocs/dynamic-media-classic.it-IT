@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 788c18da7c6dc10ecdfbaec06710ded784559f82
+source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
 workflow-type: tm+mt
-source-wordcount: 3570
+source-wordcount: 3571
 ht-degree: 22%
 
 ---
@@ -167,11 +167,11 @@ Adobe Dynamic Media Classic ti invia un messaggio e-mail per confermare quando i
 
 Durante (o immediatamente dopo) un processo di caricamento di grandi dimensioni, alcuni nuovi elementi potrebbero visualizzare il messaggio &quot;Immagine non ancora ottimizzata&quot;. Questo messaggio viene visualizzato perché i file non sono ancora completamente elaborati e aggiunti a Adobe Dynamic Media Classic. Potete ottimizzare questi file successivamente. Vedi [Ottimizzare i file](application-setup.md#optimize_files).
 
-### Sicurezza FTP {#about-ftp-security}
+### Sicurezza FTP {#ftp-security}
 
 Dynamic Media Classic applica i seguenti criteri di sicurezza per l&#39;accesso FTP:
 
-| Policy | Descrizione |
+| Criterio di sicurezza | Descrizione |
 | --- | --- |
 | Isolamento degli utenti | Ogni utente FTP è limitato alla propria directory e non può accedere alle directory appartenenti ad altri utenti. |
 | Account univoci | Ogni utente o integrazione FTP richiede un account FTP dedicato. Gli account condivisi non sono consentiti. Consulta [Gestione account FTP](/help/using/ftp-accounts.md). |
