@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
+source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
 workflow-type: tm+mt
-source-wordcount: 3571
+source-wordcount: 3681
 ht-degree: 22%
 
 ---
@@ -158,6 +158,18 @@ L’approccio e la struttura di denominazione delle cartelle scelti per l’arch
 **Basato su progetto**: le cartelle sono organizzate in base alla data di rollout/rilascio o al nome del progetto. Questa procedura è preferita dai clienti che si occupano principalmente della produzione di eCatalog.
 
 **Mirror della gerarchia di cartelle del sito Web**: questa struttura di cartelle esegue il mirroring della struttura di cartelle del sito Web, con le cartelle denominate, ad esempio, per le categorie di prodotti.
+
+### Sicurezza FTP {#about-ftp-security}
+
+Dynamic Media Classic applica i seguenti criteri di sicurezza per l&#39;accesso FTP:
+
+| Criterio di sicurezza | Descrizione |
+| --- | --- |
+| Isolamento degli utenti | Ogni utente FTP è limitato alla propria directory e non può accedere alle directory appartenenti ad altri utenti. |
+| Account univoci | Ogni utente o integrazione FTP richiede un account FTP dedicato. Gli account condivisi non sono consentiti. Consulta [Gestione account FTP](/help/using/ftp-accounts.md). |
+| Baseline di configurazione | Le configurazioni del server FTP sono conformi alle linee di base di sicurezza stabilite. |
+| Controllo continuo | L&#39;applicazione server FTP e il sistema operativo sottostante vengono regolarmente controllati e monitorati per individuare eventuali vulnerabilità di sicurezza e vengono aggiornati in base alle necessità. |
+| FTP sicuro per *nuovi* clienti | Ai nuovi clienti viene fornito l’FTP sicuro. L&#39;accesso FTP legacy rimane ancora disponibile per *clienti esistenti*. |
 
 ## Informazioni sul caricamento di file {#uploading-your-files}
 
