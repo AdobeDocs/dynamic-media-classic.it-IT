@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Utilizzando Adobe Media Portal, le aziende possono acquisire, controllare e distribuire le risorse approvate a partner esterni, canali e utenti interni. L&#39;ambiente &quot;self-service&quot; basato su browser offre agli utenti del portale &quot;viste&quot; controllate dall&#39;amministratore nelle risorse Adobe Dynamic Media Classic, che consentono di accedere facilmente a risorse da caricare, sfogliare, cercare, visualizzare in anteprima ed esportare in formati approvati dall&#39;azienda.
 
-Per ulteriori informazioni su Media Portal, inclusi i requisiti di sistema, vedere [Utilizzare Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
+Per ulteriori informazioni su Media Portal, inclusi i requisiti di sistema, vedere [Utilizzare Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/it_IT/scene7/mediaportal/). <!-- (https://help.adobe.com/it_IT/scene7/mediaportal/index.html) -->
 
 Per informazioni relative alla gestione di Media Portal, consultate [Avvio rapido: amministrazione di Media Portal](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
 
