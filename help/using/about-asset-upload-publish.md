@@ -1,5 +1,5 @@
 ---
-title: Informazioni sul caricamento e sulla pubblicazione di risorse
+title: Caricare e pubblicare Assets
 description: Scopri come caricare e pubblicare risorse in Adobe Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -11,26 +11,23 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:33:44.592Z'
 TQID: 'https://experienceleague.adobe.com/cBIWqoPxMe-Xw32Ywiqr82U2-wdJySjyM7BzDdGPA0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9417586477c07ca389e075bc8f0d09e21bac7957
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 25%
+source-wordcount: 144
+ht-degree: 20%
 
 ---
 
-# Informazioni sul caricamento e sulla pubblicazione di risorse {#about-uploading-and-publishing-assets}
+# Caricare e pubblicare le risorse {#about-uploading-and-publishing-assets}
 
-Il tuo lavoro in Adobe Dynamic Media Classic si basa su tre aree fondamentali:
+Adobe Dynamic Media Classic include tre funzioni di base:
 
 * Caricamento delle risorse file in Adobe Dynamic Media Classic.
-* Gestione dei file in modo da poterli usare per creare risorse multimediali avanzate.
-* Pubblicazione dei file di risorse su un server Dynamic Media Classic in modo che siano disponibili per la distribuzione al sito web e all’applicazione.
+* Gestione dei file per utilizzarli per creare risorse rich media.
+* Pubblicazione dei file di risorse su un server Dynamic Media Classic in modo che siano disponibili per la distribuzione al sito web e alle applicazioni.
 
 Quando carichi i file di risorse in Adobe Dynamic Media Classic e pubblichi i file di risorse nei server Adobe Dynamic Media Classic, il sistema registra questi trasferimenti di file nella pagina **[!UICONTROL Processi]**. in cui potete tenere traccia e monitorare le attività di caricamento e pubblicazione.
 
