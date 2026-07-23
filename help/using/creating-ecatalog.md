@@ -12,19 +12,14 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:46.184Z'
 TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 948a71b794caa0297a73e6ad689ab752b86edbf0
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 31%
+source-wordcount: 995
+ht-degree: 27%
 
 ---
 
@@ -57,19 +52,19 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
      >
      >per visualizzare gli elementi nella Libreria risorse per nome anziché per miniatura, selezionate l’opzione Nome per Visualizzazione predefinita libreria di risorse in Configurazione personale.
 
-1. Selezionate un layout completo per l’eCatalog. Selezionare **[!UICONTROL 1 Su]** per pagine singole, **[!UICONTROL 2 Su]** per pagine doppie o **[!UICONTROL Personalizzato]** per pagine affiancate di più di due pagine. Nella finestra di dialogo **[!UICONTROL Modifica layout eCatalog]**, selezionare le opzioni **[!UICONTROL Tutte le pagine affiancate]** e selezionare **[!UICONTROL OK]**.
-1. Se necessario, modificare il layout di singole pagine o pagine affiancate selezionandole e scegliendo il pulsante **[!UICONTROL 1 Su]**, **[!UICONTROL 2 Su]** o **[!UICONTROL Personalizzato]**. Nella finestra di dialogo **[!UICONTROL Modifica layout eCatalog]**, selezionare le opzioni **[!UICONTROL Pagine affiancate selezionate]** e selezionare **[!UICONTROL OK]**.
+1. Selezionate un layout completo per l’eCatalog. Selezionare **[!UICONTROL 1 Su]** per pagine singole, **[!UICONTROL 2 Su]** per pagine doppie o **[!UICONTROL Personalizzato]** per pagine affiancate di più di due pagine. Nella finestra di dialogo **[!UICONTROL Modifica layout eCatalog]**, selezionare l&#39;opzione **[!UICONTROL Tutte le pagine affiancate]** e selezionare **[!UICONTROL OK]**.
+1. Se necessario, modificare il layout di singole pagine o pagine affiancate selezionandole e quindi scegliendo il pulsante **[!UICONTROL 1 su]**, **[!UICONTROL 2 su]** o **[!UICONTROL Personalizzato]**. Nella finestra di dialogo **[!UICONTROL Modifica layout eCatalog]**, selezionare l&#39;opzione **[!UICONTROL Pagine affiancate selezionate]** e selezionare **[!UICONTROL OK]**.
 1. Riordinate le pagine in base alle necessità utilizzando una delle seguenti tecniche:
 
-   * **Trascinamento**: trascina una pagina o un set di pagine affiancate in una nuova posizione. Una barra verticale indica la posizione in cui la pagina viene spostata.
+   * **Trascinamento**: trascina una pagina o un set di pagine affiancate in una nuova posizione. La barra verticale indica la posizione in cui viene spostata la pagina.
 
-   * **Pulsante Sposta in**: selezionare una pagina o un set di pagine affiancate, selezionare **[!UICONTROL Sposta in]** e scegliere la pagina nel menu che si desidera visualizzare in precedenza.
+   * **Pulsante Sposta in**: selezionare una pagina o un set di pagine affiancate, selezionare **[!UICONTROL Sposta in]** e scegliere la pagina dal menu prima della quale si desidera visualizzare la pagina.
 
-   * **Sequenza n.**: in Vista a elenco immettere i numeri di pagina nei campi #. sequenza
+   * **Sequenza n.**: in Vista a elenco immettere i numeri di pagina nei campi N. sequenza.
 
 1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]**.
-1. Nella finestra di dialogo Salva, selezionate una cartella in cui memorizzare l’eCatalog. Nel campo Nome file immettere il nome del set 360 gradi.
+1. Nella finestra di dialogo Salva, selezionate una cartella in cui memorizzare l’eCatalog. Nel campo Nome file immettere il nome dell&#39;eCatalog.
 1. Seleziona **[!UICONTROL Salva]**.
 
    Puoi visualizzare in anteprima l&#39;eCatalog dopo averlo salvato selezionando **[!UICONTROL Anteprima]**.
@@ -96,7 +91,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un eCatalog
 
-Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
+Quando si elimina un set, il set stesso viene spostato nella cartella degli elementi eliminati. I membri all’interno di tale insieme non vengono interessati; ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
@@ -121,9 +116,9 @@ Immettere manualmente i nomi di pagina uno alla volta nella scheda Ordina pagine
 
 ### Importa nomi di pagina {#importing-page-names}
 
-L’importazione dei nomi di pagina è consigliata se disponete di un eCatalog con numerose pagine. Potete importare i nomi da un file XML o delimitato da tabulazioni.
+L’importazione dei nomi delle pagine è consigliata se utilizzi un eCatalog contenente molte pagine. Potete importare i nomi da un file XML o delimitato da tabulazioni.
 
-L&#39;etichetta del sommario è memorizzata nel campo Dati utente di un&#39;immagine. Formattare i dati come elenco di `name=<value>` ` pairs separated by two question marks "??" `. Ad esempio, per impostare un&#39;etichetta per un campo sommario denominato `tocEN`, impostare i dati utente dell&#39;immagine su:
+L&#39;etichetta del sommario è memorizzata nel campo Dati utente di un&#39;immagine. Formattare i dati come elenco di `name=<value>` coppie separate da due punti interrogativi &quot;??&quot;. Ad esempio, per impostare un&#39;etichetta per un campo sommario denominato `tocEN`, impostare i dati utente dell&#39;immagine su:
 
 `tocEN=&lt;EN_page_label>`
 
