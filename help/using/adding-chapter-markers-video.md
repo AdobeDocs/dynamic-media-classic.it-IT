@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:37:15.687Z'
 TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a41ad4865cfa5692ed38c030b45fbb579ce2b3f9
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 22%
+source-wordcount: 609
+ht-degree: 12%
 
 ---
 
@@ -37,7 +34,7 @@ Per configurare i cue point di navigazione del capitolo e il testo a comparsa de
 
 Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-setup.md#adding_and_editing_viewer_presets).
 
-Gli elenchi di capitoli si creano in modo analogo alle didascalie, Quindi creando un file WebVTT. Tuttavia, non è possibile utilizzare lo stesso file WebVTT anche per i sottotitoli; non è possibile impostare didascalie e capitoli in un unico file WebVTT.
+Gli elenchi di capitoli si creano in modo analogo alle didascalie, Quindi creando un file WebVTT. Si noti, tuttavia, che questo file deve essere separato da qualsiasi file di sottotitoli WebVTT utilizzato; non combinare sottotitoli e capitoli in un unico file WebVTT.
 
 Un esempio del formato da utilizzare creando un file WebVTT con navigazione dei capitoli è il seguente:
 
@@ -57,7 +54,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Nell&#39;esempio precedente, `Chapter 1` è l&#39;identificatore del cue ed è facoltativo. Il cue time di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e l&#39;ora di fine del capitolo, nel formato 00:00:000. Le ultime tre cifre rappresentano i millisecondi e, se preferite, possono essere lasciate a zero. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione effettiva del contenuto del capitolo. L&#39;identificatore del cue, l&#39;ora di inizio del cue e il titolo del capitolo vengono visualizzati in un pop-up nel lettore video quando il puntatore viene posizionato su un punto di cue visivo nella timeline del video.
+Nell&#39;esempio precedente, `Chapter 1` è l&#39;identificatore del cue ed è facoltativo. Il cue time di `00:00:000 --> 01:04:364` specifica l&#39;ora di inizio e l&#39;ora di fine del capitolo, nel formato 00:00:000. Le ultime tre cifre sono millisecondi e possono essere lasciate come 000, se lo si desidera. Il titolo del capitolo di `The bicycle store behind it all` è la descrizione del contenuto del capitolo. L&#39;identificatore del cue, l&#39;ora di inizio del cue e il titolo del capitolo vengono visualizzati in una finestra a comparsa del lettore video quando il puntatore passa sopra un punto di cue visivo sulla timeline del video.
 
 Poiché state usando un visualizzatore video HTML5, è necessario verificare che il file dei capitoli creato segua lo standard WebVTT (Web Video Text Tracks). L&#39;estensione del nome file del capitolo è `.VTT`. Per ulteriori informazioni sullo standard per sottotitoli WebVTT:
 
@@ -71,9 +68,9 @@ Vedere [WebVTT: formato dei brani di testo per video Web](https://w3c.github.io/
    >
    >Per il supporto globale dei capitoli video in lingue diverse dall&#39;inglese, lo standard WebVTT richiede la creazione di `.VTT` file e chiamate separati per ogni lingua che si desidera supportare.
 
-1. Salvare il file VTT con codifica UTF8 in modo da evitare problemi con la rappresentazione dei caratteri nel testo del titolo del capitolo.
+1. Salvare il file VTT con codifica UTF-8 in modo da evitare problemi con la rappresentazione dei caratteri nel testo del titolo del capitolo.
 
-   In genere, si desidera assegnare al file VTT del capitolo lo stesso nome del file video e aggiungerlo con `chapters`. In questo modo, è possibile automatizzare la generazione degli URL video utilizzando il sistema di gestione dei contenuti web esistente.
+   Assegnare al file VTT del capitolo lo stesso nome del file video e aggiungerlo con `_chapters`. In questo modo puoi automatizzare la generazione degli URL video utilizzando il sistema di gestione dei contenuti web esistente.
 
 1. In Adobe Dynamic Media Classic, carica il file del capitolo WebVTT.
 
@@ -81,7 +78,7 @@ Vedere [WebVTT: formato dei brani di testo per video Web](https://w3c.github.io/
 
 1. Nel pannello Libreria risorse, a sinistra, individua la cartella delle risorse contenente il file video da associare al file del capitolo caricato.
 1. Nel pannello Sfoglia risorse, seleziona una singola risorsa video, quindi seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]** sotto l&#39;immagine di anteprima della risorsa.
-1. Nella tabella Elenco visualizzatori, individuate il visualizzatore HTML5 denominato **Univeral_HTML5_Video** ed effettuate una delle seguenti operazioni:
+1. Nella tabella Elenco visualizzatori trovare il visualizzatore HTML5 denominato **Universal_HTML5_Video**, quindi eseguire una delle operazioni seguenti:
 
    * Per visualizzare un video popup, seleziona **[!UICONTROL Copia URL]** all&#39;estrema destra del nome.
 
