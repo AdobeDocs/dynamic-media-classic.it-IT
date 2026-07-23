@@ -12,36 +12,33 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:38:08.783Z'
 TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 35%
+source-wordcount: 535
+ht-degree: 24%
 
 ---
 
 # Regolare un’immagine{#adjusting-an-image}
 
-Adobe Dynamic Media Classic offre diversi comandi per regolare l&#39;aspetto di un&#39;immagine. Potete capovolgere, ruotare, sfocare, modificare il bilanciamento colore e colorare un&#39;immagine. Sperimentando con questi comandi potete vederne gli effetti sull’immagine con cui state lavorando.
+Adobe Dynamic Media Classic offre diversi comandi per regolare l&#39;aspetto di un&#39;immagine. Potete capovolgere, ruotare, sfocare, modificare il bilanciamento colore e colorare un&#39;immagine. Durante l&#39;esperimento con questi comandi, potete osservare i loro effetti sull&#39;immagine con cui state lavorando.
 
 Vedi anche [Creare un alias per un&#39;immagine](adjusting-image.md#creating_an_alias_for_an_image).
 
 **Per regolare un&#39;immagine:**
 
 1. Selezionate il pulsante Modifica rollover dell&#39;immagine e scegliete Regola, oppure fate doppio clic sull&#39;immagine nel pannello Sfoglia per aprirla in Vista dettagli.
-1. Selezionate un formato e un predefinito immagine (nelle parte inferiore della finestra).
+1. Seleziona una dimensione e un predefinito immagine (nella parte inferiore della finestra).
 1. Utilizzare i comandi sul lato destro della finestra `Adjust Editor` per regolare l&#39;immagine:
 
    * Usate le opzioni Rifletti per riflettere un’immagine in orizzontale o verticale.
    * Utilizza il cursore **[!UICONTROL Rotator]** per ruotare l&#39;immagine. È possibile immettere valori nel campo **[!UICONTROL Rotatore]** per ruotare un&#39;immagine. I valori positivi la ruotano in senso orario, quelli negativi in senso antiorario.
-   * Usate il cursore Sfocatura o la casella corrispondente per sfocare un’immagine. Più alto è il valore, più sfocata sarà l’immagine.
+   * Usate il cursore Sfocatura o la casella corrispondente per sfocare un’immagine. Valori più alti aumentano la sfocatura dell&#39;immagine.
    * Usate le opzioni Contrasto, Luminosità, Saturazione, Tonalità e Bilanciamento colore per regolare colore e luminosità. Questi effetti sono cumulativi. Ad esempio, le modifiche delle impostazioni Magenta/Verde si sommano a quelle delle impostazioni Tonalità.
-   * Utilizza le opzioni `Colorize` per colorare un&#39;immagine mantenendo ombre ed evidenziazioni. Anche le modifiche delle opzioni Colora sono cumulative. Dal menu Luminosità, scegliere **[!UICONTROL Nessuna compensazione]** per disattivare la compensazione automatica della luminosità. Impostate il valore di contrasto su 0 per conservare l’intervallo di contrasto dell’immagine originale o specificate un intervallo con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici sono compresi nell’intervallo 30-70.
+   * Utilizza le opzioni `Colorize` per colorare un&#39;immagine mantenendo ombre ed evidenziazioni. Anche le modifiche delle opzioni Colora sono cumulative. Scegliere **[!UICONTROL Nessuna compensazione]** dal menu Luminosità per disattivare la compensazione automatica della luminosità. Per mantenere l&#39;intervallo di contrasto dell&#39;immagine originale, impostate il valore di contrasto su 0 oppure specificate un intervallo di contrasto con un valore maggiore di 0. Il valore 100 offre il massimo contrasto. I valori tipici sono compresi nell’intervallo 30-70.
 
 1. Una volta completata la regolazione dell’immagine, effettuate una delle seguenti operazioni:
 
@@ -54,14 +51,14 @@ Vedi anche [Creare un alias per un&#39;immagine](adjusting-image.md#creating_an_
    * Per salvare l&#39;immagine come nuova immagine principale, selezionare **[!UICONTROL Salva con nome]**.
 
      Nell&#39;elenco a discesa selezionare **[!UICONTROL Salva come nuovo elemento primario]**.
-Nella casella di riepilogo **[!UICONTROL Nome cartella]** selezionare la cartella in cui si desidera salvare la nuova immagine principale.
-Seleziona **[!UICONTROL Salva]**.
+     Nella casella di riepilogo **[!UICONTROL Nome cartella]** selezionare la cartella in cui si desidera salvare la nuova immagine principale.
+     Seleziona **[!UICONTROL Salva]**.
 
-   * Per salvare l&#39;immagine come un&#39;altra vista dell&#39;immagine primaria. potete creare un alias. Selezionare **[!UICONTROL Salva con nome]**.
+   * Per salvare l&#39;immagine come un&#39;altra visualizzazione dell&#39;immagine primaria, è possibile creare un alias per l&#39;immagine. Selezionare **[!UICONTROL Salva con nome]**.
 
      Dall&#39;elenco a discesa nella finestra di dialogo **[!UICONTROL Salva con nome]**, selezionare **[!UICONTROL Salva come altra visualizzazione primaria]**.
-Nella casella di riepilogo **[!UICONTROL Nome cartella]** selezionare la cartella in cui si desidera salvare la nuova immagine principale.
-Seleziona **[!UICONTROL Salva]**.
+     Nella casella di riepilogo **[!UICONTROL Nome cartella]** selezionare la cartella in cui si desidera salvare la nuova immagine principale.
+     Seleziona **[!UICONTROL Salva]**.
 
 ## Creare un alias per un&#39;immagine {#creating-an-alias-for-an-image}
 

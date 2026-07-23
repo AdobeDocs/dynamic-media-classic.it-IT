@@ -11,18 +11,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:22.364Z'
 TQID: 'https://experienceleague.adobe.com/UbxE4vDKYB-6CsdV2d4lX2WeOMYPe9caewOQD-MBark'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 74cf44585cb4d2d62cf4b5d7894dbe7f5c5847b9
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 29%
+source-wordcount: 1993
+ht-degree: 27%
 
 ---
 
@@ -48,7 +44,7 @@ Adobe Dynamic Media Classic supporta diversi ruoli utente. Questi ruoli possono 
 
 **L&#39;amministratore della società Adobe Dynamic Media Classic** può visualizzare e amministrare solo le proprie società. Un amministratore di società può inoltre eseguire tutte le funzioni amministrative, inclusa l’aggiunta di amministratori e utenti. Un amministratore della società può aggiungere un utente agli account di amministratore della società DMC. Questo ruolo è il ruolo utente predefinito.
 
-Dopo aver aggiunto un utente, Adobe Dynamic Media Classic invia all&#39;utente un messaggio di posta elettronica di benvenuto. Il messaggio include una password e l’URL di Adobe Dynamic Media Classic.
+Dopo aver aggiunto un utente, Adobe Dynamic Media Classic invia all’utente un messaggio e-mail di benvenuto. Il messaggio include una password e l’URL di Adobe Dynamic Media Classic.
 
 ### Aggiungere un utente o un amministratore {#adding-a-user-or-administrator}
 
@@ -72,9 +68,9 @@ Dopo aver aggiunto un utente, Adobe Dynamic Media Classic invia all&#39;utente u
 
    A tutti i nuovi utenti viene assegnata una password generata in modo casuale; gli utenti devono modificare le password al primo accesso all’applicazione desktop Adobe Dynamic Media Classic.
 
-   Dopo essere stati aggiunti da un amministratore, i nuovi utenti ricevono un messaggio e-mail di benvenuto. Il messaggio di posta elettronica fornisce una password temporanea e spiega come accedere a Adobe Dynamic Media Classic.
+   I nuovi utenti ricevono un’e-mail di benvenuto dopo l’aggiunta. L’e-mail fornisce una password temporanea e spiega come accedere a Adobe Dynamic Media Classic.
 
-   Se l&#39;utente non riceve l&#39;e-mail di benvenuto, chiedere di accedere alla pagina di accesso di Adobe Dynamic Media Classic (https://s7sps1.scene7.com) e selezionare **[!UICONTROL Password dimenticata]**. La password viene reimpostata e viene inviato un nuovo messaggio e-mail. Se l’utente non riceve l’e-mail (e se il messaggio non è stato inserito nella cartella della posta indesiderata), contattate il Supporto tecnico.
+   Se l&#39;utente non riceve l&#39;e-mail di benvenuto, invitarlo a visitare la pagina di accesso di Adobe Dynamic Media Classic (https://s7sps1.scene7.com) e selezionare **[!UICONTROL Password dimenticata]**. La password viene reimpostata e viene inviato un nuovo messaggio e-mail. Se l’utente non riceve l’e-mail e non si trova nella cartella di posta indesiderata, contatta il supporto tecnico.
 
    Quando si aggiungono nuovi utenti Media Portal, è inoltre possibile passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Amministrazione utente]**, quindi selezionare **[!UICONTROL Carica elenco utenti]** e selezionare un file .csv contenente non più di 500 utenti.
 
@@ -98,6 +94,8 @@ Gli utenti che sono stati disattivati non sono più autorizzati ad accedere all�
 
 Le informazioni utente che potete modificare dipendono dal vostro ruolo di amministratore e dal ruolo assegnato all’utente di cui desiderate modificare le informazioni. Le opzioni che appaiono attenuate (non disponibili) non possono essere modificate.
 
+**Per modificare le informazioni utente:**
+
 1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Configurazione amministrazione]** > **[!UICONTROL Amministrazione utente]**.
 1. Selezionare un utente dall&#39;elenco, quindi selezionare **[!UICONTROL Modifica]**.
 1. Selezionare la voce nella tabella che mostra la società per la quale si sta tentando di modificare le autorizzazioni o l&#39;accesso, quindi selezionare **[!UICONTROL Gestisci società]**.
@@ -115,11 +113,11 @@ Puoi utilizzare le seguenti tecniche di filtro degli elenchi utente:
 
 * **Filtra per ruolo utente**: seleziona il menu **[!UICONTROL Per ruolo utente]** e scegli un&#39;opzione per limitare l&#39;elenco a utenti o amministratori di tipi diversi.
 
-* **Filtra per nome campo**: selezionare **[!UICONTROL Abilita filtro per campo]**. Selezionare quindi il menu **[!UICONTROL Per nome campo]**, scegliere una colonna per filtrare l&#39;elenco, quindi scegliere Filtra carattere e scegliere una lettera. L’elenco viene filtrato su una delle colonne in base alla lettera scelta. Per visualizzare l&#39;elenco completo, deselezionare l&#39;opzione **`Enable Filter By Field`**.
+* **Filtra per nome campo**: selezionare **[!UICONTROL Abilita filtro per campo]**. Selezionare quindi il menu **[!UICONTROL Per nome campo]**, scegliere una colonna per filtrare l&#39;elenco, quindi scegliere Filtra carattere e scegliere una lettera. La lettera selezionata filtra l&#39;elenco in una delle colonne. Per visualizzare l&#39;elenco completo, deselezionare l&#39;opzione **`Enable Filter By Field`**.
 
 * **Escludi utenti non validi**: deseleziona **[!UICONTROL Includi non validi]**. Nei risultati della ricerca vengono visualizzati solo gli utenti presenti nel sistema. Gli utenti non validi sono stati eliminati dal sistema e dagli account amministrati.
 
-* **Ordina per intestazione colonna**: selezionare un&#39;intestazione per ordinare tutti gli utenti in base al loro stato, in ordine alfabetico in base al nome, al cognome o all&#39;indirizzo e-mail. Oppure, ordinare in base al ruolo utente o in base a uno stato valido/non valido.
+* **Ordina per intestazione colonna**: selezionare un&#39;intestazione per ordinare tutti gli utenti in base allo stato, al nome, al cognome o all&#39;indirizzo di posta elettronica. Oppure, ordina per ruolo utente o stato valido/non valido.
 
 Se nel sistema è presente un numero elevato di utenti, potete limitare le dimensioni dell’elenco specificando un numero nel menu Dimensione massima elenco.
 
@@ -199,19 +197,19 @@ Per generare un rapporto sulla larghezza di banda, l’archiviazione, i contenut
 
    Consultate [Tipi di rapporti](administration-setup.md#types_of_reports).
 
-### Visualizzare i dati in modi diversi {#viewing-data-in-different-ways}
+### Configurare le opzioni di visualizzazione dei dati {#viewing-data-in-different-ways}
 
 Dopo la generazione di un rapporto dalla pagina Larghezza di banda e spazio di archiviazione, potete scegliere diverse opzioni per la visualizzazione delle informazioni. Potete scegliere come presentare le informazioni, se visualizzarle sotto forma di grafico o griglia, nonché specificare un periodo di tempo per i dati da acquisire. In visualizzazione Dati, potete inoltre ordinare le informazioni e riordinare le colonne.
 
 * **Visualizza dati in un grafico o in una griglia dati**: selezionare **[!UICONTROL Visualizzazione grafico]** per visualizzare i dati in un grafico; selezionare **[!UICONTROL Visualizzazione dati]** per visualizzare i dati in una griglia dati.
 
-* **Scegli un tipo di presentazione per report**: dal menu Tipo di report, seleziona **[!UICONTROL Riepilogo]**, **[!UICONTROL Giornaliero]** o **[!UICONTROL Mensile]** per organizzare i dati in forma di riepilogo, per giorno o per mese. Questa opzione non è disponibile per tutti i rapporti.
+* **Scegli un tipo di presentazione per report**: dal menu Tipo di report, seleziona **[!UICONTROL Riepilogo]**, **[!UICONTROL Giornaliero]** o **[!UICONTROL Mensile]** per organizzare i dati per riepilogo, giorno o mese. Questa opzione non è disponibile per tutti i rapporti.
 
 * **Specifica un periodo di tempo**: scegliere le opzioni per definire un periodo di tempo per il report, quindi selezionare **[!UICONTROL Aggiorna]** dopo aver definito un periodo di tempo:
 
 * **Periodo di tempo predefinito**: scegliere un&#39;opzione dal menu Report predefinito. Ad esempio, scegliete Ultimo mese per acquisire i dati a partire dall’ultimo mese.
 
-* **Periodo di tempo personalizzato**: dal menu Report predefinito, seleziona **[!UICONTROL Personalizzato]**. Quindi scegli una data nel menu **[!UICONTROL Mese iniziale]** (o **[!UICONTROL Data inizio]**) e una data nel menu # di mesi (o # o giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
+* **Periodo di tempo personalizzato**: dal menu Report predefinito, seleziona **[!UICONTROL Personalizzato]**. Quindi scegli una data nel menu **[!UICONTROL Mese iniziale]** (o **[!UICONTROL Data inizio]**) e una data nel menu # di mesi (o # di giorni). Per i rapporti Dominio e Contenuti video, potete scegliere una data iniziale e finale specifica per l’acquisizione delle informazioni per il rapporto.
 
 * **Ordinare i dati (solo visualizzazione dati)**: ordinare le informazioni in una colonna. Seleziona l’intestazione della colonna. Seleziona nuovamente per ordinare in ordine decrescente.
 
@@ -236,14 +234,14 @@ Gli amministratori di Adobe Dynamic Media Classic possono generare rapporti di e
    * Per ordinare gli errori in base alle informazioni sull&#39;intestazione, selezionare un&#39;intestazione. Per impostazione predefinita, gli errori vengono ordinati per numero di occorrenze, dalla più alta alla più bassa.
    * Portate il cursore sul campo Risposta di un errore per visualizzare il messaggio di errore specifico.
    * Per visualizzare il collegamento all&#39;immagine o alla pagina Web del referente, spostare il cursore sul campo URL o sul campo Referrer.
-   * Per copiare il collegamento all&#39;immagine effettiva, selezionare **[!UICONTROL URL copia URL]**. Potete quindi incollare il collegamento nel campo indirizzo della finestra di un browser per passare all’immagine ed esaminare l’errore.
+   * Per copiare il collegamento all&#39;immagine effettiva, selezionare **[!UICONTROL URL copia URL]**. Per passare all&#39;immagine e analizzare l&#39;errore, incollare il collegamento in una finestra del browser.
    * Per copiare il collegamento alla pagina Web del referente, selezionare **[!UICONTROL URL copia referente]**.
 
 Gli errori visualizzati si riferiscono alla società a cui hai effettuato l’accesso. Ciascun errore include le seguenti informazioni:
 
-* **ID immagine**: ID dell&#39;immagine offesa.
+* **ID immagine**: ID dell&#39;immagine problematica.
 
-* **Ora**: l&#39;intervallo di tempo della prima segnalazione dell&#39;errore all&#39;ultima segnalazione dell&#39;errore, nelle ultime 24 ore.
+* **Ora**: l&#39;intervallo di tempo compreso tra la prima segnalazione dell&#39;errore e l&#39;ultima segnalazione dell&#39;errore, nelle ultime 24 ore.
 
 * **Count**: numero di errori segnalati nell&#39;immagine.
 
