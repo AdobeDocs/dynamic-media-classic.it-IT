@@ -1,5 +1,5 @@
 ---
-title: Gestire le varianti di contenuto
+title: Gestione varianti di contenuto
 description: Scopri come gestire le varianti di contenuto in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: e8180a78d75b0cd2ec39e4a148d6246cfde258f7
 workflow-type: tm+mt
-source-wordcount: 248
-ht-degree: 44%
+source-wordcount: 239
+ht-degree: 28%
 
 ---
 
@@ -29,11 +29,13 @@ ht-degree: 44%
 
 Utilizzando dei set di modelli è possibile gestire il modo in cui vengono pubblicate le varianti delle risorse.
 
-Potete creare un set di modelli per gestire le varianti di un modello e controllare quale variante viene utilizzata senza modificare il codice nel sito. Questo metodo consente ai content manager di ruotare il contenuto senza richiedere al reparto IT di modificare un URL nel codice web.
+Potete creare un set di modelli per gestire le varianti di un modello e controllare quale variante viene utilizzata senza modificare il codice nel sito. Questo metodo consente ai content manager di aggiornare il contenuto senza richiedere il supporto tecnico per modificare un URL nel codice web.
 
-Gli URL universali vengono utilizzati per visualizzare la variante di modello visualizzata nella pagina, in base all’ordine in cui sono elencati nel set. Il primo modello nell’elenco del set di modelli viene sempre pubblicato.
+Gli URL universali visualizzano la variante del modello sulla pagina, in base all’ordine impostato. Il primo modello nell’elenco del set di modelli viene sempre pubblicato.
 
-Puoi utilizzare qualsiasi URL di predefinito immagine dall’elenco. Gli URL dei predefiniti immagine sono simili agli URL universali. Può essere presente più di un URL predefinito immagine.
+Puoi utilizzare qualsiasi URL di predefinito immagine dall’elenco. Gli URL dei predefiniti immagine funzionano in modo simile agli URL universali. Può essere presente più di un URL predefinito immagine.
+
+**Per gestire le varianti di contenuto:**
 
 1. Vai a **[!UICONTROL Build]** > **[!UICONTROL Set di modelli]**.
 1. Nel generatore, seleziona un modello, quindi seleziona **[!UICONTROL Aggiungi/Anteprima]**.
@@ -44,8 +46,8 @@ Puoi utilizzare qualsiasi URL di predefinito immagine dall’elenco. Gli URL dei
 
 1. Passate alla pagina Dettagli per ottenere l’URL della copia dalla sezione URL.
 
-Potete spostare un modello nell’ordine dei modelli (ad esempio, per portarlo in cima all’elenco) trascinandolo nella nuova posizione. Pubblicate di nuovo per inviare il nuovo ordine.
+È possibile riordinare un modello, ad esempio nella prima posizione dell&#39;elenco, trascinandolo nella nuova posizione. Pubblicate di nuovo per inviare il nuovo ordine.
 
 >[!NOTE]
 >
->Se necessario, cancella la cache per visualizzare le modifiche. Le modifiche vengono visualizzate nel sito Web solo dopo che sono state implementate nella cache.
+>Se necessario, cancella la cache per visualizzare le modifiche. La modifica viene visualizzata sul sito web solo dopo che è stata elaborata durante il ciclo della cache.

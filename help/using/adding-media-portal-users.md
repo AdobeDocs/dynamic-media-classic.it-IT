@@ -1,5 +1,5 @@
 ---
-title: Aggiungere e gestire gli utenti di Media Portal
+title: Aggiungi e gestisci utenti Media Portal
 description: Scopri come aggiungere e gestire utenti Media Portal in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +111,7 @@ Ogni utente dell&#39;elenco viene aggiunto automaticamente ai gruppi specificati
 
 ## Generare un elenco selezionabile di utenti Media Portal {#generating-a-selectable-list-of-media-portal-users}
 
-Potete visualizzare i nomi e gli indirizzi e-mail degli utenti Media Portal in una finestra a comparsa. Questo elenco è utile per tagliare e incollare nomi utente e indirizzi da usare all’esterno di Media Portal.
+Potete visualizzare i nomi e gli indirizzi e-mail degli utenti Media Portal in una finestra a comparsa. Questo elenco è utile se si desidera copiare e incollare nomi utente e indirizzi da utilizzare all&#39;esterno di Media Portal.
 
 1. Passa a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Configurazione amministrazione]** > **[!UICONTROL Amministrazione utente]**.
 1. Nell&#39;elenco a discesa **[!UICONTROL Per ruolo utente]**, scegliere il nome di un ruolo utente Media Portal e selezionare **[!UICONTROL Aggiorna]** per visualizzare i nomi di una classe di utente Media Portal.
@@ -135,7 +135,7 @@ Quando aggiungete nuovi utenti, collaboratori e collaboratori-utenti di Media Po
 
 A partire dalla schermata di configurazione Amministrazione utenti potete effettuare le seguenti attività:
 
-* **[!UICONTROL Filtra e ordina l&#39;elenco utenti]**: filtra l&#39;elenco degli utenti di Media Portal per individuare gli utenti.
+* **[!UICONTROL Filtrare e ordinare l&#39;elenco utenti]**: per individuare gli utenti, filtrare l&#39;elenco degli utenti Media Portal.
 
 * **[!UICONTROL Elimina utenti]**: rimuovere un utente dall&#39;elenco.
 

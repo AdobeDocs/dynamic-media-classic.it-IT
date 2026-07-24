@@ -19,16 +19,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # Aggiungi didascalie al video {#add-captions-to-video}
 
-Estendi la portata dei tuoi video ai mercati globali. A tale scopo, puoi aggiungere i sottotitoli a singoli video o set di video adattivi. Aggiungendo i sottotitoli, potete evitare di dover doppiare l’audio in ogni lingua diversa. Il video viene riprodotto nella lingua in cui è stato registrato e in sovraimpressione compaiono i sottotitoli in lingua straniera, che permettono alle persone di altri paesi di comprendere comunque la porzione audio.
+Rendi i tuoi video disponibili nei mercati globali. A tale scopo, puoi aggiungere i sottotitoli a singoli video o set di video adattivi. Aggiungendo i sottotitoli si evita la necessità di duplicare l&#39;audio o di utilizzare artisti vocali nativi per registrare l&#39;audio in ogni lingua. Il video viene riprodotto nella lingua originale. I sottotitoli tradotti appaiono in modo che persone di lingue diverse possano ancora comprendere la porzione audio.
 
 I sottotitoli, in particolare i sottotitoli per non udenti, garantiscono inoltre una maggiore accessibilità per le persone con problemi di udito.
 
@@ -48,7 +48,7 @@ Vedi anche [Aggiungere e modificare i predefiniti visualizzatore](application-se
 
 Adobe Dynamic Media Classic può convertire i file di didascalia in formato JSON (JavaScript Object Notation). Questa conversione ti consente di incorporare il testo JSON in una pagina web come trascrizione nascosta ma completa del video. I motori di ricerca possono quindi scansionare e indicizzare il contenuto per rendere i video più facilmente individuabili e fornire ai clienti maggiori dettagli sul contenuto video.
 
-Per ulteriori informazioni sull&#39;utilizzo della funzione JSON in un URL, vedere [Server static (non-image) contents](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) in.
+Per ulteriori informazioni sull&#39;utilizzo della funzione JSON in un URL, vedere [Fornire contenuto statico (non immagine)](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api).
 
 **Per aggiungere didascalie a un video:**
 
@@ -64,17 +64,17 @@ Per ulteriori informazioni sull&#39;utilizzo della funzione JSON in un URL, vede
 
 1. Nel pannello Libreria risorse, a sinistra, individua la cartella di risorse contenente il file video da associare al file di didascalia caricato.
 1. Nel pannello Sfoglia risorse, seleziona una singola risorsa video, quindi seleziona **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]** sotto l&#39;immagine di anteprima della risorsa.
-1. Nella tabella Elenco visualizzatori trovare il visualizzatore HTML5 denominato **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** o **Universal_HTML5_MixedMedia_light**, quindi eseguire una delle operazioni seguenti:
+1. Nella tabella Elenco visualizzatori trovare il visualizzatore HTML5 denominato **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** o **Universal_HTML5_MixedMedia_light**, quindi eseguire una delle operazioni seguenti:
 
-   * Per visualizzare un video popup, seleziona **[!UICONTROL Copia URL]** all&#39;estrema destra del nome.
+   * Per visualizzare un video popup, seleziona **[!UICONTROL Copia URL]** a destra del nome.
 
-     Aggiungi l’URL copiato del video con la seguente sintassi, in modo da poterlo associare all’URL copiato nel file di didascalia:
+     Aggiungi la seguente sintassi all’URL copiato del video in modo da poterlo associare al file di didascalia:
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      Nota `,1` alla fine del percorso dell&#39;URL della didascalia. Subito dopo l&#39;estensione del nome file VTT nel percorso, è possibile abilitare o disabilitare il pulsante dei sottotitoli codificati sulla barra del lettore video impostando rispettivamente su `1` o `0`.
 
-   * Per un&#39;esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Incorpora codice]** all&#39;estrema destra del nome.
+   * Per un&#39;esperienza di visualizzazione video incorporata, seleziona **[!UICONTROL Incorpora codice]** a destra del nome.
 
      Nella finestra di dialogo Incorpora codice, seleziona **[!UICONTROL Copia negli Appunti]**.
 

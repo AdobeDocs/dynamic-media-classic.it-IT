@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6fc776c64e7e0dca958296b508b2d7b07849a88d
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 27%
+source-wordcount: 433
+ht-degree: 20%
 
 ---
 
 # Utilizzare le cartelle di risorse{#working-with-asset-folders}
 
-Le risorse dei file in Adobe Dynamic Media Classic vengono mantenute in cartelle. elencate in ordine alfabetico nel pannello Libreria risorse. Prima di caricare i file dal computer o dalla rete in Adobe Dynamic Media Classic, viene richiesto di denominare una cartella per la memorizzazione dei file. Create quindi le cartelle necessarie prima di caricare qualsiasi file.
+Le risorse dei file in Adobe Dynamic Media Classic sono mantenute in cartelle. Queste cartelle sono elencate in ordine alfabetico nel pannello Libreria risorse. Prima di caricare i file dal computer o dalla rete in Adobe Dynamic Media Classic, viene richiesto di denominare una cartella in cui memorizzarli. Create quindi le cartelle necessarie prima di caricare qualsiasi file.
 
 Prima di caricare i file, assicurati di stabilire una struttura di cartelle e un’organizzazione per la memorizzazione dei file in Adobe Dynamic Media Classic.
 
@@ -37,7 +37,7 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 * **Visualizza sottocartelle**: selezionare l&#39;icona **[!UICONTROL Cartella espansa]** per visualizzare le sottocartelle in una cartella. Questa icona si trova a sinistra dei nomi delle cartelle.
 
-* **Spostare una cartella**: è possibile spostare una cartella trascinandola e rilasciandola nella nuova posizione oppure selezionando **[!UICONTROL File]** > **[!UICONTROL Sposta cartella]**.
+* **Sposta una cartella**: sposta una cartella trascinandola o seleziona **[!UICONTROL File]** > **[!UICONTROL Sposta cartella]**.
 
 * **Nascondi cartelle**: selezionare l&#39;icona **[!UICONTROL Cartella compressa]** se si desidera comprimere le sottocartelle per nasconderle dalla visualizzazione. Questa icona si trova a sinistra dei nomi delle cartelle.
 
@@ -45,11 +45,11 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 >[!TIP]
 >
->È possibile nascondere o visualizzare la libreria di risorse selezionando il controllo **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Comprimi il pannello Libreria risorse quando hai bisogno di più spazio per lavorare nel pannello Sfoglia.
+>È possibile nascondere o visualizzare la libreria di risorse selezionando il controllo **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** sul lato sinistro. Comprimi il pannello Libreria risorse quando hai bisogno di più spazio nel pannello Sfoglia.
 
 ## Creare cartelle
 
-1. Nella Libreria risorse, selezionate la cartella in cui desiderate creare la cartella.
+1. Nella Libreria risorse, seleziona la cartella in cui desideri creare una cartella.
 1. Selezionare il pulsante **[!UICONTROL `Add Folder`]**. Questa icona si trova nella parte superiore dell’elenco delle cartelle.
 1. Immettere un nome descrittivo per la nuova cartella o sottocartella. Digitalo nel campo accanto all’icona della cartella.
 
@@ -61,10 +61,10 @@ Nella Libreria risorse, i file vengono visualizzati in una struttura di cartelle
 
 Per selezionare una cartella ed eliminarla o rinominarla, effettuate le seguenti operazioni:
 
-* **Elimina**: selezionare il pulsante **[!UICONTROL `Remove Folder`]**. Le risorse di una cartella eliminata vengono inserite nella cartella Cestino, da cui potrete eventualmente recuperarle.
+* **Elimina**: selezionare il pulsante **[!UICONTROL `Remove Folder`]**. Assets in una cartella eliminata viene spostato nella cartella degli elementi eliminati. da cui potrete eventualmente recuperarle.
 
 * **Rinomina**: fare doppio clic sul nome e immettere un nuovo nome.
 
 >[!NOTE]
 >
->Non è possibile copiare cartelle o risorse perché in questo modo verrebbero create cartelle e risorse duplicate in Adobe Dynamic Media Classic e non sono consentiti duplicati.
+>La copia di cartelle o risorse crea cartelle e risorse duplicate in Adobe Dynamic Media Classic, operazione non supportata.

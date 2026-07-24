@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 839735160b7123c57d176866bc4e5dd56dbf4bdc
 workflow-type: tm+mt
-source-wordcount: 1643
-ht-degree: 21%
+source-wordcount: 1656
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 Per monitorare i caricamenti di file in Adobe Dynamic Media Classic e i file pubblicati sui server Adobe Dynamic Media Classic, Adobe Dynamic Media Classic offre la pagina Processi. Nella pagina Processi è possibile rivedere, caricare e pubblicare i processi, controllare lo stato dei processi e annullare la pubblicazione dei processi. Potete anche pianificare i processi di caricamento e pubblicazione.
 
-Quando caricate delle risorse, viene visualizzata un’icona rotante accanto al menu Processi a indicare che è in corso un processo; viene inoltre visualizzato il numero di file inclusi in tale processo. Puoi selezionare l’icona per visualizzare ulteriori informazioni sul processo attivo.
+Quando carichi le risorse, accanto al menu Processi viene visualizzata un’icona in rotazione che indica che un processo è in corso e mostra il numero di file in corso. Puoi selezionare l’icona per visualizzare ulteriori informazioni sul processo attivo.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ I processi vengono elencati in queste categorie nella scheda Cronologia della pa
 
 * **[!UICONTROL Totale]**: numero di file trasferiti.
 
-* **[!UICONTROL W (avvisi)]**: numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio, `.DS_store` file (Mac) e Thumbs.db file (Windows®) contengono informazioni su come visualizzare i file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
+* **[!UICONTROL W (avvisi)]**: numero di avvisi nel processo (se presenti). Le avvertenze indicano i problemi riscontrati durante il processo che tuttavia non ne hanno compromesso il completamento totale. Possono generalmente essere ignorate perché vengono segnalano file nascosti. Ad esempio: `.DS_store` file (Mac) e Thumbs.db file (Windows®) contengono informazioni su come visualizzare i file immagine agli utenti. Le voci di avviso relative a questi file, tuttavia, possono essere ignorate perché non riguardano il modo in cui questi file vengono utilizzati in Adobe Dynamic Media Classic. Per visualizzare informazioni dettagliate sulle avvertenze di un processo, fate doppio clic sul nome corrispondente.
 
 * **[!UICONTROL E (errori)]**: elenca il numero di errori nel processo (se presenti). Per visualizzare informazioni dettagliate sugli errori di un processo, fate doppio clic sul nome corrispondente.
 
@@ -91,7 +91,7 @@ Potete copiare queste informazioni negli Appunti.
 
 ## Gestire i processi di caricamento e pubblicazione ricorrenti {#handling-recurring-upload-and-publish-jobs}
 
-I processi di caricamento e pubblicazione ricorrenti, creati nelle pagine Carica e Pubblica, sono elencati nella scheda Pianificato della pagina Processi. In questa schermata potete modificare ed eliminare i processi periodici.
+I processi di caricamento e pubblicazione periodici creati nelle pagine Carica e Pubblica sono visualizzati nella scheda Pianificati della pagina Processi. In questa schermata potete modificare ed eliminare i processi periodici.
 
 Seleziona il pulsante Processi sulla barra di navigazione globale e, nella pagina Processi, seleziona la scheda **[!UICONTROL Pianificati]** per poter modificare ed eliminare i processi ricorrenti.
 
@@ -152,10 +152,10 @@ Nella tabella seguente sono illustrati i caratteri jolly consentiti nella casell
 Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli intervalli temporali nella casella Regola:
 
 * `0 0 12 * * ?` : mezzogiorno ogni giorno
-* `0 15 10 ? * *` : 10:15 ogni giorno
-* `0 0/5 14 * * ?`: Ogni 5 minuti tra le 2:00 e le 2:55 del pomeriggio ogni giorno
-* `0 0/5 14,18 * * ?` : Ogni 5 minuti tra le 2:00 e le 2:55 del giorno e ogni 5 minuti tra le 6:00 e le 6:55 del giorno
-* `0 10,44 14 ? 3` : mercoledì alle 14:00 e alle 14:00 ogni mercoledì di marzo:10:44
+* `0 15 10 ? * *` : ogni giorno alle 10:15
+* `0 0/5 14 * * ?`: ogni 5 minuti tra le 14:00 e le 14:55 ogni giorno
+* `0 0/5 14,18 * * ?` : Ogni 5 minuti tra le 14:00 e le 14:55 e ogni 5 minuti tra le 18:00 e le 18:55 ogni giorno
+* `0 10,44 14 ? 3` : mercoledì alle 14:10 e alle 14:44 ogni mercoledì di marzo
 * `0 15 10 ? *` : lunedì alle 10:15 ogni giorno feriale
 * `0 15 10 20 * ?` : alle 10:15 del 20 di ogni mese
 * `0 15 10 L * ?` : Alle 10:15 dell&#39;ultimo giorno di ogni mese
@@ -164,6 +164,6 @@ Nell’elenco seguente sono illustrati alcuni esempi che descrivono gli interval
 
 ## Utilizzare un processo di caricamento o pubblicazione come attivatore {#using-an-upload-or-publish-job-as-a-trigger}
 
-Quando carichi le risorse tramite FTP o esegui un processo di pubblicazione, puoi pianificare l’inizio di un processo successivo al termine del caricamento. Se è stato pianificato l&#39;inizio di altri processi, il processo pianificato in questa posizione verrà messo in coda dietro di essi. Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in tale posizione possa essere attivato. A questo processo di caricamento successivo viene assegnato lo stesso nome di quello corrente, con l’aggiunta del prefisso _Pub.
+Quando carichi le risorse tramite FTP o esegui un processo di pubblicazione, puoi pianificare l’inizio di un processo successivo al termine del caricamento. Se è stato pianificato l&#39;inizio di altri processi, il processo pianificato in questa posizione verrà messo in coda dietro di essi. Il nuovo processo invia una notifica all&#39;indirizzo specificato in modo che il codice in tale posizione possa essere attivato. A questo processo di caricamento successivo viene assegnato lo stesso nome del processo di caricamento corrente, ma con il prefisso `_Pub`.
 
 Per fare in modo che un processo di caricamento o pubblicazione attivi un altro processo, seleziona **[!UICONTROL Avanzate]** nella pagina Carica o Pubblica. Immettete quindi l’URL nel campo di testo Notifica HTTP.

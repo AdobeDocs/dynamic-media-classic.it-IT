@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
 workflow-type: tm+mt
-source-wordcount: 179
-ht-degree: 33%
+source-wordcount: 173
+ht-degree: 29%
 
 ---
 
 # Informazioni sui contenuti generati dagli utenti in Adobe Dynamic Media Classic {#about-user-generated-content}
 
-L’utilizzo di contenuti generati dagli utenti (UGC, User-Generated Content) consiste nel caricare le risorse in un archivio di storage Adobe Dynamic Media Classic dedicato ed eseguire le operazioni correlate.
+Il contenuto generato dall&#39;utente (UGC, User-Generated Content) consiste nel caricare le risorse in un repository di archiviazione [!DNL Adobe Dynamic Media Classic] dedicato ed eseguire le operazioni correlate.
 
 UGC supporta i formati di file immagine raster BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media rimangono disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse vengono rimosse.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
@@ -43,7 +43,7 @@ UGC supporta i formati di file immagine raster BMP, GIF, JPG, PNG, PSD, TIFF.
 >
 >Il supporto per risorse di immagini vettoriali UGC nuove o esistenti in Adobe Dynamic Media Classic è terminato il 30 settembre 2021.
 
-Prima di caricare le risorse, dovete ottenere una chiave segreta condivisa Usate questa chiave per ottenere un token di caricamento. Il token di caricamento verrà quindi fornito al momento di caricare le risorse ed eseguire altre operazioni UGC.
+Prima di caricare le risorse, devi ottenere una chiave con segreto condiviso. Usate questa chiave per ottenere un token di caricamento. Il token di caricamento verrà quindi fornito al momento di caricare le risorse ed eseguire altre operazioni UGC.
 
 Una volta ottenuta la chiave segreta condivisa e caricato il token, potete eseguire le seguenti operazioni relative a contenuti generati dall’utente:
 
