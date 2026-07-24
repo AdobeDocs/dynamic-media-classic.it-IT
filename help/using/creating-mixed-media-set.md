@@ -11,16 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:42:05.016Z'
 TQID: 'https://experienceleague.adobe.com/SgUcHyeFzCORCwV-VtfqQHFp2JDRsPsYb47mo3Z1yK4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 57%
+source-wordcount: 628
+ht-degree: 54%
 
 ---
 
@@ -53,7 +50,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Effettuate una delle seguenti operazioni:
 
    * Per aggiungere una colonna sonora, trascinate un file audio dalla libreria delle risorse alla casella Colonna sonora. La colonna sonora viene riprodotta durante la visualizzazione delle immagini, Si interrompe durante la riproduzione di un video.
-   * Per cambiare l’ordine dei set, trascinateli nelle nuove posizioni nella schermata Set di file multimediali diversi. L’ordine dei set nella schermata determina l’ordine da sinistra a destra in cui gli utenti vedono i set nel visualizzatore di set di file multimediali diversi.
+   * Per cambiare l’ordine dei set, trascinateli nelle nuove posizioni nella schermata Set di file multimediali diversi. L’ordine dello schermo determina l’ordine da sinistra a destra in cui gli utenti visualizzano i set nel Visualizzatore set di file multimediali diversi.
    * (Facoltativo) Per aggiungere una miniatura personalizzata che rappresenti il video nel visualizzatore, trascinate un file immagine dalla Libreria risorse alla casella segnaposto Miniatura.
 
 1. Nell&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
@@ -61,7 +58,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Seleziona una cartella per l’archiviazione del set di file multimediali diversi, quindi immetti un nome per il set.
 1. Seleziona **[!UICONTROL Salva]**.
 
-   Per visualizzare l&#39;aspetto del set di immagini combinato in un visualizzatore di set di immagini, selezionare **[!UICONTROL Anteprima]**.
+   Per visualizzare l&#39;aspetto del set di file multimediali diversi in un visualizzatore di set di immagini, selezionare **[!UICONTROL Anteprima]**.
 
 ## Modificare un set di file multimediali diversi {#edit-a-mixed-media-set}
 
@@ -91,7 +88,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un set di file multimediali diversi
 
-Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
+Quando eliminate un set, viene spostato nel cestino. I membri all&#39;interno di tale insieme non vengono interessati, ma mantengono ciascuno il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
