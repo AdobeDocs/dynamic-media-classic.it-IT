@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:19.856Z'
 TQID: 'https://experienceleague.adobe.com/AlYkBI41GganXzy28kbNN9DXU1Pd4mVCwJKCdwmnN4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: da232d1762d4bb21788ab094ea56d715a58c27d2
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 47%
+source-wordcount: 260
+ht-degree: 46%
 
 ---
 
@@ -30,12 +26,12 @@ ht-degree: 47%
 
 Quando gli utenti esportano delle risorse immagini mediante Media Portal, possono scegliere un predefinito per immagini nella finestra di dialogo Esporta risorse selezionate. Un predefinito immagine è una raccolta di impostazioni predefinite. Queste impostazioni possono modificare le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata.
 
-Gli amministratori di Media Portal possono creare i predefiniti per immagini per determinare il modo in cui le immagini vengono riformattate al momento dell’esportazione. I predefiniti per immagini riformattano le immagini secondo le specifiche della società quando gli utenti esportano immagini da Adobe Dynamic Media Classic. Anziché riformattare le immagini singolarmente impostandone le varie opzioni, gli utenti possono così esportarle secondo le esatte specifiche determinate da un particolare predefinito per immagini.
+Gli amministratori di Media Portal possono creare i predefiniti per immagini per determinare il modo in cui le immagini vengono riformattate al momento dell’esportazione. I predefiniti per immagini riformattano le immagini in base alle specifiche della tua azienda quando gli utenti esportano immagini da Adobe Dynamic Media Classic. Invece di riformattare manualmente le immagini, gli utenti le esportano in base alle specifiche precise di un predefinito immagine.
 
 Per l’esportazione delle risorse di immagine sono applicabili le restrizioni seguenti:
 
 * La larghezza × l&#39;altezza devono essere inferiori o uguali a 100 MB per immagine. Ad esempio, l&#39;immagine non può superare i 10 K × 10 K o qualsiasi variante di aspetto inferiore, ad esempio 8 K × 12 K.
-* Per ogni processo di esportazione è disponibile un massimo di 1 GB di dimensione totale del file.
+* Il limite massimo di dimensioni file totale per singolo processo di esportazione è di 1 GB.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
 
 >[!NOTE]
