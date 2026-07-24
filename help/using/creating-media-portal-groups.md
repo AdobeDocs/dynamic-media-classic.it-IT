@@ -12,35 +12,30 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T17:41:54.576Z'
 TQID: 'https://experienceleague.adobe.com/If0j5hWmxTOGGYshsqh2sa0iM3S2SvG57iPO2rtG1lY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b83425ec5382ae173947fa0c9321e734f14eaced
 workflow-type: tm+mt
-source-wordcount: 841
-ht-degree: 49%
+source-wordcount: 843
+ht-degree: 39%
 
 ---
 
 # Creare e gestire gruppi Media Portal{#creating-and-managing-media-portal-groups}
 
-I *gruppi* facilitano l’amministrazione degli utenti di Media Portal. Per accedere a una risorsa, un utente deve appartenere ad almeno un gruppo autorizzato ad accedere a tale risorsa. Quando aggiungete un utente, lo potete assegnare a uno o più gruppi. In questo modo, si concede all&#39;utente l&#39;accesso alle cartelle a cui è stato assegnato il gruppo. Potete inoltre scegliere i predefiniti per immagini disponibili per un dato gruppo.
+I gruppi sono progettati per agevolare l’amministrazione degli utenti di Media Portal. Per accedere a una risorsa, un utente deve appartenere ad almeno un gruppo autorizzato ad accedere a tale risorsa. Quando aggiungete un utente, lo potete assegnare a uno o più gruppi. In questo modo si concede all&#39;utente l&#39;accesso alle cartelle a cui è stato assegnato il gruppo. Potete inoltre scegliere i predefiniti per immagini disponibili per un dato gruppo.
 
 ## Utilizzare i gruppi per limitare l’accesso a cartelle, risorse e predefiniti immagine {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
-La creazione di gruppi consente di assegnare diversi livelli di autorizzazione di accesso. Per ogni gruppo, potete assegnare le autorizzazioni di lettura, scrittura ed eliminazione per diverse cartelle e risorse nelle cartelle. Potete inoltre decidere quali predefiniti per immagini rendere disponibili per il gruppo. Successivamente, potete assegnare utenti ai relativi gruppi. Un utente può appartenere a più di un gruppo. Grazie all’uso dei gruppi potete limitare il diritto di accesso a soli alcuni set di risorse.
+La creazione di gruppi consente di assegnare diversi livelli di autorizzazione di accesso. Per ogni gruppo, potete assegnare le autorizzazioni di lettura, scrittura ed eliminazione per diverse cartelle e risorse nelle cartelle. Inoltre, è possibile decidere quali predefiniti immagine sono disponibili per il gruppo. Successivamente, potete assegnare utenti ai relativi gruppi. Un utente può appartenere a più di un gruppo. La funzione di gruppo offre la flessibilità di assegnare l’accesso a set limitati del contenuto totale.
 
-Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o cartella, questa eredita le autorizzazioni assegnate alla relativa cartella principale, ovvero la cartella al di sopra di essa nella gerarchia delle cartelle. Assegnando le autorizzazioni a una cartella principale potrete avere la certezza che tutte le relative sottocartelle ereditino le stesse autorizzazioni.
+Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o cartella, questa eredita le autorizzazioni assegnate alla relativa cartella principale, ovvero la cartella al di sopra di essa nella gerarchia delle cartelle. Concedere le autorizzazioni a una cartella principale. Eseguire questa operazione se si desidera assicurarsi che tutte le relative cartelle figlio ereditino le stesse autorizzazioni.
 
 >[!NOTE]
 >
->gli utenti possono appartenere a più di un gruppo. Se un utente appartiene a due gruppi con diverse autorizzazioni di accesso a una cartella, gli viene assegnato il livello di accesso più alto.
+>gli utenti possono appartenere a più di un gruppo. Quando un utente appartiene a due gruppi con autorizzazioni di accesso diverse per una cartella, gli viene concesso l’accesso più permissivo.
 
 ## Aggiungere un gruppo {#adding-a-group}
 
@@ -52,7 +47,7 @@ Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o ca
 
    Consultate [Definire le autorizzazioni di accesso alle risorse per un gruppo](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Potete scegliere quali predefiniti immagine sono disponibili per il gruppo. Fai clic sulla scheda **[!UICONTROL Autorizzazioni di accesso al predefinito immagine]** e seleziona Predefiniti immagine utilizzabili dal gruppo.
+1. Potete scegliere quali predefiniti immagine sono disponibili per il gruppo. Fai clic sulla scheda **[!UICONTROL Autorizzazioni di accesso per predefinito immagine]** e seleziona Predefiniti immagine utilizzabili dal gruppo.
 
    Consultate [Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -67,7 +62,7 @@ Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o ca
    * Per modificare le autorizzazioni di un gruppo, selezionare il gruppo, quindi selezionare **[!UICONTROL Modifica]**.
 
 1. Nella finestra di dialogo Aggiungi gruppo o Modifica gruppo, seleziona la scheda **[!UICONTROL Autorizzazioni di accesso alle risorse]**. Nella parte destra della scheda sono disponibili le caselle per specificare le autorizzazioni di lettura, scrittura ed eliminazione per cartelle e risorse. Potete espandere e comprimere cartelle e sottocartelle nel riquadro a sinistra.
-1. Per assegnare le autorizzazioni necessarie a cartelle o singole risorse, selezionate la cartella nel riquadro a sinistra. Il contenuto della cartella viene visualizzato nel riquadro a destra. Quindi assegnare i diritti per il gruppo selezionando le caselle per i file corrispondenti. Oppure, selezionando le cartelle nel riquadro di destra.
+1. Per assegnare le autorizzazioni necessarie a cartelle o singole risorse, selezionate la cartella nel riquadro a sinistra. Il contenuto della cartella viene visualizzato nel riquadro a destra. Quindi assegnare i diritti per il gruppo selezionando le caselle per i file corrispondenti. In alternativa, selezionare le cartelle nel riquadro di destra.
 
    La tabella di seguito presenta le associazioni tra diverse attività e le autorizzazioni di lettura, scrittura ed eliminazione.
 
@@ -84,11 +79,11 @@ Se specificatamente non concedi un’autorizzazione di gruppo a una risorsa o ca
 
 >[!NOTE]
 >
->le autorizzazioni di accesso entrano in vigore non appena selezionate una casella. Quando hai assegnato i diritti a una cartella, alle sue sottocartelle e a tutti i file al suo interno vengono assegnati gli stessi diritti della cartella principale. Tuttavia, potete specificare autorizzazioni diverse per singole sottocartelle e file di risorse.
+>le autorizzazioni di accesso entrano in vigore non appena selezionate una casella. Quando assegnate le autorizzazioni a una cartella, queste vengono applicate anche alle relative sottocartelle e a tutti i file al loro interno. Tuttavia, potete specificare autorizzazioni diverse per singole sottocartelle e file di risorse.
 
 ## Scegliere le autorizzazioni di accesso ai predefiniti per immagini per un gruppo
 
-Le autorizzazioni di accesso ai predefiniti per immagini per un gruppo vi permettono di specificare quali predefiniti per immagini sono disponibili per gli utenti del gruppo al momento dell’esportazione di risorse in Media Portal.
+Scegli le autorizzazioni di accesso al predefinito immagine per un gruppo. Utilizzare questa opzione per specificare quali predefiniti immagine sono disponibili per i membri del gruppo. Utilizza questa opzione quando esportano risorse con Media Portal.
 
 Vedere anche [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
