@@ -12,18 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:35.428Z'
 TQID: 'https://experienceleague.adobe.com/zss-r9uFbwUnAU35hcpQsXKE1HgyBCrrK7JGiqV65Pg'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f139091df2b0bd1018cd89c591abdde2c0f57cc0
 workflow-type: tm+mt
-source-wordcount: 2454
-ht-degree: 30%
+source-wordcount: 2431
+ht-degree: 24%
 
 ---
 
@@ -38,19 +34,19 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 * Immettere testo di rollover.
 * Immettere JavaScript e URL per l&#39;avvio di pagine Web.
 * Creare modelli URL per le mappe immagine.
-* Copiare le mappe immagine in altre immagini, pagine di eCatalog o set 360 gradi.
+* Copiare mappe immagine in altre immagini, pagine eCatalog o set 360 gradi.
 * Esportare le mappe immagine in CSV o XML.
 * Importa i metadati dell&#39;immagine da un file delimitato da tabulazioni o da un file XML.
-* Definisci altre azioni in base a quanto determinato dal World Wide Web Consortium.
+* Definire altre azioni secondo quanto stabilito dal World Wide Web Consortium.
 * Visualizzare l’anteprima delle mappe immagine.
 
 ## Disegnare e regolare una mappa immagine {#drawing-and-adjusting-an-image-map}
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Se si utilizza un&#39;immagine nella visualizzazione griglia o nella visualizzazione elenco, nell&#39;elenco a discesa Modifica selezionare **[!UICONTROL Mappa immagine]**. In alternativa, aprirla in Vista dettagli, quindi selezionare **[!UICONTROL Mappa immagine]** sopra l&#39;immagine.
+   * Se si utilizza un&#39;immagine nella visualizzazione griglia o elenco, selezionare **[!UICONTROL Mappa immagine]** dall&#39;elenco a discesa Modifica. In alternativa, aprirla in Vista dettagli, quindi selezionare **[!UICONTROL Mappa immagine]** sopra l&#39;immagine.
    * Se si utilizza un set 360 gradi nella visualizzazione griglia o nella visualizzazione elenco, selezionare **[!UICONTROL Modifica]**. In alternativa, aprirlo in Visualizzazione dettagli e quindi selezionare **[!UICONTROL Modifica]**. Selezionare una risorsa immagine, quindi selezionare **[!UICONTROL Mappa immagine]**.
-   * Se si utilizza un eCatalog, nella visualizzazione griglia, nella visualizzazione elenco, nella visualizzazione dettagli selezionare **[!UICONTROL Modifica]**. Selezionare la scheda **[!UICONTROL Mappa pagine]**.
+   * Se si utilizza un eCatalog nella visualizzazione Griglia, Elenco o Dettagli, selezionare **[!UICONTROL Modifica]**. Selezionare la scheda **[!UICONTROL Mappa pagine]**.
 
    ![Illustrazione mappa immagine](assets/ma_image_map.png)
 
@@ -78,10 +74,10 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 
    * Per visualizzare in anteprima le mappe immagine, selezionare **[!UICONTROL Anteprima]**.
    * Per eliminare una mappa immagine o un vertice di poligono, selezionare una forma nell&#39;immagine, quindi selezionare **[!UICONTROL Elimina]**. Oppure, per un eCatalog, nella scheda Ordina pagine selezionare **[!UICONTROL Cancella mappe]** per rimuovere le mappe immagine da tutte le pagine.
-   * Per rimuovere un elemento:
-      * Mappa immagine da un’immagine
-      * un&#39;immagine in un set 360 gradi
-      * o, una pagina eCatalog
+   * Per rimuovere uno dei seguenti elementi
+     * Mappa immagine da un’immagine
+     * un&#39;immagine in un set 360 gradi
+     * o una pagina eCatalog
 
      temporaneamente, senza eliminarla, deselezionare l&#39;opzione On appropriata nell&#39;elenco Mappa immagine.
 
@@ -91,15 +87,15 @@ Quando create le mappe immagine, potete effettuare una delle seguenti operazioni
 
 Per modificare la posizione, la forma e le dimensioni di una mappa immagine, selezionare il pulsante Mappa immagine. Selezionare quindi lo strumento **[!UICONTROL Panning]** e seguire le istruzioni seguenti:
 
-* **Cambia posizione**: spostare il puntatore vicino al bordo della mappa immagine, ma non oltre. Quando viene visualizzata l’icona con la freccia a quattro punte, trascinate la mappa nella nuova posizione.
+* **Cambia posizione**: spostare il puntatore vicino ma non oltre il bordo della mappa immagine. Quando viene visualizzata l&#39;icona Sposta, trascinare la mappa in una nuova posizione.
 
 * **Modifica dimensioni e forma**: la modalità di modifica della forma e delle dimensioni di una mappa immagine dipende dal fatto che si utilizzi una mappa immagine rettangolare o poligonale:
 
 >[!TIP]
 >
->Potete trascinare il cursore Dimensione in fondo alla schermata per cambiare le visualizzazioni e avere una visione migliore della mappa immagine.
+>Per modificare le visualizzazioni e visualizzare la mappa immagine in modo più chiaro, trascinare il dispositivo di scorrimento Dimensioni nella parte inferiore dello schermo.
 
-* **Mappa immagine rettangolare**: spostare il puntatore su un lato o un angolo della mappa immagine. Quando viene visualizzata l’icona con la freccia a due punte, iniziate a trascinare. Tenere premuto il tasto Maiusc mentre si trascina per modificare le dimensioni, mantenendo però le proporzioni (la forma).
+* **Mappa immagine rettangolare**: spostare il puntatore su un lato o un angolo della mappa immagine. Quando viene visualizzata l’icona con la freccia a due punte, iniziate a trascinare. Per modificare le dimensioni mantenendo le proporzioni (la forma), tenere premuto il tasto Maiusc durante il trascinamento.
 
 * **Mappa immagine poligonale**: trascinare un punto di manipolazione di selezione quadrato. Per creare un punto di manipolazione di selezione, seleziona il bordo della mappa immagine e inizia a trascinare.
 
@@ -109,7 +105,7 @@ Se la pagina dell&#39;immagine o dell&#39;eCatalog include più mappe immagine e
 
 ### Importare i dati per le mappe immagine {#importing-image-map-data}
 
-Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potete importare i dati per l’immagine, il set 360 gradi o l’eCatalog nella schermata Riepilogo mappe. Potete importare i dati delle mappe immagine come un file delimitato da tabulazioni o un file XML DTD. I campi presenti nel file devono essere nell’ordine visualizzato nella schermata Riepilogo mappe: Nome, Etichette di sommario, Mappe, URL, Testo di rollover, Altre azioni e Stringhe di ricerca. L&#39;importazione dei dati di Mappa immagine consente di evitare i problemi di immissione dei dati nell&#39;elenco Mappa immagine durante la creazione di ogni Mappa immagine.
+Invece di immettere i dati della mappa immagine in ogni pagina, puoi importare i dati per l’immagine, il set 360 gradi o l’eCatalog nella schermata Riepilogo mappa. Potete importare i dati delle mappe immagine come un file delimitato da tabulazioni o un file XML DTD. I campi nel file devono seguire l’ordine mostrato nella schermata Riepilogo mappa: Nome, Etichette sommario, Mappe, URL, Testo di rollover, Altre azioni e Stringhe di ricerca. L&#39;importazione dei dati della mappa immagine evita la necessità di immettere i dati nell&#39;elenco Mappa immagine durante la creazione di ogni mappa immagine.
 
 **Per importare i dati della mappa immagine:**
 
@@ -117,22 +113,22 @@ Invece di inserire i dati relativi alle mappe immagine in ciascuna pagina, potet
 1. Selezionare **[!UICONTROL Importa metadati]**.
 1. Nella finestra di dialogo Carica metadati, seleziona Immagine o Mappa immagine per caricare i metadati dal tipo di proprietà della risorsa desiderata.
 1. Nell&#39;elenco a discesa `Generate File` selezionare il tipo di file che si desidera creare.
-1. (Facoltativo) Seleziona **[!UICONTROL Genera]** per visualizzare in anteprima i dati risultanti in base al tipo di file che desideri creare. Seleziona **[!UICONTROL Chiudi]** per tornare alla finestra di dialogo Carica metadati.
+1. (Facoltativo) Selezionare **[!UICONTROL Genera]**. In questo modo vengono visualizzati in anteprima i dati risultanti in base al tipo di file che si desidera creare. Seleziona **[!UICONTROL Chiudi]** per tornare alla finestra di dialogo Carica metadati.
 1. Individuate il file da caricare. Nel campo di testo Nome file, specificate il nome del file generato.
 1. (Facoltativo) Nel campo Nome processo, specificate un nome per il processo di caricamento dei metadati.
 1. Seleziona **[!UICONTROL Carica]**.
 
 ### Copia mappe immagine {#copying-image-maps}
 
-Potete copiare le mappe immagine da un’immagine o una pagina di eCatalog all’altra, Utilizza **[!UICONTROL Copia mappa immagine]** per iniziare subito a crearli. È inoltre possibile copiare mappe immagine per ricrearle in immagini o pagine che condividono layout o strutture di mappatura.
+Potete copiare le mappe immagine da un’immagine o una pagina di eCatalog all’altra, Utilizza **[!UICONTROL Copia mappa immagine]** per semplificare il processo di creazione. Per creare mappe immagine in immagini o pagine che condividono layout o strutture di mappatura, è anche possibile copiarle.
 
-Ad esempio, copiare le mappe immagine in un eCatalog è un modo pratico per copiare tutte le mappe immagine tra versioni in lingue straniere dello stesso eCatalog. Per ottenere risultati ottimali, la copia risulta più efficace se si esegue la copia tra eCatalog con lo stesso numero di pagine e le stesse immagini. Se l&#39;eCatalog in cui si effettua la copia contiene già mappe immagine, queste ultime vengono eliminate al momento della copia.
+Ad esempio, copiare le mappe immagine in un eCatalog è un modo pratico per copiare tutte le mappe immagine tra diverse versioni linguistiche dello stesso eCatalog. Per ottenere risultati ottimali, la copia risulta più efficace se si esegue la copia tra eCatalog con lo stesso numero di pagine e le stesse immagini. Se l&#39;eCatalog in cui si effettua la copia contiene già mappe immagine, queste ultime vengono eliminate al momento della copia.
 
 **Per copiare le mappe immagine:**
 
 1. Passate alla pagina Editor mappa immagine (per le immagini o le immagini in set 360 gradi) o alla scheda Mappe pagine della schermata di modifica di un eCatalog.
 1. Seleziona **[!UICONTROL Copia mappe in]**.
-1. Per copiare le mappe immagine da altre immagini o per copiarle da un eCatalog, effettuate una delle seguenti operazioni:
+1. Effettua una delle seguenti operazioni, a seconda che tu stia copiando mappe immagine da immagini o mappe immagine da un eCatalog:
 
    * (Immagini) Nella schermata Seleziona immagini, selezionate le immagini nelle quali desiderate copiare le mappe immagine.
    * (Immagini) Nella schermata Seleziona risorsa, selezionate le immagini o le pagine eCatalog nelle quali desiderate copiare le mappe immagine.
@@ -141,21 +137,21 @@ Ad esempio, copiare le mappe immagine in un eCatalog è un modo pratico per copi
 
 ## Utilizza un modello per immettere JavaScript e URL {#using-a-template-to-enter-javascript-and-urls}
 
-Potete definire un modello URL (detto anche modello Href) per facilitare e migliorare l’immissione degli URL delle mappe immagine. La definizione di un modello URL risulta utile se la maggior parte degli URL della mappa immagine hanno uno stesso formato fisso. Immettendo la parte fissa dell’URL come modello URL non sarà necessario reimmetterla ogni volta che create una mappa immagine. Il modello URL può contenere anche comandi, nomi di percorso e parametri di JavaScript. Per impostazione predefinita, il modello URL contiene un gestore Adobe Dynamic Media Classic JavaScript proprietario denominato `loadProduct` che apre l&#39;immagine in una nuova finestra.
+Per semplificare l’immissione degli URL della mappa immagine, puoi definire un modello URL (noto anche come modello Href). La definizione di un modello URL risulta utile se la maggior parte degli URL della mappa immagine hanno uno stesso formato fisso. Immettendo la parte fissa dell’URL come modello URL non sarà necessario reimmetterla ogni volta che create una mappa immagine. Il modello URL può contenere anche comandi, nomi di percorso e parametri di JavaScript. Per impostazione predefinita, il modello URL contiene un gestore Adobe Dynamic Media Classic JavaScript proprietario denominato `loadProduct` che apre l&#39;immagine in una nuova finestra.
 
 >[!NOTE]
 >
->Quando si aggiunge il codice JavaScript all&#39;attributo HREF della mappa immagine, il codice viene eseguito sul computer del client. Di conseguenza, assicurati che il codice JavaScript sia sicuro.
+>Quando si aggiunge il codice JavaScript nell&#39;attributo HREF della mappa immagine, il codice viene elaborato nel computer dell&#39;utente. Di conseguenza, assicurati che il codice JavaScript sia sicuro.
 
 ### I modelli URL {#about-url-templates}
 
-Il modello URL funziona sostituendo il contenuto della colonna URL nell’elenco Mappa immagine. Nel modello, sostituisce il simbolo con il simbolo del doppio dollaro ($$):
+Il modello URL funziona sostituendo il contenuto della colonna URL nell’elenco Mappa immagine. Nel modello, li sostituisce con i segni del doppio dollaro ($$):
 
 ```as3
 Javascript:loadProduct('$$');void(0);
 ```
 
-Inserisci tutti i valori che non cambiano tra le mappe immagine nel modello URL. Nella colonna URL dell’elenco Mappa immagine vanno invece aggiunti solo i valori che variano da mappa immagine a mappa immagine. Ad esempio:
+Inserisci tutti i valori che non cambiano tra le mappe immagine nel modello URL. Aggiungi solo i valori che cambiano nella colonna URL nell’elenco Mappa immagine. Ad esempio:
 
 * Modello URL: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * Valore URL: `product.htm`
@@ -163,9 +159,9 @@ Inserisci tutti i valori che non cambiano tra le mappe immagine nel modello URL.
 
 Per impostazione predefinita, il modello URL include un gestore Adobe Dynamic Media Classic JavaScript proprietario denominato `loadProduct` che apre una nuova finestra con la destinazione URL. È tuttavia possibile utilizzare qualsiasi codice JavaScript per sostituire questo gestore JavaScript o uno dei seguenti gestori Adobe Dynamic Media Classic:
 
-* `loadProductCW`: visualizza la destinazione URL specificata nella colonna URL della finestra corrente. Questo handler è indicato soprattutto per gli eCatalog integrati in una pagina di un sito Web.
+* `loadProductCW`: visualizza la destinazione URL specificata nella colonna URL all&#39;interno della finestra corrente. Questo handler è indicato soprattutto per gli eCatalog integrati in una pagina di un sito Web.
 
-* `loadProductPW`: visualizza la destinazione URL specificata nella colonna URL della finestra padre, ovvero la pagina che ha aperto quella corrente. La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
+* `loadProductPW`: visualizza la destinazione URL specificata nella colonna URL all&#39;interno della finestra padre, ovvero la pagina che ha aperto quella corrente. La finestra corrente resta aperta, ma quella principale cambia per visualizzare la destinazione URL.
 
   >[!NOTE]
   >
@@ -183,7 +179,7 @@ La pagina Editor mappa (per le immagini e i set 360 gradi) e la scheda Mappe pag
 
 * **Opzione modello URL**: seleziona l&#39;opzione modello URL per applicare il modello URL a tutte le mappe immagine di un&#39;immagine o di una pagina eCatalog.
 
-* **Opzione modello**: deselezionare un&#39;opzione Modello nell&#39;elenco Mappa immagine URL se non si desidera utilizzare il modello URL con una mappa immagine individuale.
+* **Opzione modello**: deselezionare un&#39;opzione Modello nell&#39;elenco Mappa immagine se non si desidera che una singola mappa immagine utilizzi il modello URL.
 
 ## Definire altre azioni per le mappe immagine {#defining-other-actions-for-image-maps}
 
@@ -191,9 +187,9 @@ Puoi selezionare il menu **[!UICONTROL Mostra]** e scegliere **[!UICONTROL Altre
 
 * **`accesskey`**: attiva un&#39;azione quando l&#39;utente preme un tasto designato sulla tastiera.
 
-* **`onfocus`**: attiva un evento quando la mappa immagine viene attivata dal cursore, dalla tabulazione o premendo un tasto di scelta. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine diventa attiva e chiuderla quando la mappa immagine perde lo stato attivo.
+* **`onfocus`**: attiva un evento quando la mappa immagine viene attivata tramite il cursore, la tabulazione o la pressione di un tasto di scelta. Ad esempio, è possibile avviare una pagina Web quando la mappa immagine diventa attiva e chiuderla quando la mappa immagine perde lo stato attivo.
 
-* **`onblur`**: attiva un evento quando la mappa immagine perde lo stato attivo, a causa del cursore o della tabulazione.
+* **`onblur`**: attiva un evento quando la mappa immagine perde lo stato attivo tramite il cursore o la tabulazione.
 
 **Per definire altre azioni per le mappe immagine:**
 
@@ -213,7 +209,7 @@ Per ulteriori informazioni, consulta la Guida di Adobe InDesign o Adobe Acrobat.
 
 ### Per creare mappe immagine in Adobe InDesign {#to-create-image-maps-in-adobe-indesign}
 
-1. In Adobe InDesign, vai a **[!UICONTROL Windows®]** > **[!UICONTROL Interattivo]** > **[!UICONTROL Collegamenti ipertestuali]**.
+1. In Adobe InDesign, vai a **[!UICONTROL Finestra]** > **[!UICONTROL Interattiva]** > **[!UICONTROL Collegamenti ipertestuali]**.
 1. Nel pannello Collegamenti ipertestuali, selezionate il testo, la cornice o l&#39;elemento grafico da trasformare in una mappa immagine.
 1. Selezionare **[!UICONTROL Nuovo collegamento ipertestuale]** dal menu del pannello.
 1. Nella finestra di dialogo Nuovo collegamento ipertestuale scegliere **[!UICONTROL URL]** dal menu **[!UICONTROL Collega a]**.
