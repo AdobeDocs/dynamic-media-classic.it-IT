@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: e0b8668dab1b4f3f936d22642deb9a2519455703
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: 1287
 ht-degree: 21%
 
 ---
@@ -46,11 +46,11 @@ Adobe Dynamic Media Classic offre strumenti per la modifica e la creazione di se
 
 ## Tipi di set di offerte {#types-of-offer-sets}
 
-Creare una serie di offerte dai seguenti tipi di serie di offerte:
+Selezionate una serie di offerte dai seguenti tipi di serie di offerte:
 
 * **Immagini**: è possibile assemblare immagini per un set di offerte. Ogni immagine include un’offerta diversa nel set.
 
-* **Modello immagine**: è possibile parametrizzare i modelli immagine in Adobe Dynamic Media Classic con il comando **[!UICONTROL Genera]** > Nozioni di base modello. Attraverso parametri, componenti del modello, il testo nelle cornici di testo, le diverse immagini, possono essere scambiati e personalizzati. Per una serie di offerte, puoi utilizzare i parametri del modello per creare varianti sulla stessa immagine nella serie di offerte, ad esempio. Per informazioni sulla creazione e la parametrizzazione dei modelli immagine, vedere [Creare parametri modello](creating-template-parameters.md#creating_template_parameters).
+* **Modello immagine**: è possibile parametrizzare i modelli immagine in Adobe Dynamic Media Classic con il comando **[!UICONTROL Genera]** > Nozioni di base modello. Attraverso parametri, componenti del modello, il testo nelle cornici di testo e le diverse immagini possono essere sostituiti e personalizzati. Per un set di offerte, puoi utilizzare i parametri del modello per creare varianti sulla stessa immagine nel set di offerte. Per informazioni sulla creazione e la parametrizzazione dei modelli immagine, vedere [Creare parametri modello](creating-template-parameters.md#creating_template_parameters).
 
 Vedi anche il video di formazione [Nozioni di base sui modelli](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
@@ -72,14 +72,14 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Selezionare il modello o il banner.
 1. Vai a **[!UICONTROL Build]** > **[!UICONTROL Set di offerte Test&amp;Target]**.
 
-   La pagina Set di offerte Test&amp;Target elenca le offerte incluse nel set di offerte. Il primo elemento nell’elenco rappresenta l’oggetto.
+   La pagina Set di offerte Test&amp;Target elenca le offerte incluse nel set di offerte. La prima voce dell’elenco è la risorsa principale.
 
 1. Selezionare l&#39;oggetto e selezionare **[!UICONTROL Aggiungi e visualizza anteprima]**.
 
    Il lato sinistro di questa pagina riporta i parametri presenti nel modello con i rispettivi valori.
 
-1. Per creare l’offerta, modificate i valori dei parametri. Ad esempio, immettete un testo diverso in un campo di testo, modificate le dimensioni di un livello, scambiate un&#39;immagine per un&#39;altra oppure scegliete un predefinito visualizzatore diverso.
-1. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome**]** per salvare l&#39;offerta come parte del set di offerte.
+1. Per creare l’offerta, modificate i valori dei parametri. Ad esempio, modificate il testo, ridimensionate i livelli, scambiate le immagini o selezionate i predefiniti.
+1. Seleziona **[!UICONTROL Salva]** o **[!UICONTROL Salva con nome]** per salvare l&#39;offerta come parte del set di offerte.
 
    Nella pagina Set di offerte Test&amp;Target sono elencate le offerte create.
 
@@ -87,7 +87,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Al termine, vicino all&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio*]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Chiudi]**, immetti un nome per il set di offerte, quindi seleziona **[!UICONTROL Salva]**.
 
-Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Consulta [Invio di set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Per inviare set di offerte a Test&amp;Target, consulta [Inviare set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Creare un set di offerte con immagini o video {#creating-an-offer-set-with-images-or-videos}
 
@@ -111,14 +111,14 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 1. Se necessario, selezionare un&#39;immagine o un video e selezionare **[!UICONTROL Anteprima]**. Nella pagina Anteprima offerte è possibile modificare le dimensioni e l&#39;aspetto dell&#39;immagine o del video selezionato. In alternativa, puoi modificare tutte le immagini o i video nel Set di offerte.
 
    * Scegliete un predefinito per cambiare l’aspetto e le dimensioni dell’immagine o del video.
-   * Per applicare il predefinito scelto a tutte le offerte del set di offerte, selezionare la casella di controllo **`Select Presets to All`**.
+   * Per applicare il predefinito scelto a tutte le offerte del set di offerte, selezionare la casella di controllo **`Apply Presets to All`**.
 
    Seleziona **[!UICONTROL Salva]** per salvare le modifiche apportate all&#39;immagine o all&#39;offerta video. Quindi seleziona **[!UICONTROL Chiudi]** per tornare alla pagina Set di offerte Test&amp;Target.
 
 1. Dopo aver completato la creazione delle offerte per il set di offerte e aver scelto i predefiniti immagine per diverse immagini, accertati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
 1. Seleziona **[!UICONTROL Salva]** e immetti un nome per il set di offerte, quindi seleziona **[!UICONTROL Salva]**.
 
-Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Consulta [Invio di set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Prima di chiudere la pagina Set di offerte Test&amp;Target, invia il set di offerte ad Adobe Target Standard/Premium. Per inviare set di offerte a Test&amp;Target, consulta [Inviare set di offerte a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Modificare un set di offerte {#editing-an-offer-set}
 
@@ -140,8 +140,8 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
    * **Rimozione di un&#39;offerta**: selezionare l&#39;offerta, quindi selezionare **[!UICONTROL Elimina]** per rimuovere un&#39;offerta dal set.
    * **Aggiunta di un&#39;offerta**: la modalità di aggiunta di un&#39;offerta dipende dal tipo di set di offerte utilizzato:
-      * **Modelli**: seleziona **[!UICONTROL Aggiungi e visualizza anteprima]**, quindi nella pagina Aggiungi e visualizza anteprima offerte crea un&#39;altra offerta.
-      * **Immagini e video**: trascina un&#39;immagine o un video nella pagina Set di offerte Test&amp;Target.
+     * **Modelli**: seleziona **[!UICONTROL Aggiungi e visualizza anteprima]**, quindi nella pagina Aggiungi e visualizza anteprima offerte crea un&#39;altra offerta.
+     * **Immagini e video**: trascina un&#39;immagine o un video nella pagina Set di offerte Test&amp;Target.
 
    >[!NOTE]
    >
@@ -152,14 +152,14 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un set di offerte {#delet-an-offer-set}
 
-Quando eliminate un set di offerte, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
+Quando eliminate un set di offerte, viene spostato nel cestino. Tuttavia, i membri all’interno di tale set non vengono interessati; invece, mantengono ciascuno il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
 **Per eliminare un set di offerte:**
 
-1. Nella Vista griglia, Vista elenco o Vista dettagli, seleziona una o più serie di offerte.
-1. Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]** > **Elimina**.
+1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set di offerte.
+1. Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]**.
 
 >[!MORELIKETHIS]
 >
