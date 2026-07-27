@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:42:52.841Z'
 TQID: 'https://experienceleague.adobe.com/XXeYyrU-e6TE4MwaaiGmV176s9PZuOoBI1oSOXEtzGE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e7543e72fee35a936749cdd110d1d4a2a288c3bf
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 27%
+source-wordcount: 724
+ht-degree: 25%
 
 ---
 
 # Creare destinazioni di zoom per lo zoom guidato{#creating-zoom-targets-for-guided-zoom}
 
-Le destinazioni di zoom guidano gli utenti su determinate parti di un’immagine. Oltre allo zoom in formato libero, gli utenti possono selezionare una miniatura di destinazione di zoom e ingrandire la parte dell&#39;immagine su cui si desidera mettere a fuoco. Le destinazioni di zoom consentono di evidenziare le parti accattivanti o interessanti di un’immagine.
+Le destinazioni di zoom guidano gli utenti su determinate parti di un’immagine. Oltre allo zoom in formato libero, gli utenti possono selezionare una miniatura di destinazione di zoom e ingrandire la parte dell&#39;immagine su cui si desidera mettere a fuoco. Le destinazioni di zoom consentono di evidenziare parti specifiche di un&#39;immagine.
 
 ![Crea destinazioni zoom per zoom guidato](/help/using/assets/zo_guided_zoom.png)
 
@@ -40,7 +37,7 @@ La percentuale di zoom massima di Target di Zoom è 100%. La percentuale di zoom
 | Grande | Più piccolo | Più piccolo minimo |
 | Piccolo | Più grande | Più grande minimo |
 
-È possibile modificare le dimensioni del Visualizzatore zoom in modo che corrispondano a quelle utilizzate nella pagina Web. È possibile modificare in modo permanente questa impostazione modificando le dimensioni del visualizzatore nella schermata Configurazione (se si è un amministratore). Consulta [Configurare i predefiniti visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Per ottenere le stesse dimensioni della pagina Web, è possibile modificare le dimensioni del Visualizzatore zoom. È possibile modificare in modo permanente questa impostazione modificando le dimensioni del visualizzatore nella schermata Configurazione (se si è un amministratore). Consulta [Configurare i predefiniti visualizzatore zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Creare e modificare le destinazioni di zoom {#creating-and-editing-zoom-targets}
 
@@ -59,9 +56,9 @@ Per creare una destinazione di zoom, aprire la pagina Editor destinazione di zoo
 
    Nel pannello a destra della schermata viene visualizzata una miniatura della destinazione di zoom.
 
-1. Selezionare **[!UICONTROL Seleziona destinazione]** (freccia), quindi selezionare la destinazione di zoom creata e regolare la dimensione e la posizione della destinazione.
+1. Scegli **[!UICONTROL Seleziona destinazione]** (freccia), quindi seleziona la destinazione di zoom creata e regola la dimensione e la posizione della destinazione.
 
-   * **Ridimensiona**: sposta il puntatore su un angolo della destinazione di zoom e trascina per ingrandire o ridurre la destinazione.
+   * **Ridimensiona**: per ingrandire o ridurre la destinazione, spostare il puntatore su un angolo della destinazione di zoom e trascinare.
 
    * **Posizione**: spostare il puntatore sulla destinazione di zoom e trascinarlo in un&#39;altra posizione.
 
@@ -71,7 +68,7 @@ Per creare una destinazione di zoom, aprire la pagina Editor destinazione di zoo
    >
    >quanto inserite nella casella Nome è più di un nome: quando gli utenti passano il cursore sulla destinazione di zoom, viene visualizzato quello che avete inserito nella casella Nome. Potete quindi inserire una breve descrizione della destinazione di zoom nella casella Nome che possa essere utile agli utenti.
 
-1. Facoltativamente, potete immettere dei dati utente nel campo Dati utente. Questo campo consente ai progettisti di siti Web di aggiungere informazioni alla destinazione di zoom.
+1. Facoltativamente, potete immettere dei dati utente nel campo Dati utente. Questo campo è destinato ai professionisti della progettazione di siti web per aggiungere informazioni al target di zoom.
 1. Seleziona **[!UICONTROL Salva]**.
 
    Le coordinate e il livello di zoom della destinazione di zoom vengono salvate. Nella parte destra della schermata viene visualizzata una miniatura della destinazione di zoom accompagnata dal testo inserito nella casella Nome.
