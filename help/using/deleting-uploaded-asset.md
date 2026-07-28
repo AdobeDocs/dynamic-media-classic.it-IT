@@ -1,5 +1,5 @@
 ---
-title: Eliminare una risorsa immagine raster caricata
+title: Eliminare una risorsa di immagine raster caricata
 description: Scopri come eliminare una risorsa caricata in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -11,15 +11,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:44:43.552Z'
 TQID: 'https://experienceleague.adobe.com/EVwriRMQMB9aO3j-cZeaFeZE3wVtbQmQZA67ioyUniI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 7f6a75dae63b295e7df72b3b8b0935a2406c3d32
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: 139
 ht-degree: 31%
 
 ---
@@ -62,7 +59,7 @@ Nella stringa query URL potete usare i seguenti campi per eliminare una risorsa:
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media sono disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse vengono rimosse.
 
 >[!NOTE]
 >
