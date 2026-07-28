@@ -21,10 +21,10 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 016933e6edfe59faa37ca6821184d7bcdb333b97
 workflow-type: tm+mt
-source-wordcount: 3493
-ht-degree: 36%
+source-wordcount: 3550
+ht-degree: 32%
 
 ---
 
@@ -40,7 +40,7 @@ Vedi anche il video di formazione [Nozioni di base sui modelli](https://s7d5.sce
 
 ## Creare il modello iniziale {#creating-the-initial-template}
 
-Quando si crea un set di modelli, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Quando si crea un set di modelli, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti.
 
 | **[!UICONTROL Pubblicare dopo aver selezionato un&#39;opzione di salvataggio]** prima di salvare? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- |
@@ -65,11 +65,11 @@ Se necessario, potete creare un modello partendo da uno già esistente. Aprire i
 1. Seleziona **[!UICONTROL Salva]**.
 1. Seleziona una cartella per l&#39;archiviazione del modello, immetti un nome per il modello e seleziona **[!UICONTROL Invia]**.
 
-   Adobe Dynamic Media Classic riduce le immagini se necessario per adattarle all’area di lavoro, l’area nella schermata Modello per definire il modello.
+   Adobe Dynamic Media Classic ridimensiona le immagini se necessario per adattarle all’area di lavoro, l’area nella schermata Modello per definire il modello.
 
 ## Modificare un set di modelli {#editing-a-template-set}
 
-Sia che si modifichi un set pubblicato o un set di modelli non pubblicato, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti:
+Sia che si modifichi un set pubblicato o un set di modelli non pubblicato, l&#39;opzione **[!UICONTROL Pubblica dopo un salvataggio]** ha effetto sui membri del set e del set nei modi seguenti.
 
 | Il set è già pubblicato | **[!UICONTROL Pubblicare dopo aver selezionato l&#39;opzione di salvataggio]** prima di salvare la modifica? | Stato del set dopo il salvataggio | Stato dei membri del set dopo il salvataggio |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un modello
 
-Quando si elimina un set di modelli, il set stesso viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
+Quando si elimina un set di modelli, il set stesso viene spostato nel cestino. Tuttavia, i membri all’interno di tale set non vengono interessati; invece, mantengono ciascuno il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
@@ -106,13 +106,13 @@ Utilizza questi strumenti nella schermata Modello per creare modelli:
 
 * **[!UICONTROL Panoramica]**: consente di selezionare i livelli, spostarli nell&#39;area di lavoro, ridimensionarli o ruotarli.
 
-* **[!UICONTROL Testo]**: crea un livello di testo. Trascinate sul quadro per creare un livello di testo, quindi immettete il testo nel livello. Vedere [Creazione di un livello di testo](#creating-a-text-layer).
+* **[!UICONTROL Testo]**: crea un livello di testo. Per creare un livello di testo, trascinate sull&#39;area di lavoro, quindi immettete il testo nel livello. Vedere [Creazione di un livello di testo](#creating-a-text-layer).
 
 * **[!UICONTROL Anteprima]**: apre la schermata Anteprima e mostra il modello in un Visualizzatore zoom. È possibile visualizzare l&#39;aspetto del modello per gli utenti del sito Web o dell&#39;applicazione.
 
 * **[!UICONTROL Riepilogo parametri]** Apre la schermata Riepilogo parametri. Potete visualizzare il nome di ciascun livello in un modello e per ciascun livello i nomi dei parametri che sono stati attivati.
 
-* **[!UICONTROL Editor di testo v4.3 e Editor di testo v4.2]**: utilizza l&#39;editor di testo più recente e completo. È possibile scegliere di utilizzare Editor di testo v4.3 o l&#39;Editor di testo v4.2 precedente. Per impostazione predefinita, durante la creazione di modelli, è selezionato Editor di testo v. 4.3. Per la modifica di modelli meno recenti, per impostazione predefinita viene selezionato Editor di testo v4.2. L’editor di testo v. 4.3 non supporta attualmente il ritorno a capo automatico, pertanto quando si modificano modelli meno recenti che utilizzano il ritorno a capo automatico, utilizza l’editor di testo v. 4.2 per mantenere completamente intatta la fedeltà del modello. Se il modello meno recente non utilizza il ritorno a capo automatico, è possibile scegliere Editor di testo v. 4.3 per sfruttare le numerose nuove funzionalità offerte. Ad esempio, aumentare i margini, diminuire i margini, impostare il testo in maiuscolo e copiare il testo adattato.
+* **[!UICONTROL Editor di testo v4.3 e Editor di testo v4.2]**: utilizza l&#39;editor di testo più recente e completo. È possibile scegliere di utilizzare Editor di testo v4.3 o l&#39;Editor di testo v4.2 precedente. Quando si creano i modelli, per impostazione predefinita viene selezionato Editor di testo v4.3. Quando si modificano modelli meno recenti, per impostazione predefinita viene selezionato Editor di testo v4.2. L’editor di testo v. 4.3 non supporta attualmente il ritorno a capo automatico, pertanto quando si modificano modelli meno recenti che utilizzano il ritorno a capo automatico, utilizza l’editor di testo v. 4.2 per mantenere completamente intatta la fedeltà del modello. Se il modello meno recente non utilizza il ritorno a capo automatico, è possibile scegliere Editor di testo v. 4.3 per sfruttare le numerose nuove funzionalità offerte. Gli esempi includono Aumenta margini, Riduci margini, Imposta testo in maiuscolo e Copia adatta testo.
 
   >[!NOTE]
   >
@@ -139,31 +139,37 @@ Utilizza questi strumenti nella schermata Modello per creare modelli:
 ## Creare un livello di testo {#creating-a-text-layer}
 
 1. Selezionare lo strumento **[!UICONTROL Testo]**.
-1. Trascinate per creare una casella di testo sul quadro o su un’immagine.
+1. Trascinare per creare una casella di testo nell&#39;area di lavoro o nell&#39;immagine.
 1. Nella schermata Testo visualizzata, aggiungi il testo effettuando una delle seguenti operazioni nella scheda Anteprima:
 
-   * Digitate il testo desiderato nell’apposita casella. Scegliete Adatta testo per adattare il testo nella rispettiva casella.
+   * Digitate il testo desiderato nell’apposita casella. Selezionate Copia adattam testo (Copy Fit Text) per adattare il testo alla casella di testo.
    * Incollate il testo dagli Appunti alla casella di testo.
 
 1. Selezionare **[!UICONTROL Applica]**, quindi chiudere la schermata Testo.
 
 ### Formattare il testo {#format-text}
 
-Per formattare il testo in un livello di testo, effettuate le seguenti operazioni:
-
 1. Nell’elenco Livelli, fate doppio clic sul nome della casella di testo contenente il testo da modificare. Viene aperto l’editor di testo.
 1. Nella casella di testo dell&#39;Editor di testo selezionare il testo che si desidera formattare. È possibile selezionare tutto il testo, parti di testo o singoli caratteri.
 1. Specificare una delle opzioni di formattazione seguenti, quindi selezionare **[!UICONTROL Applica]**.
 
-   * **[!UICONTROL Carattere]**: scegliere un tipo di carattere dal menu Carattere. Se il tipo di carattere desiderato non viene visualizzato nel menu, è possibile caricarlo in Adobe Dynamic Media Classic. Consulta Tipi di carattere.
+   * **[!UICONTROL Carattere]**: scegliere un tipo di carattere dal menu Carattere. Se il tipo di carattere desiderato non è presente nel menu, è possibile caricarlo in Adobe Dynamic Media Classic. Consulta Tipi di carattere.
 
    * **[!UICONTROL Dimensione font]**: scegli una dimensione font dal menu, digita una dimensione specifica nella casella oppure seleziona le frecce **[!UICONTROL Su]** o **[!UICONTROL Giù]** per aumentare o diminuire la dimensione di due punti.
 
    * **[!UICONTROL Colore]**: selezionare un colore per il testo.
 
-   * **[!UICONTROL Grassetto]**, **[!UICONTROL Corsivo]** o **[!UICONTROL Sottolineato]**: selezionare il testo, quindi selezionare l&#39;icona relativa al tipo di formattazione da applicare al testo.
+   * **[!UICONTROL Grassetto]**: selezionare il testo, quindi selezionare l&#39;icona relativa al tipo di formattazione da applicare al testo.
 
-   * **[!UICONTROL Tutto maiuscole]**, **[!UICONTROL Apice]** o **[!UICONTROL Pedice]**: selezionare il testo, quindi selezionare l&#39;icona relativa al tipo di formattazione da applicare al testo.
+   * **[!UICONTROL Corsivo]**: selezionare il testo, quindi l&#39;icona relativa al tipo di formattazione da applicare al testo.
+
+   * **[!UICONTROL Sottolineato]**: selezionare il testo, quindi selezionare l&#39;icona relativa al tipo di formattazione da applicare al testo.
+
+   * **[!UICONTROL Tutto maiuscole]**: selezionare il testo, quindi selezionare l&#39;icona relativa al tipo di formattazione da applicare al testo.
+
+   * **[!UICONTROL Apice]**: selezionare il testo, quindi selezionare l&#39;icona relativa al tipo di formattazione da applicare al testo.
+
+   * **[!UICONTROL Pedice]**: selezionare il testo, quindi l&#39;icona relativa al tipo di formattazione da applicare al testo.
 
    * **[!UICONTROL Allineamento]**: scegliere un pulsante Allineamento per allineare il testo a sinistra, al centro o a destra nel livello di testo.
 
@@ -177,7 +183,7 @@ Per formattare il testo in un livello di testo, effettuate le seguenti operazion
 
 >[!NOTE]
 >
->Seleziona **[!UICONTROL Annulla]** per annullare l&#39;ultima azione. Seleziona **[!UICONTROL Ripristina]** se cambi idea sull&#39;annullamento di un&#39;azione dopo aver selezionato **[!UICONTROL Annulla]**.
+>Seleziona **[!UICONTROL Annulla]** per annullare l&#39;ultima azione. Selezionare **[!UICONTROL Ripristina]** se si decide di annullare un&#39;azione dopo aver selezionato **[!UICONTROL Annulla]**.
 
 ### Formattare i paragrafi {#format-paragraphs}
 
@@ -187,7 +193,7 @@ Per formattare il testo in un livello di testo, effettuate le seguenti operazion
 
    * **[!UICONTROL Allineamento]**: specificare il tipo di allineamento facendo clic su **[!UICONTROL Allinea a sinistra]**, **[!UICONTROL Allinea al centro]**, **[!UICONTROL Allinea a destra]** o **[!UICONTROL Giustifica]**.
 
-   * **[!UICONTROL Giustificazione fine paragrafo]**: selezionare questa opzione per specificare il tipo di giustificazione per l&#39;ultima riga del paragrafo: l&#39;ultima riga viene allineata a sinistra, l&#39;ultima riga viene allineata al centro e l&#39;ultima riga a destra.
+   * **[!UICONTROL Giustificazione fine paragrafo]**: selezionare questa opzione per specificare il tipo di giustificazione per l&#39;ultima riga del paragrafo: l&#39;ultima riga viene allineata a sinistra, l&#39;ultima riga viene allineata al centro e l&#39;ultima a destra.
 
    * **[!UICONTROL Interlinea]**: digitare o selezionare un valore numerico in base al quale regolare lo spazio tra tutte le righe del paragrafo.
 
@@ -222,7 +228,7 @@ Per formattare il testo in un livello di testo, effettuate le seguenti operazion
 
    * **[!UICONTROL Posizione]**: specifica la posizione della casella di testo nell&#39;area di lavoro.
 
-   * **[!UICONTROL Spaziatura interna]**: aggiunge margini o ritaglia il rettangolo del livello. Specifica il numero di pixel da aggiungere o rimuovere per Sinistra, Superiore, Inferiore e Destra. Immettere numeri positivi se si desidera aggiungere un margine o numeri negativi al ritaglio.
+   * **[!UICONTROL Spaziatura interna]**: aggiunge margini o ritaglia il rettangolo del livello. Specifica il numero di pixel da aggiungere o rimuovere per Sinistra, Superiore, Inferiore e Destra. Immettere numeri positivi se si desidera aggiungere un margine o numeri negativi per il ritaglio.
 
 ### Visualizzare e modificare il codice sorgente del testo {#view-and-edit-text-source-code}
 
@@ -244,11 +250,11 @@ Potete anche modificare le dimensioni di un quadro, sceglierne il colore di sfon
 
 ### Riordinare i livelli {#reordering-layers}
 
-La modifica dell&#39;ordine dei livelli può influire sull&#39;aspetto, in particolare quando è interessata la trasparenza o la sovrastampa. Prima di salvare le modifiche verificate quindi l’anteprima del risultato.
+La modifica dell&#39;ordine dei livelli può influire sull&#39;aspetto, in particolare quando è interessata la trasparenza o la sovrastampa. Visualizza l&#39;anteprima del risultato prima di salvare le modifiche.
 
 1. Per riordinare i livelli in un modello, effettuate una delle seguenti operazioni:
 
-   * Selezionate un livello nel pannello Livelli. Quindi seleziona **[!UICONTROL Su]** o **[!UICONTROL Giù]** il numero di volte necessario per collocarlo nella posizione corretta nell&#39;elenco.
+   * Selezionate un livello nel pannello Livelli. Quindi seleziona **[!UICONTROL Su]** o **[!UICONTROL Giù]** il numero di volte necessario per posizionarlo correttamente nell&#39;elenco.
    * Trascinate un livello verso l’alto o il basso nell’elenco Livelli.
 
 ### Modificare le dimensioni e la posizione dei livelli e dell&#39;area di lavoro {#changing-the-size-and-position-of-layers-and-the-canvas}
@@ -261,27 +267,27 @@ I livelli devono essere di dimensioni tali da rientrare nel quadro. Potete modif
 
 * **Modifica delle dimensioni di un livello**: per modificare le dimensioni di un livello o dell&#39;area di lavoro, selezionare il livello o l&#39;area di lavoro nell&#39;elenco Livelli e utilizzare una delle tecniche seguenti:
 
-* **Modifica manuale delle dimensioni**: selezionare e trascinare un angolo del livello o dell&#39;area di lavoro. Per i livelli di testo potete anche trascinare un lato del livello. Tenere premuto il tasto Maiusc mentre si trascina per modificare le dimensioni, mantenendo però le proporzioni (la forma).
+* **Modifica manuale delle dimensioni**: selezionare e trascinare un angolo del livello o dell&#39;area di lavoro. Per i livelli di testo potete anche trascinare un lato del livello. Per modificare le dimensioni mantenendo le proporzioni, tenete premuto il tasto Maiusc mentre trascinate.
 
 * **Immissione delle dimensioni del livello**: immettere le dimensioni dei pixel nelle caselle di testo W (larghezza) e H (altezza) nell&#39;area Proprietà livello.
 
-Oltre a modificare le dimensioni di un livello, potete aggiungervi della spaziatura. Per effettuare tale operazione, immettete un valore di spaziatura a sinistra, a destra, in alto e in basso nelle relative caselle dell’area Proprietà livello. La spaziatura consente di aggiungere un margine al livello corrente per scostarlo dal perimetro del suo livello base. La spaziatura è utile per rendere più visibile un eventuale effetto Ombra esterna o Bagliore esterno. La spaziatura consente di aumentare le dimensioni di un livello e di visualizzarne il colore di sfondo nell’area estesa. Il livello viene riposizionato rispetto alle nuove dimensioni del livello. Ad esempio, se il livello corrente è centrato su un livello base, estendendo il lato sinistro si sposta il livello verso destra rispetto al livello base.
+Oltre a modificare le dimensioni di un livello, potete anche incollarlo. Per effettuare tale operazione, immettete un valore di spaziatura a sinistra, a destra, in alto e in basso nelle relative caselle dell’area Proprietà livello. La spaziatura consente di aggiungere un margine al livello corrente per scostarlo dal perimetro del suo livello base. La spaziatura è utile per rendere più visibile un eventuale effetto Ombra esterna o Bagliore esterno. La spaziatura consente di aumentare le dimensioni di un livello e di visualizzarne il colore di sfondo nell’area estesa. Il livello viene riposizionato rispetto alle nuove dimensioni del livello. Ad esempio, se il livello corrente è centrato su un livello base, estendendo il lato sinistro si sposta il livello verso destra rispetto al livello base.
 
 * **Modifica della posizione di un livello**: per modificare la posizione di un livello nell&#39;area di lavoro, selezionarne il nome nell&#39;elenco Livelli e utilizzare una delle tecniche seguenti:
 
-* **Modifica manuale della posizione**: spostare il puntatore vicino a un limite di livello, ma non su di esso, e quando viene visualizzato il cursore a freccia a quattro punte, selezionare e iniziare a trascinare.
+* **Modifica manuale della posizione**: spostare il puntatore vicino, ma non sopra, un limite di livello e, quando viene visualizzato il cursore di spostamento, selezionare e iniziare a trascinare.
 
 * **Immissione delle misure di scostamento posizione**: immettere le misure di scostamento X e Y nelle caselle di testo X e Y. Questi valori rappresentano lo scostamento x, y del punto di ancoraggio in pixel.
 
 * **Rotazione di un livello**: nella casella Ruota viene visualizzato l&#39;angolo di rotazione del livello. Per ruotare un livello, selezionatene il nome nell’elenco Livelli ed effettuate una delle seguenti operazioni:
 
-* **Rotazione manuale**: spostare il cursore vicino a un angolo del livello, ma non sopra di esso. Quando compare il cursore di rotazione, trascinate l’angolo del livello. Per ruotare per incrementi di 15 gradi, tenete premuto il tasto Maiusc mentre trascinate.
+* **Rotazione manuale**: spostare il cursore vicino a un angolo del livello, ma non sopra di esso. Quando compare il cursore di rotazione, trascinate l’angolo del livello. Per ruotare di 15 gradi, tenete premuto il tasto Maiusc mentre trascinate.
 
-* **Inserimento di un livello di misura**: immettere il numero di gradi per ruotare il livello. La rotazione è in senso orario; per ruotare in senso antiorario, immettete un numero negativo.
+* **Inserimento di un livello di misura**: immettere il numero di gradi per ruotare il livello. La rotazione è in senso orario; per ruotare in senso antiorario, immettere un numero negativo.
 
 **Nascondi un livello o un effetto livello:**
 
-Potete nascondere un livello o un effetto livello selezionando l&#39;icona dell&#39;occhio accanto al nome di un livello o di un effetto. I livelli nascosti non vengono visualizzati nelle anteprime o nell’output. Le informazioni relative al livello non vengono eliminate dall’URL. Invece, `hide=1` viene aggiunto all&#39;URL per notare che il livello è nascosto dalla vista. Ad esempio:
+Potete nascondere un livello o un effetto livello selezionando l&#39;icona dell&#39;occhio accanto al nome di un livello o di un effetto. I livelli nascosti non vengono visualizzati nelle anteprime o nell’output. Le informazioni relative al livello non vengono eliminate dall’URL. Per notare che il livello è nascosto, il sistema aggiunge `hide=1` all&#39;URL. Ad esempio:
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 
@@ -295,13 +301,13 @@ Per scegliere un colore di sfondo, opacità e metodo di fusione per un livello o
 
 * **Colore di sfondo**: selezionare **[!UICONTROL Colore di sfondo]** e scegliere un campione di colore per modificare il colore delle aree imbottite.
 
-* **Opacità**: trascina il cursore Opacità per rendere traslucido qualsiasi livello in modo che una parte dell&#39;immagine sottostante venga visualizzata. L&#39;impostazione 100% è opaca; 0 è trasparente.
+* **Opacità**: per rendere traslucido qualsiasi livello in modo che una parte dell&#39;immagine sottostante venga visualizzata, trascinare il cursore Opacità. L&#39;impostazione 100% è opaca; 0 è trasparente.
 
-* **Metodo fusione**: per simulare uno dei metodi fusione disponibili in Photoshop, scegliere un&#39;opzione. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora. Queste opzioni sono disponibili per i livelli, ma non per il quadro.
+* **Metodo fusione**: per simulare uno dei metodi fusione disponibili in Adobe Photoshop, scegliere un&#39;opzione. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora. Queste opzioni sono disponibili per i livelli, ma non per il quadro.
 
 ## Usa effetti ombreggiatura e bagliore sui livelli {#using-shadow-and-glow-effects-on-layers}
 
-Potete applicare un’ombra o un bagliore a un livello. L&#39;ombreggiatura o il bagliore si applica al perimetro del livello e si estende verso l&#39;interno o l&#39;esterno, a seconda dell&#39;opzione di ombreggiatura o bagliore scelta. Se il modello è stato creato con un file PSD con effetti ombreggiatura e bagliore, è possibile regolare questi effetti in Adobe Dynamic Media Classic.
+Potete applicare un’ombra o un bagliore a un livello. L&#39;ombreggiatura o il bagliore si applica al perimetro del livello e si estende verso l&#39;interno o l&#39;esterno, a seconda dell&#39;opzione di ombreggiatura o bagliore scelta. Se il modello è stato creato con un file PSD contenente effetti di ombreggiatura e bagliore, è possibile regolare questi effetti in Adobe Dynamic Media Classic.
 
 Dopo aver applicato un effetto ombra o bagliore, potete regolarne le dimensioni, il colore, l’opacità e la posizione nell’area Proprietà livello della schermata Modello.
 
@@ -330,13 +336,13 @@ Per regolare un effetto ombra o bagliore, selezionatene il nome nell’elenco Li
 
 * **[!UICONTROL Colore]**: selezionare il pulsante Colore e scegliere un campione di colore per modificare il colore dell&#39;ombreggiatura o del bagliore. Potete anche immettere un parametro con il valore del colore nella casella.
 
-* **[!UICONTROL Opacità]**: trascina il cursore per determinare l&#39;intensità dell&#39;effetto. Minore è l’opacità, più sono trasparenti gli effetti.
+* **[!UICONTROL Opacità]**: per determinare l&#39;intensità dell&#39;effetto, trascinare il cursore. Minore è l’opacità, più sono trasparenti gli effetti.
 
-* **[!UICONTROL Metodo fusione]**: per simulare uno dei metodi fusione disponibili in Photoshop, scegliere un&#39;opzione. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora.
+* **[!UICONTROL Metodo fusione]**: per simulare uno dei metodi fusione disponibili in Adobe Photoshop, scegliere un&#39;opzione. Le opzioni sono Normale, Dissolvenza, Schiarisci, Scurisci, Moltiplica e Scolora.
 
 * **[!UICONTROL Dimensione]**: immettere le misure nelle caselle X e Y per ingrandire o ridurre l&#39;effetto ombreggiatura. Le opzioni Dimensione sono disponibili per le ombre interne ed esterne.
 
-* **[!UICONTROL Ingrandisci]**: trascina il cursore per estendere l&#39;effetto verso l&#39;interno o l&#39;esterno.
+* **[!UICONTROL Ingrandisci]**: per estendere l&#39;effetto verso l&#39;interno o l&#39;esterno, trascinare il dispositivo di scorrimento.
 
 * **[!UICONTROL Sfocatura]**: trascina il cursore per controllare la sfumatura ai bordi dell&#39;effetto. Con una sfocatura maggiore si ottengono bordi più sfumati.
 

@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 1343214cf19c9cfc6153e3f8b90c8ffc260de999
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 50%
+source-wordcount: 709
+ht-degree: 42%
 
 ---
 
 # Creazione di un set di campioni{#creating-a-swatch-set}
 
-Un set di campioni offre agli utenti l’opportunità di visualizzare un articolo in un colore, un motivo o una finitura differente. Per creare un set di campioni, è necessario disporre di un’immagine per ciascun colore, motivo o finitura differente che desiderate presentare all’utente. È anche necessario disporre di un campione di colore, motivo o finitura per ciascuno di questi.
+Un set di campioni consente agli utenti di visualizzare un elemento con un colore, un motivo o una finitura diversi. Per creare un set di campioni, è necessario disporre di un’immagine per ciascun colore, motivo o finitura differente che desiderate presentare all’utente. È anche necessario disporre di un campione di colore, motivo o finitura per ciascuno di questi.
 
-Ad esempio, per presentare immagini di berretti con visiere di diversi colori nelle varianti rosso, verde e blu, è necessario effettuare tre scatti dello stesso berretto: uno scatto con la visiera rossa, uno con quella verde e uno con quella blu. È anche necessario disporre di tre campioni colore: uno rosso, uno verde e uno blu. I campioni colore fungono da miniature selezionate dagli utenti nel Visualizzatore set di campioni per visualizzare il cappuccio con fattura rossa, verde o blu.
+Ad esempio, per presentare immagini di berretti con visiere di diversi colori nelle varianti rosso, verde e blu, In questo caso, sono necessarie tre immagini dello stesso coperchio. È necessaria un&#39;immagine per ciascuna bolletta rossa, verde e blu. Sono inoltre necessari campioni di colore rosso, verde e blu. I campioni colore fungono da miniature selezionate dagli utenti nel Visualizzatore set di campioni per visualizzare il cappuccio con fattura rossa, verde o blu.
 
 ## Creazione di un set di campioni {#create}
 
@@ -56,8 +56,8 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 1. Per modificare l’ordine delle immagini nel set di campioni, trascinate queste ultime in nuove posizioni.
 1. Nell&#39;angolo inferiore destro della pagina, assicurati che sia selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita).
-1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella per la memorizzazione del set di campioni colore, immetti un nome per il set e seleziona **[!UICONTROL Invia]**.
-1. Per visualizzare il set di campioni nel visualizzatore del set di campioni, seleziona **[!UICONTROL Anteprima]** nella schermata Set di campioni. Potete selezionare le miniature dei campioni nel Visualizzatore set di campioni per vedere come si comportano.
+1. Seleziona **[!UICONTROL Salva]**, seleziona una cartella per l&#39;archiviazione del set di campioni, immetti un nome per il set e seleziona **[!UICONTROL Invia]**.
+1. Per visualizzare il set di campioni nel visualizzatore del set di campioni, seleziona **[!UICONTROL Anteprima]** nella schermata Set di campioni. Potete selezionare le miniature dei campioni nel Visualizzatore set di campioni per vedere come funzionano.
 
 ## Modifica di un set di campioni {#editing-a-swatch-set}
 
@@ -74,8 +74,8 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 **Per modificare un set di campioni:**
 
-1. Nella visualizzazione griglia, individuare un set di campioni e quindi, sotto l&#39;immagine, selezionare **[!UICONTROL Modifica]**.
-1. Effettuate una delle seguenti operazioni:
+1. Nella Vista griglia, individua un set di campioni, quindi seleziona **[!UICONTROL Modifica]** sotto l&#39;immagine.
+1. Eseguire una delle azioni seguenti:
 
    * Per aggiungere un&#39;immagine (pubblicata o non pubblicata), trascinarla da una cartella in Aggiungi Assets nella pagina **[!UICONTROL Visualizzazioni]** del set di campioni.
    * Per rimuovere un&#39;immagine, selezionarla, quindi selezionare **[!UICONTROL Elimina]** sulla barra degli strumenti.
@@ -86,11 +86,11 @@ Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually
 
 ## Eliminare un set di campioni
 
-Quando eliminate un set, viene spostato nel cestino. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
+Quando si elimina un set, il set stesso viene spostato nella cartella degli elementi eliminati. I membri all’interno di tale set non vengono interessati; mantengono il proprio stato pubblicato o non pubblicato esistente.
 
 Consultate anche [Pubblicazione manuale di risorse](publishing-files.md#manually_publishing_assets) e [Annullamento manuale della pubblicazione di risorse](publishing-files.md#manually_unpublishing_assets).
 
 **Per eliminare un set di campioni:**
 
-1. Nella Vista griglia, Vista elenco o Vista dettagli, selezionate uno o più set di campioni.
+1. Nelle visualizzazioni Griglia, Elenco o Dettagli, selezionate uno o più set di campioni.
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Elimina]** > **[!UICONTROL Elimina]**.
