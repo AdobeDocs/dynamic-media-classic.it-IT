@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:19.277Z'
 TQID: 'https://experienceleague.adobe.com/XtUpvJz6aepSU0F9CupyrR8-cdSpNo3blHK38hh9Fc8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -54,13 +50,13 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. Nel pannello Sfoglia, effettuate una delle seguenti operazioni:
 
-   * Selezionate la risorsa. Nell&#39;angolo superiore destro di Adobe Dynamic Media Classic, selezionare l&#39;icona **[!UICONTROL Visualizzazione dettagli]**.
+   * Selezionate la risorsa. Nell&#39;angolo superiore destro di Adobe Dynamic Media Classic, seleziona l&#39;icona **[!UICONTROL Visualizzazione dettagli]**.
    * Fate doppio clic sulla risorsa.
    * Seleziona la risorsa, quindi vai a **[!UICONTROL File]** > **[!UICONTROL Dettagli]**.
 
 >[!NOTE]
 >
->Puoi passare da una risorsa all’altra nella stessa cartella in Vista dettagli. Fai clic su **[!UICONTROL Risorsa precedente]** o **[!UICONTROL Risorsa successiva]**. Questi pulsanti si trovano nell&#39;angolo superiore destro in Vista dettagli.
+>Puoi spostarti tra le risorse nella stessa cartella utilizzando Vista dettagli. Fai clic su **[!UICONTROL Risorsa precedente]** o **[!UICONTROL Risorsa successiva]**. Questi pulsanti si trovano nell&#39;angolo superiore destro in Vista dettagli.
 
 ## Ottieni informazioni nella vista Dettaglio {#getting-information-in-detail-view}
 
@@ -72,7 +68,7 @@ Puoi ottenere l’URL di una risorsa in Vista dettagli; tuttavia, l’URL non sa
 
 La Vista dettagli offre strumenti per lavorare con la risorsa aperta. Gli strumenti disponibili dipendono dal tipo di risorsa con cui stai lavorando, ma la Vista dettagli offre sempre queste funzioni:
 
-* **elementi per la pubblicazione**: selezionare l&#39;icona **[!UICONTROL `Publish`]** a sinistra del nome oppure passare a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
+* **Elementi da pubblicare**: seleziona l&#39;icona **[!UICONTROL `Publish`]** a sinistra del nome oppure passa a **[!UICONTROL File]** > **[!UICONTROL Pubblica]** o **[!UICONTROL File]** > **[!UICONTROL Annulla pubblicazione]**.
 
 * **Rinomina la risorsa**: seleziona il nome e immetti un nuovo nome.
 
