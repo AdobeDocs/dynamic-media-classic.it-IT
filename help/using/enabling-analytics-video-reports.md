@@ -36,17 +36,17 @@ ht-degree: 0%
 
 Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è più necessario abilitare i quattro eventi visualizzatore video (Riproduci, Pausa, Interrompi, Milestone) quando si configura Adobe Analytics in Adobe Dynamic Media Classic. Video Heartbeat funziona con visualizzatori Adobe Dynamic Media Classic HTML5 Video standard e Multimediali misti. Il lettore video genera i dati di tracciamento per la visualizzazione nei rapporti video di Adobe Analytics.
 
-* Per un&#39;introduzione allo streaming di file multimediali e alla misurazione heartbeat, vedere [Informazioni su Adobe Analytics for Streaming Media](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+* Per un&#39;introduzione allo streaming di file multimediali e alla misurazione heartbeat, vedere [Informazioni su Adobe Analytics for Streaming Media](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
 
 * L’integrazione dei rapporti video di Adobe Analytics con Adobe Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
 
-  Per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate, vedere [Parametri audio e video](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/overview).
+  Per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate, vedere [Parametri audio e video](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/overview).
 
 * Sono supportati segmenti standard di incrementi di un minuto. Tuttavia, non è supportato il reporting dei segmenti personalizzato, ad esempio i milestone definiti dal cliente in base a incrementi di tempo, milestone di percentuale o milestone di offset.
 
-  Per ulteriori informazioni sui requisiti e la configurazione dei contenuti multimediali in streaming, vedere [Misurare i contenuti multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+  Per ulteriori informazioni sui requisiti e la configurazione dei contenuti multimediali in streaming, vedere [Misurare i contenuti multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
 
-* Per informazioni sulle variabili personalizzate e di soluzione, vedere [Abilitazione di report multimediali](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
+* Per informazioni sulle variabili personalizzate e di soluzione, vedere [Abilitazione di report multimediali](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
 
 >[!NOTE]
 >
