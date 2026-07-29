@@ -19,22 +19,22 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 00d087b14c6c030473ecfee92ec879e705a9b197
 workflow-type: tm+mt
 source-wordcount: 329
-ht-degree: 18%
+ht-degree: 5%
 
 ---
 
 # Personalizzare la schermata Media Portal{#customizing-the-media-portal-screen}
 
-Le impostazioni di stile di Media Portal consentono di personalizzare la schermata di Media Portal con il logo e i colori aziendali. Utilizza le impostazioni di stile per inserire il marchio della tua azienda in Media Portal.
+Le impostazioni di stile di Media Portal consentono di personalizzare la schermata di Media Portal con il logo e i colori aziendali. Utilizza le impostazioni di stile per applicare il marchio della tua azienda a Media Portal.
 
 Per accedere alle impostazioni di stile, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione Media Portal]** > **[!UICONTROL Impostazioni stile]**. Assicurati di selezionare **[!UICONTROL Salva]** per salvare le impostazioni dopo averle create. È possibile selezionare **[!UICONTROL Ripristina]** per ripristinare le impostazioni predefinite. Mentre effettuate le scelte, il pannello Anteprima mostra come appaiono.
 
 * **[!UICONTROL Logo]**: selezionare **[!UICONTROL Sfoglia]**, quindi scegliere un elemento grafico nella finestra Seleziona immagine logo.
 
-* **[!UICONTROL Applicazione]**: creare una fusione di colori sfumati effettuando scelte nei menu dei colori sfumatura di sfondo.
+* **[!UICONTROL Applicazione]**: configurare una fusione di colori sfumatura selezionando le opzioni nei menu dei colori sfumatura sfondo.
 
 * **[!UICONTROL Struttura]**: scegliere un colore di rollover e un colore di selezione.
 
@@ -48,7 +48,7 @@ Per accedere alle impostazioni di stile, vai a **[!UICONTROL Configurazione]** >
 
 * **[!UICONTROL Barra di avanzamento]**: scegliere un colore per la barra che indichi l&#39;avanzamento dei caricamenti e dei download.
 
-Affinché gli utenti di Media Portal possano visualizzare le impostazioni di stile scelte, devono aggiungere `?company=(company name)` all&#39;URL con cui accedono a Media Portal. Ad esempio, per visualizzare le impostazioni di stile, gli utenti di Media Portal che accedono alla società PortalCo visitano il sito:
+Affinché gli utenti di Media Portal possano visualizzare le impostazioni di stile scelte, devono aggiungere `?company=(company name)` all&#39;URL con cui accedono a Media Portal. Ad esempio, per visualizzare le impostazioni di stile, gli utenti di Media Portal che accedono alla società PortalCo possono utilizzare il seguente URL:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -58,6 +58,6 @@ Utilizza invece il seguente URL:
 
 L’inclusione del nome della società nell’URL consente a Media Portal di riconoscere la società a cui un utente desidera accedere e di applicare di conseguenza le impostazioni di stile della società.
 
-È possibile ottenere ulteriori informazioni su come comunicare modifiche di URL agli utenti Media Portal, nonché su come impostare un messaggio e-mail di benvenuto mediante il quale i nuovi utenti possono ricevere l’URL corretto per Media Portal.
+Ulteriori informazioni sulla comunicazione delle modifiche URL agli utenti di Media Portal e sulla configurazione di un messaggio e-mail di benvenuto in modo che i nuovi utenti ricevano l’URL corretto di Media Portal.
 
-Consultate [Impostare il messaggio di benvenuto per gli utenti di Media Portal](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
+Consulta [Configurare il messaggio e-mail di benvenuto per gli utenti di Media Portal](adding-media-portal-users.md#setting_up_the_welcome_email_message_for_media_portal_users).

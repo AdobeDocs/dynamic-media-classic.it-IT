@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: af8d42004b6de1fea57ea6a59fea930b8e8516e3
 workflow-type: tm+mt
-source-wordcount: 560
-ht-degree: 32%
+source-wordcount: 552
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 È possibile ritagliare le immagini in Adobe Dynamic Media Classic. Il sistema conserva le informazioni sulle immagini ritagliate per permettere di riportarle eventualmente al loro stato originale. Potete anche ritagliare un’immagine e salvare la versione ritagliata con un nuovo nome.
 
-Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda oppure ritagliare un’area dell’immagine.
+Per rimuovere lo spazio vuoto intorno a un&#39;immagine o per ritagliarne un&#39;area, potete ritagliarla.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Potete ritagliare un’immagine per rimuovere lo spazio bianco che la circonda o
 
 Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine ritagliandoli.
 
-1. Per ritagliare un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e quindi selezionare **[!UICONTROL Ritaglia]**, oppure visualizzarla nel pannello Sfoglia in Visualizzazione dettagli e selezionare il pulsante **[!UICONTROL Ritaglia]**.
+1. Per ritagliare un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e quindi selezionare **[!UICONTROL Ritaglia]**, oppure visualizzarla nella visualizzazione Dettagli del pannello Sfoglia e selezionare il pulsante **[!UICONTROL Ritaglia]**.
 1. Nella pagina Editor ritaglio eseguire una delle operazioni seguenti:
 
    * Per tagliare i pixel di colore, passa a **[!UICONTROL Taglia]** > **[!UICONTROL Colore]**. Nella finestra di dialogo **[!UICONTROL Ritaglio automatico per colore]**, selezionare il menu **[!UICONTROL Angolo]** e scegliere un angolo con il colore di sfondo che si desidera ritagliare. Quindi immettere un&#39;impostazione di **[!UICONTROL tolleranza]** da 0 a 1. L’impostazione 0 ritaglia i pixel solo se corrispondono esattamente al colore selezionato nell’angolo dell’immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore. Seleziona **[!UICONTROL Ritaglia]**.
@@ -55,14 +55,14 @@ Potete eliminare i pixel trasparenti o in tinta unita dal bordo di un’immagine
 
 ## Selezionare un’area da ritagliare {#select-an-area-to-crop}
 
-1. Per ritagliare un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglia]** oppure visualizzarla nel pannello Sfoglia in Visualizzazione dettagli e selezionare **[!UICONTROL Ritaglia]**.
+1. Per ritagliare un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Ritaglia]**, oppure visualizzarla nella visualizzazione Dettagli del pannello Sfoglia e selezionare **[!UICONTROL Ritaglia]**.
 
-1. Nella finestra Editor ritaglio, posizionate la parte dell&#39;immagine che non desiderate ritagliare nella casella di ritaglio. Qualsiasi cosa venga visualizzata all&#39;interno della casella è ciò che rimarrà dopo aver selezionato **[!UICONTROL Salva]** e ritagliato l&#39;immagine.
+1. Nella finestra Editor ritaglio, posizionate la parte dell&#39;immagine che desiderate conservare all&#39;interno della casella di ritaglio. Dopo aver selezionato **[!UICONTROL Salva]** e aver ritagliato l&#39;immagine, verrà mantenuta la visualizzazione all&#39;interno della casella.
 1. Per regolare l’area di ritaglio, effettuate una delle seguenti operazioni:
 
-   * Trascinate un lato o un angolo della casella. Tenere premuto il tasto Maiusc mentre si trascina per modificare le dimensioni ma mantenere le proporzioni (la forma) della casella di ritaglio.
+   * Trascinate un lato o un angolo della casella. Per modificare le dimensioni mantenendo le proporzioni (la forma) della casella di ritaglio, tenere premuto il tasto Maiusc durante il trascinamento.
    * Immettete le misure in pixel nelle caselle Dimensione.
-   * Trascinate per spostare la casella di ritaglio. Spostate il puntatore all’interno della casella. Quando viene visualizzata la freccia a quattro punte, trascinate la casella sull’immagine in una nuova posizione.
+   * Trascinate per spostare la casella di ritaglio. Spostate il puntatore all’interno della casella. Quando viene visualizzato il puntatore Sposta, trascinare la casella in una nuova posizione sull&#39;immagine.
 
 1. Seleziona **[!UICONTROL Salva]**.
 

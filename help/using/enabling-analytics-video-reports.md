@@ -25,28 +25,28 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a157ef90a1ff3051fe0939b859d1ba7a63537b82
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: 265
 ht-degree: 0%
 
 ---
 
 # Abilita rapporti video di Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
-Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è più necessario abilitare i quattro eventi visualizzatore video (Riproduci, Pausa, Interrompi, Milestone) quando si configura Adobe Analytics in Adobe Dynamic Media Classic. Video Heartbeat funziona con visualizzatori Adobe Dynamic Media Classic HTML5 Video e Multimediali misti pronti all’uso. Il lettore video genera i dati di tracciamento per la visualizzazione nei rapporti video di Adobe Analytics.
+Utilizzando il reporting video basato su heartbeat in Adobe Analytics, non è più necessario abilitare i quattro eventi visualizzatore video (Riproduci, Pausa, Interrompi, Milestone) quando si configura Adobe Analytics in Adobe Dynamic Media Classic. Video Heartbeat funziona con visualizzatori Adobe Dynamic Media Classic HTML5 Video standard e Multimediali misti. Il lettore video genera i dati di tracciamento per la visualizzazione nei rapporti video di Adobe Analytics.
 
 * Per un&#39;introduzione allo streaming di file multimediali e alla misurazione heartbeat, vedere [Informazioni su Adobe Analytics for Streaming Media](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
 
 * L’integrazione dei rapporti video di Adobe Analytics con Adobe Dynamic Media Classic supporta le variabili della soluzione, ma non le variabili personalizzate.
 
-  Per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate, vedere [Parametri audio e video](https://experienceleague.adobe.com/it/docs/media-analytics/using/implementation/variables/audio-video-parameters).
+  Per ulteriori informazioni sulle variabili di soluzione e le variabili personalizzate, vedere [Parametri audio e video](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/overview).
 
-* Sono supportati segmenti predefiniti di incrementi di un minuto. Tuttavia, non è supportato il reporting dei segmenti personalizzato, ad esempio i milestone definiti dal cliente in base a incrementi di tempo, milestone di percentuale o milestone di offset.
+* Sono supportati segmenti standard di incrementi di un minuto. Tuttavia, non è supportato il reporting dei segmenti personalizzato, ad esempio i milestone definiti dal cliente in base a incrementi di tempo, milestone di percentuale o milestone di offset.
 
-  Per ulteriori informazioni sui requisiti e la configurazione dei contenuti multimediali in streaming, consulta [Misurare i contenuti multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
+  Per ulteriori informazioni sui requisiti e la configurazione dei contenuti multimediali in streaming, vedere [Misurare i contenuti multimediali in streaming in Adobe Analytics](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
 
-* Per informazioni sulle variabili personalizzate e di soluzione, vedere [Abilitazione di report multimediali](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
+* Per informazioni sulle variabili personalizzate e di soluzione, vedere [Abilitazione di report multimediali](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
 
 >[!NOTE]
 >
