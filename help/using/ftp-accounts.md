@@ -12,41 +12,36 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:50:36.235Z'
 TQID: 'https://experienceleague.adobe.com/6fNfI7Na3jeDys307id5U9nIt-DeWCmfwtIzsb0G73I'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: af16f8e2f2c8ea927c70e73cef774b09e8cbd346
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab98008be321400156bd26951ea7cc211b2a9425
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 52%
+source-wordcount: 233
+ht-degree: 14%
 
 ---
 
 # Gestire gli account FTP{#managing-ftp-accounts}
 
-solo gli amministratori di Media Portal possono amministrare e gestire gli account FTP. Inoltre, solo gli utenti con il ruolo di *Collaboratore-Utente Media Portal* o *Collaboratore Media Portal* possono caricare risorse digitali.
+Solo gli amministratori di Media Portal possono gestire gli account FTP. Inoltre, solo gli utenti con il ruolo di *Collaboratore-Utente Media Portal* o *Collaboratore Media Portal* possono caricare risorse digitali.
 
-È possibile attivare o disattivare gli utenti esistenti di Media Portal nella pagina Amministrazione utente in Impostazione amministrazione.
+Puoi attivare o disattivare gli utenti esistenti di Media Portal utilizzando la pagina Amministrazione utenti in Configurazione amministrazione.
 
 Vedi [Attivare o disattivare gli utenti](administration-setup.md#activating_or_deactivating_users).
 
 1. Vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Account FTP]**.
-1. Nella pagina Aggiungi account FTP, selezionate un utente dall’elenco a discesa Nome utente account FTP.
+1. Nella pagina Aggiungi account FTP, selezionare un utente dall&#39;elenco a discesa Nome utente account FTP.
 
-   Se un utente non è presente nell’elenco, è necessario aggiungerlo come amministratore di Media Portal, collaboratore di Media Portal o collaboratore di Media Portal tramite la Configurazione dell’amministrazione. Dopo aver aggiunto l’utente con il ruolo corretto, il suo nome utente diventa disponibile nell’elenco a discesa.
+   Se un utente non è presente nell’elenco, è necessario aggiungerlo come amministratore di Media Portal, come collaboratore di Media Portal o come collaboratore di Media Portal tramite Configurazione dell’amministrazione. Dopo aver aggiunto l’utente con il ruolo appropriato, il suo nome utente è disponibile dall’elenco a discesa.
 
    Vedere [Aggiungere un utente Media Portal](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. Nei campi Password e Conferma, digitate la password per l’account FTP.
 1. Selezionare **[!UICONTROL Salva]** per aggiungere l&#39;account alla tabella Account esistenti.
 
-   Per caricare risorse multimediali, è necessario disporre del nome utente dell’account FTP elencato nella tabella Account esistenti e della password assegnata a tale account.
+   Per caricare le risorse multimediali, devi disporre del nome utente dell’account FTP indicato nella tabella Account esistenti e della password assegnata all’account.
 
    Vedere l&#39;argomento [Carica file](uploading-files.md#uploading_files).
 
