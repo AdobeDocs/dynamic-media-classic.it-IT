@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:47:10.191Z'
 TQID: 'https://experienceleague.adobe.com/wE2C1kA1I2fYIkXCqMvw-hPWIV5GMcj1Y0-dgkALyyc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 74b2fd3a2c7808f5a3cb73bdece56d2914090d8e
 workflow-type: tm+mt
-source-wordcount: 443
-ht-degree: 38%
+source-wordcount: 448
+ht-degree: 32%
 
 ---
 
@@ -31,12 +28,12 @@ ht-degree: 38%
 
 Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione. Inoltre, è consentito un massimo di 500 risorse totali per processo di esportazione.
 
-Adobe Dynamic Media Classic mantiene un record dei processi di esportazione nella schermata Processi.
+Adobe Dynamic Media Classic tiene traccia dei processi di esportazione nella schermata Processi.
 
 **Per esportare risorse da Adobe Dynamic Media Classic:**
 
 1. Selezionare le risorse da esportare, quindi passare a **[!UICONTROL File]** > **[!UICONTROL Esporta]**.
-1. Nella finestra Esporta risorse selezionate, fate clic su **[!UICONTROL Opzioni immagini]** e specificate una delle seguenti opzioni (gli amministratori stabiliscono quali opzioni rendere disponibili agli utenti):
+1. Nella finestra Esporta Assets selezionato, fare clic su **[!UICONTROL Opzioni immagine]** e quindi specificare una delle opzioni seguenti (gli amministratori determinano quali opzioni sono disponibili per gli utenti del software):
 
    * **[!UICONTROL Predefiniti]**: è possibile scegliere un predefinito immagine per formattare la risorsa al momento dell&#39;esportazione. Se scegliete un predefinito per immagini, le altre opzioni di formattazione non sono disponibili, poiché vengono adottati i formati specificati dal predefinito.
 
@@ -86,4 +83,4 @@ Mediante la conversione è possibile esportare i seguenti tipi di risorsa:
 Se si selezionano numerosi elementi da esportare e di tipi di risorse diversi, si possono verificare i seguenti comportamenti:
 
 * Tutti i tipi di risorse che non possono essere esportati vengono rimossi dall’elenco prima dell’invio del processo
-* Se viene richiesta una conversione, tutti i tipi che possono essere convertiti sono e tutti gli altri vengono esportati come originali
+* Se viene richiesta una conversione, vengono elaborati tutti i tipi convertibili e tutti gli altri vengono esportati come file originale
