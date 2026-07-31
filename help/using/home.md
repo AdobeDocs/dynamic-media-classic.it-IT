@@ -9,21 +9,13 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:59:26.023Z'
 TQID: 'https://experienceleague.adobe.com/QHE-OFzsPsBwdIlkpO1nGo1W5Q2Au9Avy8G8mTzBZGc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1c4201677cce2afcb0ab2d4beed5cf1cabe4031c
 workflow-type: tm+mt
-source-wordcount: 348
+source-wordcount: 330
 ht-degree: 0%
 
 ---
@@ -36,25 +28,25 @@ Ti diamo il benvenuto nella Guida di Adobe Dynamic Media Classic. Qui puoi acced
 
 Il 30 giugno 2020, gli utenti di Dynamic Media Classic hanno ottenuto l’accesso a un nuovo accesso che non si basa più sulla tecnologia Adobe Flash nel browser.
 
-Consulta [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti al 7 maggio 2020.
+Consulta [Domande frequenti](new-ui-2020.md). I nuovi aggiornamenti entrano in vigore il 7 maggio 2020.
 
 ## Risorse per sviluppatori Dynamic Media
 
-* [Pagina di destinazione delle risorse per sviluppatori Dynamic Media](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources): include:
-   * Guida di riferimento visualizzatori
-   * API Image Server/Image Rendering
-   * API Image Production System
-   * e Note sulla versione di Adobe Dynamic Media Classic
+* [Pagina di destinazione delle risorse per sviluppatori Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): include:
+  * Guida di riferimento visualizzatori
+  * API Image Server/Image Rendering
+  * API Image Production System
+  * e Note sulla versione di Adobe Dynamic Media Classic
 * [Esempi di librerie di visualizzatori](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html): include esempi di visualizzatori per video, supporti acquistabili, file multimediali diversi, set 360 gradi, zoom in linea, set di immagini e campioni e menu a comparsa.
 
 ## Risorse utente di Adobe Dynamic Media Classic
 
 * [Newsletter mensile Dynamic Media](dynamic-media-newsletter.md)
-* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/it/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guida: best practice per migliorare la nitidezza delle immagini](/help/using/assets/s7_sharpening_images.pdf)
-* [Guida: come Adobe Dynamic Media Classic supporta SEO](/help/using/assets/s7_seo.pdf): i motori di ricerca oggi abilitano la ricerca di siti Web e immagini. Adobe Dynamic Media Classic supporta gli sforzi per rendere le immagini compatibili con i motori di ricerca in modo che venga indirizzato più traffico al sito web dell’utente Adobe Dynamic Media Classic. Questa guida in PDF offre informazioni di base e consigli sull’implementazione da seguire.
+* [Guida: come Adobe Dynamic Media Classic supporta SEO](/help/using/assets/s7_seo.pdf): i motori di ricerca consentono oggi la ricerca di siti Web e immagini. Adobe Dynamic Media Classic supporta gli sforzi per ottimizzare i motori di ricerca delle immagini in modo da indirizzare più traffico al sito web degli utenti di Adobe Dynamic Media Classic. Questa guida di PDF fornisce informazioni generali e consigli sull’implementazione per ottenere tale risultato.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [Webinar: Procedure consigliate per la distribuzione di esperienze interattive con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): scopri come inserire e rimuovere contenuti in Adobe Dynamic Media Classic e configurare predefiniti immagine per prestazioni ed esperienze ottimali. Scopri anche i predefiniti per visualizzatori e le configurazioni di memorizzazione in cache.
+* [Webinar: Best practice per distribuire esperienze interattive con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): scopri come gestire i contenuti e impostare predefiniti per le immagini per prestazioni ottimali. Scopri anche i predefiniti per visualizzatori e le configurazioni di memorizzazione in cache.
 <!-- NOT FOUND * [Webinar: Maximizing your Asset ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Learn industry best practices to deliver rich media across your sites and mobile apps. In this webinar, Adobe gives examples and demonstrations showing you how to deliver video efficiently across devices. Learn how you can deliver dynamic creative in your marketing campaigns. Or, increase conversion by making any image, style guide, or lookbook shoppable. -->
 <!-- NOT FOUND * [Webinar: Accelerate Your Content Delivery Lifecycle](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): An introduction and demonstration of Adobe Experience Manager Assets: On Demand, the next generation platform for rich media management and delivery. Learn how to collaborate and share assets between creative and marketing teams to streamline asset review processes. Learn best practices so you can manage asset metadata efficiently. Doing so makes assets easy to find, use, reuse and share. Learn also how to deliver interactive cross-channel rich media experiences. -->
 <!-- NOT FOUND * [Webinar: Design for Mobile Optimization](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Using Adobe Dynamic Media Classic you can efficiently deliver targeted rich media to all devices. Learn how to design and deliver imaging and video viewing experiences that are effective across mobile apps and responsive sites. -->
@@ -62,5 +54,6 @@ Consulta [Domande frequenti](new-ui-2020.md). Nuovi aggiornamenti al 7 maggio 20
 
 ## Formazione su Adobe Dynamic Media Classic
 
-Vai [qui](https://learning.adobe.com/courses.html#product=adobe-scene7) per visualizzare i corsi di formazione attualmente disponibili.
+Vai [qui](https://experienceleague.adobe.com/en/premium/premium-search?sort=relevance&q=dynamic+media).
+
 [Video di formazione su Adobe Dynamic Media Classic](/help/using/training-videos.md).
