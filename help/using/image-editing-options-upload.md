@@ -12,31 +12,27 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:59:54.410Z'
 TQID: 'https://experienceleague.adobe.com/C0REr3rutR9-FalFXHHeGVtYJGEeODYtTnAfWk-S0-M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4b7c732ad5e23237d00f1c5d344f1264ac48293
 workflow-type: tm+mt
-source-wordcount: 1212
-ht-degree: 26%
+source-wordcount: 1203
+ht-degree: 19%
 
 ---
 
 # Opzioni di ottimizzazione immagine al caricamento{#image-editing-options-at-upload}
 
-Durante il caricamento di file di immagine, inclusi i file AI, EPS e PSD, nella finestra di dialogo Opzioni processo di caricamento potete effettuare le seguenti operazioni di modifica:
+Durante il caricamento di file AI, EPS e PSD, puoi eseguire queste azioni nella finestra di dialogo [!UICONTROL Opzioni processo di caricamento]:
 
 * Ritaglia lo spazio vuoto dal bordo delle immagini.
 * Ritagliare manualmente dai lati delle immagini.
 * Scegliere un profilo colore.
 * Creare una maschera da un tracciato di ritaglio.
-* Rendere le immagini più nitide con opzioni di maschera di contrasto.
-* Foratura sfondo
+* Aumenta la nitidezza delle immagini con le opzioni di mascheramento.
+* Spegnere lo sfondo.
 
 Queste opzioni si trovano nella pagina di caricamento sotto l&#39;intestazione **[!UICONTROL Opzioni di modifica immagini]**.
 
@@ -46,19 +42,19 @@ Queste opzioni si trovano nella pagina di caricamento sotto l&#39;intestazione *
 
 * **[!UICONTROL Rifila in base a]**: da questo elenco a discesa, scegli se ritagliare in base al colore o alla trasparenza:
 
-   * **[!UICONTROL Colore]**: scegli l&#39;opzione **[!UICONTROL Colore]**. Quindi, dall&#39;elenco a discesa **[!UICONTROL Angolo]**, selezionare l&#39;angolo dell&#39;immagine con il colore che meglio rappresenta il colore dello spazio bianco da ritagliare.
+  * **[!UICONTROL Colore]**: scegli l&#39;opzione **[!UICONTROL Colore]**. Quindi, dall&#39;elenco a discesa **[!UICONTROL Angolo]**, selezionare l&#39;angolo dell&#39;immagine con il colore che meglio rappresenta il colore dello spazio bianco da ritagliare.
 
-   * **[!UICONTROL Trasparenza]**: scegliere l&#39;opzione Trasparenza.
+  * **[!UICONTROL Trasparenza]**: scegliere l&#39;opzione Trasparenza.
 
-* **[!UICONTROL Tolleranza]**: trascina il cursore per specificare una tolleranza da 0 a 1:
+* **[!UICONTROL Tolleranza]**: per specificare una tolleranza da 0 a 1, trascinare il dispositivo di scorrimento:
 
-   * **Rifilatura in base al colore**: specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo dell&#39;immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore.
+  * **Rifilatura in base al colore**: specificare 0 per ritagliare i pixel solo se corrispondono esattamente al colore selezionato nell&#39;angolo dell&#39;immagine. Con valori più vicini a 1 viene invece tollerata una maggiore differenza di colore.
 
-   * **Taglio basato sulla trasparenza**: specificare 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
+  * **Taglio basato sulla trasparenza**: specificare 0 per ritagliare i pixel solo se sono trasparenti; i numeri più vicini a 1 consentono una maggiore trasparenza.
 
 ## Ritaglio manuale dai lati delle immagini
 
-Per ritagliare manualmente dai lati di un’immagine, scegliete Manuale dal menu Ritaglio. Immettete quindi il numero di pixel da ritagliare da ogni lato o da uno dei lati dell’immagine. La quantità di immagine che viene ritagliata dipende dall’impostazione ppi (pixel per pollice) nel file immagine. Si supponga, ad esempio, che l&#39;immagine visualizzi 150 ppi. Immettere 75 nelle caselle di testo Superiore, Destra, Inferiore e Sinistra. A questo punto, ciascun lato viene ritagliato di 0,5 pollici.
+Per ritagliare manualmente dai lati di un’immagine, scegliete Manuale dal menu Ritaglio. Immettete quindi il numero di pixel da ritagliare da ogni lato o da uno dei lati dell’immagine. La quantità di immagine ritagliata dipende dall&#39;impostazione ppi (pixel per pollice) nel file di immagine. Si supponga, ad esempio, che l&#39;immagine visualizzi 150 ppi. Immettere 75 nelle caselle di testo Superiore, Destro, Inferiore e Sinistra. A questo punto, ogni lato viene ritagliato di 0,5 pollici.
 
 ## Scegli un profilo colore
 
@@ -68,7 +64,7 @@ Per selezionare uno spazio colore per l&#39;immagine, scegliete un&#39;opzione P
 
 * **[!UICONTROL Mantieni spazio colore originale]**: mantiene lo spazio colore originale.
 
-* **[!UICONTROL Personalizza da]** > **[!UICONTROL A]**: apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Photoshop o uno spazio colore caricato in Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizza da]** > **[!UICONTROL A]**: apre i menu in modo da poter scegliere uno spazio colore Converti da e Converti in. Puoi scegliere uno spazio colore standard di Adobe Photoshop o uno spazio colore che hai caricato su Adobe Dynamic Media Classic.
 
 Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
@@ -76,11 +72,11 @@ Consultate [Profili ICC](icc-profiles.md#icc_profiles).
 
 Per creare una maschera per l&#39;immagine in base alle informazioni sul relativo percorso di ritaglio, selezionare **[!UICONTROL Crea maschera da percorso di ritaglio]**. Questa opzione può essere applicata alle immagini create con applicazioni di elaborazione immagini in cui è stato creato un tracciato di ritaglio.
 
-## Nitidezza di un&#39;immagine utilizzando Maschera di contrasto
+## Nitidezza di un&#39;immagine con Maschera definizione dettagli
 
 Questo filtro consente di regolare con precisione un effetto filtro di nitidezza sull’immagine ricampionata verso il basso finale. Consente di controllare l&#39;intensità dell&#39;effetto, il raggio dell&#39;effetto (misurato in pixel) e una soglia di contrasto che viene ignorata.
 
-Questo effetto utilizza le stesse opzioni del filtro Maschera di contrasto di Photoshop. Nonostante il nome possa fare pensare altrimenti, Maschera di contrasto è un filtro di nitidezza.
+Questo effetto utilizza le stesse opzioni del filtro Maschera di contrasto di Adobe Photoshop. Anche se il nome potrebbe creare confusione, Maschera di contrasto è un filtro di nitidezza.
 
 In Maschera di contrasto, impostate le opzioni desiderate come descritto nella seguente tabella:
 
@@ -95,9 +91,9 @@ Vedi anche [Contrassegnare un&#39;immagine](sharpening-image.md#sharpening_an_im
 
 Vedi anche [Immagini più nitide in Adobe Dynamic Media e sul server immagini](/help/using/assets/s7_sharpening_images.pdf).
 
-## Foratura sfondo
+## Rimuovi sfondo
 
-Utilizza Foratura sfondo per rimuovere automaticamente lo sfondo di un&#39;immagine quando la carichi. Questa tecnica è utile per attirare l’attenzione su un particolare oggetto e farlo risaltare su uno sfondo complesso.
+Utilizza Rimuovi sfondo per rimuovere automaticamente lo sfondo di un’immagine quando la carichi. Questa tecnica è utile per evidenziare un particolare oggetto e isolarlo da uno sfondo complesso.
 
 | Opzioni di Foratura sfondo | Descrizione |
 | --- | --- |
