@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: aff765628275d5725ace65a497424effb8213c37
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 23%
+source-wordcount: 431
+ht-degree: 16%
 
 ---
 
@@ -41,7 +41,7 @@ Dopo il caricamento di un file di caratteri, è possibile modificarne l&#39;ID A
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic consiglia di caricare tutti gli stili di carattere (grassetto, corsivo, grassetto/corsivo e normale) se intendi utilizzare i caratteri nei livelli modello. Adobe Dynamic Media Classic richiede questi stili di carattere per elaborare le richieste. Si consiglia inoltre di caricare tutti i file `PostScript/Adobe Type1` associati a un tipo di carattere perché alcuni di questi tipi di carattere contengono informazioni dettagliate sulla crenatura.
+>Adobe Dynamic Media Classic consiglia di caricare tutti gli stili di carattere (grassetto, corsivo, grassetto/corsivo e normale) se intendi utilizzare i caratteri nei livelli modello. Adobe Dynamic Media Classic richiede questi stili di carattere per elaborare le richieste. Si consiglia inoltre di caricare tutti i file `PostScript/Adobe Type1` associati a un tipo di carattere perché alcuni di questi tipi di carattere contengono dati di crenatura specifici.
 
 ## Carica file di font {#uploading-font-files}
 
@@ -49,7 +49,7 @@ Caricate i file di font con le stesse tecniche usate per caricare altri file. È
 
 ## Modifica informazioni file font {#editing-font-file-information}
 
-È possibile modificare il nome ID di un tipo di carattere e le relative informazioni sul tipo. La modifica di un file di font può essere utile per le ricerche e per identificare i font più facilmente.
+È possibile modificare il nome ID di un tipo di carattere e le relative informazioni sul tipo. La modifica di un file di font può essere utile per le ricerche e per facilitare l&#39;identificazione dei font.
 
 Nel pannello Sfoglia, selezionate il file di font da modificare in Vista dettagli e scegliete File > Modifica informazioni. Viene visualizzata la schermata Modifica info. Scegliere le opzioni seguenti, quindi selezionare **[!UICONTROL Invia]**.
 
@@ -63,14 +63,14 @@ Nel pannello Sfoglia, selezionate il file di font da modificare in Vista dettagl
 
 * **[!UICONTROL Stile font]**: le opzioni sono Plain, Bold, Italic e Bold-Italic.
 
-* **[!UICONTROL Tipo di carattere]**: le opzioni sono TrueType e Adobe Type 1. Per chiamare questi font con un altro nome, immettete il nome desiderato.
+* **[!UICONTROL Tipo di carattere]**: le opzioni sono TrueType e Adobe Type 1. Se si chiamano questi tipi di carattere con un altro nome, è possibile immettere i nomi.
 
 * **[!UICONTROL Abbreviazione tipo font]**: le opzioni sono le seguenti:
 
-   * **[!UICONTROL TTF]**: file di font TrueType utilizzati per il rendering PDF/PostScript e il server immagini.
+  * **[!UICONTROL TTF]**: file di font TrueType utilizzati per il rendering PDF/PostScript e il server immagini.
 
-   * **[!UICONTROL AFM]**: file di font Adobe PostScript che contengono informazioni sulle metriche dei font di Adobe e sono utilizzati per il server delle immagini.
+  * **[!UICONTROL AFM]**: file di font Adobe PostScript che contengono informazioni sulle metriche dei font di Adobe e sono utilizzati per il server delle immagini.
 
-   * **[!UICONTROL PFM]**: file di font Adobe PostScript contenenti informazioni binarie sulle metriche dei font.
+  * **[!UICONTROL PFM]**: file di font Adobe PostScript contenenti informazioni binarie sulle metriche dei font.
 
-   * **[!UICONTROL PFB]**: file di caratteri Adobe PostScript che contengono informazioni binarie sulla struttura dei caratteri e vengono utilizzati per il rendering PDF/PostScript e il server immagini.
+  * **[!UICONTROL PFB]**: file di caratteri Adobe PostScript che contengono informazioni binarie sulla struttura dei caratteri e vengono utilizzati per il rendering PDF/PostScript e il server immagini.
