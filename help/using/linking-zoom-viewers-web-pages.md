@@ -57,7 +57,7 @@ I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic M
 
 In genere, i visitatori ingrandiscono le immagini di una pagina web selezionando prima un’icona Zoom (spesso l’icona mostra l’immagine di una lente di ingrandimento). Se si seleziona questa icona, viene avviata una pagina Web dinamica (ASP o JSP) che visualizza l&#39;immagine in una finestra popup. Nella finestra pop-up i visitatori ingrandiscono l&#39;immagine.
 
-Per ulteriori dettagli ed esempi di codice, vedere il [Visualizzatore zoom di base integrato di HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) nella Guida di riferimento dei visualizzatori di Adobe.
+Per ulteriori dettagli ed esempi di codice, vedere il [Visualizzatore zoom di base integrato di HTML5](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) nella Guida di riferimento dei visualizzatori di Adobe.
 
 ## Copiare la copia incorporata di un visualizzatore Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
