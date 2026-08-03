@@ -12,24 +12,20 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:03:03.240Z'
 TQID: 'https://experienceleague.adobe.com/wOviDM-OY9nHBF9RnPXwsCQ2psd6UsxVVppf5kyS0y0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 98c2209424b1ad028b194d1bdf7c71d77b16b50d
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 21%
+source-wordcount: 729
+ht-degree: 16%
 
 ---
 
 # Collegare un set 360 gradi a una pagina web{#linking-a-spin-set-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic Media, inclusi i set 360 gradi, tramite stringhe URL o codice incorporato. Queste stringhe URL vengono attivate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine web e nelle applicazioni, copialo da Adobe Dynamic Media Classic.
+I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic Media, inclusi i set 360 gradi, utilizzando stringhe URL o codice incorporato. Queste stringhe URL vengono abilitate durante il processo di pubblicazione. Per inserire la stringa URL o il codice di incorporamento per il set 360 gradi nelle pagine web e nelle applicazioni, copialo da Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -56,13 +52,13 @@ I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic M
 
 ## Aggiungere gli URL del set 360 gradi alla pagina web {#adding-spin-set-urls-to-your-web-page}
 
-I set 360 gradi vengono distribuiti come tutti i visualizzatori di zoom, tramite una pagina dinamica (ASP o JSP) che visualizza il set 360 gradi in una finestra di zoom. La chiamata URL alla piattaforma Adobe Dynamic Media Classic segue lo stesso protocollo sul visualizzatore zoom. Tuttavia, il nome del predefinito per visualizzatori dipende dal l’impostazione predefinita specificata dall’amministratore per i visualizzatori di set 360 gradi. Ad esempio, il seguente esempio di sintassi URL non live include un nome di predefinito denominato `viewer.jsp` e il parametro SKU è ora il nome del set 360 gradi:
+I set 360 gradi vengono distribuiti come tutti i visualizzatori di zoom utilizzando una pagina dinamica (ASP o JSP) che mostra il set 360 gradi in una finestra di zoom. La richiesta URL alla piattaforma Adobe Dynamic Media Classic utilizza lo stesso protocollo del visualizzatore zoom. Tuttavia, il nome del predefinito per visualizzatori dipende dal l’impostazione predefinita specificata dall’amministratore per i visualizzatori di set 360 gradi. Ad esempio, il seguente esempio di sintassi URL (non live) include un nome di predefinito denominato `viewer.jsp` e il parametro SKU è ora il nome del set 360 gradi:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-In questo esempio di sintassi URL (il collegamento non è attivo), noterai un numero SKU ( `sku=backpack_spin`). La stringa dopo `sku=` è il nome del set 360 gradi ( `backpack spin`).
+In questo esempio di sintassi URL (il collegamento non è attivo), vedi un numero SKU ( `sku=backpack_spin`). La stringa dopo `sku=` è il nome del set 360 gradi ( `backpack spin`).
 
 ## Copiare il codice incorporato di un visualizzatore di set 360 gradi {#copying-the-embed-code-of-a-spin-set-viewer}
 
