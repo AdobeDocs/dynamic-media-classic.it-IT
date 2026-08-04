@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 596e4337002ebd67dd9f915a5ae63ae2a6e18437
 workflow-type: tm+mt
-source-wordcount: 789
-ht-degree: 33%
+source-wordcount: 796
+ht-degree: 28%
 
 ---
 
 # Gestire il contenuto del pannello informazioni nei set di immagini{#managing-info-panel-content-in-image-sets}
 
-Oltre a utilizzare il testo della mappa immagine per i rollover nei set di immagini, è possibile utilizzare un pannello Info per aggiungere grandi quantità di testo di rollover, inclusi i collegamenti. È inoltre possibile gestire il pannello Info utilizzando il caching temporale e pianificando gli aggiornamenti dei contenuti.
+Oltre a utilizzare il testo della mappa immagine per i rollover nei set di immagini, è possibile utilizzare un pannello Info per aggiungere grandi quantità di testo di rollover, inclusi i collegamenti. Puoi anche gestire il pannello Info utilizzando la memorizzazione nella cache del tempo e pianificando gli aggiornamenti dei contenuti.
 
 Potete gestire la configurazione e i dati del pannello Info utilizzando le seguenti funzioni di Adobe Dynamic Media Classic:
 
 * Il pannello di configurazione del pannello Info consente di specificare il modello utilizzato per visualizzare il testo del pannello Info, una risposta predefinita per gli errori e il numero di ore in cui le informazioni vengono memorizzate nella cache. Inoltre, potete specificare se pubblicare automaticamente il set di immagini.
-* Il pannello Feed dati del pannello Info consente di specificare un file CSV contenente il testo da visualizzare nel testo di rollover del pannello Info e di pianificare gli orari per l&#39;aggiornamento delle informazioni.
-* La finestra di dialogo Importa metadati consente di importare un file TXT delimitato da tabulazioni contenente le informazioni di testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed dati di InfoPanel con l&#39;opzione File CSV per il testo di rollover.
+* Il pannello Feed dati del pannello Info consente di specificare un file CSV. Questo file contiene il testo che si desidera visualizzare nel testo di rollover del pannello Info. Puoi anche pianificare gli orari in cui aggiornare le informazioni.
+* La finestra di dialogo Importa metadati consente di importare un file TXT delimitato da tabulazioni contenente le informazioni di testo di rollover. Potete utilizzare questa opzione TXT o il pannello Feed dati del pannello Info con l&#39;opzione File CSV per il testo di rollover.
 
 ## Impostare un modello di risposta per i set di immagini {#set-up-a-response-template-for-image-sets}
 
@@ -48,9 +48,9 @@ Potete selezionare uno dei tre modelli di risposta predefiniti per la visualizza
 1. Dall’elenco a discesa Modello risposta, effettuate una delle seguenti operazioni:
 
    * Per utilizzare la risposta predefinita, selezionare **[!UICONTROL Predefinito]**. Il codice XML per la creazione dei modelli viene visualizzato in modo attenuato nella casella Modello utente.
-   * Per creare un modello di risposta personalizzato, seleziona **[!UICONTROL Personalizzato]**. Nella casella di testo Modello utente, digitate la definizione XML del modello. Come base, potete usare il modello predefinito che è già definito nella casella di testo.
+   * Per creare un modello di risposta personalizzato, seleziona **[!UICONTROL Personalizzato]**. Nella casella di testo Modello utente, digitate la definizione XML del modello. È possibile utilizzare il modello predefinito già definito nella casella di testo come base per la risposta.
 
-1. (Facoltativo) Nella casella Risposta predefinita digitare il testo che si desidera visualizzare se in Adobe Dynamic Media Classic si verifica un errore durante il recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve il nome di una società e il nome di un set di immagini, ma nessun identificatore di rollover, l’utente riceve il messaggio di errore qui configurato.
+1. (Facoltativo) Nella casella Risposta predefinita digitare il testo che si desidera visualizzare se in Adobe Dynamic Media Classic si verifica un errore durante il recupero delle informazioni per una mappa immagine. Ad esempio, se il sistema riceve un nome di società e un nome di set di immagini ma manca un identificatore di rollover, questo messaggio viene visualizzato per l’utente.
 1. Nel campo TTL di risposta viene visualizzato il numero di ore di attesa prima che i dati vengano memorizzati nella cache.
 
    * Con un valore basso i dati vengono aggiornati frequentemente nel corso della giornata.
@@ -71,7 +71,7 @@ Durante la formattazione del contenuto sorgente, tenete presente i seguenti acco
 
 * I dati delimitati da tabulazioni e virgole possono contenere tutte le colonne necessarie per il modello di rollover.
 * La prima voce o colonna di dati è l’identificatore di rollover (associato al valore rollover_key dagli URL della mappa immagine).
-* Assicurati che ogni elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento che desideri sostituire nel modello di risposta. Pertanto, la prima colonna viene sostituita da $1$, la seconda da $2$ e così via).
+* Assicurati che ogni elemento delimitato da tabulazioni o virgole dopo l’identificatore sia l’elemento che desideri sostituire nel modello di risposta. Pertanto, la prima colonna viene sostituita da $1$, la seconda da $2$ e così via.
 
 ### Importare contenuti CSV in set di immagini da una posizione ospitata esternamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 

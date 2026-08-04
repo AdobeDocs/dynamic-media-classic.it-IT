@@ -1,5 +1,5 @@
 ---
-title: Collegare un set di immagini a una pagina Web
+title: Collegare un set di immagini a una pagina web
 description: Scopri come collegare un set di immagini a una pagina web in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: bf08e294cba9b521d981ea457a3c592fb7ae50ea
 workflow-type: tm+mt
-source-wordcount: 703
-ht-degree: 18%
+source-wordcount: 674
+ht-degree: 19%
 
 ---
 
@@ -54,7 +54,7 @@ Dopo aver pubblicato un set di immagini, è possibile copiarne l&#39;URL associa
 
 ## Aggiunta degli URL del set di immagini alla pagina Web {#adding-image-set-urls-to-your-web-page}
 
-Il modo più comune per distribuire i set di immagini consiste nell’inserire un collegamento (tramite un’icona di navigazione) nella pagina web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
+Il modo standard per distribuire i set di immagini consiste nell&#39;inserire un collegamento (mediante un&#39;icona di navigazione) nella pagina Web. Quando è selezionato, il collegamento avvia una pagina dinamica (JSP) che visualizza il set di immagini in una finestra di zoom popup. Il collegamento zoom apre una finestra a comparsa contenente la funzione di zoom effettiva.
 
 Per ulteriori dettagli ed esempi di codice, vedere il [Visualizzatore zoom di HTML5 incorporato](https://experienceleague.adobe.com/it/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) nella Guida di riferimento dei visualizzatori di Adobe.
 

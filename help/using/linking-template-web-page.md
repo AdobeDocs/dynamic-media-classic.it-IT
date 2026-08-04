@@ -1,5 +1,5 @@
 ---
-title: Collegare un modello a una pagina Web
+title: Collegare un modello a una pagina web
 description: Scopri come collegare un modello a una pagina web in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,16 +21,16 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: f55e82148ae9d11c54dda28351743b02c1fb58a4
 workflow-type: tm+mt
-source-wordcount: 339
-ht-degree: 16%
+source-wordcount: 330
+ht-degree: 11%
 
 ---
 
 # Collegare un modello a una pagina Web{#linking-a-template-to-a-web-page}
 
-I siti Web e le applicazioni accedono al contenuto di Dynamic Media Image Server tramite stringhe URL. Dopo aver pubblicato un modello, Adobe Dynamic Media Classic attiva una stringa URL che fa riferimento al modello nei server immagini Dynamic Media. Puoi incollare questo URL in un browser Web per la verifica.
+I siti Web e le applicazioni accedono al contenuto del server immagini Dynamic Media utilizzando stringhe URL. Dopo aver pubblicato un modello, Adobe Dynamic Media Classic attiva una stringa URL che fa riferimento al modello nei server immagini Dynamic Media. Puoi incollare questo URL in un browser Web per la verifica.
 
 Per inserire stringhe URL nelle pagine Web e nelle applicazioni, copiarle da Adobe Dynamic Media Classic. Per ottenere una stringa dell’URL del modello generata con un predefinito immagine, passa alla schermata Anteprima o al pannello Sfoglia (in Vista dettagli). Quindi selezionate un predefinito immagine e fate clic sul pulsante Copia URL.
 
@@ -40,15 +40,15 @@ Per inserire stringhe URL nelle pagine Web e nelle applicazioni, copiarle da Ado
 
 ## Ottenere un URL modello {#obtaining-a-template-url}
 
-Potete ottenere una stringa URL per il modello, generata da un predefinito immagine dalla schermata Anteprima modello. Una volta copiato, l’URL viene inserito negli Appunti ed è pronto per essere incollato. Per ottenere una stringa dell&#39;URL del modello generata con un predefinito immagine dalla pagina Anteprima modello, effettuate le seguenti operazioni:
+Potete ottenere una stringa URL per il modello, generata da un predefinito immagine dalla schermata Anteprima modello. Dopo aver copiato l’URL, questo viene salvato negli Appunti in modo da poterlo incollare in base alle esigenze. Per ottenere una stringa dell&#39;URL del modello generata con un predefinito immagine dalla pagina Anteprima modello, effettuate le seguenti operazioni:
 
-1. Seleziona il pulsante di rollover **[!UICONTROL Anteprima]** del modello o passa a **[!UICONTROL File]** > **[!UICONTROL Anteprima]**.
-1. Utilizzando i menu del predefinito, scegliete il predefinito immagine con cui desiderate distribuire l&#39;immagine modello. La pagina Anteprima mostra l’aspetto del modello quando viene distribuito dal server.
+1. Seleziona il pulsante **[!UICONTROL Anteprima]** del modello o passa a **[!UICONTROL File]** > **[!UICONTROL Anteprima]**.
+1. Utilizzando i menu del predefinito, scegliete il predefinito immagine con cui intendete distribuire il modello. Nella pagina Anteprima viene visualizzato il modello così come viene distribuito dal server.
 1. Selezionare **[!UICONTROL Copia URL]** per copiare l&#39;URL negli Appunti.
 
 ## Aggiungere URL modello alla pagina Web {#adding-template-urls-to-your-web-page}
 
-Per aggiungere un modello alla pagina Web, consultare il team di sviluppo della pagina Web per modificare il tag `<IMG>` nel codice della pagina Web HTML. Utilizza la stringa URL Adobe Dynamic Media Classic per effettuare una richiesta ai server di immagini Dynamic Media. Il codice del motore di e-commerce o della pagina Web dinamica inserisce l&#39;immagine modello nelle dimensioni e con le specifiche di formattazione definite dal predefinito immagine scelto per il modello.
+Per aggiungere un modello alla pagina Web, consultare il team di sviluppo della pagina Web per modificare il tag `<IMG>` nel codice della pagina Web HTML. Utilizza la stringa URL Adobe Dynamic Media Classic per inviare una richiesta ai server di immagini Dynamic Media. Il codice del motore di e-commerce o della pagina web dinamica inserisce l’immagine modello nelle dimensioni e con le specifiche di formattazione definite dal predefinito immagine scelto per il modello.
 
 >[!MORELIKETHIS]
 >
