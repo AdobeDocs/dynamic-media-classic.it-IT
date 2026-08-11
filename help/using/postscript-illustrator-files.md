@@ -12,27 +12,23 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:53:31.495Z'
 TQID: 'https://experienceleague.adobe.com/8MUaG0abV4i3H5SIIu5oEL-Q1QGZorV2CORIzkAw0Jo'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 23c5579ae1b93559a4f1619fca4ab22253938d0d
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 36%
+source-wordcount: 219
+ht-degree: 16%
 
 ---
 
-# Utilizzare i file PostScript e Illustrator{#working-with-postscript-and-illustrator-files}
+# Utilizzare i file PostScript e Adobe Illustrator{#working-with-postscript-and-illustrator-files}
 
 Puoi utilizzare i file Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) in Adobe Dynamic Media Classic. Adobe Dynamic Media Classic offre comandi per la configurazione di questi file durante il caricamento.
 
-Quando caricate i file immagine PostScript (EPS) o Illustrator (AI) potete formattarli in vari modi. Potete rasterizzare i file, convertirli in formato FXG per Pubblicazione modelli, conservare lo sfondo trasparente, scegliere una risoluzione e scegliere uno spazio colore. Le opzioni per formattare i file PostScript e Illustrator sono disponibili nelle sezioni Opzioni PostScript e Opzioni Illustrator della schermata Opzioni processo di caricamento.
+Quando carichi i file immagine PostScript (EPS) o Adobe Illustrator (AI), puoi configurarli utilizzando diverse opzioni. Potete rasterizzare i file, convertirli in formato FXG per Pubblicazione modelli, conservare lo sfondo trasparente, scegliere una risoluzione e scegliere uno spazio colore. Le opzioni per la formattazione dei file PostScript e Adobe Illustrator sono disponibili nella schermata Carica in Opzioni PostScript e Opzioni Adobe Illustrator nella casella Opzioni processo di caricamento.
 
-* **[!UICONTROL Elaborazione]**: scegliere **[!UICONTROL Rasterizza]** per convertire gli elementi grafici vettoriali nel file nel formato bitmap.
+* **[!UICONTROL Elaborazione]**: scegliere **[!UICONTROL Rasterizza]** per convertire gli elementi grafici vettoriali nel file in formato bitmap.
 
 * **[!UICONTROL Mantieni sfondo trasparente nell&#39;immagine di rendering]**: mantiene la trasparenza di sfondo del file.
 
@@ -40,10 +36,10 @@ Quando caricate i file immagine PostScript (EPS) o Illustrator (AI) potete forma
 
 * **[!UICONTROL Spazio colore]**: selezionare il menu **[!UICONTROL Spazio colore]** e scegliere uno spazio colore:
 
-   * **[!UICONTROL Rileva automaticamente]**: mantiene lo spazio colore del file.
+  * **[!UICONTROL Rileva automaticamente]**: mantiene lo spazio colore del file.
 
-   * **[!UICONTROL Forza come RGB]**: viene convertito nello spazio colore di RGB.
+  * **[!UICONTROL Forza come RGB]**: viene convertito nello spazio colore di RGB.
 
-   * **[!UICONTROL Forza come CMYK]**: viene convertito nello spazio colore CMYK.
+  * **[!UICONTROL Forza come CMYK]**: viene convertito nello spazio colore CMYK.
 
-   * **[!UICONTROL Forza come scala di grigio]**: converte lo spazio colore della scala di grigio.
+  * **[!UICONTROL Forza come scala di grigio]**: converte lo spazio colore della scala di grigio.
