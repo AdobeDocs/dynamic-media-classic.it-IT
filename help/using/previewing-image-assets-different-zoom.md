@@ -1,5 +1,5 @@
 ---
-title: Visualizzare in anteprima le risorse immagine con diversi visualizzatori Zoom
+title: Anteprima immagine Assets con diversi visualizzatori zoom
 description: Scopri come visualizzare in anteprima le risorse immagini con diversi visualizzatori Zoom in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:26.177Z'
 TQID: 'https://experienceleague.adobe.com/hK4tEnRy4u4fZ4BAuw5oosbAH-1kWu5K-b9CyHeM7fY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 251
-ht-degree: 28%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +33,7 @@ Vedi [Visualizzare l&#39;anteprima di una risorsa](previewing-asset.md#previewin
 **Per visualizzare in anteprima le risorse immagine con visualizzatori zoom diversi:**
 
 1. Nel pannello Libreria risorse a sinistra, selezionate nell’elenco a discesa Mostra un tipo di risorsa basato su immagini come ad esempio Immagine o Set di immagini.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella delle risorse contenente le immagini da visualizzare in anteprima con un visualizzatore zoom.
+1. Nel pannello Libreria risorse, a sinistra, individua le cartelle di risorse contenenti le immagini da visualizzare in anteprima con un Visualizzatore zoom.
 1. Effettuate una delle seguenti operazioni:
 
    * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, selezionare **[!UICONTROL Vista griglia]**. Nella finestra della risorsa, sotto l&#39;immagine di anteprima, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
