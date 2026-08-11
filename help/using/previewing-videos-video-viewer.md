@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:44.590Z'
 TQID: 'https://experienceleague.adobe.com/-ulcs6af9bMfE-L-kIhwlqs8edAub06N0FTyfhgGxb4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 19%
+source-wordcount: 853
+ht-degree: 15%
 
 ---
 
@@ -33,8 +30,8 @@ Consulta [Aggiungere e modificare i predefiniti visualizzatore](application-setu
 
 **Per visualizzare in anteprima i video in un visualizzatore video:**
 
-1. Nel pannello Libreria risorse a sinistra, seleziona **[!UICONTROL Video]** (video a codifica singola) o **[!UICONTROL Set di video adattivi]** nell&#39;elenco a discesa Mostra. Quando si utilizza il predefinito di codifica video adattivo, viene generato un set di video con codifica multibitrate.
-1. Nel pannello Libreria risorse a sinistra, individuate le cartelle delle risorse per selezionare il video che vi interessa.
+1. Nel pannello Libreria risorse a sinistra, seleziona **[!UICONTROL Video]** (video a codifica singola) o **[!UICONTROL Set di video adattivi]** nell&#39;elenco a discesa Mostra. Il predefinito di codifica video adattivo genera un set di video con codifica multibitrate.
+1. Nel pannello Libreria risorse, a sinistra, individua le cartelle di risorse per selezionare il video da visualizzare in anteprima.
 1. Effettuate una delle seguenti operazioni:
 
    * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista a elenco]**. Nella finestra Risorsa, passa il puntatore del mouse su una risorsa, quindi seleziona **[!UICONTROL Anteprima]**.
@@ -49,7 +46,7 @@ Consulta [Aggiungere e modificare i predefiniti visualizzatore](application-setu
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic offre un metodo pratico per visualizzare in anteprima video MP4 sul desktop. Usate questo metodo per visualizzare l’anteprima del contenuto mobile sul desktop senza doverlo testare fisicamente sui dispositivi mobili. Tieni presente, tuttavia, che ciò che viene visualizzato nell’anteprima desktop non mostra in modo realistico l’aspetto della riproduzione sul dispositivo mobile. Per visualizzare in anteprima l’aspetto e la riproduzione del video su un dispositivo mobile, passa alla schermata Anteprima. Fare clic su **[!UICONTROL Copia URL]** e immettere l&#39;URL nel browser Web di un dispositivo mobile. Per ulteriori informazioni, consulta [Distribuire video nei siti Web e mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic consente di visualizzare in anteprima video MP4 sul desktop. Utilizza questo metodo per visualizzare in anteprima i contenuti mobili sul desktop senza testarli su dispositivi mobili. Tuttavia, l’anteprima desktop non riflette con precisione la riproduzione sul dispositivo mobile. Per visualizzare in anteprima l’aspetto e la riproduzione del video su un dispositivo mobile, passa alla schermata Anteprima. Fai clic su **[!UICONTROL Copia URL]** e immetti tale URL nel browser Web di un dispositivo mobile. Per ulteriori informazioni, consulta [Distribuire video nei siti Web e mobili](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Utilizzare i predefiniti per visualizzatori video {#working-with-video-viewer-presets}
 
@@ -67,7 +64,7 @@ Potete usare Predefiniti visualizzatore per vedere i vari tipi di visualizzatore
 
 In Predefiniti visualizzatore puoi attivare, filtrare, ordinare e visualizzare in anteprima i predefiniti visualizzatore.
 
-Consultate [Predefiniti per i visualizzatori &#x200B;](application-setup.md#viewer_presets).
+Consultate [Predefiniti per i visualizzatori ](application-setup.md#viewer_presets).
 
 Guarda anche il video di formazione [Predefiniti video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
