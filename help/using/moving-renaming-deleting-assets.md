@@ -1,5 +1,5 @@
 ---
-title: Spostare, rinominare ed eliminare le risorse
+title: Spostare, rinominare ed eliminare Assets
 description: Scopri come spostare, rinominare ed eliminare le risorse in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 17%
+source-wordcount: 607
+ht-degree: 12%
 
 ---
 
 # Spostare, rinominare ed eliminare le risorse{#moving-renaming-and-deleting-assets}
 
-Puoi spostare, rinominare ed eliminare le risorse dal pannello Sfoglia. Inoltre, potete eliminare più risorse contemporaneamente con un file di testo.
+Puoi spostare, rinominare ed eliminare le risorse dal pannello Sfoglia. Inoltre, è possibile eliminare più risorse contemporaneamente utilizzando un file di testo.
 
 ## Spostare le risorse {#move-assets}
 
@@ -52,13 +52,13 @@ Puoi spostare le risorse in cartelle diverse nel pannello Sfoglia.
 
 Potete eliminare le risorse selezionate nel pannello Sfoglia ed eliminare intere cartelle. Le risorse e le cartelle eliminate vengono spostate nella cartella Cestino, dove restano per sette giorni prima di essere eliminate definitivamente.
 
-Quando elimini una risorsa, vengono eliminate anche tutte le risorse da essa derivate. Ad esempio, se si elimina un&#39;immagine per la quale sono stati creati oggetti di zoom, vengono eliminati anche gli oggetti di zoom insieme all&#39;immagine.
+Quando eliminate un risorsa, vengono anche eliminate tutte le risorse derivate. Ad esempio, se si elimina un&#39;immagine per la quale sono stati creati oggetti di zoom, vengono eliminati anche gli oggetti di zoom insieme all&#39;immagine.
 
-le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengono eliminati definitivamente quando rimuovete le risorse da cui derivano. Poiché non vengono spostate nel Cestino insieme alla risorsa, non possono essere ripristinate dal Cestino.
+Le destinazioni di zoom, gli attributi immagine e le voci della cronologia vengono eliminati definitivamente quando si eliminano le risorse da cui derivano. Poiché non vengono spostate nel Cestino insieme alla risorsa, non possono essere ripristinate dal Cestino.
 
 >[!IMPORTANT]
 >
->L’eliminazione in blocco è un’operazione intensiva. Assicurati di eseguire le eliminazioni in blocco in sequenza anziché come operazioni di eliminazione simultanee e complesse. Adobe consiglia di limitare le operazioni di eliminazione a un massimo di 5000 eliminazioni di risorse all’ora. Un numero superiore a 5000 all&#39;ora può causare una limitazione della velocità.
+>L’eliminazione in blocco è un’operazione che richiede molte risorse. Eseguire le eliminazioni in blocco in sequenza anziché come operazioni di eliminazione simultanee su larga scala. Adobe consiglia di limitare le operazioni di eliminazione a un massimo di 5000 eliminazioni di risorse all’ora. Qualsiasi quantità superiore a 5000 all&#39;ora può causare una limitazione della velocità.
 
 **Per eliminare le risorse:**
 
@@ -75,9 +75,9 @@ Adobe Dynamic Media Classic consiglia di sovrascrivere i file di risorse anzich�
 
 Per eliminare più risorse contemporaneamente in tutta la Libreria risorse, puoi elencare le risorse da eliminare in un file di testo e inviare l’elenco a Adobe Dynamic Media Classic.
 
-Crea l&#39;elenco degli ID Adobe Dynamic Media Classic e salvalo come file di testo (.txt). Ogni Adobe Dynamic Media Classic ID deve trovarsi sulla propria riga (seguita da un ritorno a capo).
+Crea l&#39;elenco degli ID Adobe Dynamic Media Classic e salvalo come file di testo (.txt). Ogni Adobe Dynamic Media Classic ID deve essere sulla propria riga (seguita da un ritorno a capo).
 
-Una volta creato l’elenco, effettuate le operazioni seguenti:
+Per utilizzare l’elenco per eliminare le risorse, effettua le seguenti operazioni:
 
 1. Vai a **[!UICONTROL File]** > **[!UICONTROL Elimina elenco risorse]**.
 1. Nella finestra di dialogo **[!UICONTROL Elenco risorse eliminate]** digitare il percorso del file di testo con l&#39;elenco delle risorse da eliminare.

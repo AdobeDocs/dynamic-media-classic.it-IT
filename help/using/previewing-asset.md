@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: ae2683d92d4648fc4d241cd2253de4ae840d8116
 workflow-type: tm+mt
-source-wordcount: 1023
-ht-degree: 11%
+source-wordcount: 1013
+ht-degree: 9%
 
 ---
 
 # Visualizzare l’anteprima di una risorsa{#previewing-an-asset}
 
-Puoi utilizzare Anteprima per vedere come appare una risorsa digitale quando viene visualizzata da un cliente. Per l’anteprima viene usato il visualizzatore predefinito assegnato alla risorsa. I visualizzatori predefiniti vengono configurati in Impostazione applicazione.
+Puoi utilizzare Anteprima per vedere come appare una risorsa digitale quando viene visualizzata da un cliente. Nell’anteprima viene utilizzato il visualizzatore predefinito assegnato alla risorsa. I visualizzatori predefiniti vengono configurati in Impostazione applicazione.
 
 Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
 
-Se visualizzi l’anteprima di una risorsa modello con livelli di parametri, puoi modificare i parametri o il predefinito immagine. Poiché le modifiche vengono effettuate in linea, potete visualizzare i risultati immediatamente nella stessa finestra di anteprima.
+Se visualizzi l’anteprima di una risorsa modello con livelli di parametri, puoi modificare i parametri o il predefinito immagine. Poiché le modifiche vengono applicate immediatamente, è possibile visualizzare i risultati dalla stessa finestra di anteprima.
 
 Vedi anche [Esempi della libreria di riferimento visualizzatori Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -55,7 +55,7 @@ Vedi anche [Esempi della libreria di riferimento visualizzatori Adobe](https://l
 
 È inoltre possibile utilizzare Elenco visualizzatori per copiare l&#39;URL di un visualizzatore o visualizzare e copiare il codice del visualizzatore da incorporare nelle pagine Web.
 
-Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizzatori consente di vedere visivamente quali dispositivi, come tablet e Smartphone, sono disponibili per l’uso.
+Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizzatori visualizza i dispositivi, ad esempio tablet e smartphone, per i quali è disponibile un visualizzatore.
 
 **Per visualizzare in anteprima una risorsa in base al tipo di piattaforma visualizzatore:**
 
@@ -66,7 +66,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
    * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, seleziona **[!UICONTROL Vista a elenco]**. Nella finestra Risorsa, seleziona una singola risorsa, quindi a destra dell&#39;immagine di anteprima passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
    * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, selezionare **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
 
-1. (Facoltativo) Nella finestra Elenco visualizzatori, seleziona l&#39;intestazione di colonna **[!UICONTROL Nome]** o **[!UICONTROL Tipo di piattaforma]** per ordinare la colonna in base all&#39;ordine crescente o decrescente.
+1. (Facoltativo) Nella finestra Elenco visualizzatori, seleziona l&#39;intestazione di colonna **[!UICONTROL Nome]** o **[!UICONTROL Tipo di piattaforma]** per ordinare la colonna in ordine crescente o decrescente.
 1. Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, seleziona **[!UICONTROL Anteprima]** per visualizzare la visualizzazione della risorsa per un visualizzatore e un tipo di piattaforma selezionati.
 
    Chiudete l&#39;anteprima visualizzata.
@@ -80,7 +80,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
    * Nella finestra Elenco visualizzatori, nella colonna Azioni della tabella, selezionare **[!UICONTROL Codice di incorporamento]**.
 
-     Quando si seleziona **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Codice incorporato in cui è possibile esaminare il codice del visualizzatore. In questa finestra non è possibile modificare il codice. È inoltre possibile copiare il codice negli Appunti in modo da poterlo incollare nelle pagine Web.
+     Quando si seleziona **[!UICONTROL Codice di incorporamento]**, viene aperta la finestra Codice incorporato in cui è possibile esaminare il codice del visualizzatore. Non è possibile modificare il codice nella finestra. Potete anche copiare il codice negli Appunti per poi incollarlo nelle pagine Web.
 
      Chiudete l&#39;anteprima visualizzata.
 
@@ -88,7 +88,7 @@ Per una determinata piattaforma di visualizzatori, la finestra Elenco visualizza
 
 ## Visualizzare in anteprima una risorsa immagine in base al suo predefinito immagine {#previewing-an-image-asset-based-on-its-image-preset}
 
-Puoi visualizzare in anteprima una risorsa immagine in base al suo predefinito per immagini, per verificare l’aspetto dell’immagine quando viene distribuita dinamicamente al sito web o all’applicazione in diverse dimensioni.
+Per determinare la modalità di visualizzazione dell’immagine quando viene distribuita dinamicamente al sito web o all’applicazione a diverse dimensioni, puoi visualizzare in anteprima una risorsa immagine in base al relativo predefinito immagine.
 
 Un predefinito immagine è una raccolta di impostazioni predefinite. Queste impostazioni modificano le dimensioni, la qualità, il formato, la risoluzione e altri aspetti dell&#39;aspetto di un&#39;immagine esportata.
 
@@ -106,7 +106,7 @@ Consulta [Creare e abilitare predefiniti immagine](creating-enabling-image-prese
    * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, selezionare **[!UICONTROL Vista dettagli]**. Sulla stessa barra degli strumenti, passa a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco predefiniti immagine]**.
 
 1. Nella finestra Elenco predefiniti immagine, selezionate nella tabella il nome del tipo di predefinito di cui desiderate visualizzare l’anteprima in linea nel riquadro di destra.
-1. (Facoltativo) Nella finestra Elenco predefiniti immagine, vai all&#39;elenco a discesa **[!UICONTROL Codifica URL per Copia generazione URL]**, in basso.
+1. (Facoltativo) Nella finestra Elenco predefiniti immagine, nell&#39;elenco a discesa **[!UICONTROL Codifica URL per Copia generazione URL]**, selezionare Codifica URL.
 1. Seleziona la Codifica URL da applicare all’URL della risorsa immagine quando viene copiata.
 1. (Facoltativo) Nella finestra Elenco predefiniti immagine, nell&#39;area superiore destra del riquadro di anteprima, selezionare **[!UICONTROL Copia URL]** per il tipo di predefinito selezionato.
 

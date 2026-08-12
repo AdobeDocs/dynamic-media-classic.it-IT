@@ -6,9 +6,9 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
+source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '805'
 ht-degree: 21%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 21%
   + [Gestire gli account FTP](ftp-accounts.md)
   + [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md)
   + [Creare e abilitare i predefiniti immagine](creating-enabling-image-presets.md)
-  + [Utilizzo più efficiente dei metadati](making-efficient-metadata.md)
+  + [Gestire i metadati in modo efficiente](making-efficient-metadata.md)
   + [Personalizzare la schermata Media Portal](customizing-media-portal-screen.md)
 + Caricare e pubblicare le risorse {#upload-publish}
   + [Caricare e pubblicare risorse](about-asset-upload-publish.md)

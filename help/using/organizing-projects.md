@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: cbeb7293d2fbe21f2ec2e585b389c1056404341c
 workflow-type: tm+mt
-source-wordcount: 483
-ht-degree: 21%
+source-wordcount: 478
+ht-degree: 14%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 21%
 
 I progetti offrono un metodo secondario facoltativo con cui organizzare le risorse indipendentemente dalle cartelle in cui vengono memorizzate. Una risorsa può essere inserita in una sola cartella, ma può essere copiata in più cartelle Progetto per motivi organizzativi.
 
-Dopo aver creato una cartella Progetto, è possibile inserirvi delle risorse. In un progetto, Assets punta alla cartella Libreria risorse in cui sono memorizzate le risorse. Potete inserire una risorsa in più progetti. Ad esempio, è possibile inserire un&#39;immagine di una camicetta nelle cartelle di progetto &quot;Blouses&quot; e &quot;Fall Collection&quot;.
+Dopo aver creato una cartella Progetto, è possibile inserirvi delle risorse. In un progetto, Assets punta alla cartella Libreria risorse in cui sono memorizzate le risorse. Potete inserire una risorsa in più progetti. Ad esempio, un’immagine di una camicia può essere inserita in entrambe le cartelle di progetto &quot;Camicie&quot; e &quot;Collezione autunnale&quot;.
 
-Potete creare un progetto quando caricate dei file oppure li potete creare nel pannello Libreria risorse.
+Potete creare un progetto quando caricate dei file o create dei progetti nel pannello Libreria risorse.
 
 >[!NOTE]
 >
@@ -43,27 +43,27 @@ Potete creare un progetto quando caricate dei file oppure li potete creare nel p
 
 >[!NOTE]
 >
->la funzione progetti deve essere impostata dall’amministratore affinché possa essere usata dagli utenti. Se non vedi una sezione della cartella Progetti nella parte inferiore della libreria Assets, questo metodo di organizzazione delle risorse non è disponibile. Consultate [Impostazioni generali applicazione](application-setup.md#general-settings).
+>Per organizzare le risorse in Progetti, l’amministratore deve aver configurato il tuo account per utilizzarle. Se nella parte inferiore della Libreria risorse non è presente la sezione relativa alla cartella Progetti, significa che non è possibile utilizzare questo metodo di organizzazione delle risorse. Consultate [Impostazioni generali applicazione](application-setup.md#general-settings).
 
 ## Creare una cartella di progetto {#creating-a-project-folder}
 
-Puoi creare una cartella di progetto a partire dalla libreria di Assets o quando carichi i file in Adobe Dynamic Media Classic:
+Puoi creare una cartella di progetto a partire da Libreria risorse o quando carichi i file in Adobe Dynamic Media Classic:
 
-* **Nella libreria risorse**: scorri fino alla parte inferiore della libreria risorse, alla sezione Progetti, quindi seleziona **[!UICONTROL Aggiungi progetto]**. Immettere un nome per il progetto.
+* **Nella libreria risorse**: scorri fino alla parte inferiore della libreria risorse fino alla sezione Progetti, quindi seleziona **[!UICONTROL Aggiungi progetto]**. Immettere un nome per il progetto.
 
 * **Durante il caricamento dei file**: nella schermata di caricamento, vai a **[!UICONTROL Aggiungi al progetto]** > **[!UICONTROL Crea progetto]**. Immettere un nome per il progetto.
 
 >[!NOTE]
 >
->L’area Progetti nella Libreria risorse è un elenco di cartelle a livello singolo e non consente l’utilizzo di sottocartelle.
+>L’area Progetti nella Libreria risorse è un elenco di cartelle a livello singolo che non consente l’utilizzo di sottocartelle.
 
 ## Utilizzare le cartelle di progetto {#working-with-project-folders}
 
-Per visualizzare, eliminare e rinominare una cartella di progetto, eseguire una delle operazioni seguenti:
+Per visualizzare, eliminare e rinominare una cartella di progetto, utilizzare uno dei metodi seguenti:
 
 * **Esplorazione del contenuto**: selezionare il nome della cartella nella libreria risorse. Le relative risorse vengono visualizzate nel pannello Sfoglia.
 
-* **Eliminazione cartelle di progetto**: selezionare la cartella Progetto, quindi **[!UICONTROL Rimuovi progetto]**. L’eliminazione di risorse da una cartella di progetto non ne comporta l’eliminazione da Adobe Dynamic Media Classic; le risorse rimangono nelle cartelle originali in cui sono memorizzate.
+* **Eliminazione cartelle di progetto**: selezionare la cartella Progetto, quindi **[!UICONTROL Rimuovi progetto]**. La rimozione di risorse da una cartella di progetto non ne comporta l’eliminazione da Adobe Dynamic Media Classic, poiché le risorse rimangono nelle cartelle di archiviazione originali.
 
 * **Ridenominazione delle cartelle di progetto**: fare doppio clic sul nome della cartella nel pannello Risorse, quindi immettere un nuovo nome.
 

@@ -1,5 +1,5 @@
 ---
-title: Utilizzo più efficiente dei metadati
+title: Gestire i metadati in modo efficiente
 description: Scopri come utilizzare in modo più efficiente i metadati in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,18 +21,18 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 58%
+source-wordcount: 163
+ht-degree: 37%
 
 ---
 
-# Utilizzo più efficiente dei metadati{#making-more-efficient-use-of-metadata}
+# Gestire i metadati in modo efficiente{#making-more-efficient-use-of-metadata}
 
 Tutti i file in Adobe Dynamic Media Classic contengono metadati. I metadati descrivono e identificano un file; vengono utilizzati per effettuare ricerche e organizzare le risorse. Per visualizzare i metadati di una risorsa, aprila in Vista dettagli ed esamina il pannello Metadati. I campi di metadati in questo pannello offrono informazioni descrittive sulla risorsa.
 
-I metadati risultano utili nelle operazioni di ricerca e organizzazione delle risorse solo se sono immessi correttamente nei campi. Per immettere correttamente i metadati ed essere certi che tutti i campi di metadati richiesti contengano i relativi dati, potete creare dei predefiniti per metadati. Un *predefinito per metadati* è un set preimpostato di voci di metadati. Anziché immettere essi stessi i metadati, nella vista Dettaglio gli utenti possono scegliere un predefinito di metadati per riempire i campi di metadati con informazioni predefinite.
+I metadati sono utili nelle ricerche e nell’organizzazione delle risorse solo se vengono immessi correttamente nei campi di metadati. Per immettere correttamente i metadati e garantire che tutti i campi di metadati obbligatori contengano metadati, puoi creare predefiniti di metadati. Un *predefinito per metadati* è un set preimpostato di voci di metadati. Anziché immettere manualmente i metadati, in Vista dettagli gli utenti possono scegliere un predefinito di metadati per riempire i campi di metadati con informazioni predefinite.
 
 Per creare dei predefiniti per metadati, consultate [Predefiniti per metadati](application-setup.md#metadata_presets).
 

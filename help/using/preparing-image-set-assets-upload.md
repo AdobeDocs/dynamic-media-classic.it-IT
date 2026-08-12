@@ -1,5 +1,5 @@
 ---
-title: Prepara risorse set immagini per il caricamento
+title: Prepara Assets set immagini per il caricamento
 description: Scopri come preparare le risorse per set di immagini da caricare in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: a7f99941b1957d8fdb127f488146052ca7ff1d3a
 workflow-type: tm+mt
-source-wordcount: 162
-ht-degree: 45%
+source-wordcount: 157
+ht-degree: 31%
 
 ---
 
-# Prepara risorse set immagini per il caricamento{#preparing-image-set-assets-for-upload}
+# Prepara il set di immagini Assets per il caricamento{#preparing-image-set-assets-for-upload}
 
-Prima di caricare le immagini necessarie per i set di immagini su Adobe Dynamic Media Classic, accertati che le immagini siano delle dimensioni e del formato corretti.
+Prima di caricare le immagini necessarie per i set di immagini su [!DNL Adobe Dynamic Media Classic], verificare che le immagini siano delle dimensioni e del formato corretti.
 
-Per creare un set di immagini a visualizzazione multipla, sono necessarie immagini di uno stesso elemento da più punti di vista o che mostrino diversi aspetti dello stesso elemento. L’obiettivo è quello di evidenziare le caratteristiche importanti di un elemento, in modo che gli utenti possano farsi un’idea completa e accurata dell’aspetto.
+Per creare un set di immagini a visualizzazione multipla, sono necessarie immagini di uno stesso elemento da più punti di vista o che mostrino diversi aspetti dello stesso elemento. L&#39;obiettivo è quello di evidenziare le caratteristiche importanti di un elemento in modo che i visualizzatori abbiano una comprensione completa dell&#39;aspetto o della funzione dell&#39;elemento.
 
 Poiché gli utenti possono eseguire lo zoom delle immagini in set di immagini, accertatevi che la dimensione maggiore delle immagini sia di almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG e EPS senza perdita di dati.
 

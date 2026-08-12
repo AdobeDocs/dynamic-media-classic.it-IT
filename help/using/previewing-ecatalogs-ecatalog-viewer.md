@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 3f3b662bf92a81b908f0f10ded2e5c19aa62266a
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 22%
+source-wordcount: 259
+ht-degree: 1%
 
 ---
 
 # Anteprima dei cataloghi elettronici nel visualizzatore eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-Potete usare Anteprima per visualizzare l’eCatalog con un predefinito per visualizzatore diverso. Potete provare i diversi controlli per voltare le pagine, scrivere note e sfogliare l’eCatalog.
+È possibile utilizzare la funzione Anteprima per visualizzare l&#39;eCatalog utilizzando diversi predefiniti di eCatalog Viewer. Per ruotare le pagine, aggiungere note e sfogliare, è possibile utilizzare i diversi controlli.
 
 Consulta [Configurare i visualizzatori predefiniti](application-setup.md#configuring_default_viewers).
 
@@ -35,8 +35,8 @@ Vedi [Visualizzare l&#39;anteprima di una risorsa](previewing-asset.md#previewin
 
 **Per visualizzare in anteprima i cataloghi elettronici nel visualizzatore eCatalog:**
 
-1. Nel pannello Libreria risorse a sinistra, seleziona un tipo di risorsa basato su video dall’elenco a discesa Mostra, ad esempio Video o Set video.
-1. Nel pannello Libreria risorse a sinistra, individuate le cartelle Asset contenenti i video da visualizzare in anteprima con un visualizzatore eCatalog.
+1. Nel pannello Libreria risorse a sinistra, seleziona un tipo di risorsa basato su eCatalog dall’elenco a discesa Mostra, ad esempio eCatalog o Set di eCatalog.
+1. Nel pannello Libreria risorse a sinistra, individua le cartelle di risorse che contengono i cataloghi elettronici da visualizzare in anteprima con un visualizzatore eCatalog.
 1. Effettuate una delle seguenti operazioni:
 
    * Sopra la finestra di Assets, sul lato destro della barra degli strumenti, selezionare **[!UICONTROL Vista griglia]**. Nella finestra della risorsa, sotto l&#39;immagine di anteprima, vai a **[!UICONTROL Anteprima]** > **[!UICONTROL Elenco visualizzatori]**.
