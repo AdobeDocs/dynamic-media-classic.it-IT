@@ -1,5 +1,5 @@
 ---
-title: Pubblicare immagini primarie
+title: Pubblica immagini primarie
 description: Scopri come pubblicare immagini primarie da Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:49.126Z'
 TQID: 'https://experienceleague.adobe.com/MsYvgtKLOqbCZFs67ZPD2hN0fHoKj-AgIpGjM4EWyrM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 50446d4791c5eda0eb9b9b5369cf4eee1fee2d3b
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 164
 ht-degree: 6%
 
 ---
@@ -31,7 +28,7 @@ Quando si pubblicano i file di immagine, questi vengono pubblicati sui server di
 
 ## Contrassegna immagini primarie per la pubblicazione {#marking-master-images-for-publish}
 
-Le immagini primarie devono essere contrassegnate per la pubblicazione per essere copiate nei server immagini Dynamic Media. Puoi contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]**. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
+Le immagini primarie devono essere contrassegnate per la pubblicazione in modo da poter essere copiate nei server immagini Dynamic Media. Puoi contrassegnare le immagini principali per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]**. Puoi anche contrassegnare le immagini per la pubblicazione quando le carichi in Adobe Dynamic Media Classic.
 
 ## Pubblicare le immagini principali {#publishing-your-master-images}
 
