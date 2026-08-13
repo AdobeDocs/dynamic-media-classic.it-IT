@@ -12,16 +12,13 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:09:40.553Z'
 TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: c1f9ca034a6cc7545f18a41876f737eb9144e157
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 11%
+source-wordcount: 707
+ht-degree: 10%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 11%
 
 I set di immagini Adobe Dynamic Media Classic offrono agli utenti un&#39;esperienza di visualizzazione integrata. In Visualizzatore set di immagini dinamico, gli utenti possono visualizzare diverse visualizzazioni di un elemento selezionando una miniatura. I set di immagini consentono di presentare visualizzazioni alternative ad alta risoluzione di un elemento.
 
-Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Se lo desideri, puoi rendere le destinazioni di zoom guidate e le mappe immagine parte del set di immagini. I set di immagini offrono agli utenti un’esperienza di visualizzazione più organizzata e personale.
+Per esaminare le immagini da vicino, questo visualizzatore offre inoltre degli strumenti di zoom. Potete rendere le destinazioni di zoom guidate e le mappe immagine parte del set di immagini. I set di immagini forniscono un’esperienza di visualizzazione più coerente e mirata.
 
 Vedi [Set di immagini e 360 gradi: video di formazione su Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
@@ -44,13 +41,13 @@ Quando crei un set di immagini, Adobe consiglia le seguenti best practice e appl
 
 Vedi anche [Limitazioni di Dynamic Media](/help/using/limitations.md).
 
-La Guida introduttiva per set di immagini riportata di seguito è stata progettata per consentirti di iniziare rapidamente a lavorare con le tecniche per set di immagini in Adobe Dynamic Media Classic.
+La Guida introduttiva per i set di immagini seguente è stata progettata per consentire l&#39;utilizzo delle tecniche per i set di immagini in [!DNL Adobe Dynamic Media Classic].
 
 ## &#x200B;1. Carica le immagini primarie per più visualizzazioni e campioni
 
-Per iniziare, caricate le immagini per il set di immagini. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di immagini, assicurati di tenere presente questa possibilità quando scegli le immagini. Assicurati che le dimensioni delle immagini siano di almeno 2000 pixel. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG e EPS senza perdita di dati.
+Per iniziare, caricate le immagini per il set di immagini. Poiché gli utenti possono eseguire lo zoom avanti sulle immagini nel Visualizzatore set di immagini, assicurati di valutare questa funzione quando scegli le immagini. Assicurati che le immagini siano almeno 2000 pixel nella dimensione più grande. Adobe Dynamic Media Classic supporta molti formati di file immagine, ma si consiglia di utilizzare immagini TIFF, PNG e EPS senza perdita di dati.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella su Adobe Dynamic Media Classic.
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella in Adobe Dynamic Media Classic.
 
 Consulta [Preparare le risorse del set di immagini per il caricamento](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
 
@@ -58,7 +55,7 @@ Consulta [Preparare le risorse del set di immagini per il caricamento](preparing
 
 In Set di immagini, gli utenti selezionano le miniature nel Visualizzatore set di immagini per visualizzare un&#39;immagine da un lato o da un angolo diverso.
 
-Per creare un set di immagini, sulla barra di navigazione globale, seleziona **[!UICONTROL Build]**, quindi scegli **[!UICONTROL Set di immagini]**. Nella finestra Set di immagini trascinare le immagini nella pagina per comporre il set di immagini. Organizzate, aggiungete ed eliminate le immagini in base alle vostre esigenze.
+Per creare un set di immagini, sulla barra di navigazione globale, seleziona **[!UICONTROL Build]**, quindi scegli **[!UICONTROL Set di immagini]**. Per comporre il set di immagini, trascinate le immagini nella pagina della finestra Set di immagini. Organizzate, aggiungete ed eliminate le immagini in base alle vostre esigenze.
 
 Vedi [Creare un set di immagini](creating-image-set.md#creating-an-image-set).
 
@@ -86,7 +83,7 @@ Quando si pubblica un set di immagini, questo viene posizionato sui server Adobe
 >
 >Questo passaggio non è necessario se hai selezionato **[!UICONTROL Pubblica dopo un salvataggio]** (impostazione predefinita) al momento della creazione e del salvataggio del set di immagini.
 
-Seleziona l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome nel pannello Sfoglia. Quindi seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
+Selezionare l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome nel pannello Sfoglia. Quindi seleziona **[!UICONTROL Pubblica]**. Nella pagina Pubblicazione, seleziona **[!UICONTROL Invia pubblicazione]**.
 
 Vedi [File di pubblicazione](publishing-files.md#publishing-files).
 
