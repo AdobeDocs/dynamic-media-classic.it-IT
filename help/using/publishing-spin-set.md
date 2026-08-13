@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 149675d236e33ffb14ef1dee7eae6f405fc06325
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 176
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ Quando si pubblica un set 360 gradi, le immagini vengono inserite nel set in ser
 
 ## Contrassegnare un set 360 gradi per la pubblicazione {#marking-a-spin-set-for-publish}
 
-Contrassegna il set 360 gradi per la pubblicazione per copiarlo nei server immagini Adobe Dynamic Media Classic. Puoi contrassegnare il set 360 gradi per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome. Quando il set 360 gradi è contrassegnato per la pubblicazione, anche tutte le immagini in esso contenute sono contrassegnate per la pubblicazione.
+Contrassegna il set 360 gradi per pubblicarlo e copiarlo nei server immagini Adobe Dynamic Media Classic. Puoi contrassegnare il set 360 gradi per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]** a sinistra del nome. Quando il set 360 gradi è contrassegnato per la pubblicazione, anche tutte le immagini in esso contenute sono contrassegnate per la pubblicazione.
 
 ## Pubblicare il set 360 gradi {#publishing-the-spin-set}
 

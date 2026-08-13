@@ -1,5 +1,5 @@
 ---
-title: Pubblicare i modelli
+title: Pubblica modelli
 description: Scopri come pubblicare modelli da Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e78479f4044d2af484db2dd9783cbcff7940ea59
 workflow-type: tm+mt
-source-wordcount: 172
-ht-degree: 11%
+source-wordcount: 171
+ht-degree: 1%
 
 ---
 
@@ -31,11 +31,11 @@ Quando si pubblica un modello, questo viene collocato nei server di immagini Dyn
 
 >[!NOTE]
 >
->per usare il modello, pubblicate tutti i contenuti utilizzati per la sua realizzazione, inclusi font e immagini. Se non includi tutti i file richiesti, quando pubblichi viene visualizzato un messaggio di errore.
+>Per utilizzare il modello, pubblica tutti i contenuti necessari per crearlo, inclusi font e immagini. Se non includi tutti i file richiesti, quando pubblichi viene visualizzato un messaggio di errore.
 
 ## Contrassegnare i modelli per la pubblicazione {#marking-templates-for-publish}
 
-I modelli e tutti i relativi file di supporto devono essere contrassegnati per la pubblicazione affinché possano essere inseriti nei server di immagini Dynamic Media. Puoi contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]**.
+Affinché i modelli e tutti i relativi file di supporto siano inseriti nei server di immagini Dynamic Media, è necessario contrassegnarli per la pubblicazione. È possibile contrassegnare questi elementi per la pubblicazione nel pannello Sfoglia selezionando l&#39;icona **[!UICONTROL Contrassegna per pubblicazione]**.
 
 ## Pubblicare il modello {#publishing-your-template}
 

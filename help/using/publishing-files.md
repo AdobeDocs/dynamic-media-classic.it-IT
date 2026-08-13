@@ -1,5 +1,5 @@
 ---
-title: Pubblicare i file
+title: Pubblica file
 description: Scopri come pubblicare le risorse sui server di immagini Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 21%
+source-wordcount: 1669
+ht-degree: 17%
 
 ---
 
@@ -29,21 +29,21 @@ ht-degree: 21%
 
 Pubblichi le risorse sui server di immagini Dynamic Media. Puoi pubblicare le risorse una tantum o fare in modo che Adobe Dynamic Media Classic pubblichi le risorse in base a una pianificazione ricorrente. Dopo aver pubblicato le risorse, queste sono disponibili per la distribuzione. Puoi copiare le chiamate URL da Adobe Dynamic Media Classic e aggiungerle al sito web o all’applicazione.
 
-Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata utilizza il protocollo HTTP/2 per distribuirla. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, consentendo tempi di risposta e di caricamento migliori per tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic ora supporta la distribuzione di tutte le immagini e i video tramite HTTP/2. In altre parole, è disponibile un URL pubblicato o un codice di incorporamento per l’immagine o il video da integrare con qualsiasi applicazione che accetta una risorsa in hosting. La risorsa pubblicata utilizza il protocollo HTTP/2 per distribuirla. Questo metodo di distribuzione migliora il modo in cui browser e server comunicano, migliorando i tempi di risposta e di caricamento di tutte le risorse Adobe Dynamic Media Classic. Consulta [Domande frequenti sulla distribuzione HTTP2 dei contenuti](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Pubblica dopo il caricamento {#publish-after-uploading}
 
-Risorse in stato pubblicato o non pubblicato. Per impostazione predefinita, tutte le risorse caricate in Adobe Dynamic Media Classic vengono automaticamente contrassegnate per la pubblicazione.
+Assets sono in stato pubblicato o non pubblicato. Per impostazione predefinita, tutte le risorse caricate in Adobe Dynamic Media Classic vengono automaticamente contrassegnate per la pubblicazione.
 
 Per ulteriori informazioni, vedere l&#39;[Avviso di pubblicazione immediata PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-Per contrassegnare le risorse per la pubblicazione, utilizzare le tecniche riportate di seguito.
+Per contrassegnare le risorse per la pubblicazione, utilizza le seguenti tecniche:
 
 * **[!UICONTROL Pubblica dopo il caricamento]**: nella pagina Carica, in basso, selezionare **[!UICONTROL Pubblica dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
 
 * **[!UICONTROL Pubblica dopo il caricamento]**: nella finestra di dialogo Opzioni processo selezionare **[!UICONTROL Pubblica dopo il caricamento]**. Per impostazione predefinita, questa opzione è selezionata.
 
-Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblicazione quando lo sono anche le relative risorse principali. In questa tabella sono elencate le risorse figlie contrassegnate automaticamente per la pubblicazione.
+Alcune risorse dipendenti vengono contrassegnate automaticamente per la pubblicazione quando le relative risorse principali sono contrassegnate per la pubblicazione. In questa tabella sono elencate le risorse secondarie contrassegnate per la pubblicazione automatica.
 
 | Elemento principale (gruppo) | Elementi secondari (membro) |
 | --- | --- |
@@ -52,11 +52,11 @@ Alcune risorse secondarie vengono contrassegnate automaticamente per la pubblica
 | Set 360 gradi | Immagini nel set. |
 | Modelli | File modello, pagine e immagini. |
 
-Anche le immagini derivate vengono contrassegnate automaticamente per la pubblicazione quando vengono pubblicate le immagini principali. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Puoi vedere queste immagini derivate nella sezione Visualizzazione dettagli in Generato e derivati.
+Le immagini derivate vengono inoltre contrassegnate automaticamente per la pubblicazione quando vengono pubblicate le immagini padre. Le immagini derivate includono le immagini modificate mediante le opzioni di modifica delle immagini. Puoi vedere queste immagini derivate nella sezione Visualizzazione dettagli in Generato e derivati.
 
 ## Creare un processo di pubblicazione {#creating-a-publish-job}
 
-Crea un processo di pubblicazione per pubblicare le risorse caricate sui server Adobe Dynamic Media Classic ma non vuoi che vengano pubblicate automaticamente al momento. È possibile eseguire un job di pubblicazione una tantum o pianificare job da riutilizzare regolarmente. Adobe Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
+Crea un processo di pubblicazione per pubblicare le risorse caricate sui server Adobe Dynamic Media Classic. Utilizzalo per le risorse di cui non desideri che vengano pubblicate automaticamente. È possibile eseguire un job di pubblicazione una tantum o pianificare job da riutilizzare regolarmente. Adobe Dynamic Media Classic offre opzioni di pubblicazione avanzate per la pubblicazione su server specifici e opzioni per la ripubblicazione delle risorse già pubblicate.
 
 **Per creare un processo di pubblicazione:**
 
@@ -94,7 +94,7 @@ Vedere [Intervallo di tempo caricamento o pubblicazione personalizzato](checking
 
 >[!NOTE]
 >
->i processi di pubblicazione (e caricamento) periodici vengono visualizzati nella pagina Processi. Per modificare o eliminare un processo pianificato, usate la scheda Pianificati della pagina Processi.
+>i processi di pubblicazione (e caricamento) periodici vengono visualizzati nella pagina Processi. È possibile modificare o eliminare un job pianificato dalla scheda Pianificato della pagina Job.
 
 ### Opzioni avanzate di pubblicazione {#advanced-publish-options}
 
@@ -122,9 +122,9 @@ Per annullare un processo di pubblicazione, passare alla pagina Processi e selez
 
 ## Pubblicare le risorse manualmente {#manually-publishing-assets}
 
-Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando pubblichi dei set, ad esempio un set di immagini o un set di video adattivi, vengono pubblicati il set (o &quot;principale&quot;) e tutti i membri (o &quot;secondari&quot;) al suo interno.
+Potete pubblicare manualmente singole risorse anziché creare un processo di pubblicazione. Quando si pubblicano i set, vengono pubblicati il padre e tutti gli elementi secondari all&#39;interno del set.
 
-Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona rotonda grigia con una barra (&quot;stato non pubblicato&quot;) a sinistra del nome della risorsa. Dopo la pubblicazione, l’icona della risorsa diventa verde e presenta un segno di spunta bianco al centro (stato Pubblicato).
+Un’icona rotonda grigia con una linea che la attraversa (stato non pubblicato) a sinistra del nome della risorsa indica risorse non pubblicate nell’interfaccia utente. Dopo la pubblicazione, l’icona della risorsa diventa verde e presenta un segno di spunta bianco al centro (stato Pubblicato).
 
 **Per pubblicare manualmente le risorse:**
 
@@ -134,13 +134,13 @@ Le risorse non pubblicate sono indicate nell’interfaccia utente da un’icona 
 
      Sulla barra di navigazione globale, vai a **[!UICONTROL File]** > **[!UICONTROL Pubblica]**.
 
-   * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia arrotondata con una barra che la attraversa, a sinistra del nome della risorsa.
+   * Nella Vista griglia, Vista elenco o Vista dettagli, seleziona l’icona grigia arrotondata con una linea che la attraversa, a sinistra del nome della risorsa.
 
 ## Annullare la pubblicazione manuale delle risorse {#manually-unpublishing-assets}
 
-Potete annullare la pubblicazione di singole risorse manualmente. Quando annulli la pubblicazione di un set, ad esempio un set di campioni o un eCatalog, il set (o &quot;principale&quot;) passa a uno stato non pubblicato. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
+Potete annullare la pubblicazione di singole risorse manualmente. Quando annulli la pubblicazione dei set, lo stato dell’elemento principale diventa non pubblicato. Tuttavia, i membri (o &quot;figli&quot;) all&#39;interno di quel set non sono interessati; invece, ciascuno di essi mantiene il proprio stato pubblicato o non pubblicato esistente.
 
-Le risorse pubblicate sono indicate nell’interfaccia utente da un’icona rotonda, verde, con un segno di spunta bianco al centro (stato di pubblicazione), a sinistra del nome della risorsa. Dopo aver annullato la pubblicazione di una risorsa, l’icona diventa grigia con una barra (&quot;stato non pubblicato&quot;);
+Un’icona rotonda, verde, con un segno di spunta bianco al centro (stato pubblicato) a sinistra del nome della risorsa indica le risorse pubblicate nell’interfaccia utente. Dopo l’annullamento della pubblicazione di una risorsa, l’icona diventa grigia e racchiusa in una linea (stato non pubblicato).
 
 **Per annullare la pubblicazione manuale delle risorse:**
 
@@ -158,11 +158,11 @@ La data dell’ultima pubblicazione di una risorsa viene visualizzata in Vista d
 
 ## Risorse pubblicate e ritardi CDN {#republished-assets-and-cdn-delays}
 
-Le risorse Adobe Dynamic Media Classic vengono distribuite sulla rete CDN (Content Delivery Network). Una rete CDN è un sistema di computer server collegati tra di loro per collaborare in maniera trasparente alla distribuzione di contenuti, specialmente contenuti multimediali di grandi dimensioni, agli utenti finali. Nel sistema CDN, il contenuto Web viene memorizzato nelle cache Web in Internet (rete di cache Edge). I contenuti web vengono consegnati dalle cache web agli utenti finali per velocizzare le consegne.
+Le risorse Adobe Dynamic Media Classic vengono distribuite sulla rete CDN (Content Delivery Network). CDN è un sistema di server informatici collegati in rete. Collaborano per distribuire agli utenti finali i contenuti, in particolare quelli di grandi dimensioni. Nel sistema CDN, il contenuto Web viene memorizzato nelle cache Web in Internet (rete di cache Edge). Il contenuto web viene distribuito dalle cache web agli utenti finali per fornire consegne più veloci.
 
-La prima volta che un utente scarica una pagina web, le risorse vengono inviate a un server di cache web CDN. Questo server le memorizza in modo che, al successivo accesso alla pagina Web da parte di un utente nella stessa area, lo stesso contenuto memorizzato nella cache venga distribuito più rapidamente. Il contenuto viene distribuito più velocemente perché si trova più vicino all’utente finale. La rete CDN consente una visualizzazione più rapida delle pagine web. Una rete CDN diminuisce le esigenze di larghezza di banda sul server centrale perché il contenuto viene distribuito dalla rete di edge caching e non da un server centrale in ogni istanza.
+La prima volta che un utente scarica una pagina web, le risorse vengono inviate a un server di cache web CDN. Questo server le memorizza in modo che, al successivo accesso alla pagina Web da parte di un utente nella stessa area, lo stesso contenuto memorizzato nella cache venga distribuito più rapidamente. Il contenuto viene distribuito più velocemente perché si trova più vicino all’utente finale. La rete CDN consente di visualizzare più rapidamente le pagine web. Una rete CDN diminuisce le esigenze di larghezza di banda sul server centrale perché il contenuto viene distribuito dalla rete di edge caching e non da un server centrale in ogni istanza.
 
-Il contenuto Adobe Dynamic Media Classic appena pubblicato è immediatamente disponibile per l’utente finale e popola rapidamente la rete della cache edge. Tuttavia, i contenuti ripubblicati, ovvero le immagini con gli stessi nomi di quelle pubblicate in precedenza su un server immagini, non vengono aggiornati sulla rete CDN per un massimo di dieci ore. Al contrario, gli utenti finali visualizzano ciò che si trova in una cache web sulla rete CDN. Per questo motivo, le risorse Adobe Dynamic Media Classic ripubblicate non vengono visualizzate agli utenti finali per dieci ore.
+Il contenuto Adobe Dynamic Media Classic appena pubblicato è immediatamente disponibile per l’utente finale e popola rapidamente la rete della cache edge. Tuttavia, i contenuti ripubblicati, ovvero le immagini con lo stesso nome di quelle pubblicate in precedenza su un server immagini, non vengono aggiornati sulla rete CDN per un massimo di dieci ore. Al contrario, gli utenti finali visualizzano ciò che si trova in una cache web sulla rete CDN. Per questo motivo, le risorse Adobe Dynamic Media Classic ripubblicate non vengono visualizzate agli utenti finali per dieci ore.
 
 Se desideri che le nuove risorse immagine ripubblicate siano disponibili prima del ritardo di dieci ore, puoi eseguire il flushing delle cache web su CDN. Il flushing di queste cache web rimuove il contenuto obsoleto dalle cache web CDN e lo sostituisce con le risorse pubblicate più di recente.
 
