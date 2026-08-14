@@ -22,20 +22,20 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: afc1e5c58de547307108448ae111af91f1f482e7
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 23%
+source-wordcount: 690
+ht-degree: 17%
 
 ---
 
 # Guida introduttiva: Integrare Adobe Dynamic Media Classic e Adobe Analytics {#quick-start-integrating-dmc-analytics}
 
-Adobe Analytics è il prodotto leader di settore che offre agli addetti marketing un punto unico da cui misurare, analizzare e ottimizzare i dati integrati da tutte le iniziative online attraverso più canali di marketing.
+Adobe Analytics è il prodotto leader di settore che offre agli esperti di marketing una posizione centralizzata da cui misurare, analizzare e ottimizzare i dati integrati di tutte le iniziative online su più canali di marketing.
 
 Dopo aver integrato Adobe Analytics con Adobe Dynamic Media Classic, puoi ottenere rapporti sul comportamento dei visitatori del sito web utilizzando i visualizzatori Adobe Dynamic Media Classic sul tuo sito web. Ad esempio, quando un visitatore di un sito web seleziona una destinazione di zoom in un Visualizzatore zoom di Adobe Dynamic Media Classic, Adobe Analytics registra questa azione. I rapporti di Adobe Analytics possono raccogliere informazioni cumulative sull’attività degli utenti nei visualizzatori Adobe Dynamic Media Classic.
 
-Utilizzando i rapporti di Adobe Analytics, potete ricavare un’immagine chiara delle attività dei clienti sul vostro sito Web. Puoi determinare quali presentazioni di prodotti portano alla conversione e quali non attirano l’interesse dei clienti.
+Utilizzando i rapporti di Adobe Analytics, puoi comprendere l’attività dei clienti sul tuo sito web. Puoi determinare quali presentazioni di prodotti portano alla conversione e quali non attirano l’interesse dei clienti.
 
 Vedi anche [Misura video in Adobe Analytics](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
 
@@ -43,19 +43,19 @@ Vedi anche [Misura video in Adobe Analytics](https://experienceleague.adobe.com/
 >
 >È necessario un account Adobe Analytics valido per integrare Analytics con Adobe Dynamic Media Classic e generare i rapporti di Analytics.
 
-Questa guida rapida è stata progettata per aiutarti a iniziare rapidamente a lavorare con Adobe Analytics Instrumentation Kit.
+Questa guida è stata progettata per aiutarti a configurare Adobe Analytics Instrumentation Kit.
 
-## &#x200B;1. Accedi ad Adobe Analytics tramite Adobe Dynamic Media Classic e scarica le variabili del rapporto di Adobe Analytics
+## &#x200B;1. Accedi ad Adobe Analytics da Adobe Dynamic Media Classic e scarica le variabili del rapporto di Adobe Analytics
 
 >[!NOTE]
 >
->Verifica di essere stato aggiunto come membro del gruppo Accesso al servizio Web in Adobe Analytics. Esegui questa verifica prima di configurare i rapporti di Adobe Analytics. E, prima di associare le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate. Puoi farlo utilizzando l’API dei servizi web di Experience Cloud indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
+>Verifica di essere stato aggiunto come membro del gruppo Accesso al servizio Web in Adobe Analytics. Esegui questa verifica prima di configurare i rapporti di Adobe Analytics e prima di associare le variabili di rapporto di Adobe Analytics agli eventi di Adobe Dynamic Media Classic. I membri di questo gruppo possono accedere a tutti i rapporti nelle suite di rapporti specificate. Puoi eseguire questa azione utilizzando l’API dei servizi web di Experience Cloud indipendentemente dalle autorizzazioni impostate nell’interfaccia. Per aggiungere un membro al gruppo, in Adobe Analytics vai a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** > **[!UICONTROL Modifica gruppi]**.
 
 Dopo aver verificato di essere membro del gruppo di accesso al servizio Web, in Adobe Dynamic Media Classic, passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Adobe Analytics]**. Nella pagina Configurazione di Adobe Analytics, seleziona **[!UICONTROL Accesso Adobe Analytics]**.
 
 Vedere [Accesso ad Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Nella finestra di dialogo Accesso ad Adobe Analytics, digita il tuo ID organizzazione Experience Cloud (facoltativo) e le tue credenziali complete, quindi seleziona **[!UICONTROL Accesso]**. Dall’elenco a discesa Report Suite (Suite rapporti), selezionate il nome della suite di rapporti che intendete usare.
+Nella finestra di dialogo Accesso di Adobe Analytics digita il tuo ID organizzazione Experience Cloud (facoltativo) e le credenziali complete, quindi seleziona **[!UICONTROL Accesso]**. Dall’elenco a discesa Report Suite (Suite rapporti), selezionate il nome della suite di rapporti che intendete usare.
 
 ## &#x200B;2. Assegnare le variabili di rapporto di Adobe Analytics agli eventi visualizzatore Adobe Dynamic Media Classic e alle variabili Adobe Dynamic Media Classic
 

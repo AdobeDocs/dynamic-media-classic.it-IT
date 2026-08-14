@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 23%
 
 ---
 
@@ -65,7 +65,7 @@ Durante la creazione di un eCatalog, potete ordinare le pagine o affiancarle com
 >
 >Ora puoi creare eCatalog in Adobe Dynamic Media Classic.
 
-Questa sezione è stata progettata per aiutarvi a imparare a usare rapidamente gli eCatalog. Seguite i passaggi da 1 a 7. Dopo ogni passaggio, viene inserito un riferimento incrociato a un titolo di argomento in cui è possibile trovare ulteriori informazioni.
+Questo eCatalog Quick Start è stato progettato per aiutarti a iniziare rapidamente a utilizzare gli eCatalog. Seguite i passaggi da 1 a 7. Dopo ogni passaggio, viene inserito un riferimento incrociato a un titolo di argomento in cui è possibile trovare ulteriori informazioni.
 
 ## &#x200B;1. Carica i file PDF
 
@@ -83,7 +83,7 @@ Per creare l&#39;eCatalog, selezionate PDF o i file immagine nel pannello Sfogli
 
 Nella scheda **[!UICONTROL Ordina pagine]** della pagina eCatalog selezionare un&#39;opzione Layout: **[!UICONTROL 1 Su]**, **[!UICONTROL 2 Su]** o **[!UICONTROL Personalizzato]**. Potete riordinare le pagine o pagine affiancate trascinandole oppure, negli eCatalog di grandi dimensioni, scegliendo un nome di pagina nel menu Sposta a.
 
-Per aggiungere delle pagine, selezionate una cartella nella Libreria risorse, quindi trascinate i file PDF o i file di immagini nella schermata Ordina pagine. Invece dei numeri di pagina predefiniti, puoi fornire nomi di pagina personalizzati o importare più nomi di pagina.
+Per aggiungere pagine, seleziona una cartella nella Libreria risorse, quindi trascina i file PDF o di immagine nella schermata Ordina pagine. Invece dei numeri di pagina predefiniti, puoi fornire nomi di pagina personalizzati o importare più nomi di pagina.
 
 Seleziona **[!UICONTROL Salva]**, immetti un nome per l&#39;eCatalog, scegli una cartella Adobe Dynamic Media Classic per memorizzarlo e seleziona **[!UICONTROL Salva]**. Ogni volta che modifichi l&#39;ordine delle pagine o l&#39;eCatalog, salva le modifiche selezionando **[!UICONTROL Salva]**.
 
@@ -135,6 +135,6 @@ Consulta [Pubblicare eCatalog e PDF associati](publishing-ecatalogs-associated-p
 
 Adobe Dynamic Media Classic attiva la stringa di callout URL necessaria per visualizzare l’eCatalog quando viene pubblicato su server di immagini Dynamic Media. Puoi copiare questa stringa di URL dalla schermata Anteprima e dal pannello Sfoglia (in Vista dettagli) selezionando URL nel pannello. Dopo aver copiato la stringa URL, questa sarà disponibile per i siti Web e le applicazioni.
 
-Collabora con il tuo team IT per inserire il collegamento all’eCatalog nella posizione appropriata all’interno della pagina Web. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore eCatalog e gli utenti possono sfogliare l&#39;eCatalog.
+Per inserire il collegamento all&#39;eCatalog nella pagina Web, rivolgersi al team IT. Quando gli utenti selezionano il collegamento, viene visualizzato il visualizzatore eCatalog e gli utenti possono sfogliare l&#39;eCatalog.
 
 Vedi [Collegare un eCatalog a una pagina Web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
