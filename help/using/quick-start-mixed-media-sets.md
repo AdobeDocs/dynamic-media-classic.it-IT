@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: f5b282e36a7c765b37cecc24edb829e36169e5c3
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 17%
+source-wordcount: 688
+ht-degree: 18%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 17%
 
 I set di file multimediali diversi offrono agli utenti un’esperienza di visualizzazione integrata. I set di file multimediali diversi possono includere immagini, set di immagini, set di campioni, set 360 gradi e video. Gli utenti possono selezionare diverse schede all’interno del visualizzatore di file multimediali diversi per visualizzare gli elementi nei diversi visualizzatori. Se non è specificata alcuna scheda, tutte le risorse sono visualizzate insieme nella riga dei campioni.
 
-I predefiniti visualizzatore set di file multimediali diversi includono le opzioni della community che consentono agli utenti finali di incorporare codice, copiare URL e creare collegamenti al sito Web principale. Gli utenti possono utilizzare queste opzioni per condividere informazioni sui prodotti sui propri siti Web personali o sui siti di social networking.
+I predefiniti visualizzatore set di file multimediali diversi includono opzioni della community per gli utenti finali per incorporare codice, copiare URL e collegare il sito web principale. Gli utenti possono usare queste opzioni per scambiarsi informazioni sui prodotti sui propri siti Web o sui siti di social networking.
 
-Questo servizio Quick Start per set di file multimediali diversi è stato progettato per aiutarti a iniziare rapidamente a utilizzare le tecniche di set di file multimediali diversi in Adobe Dynamic Media Classic.
+Questo Guida introduttiva sui set di file multimediali diversi è stato progettato per aiutarti a iniziare a utilizzare le tecniche relative ai set di file multimediali diversi in Adobe Dynamic Media Classic.
 
 ## &#x200B;1. Carica immagini, file campione e video
 
-Per iniziare, caricate le immagini, i file di campioni e i video che desiderate inserire nei set di file multimediali diversi. Poiché gli utenti possono eseguire lo zoom sulle immagini nel Visualizzatore set di file multimediali diversi, assicurati di tenere presente questa funzione quando scegli le immagini. Assicurati che le dimensioni delle immagini siano di almeno 2000 pixel.
+Carica immagini, file campione e video per i set di file multimediali diversi. Poiché gli utenti possono ingrandire le immagini nel Visualizzatore set di file multimediali diversi, assicurati di testare questa funzione quando scegli le immagini. Assicurati che le immagini siano almeno 2000 pixel nella dimensione più grande.
 
 Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella su Adobe Dynamic Media Classic.
 
@@ -73,7 +73,7 @@ Vedi [Visualizzare l&#39;anteprima di una risorsa](previewing-asset.md#previewin
 
 La pubblicazione di un set di file multimediali diversi lo inserisce sui server Adobe Dynamic Media Classic e attiva la stringa URL.
 
-i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Utilizza **Server video** per pubblicare i video effettivi contrassegnati per la pubblicazione. È inoltre possibile utilizzare **Image Server** per pubblicare le risorse correlate, ad esempio le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivo.
+i set di file multimediali diversi devono essere pubblicati sia sul **server video** che sul **server immagini**. Utilizza **Server video** per pubblicare i video effettivi contrassegnati per la pubblicazione. Si utilizza **Image Server** per pubblicare le risorse correlate, ad esempio le miniature dei video, e impostare le informazioni per qualsiasi set di video adattivi.
 
 Consulta [Pubblicare un set di file multimediali diversi](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
