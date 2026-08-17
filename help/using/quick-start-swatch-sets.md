@@ -12,38 +12,35 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:43.672Z'
 TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 21%
+source-wordcount: 398
+ht-degree: 17%
 
 ---
 
 # Avvio rapido: set di campioni{#quick-start-swatch-sets}
 
-I set di campioni Adobe Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Nel visualizzatore dinamico set di campioni, gli utenti possono visualizzare un elemento di cui è stato eseguito il rendering con un colore, un materiale, una trama, una finitura o un&#39;infrastruttura diversi semplicemente selezionando una miniatura.
+I set di campioni Adobe Dynamic Media Classic offrono agli utenti un’esperienza di visualizzazione integrata. Utilizzando il visualizzatore dinamico set di campioni, selezionando una miniatura, gli utenti possono visualizzare un elemento di cui è stato eseguito il rendering con un colore, un materiale, una trama, una finitura o un&#39;infrastruttura diversi.
 
-Questa Guida introduttiva per set di campioni è stata progettata per aiutarti a iniziare rapidamente a utilizzare le tecniche per set di campioni in Adobe Dynamic Media Classic.
+Questo Guida introduttiva per set di campioni è stato progettato per aiutarvi a iniziare a utilizzare le tecniche per set di campioni in Adobe Dynamic Media Classic.
 
 ## &#x200B;1. Caricare le immagini e i file campione
 
 Per iniziare, caricate le immagini e i file campione per il set di campioni.
 
-Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella su Adobe Dynamic Media Classic. Consulta [Preparare le risorse del set di campioni per il caricamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
+Sulla barra di navigazione globale, seleziona **[!UICONTROL Carica]** per caricare i file dal computer in una cartella in Adobe Dynamic Media Classic. Consulta [Preparare il set di campioni Assets per il caricamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Caricare i file](uploading-files.md#uploading-your-files).
 
 ## &#x200B;2. Creazione di un set di campioni
 
 Per creare un set di campioni, vai a **[!UICONTROL Build]** > **[!UICONTROL Set di campioni]** nella barra di navigazione globale. Nella pagina Set di campioni, trascina le immagini e i campioni di colore sulla pagina. Vedere [Creare un set di campioni](creating-swatch-set.md#creating-a-swatch-set).
 
-## &#x200B;3. Impostare i predefiniti visualizzatore per set di campioni
+## &#x200B;3. Configura predefiniti visualizzatore set di campioni
 
-Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore per ogni tipo di file rich media. Per visualizzare i set di campioni, usate il visualizzatore zoom: Personalizzato > predefiniti Set immagini/Campioni colore.
+Gli amministratori possono creare e modificare i predefiniti per i visualizzatori di set di immagini. Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore per ogni tipo di file rich media. Per visualizzare i set di campioni, usate il Visualizzatore zoom: Personalizzato > Set immagini/Predefiniti campioni colore.
 
 Consulta [Creare e modificare i predefiniti visualizzatore](application-setup.md#adding-and-editing-viewer-presets).
 
