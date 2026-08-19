@@ -1,5 +1,5 @@
 ---
-title: Cercare risorse Dynamic Media Classic
+title: Cerca in Dynamic Media Classic Assets
 description: Scopri come cercare le risorse in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,10 +21,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
-source-wordcount: 1521
-ht-degree: 17%
+source-wordcount: 1501
+ht-degree: 16%
 
 ---
 
@@ -38,15 +38,15 @@ Per individuare le risorse file in Adobe Dynamic Media Classic, puoi visualizzar
 
 ## Visualizzare le risorse per tipo {#viewing-assets-by-type}
 
-Per visualizzare solo i file di un determinato tipo mentre si esplora, nell&#39;elenco a discesa **[!UICONTROL Mostra]** della Raccolta risorse sul lato sinistro scegliere un tipo di file. Solo le risorse del tipo che hai scelto di mostrare vengono visualizzate nella Libreria risorse.
+Per visualizzare solo i file di un determinato tipo durante l&#39;esplorazione, scegliere un tipo di file nell&#39;elenco a discesa **[!UICONTROL Mostra]** nella Libreria risorse a sinistra. Solo le risorse del tipo che hai scelto di mostrare vengono visualizzate nella Libreria risorse.
 
 >[!NOTE]
 >
->Se il pannello Libreria risorse non viene visualizzato sul lato sinistro, fai clic sulla freccia del triangolo destro sul lato sinistro, a metà della finestra di Dynamic Media Classic, per aprire Libreria risorse.
+>Se il pannello Libreria risorse è nascosto, fai clic sulla freccia triangolare destra al centro della finestra di Dynamic Media Classic per visualizzarlo.
 
 ## Ordinare i file nel pannello Sfoglia {#sorting-files-in-the-browse-panel}
 
-Potete ordinare il contenuto di una cartella o i risultati della ricerca visualizzati nel pannello Sfoglia sul lato destro. Sulla barra di spostamento globale selezionare **[!UICONTROL Ordina]**, quindi scegliere un&#39;opzione. Le opzioni sono **[!UICONTROL Nome]**, **[!UICONTROL Dimensione (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Data creazione]** e **[!UICONTROL Ultima modifica]**.
+Potete ordinare il contenuto di una cartella o i risultati della ricerca visualizzati nel pannello Sfoglia. Sulla barra di spostamento globale selezionare **[!UICONTROL Ordina]**, quindi scegliere un&#39;opzione. Le opzioni sono **[!UICONTROL Nome]**, **[!UICONTROL Dimensione (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Data creazione]** e **[!UICONTROL Ultima modifica]**.
 
 Puoi anche scegliere **[!UICONTROL Crescente]** o **[!UICONTROL Decrescente]** per ordinare le risorse in ordine crescente o decrescente in base ai criteri scelti.
 
@@ -57,7 +57,7 @@ Nella Vista a elenco, puoi ordinare selezionando un nome di colonna.
 Utilizza il campo Ricerca nella Libreria risorse per eseguire ricerche semplici. Potete cercare elementi in base al nome o elementi i cui metadati contengono una parola chiave.
 
 1. Nel pannello **[!UICONTROL Cartelle]** della Libreria risorse, seleziona la cartella in cui eseguire la ricerca e le relative sottocartelle.
-1. A sinistra del campo Ricerca nella libreria di risorse, seleziona l&#39;icona **[!UICONTROL Lente di ingrandimento]** per aprire l&#39;elenco a discesa.
+1. A sinistra del campo Ricerca nella libreria di risorse, seleziona l&#39;icona **[!UICONTROL Cerca]** per aprire l&#39;elenco a discesa.
 1. Nell’elenco a discesa, scegli un’opzione che descrive quanto stretta o ampia deve essere la ricerca. Puoi Scegliere **[!UICONTROL All&#39;interno di tutti i file e le cartelle]**, **[!UICONTROL All&#39;interno della cartella selezionata]** o **[!UICONTROL All&#39;interno della cartella selezionata e delle sottocartelle]**.
 1. Nel campo Ricerca immettere un termine di ricerca.
 1. A destra del campo di ricerca, selezionare **[!UICONTROL Vai]** o premere **[!UICONTROL Invio]**.
@@ -86,11 +86,11 @@ Specifica uno dei seguenti criteri nella ricerca avanzata:
 
 * **Criteri di ricerca**: creare uno o più campi di ricerca per la ricerca dei metadati. Per creare i campi di ricerca, effettuate le seguenti operazioni:
 
-   1. In Ricerca avanzata, sotto l&#39;intestazione **[!UICONTROL Criteri di ricerca]** e a sinistra del menu **[!UICONTROL Aggiungi campo]**, selezionare l&#39;icona freccia triangolare giù per aprire l&#39;elenco a discesa. Scegli una vista metadati. È possibile scegliere **[!UICONTROL Tutte le proprietà con valori]**, **[!UICONTROL Visualizzazione compatta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campi di pubblicazione server metadati]** o **[!UICONTROL XMP]**.
-   1. Selezionare il menu a discesa **[!UICONTROL Aggiungi campo]** e scegliere un nome di campo.
-   1. Scegli un&#39;opzione **[!UICONTROL Contiene]**: **[!UICONTROL Contiene]**, **[!UICONTROL Non contiene]**, **[!UICONTROL Inizia con]**, **[!UICONTROL Termina con]** o **[!UICONTROL È uguale a]**.
-   1. Per i campi numerici, scegliete un valore o immettete in intervallo di date personalizzato.
-   1. (Facoltativo) Ripeti i passaggi 1-4 per creare altri campi di ricerca.
+  1. In Ricerca avanzata, sotto l&#39;intestazione **[!UICONTROL Criteri di ricerca]** e a sinistra del menu **[!UICONTROL Aggiungi campo]**, selezionare l&#39;icona freccia triangolare giù per aprire l&#39;elenco a discesa. Scegli una vista metadati. È possibile scegliere **[!UICONTROL Tutte le proprietà con valori]**, **[!UICONTROL Visualizzazione compatta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campi di pubblicazione server metadati]** o **[!UICONTROL XMP]**.
+  1. Selezionare il menu a discesa **[!UICONTROL Aggiungi campo]** e scegliere un nome di campo.
+  1. Scegli un&#39;opzione **[!UICONTROL Contiene]**: **[!UICONTROL Contiene]**, **[!UICONTROL Non contiene]**, **[!UICONTROL Inizia con]**, **[!UICONTROL Termina con]** o **[!UICONTROL È uguale a]**.
+  1. Per i campi numerici, scegliete un valore o immettete in intervallo di date personalizzato.
+  1. (Facoltativo) Ripeti i passaggi 1-4 per creare altri campi di ricerca.
 
 Selezionare l&#39;icona **[!UICONTROL Rimuovi un campo di ricerca]** (cerchiare con &quot;X&quot; all&#39;interno) in modo che il campo di ricerca venga eliminato.
 
@@ -102,7 +102,7 @@ Selezionare **[!UICONTROL Cancella]** per cancellare i criteri di ricerca e avvi
 
 Potete filtrare le risorse mediante la scheda Filtri della Libreria risorse. Per filtrare le risorse vengono usati come criteri i valori dei metadati. Dopo aver scelto un campo di metadati su cui filtrare, la scheda Filtri elenca tutti i valori di metadati immessi nel campo scelto. Inoltre, elenca il numero di risorse a cui è stato assegnato ciascun valore. Ad esempio, in un&#39;operazione di filtro nel campo di metadati **[!UICONTROL Creator]**, nella scheda **[!UICONTROL Filters]** sono elencati tutti i nomi immessi nel campo di metadati **[!UICONTROL Creator]** per risorse diverse. Inoltre, elenca per ogni nome il numero di risorse assegnate al nome. Quindi seleziona un valore di metadati per visualizzare tutte le risorse a cui è stato assegnato tale valore. Nell&#39;esempio, si seleziona il valore di metadati `Prairie Cat` per visualizzare tutte le risorse in cui il nome `Prairie Cat` è stato immesso nel campo di metadati **[!UICONTROL Creator]**. È possibile filtrare la ricerca utilizzando più campi metadati come criteri di ricerca.
 
-Puoi salvare le operazioni filtro per eseguirle più volte.
+Per eseguire più volte le operazioni filtro, puoi salvarle.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Segui questi passaggi per individuare le risorse filtrandole con i relativi valo
 
 1. Nella Libreria risorse, seleziona la scheda **[!UICONTROL Filtri]**.
 
-   I criteri della precedente operazione filtro sono riportati nel riquadro Filtri. Il riquadro Filtri è suddiviso in pannelli, ciascuno dei quali rappresenta un campo di metadati. Utilizzate i pannelli per scegliere i campi di metadati da utilizzare come filtro, e in ciascun campo scegliete un valore.
+   I criteri della precedente operazione filtro sono riportati nel riquadro Filtri. Il riquadro Filtri è diviso in pannelli, ciascuno dei quali rappresenta un campo di metadati. Utilizzate i pannelli per scegliere i campi di metadati da utilizzare come filtro, e in ciascun campo scegliete un valore.
 
    Per eseguire un&#39;operazione filtro creata e salvata, selezionare **[!UICONTROL Seleziona predefinito]**, quindi scegliere il nome dell&#39;operazione dal menu.
 
@@ -164,13 +164,13 @@ Segui queste istruzioni nella scheda Filtri per salvare, ripetere ed eliminare l
 
 ## Utilizzare il server di metadati {#using-the-metadata-server}
 
-Il server di metadati è un’API pubblica che puoi utilizzare per cercare le risorse in base ai metadati tramite richieste http.
+Il server di metadati è un’API pubblica che puoi utilizzare per cercare le risorse in base ai metadati utilizzando richieste http.
 
 Per configurare il server metadati, passare a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server metadati]**.
 
 La pagina Server di pubblicazione server metadati consente di impostare le opzioni seguenti:
 
-* **[!UICONTROL Pubblicazione immediata]**: invia automaticamente le modifiche ai metadati quando vengono apportate, incluse nuove risorse, modifiche alle parole chiave e così via.
+* **[!UICONTROL Pubblicazione immediata]**: invia automaticamente le modifiche ai metadati quando vengono apportate, incluse nuove risorse, modifiche alle parole chiave e altri elementi correlati.
 
 * **[!UICONTROL Pacchetto XMP]**: pubblica il pacchetto XMP. Questo pacchetto non viene utilizzato per la ricerca, ma fornisce il XMP più aggiornato.
 

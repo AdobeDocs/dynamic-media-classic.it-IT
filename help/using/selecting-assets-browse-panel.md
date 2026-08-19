@@ -1,5 +1,5 @@
 ---
-title: Selezionare le risorse nel pannello Sfoglia
+title: Seleziona Assets nel pannello Sfoglia
 description: Scopri come selezionare le risorse nel pannello Sfoglia di Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7b153b6e9d49e5923925a6529e195588e8aba450
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: 106
 ht-degree: 18%
 
 ---
