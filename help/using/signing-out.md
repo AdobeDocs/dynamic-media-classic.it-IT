@@ -1,5 +1,5 @@
 ---
-title: Accedere e uscire da Adobe Dynamic Media Classic
+title: Accedere a e uscire da Adobe Dynamic Media Classic
 description: Scopri come effettuare l’accesso a e da Adobe Dynamic Media Classic. Scopri anche come connettersi a un server di produzione in Nord America (NA) o in Europa, Medio Oriente, Africa (EMEA) o Asia-Pacifico (APAC).
 contentOwner: Rick Brough
 content-type: reference
@@ -12,15 +12,10 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:13:28.471Z'
 TQID: 'https://experienceleague.adobe.com/YxTYiix-7QM3EtcrAvEKg6k1qLVKuqG-FtN0Ntqpr-Y'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 69ab9545c953152b98c0981abaef0d33f6b5683e
 workflow-type: tm+mt
 source-wordcount: 237
 ht-degree: 6%
@@ -33,7 +28,7 @@ ht-degree: 6%
 
 Prima di utilizzare l&#39;applicazione desktop Adobe Dynamic Media Classic, verificare che siano presenti le condizioni seguenti:
 
-* **Nome utente**: utilizzare l&#39;indirizzo di posta elettronica come nome di accesso.
+* **Nome utente**: utilizzare il proprio indirizzo di posta elettronica come nome utente.
 
 * **Password**: ottieni la tua password temporanea in un messaggio di posta elettronica di benvenuto da Adobe Dynamic Media Classic o dal tuo amministratore Adobe Dynamic Media Classic. La prima volta che effettuate l’accesso vi viene richiesto di cambiare la password temporanea.
 
