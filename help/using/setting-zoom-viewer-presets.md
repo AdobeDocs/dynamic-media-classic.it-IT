@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:28.286Z'
 TQID: 'https://experienceleague.adobe.com/dVCfolvS11dmHRlOF2OruJwM1TMM68lEtKy76l4LkC8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 96e28bfa7ee65d01d22591dc4a020507fe1d9a9d
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 40%
+source-wordcount: 632
+ht-degree: 31%
 
 ---
 
 # Impostare i predefiniti per visualizzatore zoom{#setting-up-zoom-viewer-presets}
 
-I predefiniti visualizzatore zoom determinano lo stile, il comportamento e l&#39;aspetto dei visualizzatori zoom. Adobe Dynamic Media Classic offre molte opzioni per personalizzare e affiancare i visualizzatori. Adobe Dynamic Media Classic viene fornito con predefiniti di base (veloci), fly-out e predefiniti personalizzati per visualizzatori zoom. Se siete amministratori, potete creare predefiniti visualizzatore zoom per la società o modificare un predefinito predefinito predefinito e salvarlo con un nuovo nome.
+I predefiniti visualizzatore zoom determinano lo stile, il comportamento e l&#39;aspetto dei visualizzatori zoom. Adobe Dynamic Media Classic offre molte opzioni per personalizzare e configurare i visualizzatori. Adobe Dynamic Media Classic viene fornito con predefiniti di base (veloci), fly-out e predefiniti personalizzati per visualizzatori zoom. Se siete amministratori, potete creare predefiniti visualizzatore zoom organizzativi o modificare un predefinito predefinito predefinito e salvarlo con un nuovo nome.
 
 Tutti i visualizzatori zoom includono pulsanti per applicare lo zoom in avanti, indietro, la panoramica e per ripristinare le stato originale dell’immagine dopo lo zoom. L&#39;aspetto di questi pulsanti e la modalità di visualizzazione della finestra dipendono dall&#39;impostazione dei predefiniti per visualizzatore zoom. Potete configurare un predefinito per visualizzatori zoom con diverse impostazioni di colori, bordi, font e immagine. Durante la configurazione di un Visualizzatore zoom guidato, potete anche scegliere dove posizionare le destinazioni di zoom. Le destinazioni di zoom sono miniature che gli utenti possono selezionare per applicare lo zoom alle aree specificate.
 
@@ -37,19 +34,19 @@ Adobe Dynamic Media Classic offre i seguenti predefiniti visualizzatore zoom:
 
 * **Visualizzatore zoom: base**: fornisce uno zoom di base sull&#39;immagine originale.
 
-* **Visualizzatore zoom: a comparsa**: visualizza una seconda immagine dell&#39;area ingrandita accanto all&#39;immagine originale. Non vi sono controlli; gli utenti devono semplicemente spostare la selezione sull’area da visualizzare.
+* **Visualizzatore zoom: a comparsa**: visualizza una seconda immagine dell&#39;area ingrandita accanto all&#39;immagine originale. Non sono presenti controlli; gli utenti spostano la selezione sull&#39;area che desiderano visualizzare.
 
-Quando calcolate l’utilizzo di larghezza di banda totale per questo visualizzatore, tenete presente che nel visualizzatore vengono caricate sia l’immagine principale che l’immagine a comparsa. La dimensione dell&#39;immagine a comparsa viene determinata utilizzando le dimensioni dell&#39;immagine principale (larghezza e altezza dello stage) e il fattore di zoom. Per impedire che le dimensioni del file dell’immagine a comparsa diventino eccessive, bilanciate questi due valori: se le dimensioni dell’immagine principale sono grandi, riducete il fattore di zoom. I valori Larghezza a comparsa e Altezza comparsa determinano le dimensioni della finestra a comparsa ma non dell’immagine a comparsa caricata nel visualizzatore.
+Quando determini l’utilizzo totale della larghezza di banda per questo visualizzatore, tieni presente che sia l’immagine principale che l’immagine a comparsa vengono fornite nel visualizzatore. La dimensione dell&#39;immagine a comparsa viene determinata utilizzando le dimensioni dell&#39;immagine principale (larghezza e altezza dello stage) e il fattore di zoom. Per impedire che le dimensioni del file dell’immagine a comparsa diventino eccessive, bilanciate questi due valori: se le dimensioni dell’immagine principale sono grandi, riducete il fattore di zoom. I valori Larghezza a comparsa e Altezza comparsa determinano le dimensioni della finestra a comparsa ma non dell’immagine a comparsa caricata nel visualizzatore.
 
-Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel, con un fattore di zoom pari a 3 l’immagine a comparsa risultante sarà di 1050 x 1050 pixel. Se le dimensioni dell’immagine principale sono 300 x 300 pixel, con un fattore di zoom pari a 4 l’immagine a comparsa risultante sarà di 1200 x 1200 pixel. In base alla qualità JPEG impostata (impostazioni consigliate: 80-90), potete ridurre sensibilmente le dimensioni del file. I fattori di zoom consigliati sono i valori compresi tra 2,5 e 4, a seconda delle dimensioni dell’immagine principale.
+Ad esempio, se le dimensioni dell’immagine principale sono 350 x 350 pixel, con un fattore di zoom pari a 3 l’immagine a comparsa risultante sarà di 1050 x 1050 pixel. Se le dimensioni dell’immagine principale sono 300 x 300 pixel, con un fattore di zoom pari a 4 l’immagine a comparsa risultante sarà di 1200 x 1200 pixel. A seconda dell&#39;impostazione di qualità di JPEG (le impostazioni consigliate sono 80-90), è possibile ridurre la dimensione del file. I fattori di zoom consigliati sono i valori compresi tra 2,5 e 4, a seconda delle dimensioni dell’immagine principale.
 
 Adobe Dynamic Media Classic consiglia i seguenti parametri per i predefiniti visualizzatore zoom a comparsa:
 
-* **Dimensioni immagine ingrandite**: circa 1500 x 1500 pixel, senza superare i 2000 x 2000 pixel.
+* **Dimensioni immagine ingrandite**: 1500 x 1500 pixel, senza superare i 2000 x 2000 pixel.
 
 * **Dimensioni immagine**: 100 KB o meno, non superare i 150 KB (comprimere il file per mantenerlo sotto i 150 KB).
 
-* **Visualizzatore zoom: personalizzato**: fornisce zoom guidato o non guidato con immagini, set di immagini con più visualizzazioni o set di campioni colore.
+* **Visualizzatore zoom: personalizzato**: fornisce zoom guidato o non guidato per immagini, set di immagini con più visualizzazioni o set di campioni colore.
 
 ## Creare e modificare i predefiniti visualizzatore zoom {#creating-and-editing-zoom-viewer-presets}
 
