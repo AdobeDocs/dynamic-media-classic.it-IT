@@ -12,20 +12,14 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:38.912Z'
 TQID: 'https://experienceleague.adobe.com/LYe-5f29Xdb2kVjoXs7lx2vUs6-iSpn3m6irRZc5Aag'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: edbf737fe99ee47c475564fbc41d931498681145
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 17%
+source-wordcount: 234
+ht-degree: 10%
 
 ---
 
@@ -33,16 +27,16 @@ ht-degree: 17%
 
 Utilizzare la pagina Configurazione di Adobe Dynamic Media Classic per immettere le impostazioni personali. se siete un amministratore, le impostazioni della società. Per aprire una pagina del programma di installazione, sulla barra di spostamento globale selezionare **[!UICONTROL Configurazione]**.
 
-Le impostazioni disponibili in questa pagina dipendono dallo stato dell&#39;utente o dell&#39;amministratore:
+Le impostazioni di questa pagina dipendono dal ruolo dell&#39;utente o dell&#39;amministratore:
 
-* Gli utenti possono accedere solo a **[!UICONTROL Configurazione personale]** e agli account delle società di cui sono membri. Non possono eseguire attività amministrative.
-* Gli amministratori possono accedere a **[!UICONTROL Configurazione personale]** e visualizzare e amministrare i propri account aziendali. Possono inoltre eseguire tutte le funzioni di configurazione delle applicazioni e di amministrazione, inclusa l’aggiunta di amministratori e utenti.
+* Gli utenti possono accedere a **[!UICONTROL Configurazione personale]** e agli account delle società di cui sono membri. Non possono eseguire attività amministrative.
+* Gli amministratori possono accedere a **[!UICONTROL Configurazione personale]** e visualizzare e amministrare i propri account aziendali. Possono inoltre eseguire tutte le funzioni di configurazione dell&#39;applicazione e tutte le funzioni di amministrazione, inclusa l&#39;aggiunta di amministratori e utenti.
 
 Gli amministratori possono inoltre impostare predefiniti immagine e predefiniti visualizzatore nella pagina **[!UICONTROL Configurazione]**:
 
 * **Predefiniti immagine**: i predefiniti immagine sono formati salvati per la visualizzazione di immagini primarie in formati e dimensioni diversi.
 
-* **Predefiniti visualizzatore**: i predefiniti visualizzatore determinano il modo in cui i contenuti multimediali vengono visualizzati in un visualizzatore.
+* **Predefiniti visualizzatore**: i predefiniti visualizzatore determinano la modalità di visualizzazione dei contenuti multimediali avanzati quando vengono visualizzati in un visualizzatore.
 
 >[!MORELIKETHIS]
 >
