@@ -22,16 +22,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7e29275844146b46dba3f1034d1a244f5be5b8b8
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 12%
+source-wordcount: 216
+ht-degree: 6%
 
 ---
 
 # Assistenza {#support}
 
-Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle aziende di ogni dimensione. La tabella seguente descrive le offerte dell’Assistenza clienti di Adobe Dynamic Media Classic:
+Le offerte di supporto tecnico sono progettate per soddisfare le esigenze delle aziende di qualsiasi dimensione. La tabella seguente descrive le offerte dell’Assistenza clienti di Adobe Dynamic Media Classic:
 
 | Assistenza | Iscrizione |
 | --- | --- |
@@ -49,7 +49,7 @@ Le offerte relative all’assistenza tecnica sono pensate per le esigenze delle 
 Quando riferite i problemi all’assistenza tecnica, fornite anche le seguenti informazioni:
 
 * Nome dell’azienda Adobe Dynamic Media Classic.
-* Nome, numero di telefono e indirizzo di posta elettronica.
+* Nome, numero di telefono e indirizzo e-mail.
 * Applicazione, piattaforma e versione di Adobe Dynamic Media Classic.
 * Descrizione del problema e dei passaggi necessari per riprodurlo.
 * Messaggio di errore, se presente.

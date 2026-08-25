@@ -1,5 +1,5 @@
 ---
-title: Migliorare la nitidezza di un’immagine
+title: Nitidezza di un'immagine
 description: Scopri come rendere più nitida un’immagine in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,30 +20,30 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: b35d2efa3ef74017ef0505658d2f567a45b234f6
 workflow-type: tm+mt
-source-wordcount: 2315
-ht-degree: 27%
+source-wordcount: 2283
+ht-degree: 25%
 
 ---
 
 # Migliorare la nitidezza di un’immagine {#sharpening-an-image}
 
-La nitidezza si ottiene con una tecnica di manipolazione dell’immagine che rende più netti i contorni di un’immagine digitale. La nitidezza aumenta il contrasto tra i pixel dei bordi ed enfatizza il passaggio dalle aree chiare a quelle scure e viceversa. La nitidezza aumenta il contrasto locale e mette in evidenza i dettagli. Non esiste una formula rigida per ottenere la giusta nitidezza per tutte le immagini. Una nitidezza troppo leggera può produrre immagini morbide mentre una nitidezza troppo accentuata può produrre immagini con artefatti, disturbo o aloni.
+La nitidezza si ottiene con una tecnica di manipolazione dell’immagine che rende più netti i contorni di un’immagine digitale. La nitidezza aumenta il contrasto tra i pixel dei bordi ed enfatizza il passaggio dalle aree chiare a quelle scure e viceversa. La nitidezza aumenta il contrasto locale e rivela dettagli precisi. Non esiste una formula rigida per ottenere la giusta nitidezza per tutte le immagini. Una nitidezza troppo leggera può produrre immagini morbide mentre una nitidezza troppo accentuata può produrre immagini con artefatti, disturbo o aloni.
 
 Adobe Dynamic Media Classic consiglia vivamente di utilizzare Predefiniti immagine per tutte le immagini. Assicurano dimensioni uniformi e la nitidezza viene applicata a qualsiasi immagine denominata con un predefinito immagine. Inoltre, è possibile modificare facilmente i parametri di nitidezza di un predefinito immagine. Alla successiva pubblicazione i nuovi parametri verranno applicati a tutte le immagini richiamate da tale predefinito.
 
 Adobe Dynamic Media Classic consiglia inoltre di aggiungere nitidezza ai predefiniti visualizzatore e di chiamare un visualizzatore con tale predefinito. In questo modo, gli utenti potranno visualizzare immagini nitide e accattivanti.
 
-Tuttavia, sia che si utilizzino i predefiniti per immagini e i predefiniti per visualizzatori o si utilizzino metodi di nitidezza, la cosa più importante è che è necessario rendere più nitide le immagini. In caso contrario, le immagini (e il sito web) possono apparire morbidi e sfocati.
+Tuttavia, sia che si utilizzino i predefiniti per immagini e i predefiniti per visualizzatori, sia che si utilizzino metodi di nitidezza, è essenziale rendere più nitide le immagini. In caso contrario, le immagini (e il sito web) possono apparire morbidi e sfocati.
 
 >[!NOTE]
 >
->il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini governa le dimensioni e la formattazione con cui le immagini vengono distribuite dai server immagini Dynamic Media. Adobe Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti immagine per fornire tutte le immagini in modo che vengano distribuite con dimensioni e nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
+>il comando Più nitido sostituisce le impostazioni dei predefiniti immagine, inclusi gli effetti di nitidezza. Un predefinito per immagini governa le dimensioni e la formattazione con cui le immagini vengono distribuite dai server immagini Dynamic Media. Adobe Dynamic Media Classic consiglia vivamente di utilizzare i predefiniti immagine per distribuire tutte le immagini. In questo modo, le immagini vengono distribuite con una dimensione e una nitidezza uniformi. Se si cambiano le impostazioni di nitidezza di un’immagine, le impostazioni di nitidezza del predefinito per immagini non sono più applicabili. L’immagine viene quindi trasmessa senza le impostazioni di nitidezza provenienti dal predefinito per immagini.
 
 È spesso necessario rendere le immagini più nitide. Adobe Dynamic Media Classic e Image Server offrono diverse opzioni di nitidezza. È importante comprendere l’effetto di tali opzioni sulle immagini e l’entità di nitidezza necessaria. La maggior parte delle immagini richiede l’applicazione di nitidezza, ma l’entità di tale regolazione dipende dalle singole immagini.
 
-La nitidezza aumenta il contrasto tra i pixel dell’immagine in modo da accentuarne i bordi. Gli esseri umani percepiscono il contrasto dei bordi come nitidezza. Sebbene sia facile migliorare un’immagine tramite filtri di nitidezza, è anche facile che tale regolazione risulti eccessiva.
+La nitidezza aumenta il contrasto tra i pixel dell’immagine in modo da accentuarne i bordi. Questo contrasto avanzato viene percepito dagli utenti come nitidezza. Sebbene sia facile migliorare un’immagine tramite filtri di nitidezza, è anche facile che tale regolazione risulti eccessiva.
 
 L&#39;eccessiva nitidezza di un&#39;immagine crea un effetto alone o striatura delle linee del bordo.
 
@@ -55,7 +55,7 @@ Vedi anche il video di formazione [Nitidezza](https://s7d5.scene7.com/s7viewers/
 
 **Per rendere più nitida un&#39;immagine:**
 
-Per rendere più nitida un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Contrasta]**, oppure aprirlo nel pannello Sfoglia in Visualizzazione dettagli, quindi selezionare **[!UICONTROL Contrasta]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegliere i comandi desiderati, quindi fare clic su **[!UICONTROL Salva]**.
+Per rendere più nitida un&#39;immagine, selezionarne il pulsante di rollover **[!UICONTROL Modifica]** e scegliere **[!UICONTROL Contrasta]**, oppure aprirlo nella visualizzazione Dettagli del pannello Sfoglia, quindi selezionare **[!UICONTROL Contrasta]**. Viene visualizzata la pagina Editor nitidezza con i comandi di nitidezza. Scegliere i comandi desiderati, quindi fare clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >
@@ -75,23 +75,23 @@ Selezionare il menu **[!UICONTROL Nitidezza]** e scegliere un&#39;opzione:
 
 * **Nessuno**: disabilita la nitidezza.
 
-* **Contrasta**: esegue un semplice passaggio di nitidezza sul file dopo il ridimensionamento. È simile al filtro &quot;Nitidezza&quot; in Adobe Photoshop e supporta qualsiasi parametro utente. Normalmente si utilizza questo filtro o **[!UICONTROL Maschera definizione dettagli]**, ma non entrambi. Questo metodo non è consigliato come procedura abituale, ma può servire per compensare un’eventuale sfocatura delle immagini. URL: `op_sharpen`
+* **Contrasta**: esegue un semplice passaggio di nitidezza sul file dopo il ridimensionamento. È simile al filtro &quot;Nitidezza&quot; in Adobe Photoshop e non supporta alcun parametro utente. Usa questo filtro o **[!UICONTROL Maschera definizione dettagli]**, ma non entrambi. Questo metodo non è consigliato come procedura abituale, ma può servire per compensare un’eventuale sfocatura delle immagini. URL: `op_sharpen`
 
-* **Maschera di contrasto**: consente di regolare con precisione un effetto filtro di nitidezza sull&#39;immagine ricampionata verso il basso finale. È possibile controllare l&#39;intensità dell&#39;effetto, il raggio in pixel e una soglia di contrasto ignorata. Questo effetto utilizza le stesse opzioni del filtro &quot;Maschera definizione dettagli&quot; di Photoshop. URL: `op_usm`
+* **Maschera di contrasto**: consente di regolare con precisione un effetto filtro di nitidezza sull&#39;immagine ricampionata verso il basso finale. È possibile controllare l&#39;intensità dell&#39;effetto, il raggio in pixel e una soglia di contrasto ignorata. Questo effetto utilizza le stesse opzioni del filtro &quot;Maschera definizione dettagli&quot; di Adobe Photoshop. URL: `op_usm`
 
 Scegliete queste opzioni per ottimizzare la nitidezza con Maschera definizione dettagli:
 
-* **Importo**: controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentarlo fino a 5.0. Considera Importo come una misura dell’intensità del filtro. L&#39;impostazione **[!UICONTROL Amount]** in Adobe Dynamic Media Classic non è uguale all&#39;impostazione Amount in Adobe Photoshop. Adobe Photoshop utilizza una quantità compresa tra l’1% e il 500%, mentre Adobe Dynamic Media Classic viene scalato da 0,0 a 5,0. dove 5,0 equivale circa a 500% in Photoshop, 0,9 a 90% e così via.
+* **Importo**: controlla la quantità di contrasto applicata ai pixel del bordo. Il valore predefinito è 0,0. Per le immagini ad alta risoluzione, è possibile aumentarlo fino a 5.0. Considera Importo come una misura dell’intensità del filtro. L&#39;impostazione **[!UICONTROL Amount]** in Adobe Dynamic Media Classic non è uguale all&#39;impostazione Amount in Adobe Photoshop. Adobe Photoshop utilizza una quantità compresa tra l’1% e il 500%, mentre Adobe Dynamic Media Classic viene scalato da 0,0 a 5,0. (5,0 equivale approssimativamente a 500% in Adobe Photoshop, 0,9 equivale a 90% e così via).
 
-* **Raggio**: determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L’effetto viene eseguito su tutti i pixel dell’immagine, in tutte le direzioni.
+* **Raggio**: determina il numero di pixel attorno ai pixel del bordo che influiscono sulla nitidezza. L&#39;effetto viene eseguito su tutti i pixel dell&#39;immagine e irradia in tutte le direzioni.
 
 Il valore di raggio più adatto dipende dalle dimensioni dell’immagine. Un valore basso rende più nitidi solo i pixel dei bordi. Un valore alto rende più nitida una banda più ampia di pixel.
 
 Ad esempio, per ottenere un effetto di nitidezza simile per un&#39;immagine da 2000 × 2000 pixel e per un&#39;immagine da 500 × 500 pixel, è possibile impostare un valore di raggio di due pixel sull&#39;immagine da 2000 × 2000 pixel. Quindi, impostate un valore di raggio di un pixel sull&#39;immagine da 500 × 500 pixel (un valore maggiore per un&#39;immagine con più pixel).
 
-* **Soglia**: determina l&#39;intervallo di contrasto da ignorare quando viene applicato il filtro Maschera di contrasto. Questa opzione determina quanto devono differire i pixel resi più nitidi dall&#39;area circostante prima che i pixel del bordo vengano resi più nitidi.
+* **Soglia**: per ignorare un intervallo di contrasto quando si applica il filtro Maschera di contrasto, utilizzare questa impostazione. Questa opzione determina quanto devono differire i pixel resi più nitidi dall&#39;area circostante prima che i pixel del bordo vengano resi più nitidi.
 
-La soglia utilizza un valore compreso tra 0 e 255, che rappresenta il numero di livelli di luminosità in un&#39;immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi come la luminosità della tonalità della pelle. In questo modo, non aggiunge disturbo, ma allo stesso tempo aggiunge contrasto ai bordi delle aree, ad esempio quelle in cui le ciglia si incontrano con la pelle.
+La soglia utilizza un valore compreso tra 0 e 255, che rappresenta il numero di livelli di luminosità in un&#39;immagine in scala di grigio. 0=nero, 128=grigio al 50% e 255=bianco. Ad esempio, con un valore di soglia pari a 12 vengono ignorate le variazioni lievi di luminosità nell&#39;incarnato. Questo previene l&#39;aggiunta di rumore, aggiungendo allo stesso tempo contrasto ai bordi delle aree dove le ciglia si incontrano con la pelle.
 
 Ad esempio, supponiamo di avere una foto del volto di qualcuno. Maschera di contrasto agisce sulle parti dell’immagine con maggior contrasto, ma anche sulle aree di incarnato uniforme. Anche l’incarnato più omogeneo presenta lievi variazioni nei valori di luminosità. Se non si utilizza un valore di soglia, il filtro accentuerebbe tali lievi variazioni nei pixel dell’incarnato rendendolo meno uniforme (creando un effetto indesiderato), mentre aumenterebbe il contrasto per le ciglia rendendole più nitide (creando un effetto gradevole). Per evitare questo problema, utilizzate un valore di soglia che indichi al filtro di ignorare i pixel con modifiche lievi a livello di contrasto, come appunto nel caso della pelle. Per evitare di introdurre disturbi o immagini di posterizzazione con toni di carne, ad esempio prova a sperimentare con valori di **[!UICONTROL soglia]** compresi tra due e 20. Il valore predefinito **[!UICONTROL Threshold]** pari a 0 applica la nitidezza a tutti i pixel nell&#39;immagine.
 
@@ -113,7 +113,7 @@ Selezionare il menu **[!UICONTROL Ricampionamento]** e scegliere un&#39;opzione.
 
 **Predefiniti immagine e nitidezza**
 
-Potete incorporare tutti e tre gli effetti di nitidezza per ottenere il risultato finale. Tuttavia, questo metodo non è consigliato. Adobe Dynamic Media Classic consiglia di salvare gli effetti di nitidezza come parte di un predefinito immagine. I predefiniti per immagini consentono di creare un pacchetto dei modificatori di immagini più utilizzati per creare un&#39;immagine ridimensionata dinamicamente in una piccola stringa di testo. Un predefinito immagine contiene valori per il formato file (in genere JPEG per il web), il conteggio dei pixel e la nitidezza delle immagini. Invece di aggiungere l’URL a ogni modificatore di immagine da utilizzare per creare un tipo specifico di dimensione dell’immagine, crea un predefinito immagine denominato, ad esempio &quot;miniatura&quot;. Quindi, configura il predefinito per immagini miniatura con le dimensioni, il formato di file e le opzioni di nitidezza appropriati. Chiama l’immagine utilizzando il nome del predefinito immagine. I predefiniti per immagini riducono la lunghezza dell’URL complessivo. Questi due URL producono la stessa immagine JPEG 350x350 con nitidezza:
+Incorpora tutti e tre gli effetti di nitidezza per ottenere il risultato finale. Tuttavia, questo metodo non è consigliato. Adobe Dynamic Media Classic consiglia di salvare gli effetti di nitidezza come parte di un predefinito immagine. I predefiniti per immagini consentono di creare un pacchetto dei modificatori di immagini più utilizzati per creare un&#39;immagine ridimensionata dinamicamente in una piccola stringa di testo. Un predefinito immagine contiene valori per il formato file (in genere JPEG per il web), il conteggio dei pixel e la nitidezza delle immagini. Invece di aggiungere l’URL a ogni modificatore di immagine da utilizzare per creare un tipo specifico di dimensione dell’immagine, crea un predefinito immagine denominato, ad esempio &quot;miniatura&quot;. Quindi, configura il predefinito per immagini miniatura con le dimensioni, il formato di file e le opzioni di nitidezza appropriati. Chiama l’immagine utilizzando il nome del predefinito immagine. I predefiniti per immagini riducono la lunghezza dell’URL complessivo. Questi due URL producono la stessa immagine JPEG 350x350 con nitidezza:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -134,7 +134,7 @@ Le opzioni di Qualità JPG controllano il livello di compressione JPG:
 
 **Imposta le opzioni di nitidezza a livello aziendale**
 
-Se non hai utilizzato un predefinito immagine o non hai passato protocolli di nitidezza specifici per Image Server lungo la stringa URL, non si verifica alcuna nitidezza dell’immagine quando viene effettuato il downsampling. Tuttavia, se si verifica questa mancanza di nitidezza, potete impostare i valori di nitidezza predefiniti in modo che qualsiasi immagine abbia sempre una certa nitidezza.
+Se non hai utilizzato un predefinito immagine o non hai passato protocolli di nitidezza specifici per Image Server lungo la stringa URL, non si verifica alcuna nitidezza dell’immagine quando viene effettuato il downsampling. Per fare in modo che un&#39;immagine risulti sempre più nitida, impostate i valori di nitidezza predefiniti.
 
 Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione applicazione]** > **[!UICONTROL Impostazione pubblicazione]** > **[!UICONTROL Server immagini]**. Se si imposta la modalità ricampionamento predefinita su **`Sharp2`**, l&#39;immagine viene sempre nitida durante il ricampionamento.
 
@@ -142,20 +142,20 @@ Per impostare le opzioni di nitidezza predefinite della tua azienda, vai a **[!U
 
 A meno che non abbiate aggiunto modificatori di immagini nitide al predefinito, la piccola immagine iniziale caricata può avere un aspetto morbido perché viene ricampionata verso il basso per adattarsi alla finestra del visualizzatore senza essere nitida.
 
-I predefiniti visualizzatore (come i predefiniti immagine) consentono di centralizzare molte opzioni in un&#39;unica posizione, inclusa la scelta dell&#39;interfaccia e delle opzioni visualizzatore (ad esempio l&#39;inclusione di un pulsante Stampa o il controllo della velocità dell&#39;animazione di zoom). I predefiniti visualizzatore si trovano nella stessa sezione dei predefiniti immagine, in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
+I predefiniti visualizzatore (come i predefiniti immagine) centralizzano le opzioni quali skin, pulsanti e velocità dell&#39;animazione. I predefiniti visualizzatore si trovano nella stessa sezione dei predefiniti immagine, in **[!UICONTROL Configurazione]** > **[!UICONTROL Impostazioni applicazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 
 Guarda il video di formazione su [Predefiniti visualizzatore](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 L’opzione Modificatori si trova nella sezione Impostazioni principali di tutti i predefiniti per visualizzatori eCatalog, 360 gradi e Zoom personalizzati. Aggiungendo i comandi di nitidezza URL alla casella Modificatori, si aggiunge nitidezza ogni volta che il visualizzatore viene chiamato con quel predefinito visualizzatore.
 
-Per chiamare il predefinito visualizzatore, usa il comando `config=` sull&#39;URL del visualizzatore. Esempio di chiamata di un set di immagini (scarpe) con un predefinito visualizzatore (`FantasticoZoom2022`):
+Per chiamare il predefinito visualizzatore, usa il comando `config=` sull&#39;URL del visualizzatore. Di seguito è riportato un esempio di chiamata di un set di immagini con un predefinito visualizzatore (`FantasticoZoom2022`):
 
 `https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=S7train/FantasticoZoom2022`
 
-In questo caso il predefinito applica la nitidezza e cambia l’interfaccia predefinita del visualizzatore.
+Il predefinito in questo punto rende più nitido e modifica l&#39;aspetto predefinito del visualizzatore.
 
 **Creare sostituzioni specifiche per l&#39;immagine**
 
-L’ultimo metodo per l’applicazione della nitidezza, e il meno consigliato, consiste nel creare impostazioni locali di nitidezza a livello delle singole immagini. Questo metodo sostituisce la nitidezza in un predefinito immagine con valori specifici. Tuttavia, questo metodo ignora anche tutti gli altri metodi di nitidezza di qualsiasi dimensione. Questo metodo può risultare utile, ad esempio, se alcune delle immagini non sono ad alta risoluzione e i valori nei predefiniti per immagini sono quindi troppo elevati. In questo caso, potrebbe essere necessario un po’ di nitidezza per immagine.
+L’ultimo metodo per l’applicazione della nitidezza, e il meno consigliato, consiste nel creare impostazioni locali di nitidezza a livello delle singole immagini. Questo metodo sostituisce la nitidezza in un predefinito immagine con valori specifici. Tuttavia, questo metodo ignora anche tutti gli altri metodi di nitidezza di qualsiasi dimensione. Questo metodo può risultare utile, ad esempio, se alcune delle immagini non sono ad alta risoluzione e i valori nei predefiniti per immagini sono quindi troppo elevati. In questo caso, è necessaria una certa nitidezza dell&#39;immagine.
 
 In Adobe Dynamic Media Classic, selezionare un&#39;immagine, passare alla visualizzazione dettagli facendo doppio clic o premendo il pulsante **[!UICONTROL Visualizzazione dettagli]** e selezionare **[!UICONTROL Contrasta]**. Modifica un parametro, quindi seleziona **[!UICONTROL Salva]**. Questo processo indica al server immagini di utilizzare questi parametri di nitidezza anziché qualsiasi comando chiamato nell’URL, ad esempio un modificatore di nitidezza o un predefinito immagine. Assicurati di pubblicare per vedere che le modifiche diventano effettive.

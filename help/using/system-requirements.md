@@ -1,5 +1,5 @@
 ---
-title: Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic
+title: Requisiti di sistema per l'app desktop Adobe Dynamic Media Classic
 description: Scopri i requisiti di sistema per una migliore esperienza con Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,16 +21,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: b589fcbd330e4c703d64f0143c87e5674c772924
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 122
 ht-degree: 11%
 
 ---
 
 # Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic {#system-requirements}
 
-Per una migliore esperienza nell’utilizzo dell’app desktop Adobe Dynamic Media Classic, assicurati che il sistema soddisfi i seguenti requisiti e suggerimenti di sistema:
+Per utilizzare l’app desktop Adobe Dynamic Media Classic, accertati che il sistema soddisfi i seguenti requisiti e suggerimenti di sistema:
 
 * È richiesto un processore Microsoft® Windows® 7 o più recente o macOS X 10.10 o più recente Mac Intel®.
 * 3 GB di RAM o superiore (4 GB o superiore consigliato).
@@ -42,5 +42,5 @@ Per una migliore esperienza nell’utilizzo dell’app desktop Adobe Dynamic Med
 
 >[!MORELIKETHIS]
 >
->* [Limitazioni di Dynamic Media](/help/using/limitations.md)
+>* [Vincoli Dynamic Media](/help/using/limitations.md)
 

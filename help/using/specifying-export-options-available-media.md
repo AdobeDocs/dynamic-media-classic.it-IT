@@ -18,18 +18,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: d5c5ccb9773848290f7f5f129f2c15d9e6386a21
 workflow-type: tm+mt
-source-wordcount: 390
-ht-degree: 42%
+source-wordcount: 382
+ht-degree: 37%
 
 ---
 
 # Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal {#specifying-export-options-available-to-media-portal-users}
 
-Se l’amministratore assegna le relative autorizzazioni, gli utenti di Media Portal possono riformattare le immagini al momento dell’esportazione. Ad esempio, possono modificarne le dimensioni, il formato file e la qualità. La riformattazione automatica delle immagini durante l’esportazione consente di risparmiare tempo evitando di dover riformattare le immagini singolarmente. Inoltre, gli amministratori possono creare un predefinito, ossia una raccolta di impostazioni preconfigurate per il formato delle immagini. Quando esportate le immagini potete usare un predefinito in modo da riformattarle in base alle specifiche richieste dalla vostra società.
+Se l’amministratore assegna le relative autorizzazioni, gli utenti di Media Portal possono riformattare le immagini al momento dell’esportazione. Ad esempio, possono modificarne le dimensioni, il formato file e la qualità. La riformattazione automatica delle immagini durante l&#39;esportazione migliora l&#39;efficienza eliminando la necessità di riformattare le immagini separatamente. Inoltre, gli amministratori possono creare un predefinito, ossia una selezione prestabilita di impostazioni di formattazione delle immagini. Quando esportate le immagini potete usare un predefinito in modo da riformattarle in base alle specifiche richieste dalla vostra società.
 
-Le due seguenti restrizioni si applicano se si esportano le risorse immagine tramite una conversione definita dall’utente o se si esportano immagini primarie originali:
+Se esportate risorse immagine utilizzando una conversione definita dall&#39;utente o se esportate immagini primarie originali, si applicano le due seguenti restrizioni:
 
 * Il file .zip compresso ha una dimensione massima di 1 GB per il processo di esportazione.
 * Il limite massimo per il numero di risorse totali per singolo processo di esportazione è di 500 risorse.
@@ -41,7 +41,7 @@ Vedi anche [Esportare risorse da Adobe Dynamic Media Classic](exporting-assets-f
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti immagine]**.
 1. Nella finestra Predefiniti immagine, selezionate una delle seguenti opzioni:
 
-   * **Abilita conversione definita dall&#39;utente**: se selezionata, questa opzione consente agli utenti di scegliere un&#39;altra opzione dall&#39;elenco a discesa **[!UICONTROL Dimensioni]** nella finestra Esporta Assets selezionato. Gli utenti possono quindi scegliere un&#39;unità di misura, ad esempio pixel o centimetri, e quindi specificare la larghezza e l&#39;altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
+   * **Abilita conversione definita dall&#39;utente**: se selezionata, questa opzione consente agli utenti di scegliere &#39;altro&#39; dall&#39;elenco a discesa **[!UICONTROL Dimensioni]** nella finestra Esporta Assets selezionato. Gli utenti possono quindi scegliere un&#39;unità di misura e specificare la larghezza e l&#39;altezza desiderate. Quando esportate o scaricate questi file, i file immagine vengono riformattati.
 
      Quando si selezionano **[!UICONTROL pixel]** dall&#39;elenco a discesa **[!UICONTROL Dimensioni]**, la larghezza × l&#39;altezza dell&#39;immagine risultante non possono superare i 100 milioni di pixel. Questa dimensione equivale a 10.000 × 10.000 pixel per un&#39;immagine quadrata o a circa 8.000 × 12.000 pixel per un&#39;immagine con proporzioni 2x3. Questo limite di dimensione non si applica se si esportano immagini primarie originali.
 

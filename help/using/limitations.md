@@ -1,5 +1,5 @@
 ---
-title: Limitazioni per elementi multimediali dinamici
+title: Vincoli Dynamic Media
 description: Scopri le best practice e i limiti applicati quando crei un set di immagini o un set 360 gradi o carichi un PDF. Scopri anche le combinazioni di browser Web e sistemi operativi non supportate per Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: c4599d7dfba3811fba73f7e9366f9427f0f20d78
+source-git-commit: b589fcbd330e4c703d64f0143c87e5674c772924
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 1%
 
 ---
 
-# Limitazioni per elementi multimediali dinamici
+# Vincoli di Dynamic Media
 
 Le sezioni seguenti descrivono le limitazioni di Dynamic Media.
 
