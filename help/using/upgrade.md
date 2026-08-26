@@ -8,33 +8,24 @@ topic: Administration, Migration
 level: Intermediate
 autotag-review: '2026-05-13T20:16:25.016Z'
 TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 574
 ht-degree: 0%
 
 ---
 
 # Perché effettuare l&#39;aggiornamento a [!DNL Dynamic Media]?
 
-Adobe ha creato [!DNL Dynamic Media] pensando a te.
+Adobe ha creato [!DNL Dynamic Media] in base alle tue esigenze.
 
-Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle funzionalità previste da [!DNL Dynamic Media Classic] (precedentemente Scene7). Offre alla tua organizzazione strumenti nuovi e migliorati per creare esperienze migliori, più coinvolgenti.
+Il nuovo [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] si basa sulla funzionalità prevista da [!DNL Dynamic Media Classic] (precedentemente Scene7). Offre alla tua organizzazione strumenti nuovi e migliorati per creare esperienze migliori, più coinvolgenti.
 
-[!DNL Dynamic Media] aggiorna l&#39;esperienza di creazione dei contenuti utilizzando generatori visivi in tempo reale. Posizionato in cima alla rete di distribuzione comprovata, affidabile e scalabile di Adobe e abbinato all&#39;intuitiva interfaccia utente [!DNL Adobe Experience Manager], [!DNL Dynamic Media] offre le funzionalità necessarie per creare, eseguire iterazioni e fornire esperienze coinvolgenti e di livello successivo.
+[!DNL Dynamic Media] aggiorna l&#39;esperienza di creazione dei contenuti utilizzando generatori visivi in tempo reale. Utilizzando la rete di distribuzione scalabile di Adobe e l&#39;interfaccia utente intuitiva di [!DNL Adobe Experience Manager], [!DNL Dynamic Media] offre le funzionalità necessarie per creare, ripetere e distribuire esperienze coinvolgenti e avanzate.
 
 | Informazioni su [!DNL Dynamic Media] | Descrizione |
 | --- | --- |
@@ -50,11 +41,11 @@ Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle f
 
 ## Vantaggi e funzionalità principali di [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] è l&#39;evoluzione naturale di [!DNL Dynamic Media Classic]. Offre set di strumenti per l’authoring, la pubblicazione e la distribuzione di contenuti rich media. Include inoltre una distribuzione all&#39;avanguardia con un&#39;interfaccia innovativa e incentrata sull&#39;utente, per la promozione di flussi di lavoro moderni e reali.
+[!DNL Dynamic Media] è il successore di [!DNL Dynamic Media Classic]. Offre set di strumenti per l’authoring, la pubblicazione e la distribuzione di contenuti rich media. Include inoltre un’offerta di alta qualità con un’interfaccia innovativa e incentrata sull’utente, per la promozione di flussi di lavoro moderni.
 
 * Esperienza e integrazione senza soluzione di continuità e unificate con [!DNL Adobe Experience Manager]: configurazione e distribuzione dinamica di contenuti avanzati da un unico archivio, da un&#39;unica origine
 * Nuova esperienza utente incentrata sul marketing per semplificare l&#39;authoring e la distribuzione di contenuti rich media
-* WYSIWYG (What You See Is What You Get) per quanto riguarda gli editor generali di aspetto e comportamento per gli utenti che visualizzano immagini e i lettori video.
+* Editing visivo per l&#39;aspetto generale e editor di comportamento per visualizzatori di immagini e lettori video.
 * Creazione e distribuzione più rapida di esperienze multimediali commerciali/interattive, inclusi hotspot di immagini e video acquistabili
 
 ### Funzionalità di [!DNL Dynamic Media] in [!DNL Experience Manager] Assets
@@ -65,10 +56,10 @@ Il nuovo [!DNL Dynamic Media] su [!DNL Adobe Experience Manager] si basa sulle f
 | Elementi dell’interfaccia utente per esperienze interattive semplici | · Creare esperienze con facilità con generatori non tecnici in tempo reale.<br>· Supporti acquistabili/interattivi, combinare le risorse della campagna con le informazioni sul prodotto.<br>· Aumentare la soddisfazione dei clienti e favorire la conversione. |
 | Flusso di lavoro completo | · Distribuisci rich media ottimizzati a tutti i punti di contatto, incluse le soluzioni [!DNL Adobe Experience Cloud] complete.<br>· Integrazione con [!DNL Adobe Experience Cloud] per analisi avanzate delle risorse, targeting e riutilizzo delle risorse tra i punti di contatto di marketing. Alcuni di questi punti di contatto includono [!DNL Adobe Campaign] per la posta elettronica, [!DNL Adobe Social] per i canali social e [!DNL Adobe Experience Manager] siti per le app Web e mobili reattive. |
 
-## Perché Adobe?
+## Perché scegliere Adobe?
 
-* Il più grande motore positivo in risorse digitali Forrester WAVE report.
+* Il fornitore con il più alto livello nel rapporto Forrester WAVE delle risorse digitali.
 * URL consultato il 14 giugno 2016. ^ (EN) 2016 Online Video Platform report, su Online Video Platform.
-* Il miglior fornitore di rich media per Internet Retail 1000, nove anni di fila.
-* Supporto 24/7/265, SLA 99,95%, Adobe Professional Services.
-* Infrastruttura collaudata che serve più di 800 client in tutto il mondo, 3,5 petabyte di traffico al mese e oltre 500 milioni di asset di gestione, crescita del traffico del 60% su base annua.
+* Il miglior fornitore di rich media per Internet Retail 1000, nove anni consecutivi.
+* Supporto 24/7/365, SLA 99,95%, Adobe Professional Services.
+* Infrastruttura collaudata che serve più di 800 client in tutto il mondo, 3,5 petabyte di traffico al mese e oltre 500 milioni di asset di gestione, con una crescita del traffico del 60% su base annua.
