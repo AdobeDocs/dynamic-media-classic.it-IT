@@ -1,5 +1,5 @@
 ---
-title: Gestire i metadati in modo efficiente
+title: Gestione metadati
 description: Scopri come utilizzare in modo più efficiente i metadati in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,23 +12,18 @@ topic: Collaboration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:04:08.358Z'
 TQID: 'https://experienceleague.adobe.com/1E-iQLI5xpgqDo-mjKgO1WPwaiIcorMKG8np-AqhsuI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 163
+source-wordcount: 161
 ht-degree: 37%
 
 ---
 
-# Gestire i metadati in modo efficiente{#making-more-efficient-use-of-metadata}
+# Gestione metadati {#making-more-efficient-use-of-metadata}
 
 Tutti i file in Adobe Dynamic Media Classic contengono metadati. I metadati descrivono e identificano un file; vengono utilizzati per effettuare ricerche e organizzare le risorse. Per visualizzare i metadati di una risorsa, aprila in Vista dettagli ed esamina il pannello Metadati. I campi di metadati in questo pannello offrono informazioni descrittive sulla risorsa.
 
