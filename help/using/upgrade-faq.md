@@ -268,14 +268,14 @@ I clienti sono i principali responsabili della gestione delle modifiche, inclusi
 ## Supporto e formazione
 
 +++**Come posso ottenere supporto?**
-È disponibile il supporto 24/7/365 per l’Assistenza clienti. [Contattare il supporto tecnico](https://experienceleague.adobe.com/?support-solution=General#support).
+È disponibile il supporto 24/7/365 per l’Assistenza clienti. [Contattare il supporto tecnico](https://experienceleague.adobe.com/it?support-solution=General#support).
 
 Telefono: 1-800-898-9743 (US) | +44 (0)20 35641782 (Regno Unito) | +81-3-6743-9632 (Giappone)
 
 +++
 
 +++**Dove posso trovare ulteriori informazioni sulle opzioni di formazione a pagamento?**
-Consulta [Adobe Digital Learning Services](https://experienceleague.adobe.com/en/premium/home).
+Consulta [Adobe Digital Learning Services](https://experienceleague.adobe.com/it/premium/home).
 
 Per corsi di formazione personalizzati o individuali, contatta il rappresentante del team dell’account Adobe.
 
