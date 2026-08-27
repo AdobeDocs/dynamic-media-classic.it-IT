@@ -1,5 +1,5 @@
 ---
-title: Preparazione all’aggiornamento
+title: Elenco di controllo preparazione all’aggiornamento
 description: Elenco di controllo per la preparazione all'aggiornamento quando si desidera passare da [!DNL Adobe Dynamic Media Classic] a [!DNL Dynamic Media] il [!DNL Adobe Experience Manager].
 feature: Dynamic Media Classic
 role: Admin,User
@@ -18,9 +18,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: 223
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Utilizzare il seguente elenco di controllo per comprendere e preparare un aggior
 |  | Attività | Descrizione |
 | :--- | :--- | --- |
 | **Fase 1: gestione licenze** | Esegui contratto | In base al traffico e all&#39;archiviazione, il team dell&#39;account Adobe collabora con te per passare dalla licenza [!DNL Dynamic Media Classic] al rinnovo della licenza [!DNL Dynamic Media]. |
-| **Fase 2: Preparazione** | Convalidare l’utilizzo della funzione | Verificare che le funzionalità utilizzate in [!DNL Dynamic Media Classic] siano disponibili in [!DNL Dynamic Media]. Visita la pagina [Confronto delle funzionalità](/help/using/upgrade-feature-comparison.md). Le funzionalità chiave non ancora disponibili in [!DNL Dynamic Media] includono:<br>· Visual Configurator (Image Author, Image Render).<br>· Image Templates (1:1 Templating).<br>· eCatalog.<br>Se vengono utilizzate le funzionalità precedenti, l&#39;aggiornamento può comunque essere eseguito presupponendo che tali funzionalità siano accessibili tramite [!DNL Dynamic Media Classic]. |
+| **Fase 2: Preparazione** | Convalidare l’utilizzo della funzione | Verificare che le funzionalità utilizzate in [!DNL Dynamic Media Classic] siano disponibili in [!DNL Dynamic Media]. Visita la pagina [Confronto delle funzionalità](/help/using/upgrade-feature-comparison.md). Le funzionalità chiave non ancora disponibili in [!DNL Dynamic Media] includono:<br>· Visual Configurator (Image Author, Image Render).<br>· Image Templates (1:1 Templating).<br>· eCatalog.<br>Se si utilizzano le funzionalità precedenti, l&#39;aggiornamento può comunque essere eseguito presupponendo che tali funzionalità siano accessibili tramite [!DNL Dynamic Media Classic]. |
 |   | Identificare le risorse | Trova e prepara le risorse e i predefiniti da utilizzare per l’aggiornamento. |
 | **Fase 3: ambiente** | Aggiorna [!DNL Adobe Experience Manager] | Tutte le istanze di [!DNL Adobe Experience Manager] devono essere aggiornate alla versione più recente. |
 |   | Configura [!DNL Dynamic Media] | Adobe Consulting o il partner configura [!DNL Dynamic Media] con le tue credenziali. |

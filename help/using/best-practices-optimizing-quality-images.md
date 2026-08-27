@@ -1,5 +1,5 @@
 ---
-title: Best practice per ottimizzare la qualità delle immagini
+title: Linee guida per ottimizzare la qualità delle immagini
 description: Scopri le best practice per ottimizzare la qualità delle immagini.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 27%
 
 ---
 
-# Procedure ottimali per ottimizzare la qualità delle immagini{#best-practices-for-optimizing-the-quality-of-your-images}
+# Linee guida per ottimizzare la qualità delle immagini{#best-practices-for-optimizing-the-quality-of-your-images}
 
 L&#39;ottimizzazione della qualità delle immagini può richiedere molto tempo. Molti fattori contribuiscono a rendere accettabili i risultati. Inoltre il risultato ottenuto è in parte soggettivo in quanto persone diverse percepiscono in modo differente la qualità dell’immagine. La sperimentazione strutturata è essenziale.
 

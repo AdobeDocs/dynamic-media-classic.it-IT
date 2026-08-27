@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 4496b2796aae231c4c913f8ee988f9e2c2d2a65f
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1584
 ht-degree: 0%
 
 ---
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 * Sincronizzazione di Collaboration e file condivisi con [!DNL Adobe Creative Cloud] applicazioni.
 * Gestione delle risorse digitali a livello aziendale con:
-   * supporto affidabile per i metadati
-   * ricerca avanzata
-   * lightbox e raccolte
-   * controllo della versione
-   * condivisione sicura delle risorse per l&#39;utilizzo da parte di fornitori, partner e affiliati
+  * supporto affidabile per i metadati
+  * ricerca avanzata
+  * lightbox e raccolte
+  * controllo della versione
+  * condivisione sicura delle risorse per l&#39;utilizzo da parte di fornitori, partner e affiliati
 * Esaminare e approvare i flussi di lavoro per le risorse WIP.
 * Semplicità di adozione e utilizzo con la nuova interfaccia.
 * Crea esperienze multimediali acquistabili/interattive utilizzando immagini e video che guidano la conversione e arricchiscono il coinvolgimento e la soddisfazione degli utenti.
-* Combina le risorse della campagna con le informazioni sul prodotto per semplificare il clic sul carrello.
+* Combina le risorse della campagna con le informazioni sul prodotto per semplificare il processo di acquisto.
 * Facile creazione, adattamento, personalizzazione e installazione di visualizzatori interattivi mediante WYSIWYG Viewer Designer.
 * Distribuisci rich media ottimizzati alle soluzioni [!DNL Experience Cloud].
 * Integrazione con [!DNL Experience Cloud] per analisi avanzate delle risorse, targeting e riutilizzo delle risorse tra i punti di contatto di marketing. Tali punti di contatto includono [!DNL Adobe Campaign] per la posta elettronica, [!DNL Adobe Social] per i canali social e [!DNL Experience Manager] siti per le app Web e mobili reattive.
@@ -60,11 +60,11 @@ ht-degree: 0%
 +++
 
 +++**[!DNL Dynamic Media] utilizza la rete CDN (Content Delivery Network) Adobe esistente?**
-Sì, [!DNL Dynamic Media] utilizza la robusta rete di consegna di livello superiore di Adobe.
+Sì, [!DNL Dynamic Media] utilizza una rete di distribuzione affidabile e ad alte prestazioni di Adobe.
 
 * Il miglior fornitore di rich media per Internet Retail 1000, nove anni di fila.
-* Supporto 24/7/265, 99,95% SLA.
-* Infrastruttura collaudata che serve più di 800 client in tutto il mondo, 3,5 petabyte di traffico al mese e oltre 500 milioni di asset di gestione, crescita del 60% del traffico anno dopo anno.
+* Supporto 24/7/365, 99,95% SLA.
+* Infrastruttura collaudata che serve più di 800 client in tutto il mondo, 3,5 petabyte di trasferimento dati al mese e oltre 500 milioni di risorse gestite, crescita annua del traffico del 60%.
 
 +++
 
@@ -86,7 +86,7 @@ Contatta il rappresentante del team account Adobe o [invia un&#39;e-mail a s7sup
 +++
 
 +++**Come viene gestito il processo di aggiornamento?**
-AGS (Adobe Global Services) gestisce l’aggiornamento e lo tratta come un progetto di servizio. Adobe fornisce solo la migrazione delle risorse. Il cliente, AGS o partner è responsabile di tutti gli altri aspetti e passaggi dell’aggiornamento. A livello di riepilogo, un piano di aggiornamento contiene quanto segue:
+AGS (Adobe Global Services) gestisce l’aggiornamento e lo tratta come un progetto di servizio. Adobe fornisce solo la migrazione delle risorse. Il cliente, AGS o partner è responsabile di tutti gli altri aspetti e passaggi dell’aggiornamento. Un piano di aggiornamento contiene i seguenti elementi:
 
 * Esegue il provisioning degli account utente/società.
 * Replica le risorse da [!DNL Dynamic Media Classic] (precedentemente Scene7) al componente [!DNL Dynamic Media] di [!DNL Experience Manager] Assets (fornito da Adobe tramite uno strumento di aggiornamento automatico).
@@ -152,17 +152,17 @@ Sì. È possibile continuare a utilizzare l&#39;infrastruttura di pubblicazione 
 +++
 
 +++**Devo aggiornare i miei URL di produzione?**
-No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Il vantaggio di questo approccio è che non è necessario modificare gli URL di produzione nelle pagine Web, riducendo al minimo il rischio e l&#39;impegno di migrazione a [!DNL Dynamic Media].
+No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Il vantaggio di questo approccio è che non è necessario modificare gli URL di produzione nelle pagine Web, riducendo quindi il rischio e l&#39;impegno di migrazione a [!DNL Dynamic Media].
 
 +++
 
 +++**Dovrò riscrivere le integrazioni API e altri script di automazione?**
-No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Inoltre, tutte le risorse vengono replicate in [!DNL Dynamic Media Classic]. Il vantaggio di questo approccio è che non è necessario riscrivere integrazioni basate su API o script di automazione, riducendo quindi al minimo il rischio e lo sforzo di migrazione a [!DNL Dynamic Media].
+No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Inoltre, tutte le risorse vengono replicate in [!DNL Dynamic Media Classic]. Il vantaggio di questo approccio è che non è necessario riscrivere integrazioni basate su API o script di automazione, riducendo pertanto il rischio e l&#39;impegno di migrazione a [!DNL Dynamic Media].
 
 +++
 
 +++**Dovrò apportare modifiche o risviluppare i miei visualizzatori personalizzati?**
-No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Il vantaggio di questo approccio è che puoi continuare a utilizzare i visualizzatori personalizzati, riducendo al minimo il rischio e l&#39;impegno di migrazione a [!DNL Dynamic Media].
+No. Adobe continua a utilizzare l&#39;infrastruttura di pubblicazione e consegna [!DNL Dynamic Media Classic] così com&#39;è nella soluzione [!DNL Dynamic Media]. Il vantaggio di questo approccio è che puoi continuare a utilizzare i visualizzatori personalizzati, riducendo quindi il rischio e l&#39;impegno di migrare a [!DNL Dynamic Media].
 +++
 
 +++**Come posso eseguire la migrazione delle mie impostazioni (come predefiniti immagine, codifiche video) a [!DNL Dynamic Media]?**
@@ -211,7 +211,7 @@ Visualizzazioni pagina al mese (PVM). Visualizzazione pagina indica una singola 
 +++
 
 +++**Quando sarà disponibile il supporto personalizzato con [!DNL Dynamic Media]?**
-Adobe sta lavorando intensamente per aggiungere funzioni per contenuti multimediali personalizzati a [!DNL Dynamic Media]. Ulteriori informazioni sui tempi di rilascio sono disponibili a breve.
+Adobe sta lavorando intensamente per aggiungere funzionalità multimediali personalizzate a [!DNL Dynamic Media]. Ulteriori informazioni sui tempi di rilascio sono disponibili a breve.
 
 +++
 
@@ -254,7 +254,7 @@ Visita anche la pagina [Confronto delle funzionalità](/help/using/upgrade-featu
 ## Servizi di consulenza
 
 +++**Posso completare da solo il processo di aggiornamento?**
-No. Collabora con il tuo rappresentante Adobe e con l’AGS per definire l’ambito dell’aggiornamento.
+No. Per eseguire l’aggiornamento, collabora con il tuo rappresentante Adobe e con l’AGS.
 
 +++
 
@@ -275,7 +275,7 @@ Telefono: 1-800-898-9743 (US) | +44 (0)20 35641782 (Regno Unito) | +81-3-6743-96
 +++
 
 +++**Dove posso trovare ulteriori informazioni sulle opzioni di formazione a pagamento?**
-Consulta [Adobe Digital Learning Services](https://learning.adobe.com).
+Consulta [Adobe Digital Learning Services](https://experienceleague.adobe.com/it/premium/home).
 
 Per corsi di formazione personalizzati o individuali, contatta il rappresentante del team dell’account Adobe.
 
@@ -284,6 +284,6 @@ Per corsi di formazione personalizzati o individuali, contatta il rappresentante
 ## Risorse aggiuntive
 
 +++**Ulteriori informazioni su [!DNL Dynamic Media] e sulle sue caratteristiche**
-Per ulteriori informazioni su [!DNL Dynamic Media], consulta il [[!DNL Dynamic Media] microsito](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html).
+Per ulteriori informazioni su [!DNL Dynamic Media], visitare il [[!DNL Dynamic Media] microsito](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html).
 
 +++

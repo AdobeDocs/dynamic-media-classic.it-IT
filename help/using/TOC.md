@@ -6,10 +6,10 @@ user-guide-title: Guida di Adobe Dynamic Media Classic
 breadcrumb-title: Guida di Dynamic Media Classic
 user-guide-description: Ulteriori informazioni sull’utilizzo di Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 21%
+source-wordcount: '803'
+ht-degree: 20%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 21%
 + [Guida di Adobe Dynamic Media Classic](home.md)
 + [Tutorial sulle best practice per Adobe Dynamic Media Classic](https://experienceleague.adobe.com/it/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [È ora disponibile il nuovo accesso a Adobe Dynamic Media Classic](new-ui-2020.md)
-+ [Archivio newsletter Adobe Dynamic Media di Experience League](dynamic-media-newsletter.md)
++ [Newsletter di Adobe Dynamic Media curata da Adobe Experience League](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro}
   + [App Adobe Dynamic Media Classic Desktop: ora disponibile](dynamic-media-classic-desktop-app.md)
   + [Informazioni su Adobe Dynamic Media Classic](introduction.md)
@@ -58,10 +58,10 @@ ht-degree: 21%
   + [Gestire gli account FTP](ftp-accounts.md)
   + [Specificare le opzioni di esportazione disponibili per gli utenti di Media Portal](specifying-export-options-available-media.md)
   + [Creare e abilitare i predefiniti immagine](creating-enabling-image-presets.md)
-  + [Gestire i metadati in modo efficiente](making-efficient-metadata.md)
+  + [Gestione metadati](making-efficient-metadata.md)
   + [Personalizzare la schermata Media Portal](customizing-media-portal-screen.md)
 + Caricare e pubblicare le risorse {#upload-publish}
-  + [Caricare e pubblicare risorse](about-asset-upload-publish.md)
+  + [Caricare e pubblicare le risorse](about-asset-upload-publish.md)
   + [Caricare i file](uploading-files.md)
   + [Pubblicare i file](publishing-files.md)
   + [Limitazioni di Dynamic Media](limitations.md)
@@ -108,7 +108,7 @@ ht-degree: 21%
   + [Collegare un eCatalog a una pagina Web](linking-ecatalog-web-page.md)
 + Set di immagini {#image-sets}
   + [Avvio rapido: set di immagini](quick-start-image-sets.md)
-  + [Prepara risorse set immagini per il caricamento](preparing-image-set-assets-upload.md)
+  + [Prepara il set di immagini Assets per il caricamento](preparing-image-set-assets-upload.md)
   + [Creare un set di immagini](creating-image-set.md)
   + [Includi destinazioni di zoom e mappe immagine nei set di immagini](including-zoom-targets-image-maps-image-sets.md)
   + [Gestire il contenuto del pannello informazioni nei set di immagini](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 21%
 + Set di campioni {#swatch-sets}
   + [Avvio rapido: set di campioni](quick-start-swatch-sets.md)
   + [Includi destinazioni di zoom e mappe immagine nei set di campioni](including-zoom-targets-image-maps-swatch-sets.md)
-  + [Prepara risorse set di campioni per il caricamento](preparing-swatch-set-assets-upload.md)
+  + [Prepara il set di campioni Assets per il caricamento](preparing-swatch-set-assets-upload.md)
   + [Creazione di un set di campioni](creating-swatch-set.md)
   + [Visualizza set di campioni](viewing-swatch-sets.md)
   + [Collegare un set di campioni a una pagina web](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 21%
   + [Ottieni informazioni sull&#39;utilizzo del disco](getting-disk-usage-information.md)
   + [Carica una risorsa immagine raster](uploading-image-asset-or-vector.md)
 + File primari {#master-files}
-  + [Procedure ottimali per ottimizzare la qualità delle immagini](best-practices-optimizing-quality-images.md)
+  + [Linee guida per ottimizzare la qualità delle immagini](best-practices-optimizing-quality-images.md)
   + [Modificare le immagini](editing-images.md)
   + [Creare mappe immagine](creating-image-maps.md)
   + [Ritagliare un’immagine](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 21%
   + [Opzioni di modifica dell’ottimizzazione immagine al caricamento](image-editing-options-upload.md)
   + [Utilizzare i PDF](pdfs.md)
   + [Utilizzare i file PSD](psd-files.md)
-  + [Utilizzare i file PostScript e Illustrator](postscript-illustrator-files.md)
+  + [Utilizzare i file PostScript e Adobe Illustrator](postscript-illustrator-files.md)
   + [Utilizzare vignettature, copertine di finestre e file CAB](vignette-window-covering-cabinet-files.md)
 + File di supporto {#support-files}
   + [Font](fonts.md)

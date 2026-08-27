@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
 workflow-type: tm+mt
-source-wordcount: 563
-ht-degree: 28%
+source-wordcount: 562
+ht-degree: 24%
 
 ---
 
@@ -36,15 +36,15 @@ L&#39;eliminazione di elementi dalla cartella Cestino comporta l&#39;eliminazion
 
 >[!NOTE]
 >
->Assets che sono stati spostati nella cartella Cestino sono ancora registrati su Adobe Dynamic Media Classic. Si supponga, ad esempio, di provare a caricare un file con lo stesso nome di un file eliminato nella cartella Cestino. Adobe Dynamic Media Classic tratta la risorsa da caricare come risorsa duplicata. In tal caso, al suo nome viene aggiunto un numero.
+>Assets che sono stati spostati nella cartella Cestino sono ancora registrati su Adobe Dynamic Media Classic. Si supponga, ad esempio, di provare a caricare un file con lo stesso nome di un file eliminato nella cartella Cestino. Adobe Dynamic Media Classic tratta la risorsa da caricare come risorsa duplicata. In tal caso, un numero viene aggiunto al suo nome.
 
 ## La cartella Cestino {#about-the-trash-folder}
 
 Se eliminate un elemento di una cartella, questo viene inserito nella cartella Cestino e si verifica quanto segue:
 
 * Anche se l’elemento viene rimosso dalla cartella Adobe Dynamic Media Classic, il relativo ID non può essere assegnato a un’altra risorsa finché rimane nella cartella Cestino. Se tenti di caricare una risorsa con lo stesso nome di un file nella cartella Cestino, Adobe Dynamic Media Classic aggiunge un numero al nome della risorsa.
-* L’elemento non può essere pubblicato. Anche se l’elemento era contrassegnato per la pubblicazione al momento in cui è stato eliminato, non verrà pubblicato.
-* L&#39;elemento rimane nella cartella Cestino finché non viene ripristinato, trascorrono sette giorni oppure un utente sceglie il comando **[!UICONTROL Svuota cestino]**. Trascorsi sette giorni, l’elemento viene eliminato automaticamente da un’operazione di pulizia automatica.
+* L’elemento non può essere pubblicato. Anche se l&#39;elemento è stato contrassegnato per la pubblicazione quando è stato eliminato, non viene pubblicato.
+* L&#39;elemento rimane nella cartella Cestino finché non viene ripristinato, trascorrono sette giorni oppure un utente sceglie il comando **[!UICONTROL Svuota cestino]**. Dopo sette giorni, un&#39;operazione di eliminazione automatica elimina definitivamente l&#39;elemento.
 
 ## Ripristinare le risorse dalla cartella Cestino {#restoring-assets-from-the-trash-folder}
 
@@ -60,7 +60,7 @@ Per ripristinare le risorse dalla cartella Cestino alle cartelle da cui sono sta
 
 Quando eliminate le risorse nella cartella Cestino, queste vengono eliminate definitivamente. Le risorse vengono eliminate automaticamente dalla cartella Cestino dopo sette giorni.
 
-È possibile eliminare definitivamente le risorse dalla cartella Cestino selezionando l&#39;icona **[!UICONTROL Cestino]**. Nella pagina Cartella cestino eseguire una delle operazioni seguenti:
+Puoi eliminare definitivamente le risorse dalla cartella Cestino selezionando l&#39;icona **[!UICONTROL Cestino]**. Nella pagina Cartella cestino eseguire una delle operazioni seguenti:
 
 * **Eliminazione di singole risorse**: è possibile eliminare definitivamente le risorse. Seleziona le risorse desiderate, quindi fai clic su **[!UICONTROL File]** > **[!UICONTROL Svuota dal cestino]**.
 
