@@ -12,16 +12,11 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2124
 ht-degree: 0%
@@ -38,7 +33,7 @@ Questa nuova app è ora disponibile per Windows® e macOS.
 >
 >Adobe consiglia di installare la nuova app desktop Adobe Dynamic Media Classic entro il 1° ottobre 2020. Questo ti assicura un periodo di transizione prima che Adobe Flash Player venga dichiarato obsoleto il 31 dicembre 2020. Dopo tale data, non è possibile accedere alla versione del browser dell’interfaccia utente di Adobe Dynamic Media Classic, etichettata come Adobe Dynamic Media Classic nel prodotto.
 
-Domande frequenti sull&#39;accesso a [New Adobe Dynamic Media Classic ora disponibile.](/help/using/new-ui-2020.md)
+Domande frequenti sull&#39;accesso a [New Adobe Dynamic Media Classic disponibile](/help/using/new-ui-2020.md).
 
 ## Requisiti di sistema per l’app desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -128,8 +123,8 @@ Vedi anche:
 -->
 
 <!--
-    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg).
+    * [Windows (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe). 
 -->
 
 
@@ -250,7 +245,7 @@ Per scaricare e *installare silenziosamente* la versione più recente dell&#39;a
 
 ## Video introduttivo sull’utilizzo dell’app desktop Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Guarda un video di [introduzione sull&#39;utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durata: 2 minuti e 36 secondi).
+Guarda un video di [introduzione sull&#39;utilizzo di Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (durata: 2 minuti e 36 secondi).
 
 ## Cancellazione della cache delle immagini e delle risorse dal computer tramite l’app desktop {#clear-cache}
 

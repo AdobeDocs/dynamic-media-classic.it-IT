@@ -1,5 +1,5 @@
 ---
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Il metodo scelto dipende dal grado di familiarità con le procedure di modifica 
 
 >[!NOTE]
 >
->I contributi inviati sono soggetti alle [condizioni per l&#39;utilizzo di Adobe.](https://www.adobe.com/legal/terms.html)
+>I contributi inviati sono soggetti alle [condizioni per l&#39;utilizzo di Adobe](https://www.adobe.com/legal/terms.html).
 
 ### Segnalare un problema {#create-an-issue}
 
