@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 53821984bf36bb648ed236d3c547a390cd7de836
 workflow-type: tm+mt
-source-wordcount: 275
-ht-degree: 0%
+source-wordcount: 273
+ht-degree: 2%
 
 ---
 
@@ -37,6 +37,6 @@ Prepara i file immagine principali prima di caricarli in Adobe Dynamic Media Cla
 
 * **Dimensioni immagine**: crea le immagini con le dimensioni maggiori previste. Le dimensioni tipiche delle immagini sono comprese tra 1500 e 2500 pixel nelle dimensioni più lunghe. Per utilizzare la funzione Zoom, Adobe Dynamic Media Classic consiglia di utilizzare immagini con una lunghezza di almeno 2000 pixel per ottenere un dettaglio di zoom ottimale. Adobe Dynamic Media Classic è in grado di eseguire il rendering di immagini fino a 25 megapixel ciascuna. Ad esempio, è possibile utilizzare un&#39;immagine da 5000 × 5000 MP o qualsiasi altra combinazione di dimensioni fino a 25 MP.
 
-* **Formati di file**: Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard. Questi formati includono TIFF, BMP, JPEG, PSD, GIF e EPS. Formati di immagini senza perdita di dati: si consigliano TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
+* **Formati di file**: Adobe Dynamic Media Classic supporta tutti i formati di file immagine standard. Questi formati includono TIFF, BMP, JPEG, PSD, GIF e EPS. Si consiglia di usare i formati immagine senza perdita di dati, ossia TIFF e PNG. Se utilizzi un’immagine JPEG, utilizza le impostazioni di qualità più elevata.
 
-* **Spazio colore**: RGB è lo spazio colore per le presentazioni di immagini Web; le immagini CMYK comunemente utilizzate per la stampa vengono automaticamente convertite in RGB quando vengono caricate. Si consiglia di caricare immagini CMYK con un profilo colore ICC (International Color Consortium) incorporato per la conversione in RGB. Vedi anche [profili ICC (International Color Consortium)](/help/using/icc-profiles.md).
+* **Spazio colore**: RGB è lo spazio colore per le presentazioni di immagini Web. Le immagini CMYK comunemente utilizzate per la stampa vengono convertite in RGB al momento del caricamento. Si consiglia di caricare immagini CMYK con un profilo colore ICC (International Color Consortium) incorporato per la conversione in RGB. Vedi anche [profili ICC (International Color Consortium)](/help/using/icc-profiles.md).

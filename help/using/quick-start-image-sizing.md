@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 6%
@@ -33,7 +33,7 @@ Il dimensionamento dell&#39;immagine si riferisce alla capacità di Adobe Dynami
 * Puoi modificare rapidamente le dimensioni di un’immagine in tutto il sito web o nell’applicazione. Ad esempio, per modificare tutte le miniature, puoi modificare il predefinito immagine &quot;miniatura&quot;. Un predefinito immagine è una raccolta di attributi di dimensione e formattazione. Per modificare le dimensioni di tutte le miniature in tutto il sito Web o l&#39;applicazione, potete modificare il predefinito immagine &quot;miniatura&quot;.
 * Non è necessario gestire i file primari o tutti i vari derivati in nessuno dei sistemi di gestione dei contenuti o delle risorse.
 
-![È possibile creare più immagini derivate con dimensioni diverse dallo stesso file primario ad alta risoluzione.](/help/using/assets/is_derivative_sizes_popup.png)
+![È possibile creare più immagini derivate con dimensioni diverse dallo stesso file primario ad alta risoluzione](/help/using/assets/is_derivative_sizes_popup.png).
 
 Vedere [Dimensioni immagine: video di formazione di Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS).
 

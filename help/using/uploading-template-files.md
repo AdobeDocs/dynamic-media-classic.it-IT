@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 32%
+source-wordcount: 244
+ht-degree: 12%
 
 ---
 
@@ -32,11 +32,11 @@ Carica i file necessari per il modello in Adobe Dynamic Media Classic prima di i
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic consiglia di utilizzare immagini TIFF o PSD trasparenti nei modelli nelle dimensioni esatte che si desidera visualizzare nel sito Web. Quando pubblicate il modello, richiamate l’immagine mediante un predefinito per immagini che abbia anch’esso le stesse dimensioni. È importante prestare attenzione alle dimensioni per evitare che il modello venga ridimensionato (ricampionato) in dimensioni maggiore o inferiori rispetto alle dimensioni originali.
+>Adobe Dynamic Media Classic consiglia di utilizzare nei modelli immagini TIFF o PSD trasparenti nelle dimensioni esatte che si desidera visualizzare sul sito Web. Quando pubblichi il modello, chiama l’immagine con un predefinito immagine della stessa dimensione. Presta attenzione alle dimensioni per evitare che il modello venga ridimensionato (ricampionato) a dimensioni maggiori o inferiori a quelle in cui è stato progettato.
 
 È possibile creare modelli da file PSD di Adobe Photoshop o file immagine.
 
-Per istruzioni dettagliate sul caricamento dei file, vedere [Carica file](uploading-files.md#uploading_files). Tenete in mente quanto segue per il caricamento dei file modello:
+Per istruzioni dettagliate sul caricamento dei file, vedere [Carica file](uploading-files.md#uploading_files). Quando si caricano i file modello, considera quanto segue:
 
 * Se carichi un file PSD, puoi crearne uno nuovo. Adobe Dynamic Media Classic crea un&#39;immagine separata per ogni livello del PSD. Nella finestra di dialogo Opzioni processo di caricamento selezionare **[!UICONTROL Opzioni Photoshop]**, quindi selezionare **[!UICONTROL Gestisci livelli]** e **[!UICONTROL Crea modello]**. Quindi scegli un&#39;opzione dall&#39;elenco a discesa **[!UICONTROL Denominazione livelli]** per denominare le immagini create da Adobe Dynamic Media Classic dai livelli in PSD.
 Consultate [Opzioni di caricamento PSD](psd-files.md#psd_upload_options).

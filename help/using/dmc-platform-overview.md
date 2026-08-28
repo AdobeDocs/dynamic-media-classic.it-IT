@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: 515
 ht-degree: 13%
 
 ---
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic è diverso da altri sistemi perché puoi utilizzare 
 
 Le stringhe URL generate con Adobe Dynamic Media Classic includono istruzioni che indicano al server come visualizzare la risorsa quando viene distribuita. Ad esempio, la stessa immagine principale può essere distribuita in diverse dimensioni, formati, pesi, colori o visualizzazioni. Come parte della creazione e pubblicazione di risorse multimediali con Adobe Dynamic Media Classic, puoi configurare visivamente gli effetti. In questo modo, puoi creare le chiamate URL che indicano correttamente al server come presentare la risorsa principale alle applicazioni.
 
-![Adobe Dynamic Media Classic è in grado di fornire la stessa immagine primaria a supporti diversi in formati e dimensioni diversi.](/help/using/assets/gs_dynamic_publishing.png)
+![Adobe Dynamic Media Classic è in grado di fornire la stessa immagine primaria a supporti diversi in formati e dimensioni differenti](/help/using/assets/gs_dynamic_publishing.png).
 *Adobe Dynamic Media Classic garantisce che esperienze coerenti e di qualità vengano distribuite a qualsiasi schermo, indipendentemente dalle dimensioni o dalla larghezza di banda.*
 
 ## Memorizzazione dei contenuti nella cache {#content-caching}

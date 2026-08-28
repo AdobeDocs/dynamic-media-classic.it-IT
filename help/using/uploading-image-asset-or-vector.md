@@ -1,5 +1,5 @@
 ---
-title: Carica una risorsa immagine raster
+title: Caricare una risorsa di immagine raster
 description: Scopri come caricare un’immagine raster in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,20 +19,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 50%
+source-wordcount: 1052
+ht-degree: 45%
 
 ---
 
 # Carica una risorsa immagine raster {#uploading-an-image-asset-or-a-vector-asset}
 
-Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento Quindi utilizzi il token di caricamento per caricare le risorse di immagini raster.
+Prima di caricare una risorsa immagine, devi richiedere una chiave segreta condivisa. Usate questa chiave segreta condivisa per ottenere un token di caricamento Quindi utilizzi il token di caricamento per caricare le risorse di immagini raster.
 
 >[!IMPORTANT]
 >
->A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media saranno disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse verranno rimosse.
+>A partire dal 1° maggio 2023, le risorse UGC in Dynamic Media sono disponibili per l’uso fino a 60 giorni dalla data di caricamento. Dopo 60 giorni, le risorse vengono rimosse.
 
 >[!NOTE]
 >
@@ -40,13 +40,13 @@ Prima di poter caricare una risorsa immagine o vettoriale, richiedete una chiave
 
 ## Richiedi una chiave con segreto condiviso {#requesting-a-shared-secret-key}
 
-Richiedi una *chiave con segreto condiviso* da [tramite Admin Console per creare un caso di supporto.](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) Nel caso del supporto tecnico, richiedi una chiave condivisa-segreta.
+Richiedi una *chiave con segreto condiviso* da [tramite Admin Console per creare un caso di supporto](https://helpx.adobe.com/it/business/enterprise.html). Nel caso del supporto tecnico, richiedi una chiave condivisa-segreta.
 
 Nel messaggio e-mail, fornite il nome della società che desiderate usare per caricare le risorse immagine. Dopo aver ricevuto la chiave da Adobe Dynamic Media Classic, salvarla localmente per utilizzarla in futuro.
 
 ## Recuperare il token di caricamento {#retrieving-the-upload-token}
 
-L’utilizzo di un *token di caricamento* fa sì che nessuno debba usare la chiave segreta condivisa per caricare le risorse. Garantisce inoltre la legittimità del caricamento e la provenienza da una fonte affidabile.
+Il *token di caricamento* garantisce che la stessa chiave di segreto condiviso non possa essere utilizzata per caricare le risorse. Garantisce inoltre la legittimità del caricamento e la provenienza da una fonte affidabile.
 
 Il token di caricamento è una stringa alfanumerica disponibile solo per un periodo di tempo limitato. Utilizza i seguenti URL, sostituendo la chiave con segreto condiviso, in modo da poter recuperare il token di caricamento.
 
@@ -148,7 +148,7 @@ Il seguente modulo HTML consente a un utente di caricare una risorsa. Il modulo 
 * Un limite di dimensione file.
 * Un elenco di estensioni del nome file.
 * Specifica se mantenere il profilo colore e il nome file associati alla risorsa.
-* Specifica se utilizzare uno sfondo di foratura. Se attivate Sfondo foratura (Knockout Background), impostate i metodi Angolo (Corner), Tolleranza (Tolerance) e Riempimento (Fill).
+* Specifica se utilizzare uno sfondo di foratura. Se attivate Sfondo foratura (Knockout Background), configurate i metodi Angolo (Corner), Tolleranza (Tolerance) e Riempimento (Fill).
 Consulta Sfondo foratura in [Opzioni di ottimizzazione immagine al caricamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nome del file da caricare.
 
@@ -156,7 +156,7 @@ Puoi visualizzare il codice sorgente HTML associato al modulo precedente selezio
 
 In Firefox, fare clic con il pulsante destro del mouse nella finestra del browser, quindi selezionare **[!UICONTROL Visualizza pagina Source]**. Il codice mostra la stringa di query URL corrispondente e il metodo POST eseguito quando l&#39;utente seleziona **[!UICONTROL Invia]**.
 
-Per visualizzare la risposta XML in Internet Explorer, passa a **[!UICONTROL Visualizza]** > **[!UICONTROL Source]**. Per visualizzare la risposta XML in Firefox, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti sviluppatore Web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
+Per visualizzare la risposta XML in un browser, passa a **[!UICONTROL Visualizza]** > **[!UICONTROL Source]**. Per visualizzare la risposta XML in Firefox, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Strumenti browser]** > **[!UICONTROL Strumenti sviluppatore Web]**. Per la visualizzazione delle risposte XML si consiglia Firefox.
 
 Segue un esempio di risposta a seguito di un caricamento riuscito:
 
@@ -184,13 +184,13 @@ Segue un esempio di risposta a seguito di un caricamento riuscito:
 >
 >la risorsa caricata (JPG, GIF è così via) viene convertita in formato PTIFF e la risposta invia un collegamento diretto a tale risorsa PTIFF.
 
-La risorsa è come qualsiasi altra risorsa Image Server ed è possibile applicarvi delle query di elaborazione. Ad esempio, l’URL seguente richiede una risorsa che sia estesa alla larghezza e all’altezza specificate.
+La risorsa è una risorsa Image Server a cui è possibile applicare query di elaborazione. Ad esempio, con l’URL seguente viene richiesto di ingrandire la risorsa in base alla larghezza e all’altezza specificate.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-Inviate la risorsa come POST multiparte o modulo mentre inviate gli altri valori come una stringa query URL. Nella stringa query URL potete usare i seguenti campi per caricare una risorsa:
+Per caricare la risorsa, inviala come post multipart/modulo mentre invii il resto dei valori come stringa di query URL. Nella stringa query URL potete usare i seguenti campi per caricare una risorsa:
 
 | Parametro URL | Obbligatorio o facoltativo | Valore |
 | --- | --- | --- |
