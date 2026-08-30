@@ -1,5 +1,5 @@
 ---
-title: Utilizzare vignettature, copertine di finestre e file CAB
+title: Utilizzare le vignette, le finestre e i file di scaffale
 description: Scopri come utilizzare le vignettature, le copertine per finestre e i file CAB in Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 150b1171b439f7e05ffd3af4450dcc30cf89536a
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 1%
+source-wordcount: 145
+ht-degree: 6%
 
 ---
 
 # Utilizzare vignettatura, copertina di finestre e file CAB{#working-with-vignette-window-covering-and-cabinet-files}
 
-Gli utenti dello strumento di creazione immagini di Adobe Dynamic Media Classic possono *utilizzare* vignettature (file VNT), copertine per finestre (file VNW) e archivi (file VNC). Questi file non possono essere creati o modificati in Adobe Dynamic Media Classic.
+Gli utenti dello strumento di creazione delle immagini di Adobe Dynamic Media Classic possono accedere a vignettature (file VNT), copertine per finestre (file VNW) e archivi (file VNC). Questi file non possono essere creati o modificati in Adobe Dynamic Media Classic.
 
-Le vignette, le copertine per finestre e gli armadi sono immagini create. Utilizzando un diverso programma di Adobe Dynamic Media Classic, denominato Image Authoring, potete mascherare gli oggetti di un&#39;immagine in modo che gli utenti possano vedere la stessa immagine in diverse texture o colori. Ad esempio, gli utenti vedono un divano imbottito con vari tessuti, una finestra decorata con vari trattamenti per finestre o un armadio rifinito con diversi tipi di legno.
+Vignettature, rifiniture finestre e scaffali sono immagini di authoring. Utilizzando un diverso programma di Adobe Dynamic Media Classic, denominato Image Authoring, potete mascherare gli oggetti di un&#39;immagine in modo che gli utenti possano vedere la stessa immagine in diverse texture o colori. Ad esempio, gli utenti vedono un divano imbottito con vari tessuti, una finestra decorata con vari trattamenti per finestre o un armadio rifinito con diversi tipi di legno.
 
-Caricare vignettature, copertine per finestre e archivi come si farebbe con qualsiasi altro file.
+Caricare vignettature, copertine per finestre e archivi nello stesso modo degli altri file.
 
 >[!MORELIKETHIS]
 >

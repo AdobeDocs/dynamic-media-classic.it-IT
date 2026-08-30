@@ -18,22 +18,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 94d13170028e09a5ed61cb236e17c379f234f4c3
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 15%
+source-wordcount: 462
+ht-degree: 7%
 
 ---
 
 # Visualizza set di campioni{#viewing-swatch-sets}
 
-Potete visualizzare i set di campioni nella finestra Anteprima tramite i predefiniti disponibili. È possibile utilizzare un Visualizzatore zoom: Predefinito visualizzatore personalizzato per set di campioni.
+Potete visualizzare i set di campioni nella finestra Anteprima tramite i predefiniti disponibili. Per i set di campioni potete utilizzare un predefinito visualizzatore personalizzato visualizzatore zoom.
 
 Adobe Dynamic Media Classic viene fornito con predefiniti visualizzatore predefiniti. Gli amministratori possono creare e modificare i predefiniti per i visualizzatori.
 
 ## Impostare i predefiniti visualizzatore zoom per i set di campioni {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-Potete creare e personalizzare i predefiniti per visualizzatori in base alle vostre esigenze.
+Puoi creare e personalizzare i predefiniti per visualizzatori.
 
 1. Sulla barra di navigazione globale, vai a **[!UICONTROL Configurazione]** > **[!UICONTROL Predefiniti visualizzatore]**.
 1. Effettuate una delle seguenti operazioni:
@@ -55,7 +55,7 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 È possibile utilizzare Anteprima per visualizzare come appare una risorsa in un particolare tipo di visualizzatore, ad esempio HTML5. A seconda del tipo di risorsa e del visualizzatore associato che hai selezionato per l’anteprima, non tutte le piattaforme di tipo visualizzatore sono disponibili in Anteprima.
 
 1. Nel pannello Libreria risorse a sinistra, nell&#39;elenco a discesa **[!UICONTROL Mostra]**, seleziona un tipo di risorsa basato su set di campioni, ad esempio **[!UICONTROL Set di campioni]**.
-1. Nel pannello Libreria risorse a sinistra, individuate la cartella di risorse contenente il set di campioni da visualizzare in anteprima con un visualizzatore.
+1. Nel pannello Libreria risorse, a sinistra, individua le cartelle di risorse che contengono i set di campioni da visualizzare in anteprima con un visualizzatore.
 1. Effettuate una delle seguenti operazioni:
 
    * Nell&#39;angolo superiore destro della finestra di Adobe Dynamic Media Classic selezionare l&#39;icona **[!UICONTROL Vista elenco]**. Nella finestra della risorsa, passa il puntatore del mouse su una risorsa, quindi seleziona **[!UICONTROL Anteprima]** (non nell&#39;elenco a discesa Anteprima).
@@ -67,7 +67,7 @@ Potete creare e personalizzare i predefiniti per visualizzatori in base alle vos
 
    Quando selezioni un determinato collegamento visualizzatore, il relativo URL associato viene automaticamente copiato negli Appunti.
 
-1. Per tornare al pager Anteprima, chiudere il visualizzatore visualizzato.
+1. Per tornare alla finestra Anteprima, chiudere il visualizzatore visualizzato.
 1. Seleziona **[!UICONTROL Chiudi]** per tornare alla pagina Assets.
 
 >[!MORELIKETHIS]
