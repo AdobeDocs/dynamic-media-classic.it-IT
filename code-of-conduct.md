@@ -1,15 +1,14 @@
 ---
 source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '457'
 ht-degree: 0%
-
 ---
 # Codice di condotta di Adobe
 
-## Adobe in garanzia
+## Impegno di Adobe
 
-Allo scopo di promuovere un ambiente aperto e accogliente, i collaboratori e i maintainer si impegnano a rendere la partecipazione al progetto e alla community di Adobe un’esperienza priva di molestie per tutti. Questo comportamento è vero, indipendentemente dalle seguenti condizioni:
+Allo scopo di promuovere un ambiente aperto e accogliente, i collaboratori e i responsabili si impegnano a rendere la partecipazione al progetto e alla community di Adobe un’esperienza priva di molestie per tutti. Questo comportamento è vero, indipendentemente dalle seguenti condizioni:
 
 * età
 * dimensioni del corpo
@@ -23,7 +22,7 @@ Allo scopo di promuovere un ambiente aperto e accogliente, i collaboratori e i m
 * religione
 * identità e orientamento sessuale
 
-## Standard Adobe
+## Standard di Adobe
 
 Di seguito sono riportati alcuni esempi di comportamenti che contribuiscono alla creazione di un ambiente positivo:
 
@@ -41,7 +40,7 @@ Alcuni esempi di comportamenti non accettabili da parte dei partecipanti:
 * Pubblicazione di informazioni private di altri utenti, ad esempio un indirizzo fisico o elettronico, senza autorizzazione esplicita
 * Altri comportamenti che potrebbero essere ragionevolmente considerati inopportuni in un contesto professionale
 
-## Responsabilità dell&#39;Adobe
+## Responsabilità di Adobe
 
 I responsabili del progetto hanno la responsabilità di chiarire gli standard di comportamento accettabile e di adottare azioni correttive appropriate ed eque in risposta a qualsiasi caso di comportamento inaccettabile.
 
@@ -65,4 +64,4 @@ I gestori dei progetti che non seguono o non applicano il Codice di condotta in 
 
 ## Attribuzione
 
-Il presente Codice di condotta è adattato dal [Convenzione collaboratore](https://www.contributor-covenant.org/), versione 1.4, disponibile all’indirizzo [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
+Questo Codice di condotta è stato adattato dal [Contributor Covenant](https://www.contributor-covenant.org/), versione 1.4, disponibile all&#39;indirizzo [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
